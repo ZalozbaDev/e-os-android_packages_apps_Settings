@@ -22,6 +22,10 @@ import com.android.settings.applications.AppOpsSummary;
 import com.android.settings.enterprise.EnterprisePrivacySettings;
 import com.android.settings.fingerprint.FingerprintEnrollIntroduction;
 import com.android.settings.password.ChooseLockGeneric;
+import com.android.settings.fingerprint.FingerprintSettings;
+import android.content.Intent;
+import android.content.ComponentName;
+import android.os.Bundle;
 
 /**
  * Top-level Settings activity
@@ -191,5 +195,15 @@ public class Settings extends SettingsActivity {
     public static class UserAndAccountDashboardActivity extends SettingsActivity {}
     public static class SystemDashboardActivity extends SettingsActivity {}
     public static class MicroGActivity extends SettingsActivity { /* empty */ }
+        public static class MicroGActivity extends SettingsActivity {
+            @Override
+            protected void onCreate(Bundle savedState) {
+                super.onCreate(savedState);
+
+                Intent intent = new Intent("android.intent.action.MAIN");
+                intent.setComponent(new ComponentName("com.google.android.gms", "org.microg.gms.ui.SettingsActivity"));
+                startActivity(intent);
+            }
+        }
 
 }
