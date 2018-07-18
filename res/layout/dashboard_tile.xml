@@ -14,7 +14,7 @@
      limitations under the License.
 -->
 
-<LinearLayout
+<RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/dashboard_tile"
     android:layout_width="match_parent"
@@ -29,6 +29,7 @@
         android:id="@android:id/icon"
         android:layout_width="@dimen/dashboard_tile_image_size"
         android:layout_height="@dimen/dashboard_tile_image_size"
+        android:layout_alignParentStart="true"
         android:scaleType="centerInside"
         android:layout_marginStart="@dimen/dashboard_tile_image_margin_start"
         android:layout_marginEnd="@dimen/dashboard_tile_image_margin_end" />
@@ -36,7 +37,9 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:layout_toRightOf="@android:id/icon"
+        android:layout_toLeftOf="@+id/chevron_right">
 
         <TextView android:id="@android:id/title"
             android:layout_width="wrap_content"
@@ -57,4 +60,14 @@
 
     </LinearLayout>
 
-</LinearLayout>
+    <ImageView
+        android:id="@+id/chevron_right"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="@dimen/dashboard_tile_image_margin_start"
+        android:layout_marginEnd="@dimen/dashboard_tile_image_margin_start"
+        android:src="@drawable/ic_chevron_right"
+        android:scaleType="centerInside"/>
+
+</RelativeLayout>
