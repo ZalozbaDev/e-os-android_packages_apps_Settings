@@ -115,7 +115,7 @@ public class DashboardAdapter extends RecyclerView.Adapter<DashboardAdapter.Dash
         mCategories = categories;
 
         // TODO: Better place for tinting?
-        TypedValue tintColor = new TypedValue();
+        /*TypedValue tintColor = new TypedValue();
         mContext.getTheme().resolveAttribute(com.android.internal.R.attr.colorAccent,
                 tintColor, true);
         for (int i = 0; i < categories.size(); i++) {
@@ -129,7 +129,7 @@ public class DashboardAdapter extends RecyclerView.Adapter<DashboardAdapter.Dash
                     tile.icon.setTint(tintColor.data);
                 }
             }
-        }
+        }*/
         recountItems();
     }
 
