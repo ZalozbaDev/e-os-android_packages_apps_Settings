@@ -63,12 +63,12 @@
 
     <ImageView
         android:id="@+id/chevron_right"
-        android:layout_width="24dp"
-        android:layout_height="24dp"
-	android:layout_centerVertical="true"
+        android:layout_width="@dimen/dashboard_tile_chevron_size"
+        android:layout_height="@dimen/dashboard_tile_chevron_size"
+		android:layout_centerVertical="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginStart="@dimen/dashboard_tile_image_margin_start"
-        android:layout_marginEnd="@dimen/dashboard_tile_image_margin_start"
+        android:layout_marginStart="@dimen/dashboard_tile_chevron_margin_start"
+        android:layout_marginEnd="@dimen/dashboard_tile_chevron_margin_end"
         android:src="@drawable/ic_chevron_right"
         android:scaleType="centerInside"/>
 
