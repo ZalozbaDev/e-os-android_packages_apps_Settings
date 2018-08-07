@@ -20,6 +20,7 @@ import android.os.Bundle;
 import android.content.Intent;
 import android.content.ComponentName;
 import android.app.Fragment;
+import android.app.Activity;
 
 public class MicroGSettings extends Fragment {
 
@@ -30,5 +31,11 @@ public class MicroGSettings extends Fragment {
         Intent intent = new Intent("android.intent.action.MAIN");
         intent.setComponent(new ComponentName("com.google.android.gms", "org.microg.gms.ui.SettingsActivity"));
         startActivity(intent);
+
+        Activity activity = getActivity();
+
+        if (activity != null) {
+          activity.finish();
+        }
     }
 }
