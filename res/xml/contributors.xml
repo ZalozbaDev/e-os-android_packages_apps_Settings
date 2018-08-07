@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/contributors_title">
+
+    <!-- LineageOS Contributors (cloud) -->
+    <org.cyanogenmod.internal.cmparts.CMPartsPreference
+            android:key="contributors"
+            android:title="lineageos_contributors_title" />
+
+    <!-- /e/ Contributors (web) -->
+    <PreferenceScreen
+        android:key="e_contributors"
+        android:title="@string/e_contributors_title" />
+
+</PreferenceScreen>
