@@ -47,7 +47,9 @@ public class LegalSettings extends SettingsPreferenceFragment implements Indexab
     private static final String KEY_COPYRIGHT = "copyright";
     private static final String KEY_WEBVIEW_LICENSE = "webview_license";
     private static final String PROPERTY_CMLICENSE_URL = "ro.cmlegal.url";
+    private static final String PROPERTY_ELICENSE_URL = "ro.elegal.url";
     private static final String KEY_CM_LICENSE = "cmlicense";
+    private static final String KEY_E_LICENSE = "elicense";
 
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
@@ -68,11 +70,23 @@ public class LegalSettings extends SettingsPreferenceFragment implements Indexab
 
     @Override
     public boolean onPreferenceTreeClick(Preference preference) {
-        if (preference.getKey().equals(KEY_CM_LICENSE)) {
-            String userCMLicenseUrl = SystemProperties.get(PROPERTY_CMLICENSE_URL);
+
+        boolean clickOnELicense = preference.getKey().equals(KEY_E_LICENSE);
+        boolean clickOnCMLicense = preference.getKey().equals(KEY_CM_LICENSE);
+
+        if (clickOnELicense || clickOnCMLicense) {
+
+            String userLicenseUrl = "";
+
+            if (clickOnELicense) {
+                userLicenseUrl = SystemProperties.get(PROPERTY_ELICENSE_URL);
+            } else if (clickOnCMLicense) {
+                userLicenseUrl = SystemProperties.get(PROPERTY_CMLICENSE_URL);
+            }
+
             final Intent intent = new Intent(Intent.ACTION_VIEW);
             intent.addCategory(Intent.CATEGORY_DEFAULT);
-            intent.setData(Uri.parse(userCMLicenseUrl));
+            intent.setData(Uri.parse(userLicenseUrl));
             try {
                 startActivity(intent);
             } catch (Exception e) {

@@ -36,6 +36,11 @@
         <intent android:action="android.settings.LICENSE" />
     </PreferenceScreen>
 
+    <!-- eFoundation License information -->
+    <PreferenceScreen
+        android:key="elicense"
+        android:title="@string/elicense_title" />
+
     <!-- CM License information -->
     <PreferenceScreen
         android:key="cmlicense"
@@ -56,4 +61,3 @@
     </PreferenceScreen>
 
 </PreferenceScreen>
-
