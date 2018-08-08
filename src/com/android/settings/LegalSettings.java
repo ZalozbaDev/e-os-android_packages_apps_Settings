@@ -50,7 +50,9 @@ public class LegalSettings extends SettingsPreferenceFragment implements Indexab
     private static final String KEY_WALLPAPER_ATTRIBUTIONS = "wallpaper_attributions";
 */
     private static final String PROPERTY_LINEAGELICENSE_URL = "ro.lineagelegal.url";
+    private static final String PROPERTY_ELICENSE_URL = "ro.elegal.url";
     private static final String KEY_LINEAGE_LICENSE = "lineagelicense";
+    private static final String KEY_E_LICENSE = "elicense";
 
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
@@ -71,11 +73,23 @@ public class LegalSettings extends SettingsPreferenceFragment implements Indexab
 
     @Override
     public boolean onPreferenceTreeClick(Preference preference) {
-        if (preference.getKey().equals(KEY_LINEAGE_LICENSE)) {
-            String userLineageLicenseUrl = SystemProperties.get(PROPERTY_LINEAGELICENSE_URL);
+
+        boolean clickOnELicense = preference.getKey().equals(KEY_E_LICENSE);
+        boolean clickOnLineageLicense = preference.getKey().equals(KEY_LINEAGE_LICENSE);
+
+        if (clickOnELicense || clickOnLineageLicense) {
+
+            String userLicenseUrl = "";
+
+            if (clickOnELicense) {
+                userLicenseUrl = SystemProperties.get(PROPERTY_ELICENSE_URL);
+            } else if (clickOnLineageLicense) {
+                userLicenseUrl = SystemProperties.get(PROPERTY_LINEAGELICENSE_URL);
+            }
+
             final Intent intent = new Intent(Intent.ACTION_VIEW);
             intent.addCategory(Intent.CATEGORY_DEFAULT);
-            intent.setData(Uri.parse(userLineageLicenseUrl));
+            intent.setData(Uri.parse(userLicenseUrl));
             try {
                 startActivity(intent);
             } catch (Exception e) {

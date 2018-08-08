@@ -37,6 +37,12 @@
         <intent android:action="android.settings.LICENSE"/>
     </Preference>
 
+
+    <!-- eFoundation License information -->
+    <PreferenceScreen
+        android:key="elicense"
+        android:title="@string/elicense_title" />
+        
     <!-- Lineage License information -->
     <PreferenceScreen
         android:key="lineagelicense"
@@ -65,4 +71,3 @@
 -->
 
 </PreferenceScreen>
-
