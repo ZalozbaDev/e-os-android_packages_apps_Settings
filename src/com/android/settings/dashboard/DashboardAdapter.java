@@ -152,7 +152,6 @@ public class DashboardAdapter extends RecyclerView.Adapter<DashboardAdapter.Dash
 
     public void setCategoriesAndSuggestions(DashboardCategory category,
             List<Tile> suggestions) {
-        tintIcons(category, suggestions);
 
         final DashboardData prevData = mDashboardData;
         mDashboardData = new DashboardData.Builder(prevData)
