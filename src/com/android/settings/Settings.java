@@ -195,15 +195,5 @@ public class Settings extends SettingsActivity {
     public static class UserAndAccountDashboardActivity extends SettingsActivity {}
     public static class SystemDashboardActivity extends SettingsActivity {}
     public static class MicroGActivity extends SettingsActivity { /* empty */ }
-        public static class MicroGActivity extends SettingsActivity {
-            @Override
-            protected void onCreate(Bundle savedState) {
-                super.onCreate(savedState);
-
-                Intent intent = new Intent("android.intent.action.MAIN");
-                intent.setComponent(new ComponentName("com.google.android.gms", "org.microg.gms.ui.SettingsActivity"));
-                startActivity(intent);
-            }
-        }
 
 }
