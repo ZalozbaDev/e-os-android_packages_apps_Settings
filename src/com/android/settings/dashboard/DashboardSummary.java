@@ -198,6 +198,7 @@ public class DashboardSummary extends InstrumentedFragment
         mAdapter = new DashboardAdapter(getContext(), bundle, mConditionManager.getConditions(),
             mSuggestionParser, this /* SuggestionDismissController.Callback */);
         mDashboard.setAdapter(mAdapter);
+        mDashboard.addItemDecoration(new DashboardDecorator(getContext()));
         mDashboard.setItemAnimator(new DashboardItemAnimator());
         mSummaryLoader.setSummaryConsumer(mAdapter);
         ActionBarShadowController.attachToRecyclerView(

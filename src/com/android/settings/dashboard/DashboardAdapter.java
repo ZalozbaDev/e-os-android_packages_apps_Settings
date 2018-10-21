@@ -485,7 +485,7 @@ public class DashboardAdapter extends RecyclerView.Adapter<DashboardAdapter.Dash
             return;
         }
         // TODO: Better place for tinting?
-        final TypedArray a = mContext.obtainStyledAttributes(new int[]{
+        /*final TypedArray a = mContext.obtainStyledAttributes(new int[]{
                 android.R.attr.colorControlNormal});
         final int tintColor = a.getColor(0, mContext.getColor(R.color.fallback_tintColor));
         a.recycle();
@@ -503,7 +503,7 @@ public class DashboardAdapter extends RecyclerView.Adapter<DashboardAdapter.Dash
                     suggestion.icon.setTint(tintColor);
                 }
             }
-        }
+        }*/
     }
 
     void onSaveInstanceState(Bundle outState) {
