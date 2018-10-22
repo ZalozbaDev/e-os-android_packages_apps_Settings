@@ -270,6 +270,7 @@ public class SettingsGateway {
             Settings.UserAndAccountDashboardActivity.class.getName(),
             Settings.SecuritySettingsActivity.class.getName(),
             Settings.AccessibilitySettingsActivity.class.getName(),
+            Settings.MicroGActivity.class.getName(),
             Settings.SystemDashboardActivity.class.getName(),
             SupportDashboardActivity.class.getName(),
             // Home page > Network & Internet
