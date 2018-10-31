@@ -18,6 +18,7 @@ package com.android.settings.notification;
 
 import android.content.Context;
 import android.media.AudioManager;
+import com.android.settings.R;
 import com.android.settings.notification.VolumeSeekBarPreference.Callback;
 import com.android.settingslib.core.lifecycle.Lifecycle;
 
@@ -47,7 +48,7 @@ public class MediaVolumePreferenceController extends
 
     @Override
     public int getMuteIcon() {
-        return com.android.internal.R.drawable.ic_audio_media_mute;
+        return R.drawable.ic_audio_media_mute;
     }
 
 }

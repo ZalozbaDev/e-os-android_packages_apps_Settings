@@ -100,7 +100,7 @@ public class RingVolumePreferenceController extends VolumeSeekBarPreferenceContr
 
     @Override
     public int getMuteIcon() {
-        return com.android.internal.R.drawable.ic_audio_ring_notif_mute;
+        return R.drawable.ic_audio_ring_notif_mute;
     }
 
     private void updateRingerMode() {
@@ -129,9 +129,9 @@ public class RingVolumePreferenceController extends VolumeSeekBarPreferenceContr
     public void updatePreferenceIcon() {
         if (mPreference != null) {
             mPreference.showIcon(mSuppressor != null
-                ? com.android.internal.R.drawable.ic_audio_ring_notif_mute
+                ? R.drawable.ic_audio_ring_notif_mute
                 : mRingerMode == AudioManager.RINGER_MODE_VIBRATE || wasRingerModeVibrate()
-                    ? com.android.internal.R.drawable.ic_audio_ring_notif_vibrate
+                    ? R.drawable.ic_audio_ring_notif_vibrate
                     : R.drawable.ic_audio_ring);
         }
     }

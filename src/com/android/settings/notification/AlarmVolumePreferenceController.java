@@ -20,6 +20,7 @@ import android.content.Context;
 import android.media.AudioManager;
 
 import com.android.internal.annotations.VisibleForTesting;
+import com.android.settings.R;
 import com.android.settings.notification.VolumeSeekBarPreference.Callback;
 import com.android.settingslib.core.lifecycle.Lifecycle;
 
@@ -58,7 +59,7 @@ public class AlarmVolumePreferenceController extends
 
     @Override
     public int getMuteIcon() {
-        return com.android.internal.R.drawable.ic_audio_alarm_mute;
+        return R.drawable.ic_audio_alarm_mute;
     }
 
 }
