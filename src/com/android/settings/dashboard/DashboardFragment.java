@@ -239,6 +239,12 @@ public abstract class DashboardFragment extends SettingsPreferenceFragment
                 && metadata.containsKey(TileUtils.META_DATA_PREFERENCE_ICON_TINTABLE)) {
             return metadata.getBoolean(TileUtils.META_DATA_PREFERENCE_ICON_TINTABLE);
         }
+
+        //If this drawable is coming from LineageParts, do not tint it.
+        if (tile.intent.getComponent().getPackageName().equals("org.lineageos.lineageparts")) {
+        	return false;
+        }
+
         final String pkgName = getContext().getPackageName();
         // If this drawable is coming from outside Settings, tint it to match the color.
         return pkgName != null && tile.intent != null
