@@ -18,6 +18,10 @@
         xmlns:lineage="http://schemas.android.com/apk/res/lineageos.platform"
         android:title="@string/about_settings">
 
+	<!-- LineageOS version -->
+        <org.lineageos.internal.preference.deviceinfo.LineageVersionPreference
+                android:key="lineage_version" />
+
         <!-- System update settings - launches activity -->
         <Preference android:key="additional_system_update_settings"
                     android:title="@string/additional_system_update_settings_list_item_title">
@@ -81,10 +85,6 @@
         <Preference android:key="firmware_version"
                 android:title="@string/firmware_version"
                 android:summary="@string/summary_placeholder"/>
-
-        <!-- LineageOS version -->
-        <org.lineageos.internal.preference.deviceinfo.LineageVersionPreference
-                android:key="lineage_version" />
 
         <!-- LineageOS API version -->
         <org.lineageos.internal.preference.deviceinfo.LineageAPIVersionPreference
