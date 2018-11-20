@@ -1,5 +1,6 @@
 /*
  * Copyright (C) 2014 The Android Open Source Project
+ * Copyright (C) 2018 e.foundation
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -842,8 +843,9 @@ public class SettingsActivity extends SettingsDrawerActivity
                 || somethingChanged;
 
         // Enable/disable backup settings depending on whether the user is admin.
+        // /e/ Do NOT display Backup & reset item for the moment. 
         somethingChanged = setTileEnabled(new ComponentName(packageName,
-                BackupSettingsActivity.class.getName()), true, isAdmin)
+                BackupSettingsActivity.class.getName()), true, false)
                 || somethingChanged;
 
         somethingChanged = setTileEnabled(new ComponentName(packageName,
