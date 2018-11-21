@@ -1,5 +1,6 @@
 /*
  * Copyright (C) 2009 The Android Open Source Project
+ * Copyright (C) 2018 e.foundation
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -82,7 +83,8 @@ public class PrivacySettings extends SettingsPreferenceFragment {
         super.onCreate(savedInstanceState);
         // Don't allow any access if this is not an admin user.
         // TODO: backup/restore currently only works with owner user b/22760572
-        mEnabled = UserManager.get(getActivity()).isAdminUser();
+        // /e/ Do NOT display Backup & reset item for the moment. 
+        mEnabled = false;//UserManager.get(getActivity()).isAdminUser();
         if (!mEnabled) {
             return;
         }
