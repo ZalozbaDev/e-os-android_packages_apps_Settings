@@ -71,9 +71,12 @@
         <Preference android:key="device_feedback"
                 android:title="@string/device_feedback" />
 
-        <!-- Contributors cloud -->
-        <org.lineageos.internal.lineageparts.LineagePartsPreference
-                android:key="contributors" />
+        <PreferenceScreen
+                android:key="contributors_page"
+                android:title="@string/contributors_title"
+                android:fragment="com.android.settings.Contributors" >
+        </PreferenceScreen>
+
 
         <!-- Device hardware model -->
         <Preference
