@@ -55,6 +55,7 @@ import com.android.settings.users.UserSettings;
 import com.android.settings.wifi.AdvancedWifiSettings;
 import com.android.settings.wifi.SavedAccessPointsWifiSettings;
 import com.android.settings.wifi.WifiSettings;
+import com.android.settings.MicroGSettings;
 
 import java.util.Collection;
 import java.util.HashMap;
@@ -326,6 +327,13 @@ public final class SearchIndexableResources {
                         R.xml.zen_mode_visual_interruptions_settings,
                         ZenModeVisualInterruptionSettings.class.getName(),
                         R.drawable.ic_settings_notifications));
+
+        sResMap.put(MicroGSettings.class.getName(),
+                new SearchIndexableResource(
+                        Ranking.getRankForClassName(MicroGSettings.class.getName()),
+                        R.xml.micro_g_prefs,
+                        MicroGSettings.class.getName(),
+                        R.drawable.ic_microg_settings));
     }
 
     private SearchIndexableResources() {

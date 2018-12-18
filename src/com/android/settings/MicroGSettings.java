@@ -22,6 +22,15 @@ import android.content.ComponentName;
 import android.app.Fragment;
 import android.app.Activity;
 
+import android.app.Activity;
+import android.content.Context;
+import android.provider.SearchIndexableResource;
+import com.android.settings.R;
+import com.android.settings.search.BaseSearchIndexProvider;
+import com.android.settings.search.Indexable;
+import java.util.ArrayList;
+import java.util.List;
+
 public class MicroGSettings extends Fragment {
 
     @Override
@@ -38,4 +47,18 @@ public class MicroGSettings extends Fragment {
           activity.finish();
         }
     }
+
+    public static final Indexable.SearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
+    new BaseSearchIndexProvider() {
+        @Override
+        public List<SearchIndexableResource> getXmlResourcesToIndex(Context context,
+                boolean enabled) {
+            final ArrayList<SearchIndexableResource> result = new ArrayList<>();
+
+            final SearchIndexableResource sir = new SearchIndexableResource(context);
+            sir.xmlResId = R.xml.micro_g_prefs;
+            result.add(sir);
+            return result;
+        }
+    };
 }
