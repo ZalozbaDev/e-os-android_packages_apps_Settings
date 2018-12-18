@@ -30,6 +30,11 @@ public class MicroGSettings extends Fragment {
         Intent intent = new Intent("android.intent.action.MAIN");
         intent.setComponent(new ComponentName("com.google.android.gms", "org.microg.gms.ui.SettingsActivity"));
         startActivity(intent);
+
+        Activity activity = getActivity();
+
+        if (activity != null) {
+          activity.finish();
+        }
     }
 }
-
