@@ -48,24 +48,5 @@ public class Contributors extends SettingsPreferenceFragment {
             }
         }
         return super.onPreferenceTreeClick(preference);
-            if (preference.getKey().equals(KEY_E_CONTRIBUTORS)
-              || preference.getKey().equals(KEY_E_SUPPORTERS) ) {
-
-                final Intent intent = new Intent(Intent.ACTION_VIEW);
-                intent.addCategory(Intent.CATEGORY_DEFAULT);
-
-                if (preference.getKey().equals(KEY_E_CONTRIBUTORS)) {
-                  intent.setData(Uri.parse(URL_E_CONTRIBUTORS));
-                } else if (preference.getKey().equals(KEY_E_SUPPORTERS)) {
-                  intent.setData(Uri.parse(URL_E_SUPPORTERS));
-                }
-
-                try {
-                    startActivity(intent);
-                } catch (Exception e) {
-                    Log.e(LOG_TAG, "Unable to start activity " + intent.toString());
-                }
-            }
-            return super.onPreferenceTreeClick(preference);
     }
 }
