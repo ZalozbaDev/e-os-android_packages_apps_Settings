@@ -1,9 +1,4 @@
-stages:
-  - build
-
-image:
-  name: registry.gitlab.e.foundation:5000/e/os/docker-lineage-cicd:latest
-  entrypoint: [""]
+include: 'https://gitlab.e.foundation/e/os/build_module/raw/master/.gitlab-ci.yml'
 
 
 variables:
@@ -11,20 +6,3 @@ variables:
   REPO_DIRECTORY: EELO_0_2
   REPO_URL: https://gitlab.e.foundation/e/os/android.git
   PROJECT_PATH: packages/apps/Settings
-
-build_module:
-  variables:
-    GIT_STRATEGY: none
-  stage: build
-  script:
-    - cd /srv/src/${REPO_DIRECTORY}
-    - source build/envsetup.sh
-    - mka clean
-    - repo init -u "${REPO_URL}" -b "${REPO_BRANCH}"
-    - repo sync --force-sync -d
-    - cd packages/apps/Settings
-    - git fetch e
-    - git checkout ${CI_COMMIT_SHA}
-    - mma
-    - repo sync --force-sync -d .
-    - mka clean
