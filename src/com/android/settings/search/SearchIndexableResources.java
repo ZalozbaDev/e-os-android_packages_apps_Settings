@@ -89,6 +89,7 @@ import com.android.settings.wifi.ConfigureWifiSettings;
 import com.android.settings.wifi.SavedAccessPointsWifiSettings;
 import com.android.settings.wifi.WifiSettings;
 import com.android.settings.MicroGSettings;
+import com.android.settings.OpenKeychainSettings;
 import java.util.Collection;
 import java.util.HashMap;
 
