@@ -172,6 +172,7 @@ public class Settings extends SettingsActivity {
     public static class WifiAPITestActivity extends SettingsActivity { /* empty */ }
     public static class WifiInfoActivity extends SettingsActivity { /* empty */ }
     public static class MicroGActivity extends SettingsActivity { /* empty */ }
+    public static class OpenKeychainActivity extends SettingsActivity { /* empty */ }
     public static class EnterprisePrivacySettingsActivity extends SettingsActivity {
         @Override
         public void onCreate(Bundle savedInstanceState) {
