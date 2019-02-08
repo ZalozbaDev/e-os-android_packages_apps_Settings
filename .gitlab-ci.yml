@@ -12,7 +12,7 @@ variables:
   PROJECT_PATH: packages/apps/Settings
   SRC_PATH: /srv/src/${REPO_DIRECTORY}
   APK_NAME: Settings.apk
-  APK_PATH: ${SRC_PATH}/out/target/product/generic/system/priv-app/Settings/${APK_NAME}
+  APK_PATH: /srv/src/${REPO_DIRECTORY}/out/target/product/generic/system/priv-app/Settings/${APK_NAME}
 
 build_module:
   variables:
@@ -37,4 +37,5 @@ build_module:
     - mma
     - cp ${APK_PATH} ${CI_PROJECT_DIR}/apks/${APK_NAME}
     - repo sync --force-sync -d .
+    - git clean -fd
     - mka clean
