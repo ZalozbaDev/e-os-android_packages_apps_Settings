@@ -5,26 +5,36 @@ image:
   name: registry.gitlab.e.foundation:5000/e/os/docker-lineage-cicd:latest
   entrypoint: [""]
 
-
 variables:
-  REPO_BRANCH: eelo-0.2
-  REPO_DIRECTORY: EELO_0_2
+  REPO_BRANCH: v1-oreo
+  REPO_DIRECTORY: OREO
   REPO_URL: https://gitlab.e.foundation/e/os/android.git
   PROJECT_PATH: packages/apps/Settings
+  SRC_PATH: /srv/src/${REPO_DIRECTORY}
+  APK_NAME: Settings.apk
+  APK_PATH: ${SRC_PATH}/out/target/product/tissot/system/priv-app/Settings/${APK_NAME}
 
 build_module:
   variables:
     GIT_STRATEGY: none
+  artifacts:
+    name: "$CI_JOB_NAME"
+    paths:
+      - apks/*
   stage: build
   script:
-    - cd /srv/src/${REPO_DIRECTORY}
+    - mkdir -p ${CI_PROJECT_DIR}/apks
+    - echo src=${SRC_PATH}
+    - echo apk=${APK_PATH}
+    - cd ${SRC_PATH}
     - source build/envsetup.sh
     - mka clean
     - repo init -u "${REPO_URL}" -b "${REPO_BRANCH}"
     - repo sync --force-sync -d
-    - cd packages/apps/Settings
+    - cd ${PROJECT_PATH}
     - git fetch e
     - git checkout ${CI_COMMIT_SHA}
     - mma
+    - cp ${APK_PATH} ${CI_PROJECT_DIR}/apks/${APK_NAME}
     - repo sync --force-sync -d .
     - mka clean
