@@ -14,7 +14,7 @@ import com.android.settings.search.Indexable;
 import java.util.ArrayList;
 import java.util.List;
 
-public class MicroGSettings extends Fragment {
+public class OpenKeychainSettings extends Fragment {
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
