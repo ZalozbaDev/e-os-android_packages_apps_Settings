@@ -21,6 +21,7 @@ import com.android.settings.DisplaySettings;
 import com.android.settings.IccLockSettings;
 import com.android.settings.MasterClear;
 import com.android.settings.MicroGSettings;
+import com.android.settings.OpenKeychainSettings;
 import com.android.settings.Settings;
 import com.android.settings.TestingSettings;
 import com.android.settings.TetherSettings;
@@ -285,7 +286,8 @@ public class SettingsGateway {
             MobileNetworkListFragment.class.getName(),
             GlobalActionsPanelSettings.class.getName(),
             DarkModeSettingsFragment.class.getName(),
-	    MicroGSettings.class.getName()
+            MicroGSettings.class.getName(),
+            OpenKeychainSettings.class.getName(),
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
@@ -302,7 +304,7 @@ public class SettingsGateway {
             Settings.SecurityDashboardActivity.class.getName(),
             Settings.AccessibilitySettingsActivity.class.getName(),
             Settings.SystemDashboardActivity.class.getName(),
-	    Settings.MicroGActivity.class.getName(),
+	    // Settings.MicroGActivity.class.getName(),
             SupportDashboardActivity.class.getName(),
             // Home page > Network & Internet
             Settings.WifiSettingsActivity.class.getName(),
