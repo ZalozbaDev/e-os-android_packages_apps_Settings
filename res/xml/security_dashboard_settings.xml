@@ -28,6 +28,18 @@
         android:key="security_status"
         android:title="@string/security_status_title" />
 
+
+    <Preference
+        android:key="open_keychain_settings"
+        android:title="@string/open_keychain"
+        android:icon="@drawable/ic_homepage_openkeychain"
+        android:order="75">
+        <intent android:action="android.intent.action.MAIN"
+            android:targetPackage="org.sufficientlysecure.keychain"
+            android:targetClass="org.sufficientlysecure.keychain.ui.MainActivity" />
+     </Preference>
+
+
     <PreferenceCategory
         android:order="1"
         android:key="dashboard_tile_placeholder" />
