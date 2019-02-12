@@ -89,6 +89,7 @@ import com.android.settings.wifi.ConfigureWifiSettings;
 import com.android.settings.wifi.SavedAccessPointsWifiSettings;
 import com.android.settings.wifi.WifiSettings;
 import com.android.settings.MicroGSettings;
+import com.android.settings.OpenKeychainSettings;
 import java.util.Collection;
 import java.util.HashMap;
 
@@ -218,6 +219,7 @@ public final class SearchIndexableResources {
                 NO_DATA_RES_ID,
                 R.drawable.ic_settings_storage);
         addIndex(MicroGSettings.class, R.xml.micro_g_prefs, R.drawable.ic_microg_settings);
+        addIndex(OpenKeychainSettings.class, R.xml.open_keychain_prefs, R.drawable.ic_open_keychain);
     }
 
     private SearchIndexableResources() {
