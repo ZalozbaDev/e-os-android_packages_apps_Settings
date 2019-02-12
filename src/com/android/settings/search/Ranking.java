@@ -56,6 +56,7 @@ import com.android.settings.wifi.AdvancedWifiSettings;
 import com.android.settings.wifi.SavedAccessPointsWifiSettings;
 import com.android.settings.wifi.WifiSettings;
 import com.android.settings.MicroGSettings;
+import com.android.settings.OpenKeychainSettings;
 
 import java.util.HashMap;
 
@@ -89,6 +90,7 @@ public final class Ranking {
     public static final int RANK_DEVICE_INFO = 23;
     public static final int RANK_GESTURE = 24;
     public static final int RANK_MICROG = 25;
+    public static final int RANK_OPENKEYCHAIN = 26;
 
     public static final int RANK_UNDEFINED = -1;
     public static final int RANK_OTHERS = 1024;
@@ -189,6 +191,9 @@ public final class Ranking {
 
         // MicroG
         sRankMap.put(MicroGSettings.class.getName(), RANK_MICROG);
+
+        // OpenKeychain
+        sRankMap.put(OpenKeychainSettings.class.getName(), RANK_OPENKEYCHAIN);
 
         sBaseRankMap.put("com.android.settings", 0);
     }

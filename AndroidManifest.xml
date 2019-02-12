@@ -3231,5 +3231,24 @@
 
         </activity>
 
+
+
+        <activity android:name="Settings$OpenKeychainActivity"
+            android:label="@string/open_keychain"
+            android:icon="@drawable/ic_openkeychain_settings">
+            <intent-filter android:priority="1">
+                <action android:name="android.settings.OPENKEYCHAIN_SETTINGS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter android:priority="6">
+                <action android:name="com.android.settings.action.SETTINGS" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.category"
+                android:value="com.android.settings.category.personal" />
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.android.settings.OpenKeychainSettings" />
+
+        </activity>
+
     </application>
 </manifest>

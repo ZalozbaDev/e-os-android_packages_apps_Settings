@@ -56,6 +56,7 @@ import com.android.settings.wifi.AdvancedWifiSettings;
 import com.android.settings.wifi.SavedAccessPointsWifiSettings;
 import com.android.settings.wifi.WifiSettings;
 import com.android.settings.MicroGSettings;
+import com.android.settings.OpenKeychainSettings;
 
 import java.util.Collection;
 import java.util.HashMap;
@@ -334,6 +335,14 @@ public final class SearchIndexableResources {
                         R.xml.micro_g_prefs,
                         MicroGSettings.class.getName(),
                         R.drawable.ic_microg_settings));
+
+
+	        sResMap.put(OpenKeychainSettings.class.getName(),
+	                new SearchIndexableResource(
+                        Ranking.getRankForClassName(OpenKeychainSettings.class.getName()),
+                        R.xml.open_keychain_prefs,
+                        OpenKeychainSettings.class.getName(),
+                        R.drawable.ic_openkeychain_settings));
     }
 
     private SearchIndexableResources() {

@@ -370,7 +370,8 @@ public class SettingsActivity extends SettingsDrawerActivity
             NightDisplaySettings.class.getName(),
             ManageDomainUrls.class.getName(),
             AutomaticStorageManagerSettings.class.getName(),
-            MicroGSettings.class.getName()
+            MicroGSettings.class.getName(),
+            OpenKeychainSettings.class.getName()
     };
 
 
@@ -1169,7 +1170,7 @@ public class SettingsActivity extends SettingsDrawerActivity
 
         String backupIntent = getResources().getString(R.string.config_backup_settings_intent);
         boolean useDefaultBackup = TextUtils.isEmpty(backupIntent);
-		
+
 		// /e/ Do NOT display Backup & reset item for the moment.
         useDefaultBackup = false;
         setTileEnabled(new ComponentName(packageName,
@@ -1183,7 +1184,7 @@ public class SettingsActivity extends SettingsDrawerActivity
                 Log.e(LOG_TAG, "Invalid backup intent URI!", e);
             }
         }
-		
+
 		// /e/ Do NOT display Backup & reset item for the moment.
         hasBackupActivity = false;
         setTileEnabled(new ComponentName(packageName,
