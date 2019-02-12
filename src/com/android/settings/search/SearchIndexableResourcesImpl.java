@@ -71,6 +71,7 @@ import com.android.settings.location.LocationSettings;
 import com.android.settings.location.RecentLocationRequestSeeAllFragment;
 import com.android.settings.location.ScanningSettings;
 import com.android.settings.MicroGSettings;
+import com.android.settings.OpenKeychainSettings;
 import com.android.settings.network.NetworkDashboardFragment;
 import com.android.settings.nfc.PaymentSettings;
 import com.android.settings.notification.ConfigureNotificationSettings;
@@ -195,6 +196,7 @@ public class SearchIndexableResourcesImpl implements SearchIndexableResources {
         addIndex(PreviouslyConnectedDeviceDashboardFragment.class);
         addIndex(BluetoothDashboardFragment.class);
         addIndex(MicroGSettings.class);
+        addIndex(OpenKeychainSettings.class);
     }
 
     @Override

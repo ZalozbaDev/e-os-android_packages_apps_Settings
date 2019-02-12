@@ -22,6 +22,7 @@ import com.android.settings.DisplaySettings;
 import com.android.settings.IccLockSettings;
 import com.android.settings.MasterClear;
 import com.android.settings.MicroGSettings;
+import com.android.settings.OpenKeychainSettings;
 import com.android.settings.PrivacySettings;
 import com.android.settings.Settings;
 import com.android.settings.TestingSettings;
@@ -264,7 +265,8 @@ public class SettingsGateway {
             DirectoryAccessDetails.class.getName(),
             ToggleBackupSettingFragment.class.getName(),
             PreviouslyConnectedDeviceDashboardFragment.class.getName(),
-	    MicroGSettings.class.getName(),
+            MicroGSettings.class.getName(),
+            OpenKeychainSettings.class.getName(),
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
@@ -280,7 +282,7 @@ public class SettingsGateway {
             Settings.SecurityDashboardActivity.class.getName(),
             Settings.AccessibilitySettingsActivity.class.getName(),
             Settings.SystemDashboardActivity.class.getName(),
-	    Settings.MicroGActivity.class.getName(),
+	    // Settings.MicroGActivity.class.getName(),
             SupportDashboardActivity.class.getName(),
             // Home page > Network & Internet
             Settings.WifiSettingsActivity.class.getName(),
