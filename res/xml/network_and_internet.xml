@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Copyright (C) 2016 The Android Open Source Project
+     Copyright (C) 2019 e.foundation
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -80,6 +81,14 @@
         android:icon="@drawable/ic_airplanemode_active"
         android:disableDependentsState="true"
         android:order="5"/>
+
+    <com.android.settingslib.RestrictedPreference
+        android:fragment="com.android.settings.dns.DNSSettings"
+        android:key="e_dns_settings"
+        android:title="@string/e_dns_mode"
+        android:icon="@drawable/ic_settings"
+        android:order="0"
+        android:summary="@string/e_dns_summary"/>
 
     <Preference
         android:fragment="com.android.settings.ProxySelector"

@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Copyright (C) 2007 The Android Open Source Project
      Copyright (C) 2018 e.foundation
+	 Copyright (C) 2019 e.foundation
+
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
      You may obtain a copy of the License at
@@ -9057,5 +9059,17 @@
 
     <!-- /e/ specific changes -->
     <string name="micro_g">MicroG</string>
+
     <string name="open_keychain">OpenKeychain</string>
+
+    <string name="e_dns_settings_title">"Settings DNS"</string>
+    <string name="e_dns_mode">"DNS"</string>
+    <string name="e_dns_name">"DNS"</string>
+    <string name="e_dns_title">"Entrez l'IP du DNS"</string>
+    <string name="e_use_dhcp_dns">"Utiliser le DNS du réseau"</string>
+    <string name="e_use_dhcp_dns_summary">"Permet d'utiliser le serveur DNS fourni par le réseau"</string>
+    <string name="e_dns_name_summary">"Définissez le DNS à utiliser"</string>
+    <string name="e_dns_not_set">"9.9.9.9"</string>
+    <string name="e_dns_summary">"Configuration du DNS"</string>
+    
 </resources>
