@@ -31,7 +31,8 @@
         settings:controller="com.android.settings.gestures.GesturesSettingPreferenceController"/>
 
     <!-- Backup -->
-    <!-- <Preference
+    <!--
+    <Preference
         android:key="backup_settings"
         android:title="@string/privacy_settings_title"
         android:summary="@string/summary_placeholder"
@@ -39,8 +40,8 @@
         android:order="-60"
         settings:controller="com.android.settings.backup.BackupSettingsActivityPreferenceController">
         <intent android:action="android.settings.BACKUP_AND_RESET_SETTINGS" />
-    </Preference> -->
-
+    </Preference>
+    -->
     <Preference
         android:key="reset_dashboard"
         android:title="@string/reset_dashboard_title"
