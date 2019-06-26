@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Copyright (C) 2007 The Android Open Source Project
-     Copyright (C) 2019 e.foundation 
+     Copyright (C) 2018 e.foundation
+     Copyright (C) 2019 e.foundation
+
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
      You may obtain a copy of the License at
@@ -10088,7 +10090,19 @@
     <!-- Title for Connected device shortcut [CHAR LIMIT=30] -->
     <string name="devices_title">Devices</string>
 
-        <!-- /e/ specific changes -->
+
+    <!-- /e/ specific changes -->
     <string name="micro_g">MicroG</string>
     <string name="open_keychain">OpenKeychain</string>
+
+    <!-- /e/ -->
+    <string name="e_dns_settings_title">"DNS Settings"</string>
+    <string name="e_dns_mode">"DNS"</string>
+    <string name="e_dns_name">"DNS"</string>
+    <string name="e_dns_title">"Enter DNS IP"</string>
+    <string name="e_use_dhcp_dns">"Use network DNS"</string>
+    <string name="e_use_dhcp_dns_summary">"Allow to use DNS from network provider"</string>
+    <string name="e_dns_name_summary">"Set DNS to use"</string>
+    <string name="e_dns_not_set">"9.9.9.9"</string>
+    <string name="e_dns_summary">"DNS configuration"</string>
 </resources>
