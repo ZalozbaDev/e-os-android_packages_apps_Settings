@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Copyright (C) 2018 The Android Open Source Project
+     Copyright (C) 2019-2021 E FOUNDATION
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -79,6 +80,14 @@
         settings:keywords="@string/keywords_hotspot_tethering"
         settings:userRestriction="no_config_tethering"
         settings:useAdminDisabledSummary="true" />
+	
+    <com.android.settingslib.RestrictedPreference
+        android:fragment="com.android.settings.dns.DNSSettings"
+        android:key="e_dns_settings"
+        android:title="@string/e_dns_mode"
+        android:icon="@drawable/ic_settings_24dp"
+        android:order="0"
+        android:summary="@string/e_dns_summary"/>
 
     <com.android.settings.widget.MasterSwitchPreference
         android:fragment="com.android.settings.AllInOneTetherSettings"
