@@ -1,5 +1,6 @@
 /*
  * Copyright (C) 2014 The Android Open Source Project
+ * Copyright (C) 2019 e.foundation
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -632,8 +633,9 @@ public class SettingsActivity extends SettingsBaseActivity
                 showDev, isAdmin)
                 || somethingChanged;
 
+        // /e/ Do NOT display Backup & reset item for the moment.
         somethingChanged = setTileEnabled(changedList, new ComponentName(packageName,
-                UserBackupSettingsActivity.class.getName()), true, isAdmin)
+                UserBackupSettingsActivity.class.getName()), true, false)
                 || somethingChanged;
 
         somethingChanged = setTileEnabled(changedList, new ComponentName(packageName,

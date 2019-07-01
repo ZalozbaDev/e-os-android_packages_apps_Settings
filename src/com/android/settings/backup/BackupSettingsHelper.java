@@ -219,7 +219,7 @@ public class BackupSettingsHelper {
             // pass the default 'false' as the "backup is a thing?" state.
             backupOkay = false;
         }
-        return backupOkay;
+        return false;
     }
 
     @VisibleForTesting
