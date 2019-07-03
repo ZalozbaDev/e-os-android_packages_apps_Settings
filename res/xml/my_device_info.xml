@@ -71,6 +71,15 @@
         settings:allowDividerAbove="true"
         settings:searchable="false"/>
 
+    <!-- Contributors -->
+    <PreferenceScreen
+        android:key="contributors_page"
+        android:order="12"
+        android:title="@string/contributors_title"
+        android:fragment="com.android.settings.Contributors" >
+    </PreferenceScreen>
+
+
     <!-- Regulatory labels -->
     <Preference
         android:key="regulatory_info"
