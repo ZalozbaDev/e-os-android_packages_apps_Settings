@@ -1,5 +1,6 @@
 /*
  * Copyright (C) 2015 The Android Open Source Project
+ * Copyright (C) 2019-2021 E FOUNDATION
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -34,6 +35,8 @@ public class LegalSettings extends DashboardFragment {
 
     private static final String PROPERTY_LINEAGELICENSE_URL = "ro.lineagelegal.url";
     private static final String KEY_LINEAGE_LICENSE = "lineagelicense";
+    private static final String PROPERTY_ELICENSE_URL = "ro.elegal.url";
+    private static final String KEY_E_LICENSE = "elicense";
 
     @Override
     public int getMetricsCategory() {
@@ -47,17 +50,23 @@ public class LegalSettings extends DashboardFragment {
 
     @Override
     public boolean onPreferenceTreeClick(Preference preference) {
-        if (preference.getKey().equals(KEY_LINEAGE_LICENSE)) {
-            String userLineageLicenseUrl = SystemProperties.get(PROPERTY_LINEAGELICENSE_URL);
-            final Intent intent = new Intent(Intent.ACTION_VIEW);
+		String userLicenseUrl = "";
+		if (preference.getKey().equals(KEY_E_LICENSE)) {
+			userLicenseUrl = SystemProperties.get(PROPERTY_ELICENSE_URL);
+		} else if (preference.getKey().equals(KEY_LINEAGE_LICENSE)) {
+			userLicenseUrl = SystemProperties.get(PROPERTY_LINEAGELICENSE_URL);
+		}
+
+		if (userLicenseUrl != null && userLicenseUrl.length() > 0) {
+			final Intent intent = new Intent(Intent.ACTION_VIEW);
             intent.addCategory(Intent.CATEGORY_DEFAULT);
-            intent.setData(Uri.parse(userLineageLicenseUrl));
+            intent.setData(Uri.parse(userLicenseUrl));
             try {
                 startActivity(intent);
             } catch (Exception e) {
                 Log.e(TAG, "Unable to start activity " + intent.toString());
             }
-        }
+		}
         return super.onPreferenceTreeClick(preference);
     }
 

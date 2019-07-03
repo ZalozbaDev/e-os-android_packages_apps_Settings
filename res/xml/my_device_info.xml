@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
   Copyright (C) 2018 The Android Open Source Project
+  Copyright (C) 2019-2021 E FOUNDATION
 
   Licensed under the Apache License, Version 2.0 (the "License");
   you may not use this file except in compliance with the License.
@@ -70,13 +71,13 @@
         android:fragment="com.android.settings.LegalSettings"
         settings:allowDividerAbove="true"/>
 
-    <!-- Regulatory labels -->
-    <Preference
-        android:key="regulatory_info"
+    <!-- Contributors -->
+    <PreferenceScreen
+        android:key="contributors_page"
         android:order="16"
-        android:title="@string/regulatory_labels">
-        <intent android:action="android.settings.SHOW_REGULATORY_INFO"/>
-    </Preference>
+        android:title="@string/contributors_title"
+        android:fragment="com.android.settings.Contributors" >
+    </PreferenceScreen>
 
     <!-- Safety & regulatory manual -->
     <Preference
