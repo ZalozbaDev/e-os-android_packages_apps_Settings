@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/contributors_title">
+
+    <!-- Contributors cloud -->
+    <org.lineageos.internal.lineageparts.LineagePartsPreference
+        android:key="contributors"
+        android:title="@string/lineageos_contributors_title" />
+
+    <!-- /e/ contributors (web) -->
+    <PreferenceScreen
+        android:key="e_contributors"
+        android:title="@string/e_contributors_title" />
+
+    <!-- /e/ supporters (web) -->
+    <PreferenceScreen
+        android:key="e_supporters"
+        android:title="@string/e_supporters_title" />
+
+</PreferenceScreen>

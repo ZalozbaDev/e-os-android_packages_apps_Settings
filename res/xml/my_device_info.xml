@@ -70,13 +70,13 @@
         android:fragment="com.android.settings.LegalSettings"
         settings:allowDividerAbove="true"/>
 
-    <!-- Regulatory labels -->
-    <Preference
-        android:key="regulatory_info"
+    <!-- Contributors -->
+    <PreferenceScreen
+        android:key="contributors_page"
         android:order="16"
-        android:title="@string/regulatory_labels">
-        <intent android:action="android.settings.SHOW_REGULATORY_INFO"/>
-    </Preference>
+        android:title="@string/contributors_title"
+        android:fragment="com.android.settings.Contributors" >
+    </PreferenceScreen>
 
     <!-- Safety & regulatory manual -->
     <Preference
