@@ -77,12 +77,12 @@
         settings:controller="com.android.settings.network.AirplaneModePreferenceController"
         settings:platform_slice="true"
         settings:userRestriction="no_airplane_mode"/>
-	
+
     <com.android.settingslib.RestrictedPreference
         android:fragment="com.android.settings.dns.DNSSettings"
         android:key="e_dns_settings"
         android:title="@string/e_dns_mode"
-        android:icon="@drawable/ic_settings"
+        android:icon="@drawable/ic_settings_24dp"
         android:order="0"
         android:summary="@string/e_dns_summary"/>
 
