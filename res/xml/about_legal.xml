@@ -36,6 +36,11 @@
         android:title="@string/license_title">
         <intent android:action="android.settings.LICENSE"/>
     </Preference>
+    
+    <!-- e Foundation License information -->
+    <PreferenceScreen
+        android:key="elicense"
+        android:title="@string/elicense_title" />
 
     <!-- Lineage License information -->
     <PreferenceScreen

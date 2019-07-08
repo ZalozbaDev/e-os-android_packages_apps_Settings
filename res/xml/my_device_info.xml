@@ -63,10 +63,14 @@
         android:fragment="com.android.settings.LegalSettings"
         settings:allowDividerAbove="true"/>
 
-    <!-- Contributors cloud -->
-    <org.lineageos.internal.lineageparts.LineagePartsPreference
+    <!-- Contributors -->
+    <PreferenceScreen
+        android:key="contributors_page"
         android:order="12"
-        android:key="contributors"/>
+        android:title="@string/contributors_title"
+        android:fragment="com.android.settings.Contributors" >
+    </PreferenceScreen>
+
 
     <!-- Regulatory labels -->
     <Preference

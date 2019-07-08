@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Copyright (C) 2016 The Android Open Source Project
+     Copyright (C) 2019 e.foundation
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -30,7 +31,7 @@
         settings:controller="com.android.settings.gestures.GesturesSettingPreferenceController"/>
 
     <!-- Backup -->
-    <Preference
+    <!-- <Preference
         android:key="backup_settings"
         android:title="@string/privacy_settings_title"
         android:summary="@string/summary_placeholder"
@@ -38,7 +39,7 @@
         android:order="-60"
         settings:controller="com.android.settings.backup.BackupSettingsActivityPreferenceController">
         <intent android:action="android.settings.BACKUP_AND_RESET_SETTINGS" />
-    </Preference>
+    </Preference> -->
 
     <Preference
         android:key="reset_dashboard"
