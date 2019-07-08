@@ -3365,7 +3365,7 @@
             </intent-filter>
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
                 android:value="com.android.settings.gestures.GlobalActionsPanelSettings" />
-        </activity>
+	</activity>
 
         <activity android:name="Settings$PowerMenuSettingsActivity"
                   android:label="@string/power_menu_setting_name">
