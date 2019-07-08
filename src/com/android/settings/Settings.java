@@ -1,5 +1,7 @@
 /*
  * Copyright (C) 2008 The Android Open Source Project
+ * Copyright (C) 2019-2021 E FOUNDATION
+ * Copyright (C) 2019-2021 ECORP SAS
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -234,6 +236,7 @@ public class Settings extends SettingsActivity {
     public static class StorageDashboardActivity extends SettingsActivity {}
     public static class AccountDashboardActivity extends SettingsActivity {}
     public static class SystemDashboardActivity extends SettingsActivity {}
+    public static class MicroGActivity extends SettingsActivity { /* empty */ }
 
     /**
      * Activity for MediaControlsSettings

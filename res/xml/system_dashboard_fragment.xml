@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Copyright (C) 2016 The Android Open Source Project
+     Copyright (C) 2019-2021 E FOUNDATION
+     Copyright (C) 2019-2021 ECORP SAS
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -28,6 +30,17 @@
         android:order="-260"
         android:fragment="com.android.settings.language.LanguageAndInputSettings"
         settings:controller="com.android.settings.language.LanguageAndInputPreferenceController"/>
+
+    <Preference
+	android:key="microg_settings"
+	android:title="@string/micro_g"
+	android:icon="@drawable/ic_homepage_microg"
+	android:order="-252"
+	android:fragment="com.android.settings.MicroGSettings">
+	<intent android:action="android.intent.action.MAIN"
+	    android:targetPackage="com.google.android.gms"
+	    android:targetClass="org.microg.gms.ui.SettingsActivity" />
+    </Preference>
 
     <Preference
         android:key="gesture_settings"

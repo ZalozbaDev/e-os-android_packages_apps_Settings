@@ -20,6 +20,7 @@ import com.android.settings.AllInOneTetherSettings;
 import com.android.settings.DisplaySettings;
 import com.android.settings.IccLockSettings;
 import com.android.settings.MasterClear;
+import com.android.settings.MicroGSettings;
 import com.android.settings.Settings;
 import com.android.settings.TestingSettings;
 import com.android.settings.TetherSettings;
@@ -341,6 +342,7 @@ public class SettingsGateway {
             // Home page > Security & screen lock
             Settings.LocationSettingsActivity.class.getName(),
             // Home page > System
+	    Settings.MicroGActivity.class.getName(),
             Settings.LanguageAndInputSettingsActivity.class.getName(),
             Settings.DateTimeSettingsActivity.class.getName(),
             Settings.EnterprisePrivacySettingsActivity.class.getName(),
