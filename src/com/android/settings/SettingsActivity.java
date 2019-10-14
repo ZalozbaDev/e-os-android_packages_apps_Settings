@@ -1175,7 +1175,7 @@ public class SettingsActivity extends SettingsDrawerActivity
         boolean useDefaultBackup = TextUtils.isEmpty(backupIntent);
 
 		// /e/ Do NOT display Backup & reset item for the moment.
-        useDefaultBackup = false;
+        //useDefaultBackup = false;
         setTileEnabled(new ComponentName(packageName,
                 Settings.PrivacySettingsActivity.class.getName()), useDefaultBackup, isAdmin, pm);
         boolean hasBackupActivity = false;
