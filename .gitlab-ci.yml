@@ -12,7 +12,7 @@ include:
     file: '/templates/.gitlab-ci-build-module.yml'
 
 build Settings:
-  extends: .build module
+  extends: .build-module
   variables:
     BRANCH_NAME: "v1-oreo"
     MODULE_NAME: "Settings"
