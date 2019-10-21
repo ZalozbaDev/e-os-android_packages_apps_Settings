@@ -1,7 +1,19 @@
 stages:
   - update-from-upstream
+  - build
 
 include:
   - project: 'e/priv/os/build'
     ref: master
     file: '/templates/.gitlab-ci-update-from-upstream.yml'
+  - project: 'e/priv/os/build'
+    ref: master
+    file: '/templates/.gitlab-ci-build-module.yml'
+
+build Settings:
+  extends: .build module
+  variables:
+    BRANCH_NAME: "v1-oreo"
+    MODULE_NAME: "Settings"
+    MODULE_PATH: "packages/apps/Settings"
+    PRIV_APP: "true"
