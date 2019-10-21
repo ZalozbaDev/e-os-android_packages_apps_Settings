@@ -1,6 +1,7 @@
 stages:
   - update-from-upstream
   - build
+  - sign
 
 include:
   - project: 'e/priv/os/build'
