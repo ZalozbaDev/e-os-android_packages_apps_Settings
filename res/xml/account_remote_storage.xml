@@ -10,7 +10,7 @@
         android:id="@+id/storage_usage_text"
         android:layout_height="wrap_content"
         android:layout_width="fill_parent"
-        android:textAlignment="left"
+        android:gravity="left"
         android:text="@string/e_used_space"/>
 
     <ProgressBar
