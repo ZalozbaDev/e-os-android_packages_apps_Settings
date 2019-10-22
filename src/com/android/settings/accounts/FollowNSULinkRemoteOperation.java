@@ -22,7 +22,7 @@ public class FollowNSULinkRemoteOperation extends RemoteOperation {
         client.getState().addCookie(usernameCookie);
         client.getState().addCookie(tokenCookie);*/
 
-        String url = client.getBaseUri() + /apps/increasestoragebutton/get-redirect-link
+        String url = client.getBaseUri() + '/apps/increasestoragebutton/get-redirect-link';
         GetMethod get = new GetMethod(url);
         int status = client.executeMethod(get);
 
