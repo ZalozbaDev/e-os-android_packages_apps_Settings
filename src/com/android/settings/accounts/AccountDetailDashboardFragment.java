@@ -54,6 +54,7 @@ public class AccountDetailDashboardFragment extends DashboardFragment {
     String mAccountType;
     private AccountSyncPreferenceController mAccountSynController;
     private RemoveAccountPreferenceController mRemoveAccountController;
+    private AccountRemoteStoragePreferenceController mAccountRemoteStorageController;
 
     @Override
     public void onCreate(Bundle icicle) {
@@ -77,6 +78,7 @@ public class AccountDetailDashboardFragment extends DashboardFragment {
         }
         mAccountSynController.init(mAccount, userHandle);
         mRemoveAccountController.init(mAccount, userHandle);
+        mAccountRemoteStorageController.init(mAccount, userHandle);
     }
 
     @Override
