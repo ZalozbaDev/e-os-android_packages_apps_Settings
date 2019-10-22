@@ -3,7 +3,7 @@ package com.android.settings.accounts;
 import com.owncloud.android.lib.common.OwnCloudClient;
 import org.apache.commons.httpclient.methods.GetMethod;
 
-public class DownloadFileRemoteOperation extends RemoteOperation {
+public class FollowNSULinkRemoteOperation extends RemoteOperation {
     protected RemoteOperationResult run(OwnCloudClient client) {
         Uri serverUri = (client.getBaseUri() != null)? client.getBaseUri() : client.getWebdavUri();
 

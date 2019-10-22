@@ -15,7 +15,13 @@ public class AccountRemoteStoragePreferenceController extends AbstractPreference
         mClient = OwnCloudClientFactory.createOwnCloudClient(serverUri, this, true);
     }
 
-    private void getRedirectLink() {
+    public void onClickHandler(View button) {
+        if (button.getId() == R.id.increase_storage_button)
+            followNSULink();
+    }
 
+    private void followNSULink() {
+      FollowNSULinkRemoteOperation followNSULinkOp = new FollowNSULinkRemoteOperation();
+      followNSULinkOp.execute(mClient, this, mHandler);
     }
 }
