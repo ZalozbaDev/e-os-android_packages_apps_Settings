@@ -1,7 +1,14 @@
 package com.android.settings.accounts;
 
+import android.net.Uri;
+
 import com.owncloud.android.lib.common.OwnCloudClient;
+
 import org.apache.commons.httpclient.methods.GetMethod;
+import org.apache.commons.httpclient.Cookie;
+
+import com.owncloud.android.lib.common.operations.RemoteOperationResult;
+
 
 public class FollowNSULinkRemoteOperation extends RemoteOperation {
     protected RemoteOperationResult run(OwnCloudClient client) {

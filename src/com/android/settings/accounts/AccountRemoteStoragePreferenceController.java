@@ -1,5 +1,17 @@
 package com.android.settings.accounts;
 
+import android.os.Bundle;
+import android.os.Handler;
+import android.net.Uri;
+import android.view.View;
+
+import com.android.settingslib.core.AbstractPreferenceController;
+import com.android.settings.accounts.FollowNSULinkRemoteOperation;
+
+import com.owncloud.android.lib.common.OwnCloudClient;
+import com.owncloud.android.lib.common.OwnCloudClientFactory;
+import com.owncloud.android.lib.common.OwnCloudCredentialsFactory;
+
 public class AccountRemoteStoragePreferenceController extends AbstractPreferenceController {
     private OwnCloudClient mClient;
     private Handler mhandler;
@@ -13,6 +25,12 @@ public class AccountRemoteStoragePreferenceController extends AbstractPreference
 
         mHandler = new Handler();
         mClient = OwnCloudClientFactory.createOwnCloudClient(serverUri, this, true);
+        mClient.setCredentials(
+      			OwnCloudCredentialsFactory.newBasicCredentials(
+      					"",
+      					""
+  				  )
+  		  );
     }
 
     public void onClickHandler(View button) {
