@@ -48,7 +48,8 @@ public class AccountRemoteStoragePreferenceController extends AbstractPreference
         mUserHandle = userHandle;
     }
 
-    public void onClickHandler(View button) {
+    @Override
+    public void onClick(View button) {
         if (button.getId() == R.id.increase_storage_button)
             followNSULink();
     }
