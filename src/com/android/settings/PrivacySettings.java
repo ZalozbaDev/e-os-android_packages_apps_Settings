@@ -82,15 +82,14 @@ public class PrivacySettings extends SettingsPreferenceFragment implements Index
         // Don't allow any access if this is not an admin user.
         // TODO: backup/restore currently only works with owner user b/22760572
         
-        // /e/ Do NOT display Backup & reset item for the moment.
-        mEnabled = false;//UserManager.get(getActivity()).isAdminUser();
+        mEnabled =  UserManager.get(getActivity()).isAdminUser();
         if (!mEnabled) {
             return;
         }
 
         addPreferencesFromResource(R.xml.privacy_settings);
         final PreferenceScreen screen = getPreferenceScreen();
-        mBackupManager = IBackupManager.Stub.asInterface(
+        /*mBackupManager = IBackupManager.Stub.asInterface(
                 ServiceManager.getService(Context.BACKUP_SERVICE));
 
         mBackup = (PreferenceScreen) screen.findPreference(BACKUP_DATA);
@@ -99,7 +98,7 @@ public class PrivacySettings extends SettingsPreferenceFragment implements Index
         mAutoRestore.setOnPreferenceChangeListener(preferenceChangeListener);
 
         mConfigure = (PreferenceScreen) screen.findPreference(CONFIGURE_ACCOUNT);
-        mManageData = (PreferenceScreen) screen.findPreference(DATA_MANAGEMENT);
+        mManageData = (PreferenceScreen) screen.findPreference(DATA_MANAGEMENT);*/
 
         Set<String> keysToRemove = new HashSet<>();
         getNonVisibleKeys(getActivity(), keysToRemove);
@@ -111,7 +110,7 @@ public class PrivacySettings extends SettingsPreferenceFragment implements Index
             }
         }
 
-        updateToggles();
+        //updateToggles();
     }
 
     @Override
@@ -119,9 +118,9 @@ public class PrivacySettings extends SettingsPreferenceFragment implements Index
         super.onResume();
 
         // Refresh UI
-        if (mEnabled) {
+       /* if (mEnabled) {
             updateToggles();
-        }
+        }*/
     }
 
     private OnPreferenceChangeListener preferenceChangeListener = new OnPreferenceChangeListener() {
@@ -132,14 +131,14 @@ public class PrivacySettings extends SettingsPreferenceFragment implements Index
             }
             boolean nextValue = (Boolean) newValue;
             boolean result = false;
-            if (preference == mAutoRestore) {
+            /*if (preference == mAutoRestore) {
                 try {
                     mBackupManager.setAutoRestore(nextValue);
                     result = true;
                 } catch (RemoteException e) {
                     mAutoRestore.setChecked(!nextValue);
                 }
-            }
+            }*/
             return result;
         }
     };
@@ -265,7 +264,7 @@ public class PrivacySettings extends SettingsPreferenceFragment implements Index
     }
 
     private static void getNonVisibleKeys(Context context, Collection<String> nonVisibleKeys) {
-        final IBackupManager backupManager = IBackupManager.Stub.asInterface(
+        /*final IBackupManager backupManager = IBackupManager.Stub.asInterface(
                 ServiceManager.getService(Context.BACKUP_SERVICE));
         boolean isServiceActive = false;
         try {
@@ -273,17 +272,17 @@ public class PrivacySettings extends SettingsPreferenceFragment implements Index
         } catch (RemoteException e) {
             Log.w(TAG, "Failed querying backup manager service activity status. " +
                     "Assuming it is inactive.");
-        }
+        }*/
         boolean vendorSpecific = context.getPackageManager().
                 resolveContentProvider(GSETTINGS_PROVIDER, 0) == null;
-        if (vendorSpecific || isServiceActive) {
+        /*if (vendorSpecific || isServiceActive) {
             nonVisibleKeys.add(BACKUP_INACTIVE);
         }
         if (vendorSpecific || !isServiceActive) {
             nonVisibleKeys.add(BACKUP_DATA);
             nonVisibleKeys.add(AUTO_RESTORE);
             nonVisibleKeys.add(CONFIGURE_ACCOUNT);
-        }
+        }*/
         if (RestrictedLockUtils.hasBaseUserRestriction(context,
                 UserManager.DISALLOW_FACTORY_RESET, UserHandle.myUserId())) {
             nonVisibleKeys.add(FACTORY_RESET);

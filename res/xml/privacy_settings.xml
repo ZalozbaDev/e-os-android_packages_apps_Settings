@@ -19,6 +19,7 @@
     android:title="@string/privacy_settings_title">
 
     <!-- Backup settings -->
+    <!-- /e/ Disable Backup entry. 2019/10/08
     <PreferenceScreen
         android:key="backup_data"
         android:title="@string/backup_data_title"
@@ -28,8 +29,9 @@
     <PreferenceScreen
         android:key="configure_account"
         android:title="@string/backup_configure_account_title"
-        android:persistent="false">
+        android:persistent="false">-->
         <!-- the Intent declared here is always overwritten by a real one -->
+        <!-- /e/ Disable Backup entry. 2019/10/08
         <intent android:action="dummy" />
     </PreferenceScreen>
 
@@ -49,7 +51,7 @@
         android:persistent="false"
         android:enabled="false"
         android:selectable="false" />
-
+    -->
     <!-- Factory reset -->
     <com.android.settingslib.RestrictedPreference
         android:key="factory_reset"
