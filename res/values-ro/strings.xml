@@ -448,11 +448,11 @@
     <string name="crypt_keeper_warn_wipe" msgid="2738374897337991667">"Avertisment: datele de pe dispozitiv vor fi șterse după încă <xliff:g id="COUNT">^1</xliff:g> încercări nereușite de deblocare!"</string>
     <string name="crypt_keeper_enter_password" msgid="2223340178473871064">"Introduceți parola"</string>
     <string name="crypt_keeper_failed_title" msgid="7133499413023075961">"Criptare nereușită"</string>
-    <string name="crypt_keeper_failed_summary" product="tablet" msgid="8219375738445017266">"Criptarea a fost întreruptă și nu se poate finaliza. Prin urmare, datele de pe tableta dvs. nu mai sunt accesibile. \n\nPentru a relua utilizarea tabletei, trebuie să reveniți la setările din fabrică. Când configurați tableta după resetare, veți putea restabili toate datele pentru care ați creat copii de rezervă în Contul Google."</string>
-    <string name="crypt_keeper_failed_summary" product="default" msgid="3270131542549577953">"Criptarea a fost întreruptă și nu se poate finaliza. Prin urmare, datele de pe telefonul dvs. nu mai sunt accesibile. \n\nPentru a relua utilizarea telefonului, trebuie să reveniți la setările din fabrică. Când configurați telefonul după resetare, veți putea restabili toate datele pentru care ați creat copii de rezervă în Contul Google."</string>
+    <string name="crypt_keeper_failed_summary" product="tablet" msgid="8219375738445017266">"Criptarea a fost întreruptă și nu se poate finaliza. Prin urmare, datele de pe tableta dvs. nu mai sunt accesibile. \n\nPentru a relua utilizarea tabletei, trebuie să reveniți la setările din fabrică. Când configurați tableta după resetare, veți putea restabili toate datele pentru care ați creat copii de rezervă în Contul /e/."</string>
+    <string name="crypt_keeper_failed_summary" product="default" msgid="3270131542549577953">"Criptarea a fost întreruptă și nu se poate finaliza. Prin urmare, datele de pe telefonul dvs. nu mai sunt accesibile. \n\nPentru a relua utilizarea telefonului, trebuie să reveniți la setările din fabrică. Când configurați telefonul după resetare, veți putea restabili toate datele pentru care ați creat copii de rezervă în Contul /e/."</string>
     <string name="crypt_keeper_data_corrupt_title" msgid="8759119849089795751">"Decriptarea nu a reușit"</string>
-    <string name="crypt_keeper_data_corrupt_summary" product="tablet" msgid="840107296925798402">"Parola pe care ați introdus-o este corectă, dar, din păcate, datele sunt deteriorate. \n\nPentru a relua utilizarea tabletei, trebuie să reveniți la setările din fabrică. Când vă configurați tableta după resetare, veți putea să restabiliți toate datele care au backup în Contul Google."</string>
-    <string name="crypt_keeper_data_corrupt_summary" product="default" msgid="8843311420059663824">"Parola pe care ați introdus-o este corectă, dar, din păcate, datele sunt deteriorate. \n\nPentru a relua utilizarea telefonului, trebuie să reveniți la setările din fabrică. Când vă configurați telefonul după resetare, veți putea să restabiliți toate datele care au backup în Contul Google."</string>
+    <string name="crypt_keeper_data_corrupt_summary" product="tablet" msgid="840107296925798402">"Parola pe care ați introdus-o este corectă, dar, din păcate, datele sunt deteriorate. \n\nPentru a relua utilizarea tabletei, trebuie să reveniți la setările din fabrică. Când vă configurați tableta după resetare, veți putea să restabiliți toate datele care au backup în Contul /e/."</string>
+    <string name="crypt_keeper_data_corrupt_summary" product="default" msgid="8843311420059663824">"Parola pe care ați introdus-o este corectă, dar, din păcate, datele sunt deteriorate. \n\nPentru a relua utilizarea telefonului, trebuie să reveniți la setările din fabrică. Când vă configurați telefonul după resetare, veți putea să restabiliți toate datele care au backup în Contul /e/."</string>
     <string name="crypt_keeper_switch_input_method" msgid="4168332125223483198">"Comutați metoda de introducere"</string>
     <string name="suggested_lock_settings_title" msgid="8971630898700461034">"Configurați blocarea ecranului"</string>
     <string name="suggested_lock_settings_summary" msgid="8778462376012231110">"Protejați dispozitivul"</string>
@@ -1360,8 +1360,8 @@
     <string name="network_reset_not_available" msgid="7188610385577164676">"Resetarea rețelei nu este disponibilă pentru acest utilizator"</string>
     <string name="reset_network_complete_toast" msgid="787829973559541880">"Setările pentru rețea au fost reinițializate"</string>
     <string name="master_clear_title" msgid="3531267871084279512">"Ștergeți toate datele (reveniți la setările din fabrică)"</string>
-    <string name="master_clear_desc" product="tablet" msgid="9146059417023157222">"Această acțiune va șterge toate datele din "<b>"stocarea internă"</b>" a tabletei dvs., inclusiv:\n\n"<li>"Contul dvs. Google;"</li>\n<li>"datele și setările sistemului și ale aplicațiilor;"</li>\n<li>"aplicațiile descărcate;"</li></string>
-    <string name="master_clear_desc" product="default" msgid="4800386183314202571">"Această acțiune va șterge toate datele din "<b>"stocarea internă"</b>" a telefonului dvs., inclusiv:\n\n"<li>"Contul dvs. Google;"</li>\n<li>"datele și setările sistemului și ale aplicațiilor;"</li>\n<li>"aplicațiile descărcate;"</li></string>
+    <string name="master_clear_desc" product="tablet" msgid="9146059417023157222">"Această acțiune va șterge toate datele din "<b>"stocarea internă"</b>" a tabletei dvs., inclusiv:\n\n"<li>"Contul dvs. /e/;"</li>\n<li>"datele și setările sistemului și ale aplicațiilor;"</li>\n<li>"aplicațiile descărcate;"</li></string>
+    <string name="master_clear_desc" product="default" msgid="4800386183314202571">"Această acțiune va șterge toate datele din "<b>"stocarea internă"</b>" a telefonului dvs., inclusiv:\n\n"<li>"Contul dvs. /e/;"</li>\n<li>"datele și setările sistemului și ale aplicațiilor;"</li>\n<li>"aplicațiile descărcate;"</li></string>
     <string name="master_clear_accounts" product="default" msgid="6412857499147999073">\n\n"În prezent sunteți conectat(ă) la următoarele conturi:\n"</string>
     <string name="master_clear_other_users_present" product="default" msgid="5161423070702470742">\n\n"Pe acest dispozitiv sunt prezenți și alți utilizatori.\n"</string>
     <string name="master_clear_desc_also_erases_external" msgid="1903185203791274237"><li>"Muzică;"</li>\n<li>"Fotografii;"</li>\n<li>"Alte date ale utilizatorului."</li></string>
@@ -1446,7 +1446,7 @@
     <string name="location_scanning_bluetooth_always_scanning_title" msgid="5444989508204520019">"Căutare de dispozitive Bluetooth"</string>
     <string name="location_scanning_bluetooth_always_scanning_description" msgid="8602726521250591852">"Îmbunătățiți localizarea permițând aplicațiilor și serviciilor de sistem să detecteze dispozitivele Bluetooth oricând."</string>
     <string name="location_network_based" msgid="9134175479520582215">"Localizare prin Wi-Fi și mobil"</string>
-    <string name="location_neighborhood_level" msgid="5141318121229984788">"Aplicațiile estimează mai rapid locația cu serviciul de localizare Google. Se colectează/trimit la Google date anonime de localizare."</string>
+    <string name="location_neighborhood_level" msgid="5141318121229984788">"Aplicațiile estimează mai rapid locația cu serviciul de localizare /e/. Se colectează/trimit la /e/ date anonime de localizare."</string>
     <string name="location_neighborhood_level_wifi" msgid="4234820941954812210">"Locație stabilită prin Wi-Fi"</string>
     <string name="location_gps" msgid="8392461023569708478">"Sateliți GPS"</string>
     <string name="location_street_level" product="tablet" msgid="1669562198260860802">"Permiteți aplicațiilor să utilizeze GPS de pe tabletă pentru a indica locația dvs."</string>
@@ -1454,8 +1454,8 @@
     <string name="assisted_gps" msgid="4649317129586736885">"Utilizați GPS asistat"</string>
     <string name="assisted_gps_enabled" msgid="8751899609589792803">"Utilizați serverul pentru a asista funcția GPS (debifați pentru a reduce utilizarea rețelei)"</string>
     <string name="assisted_gps_disabled" msgid="6982698333968010748">"Utilizați serverul pentru a asista funcția GPS (debifați pentru a îmbunătăți performanța GPS)"</string>
-    <string name="use_location_title" msgid="5206937465504979977">"Locație și căutare Google"</string>
-    <string name="use_location_summary" msgid="3978805802386162520">"Permiteți Google să utilizeze locația dvs. pt. îmbunătățirea rezultatelor căutării și a serviciilor"</string>
+    <string name="use_location_title" msgid="5206937465504979977">"Locație și căutare /e/"</string>
+    <string name="use_location_summary" msgid="3978805802386162520">"Permiteți /e/ să utilizeze locația dvs. pt. îmbunătățirea rezultatelor căutării și a serviciilor"</string>
     <string name="location_access_title" msgid="7064108942964081243">"Acces la locația dvs."</string>
     <string name="location_access_summary" msgid="69031404093194341">"Acordați aplicațiilor care v-au solicitat, permisiunea să utilizeze informațiile dvs. de localizare"</string>
     <string name="location_sources_heading" msgid="1278732419851088319">"Surse de locații"</string>
@@ -2259,7 +2259,7 @@
     <string name="backup_section_title" msgid="7952232291452882740">"Backup și restabilire"</string>
     <string name="personal_data_section_title" msgid="7815209034443782061">"Date personale"</string>
     <string name="backup_data_title" msgid="1239105919852668016">"Backup pentru date"</string>
-    <string name="backup_data_summary" msgid="708773323451655666">"Creați o copie de rezervă pentru datele aplicației, parolele Wi-Fi și pentru alte setări pe serverele Google"</string>
+    <string name="backup_data_summary" msgid="708773323451655666">"Creați o copie de rezervă pentru datele aplicației, parolele Wi-Fi și pentru alte setări pe serverele /e/"</string>
     <string name="backup_configure_account_title" msgid="3790872965773196615">"Cont de backup"</string>
     <string name="include_app_data_title" msgid="2829970132260278394">"Includeți datele aplicației"</string>
     <string name="auto_restore_title" msgid="5397528966329126506">"Restabilire automată"</string>
@@ -2267,7 +2267,7 @@
     <string name="backup_inactive_title" msgid="685838037986644604">"Serviciul de backup nu este activ"</string>
     <string name="backup_configure_account_default_summary" msgid="2436933224764745553">"În prezent, niciun cont nu stochează datele cu copii de rezervă"</string>
     <string name="backup_erase_dialog_title" msgid="1027640829482174106"></string>
-    <string name="backup_erase_dialog_message" msgid="5221011285568343155">"Doriți să opriți crearea copiei de rezervă pentru parolele Wi-Fi, marcaje, alte setări, datele aplicațiilor și să ștergeți toate copiile aflate pe serverele Google?"</string>
+    <string name="backup_erase_dialog_message" msgid="5221011285568343155">"Doriți să opriți crearea copiei de rezervă pentru parolele Wi-Fi, marcaje, alte setări, datele aplicațiilor și să ștergeți toate copiile aflate pe serverele /e/?"</string>
     <string name="fullbackup_erase_dialog_message" msgid="694766389396659626">"Doriți să nu li se mai facă backup datelor de pe dispozitiv (de exemplu, parolele Wi-Fi și istoricul apelurilor) și datelor din aplicații (de exemplu, setările și fișierele stocate de aplicații) și să ștergeți toate copiile de pe serverele la distanță?"</string>
     <string name="fullbackup_data_summary" msgid="960850365007767734">"Faceți backup automat pentru datele dispozitivului (de exemplu, parolele Wi-Fi și istoricul apelurilor) și pentru datele aplicațiilor (de exemplu, setările și fișierele stocate de aplicații) de la distanță.\n\nCând activați backupul automat, datele dispozitivului și ale aplicațiilor sunt salvate periodic de la distanță. Datele unei aplicații pot fi orice date pe care le-a salvat aplicația (în funcție de setările dezvoltatorului), inclusiv date posibil sensibile, cum a fi persoanele de contact, mesajele și fotografiile."</string>
     <string name="device_admin_settings_title" msgid="4960761799560705902">"Setările administratorului dispozitivului"</string>
@@ -2354,7 +2354,7 @@
     <string name="sync_gmail" msgid="714886122098006477">"Gmail"</string>
     <string name="sync_calendar" msgid="9056527206714733735">"Calendar"</string>
     <string name="sync_contacts" msgid="9174914394377828043">"Agendă"</string>
-    <string name="sync_plug" msgid="3905078969081888738"><font fgcolor="#ffffffff">"Bun venit la Sincronizarea Google!"</font>" \nO abordare Google asupra sincronizării datelor, care vă permite accesul la agenda dvs., la întâlniri și la multe alte informații, oriunde v-ați afla."</string>
+    <string name="sync_plug" msgid="3905078969081888738"><font fgcolor="#ffffffff">"Bun venit la Sincronizarea /e/!"</font>" \nO abordare /e/ asupra sincronizării datelor, care vă permite accesul la agenda dvs., la întâlniri și la multe alte informații, oriunde v-ați afla."</string>
     <string name="header_application_sync_settings" msgid="6205903695598000286">"Setări privind sincronizarea aplicației"</string>
     <string name="header_data_and_synchronization" msgid="5165024023936509896">"Datele și sincronizarea"</string>
     <string name="preference_change_password_title" msgid="8955581790270130056">"Schimbați parola"</string>
@@ -2443,8 +2443,8 @@
     <string name="data_usage_app_restrict_dialog" msgid="1466689968707308512">"Această funcție poate face ca o aplicație care depinde de datele de fundal să nu mai funcționeze când sunt disponibile numai rețele mobile.\n\nPuteți găsi comenzi mai adecvate pentru utilizarea datelor în setările disponibile în cadrul aplicației."</string>
     <string name="data_usage_restrict_denied_dialog" msgid="55012417305745608">"Restricționarea datelor de fundal este posibilă numai dacă ați setat o limită pentru datele mobile."</string>
     <string name="data_usage_auto_sync_on_dialog_title" msgid="2438617846762244389">"Activați sincronizarea datelor?"</string>
-    <string name="data_usage_auto_sync_on_dialog" product="tablet" msgid="8581983093524041669">"Modificările conturilor dvs. pe web vor fi copiate automat pe tabletă.\n\nDe asemenea, unele conturi pot să copieze automat pe web toate modificările pe care le efectuați pe tabletă. Așa funcționează un Cont Google."</string>
-    <string name="data_usage_auto_sync_on_dialog" product="default" msgid="8651376294887142858">"Ceea ce modificați în conturi pe web se va reflecta automat și pe telefon.\n\nUnele conturi pot să copieze automat pe web toate modificările de pe telefon. Așa funcționează un Cont Google."</string>
+    <string name="data_usage_auto_sync_on_dialog" product="tablet" msgid="8581983093524041669">"Modificările conturilor dvs. pe web vor fi copiate automat pe tabletă.\n\nDe asemenea, unele conturi pot să copieze automat pe web toate modificările pe care le efectuați pe tabletă. Așa funcționează un Cont /e/."</string>
+    <string name="data_usage_auto_sync_on_dialog" product="default" msgid="8651376294887142858">"Ceea ce modificați în conturi pe web se va reflecta automat și pe telefon.\n\nUnele conturi pot să copieze automat pe web toate modificările de pe telefon. Așa funcționează un Cont /e/."</string>
     <string name="data_usage_auto_sync_off_dialog_title" msgid="9013139130490125793">"Opriți sincronizarea automată?"</string>
     <string name="data_usage_auto_sync_off_dialog" msgid="4025938250775413864">"Această acțiune va economisi date și durata bateriei, dar va trebui să sincronizați fiecare cont manual pentru a culege informațiile recente. În plus, nu veți primi notificări atunci când apar actualizări."</string>
     <string name="data_usage_cycle_editor_title" msgid="1373797281540188533">"Data de resetare a ciclului de utilizare"</string>
@@ -3760,7 +3760,7 @@
     <string name="webview_disabled_for_user" msgid="1216426047631256825">"(dezactivat pentru <xliff:g id="USER">%s</xliff:g>)"</string>
     <string name="autofill_app" msgid="7338387238377914374">"Serviciu de completare automată"</string>
     <string name="autofill_keywords" msgid="7485591824120812710">"automată, completare, completare automată"</string>
-    <string name="autofill_confirmation_message" msgid="2784869528908005194">"&lt;b&gt;Asigurați-vă că aveți încredere în această aplicație&lt;/b&gt; &lt;br/&gt; &lt;br/&gt; &lt;xliff:g id=app_name example=Completarea automată Google&gt;%1$s&lt;/xliff:g&gt; folosește conținutul de pe ecran pentru a stabili ce se poate completa automat."</string>
+    <string name="autofill_confirmation_message" msgid="2784869528908005194">"&lt;b&gt;Asigurați-vă că aveți încredere în această aplicație&lt;/b&gt; &lt;br/&gt; &lt;br/&gt; &lt;xliff:g id=app_name example=Completarea automată /e/&gt;%1$s&lt;/xliff:g&gt; folosește conținutul de pe ecran pentru a stabili ce se poate completa automat."</string>
     <string name="device_theme" msgid="4571803018917608588">"Tema dispozitivului"</string>
     <string name="default_theme" msgid="7085644992078579076">"Prestabilită"</string>
     <string name="storage_manager_indicator" msgid="1516810749625915020">"Managerul spațiului de stocare: <xliff:g id="STATUS">^1</xliff:g>"</string>

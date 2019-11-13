@@ -445,11 +445,11 @@
     <string name="crypt_keeper_warn_wipe" msgid="2738374897337991667">"Peringatan: Perangkat Anda akan dihapus setelah <xliff:g id="COUNT">^1</xliff:g> percobaan gagal lagi dalam pembukaan kunci!"</string>
     <string name="crypt_keeper_enter_password" msgid="2223340178473871064">"Ketikkan sandi Anda"</string>
     <string name="crypt_keeper_failed_title" msgid="7133499413023075961">"Enkripsi gagal"</string>
-    <string name="crypt_keeper_failed_summary" product="tablet" msgid="8219375738445017266">"Enkripsi terputus dan tidak dapat diselesaikan. Akibatnya, data pada tablet Anda tidak dapat diakses lagi. \n\n Untuk terus menggunakan tablet, Anda perlu mengembalikannya ke setelan pabrik. Saat menyiapkan tablet setelah mengembalikannya ke setelan pabrik, Anda memiliki kesempatan untuk memulihkan data apa pun yang telah di-backup ke Akun Google."</string>
-    <string name="crypt_keeper_failed_summary" product="default" msgid="3270131542549577953">"Enkripsi terputus dan tidak dapat diselesaikan. Akibatnya, data di ponsel Anda tidak dapat diakses lagi. \n\n Untuk terus menggunakan ponsel, Anda perlu mengembalikannya ke setelan pabrik. Saat menyiapkan ponsel setelah mengembalikannya ke setelan pabrik, Anda memiliki kesempatan untuk memulihkan data apa pun yang telah di-backup ke Akun Google."</string>
+    <string name="crypt_keeper_failed_summary" product="tablet" msgid="8219375738445017266">"Enkripsi terputus dan tidak dapat diselesaikan. Akibatnya, data pada tablet Anda tidak dapat diakses lagi. \n\n Untuk terus menggunakan tablet, Anda perlu mengembalikannya ke setelan pabrik. Saat menyiapkan tablet setelah mengembalikannya ke setelan pabrik, Anda memiliki kesempatan untuk memulihkan data apa pun yang telah di-backup ke Akun /e/."</string>
+    <string name="crypt_keeper_failed_summary" product="default" msgid="3270131542549577953">"Enkripsi terputus dan tidak dapat diselesaikan. Akibatnya, data di ponsel Anda tidak dapat diakses lagi. \n\n Untuk terus menggunakan ponsel, Anda perlu mengembalikannya ke setelan pabrik. Saat menyiapkan ponsel setelah mengembalikannya ke setelan pabrik, Anda memiliki kesempatan untuk memulihkan data apa pun yang telah di-backup ke Akun /e/."</string>
     <string name="crypt_keeper_data_corrupt_title" msgid="8759119849089795751">"Dekripsi gagal"</string>
-    <string name="crypt_keeper_data_corrupt_summary" product="tablet" msgid="840107296925798402">"Sandi yang Anda masukkan benar, namun sayangnya data rusak. \n\nUntuk melanjutkan dengan tablet, Anda perlu mengembalikannya ke setelan pabrik. Saat menyiapkan tablet setelah disetel ulang, akan ada kesempatan untuk memulihkan data apa pun yang telah di-backup ke Akun Google."</string>
-    <string name="crypt_keeper_data_corrupt_summary" product="default" msgid="8843311420059663824">"Sandi yang Anda masukkan benar, namun sayangnya data rusak. \n\nUntuk melanjutkan dengan ponsel, Anda perlu mengembalikannya ke setelan pabrik. Jika Anda menyiapkan ponsel setelah setel ulang, akan ada kesempatan untuk memulihkan data apa pun yang telah di-backup ke Akun Google."</string>
+    <string name="crypt_keeper_data_corrupt_summary" product="tablet" msgid="840107296925798402">"Sandi yang Anda masukkan benar, namun sayangnya data rusak. \n\nUntuk melanjutkan dengan tablet, Anda perlu mengembalikannya ke setelan pabrik. Saat menyiapkan tablet setelah disetel ulang, akan ada kesempatan untuk memulihkan data apa pun yang telah di-backup ke Akun /e/."</string>
+    <string name="crypt_keeper_data_corrupt_summary" product="default" msgid="8843311420059663824">"Sandi yang Anda masukkan benar, namun sayangnya data rusak. \n\nUntuk melanjutkan dengan ponsel, Anda perlu mengembalikannya ke setelan pabrik. Jika Anda menyiapkan ponsel setelah setel ulang, akan ada kesempatan untuk memulihkan data apa pun yang telah di-backup ke Akun /e/."</string>
     <string name="crypt_keeper_switch_input_method" msgid="4168332125223483198">"Beralih metode masukan"</string>
     <string name="suggested_lock_settings_title" msgid="8971630898700461034">"Setel kunci layar"</string>
     <string name="suggested_lock_settings_summary" msgid="8778462376012231110">"Lindungi perangkat"</string>
@@ -1347,8 +1347,8 @@
     <string name="network_reset_not_available" msgid="7188610385577164676">"Setel ulang jaringan tidak tersedia untuk pengguna ini"</string>
     <string name="reset_network_complete_toast" msgid="787829973559541880">"Setelan jaringan telah disetel ulang"</string>
     <string name="master_clear_title" msgid="3531267871084279512">"Reset ke setelan pabrik"</string>
-    <string name="master_clear_desc" product="tablet" msgid="9146059417023157222">"Ini akan menghapus semua data dari "<b>"penyimpanan internal"</b>" tablet Anda, termasuk:\n\n"<li>"Akun Google Anda"</li>\n<li>"Data sistem dan apl serta setelan"</li>\n<li>"Apl yang didownload"</li></string>
-    <string name="master_clear_desc" product="default" msgid="4800386183314202571">"Ini akan menghapus semua data dari "<b>"penyimpanan internal"</b>" ponsel Anda, termasuk:\n\n"<li>"Akun Google Anda"</li>\n<li>"Data sistem dan aplikasi serta setelan"</li>\n<li>"Aplikasi yang didownload"</li></string>
+    <string name="master_clear_desc" product="tablet" msgid="9146059417023157222">"Ini akan menghapus semua data dari "<b>"penyimpanan internal"</b>" tablet Anda, termasuk:\n\n"<li>"Akun /e/ Anda"</li>\n<li>"Data sistem dan apl serta setelan"</li>\n<li>"Apl yang didownload"</li></string>
+    <string name="master_clear_desc" product="default" msgid="4800386183314202571">"Ini akan menghapus semua data dari "<b>"penyimpanan internal"</b>" ponsel Anda, termasuk:\n\n"<li>"Akun /e/ Anda"</li>\n<li>"Data sistem dan aplikasi serta setelan"</li>\n<li>"Aplikasi yang didownload"</li></string>
     <string name="master_clear_accounts" product="default" msgid="6412857499147999073">\n\n"Saat ini Anda telah login ke akun berikut:\n"</string>
     <string name="master_clear_other_users_present" product="default" msgid="5161423070702470742">\n\n"Ada pengguna lain yang aktif di perangkat ini.\n"</string>
     <string name="master_clear_desc_also_erases_external" msgid="1903185203791274237"><li>"Musik"</li>\n<li>"Foto"</li>\n<li>"Data pengguna lainnya"</li></string>
@@ -1433,7 +1433,7 @@
     <string name="location_scanning_bluetooth_always_scanning_title" msgid="5444989508204520019">"Pemindaian Bluetooth"</string>
     <string name="location_scanning_bluetooth_always_scanning_description" msgid="8602726521250591852">"Meningkatkan akurasi lokasi dengan mengizinkan aplikasi dan layanan sistem untuk mendeteksi perangkat Bluetooth kapan saja."</string>
     <string name="location_network_based" msgid="9134175479520582215">"Lokasi Wi-Fi &amp; seluler"</string>
-    <string name="location_neighborhood_level" msgid="5141318121229984788">"Izinkan aplikasi menggunakan layanan lokasi Google untuk memperkirakan lokasi Anda dengan lebih cepat. Data lokasi anonim akan dikumpulkan dan dikirim ke Google."</string>
+    <string name="location_neighborhood_level" msgid="5141318121229984788">"Izinkan aplikasi menggunakan layanan lokasi /e/ untuk memperkirakan lokasi Anda dengan lebih cepat. Data lokasi anonim akan dikumpulkan dan dikirim ke /e/."</string>
     <string name="location_neighborhood_level_wifi" msgid="4234820941954812210">"Lokasi yang ditentukan oleh Wi-Fi"</string>
     <string name="location_gps" msgid="8392461023569708478">"Satelit GPS"</string>
     <string name="location_street_level" product="tablet" msgid="1669562198260860802">"Mengizinkan aplikasi menggunakan GPS di tablet untuk menunjukkan lokasi Anda"</string>
@@ -1441,8 +1441,8 @@
     <string name="assisted_gps" msgid="4649317129586736885">"Gunakan GPS berbantuan"</string>
     <string name="assisted_gps_enabled" msgid="8751899609589792803">"Gunakan server untuk membantu GPS (hapus centang untuk mengurangi penggunaan jaringan)"</string>
     <string name="assisted_gps_disabled" msgid="6982698333968010748">"Gunakan server untuk membantu GPS (hapus centang untuk memperbaiki kinerja GPS)"</string>
-    <string name="use_location_title" msgid="5206937465504979977">"Lokasi &amp; penelusuran Google"</string>
-    <string name="use_location_summary" msgid="3978805802386162520">"Izinkan Google menggunakan lokasi Anda untuk meningkatkan hasil penelusuran dan layanan lainnya"</string>
+    <string name="use_location_title" msgid="5206937465504979977">"Lokasi &amp; penelusuran /e/"</string>
+    <string name="use_location_summary" msgid="3978805802386162520">"Izinkan /e/ menggunakan lokasi Anda untuk meningkatkan hasil penelusuran dan layanan lainnya"</string>
     <string name="location_access_title" msgid="7064108942964081243">"Akses ke lokasi saya"</string>
     <string name="location_access_summary" msgid="69031404093194341">"Aplikasi yang telah meminta izin boleh memakai informasi lokasi"</string>
     <string name="location_sources_heading" msgid="1278732419851088319">"Sumber lokasi"</string>
@@ -2238,7 +2238,7 @@
     <string name="backup_section_title" msgid="7952232291452882740">"Mencadangkan &amp; memulihkan"</string>
     <string name="personal_data_section_title" msgid="7815209034443782061">"Data pribadi"</string>
     <string name="backup_data_title" msgid="1239105919852668016">"Cadangkan data saya"</string>
-    <string name="backup_data_summary" msgid="708773323451655666">"Mencadangkan data aplikasi, sandi Wi-Fi, dan setelan lainnya ke server Google"</string>
+    <string name="backup_data_summary" msgid="708773323451655666">"Mencadangkan data aplikasi, sandi Wi-Fi, dan setelan lainnya ke server /e/"</string>
     <string name="backup_configure_account_title" msgid="3790872965773196615">"Akun backup"</string>
     <string name="include_app_data_title" msgid="2829970132260278394">"Sertakan data aplikasi"</string>
     <string name="auto_restore_title" msgid="5397528966329126506">"Pemulihan otomatis"</string>
@@ -2246,7 +2246,7 @@
     <string name="backup_inactive_title" msgid="685838037986644604">"Layanan backup tidak aktif"</string>
     <string name="backup_configure_account_default_summary" msgid="2436933224764745553">"Saat ini, tidak ada akun yang menyimpan data cadangan"</string>
     <string name="backup_erase_dialog_title" msgid="1027640829482174106"></string>
-    <string name="backup_erase_dialog_message" msgid="5221011285568343155">"Berhenti mencadangkan sandi Wi-Fi, bookmark, setelan lainnya, dan data aplikasi, serta menghapus semua salinan di server Google?"</string>
+    <string name="backup_erase_dialog_message" msgid="5221011285568343155">"Berhenti mencadangkan sandi Wi-Fi, bookmark, setelan lainnya, dan data aplikasi, serta menghapus semua salinan di server /e/?"</string>
     <string name="fullbackup_erase_dialog_message" msgid="694766389396659626">"Berhenti mencadangkan data perangkat (seperti sandi Wi-Fi dan histori panggilan) dan data aplikasi (seperti setelan dan file yang disimpan oleh aplikasi), serta hapus semua salinan di server jarak jauh?"</string>
     <string name="fullbackup_data_summary" msgid="960850365007767734">"Otomatis cadangkan data perangkat (seperti sandi Wi-Fi dan histori panggilan) dan data aplikasi (seperti setelan dan file yang disimpan oleh aplikasi) dari jarak jauh.\n\nJika Anda mengaktifkan cadangan otomatis, data perangkat dan aplikasi secara berkala disimpan dari jarak jauh. Data aplikasi dapat berupa data apa saja yang telah disimpan oleh aplikasi (menurut setelan developer), termasuk data yang berpotensi sensitif seperti kontak, pesan, dan foto."</string>
     <string name="device_admin_settings_title" msgid="4960761799560705902">"Setelan admin perangkat"</string>
@@ -2333,7 +2333,7 @@
     <string name="sync_gmail" msgid="714886122098006477">"Gmail"</string>
     <string name="sync_calendar" msgid="9056527206714733735">"Kalender"</string>
     <string name="sync_contacts" msgid="9174914394377828043">"Kontak"</string>
-    <string name="sync_plug" msgid="3905078969081888738"><font fgcolor="#ffffffff">"Selamat datang di Google sync!"</font>" \nPendekatan Google untuk menyinkronkan data guna memungkinkan akses ke kontak, janji temu, dan lain-lain dari mana saja."</string>
+    <string name="sync_plug" msgid="3905078969081888738"><font fgcolor="#ffffffff">"Selamat datang di /e/ sync!"</font>" \nPendekatan /e/ untuk menyinkronkan data guna memungkinkan akses ke kontak, janji temu, dan lain-lain dari mana saja."</string>
     <string name="header_application_sync_settings" msgid="6205903695598000286">"Setelan sinkronisasi apl"</string>
     <string name="header_data_and_synchronization" msgid="5165024023936509896">"Data &amp; sinkronisasi"</string>
     <string name="preference_change_password_title" msgid="8955581790270130056">"Ubah sandi"</string>
@@ -2422,8 +2422,8 @@
     <string name="data_usage_app_restrict_dialog" msgid="1466689968707308512">"Fitur ini dapat menghentikan aplikasi yang bergantung pada data latar saat hanya ada jaringan seluler.\n\nAnda dapat menemukan kontrol penggunaan data yang lebih sesuai dalam setelan yang tersedia dalam aplikasi."</string>
     <string name="data_usage_restrict_denied_dialog" msgid="55012417305745608">"Pembatasan data latar belakang hanya dimungkinkan jika Anda telah menyetel batas data seluler."</string>
     <string name="data_usage_auto_sync_on_dialog_title" msgid="2438617846762244389">"Aktifkan sinkronisasi data otomatis?"</string>
-    <string name="data_usage_auto_sync_on_dialog" product="tablet" msgid="8581983093524041669">"Perubahan apa pun yang dilakukan pada akun Anda di web akan disalin ke tablet secara otomatis.\n\nBeberapa akun juga dapat otomatis menyalin setiap perubahan yang dilakukan di tablet ke web. Akun Google mengikuti cara kerja tersebut."</string>
-    <string name="data_usage_auto_sync_on_dialog" product="default" msgid="8651376294887142858">"Perubahan apa pun yang dilakukan pada akun Anda di web akan disalin ke ponsel secara otomatis.\n\nBeberapa akun juga dapat otomatis menyalin setiap perubahan yang dilakukan di ponsel ke web. Akun Google mengikuti cara kerja tersebut."</string>
+    <string name="data_usage_auto_sync_on_dialog" product="tablet" msgid="8581983093524041669">"Perubahan apa pun yang dilakukan pada akun Anda di web akan disalin ke tablet secara otomatis.\n\nBeberapa akun juga dapat otomatis menyalin setiap perubahan yang dilakukan di tablet ke web. Akun /e/ mengikuti cara kerja tersebut."</string>
+    <string name="data_usage_auto_sync_on_dialog" product="default" msgid="8651376294887142858">"Perubahan apa pun yang dilakukan pada akun Anda di web akan disalin ke ponsel secara otomatis.\n\nBeberapa akun juga dapat otomatis menyalin setiap perubahan yang dilakukan di ponsel ke web. Akun /e/ mengikuti cara kerja tersebut."</string>
     <string name="data_usage_auto_sync_off_dialog_title" msgid="9013139130490125793">"Nonaktifkan sinkronisasi data otomatis?"</string>
     <string name="data_usage_auto_sync_off_dialog" msgid="4025938250775413864">"Ini akan menghemat penggunaan baterai dan data, tapi Anda perlu menyinkronkan setiap akun secara manual untuk mengumpulkan informasi terkini. Anda juga tidak akan menerima pemberitahuan ketika ada update."</string>
     <string name="data_usage_cycle_editor_title" msgid="1373797281540188533">"Tanggal penyetelan ulang siklus penggunaan"</string>
@@ -3705,7 +3705,7 @@
     <string name="webview_disabled_for_user" msgid="1216426047631256825">"(dinonaktifkan untuk pengguna <xliff:g id="USER">%s</xliff:g>)"</string>
     <string name="autofill_app" msgid="7338387238377914374">"Layanan IsiOtomatis"</string>
     <string name="autofill_keywords" msgid="7485591824120812710">"otomatis, isi, isiotomatis"</string>
-    <string name="autofill_confirmation_message" msgid="2784869528908005194">"&lt;b&gt;Pastikan Anda memercayai aplikasi ini&lt;/b&gt; &lt;br/&gt; &lt;br/&gt; &lt;xliff:g id=app_name example=Google IsiOtomatis&gt;%1$s&lt;/xliff:g&gt; menggunakan item yang ada di layar untuk menentukan item apa saja yang dapat diisi otomatis."</string>
+    <string name="autofill_confirmation_message" msgid="2784869528908005194">"&lt;b&gt;Pastikan Anda memercayai aplikasi ini&lt;/b&gt; &lt;br/&gt; &lt;br/&gt; &lt;xliff:g id=app_name example=/e/ IsiOtomatis&gt;%1$s&lt;/xliff:g&gt; menggunakan item yang ada di layar untuk menentukan item apa saja yang dapat diisi otomatis."</string>
     <string name="device_theme" msgid="4571803018917608588">"Tema perangkat"</string>
     <string name="default_theme" msgid="7085644992078579076">"Default"</string>
     <string name="storage_manager_indicator" msgid="1516810749625915020">"Pengelola Penyimpanan: <xliff:g id="STATUS">^1</xliff:g>"</string>

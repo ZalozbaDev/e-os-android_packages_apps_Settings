@@ -451,11 +451,11 @@
     <string name="crypt_keeper_warn_wipe" msgid="2738374897337991667">"Upozornění: Po <xliff:g id="COUNT">^1</xliff:g> dalších neúspěšných pokusech o odemknutí bude zařízení vymazáno!"</string>
     <string name="crypt_keeper_enter_password" msgid="2223340178473871064">"Zadejte heslo"</string>
     <string name="crypt_keeper_failed_title" msgid="7133499413023075961">"Šifrování se nezdařilo"</string>
-    <string name="crypt_keeper_failed_summary" product="tablet" msgid="8219375738445017266">"Šifrování bylo přerušeno a nelze je dokončit. V důsledku toho již nebudou údaje v tabletu přístupné. \n\n Chcete-li tablet opět začít používat, je potřeba obnovit tovární nastavení. Po obnově budete moci v průběhu nastavení tabletu obnovit všechna data, která jsou zálohována v účtu Google."</string>
-    <string name="crypt_keeper_failed_summary" product="default" msgid="3270131542549577953">"Šifrování bylo přerušeno a nelze je dokončit. V důsledku toho již nebudou údaje v telefonu přístupné. \n\nChcete-li telefon opět začít používat, je potřeba obnovit tovární nastavení. Po obnově budete moci v průběhu nastavení telefonu obnovit všechna data, která jsou zálohována v účtu Google."</string>
+    <string name="crypt_keeper_failed_summary" product="tablet" msgid="8219375738445017266">"Šifrování bylo přerušeno a nelze je dokončit. V důsledku toho již nebudou údaje v tabletu přístupné. \n\n Chcete-li tablet opět začít používat, je potřeba obnovit tovární nastavení. Po obnově budete moci v průběhu nastavení tabletu obnovit všechna data, která jsou zálohována v účtu /e/."</string>
+    <string name="crypt_keeper_failed_summary" product="default" msgid="3270131542549577953">"Šifrování bylo přerušeno a nelze je dokončit. V důsledku toho již nebudou údaje v telefonu přístupné. \n\nChcete-li telefon opět začít používat, je potřeba obnovit tovární nastavení. Po obnově budete moci v průběhu nastavení telefonu obnovit všechna data, která jsou zálohována v účtu /e/."</string>
     <string name="crypt_keeper_data_corrupt_title" msgid="8759119849089795751">"Dešifrování se nezdařilo"</string>
-    <string name="crypt_keeper_data_corrupt_summary" product="tablet" msgid="840107296925798402">"Zadané heslo je správné, avšak data jsou poškozena.\n\nChcete-li tablet nadále používat, je nutné v něm obnovit tovární nastavení. Až budete tablet po obnově znovu nastavovat, bude možné obnovit veškerá data, která byla zálohována na váš účet Google."</string>
-    <string name="crypt_keeper_data_corrupt_summary" product="default" msgid="8843311420059663824">"Zadané heslo je správné, avšak data jsou poškozena.\n\nChcete-li telefon nadále používat, je nutné v něm obnovit tovární nastavení. Až budete telefon po obnově znovu nastavovat, bude možné obnovit veškerá data, která byla zálohována na váš účet Google."</string>
+    <string name="crypt_keeper_data_corrupt_summary" product="tablet" msgid="840107296925798402">"Zadané heslo je správné, avšak data jsou poškozena.\n\nChcete-li tablet nadále používat, je nutné v něm obnovit tovární nastavení. Až budete tablet po obnově znovu nastavovat, bude možné obnovit veškerá data, která byla zálohována na váš účet /e/."</string>
+    <string name="crypt_keeper_data_corrupt_summary" product="default" msgid="8843311420059663824">"Zadané heslo je správné, avšak data jsou poškozena.\n\nChcete-li telefon nadále používat, je nutné v něm obnovit tovární nastavení. Až budete telefon po obnově znovu nastavovat, bude možné obnovit veškerá data, která byla zálohována na váš účet /e/."</string>
     <string name="crypt_keeper_switch_input_method" msgid="4168332125223483198">"Přepnout metodu zadávání"</string>
     <string name="suggested_lock_settings_title" msgid="8971630898700461034">"Nastavení zámku obrazovky"</string>
     <string name="suggested_lock_settings_summary" msgid="8778462376012231110">"Ochraňte své zařízení"</string>
@@ -1373,8 +1373,8 @@
     <string name="network_reset_not_available" msgid="7188610385577164676">"Pro tohoto uživatele resetování sítě není k dispozici"</string>
     <string name="reset_network_complete_toast" msgid="787829973559541880">"Nastavení sítí bylo resetováno"</string>
     <string name="master_clear_title" msgid="3531267871084279512">"Vymazat data (tovární reset)"</string>
-    <string name="master_clear_desc" product="tablet" msgid="9146059417023157222">"Tato akce smaže veškerá data z "<b>"interního úložiště"</b>" tabletu, mj. i:\n\n"<li>"váš účet Google"</li>\n<li>"nastavení a data systému a aplikací"</li>\n<li>"stažené aplikace"</li></string>
-    <string name="master_clear_desc" product="default" msgid="4800386183314202571">"Tato akce smaže veškerá data z "<b>"interního úložiště"</b>" telefonu, mj. i:\n\n"<li>"váš účet Google"</li>\n<li>"nastavení a data systému a aplikací"</li>\n<li>"stažené aplikace"</li></string>
+    <string name="master_clear_desc" product="tablet" msgid="9146059417023157222">"Tato akce smaže veškerá data z "<b>"interního úložiště"</b>" tabletu, mj. i:\n\n"<li>"váš účet /e/"</li>\n<li>"nastavení a data systému a aplikací"</li>\n<li>"stažené aplikace"</li></string>
+    <string name="master_clear_desc" product="default" msgid="4800386183314202571">"Tato akce smaže veškerá data z "<b>"interního úložiště"</b>" telefonu, mj. i:\n\n"<li>"váš účet /e/"</li>\n<li>"nastavení a data systému a aplikací"</li>\n<li>"stažené aplikace"</li></string>
     <string name="master_clear_accounts" product="default" msgid="6412857499147999073">\n\n"Aktuálně jste přihlášeni k těmto účtům:\n"</string>
     <string name="master_clear_other_users_present" product="default" msgid="5161423070702470742">\n\n"V tomto zařízení jsou přítomni další uživatelé.\n"</string>
     <string name="master_clear_desc_also_erases_external" msgid="1903185203791274237"><li>"hudba"</li>\n<li>"fotky"</li>\n<li>"další uživatelské údaje"</li></string>
@@ -1429,7 +1429,7 @@
     <string name="sms_change_default_no_previous_dialog_text" msgid="602683880284921998">"Chcete pro zprávy SMS používat aplikaci <xliff:g id="NEW_APP">%s</xliff:g>?"</string>
     <string name="network_scorer_picker_title" msgid="6383879578279046456">"Poskytovatel hodnocení sítí"</string>
     <string name="network_scorer_picker_none_preference" msgid="9028375117241790936">"Žádné"</string>
-    <string name="network_scorer_change_active_dialog_title" msgid="3776301550387574975">"Změnit nastavení Google Wi-Fi Assistant?"</string>
+    <string name="network_scorer_change_active_dialog_title" msgid="3776301550387574975">"Změnit nastavení /e/ Wi-Fi Assistant?"</string>
     <string name="network_scorer_change_active_dialog_text" msgid="8035173880322990715">"Chcete spravovat síťová připojení pomocí aplikace <xliff:g id="NEW_APP">%1$s</xliff:g> namísto aplikace <xliff:g id="CURRENT_APP">%2$s</xliff:g>?"</string>
     <string name="network_scorer_change_active_no_previous_dialog_text" msgid="7444620909047611601">"Chcete spravovat síťová připojení pomocí aplikace <xliff:g id="NEW_APP">%s</xliff:g>?"</string>
     <string name="mobile_unknown_sim_operator" msgid="2156912373230276157">"Operátor SIM karty není znám"</string>
@@ -1459,7 +1459,7 @@
     <string name="location_scanning_bluetooth_always_scanning_title" msgid="5444989508204520019">"Vyhledávání Bluetooth"</string>
     <string name="location_scanning_bluetooth_always_scanning_description" msgid="8602726521250591852">"Umožňuje zlepšit přesnost určování polohy tím, že systémové aplikace a služby budou vyhledávat zařízení Bluetooth neustále."</string>
     <string name="location_network_based" msgid="9134175479520582215">"Poloha Wi-Fi a mobilní sítě"</string>
-    <string name="location_neighborhood_level" msgid="5141318121229984788">"Povolit aplikacím používat službu určování polohy Google a rychleji odhadovat vaši polohu. Anonymní data budou sbírána a odesílána Googlu."</string>
+    <string name="location_neighborhood_level" msgid="5141318121229984788">"Povolit aplikacím používat službu určování polohy /e/ a rychleji odhadovat vaši polohu. Anonymní data budou sbírána a odesílána Googlu."</string>
     <string name="location_neighborhood_level_wifi" msgid="4234820941954812210">"Poloha určená sítí Wi-Fi"</string>
     <string name="location_gps" msgid="8392461023569708478">"Satelity GPS"</string>
     <string name="location_street_level" product="tablet" msgid="1669562198260860802">"Povolit aplikacím ve vašem tabletu určovat polohu pomocí GPS"</string>
@@ -2280,7 +2280,7 @@
     <string name="backup_section_title" msgid="7952232291452882740">"Zálohování a obnovení"</string>
     <string name="personal_data_section_title" msgid="7815209034443782061">"Osobní údaje"</string>
     <string name="backup_data_title" msgid="1239105919852668016">"Zálohování mých dat"</string>
-    <string name="backup_data_summary" msgid="708773323451655666">"Zálohovat data aplikací, hesla sítí Wi-Fi a další nastavení na serverech Google"</string>
+    <string name="backup_data_summary" msgid="708773323451655666">"Zálohovat data aplikací, hesla sítí Wi-Fi a další nastavení na serverech /e/"</string>
     <string name="backup_configure_account_title" msgid="3790872965773196615">"Záložní účet"</string>
     <string name="include_app_data_title" msgid="2829970132260278394">"Zahrnout data aplikací"</string>
     <string name="auto_restore_title" msgid="5397528966329126506">"Automatické obnovení"</string>
@@ -2288,7 +2288,7 @@
     <string name="backup_inactive_title" msgid="685838037986644604">"Služba zálohování není aktivní"</string>
     <string name="backup_configure_account_default_summary" msgid="2436933224764745553">"Aktuálně nejsou zálohovaná data ukládána do žádného účtu."</string>
     <string name="backup_erase_dialog_title" msgid="1027640829482174106"></string>
-    <string name="backup_erase_dialog_message" msgid="5221011285568343155">"Chcete přestat zálohovat hesla sítí Wi-Fi, záložky, další nastavení, data aplikací a vymazat všechny kopie ze serverů Google?"</string>
+    <string name="backup_erase_dialog_message" msgid="5221011285568343155">"Chcete přestat zálohovat hesla sítí Wi-Fi, záložky, další nastavení, data aplikací a vymazat všechny kopie ze serverů /e/?"</string>
     <string name="fullbackup_erase_dialog_message" msgid="694766389396659626">"Zastavit zálohování dat zařízení (jako jsou hesla sítí Wi-Fi a historie volání) a dat aplikací (jako jsou nastavení a soubory uložené aplikacemi) a vymazat všechny kopie na vzdálených serverech?"</string>
     <string name="fullbackup_data_summary" msgid="960850365007767734">"Automaticky vzdáleně zálohujte data zařízení (jako jsou hesla sítí Wi-Fi a historie volání) a data aplikací (jako jsou nastavení a soubory uložené aplikacemi).\n\nKdyž zapnete automatické zálohování, data zařízení a aplikací se budou pravidelně ukládat do vzdáleného úložiště. Data aplikací mohou zahrnovat data, která uložila aplikace (v závislosti na nastavení vývojáře), včetně potenciálně citlivých dat, jako jsou kontakty, zprávy a fotky."</string>
     <string name="device_admin_settings_title" msgid="4960761799560705902">"Nastavení administrátora zařízení"</string>
@@ -2375,7 +2375,7 @@
     <string name="sync_gmail" msgid="714886122098006477">"Gmail"</string>
     <string name="sync_calendar" msgid="9056527206714733735">"Kalendář"</string>
     <string name="sync_contacts" msgid="9174914394377828043">"Kontakty"</string>
-    <string name="sync_plug" msgid="3905078969081888738"><font fgcolor="#ffffffff">"Vítá vás aplikace Google Sync."</font>" \nNový pohled společnosti Google na synchronizaci dat vám poskytuje přístup ke kontaktům, schůzkám a dalším informacím, ať jste kdekoli."</string>
+    <string name="sync_plug" msgid="3905078969081888738"><font fgcolor="#ffffffff">"Vítá vás aplikace /e/ Sync."</font>" \nNový pohled společnosti /e/ na synchronizaci dat vám poskytuje přístup ke kontaktům, schůzkám a dalším informacím, ať jste kdekoli."</string>
     <string name="header_application_sync_settings" msgid="6205903695598000286">"Nastavení synchronizace aplikací"</string>
     <string name="header_data_and_synchronization" msgid="5165024023936509896">"Data a synchronizace"</string>
     <string name="preference_change_password_title" msgid="8955581790270130056">"Změnit heslo"</string>
@@ -2464,8 +2464,8 @@
     <string name="data_usage_app_restrict_dialog" msgid="1466689968707308512">"Pokud budou k dispozici pouze mobilní sítě, může tato funkce způsobit, že aplikace, které data na pozadí vyžadují, nebudou fungovat.\n\nVhodnější způsoby řízení využívání dat naleznete v nastavení aplikace."</string>
     <string name="data_usage_restrict_denied_dialog" msgid="55012417305745608">"Omezení dat na pozadí je k dispozici pouze v případě, že jste nastavili limit přenosu mobilních dat."</string>
     <string name="data_usage_auto_sync_on_dialog_title" msgid="2438617846762244389">"Zapnout automatickou synchronizaci dat?"</string>
-    <string name="data_usage_auto_sync_on_dialog" product="tablet" msgid="8581983093524041669">"Změny, které v rámci svých účtů provedete na webu, se automaticky zkopírují do tabletu.\n\nNěkteré účty také automaticky zkopírují změny provedené v tabletu na web. Tímto způsobem funguje například účet Google."</string>
-    <string name="data_usage_auto_sync_on_dialog" product="default" msgid="8651376294887142858">"Změny, které v rámci svých účtů provedete na webu, se automaticky zkopírují do telefonu.\n\nNěkteré účty také automaticky zkopírují změny provedené v telefonu na web. Tímto způsobem funguje například účet Google."</string>
+    <string name="data_usage_auto_sync_on_dialog" product="tablet" msgid="8581983093524041669">"Změny, které v rámci svých účtů provedete na webu, se automaticky zkopírují do tabletu.\n\nNěkteré účty také automaticky zkopírují změny provedené v tabletu na web. Tímto způsobem funguje například účet /e/."</string>
+    <string name="data_usage_auto_sync_on_dialog" product="default" msgid="8651376294887142858">"Změny, které v rámci svých účtů provedete na webu, se automaticky zkopírují do telefonu.\n\nNěkteré účty také automaticky zkopírují změny provedené v telefonu na web. Tímto způsobem funguje například účet /e/."</string>
     <string name="data_usage_auto_sync_off_dialog_title" msgid="9013139130490125793">"Vypnout automatickou synchronizaci dat?"</string>
     <string name="data_usage_auto_sync_off_dialog" msgid="4025938250775413864">"Toto nastavení šetří využití dat a baterii. Nejnovější informace však bude třeba získávat pomocí ruční synchronizace účtu. Rovněž nebudete dostávat oznámení o dostupných aktualizacích."</string>
     <string name="data_usage_cycle_editor_title" msgid="1373797281540188533">"Datum obnovení cyklu sledování přenesených dat"</string>
@@ -3815,7 +3815,7 @@
     <string name="webview_disabled_for_user" msgid="1216426047631256825">"(pro uživatele <xliff:g id="USER">%s</xliff:g> nedostupné)"</string>
     <string name="autofill_app" msgid="7338387238377914374">"Služba automatického vyplňování"</string>
     <string name="autofill_keywords" msgid="7485591824120812710">"automatické vyplňování, vyplňování"</string>
-    <string name="autofill_confirmation_message" msgid="2784869528908005194">"&lt;b&gt;Zkontrolujte, zda se jedná o důvěryhodnou aplikaci&lt;/b&gt; &lt;br/&gt; &lt;br/&gt; &lt;xliff:g id=app_name example=Automatické doplňování Google&gt;%1$s&lt;/xliff:g&gt; určuje na základě obsahu obrazovky, co lze automaticky vyplnit."</string>
+    <string name="autofill_confirmation_message" msgid="2784869528908005194">"&lt;b&gt;Zkontrolujte, zda se jedná o důvěryhodnou aplikaci&lt;/b&gt; &lt;br/&gt; &lt;br/&gt; &lt;xliff:g id=app_name example=Automatické doplňování /e/&gt;%1$s&lt;/xliff:g&gt; určuje na základě obsahu obrazovky, co lze automaticky vyplnit."</string>
     <string name="device_theme" msgid="4571803018917608588">"Motiv zařízení"</string>
     <string name="default_theme" msgid="7085644992078579076">"Výchozí"</string>
     <string name="storage_manager_indicator" msgid="1516810749625915020">"Správce úložiště: <xliff:g id="STATUS">^1</xliff:g>"</string>

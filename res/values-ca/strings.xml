@@ -445,11 +445,11 @@
     <string name="crypt_keeper_warn_wipe" msgid="2738374897337991667">"Advertiment: si proves de desbloquejar el dispositiu <xliff:g id="COUNT">^1</xliff:g> vegades més de manera incorrecta, se n\'esborraran totes les dades."</string>
     <string name="crypt_keeper_enter_password" msgid="2223340178473871064">"Escriu la contrasenya"</string>
     <string name="crypt_keeper_failed_title" msgid="7133499413023075961">"S\'ha produït un error en encriptar"</string>
-    <string name="crypt_keeper_failed_summary" product="tablet" msgid="8219375738445017266">"S\'ha interromput l\'encriptació i no es pot completar. A conseqüència d\'això, ja no es pot accedir a les dades de la tauleta. \n\nPer reprendre l\'ús de la tauleta, cal que duguis a terme un restabliment de fàbrica. Quan configuris la tauleta després del restabliment, tindràs l\'oportunitat de restaurar les dades de les quals s\'hagi fet una còpia de seguretat al teu compte de Google."</string>
-    <string name="crypt_keeper_failed_summary" product="default" msgid="3270131542549577953">"S\'ha interromput l\'encriptació i no es pot completar. A conseqüència d\'això, ja no es pot accedir a les dades del telèfon. \n\nPer reprendre l\'ús del telèfon, cal que duguis a terme un restabliment de fàbrica. Quan configuris el telèfon després del restabliment, tindràs l\'oportunitat de restaurar les dades de les quals s\'hagi fet una còpia de seguretat al teu compte de Google."</string>
+    <string name="crypt_keeper_failed_summary" product="tablet" msgid="8219375738445017266">"S\'ha interromput l\'encriptació i no es pot completar. A conseqüència d\'això, ja no es pot accedir a les dades de la tauleta. \n\nPer reprendre l\'ús de la tauleta, cal que duguis a terme un restabliment de fàbrica. Quan configuris la tauleta després del restabliment, tindràs l\'oportunitat de restaurar les dades de les quals s\'hagi fet una còpia de seguretat al teu compte de /e/."</string>
+    <string name="crypt_keeper_failed_summary" product="default" msgid="3270131542549577953">"S\'ha interromput l\'encriptació i no es pot completar. A conseqüència d\'això, ja no es pot accedir a les dades del telèfon. \n\nPer reprendre l\'ús del telèfon, cal que duguis a terme un restabliment de fàbrica. Quan configuris el telèfon després del restabliment, tindràs l\'oportunitat de restaurar les dades de les quals s\'hagi fet una còpia de seguretat al teu compte de /e/."</string>
     <string name="crypt_keeper_data_corrupt_title" msgid="8759119849089795751">"No s\'ha pogut desencriptar"</string>
-    <string name="crypt_keeper_data_corrupt_summary" product="tablet" msgid="840107296925798402">"La contrasenya és correcta, però malauradament les dades estan malmeses. \n\nPer continuar fent servir la tauleta, has de restablir les característiques de fàbrica. Quan configuris la tauleta després de restablir-la, podràs recuperar les dades de què hagis fet una còpia de seguretat al compte de Google."</string>
-    <string name="crypt_keeper_data_corrupt_summary" product="default" msgid="8843311420059663824">"La contrasenya és correcta, però malauradament les dades estan malmeses. \n\nPer continuar fent servir el telèfon, has de restablir les característiques de fàbrica. Quan configuris el telèfon després de restablir-lo, podràs recuperar les dades de què hagis fet una còpia de seguretat al compte de Google."</string>
+    <string name="crypt_keeper_data_corrupt_summary" product="tablet" msgid="840107296925798402">"La contrasenya és correcta, però malauradament les dades estan malmeses. \n\nPer continuar fent servir la tauleta, has de restablir les característiques de fàbrica. Quan configuris la tauleta després de restablir-la, podràs recuperar les dades de què hagis fet una còpia de seguretat al compte de /e/."</string>
+    <string name="crypt_keeper_data_corrupt_summary" product="default" msgid="8843311420059663824">"La contrasenya és correcta, però malauradament les dades estan malmeses. \n\nPer continuar fent servir el telèfon, has de restablir les característiques de fàbrica. Quan configuris el telèfon després de restablir-lo, podràs recuperar les dades de què hagis fet una còpia de seguretat al compte de /e/."</string>
     <string name="crypt_keeper_switch_input_method" msgid="4168332125223483198">"Canvia el mètode d\'introducció"</string>
     <string name="suggested_lock_settings_title" msgid="8971630898700461034">"Defineix el bloqueig de pantalla"</string>
     <string name="suggested_lock_settings_summary" msgid="8778462376012231110">"Protegeix el teu dispositiu"</string>
@@ -1347,8 +1347,8 @@
     <string name="network_reset_not_available" msgid="7188610385577164676">"El restabliment de xarxa no està disponible per a aquest usuari"</string>
     <string name="reset_network_complete_toast" msgid="787829973559541880">"S\'ha restablert la configuració de la xarxa"</string>
     <string name="master_clear_title" msgid="3531267871084279512">"Esborra totes les dades (restabliment de les dades de fàbrica)"</string>
-    <string name="master_clear_desc" product="tablet" msgid="9146059417023157222">"Aquesta acció esborrarà totes les dades de l\'"<b>"emmagatzematge intern"</b>" de la tauleta, com ara:\n\n"<li>"El teu compte de Google"</li>\n<li>"Les dades i la configuració del sistema i de les aplicacions"</li>\n<li>"Les aplicacions baixades"</li></string>
-    <string name="master_clear_desc" product="default" msgid="4800386183314202571">"Aquesta acció esborrarà totes les dades de l\'"<b>"emmagatzematge intern"</b>" del teu telèfon, també:\n\n"<li>"El teu compte de Google"</li>\n<li>"Les dades i la configuració del sistema i de les aplicacions"</li>\n<li>"Les aplicacions baixades"</li></string>
+    <string name="master_clear_desc" product="tablet" msgid="9146059417023157222">"Aquesta acció esborrarà totes les dades de l\'"<b>"emmagatzematge intern"</b>" de la tauleta, com ara:\n\n"<li>"El teu compte de /e/"</li>\n<li>"Les dades i la configuració del sistema i de les aplicacions"</li>\n<li>"Les aplicacions baixades"</li></string>
+    <string name="master_clear_desc" product="default" msgid="4800386183314202571">"Aquesta acció esborrarà totes les dades de l\'"<b>"emmagatzematge intern"</b>" del teu telèfon, també:\n\n"<li>"El teu compte de /e/"</li>\n<li>"Les dades i la configuració del sistema i de les aplicacions"</li>\n<li>"Les aplicacions baixades"</li></string>
     <string name="master_clear_accounts" product="default" msgid="6412857499147999073">\n\n"Tens la sessió iniciada als comptes següents:\n"</string>
     <string name="master_clear_other_users_present" product="default" msgid="5161423070702470742">\n\n"En aquest dispositiu hi ha altres usuaris.\n"</string>
     <string name="master_clear_desc_also_erases_external" msgid="1903185203791274237"><li>"Música"</li>\n<li>"Fotos"</li>\n<li>"Altres dades de l\'usuari"</li></string>
@@ -1433,7 +1433,7 @@
     <string name="location_scanning_bluetooth_always_scanning_title" msgid="5444989508204520019">"Cerca de dispositius Bluetooth"</string>
     <string name="location_scanning_bluetooth_always_scanning_description" msgid="8602726521250591852">"Millora la ubicació permetent que les aplicacions i els serveis del sistema detectin els dispositius Bluetooth en qualsevol moment."</string>
     <string name="location_network_based" msgid="9134175479520582215">"Ubicació p. Wi-Fi i xarxa mòb."</string>
-    <string name="location_neighborhood_level" msgid="5141318121229984788">"Permet que les aplicacions utilitzin el servei d\'ubicació de Google per calcular la teva ubicació més ràpidament. Es recopilaran dades d\'ubicació anònimes i s\'enviaran a Google."</string>
+    <string name="location_neighborhood_level" msgid="5141318121229984788">"Permet que les aplicacions utilitzin el servei d\'ubicació de /e/ per calcular la teva ubicació més ràpidament. Es recopilaran dades d\'ubicació anònimes i s\'enviaran a /e/."</string>
     <string name="location_neighborhood_level_wifi" msgid="4234820941954812210">"Ubicació determinada per Wi-Fi"</string>
     <string name="location_gps" msgid="8392461023569708478">"Satèl·lits GPS"</string>
     <string name="location_street_level" product="tablet" msgid="1669562198260860802">"Permet que les aplicacions utilitzin el GPS de la tauleta per determinar la teva ubicació exacta"</string>
@@ -1441,8 +1441,8 @@
     <string name="assisted_gps" msgid="4649317129586736885">"Utilitza GPS assistit"</string>
     <string name="assisted_gps_enabled" msgid="8751899609589792803">"Utilitza el servidor per ajudar al GPS (desmarqueu-ho per reduir l\'ús de la xarxa)"</string>
     <string name="assisted_gps_disabled" msgid="6982698333968010748">"Utilitza el servidor per ajudar al GPS (desmarqueu-ho per millorar el rendiment del GPS)"</string>
-    <string name="use_location_title" msgid="5206937465504979977">"Ubicació i cerca de Google"</string>
-    <string name="use_location_summary" msgid="3978805802386162520">"Permet a Google utilitzar la teva ubicació per millorar els resultats de cerca i altres serveis."</string>
+    <string name="use_location_title" msgid="5206937465504979977">"Ubicació i cerca de /e/"</string>
+    <string name="use_location_summary" msgid="3978805802386162520">"Permet a /e/ utilitzar la teva ubicació per millorar els resultats de cerca i altres serveis."</string>
     <string name="location_access_title" msgid="7064108942964081243">"Accés a la meva ubicació"</string>
     <string name="location_access_summary" msgid="69031404093194341">"Permet que les aplicacions que hagin demanat permís utilitzin la informació sobre la ubicació"</string>
     <string name="location_sources_heading" msgid="1278732419851088319">"Fonts d\'ubicació"</string>
@@ -2238,7 +2238,7 @@
     <string name="backup_section_title" msgid="7952232291452882740">"Còpia de seguretat i restauració"</string>
     <string name="personal_data_section_title" msgid="7815209034443782061">"Dades personals"</string>
     <string name="backup_data_title" msgid="1239105919852668016">"Còpia de seguretat de les meves dades"</string>
-    <string name="backup_data_summary" msgid="708773323451655666">"Fes una còpia de seguretat als servidors de Google de dades d\'aplicacions, contrasenyes Wi-Fi i altres opcions de configuració"</string>
+    <string name="backup_data_summary" msgid="708773323451655666">"Fes una còpia de seguretat als servidors de /e/ de dades d\'aplicacions, contrasenyes Wi-Fi i altres opcions de configuració"</string>
     <string name="backup_configure_account_title" msgid="3790872965773196615">"Compte de còpia de seguretat"</string>
     <string name="include_app_data_title" msgid="2829970132260278394">"Inclou dades de l\'aplicació"</string>
     <string name="auto_restore_title" msgid="5397528966329126506">"Restauració automàtica"</string>
@@ -2246,7 +2246,7 @@
     <string name="backup_inactive_title" msgid="685838037986644604">"El servei de còpia de seguretat no està actiu"</string>
     <string name="backup_configure_account_default_summary" msgid="2436933224764745553">"En aquests moments no hi ha cap compte que emmagatzemi una còpia de seguretat de les dades"</string>
     <string name="backup_erase_dialog_title" msgid="1027640829482174106"></string>
-    <string name="backup_erase_dialog_message" msgid="5221011285568343155">"Vols deixar de crear còpies de seguretat de les contrasenyes de Wi-Fi, de les adreces d\'interès, d\'altres opcions i dades d\'aplicacions i, a més, esborrar totes les còpies dels servidors de Google?"</string>
+    <string name="backup_erase_dialog_message" msgid="5221011285568343155">"Vols deixar de crear còpies de seguretat de les contrasenyes de Wi-Fi, de les adreces d\'interès, d\'altres opcions i dades d\'aplicacions i, a més, esborrar totes les còpies dels servidors de /e/?"</string>
     <string name="fullbackup_erase_dialog_message" msgid="694766389396659626">"Vols deixar de crear còpies de seguretat de les dades del dispositiu (com ara les contrasenyes de Wi-Fi o l\'historial de trucades) i de les aplicacions (com ara les configuracions i els fitxers que desin) i, a més, esborrar totes les còpies dels servidors remots?"</string>
     <string name="fullbackup_data_summary" msgid="960850365007767734">"Crea còpies de seguretat automàtiques de les dades del dispositiu (com ara les contrasenyes de la Wi-Fi o l\'historial de trucades) i de les aplicacions (com ara les configuracions i els fitxers que desin) de manera remota.\n\nQuan activis les còpies de seguretat automàtiques, les dades dels dispositius i de les aplicacions s\'emmagatzemaran periòdicament de manera remota. Les dades de les aplicacions poden ser qualsevol tipus de dades que hagi desat una aplicació (en funció de la configuració del desenvolupador), incloses les dades potencialment confidencials, com ara contactes, missatges i fotos."</string>
     <string name="device_admin_settings_title" msgid="4960761799560705902">"Configuració de l\'administrador del dispositiu"</string>
@@ -2333,7 +2333,7 @@
     <string name="sync_gmail" msgid="714886122098006477">"Gmail"</string>
     <string name="sync_calendar" msgid="9056527206714733735">"Calendar"</string>
     <string name="sync_contacts" msgid="9174914394377828043">"Contactes"</string>
-    <string name="sync_plug" msgid="3905078969081888738"><font fgcolor="#ffffffff">"Et donem la benvinguda a Google Sync!"</font>" \nLa sincronització de dades que ha ideat Google per permetre l\'accés als contactes, a les cites i a molts més elements des de qualsevol lloc."</string>
+    <string name="sync_plug" msgid="3905078969081888738"><font fgcolor="#ffffffff">"Et donem la benvinguda a /e/ Sync!"</font>" \nLa sincronització de dades que ha ideat /e/ per permetre l\'accés als contactes, a les cites i a molts més elements des de qualsevol lloc."</string>
     <string name="header_application_sync_settings" msgid="6205903695598000286">"Configuració de la sincronització d\'aplicacions"</string>
     <string name="header_data_and_synchronization" msgid="5165024023936509896">"Dades i sincronització"</string>
     <string name="preference_change_password_title" msgid="8955581790270130056">"Canvia la contrasenya"</string>
@@ -2422,8 +2422,8 @@
     <string name="data_usage_app_restrict_dialog" msgid="1466689968707308512">"Aquesta funció pot provocar que una aplicació que depengui de les dades en segon pla deixi de funcionar quan hi hagi només xarxes mòbils disponibles.\n\nPots trobar més controls d\'ús de dades adequats a la configuració disponible a l\'aplicació."</string>
     <string name="data_usage_restrict_denied_dialog" msgid="55012417305745608">"Només pots restringir les dades en segon pla si has establert un límit de dades mòbils."</string>
     <string name="data_usage_auto_sync_on_dialog_title" msgid="2438617846762244389">"Activar sincronització automàtica?"</string>
-    <string name="data_usage_auto_sync_on_dialog" product="tablet" msgid="8581983093524041669">"Els canvis que facis als comptes des del web es reflectiran automàticament a la tauleta.\n\nAlguns comptes, com ara els comptes de Google, també reflectiran al web els canvis que hagis fet a la tauleta."</string>
-    <string name="data_usage_auto_sync_on_dialog" product="default" msgid="8651376294887142858">"Els canvis que facis als comptes des del web es reflectiran automàticament al telèfon.\n\nÉs possible que alguns comptes també reflecteixin al web els canvis que hagis fet al telèfon. Així funcionen els comptes de Google."</string>
+    <string name="data_usage_auto_sync_on_dialog" product="tablet" msgid="8581983093524041669">"Els canvis que facis als comptes des del web es reflectiran automàticament a la tauleta.\n\nAlguns comptes, com ara els comptes de /e/, també reflectiran al web els canvis que hagis fet a la tauleta."</string>
+    <string name="data_usage_auto_sync_on_dialog" product="default" msgid="8651376294887142858">"Els canvis que facis als comptes des del web es reflectiran automàticament al telèfon.\n\nÉs possible que alguns comptes també reflecteixin al web els canvis que hagis fet al telèfon. Així funcionen els comptes de /e/."</string>
     <string name="data_usage_auto_sync_off_dialog_title" msgid="9013139130490125793">"Desactivar sincronització automàtica?"</string>
     <string name="data_usage_auto_sync_off_dialog" msgid="4025938250775413864">"Et permetrà estalviar dades i bateria, però hauràs de sincronitzar cada compte manualment per obtenir la informació recent i no rebràs notificacions quan hi hagi actualitzacions."</string>
     <string name="data_usage_cycle_editor_title" msgid="1373797281540188533">"Data d\'inici del cicle d\'ús"</string>
@@ -3705,7 +3705,7 @@
     <string name="webview_disabled_for_user" msgid="1216426047631256825">"(desactivat per a <xliff:g id="USER">%s</xliff:g>)"</string>
     <string name="autofill_app" msgid="7338387238377914374">"Servei Emplenament automàtic"</string>
     <string name="autofill_keywords" msgid="7485591824120812710">"automàtic, emplenament, emplenament automàtic"</string>
-    <string name="autofill_confirmation_message" msgid="2784869528908005194">"&lt;b&gt;Assegura\'t que confies en aquesta aplicació&lt;/b&gt; &lt;br/&gt; &lt;br/&gt; &lt;xliff:g id=app_name example=Emplenament automàtic de Google&gt;%1$s&lt;/xliff:g&gt; utilitza el contingut que es mostra a la pantalla per determinar què es pot emplenar automàticament."</string>
+    <string name="autofill_confirmation_message" msgid="2784869528908005194">"&lt;b&gt;Assegura\'t que confies en aquesta aplicació&lt;/b&gt; &lt;br/&gt; &lt;br/&gt; &lt;xliff:g id=app_name example=Emplenament automàtic de /e/&gt;%1$s&lt;/xliff:g&gt; utilitza el contingut que es mostra a la pantalla per determinar què es pot emplenar automàticament."</string>
     <string name="device_theme" msgid="4571803018917608588">"Tema del dispositiu"</string>
     <string name="default_theme" msgid="7085644992078579076">"Predeterminat"</string>
     <string name="storage_manager_indicator" msgid="1516810749625915020">"Gestor d\'emmagatzematge: <xliff:g id="STATUS">^1</xliff:g>"</string>

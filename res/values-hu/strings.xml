@@ -445,11 +445,11 @@
     <string name="crypt_keeper_warn_wipe" msgid="2738374897337991667">"Figyelem: <xliff:g id="COUNT">^1</xliff:g> további sikertelen feloldási próbálkozás után az eszközadatok törlődnek!"</string>
     <string name="crypt_keeper_enter_password" msgid="2223340178473871064">"Írja be a jelszavát"</string>
     <string name="crypt_keeper_failed_title" msgid="7133499413023075961">"A titkosítás sikertelen"</string>
-    <string name="crypt_keeper_failed_summary" product="tablet" msgid="8219375738445017266">"A titkosítás megszakadt, és nem lehet befejezni. Ezért a táblagépen található adatokhoz nem lehet hozzáférni. \n\nAhhoz, hogy újra használni tudja táblagépét, vissza kell állítani a gyári beállításokat. Amikor a visszaállítás után beállítja táblagépét, lehetősége lesz minden adat visszaállítására, amelyet a rendszer tárolt a Google Fiókjában."</string>
-    <string name="crypt_keeper_failed_summary" product="default" msgid="3270131542549577953">"A titkosítás megszakadt, és nem lehet befejezni. Ezért a telefonon található adatokhoz nem lehet hozzáférni. \n\nAhhoz, hogy újra használni tudja telefonját, vissza kell állítani a gyári beállításokat. Amikor a visszaállítás után beállítja telefonját, lehetősége lesz minden adat visszaállítására, amelyet a rendszer eltárolt a Google Fiókjában."</string>
+    <string name="crypt_keeper_failed_summary" product="tablet" msgid="8219375738445017266">"A titkosítás megszakadt, és nem lehet befejezni. Ezért a táblagépen található adatokhoz nem lehet hozzáférni. \n\nAhhoz, hogy újra használni tudja táblagépét, vissza kell állítani a gyári beállításokat. Amikor a visszaállítás után beállítja táblagépét, lehetősége lesz minden adat visszaállítására, amelyet a rendszer tárolt a /e/ Fiókjában."</string>
+    <string name="crypt_keeper_failed_summary" product="default" msgid="3270131542549577953">"A titkosítás megszakadt, és nem lehet befejezni. Ezért a telefonon található adatokhoz nem lehet hozzáférni. \n\nAhhoz, hogy újra használni tudja telefonját, vissza kell állítani a gyári beállításokat. Amikor a visszaállítás után beállítja telefonját, lehetősége lesz minden adat visszaállítására, amelyet a rendszer eltárolt a /e/ Fiókjában."</string>
     <string name="crypt_keeper_data_corrupt_title" msgid="8759119849089795751">"Titkosítás feloldása sikertelen"</string>
-    <string name="crypt_keeper_data_corrupt_summary" product="tablet" msgid="840107296925798402">"A megadott jelszó helyes, adatai azonban sajnos sérültek. \n\nA táblagép használatának folytatásához végre kell hajtania a gyári adatok visszaállítását. Amikor ezt követően beállítja a táblagépet, lehetősége nyílik arra, hogy helyreállítsa mindazokat az adatokat, amelyekről másolat található Google-fiókjában."</string>
-    <string name="crypt_keeper_data_corrupt_summary" product="default" msgid="8843311420059663824">"A megadott jelszó helyes, adatai azonban sajnos sérültek. \n\nA telefon használatának folytatásához végre kell hajtania a gyári adatok visszaállítását. Amikor ezt követően beállítja a telefont, lehetősége nyílik arra, hogy helyreállítsa mindazokat az adatokat, amelyekről másolat található Google-fiókjában."</string>
+    <string name="crypt_keeper_data_corrupt_summary" product="tablet" msgid="840107296925798402">"A megadott jelszó helyes, adatai azonban sajnos sérültek. \n\nA táblagép használatának folytatásához végre kell hajtania a gyári adatok visszaállítását. Amikor ezt követően beállítja a táblagépet, lehetősége nyílik arra, hogy helyreállítsa mindazokat az adatokat, amelyekről másolat található /e/-fiókjában."</string>
+    <string name="crypt_keeper_data_corrupt_summary" product="default" msgid="8843311420059663824">"A megadott jelszó helyes, adatai azonban sajnos sérültek. \n\nA telefon használatának folytatásához végre kell hajtania a gyári adatok visszaállítását. Amikor ezt követően beállítja a telefont, lehetősége nyílik arra, hogy helyreállítsa mindazokat az adatokat, amelyekről másolat található /e/-fiókjában."</string>
     <string name="crypt_keeper_switch_input_method" msgid="4168332125223483198">"Beviteli mód váltása"</string>
     <string name="suggested_lock_settings_title" msgid="8971630898700461034">"Képernyőzár beállítása"</string>
     <string name="suggested_lock_settings_summary" msgid="8778462376012231110">"Óvja meg eszközét"</string>
@@ -1347,8 +1347,8 @@
     <string name="network_reset_not_available" msgid="7188610385577164676">"A hálózati beállítások visszaállítása nem hajtható végre ennél a felhasználónál"</string>
     <string name="reset_network_complete_toast" msgid="787829973559541880">"A hálózati beállítások vissza lettek állítva."</string>
     <string name="master_clear_title" msgid="3531267871084279512">"Összes adat törlése (gyári beállítások visszaállítása)"</string>
-    <string name="master_clear_desc" product="tablet" msgid="9146059417023157222">"Ez minden adatot töröl a táblagép "<b>"belső tárhelyéről"</b>", többek között: \n \n"<li>"Google-fiókját"</li>\n<li>"A rendszer- és alkalmazásadatokat és beállításokat"</li>" \n "<li>"A letöltött alkalmazásokat"</li></string>
-    <string name="master_clear_desc" product="default" msgid="4800386183314202571">"Ez minden adatot töröl a telefon "<b>"belső tárhelyéről"</b>", többek között: \n \n"<li>"Google-fiókja"</li>\n<li>"a rendszer- és alkalmazásadatok és beállítások"</li>" \n"<li>"a letöltött alkalmazások"</li></string>
+    <string name="master_clear_desc" product="tablet" msgid="9146059417023157222">"Ez minden adatot töröl a táblagép "<b>"belső tárhelyéről"</b>", többek között: \n \n"<li>"/e/-fiókját"</li>\n<li>"A rendszer- és alkalmazásadatokat és beállításokat"</li>" \n "<li>"A letöltött alkalmazásokat"</li></string>
+    <string name="master_clear_desc" product="default" msgid="4800386183314202571">"Ez minden adatot töröl a telefon "<b>"belső tárhelyéről"</b>", többek között: \n \n"<li>"/e/-fiókja"</li>\n<li>"a rendszer- és alkalmazásadatok és beállítások"</li>" \n"<li>"a letöltött alkalmazások"</li></string>
     <string name="master_clear_accounts" product="default" msgid="6412857499147999073">\n\n"Jelenleg a következő fiókokba van bejelentkezve:\n"</string>
     <string name="master_clear_other_users_present" product="default" msgid="5161423070702470742">\n\n"Más felhasználók is vannak ezen az eszközön.\n"</string>
     <string name="master_clear_desc_also_erases_external" msgid="1903185203791274237"><li>"Zene"</li>\n<li>"Fotók"</li>\n<li>"Más felhasználói adatok"</li></string>
@@ -1433,7 +1433,7 @@
     <string name="location_scanning_bluetooth_always_scanning_title" msgid="5444989508204520019">"Bluetooth-alapú keresés"</string>
     <string name="location_scanning_bluetooth_always_scanning_description" msgid="8602726521250591852">"A pontosabb helyadatokért a rendszeralkalmazások és -szolgáltatások Bluetooth-eszközöket kereshetnek bármikor."</string>
     <string name="location_network_based" msgid="9134175479520582215">"Hely Wi-Fi és mobilhálózat alapján"</string>
-    <string name="location_neighborhood_level" msgid="5141318121229984788">"Engedélyezze az alkalmazásoknak, hogy a Google helymeghatározó szolgáltatásával gyorsabban megbecsüljék tartózkodási helyét. A névtelen helyadatok összegyűjtés után a Google-hoz kerülnek."</string>
+    <string name="location_neighborhood_level" msgid="5141318121229984788">"Engedélyezze az alkalmazásoknak, hogy a /e/ helymeghatározó szolgáltatásával gyorsabban megbecsüljék tartózkodási helyét. A névtelen helyadatok összegyűjtés után a /e/-hoz kerülnek."</string>
     <string name="location_neighborhood_level_wifi" msgid="4234820941954812210">"Helymeghatározás Wi-Fi-vel"</string>
     <string name="location_gps" msgid="8392461023569708478">"GPS-műholdak"</string>
     <string name="location_street_level" product="tablet" msgid="1669562198260860802">"Engedélyezze az alkalmazások számára a GPS használatát a táblagépén a tartózkodási helyének meghatározásához"</string>
@@ -1441,8 +1441,8 @@
     <string name="assisted_gps" msgid="4649317129586736885">"Támogatott GPS használata"</string>
     <string name="assisted_gps_enabled" msgid="8751899609589792803">"Szerver használata a GPS mellett (a hálózati forgalom csökkentéséhez ne jelölje be)"</string>
     <string name="assisted_gps_disabled" msgid="6982698333968010748">"Szerver használata a GPS mellett (a GPS teljesítményének növeléséhez ne jelölje be)"</string>
-    <string name="use_location_title" msgid="5206937465504979977">"Hely és Google-keresés"</string>
-    <string name="use_location_summary" msgid="3978805802386162520">"Engedélyezze, hogy a Google felhasználja helyadatait a jobb keresési eredményekhez és egyebekhez."</string>
+    <string name="use_location_title" msgid="5206937465504979977">"Hely és /e/-keresés"</string>
+    <string name="use_location_summary" msgid="3978805802386162520">"Engedélyezze, hogy a /e/ felhasználja helyadatait a jobb keresési eredményekhez és egyebekhez."</string>
     <string name="location_access_title" msgid="7064108942964081243">"Hozzáférés a saját pozícióhoz"</string>
     <string name="location_access_summary" msgid="69031404093194341">"Engedélyezze az engedélyt kérő alkalmazásoknak a helyadatok használatát"</string>
     <string name="location_sources_heading" msgid="1278732419851088319">"Forráshelyek"</string>
@@ -2238,7 +2238,7 @@
     <string name="backup_section_title" msgid="7952232291452882740">"Biztonsági mentés és visszaállítás"</string>
     <string name="personal_data_section_title" msgid="7815209034443782061">"Személyes adatok"</string>
     <string name="backup_data_title" msgid="1239105919852668016">"Adatok mentése"</string>
-    <string name="backup_data_summary" msgid="708773323451655666">"Alkalmazásadatok, Wi-Fi jelszavak és egyéb beállítások mentése a Google szervereire"</string>
+    <string name="backup_data_summary" msgid="708773323451655666">"Alkalmazásadatok, Wi-Fi jelszavak és egyéb beállítások mentése a /e/ szervereire"</string>
     <string name="backup_configure_account_title" msgid="3790872965773196615">"Biztonsági mentés helye"</string>
     <string name="include_app_data_title" msgid="2829970132260278394">"Alkalmazásadatok is"</string>
     <string name="auto_restore_title" msgid="5397528966329126506">"Automatikus helyreállítás"</string>
@@ -2246,7 +2246,7 @@
     <string name="backup_inactive_title" msgid="685838037986644604">"A biztonsági másolat szolgáltatás inaktív"</string>
     <string name="backup_configure_account_default_summary" msgid="2436933224764745553">"Jelenleg egyik fiók sem tárol biztonsági mentéseket"</string>
     <string name="backup_erase_dialog_title" msgid="1027640829482174106"></string>
-    <string name="backup_erase_dialog_message" msgid="5221011285568343155">"Kikapcsolja a Wi-Fi-jelszavak, könyvjelzők, egyéb beállítások és alkalmazásadatok biztonsági mentését, illetve törli a Google szerverein lévő összes példányt?"</string>
+    <string name="backup_erase_dialog_message" msgid="5221011285568343155">"Kikapcsolja a Wi-Fi-jelszavak, könyvjelzők, egyéb beállítások és alkalmazásadatok biztonsági mentését, illetve törli a /e/ szerverein lévő összes példányt?"</string>
     <string name="fullbackup_erase_dialog_message" msgid="694766389396659626">"Kikapcsolja az eszközadatok (például Wi-Fi-jelszavak és híváslista) és alkalmazásadatok (például az alkalmazások által tárolt beállítások és fájlok) automatikus biztonsági mentését, és törli azok összes példányát a távoli szerverekről?"</string>
     <string name="fullbackup_data_summary" msgid="960850365007767734">"Eszközadatok (például Wi-Fi-jelszavak és híváslista) és alkalmazásadatok (például az alkalmazások által tárolt beállítások és fájlok) automatikus biztonsági mentése távolról.\n\nHa bekapcsolja az automatikus biztonsági mentést, akkor a rendszer szabályos időközönként elvégzi eszköz- és alkalmazásadatainak távoli mentését. Alkalmazásadat bármilyen adat lehet, amelyet egy alkalmazás mentett (a fejlesztői beállításoktól függően), beleértve a potenciálisan bizalmas adatokat is (például névjegyek, üzenetek és fotók)."</string>
     <string name="device_admin_settings_title" msgid="4960761799560705902">"Eszközrendszergazdai beállítások"</string>
@@ -2333,7 +2333,7 @@
     <string name="sync_gmail" msgid="714886122098006477">"Gmail"</string>
     <string name="sync_calendar" msgid="9056527206714733735">"Naptár"</string>
     <string name="sync_contacts" msgid="9174914394377828043">"Címtár"</string>
-    <string name="sync_plug" msgid="3905078969081888738"><font fgcolor="#ffffffff">"Üdvözli a Google Sync!"</font>" \nAz adatok Google-féle szinkronizálása lehetővé teszi, hogy bárhonnan hozzáférjen címtárához, találkozóihoz stb."</string>
+    <string name="sync_plug" msgid="3905078969081888738"><font fgcolor="#ffffffff">"Üdvözli a /e/ Sync!"</font>" \nAz adatok /e/-féle szinkronizálása lehetővé teszi, hogy bárhonnan hozzáférjen címtárához, találkozóihoz stb."</string>
     <string name="header_application_sync_settings" msgid="6205903695598000286">"Alkalmazás-szinkronizálási beállítások"</string>
     <string name="header_data_and_synchronization" msgid="5165024023936509896">"Adatok és szinkronizálás"</string>
     <string name="preference_change_password_title" msgid="8955581790270130056">"Jelszó módosítása"</string>
@@ -2422,8 +2422,8 @@
     <string name="data_usage_app_restrict_dialog" msgid="1466689968707308512">"Lehetséges, hogy e funkció miatt a háttéradatoktól függő alkalmazások nem fognak működni, ha csak mobilhálózatok állnak rendelkezésre.\n\nAz alkalmazásban lévő beállítások között megfelelőbb adathasználati beállításokat találhat."</string>
     <string name="data_usage_restrict_denied_dialog" msgid="55012417305745608">"A háttéradatok korlátozása csak akkor lehetséges, ha beállított mobiladatkorlátot."</string>
     <string name="data_usage_auto_sync_on_dialog_title" msgid="2438617846762244389">"Bekapcsolja a szinkronizálást?"</string>
-    <string name="data_usage_auto_sync_on_dialog" product="tablet" msgid="8581983093524041669">"A rendszer azonnal átmásolja táblagépére a fiókot érintő valamennyi módosítást, amelyet az interneten hajt végre.\n\nEgyes fiókok a táblagépen végrehajtott módosításokat is automatikusan átmásolhatják az internetre. Ez a Google-fiókok működésének lényege."</string>
-    <string name="data_usage_auto_sync_on_dialog" product="default" msgid="8651376294887142858">"A rendszer azonnal átmásolja telefonjára a fiókot érintő valamennyi módosítást, amelyet az interneten hajt végre.\n\nEgyes fiókok a telefonon végrehajtott módosításokat is automatikusan átmásolhatják az internetre. Ez a Google-fiókok működésének lényege."</string>
+    <string name="data_usage_auto_sync_on_dialog" product="tablet" msgid="8581983093524041669">"A rendszer azonnal átmásolja táblagépére a fiókot érintő valamennyi módosítást, amelyet az interneten hajt végre.\n\nEgyes fiókok a táblagépen végrehajtott módosításokat is automatikusan átmásolhatják az internetre. Ez a /e/-fiókok működésének lényege."</string>
+    <string name="data_usage_auto_sync_on_dialog" product="default" msgid="8651376294887142858">"A rendszer azonnal átmásolja telefonjára a fiókot érintő valamennyi módosítást, amelyet az interneten hajt végre.\n\nEgyes fiókok a telefonon végrehajtott módosításokat is automatikusan átmásolhatják az internetre. Ez a /e/-fiókok működésének lényege."</string>
     <string name="data_usage_auto_sync_off_dialog_title" msgid="9013139130490125793">"Kikapcsolja a szinkronizálást?"</string>
     <string name="data_usage_auto_sync_off_dialog" msgid="4025938250775413864">"Ez mérsékelni fogja az adat- és akkumulátorhasználatot, de minden egyes fiókot manuálisan kell majd szinkronizálnia a legfrissebb információk begyűjtéséhez. Továbbá nem fog értesítéseket kapni a frissítésekről."</string>
     <string name="data_usage_cycle_editor_title" msgid="1373797281540188533">"Adatforgalom-számlálás visszaállításának napja"</string>
@@ -3705,7 +3705,7 @@
     <string name="webview_disabled_for_user" msgid="1216426047631256825">"(letiltva <xliff:g id="USER">%s</xliff:g> számára)"</string>
     <string name="autofill_app" msgid="7338387238377914374">"Automatikus kitöltés"</string>
     <string name="autofill_keywords" msgid="7485591824120812710">"automatikus kitöltés, automatikus, kitöltés"</string>
-    <string name="autofill_confirmation_message" msgid="2784869528908005194">"&lt;b&gt;Győződjön meg arról, hogy az alkalmazás megbízható.&lt;/b&gt; &lt;br/&gt; &lt;br/&gt; A(z) &lt;xliff:g id=app_name example=Google Autofill&gt;%1$s&lt;/xliff:g&gt; az Ön képernyőjén szereplő információk alapján határozza meg, hogy mit lehet automatikusan kitölteni."</string>
+    <string name="autofill_confirmation_message" msgid="2784869528908005194">"&lt;b&gt;Győződjön meg arról, hogy az alkalmazás megbízható.&lt;/b&gt; &lt;br/&gt; &lt;br/&gt; A(z) &lt;xliff:g id=app_name example=/e/ Autofill&gt;%1$s&lt;/xliff:g&gt; az Ön képernyőjén szereplő információk alapján határozza meg, hogy mit lehet automatikusan kitölteni."</string>
     <string name="device_theme" msgid="4571803018917608588">"Eszköztéma"</string>
     <string name="default_theme" msgid="7085644992078579076">"Alapértelmezett"</string>
     <string name="storage_manager_indicator" msgid="1516810749625915020">"Tárhelykezelő: <xliff:g id="STATUS">^1</xliff:g>"</string>

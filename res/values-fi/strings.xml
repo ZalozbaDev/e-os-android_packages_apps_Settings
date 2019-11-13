@@ -445,11 +445,11 @@
     <string name="crypt_keeper_warn_wipe" msgid="2738374897337991667">"Varoitus: laite tyhjennetään <xliff:g id="COUNT">^1</xliff:g> epäonnistuneen lukituksenpoistoyrityksen jälkeen!"</string>
     <string name="crypt_keeper_enter_password" msgid="2223340178473871064">"Kirjoita salasana"</string>
     <string name="crypt_keeper_failed_title" msgid="7133499413023075961">"Salaus epäonnistui"</string>
-    <string name="crypt_keeper_failed_summary" product="tablet" msgid="8219375738445017266">"Salaus keskeytyi, eikä sitä voi suorittaa loppuun. Tästä johtuen tablet-laitteesi tietoja ei voi enää käyttää. \n\nVoit jatkaa tablet-laitteesi käyttöä, kun palautat tehdasasetukset. Kun olet määrittänyt tablet-laitteesi asetukset tehdasasetusten palautuksen jälkeen, voit palauttaa tiedot, jotka olet varmuuskopioinut Google-tiliisi."</string>
-    <string name="crypt_keeper_failed_summary" product="default" msgid="3270131542549577953">"Salaus keskeytyi, eikä sitä voi suorittaa loppuun. Tästä johtuen puhelimesi tietoja ei voi enää käyttää. \n\nVoit jatkaa puhelimesi käyttöä, kun palautat tehdasasetukset. Kun olet määrittänyt puhelimesi asetukset tehdasasetusten palautuksen jälkeen, voit palauttaa tiedot, jotka olet varmuuskopioinut Google-tiliisi."</string>
+    <string name="crypt_keeper_failed_summary" product="tablet" msgid="8219375738445017266">"Salaus keskeytyi, eikä sitä voi suorittaa loppuun. Tästä johtuen tablet-laitteesi tietoja ei voi enää käyttää. \n\nVoit jatkaa tablet-laitteesi käyttöä, kun palautat tehdasasetukset. Kun olet määrittänyt tablet-laitteesi asetukset tehdasasetusten palautuksen jälkeen, voit palauttaa tiedot, jotka olet varmuuskopioinut /e/-tiliisi."</string>
+    <string name="crypt_keeper_failed_summary" product="default" msgid="3270131542549577953">"Salaus keskeytyi, eikä sitä voi suorittaa loppuun. Tästä johtuen puhelimesi tietoja ei voi enää käyttää. \n\nVoit jatkaa puhelimesi käyttöä, kun palautat tehdasasetukset. Kun olet määrittänyt puhelimesi asetukset tehdasasetusten palautuksen jälkeen, voit palauttaa tiedot, jotka olet varmuuskopioinut /e/-tiliisi."</string>
     <string name="crypt_keeper_data_corrupt_title" msgid="8759119849089795751">"Salauksen purku onnistui"</string>
-    <string name="crypt_keeper_data_corrupt_summary" product="tablet" msgid="840107296925798402">"Annoit oikean salasanan, mutta tiedot ovat valitettavasti vioittuneet. \n\nTehdasasetukset on palautettava, jotta voit jatkaa tabletin käyttöä. Tehdasasetusten palautuksen jälkeen voit määrittää tabletin asetukset uudelleen ja palauttaa Google-tiliisi mahdollisesti varmuuskopioidut tiedot."</string>
-    <string name="crypt_keeper_data_corrupt_summary" product="default" msgid="8843311420059663824">"Annoit oikean salasanan, mutta tiedot ovat valitettavasti vioittuneet. \n\nTehdasasetukset on palautettava, jotta voit jatkaa puhelimen käyttöä. Tehdasasetusten palautuksen jälkeen voit määrittää puhelimen asetukset uudelleen ja palauttaa Google-tiliisi mahdollisesti varmuuskopioidut tiedot."</string>
+    <string name="crypt_keeper_data_corrupt_summary" product="tablet" msgid="840107296925798402">"Annoit oikean salasanan, mutta tiedot ovat valitettavasti vioittuneet. \n\nTehdasasetukset on palautettava, jotta voit jatkaa tabletin käyttöä. Tehdasasetusten palautuksen jälkeen voit määrittää tabletin asetukset uudelleen ja palauttaa /e/-tiliisi mahdollisesti varmuuskopioidut tiedot."</string>
+    <string name="crypt_keeper_data_corrupt_summary" product="default" msgid="8843311420059663824">"Annoit oikean salasanan, mutta tiedot ovat valitettavasti vioittuneet. \n\nTehdasasetukset on palautettava, jotta voit jatkaa puhelimen käyttöä. Tehdasasetusten palautuksen jälkeen voit määrittää puhelimen asetukset uudelleen ja palauttaa /e/-tiliisi mahdollisesti varmuuskopioidut tiedot."</string>
     <string name="crypt_keeper_switch_input_method" msgid="4168332125223483198">"Vaihda syöttötapaa"</string>
     <string name="suggested_lock_settings_title" msgid="8971630898700461034">"Määritä näytön lukitus"</string>
     <string name="suggested_lock_settings_summary" msgid="8778462376012231110">"Suojaa laitettasi"</string>
@@ -1347,8 +1347,8 @@
     <string name="network_reset_not_available" msgid="7188610385577164676">"Tämä käyttäjä ei voi palauttaa verkon asetuksia."</string>
     <string name="reset_network_complete_toast" msgid="787829973559541880">"Verkkoasetuksesi on nollattu."</string>
     <string name="master_clear_title" msgid="3531267871084279512">"Poista kaikki tiedot (palauta tehdasasetukset)"</string>
-    <string name="master_clear_desc" product="tablet" msgid="9146059417023157222">"Tämä poistaa kaikki tablet-laitteesi "<b>"sisäisen tallennustilan"</b>" tiedot, kuten:\n\n"<li>"Google-tilisi"</li>\n<li>"Järjestelmä- ja sovellustiedot ja -asetukset"</li>\n<li>"Ladatut sovellukset"</li></string>
-    <string name="master_clear_desc" product="default" msgid="4800386183314202571">"Tämä poistaa kaikki puhelimesi "<b>"sisäisen tallennustilan"</b>" tiedot, kuten:\n\n"<li>"Google-tilisi"</li>\n<li>"Järjestelmä- ja sovellustiedot ja -asetukset"</li>\n<li>"Ladatut sovellukset"</li></string>
+    <string name="master_clear_desc" product="tablet" msgid="9146059417023157222">"Tämä poistaa kaikki tablet-laitteesi "<b>"sisäisen tallennustilan"</b>" tiedot, kuten:\n\n"<li>"/e/-tilisi"</li>\n<li>"Järjestelmä- ja sovellustiedot ja -asetukset"</li>\n<li>"Ladatut sovellukset"</li></string>
+    <string name="master_clear_desc" product="default" msgid="4800386183314202571">"Tämä poistaa kaikki puhelimesi "<b>"sisäisen tallennustilan"</b>" tiedot, kuten:\n\n"<li>"/e/-tilisi"</li>\n<li>"Järjestelmä- ja sovellustiedot ja -asetukset"</li>\n<li>"Ladatut sovellukset"</li></string>
     <string name="master_clear_accounts" product="default" msgid="6412857499147999073">\n\n"Olet kirjautunut sisään seuraaviin tileihin:\n"</string>
     <string name="master_clear_other_users_present" product="default" msgid="5161423070702470742">\n\n"Tällä laitteella on muita paikalla olevia käyttäjiä.\n"</string>
     <string name="master_clear_desc_also_erases_external" msgid="1903185203791274237"><li>"Musiikki"</li>\n<li>"Valokuvat"</li>\n<li>"Muut käyttäjän tiedot"</li></string>
@@ -1433,7 +1433,7 @@
     <string name="location_scanning_bluetooth_always_scanning_title" msgid="5444989508204520019">"Bluetooth-haku"</string>
     <string name="location_scanning_bluetooth_always_scanning_description" msgid="8602726521250591852">"Paranna sijainnin tarkkuutta sallimalla järjestelmäsovellusten ja -palveluiden havaita Bluetooth-laitteita milloin tahansa."</string>
     <string name="location_network_based" msgid="9134175479520582215">"Wi-Fi- ja mobiiliverkkosijainti"</string>
-    <string name="location_neighborhood_level" msgid="5141318121229984788">"Anna sovellusten arvioida sijaintisi Googlen sijaintipalvelulla. Anonyymejä sijaintitietoja kerätään ja lähetetään Googlelle."</string>
+    <string name="location_neighborhood_level" msgid="5141318121229984788">"Anna sovellusten arvioida sijaintisi /e/n sijaintipalvelulla. Anonyymejä sijaintitietoja kerätään ja lähetetään /e/lle."</string>
     <string name="location_neighborhood_level_wifi" msgid="4234820941954812210">"Sijainti on määritetty Wi-Fi-yhteyden perusteella"</string>
     <string name="location_gps" msgid="8392461023569708478">"GPS-satelliitit"</string>
     <string name="location_street_level" product="tablet" msgid="1669562198260860802">"Anna sovellusten määrittää sijaintisi tablet-laitteen GPS:n avulla"</string>
@@ -1441,8 +1441,8 @@
     <string name="assisted_gps" msgid="4649317129586736885">"Käytä avustettua GPS:ää"</string>
     <string name="assisted_gps_enabled" msgid="8751899609589792803">"Käytä palvelinta GPS:n apuna (poista valinta vähentääksesi verkon käyttöä)"</string>
     <string name="assisted_gps_disabled" msgid="6982698333968010748">"Käytä palvelinta GPS:n apuna (poista valinta parantaaksesi GPS:n tehokkuutta)"</string>
-    <string name="use_location_title" msgid="5206937465504979977">"Sijainti ja Google-haku"</string>
-    <string name="use_location_summary" msgid="3978805802386162520">"Anna Googlen käyttää sijaintia hakutulosten ja muiden palveluiden parantamiseen."</string>
+    <string name="use_location_title" msgid="5206937465504979977">"Sijainti ja /e/-haku"</string>
+    <string name="use_location_summary" msgid="3978805802386162520">"Anna /e/n käyttää sijaintia hakutulosten ja muiden palveluiden parantamiseen."</string>
     <string name="location_access_title" msgid="7064108942964081243">"Sijaintitietojen käyttö"</string>
     <string name="location_access_summary" msgid="69031404093194341">"Anna pyytäneille sovelluksille lupa käyttää sijaintitietoja"</string>
     <string name="location_sources_heading" msgid="1278732419851088319">"Sijainnin lähteet"</string>
@@ -2238,7 +2238,7 @@
     <string name="backup_section_title" msgid="7952232291452882740">"Varmuuskopiointi &amp; palautus"</string>
     <string name="personal_data_section_title" msgid="7815209034443782061">"Henkilötiedot"</string>
     <string name="backup_data_title" msgid="1239105919852668016">"Tietojen varmuuskopiointi"</string>
-    <string name="backup_data_summary" msgid="708773323451655666">"Varmuuskopioi sovelluksen tiedot, Wi-Fi-salasanat ja muut asetukset Googlen palvelimille"</string>
+    <string name="backup_data_summary" msgid="708773323451655666">"Varmuuskopioi sovelluksen tiedot, Wi-Fi-salasanat ja muut asetukset /e/n palvelimille"</string>
     <string name="backup_configure_account_title" msgid="3790872965773196615">"Varmuuskopiointitili"</string>
     <string name="include_app_data_title" msgid="2829970132260278394">"Sisällytä sovellustiedot"</string>
     <string name="auto_restore_title" msgid="5397528966329126506">"Automaattinen palautus"</string>
@@ -2246,7 +2246,7 @@
     <string name="backup_inactive_title" msgid="685838037986644604">"Varmuuskopiointipalvelu ei ole aktiivinen"</string>
     <string name="backup_configure_account_default_summary" msgid="2436933224764745553">"Mikään tili ei tällä hetkellä tallenna varmuuskopioituja tietoja"</string>
     <string name="backup_erase_dialog_title" msgid="1027640829482174106"></string>
-    <string name="backup_erase_dialog_message" msgid="5221011285568343155">"Haluatko lopettaa Wi-Fi-salasanojen, kirjanmerkkien, muiden asetuksien ja sovellustietojen varmuuskopioinnin ja poistaa kaikki kopiot Googlen palvelimilta?"</string>
+    <string name="backup_erase_dialog_message" msgid="5221011285568343155">"Haluatko lopettaa Wi-Fi-salasanojen, kirjanmerkkien, muiden asetuksien ja sovellustietojen varmuuskopioinnin ja poistaa kaikki kopiot /e/n palvelimilta?"</string>
     <string name="fullbackup_erase_dialog_message" msgid="694766389396659626">"Lopetetaanko laitteen tietojen (kuten Wi-Fi-salasanojen ja soittohistorian) ja sovellusten tietojen (kuten asetusten ja sovellusten tallentamien tiedostojen) automaattinen varmuuskopiointi? Myös vanhat varmuuskopiot poistetaan etäpalvelimilta."</string>
     <string name="fullbackup_data_summary" msgid="960850365007767734">"Varmuuskopioi laitteen tiedot (kuten Wi-Fi-salasanat ja soittohistoria) sekä sovellusten tiedot (kuten asetukset ja sovellusten tallentamat tiedostot) automaattisesti etäyhteyden kautta.\n\nKun otat automaattisen varmuuskopioinnin käyttöön, laitteen ja sovellusten tiedot varmuuskopioidaan säännöllisesti etäyhteyden kautta. Sovellusten tietoihin voi sisältyä mitä tahansa tietoja, joita sovellukset ovat tallentaneet (kehittäjien asetuksien perusteella). Ne saattavat sisältää myös arkaluontoisia tietoja, kuten yhteystietoja, viestejä ja valokuvia."</string>
     <string name="device_admin_settings_title" msgid="4960761799560705902">"Laitteenhallinnan asetukset"</string>
@@ -2333,7 +2333,7 @@
     <string name="sync_gmail" msgid="714886122098006477">"Gmail"</string>
     <string name="sync_calendar" msgid="9056527206714733735">"Kalenteri"</string>
     <string name="sync_contacts" msgid="9174914394377828043">"Yhteystiedot"</string>
-    <string name="sync_plug" msgid="3905078969081888738"><font fgcolor="#ffffffff">"Tervetuloa käyttämään Google Sync -palvelua!"</font>" \nSe on Googlen tapa synkronoida tietoja, ja sen avulla voit käyttää yhteystietojasi, tapaamisiasi ynnä muita tietoja mistä tahansa."</string>
+    <string name="sync_plug" msgid="3905078969081888738"><font fgcolor="#ffffffff">"Tervetuloa käyttämään /e/ Sync -palvelua!"</font>" \nSe on /e/n tapa synkronoida tietoja, ja sen avulla voit käyttää yhteystietojasi, tapaamisiasi ynnä muita tietoja mistä tahansa."</string>
     <string name="header_application_sync_settings" msgid="6205903695598000286">"Sovelluksen synkronointiasetukset"</string>
     <string name="header_data_and_synchronization" msgid="5165024023936509896">"Tiedot ja synkronointi"</string>
     <string name="preference_change_password_title" msgid="8955581790270130056">"Vaihda salasana"</string>
@@ -2422,8 +2422,8 @@
     <string name="data_usage_app_restrict_dialog" msgid="1466689968707308512">"Toiminto saattaa estää taustatiedonsiirrosta riippuvaisten sovellusten toiminnan, jos käytettävissä on vain mobiiliverkkoja.\n\nVoit säätää tiedonsiirron asetuksia tarkemmin sovelluksessa."</string>
     <string name="data_usage_restrict_denied_dialog" msgid="55012417305745608">"Taustatiedonsiirron rajoittaminen on mahdollista vain, jos olet asettanut datankäyttörajan."</string>
     <string name="data_usage_auto_sync_on_dialog_title" msgid="2438617846762244389">"Autom. synkronointi päälle?"</string>
-    <string name="data_usage_auto_sync_on_dialog" product="tablet" msgid="8581983093524041669">"Kaikki tileihisi verkossa tekemäsi muutokset kopioidaan tablettiisi automaattisesti.\n\nJotkut tilit voivat myös automaattisesti kopioida tabletilla tehdyt muutokset verkkoon. Google-tili toimii tällä tavalla."</string>
-    <string name="data_usage_auto_sync_on_dialog" product="default" msgid="8651376294887142858">"Kaikki tileihisi verkossa tekemäsi muutokset kopioidaan puhelimeesi automaattisesti.\n\nJotkut tilit voivat myös automaattisesti kopioida puhelimella tehdyt muutokset verkkoon. Google-tili toimii tällä tavalla."</string>
+    <string name="data_usage_auto_sync_on_dialog" product="tablet" msgid="8581983093524041669">"Kaikki tileihisi verkossa tekemäsi muutokset kopioidaan tablettiisi automaattisesti.\n\nJotkut tilit voivat myös automaattisesti kopioida tabletilla tehdyt muutokset verkkoon. /e/-tili toimii tällä tavalla."</string>
+    <string name="data_usage_auto_sync_on_dialog" product="default" msgid="8651376294887142858">"Kaikki tileihisi verkossa tekemäsi muutokset kopioidaan puhelimeesi automaattisesti.\n\nJotkut tilit voivat myös automaattisesti kopioida puhelimella tehdyt muutokset verkkoon. /e/-tili toimii tällä tavalla."</string>
     <string name="data_usage_auto_sync_off_dialog_title" msgid="9013139130490125793">"Autom. synkronointi pois päältä?"</string>
     <string name="data_usage_auto_sync_off_dialog" msgid="4025938250775413864">"Tämä vähentää tiedonsiirtomäärää ja akun käyttöä, mutta jokainen tili tulee synkronoida manuaalisesti, jos haluat niiden tiedot käyttöösi. Et myöskään saa ilmoituksia, jos tietoja päivitetään."</string>
     <string name="data_usage_cycle_editor_title" msgid="1373797281540188533">"Käyttöjakson nollauspäivä"</string>
@@ -3705,7 +3705,7 @@
     <string name="webview_disabled_for_user" msgid="1216426047631256825">"(poistettu käytöstä: <xliff:g id="USER">%s</xliff:g>)"</string>
     <string name="autofill_app" msgid="7338387238377914374">"Automaattinen täyttö ‑palvelu"</string>
     <string name="autofill_keywords" msgid="7485591824120812710">"automaattinen, täyttää, automaattinen täyttö"</string>
-    <string name="autofill_confirmation_message" msgid="2784869528908005194">"&lt;b&gt;Varmista, että luotat tähän sovellukseen&lt;/b&gt; &lt;br/&gt; &lt;br/&gt; &lt;xliff:g id=app_name example=Google Autofill&gt;%1$s&lt;/xliff:g&gt; päättelee näytöllä olevien kohteiden perusteella, mitä voidaan täyttää automaattisesti."</string>
+    <string name="autofill_confirmation_message" msgid="2784869528908005194">"&lt;b&gt;Varmista, että luotat tähän sovellukseen&lt;/b&gt; &lt;br/&gt; &lt;br/&gt; &lt;xliff:g id=app_name example=/e/ Autofill&gt;%1$s&lt;/xliff:g&gt; päättelee näytöllä olevien kohteiden perusteella, mitä voidaan täyttää automaattisesti."</string>
     <string name="device_theme" msgid="4571803018917608588">"Laitteen teema"</string>
     <string name="default_theme" msgid="7085644992078579076">"Oletus"</string>
     <string name="storage_manager_indicator" msgid="1516810749625915020">"Tallennustilan hallinta: <xliff:g id="STATUS">^1</xliff:g>"</string>

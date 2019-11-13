@@ -445,11 +445,11 @@
     <string name="crypt_keeper_warn_wipe" msgid="2738374897337991667">"Abisua: desblokeatzeko beste <xliff:g id="COUNT">^1</xliff:g> saiakera oker egiten badituzu, gailuko datu guztiak ezabatuko dira!"</string>
     <string name="crypt_keeper_enter_password" msgid="2223340178473871064">"Idatzi pasahitza"</string>
     <string name="crypt_keeper_failed_title" msgid="7133499413023075961">"Ezin izan da enkriptatu"</string>
-    <string name="crypt_keeper_failed_summary" product="tablet" msgid="8219375738445017266">"Enkriptatzea eten da eta ezin da osatu. Ondorioz, ezin izango dituzu tabletako datuak atzitu.\n\nTableta erabiltzen jarraitzeko, jatorrizko datuak berrezarri behar dituzu. Datuak berrezarri ondoren tableta konfiguratzen duzunean, Google kontuan gordetako babeskopiaren datuak leheneratu ahal izango dituzu."</string>
-    <string name="crypt_keeper_failed_summary" product="default" msgid="3270131542549577953">"Enkriptatzea eten da eta ezin da osatu. Ondorioz, ezin izango dituzu telefonoko datuak atzitu.\n\nTelefonoa erabiltzen jarraitzeko, jatorrizko datuak berrezarri behar dituzu. Datuak berrezarri ondoren telefonoa konfiguratzen duzunean, Google kontuan gordetako babeskopien datuak leheneratu ahal izango dituzu."</string>
+    <string name="crypt_keeper_failed_summary" product="tablet" msgid="8219375738445017266">"Enkriptatzea eten da eta ezin da osatu. Ondorioz, ezin izango dituzu tabletako datuak atzitu.\n\nTableta erabiltzen jarraitzeko, jatorrizko datuak berrezarri behar dituzu. Datuak berrezarri ondoren tableta konfiguratzen duzunean, /e/ kontuan gordetako babeskopiaren datuak leheneratu ahal izango dituzu."</string>
+    <string name="crypt_keeper_failed_summary" product="default" msgid="3270131542549577953">"Enkriptatzea eten da eta ezin da osatu. Ondorioz, ezin izango dituzu telefonoko datuak atzitu.\n\nTelefonoa erabiltzen jarraitzeko, jatorrizko datuak berrezarri behar dituzu. Datuak berrezarri ondoren telefonoa konfiguratzen duzunean, /e/ kontuan gordetako babeskopien datuak leheneratu ahal izango dituzu."</string>
     <string name="crypt_keeper_data_corrupt_title" msgid="8759119849089795751">"Ezin izan da desenkriptatu"</string>
-    <string name="crypt_keeper_data_corrupt_summary" product="tablet" msgid="840107296925798402">"Idatzi duzun pasahitza zuzena da, baina datuak hondatuta daude. \n\nTableta erabiltzen jarraitzeko, jatorrizko ezarpenak berrezarri beharko dituzu. Berrezarri ondoren, tableta konfiguratzen duzunean, Google kontuan egindako babeskopiak leheneratu ahal izango dituzu."</string>
-    <string name="crypt_keeper_data_corrupt_summary" product="default" msgid="8843311420059663824">"Idatzi duzun pasahitza zuzena da, baina datuak hondatuta daude. \n\nTelefonoa erabiltzen jarraitzeko, jatorrizko ezarpenak berrezarri beharko dituzu. Berrezarri ondoren, telefonoa konfiguratzen duzunean, Google kontuan egindako babeskopiak leheneratu ahal izango dituzu."</string>
+    <string name="crypt_keeper_data_corrupt_summary" product="tablet" msgid="840107296925798402">"Idatzi duzun pasahitza zuzena da, baina datuak hondatuta daude. \n\nTableta erabiltzen jarraitzeko, jatorrizko ezarpenak berrezarri beharko dituzu. Berrezarri ondoren, tableta konfiguratzen duzunean, /e/ kontuan egindako babeskopiak leheneratu ahal izango dituzu."</string>
+    <string name="crypt_keeper_data_corrupt_summary" product="default" msgid="8843311420059663824">"Idatzi duzun pasahitza zuzena da, baina datuak hondatuta daude. \n\nTelefonoa erabiltzen jarraitzeko, jatorrizko ezarpenak berrezarri beharko dituzu. Berrezarri ondoren, telefonoa konfiguratzen duzunean, /e/ kontuan egindako babeskopiak leheneratu ahal izango dituzu."</string>
     <string name="crypt_keeper_switch_input_method" msgid="4168332125223483198">"Aldatu idazketa-metodoa"</string>
     <string name="suggested_lock_settings_title" msgid="8971630898700461034">"Ezarri pantailaren blokeoa"</string>
     <string name="suggested_lock_settings_summary" msgid="8778462376012231110">"Babestu gailua"</string>
@@ -1347,8 +1347,8 @@
     <string name="network_reset_not_available" msgid="7188610385577164676">"Erabiltzaileak ez du sarea berrezartzeko baimenik"</string>
     <string name="reset_network_complete_toast" msgid="787829973559541880">"Berrezarri dira sareko ezarpenak"</string>
     <string name="master_clear_title" msgid="3531267871084279512">"Ezabatu datu guztiak (berrezarri fabrikako ezarpenak)"</string>
-    <string name="master_clear_desc" product="tablet" msgid="9146059417023157222">"Tabletaren "<b>"barneko memoriako"</b>" datu guztiak ezabatuko dira, besteak beste:\n\n"<li>"Google kontua"</li>\n<li>"Sistemaren eta aplikazioen datuak eta ezarpenak"</li>\n<li>"Deskargatutako aplikazioak"</li></string>
-    <string name="master_clear_desc" product="default" msgid="4800386183314202571">"Telefonoaren "<b>"barneko memoriako"</b>" datu guztiak ezabatuko dira, besteak beste:\n\n"<li>"Google kontua"</li>\n<li>"Sistemaren eta aplikazioen datuak eta ezarpenak"</li>\n<li>"Deskargatutako aplikazioak"</li></string>
+    <string name="master_clear_desc" product="tablet" msgid="9146059417023157222">"Tabletaren "<b>"barneko memoriako"</b>" datu guztiak ezabatuko dira, besteak beste:\n\n"<li>"/e/ kontua"</li>\n<li>"Sistemaren eta aplikazioen datuak eta ezarpenak"</li>\n<li>"Deskargatutako aplikazioak"</li></string>
+    <string name="master_clear_desc" product="default" msgid="4800386183314202571">"Telefonoaren "<b>"barneko memoriako"</b>" datu guztiak ezabatuko dira, besteak beste:\n\n"<li>"/e/ kontua"</li>\n<li>"Sistemaren eta aplikazioen datuak eta ezarpenak"</li>\n<li>"Deskargatutako aplikazioak"</li></string>
     <string name="master_clear_accounts" product="default" msgid="6412857499147999073">\n\n"Kontu hauetan hasi duzu saioa:\n"</string>
     <string name="master_clear_other_users_present" product="default" msgid="5161423070702470742">\n\n"Badaude erabiltzaile gehiago gailu honetan.\n"</string>
     <string name="master_clear_desc_also_erases_external" msgid="1903185203791274237"><li>"Musika"</li>\n<li>"Argazkiak"</li>\n<li>"Bestelako erabiltzaile-datuak"</li></string>
@@ -1433,7 +1433,7 @@
     <string name="location_scanning_bluetooth_always_scanning_title" msgid="5444989508204520019">"Bluetooth gailuak bilatzea"</string>
     <string name="location_scanning_bluetooth_always_scanning_description" msgid="8602726521250591852">"Hobetu kokapenaren zehaztasuna sistemaren aplikazioei eta zerbitzuei Bluetooth gailuak edonoiz hautemateko aukera emanda."</string>
     <string name="location_network_based" msgid="9134175479520582215">"Wi‑Fi eta sare mugikor bidezko kokapena"</string>
-    <string name="location_neighborhood_level" msgid="5141318121229984788">"Utzi aplikazioei zure kokapena bizkorrago zehazteko Google-ren kokapen-zerbitzua erabiltzen. Kokapen-datu anonimoak bildu eta Google-ra bidaliko dira."</string>
+    <string name="location_neighborhood_level" msgid="5141318121229984788">"Utzi aplikazioei zure kokapena bizkorrago zehazteko /e/-ren kokapen-zerbitzua erabiltzen. Kokapen-datu anonimoak bildu eta /e/-ra bidaliko dira."</string>
     <string name="location_neighborhood_level_wifi" msgid="4234820941954812210">"Kokapena Wi-Fi bidez zehaztuta"</string>
     <string name="location_gps" msgid="8392461023569708478">"GPS sateliteak"</string>
     <string name="location_street_level" product="tablet" msgid="1669562198260860802">"Utzi aplikazioei tabletan GPSa erabiltzen zure kokapena zehatz-mehatz zehazteko."</string>
@@ -1441,8 +1441,8 @@
     <string name="assisted_gps" msgid="4649317129586736885">"Erabili lagundutako GPSa"</string>
     <string name="assisted_gps_enabled" msgid="8751899609589792803">"Erabili zerbitzaria GPSari laguntzeko (kendu marka sarearen erabilera murrizteko)"</string>
     <string name="assisted_gps_disabled" msgid="6982698333968010748">"Erabili zerbitzaria GPSari laguntzeko (kendu marka GPSaren funtzionamendua hobetzeko)"</string>
-    <string name="use_location_title" msgid="5206937465504979977">"Kokapena eta Google bilaketa"</string>
-    <string name="use_location_summary" msgid="3978805802386162520">"Utzi Google-ri zure kokapena erabiltzen bilaketa-emaitzak eta bestelako zerbitzuak hobetzeko"</string>
+    <string name="use_location_title" msgid="5206937465504979977">"Kokapena eta /e/ bilaketa"</string>
+    <string name="use_location_summary" msgid="3978805802386162520">"Utzi /e/-ri zure kokapena erabiltzen bilaketa-emaitzak eta bestelako zerbitzuak hobetzeko"</string>
     <string name="location_access_title" msgid="7064108942964081243">"Nire kokapenerako sarbidea"</string>
     <string name="location_access_summary" msgid="69031404093194341">"Utzi baimena eskatu dizuten aplikazioei zure kokapenaren informazioa erabiltzen."</string>
     <string name="location_sources_heading" msgid="1278732419851088319">"Kokapenaren iturburuak"</string>
@@ -2238,7 +2238,7 @@
     <string name="backup_section_title" msgid="7952232291452882740">"Babeskopiak eta leheneratzea"</string>
     <string name="personal_data_section_title" msgid="7815209034443782061">"Datu pertsonalak"</string>
     <string name="backup_data_title" msgid="1239105919852668016">"Egin nire datuen babeskopia"</string>
-    <string name="backup_data_summary" msgid="708773323451655666">"Egin datuen, Wi-Fi pasahitzen eta beste ezarpenen babeskopia Google zerbitzarietan."</string>
+    <string name="backup_data_summary" msgid="708773323451655666">"Egin datuen, Wi-Fi pasahitzen eta beste ezarpenen babeskopia /e/ zerbitzarietan."</string>
     <string name="backup_configure_account_title" msgid="3790872965773196615">"Babeskopien kontua"</string>
     <string name="include_app_data_title" msgid="2829970132260278394">"Sartu aplikazioen datuak"</string>
     <string name="auto_restore_title" msgid="5397528966329126506">"Leheneratze automatikoa"</string>
@@ -2246,7 +2246,7 @@
     <string name="backup_inactive_title" msgid="685838037986644604">"Babeskopia-zerbitzua ez dago aktibo"</string>
     <string name="backup_configure_account_default_summary" msgid="2436933224764745553">"Ez dago babeskopiak gordetzen dituen aplikaziorik"</string>
     <string name="backup_erase_dialog_title" msgid="1027640829482174106"></string>
-    <string name="backup_erase_dialog_message" msgid="5221011285568343155">"Wi-Fi pasahitzen, laster-marken, bestelako ezarpenen eta aplikazioetako datuen babeskopiak egiteari utzi eta Google zerbitzarietako kopia guztiak ezabatu nahi dituzu?"</string>
+    <string name="backup_erase_dialog_message" msgid="5221011285568343155">"Wi-Fi pasahitzen, laster-marken, bestelako ezarpenen eta aplikazioetako datuen babeskopiak egiteari utzi eta /e/ zerbitzarietako kopia guztiak ezabatu nahi dituzu?"</string>
     <string name="fullbackup_erase_dialog_message" msgid="694766389396659626">"Gailuko datuen (adibidez, Wi-Fi pasahitzak eta deien historia) eta aplikazioetako datuen (besteak beste, ezarpenak eta aplikazioek gordetako fitxategiak) babeskopiak egiteari utzi nahi diozu eta urruneko zerbitzarietako kopia guztiak ezabatu nahi dituzu?"</string>
     <string name="fullbackup_data_summary" msgid="960850365007767734">"Egin babeskopiak automatikoki urrunetik, bai gailuetako datuenak (esaterako, Wi-Fi sareetako pasahitzak eta deien historia), bai aplikazioetako datuenak (esaterako, ezarpenak eta aplikazioek gordetako fitxategiak).\n\nBabeskopiak automatikoki egiteko aukera aktibatzean, gailuko eta aplikazioetako datuak urrunetik gordetzen dira aldizka. Aplikazioetako datuak aplikazioek gordetako edozein datu izan daitezke (garatzailearen ezarpenen arabera), eta kontuzkoak izan litezkeen datuak ere sar daitezke (adibidez, kontaktuak, mezuak eta argazkiak)."</string>
     <string name="device_admin_settings_title" msgid="4960761799560705902">"Gailua administratzeko aplikazioaren ezarpenak"</string>
@@ -2333,7 +2333,7 @@
     <string name="sync_gmail" msgid="714886122098006477">"Gmail"</string>
     <string name="sync_calendar" msgid="9056527206714733735">"Egutegia"</string>
     <string name="sync_contacts" msgid="9174914394377828043">"Kontaktuak"</string>
-    <string name="sync_plug" msgid="3905078969081888738"><font fgcolor="#ffffffff">"Ongi etorri Google sinkronizaziora!"</font>\n"Datuak sinkronizatzeko Google-ren soluzioari esker, kontaktuak, hitzorduak eta beste elementu asko atzitzeko aukera izango duzu edonon zaudela ere."</string>
+    <string name="sync_plug" msgid="3905078969081888738"><font fgcolor="#ffffffff">"Ongi etorri /e/ sinkronizaziora!"</font>\n"Datuak sinkronizatzeko /e/-ren soluzioari esker, kontaktuak, hitzorduak eta beste elementu asko atzitzeko aukera izango duzu edonon zaudela ere."</string>
     <string name="header_application_sync_settings" msgid="6205903695598000286">"Aplikazioen sinkronizazio-ezarpenak"</string>
     <string name="header_data_and_synchronization" msgid="5165024023936509896">"Datuak eta sinkronizazioa"</string>
     <string name="preference_change_password_title" msgid="8955581790270130056">"Aldatu pasahitza"</string>
@@ -2422,8 +2422,8 @@
     <string name="data_usage_app_restrict_dialog" msgid="1466689968707308512">"Eginbide horren eraginez, baliteke atzeko planoko datuak beharrezko dituzten aplikazioek funtzionatzeari uztea, sare mugikorrak baino ez badaude erabilgarri.\n\n Datuak behar bezala erabiltzeko kontrol gehiago dituzu aplikazioaren barruko ezarpenetan."</string>
     <string name="data_usage_restrict_denied_dialog" msgid="55012417305745608">"Atzeko planoko datuak murrizteko, datu-konexioarekin erabil daitezkeen datuak mugatu behar dituzu."</string>
     <string name="data_usage_auto_sync_on_dialog_title" msgid="2438617846762244389">"Sinkronizazio auto. aktibatu?"</string>
-    <string name="data_usage_auto_sync_on_dialog" product="tablet" msgid="8581983093524041669">"Kontuei sarean egiten dizkiezun aldaketa guztiak automatikoki kopiatuko dira tabletan.\n\nHorrez gain, baliteke kontu batzuek tabletan egiten dituzun aldaketak sarean kopiatzea. Google kontuek horrela funtzionatzen dute."</string>
-    <string name="data_usage_auto_sync_on_dialog" product="default" msgid="8651376294887142858">"Kontuei sarean egiten dizkiezun aldaketa guztiak automatikoki kopiatuko dira telefonoan.\n\nHorrez gain, baliteke kontu batzuek telefonoan egiten dituzun aldaketak sarean kopiatzea. Google kontuek horrela funtzionatzen dute."</string>
+    <string name="data_usage_auto_sync_on_dialog" product="tablet" msgid="8581983093524041669">"Kontuei sarean egiten dizkiezun aldaketa guztiak automatikoki kopiatuko dira tabletan.\n\nHorrez gain, baliteke kontu batzuek tabletan egiten dituzun aldaketak sarean kopiatzea. /e/ kontuek horrela funtzionatzen dute."</string>
+    <string name="data_usage_auto_sync_on_dialog" product="default" msgid="8651376294887142858">"Kontuei sarean egiten dizkiezun aldaketa guztiak automatikoki kopiatuko dira telefonoan.\n\nHorrez gain, baliteke kontu batzuek telefonoan egiten dituzun aldaketak sarean kopiatzea. /e/ kontuek horrela funtzionatzen dute."</string>
     <string name="data_usage_auto_sync_off_dialog_title" msgid="9013139130490125793">"Sinkronizazio auto. desaktibatu?"</string>
     <string name="data_usage_auto_sync_off_dialog" msgid="4025938250775413864">"Datuak eta bateria aurrezten lagunduko dizu, baina kontu bakoitza eskuz sinkronizatu beharko duzu informazio berriena biltzeko. Gainera, ez duzu berritasunen jakinarazpenik jasoko."</string>
     <string name="data_usage_cycle_editor_title" msgid="1373797281540188533">"Erabilera-zikloa berrezartzeko data"</string>
@@ -3705,7 +3705,7 @@
     <string name="webview_disabled_for_user" msgid="1216426047631256825">"(<xliff:g id="USER">%s</xliff:g> - desgaituta)"</string>
     <string name="autofill_app" msgid="7338387238377914374">"Betetze automatikoaren zerbitzua"</string>
     <string name="autofill_keywords" msgid="7485591824120812710">"bete, automatikoki, betetze automatiko"</string>
-    <string name="autofill_confirmation_message" msgid="2784869528908005194">"&lt;b&gt;Ziurtatu aplikazioa fidagarria dela&lt;/b&gt; &lt;br/&gt; &lt;br/&gt; &lt;xliff:g id=app_name example=Google Autofill&gt;%1$s&lt;/xliff:g&gt; eginbideak pantailan dagoena erabiltzen du automatikoki bete daitekeena zehazteko."</string>
+    <string name="autofill_confirmation_message" msgid="2784869528908005194">"&lt;b&gt;Ziurtatu aplikazioa fidagarria dela&lt;/b&gt; &lt;br/&gt; &lt;br/&gt; &lt;xliff:g id=app_name example=/e/ Autofill&gt;%1$s&lt;/xliff:g&gt; eginbideak pantailan dagoena erabiltzen du automatikoki bete daitekeena zehazteko."</string>
     <string name="device_theme" msgid="4571803018917608588">"Gailuaren gaia"</string>
     <string name="default_theme" msgid="7085644992078579076">"Lehenetsia"</string>
     <string name="storage_manager_indicator" msgid="1516810749625915020">"Memoria-kudeatzailea: <xliff:g id="STATUS">^1</xliff:g>"</string>

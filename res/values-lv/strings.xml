@@ -448,11 +448,11 @@
     <string name="crypt_keeper_warn_wipe" msgid="2738374897337991667">"Brīdinājums: pēc vēl <xliff:g id="COUNT">^1</xliff:g> neveiksmīgiem ierīces atbloķēšanas mēģinājumiem tās dati tiks dzēsti."</string>
     <string name="crypt_keeper_enter_password" msgid="2223340178473871064">"Ierakstiet paroli"</string>
     <string name="crypt_keeper_failed_title" msgid="7133499413023075961">"Šifrēšana neizdevās."</string>
-    <string name="crypt_keeper_failed_summary" product="tablet" msgid="8219375738445017266">"Šifrēšana tika pārtraukta, un to nevar pabeigt. Planšetdatora dati vairs nav pieejami.\n\nLai atsāktu lietot planšetdatoru, ir jāveic rūpnīcas iestatījumu atiestatīšana. Kad pēc atiestatīšanas esat pabeidzis planšetdatora iestatīšanu, varat atjaunot visus datus, kas tika dublēti jūsu Google kontā."</string>
-    <string name="crypt_keeper_failed_summary" product="default" msgid="3270131542549577953">"Šifrēšana tika pārtraukta, un to nevar pabeigt. Tālruņa dati vairs nav pieejami.\n\nLai atsāktu lietot tālruni, ir jāveic rūpnīcas iestatījumu atiestatīšana. Kad pēc atiestatīšanas esat pabeidzis tālruņa iestatīšanu, varat atjaunot visus datus, kas tika dublēti jūsu Google kontā."</string>
+    <string name="crypt_keeper_failed_summary" product="tablet" msgid="8219375738445017266">"Šifrēšana tika pārtraukta, un to nevar pabeigt. Planšetdatora dati vairs nav pieejami.\n\nLai atsāktu lietot planšetdatoru, ir jāveic rūpnīcas iestatījumu atiestatīšana. Kad pēc atiestatīšanas esat pabeidzis planšetdatora iestatīšanu, varat atjaunot visus datus, kas tika dublēti jūsu /e/ kontā."</string>
+    <string name="crypt_keeper_failed_summary" product="default" msgid="3270131542549577953">"Šifrēšana tika pārtraukta, un to nevar pabeigt. Tālruņa dati vairs nav pieejami.\n\nLai atsāktu lietot tālruni, ir jāveic rūpnīcas iestatījumu atiestatīšana. Kad pēc atiestatīšanas esat pabeidzis tālruņa iestatīšanu, varat atjaunot visus datus, kas tika dublēti jūsu /e/ kontā."</string>
     <string name="crypt_keeper_data_corrupt_title" msgid="8759119849089795751">"Atšifrēšana neizdevās"</string>
-    <string name="crypt_keeper_data_corrupt_summary" product="tablet" msgid="840107296925798402">"Ievadītā parole ir pareiza, bet diemžēl jūsu dati ir bojāti.\n\nLai varētu atsākt lietot planšetdatoru, ir jāatiestata rūpnīcas dati. Kad planšetdators būs atiestatīts, varēsiet atjaunot visus datus, kas bija dublēti jūsu Google kontā."</string>
-    <string name="crypt_keeper_data_corrupt_summary" product="default" msgid="8843311420059663824">"Ievadītā parole ir pareiza, bet diemžēl jūsu dati ir bojāti.\n\nLai varētu atsākt lietot tālruni, ir jāatiestata rūpnīcas dati. Kad tālrunis būs atiestatīts, varēsiet atjaunot visus datus, kas bija dublēti jūsu Google kontā."</string>
+    <string name="crypt_keeper_data_corrupt_summary" product="tablet" msgid="840107296925798402">"Ievadītā parole ir pareiza, bet diemžēl jūsu dati ir bojāti.\n\nLai varētu atsākt lietot planšetdatoru, ir jāatiestata rūpnīcas dati. Kad planšetdators būs atiestatīts, varēsiet atjaunot visus datus, kas bija dublēti jūsu /e/ kontā."</string>
+    <string name="crypt_keeper_data_corrupt_summary" product="default" msgid="8843311420059663824">"Ievadītā parole ir pareiza, bet diemžēl jūsu dati ir bojāti.\n\nLai varētu atsākt lietot tālruni, ir jāatiestata rūpnīcas dati. Kad tālrunis būs atiestatīts, varēsiet atjaunot visus datus, kas bija dublēti jūsu /e/ kontā."</string>
     <string name="crypt_keeper_switch_input_method" msgid="4168332125223483198">"Pārslēgt ievades metodi"</string>
     <string name="suggested_lock_settings_title" msgid="8971630898700461034">"Ekrāna bloķēšanas iestatīšana"</string>
     <string name="suggested_lock_settings_summary" msgid="8778462376012231110">"Aizsargājiet savu ierīci"</string>
@@ -1360,8 +1360,8 @@
     <string name="network_reset_not_available" msgid="7188610385577164676">"Šim lietotājam nav pieejama tīkla atiestatīšana."</string>
     <string name="reset_network_complete_toast" msgid="787829973559541880">"Tīklu iestatījumi ir atiestatīti."</string>
     <string name="master_clear_title" msgid="3531267871084279512">"Notīrīt visus datus (atiestatīt rūpnīcas datus)"</string>
-    <string name="master_clear_desc" product="tablet" msgid="9146059417023157222">"Tādējādi tiks izdzēsti visi planšetdatora "<b>"iekšējā atmiņā"</b>" esošie dati, tostarp:\n\n"<li>"Google konta dati;"</li>\n<li>"sistēmas un lietotņu dati un iestatījumi;"</li>\n<li>"lejupielādētās lietotnes."</li></string>
-    <string name="master_clear_desc" product="default" msgid="4800386183314202571">"Tiks dzēsti visi tālruņa "<b>"iekšējā atmiņā"</b>" esošie dati, tostarp:\n\n"<li>"Google konta dati;"</li>\n<li>"sistēmas un lietotņu dati un iestatījumi;"</li>\n<li>"lejupielādētās lietotnes."</li></string>
+    <string name="master_clear_desc" product="tablet" msgid="9146059417023157222">"Tādējādi tiks izdzēsti visi planšetdatora "<b>"iekšējā atmiņā"</b>" esošie dati, tostarp:\n\n"<li>"/e/ konta dati;"</li>\n<li>"sistēmas un lietotņu dati un iestatījumi;"</li>\n<li>"lejupielādētās lietotnes."</li></string>
+    <string name="master_clear_desc" product="default" msgid="4800386183314202571">"Tiks dzēsti visi tālruņa "<b>"iekšējā atmiņā"</b>" esošie dati, tostarp:\n\n"<li>"/e/ konta dati;"</li>\n<li>"sistēmas un lietotņu dati un iestatījumi;"</li>\n<li>"lejupielādētās lietotnes."</li></string>
     <string name="master_clear_accounts" product="default" msgid="6412857499147999073">\n\n"Pašlaik esat pierakstījies šādos kontos:\n"</string>
     <string name="master_clear_other_users_present" product="default" msgid="5161423070702470742">\n\n"Šo ierīci izmanto vēl citi lietotāji.\n"</string>
     <string name="master_clear_desc_also_erases_external" msgid="1903185203791274237"><li>"Mūzika"</li>\n<li>"Fotoattēli"</li>\n<li>"Citi lietotāja dati"</li></string>
@@ -1446,7 +1446,7 @@
     <string name="location_scanning_bluetooth_always_scanning_title" msgid="5444989508204520019">"Bluetooth meklēšana"</string>
     <string name="location_scanning_bluetooth_always_scanning_description" msgid="8602726521250591852">"Uzlabojiet atrašanās vietas noteikšanas precizitāti, ļaujot sistēmas lietotnēm un pakalpojumiem noteikt Bluetooth ierīces jebkurā laikā."</string>
     <string name="location_network_based" msgid="9134175479520582215">"Wi-Fi un mob. tīklu atr. vieta"</string>
-    <string name="location_neighborhood_level" msgid="5141318121229984788">"Ļaut lietotnēm izmantot Google atrašanās vietas pakalpojumu, lai ātrāk noteiktu jūsu atrašanās vietu. Tiks apkopoti un nosūtīti uz Google serveriem anonīmi atrašanās vietas dati."</string>
+    <string name="location_neighborhood_level" msgid="5141318121229984788">"Ļaut lietotnēm izmantot /e/ atrašanās vietas pakalpojumu, lai ātrāk noteiktu jūsu atrašanās vietu. Tiks apkopoti un nosūtīti uz /e/ serveriem anonīmi atrašanās vietas dati."</string>
     <string name="location_neighborhood_level_wifi" msgid="4234820941954812210">"Wi-Fi noteikta atrašanās vieta"</string>
     <string name="location_gps" msgid="8392461023569708478">"GPS satelīti"</string>
     <string name="location_street_level" product="tablet" msgid="1669562198260860802">"Ļaut lietotnēm izmantot jūsu planšetdatorā esošo GPS, lai noteiktu jūsu atrašanās vietu."</string>
@@ -1454,8 +1454,8 @@
     <string name="assisted_gps" msgid="4649317129586736885">"Izmantot atbalstīto GPS"</string>
     <string name="assisted_gps_enabled" msgid="8751899609589792803">"Izmantot serveri, lai atbalstītu GPS (noņemiet atzīmi, lai samazinātu tīkla lietojumu)"</string>
     <string name="assisted_gps_disabled" msgid="6982698333968010748">"Izmantot serveri GPS atbalstam (noņemiet atzīmi, lai uzlabotu GPS veiktspēju)"</string>
-    <string name="use_location_title" msgid="5206937465504979977">"Vieta un Google meklēšana"</string>
-    <string name="use_location_summary" msgid="3978805802386162520">"Atļaut Google izmantot vietas datus, lai uzlabotu meklēšanas rezultātus un citus pakalpojumus"</string>
+    <string name="use_location_title" msgid="5206937465504979977">"Vieta un /e/ meklēšana"</string>
+    <string name="use_location_summary" msgid="3978805802386162520">"Atļaut /e/ izmantot vietas datus, lai uzlabotu meklēšanas rezultātus un citus pakalpojumus"</string>
     <string name="location_access_title" msgid="7064108942964081243">"Piekļūt manai atrašanās vietai"</string>
     <string name="location_access_summary" msgid="69031404093194341">"Ļaut lietotnēm, kuras ir lūgušas atļauju, izmantot informāciju par jūsu atrašanās vietu."</string>
     <string name="location_sources_heading" msgid="1278732419851088319">"Atrašanās vietas avoti"</string>
@@ -2259,7 +2259,7 @@
     <string name="backup_section_title" msgid="7952232291452882740">"Dublēšana un atjaunošana"</string>
     <string name="personal_data_section_title" msgid="7815209034443782061">"Personīgie dati"</string>
     <string name="backup_data_title" msgid="1239105919852668016">"Dublēt manus datus"</string>
-    <string name="backup_data_summary" msgid="708773323451655666">"Dublēt lietotnes datus, Wi-Fi paroles un citus iestatījumus Google serveros"</string>
+    <string name="backup_data_summary" msgid="708773323451655666">"Dublēt lietotnes datus, Wi-Fi paroles un citus iestatījumus /e/ serveros"</string>
     <string name="backup_configure_account_title" msgid="3790872965773196615">"Rezerves konts"</string>
     <string name="include_app_data_title" msgid="2829970132260278394">"Lietotņu datu iekļaušana"</string>
     <string name="auto_restore_title" msgid="5397528966329126506">"Automātiska atjaunošana"</string>
@@ -2267,7 +2267,7 @@
     <string name="backup_inactive_title" msgid="685838037986644604">"Dublēšanas pakalpojums nav aktīvs"</string>
     <string name="backup_configure_account_default_summary" msgid="2436933224764745553">"Pašlaik nevienā kontā netiek uzglabāti dublēti dati."</string>
     <string name="backup_erase_dialog_title" msgid="1027640829482174106"></string>
-    <string name="backup_erase_dialog_message" msgid="5221011285568343155">"Vai pārtraukt Wi-Fi paroļu, grāmatzīmju, lietotņu datu un citu iestatījumu dublēšanu un dzēst visas to kopijas Google serveros?"</string>
+    <string name="backup_erase_dialog_message" msgid="5221011285568343155">"Vai pārtraukt Wi-Fi paroļu, grāmatzīmju, lietotņu datu un citu iestatījumu dublēšanu un dzēst visas to kopijas /e/ serveros?"</string>
     <string name="fullbackup_erase_dialog_message" msgid="694766389396659626">"Vai pārtraukt ierīces datu (piemēram, Wi-Fi paroļu un zvanu vēstures) un lietotņu datu (piemēram, lietotņu iestatījumu un saglabāto failu) dublēšanu un dzēst visas to kopijas attālajos serveros?"</string>
     <string name="fullbackup_data_summary" msgid="960850365007767734">"Ierīces dati (piemēram, Wi-Fi paroles un zvanu vēsture) un lietotņu dati (piemēram, iestatījumi un lietotnēs uzglabātie faili) tiek automātiski attālināti dublēti.\n\nKad esat ieslēdzis automātisko dublēšanu, ierīces un lietotņu dati tiek regulāri attālināti saglabāti. Lietotņu dati var būt jebkādi lietotnēs saglabātie dati (atkarībā no izstrādātāja iestatījumiem), tostarp potenciāli sensitīvi dati, piemēram, informācija par kontaktpersonām, ziņojumi un fotoattēli."</string>
     <string name="device_admin_settings_title" msgid="4960761799560705902">"Ierīces administratora iestatījumi"</string>
@@ -2354,7 +2354,7 @@
     <string name="sync_gmail" msgid="714886122098006477">"Gmail"</string>
     <string name="sync_calendar" msgid="9056527206714733735">"Kalendārs"</string>
     <string name="sync_contacts" msgid="9174914394377828043">"Kontaktpersonas"</string>
-    <string name="sync_plug" msgid="3905078969081888738"><font fgcolor="#ffffffff">"Laipni lūdzam pakalpojumā Google Sync!"</font>\n"Tā ir Google pieeja datu sinhronizācijai, kas ļauj piekļūt kontaktpersonām, darba uzdevumiem un citiem datiem no jebkuras vietas."</string>
+    <string name="sync_plug" msgid="3905078969081888738"><font fgcolor="#ffffffff">"Laipni lūdzam pakalpojumā /e/ Sync!"</font>\n"Tā ir /e/ pieeja datu sinhronizācijai, kas ļauj piekļūt kontaktpersonām, darba uzdevumiem un citiem datiem no jebkuras vietas."</string>
     <string name="header_application_sync_settings" msgid="6205903695598000286">"Lietotnes sinhronizācijas iestatījumi"</string>
     <string name="header_data_and_synchronization" msgid="5165024023936509896">"Dati un sinhronizācija"</string>
     <string name="preference_change_password_title" msgid="8955581790270130056">"Mainīt paroli"</string>
@@ -2443,8 +2443,8 @@
     <string name="data_usage_app_restrict_dialog" msgid="1466689968707308512">"Ja būs pieejami tikai mobilie tīkli, šī funkcija var pārtraukt tādas lietotnes darbību, kurā tiek izmantoti fona dati.\n\nLietotnē pieejamajos iestatījumos varat skatīt citas piemērotas datu lietojuma vadīklas."</string>
     <string name="data_usage_restrict_denied_dialog" msgid="55012417305745608">"Fona datu ierobežošana ir iespējama tikai tad, ja ir iestatīts mobilo datu ierobežojums."</string>
     <string name="data_usage_auto_sync_on_dialog_title" msgid="2438617846762244389">"Vai ieslēgt datu automātisko sinhronizāciju?"</string>
-    <string name="data_usage_auto_sync_on_dialog" product="tablet" msgid="8581983093524041669">"Visas izmaiņas, ko veiksiet kontos tīmeklī, tiks automātiski pārkopētas planšetdatorā.\n\nDažos kontos planšetdatorā veiktās izmaiņas var automātiski pārkopēt tīmeklī. Šādi darbojas Google konts."</string>
-    <string name="data_usage_auto_sync_on_dialog" product="default" msgid="8651376294887142858">"Visas izmaiņas, ko veiksiet kontos tīmeklī, tiks automātiski pārkopētas tālrunī.\n\nDažos kontos tālrunī veiktās izmaiņas var automātiski pārkopēt tīmeklī. Šādi darbojas Google konts."</string>
+    <string name="data_usage_auto_sync_on_dialog" product="tablet" msgid="8581983093524041669">"Visas izmaiņas, ko veiksiet kontos tīmeklī, tiks automātiski pārkopētas planšetdatorā.\n\nDažos kontos planšetdatorā veiktās izmaiņas var automātiski pārkopēt tīmeklī. Šādi darbojas /e/ konts."</string>
+    <string name="data_usage_auto_sync_on_dialog" product="default" msgid="8651376294887142858">"Visas izmaiņas, ko veiksiet kontos tīmeklī, tiks automātiski pārkopētas tālrunī.\n\nDažos kontos tālrunī veiktās izmaiņas var automātiski pārkopēt tīmeklī. Šādi darbojas /e/ konts."</string>
     <string name="data_usage_auto_sync_off_dialog_title" msgid="9013139130490125793">"Vai izslēgt datu automātisko sinhronizāciju?"</string>
     <string name="data_usage_auto_sync_off_dialog" msgid="4025938250775413864">"Tiks saglabāti dati un akumulatora lietojums, bet jums vajadzēs manuāli sinhronizēt katru kontu, lai apkopotu jaunāko informāciju. Un jūs nesaņemsiet paziņojumus par atjauninājumiem."</string>
     <string name="data_usage_cycle_editor_title" msgid="1373797281540188533">"Izmantošanas cikla atiestatīšanas datums"</string>
@@ -3760,7 +3760,7 @@
     <string name="webview_disabled_for_user" msgid="1216426047631256825">"(atspējots lietotājam <xliff:g id="USER">%s</xliff:g>)"</string>
     <string name="autofill_app" msgid="7338387238377914374">"Automātiskā aizpilde"</string>
     <string name="autofill_keywords" msgid="7485591824120812710">"automātiskā aizpilde"</string>
-    <string name="autofill_confirmation_message" msgid="2784869528908005194">"&lt;b&gt;Pārliecinieties, ka šī lietotne ir uzticama&lt;/b&gt; &lt;br/&gt; &lt;br/&gt; &lt;xliff:g id=app_name example=Google automātiskā aizpilde&gt;%1$s&lt;/xliff:g&gt; izmanto ekrānā redzamo, lai noteiktu, kādu informāciju aizpildīt automātiski."</string>
+    <string name="autofill_confirmation_message" msgid="2784869528908005194">"&lt;b&gt;Pārliecinieties, ka šī lietotne ir uzticama&lt;/b&gt; &lt;br/&gt; &lt;br/&gt; &lt;xliff:g id=app_name example=/e/ automātiskā aizpilde&gt;%1$s&lt;/xliff:g&gt; izmanto ekrānā redzamo, lai noteiktu, kādu informāciju aizpildīt automātiski."</string>
     <string name="device_theme" msgid="4571803018917608588">"Ierīces motīvs"</string>
     <string name="default_theme" msgid="7085644992078579076">"Noklusējums"</string>
     <string name="storage_manager_indicator" msgid="1516810749625915020">"Krātuves pārvaldnieks: <xliff:g id="STATUS">^1</xliff:g>"</string>

@@ -445,11 +445,11 @@
     <string name="crypt_keeper_warn_wipe" msgid="2738374897337991667">"Varning! Efter <xliff:g id="COUNT">^1</xliff:g> misslyckade upplåsningsförsök till raderas data på enheten."</string>
     <string name="crypt_keeper_enter_password" msgid="2223340178473871064">"Ange ditt lösenord"</string>
     <string name="crypt_keeper_failed_title" msgid="7133499413023075961">"Krypteringen misslyckades"</string>
-    <string name="crypt_keeper_failed_summary" product="tablet" msgid="8219375738445017266">"Krypteringen avbröts och kan inte slutföras. Data på surfplattan är därför inte tillgängliga längre.\n\n Om du vill fortsätta använda surfplattan måste du återställa standardinställningarna. När du konfigurerar surfplattan efter återställningen kan du välja att återställa alla data som du har säkerhetskopierat i ditt Google-konto."</string>
-    <string name="crypt_keeper_failed_summary" product="default" msgid="3270131542549577953">"Krypteringen avbröts och kan inte slutföras. Data på mobilen är därför inte tillgängliga längre.\n\nOm du vill fortsätta använda mobilen måste du återställa standardinställningarna. När du konfigurerar enheten efter återställningen kan du välja att återställa alla data som du har säkerhetskopierat i ditt Google-konto."</string>
+    <string name="crypt_keeper_failed_summary" product="tablet" msgid="8219375738445017266">"Krypteringen avbröts och kan inte slutföras. Data på surfplattan är därför inte tillgängliga längre.\n\n Om du vill fortsätta använda surfplattan måste du återställa standardinställningarna. När du konfigurerar surfplattan efter återställningen kan du välja att återställa alla data som du har säkerhetskopierat i ditt /e/-konto."</string>
+    <string name="crypt_keeper_failed_summary" product="default" msgid="3270131542549577953">"Krypteringen avbröts och kan inte slutföras. Data på mobilen är därför inte tillgängliga längre.\n\nOm du vill fortsätta använda mobilen måste du återställa standardinställningarna. När du konfigurerar enheten efter återställningen kan du välja att återställa alla data som du har säkerhetskopierat i ditt /e/-konto."</string>
     <string name="crypt_keeper_data_corrupt_title" msgid="8759119849089795751">"Dekrypteringen misslyckades"</string>
-    <string name="crypt_keeper_data_corrupt_summary" product="tablet" msgid="840107296925798402">"Lösenordet du angav är korrekt, men dina data har korrumperats. \n\nOm du vill fortsätta använda surfplattan måste du återställa standardinställningarna. När du har konfigurerat surfplattan efter återställningen har du möjlighet att återställa alla data som har säkerhetskopierats i ditt Google-konto."</string>
-    <string name="crypt_keeper_data_corrupt_summary" product="default" msgid="8843311420059663824">"Lösenordet du angav är korrekt, men dina data har korrumperats. \n\nOm du vill fortsätta använda mobilen måste du återställa standardinställningarna. När du har konfigurerat mobilen efter återställningen har du möjlighet att återställa alla data som har säkerhetskopierats i ditt Google-konto."</string>
+    <string name="crypt_keeper_data_corrupt_summary" product="tablet" msgid="840107296925798402">"Lösenordet du angav är korrekt, men dina data har korrumperats. \n\nOm du vill fortsätta använda surfplattan måste du återställa standardinställningarna. När du har konfigurerat surfplattan efter återställningen har du möjlighet att återställa alla data som har säkerhetskopierats i ditt /e/-konto."</string>
+    <string name="crypt_keeper_data_corrupt_summary" product="default" msgid="8843311420059663824">"Lösenordet du angav är korrekt, men dina data har korrumperats. \n\nOm du vill fortsätta använda mobilen måste du återställa standardinställningarna. När du har konfigurerat mobilen efter återställningen har du möjlighet att återställa alla data som har säkerhetskopierats i ditt /e/-konto."</string>
     <string name="crypt_keeper_switch_input_method" msgid="4168332125223483198">"Växla inmatningsmetod"</string>
     <string name="suggested_lock_settings_title" msgid="8971630898700461034">"Konfigurera skärmlåset"</string>
     <string name="suggested_lock_settings_summary" msgid="8778462376012231110">"Skydda enheten"</string>
@@ -1347,8 +1347,8 @@
     <string name="network_reset_not_available" msgid="7188610385577164676">"Den här användaren kan inte återställa nätverket"</string>
     <string name="reset_network_complete_toast" msgid="787829973559541880">"Nätverksinställningarna har återställts"</string>
     <string name="master_clear_title" msgid="3531267871084279512">"Rensa all data (återställ standardinställningar)"</string>
-    <string name="master_clear_desc" product="tablet" msgid="9146059417023157222">"Detta raderar all data från enhetens "<b>"interna lagringsutrymme"</b>", bland annat:\n\n"<li>"Ditt Google-konto"</li>\n<li>"System- och appdata och inställningar"</li>\n<li>"Hämtade appar"</li></string>
-    <string name="master_clear_desc" product="default" msgid="4800386183314202571">"Detta raderar all data från enhetens "<b>"interna lagringsutrymme"</b>", bland annat:\n\n"<li>"Ditt Google-konto"</li>\n<li>"System- och appdata och inställningar"</li>\n<li>"Hämtade appar"</li></string>
+    <string name="master_clear_desc" product="tablet" msgid="9146059417023157222">"Detta raderar all data från enhetens "<b>"interna lagringsutrymme"</b>", bland annat:\n\n"<li>"Ditt /e/-konto"</li>\n<li>"System- och appdata och inställningar"</li>\n<li>"Hämtade appar"</li></string>
+    <string name="master_clear_desc" product="default" msgid="4800386183314202571">"Detta raderar all data från enhetens "<b>"interna lagringsutrymme"</b>", bland annat:\n\n"<li>"Ditt /e/-konto"</li>\n<li>"System- och appdata och inställningar"</li>\n<li>"Hämtade appar"</li></string>
     <string name="master_clear_accounts" product="default" msgid="6412857499147999073">\n\n"Du är inloggad på följande konton:\n"</string>
     <string name="master_clear_other_users_present" product="default" msgid="5161423070702470742">\n\n"Det finns andra användare på enheten.\n"</string>
     <string name="master_clear_desc_also_erases_external" msgid="1903185203791274237"><li>"Musik"</li>\n<li>"Foton"</li>\n<li>"Andra användardata"</li></string>
@@ -1433,7 +1433,7 @@
     <string name="location_scanning_bluetooth_always_scanning_title" msgid="5444989508204520019">"Bluetooth-sökning"</string>
     <string name="location_scanning_bluetooth_always_scanning_description" msgid="8602726521250591852">"Förbättra platsangivelserna genom att alltid låta systemtjänster och -appar upptäcka Bluetooth-enheter."</string>
     <string name="location_network_based" msgid="9134175479520582215">"Plats från Wi-Fi/mobilnätverk"</string>
-    <string name="location_neighborhood_level" msgid="5141318121229984788">"Ge appar möjlighet att snabbare se var du är med Googles platstjänst. Anonym platsinformation samlas in och skickas till Google."</string>
+    <string name="location_neighborhood_level" msgid="5141318121229984788">"Ge appar möjlighet att snabbare se var du är med /e/s platstjänst. Anonym platsinformation samlas in och skickas till /e/."</string>
     <string name="location_neighborhood_level_wifi" msgid="4234820941954812210">"Platsen fastställs via Wi-Fi"</string>
     <string name="location_gps" msgid="8392461023569708478">"GPS-satelliter"</string>
     <string name="location_street_level" product="tablet" msgid="1669562198260860802">"Ge appar möjlighet att använda surfplattans GPS för att fastställa mer exakt var du befinner dig"</string>
@@ -1441,8 +1441,8 @@
     <string name="assisted_gps" msgid="4649317129586736885">"Använd assisterad GPS"</string>
     <string name="assisted_gps_enabled" msgid="8751899609589792803">"Använd servern för att förbättra GPS-funktionen (avmarkera om du vill minska nätverksbelastningen)"</string>
     <string name="assisted_gps_disabled" msgid="6982698333968010748">"Använd servern för att förbättra GPS-funktionen (avmarkera om du vill förbättra GPS-funktionen)"</string>
-    <string name="use_location_title" msgid="5206937465504979977">"Plats och Sök på Google"</string>
-    <string name="use_location_summary" msgid="3978805802386162520">"Låter Google använda din plats för att förbättra sökresultaten och andra tjänster"</string>
+    <string name="use_location_title" msgid="5206937465504979977">"Plats och Sök på /e/"</string>
+    <string name="use_location_summary" msgid="3978805802386162520">"Låter /e/ använda din plats för att förbättra sökresultaten och andra tjänster"</string>
     <string name="location_access_title" msgid="7064108942964081243">"Åtkomst till min plats"</string>
     <string name="location_access_summary" msgid="69031404093194341">"Ge appar som har bett om tillstånd möjlighet att använda din platsinformation"</string>
     <string name="location_sources_heading" msgid="1278732419851088319">"Platskällor"</string>
@@ -2238,7 +2238,7 @@
     <string name="backup_section_title" msgid="7952232291452882740">"Säkerhetskopiera och återställ"</string>
     <string name="personal_data_section_title" msgid="7815209034443782061">"Personliga data"</string>
     <string name="backup_data_title" msgid="1239105919852668016">"Säkerhetskopiera data"</string>
-    <string name="backup_data_summary" msgid="708773323451655666">"spara en säkerhetskopia av appdata, Wi-Fi-lösenord och andra inställningar på Googles servrar"</string>
+    <string name="backup_data_summary" msgid="708773323451655666">"spara en säkerhetskopia av appdata, Wi-Fi-lösenord och andra inställningar på /e/s servrar"</string>
     <string name="backup_configure_account_title" msgid="3790872965773196615">"Backupkonto"</string>
     <string name="include_app_data_title" msgid="2829970132260278394">"Inkludera appdata"</string>
     <string name="auto_restore_title" msgid="5397528966329126506">"Automatisk återställning"</string>
@@ -2246,7 +2246,7 @@
     <string name="backup_inactive_title" msgid="685838037986644604">"Ingen aktiv säkerhetskopieringstjänst"</string>
     <string name="backup_configure_account_default_summary" msgid="2436933224764745553">"Säkerhetskopierade data lagras för tillfället inte på något konto"</string>
     <string name="backup_erase_dialog_title" msgid="1027640829482174106"></string>
-    <string name="backup_erase_dialog_message" msgid="5221011285568343155">"Vill du sluta säkerhetskopiera Wi-Fi-lösenord, bokmärken, andra inställningar och appdata samt ta bort alla kopior på Googles servrar?"</string>
+    <string name="backup_erase_dialog_message" msgid="5221011285568343155">"Vill du sluta säkerhetskopiera Wi-Fi-lösenord, bokmärken, andra inställningar och appdata samt ta bort alla kopior på /e/s servrar?"</string>
     <string name="fullbackup_erase_dialog_message" msgid="694766389396659626">"Vill du sluta säkerhetskopiera enhetsdata (t.ex. Wi-Fi-lösenord och samtalshistorik) och appdata (t.ex. inställningar och filer som har sparats i appar), och radera alla kopior på fjärrservrar?"</string>
     <string name="fullbackup_data_summary" msgid="960850365007767734">"Fjärrsäkerhetskopiera enhetsdata (t.ex. Wi-Fi-lösenord och samtalshistorik) och appdata (t.ex. inställningar och filer som har sparats i appar) automatiskt.\n\nNär du aktiverar automatisk säkerhetskopiering fjärrsparas enhets- och appdata då och då. Appdata kan vara all data som har sparats i en app (beroende på utvecklarinställningarna), inklusive data som kan vara känslig, till exempel kontakter, meddelanden och foton."</string>
     <string name="device_admin_settings_title" msgid="4960761799560705902">"Inställningar för enhetsadministratör"</string>
@@ -2333,7 +2333,7 @@
     <string name="sync_gmail" msgid="714886122098006477">"Gmail"</string>
     <string name="sync_calendar" msgid="9056527206714733735">"Kalender"</string>
     <string name="sync_contacts" msgid="9174914394377828043">"Kontakter"</string>
-    <string name="sync_plug" msgid="3905078969081888738"><font fgcolor="#ffffffff">"Välkommen till Google Synk!"</font>\n"En funktion i Google som du kan använda om du vill synkronisera så att du kommer åt dina kontakter, din kalender osv var du än befinner dig."</string>
+    <string name="sync_plug" msgid="3905078969081888738"><font fgcolor="#ffffffff">"Välkommen till /e/ Synk!"</font>\n"En funktion i /e/ som du kan använda om du vill synkronisera så att du kommer åt dina kontakter, din kalender osv var du än befinner dig."</string>
     <string name="header_application_sync_settings" msgid="6205903695598000286">"Synkroniseringsinställningar för app"</string>
     <string name="header_data_and_synchronization" msgid="5165024023936509896">"Data och synkronisering"</string>
     <string name="preference_change_password_title" msgid="8955581790270130056">"Byt lösenord"</string>
@@ -2422,8 +2422,8 @@
     <string name="data_usage_app_restrict_dialog" msgid="1466689968707308512">"Den här funktionen kan medföra att en app som använder bakgrundsdata slutar fungera när endast mobila nätverk är tillgängliga.\n\nDu kan hitta fler alternativ för dataanvändning i inställningarna i appen."</string>
     <string name="data_usage_restrict_denied_dialog" msgid="55012417305745608">"Det går bara att begränsa bakgrundsdatan när du har angett en gräns för mobildatan."</string>
     <string name="data_usage_auto_sync_on_dialog_title" msgid="2438617846762244389">"Aktivera automatisk datasynk.?"</string>
-    <string name="data_usage_auto_sync_on_dialog" product="tablet" msgid="8581983093524041669">"Alla kontoändringar som görs på webben kopieras automatiskt till surfplattan.\n\nFör vissa konton kopieras även alla ändringar som görs på surfplattan automatiskt till webben. Google-konton fungerar på det sättet."</string>
-    <string name="data_usage_auto_sync_on_dialog" product="default" msgid="8651376294887142858">"Alla kontoändringar som görs på webben kopieras automatiskt till mobilen.\n\nFör vissa konton kopieras även alla ändringar som görs på mobilen automatiskt till webben. Google-konton fungerar på det sättet."</string>
+    <string name="data_usage_auto_sync_on_dialog" product="tablet" msgid="8581983093524041669">"Alla kontoändringar som görs på webben kopieras automatiskt till surfplattan.\n\nFör vissa konton kopieras även alla ändringar som görs på surfplattan automatiskt till webben. /e/-konton fungerar på det sättet."</string>
+    <string name="data_usage_auto_sync_on_dialog" product="default" msgid="8651376294887142858">"Alla kontoändringar som görs på webben kopieras automatiskt till mobilen.\n\nFör vissa konton kopieras även alla ändringar som görs på mobilen automatiskt till webben. /e/-konton fungerar på det sättet."</string>
     <string name="data_usage_auto_sync_off_dialog_title" msgid="9013139130490125793">"Inaktivera automatisk datasynkronisering?"</string>
     <string name="data_usage_auto_sync_off_dialog" msgid="4025938250775413864">"Detta minskar dataanvändningen och sparar batteri, men varje konto måste synkroniseras manuellt varje gång du vill samla in aktuell information. Du får inte heller några meddelanden om uppdateringar."</string>
     <string name="data_usage_cycle_editor_title" msgid="1373797281540188533">"Återställningsdag för användningscykel"</string>
@@ -3705,7 +3705,7 @@
     <string name="webview_disabled_for_user" msgid="1216426047631256825">"(har inaktiverats för <xliff:g id="USER">%s</xliff:g>)"</string>
     <string name="autofill_app" msgid="7338387238377914374">"Tjänsten Autofyll"</string>
     <string name="autofill_keywords" msgid="7485591824120812710">"auto, fyll, autofyll"</string>
-    <string name="autofill_confirmation_message" msgid="2784869528908005194">"&lt;b&gt;Kontrollera att du litar på den här appen&lt;/b&gt; &lt;br/&gt; &lt;br/&gt; &lt;xliff:g id=app_name example=Google Autofyll&gt;%1$s&lt;/xliff:g&gt; identifierar vad som kan fyllas i automatiskt utifrån vad som visas på skärmen."</string>
+    <string name="autofill_confirmation_message" msgid="2784869528908005194">"&lt;b&gt;Kontrollera att du litar på den här appen&lt;/b&gt; &lt;br/&gt; &lt;br/&gt; &lt;xliff:g id=app_name example=/e/ Autofyll&gt;%1$s&lt;/xliff:g&gt; identifierar vad som kan fyllas i automatiskt utifrån vad som visas på skärmen."</string>
     <string name="device_theme" msgid="4571803018917608588">"Enhetstema"</string>
     <string name="default_theme" msgid="7085644992078579076">"Standard"</string>
     <string name="storage_manager_indicator" msgid="1516810749625915020">"Lagringshanteraren: <xliff:g id="STATUS">^1</xliff:g>"</string>

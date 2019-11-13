@@ -444,11 +444,11 @@
     <string name="crypt_keeper_warn_wipe" msgid="2738374897337991667">"Achtung: Sollten die nächsten <xliff:g id="COUNT">^1</xliff:g> Versuche, das Gerät zu entsperren, fehlschlagen, werden die Gerätedaten gelöscht!"</string>
     <string name="crypt_keeper_enter_password" msgid="2223340178473871064">"Passwort eingeben"</string>
     <string name="crypt_keeper_failed_title" msgid="7133499413023075961">"Verschlüsselung fehlgeschlagen"</string>
-    <string name="crypt_keeper_failed_summary" product="tablet" msgid="8219375738445017266">"Die Verschlüsselung wurde unterbrochen und kann nicht abgeschlossen werden. Daher ist der Zugriff auf die Daten auf deinem Tablet nicht mehr möglich. \n\nDamit du dein Tablet wieder verwenden kannst, musst du es auf die Werkseinstellungen zurücksetzen. Wenn du dein Tablet nach dem Zurücksetzen wieder einrichtest, kannst du gegebenenfalls Daten, die gesichert wurden, in deinem Google-Konto wiederherstellen."</string>
-    <string name="crypt_keeper_failed_summary" product="default" msgid="3270131542549577953">"Die Verschlüsselung wurde unterbrochen und kann nicht abgeschlossen werden. Daher ist der Zugriff auf die Daten auf deinem Telefon nicht mehr möglich. \n\nDamit du dein Telefon wieder verwenden kannst, musst du es auf die Werkseinstellungen zurücksetzen. Wenn du dein Telefon nach dem Zurücksetzen wieder einrichtest, kannst du gegebenenfalls Daten, die gesichert wurden, in deinem Google-Konto wiederherstellen."</string>
+    <string name="crypt_keeper_failed_summary" product="tablet" msgid="8219375738445017266">"Die Verschlüsselung wurde unterbrochen und kann nicht abgeschlossen werden. Daher ist der Zugriff auf die Daten auf deinem Tablet nicht mehr möglich. \n\nDamit du dein Tablet wieder verwenden kannst, musst du es auf die Werkseinstellungen zurücksetzen. Wenn du dein Tablet nach dem Zurücksetzen wieder einrichtest, kannst du gegebenenfalls Daten, die gesichert wurden, in deinem /e/-Konto wiederherstellen."</string>
+    <string name="crypt_keeper_failed_summary" product="default" msgid="3270131542549577953">"Die Verschlüsselung wurde unterbrochen und kann nicht abgeschlossen werden. Daher ist der Zugriff auf die Daten auf deinem Telefon nicht mehr möglich. \n\nDamit du dein Telefon wieder verwenden kannst, musst du es auf die Werkseinstellungen zurücksetzen. Wenn du dein Telefon nach dem Zurücksetzen wieder einrichtest, kannst du gegebenenfalls Daten, die gesichert wurden, in deinem /e/-Konto wiederherstellen."</string>
     <string name="crypt_keeper_data_corrupt_title" msgid="8759119849089795751">"Fehler bei der Verschlüsselung"</string>
-    <string name="crypt_keeper_data_corrupt_summary" product="tablet" msgid="840107296925798402">"Das von dir eingegebene Passwort ist korrekt, aber deine Daten sind beschädigt. \n\nDamit du dein Tablet weiterhin verwenden kannst, musst du es auf die Werkseinstellungen zurücksetzen. Nach dem Zurücksetzen auf die Werkseinstellungen kannst du beim Einrichten deines Tablets die Daten wiederherstellen, die du in deinem Google-Konto gesichert hattest."</string>
-    <string name="crypt_keeper_data_corrupt_summary" product="default" msgid="8843311420059663824">"Das von dir eingegebene Passwort ist korrekt, aber deine Daten sind beschädigt. \n\nDamit du dein Smartphone weiterhin verwenden kannst, musst du es auf die Werkseinstellungen zurücksetzen. Nach dem Zurücksetzen auf die Werkseinstellungen kannst du beim Einrichten deines Smartphones die Daten wiederherstellen, die du in deinem Google-Konto gesichert hattest."</string>
+    <string name="crypt_keeper_data_corrupt_summary" product="tablet" msgid="840107296925798402">"Das von dir eingegebene Passwort ist korrekt, aber deine Daten sind beschädigt. \n\nDamit du dein Tablet weiterhin verwenden kannst, musst du es auf die Werkseinstellungen zurücksetzen. Nach dem Zurücksetzen auf die Werkseinstellungen kannst du beim Einrichten deines Tablets die Daten wiederherstellen, die du in deinem /e/-Konto gesichert hattest."</string>
+    <string name="crypt_keeper_data_corrupt_summary" product="default" msgid="8843311420059663824">"Das von dir eingegebene Passwort ist korrekt, aber deine Daten sind beschädigt. \n\nDamit du dein Smartphone weiterhin verwenden kannst, musst du es auf die Werkseinstellungen zurücksetzen. Nach dem Zurücksetzen auf die Werkseinstellungen kannst du beim Einrichten deines Smartphones die Daten wiederherstellen, die du in deinem /e/-Konto gesichert hattest."</string>
     <string name="crypt_keeper_switch_input_method" msgid="4168332125223483198">"Eingabemethode wechseln"</string>
     <string name="suggested_lock_settings_title" msgid="8971630898700461034">"Displaysperre einrichten"</string>
     <string name="suggested_lock_settings_summary" msgid="8778462376012231110">"Gerät schützen"</string>
@@ -1347,8 +1347,8 @@
     <string name="network_reset_not_available" msgid="7188610385577164676">"Das Zurücksetzen der Netzwerkeinstellungen ist für diesen Nutzer nicht verfügbar."</string>
     <string name="reset_network_complete_toast" msgid="787829973559541880">"Die Netzwerkeinstellungen wurden zurückgesetzt."</string>
     <string name="master_clear_title" msgid="3531267871084279512">"Alle Daten löschen (Werkseinstellungen)"</string>
-    <string name="master_clear_desc" product="tablet" msgid="9146059417023157222">"Hierdurch werden alle Daten aus dem "<b>"internen Speicher"</b>" deines Tablets gelöscht, u. a.\n\n"<li>"dein Google-Konto"</li>\n<li>"System- und App-Daten sowie entsprechende Einstellungen"</li>\n<li>"heruntergeladene Apps"</li></string>
-    <string name="master_clear_desc" product="default" msgid="4800386183314202571">"Hierdurch werden alle Daten aus dem "<b>"internen Speicher"</b>" deines Telefons gelöscht, u. a.\n\n"<li>"dein Google-Konto"</li>\n<li>"System- und App-Daten sowie entsprechende Einstellungen"</li>\n<li>"heruntergeladene Apps"</li></string>
+    <string name="master_clear_desc" product="tablet" msgid="9146059417023157222">"Hierdurch werden alle Daten aus dem "<b>"internen Speicher"</b>" deines Tablets gelöscht, u. a.\n\n"<li>"dein /e/-Konto"</li>\n<li>"System- und App-Daten sowie entsprechende Einstellungen"</li>\n<li>"heruntergeladene Apps"</li></string>
+    <string name="master_clear_desc" product="default" msgid="4800386183314202571">"Hierdurch werden alle Daten aus dem "<b>"internen Speicher"</b>" deines Telefons gelöscht, u. a.\n\n"<li>"dein /e/-Konto"</li>\n<li>"System- und App-Daten sowie entsprechende Einstellungen"</li>\n<li>"heruntergeladene Apps"</li></string>
     <string name="master_clear_accounts" product="default" msgid="6412857499147999073">\n\n"Du bist zurzeit in folgenden Konten angemeldet:\n"</string>
     <string name="master_clear_other_users_present" product="default" msgid="5161423070702470742">\n\n"Auf diesem Gerät sind andere Nutzer vorhanden.\n"</string>
     <string name="master_clear_desc_also_erases_external" msgid="1903185203791274237"><li>"Musik"</li>\n<li>"Fotos"</li>\n<li>"Sonstige Nutzerdaten"</li></string>
@@ -1433,7 +1433,7 @@
     <string name="location_scanning_bluetooth_always_scanning_title" msgid="5444989508204520019">"Bluetooth-Suche"</string>
     <string name="location_scanning_bluetooth_always_scanning_description" msgid="8602726521250591852">"System-Apps und -diensten zur Erhöhung der Standortgenauigkeit jederzeit das Erkennen von Bluetooth-Geräten gestatten"</string>
     <string name="location_network_based" msgid="9134175479520582215">"WLAN- &amp; Mobilfunknetz-Standort"</string>
-    <string name="location_neighborhood_level" msgid="5141318121229984788">"Apps dürfen meinen Standort mit dem Google-Standortdienst schneller bestimmen. Anonyme Standortdaten werden erfasst und an Google gesendet."</string>
+    <string name="location_neighborhood_level" msgid="5141318121229984788">"Apps dürfen meinen Standort mit dem /e/-Standortdienst schneller bestimmen. Anonyme Standortdaten werden erfasst und an /e/ gesendet."</string>
     <string name="location_neighborhood_level_wifi" msgid="4234820941954812210">"Standort per WLAN ermittelt"</string>
     <string name="location_gps" msgid="8392461023569708478">"GPS-Satelliten"</string>
     <string name="location_street_level" product="tablet" msgid="1669562198260860802">"Apps dürfen meinen Standort mithilfe von GPS auf meinem Tablet bestimmen."</string>
@@ -1441,8 +1441,8 @@
     <string name="assisted_gps" msgid="4649317129586736885">"Unterstütztes GPS verwenden"</string>
     <string name="assisted_gps_enabled" msgid="8751899609589792803">"Server zur Unterstützung von GPS verwenden (zur Verringerung der Netzwerkauslastung nicht auswählen)"</string>
     <string name="assisted_gps_disabled" msgid="6982698333968010748">"Server zur Unterstützung von GPS verwenden (zur Verbesserung der GPS-Leistung deaktivieren)"</string>
-    <string name="use_location_title" msgid="5206937465504979977">"Standort &amp; Google-Suche"</string>
-    <string name="use_location_summary" msgid="3978805802386162520">"Google darf Suchergebnisse und andere Dienste an meinen Standort anpassen"</string>
+    <string name="use_location_title" msgid="5206937465504979977">"Standort &amp; /e/-Suche"</string>
+    <string name="use_location_summary" msgid="3978805802386162520">"/e/ darf Suchergebnisse und andere Dienste an meinen Standort anpassen"</string>
     <string name="location_access_title" msgid="7064108942964081243">"Zugriff auf meinen Standort"</string>
     <string name="location_access_summary" msgid="69031404093194341">"Meine Standortdaten dürfen von Apps verwendet werden, die ich dazu berechtigt habe."</string>
     <string name="location_sources_heading" msgid="1278732419851088319">"Standortquellen"</string>
@@ -2238,7 +2238,7 @@
     <string name="backup_section_title" msgid="7952232291452882740">"Sicherung &amp; Wiederherstellung"</string>
     <string name="personal_data_section_title" msgid="7815209034443782061">"Personenbezogene Daten"</string>
     <string name="backup_data_title" msgid="1239105919852668016">"Meine Daten sichern"</string>
-    <string name="backup_data_summary" msgid="708773323451655666">"App-Daten, WLAN-Passwörter und andere Einstellungen auf Google-Servern sichern"</string>
+    <string name="backup_data_summary" msgid="708773323451655666">"App-Daten, WLAN-Passwörter und andere Einstellungen auf /e/-Servern sichern"</string>
     <string name="backup_configure_account_title" msgid="3790872965773196615">"Sicherungskonto"</string>
     <string name="include_app_data_title" msgid="2829970132260278394">"App-Daten einschließen"</string>
     <string name="auto_restore_title" msgid="5397528966329126506">"Autom. Wiederherstellung"</string>
@@ -2246,7 +2246,7 @@
     <string name="backup_inactive_title" msgid="685838037986644604">"Sicherungsdienst ist nicht aktiv"</string>
     <string name="backup_configure_account_default_summary" msgid="2436933224764745553">"Zurzeit werden in keinem Konto gesicherte Daten gespeichert."</string>
     <string name="backup_erase_dialog_title" msgid="1027640829482174106"></string>
-    <string name="backup_erase_dialog_message" msgid="5221011285568343155">"Sicherung deiner WLAN-Passwörter, Lesezeichen, anderer Einstellungen und App-Daten beenden und alle Kopien auf Google-Servern löschen?"</string>
+    <string name="backup_erase_dialog_message" msgid="5221011285568343155">"Sicherung deiner WLAN-Passwörter, Lesezeichen, anderer Einstellungen und App-Daten beenden und alle Kopien auf /e/-Servern löschen?"</string>
     <string name="fullbackup_erase_dialog_message" msgid="694766389396659626">"Soll das Sichern von Gerätedaten, wie z. B WLAN-Passwörtern und Anrufliste, sowie App-Daten, wie z. B. Einstellungen und von Apps gespeicherten Dateien, beendet werden und sollen alle Kopien auf Remote-Servern gelöscht werden?"</string>
     <string name="fullbackup_data_summary" msgid="960850365007767734">"Automatische Fernsicherung von Gerätedaten wie WLAN-Passwörtern und Anrufverlauf und App-Daten, z. B. Einstellungen und von Apps gespeicherte Dateien\n\nWenn du die automatische Sicherung aktivierst, werden Geräte- und App-Daten regelmäßig aus der Ferne gespeichert. Bei App-Daten kann es sich um alle Daten handeln, die von einer App entsprechend den Entwicklereinstellungen gespeichert wurden, einschließlich potenziell sensibler Daten wie Kontakten, Nachrichten und Fotos."</string>
     <string name="device_admin_settings_title" msgid="4960761799560705902">"Geräteadministrator-Einstellungen"</string>
@@ -2331,9 +2331,9 @@
     <string name="sync_one_time_sync" msgid="3733796114909082260">"Tippen, um jetzt zu synchronisieren<xliff:g id="LAST_SYNC_TIME">
 %1$s</xliff:g>"</string>
     <string name="sync_gmail" msgid="714886122098006477">"Gmail"</string>
-    <string name="sync_calendar" msgid="9056527206714733735">"Google Kalender"</string>
+    <string name="sync_calendar" msgid="9056527206714733735">"/e/ Kalender"</string>
     <string name="sync_contacts" msgid="9174914394377828043">"Kontakte"</string>
-    <string name="sync_plug" msgid="3905078969081888738"><font fgcolor="#ffffffff">"Willkommen bei Google Sync!"</font>\n"Mit dieser Funktion von Google kannst du deine Daten synchronisieren, um auf deine Kontakte, Termine und vieles mehr zuzugreifen - wo immer du auch bist!"</string>
+    <string name="sync_plug" msgid="3905078969081888738"><font fgcolor="#ffffffff">"Willkommen bei /e/ Sync!"</font>\n"Mit dieser Funktion von /e/ kannst du deine Daten synchronisieren, um auf deine Kontakte, Termine und vieles mehr zuzugreifen - wo immer du auch bist!"</string>
     <string name="header_application_sync_settings" msgid="6205903695598000286">"Einstellungen für die App-Synchronisierung"</string>
     <string name="header_data_and_synchronization" msgid="5165024023936509896">"Daten &amp; Synchronisierung"</string>
     <string name="preference_change_password_title" msgid="8955581790270130056">"Passwort ändern"</string>
@@ -2422,8 +2422,8 @@
     <string name="data_usage_app_restrict_dialog" msgid="1466689968707308512">"Diese Funktion kann dazu führen, dass eine auf Hintergrunddaten basierende App nicht mehr funktioniert, wenn nur Mobilfunknetze verfügbar sind.\n\nGeeignetere Kontrollmechanismen für den Datenverbrauch findest du in den Einstellungen der App."</string>
     <string name="data_usage_restrict_denied_dialog" msgid="55012417305745608">"Hintergrunddaten können nur eingeschränkt werden, wenn du ein Limit für mobile Daten festgelegt hast."</string>
     <string name="data_usage_auto_sync_on_dialog_title" msgid="2438617846762244389">"Automatische Synchronisierung aktivieren?"</string>
-    <string name="data_usage_auto_sync_on_dialog" product="tablet" msgid="8581983093524041669">"Änderungen, die du im Web an deinem Konto vornimmst, werden automatisch auf dein Tablet kopiert.\n\nBei manchen Konten werden ggf. auch automatisch alle Änderungen, die du auf dem Tablet vornimmst, ins Web kopiert. Das ist die übliche Synchronisierungsfunktion eines Google-Kontos."</string>
-    <string name="data_usage_auto_sync_on_dialog" product="default" msgid="8651376294887142858">"Änderungen, die du im Web an deinem Konto vornimmst, werden automatisch auf dein Telefon kopiert.\n\nBei manchen Konten werden ggf. auch automatisch alle Änderungen, die du auf dem Telefon vornimmst, ins Web kopiert. Das ist die übliche Synchronisierungsfunktion eines Google-Kontos."</string>
+    <string name="data_usage_auto_sync_on_dialog" product="tablet" msgid="8581983093524041669">"Änderungen, die du im Web an deinem Konto vornimmst, werden automatisch auf dein Tablet kopiert.\n\nBei manchen Konten werden ggf. auch automatisch alle Änderungen, die du auf dem Tablet vornimmst, ins Web kopiert. Das ist die übliche Synchronisierungsfunktion eines /e/-Kontos."</string>
+    <string name="data_usage_auto_sync_on_dialog" product="default" msgid="8651376294887142858">"Änderungen, die du im Web an deinem Konto vornimmst, werden automatisch auf dein Telefon kopiert.\n\nBei manchen Konten werden ggf. auch automatisch alle Änderungen, die du auf dem Telefon vornimmst, ins Web kopiert. Das ist die übliche Synchronisierungsfunktion eines /e/-Kontos."</string>
     <string name="data_usage_auto_sync_off_dialog_title" msgid="9013139130490125793">"Automatische Synchronisierung deaktivieren?"</string>
     <string name="data_usage_auto_sync_off_dialog" msgid="4025938250775413864">"So reduzierst du den Datenverbrauch und schonst den Akku, musst jedoch jedes einzelne Konto manuell synchronisieren, um neue Informationen abzurufen. Außerdem erhältst du keine Benachrichtigungen, wenn Aktualisierungen erfolgen."</string>
     <string name="data_usage_cycle_editor_title" msgid="1373797281540188533">"Datum für Zurücksetzung des Nutzungszyklus"</string>
@@ -3705,7 +3705,7 @@
     <string name="webview_disabled_for_user" msgid="1216426047631256825">"(für Nutzer <xliff:g id="USER">%s</xliff:g> deaktiviert)"</string>
     <string name="autofill_app" msgid="7338387238377914374">"AutoFill-Dienst"</string>
     <string name="autofill_keywords" msgid="7485591824120812710">"automatisch, ausfüllen, füllen, autofill"</string>
-    <string name="autofill_confirmation_message" msgid="2784869528908005194">"&lt;b&gt;Findest du diese App vertrauenswürdig?&lt;/b&gt; &lt;br/&gt; &lt;br/&gt; &lt;xliff:g id=app_name example=Google Autofill&gt;%1$s&lt;/xliff:g&gt; entscheidet anhand der Inhalte auf dem Display, welche Informationen automatisch ausgefüllt werden können."</string>
+    <string name="autofill_confirmation_message" msgid="2784869528908005194">"&lt;b&gt;Findest du diese App vertrauenswürdig?&lt;/b&gt; &lt;br/&gt; &lt;br/&gt; &lt;xliff:g id=app_name example=/e/ Autofill&gt;%1$s&lt;/xliff:g&gt; entscheidet anhand der Inhalte auf dem Display, welche Informationen automatisch ausgefüllt werden können."</string>
     <string name="device_theme" msgid="4571803018917608588">"Gerätedesign"</string>
     <string name="default_theme" msgid="7085644992078579076">"Standard"</string>
     <string name="storage_manager_indicator" msgid="1516810749625915020">"Speichermanager: <xliff:g id="STATUS">^1</xliff:g>"</string>

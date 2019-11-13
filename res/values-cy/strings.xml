@@ -470,11 +470,11 @@ Mae amgryptio yn cymryd awr neu\'n hirach a bydd y ffôn yn ailgychwyn sawl tro 
     <string name="crypt_keeper_warn_wipe">Rhybudd: Caiff dy ddyfais ei chlirio o\'i holl ddata ar ôl <xliff:g id="count" example="7">^1</xliff:g> ymdrech aflwyddiannus arall i\'w datgloi!    </string>
     <string name="crypt_keeper_enter_password">Rho dy gyfrinair</string>
     <string name="crypt_keeper_failed_title">Amgryptiad aflwyddiannus</string>
-    <string name="crypt_keeper_failed_summary" product="tablet">Cafodd y broses amgryptio ei dorri ar ei draws ac nid yw\'n bosib ei gwblhau. O ganlyniad, dyw data dy lechen ddim yn hygyrch bellach.\n\nI barhau defnyddio dy lechen, rhaid ei ailosod nôl i fel yr oedd wrth adael y ffatri. Pan wyt ti\'n gosod dy lechen ar ôl ei ailosod, mi fydd yn cynnig cyfle iti adfer unrhyw ddata cafodd ei gadw wrth gefn i dy gyfrif Google.    </string>
-    <string name="crypt_keeper_failed_summary" product="default">Cafodd y broses amgryptio ei dorri ar ei draws ac nid yw\'n bosib ei gwblhau. O ganlyniad, dyw data dy ffôn ddim yn hygyrch bellach.\n\nI barhau defnyddio dy ffôn, rhaid ei ailosod nôl i fel yr oedd wrth adael y ffatri. Pan wyt ti\'n gosod dy ffôn ar ôl ei ailosod, mi fydd yn cynnig cyfle iti adfer unrhyw ddata cafodd ei gadw wrth gefn i dy gyfrif Google.    </string>
+    <string name="crypt_keeper_failed_summary" product="tablet">Cafodd y broses amgryptio ei dorri ar ei draws ac nid yw\'n bosib ei gwblhau. O ganlyniad, dyw data dy lechen ddim yn hygyrch bellach.\n\nI barhau defnyddio dy lechen, rhaid ei ailosod nôl i fel yr oedd wrth adael y ffatri. Pan wyt ti\'n gosod dy lechen ar ôl ei ailosod, mi fydd yn cynnig cyfle iti adfer unrhyw ddata cafodd ei gadw wrth gefn i dy gyfrif /e/.    </string>
+    <string name="crypt_keeper_failed_summary" product="default">Cafodd y broses amgryptio ei dorri ar ei draws ac nid yw\'n bosib ei gwblhau. O ganlyniad, dyw data dy ffôn ddim yn hygyrch bellach.\n\nI barhau defnyddio dy ffôn, rhaid ei ailosod nôl i fel yr oedd wrth adael y ffatri. Pan wyt ti\'n gosod dy ffôn ar ôl ei ailosod, mi fydd yn cynnig cyfle iti adfer unrhyw ddata cafodd ei gadw wrth gefn i dy gyfrif /e/.    </string>
     <string name="crypt_keeper_data_corrupt_title">Dadamgryptiad aflwyddiannus</string>
-    <string name="crypt_keeper_data_corrupt_summary" product="tablet">Mae\'r cyfrinair a rhoddaist yn gywir, ond yn anffodus mae dy ddata yn llwgr.\n\nI barhau i ddefnyddio dy lechen, rhaid ei ailosod nôl i fel yr oedd yn gadael y ffatri.\n\nWrth osod dy lechen ar ôl ei ailosod, bydd cyfle i adfer unrhyw ddata a gafodd ei gadw fel copi wrth gefn ar dy gyfrif Google.</string>
-    <string name="crypt_keeper_data_corrupt_summary" product="default">Mae\'r cyfrinair a rhoddaist yn gywir, ond yn anffodus mae dy ddata yn llwgr.\n\nI barhau i ddefnyddio dy ffôn, rhaid ei ailosod nôl i fel yr oedd yn gadael y ffatri.\n\nWrth osod dy ffôn ar ôl ei ailosod, bydd cyfle i adfer unrhyw ddata a gafodd ei gadw fel copi wrth gefn ar dy gyfrif Google.</string>
+    <string name="crypt_keeper_data_corrupt_summary" product="tablet">Mae\'r cyfrinair a rhoddaist yn gywir, ond yn anffodus mae dy ddata yn llwgr.\n\nI barhau i ddefnyddio dy lechen, rhaid ei ailosod nôl i fel yr oedd yn gadael y ffatri.\n\nWrth osod dy lechen ar ôl ei ailosod, bydd cyfle i adfer unrhyw ddata a gafodd ei gadw fel copi wrth gefn ar dy gyfrif /e/.</string>
+    <string name="crypt_keeper_data_corrupt_summary" product="default">Mae\'r cyfrinair a rhoddaist yn gywir, ond yn anffodus mae dy ddata yn llwgr.\n\nI barhau i ddefnyddio dy ffôn, rhaid ei ailosod nôl i fel yr oedd yn gadael y ffatri.\n\nWrth osod dy ffôn ar ôl ei ailosod, bydd cyfle i adfer unrhyw ddata a gafodd ei gadw fel copi wrth gefn ar dy gyfrif /e/.</string>
     <string name="crypt_keeper_switch_input_method">Newid dull mewnbwn</string>
     <string name="suggested_lock_settings_title">Gosod clo\'r sgrin</string>
     <string name="suggested_lock_settings_summary">Diogela dy ddyfais</string>
@@ -1400,8 +1400,8 @@ Mae amgryptio yn cymryd awr neu\'n hirach a bydd y ffôn yn ailgychwyn sawl tro 
     <string name="network_reset_not_available">Nid oes gan y defnyddiwr hwn ganiatâd i newid y rhwydwaith.</string>
     <string name="reset_network_complete_toast">Ailosodwyd gosodiadau rhwydweithiau</string>
     <string name="master_clear_title">Dileu\'r holl ddata (ailosod i fel yr oedd yn gadael y ffatri)</string>
-    <string name="master_clear_desc" product="tablet">Bydd hyn yn dileu\'r holl data o <b>storfa mewnol</b> dy lechen, gan gynnwys:\n\n<li>Dy gyfrif Google</li>\n<li>Data a gosodiadau system ac apiau</li>\n<li>Apiau wedi\'u lawrlwytho</li></string>
-    <string name="master_clear_desc" product="default">Bydd hyn yn dileu\'r holl data o <b>storfa mewnol</b> dy ffôn, gan gynnwys:\n\n<li>Dy gyfrif Google</li>\n<li>Data a gosodiadau system ac apiau</li>\n<li>Apiau wedi\'u lawrlwytho</li></string>
+    <string name="master_clear_desc" product="tablet">Bydd hyn yn dileu\'r holl data o <b>storfa mewnol</b> dy lechen, gan gynnwys:\n\n<li>Dy gyfrif /e/</li>\n<li>Data a gosodiadau system ac apiau</li>\n<li>Apiau wedi\'u lawrlwytho</li></string>
+    <string name="master_clear_desc" product="default">Bydd hyn yn dileu\'r holl data o <b>storfa mewnol</b> dy ffôn, gan gynnwys:\n\n<li>Dy gyfrif /e/</li>\n<li>Data a gosodiadau system ac apiau</li>\n<li>Apiau wedi\'u lawrlwytho</li></string>
     <string name="master_clear_accounts" product="default">\n\nRwyt ar hyn o bryd wedi mewngofnodi i\'r cyfrifon a ganlyn:\n</string>
     <string name="master_clear_other_users_present" product="default">\n\nMae defnyddwyr eraill ar y ddyfais hon.\n</string>
     <string name="master_clear_desc_also_erases_external"><li>Cerddoriaeth</li>\n<li>Lluniau</li>\n<li>Data arall y defnyddiwr</li></string>
@@ -1486,7 +1486,7 @@ Mae amgryptio yn cymryd awr neu\'n hirach a bydd y ffôn yn ailgychwyn sawl tro 
     <string name="location_scanning_bluetooth_always_scanning_title">Sganio Bluetooth</string>
     <string name="location_scanning_bluetooth_always_scanning_description">Gwella lleoliad gan ganiatáu i apiau a gwasanaethau system ganfod dyfeisiau Bluetooth unrhyw bryd.</string>
     <string name="location_network_based">Lleoliad Wi\u2011Fi a rhwydwaith symudol</string>
-    <string name="location_neighborhood_level">Caniatáu i apiau ddefnyddio gwasanaeth lleoliad Google i amcan dy leoliad yn gynt. Caiff data lleoliad dienw ei gasglu a\'i anfon at Google.</string>
+    <string name="location_neighborhood_level">Caniatáu i apiau ddefnyddio gwasanaeth lleoliad /e/ i amcan dy leoliad yn gynt. Caiff data lleoliad dienw ei gasglu a\'i anfon at /e/.</string>
     <string name="location_neighborhood_level_wifi">Adnabod lleoliad o Wi\u2011Fi</string>
     <string name="location_gps">Lloerennau GPS</string>
     <string name="location_street_level" product="tablet">Caniatáu i apiau ddefnyddio GPS ar dy lechen i wybod dy union leoliad</string>
@@ -1494,8 +1494,8 @@ Mae amgryptio yn cymryd awr neu\'n hirach a bydd y ffôn yn ailgychwyn sawl tro 
     <string name="assisted_gps">Defnyddio GPS cynorthwyedig</string>
     <string name="assisted_gps_enabled">Defnyddio gweinydd i gynorthwyo GPS (dad-dicia i leihau defnydd rhwydwaith)</string>
     <string name="assisted_gps_disabled">Defnyddio gweinydd i gynorthwyo GPS (dad-dicia i wella perfformiad GPS)</string>
-    <string name="use_location_title">Lleoliad a chwiliad Google</string>
-    <string name="use_location_summary">Caniatáu i Google defnyddio dy leoliad i wella canlyniadau chwilio a gwasanaethau eraill</string>
+    <string name="use_location_title">Lleoliad a chwiliad /e/</string>
+    <string name="use_location_summary">Caniatáu i /e/ defnyddio dy leoliad i wella canlyniadau chwilio a gwasanaethau eraill</string>
     <string name="location_access_title">Cael at fy lleoliad</string>
     <string name="location_access_summary">Caniatáu i apiau sydd wedi gofyn am dy ganiatâd i ddefnyddio gwybodaeth dy leoliad</string>
     <string name="location_sources_heading">Ffynonellau lleoliad</string>
@@ -2332,14 +2332,14 @@ Defnyddio\'r gwirydd sillafu hwn?</string>
     <string name="backup_section_title">Cadw copi wrth gefn ac adfer</string>
     <string name="personal_data_section_title">Data personol</string>
     <string name="backup_data_title">Creu copi wrth gefn o fy nata</string>
-    <string name="backup_data_summary">Cadw copi wrth gefn o ddata apiau, cyfrineiriau Wi\u2011Fi, a gosodiadau eraill i weinyddion Google</string>
+    <string name="backup_data_summary">Cadw copi wrth gefn o ddata apiau, cyfrineiriau Wi\u2011Fi, a gosodiadau eraill i weinyddion /e/</string>
     <string name="backup_configure_account_title">Cadw copi wrth gefn o\'r cyfrif</string>
     <string name="include_app_data_title">Cynnwys data apiau</string>
     <string name="auto_restore_title">Adfer yn awtomatig</string>
     <string name="auto_restore_summary">Wrth ailosod ap, adfer data a gosodiadau wedi eu cadw wrth gefn</string>
     <string name="backup_inactive_title">Dyw\'r gwasanaeth cadw copi wrth gefn ddim ar gael</string>
     <string name="backup_configure_account_default_summary">Does dim ap yn cadw data wrth gefn ar hyn o bryd</string>
-    <string name="backup_erase_dialog_message">Stopio cadw copi wrth gefn o dy gyfrifon Wi\u2011Fi, nodau tudalennau, gosodiadau eraill, a data apiau, a dileu\'r holl gopïau ar weinyddion Google?</string>
+    <string name="backup_erase_dialog_message">Stopio cadw copi wrth gefn o dy gyfrifon Wi\u2011Fi, nodau tudalennau, gosodiadau eraill, a data apiau, a dileu\'r holl gopïau ar weinyddion /e/?</string>
     <string name="fullbackup_erase_dialog_message">Stopio cadw copi wrth gefn o ddata\'r ddyfais (megis cyfrineiriau Wi-Fi a hanes galwadau) a data apiau (megis gosodiadau a ffeiliau sy\'n cael eu cadw gan apiau), a hefyd dileu\'r holl gopïau wrth gefn oddi ar weinyddion?</string>
     <string name="fullbackup_data_summary">Cadw copi wrth gefn yn awtomatig o ddata\'r ddyfais (megis cyfrineiriau Wi-Fi a hanes galwadau) a data apiau (megis gosodiadau a ffeiliau sy\'n cael eu cadw gan apiau).\n\nPan fyddi di\'n rhoi hwn ar waith, bydd data dyfais ac apiau yn cael ei gadw\'n rheolaidd i leoliad arall. Gall data apiau fod yn unrhyw ddata y mae ap wedi ei gadw (yn dibynnu ar osodiadau\'r datblygwr), gan gynnwys data sensitif bosib, megis cysylltiadau, negeseuon a lluniau.</string>
     <string name="device_admin_settings_title">Gosodiadau gweinyddwr y ddyfais</string>
@@ -2425,8 +2425,8 @@ Defnyddio\'r gwirydd sillafu hwn?</string>
     <string name="sync_gmail">Gmail</string>
     <string name="sync_calendar">Calendr</string>
     <string name="sync_contacts">Cysylltiadau</string>
-    <string name="sync_plug"><font fgcolor="#ffffffff">Croeso i gysoni Google!</font>
-    \nMae dull Google o gysoni data yn dy ganiatáu di i gael mynediad at dy gysylltiadau, apwyntiadau a mwy o ble bynnag wyt ti.    </string>
+    <string name="sync_plug"><font fgcolor="#ffffffff">Croeso i gysoni /e/!</font>
+    \nMae dull /e/ o gysoni data yn dy ganiatáu di i gael mynediad at dy gysylltiadau, apwyntiadau a mwy o ble bynnag wyt ti.    </string>
     <string name="header_application_sync_settings">Gosodiadau cysoni\'r ap</string>
     <string name="header_data_and_synchronization">Data a chysoni</string>
     <string name="preference_change_password_title">Newid cyfrinair</string>
@@ -2514,8 +2514,8 @@ Defnyddio\'r gwirydd sillafu hwn?</string>
     <string name="data_usage_app_restrict_dialog">Gall y nodwedd hon achosi rhai apiau sy\'n dibynnu ar ddata cefndirol i beidio â gweithio tra bod dim ond rhwydweithiau symudol ar gael.\n\nMae rhagor o wybodaeth am reolaeth defnydd data priodol yn y gosodiadau o fewn yr ap.</string>
     <string name="data_usage_restrict_denied_dialog">Dyw cyfyngu data cefndir ond yn bosib pan fyddi di wedi gosod cyfyngiad data symudol.</string>
     <string name="data_usage_auto_sync_on_dialog_title">Troi awto-cysoni data ymlaen?</string>
-    <string name="data_usage_auto_sync_on_dialog" product="tablet">Caiff unrhyw newidiadau rwyt yn eu gwneud i dy gyfrifon ar y we yn cael eu copïo yn awtomatig i dy lechen.\n\nGall rhai cyfrifon hefyd copïo unrhyw newidiadau rwyt yn eu gwneud ar dy lechen i\'r we. Mae Cyfrif Google yn gweithio yn y modd hwn.</string>
-    <string name="data_usage_auto_sync_on_dialog" product="default">Caiff unrhyw newidiadau rwyt yn eu gwneud i dy gyfrifon ar y we yn cael eu copïo yn awtomatig i dy ffôn.\n\nGall rhai cyfrifon hefyd copïo unrhyw newidiadau rwyt yn eu gwneud ar dy ffôn i\'r we. Mae Cyfrif Google yn gweithio yn y modd hwn.</string>
+    <string name="data_usage_auto_sync_on_dialog" product="tablet">Caiff unrhyw newidiadau rwyt yn eu gwneud i dy gyfrifon ar y we yn cael eu copïo yn awtomatig i dy lechen.\n\nGall rhai cyfrifon hefyd copïo unrhyw newidiadau rwyt yn eu gwneud ar dy lechen i\'r we. Mae Cyfrif /e/ yn gweithio yn y modd hwn.</string>
+    <string name="data_usage_auto_sync_on_dialog" product="default">Caiff unrhyw newidiadau rwyt yn eu gwneud i dy gyfrifon ar y we yn cael eu copïo yn awtomatig i dy ffôn.\n\nGall rhai cyfrifon hefyd copïo unrhyw newidiadau rwyt yn eu gwneud ar dy ffôn i\'r we. Mae Cyfrif /e/ yn gweithio yn y modd hwn.</string>
     <string name="data_usage_auto_sync_off_dialog_title">Troi awto-cysoni data i ffwrdd?</string>
     <string name="data_usage_auto_sync_off_dialog">Bydd hyn yn arbed defnydd data a batri, ond bydd yn rhaid cysoni pob cyfrif dy hun i gael y wybodaeth ddiweddaraf. A ni fyddi\'n derbyn hysbysiadau pan fydd diweddariadau ar gael.</string>
     <string name="data_usage_cycle_editor_title">Dyddiad ailosod y cylchred defnydd</string>
@@ -3936,7 +3936,7 @@ Defnyddio\'r gwirydd sillafu hwn?</string>
     <string name="autofill_confirmation_message">        &lt;b&gt;Sicrha dy fod yn ymddiried yn yr ap hwn&lt;/b&gt;
         &lt;br/&gt;
         &lt;br/&gt;
-       Mae  &lt;xliff:g id="app_name" example="Google Autofill"&gt;%1$s&lt;/xliff:g&gt; yn defnyddio beth sydd ar dy sgrin i benderfynu pa bethau gellir eu awtolenwi.
+       Mae  &lt;xliff:g id="app_name" example="/e/ Autofill"&gt;%1$s&lt;/xliff:g&gt; yn defnyddio beth sydd ar dy sgrin i benderfynu pa bethau gellir eu awtolenwi.
         </string>
     <string name="device_theme">Thema\'r ddyfais</string>
     <string name="default_theme">Rhagosodiad</string>

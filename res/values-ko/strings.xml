@@ -445,11 +445,11 @@
     <string name="crypt_keeper_warn_wipe" msgid="2738374897337991667">"경고: 잠금 해제 시도를 <xliff:g id="COUNT">^1</xliff:g>회 이상 실패할 경우 기기의 데이터가 삭제됩니다!"</string>
     <string name="crypt_keeper_enter_password" msgid="2223340178473871064">"비밀번호 입력"</string>
     <string name="crypt_keeper_failed_title" msgid="7133499413023075961">"암호화하지 못했습니다."</string>
-    <string name="crypt_keeper_failed_summary" product="tablet" msgid="8219375738445017266">"암호화가 중단되어 완료할 수 없습니다. 따라서 태블릿의 데이터에 더 이상 액세스할 수 없습니다. \n\n 태블릿을 다시 사용하려면 초기화해야 합니다. 초기화한 후 태블릿을 설정하면, Google 계정에 백업되어 있던 데이터를 복원할 수 있습니다."</string>
-    <string name="crypt_keeper_failed_summary" product="default" msgid="3270131542549577953">"암호화가 중단되어 완료할 수 없습니다. 따라서 휴대전화의 데이터에 더 이상 액세스할 수 없습니다. \n\n휴대전화를 다시 사용하려면 초기화해야 합니다. 초기화한 후 휴대전화를 설정하면, Google 계정에 백업되어 있던 데이터를 복원할 수 있습니다."</string>
+    <string name="crypt_keeper_failed_summary" product="tablet" msgid="8219375738445017266">"암호화가 중단되어 완료할 수 없습니다. 따라서 태블릿의 데이터에 더 이상 액세스할 수 없습니다. \n\n 태블릿을 다시 사용하려면 초기화해야 합니다. 초기화한 후 태블릿을 설정하면, /e/ 계정에 백업되어 있던 데이터를 복원할 수 있습니다."</string>
+    <string name="crypt_keeper_failed_summary" product="default" msgid="3270131542549577953">"암호화가 중단되어 완료할 수 없습니다. 따라서 휴대전화의 데이터에 더 이상 액세스할 수 없습니다. \n\n휴대전화를 다시 사용하려면 초기화해야 합니다. 초기화한 후 휴대전화를 설정하면, /e/ 계정에 백업되어 있던 데이터를 복원할 수 있습니다."</string>
     <string name="crypt_keeper_data_corrupt_title" msgid="8759119849089795751">"복호화 실패"</string>
-    <string name="crypt_keeper_data_corrupt_summary" product="tablet" msgid="840107296925798402">"입력한 비밀번호는 정확하지만 안타깝게도 사용자의 데이터가 손상되었습니다. \n\n태블릿을 다시 사용하려면 초기화해야 합니다. 초기화 후 태블릿을 설정할 때 Google 계정에 백업된 데이터를 복원할 수 있습니다."</string>
-    <string name="crypt_keeper_data_corrupt_summary" product="default" msgid="8843311420059663824">"입력한 비밀번호는 정확하지만 안타깝게도 사용자의 데이터가 손상되었습니다. \n\n휴대전화를 다시 사용하려면 초기화해야 합니다. 초기화 후 휴대전화를 설정할 때 Google 계정에 백업된 데이터를 복원할 수 있습니다."</string>
+    <string name="crypt_keeper_data_corrupt_summary" product="tablet" msgid="840107296925798402">"입력한 비밀번호는 정확하지만 안타깝게도 사용자의 데이터가 손상되었습니다. \n\n태블릿을 다시 사용하려면 초기화해야 합니다. 초기화 후 태블릿을 설정할 때 /e/ 계정에 백업된 데이터를 복원할 수 있습니다."</string>
+    <string name="crypt_keeper_data_corrupt_summary" product="default" msgid="8843311420059663824">"입력한 비밀번호는 정확하지만 안타깝게도 사용자의 데이터가 손상되었습니다. \n\n휴대전화를 다시 사용하려면 초기화해야 합니다. 초기화 후 휴대전화를 설정할 때 /e/ 계정에 백업된 데이터를 복원할 수 있습니다."</string>
     <string name="crypt_keeper_switch_input_method" msgid="4168332125223483198">"입력 방법 전환"</string>
     <string name="suggested_lock_settings_title" msgid="8971630898700461034">"화면 잠금 설정"</string>
     <string name="suggested_lock_settings_summary" msgid="8778462376012231110">"기기 보호"</string>
@@ -1347,8 +1347,8 @@
     <string name="network_reset_not_available" msgid="7188610385577164676">"네트워크 재설정 권한이 없는 사용자입니다."</string>
     <string name="reset_network_complete_toast" msgid="787829973559541880">"네트워크 설정이 재설정되었습니다."</string>
     <string name="master_clear_title" msgid="3531267871084279512">"모든 데이터 삭제(초기화)"</string>
-    <string name="master_clear_desc" product="tablet" msgid="9146059417023157222">"공장 초기화하면 태블릿의 "<b>"내부 저장소의 모든 데이터가 삭제됩니다."</b>\n\n<li>"Google 계정"</li>\n<li>"시스템과 앱 데이터 및 설정"</li>\n<li>"다운로드된 앱"</li></string>
-    <string name="master_clear_desc" product="default" msgid="4800386183314202571">"초기화하면 다음을 포함한 휴대전화 "<b>"내부 저장소"</b>"의 모든 데이터가 삭제됩니다.\n\n"<li>"Google 계정"</li>\n<li>"시스템과 앱 데이터 및 설정"</li>\n<li>"다운로드된 앱"</li></string>
+    <string name="master_clear_desc" product="tablet" msgid="9146059417023157222">"공장 초기화하면 태블릿의 "<b>"내부 저장소의 모든 데이터가 삭제됩니다."</b>\n\n<li>"/e/ 계정"</li>\n<li>"시스템과 앱 데이터 및 설정"</li>\n<li>"다운로드된 앱"</li></string>
+    <string name="master_clear_desc" product="default" msgid="4800386183314202571">"초기화하면 다음을 포함한 휴대전화 "<b>"내부 저장소"</b>"의 모든 데이터가 삭제됩니다.\n\n"<li>"/e/ 계정"</li>\n<li>"시스템과 앱 데이터 및 설정"</li>\n<li>"다운로드된 앱"</li></string>
     <string name="master_clear_accounts" product="default" msgid="6412857499147999073">\n\n"현재 로그인한 계정:\n"</string>
     <string name="master_clear_other_users_present" product="default" msgid="5161423070702470742">\n\n"이 기기에 다른 사용자가 있습니다.\n"</string>
     <string name="master_clear_desc_also_erases_external" msgid="1903185203791274237"><li>"음악"</li>\n<li>"사진"</li>\n<li>"기타 사용자 데이터"</li></string>
@@ -1433,7 +1433,7 @@
     <string name="location_scanning_bluetooth_always_scanning_title" msgid="5444989508204520019">"블루투스 검색"</string>
     <string name="location_scanning_bluetooth_always_scanning_description" msgid="8602726521250591852">"시스템 앱과 서비스가 블루투스 기기를 항상 감지하도록 허용하여 위치 정확도를 개선합니다."</string>
     <string name="location_network_based" msgid="9134175479520582215">"Wi-Fi 및 모바일 네트워크 위치"</string>
-    <string name="location_neighborhood_level" msgid="5141318121229984788">"사용자의 위치를 빠르게 파악하도록 앱에서 Google의 위치 서비스를 사용합니다. 익명의 위치 정보가 수집되어 Google로 전송됩니다."</string>
+    <string name="location_neighborhood_level" msgid="5141318121229984788">"사용자의 위치를 빠르게 파악하도록 앱에서 /e/의 위치 서비스를 사용합니다. 익명의 위치 정보가 수집되어 /e/로 전송됩니다."</string>
     <string name="location_neighborhood_level_wifi" msgid="4234820941954812210">"Wi-Fi에서 측정된 위치"</string>
     <string name="location_gps" msgid="8392461023569708478">"GPS 위성"</string>
     <string name="location_street_level" product="tablet" msgid="1669562198260860802">"앱이 사용자 태블릿의 GPS를 사용하여 사용자 위치를 파악하도록 함"</string>
@@ -1441,8 +1441,8 @@
     <string name="assisted_gps" msgid="4649317129586736885">"GPS 도우미 사용"</string>
     <string name="assisted_gps_enabled" msgid="8751899609589792803">"서버를 사용하여 GPS 보조(네트워크 사용량을 줄이려면 선택 해제)"</string>
     <string name="assisted_gps_disabled" msgid="6982698333968010748">"서버를 사용하여 GPS 보조(GPS 성능을 개선하려면 선택 해제)"</string>
-    <string name="use_location_title" msgid="5206937465504979977">"위치 기반 Google 검색"</string>
-    <string name="use_location_summary" msgid="3978805802386162520">"Google이 내 위치를 사용하여 검색결과 및 기타 서비스를 개선하도록 합니다."</string>
+    <string name="use_location_title" msgid="5206937465504979977">"위치 기반 /e/ 검색"</string>
+    <string name="use_location_summary" msgid="3978805802386162520">"/e/이 내 위치를 사용하여 검색결과 및 기타 서비스를 개선하도록 합니다."</string>
     <string name="location_access_title" msgid="7064108942964081243">"내 위치 정보 액세스"</string>
     <string name="location_access_summary" msgid="69031404093194341">"사용자의 허가를 요청한 앱이 위치 정보를 사용하도록 함"</string>
     <string name="location_sources_heading" msgid="1278732419851088319">"위치 소스"</string>
@@ -2238,7 +2238,7 @@
     <string name="backup_section_title" msgid="7952232291452882740">"백업 및 복원"</string>
     <string name="personal_data_section_title" msgid="7815209034443782061">"개인 데이터"</string>
     <string name="backup_data_title" msgid="1239105919852668016">"내 데이터 백업"</string>
-    <string name="backup_data_summary" msgid="708773323451655666">"앱 데이터, Wi-Fi 비밀번호 및 기타 설정을 Google 서버에 백업"</string>
+    <string name="backup_data_summary" msgid="708773323451655666">"앱 데이터, Wi-Fi 비밀번호 및 기타 설정을 /e/ 서버에 백업"</string>
     <string name="backup_configure_account_title" msgid="3790872965773196615">"백업 계정"</string>
     <string name="include_app_data_title" msgid="2829970132260278394">"앱 데이터 포함"</string>
     <string name="auto_restore_title" msgid="5397528966329126506">"자동 복원"</string>
@@ -2246,7 +2246,7 @@
     <string name="backup_inactive_title" msgid="685838037986644604">"백업 서비스가 활성화되지 않음"</string>
     <string name="backup_configure_account_default_summary" msgid="2436933224764745553">"현재 백업한 데이터가 저장된 계정이 없습니다."</string>
     <string name="backup_erase_dialog_title" msgid="1027640829482174106"></string>
-    <string name="backup_erase_dialog_message" msgid="5221011285568343155">"Wi-Fi 비밀번호, 북마크, 기타 설정 및 앱 데이터 백업을 중지하고 Google 서버에 있는 모든 사본을 지우시겠습니까?"</string>
+    <string name="backup_erase_dialog_message" msgid="5221011285568343155">"Wi-Fi 비밀번호, 북마크, 기타 설정 및 앱 데이터 백업을 중지하고 /e/ 서버에 있는 모든 사본을 지우시겠습니까?"</string>
     <string name="fullbackup_erase_dialog_message" msgid="694766389396659626">"기기 데이터(예: Wi-Fi 비밀번호, 통화 기록)와 앱 데이터(예: 앱에서 저장한 설정 및 파일) 백업을 중단하고 원격 서버에 있는 모든 사본을 삭제하시겠습니까?"</string>
     <string name="fullbackup_data_summary" msgid="960850365007767734">"기기 데이터(예: Wi-Fi 비밀번호, 통화 기록)와 앱 데이터(예: 앱에서 저장한 설정 및 파일)를 원격으로 자동 백업합니다.\n\n자동 백업을 사용하도록 설정하면 기기 및 앱 데이터가 정기적으로 원격 저장됩니다. 앱 데이터는 연락처, 메시지, 사진과 같은 민감한 데이터를 포함하여 개발자 설정에 따라 앱에서 저장한 모든 데이터가 해당될 수 있습니다."</string>
     <string name="device_admin_settings_title" msgid="4960761799560705902">"기기 관리자 설정"</string>
@@ -2333,7 +2333,7 @@
     <string name="sync_gmail" msgid="714886122098006477">"Gmail"</string>
     <string name="sync_calendar" msgid="9056527206714733735">"캘린더"</string>
     <string name="sync_contacts" msgid="9174914394377828043">"연락처"</string>
-    <string name="sync_plug" msgid="3905078969081888738"><font fgcolor="#ffffffff">"Google 동기화에 오신 것을 환영합니다."</font>" \nGoogle 동기화는 사용자가 어디에서든지 연락처, 일정 등에 액세스할 수 있도록 데이터를 동기화하는 Google 서비스입니다."</string>
+    <string name="sync_plug" msgid="3905078969081888738"><font fgcolor="#ffffffff">"/e/ 동기화에 오신 것을 환영합니다."</font>" \n/e/ 동기화는 사용자가 어디에서든지 연락처, 일정 등에 액세스할 수 있도록 데이터를 동기화하는 /e/ 서비스입니다."</string>
     <string name="header_application_sync_settings" msgid="6205903695598000286">"앱 동기화 설정"</string>
     <string name="header_data_and_synchronization" msgid="5165024023936509896">"데이터 및 동기화"</string>
     <string name="preference_change_password_title" msgid="8955581790270130056">"비밀번호 변경"</string>
@@ -2422,8 +2422,8 @@
     <string name="data_usage_app_restrict_dialog" msgid="1466689968707308512">"모바일 네트워크만 사용할 수 있는 경우 백그라운드 데이터에 의존하는 앱이 중단될 수 있습니다.\n\n앱 설정에서 데이터 사용을 더 적절하게 관리할 수 있는 컨트롤을 찾아볼 수 있습니다."</string>
     <string name="data_usage_restrict_denied_dialog" msgid="55012417305745608">"백그라운드 데이터는 모바일 데이터 한도를 설정한 경우에만 제한할 수 있습니다."</string>
     <string name="data_usage_auto_sync_on_dialog_title" msgid="2438617846762244389">"데이터 자동 동기화를 사용하시겠습니까?"</string>
-    <string name="data_usage_auto_sync_on_dialog" product="tablet" msgid="8581983093524041669">"웹에서 변경한 계정 정보는 모두 태블릿에 자동으로 복사됩니다.\n\n또한 일부 계정은 태블릿의 변경사항을 웹에 자동으로 복사할 수 있습니다. Google 계정은 이러한 자동 동기화를 지원합니다."</string>
-    <string name="data_usage_auto_sync_on_dialog" product="default" msgid="8651376294887142858">"웹에서 변경한 계정 정보는 모두 휴대전화에 자동으로 복사됩니다.\n\n또한 일부 계정은 휴대전화의 변경사항을 웹에 자동으로 복사할 수 있습니다. Google 계정은 이러한 자동 동기화를 지원합니다."</string>
+    <string name="data_usage_auto_sync_on_dialog" product="tablet" msgid="8581983093524041669">"웹에서 변경한 계정 정보는 모두 태블릿에 자동으로 복사됩니다.\n\n또한 일부 계정은 태블릿의 변경사항을 웹에 자동으로 복사할 수 있습니다. /e/ 계정은 이러한 자동 동기화를 지원합니다."</string>
+    <string name="data_usage_auto_sync_on_dialog" product="default" msgid="8651376294887142858">"웹에서 변경한 계정 정보는 모두 휴대전화에 자동으로 복사됩니다.\n\n또한 일부 계정은 휴대전화의 변경사항을 웹에 자동으로 복사할 수 있습니다. /e/ 계정은 이러한 자동 동기화를 지원합니다."</string>
     <string name="data_usage_auto_sync_off_dialog_title" msgid="9013139130490125793">"데이터 자동 동기화를 사용 중지하시겠습니까?"</string>
     <string name="data_usage_auto_sync_off_dialog" msgid="4025938250775413864">"이 경우 데이터와 배터리 사용량이 절약되지만, 최근 정보를 수집하려면 각 계정을 직접 동기화해야 합니다. 또한 업데이트가 발생해도 알림을 받지 못합니다."</string>
     <string name="data_usage_cycle_editor_title" msgid="1373797281540188533">"사용 주기 재설정"</string>
@@ -3508,11 +3508,11 @@
     <string name="bluetooth_connected_multiple_devices_summary" msgid="9173661896296663932">"여러 기기에 연결됨"</string>
     <string name="demo_mode" msgid="2798762752209330277">"시스템 UI 데모 모드"</string>
     <string name="quick_settings_developer_tiles" msgid="5947788063262762448">"빠른 설정 개발자 타일"</string>
-    <string name="support_escalation_title" msgid="4111071371281023145">"Google로부터 지원받기"</string>
+    <string name="support_escalation_title" msgid="4111071371281023145">"/e/로부터 지원받기"</string>
     <string name="support_escalation_24_7_title" msgid="8118369197749832074">"하루 24시간 연중무휴 운영"</string>
     <string name="support_escalation_24_7_content_description" msgid="3772776213036994533">"하루 24시간 연중무휴 운영"</string>
-    <string name="support_escalation_summary" msgid="8473084168776014405">"Google 지원팀에서 문제해결을 도와드립니다."</string>
-    <string name="support_escalation_24_7_summary" msgid="2802773279262547187">"Google 지원팀은 하루 24시간 연중무휴로 운영됩니다."</string>
+    <string name="support_escalation_summary" msgid="8473084168776014405">"/e/ 지원팀에서 문제해결을 도와드립니다."</string>
+    <string name="support_escalation_24_7_summary" msgid="2802773279262547187">"/e/ 지원팀은 하루 24시간 연중무휴로 운영됩니다."</string>
     <string name="support_escalation_closed_summary" msgid="2240967274380168303">"도움말을 검색하거나 지원 시간(현지 시간)&lt;br&gt;&lt;b&gt;<xliff:g id="OPERATION_HOURS">%s</xliff:g>&lt;/b&gt; 중에 문의해 주세요."</string>
     <string name="support_escalation_no_internet_summary" msgid="2526082812336597989">"전화 지원 시간(현지 시간)&lt;br&gt;&lt;b&gt;<xliff:g id="OPERATION_HOURS">%s</xliff:g>&lt;/b&gt;"</string>
     <string name="support_escalation_unavailable_summary" msgid="5208552975245211898">"도움말 검색 또는 도움말 및 유용한 정보 탐색"</string>
@@ -3705,7 +3705,7 @@
     <string name="webview_disabled_for_user" msgid="1216426047631256825">"(<xliff:g id="USER">%s</xliff:g>님의 경우 사용 안함)"</string>
     <string name="autofill_app" msgid="7338387238377914374">"자동완성 서비스"</string>
     <string name="autofill_keywords" msgid="7485591824120812710">"자동, 완성, 자동완성"</string>
-    <string name="autofill_confirmation_message" msgid="2784869528908005194">"&lt;b&gt;이 앱을 신뢰할 수 있는지 확인하세요.&lt;/b&gt; &lt;br/&gt; &lt;br/&gt; &lt;xliff:g id=app_name example=Google Autofill&gt;%1$s&lt;/xliff:g&gt;에서는 자동완성할 수 있는 항목을 결정하기 위해 화면의 내용을 사용합니다."</string>
+    <string name="autofill_confirmation_message" msgid="2784869528908005194">"&lt;b&gt;이 앱을 신뢰할 수 있는지 확인하세요.&lt;/b&gt; &lt;br/&gt; &lt;br/&gt; &lt;xliff:g id=app_name example=/e/ Autofill&gt;%1$s&lt;/xliff:g&gt;에서는 자동완성할 수 있는 항목을 결정하기 위해 화면의 내용을 사용합니다."</string>
     <string name="device_theme" msgid="4571803018917608588">"기기 테마"</string>
     <string name="default_theme" msgid="7085644992078579076">"기본값"</string>
     <string name="storage_manager_indicator" msgid="1516810749625915020">"저장용량 관리자: <xliff:g id="STATUS">^1</xliff:g>"</string>

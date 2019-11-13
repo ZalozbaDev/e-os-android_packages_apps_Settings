@@ -445,11 +445,11 @@
     <string name="crypt_keeper_warn_wipe" msgid="2738374897337991667">"Isexwayiso: Idivayisi yakho izosulwa ngemuva kwemizamo ehlulekayo engaphezu kwengu-<xliff:g id="COUNT">^1</xliff:g> ukuze ivulwe!"</string>
     <string name="crypt_keeper_enter_password" msgid="2223340178473871064">"Thayipha iphasiwedi yakho"</string>
     <string name="crypt_keeper_failed_title" msgid="7133499413023075961">"Ubhala ngokufihlekileyo akuphumelelanga"</string>
-    <string name="crypt_keeper_failed_summary" product="tablet" msgid="8219375738445017266">"Ukubethela kuphazamisekile futhi ngeke kusaphela. Ngenxa yalokho, akusafinyeleleki kwidatha ekuthebhulethi yakho. \n\nUkuze uphinde usebenzise ithebhulethi yakho, kufanele isethwe kabusha. Uma ususetha ithebhulethi yakho emuva kokuba isethwe kabusha, uzothola ithuba lokubuyisa nanoma iyiphi idatha eyayilondolozwe kwi-akhawunti yakho yakwa-Google.."</string>
-    <string name="crypt_keeper_failed_summary" product="default" msgid="3270131542549577953">"Ukubhelake bumfihlo kuphazamisekile futhi ngeke kusaphela. Ngenxa yalokho, akusafinyeleleki kwidatha esocingweni lwakho. \n\nUkuze uphinde usebenzise ucingo lwakho, kufanele lusethwe kabusha endaweni yokukhanda. Uma ususetha ucingo lwakho emva kokuba lusethwe kabusha, uzothola ithuba lokubuyisa nanoma iyiphi idatha eyayilondolozwe kwi-akhawunti yakho yakwa-Google."</string>
+    <string name="crypt_keeper_failed_summary" product="tablet" msgid="8219375738445017266">"Ukubethela kuphazamisekile futhi ngeke kusaphela. Ngenxa yalokho, akusafinyeleleki kwidatha ekuthebhulethi yakho. \n\nUkuze uphinde usebenzise ithebhulethi yakho, kufanele isethwe kabusha. Uma ususetha ithebhulethi yakho emuva kokuba isethwe kabusha, uzothola ithuba lokubuyisa nanoma iyiphi idatha eyayilondolozwe kwi-akhawunti yakho yakwa-/e/.."</string>
+    <string name="crypt_keeper_failed_summary" product="default" msgid="3270131542549577953">"Ukubhelake bumfihlo kuphazamisekile futhi ngeke kusaphela. Ngenxa yalokho, akusafinyeleleki kwidatha esocingweni lwakho. \n\nUkuze uphinde usebenzise ucingo lwakho, kufanele lusethwe kabusha endaweni yokukhanda. Uma ususetha ucingo lwakho emva kokuba lusethwe kabusha, uzothola ithuba lokubuyisa nanoma iyiphi idatha eyayilondolozwe kwi-akhawunti yakho yakwa-/e/."</string>
     <string name="crypt_keeper_data_corrupt_title" msgid="8759119849089795751">"Ukususa ukubethela kuphumelele"</string>
-    <string name="crypt_keeper_data_corrupt_summary" product="tablet" msgid="840107296925798402">"Iphasiwedi oyifakile ilungile, kodwa ngeshwa idatha yakho yonakele. \n\nUkuze uqhubeke usebenzise ithebhulethi yakho, udinga ukwenza ukusetha kwefekthri. Uma usetha ithebhulethi yakho ngemva kokusetha kabusha, uzothola ithuba lokubuyisa idatha yakho ebekade yenziwe isipele ku-Akhawunti yakho ye-Google."</string>
-    <string name="crypt_keeper_data_corrupt_summary" product="default" msgid="8843311420059663824">"Iphasiwedi oyifakile ilungile, kodwa ngeshwa idatha yakho yonakele.\n\nUkuze uqalise kabusha usebenzisa ifoni yakho, kuzomele wenze ukusetha kabusha kwasekuqaleni. Uma usetha ifoni yakho ngemuva kokusetha kabusha, uzoba nethuba lokubuyisela noma iyiphi idatha eye yenziwa isipele ku-Akhawunti yakho ye-Google."</string>
+    <string name="crypt_keeper_data_corrupt_summary" product="tablet" msgid="840107296925798402">"Iphasiwedi oyifakile ilungile, kodwa ngeshwa idatha yakho yonakele. \n\nUkuze uqhubeke usebenzise ithebhulethi yakho, udinga ukwenza ukusetha kwefekthri. Uma usetha ithebhulethi yakho ngemva kokusetha kabusha, uzothola ithuba lokubuyisa idatha yakho ebekade yenziwe isipele ku-Akhawunti yakho ye-/e/."</string>
+    <string name="crypt_keeper_data_corrupt_summary" product="default" msgid="8843311420059663824">"Iphasiwedi oyifakile ilungile, kodwa ngeshwa idatha yakho yonakele.\n\nUkuze uqalise kabusha usebenzisa ifoni yakho, kuzomele wenze ukusetha kabusha kwasekuqaleni. Uma usetha ifoni yakho ngemuva kokusetha kabusha, uzoba nethuba lokubuyisela noma iyiphi idatha eye yenziwa isipele ku-Akhawunti yakho ye-/e/."</string>
     <string name="crypt_keeper_switch_input_method" msgid="4168332125223483198">"Shintsha indlela yokufaka"</string>
     <string name="suggested_lock_settings_title" msgid="8971630898700461034">"Setha ukukhiya kwesikrini"</string>
     <string name="suggested_lock_settings_summary" msgid="8778462376012231110">"Vikela idivayisi yakho"</string>
@@ -1348,8 +1348,8 @@
     <string name="network_reset_not_available" msgid="7188610385577164676">"Ukusetha kabusha inethiwekhi akutholakali kulo msebenzisi"</string>
     <string name="reset_network_complete_toast" msgid="787829973559541880">"Izilungiselelo zenethiwekhi zisethwe kabusha"</string>
     <string name="master_clear_title" msgid="3531267871084279512">"Sula yonke idatha (ukusethwa kabusha kwasekuqaleni)"</string>
-    <string name="master_clear_desc" product="tablet" msgid="9146059417023157222">"Lokhu kuzosusa yonke idatha "<b>"ekwistoreji sangaphakathi kuthebhulethi yakho"</b>", ehlanganisa:\n\n"<li>"I-akhawunti yakho ye-Google"</li>\n<li>"Uhlelo lokusebenza kanye nezilungiselelo"</li>\n<li>"Izinhlelo zokusebenza ezilayishiwe"</li></string>
-    <string name="master_clear_desc" product="default" msgid="4800386183314202571">"Lokhu kuzosusa yonke idatha "<b>"ekwisitoreji sangaphakathi sefoni yakho"</b>", ehlanganisa:\n\n"<li>"I-akhawunti yakho ye-Google"</li>\n<li>"Uhlelo lokusebenza kanye nezilungiselelo"</li>\n<li>"Izinhlelo zokusebenza ezilayishiwe"</li></string>
+    <string name="master_clear_desc" product="tablet" msgid="9146059417023157222">"Lokhu kuzosusa yonke idatha "<b>"ekwistoreji sangaphakathi kuthebhulethi yakho"</b>", ehlanganisa:\n\n"<li>"I-akhawunti yakho ye-/e/"</li>\n<li>"Uhlelo lokusebenza kanye nezilungiselelo"</li>\n<li>"Izinhlelo zokusebenza ezilayishiwe"</li></string>
+    <string name="master_clear_desc" product="default" msgid="4800386183314202571">"Lokhu kuzosusa yonke idatha "<b>"ekwisitoreji sangaphakathi sefoni yakho"</b>", ehlanganisa:\n\n"<li>"I-akhawunti yakho ye-/e/"</li>\n<li>"Uhlelo lokusebenza kanye nezilungiselelo"</li>\n<li>"Izinhlelo zokusebenza ezilayishiwe"</li></string>
     <string name="master_clear_accounts" product="default" msgid="6412857499147999073">\n"Okwamanje ungene ngemvume kuma-akhawunti alandelayo:\n\n"</string>
     <string name="master_clear_other_users_present" product="default" msgid="5161423070702470742">\n\n"Kukhona abanye abasebenzisi abakhona kule divayisi.\n"</string>
     <string name="master_clear_desc_also_erases_external" msgid="1903185203791274237"><li>"Umculo"</li>\n<li>"Izithombe"</li>\n<li>"Enye idatha yomsebenzisi"</li></string>
@@ -1434,7 +1434,7 @@
     <string name="location_scanning_bluetooth_always_scanning_title" msgid="5444989508204520019">"Ukuskena kwe-Bluetooth"</string>
     <string name="location_scanning_bluetooth_always_scanning_description" msgid="8602726521250591852">"Thuthukisa indawo ngokuvumela izinhlelo zokusebenza zesistimu namasevisi ukuthola amadivayisi we-Bluetooth noma kunini."</string>
     <string name="location_network_based" msgid="9134175479520582215">"I-Wi-Fi nendawo yenethiwekhi yeselula"</string>
-    <string name="location_neighborhood_level" msgid="5141318121229984788">"Vumela izinhlelo zokusebenza zisebenzise isevisi yendawo yakwa-Google ukucabangela indawo yakho ngokushesha. Idatha yendawo engaziwa izoqoqwa futhi ithunyelwe kwa-Google."</string>
+    <string name="location_neighborhood_level" msgid="5141318121229984788">"Vumela izinhlelo zokusebenza zisebenzise isevisi yendawo yakwa-/e/ ukucabangela indawo yakho ngokushesha. Idatha yendawo engaziwa izoqoqwa futhi ithunyelwe kwa-/e/."</string>
     <string name="location_neighborhood_level_wifi" msgid="4234820941954812210">"Indawo etholwe i-Wi-Fi"</string>
     <string name="location_gps" msgid="8392461023569708478">"Amasethalayithi e-GPS"</string>
     <string name="location_street_level" product="tablet" msgid="1669562198260860802">"Vumela izinhlelo zokusebenza ukusebenzisa i-GPS kuthebhulethi yakho ukukhomba indawo yakho"</string>
@@ -1442,8 +1442,8 @@
     <string name="assisted_gps" msgid="4649317129586736885">"Sebenzisa ama-GPS asiziwe"</string>
     <string name="assisted_gps_enabled" msgid="8751899609589792803">"Sebenzisa iseva ukusiza i-GPS (ungahloli ukwehlisa ukusebenzisa inethiwekhi)"</string>
     <string name="assisted_gps_disabled" msgid="6982698333968010748">"Sebenzisa iseva ukusiza i-GPS (ungahloli ukuthuthukisa ukusebenza kwe-GPS)"</string>
-    <string name="use_location_title" msgid="5206937465504979977">"Indawo &amp; usesho lwe-Google"</string>
-    <string name="use_location_summary" msgid="3978805802386162520">"Vumela i-Google isebenzise indawo yakho ukuthuthukisa imiphumela yosesho kanye namanye amasevisi."</string>
+    <string name="use_location_title" msgid="5206937465504979977">"Indawo &amp; usesho lwe-/e/"</string>
+    <string name="use_location_summary" msgid="3978805802386162520">"Vumela i-/e/ isebenzise indawo yakho ukuthuthukisa imiphumela yosesho kanye namanye amasevisi."</string>
     <string name="location_access_title" msgid="7064108942964081243">"Ukufinyelela endaweni yami"</string>
     <string name="location_access_summary" msgid="69031404093194341">"Vumela izinhlelo zokusebenza ezicele imvume yakho ukusebenzisa ulwazi lendawo yakho"</string>
     <string name="location_sources_heading" msgid="1278732419851088319">"Imithombo yendawo"</string>
@@ -2239,7 +2239,7 @@
     <string name="backup_section_title" msgid="7952232291452882740">"Isipele ukubuyiselwa"</string>
     <string name="personal_data_section_title" msgid="7815209034443782061">"Idatha yomuntu siqu"</string>
     <string name="backup_data_title" msgid="1239105919852668016">"Sekela ngokulondoloza idatha yami"</string>
-    <string name="backup_data_summary" msgid="708773323451655666">"Sekela ngokulondoloza idatha yohlelo lokusebenza, amaphasiwedi e-Wi-Fi, nezinye izilungiselelo kwumaseva we-Google"</string>
+    <string name="backup_data_summary" msgid="708773323451655666">"Sekela ngokulondoloza idatha yohlelo lokusebenza, amaphasiwedi e-Wi-Fi, nezinye izilungiselelo kwumaseva we-/e/"</string>
     <string name="backup_configure_account_title" msgid="3790872965773196615">"Sekela ngokulondoloza i-akhawunti"</string>
     <string name="include_app_data_title" msgid="2829970132260278394">"Bandakanya idatha yohlelo lokusebenza"</string>
     <string name="auto_restore_title" msgid="5397528966329126506">"Ukubuyisela esimweni okuzenzakalelayo"</string>
@@ -2247,7 +2247,7 @@
     <string name="backup_inactive_title" msgid="685838037986644604">"Isevisi yokwenza isipele ayisebenzi"</string>
     <string name="backup_configure_account_default_summary" msgid="2436933224764745553">"Ayikho i-akhawunti okwamanje egcina ukusekela ngokulondoloza idatha"</string>
     <string name="backup_erase_dialog_title" msgid="1027640829482174106"></string>
-    <string name="backup_erase_dialog_message" msgid="5221011285568343155">"Yeka ukulondoloza amaphasiwedi akho e-Wi-Fi, amabhukhimaki, ezinye izilungiselelo, kanye nedatha yezinhlelo zokusebenza, nokususa onke amakhophi kumaseva we-Google?"</string>
+    <string name="backup_erase_dialog_message" msgid="5221011285568343155">"Yeka ukulondoloza amaphasiwedi akho e-Wi-Fi, amabhukhimaki, ezinye izilungiselelo, kanye nedatha yezinhlelo zokusebenza, nokususa onke amakhophi kumaseva we-/e/?"</string>
     <string name="fullbackup_erase_dialog_message" msgid="694766389396659626">"Misa ukwenza isipele idatha yedivayisi (njengamaphasiwedi we-Wi-Fi nomlando wekholi) nedatha yohlelo lokusebenza (njengezilungiselelo namafayela alondolozwe izinhlelo zokusebenza), futhi nokusula wonke amakhophi kumaseva werimothi?"</string>
     <string name="fullbackup_data_summary" msgid="960850365007767734">"Yenza isipele ngokuzenzakalela idatha yedivayisi (efana namaphasiwedi we-Wi-Fi nomlando wokushaya) nedatha yohlelo lokusebenza (efana nezilungiselelo namafayela agcinwe yizinhlelo zokusebenza) ngokulawula kude.\n\nUma uvula isipele ngokuzenzakalela, idivayisi nedatha yohlelo lokusebenza ilondolozwa ngesikhathi ezithile ngesilawuli kude. Idatha yohlelo lokusebenza ingaba yinoma iyiphi idatha elondolozwe wuhlelo lokusebenza (kususelwa kuzilungiselelo zonjiniyela), efaka idatha enekhono lokuzwela njengoxhumana nabo, imilayezo, nezithombe."</string>
     <string name="device_admin_settings_title" msgid="4960761799560705902">"Izilungiselelo zomlawuli wedivayisi"</string>
@@ -2334,7 +2334,7 @@
     <string name="sync_gmail" msgid="714886122098006477">"Gmail"</string>
     <string name="sync_calendar" msgid="9056527206714733735">"Ikhalenda"</string>
     <string name="sync_contacts" msgid="9174914394377828043">"Othintana nabo"</string>
-    <string name="sync_plug" msgid="3905078969081888738"><font fgcolor="#ffffffff">"Siyakwamukela ekuvumelaniseni kwe-Google!"</font>\n"Indlela ye-Google yokuvumelanisa idatha ukuvumela ukufinyelela othintana nabo bakho, ama-aphontimenti, nokunye kusuka noma yikuphi okhona."</string>
+    <string name="sync_plug" msgid="3905078969081888738"><font fgcolor="#ffffffff">"Siyakwamukela ekuvumelaniseni kwe-/e/!"</font>\n"Indlela ye-/e/ yokuvumelanisa idatha ukuvumela ukufinyelela othintana nabo bakho, ama-aphontimenti, nokunye kusuka noma yikuphi okhona."</string>
     <string name="header_application_sync_settings" msgid="6205903695598000286">"Izilungiselelo zokuvumelanisa uhlelo lokusebenza"</string>
     <string name="header_data_and_synchronization" msgid="5165024023936509896">"Idatha nokuvumelanisa"</string>
     <string name="preference_change_password_title" msgid="8955581790270130056">"Shintsha iphasiwedi"</string>
@@ -2423,8 +2423,8 @@
     <string name="data_usage_app_restrict_dialog" msgid="1466689968707308512">"Lesi sici singahle sibangele uhlelo lokusebenza olukhosele kudatha yokwangasemuva ukungasasebenzi uma amanethiwekhi kuphela eselula atholakala.\n\nUngathola ukulawula kokusetshenziswa kwedatha okufanele kuzilungiselelo ezitholakalayo ngaphakathi kohlelo lokusebenza."</string>
     <string name="data_usage_restrict_denied_dialog" msgid="55012417305745608">"Ukukhawulela idatha engemuva kuyakhonakala kuphela uma usethe umkhawulo wedatha weselula."</string>
     <string name="data_usage_auto_sync_on_dialog_title" msgid="2438617846762244389">"Khanyisa ukuvumelanisa idatha ngokuzenzakalelayo?"</string>
-    <string name="data_usage_auto_sync_on_dialog" product="tablet" msgid="8581983093524041669">"Noma yiziphi izinguquko ozenzayo kuma-akhawunti wakho kuwebhu kuzokopishelwa ngokuzenzakalela kuthebhulethi yakho.\n\nAmanye ama-akhawunti angahle akopishe ngokuzenzakalelayo noma yiziphi izinguquko ozenzayo kuthebhulethi kuya kuwebhu. I-Akhawunti ye-Google isebenza ngale ndlela."</string>
-    <string name="data_usage_auto_sync_on_dialog" product="default" msgid="8651376294887142858">"Noma yiziphi izinguquko ozenzayo kuma-akhawunti wakho kuwebhu kuzokopishelwa ngokuzenzakalela kufoni yakho.\n\nAmanye ama-akhawunti angahle akopishe ngokuzenzakalelayo noma yiziphi izinguquko ozenzayo kufoni kuya kuwebhu. I-Akhawunti ye-Google isebenza ngale ndlela."</string>
+    <string name="data_usage_auto_sync_on_dialog" product="tablet" msgid="8581983093524041669">"Noma yiziphi izinguquko ozenzayo kuma-akhawunti wakho kuwebhu kuzokopishelwa ngokuzenzakalela kuthebhulethi yakho.\n\nAmanye ama-akhawunti angahle akopishe ngokuzenzakalelayo noma yiziphi izinguquko ozenzayo kuthebhulethi kuya kuwebhu. I-Akhawunti ye-/e/ isebenza ngale ndlela."</string>
+    <string name="data_usage_auto_sync_on_dialog" product="default" msgid="8651376294887142858">"Noma yiziphi izinguquko ozenzayo kuma-akhawunti wakho kuwebhu kuzokopishelwa ngokuzenzakalela kufoni yakho.\n\nAmanye ama-akhawunti angahle akopishe ngokuzenzakalelayo noma yiziphi izinguquko ozenzayo kufoni kuya kuwebhu. I-Akhawunti ye-/e/ isebenza ngale ndlela."</string>
     <string name="data_usage_auto_sync_off_dialog_title" msgid="9013139130490125793">"Cima ukuvumelanisa idatha ngokuzenzakalela?"</string>
     <string name="data_usage_auto_sync_off_dialog" msgid="4025938250775413864">"Lokhu kuzokonga ukusetshenziswa kwedatha nebhethri, kepha uzodinga ukuvumelanisa i-akhawunti ngayinye ngokwenza ukuze uqoqe ulwazi lakamuva. Futhi ngeke uthole izaziso uma izibuyekezo zivela."</string>
     <string name="data_usage_cycle_editor_title" msgid="1373797281540188533">"Idethi yokuhlela kabusha umjikelezo wokusebenza"</string>
@@ -3634,7 +3634,7 @@
     <string name="enterprise_privacy_security_logs" msgid="5377362481617301074">"Ilogi lokuvikela lakamuva kakhulu"</string>
     <string name="enterprise_privacy_none" msgid="7706621148858381189">"Lutho"</string>
     <string name="enterprise_privacy_enterprise_installed_packages" msgid="6353757812144878828">"Izinhlelo zokusebenza ezifakiwe"</string>
-    <string name="enterprise_privacy_apps_count_estimation_info" msgid="7433213592572082606">"Inombolo yezinhlelo zokusebenza iyalinganiselwa. Ingahle ingabandakanyi izinhlelo zokusebenza ezingaphandle kwe-Google Play Isitolo."</string>
+    <string name="enterprise_privacy_apps_count_estimation_info" msgid="7433213592572082606">"Inombolo yezinhlelo zokusebenza iyalinganiselwa. Ingahle ingabandakanyi izinhlelo zokusebenza ezingaphandle kwe-/e/ Play Isitolo."</string>
     <plurals name="enterprise_privacy_number_packages_lower_bound" formatted="false" msgid="3005116533873542976">
       <item quantity="one">Ubuningi bezinhlelo zokusebenza ezingu-<xliff:g id="COUNT_1">%d</xliff:g></item>
       <item quantity="other">Ubuningi bezinhlelo zokusebenza ezingu-<xliff:g id="COUNT_1">%d</xliff:g></item>
@@ -3706,7 +3706,7 @@
     <string name="webview_disabled_for_user" msgid="1216426047631256825">"(kukhutshazelwe umsebenzisi ongu-<xliff:g id="USER">%s</xliff:g>)"</string>
     <string name="autofill_app" msgid="7338387238377914374">"Isevisi yokugcwalisa ngokuzenzakalela"</string>
     <string name="autofill_keywords" msgid="7485591824120812710">"okuzenzakalelayo, gcwalisa, ukugcwalisa okuzenzakalelayo"</string>
-    <string name="autofill_confirmation_message" msgid="2784869528908005194">"&lt;b&gt;Qiniseka ukuthi wethemba lolu hlelo lokusebenza&lt;/b&gt; &lt;br/&gt; &lt;br/&gt; &lt;xliff:g id=app_name example=Google Autofill&gt;%1$s&lt;/xliff:g&gt; isebenzisa okusesikrinini sakho ukunquma okungagcwaliswa ngokuzenzakalela."</string>
+    <string name="autofill_confirmation_message" msgid="2784869528908005194">"&lt;b&gt;Qiniseka ukuthi wethemba lolu hlelo lokusebenza&lt;/b&gt; &lt;br/&gt; &lt;br/&gt; &lt;xliff:g id=app_name example=/e/ Autofill&gt;%1$s&lt;/xliff:g&gt; isebenzisa okusesikrinini sakho ukunquma okungagcwaliswa ngokuzenzakalela."</string>
     <string name="device_theme" msgid="4571803018917608588">"Itimu yedivayisi"</string>
     <string name="default_theme" msgid="7085644992078579076">"Okuzenzakalelayo"</string>
     <string name="storage_manager_indicator" msgid="1516810749625915020">"Umphathi wesitolo: <xliff:g id="STATUS">^1</xliff:g>"</string>
