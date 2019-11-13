@@ -419,11 +419,11 @@
     <string name="crypt_keeper_warn_wipe" msgid="2738374897337991667">"Onyo: Data iliyomo kwenye kifaa chako itafutwa baada ya kushindikana kwa majaribio <xliff:g id="COUNT">^1</xliff:g> zaidi ya kukifungua!"</string>
     <string name="crypt_keeper_enter_password" msgid="2223340178473871064">"Andika nenosiri yako"</string>
     <string name="crypt_keeper_failed_title" msgid="7133499413023075961">"Usimbaji fiche haujafanikiwa"</string>
-    <string name="crypt_keeper_failed_summary" product="tablet" msgid="8219375738445017266">"Usimbaji fiche umekatizwa na hautakamilika. Kutokana na hayo, data kwenye kompyuta yako kibao haiwezi kupatikana. \n\n Ili kuendelee kutumia kompyuta yako kibao, unahitaji kurejesha mipangilio ambayo ilitoka nayo kiwandani. Ukiiwasha kompyuta yako kibao baadaye, utakuwa na fursa ya kuirejesha data yoyote iliyokuwa na nakala rudufu kwenye Akaunti yako ya Google."</string>
-    <string name="crypt_keeper_failed_summary" product="default" msgid="3270131542549577953">"Usimbaji fiche umekatizwa na haukukamilika. Kutokana na hayo, data kwenye simu yako haiwezi kuonekana. \n\n Ili uendelee kutumia simu yako, utahitaji kurejesha mipangilio ambayo ilitoka nayo kiwandani. Utakapowasha simu yako baadaye, utakuwa na fursa ya kurejesha data yoyote ambayo ina nakala rudufu kwenye Akaunti yako ya Google."</string>
+    <string name="crypt_keeper_failed_summary" product="tablet" msgid="8219375738445017266">"Usimbaji fiche umekatizwa na hautakamilika. Kutokana na hayo, data kwenye kompyuta yako kibao haiwezi kupatikana. \n\n Ili kuendelee kutumia kompyuta yako kibao, unahitaji kurejesha mipangilio ambayo ilitoka nayo kiwandani. Ukiiwasha kompyuta yako kibao baadaye, utakuwa na fursa ya kuirejesha data yoyote iliyokuwa na nakala rudufu kwenye Akaunti yako ya /e/."</string>
+    <string name="crypt_keeper_failed_summary" product="default" msgid="3270131542549577953">"Usimbaji fiche umekatizwa na haukukamilika. Kutokana na hayo, data kwenye simu yako haiwezi kuonekana. \n\n Ili uendelee kutumia simu yako, utahitaji kurejesha mipangilio ambayo ilitoka nayo kiwandani. Utakapowasha simu yako baadaye, utakuwa na fursa ya kurejesha data yoyote ambayo ina nakala rudufu kwenye Akaunti yako ya /e/."</string>
     <string name="crypt_keeper_data_corrupt_title" msgid="8759119849089795751">"Msimbo wa njia fiche haukuondolewa"</string>
-    <string name="crypt_keeper_data_corrupt_summary" product="tablet" msgid="840107296925798402">"Nenosiri uliloandika ni sahihi, lakini kwa bahati mbaya data yako ina hitilafu. \n\nIli uendelee kutumia kompyuta yako kibao, unahitaji kuirejesha katika hali iliyotoka nayo kiwandani. Unaposanidi kompyuta kibao yako baada ya kuirejesha katika hali iliyotoka nayo kiwandani, utakuwa na nafasi ya kurejesha data yoyote ambayo ilihifadhiwa nakala katika Akaunti yako ya Google."</string>
-    <string name="crypt_keeper_data_corrupt_summary" product="default" msgid="8843311420059663824">"Nenosiri uliloandika ni sahihi, lakini kwa bahati mbaya data yako ina hitilafu. \n\nIli uendelee kutumia simu yako, unahitaji kuirejesha katika hali iliyotoka nayo kiwandani. Unaposanidi simu yako baada ya kuirejesha katika hali iliyotoka nayo kiwandani, utakuwa na nafasi ya kurejesha data yoyote ambayo ilihifadhiwa nakala katika Akaunti yako ya Google."</string>
+    <string name="crypt_keeper_data_corrupt_summary" product="tablet" msgid="840107296925798402">"Nenosiri uliloandika ni sahihi, lakini kwa bahati mbaya data yako ina hitilafu. \n\nIli uendelee kutumia kompyuta yako kibao, unahitaji kuirejesha katika hali iliyotoka nayo kiwandani. Unaposanidi kompyuta kibao yako baada ya kuirejesha katika hali iliyotoka nayo kiwandani, utakuwa na nafasi ya kurejesha data yoyote ambayo ilihifadhiwa nakala katika Akaunti yako ya /e/."</string>
+    <string name="crypt_keeper_data_corrupt_summary" product="default" msgid="8843311420059663824">"Nenosiri uliloandika ni sahihi, lakini kwa bahati mbaya data yako ina hitilafu. \n\nIli uendelee kutumia simu yako, unahitaji kuirejesha katika hali iliyotoka nayo kiwandani. Unaposanidi simu yako baada ya kuirejesha katika hali iliyotoka nayo kiwandani, utakuwa na nafasi ya kurejesha data yoyote ambayo ilihifadhiwa nakala katika Akaunti yako ya /e/."</string>
     <string name="crypt_keeper_switch_input_method" msgid="4168332125223483198">"Badili mbinu ya ingizo"</string>
     <string name="suggested_lock_settings_title" msgid="8971630898700461034">"Weka mbinu ya kufunga skrini"</string>
     <string name="suggested_lock_settings_summary" msgid="8778462376012231110">"Linda kifaa chako"</string>
@@ -1241,8 +1241,8 @@
     <string name="reset_network_complete_toast" msgid="787829973559541880">"Mipangilio ya mtandao imewekwa upya"</string>
     <string name="device_reset_title" msgid="2384019005638768076">"Zima na uwashe tena kifaa"</string>
     <string name="master_clear_title" msgid="5907939616087039756">"Rejesha data ya mwanzo"</string>
-    <string name="master_clear_desc" product="tablet" msgid="9146059417023157222">"Hii itafuta data yote kutoka hifadhi yako iliyo "<b>"ndani ya kompyuta kibao"</b>", pamoja na:\n \n "<li>" Akaunti yako ya Google"</li>" \n "<li>"Data na mipangilio ya mfumo na programu"</li>" \n "<li>"Programu zilizopakuliwa"</li></string>
-    <string name="master_clear_desc" product="default" msgid="4800386183314202571">"Hii itafuta data yote kutoka hifadhi yako iliyo "<b>"ndani ya simu"</b>", pamoja na:\n \n "<li>"Akaunti yako ya Google"</li>" \n "<li>"Data na mipangilio ya mfumo na programu"</li>" \n "<li>"programu zilizopakuliwa"</li></string>
+    <string name="master_clear_desc" product="tablet" msgid="9146059417023157222">"Hii itafuta data yote kutoka hifadhi yako iliyo "<b>"ndani ya kompyuta kibao"</b>", pamoja na:\n \n "<li>" Akaunti yako ya /e/"</li>" \n "<li>"Data na mipangilio ya mfumo na programu"</li>" \n "<li>"Programu zilizopakuliwa"</li></string>
+    <string name="master_clear_desc" product="default" msgid="4800386183314202571">"Hii itafuta data yote kutoka hifadhi yako iliyo "<b>"ndani ya simu"</b>", pamoja na:\n \n "<li>"Akaunti yako ya /e/"</li>" \n "<li>"Data na mipangilio ya mfumo na programu"</li>" \n "<li>"programu zilizopakuliwa"</li></string>
     <string name="master_clear_accounts" product="default" msgid="6412857499147999073">\n\n"Kwa sasa umeingia kwenye akaunti zifuatazo:\n"</string>
     <string name="master_clear_other_users_present" product="default" msgid="5161423070702470742">\n\n"Kuna watumiaji wengine waliopo kwenye kifaa hiki.\n"</string>
     <string name="master_clear_desc_also_erases_external" msgid="1903185203791274237"><li>"Muziki"</li>\n<li>"Picha"</li>\n<li>"data nyingine ya mtumiaji"</li></string>
@@ -1329,7 +1329,7 @@
     <string name="location_scanning_bluetooth_always_scanning_title" msgid="5444989508204520019">"Bluetooth inachanganua"</string>
     <string name="location_scanning_bluetooth_always_scanning_description" msgid="8602726521250591852">"Boresha utambuzi wa mahali kwa kuruhusu programu na huduma za mifumo zitambue vifaa vya Bluetooth wakati wowote."</string>
     <string name="location_network_based" msgid="6010456018401296590">"Mahali pa mtandao wa Wi-Fi na simu za mkononi"</string>
-    <string name="location_neighborhood_level" msgid="5141318121229984788">"Ruhusu programu zitumie huduma ya Google ya kutambua eneo ili kukadiria mahali ulipo kwa haraka. Data ya mahali isiyokutambulisha itakusanywa na kutumwa kwa Google."</string>
+    <string name="location_neighborhood_level" msgid="5141318121229984788">"Ruhusu programu zitumie huduma ya /e/ ya kutambua eneo ili kukadiria mahali ulipo kwa haraka. Data ya mahali isiyokutambulisha itakusanywa na kutumwa kwa /e/."</string>
     <string name="location_neighborhood_level_wifi" msgid="4234820941954812210">"Eneo limethibitishwa na Wi-Fi"</string>
     <string name="location_gps" msgid="8392461023569708478">"Setileti za GPS"</string>
     <string name="location_street_level" product="tablet" msgid="1669562198260860802">"Ruhusu programu zitumie GPS kwenye kompyuta yako kibao ili kutambua mahali ulipo"</string>
@@ -1337,8 +1337,8 @@
     <string name="assisted_gps" msgid="4649317129586736885">"Tumia GPS iliyosaidiwa"</string>
     <string name="assisted_gps_enabled" msgid="8751899609589792803">"Tumia seva ili kusaidia GPS (toa tiki ili kupunguza utumiaji wa mtandao)"</string>
     <string name="assisted_gps_disabled" msgid="6982698333968010748">"Tumia seva ili kusaidia GPS (Toa tiki ili kuboresha utendajikazi wa GPS)"</string>
-    <string name="use_location_title" msgid="5206937465504979977">"Mahali na Utafutaji wa Google"</string>
-    <string name="use_location_summary" msgid="3978805802386162520">"Ruhusu Google itumie eneo lako kuboresha matokeo ya utafutaji na huduma zingine"</string>
+    <string name="use_location_title" msgid="5206937465504979977">"Mahali na Utafutaji wa /e/"</string>
+    <string name="use_location_summary" msgid="3978805802386162520">"Ruhusu /e/ itumie eneo lako kuboresha matokeo ya utafutaji na huduma zingine"</string>
     <string name="location_access_title" msgid="7064108942964081243">"Ufikiaji eneo langu"</string>
     <string name="location_access_summary" msgid="69031404093194341">"Ruhusu programu ambazo zimeomba idhini yako zitumie maelezo ya eneo lako"</string>
     <string name="location_sources_heading" msgid="1278732419851088319">"Vyanzo vya eneo"</string>
@@ -1437,7 +1437,7 @@
     <string name="applications_settings_header" msgid="1014813055054356646">"Mipangilio ya programu"</string>
     <string name="install_applications" msgid="4872012136210802181">"Vyanzo visivyojulikana"</string>
     <string name="install_applications_title" msgid="4987712352256508946">"Ruhusu vyanzo vyote vya programu"</string>
-    <string name="install_unknown_applications_title" msgid="663831043139080992">"Hukuwezesha kusanikisha programu kutoka vyanzo nje Google Play"</string>
+    <string name="install_unknown_applications_title" msgid="663831043139080992">"Hukuwezesha kusanikisha programu kutoka vyanzo nje /e/ Play"</string>
     <string name="install_unknown_applications" msgid="176855644862942064">"Ruhusu programu kutoka vyanzo visivyojulikana ziwekwe"</string>
     <string name="install_all_warning" product="tablet" msgid="3263360446508268880">"Kompyuta kibao yako na data ya kibinafsi inaweza kushambuliwa na programu kutoka vyanzo visivyojulikana. Unakubali kuwa utabeba lawama iwapo kompyuta kibao yako itaharibika au data yako kupotea kutokana na kutumia programu hizi."</string>
     <string name="install_all_warning" product="default" msgid="8113734576826384682">"Simu yako na data ya kibinafsi inaweza kushambuliwa na programu kutoka vyanzo visivyojulikana. Unakubali kuwa utabeba lawama iwapo simu yako itaharibika au data yako kupotea kutokana na kutumia programu hizi."</string>
@@ -2039,7 +2039,7 @@
     <string name="backup_section_title" msgid="7952232291452882740">"Hifadhi nakala na uzirejeshe"</string>
     <string name="personal_data_section_title" msgid="7815209034443782061">"Data za kibinafsi"</string>
     <string name="backup_data_title" msgid="1239105919852668016">"Hifadhi nakala ya data yangu"</string>
-    <string name="backup_data_summary" msgid="708773323451655666">"Hifadhi nakala ya data ya programu, manenosiri ya Wi-Fi na mipangilio mingine kwenye seva za Google"</string>
+    <string name="backup_data_summary" msgid="708773323451655666">"Hifadhi nakala ya data ya programu, manenosiri ya Wi-Fi na mipangilio mingine kwenye seva za /e/"</string>
     <string name="backup_configure_account_title" msgid="3790872965773196615">"Akaunti mbadala"</string>
     <string name="include_app_data_title" msgid="2829970132260278394">"Jumuisha data ya programu"</string>
     <string name="auto_restore_title" msgid="5397528966329126506">"Onyesha upya otomatiki"</string>
@@ -2047,7 +2047,7 @@
     <string name="backup_inactive_title" msgid="5355557151569037197">"Huduma ya kuhifadhi nakala rudufu haifanyi kazi."</string>
     <string name="backup_configure_account_default_summary" msgid="2436933224764745553">"Hakuna akaunti ambayo kwa sasa inahifadhi nakala rudufu za data"</string>
     <string name="backup_erase_dialog_title" msgid="1027640829482174106"></string>
-    <string name="backup_erase_dialog_message" msgid="5221011285568343155">"Ungependa kuacha kuhifadhi nakala za manenosiri, alamisho, mipangilio mingine na data ya programu ya Wi-Fi, na ufute nakala zote kwenye seva za Google?"</string>
+    <string name="backup_erase_dialog_message" msgid="5221011285568343155">"Ungependa kuacha kuhifadhi nakala za manenosiri, alamisho, mipangilio mingine na data ya programu ya Wi-Fi, na ufute nakala zote kwenye seva za /e/?"</string>
     <string name="fullbackup_erase_dialog_message" msgid="694766389396659626">"Je, ungependa kuacha kuhifadhi nakala ya data ya kifaa (kama vile manenosiri ya Wi-Fi na rekodi ya simu zilizopigwa) na data ya programu (kama vile mipangilio na faili zilizohifadhiwa na programu), na vile vile ufute nakala zote zilizo kwenye seva za mbali?"</string>
     <string name="fullbackup_data_summary" msgid="960850365007767734">"Hifadhi nakala ya data ya kifaa kiotomatiki (kama vile manenosiri ya Wi-Fi na rekodi ya simu zilizopigwa) na data ya programu (kama vile mipangilio na faili zilizohifadhiwa na programu) kwa mbali. \n\nUnapowasha kuhifadhi nakala kiotomatiki, data ya kifaa na programu huhifadhiwa mara kwa mara kiotomatiki kwa mbali. Data ya programu inaweza kuwa data yoyote ambayo programu imehifadhi (kulingana na mipangilio ya msanidi programu), ikiwa ni pamoja na data inayoweza kuwa nyeti kama vile anwani, ujumbe na picha."</string>
     <string name="device_admin_settings_title" msgid="1335557832906433309">"Mipangilio za usimamizi wa kifaa"</string>
@@ -2134,7 +2134,7 @@
     <string name="sync_gmail" msgid="714886122098006477">"Gmail"</string>
     <string name="sync_calendar" msgid="9056527206714733735">"Kalenda"</string>
     <string name="sync_contacts" msgid="9174914394377828043">"Anwani"</string>
-    <string name="sync_plug" msgid="3905078969081888738"><font fgcolor="#ffffffff">"Karibu kwa usawazishi wa Google!"</font>" \nNjia ya Google ya kusawazisha data ili kuruhusu ufikiaji wa anwani zako, miadi yako, na mengine kutoka mahali popote ulipo."</string>
+    <string name="sync_plug" msgid="3905078969081888738"><font fgcolor="#ffffffff">"Karibu kwa usawazishi wa /e/!"</font>" \nNjia ya /e/ ya kusawazisha data ili kuruhusu ufikiaji wa anwani zako, miadi yako, na mengine kutoka mahali popote ulipo."</string>
     <string name="header_application_sync_settings" msgid="6205903695598000286">"Mipangilio ya kusawazisha programu"</string>
     <string name="header_data_and_synchronization" msgid="5165024023936509896">"Usawazishaji data"</string>
     <string name="preference_change_password_title" msgid="8955581790270130056">"Badilisha nenosiri"</string>
@@ -2222,8 +2222,8 @@
     <string name="data_usage_app_restrict_dialog" msgid="5871168521456832764">"Kipengele hiki kinaweza kusababisha programu ambayo inategemea data ya chini chini kuacha kufanya kazi wakati mitandao ya simu za mkononi pekee ndiyo inayopatikana.\n\nUnaweza kupata vidhibiti vinavyofaa zaidi vya matumizi ya data katika mipangilio inayopatikana ndani ya programu."</string>
     <string name="data_usage_restrict_denied_dialog" msgid="1493134803720421674">"Kuzuia data ya chini chini kunawezekana tu wakati umeweka kikomo cha data ya mitandao ya simu."</string>
     <string name="data_usage_auto_sync_on_dialog_title" msgid="2438617846762244389">"Je, data isawazishwe kiotomatiki?"</string>
-    <string name="data_usage_auto_sync_on_dialog" product="tablet" msgid="8581983093524041669">"Mabadiliko yoyote utakayofanya katika akaunti zako kwenye wavuti yatanakiliwa kiotomatiki kwenye kompyuta kibao yako.\n\nBaadhi ya akaunti pia zinaweza kunakili kiotomatiki kwenye wavuti mabadiliko yoyote utakayofanya kwenye kompyuta kibao. Akaunti ya Google hufanyakazi kwa namna hii."</string>
-    <string name="data_usage_auto_sync_on_dialog" product="default" msgid="8651376294887142858">"Mabadiliko yoyote utakayofanya katika akaunti zako kwenye wavuti yatanakiliwa kiotomatiki kwenye simu yako.\n\nBaadhi ya akaunti pia zinaweza kunakili kiotomatiki kwenye wavuti mabadiliko yoyote utakayofanya kwenye simu. Akaunti ya Google hufanyakazi kwa namna hii."</string>
+    <string name="data_usage_auto_sync_on_dialog" product="tablet" msgid="8581983093524041669">"Mabadiliko yoyote utakayofanya katika akaunti zako kwenye wavuti yatanakiliwa kiotomatiki kwenye kompyuta kibao yako.\n\nBaadhi ya akaunti pia zinaweza kunakili kiotomatiki kwenye wavuti mabadiliko yoyote utakayofanya kwenye kompyuta kibao. Akaunti ya /e/ hufanyakazi kwa namna hii."</string>
+    <string name="data_usage_auto_sync_on_dialog" product="default" msgid="8651376294887142858">"Mabadiliko yoyote utakayofanya katika akaunti zako kwenye wavuti yatanakiliwa kiotomatiki kwenye simu yako.\n\nBaadhi ya akaunti pia zinaweza kunakili kiotomatiki kwenye wavuti mabadiliko yoyote utakayofanya kwenye simu. Akaunti ya /e/ hufanyakazi kwa namna hii."</string>
     <string name="data_usage_auto_sync_off_dialog_title" msgid="9013139130490125793">"Je, data isisawazishwe kiotomatiki?"</string>
     <string name="data_usage_auto_sync_off_dialog" msgid="4025938250775413864">"Kuzima kipengele hiki kutaokoa data na matumizi ya betri, lakini utahitajika kusawazisha kila akaunti wewe mwenyewe ili kukusanya taarifa ya hivi karibuni. Na hutapokea arifa masasisho yatakapotokea."</string>
     <string name="data_usage_cycle_editor_title" msgid="1373797281540188533">"Tarehe iliyowekwa upya ya msururu wa matumizi"</string>

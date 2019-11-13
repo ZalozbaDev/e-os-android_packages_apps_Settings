@@ -417,11 +417,11 @@
     <string name="crypt_keeper_warn_wipe" msgid="2738374897337991667">"Xəbərdarlıq: <xliff:g id="COUNT">^1</xliff:g> əlavə uğursuz kiliddən çıxarma cəhdindən sonra cihazınız silinəcək!"</string>
     <string name="crypt_keeper_enter_password" msgid="2223340178473871064">"Parolunuzu daxil edin"</string>
     <string name="crypt_keeper_failed_title" msgid="7133499413023075961">"Uğursuz şifrələmə"</string>
-    <string name="crypt_keeper_failed_summary" product="tablet" msgid="8219375738445017266">"Şifrələnmə kəsildi və davam edə bilməz. Nəticə olaraq, planşetinizdəki data əlçatmazdır. \n\n  Planşetinizin istifadəsinə davam etmək üçün ayarları sıfırlamalısınız. Sıfırlayandan sonra planşetinizi ayarlasanız, Sizin Google Hesabınızda saxladığınız istənilən datanı bərpa etmək imkanınız olacaq."</string>
-    <string name="crypt_keeper_failed_summary" product="default" msgid="3270131542549577953">"Şifrələnmə kəsildi və davam edə bilməz. Nəticə olaraq, planşetinizdəki data əlçatmazdır. \n\n  Planşetinizin istifadəsinə davam etmək üçün ayarları sıfırlamalısınız. Sıfırlayandan sonra planşetinizi ayarlasanız, Sizin Google Hesabınızda saxladığınız istənilən datanı bərpa etmək imkanınız olacaq."</string>
+    <string name="crypt_keeper_failed_summary" product="tablet" msgid="8219375738445017266">"Şifrələnmə kəsildi və davam edə bilməz. Nəticə olaraq, planşetinizdəki data əlçatmazdır. \n\n  Planşetinizin istifadəsinə davam etmək üçün ayarları sıfırlamalısınız. Sıfırlayandan sonra planşetinizi ayarlasanız, Sizin /e/ Hesabınızda saxladığınız istənilən datanı bərpa etmək imkanınız olacaq."</string>
+    <string name="crypt_keeper_failed_summary" product="default" msgid="3270131542549577953">"Şifrələnmə kəsildi və davam edə bilməz. Nəticə olaraq, planşetinizdəki data əlçatmazdır. \n\n  Planşetinizin istifadəsinə davam etmək üçün ayarları sıfırlamalısınız. Sıfırlayandan sonra planşetinizi ayarlasanız, Sizin /e/ Hesabınızda saxladığınız istənilən datanı bərpa etmək imkanınız olacaq."</string>
     <string name="crypt_keeper_data_corrupt_title" msgid="8759119849089795751">"Deşifrə uğursuzdur"</string>
-    <string name="crypt_keeper_data_corrupt_summary" product="tablet" msgid="840107296925798402">"Daxil etdiyiniz parol düzgündür, lakin datanız zədəlidir. \n\nPlanşeti istifadə etməyə davam etmək üçün zavod sıfırlaması etməlisiniz. Sıfırlanandan sonra Google Hesabınızda yedəklənmiş istənilən datanı bərpa edə bilərsiniz."</string>
-    <string name="crypt_keeper_data_corrupt_summary" product="default" msgid="8843311420059663824">"Daxil etdiyiniz parol düzgündür, lakin datanız zədəlidir. \n\nTelefonu istifadə etməyə davam etmək üçün zavod sıfırlaması etməlisiniz. Sıfırlanandan sonra Google Hesabınızda yedəklənmiş istənilən datanı bərpa edə bilərsiniz."</string>
+    <string name="crypt_keeper_data_corrupt_summary" product="tablet" msgid="840107296925798402">"Daxil etdiyiniz parol düzgündür, lakin datanız zədəlidir. \n\nPlanşeti istifadə etməyə davam etmək üçün zavod sıfırlaması etməlisiniz. Sıfırlanandan sonra /e/ Hesabınızda yedəklənmiş istənilən datanı bərpa edə bilərsiniz."</string>
+    <string name="crypt_keeper_data_corrupt_summary" product="default" msgid="8843311420059663824">"Daxil etdiyiniz parol düzgündür, lakin datanız zədəlidir. \n\nTelefonu istifadə etməyə davam etmək üçün zavod sıfırlaması etməlisiniz. Sıfırlanandan sonra /e/ Hesabınızda yedəklənmiş istənilən datanı bərpa edə bilərsiniz."</string>
     <string name="crypt_keeper_switch_input_method" msgid="4168332125223483198">"Daxiletmə metoduna keç"</string>
     <string name="suggested_lock_settings_title" msgid="8971630898700461034">"Ekran kilidini quraşdırın"</string>
     <string name="suggested_lock_settings_summary" msgid="8778462376012231110">"Cihazınızı qoruyun"</string>
@@ -1239,8 +1239,8 @@
     <string name="reset_network_complete_toast" msgid="787829973559541880">"Şəbəkə ayarları sıfırlandı"</string>
     <string name="device_reset_title" msgid="2384019005638768076">"Cihazı sıfırlayın"</string>
     <string name="master_clear_title" msgid="5907939616087039756">"Data zavod sıfırlaması"</string>
-    <string name="master_clear_desc" product="tablet" msgid="9146059417023157222">"Bu, planşetinizdən bunları siləcək: "<b>"daxili yaddaş"</b>", həmçinin:\n\n"<li>"Google hesabınızı"</li>\n<li>"Sistem və tətbiq data və ayarlarını"</li>\n<li>"Endirilmiş tətbiqləri"</li></string>
-    <string name="master_clear_desc" product="default" msgid="4800386183314202571">"Bu telefonunuzun "<b>"daxili yaddaşından"</b>" bütün datanı siləcək, bura daxildir: \n\n"<li>"Google hesabınız"</li>\n<li>"Sistem və tətbiq məlumatları və parametrləri"</li>\n<li>"Endirilmiş tətbiqlər"</li></string>
+    <string name="master_clear_desc" product="tablet" msgid="9146059417023157222">"Bu, planşetinizdən bunları siləcək: "<b>"daxili yaddaş"</b>", həmçinin:\n\n"<li>"/e/ hesabınızı"</li>\n<li>"Sistem və tətbiq data və ayarlarını"</li>\n<li>"Endirilmiş tətbiqləri"</li></string>
+    <string name="master_clear_desc" product="default" msgid="4800386183314202571">"Bu telefonunuzun "<b>"daxili yaddaşından"</b>" bütün datanı siləcək, bura daxildir: \n\n"<li>"/e/ hesabınız"</li>\n<li>"Sistem və tətbiq məlumatları və parametrləri"</li>\n<li>"Endirilmiş tətbiqlər"</li></string>
     <string name="master_clear_accounts" product="default" msgid="6412857499147999073">\n\n"Hazırda bu hesablara daxil olmusunuz:\n"</string>
     <string name="master_clear_other_users_present" product="default" msgid="5161423070702470742">\n\n"Bu cihazda başqa istifadəçilər iştirak edir.\n"</string>
     <string name="master_clear_desc_also_erases_external" msgid="1903185203791274237"><li>"Musiqi"</li>\n<li>"Fotolar"</li>\n<li>"Digər istifadəçi datası"</li></string>
@@ -1325,7 +1325,7 @@
     <string name="location_scanning_bluetooth_always_scanning_title" msgid="5444989508204520019">"Bluetooth skan edilir"</string>
     <string name="location_scanning_bluetooth_always_scanning_description" msgid="8602726521250591852">"Sistem tətbiq və xidmətlərinə Bluetooth cihazlarını hər zaman aşkar etməyə icazə verməklə məkanı təkmilləşdirin."</string>
     <string name="location_network_based" msgid="6010456018401296590">"Wi‑Fi və mobil şəbəkə məkanı"</string>
-    <string name="location_neighborhood_level" msgid="5141318121229984788">"Yerləşmənizi daha tez tapmaq üçün tətbiqlərə Google\'un yerləşmə xidmətindən istifadə etməyə icazə verin."</string>
+    <string name="location_neighborhood_level" msgid="5141318121229984788">"Yerləşmənizi daha tez tapmaq üçün tətbiqlərə /e/\'un yerləşmə xidmətindən istifadə etməyə icazə verin."</string>
     <string name="location_neighborhood_level_wifi" msgid="4234820941954812210">"Wi‑Fi ilə müəyyən olunmuş yer"</string>
     <string name="location_gps" msgid="8392461023569708478">"GPS peykləri"</string>
     <string name="location_street_level" product="tablet" msgid="1669562198260860802">"Yerinizi təyin etmək üçün tətbiqlərə GPS istifadə etməyə icazə verin"</string>
@@ -1333,8 +1333,8 @@
     <string name="assisted_gps" msgid="4649317129586736885">"Yardımlı GPS istifadə edin"</string>
     <string name="assisted_gps_enabled" msgid="8751899609589792803">"GPS\'ə kömək etmək üçün server istifadə edin (şəbəkə istifadəsini azaltmaq üçün seçimi qaldırın)"</string>
     <string name="assisted_gps_disabled" msgid="6982698333968010748">"GPS\'ə yardım üçün server istifadə edin (GPS performansını artırmaq üçün işarəni qaldırın)"</string>
-    <string name="use_location_title" msgid="5206937465504979977">"Yerləşmə &amp; Google axtarış"</string>
-    <string name="use_location_summary" msgid="3978805802386162520">"Google xidmətlərini inkişaf etdirmək üçün istifadə olunması üçün məkanınızı istifadə etməyə icazə verin"</string>
+    <string name="use_location_title" msgid="5206937465504979977">"Yerləşmə &amp; /e/ axtarış"</string>
+    <string name="use_location_summary" msgid="3978805802386162520">"/e/ xidmətlərini inkişaf etdirmək üçün istifadə olunması üçün məkanınızı istifadə etməyə icazə verin"</string>
     <string name="location_access_title" msgid="7064108942964081243">"Məkanıma giriş"</string>
     <string name="location_access_summary" msgid="69031404093194341">"İcazə sorğusu göndərən tətbiqlərə yerləşmə məlumatınızı istifadə etməyə icazə verin"</string>
     <string name="location_sources_heading" msgid="1278732419851088319">"Məkan mənbələri"</string>
@@ -1433,7 +1433,7 @@
     <string name="applications_settings_header" msgid="1014813055054356646">"Tətbiq parametrləri"</string>
     <string name="install_applications" msgid="4872012136210802181">"Naməlum mənbələr"</string>
     <string name="install_applications_title" msgid="4987712352256508946">"Tətbiq mənbələrinə icazə verin"</string>
-    <string name="install_unknown_applications_title" msgid="663831043139080992">"Google Play\'dən başqa mənbələrdən tətbiqlərin endirilməsinə icazə verir"</string>
+    <string name="install_unknown_applications_title" msgid="663831043139080992">"/e/ Play\'dən başqa mənbələrdən tətbiqlərin endirilməsinə icazə verir"</string>
     <string name="install_unknown_applications" msgid="176855644862942064">"Naməlum mənbədən olan tətbiqlərin quraşdırılmasına icazə verin"</string>
     <string name="install_all_warning" product="tablet" msgid="3263360446508268880">"Planşetiniz və şəxsi məlumatlarınız naməlum mənbələrdən olan hücumlara qarşı daha zəifdir. Siz bu tətbiqlərin istifadəsi ucbatından planşetinizə dəyəcək bütün zərərlərə və məlumat itkilərinə görə təkbaşına cavabdehsiniz."</string>
     <string name="install_all_warning" product="default" msgid="8113734576826384682">"Sizin telefon və şəxsi məlumatlarınız naməlum mənbələrə məxsus olan tətbiqlərin hücumuna daha həssasdır. Bu tətbiq istifadəsinin nəticəsində telefonunuza dəyə biləcək zərər və ya data itkisinə görə şəxsən məsuliyyət daşıdığınızı qəbul edirsiniz."</string>
@@ -2035,7 +2035,7 @@
     <string name="backup_section_title" msgid="7952232291452882740">"Yedəkləyin &amp; bərpa edin"</string>
     <string name="personal_data_section_title" msgid="7815209034443782061">"Şəxsi məlumat"</string>
     <string name="backup_data_title" msgid="1239105919852668016">"Məlumatlarımın rezervlə"</string>
-    <string name="backup_data_summary" msgid="708773323451655666">"Tətbiq datasını, Wi-Fi parolları və digər ayarları Google serverlərinə rezerv kopyalayın"</string>
+    <string name="backup_data_summary" msgid="708773323451655666">"Tətbiq datasını, Wi-Fi parolları və digər ayarları /e/ serverlərinə rezerv kopyalayın"</string>
     <string name="backup_configure_account_title" msgid="3790872965773196615">"Yedək hesab"</string>
     <string name="include_app_data_title" msgid="2829970132260278394">"Tətbiq datası əlavə edin"</string>
     <string name="auto_restore_title" msgid="5397528966329126506">"Avtomatik bərpa"</string>
@@ -2043,7 +2043,7 @@
     <string name="backup_inactive_title" msgid="5355557151569037197">"Ehtiyat nüsxəçıxarma xidməti qeyri-aktivdir."</string>
     <string name="backup_configure_account_default_summary" msgid="2436933224764745553">"Yedəklənən data hazırda heç bir hesabda saxlanılmır"</string>
     <string name="backup_erase_dialog_title" msgid="1027640829482174106"></string>
-    <string name="backup_erase_dialog_message" msgid="5221011285568343155">"Wi-Fi parollarının, əlfəcinlərin, tətbiq datasının və digər ayarların rezerv olunması dayandırılsın və bütün kopyalar Google serverlərində silinsin?"</string>
+    <string name="backup_erase_dialog_message" msgid="5221011285568343155">"Wi-Fi parollarının, əlfəcinlərin, tətbiq datasının və digər ayarların rezerv olunması dayandırılsın və bütün kopyalar /e/ serverlərində silinsin?"</string>
     <string name="fullbackup_erase_dialog_message" msgid="694766389396659626">"Cihaz datası (Wi-Fi parolları və zəng tarixçəsi) və tətbiq datasının (tətbiqlər tərəfindən saxlanılan ayar və fayllar) yedəklənməsi və uzaqdan idarə olunan serverlərdə bütün nüsxələr silinsin?"</string>
     <string name="fullbackup_data_summary" msgid="960850365007767734">"Cihaz datası (Wi-Fi parolları və zəng tarixçəsi) və tətbiq datasını (tətbiqlər tərəfindən saxlanılan ayar və fayllar) uzaqdan avtomatik yedəkləyin.\n\nAvtomatik yedəkləməni aktiv etdikdə, cihaz və tətbiq datası dövri olaraq uzaqdan saxlanılacaq. Tətbiq datası tətbiqin yadda saxladığı (developer ayarlarından asılı olaraq) istənilən data ola bilər, buta kontant, mesaj və fotolar kimi həssas data da daxildir."</string>
     <string name="device_admin_settings_title" msgid="1335557832906433309">"Cihaz administrasiya ayarları"</string>
@@ -2130,7 +2130,7 @@
     <string name="sync_gmail" msgid="714886122098006477">"Gmail"</string>
     <string name="sync_calendar" msgid="9056527206714733735">"Təqvim"</string>
     <string name="sync_contacts" msgid="9174914394377828043">"Kontaktlar"</string>
-    <string name="sync_plug" msgid="3905078969081888738"><font fgcolor="#ffffffff">"Google sinxronizasiyaya xoş gəlmisiniz!"</font>" \nGoogle data sinxronizasiyası olduğunuz yerdən asılı olmayaraq kontaktlarınıza, təyinatlarınıza və sair məlumatlarınıza girişə imkan verir."</string>
+    <string name="sync_plug" msgid="3905078969081888738"><font fgcolor="#ffffffff">"/e/ sinxronizasiyaya xoş gəlmisiniz!"</font>" \n/e/ data sinxronizasiyası olduğunuz yerdən asılı olmayaraq kontaktlarınıza, təyinatlarınıza və sair məlumatlarınıza girişə imkan verir."</string>
     <string name="header_application_sync_settings" msgid="6205903695598000286">"Tətbiq sinxronizasiya ayarları"</string>
     <string name="header_data_and_synchronization" msgid="5165024023936509896">"Data və sinxronizasiya"</string>
     <string name="preference_change_password_title" msgid="8955581790270130056">"Şifrəni dəyişin"</string>
@@ -2218,8 +2218,8 @@
     <string name="data_usage_app_restrict_dialog" msgid="5871168521456832764">"Bu funksiya nəticəsində yalnız mobil şəbəkələr əlçatan olan halda, arxa fon datasından asılı olan tətbiqlər işləməyə bilər.\n\nTətbiq daxilində data istifadəsinə dair daha uyğun kontrol variantlarını nəzərdən keçirə bilərsiniz."</string>
     <string name="data_usage_restrict_denied_dialog" msgid="1493134803720421674">"Yalnız mobil data limiti ayarlanan zaman arxa fon datası məhdudlaşdırıla bilər."</string>
     <string name="data_usage_auto_sync_on_dialog_title" msgid="2438617846762244389">"Avto-sinxronizasiya aktiv edilsin?"</string>
-    <string name="data_usage_auto_sync_on_dialog" product="tablet" msgid="8581983093524041669">"İnternet üzərindən hesabınıza etdiyiniz istənilən dəyişiklik planşetdə avtomatik qeyd ediləcək.\n\nBəzi hesablar planşet vasitəsilə internetdə etdiyiniz dəyişiklikləri avtomatik kopyalaya bilər. Google Hesabları da belə edir."</string>
-    <string name="data_usage_auto_sync_on_dialog" product="default" msgid="8651376294887142858">"İnternet üzərindən hesabınıza etdiyiniz istənilən dəyişiklik telefonda avtomatik qeyd ediləcək.\n\nBəzi hesablar telefon vasitəsilə internetdə etdiyiniz dəyişiklikləri avtomatik kopyalaya bilər. Google Hesabları da belə edir."</string>
+    <string name="data_usage_auto_sync_on_dialog" product="tablet" msgid="8581983093524041669">"İnternet üzərindən hesabınıza etdiyiniz istənilən dəyişiklik planşetdə avtomatik qeyd ediləcək.\n\nBəzi hesablar planşet vasitəsilə internetdə etdiyiniz dəyişiklikləri avtomatik kopyalaya bilər. /e/ Hesabları da belə edir."</string>
+    <string name="data_usage_auto_sync_on_dialog" product="default" msgid="8651376294887142858">"İnternet üzərindən hesabınıza etdiyiniz istənilən dəyişiklik telefonda avtomatik qeyd ediləcək.\n\nBəzi hesablar telefon vasitəsilə internetdə etdiyiniz dəyişiklikləri avtomatik kopyalaya bilər. /e/ Hesabları da belə edir."</string>
     <string name="data_usage_auto_sync_off_dialog_title" msgid="9013139130490125793">"Avto-sinxronizasiya deaktiv edilsin?"</string>
     <string name="data_usage_auto_sync_off_dialog" msgid="4025938250775413864">"Bu, data və batareya istifadəsinə qənaət edəcək, lakin Siz sonuncu məlumatları toplamaq üçün hər hesabı əl ilə sinxronlaşdırmalı olacaqsınız. Və güncəlləşmə vaxtı gələndə Sizə bildiriş gəlməyəcək."</string>
     <string name="data_usage_cycle_editor_title" msgid="1373797281540188533">"Tarixin dövri sıfırlanması istifadəsi"</string>

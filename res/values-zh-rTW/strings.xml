@@ -417,11 +417,11 @@
     <string name="crypt_keeper_warn_wipe" msgid="2738374897337991667">"警告：解鎖嘗試次數還剩 <xliff:g id="COUNT">^1</xliff:g> 次！如果持續失敗，您的裝置將會遭到清除。"</string>
     <string name="crypt_keeper_enter_password" msgid="2223340178473871064">"輸入密碼"</string>
     <string name="crypt_keeper_failed_title" msgid="7133499413023075961">"加密失敗"</string>
-    <string name="crypt_keeper_failed_summary" product="tablet" msgid="8219375738445017266">"加密過程中斷，無法完成，因此您再也不能存取平板電腦上的資料。\n\n如要恢復使用平板電腦，請先將平板電腦重設回原廠設定。完成重設後，您可以在設定平板電腦時，將先前備份至「Google 帳戶」的資料全部還原。"</string>
-    <string name="crypt_keeper_failed_summary" product="default" msgid="3270131542549577953">"加密過程中斷，無法完成，因此您再也不能存取手機上的資料。\n\n如要恢復使用手機，請先將手機重設回原廠設定。完成重設後，您可以在設定手機時，將先前備份至「Google 帳戶」的資料全部還原。"</string>
+    <string name="crypt_keeper_failed_summary" product="tablet" msgid="8219375738445017266">"加密過程中斷，無法完成，因此您再也不能存取平板電腦上的資料。\n\n如要恢復使用平板電腦，請先將平板電腦重設回原廠設定。完成重設後，您可以在設定平板電腦時，將先前備份至「/e/ 帳戶」的資料全部還原。"</string>
+    <string name="crypt_keeper_failed_summary" product="default" msgid="3270131542549577953">"加密過程中斷，無法完成，因此您再也不能存取手機上的資料。\n\n如要恢復使用手機，請先將手機重設回原廠設定。完成重設後，您可以在設定手機時，將先前備份至「/e/ 帳戶」的資料全部還原。"</string>
     <string name="crypt_keeper_data_corrupt_title" msgid="8759119849089795751">"解密失敗"</string>
-    <string name="crypt_keeper_data_corrupt_summary" product="tablet" msgid="840107296925798402">"您所輸入的密碼正確，但您的資料已毀損。\n\n如要繼續使用平板電腦，請將該裝置重設為原廠設定。重設完成後，當您對平板電腦進行設定時，可以將備份在個人 Google 帳戶中的資料全部還原。"</string>
-    <string name="crypt_keeper_data_corrupt_summary" product="default" msgid="8843311420059663824">"您所輸入的密碼正確，但您的資料已毀損。\n\n如要繼續使用手機，請將該裝置重設為原廠設定。重設完成後，當您對手機進行設定時，可以將備份在個人 Google 帳戶中的資料全部還原。"</string>
+    <string name="crypt_keeper_data_corrupt_summary" product="tablet" msgid="840107296925798402">"您所輸入的密碼正確，但您的資料已毀損。\n\n如要繼續使用平板電腦，請將該裝置重設為原廠設定。重設完成後，當您對平板電腦進行設定時，可以將備份在個人 /e/ 帳戶中的資料全部還原。"</string>
+    <string name="crypt_keeper_data_corrupt_summary" product="default" msgid="8843311420059663824">"您所輸入的密碼正確，但您的資料已毀損。\n\n如要繼續使用手機，請將該裝置重設為原廠設定。重設完成後，當您對手機進行設定時，可以將備份在個人 /e/ 帳戶中的資料全部還原。"</string>
     <string name="crypt_keeper_switch_input_method" msgid="4168332125223483198">"切換輸入法"</string>
     <string name="suggested_lock_settings_title" msgid="8971630898700461034">"設定螢幕鎖定"</string>
     <string name="suggested_lock_settings_summary" msgid="8778462376012231110">"保護您的裝置"</string>
@@ -1239,8 +1239,8 @@
     <string name="reset_network_complete_toast" msgid="787829973559541880">"已重設網路設定"</string>
     <string name="device_reset_title" msgid="2384019005638768076">"重設裝置"</string>
     <string name="master_clear_title" msgid="5907939616087039756">"恢復原廠設定"</string>
-    <string name="master_clear_desc" product="tablet" msgid="9146059417023157222">"這會清除您平板電腦"<b>"內部儲存裝置"</b>"中的所有資料，包括：\n\n"<li>"您的 Google 帳戶"</li>\n<li>"系統和應用程式資料及設定"</li>\n<li>"已下載的應用程式"</li></string>
-    <string name="master_clear_desc" product="default" msgid="4800386183314202571">"這會清除您手機"<b>"內部儲存裝置"</b>"中的所有資料，包括：\n\n"<li>"您的 Google 帳戶"</li>\n<li>"系統和應用程式資料及設定"</li>\n<li>"已下載的應用程式"</li></string>
+    <string name="master_clear_desc" product="tablet" msgid="9146059417023157222">"這會清除您平板電腦"<b>"內部儲存裝置"</b>"中的所有資料，包括：\n\n"<li>"您的 /e/ 帳戶"</li>\n<li>"系統和應用程式資料及設定"</li>\n<li>"已下載的應用程式"</li></string>
+    <string name="master_clear_desc" product="default" msgid="4800386183314202571">"這會清除您手機"<b>"內部儲存裝置"</b>"中的所有資料，包括：\n\n"<li>"您的 /e/ 帳戶"</li>\n<li>"系統和應用程式資料及設定"</li>\n<li>"已下載的應用程式"</li></string>
     <string name="master_clear_accounts" product="default" msgid="6412857499147999073">\n\n"您目前已登入下列帳戶：\n"</string>
     <string name="master_clear_other_users_present" product="default" msgid="5161423070702470742">\n\n"這個裝置上還有其他使用者。\n"</string>
     <string name="master_clear_desc_also_erases_external" msgid="1903185203791274237"><li>"音樂"</li>\n<li>"相片"</li>\n<li>"其他使用者資料"</li></string>
@@ -1325,7 +1325,7 @@
     <string name="location_scanning_bluetooth_always_scanning_title" msgid="5444989508204520019">"藍牙掃描"</string>
     <string name="location_scanning_bluetooth_always_scanning_description" msgid="8602726521250591852">"允許系統應用程式和服務隨時偵測藍牙裝置，以提升定位精確度。"</string>
     <string name="location_network_based" msgid="6010456018401296590">"Wi-Fi 和行動網路位置資訊"</string>
-    <string name="location_neighborhood_level" msgid="5141318121229984788">"允許應用程式使用 Google 的定位服務加速判斷您的約略位置。系統會收集匿名的位置資料並傳送給 Google。"</string>
+    <string name="location_neighborhood_level" msgid="5141318121229984788">"允許應用程式使用 /e/ 的定位服務加速判斷您的約略位置。系統會收集匿名的位置資料並傳送給 /e/。"</string>
     <string name="location_neighborhood_level_wifi" msgid="4234820941954812210">"根據 Wi-Fi 判定位置"</string>
     <string name="location_gps" msgid="8392461023569708478">"GPS 衛星定位"</string>
     <string name="location_street_level" product="tablet" msgid="1669562198260860802">"允許應用程式使用平板電腦的 GPS 找出您的精確位置"</string>
@@ -1333,8 +1333,8 @@
     <string name="assisted_gps" msgid="4649317129586736885">"使用輔助 GPS"</string>
     <string name="assisted_gps_enabled" msgid="8751899609589792803">"使用伺服器輔助 GPS (取消勾選即可降低網路使用量)"</string>
     <string name="assisted_gps_disabled" msgid="6982698333968010748">"使用伺服器輔助 GPS (取消勾選即可提升 GPS 效能)"</string>
-    <string name="use_location_title" msgid="5206937465504979977">"位置資訊與 Google 搜尋"</string>
-    <string name="use_location_summary" msgid="3978805802386162520">"允許 Google 使用您的位置資訊來改善搜尋結果和其他服務"</string>
+    <string name="use_location_title" msgid="5206937465504979977">"位置資訊與 /e/ 搜尋"</string>
+    <string name="use_location_summary" msgid="3978805802386162520">"允許 /e/ 使用您的位置資訊來改善搜尋結果和其他服務"</string>
     <string name="location_access_title" msgid="7064108942964081243">"存取我的位置資訊"</string>
     <string name="location_access_summary" msgid="69031404093194341">"允許獲得您許可的應用程式使用您的位置資訊"</string>
     <string name="location_sources_heading" msgid="1278732419851088319">"位置資訊來源"</string>
@@ -1433,7 +1433,7 @@
     <string name="applications_settings_header" msgid="1014813055054356646">"應用程式設定"</string>
     <string name="install_applications" msgid="4872012136210802181">"不明的來源"</string>
     <string name="install_applications_title" msgid="4987712352256508946">"允許安裝所有來源的應用程式"</string>
-    <string name="install_unknown_applications_title" msgid="663831043139080992">"允許從 Google Play 以外的來源安裝應用程式"</string>
+    <string name="install_unknown_applications_title" msgid="663831043139080992">"允許從 /e/ Play 以外的來源安裝應用程式"</string>
     <string name="install_unknown_applications" msgid="176855644862942064">"允許安裝來源不明的應用程式"</string>
     <string name="install_all_warning" product="tablet" msgid="3263360446508268880">"來歷不明的應用程式可能會損害您的平板電腦及個人資料，如因使用這些應用程式導致平板電腦受損或資料遺失，請自行負責。"</string>
     <string name="install_all_warning" product="default" msgid="8113734576826384682">"來歷不明的應用程式可能會損害手機及個人資料。如因使用這些應用程式導致手機受損或資料遺失，請自行負責。"</string>
@@ -2039,7 +2039,7 @@
     <string name="backup_section_title" msgid="7952232291452882740">"備份與還原"</string>
     <string name="personal_data_section_title" msgid="7815209034443782061">"個人資料"</string>
     <string name="backup_data_title" msgid="1239105919852668016">"備份我的資料"</string>
-    <string name="backup_data_summary" msgid="708773323451655666">"將應用程式資料、Wi-Fi 密碼及其他設定備份到 Google 伺服器"</string>
+    <string name="backup_data_summary" msgid="708773323451655666">"將應用程式資料、Wi-Fi 密碼及其他設定備份到 /e/ 伺服器"</string>
     <string name="backup_configure_account_title" msgid="3790872965773196615">"備份帳戶"</string>
     <string name="include_app_data_title" msgid="2829970132260278394">"包括應用程式資料"</string>
     <string name="auto_restore_title" msgid="5397528966329126506">"自動還原功能"</string>
@@ -2047,7 +2047,7 @@
     <string name="backup_inactive_title" msgid="5355557151569037197">"目前無法使用備份服務。"</string>
     <string name="backup_configure_account_default_summary" msgid="2436933224764745553">"目前沒有帳戶正在儲存備份資料"</string>
     <string name="backup_erase_dialog_title" msgid="1027640829482174106"></string>
-    <string name="backup_erase_dialog_message" msgid="5221011285568343155">"要停止備份您的 Wi-Fi 密碼、書籤、其他設定以及應用程式資料，並清除 Google 伺服器上儲存的所有複本嗎？"</string>
+    <string name="backup_erase_dialog_message" msgid="5221011285568343155">"要停止備份您的 Wi-Fi 密碼、書籤、其他設定以及應用程式資料，並清除 /e/ 伺服器上儲存的所有複本嗎？"</string>
     <string name="fullbackup_erase_dialog_message" msgid="694766389396659626">"要停止備份裝置資料 (例如 Wi-Fi 密碼和通話紀錄) 以及應用程式資料 (例如應用程式所儲存的設定和檔案)，並清除遠端伺服器中的所有備份內容嗎？"</string>
     <string name="fullbackup_data_summary" msgid="960850365007767734">"在遠端自動備份裝置資料 (例如 Wi-Fi 密碼和通話紀錄) 以及應用程式資料 (例如應用程式所儲存的設定和檔案)。\n\n啟用自動備份功能後，系統會定期將裝置和應用程式資料儲存到遠端。應用程式資料泛指應用程式依據開發人員設定所儲存的任何資料，包括聯絡人、訊息和相片等可能具敏感性的資料。"</string>
     <string name="device_admin_settings_title" msgid="1335557832906433309">"裝置管理設定"</string>
@@ -2134,7 +2134,7 @@
     <string name="sync_gmail" msgid="714886122098006477">"Gmail"</string>
     <string name="sync_calendar" msgid="9056527206714733735">"日曆"</string>
     <string name="sync_contacts" msgid="9174914394377828043">"聯絡人"</string>
-    <string name="sync_plug" msgid="3905078969081888738"><font fgcolor="#ffffffff">"歡迎使用 Google Sync！"</font>\n"這是 Google 所提供的資料同步處理工具，可讓您隨時隨地存取通訊錄、約會等多種資料。"</string>
+    <string name="sync_plug" msgid="3905078969081888738"><font fgcolor="#ffffffff">"歡迎使用 /e/ Sync！"</font>\n"這是 /e/ 所提供的資料同步處理工具，可讓您隨時隨地存取通訊錄、約會等多種資料。"</string>
     <string name="header_application_sync_settings" msgid="6205903695598000286">"應用程式同步處理設定"</string>
     <string name="header_data_and_synchronization" msgid="5165024023936509896">"資料及同步處理"</string>
     <string name="preference_change_password_title" msgid="8955581790270130056">"變更密碼"</string>
@@ -2222,8 +2222,8 @@
     <string name="data_usage_app_restrict_dialog" msgid="5871168521456832764">"在只有行動網路可供使用的情況下，啟用這項功能可能會導致一些必須在背景傳輸數據的應用程式停止運作。\n\n您可以前往應用程式的設定，搜尋更多適當的數據用量選項。"</string>
     <string name="data_usage_restrict_denied_dialog" msgid="1493134803720421674">"您必須先設定行動數據上限，才能禁止背景資料傳輸。"</string>
     <string name="data_usage_auto_sync_on_dialog_title" msgid="2438617846762244389">"開啟資料自動同步功能？"</string>
-    <string name="data_usage_auto_sync_on_dialog" product="tablet" msgid="8581983093524041669">"您在網路上對帳戶進行的所有變更都會自動複製到您的平板電腦。\n\n有些帳戶還可以自動將您在平板電腦上進行的所有變更複製到網路上，Google 帳戶即是按照這種方式運作。"</string>
-    <string name="data_usage_auto_sync_on_dialog" product="default" msgid="8651376294887142858">"您在網路上對帳戶進行的所有變更都會自動複製到您的手機。\n\n有些帳戶還可以自動將您在手機上進行的所有變更複製到網路上，Google 帳戶即是按照這種方式運作。"</string>
+    <string name="data_usage_auto_sync_on_dialog" product="tablet" msgid="8581983093524041669">"您在網路上對帳戶進行的所有變更都會自動複製到您的平板電腦。\n\n有些帳戶還可以自動將您在平板電腦上進行的所有變更複製到網路上，/e/ 帳戶即是按照這種方式運作。"</string>
+    <string name="data_usage_auto_sync_on_dialog" product="default" msgid="8651376294887142858">"您在網路上對帳戶進行的所有變更都會自動複製到您的手機。\n\n有些帳戶還可以自動將您在手機上進行的所有變更複製到網路上，/e/ 帳戶即是按照這種方式運作。"</string>
     <string name="data_usage_auto_sync_off_dialog_title" msgid="9013139130490125793">"關閉資料自動同步功能？"</string>
     <string name="data_usage_auto_sync_off_dialog" msgid="4025938250775413864">"這樣可以節省數據用量和電池用量，但您必須手動同步處理每個帳戶才能收集最新資訊。此外，系統進行更新時不會通知您。"</string>
     <string name="data_usage_cycle_editor_title" msgid="1373797281540188533">"用量週期重設日期"</string>

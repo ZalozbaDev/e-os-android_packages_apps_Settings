@@ -423,11 +423,11 @@
     <string name="crypt_keeper_warn_wipe" msgid="2738374897337991667">"Opozorilo: Podatki v napravi bodo izbrisani po še toliko neuspešnih poskusih odklepanja: <xliff:g id="COUNT">^1</xliff:g>."</string>
     <string name="crypt_keeper_enter_password" msgid="2223340178473871064">"Vnesite geslo"</string>
     <string name="crypt_keeper_failed_title" msgid="7133499413023075961">"Šifriranje ni uspelo"</string>
-    <string name="crypt_keeper_failed_summary" product="tablet" msgid="8219375738445017266">"Šifriranje je bilo prekinjeno in ga ni mogoče končati, zato podatki v tabličnem računalniku niso več dostopni. \n\nČe želite tablični računalnik spet uporabljati, ga morate ponastaviti na tovarniške nastavitve. Ko ga po ponastavitvi spet nastavite, boste lahko obnovili vse podatke, ki so bili varnostno kopirani v Google Račun."</string>
-    <string name="crypt_keeper_failed_summary" product="default" msgid="3270131542549577953">"Šifriranje je bilo prekinjeno in ga ni mogoče končati, zato podatki v telefonu niso več dostopni. \n\nČe želite telefon ponovno uporabljati, ga morate ponastaviti na tovarniške nastavitve. Ko ga po ponastavitvi ponovno nastavite, boste lahko obnovili vse podatke, ki so bili varnostno kopirani v Google Račun."</string>
+    <string name="crypt_keeper_failed_summary" product="tablet" msgid="8219375738445017266">"Šifriranje je bilo prekinjeno in ga ni mogoče končati, zato podatki v tabličnem računalniku niso več dostopni. \n\nČe želite tablični računalnik spet uporabljati, ga morate ponastaviti na tovarniške nastavitve. Ko ga po ponastavitvi spet nastavite, boste lahko obnovili vse podatke, ki so bili varnostno kopirani v /e/ Račun."</string>
+    <string name="crypt_keeper_failed_summary" product="default" msgid="3270131542549577953">"Šifriranje je bilo prekinjeno in ga ni mogoče končati, zato podatki v telefonu niso več dostopni. \n\nČe želite telefon ponovno uporabljati, ga morate ponastaviti na tovarniške nastavitve. Ko ga po ponastavitvi ponovno nastavite, boste lahko obnovili vse podatke, ki so bili varnostno kopirani v /e/ Račun."</string>
     <string name="crypt_keeper_data_corrupt_title" msgid="8759119849089795751">"Dešifriranje ni uspelo"</string>
-    <string name="crypt_keeper_data_corrupt_summary" product="tablet" msgid="840107296925798402">"Vnesli ste pravilno geslo, vendar so podatki poškodovani. \n\nČe želite še naprej uporabljati tablični računalnik, ga morate ponastaviti na tovarniške nastavitve. Ko boste po ponastavitvi nastavljali tablični računalnik, boste lahko obnovili morebitne podatke, ki so bili varnostno kopirani v Google Račun."</string>
-    <string name="crypt_keeper_data_corrupt_summary" product="default" msgid="8843311420059663824">"Vnesli ste pravilno geslo, vendar so podatki poškodovani. \n\nČe želite še naprej uporabljati telefon, ga morate ponastaviti na tovarniške nastavitve. Ko boste po ponastavitvi nastavljali telefon, boste lahko obnovili morebitne podatke, ki so bili varnostno kopirani v Google Račun."</string>
+    <string name="crypt_keeper_data_corrupt_summary" product="tablet" msgid="840107296925798402">"Vnesli ste pravilno geslo, vendar so podatki poškodovani. \n\nČe želite še naprej uporabljati tablični računalnik, ga morate ponastaviti na tovarniške nastavitve. Ko boste po ponastavitvi nastavljali tablični računalnik, boste lahko obnovili morebitne podatke, ki so bili varnostno kopirani v /e/ Račun."</string>
+    <string name="crypt_keeper_data_corrupt_summary" product="default" msgid="8843311420059663824">"Vnesli ste pravilno geslo, vendar so podatki poškodovani. \n\nČe želite še naprej uporabljati telefon, ga morate ponastaviti na tovarniške nastavitve. Ko boste po ponastavitvi nastavljali telefon, boste lahko obnovili morebitne podatke, ki so bili varnostno kopirani v /e/ Račun."</string>
     <string name="crypt_keeper_switch_input_method" msgid="4168332125223483198">"Preklopite način vnosa"</string>
     <string name="suggested_lock_settings_title" msgid="8971630898700461034">"Nastavitev zaklepanja zaslona"</string>
     <string name="suggested_lock_settings_summary" msgid="8778462376012231110">"Zaščitite napravo"</string>
@@ -1259,8 +1259,8 @@
     <string name="reset_network_complete_toast" msgid="787829973559541880">"Omrežne nastavitve so ponastavljene"</string>
     <string name="device_reset_title" msgid="2384019005638768076">"Ponastavi napravo"</string>
     <string name="master_clear_title" msgid="5907939616087039756">"Pon. na tovarniške nast."</string>
-    <string name="master_clear_desc" product="tablet" msgid="9146059417023157222">"S tem boste iz "<b>"notranjega pomnilnika"</b>" tabličnega računalnika izbrisali vse podatke:\n\n"<li>"Google Račun"</li>\n<li>"Podatke in nastavitve sistema in aplikacij"</li>\n<li>"Prenesene aplikacije"</li></string>
-    <string name="master_clear_desc" product="default" msgid="4800386183314202571">"S tem boste iz "<b>"notranjega pomnilnika"</b>" telefona izbrisali vse podatke:\n\n"<li>"Google Račun"</li>\n<li>"Podatke in nastavitve sistema in aplikacij"</li>\n<li>"Prenesene aplikacije"</li></string>
+    <string name="master_clear_desc" product="tablet" msgid="9146059417023157222">"S tem boste iz "<b>"notranjega pomnilnika"</b>" tabličnega računalnika izbrisali vse podatke:\n\n"<li>"/e/ Račun"</li>\n<li>"Podatke in nastavitve sistema in aplikacij"</li>\n<li>"Prenesene aplikacije"</li></string>
+    <string name="master_clear_desc" product="default" msgid="4800386183314202571">"S tem boste iz "<b>"notranjega pomnilnika"</b>" telefona izbrisali vse podatke:\n\n"<li>"/e/ Račun"</li>\n<li>"Podatke in nastavitve sistema in aplikacij"</li>\n<li>"Prenesene aplikacije"</li></string>
     <string name="master_clear_accounts" product="default" msgid="6412857499147999073">\n\n"Trenutno ste prijavljeni v te račune:\n"</string>
     <string name="master_clear_other_users_present" product="default" msgid="5161423070702470742">\n\n"V napravi so prisotni drugi uporabniki.\n"</string>
     <string name="master_clear_desc_also_erases_external" msgid="1903185203791274237"><li>"Glasba"</li>\n<li>"Fotografije"</li>\n<li>"Drugi uporabniški podatki"</li></string>
@@ -1353,8 +1353,8 @@
     <string name="assisted_gps" msgid="4649317129586736885">"Uporabljaj GPS s pomočjo"</string>
     <string name="assisted_gps_enabled" msgid="8751899609589792803">"Uporabljaj strežnik za pomoč pri sistemu GPS (ne označite, da zmanjšate uporabo omrežja)"</string>
     <string name="assisted_gps_disabled" msgid="6982698333968010748">"Uporabi strežnik za pomoč pri uporabi sistema GPS (ne označite, da izboljšate delovanje sistema GPS)"</string>
-    <string name="use_location_title" msgid="5206937465504979977">"Lokacija in Iskanje Google"</string>
-    <string name="use_location_summary" msgid="3978805802386162520">"Naj Google uporablja vašo lokacijo za izboljšanje rezultatov iskanja in drugih storitev"</string>
+    <string name="use_location_title" msgid="5206937465504979977">"Lokacija in Iskanje /e/"</string>
+    <string name="use_location_summary" msgid="3978805802386162520">"Naj /e/ uporablja vašo lokacijo za izboljšanje rezultatov iskanja in drugih storitev"</string>
     <string name="location_access_title" msgid="7064108942964081243">"Dostop do moje lokacije"</string>
     <string name="location_access_summary" msgid="69031404093194341">"Aplikacije, ki prosijo za vaše dovoljenje, lahko uporabijo podatke o lokaciji"</string>
     <string name="location_sources_heading" msgid="1278732419851088319">"Viri lokacije"</string>
@@ -1453,7 +1453,7 @@
     <string name="applications_settings_header" msgid="1014813055054356646">"Nastavitve aplikacij"</string>
     <string name="install_applications" msgid="4872012136210802181">"Neznani viri"</string>
     <string name="install_applications_title" msgid="4987712352256508946">"Dovoli vse vire aplikacij"</string>
-    <string name="install_unknown_applications_title" msgid="663831043139080992">"Omogoča nameščanje aplikacij iz virov, ki niso Google Play"</string>
+    <string name="install_unknown_applications_title" msgid="663831043139080992">"Omogoča nameščanje aplikacij iz virov, ki niso /e/ Play"</string>
     <string name="install_unknown_applications" msgid="176855644862942064">"Dovoli namestitev aplikacij iz neznanih virov"</string>
     <string name="install_all_warning" product="tablet" msgid="3263360446508268880">"Aplikacije iz neznanih virov lažje napadejo tablični računalnik in osebne podatke. Strinjate se, da ste za morebitno škodo, nastalo v tabličnem računalniku, ali izgubo podatkov, ki sta posledica uporabe teh aplikacij, odgovorni izključno sami."</string>
     <string name="install_all_warning" product="default" msgid="8113734576826384682">"Aplikacije iz neznanih virov lažje napadejo telefon in osebne podatke. Strinjate se, da ste izključno sami odgovorni za morebitno škodo, nastalo v telefonu, ali izgubo podatkov, ki sta posledica uporabe teh aplikacij."</string>
@@ -2164,7 +2164,7 @@
     <string name="sync_gmail" msgid="714886122098006477">"Gmail"</string>
     <string name="sync_calendar" msgid="9056527206714733735">"Koledar"</string>
     <string name="sync_contacts" msgid="9174914394377828043">"Stiki"</string>
-    <string name="sync_plug" msgid="3905078969081888738"><font fgcolor="#ffffffff">"Pozdravljeni v storitvi Google Sync."</font>" \nGooglov pristop k sinhroniziranju podatkov, s katerim lahko dostopate do stikov, koledarskih vnosov in drugih podatkov ne glede na to, kje ste."</string>
+    <string name="sync_plug" msgid="3905078969081888738"><font fgcolor="#ffffffff">"Pozdravljeni v storitvi /e/ Sync."</font>" \nGooglov pristop k sinhroniziranju podatkov, s katerim lahko dostopate do stikov, koledarskih vnosov in drugih podatkov ne glede na to, kje ste."</string>
     <string name="header_application_sync_settings" msgid="6205903695598000286">"Nastavitve sinhronizacije aplikacij"</string>
     <string name="header_data_and_synchronization" msgid="5165024023936509896">"Podatki in sinhronizacija"</string>
     <string name="preference_change_password_title" msgid="8955581790270130056">"Spremeni geslo"</string>
@@ -2252,8 +2252,8 @@
     <string name="data_usage_app_restrict_dialog" msgid="5871168521456832764">"Ta funkcija lahko povzroči, da aplikacija, ki je odvisna od prenosa podatkov v ozadju, preneha delovati, če so na voljo samo mobilna omrežja.\n\nUstreznejše možnosti nadzora porabe podatkov lahko najdete v nastavitvah v aplikaciji."</string>
     <string name="data_usage_restrict_denied_dialog" msgid="1493134803720421674">"Prenos podatkov v ozadju lahko omejite samo, če nastavite omejitev prenosa podatkov v mobilnih omrežjih."</string>
     <string name="data_usage_auto_sync_on_dialog_title" msgid="2438617846762244389">"Želite vklopiti samodejno sinhroniziranje podatkov?"</string>
-    <string name="data_usage_auto_sync_on_dialog" product="tablet" msgid="8581983093524041669">"Morebitne spremembe v računih, ki jih naredite v spletu, bodo samodejno kopirane v tablični računalnik.\n\nNekateri računi morda tudi samodejno kopirajo morebitne spremembe, ki jih naredite v tabličnem računalniku, v splet. Tako deluje Google Račun."</string>
-    <string name="data_usage_auto_sync_on_dialog" product="default" msgid="8651376294887142858">"Morebitne spremembe v računih, ki jih naredite v spletu, bodo samodejno kopirane v telefon.\n\nNekateri računi morda tudi samodejno kopirajo morebitne spremembe, ki jih naredite v telefonu, v splet. Tako deluje Google Račun."</string>
+    <string name="data_usage_auto_sync_on_dialog" product="tablet" msgid="8581983093524041669">"Morebitne spremembe v računih, ki jih naredite v spletu, bodo samodejno kopirane v tablični računalnik.\n\nNekateri računi morda tudi samodejno kopirajo morebitne spremembe, ki jih naredite v tabličnem računalniku, v splet. Tako deluje /e/ Račun."</string>
+    <string name="data_usage_auto_sync_on_dialog" product="default" msgid="8651376294887142858">"Morebitne spremembe v računih, ki jih naredite v spletu, bodo samodejno kopirane v telefon.\n\nNekateri računi morda tudi samodejno kopirajo morebitne spremembe, ki jih naredite v telefonu, v splet. Tako deluje /e/ Račun."</string>
     <string name="data_usage_auto_sync_off_dialog_title" msgid="9013139130490125793">"Želite izklopiti samodejno sinhroniziranje podatkov?"</string>
     <string name="data_usage_auto_sync_off_dialog" msgid="4025938250775413864">"S tem zmanjšate količino prenesenih podatkov in porabo akumulatorja, vendar boste morali vsak posamezen račun sinhronizirati ročno, da dobite najnovejše podatke. Prav tako ne boste dobili obvestil o posodobitvah."</string>
     <string name="data_usage_cycle_editor_title" msgid="1373797281540188533">"Datum ponastavitve cikla porabe"</string>

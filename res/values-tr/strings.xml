@@ -417,11 +417,11 @@
     <string name="crypt_keeper_warn_wipe" msgid="2738374897337991667">"Uyarı: Cihazınız, <xliff:g id="COUNT">^1</xliff:g> kez daha başarısız kilit açma denemesinden sonra silinecek!"</string>
     <string name="crypt_keeper_enter_password" msgid="2223340178473871064">"Şifrenizi yazın"</string>
     <string name="crypt_keeper_failed_title" msgid="7133499413023075961">"Şifreleme başarısız oldu"</string>
-    <string name="crypt_keeper_failed_summary" product="tablet" msgid="8219375738445017266">"Şifreleme kesildi ve tamamlanamıyor. Bu durum nedeniyle tabletinizdeki verilere artık erişilemiyor.\n\nTabletinizi kullanmaya devam edebilmek için, fabrika ayarlarına sıfırlama işlemi gerçekleştirmeniz gerekir. Sıfırlama işleminden sonra tabletinizin kurulumunu yaptığınızda, Google Hesabınıza yedeklenen tüm verileri geri yükleme fırsatınız olacaktır."</string>
-    <string name="crypt_keeper_failed_summary" product="default" msgid="3270131542549577953">"Şifreleme kesildi ve tamamlanamıyor. Bu durum nedeniyle telefonunuzdaki verilere artık erişilemiyor.\n\nTelefonunuz kullanmaya devam edebilmek için, fabrika ayarlarına sıfırlama işlemi gerçekleştirmeniz gerekir. Sıfırlama işleminden sonra telefonunuzun kurulumunu yaptığınızda, Google Hesabınıza yedeklenen tüm verileri geri yükleme fırsatınız olacaktır."</string>
+    <string name="crypt_keeper_failed_summary" product="tablet" msgid="8219375738445017266">"Şifreleme kesildi ve tamamlanamıyor. Bu durum nedeniyle tabletinizdeki verilere artık erişilemiyor.\n\nTabletinizi kullanmaya devam edebilmek için, fabrika ayarlarına sıfırlama işlemi gerçekleştirmeniz gerekir. Sıfırlama işleminden sonra tabletinizin kurulumunu yaptığınızda, /e/ Hesabınıza yedeklenen tüm verileri geri yükleme fırsatınız olacaktır."</string>
+    <string name="crypt_keeper_failed_summary" product="default" msgid="3270131542549577953">"Şifreleme kesildi ve tamamlanamıyor. Bu durum nedeniyle telefonunuzdaki verilere artık erişilemiyor.\n\nTelefonunuz kullanmaya devam edebilmek için, fabrika ayarlarına sıfırlama işlemi gerçekleştirmeniz gerekir. Sıfırlama işleminden sonra telefonunuzun kurulumunu yaptığınızda, /e/ Hesabınıza yedeklenen tüm verileri geri yükleme fırsatınız olacaktır."</string>
     <string name="crypt_keeper_data_corrupt_title" msgid="8759119849089795751">"Şifre çözülemedi"</string>
-    <string name="crypt_keeper_data_corrupt_summary" product="tablet" msgid="840107296925798402">"Girdiğiniz şifre doğru, ancak ne yazık ki verileriniz bozulmuş. \n\nTabletinizi kullanmaya devam etmek için fabrika ayarlarına sıfırlama işlemi yapmanız gerekiyor. Sıfırlama işleminden sonra tabletinizin kurulumunu yaparken Google Hesabınıza yedeklenmiş tüm verileri geri yükleme fırsatınız olacaktır."</string>
-    <string name="crypt_keeper_data_corrupt_summary" product="default" msgid="8843311420059663824">"Girdiğiniz şifre doğru, ancak ne yazık ki verileriniz bozulmuş. \n\nTelefonunuzu kullanmaya devam etmek için fabrika ayarlarına sıfırlama işlemi yapmanız gerekiyor. Sıfırlama işleminden sonra telefonunuzun kurulumunu yaparken Google Hesabınıza yedeklenmiş tüm verileri geri yükleme fırsatınız olacaktır."</string>
+    <string name="crypt_keeper_data_corrupt_summary" product="tablet" msgid="840107296925798402">"Girdiğiniz şifre doğru, ancak ne yazık ki verileriniz bozulmuş. \n\nTabletinizi kullanmaya devam etmek için fabrika ayarlarına sıfırlama işlemi yapmanız gerekiyor. Sıfırlama işleminden sonra tabletinizin kurulumunu yaparken /e/ Hesabınıza yedeklenmiş tüm verileri geri yükleme fırsatınız olacaktır."</string>
+    <string name="crypt_keeper_data_corrupt_summary" product="default" msgid="8843311420059663824">"Girdiğiniz şifre doğru, ancak ne yazık ki verileriniz bozulmuş. \n\nTelefonunuzu kullanmaya devam etmek için fabrika ayarlarına sıfırlama işlemi yapmanız gerekiyor. Sıfırlama işleminden sonra telefonunuzun kurulumunu yaparken /e/ Hesabınıza yedeklenmiş tüm verileri geri yükleme fırsatınız olacaktır."</string>
     <string name="crypt_keeper_switch_input_method" msgid="4168332125223483198">"Giriş yöntemini değiştir"</string>
     <string name="suggested_lock_settings_title" msgid="8971630898700461034">"Ekran kilidi ayarla"</string>
     <string name="suggested_lock_settings_summary" msgid="8778462376012231110">"Cihazınızı koruyun"</string>
@@ -1239,8 +1239,8 @@
     <string name="reset_network_complete_toast" msgid="787829973559541880">"Ağ ayarları sıfırlandı"</string>
     <string name="device_reset_title" msgid="2384019005638768076">"Cihazı sıfırla"</string>
     <string name="master_clear_title" msgid="5907939616087039756">"Fab. verilerine sıfırla"</string>
-    <string name="master_clear_desc" product="tablet" msgid="9146059417023157222">"Bu işlem tablet bilgisayarınızın "<b>"dahili depolama alanından"</b>"şu verilerin tümünü siler:\n\n"<li>"Google hesabınız"</li>\n<li>"Sistem ve uygulama verileri ile ayarları"</li>\n<li>"İndirilen uygulamalar"</li></string>
-    <string name="master_clear_desc" product="default" msgid="4800386183314202571">"Bu işlem, telefonunuzun "<b>"dahili depolama alanından"</b>" şu verilerin tümünü siler:\n\n"<li>"Google hesabınız"</li>\n<li>"Sistem ve uygulama verileri ile ayarları"</li>\n<li>"İndirilen uygulamalar"</li></string>
+    <string name="master_clear_desc" product="tablet" msgid="9146059417023157222">"Bu işlem tablet bilgisayarınızın "<b>"dahili depolama alanından"</b>"şu verilerin tümünü siler:\n\n"<li>"/e/ hesabınız"</li>\n<li>"Sistem ve uygulama verileri ile ayarları"</li>\n<li>"İndirilen uygulamalar"</li></string>
+    <string name="master_clear_desc" product="default" msgid="4800386183314202571">"Bu işlem, telefonunuzun "<b>"dahili depolama alanından"</b>" şu verilerin tümünü siler:\n\n"<li>"/e/ hesabınız"</li>\n<li>"Sistem ve uygulama verileri ile ayarları"</li>\n<li>"İndirilen uygulamalar"</li></string>
     <string name="master_clear_accounts" product="default" msgid="6412857499147999073">\n\n"Şu anda aşağıdaki hesaplarda oturum açmış durumdasınız:\n"</string>
     <string name="master_clear_other_users_present" product="default" msgid="5161423070702470742">\n\n"Bu cihazda başka kullanıcılar da var.\n"</string>
     <string name="master_clear_desc_also_erases_external" msgid="1903185203791274237"><li>"Müzik"</li>\n<li>"Fotoğraflar"</li>\n<li>"Diğer kullanıcı verileri"</li></string>
@@ -1325,7 +1325,7 @@
     <string name="location_scanning_bluetooth_always_scanning_title" msgid="5444989508204520019">"Bluetooth taraması"</string>
     <string name="location_scanning_bluetooth_always_scanning_description" msgid="8602726521250591852">"Sistem uygulamalarının ve hizmetlerinin her zaman Bluetooth cihazları algılamasına izin vererek konum bilgisini iyileştirin."</string>
     <string name="location_network_based" msgid="6010456018401296590">"Kablosuz ve hücresel ağ konumu"</string>
-    <string name="location_neighborhood_level" msgid="5141318121229984788">"Uygulamalar konumunuzu daha hızlı tahmin edebilmek için Google\'ın konum bilgilerini kullanabilsin. Anonim konum bilgileri toplanıp Google\'a gönderilir."</string>
+    <string name="location_neighborhood_level" msgid="5141318121229984788">"Uygulamalar konumunuzu daha hızlı tahmin edebilmek için /e/\'ın konum bilgilerini kullanabilsin. Anonim konum bilgileri toplanıp /e/\'a gönderilir."</string>
     <string name="location_neighborhood_level_wifi" msgid="4234820941954812210">"Konum, Kablosuz tarafından belirlendi"</string>
     <string name="location_gps" msgid="8392461023569708478">"GPS uyduları"</string>
     <string name="location_street_level" product="tablet" msgid="1669562198260860802">"Uygulamalar konumunuzu tam olarak belirlemek üzere tabletinizin GPS\'sini kullanabilsin"</string>
@@ -1333,8 +1333,8 @@
     <string name="assisted_gps" msgid="4649317129586736885">"Desteklenen GPS kullan"</string>
     <string name="assisted_gps_enabled" msgid="8751899609589792803">"GPS\'ye destek olmak için sunucu kullan (ağ kullanımını azaltmak için onay işaretini kaldırın)"</string>
     <string name="assisted_gps_disabled" msgid="6982698333968010748">"GPS\'ye yardımcı olmak için sunucu kullan (GPS performansını iyileştirmek için onay işaretini kaldırın)"</string>
-    <string name="use_location_title" msgid="5206937465504979977">"Konum ve Google arama"</string>
-    <string name="use_location_summary" msgid="3978805802386162520">"Arama sonuçları ve diğer hizmetleri iyileştirmek için Google\'ın konumunuzu kullanmasına izin verir"</string>
+    <string name="use_location_title" msgid="5206937465504979977">"Konum ve /e/ arama"</string>
+    <string name="use_location_summary" msgid="3978805802386162520">"Arama sonuçları ve diğer hizmetleri iyileştirmek için /e/\'ın konumunuzu kullanmasına izin verir"</string>
     <string name="location_access_title" msgid="7064108942964081243">"Konumuma eriş"</string>
     <string name="location_access_summary" msgid="69031404093194341">"Uygulamalar konum bilgilerinizi kullanmak için sizden izin isteyebilsinler"</string>
     <string name="location_sources_heading" msgid="1278732419851088319">"Konum kaynakları"</string>
@@ -1433,7 +1433,7 @@
     <string name="applications_settings_header" msgid="1014813055054356646">"Uygulama ayarları"</string>
     <string name="install_applications" msgid="4872012136210802181">"Bilinmeyen kaynaklar"</string>
     <string name="install_applications_title" msgid="4987712352256508946">"Tüm uyg. kaynaklarına izin ver"</string>
-    <string name="install_unknown_applications_title" msgid="663831043139080992">"Google Play dışındaki kaynaklardan uyg. yüklemenize izin verir"</string>
+    <string name="install_unknown_applications_title" msgid="663831043139080992">"/e/ Play dışındaki kaynaklardan uyg. yüklemenize izin verir"</string>
     <string name="install_unknown_applications" msgid="176855644862942064">"Bilinmeyen kaynaklardan uygulama yüklemeye izin ver"</string>
     <string name="install_all_warning" product="tablet" msgid="3263360446508268880">"Tabletiniz ve kişisel verileriniz, bilinmeyen kaynaklardan gelen uygulamaların saldırılarına karşı daha savunmasızdır. Bu uygulamaları kullanmanız sonucunda tabletinizin başına gelebilecek her tür hasardan ve veri kaybından yalnızca kendinizin sorumlu olduğunu kabul edersiniz."</string>
     <string name="install_all_warning" product="default" msgid="8113734576826384682">"Telefonunuz ve kişisel verileriniz, bilinmeyen kaynaklardan gelen uygulamaların saldırılarına karşı daha savunmasızdır. Bu uygulamaları kullanmanız sonucunda telefonunuzun başına gelebilecek her tür hasardan ve veri kaybından yalnızca kendinizin sorumlu olduğunu kabul edersiniz."</string>
@@ -2035,7 +2035,7 @@
     <string name="backup_section_title" msgid="7952232291452882740">"Yedekleme ve geri yükleme"</string>
     <string name="personal_data_section_title" msgid="7815209034443782061">"Kişisel veriler"</string>
     <string name="backup_data_title" msgid="1239105919852668016">"Verilerimi yedekle"</string>
-    <string name="backup_data_summary" msgid="708773323451655666">"Uygulama verilerini, Kablosuz şifrelerini ve diğer ayarları Google sunucularına yedekle"</string>
+    <string name="backup_data_summary" msgid="708773323451655666">"Uygulama verilerini, Kablosuz şifrelerini ve diğer ayarları /e/ sunucularına yedekle"</string>
     <string name="backup_configure_account_title" msgid="3790872965773196615">"Yedek hesap"</string>
     <string name="include_app_data_title" msgid="2829970132260278394">"Uygulama verilerini dahil et"</string>
     <string name="auto_restore_title" msgid="5397528966329126506">"Otomatik geri yükle"</string>
@@ -2043,7 +2043,7 @@
     <string name="backup_inactive_title" msgid="5355557151569037197">"Yedekleme hizmeti etkin değil."</string>
     <string name="backup_configure_account_default_summary" msgid="2436933224764745553">"Şu anda, yedeklenmiş verileri depolayan hiçbir hesap yok"</string>
     <string name="backup_erase_dialog_title" msgid="1027640829482174106"></string>
-    <string name="backup_erase_dialog_message" msgid="5221011285568343155">"Kablosuz şifrelerinizin, yer işaretlerinizin, diğer ayarlarınızın ve uygulama verilerinizin yedeklenmesi iptal edilip, Google sunucularındaki tüm kopyaları silinsin mi?"</string>
+    <string name="backup_erase_dialog_message" msgid="5221011285568343155">"Kablosuz şifrelerinizin, yer işaretlerinizin, diğer ayarlarınızın ve uygulama verilerinizin yedeklenmesi iptal edilip, /e/ sunucularındaki tüm kopyaları silinsin mi?"</string>
     <string name="fullbackup_erase_dialog_message" msgid="694766389396659626">"Cihaz verilerinin (kablosuz ağ şifreleri ve çağrı geçmişi gibi) ve uygulama verilerinin (uygulamalar tarafından depolanan ayarlar ve dosyalar gibi) yedeklenmesi durdurulsun ve uzak sunuculardaki tüm kopyaları silinsin mi?"</string>
     <string name="fullbackup_data_summary" msgid="960850365007767734">"Cihaz verilerini (Kablosuz ağ şifreleri ve çağrı geçmişi gibi) ve uygulama verilerini (uygulamalar tarafından depolanan ayarlar ve dosyalar gibi) uzaktan otomatik olarak yedekleyin.\n\nOtomatik yedeklemeyi açtığınızda, cihaz ve uygulama verileri periyodik olarak uzaktan kaydedilir. Uygulama verileri, bir uygulamanın kaydettiği (geliştirici ayarlarına göre), kişiler, iletiler ve fotoğraflar gibi hassas olabilecek verileri de içeren her türlü veri olabilir."</string>
     <string name="device_admin_settings_title" msgid="1335557832906433309">"Aygıt yönetimi ayarları"</string>
@@ -2130,7 +2130,7 @@
     <string name="sync_gmail" msgid="714886122098006477">"Gmail"</string>
     <string name="sync_calendar" msgid="9056527206714733735">"Takvim"</string>
     <string name="sync_contacts" msgid="9174914394377828043">"Kişiler"</string>
-    <string name="sync_plug" msgid="3905078969081888738"><font fgcolor="#ffffffff">"Google Sync\'e hoş geldiniz!"</font>\n"Google\'ın, kişilerinize, randevularınıza ve diğer bilgilerinize istediğiniz yerden erişebilmenize olanak vermek için verileri senkronizasyon yaklaşımıdır."</string>
+    <string name="sync_plug" msgid="3905078969081888738"><font fgcolor="#ffffffff">"/e/ Sync\'e hoş geldiniz!"</font>\n"/e/\'ın, kişilerinize, randevularınıza ve diğer bilgilerinize istediğiniz yerden erişebilmenize olanak vermek için verileri senkronizasyon yaklaşımıdır."</string>
     <string name="header_application_sync_settings" msgid="6205903695598000286">"Uygulama senkronizasyon ayarları"</string>
     <string name="header_data_and_synchronization" msgid="5165024023936509896">"Veri ve senkronizasyon"</string>
     <string name="preference_change_password_title" msgid="8955581790270130056">"Şifreyi değiştir"</string>
@@ -2218,8 +2218,8 @@
     <string name="data_usage_app_restrict_dialog" msgid="5871168521456832764">"Bu özellik, yalnızca hücresel ağların mevcut olması durumunda, arka plan verilerine dayanan bir uygulamanın çalışmayı durdurmasına neden olabilir.\n\nDaha uygun veri kullanım denetimlerini, uygulamanın içindeki ayarlarda bulabilirsiniz."</string>
     <string name="data_usage_restrict_denied_dialog" msgid="1493134803720421674">"Arka plan verilerini sınırlama özelliği, yalnızca hücresel ağ veri sınırı ayarladığınızda kullanılabilir."</string>
     <string name="data_usage_auto_sync_on_dialog_title" msgid="2438617846762244389">"Otomatik veri senk. açılsın mı?"</string>
-    <string name="data_usage_auto_sync_on_dialog" product="tablet" msgid="8581983093524041669">"Web üzerinden hesaplarınızda yaptığınız tüm değişiklikler tabletinize otomatik olarak kopyalanır.\n\nBazı hesaplar telefonda yaptığınız değişiklikleri otomatik olarak web\'e de kopyalayabilir. Google Hesabı bu şekilde çalışır."</string>
-    <string name="data_usage_auto_sync_on_dialog" product="default" msgid="8651376294887142858">"Web üzerinden hesaplarınızda yaptığınız tüm değişiklikler telefonunuza otomatik olarak kopyalanır.\n\nBazı hesaplar telefonda yaptığınız değişiklikleri otomatik olarak web\'e de kopyalayabilir. Google Hesabı bu şekilde çalışır."</string>
+    <string name="data_usage_auto_sync_on_dialog" product="tablet" msgid="8581983093524041669">"Web üzerinden hesaplarınızda yaptığınız tüm değişiklikler tabletinize otomatik olarak kopyalanır.\n\nBazı hesaplar telefonda yaptığınız değişiklikleri otomatik olarak web\'e de kopyalayabilir. /e/ Hesabı bu şekilde çalışır."</string>
+    <string name="data_usage_auto_sync_on_dialog" product="default" msgid="8651376294887142858">"Web üzerinden hesaplarınızda yaptığınız tüm değişiklikler telefonunuza otomatik olarak kopyalanır.\n\nBazı hesaplar telefonda yaptığınız değişiklikleri otomatik olarak web\'e de kopyalayabilir. /e/ Hesabı bu şekilde çalışır."</string>
     <string name="data_usage_auto_sync_off_dialog_title" msgid="9013139130490125793">"Otom. veri senk. kapatılsın mı?"</string>
     <string name="data_usage_auto_sync_off_dialog" msgid="4025938250775413864">"Bu işlem veri ve pil kullanımını azaltır, ancak son bilgileri almak için her hesabı manuel olarak senkronize etmeniz gerekecektir. Ayrıca, güncelleme olduğunda da bildirim alamayacaksınız."</string>
     <string name="data_usage_cycle_editor_title" msgid="1373797281540188533">"Kullanım dönemi sıfırlama tarihi"</string>

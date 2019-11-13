@@ -417,11 +417,11 @@
     <string name="crypt_keeper_warn_wipe" msgid="2738374897337991667">"Viðvörun: Eftir <xliff:g id="COUNT">^1</xliff:g> misheppnaðar opnunartilraunir í viðbót verður allt þurrkað út úr tækinu."</string>
     <string name="crypt_keeper_enter_password" msgid="2223340178473871064">"Sláðu inn aðgangsorðið þitt"</string>
     <string name="crypt_keeper_failed_title" msgid="7133499413023075961">"Dulkóðun mistókst"</string>
-    <string name="crypt_keeper_failed_summary" product="tablet" msgid="8219375738445017266">"Dulkóðunin var trufluð og ekki er hægt að ljúka henni. Gögn spjaldtölvunnar eru því ekki aðgengileg lengur. \n\nTil að halda áfram að nota spjaldtölvuna þarftu að núllstilla hana. Þegar þú setur tölvuna upp eftir núllstillinguna gefst þér kostur á að endurheimta öll gögn sem afrituð voru á Google reikninginn þinn."</string>
-    <string name="crypt_keeper_failed_summary" product="default" msgid="3270131542549577953">"Dulkóðunin var trufluð og ekki er hægt að ljúka henni. Gögn símans eru því ekki aðgengileg lengur. \n\nTil að halda áfram að nota símann þarftu að núllstilla hann. Þegar þú setur símann upp eftir núllstillinguna gefst þér kostur á að endurheimta öll gögn sem afrituð voru á Google reikninginn þinn."</string>
+    <string name="crypt_keeper_failed_summary" product="tablet" msgid="8219375738445017266">"Dulkóðunin var trufluð og ekki er hægt að ljúka henni. Gögn spjaldtölvunnar eru því ekki aðgengileg lengur. \n\nTil að halda áfram að nota spjaldtölvuna þarftu að núllstilla hana. Þegar þú setur tölvuna upp eftir núllstillinguna gefst þér kostur á að endurheimta öll gögn sem afrituð voru á /e/ reikninginn þinn."</string>
+    <string name="crypt_keeper_failed_summary" product="default" msgid="3270131542549577953">"Dulkóðunin var trufluð og ekki er hægt að ljúka henni. Gögn símans eru því ekki aðgengileg lengur. \n\nTil að halda áfram að nota símann þarftu að núllstilla hann. Þegar þú setur símann upp eftir núllstillinguna gefst þér kostur á að endurheimta öll gögn sem afrituð voru á /e/ reikninginn þinn."</string>
     <string name="crypt_keeper_data_corrupt_title" msgid="8759119849089795751">"Afkóðun mistókst"</string>
-    <string name="crypt_keeper_data_corrupt_summary" product="tablet" msgid="840107296925798402">"Aðgangsorðið sem þú slóst inn er rétt en því miður eru gögnin þín skemmd. \n\nÞú þarft að núllstilla spjaldtölvuna til að halda áfram að nota hana. Þegar þú hefur sett spjaldtölvuna upp aftur eftir núllstillingu færðu tækifæri til að endurheimta gögn sem þú hefur afritað yfir á Google reikninginn þinn."</string>
-    <string name="crypt_keeper_data_corrupt_summary" product="default" msgid="8843311420059663824">"Aðgangsorðið sem þú slóst inn er rétt en því miður eru gögnin þín skemmd. \n\nÞú þarft að núllstilla símann til að halda áfram að nota hann. Þegar þú hefur sett símann upp aftur eftir núllstillingu færðu tækifæri til að endurheimta gögn sem þú hefur afritað yfir á Google reikninginn þinn."</string>
+    <string name="crypt_keeper_data_corrupt_summary" product="tablet" msgid="840107296925798402">"Aðgangsorðið sem þú slóst inn er rétt en því miður eru gögnin þín skemmd. \n\nÞú þarft að núllstilla spjaldtölvuna til að halda áfram að nota hana. Þegar þú hefur sett spjaldtölvuna upp aftur eftir núllstillingu færðu tækifæri til að endurheimta gögn sem þú hefur afritað yfir á /e/ reikninginn þinn."</string>
+    <string name="crypt_keeper_data_corrupt_summary" product="default" msgid="8843311420059663824">"Aðgangsorðið sem þú slóst inn er rétt en því miður eru gögnin þín skemmd. \n\nÞú þarft að núllstilla símann til að halda áfram að nota hann. Þegar þú hefur sett símann upp aftur eftir núllstillingu færðu tækifæri til að endurheimta gögn sem þú hefur afritað yfir á /e/ reikninginn þinn."</string>
     <string name="crypt_keeper_switch_input_method" msgid="4168332125223483198">"Skipta um innsláttaraðferð"</string>
     <string name="suggested_lock_settings_title" msgid="8971630898700461034">"Stilla skjálás"</string>
     <string name="suggested_lock_settings_summary" msgid="8778462376012231110">"Auktu öryggi tækisins"</string>
@@ -1239,8 +1239,8 @@
     <string name="reset_network_complete_toast" msgid="787829973559541880">"Netstillingar voru endurstilltar"</string>
     <string name="device_reset_title" msgid="2384019005638768076">"Endurstilla tæki"</string>
     <string name="master_clear_title" msgid="5907939616087039756">"Núllstilling"</string>
-    <string name="master_clear_desc" product="tablet" msgid="9146059417023157222">"Þessi aðgerð eyðir öllum gögnum úr "<b>"innbyggðri geymslu"</b>" spjaldtölvunnar, þar á meðal:\n\n"<li>"Google reikningnum þínum"</li>\n<li>"Gögnum og stillingum forrita og kerfis"</li>\n<li>"Forritum sem hafa verið sótt"</li></string>
-    <string name="master_clear_desc" product="default" msgid="4800386183314202571">"Þessi aðgerð eyðir öllum gögnum úr "<b>"innbyggðri geymslu"</b>" símans, þar á meðal:\n\n"<li>"Google reikningnum þínum"</li>\n<li>"Gögnum og stillingum forrita og kerfis"</li>\n<li>"Forritum sem hafa verið sótt"</li></string>
+    <string name="master_clear_desc" product="tablet" msgid="9146059417023157222">"Þessi aðgerð eyðir öllum gögnum úr "<b>"innbyggðri geymslu"</b>" spjaldtölvunnar, þar á meðal:\n\n"<li>"/e/ reikningnum þínum"</li>\n<li>"Gögnum og stillingum forrita og kerfis"</li>\n<li>"Forritum sem hafa verið sótt"</li></string>
+    <string name="master_clear_desc" product="default" msgid="4800386183314202571">"Þessi aðgerð eyðir öllum gögnum úr "<b>"innbyggðri geymslu"</b>" símans, þar á meðal:\n\n"<li>"/e/ reikningnum þínum"</li>\n<li>"Gögnum og stillingum forrita og kerfis"</li>\n<li>"Forritum sem hafa verið sótt"</li></string>
     <string name="master_clear_accounts" product="default" msgid="6412857499147999073">\n\n"Þú ert skráð(ur) inn á eftirfarandi reikninga:\n"</string>
     <string name="master_clear_other_users_present" product="default" msgid="5161423070702470742">\n\n"Aðrir notendur eru til staðar í þessu tæki.\n"</string>
     <string name="master_clear_desc_also_erases_external" msgid="1903185203791274237"><li>"Tónlist"</li>\n<li>"Myndir"</li>\n<li>"Önnur notandagögn"</li></string>
@@ -1325,7 +1325,7 @@
     <string name="location_scanning_bluetooth_always_scanning_title" msgid="5444989508204520019">"Bluetooth-leit"</string>
     <string name="location_scanning_bluetooth_always_scanning_description" msgid="8602726521250591852">"Bæta staðsetningu með því að leyfa kerfisforritum og þjónustu að finna Bluetooth-tæki hvenær sem er."</string>
     <string name="location_network_based" msgid="6010456018401296590">"Staðsetning með Wi-Fi og farsímakerfi"</string>
-    <string name="location_neighborhood_level" msgid="5141318121229984788">"Leyfir forritum að nota þjónustu Google fyrir hraðvirkari staðsetningarákvörðun. Nafnlausar upplýsingar verða sendar til Google."</string>
+    <string name="location_neighborhood_level" msgid="5141318121229984788">"Leyfir forritum að nota þjónustu /e/ fyrir hraðvirkari staðsetningarákvörðun. Nafnlausar upplýsingar verða sendar til /e/."</string>
     <string name="location_neighborhood_level_wifi" msgid="4234820941954812210">"Wi-Fi ákvarðar staðsetningu"</string>
     <string name="location_gps" msgid="8392461023569708478">"GPS-gervihnettir"</string>
     <string name="location_street_level" product="tablet" msgid="1669562198260860802">"Leyfa forritum að nota GPS í spjaldtölvunni til að ákvarða staðsetningu þína"</string>
@@ -1333,8 +1333,8 @@
     <string name="assisted_gps" msgid="4649317129586736885">"Nota GPS með stuðningi"</string>
     <string name="assisted_gps_enabled" msgid="8751899609589792803">"Nota þjón til að styðja GPS (taktu hakið af til að draga úr netnotkun)"</string>
     <string name="assisted_gps_disabled" msgid="6982698333968010748">"Nota þjón til að styðja GPS (taktu hakið af til að auka afköst GPS)"</string>
-    <string name="use_location_title" msgid="5206937465504979977">"Staðsetning og Google leit"</string>
-    <string name="use_location_summary" msgid="3978805802386162520">"Leyfa Google að nota staðsetninguna þína til að bæta leitarniðurstöður og aðra þjónustu"</string>
+    <string name="use_location_title" msgid="5206937465504979977">"Staðsetning og /e/ leit"</string>
+    <string name="use_location_summary" msgid="3978805802386162520">"Leyfa /e/ að nota staðsetninguna þína til að bæta leitarniðurstöður og aðra þjónustu"</string>
     <string name="location_access_title" msgid="7064108942964081243">"Fá aðgang að staðsetningu minni"</string>
     <string name="location_access_summary" msgid="69031404093194341">"Leyfa forritum sem hafa beðið þig um heimild að nota upplýsingar um staðsetningu þína"</string>
     <string name="location_sources_heading" msgid="1278732419851088319">"Staðsetningarbúnaður"</string>
@@ -1433,7 +1433,7 @@
     <string name="applications_settings_header" msgid="1014813055054356646">"Forritastillingar"</string>
     <string name="install_applications" msgid="4872012136210802181">"Óþekktur uppruni"</string>
     <string name="install_applications_title" msgid="4987712352256508946">"Leyfa forrit frá öllum"</string>
-    <string name="install_unknown_applications_title" msgid="663831043139080992">"Leyfir þér að setja upp forrit frá fleiri stöðum en Google Play"</string>
+    <string name="install_unknown_applications_title" msgid="663831043139080992">"Leyfir þér að setja upp forrit frá fleiri stöðum en /e/ Play"</string>
     <string name="install_unknown_applications" msgid="176855644862942064">"Leyfa á uppsetningu forrita af óþekktum uppruna"</string>
     <string name="install_all_warning" product="tablet" msgid="3263360446508268880">"Spjaldtölvan þín og persónuleg gögn eru berskjaldaðri fyrir árásum forrita af óþekktum uppruna. Þú samþykkir að bera fulla ábyrgð á hverju því tjóni sem verða kann á spjaldtölvunni eða gagnatapi sem leiða kann af notkun þessara forrita."</string>
     <string name="install_all_warning" product="default" msgid="8113734576826384682">"Síminn þinn og persónuleg gögn eru berskjaldaðri fyrir árásum forrita af óþekktum uppruna. Þú samþykkir að bera fulla ábyrgð á hverju því tjóni sem verða kann á símanum eða gagnatapi sem leiða kann af notkun þessara forrita."</string>
@@ -2035,7 +2035,7 @@
     <string name="backup_section_title" msgid="7952232291452882740">"Afritun og endurheimt"</string>
     <string name="personal_data_section_title" msgid="7815209034443782061">"Persónuleg gögn"</string>
     <string name="backup_data_title" msgid="1239105919852668016">"Taka öryggisafrit af gögnunum mínum"</string>
-    <string name="backup_data_summary" msgid="708773323451655666">"Vista öryggisafrit af gögnum forrita, Wi-Fi aðgangsorðum og öðrum stillingum á þjóna Google"</string>
+    <string name="backup_data_summary" msgid="708773323451655666">"Vista öryggisafrit af gögnum forrita, Wi-Fi aðgangsorðum og öðrum stillingum á þjóna /e/"</string>
     <string name="backup_configure_account_title" msgid="3790872965773196615">"Afritunarreikningur"</string>
     <string name="include_app_data_title" msgid="2829970132260278394">"Fela forritsgögn"</string>
     <string name="auto_restore_title" msgid="5397528966329126506">"Sjálfvirk endurheimt"</string>
@@ -2043,9 +2043,9 @@
     <string name="backup_inactive_title" msgid="5355557151569037197">"Afritunarþjónustan er óvirk."</string>
     <string name="backup_configure_account_default_summary" msgid="2436933224764745553">"Sem stendur geymir enginn reikningur öryggisafrit af gögnum"</string>
     <string name="backup_erase_dialog_title" msgid="1027640829482174106"></string>
-    <string name="backup_erase_dialog_message" msgid="5221011285568343155">"Hætta að taka öryggisafrit af Wi-Fi aðgangsorðum, bókamerkjum, öðrum stillingum og gögnum forrita, og eyða öllum afritum af þjónum Google?"</string>
+    <string name="backup_erase_dialog_message" msgid="5221011285568343155">"Hætta að taka öryggisafrit af Wi-Fi aðgangsorðum, bókamerkjum, öðrum stillingum og gögnum forrita, og eyða öllum afritum af þjónum /e/?"</string>
     <string name="fullbackup_erase_dialog_message" msgid="694766389396659626">"Viltu hætta að taka afrit af gögnum tækisins (s.s. Wi-Fi aðgangsorðum og símtalaferli) og forritsgögnum (s.s. stillingum og skrám sem forrit vista) og eyða öllum afritum af fjartengdum þjónum?"</string>
-    <string name="fullbackup_data_summary" msgid="960850365007767734">"Taktu sjálfkrafa afrit af gögnum tækisins (s.s. Wi-Fi aðgangsorðum og símtalaferli) og forritsgögnum (s.s. stillingum og skrám sem forrit vista) og vistaðu á Google Drive.\n\nÞegar þú kveikir á sjálfvirkri afritun eru gögn tækisins og forrita reglulega vistuð fjartengt. Forritsgögn geta verið öll gögn sem forrit hefur vistað (fer eftir stillingum þróunaraðilans), þ.m.t. hugsanlega viðkvæm gögn á borð við tengiliði þína, skilaboð og myndir."</string>
+    <string name="fullbackup_data_summary" msgid="960850365007767734">"Taktu sjálfkrafa afrit af gögnum tækisins (s.s. Wi-Fi aðgangsorðum og símtalaferli) og forritsgögnum (s.s. stillingum og skrám sem forrit vista) og vistaðu á /e/ Drive.\n\nÞegar þú kveikir á sjálfvirkri afritun eru gögn tækisins og forrita reglulega vistuð fjartengt. Forritsgögn geta verið öll gögn sem forrit hefur vistað (fer eftir stillingum þróunaraðilans), þ.m.t. hugsanlega viðkvæm gögn á borð við tengiliði þína, skilaboð og myndir."</string>
     <string name="device_admin_settings_title" msgid="1335557832906433309">"Stillingar tækisumsjónar"</string>
     <string name="active_device_admin_msg" msgid="6930903262612422111">"Stjórnandi tækis"</string>
     <string name="remove_device_admin" msgid="7736174723276745230">"Gera þennan stjórnanda tækis óvirkan"</string>
@@ -2130,7 +2130,7 @@
     <string name="sync_gmail" msgid="714886122098006477">"Gmail"</string>
     <string name="sync_calendar" msgid="9056527206714733735">"Dagatal"</string>
     <string name="sync_contacts" msgid="9174914394377828043">"Tengiliðir"</string>
-    <string name="sync_plug" msgid="3905078969081888738"><font fgcolor="#ffffffff">"Velkomin(n) í samstillingu Google!"</font>" \nSamstilling gagna í anda Google til að gefa þér aðgang að tengiliðum, fundum og öðrum upplýsingum, sama hvar þú ert."</string>
+    <string name="sync_plug" msgid="3905078969081888738"><font fgcolor="#ffffffff">"Velkomin(n) í samstillingu /e/!"</font>" \nSamstilling gagna í anda /e/ til að gefa þér aðgang að tengiliðum, fundum og öðrum upplýsingum, sama hvar þú ert."</string>
     <string name="header_application_sync_settings" msgid="6205903695598000286">"Samstilling forrita"</string>
     <string name="header_data_and_synchronization" msgid="5165024023936509896">"Gögn og samstilling"</string>
     <string name="preference_change_password_title" msgid="8955581790270130056">"Breyta aðgangsorði"</string>
@@ -2218,8 +2218,8 @@
     <string name="data_usage_app_restrict_dialog" msgid="5871168521456832764">"Þessi eiginleiki getur valdið því að forrit sem reiðir sig á bakgrunnsgögn stöðvast þegar aðeins farsímakerfi eru í boði.\n\nHentugri stýringar fyrir gagnanotkun er að finna í stillingum forritsins."</string>
     <string name="data_usage_restrict_denied_dialog" msgid="1493134803720421674">"Aðeins er hægt að takmarka bakgrunnsgögn þegar búið er að velja gagnamörk fyrir farsímakerfi."</string>
     <string name="data_usage_auto_sync_on_dialog_title" msgid="2438617846762244389">"Kveikja á gagnasamstillingu?"</string>
-    <string name="data_usage_auto_sync_on_dialog" product="tablet" msgid="8581983093524041669">"Allar breytingar sem þú gerir á reikningunum þínum á vefnum verða sjálfkrafa afritaðar yfir í spjaldtölvuna.\n\nEinhverjir reikningar kunna einnig að afrita sjálfkrafa allar breytingar sem þú gerir í spjaldtölvunni yfir á vefinn. Google reikningur virkar þannig."</string>
-    <string name="data_usage_auto_sync_on_dialog" product="default" msgid="8651376294887142858">"Allar breytingar sem þú gerir á reikningunum þínum á vefnum verða sjálfkrafa afritaðar yfir í símann.\n\nEinhverjir reikningar kunna einnig að afrita sjálfkrafa allar breytingar sem þú gerir í símanum yfir á vefinn. Google reikningur virkar þannig."</string>
+    <string name="data_usage_auto_sync_on_dialog" product="tablet" msgid="8581983093524041669">"Allar breytingar sem þú gerir á reikningunum þínum á vefnum verða sjálfkrafa afritaðar yfir í spjaldtölvuna.\n\nEinhverjir reikningar kunna einnig að afrita sjálfkrafa allar breytingar sem þú gerir í spjaldtölvunni yfir á vefinn. /e/ reikningur virkar þannig."</string>
+    <string name="data_usage_auto_sync_on_dialog" product="default" msgid="8651376294887142858">"Allar breytingar sem þú gerir á reikningunum þínum á vefnum verða sjálfkrafa afritaðar yfir í símann.\n\nEinhverjir reikningar kunna einnig að afrita sjálfkrafa allar breytingar sem þú gerir í símanum yfir á vefinn. /e/ reikningur virkar þannig."</string>
     <string name="data_usage_auto_sync_off_dialog_title" msgid="9013139130490125793">"Slökkva á gagnasamstillingu?"</string>
     <string name="data_usage_auto_sync_off_dialog" msgid="4025938250775413864">"Þetta dregur úr gagna- og rafhlöðunotkun en þú þarft að samstilla hvern reikning handvirkt til að safna nýjustu upplýsingum. Þú færð ekki heldur tilkynningar þegar uppfærslur fara fram."</string>
     <string name="data_usage_cycle_editor_title" msgid="1373797281540188533">"Endurstillingardagur tímabils"</string>

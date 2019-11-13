@@ -420,11 +420,11 @@
     <string name="crypt_keeper_warn_wipe" msgid="2738374897337991667">"Upozorenje: Podaci sa uređaja će biti obrisani ako ne uspete da ga otključate još <xliff:g id="COUNT">^1</xliff:g> puta!"</string>
     <string name="crypt_keeper_enter_password" msgid="2223340178473871064">"Unesite lozinku"</string>
     <string name="crypt_keeper_failed_title" msgid="7133499413023075961">"Šifrovanje nije uspelo"</string>
-    <string name="crypt_keeper_failed_summary" product="tablet" msgid="8219375738445017266">"Šifrovanje je prekinuto i ne može da se dovrši. Kao posledica toga, podaci na tabletu više nisu dostupni. \n\n Da biste nastavili da koristite tablet, treba da ga resetujete. Kada ga podesite nakon resetovanja na fabrička podešavanja, imaćete priliku da vratite sve podatke za koje ste napravili rezervne kopije na Google nalogu."</string>
-    <string name="crypt_keeper_failed_summary" product="default" msgid="3270131542549577953">"Šifrovanje je prekinuto i ne može da se dovrši. Kao posledica toga, podaci na telefonu više nisu dostupni. \n\nDa biste nastavili da koristite telefon, treba da ga resetujete. Kada ga podesite nakon resetovanja na fabrička podešavanja, imaćete priliku da vratite sve podatke za koje ste napravili rezervne kopije na Google nalogu."</string>
+    <string name="crypt_keeper_failed_summary" product="tablet" msgid="8219375738445017266">"Šifrovanje je prekinuto i ne može da se dovrši. Kao posledica toga, podaci na tabletu više nisu dostupni. \n\n Da biste nastavili da koristite tablet, treba da ga resetujete. Kada ga podesite nakon resetovanja na fabrička podešavanja, imaćete priliku da vratite sve podatke za koje ste napravili rezervne kopije na /e/ nalogu."</string>
+    <string name="crypt_keeper_failed_summary" product="default" msgid="3270131542549577953">"Šifrovanje je prekinuto i ne može da se dovrši. Kao posledica toga, podaci na telefonu više nisu dostupni. \n\nDa biste nastavili da koristite telefon, treba da ga resetujete. Kada ga podesite nakon resetovanja na fabrička podešavanja, imaćete priliku da vratite sve podatke za koje ste napravili rezervne kopije na /e/ nalogu."</string>
     <string name="crypt_keeper_data_corrupt_title" msgid="8759119849089795751">"Dešifrovanje nije uspelo"</string>
-    <string name="crypt_keeper_data_corrupt_summary" product="tablet" msgid="840107296925798402">"Lozinka koju ste uneli je tačna, ali, nažalost, podaci su oštećeni. \n\nDa biste nastavili da koristite tablet, treba da obavite resetovanje na fabrička podešavanja. Tokom podešavanja tableta posle resetovanja moći ćete da vratite sve podatke čija rezervna kopija postoji na Google nalogu."</string>
-    <string name="crypt_keeper_data_corrupt_summary" product="default" msgid="8843311420059663824">"Lozinka koju ste uneli je tačna, ali, nažalost, podaci su oštećeni. \n\nDa biste nastavili da koristite telefon, treba da obavite resetovanje na fabrička podešavanja. Tokom podešavanja telefona posle resetovanja moći ćete da vratite sve podatke čija rezervna kopija postoji na Google nalogu."</string>
+    <string name="crypt_keeper_data_corrupt_summary" product="tablet" msgid="840107296925798402">"Lozinka koju ste uneli je tačna, ali, nažalost, podaci su oštećeni. \n\nDa biste nastavili da koristite tablet, treba da obavite resetovanje na fabrička podešavanja. Tokom podešavanja tableta posle resetovanja moći ćete da vratite sve podatke čija rezervna kopija postoji na /e/ nalogu."</string>
+    <string name="crypt_keeper_data_corrupt_summary" product="default" msgid="8843311420059663824">"Lozinka koju ste uneli je tačna, ali, nažalost, podaci su oštećeni. \n\nDa biste nastavili da koristite telefon, treba da obavite resetovanje na fabrička podešavanja. Tokom podešavanja telefona posle resetovanja moći ćete da vratite sve podatke čija rezervna kopija postoji na /e/ nalogu."</string>
     <string name="crypt_keeper_switch_input_method" msgid="4168332125223483198">"Prebaci metode unosa"</string>
     <string name="suggested_lock_settings_title" msgid="8971630898700461034">"Podesite zaključavanje ekrana"</string>
     <string name="suggested_lock_settings_summary" msgid="8778462376012231110">"Zaštitite uređaj"</string>
@@ -1249,8 +1249,8 @@
     <string name="reset_network_complete_toast" msgid="787829973559541880">"Podešavanja mreže su resetovana"</string>
     <string name="device_reset_title" msgid="2384019005638768076">"Resetuj uređaj"</string>
     <string name="master_clear_title" msgid="5907939616087039756">"Resetovanje na fabrička podešavanja"</string>
-    <string name="master_clear_desc" product="tablet" msgid="9146059417023157222">"Ovim brišete sve podatke iz "<b>"interne memorije"</b>" tableta, uključujući:\n\n"<li>"Google nalog"</li>\n<li>"Podatke i podešavanja sistema i aplikacija"</li>\n<li>"Preuzete aplikacije"</li></string>
-    <string name="master_clear_desc" product="default" msgid="4800386183314202571">"Ovim brišete sve podatke iz "<b>"interne memorije"</b>" telefona, uključujući:\n\n"<li>"Google nalog"</li>\n<li>"Podatke i podešavanja sistema i aplikacija"</li>\n<li>"Preuzete aplikacije"</li></string>
+    <string name="master_clear_desc" product="tablet" msgid="9146059417023157222">"Ovim brišete sve podatke iz "<b>"interne memorije"</b>" tableta, uključujući:\n\n"<li>"/e/ nalog"</li>\n<li>"Podatke i podešavanja sistema i aplikacija"</li>\n<li>"Preuzete aplikacije"</li></string>
+    <string name="master_clear_desc" product="default" msgid="4800386183314202571">"Ovim brišete sve podatke iz "<b>"interne memorije"</b>" telefona, uključujući:\n\n"<li>"/e/ nalog"</li>\n<li>"Podatke i podešavanja sistema i aplikacija"</li>\n<li>"Preuzete aplikacije"</li></string>
     <string name="master_clear_accounts" product="default" msgid="6412857499147999073">\n\n"Trenutno ste prijavljeni na sledeće naloge:\n"</string>
     <string name="master_clear_other_users_present" product="default" msgid="5161423070702470742">\n\n"Na ovom uređaju su prisutni i drugi korisnici.\n"</string>
     <string name="master_clear_desc_also_erases_external" msgid="1903185203791274237"><li>"Muzika"</li>\n<li>"Fotografije"</li>\n<li>"Drugi korisnički podaci"</li></string>
@@ -1335,7 +1335,7 @@
     <string name="location_scanning_bluetooth_always_scanning_title" msgid="5444989508204520019">"Bluetooth skeniranje"</string>
     <string name="location_scanning_bluetooth_always_scanning_description" msgid="8602726521250591852">"Unapredite lociranje tako što ćete dozvoliti sistemskim aplikacijama i uslugama da u svakom trenutku prepoznaju Bluetooth uređaje."</string>
     <string name="location_network_based" msgid="6010456018401296590">"Lok. na osn. Wi-Fi i mob. mreže"</string>
-    <string name="location_neighborhood_level" msgid="5141318121229984788">"Neka apl. koriste Google-ovu uslugu lociranja za brže određivanje lokacije. Anonimni podaci o lokaciji prikupljaće se i slati Google-u."</string>
+    <string name="location_neighborhood_level" msgid="5141318121229984788">"Neka apl. koriste /e/-ovu uslugu lociranja za brže određivanje lokacije. Anonimni podaci o lokaciji prikupljaće se i slati /e/-u."</string>
     <string name="location_neighborhood_level_wifi" msgid="4234820941954812210">"Lokacija se određuje pomoću Wi-Fi-ja"</string>
     <string name="location_gps" msgid="8392461023569708478">"GPS sateliti"</string>
     <string name="location_street_level" product="tablet" msgid="1669562198260860802">"Neka aplikacije koriste GPS na tabletu kako bi tačno odredile vašu lokaciju"</string>
@@ -1343,8 +1343,8 @@
     <string name="assisted_gps" msgid="4649317129586736885">"Koristi pomoćni GPS"</string>
     <string name="assisted_gps_enabled" msgid="8751899609589792803">"Korišćenje servera za pomoć GPS mreži (opozovite izbor da biste smanjili korišćenje mreže)"</string>
     <string name="assisted_gps_disabled" msgid="6982698333968010748">"Korišćenje servera za pomoć GPS mreži (opozovite izbor da biste poboljšali GPS učinak)"</string>
-    <string name="use_location_title" msgid="5206937465504979977">"Lokacija i Google pretraga"</string>
-    <string name="use_location_summary" msgid="3978805802386162520">"Dozvoli da Google koristi lokaciju za poboljšanje rezultata pretrage i drugih usluga"</string>
+    <string name="use_location_title" msgid="5206937465504979977">"Lokacija i /e/ pretraga"</string>
+    <string name="use_location_summary" msgid="3978805802386162520">"Dozvoli da /e/ koristi lokaciju za poboljšanje rezultata pretrage i drugih usluga"</string>
     <string name="location_access_title" msgid="7064108942964081243">"Pristup mojoj lokaciji"</string>
     <string name="location_access_summary" msgid="69031404093194341">"Neka aplikacije koje su tražile dozvolu koriste informacije o vašoj lokaciji"</string>
     <string name="location_sources_heading" msgid="1278732419851088319">"Izvori lokacije"</string>
@@ -1443,7 +1443,7 @@
     <string name="applications_settings_header" msgid="1014813055054356646">"Podešavanja aplikacije"</string>
     <string name="install_applications" msgid="4872012136210802181">"Nepoznati izvori"</string>
     <string name="install_applications_title" msgid="4987712352256508946">"Dozvoli sve izvore aplikacija"</string>
-    <string name="install_unknown_applications_title" msgid="663831043139080992">"Omogućava instaliranje aplikacija iz izvora koji nisu Google Play"</string>
+    <string name="install_unknown_applications_title" msgid="663831043139080992">"Omogućava instaliranje aplikacija iz izvora koji nisu /e/ Play"</string>
     <string name="install_unknown_applications" msgid="176855644862942064">"Dozvoli instalaciju aplikacija iz nepoznatih izvora"</string>
     <string name="install_all_warning" product="tablet" msgid="3263360446508268880">"Tablet i lični podaci su podložniji napadu aplikacija iz nepoznatih izvora. Saglasni ste da ste samo vi odgovorni za svu štetu na tabletu ili gubitak podataka do kojih može da dođe usled korišćenja ovih aplikacija."</string>
     <string name="install_all_warning" product="default" msgid="8113734576826384682">"Telefon i lični podaci su podložniji napadu aplikacija iz nepoznatih izvora. Saglasni ste da ste samo vi odgovorni za svu štetu na telefonu ili gubitak podataka do kojih može da dođe usled korišćenja ovih aplikacija."</string>
@@ -2052,7 +2052,7 @@
     <string name="backup_section_title" msgid="7952232291452882740">"Rezervna kopija i resetovanje"</string>
     <string name="personal_data_section_title" msgid="7815209034443782061">"Lični podaci"</string>
     <string name="backup_data_title" msgid="1239105919852668016">"Pravljenje rezervnih kopija podataka"</string>
-    <string name="backup_data_summary" msgid="708773323451655666">"Pravi rezervne kopije podataka o aplikacijama, Wi-Fi lozinki i drugih podešavanja na Google serverima"</string>
+    <string name="backup_data_summary" msgid="708773323451655666">"Pravi rezervne kopije podataka o aplikacijama, Wi-Fi lozinki i drugih podešavanja na /e/ serverima"</string>
     <string name="backup_configure_account_title" msgid="3790872965773196615">"Rezervna kopija naloga"</string>
     <string name="include_app_data_title" msgid="2829970132260278394">"Uvrštavanje podataka aplikacija"</string>
     <string name="auto_restore_title" msgid="5397528966329126506">"Automatsko vraćanje"</string>
@@ -2060,7 +2060,7 @@
     <string name="backup_inactive_title" msgid="5355557151569037197">"Usluga pravljenja rezervne kopije nije aktivna."</string>
     <string name="backup_configure_account_default_summary" msgid="2436933224764745553">"Trenutno nijedan nalog ne čuva rezervne kopije podataka"</string>
     <string name="backup_erase_dialog_title" msgid="1027640829482174106"></string>
-    <string name="backup_erase_dialog_message" msgid="5221011285568343155">"Želite li da zaustavite pravljenje rezervnih kopija Wi-Fi lozinki, obeleživača, ostalih podešavanja i podataka o aplikacijama, kao i da izbrišete sve kopije na Google serverima?"</string>
+    <string name="backup_erase_dialog_message" msgid="5221011285568343155">"Želite li da zaustavite pravljenje rezervnih kopija Wi-Fi lozinki, obeleživača, ostalih podešavanja i podataka o aplikacijama, kao i da izbrišete sve kopije na /e/ serverima?"</string>
     <string name="fullbackup_erase_dialog_message" msgid="694766389396659626">"Želite li da zaustavite pravljenje rezervnih kopija podataka uređaja (poput Wi-Fi lozinki i istorije poziva) i podataka aplikacija (poput podešavanja i datoteka sačuvanih u aplikacijama) i izbrišete sve kopije na udaljenim serverima?"</string>
     <string name="fullbackup_data_summary" msgid="960850365007767734">"Automatski pravite rezervne kopije podataka uređaja (poput Wi-Fi lozinki i istorije poziva) i podataka aplikacija (poput podešavanja i datoteka sačuvanih u aplikacijama) daljinski.\n\nKada uključite automatsko pravljenje rezervnih kopija, podaci uređaja i aplikacija se povremeno čuvaju daljinski. Podaci aplikacija mogu da budu bilo koji podaci koje je aplikacija sačuvala (na osnovu podešavanja programera), uključujući potencijalno osetljive podatke kao što su kontakti, poruke i slike."</string>
     <string name="device_admin_settings_title" msgid="1335557832906433309">"Podešavanja administracije uređaja"</string>
@@ -2147,7 +2147,7 @@
     <string name="sync_gmail" msgid="714886122098006477">"Gmail"</string>
     <string name="sync_calendar" msgid="9056527206714733735">"Kalendar"</string>
     <string name="sync_contacts" msgid="9174914394377828043">"Kontakti"</string>
-    <string name="sync_plug" msgid="3905078969081888738"><font fgcolor="#ffffffff">"Dobro došli u Google sinhronizaciju!"</font>\n"Google-ov pristup sinhronizovanju podataka kako bi se omogućio pristup kontaktima, obavezama i još mnogo čemu bez obzira na to gde se nalazite."</string>
+    <string name="sync_plug" msgid="3905078969081888738"><font fgcolor="#ffffffff">"Dobro došli u /e/ sinhronizaciju!"</font>\n"/e/-ov pristup sinhronizovanju podataka kako bi se omogućio pristup kontaktima, obavezama i još mnogo čemu bez obzira na to gde se nalazite."</string>
     <string name="header_application_sync_settings" msgid="6205903695598000286">"Podešavanja sinhronizacije aplikacija"</string>
     <string name="header_data_and_synchronization" msgid="5165024023936509896">"Podaci i sinhronizacija"</string>
     <string name="preference_change_password_title" msgid="8955581790270130056">"Promeni lozinku"</string>
@@ -2235,8 +2235,8 @@
     <string name="data_usage_app_restrict_dialog" msgid="5871168521456832764">"Ova funkcija može da zaustavi aplikaciju koja zavisi od pozadinskih podataka kada su dostupne samo mobilne mreže.\n\nAdekvatnije kontrole za potrošnju podataka možete da nađete u podešavanjima dostupnim u okviru aplikacije."</string>
     <string name="data_usage_restrict_denied_dialog" msgid="1493134803720421674">"Ograničavanje pozadinskih podataka je moguće samo kada budete podesili ograničenje za mobilne podatke."</string>
     <string name="data_usage_auto_sync_on_dialog_title" msgid="2438617846762244389">"Uključiti autom. sinh. podataka?"</string>
-    <string name="data_usage_auto_sync_on_dialog" product="tablet" msgid="8581983093524041669">"Sve promene koje unesete u naloge na vebu će automatski biti kopirane na tablet.\n\nNeki nalozi mogu i automatski da kopiraju na veb sve promene koje unesete na tabletu. Tako funkcioniše Google nalog."</string>
-    <string name="data_usage_auto_sync_on_dialog" product="default" msgid="8651376294887142858">"Sve promene koje unesete u naloge na vebu će automatski biti kopirane na telefon.\n\nNeki nalozi mogu i automatski da kopiraju na veb sve promene koje unesete na telefonu. Tako funkcioniše Google nalog."</string>
+    <string name="data_usage_auto_sync_on_dialog" product="tablet" msgid="8581983093524041669">"Sve promene koje unesete u naloge na vebu će automatski biti kopirane na tablet.\n\nNeki nalozi mogu i automatski da kopiraju na veb sve promene koje unesete na tabletu. Tako funkcioniše /e/ nalog."</string>
+    <string name="data_usage_auto_sync_on_dialog" product="default" msgid="8651376294887142858">"Sve promene koje unesete u naloge na vebu će automatski biti kopirane na telefon.\n\nNeki nalozi mogu i automatski da kopiraju na veb sve promene koje unesete na telefonu. Tako funkcioniše /e/ nalog."</string>
     <string name="data_usage_auto_sync_off_dialog_title" msgid="9013139130490125793">"Isključiti autom. sinh. podataka?"</string>
     <string name="data_usage_auto_sync_off_dialog" msgid="4025938250775413864">"Na ovaj način će se smanjiti potrošnja podataka i baterije, ali biće potrebno da ručno sinhronizujete svaki nalog da biste prikupili nedavne informacije. Nećete primati ni obaveštenja kada dođe do ažuriranja."</string>
     <string name="data_usage_cycle_editor_title" msgid="1373797281540188533">"Datum vraćanja ciklusa potrošnje na početne vrednosti"</string>
