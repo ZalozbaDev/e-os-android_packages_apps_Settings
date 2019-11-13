@@ -487,11 +487,11 @@
     <string name="crypt_keeper_warn_wipe" msgid="2738374897337991667">"Ogohlantirish: Agar yana <xliff:g id="COUNT">^1</xliff:g> marta muvaffaqiyatsiz urinish qilsangiz, qurilmangiz ma’lumotlari o‘chirib tashlanadi!"</string>
     <string name="crypt_keeper_enter_password" msgid="2223340178473871064">"Parolingizni tering"</string>
     <string name="crypt_keeper_failed_title" msgid="7133499413023075961">"Shifrlanmadi"</string>
-    <string name="crypt_keeper_failed_summary" product="tablet" msgid="8219375738445017266">"Shifrlash jarayoni uzildi va uning ishini yakunlashning imkoni yo‘q. Natijada, planshetingizdagi ma‘lumotga yana kirishning imkoni bo‘lmaydi.  \n\n Planshetdan yana foydalana olish uchun, uni dastlabki sozlamalarga qaytarish lozim. Planshetingizni asl sozlamalariga qaytargandan so‘ng, uni sozlashni boshlaganingizda Google hisobingizga zaxiralangan har qanday ma‘lumotlar nusxasini tiklash imkoniyatiga ega bo‘lasiz."</string>
-    <string name="crypt_keeper_failed_summary" product="default" msgid="3270131542549577953">"Shifrlash jarayoni uzildi va uning ishini yakunlashning imkoni yo‘q. Natijada, telefoningizdagi ma‘lumotga yana kirishning imkoni bo‘lmaydi. \n\nTelefondan yana foydalana olish uchun, uni dastlabki sozlamalarga qaytarish lozim. Telefoningizni asl sozlamalariga qaytargandan so‘ng, uni sozlashni boshlaganingizda, Google hisobingizga zaxiralangan har qanday ma‘lumotlar nusxasini tiklash imkoniyatiga ega bo‘lasiz."</string>
+    <string name="crypt_keeper_failed_summary" product="tablet" msgid="8219375738445017266">"Shifrlash jarayoni uzildi va uning ishini yakunlashning imkoni yo‘q. Natijada, planshetingizdagi ma‘lumotga yana kirishning imkoni bo‘lmaydi.  \n\n Planshetdan yana foydalana olish uchun, uni dastlabki sozlamalarga qaytarish lozim. Planshetingizni asl sozlamalariga qaytargandan so‘ng, uni sozlashni boshlaganingizda /e/ hisobingizga zaxiralangan har qanday ma‘lumotlar nusxasini tiklash imkoniyatiga ega bo‘lasiz."</string>
+    <string name="crypt_keeper_failed_summary" product="default" msgid="3270131542549577953">"Shifrlash jarayoni uzildi va uning ishini yakunlashning imkoni yo‘q. Natijada, telefoningizdagi ma‘lumotga yana kirishning imkoni bo‘lmaydi. \n\nTelefondan yana foydalana olish uchun, uni dastlabki sozlamalarga qaytarish lozim. Telefoningizni asl sozlamalariga qaytargandan so‘ng, uni sozlashni boshlaganingizda, /e/ hisobingizga zaxiralangan har qanday ma‘lumotlar nusxasini tiklash imkoniyatiga ega bo‘lasiz."</string>
     <string name="crypt_keeper_data_corrupt_title" msgid="8759119849089795751">"Shifrni yechib bo‘lmadi"</string>
-    <string name="crypt_keeper_data_corrupt_summary" product="tablet" msgid="840107296925798402">"Siz kiritgan parol to‘g‘ri, biroq planshetdagi ma’lumotlar shikastlangan.\n\nPlanshetdan foydalanishda davom etish uchun uning zavod sozlamalarini tiklashingiz lozim. Shundan so‘ng, Google hisobingizga zaxiralangan barcha ma’lumotlaringizni qayta tiklab olishingiz mumkin bo‘ladi."</string>
-    <string name="crypt_keeper_data_corrupt_summary" product="default" msgid="8843311420059663824">"Siz kiritgan parol to‘g‘ri, biroq telefondagi ma’lumotlar shikastlangan.\n\nTelefondan foydalanishda davom etish uchun uning zavod sozlamalarini tiklashingiz lozim. Shundan so‘ng, Google hisobingizga zaxiralangan barcha ma’lumotlaringizni qayta tiklab olishingiz mumkin bo‘ladi."</string>
+    <string name="crypt_keeper_data_corrupt_summary" product="tablet" msgid="840107296925798402">"Siz kiritgan parol to‘g‘ri, biroq planshetdagi ma’lumotlar shikastlangan.\n\nPlanshetdan foydalanishda davom etish uchun uning zavod sozlamalarini tiklashingiz lozim. Shundan so‘ng, /e/ hisobingizga zaxiralangan barcha ma’lumotlaringizni qayta tiklab olishingiz mumkin bo‘ladi."</string>
+    <string name="crypt_keeper_data_corrupt_summary" product="default" msgid="8843311420059663824">"Siz kiritgan parol to‘g‘ri, biroq telefondagi ma’lumotlar shikastlangan.\n\nTelefondan foydalanishda davom etish uchun uning zavod sozlamalarini tiklashingiz lozim. Shundan so‘ng, /e/ hisobingizga zaxiralangan barcha ma’lumotlaringizni qayta tiklab olishingiz mumkin bo‘ladi."</string>
     <string name="crypt_keeper_switch_input_method" msgid="4168332125223483198">"Matn kiritish usulini almashtirish"</string>
     <string name="suggested_lock_settings_title" msgid="8498743819223200961">"Telefoningizni himoyalang"</string>
     <string name="suggested_lock_settings_summary" product="tablet" msgid="2296800316150748710">"Planshetni himoyalash uchun ekran qulfini sozlang"</string>
@@ -1465,8 +1465,8 @@
     <string name="reset_esim_error_msg" msgid="8434956817922668388">"eSIM asliga qaytarilmadi."</string>
     <string name="master_clear_title" msgid="3531267871084279512">"Barcha ma’lumotlarni o‘chirish (zavod sozlamalarini tiklash)"</string>
     <string name="master_clear_short_title" msgid="8652450915870274285">"Barcha ma’lumotlarni tozalash (zavod sozlamalarini tiklash)"</string>
-    <string name="master_clear_desc" product="tablet" msgid="9146059417023157222">"Planshetning "<b>"ichki xotirasidagi"</b>" barcha ma’lumotlar o‘chib ketadi, jumladan:\n\n"<li>" Google hisobingiz"</li>\n<li>"Tizim va ilovalarning ma’lumotlari/sozlamalari"</li>\n<li>"Yuklab olingan ilovalar"</li></string>
-    <string name="master_clear_desc" product="default" msgid="4800386183314202571">"Telefonning "<b>"ichki xotirasidagi"</b>" barcha ma’lumotlar o‘chib ketadi, jumladan:\n\n"<li>" Google hisobingiz"</li>\n<li>"Tizim va ilovalarning ma’lumotlari/sozlamalari"</li>\n<li>"Yuklab olingan ilovalar"</li></string>
+    <string name="master_clear_desc" product="tablet" msgid="9146059417023157222">"Planshetning "<b>"ichki xotirasidagi"</b>" barcha ma’lumotlar o‘chib ketadi, jumladan:\n\n"<li>" /e/ hisobingiz"</li>\n<li>"Tizim va ilovalarning ma’lumotlari/sozlamalari"</li>\n<li>"Yuklab olingan ilovalar"</li></string>
+    <string name="master_clear_desc" product="default" msgid="4800386183314202571">"Telefonning "<b>"ichki xotirasidagi"</b>" barcha ma’lumotlar o‘chib ketadi, jumladan:\n\n"<li>" /e/ hisobingiz"</li>\n<li>"Tizim va ilovalarning ma’lumotlari/sozlamalari"</li>\n<li>"Yuklab olingan ilovalar"</li></string>
     <string name="master_clear_accounts" product="default" msgid="6412857499147999073">\n\n"Siz hozir tizimga quyidagi hisoblardan kirgansiz:\n"</string>
     <string name="master_clear_other_users_present" product="default" msgid="5161423070702470742">\n\n"Bu qurilmada boshqa foydalanuvchilar ham bor.\n"</string>
     <string name="master_clear_desc_also_erases_external" msgid="1903185203791274237"><li>"Musiqa"</li>\n<li>"Rasmlar"</li>\n<li>"Foydalanuvchining boshqa ma\'lumotlari"</li></string>
@@ -1543,7 +1543,7 @@
     <string name="location_scanning_bluetooth_always_scanning_title" msgid="5444989508204520019">"Bluetooth orqali aniqlash"</string>
     <string name="location_scanning_bluetooth_always_scanning_description" msgid="1285526059945206128">"Istalgan vaqt ilova va xizmatlarga hatto Bluetooth o‘chiq bo‘lsa ham Wi-Fi tarmoqlarni qidirish uchun ruxsat berish mumkin. Joylashuv axborotiga asoslangan funksiya va xizmatlarni yaxshilashda ishlatilishi mumkin."</string>
     <string name="location_network_based" msgid="9134175479520582215">"Wi‑Fi &amp; uyali tarmoq joylashuvi"</string>
-    <string name="location_neighborhood_level" msgid="5141318121229984788">"Joylashuvingizni tezroq aniqlash uchun ilovalarga Google joylashuv xizmatlaridan foydalanishga ruxsat berish. Joylashuv haqida anonim ma’lumot to‘planib, Google‘ga yuboriladi."</string>
+    <string name="location_neighborhood_level" msgid="5141318121229984788">"Joylashuvingizni tezroq aniqlash uchun ilovalarga /e/ joylashuv xizmatlaridan foydalanishga ruxsat berish. Joylashuv haqida anonim ma’lumot to‘planib, /e/‘ga yuboriladi."</string>
     <string name="location_neighborhood_level_wifi" msgid="4234820941954812210">"Wi‑Fi orqali aniqlangan joylashuv"</string>
     <string name="location_gps" msgid="8392461023569708478">"GPS sun\'iy yo‘ldoshlari"</string>
     <string name="location_street_level" product="tablet" msgid="1669562198260860802">"Ilovalarga joylashuvingizni aniq aniqlashlari uchun planshetingizdagi GPS‘dan foydalanishga ruxsat beradi"</string>
@@ -1551,8 +1551,8 @@
     <string name="assisted_gps" msgid="4649317129586736885">"Ko‘rsatilgan GPS’dan foydalanish"</string>
     <string name="assisted_gps_enabled" msgid="8751899609589792803">"GPS uchun server yordamidan foydalanish  (trafikni kamaytirish uchun belgilanmani tozalang)"</string>
     <string name="assisted_gps_disabled" msgid="6982698333968010748">"GPS uchun server yordamidan foydalanish  (GPS‘ni ko‘proq qo‘llash uchun belgilanmani tozalang)"</string>
-    <string name="use_location_title" msgid="5206937465504979977">"Joylashuv va Google qidiruvi"</string>
-    <string name="use_location_summary" msgid="3978805802386162520">"Google sizning joylashuvingiz ma’lumotini qidiruv natijalari va boshqa xizmatlarni yaxshilash maqsadlarida foydalanishiga ruxsat bering"</string>
+    <string name="use_location_title" msgid="5206937465504979977">"Joylashuv va /e/ qidiruvi"</string>
+    <string name="use_location_summary" msgid="3978805802386162520">"/e/ sizning joylashuvingiz ma’lumotini qidiruv natijalari va boshqa xizmatlarni yaxshilash maqsadlarida foydalanishiga ruxsat bering"</string>
     <string name="location_access_title" msgid="7064108942964081243">"Joylashuvim ma‘lumotiga kirish"</string>
     <string name="location_access_summary" msgid="69031404093194341">"Sizdan ruxsat so‘ragan ilovalarga joylashuvingiz ma‘lumotidan foydalanishga ruxsat beradi"</string>
     <string name="location_sources_heading" msgid="1278732419851088319">"Joylashuv manbalari"</string>
@@ -2461,7 +2461,7 @@
     <string name="backup_section_title" msgid="7952232291452882740">"Zaxira nusxa va qayta tiklash"</string>
     <string name="personal_data_section_title" msgid="7815209034443782061">"Shaxsiy ma‘lumotlar"</string>
     <string name="backup_data_title" msgid="1239105919852668016">"Ma’lumotlarni zaxiralash"</string>
-    <string name="backup_data_summary" msgid="708773323451655666">"Ilova ma’lumotlari, Wi-Fi parollari va boshqa sozlamalarning zaxira nusxasini Google serveriga saqlang"</string>
+    <string name="backup_data_summary" msgid="708773323451655666">"Ilova ma’lumotlari, Wi-Fi parollari va boshqa sozlamalarning zaxira nusxasini /e/ serveriga saqlang"</string>
     <string name="backup_configure_account_title" msgid="3790872965773196615">"Zaxiralash uchun hisob"</string>
     <string name="include_app_data_title" msgid="2829970132260278394">"Ilova ma’lumotini ham qo‘shish"</string>
     <string name="auto_restore_title" msgid="5397528966329126506">"Avtomatik tiklash"</string>
@@ -2469,9 +2469,9 @@
     <string name="backup_inactive_title" msgid="685838037986644604">"Zaxiraga nusxalash xizmati yoqilmagan"</string>
     <string name="backup_configure_account_default_summary" msgid="2436933224764745553">"Hozir hech qaysi hisobda zahiralangan ma’lumotlar mavjud emas"</string>
     <string name="backup_erase_dialog_title" msgid="1027640829482174106"></string>
-    <string name="backup_erase_dialog_message" msgid="5221011285568343155">"Wi-Fi parollari, xatcho‘plar, boshqa sozlamalar va ilova ma’lumotlarining zaxira nusxasini saqlash to‘xtatilib, ularning barcha nusxalari Google serveridan o‘chirib tashlansinmi?"</string>
+    <string name="backup_erase_dialog_message" msgid="5221011285568343155">"Wi-Fi parollari, xatcho‘plar, boshqa sozlamalar va ilova ma’lumotlarining zaxira nusxasini saqlash to‘xtatilib, ularning barcha nusxalari /e/ serveridan o‘chirib tashlansinmi?"</string>
     <string name="fullbackup_erase_dialog_message" msgid="694766389396659626">"Qurilmadagi ma’lumotlar (m-n, Wi-Fi parollari va qo‘ng‘iroqlar tarixi) va ilova ma’lumotlarining (m-n, sozlamalar va ilovalar tomonidan saqlangan fayllar) zaxira nusxasini saqlash to‘xtatililib, ularning olis serverlardagi barcha nusxalari o‘chirib tashlansinmi?"</string>
-    <string name="fullbackup_data_summary" msgid="960850365007767734">"Qurilmadagi ma’lumotlar (m-n, Wi-Fi parollari va qo‘ng‘iroqlar tarixi) va ilovalarga oid ma’lumotlar (m-n, sozlamalar va ilovalar tomonidan saqlangan fayllar) zaxira nusxasini Google Drive xizmatiga avtomatik saqlang.\n\nAgar avtomatik zaxiralash funksiyasi yoqilsa, qurilma va ilova ma’lumotlarining zaxira nusxasi vaqti-vaqti bilan Google Drive xizmatidagi shaxsiy jildga saqlab turiladi. Ilova ma’lumotlariga ilova tomonidan saqlangan har qanday ma’lumot (dasturchi sozlamalari asosida), jumladan, kontaktlar, xabar va rasmlar kabi maxfiy ma’lumotlar ham kiradi."</string>
+    <string name="fullbackup_data_summary" msgid="960850365007767734">"Qurilmadagi ma’lumotlar (m-n, Wi-Fi parollari va qo‘ng‘iroqlar tarixi) va ilovalarga oid ma’lumotlar (m-n, sozlamalar va ilovalar tomonidan saqlangan fayllar) zaxira nusxasini /e/ Drive xizmatiga avtomatik saqlang.\n\nAgar avtomatik zaxiralash funksiyasi yoqilsa, qurilma va ilova ma’lumotlarining zaxira nusxasi vaqti-vaqti bilan /e/ Drive xizmatidagi shaxsiy jildga saqlab turiladi. Ilova ma’lumotlariga ilova tomonidan saqlangan har qanday ma’lumot (dasturchi sozlamalari asosida), jumladan, kontaktlar, xabar va rasmlar kabi maxfiy ma’lumotlar ham kiradi."</string>
     <string name="device_admin_settings_title" msgid="4960761799560705902">"Qurilma administratori sozlamalari"</string>
     <string name="active_device_admin_msg" msgid="578748451637360192">"Qurilma administratori ilovasi"</string>
     <string name="remove_device_admin" msgid="9207368982033308173">"Bu qurilma administratori ilovasini faolsizlantirish"</string>
@@ -2556,7 +2556,7 @@
     <string name="sync_gmail" msgid="714886122098006477">"Gmail"</string>
     <string name="sync_calendar" msgid="9056527206714733735">"Taqvim"</string>
     <string name="sync_contacts" msgid="9174914394377828043">"Kontaktlar"</string>
-    <string name="sync_plug" msgid="3905078969081888738"><font fgcolor="#ffffffff">"Google sinxronlashga marhamat qiling!"</font>" \nGoogle‘ning ma‘lumotlarni sinxronlashga yondashishi qaerda bo‘lmang aloqalaringiz ro‘yxatiga, uchrashuvlaringiz va boshqa ma‘lumotlaringizga kirishga imkon beradi."</string>
+    <string name="sync_plug" msgid="3905078969081888738"><font fgcolor="#ffffffff">"/e/ sinxronlashga marhamat qiling!"</font>" \n/e/‘ning ma‘lumotlarni sinxronlashga yondashishi qaerda bo‘lmang aloqalaringiz ro‘yxatiga, uchrashuvlaringiz va boshqa ma‘lumotlaringizga kirishga imkon beradi."</string>
     <string name="header_application_sync_settings" msgid="6205903695598000286">"Ilova sinx-lash sozlamalari"</string>
     <string name="header_data_and_synchronization" msgid="5165024023936509896">"Ma‘lumotlar &amp; sinxronlashuv"</string>
     <string name="preference_change_password_title" msgid="8955581790270130056">"Parolni o‘zgartirish"</string>
@@ -2641,8 +2641,8 @@
     <string name="data_usage_app_restrict_dialog" msgid="1466689968707308512">"Agar faqat uyali tarmoqlar mavjud bo‘lsa, ushbu xususiyat fondagi trafikdan foydalanadigan ilovaning ishini to‘xtatishiga sabab bo‘lishi mumkin.  \n\nIlova sozlamalarida ko‘proq mos keluvchi trafik boshqaruvlarini topishingiz mumkin."</string>
     <string name="data_usage_restrict_denied_dialog" msgid="55012417305745608">"Fondagi trafik yuklamalarini cheklash faqatgina siz mobil trafik cheklamasi o‘rnatganingizda mumkin."</string>
     <string name="data_usage_auto_sync_on_dialog_title" msgid="2438617846762244389">"Avto-sinxronizatsiya yoqilsinmi?"</string>
-    <string name="data_usage_auto_sync_on_dialog" product="tablet" msgid="8581983093524041669">"Internet orqali hisoblaringizda qilingan har qanday o‘zgarish avtomatik tarzda planshetingizda ham aks etadi.\n\nBa’zi hisoblar planshet orqali qilingan o‘zgarishlarni internetga nusxalash imkoniyati ham mavjud. Google hisobi xuddi shunday ishlaydi."</string>
-    <string name="data_usage_auto_sync_on_dialog" product="default" msgid="8651376294887142858">"Internet orqali hisoblaringizda qilingan har qanday o‘zgarish avtomatik tarzda telefoningizda ham aks etadi.\n\nBa’zi hisoblar telefon orqali qilingan o‘zgarishlarni internetga nusxalash imkoniyati ham mavjud. Google hisobi xuddi shunday ishlaydi."</string>
+    <string name="data_usage_auto_sync_on_dialog" product="tablet" msgid="8581983093524041669">"Internet orqali hisoblaringizda qilingan har qanday o‘zgarish avtomatik tarzda planshetingizda ham aks etadi.\n\nBa’zi hisoblar planshet orqali qilingan o‘zgarishlarni internetga nusxalash imkoniyati ham mavjud. /e/ hisobi xuddi shunday ishlaydi."</string>
+    <string name="data_usage_auto_sync_on_dialog" product="default" msgid="8651376294887142858">"Internet orqali hisoblaringizda qilingan har qanday o‘zgarish avtomatik tarzda telefoningizda ham aks etadi.\n\nBa’zi hisoblar telefon orqali qilingan o‘zgarishlarni internetga nusxalash imkoniyati ham mavjud. /e/ hisobi xuddi shunday ishlaydi."</string>
     <string name="data_usage_auto_sync_off_dialog_title" msgid="9013139130490125793">"Avto-sinxronizatsiya o‘chirilsinmi?"</string>
     <string name="data_usage_auto_sync_off_dialog" msgid="4025938250775413864">"Trafik va batareya quvvati sarfi tejaladi, biroq yangi ma’lumotlarni olish uchun har bir hisobni qo‘lda sinxronlash lozim. Yangilanishlar haqida hech qanday bildirishnoma chiqmaydi."</string>
     <string name="data_usage_cycle_editor_title" msgid="1373797281540188533">"Statistikani yangilash sanasi"</string>
@@ -4100,7 +4100,7 @@
     <string name="webview_disabled_for_user" msgid="1216426047631256825">"(<xliff:g id="USER">%s</xliff:g> uchun o‘chirib qo‘yilgan)"</string>
     <string name="autofill_app" msgid="7338387238377914374">"Avtomatik to‘ldirish xizmati"</string>
     <string name="autofill_keywords" msgid="7485591824120812710">"avtomatik, to‘ldirish, avtomatik to‘ldirish"</string>
-    <string name="autofill_confirmation_message" msgid="2784869528908005194">"&lt;b&gt;Bu ilova ishonchli ekanini tekshiring&lt;/b&gt; &lt;br/&gt; &lt;br/&gt; &lt;xliff:g id=app_name example=Google Autofill&gt;%1$s&lt;/xliff:g&gt; ekraningizda nimani avtomatik to‘ldirish kerakligini aniqlaydi."</string>
+    <string name="autofill_confirmation_message" msgid="2784869528908005194">"&lt;b&gt;Bu ilova ishonchli ekanini tekshiring&lt;/b&gt; &lt;br/&gt; &lt;br/&gt; &lt;xliff:g id=app_name example=/e/ Autofill&gt;%1$s&lt;/xliff:g&gt; ekraningizda nimani avtomatik to‘ldirish kerakligini aniqlaydi."</string>
     <string name="color_theme" msgid="1535685696756738324">"Rangli mavzu"</string>
     <string name="default_theme" msgid="7085644992078579076">"Standart"</string>
     <string name="device_theme" msgid="4571803018917608588">"Qurilma mavzusi"</string>

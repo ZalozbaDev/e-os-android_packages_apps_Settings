@@ -487,11 +487,11 @@
     <string name="crypt_keeper_warn_wipe" msgid="2738374897337991667">"Paralajmërim! Pajisja jote do të fshihet pas <xliff:g id="COUNT">^1</xliff:g> përpjekjeve të tjera të dështuara për shkyçje!"</string>
     <string name="crypt_keeper_enter_password" msgid="2223340178473871064">"Shkruaj fjalëkalimin tënd"</string>
     <string name="crypt_keeper_failed_title" msgid="7133499413023075961">"Enkriptimi ishte i pasuksesshëm"</string>
-    <string name="crypt_keeper_failed_summary" product="tablet" msgid="8219375738445017266">"Enkriptimi u ndërpre dhe nuk mund të përfundojë. Si rezultat, nuk është më e mundur qasja te të dhënat në tablet. \n\nPër të rifilluar përdorimin e tabletit, duhet të kryesh një rivendosje në gjendje fabrike. Kur ta konfigurosh tabletin pas rivendosjes, do të kesh mundësinë për të restauruar çdo të dhënë që është rezervuar në llogarinë e Google."</string>
-    <string name="crypt_keeper_failed_summary" product="default" msgid="3270131542549577953">"Enkriptimi u ndërpre dhe nuk mund të përfundojë. Si rezultat, nuk është më e mundur qasja te të dhënat në telefon. \n\nPër të rifilluar përdorimin e telefonit, duhet të kryesh një rivendosje në gjendje fabrike. Kur ta konfigurosh telefonin pas rivendosjes, do të kesh mundësinë për të restauruar çdo të dhënë që është rezervuar në llogarinë e Google."</string>
+    <string name="crypt_keeper_failed_summary" product="tablet" msgid="8219375738445017266">"Enkriptimi u ndërpre dhe nuk mund të përfundojë. Si rezultat, nuk është më e mundur qasja te të dhënat në tablet. \n\nPër të rifilluar përdorimin e tabletit, duhet të kryesh një rivendosje në gjendje fabrike. Kur ta konfigurosh tabletin pas rivendosjes, do të kesh mundësinë për të restauruar çdo të dhënë që është rezervuar në llogarinë e /e/."</string>
+    <string name="crypt_keeper_failed_summary" product="default" msgid="3270131542549577953">"Enkriptimi u ndërpre dhe nuk mund të përfundojë. Si rezultat, nuk është më e mundur qasja te të dhënat në telefon. \n\nPër të rifilluar përdorimin e telefonit, duhet të kryesh një rivendosje në gjendje fabrike. Kur ta konfigurosh telefonin pas rivendosjes, do të kesh mundësinë për të restauruar çdo të dhënë që është rezervuar në llogarinë e /e/."</string>
     <string name="crypt_keeper_data_corrupt_title" msgid="8759119849089795751">"Dekriptimi ishte i pasuksesshëm"</string>
-    <string name="crypt_keeper_data_corrupt_summary" product="tablet" msgid="840107296925798402">"Fjalëkalimi që fute është i saktë, por fatkeqësisht të dhënat e tua janë të dëmtuara. \n\nPër të rifilluar përdorimin e tabletit, duhet të kryesh një vendosje në gjendje fabrike. Pas kësaj, do të kesh mundësinë për të restauruar çdo të dhënë që është rezervuar në llogarinë e Google."</string>
-    <string name="crypt_keeper_data_corrupt_summary" product="default" msgid="8843311420059663824">"Fjalëkalimi që fute është i saktë, por fatkeqësisht të dhënat e tua janë të dëmtuara. \n\nPër të rifilluar përdorimin e telefonit, duhet të kryesh një vendosje në gjendje fabrike. Pas kësaj, do të kesh mundësinë për të restauruar çdo të dhënë që është rezervuar në llogarinë e Google."</string>
+    <string name="crypt_keeper_data_corrupt_summary" product="tablet" msgid="840107296925798402">"Fjalëkalimi që fute është i saktë, por fatkeqësisht të dhënat e tua janë të dëmtuara. \n\nPër të rifilluar përdorimin e tabletit, duhet të kryesh një vendosje në gjendje fabrike. Pas kësaj, do të kesh mundësinë për të restauruar çdo të dhënë që është rezervuar në llogarinë e /e/."</string>
+    <string name="crypt_keeper_data_corrupt_summary" product="default" msgid="8843311420059663824">"Fjalëkalimi që fute është i saktë, por fatkeqësisht të dhënat e tua janë të dëmtuara. \n\nPër të rifilluar përdorimin e telefonit, duhet të kryesh një vendosje në gjendje fabrike. Pas kësaj, do të kesh mundësinë për të restauruar çdo të dhënë që është rezervuar në llogarinë e /e/."</string>
     <string name="crypt_keeper_switch_input_method" msgid="4168332125223483198">"Ndërro metodën e hyrjes"</string>
     <string name="suggested_lock_settings_title" msgid="8498743819223200961">"Siguro telefonin tënd"</string>
     <string name="suggested_lock_settings_summary" product="tablet" msgid="2296800316150748710">"Cakto kyçjen e ekranit për të mbrojtur tabletin"</string>
@@ -1465,8 +1465,8 @@
     <string name="reset_esim_error_msg" msgid="8434956817922668388">"Kartat eSIM nuk mund të rivendosen për shkak të një gabimi."</string>
     <string name="master_clear_title" msgid="3531267871084279512">"Spastro të gjitha të dhënat (rivendosja e fabrikës)"</string>
     <string name="master_clear_short_title" msgid="8652450915870274285">"Spastro të gjitha të dhënat (rivendosja e fabrikës)"</string>
-    <string name="master_clear_desc" product="tablet" msgid="9146059417023157222">"Kjo do t\'i fshijë të gjitha të dhënat nga "<b>"hapësira e brendshme për ruajtje"</b>" e tabletit, përfshirë:\n\n"<li>"Llogarinë e Google"</li>\n<li>"Të dhënat e sistemit dhe aplikacioneve si dhe cilësimet"</li>\n<li>"Aplikacionet e shkarkuara"</li></string>
-    <string name="master_clear_desc" product="default" msgid="4800386183314202571">"Kjo do t\'i fshijë të gjitha të dhënat nga "<b>"hapësira e brendshme për ruajtje"</b>" e telefonit, përfshirë:\n\n"<li>"Llogarinë e Google"</li>\n<li>"Të dhënat e sistemit dhe aplikacioneve si dhe cilësimet"</li>\n<li>"Aplikacionet e shkarkuara"</li></string>
+    <string name="master_clear_desc" product="tablet" msgid="9146059417023157222">"Kjo do t\'i fshijë të gjitha të dhënat nga "<b>"hapësira e brendshme për ruajtje"</b>" e tabletit, përfshirë:\n\n"<li>"Llogarinë e /e/"</li>\n<li>"Të dhënat e sistemit dhe aplikacioneve si dhe cilësimet"</li>\n<li>"Aplikacionet e shkarkuara"</li></string>
+    <string name="master_clear_desc" product="default" msgid="4800386183314202571">"Kjo do t\'i fshijë të gjitha të dhënat nga "<b>"hapësira e brendshme për ruajtje"</b>" e telefonit, përfshirë:\n\n"<li>"Llogarinë e /e/"</li>\n<li>"Të dhënat e sistemit dhe aplikacioneve si dhe cilësimet"</li>\n<li>"Aplikacionet e shkarkuara"</li></string>
     <string name="master_clear_accounts" product="default" msgid="6412857499147999073">\n\n"Je i identifikuar aktualisht në llogaritë e mëposhtme:\n"</string>
     <string name="master_clear_other_users_present" product="default" msgid="5161423070702470742">\n\n"Ka përdorues të tjerë të pranishëm në këtë pajisje.\n"</string>
     <string name="master_clear_desc_also_erases_external" msgid="1903185203791274237"><li>"Muzika"</li>\n<li>"Fotografitë"</li>\n<li>"Të dhëna të tjera të përdoruesit"</li></string>
@@ -1543,7 +1543,7 @@
     <string name="location_scanning_bluetooth_always_scanning_title" msgid="5444989508204520019">"Skanimi i Bluetooth-it"</string>
     <string name="location_scanning_bluetooth_always_scanning_description" msgid="1285526059945206128">"Lejo që aplikacionet dhe shërbimet të skanojnë për pajisje në afërsi në çdo moment, edhe kur Bluetooth është joaktiv. Kjo mund të përdoret, për shembull, për të përmirësuar funksionet dhe shërbimet e bazuara te vendndodhja."</string>
     <string name="location_network_based" msgid="9134175479520582215">"Vend. rrjetit Wi‑Fi e celular"</string>
-    <string name="location_neighborhood_level" msgid="5141318121229984788">"Lejo aplikacionet të përdorin shërbimin e vendndodhjes së Google për të llogaritur më shpejt vendndodhjen tënde. Të dhënat e vendndodhjes do të jenë anonime dhe do të mblidhen e do t\'i dërgohen Google."</string>
+    <string name="location_neighborhood_level" msgid="5141318121229984788">"Lejo aplikacionet të përdorin shërbimin e vendndodhjes së /e/ për të llogaritur më shpejt vendndodhjen tënde. Të dhënat e vendndodhjes do të jenë anonime dhe do të mblidhen e do t\'i dërgohen /e/."</string>
     <string name="location_neighborhood_level_wifi" msgid="4234820941954812210">"Vendndodhja u përcaktua nga Wi‑Fi"</string>
     <string name="location_gps" msgid="8392461023569708478">"Satelitët GPS"</string>
     <string name="location_street_level" product="tablet" msgid="1669562198260860802">"Lejo aplikacionet të përdorin GPS-në në tablet për të shënuar vendndodhjen tënde"</string>
@@ -1551,8 +1551,8 @@
     <string name="assisted_gps" msgid="4649317129586736885">"Përdor GPS-në e ndihmuar"</string>
     <string name="assisted_gps_enabled" msgid="8751899609589792803">"Përdor serverin për të ndihmuar GPS-në (anulo zgjedhjen për të zvogëluar përdorimin e rrjetit)"</string>
     <string name="assisted_gps_disabled" msgid="6982698333968010748">"Përdor serverin për të ndihmuar GPS-në (anulo zgjedhjen për të përmirësuar veprimtarinë e GPS-së)"</string>
-    <string name="use_location_title" msgid="5206937465504979977">"Vendndodhja dhe kërkimi në Google"</string>
-    <string name="use_location_summary" msgid="3978805802386162520">"Lejo Google të përdorë vendndodhjen për të përmirësuar rezultatet e kërkimit dhe shërbime të tjera"</string>
+    <string name="use_location_title" msgid="5206937465504979977">"Vendndodhja dhe kërkimi në /e/"</string>
+    <string name="use_location_summary" msgid="3978805802386162520">"Lejo /e/ të përdorë vendndodhjen për të përmirësuar rezultatet e kërkimit dhe shërbime të tjera"</string>
     <string name="location_access_title" msgid="7064108942964081243">"Qasja në vendndodhjen time"</string>
     <string name="location_access_summary" msgid="69031404093194341">"Lejoji aplikacionet që kanë kërkuar lejen tënde të përdorin informacionin e vendndodhjes"</string>
     <string name="location_sources_heading" msgid="1278732419851088319">"Burimet e vendndodhjes"</string>
@@ -2445,7 +2445,7 @@
     <string name="backup_section_title" msgid="7952232291452882740">"Rezervo dhe restauro"</string>
     <string name="personal_data_section_title" msgid="7815209034443782061">"Të dhënat personale"</string>
     <string name="backup_data_title" msgid="1239105919852668016">"Rezervo të dhënat e mia"</string>
-    <string name="backup_data_summary" msgid="708773323451655666">"Rezervo të dhënat e aplikacioneve, fjalëkalimet e Wi-Fi dhe cilësimet e tjera në serverët e Google"</string>
+    <string name="backup_data_summary" msgid="708773323451655666">"Rezervo të dhënat e aplikacioneve, fjalëkalimet e Wi-Fi dhe cilësimet e tjera në serverët e /e/"</string>
     <string name="backup_configure_account_title" msgid="3790872965773196615">"Llogaria rezervë"</string>
     <string name="include_app_data_title" msgid="2829970132260278394">"Përfshi të dhënat e aplikacionit"</string>
     <string name="auto_restore_title" msgid="5397528966329126506">"Restaurimi automatik"</string>
@@ -2453,7 +2453,7 @@
     <string name="backup_inactive_title" msgid="685838037986644604">"Shërbimi i rezervimit nuk është aktiv"</string>
     <string name="backup_configure_account_default_summary" msgid="2436933224764745553">"Asnjë llogari nuk po ruan aktualisht të dhënat e kopjes rezervë"</string>
     <string name="backup_erase_dialog_title" msgid="1027640829482174106"></string>
-    <string name="backup_erase_dialog_message" msgid="5221011285568343155">"Të ndalohet rezervimi i fjalëkalimeve të Wi-Fi, faqeshënuesve, të dhënave të aplikacioneve dhe cilësimeve të tjera? Të fshihen gjithashtu edhe të gjitha kopjet në serverët e Google?"</string>
+    <string name="backup_erase_dialog_message" msgid="5221011285568343155">"Të ndalohet rezervimi i fjalëkalimeve të Wi-Fi, faqeshënuesve, të dhënave të aplikacioneve dhe cilësimeve të tjera? Të fshihen gjithashtu edhe të gjitha kopjet në serverët e /e/?"</string>
     <string name="fullbackup_erase_dialog_message" msgid="694766389396659626">"Ndalo rezervimin e të dhënave të pajisjes (si p.sh. fjalëkalimet e Wi-Fi dhe historikun e telefonatave) dhe të dhënave të aplikacioneve (si p.sh. cilësimet dhe skedarët e ruajtur nga aplikacionet) dhe spastro të gjitha kopjet në serverët në largësi?"</string>
     <string name="fullbackup_data_summary" msgid="960850365007767734">"Rezervo automatikisht në largësi të dhënat e pajisjes (si p.sh. fjalëkalimet e Wi-Fi dhe historikun e telefonatave) dhe të dhënat e aplikacioneve (si p.sh. cilësimet dhe skedarët e ruajtur nga aplikacionet).\n\nKur aktivizon rezervimin automatik, të dhënat e pajisjes dhe të aplikacioneve ruhen periodikisht në largësi. Të dhënat e aplikacioneve mund të jenë çdo e dhënë që ka ruajtur një aplikacion (bazuar në cilësimet e zhvilluesit), duke përfshirë të dhëna ndoshta delikate si kontaktet, mesazhet dhe fotografitë."</string>
     <string name="device_admin_settings_title" msgid="4960761799560705902">"Cilësimet e administratorit të pajisjes"</string>
@@ -2540,7 +2540,7 @@
     <string name="sync_gmail" msgid="714886122098006477">"Gmail"</string>
     <string name="sync_calendar" msgid="9056527206714733735">"Kalendari"</string>
     <string name="sync_contacts" msgid="9174914394377828043">"Kontaktet"</string>
-    <string name="sync_plug" msgid="3905078969081888738"><font fgcolor="#ffffffff">"Mirë se erdhe në sinkronizimin e Google!"</font>" \nNjë metodë e Google për të sinkronizuar të dhënat për të të lejuar qasje te kontaktet, takimet dhe të tjera, kudo ku të ndodhesh."</string>
+    <string name="sync_plug" msgid="3905078969081888738"><font fgcolor="#ffffffff">"Mirë se erdhe në sinkronizimin e /e/!"</font>" \nNjë metodë e /e/ për të sinkronizuar të dhënat për të të lejuar qasje te kontaktet, takimet dhe të tjera, kudo ku të ndodhesh."</string>
     <string name="header_application_sync_settings" msgid="6205903695598000286">"Cilësimet e sinkronizimit të apl."</string>
     <string name="header_data_and_synchronization" msgid="5165024023936509896">"Të dhënat dhe sinkronizimi"</string>
     <string name="preference_change_password_title" msgid="8955581790270130056">"Ndërro fjalëkalimin"</string>
@@ -2625,8 +2625,8 @@
     <string name="data_usage_app_restrict_dialog" msgid="1466689968707308512">"Ky funksion mund bëjë që një aplikacion, i cili mbështetet në të dhënat në sfond, të mos funksionojë kur ofrohen vetëm rrjetet celulare.\n\nMund të gjesh kontrolle të tjera më të përshtatshme përdorimi të të dhënave në cilësimet që ofrohen në aplikacion."</string>
     <string name="data_usage_restrict_denied_dialog" msgid="55012417305745608">"Kufizimi i të dhënave në sfond është i mundur vetëm kur ke caktuar një kufi të të dhënave celulare."</string>
     <string name="data_usage_auto_sync_on_dialog_title" msgid="2438617846762244389">"Të aktivizohen të dhënat e sinkronizimit automatik?"</string>
-    <string name="data_usage_auto_sync_on_dialog" product="tablet" msgid="8581983093524041669">"Çdo ndryshim që bën në llogaritë e tua në ueb do të kopjohet automatikisht te tableti.\n\nDisa llogari mund të kopjojnë po ashtu automatikisht çdo ndryshim që bën në tablet, për ta sinkronizuar në ueb. Kështu funksionon llogaria e Google."</string>
-    <string name="data_usage_auto_sync_on_dialog" product="default" msgid="8651376294887142858">"Çdo ndryshim që bën në llogaritë e tua në ueb do të kopjohet automatikisht te telefoni.\n\nDisa llogari mund të kopjojnë po ashtu automatikisht çdo ndryshim që bën në telefon, për ta sinkronizuar në ueb. Kjo është mënyra se si funksionon llogaria e Google."</string>
+    <string name="data_usage_auto_sync_on_dialog" product="tablet" msgid="8581983093524041669">"Çdo ndryshim që bën në llogaritë e tua në ueb do të kopjohet automatikisht te tableti.\n\nDisa llogari mund të kopjojnë po ashtu automatikisht çdo ndryshim që bën në tablet, për ta sinkronizuar në ueb. Kështu funksionon llogaria e /e/."</string>
+    <string name="data_usage_auto_sync_on_dialog" product="default" msgid="8651376294887142858">"Çdo ndryshim që bën në llogaritë e tua në ueb do të kopjohet automatikisht te telefoni.\n\nDisa llogari mund të kopjojnë po ashtu automatikisht çdo ndryshim që bën në telefon, për ta sinkronizuar në ueb. Kjo është mënyra se si funksionon llogaria e /e/."</string>
     <string name="data_usage_auto_sync_off_dialog_title" msgid="9013139130490125793">"Të çaktivizohen të dhënat e sinkronizimit automatik?"</string>
     <string name="data_usage_auto_sync_off_dialog" msgid="4025938250775413864">"Ky funksion do të kursejë përdorimin e të dhënave dhe të baterisë, por për të mbledhur informacionet më të fundit, do të të duhet të sinkronizosh në mënyrë manuale çdo llogari. Nuk do të marrësh njoftime kur të ndodhin përditësimet."</string>
     <string name="data_usage_cycle_editor_title" msgid="1373797281540188533">"Data e rivendosjes së ciklit të përdorimit"</string>
@@ -4084,7 +4084,7 @@
     <string name="webview_disabled_for_user" msgid="1216426047631256825">"(çaktivizuar për përdoruesin <xliff:g id="USER">%s</xliff:g>)"</string>
     <string name="autofill_app" msgid="7338387238377914374">"Shërbimi i plotësimit automatik"</string>
     <string name="autofill_keywords" msgid="7485591824120812710">"plotësim, automatik, plotësim automatik"</string>
-    <string name="autofill_confirmation_message" msgid="2784869528908005194">"&lt;b&gt;Sigurohu që ke besim te ky aplikacion&lt;/b&gt; &lt;br/&gt; &lt;br/&gt; &lt;xliff:g id=app_name example=\"Plotësimi automatik i Google&gt;%1$s&lt;/xliff:g&gt; përdor atë që ndodhet në ekranin tënd për të përcaktuar se çfarë mund të plotësohet automatikisht."</string>
+    <string name="autofill_confirmation_message" msgid="2784869528908005194">"&lt;b&gt;Sigurohu që ke besim te ky aplikacion&lt;/b&gt; &lt;br/&gt; &lt;br/&gt; &lt;xliff:g id=app_name example=\"Plotësimi automatik i /e/&gt;%1$s&lt;/xliff:g&gt; përdor atë që ndodhet në ekranin tënd për të përcaktuar se çfarë mund të plotësohet automatikisht."</string>
     <string name="color_theme" msgid="1535685696756738324">"Tema e ngjyrës"</string>
     <string name="default_theme" msgid="7085644992078579076">"I parazgjedhur"</string>
     <string name="device_theme" msgid="4571803018917608588">"Tema e pajisjes"</string>

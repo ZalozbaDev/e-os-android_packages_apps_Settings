@@ -493,11 +493,11 @@
     <string name="crypt_keeper_warn_wipe" msgid="2738374897337991667">"Įspėjimas: įrenginys bus išvalytas, jei dar <xliff:g id="COUNT">^1</xliff:g> k. nesėkmingai bandysite jį atrakinti!"</string>
     <string name="crypt_keeper_enter_password" msgid="2223340178473871064">"Įveskite slaptažodį"</string>
     <string name="crypt_keeper_failed_title" msgid="7133499413023075961">"Šifruotė nepavyko"</string>
-    <string name="crypt_keeper_failed_summary" product="tablet" msgid="8219375738445017266">"Šifravimas buvo pertrauktas ir negali būti užbaigtas. Todėl duomenys planšetiniame kompiuteryje nebepasiekiami. \n\n Jei norite vėl naudoti planšetinį kompiuterį, turite iš naujo nustatyti gamyklinius nustatymus. Kai iš naujo nustatę nustatysite planšetinį kompiuterį, galėsite atkurti visus duomenis, kurių atsarginės kopijos buvo sukurtos „Google“ paskyroje."</string>
-    <string name="crypt_keeper_failed_summary" product="default" msgid="3270131542549577953">"Šifravimas buvo pertrauktas ir negali būti užbaigtas. Todėl duomenys telefone nebepasiekiami. \n\nJei norite vėl naudoti telefoną, turite iš naujo nustatyti gamyklinius nustatymus. Kai iš naujo nustatę nustatysite telefoną, galėsite atkurti visus duomenis, kurių atsarginės kopijos buvo sukurtos „Google“ paskyroje."</string>
+    <string name="crypt_keeper_failed_summary" product="tablet" msgid="8219375738445017266">"Šifravimas buvo pertrauktas ir negali būti užbaigtas. Todėl duomenys planšetiniame kompiuteryje nebepasiekiami. \n\n Jei norite vėl naudoti planšetinį kompiuterį, turite iš naujo nustatyti gamyklinius nustatymus. Kai iš naujo nustatę nustatysite planšetinį kompiuterį, galėsite atkurti visus duomenis, kurių atsarginės kopijos buvo sukurtos „/e/“ paskyroje."</string>
+    <string name="crypt_keeper_failed_summary" product="default" msgid="3270131542549577953">"Šifravimas buvo pertrauktas ir negali būti užbaigtas. Todėl duomenys telefone nebepasiekiami. \n\nJei norite vėl naudoti telefoną, turite iš naujo nustatyti gamyklinius nustatymus. Kai iš naujo nustatę nustatysite telefoną, galėsite atkurti visus duomenis, kurių atsarginės kopijos buvo sukurtos „/e/“ paskyroje."</string>
     <string name="crypt_keeper_data_corrupt_title" msgid="8759119849089795751">"Nepavyko iššifruoti"</string>
-    <string name="crypt_keeper_data_corrupt_summary" product="tablet" msgid="840107296925798402">"Įvestas slaptažodis tinkamas, bet, deja, jūsų duomenys sugadinti.\n\nKad galėtumėte vėl naudoti planšetinį kompiuterį, turite atkurti gamyklinius duomenis. Kai atkūrę duomenis nustatysite planšetinį kompiuterį, galėsite atkurti bet kokius duomenis, kurių atsarginės kopijos buvo sukurtos „Google“ paskyroje."</string>
-    <string name="crypt_keeper_data_corrupt_summary" product="default" msgid="8843311420059663824">"Įvestas slaptažodis tinkamas, bet, deja, jūsų duomenys sugadinti.\n\nKad galėtumėte vėl naudoti telefoną, turite atkurti gamyklinius duomenis. Kai atkūrę duomenis nustatysite telefoną, galėsite atkurti bet kokius duomenis, kurių atsarginės kopijos buvo sukurtos „Google“ paskyroje."</string>
+    <string name="crypt_keeper_data_corrupt_summary" product="tablet" msgid="840107296925798402">"Įvestas slaptažodis tinkamas, bet, deja, jūsų duomenys sugadinti.\n\nKad galėtumėte vėl naudoti planšetinį kompiuterį, turite atkurti gamyklinius duomenis. Kai atkūrę duomenis nustatysite planšetinį kompiuterį, galėsite atkurti bet kokius duomenis, kurių atsarginės kopijos buvo sukurtos „/e/“ paskyroje."</string>
+    <string name="crypt_keeper_data_corrupt_summary" product="default" msgid="8843311420059663824">"Įvestas slaptažodis tinkamas, bet, deja, jūsų duomenys sugadinti.\n\nKad galėtumėte vėl naudoti telefoną, turite atkurti gamyklinius duomenis. Kai atkūrę duomenis nustatysite telefoną, galėsite atkurti bet kokius duomenis, kurių atsarginės kopijos buvo sukurtos „/e/“ paskyroje."</string>
     <string name="crypt_keeper_switch_input_method" msgid="4168332125223483198">"Perjungti įvesties metodą"</string>
     <string name="suggested_lock_settings_title" msgid="8498743819223200961">"Apsaugokite telefoną"</string>
     <string name="suggested_lock_settings_summary" product="tablet" msgid="2296800316150748710">"Nustatykite ekrano užraktą, kad apsaug. planš. komp."</string>
@@ -1491,8 +1491,8 @@
     <string name="reset_esim_error_msg" msgid="8434956817922668388">"„eSIM“ kortelių nepavyko nustatyti iš naujo dėl klaidos."</string>
     <string name="master_clear_title" msgid="3531267871084279512">"Ištrinti visus duomenis (atkurti gamyklinius duomenis)"</string>
     <string name="master_clear_short_title" msgid="8652450915870274285">"Ištrinti visus duomenis (atkurti gamyklinius duomenis)"</string>
-    <string name="master_clear_desc" product="tablet" msgid="9146059417023157222">"Taip bus ištrinti visi duomenys iš planšetinio kompiuterio "<b>"vidinės atminties"</b>", įskaitant:\n\n"<li>"„Google“ paskyrą"</li>\n<li>"Sistemos ir programų duomenis bei nustatymus"</li>\n<li>"Atsisiųstas programas"</li></string>
-    <string name="master_clear_desc" product="default" msgid="4800386183314202571">"Taip bus ištrinti visi toliau nurodyti duomenys iš telefono "<b>"vidinės atminties"</b>".\n\n"<li>"„Google“ paskyra"</li>\n<li>"Sistemos ir programų duomenys bei nustatymai"</li>\n<li>"Atsisiųstos programos"</li></string>
+    <string name="master_clear_desc" product="tablet" msgid="9146059417023157222">"Taip bus ištrinti visi duomenys iš planšetinio kompiuterio "<b>"vidinės atminties"</b>", įskaitant:\n\n"<li>"„/e/“ paskyrą"</li>\n<li>"Sistemos ir programų duomenis bei nustatymus"</li>\n<li>"Atsisiųstas programas"</li></string>
+    <string name="master_clear_desc" product="default" msgid="4800386183314202571">"Taip bus ištrinti visi toliau nurodyti duomenys iš telefono "<b>"vidinės atminties"</b>".\n\n"<li>"„/e/“ paskyra"</li>\n<li>"Sistemos ir programų duomenys bei nustatymai"</li>\n<li>"Atsisiųstos programos"</li></string>
     <string name="master_clear_accounts" product="default" msgid="6412857499147999073">\n\n"Šiuo metu esate prisijungę prie šių paskyrų:\n"</string>
     <string name="master_clear_other_users_present" product="default" msgid="5161423070702470742">\n\n"Yra kitų šio įrenginio naudotojų.\n"</string>
     <string name="master_clear_desc_also_erases_external" msgid="1903185203791274237"><li>"Muzika"</li>\n<li>"Nuotraukos"</li>\n<li>"Kiti naudotojo duomenys"</li></string>
@@ -1569,7 +1569,7 @@
     <string name="location_scanning_bluetooth_always_scanning_title" msgid="5444989508204520019">"„Bluetooth“ nuskaitymas"</string>
     <string name="location_scanning_bluetooth_always_scanning_description" msgid="1285526059945206128">"Leisti programoms ir paslaugoms bet kuriuo metu nuskaityti ieškant netoliese esančių įrenginių, net kai „Bluetooth“ išjungtas. Tai galima naudoti norint, pvz., tobulinti pagal vietovę teikiamas funkcijas ir paslaugas."</string>
     <string name="location_network_based" msgid="9134175479520582215">"„Wi-Fi“ ir mob. tinklo vietovė"</string>
-    <string name="location_neighborhood_level" msgid="5141318121229984788">"Leisti programoms naud. „Google“ viet. pasl., kad viet. būtų nustatoma greičiau. Anonim. viet. duom. bus renk. ir siunč. „Google“."</string>
+    <string name="location_neighborhood_level" msgid="5141318121229984788">"Leisti programoms naud. „/e/“ viet. pasl., kad viet. būtų nustatoma greičiau. Anonim. viet. duom. bus renk. ir siunč. „/e/“."</string>
     <string name="location_neighborhood_level_wifi" msgid="4234820941954812210">"Vietą nustatė „Wi-Fi“"</string>
     <string name="location_gps" msgid="8392461023569708478">"GPS palydovai"</string>
     <string name="location_street_level" product="tablet" msgid="1669562198260860802">"Leisti programoms naudoti GPS planšetiniame kompiuteryje jūsų vietovei nustatyti"</string>
@@ -1577,8 +1577,8 @@
     <string name="assisted_gps" msgid="4649317129586736885">"Naudoti pagalbos GPS"</string>
     <string name="assisted_gps_enabled" msgid="8751899609589792803">"Naudoti serverį norint padėti GPS (panaikinkite žymėjimą, jei norite sumažinti tinklo naudojimą)"</string>
     <string name="assisted_gps_disabled" msgid="6982698333968010748">"Naudoti serverį norint padėti GPS (panaikinkite žymėjimą, jei norite patobulinti GPS našumą)"</string>
-    <string name="use_location_title" msgid="5206937465504979977">"Vieta ir „Google“ paieška"</string>
-    <string name="use_location_summary" msgid="3978805802386162520">"Leisti „Google“ naudoti jūsų vietą paieškos rezultatams ir kitoms paslaugoms tobulinti"</string>
+    <string name="use_location_title" msgid="5206937465504979977">"Vieta ir „/e/“ paieška"</string>
+    <string name="use_location_summary" msgid="3978805802386162520">"Leisti „/e/“ naudoti jūsų vietą paieškos rezultatams ir kitoms paslaugoms tobulinti"</string>
     <string name="location_access_title" msgid="7064108942964081243">"Mano vietovės prieiga"</string>
     <string name="location_access_summary" msgid="69031404093194341">"Leisti programoms, paprašiusioms leidimo, naudoti vietovės informaciją"</string>
     <string name="location_sources_heading" msgid="1278732419851088319">"Vietovės šaltiniai"</string>
@@ -2503,7 +2503,7 @@
     <string name="backup_section_title" msgid="7952232291452882740">"Kurti atsarginę kopiją ir atkurti"</string>
     <string name="personal_data_section_title" msgid="7815209034443782061">"Asmeniniai duomenys"</string>
     <string name="backup_data_title" msgid="1239105919852668016">"Kurti atsarginę duomenų kopiją"</string>
-    <string name="backup_data_summary" msgid="708773323451655666">"„Google“ serveriuose kurti atsargines programos duomenų, „Wi-Fi“ slaptažodžių ir kitų nustatymų kopijas"</string>
+    <string name="backup_data_summary" msgid="708773323451655666">"„/e/“ serveriuose kurti atsargines programos duomenų, „Wi-Fi“ slaptažodžių ir kitų nustatymų kopijas"</string>
     <string name="backup_configure_account_title" msgid="3790872965773196615">"Atsarg. kopijos paskyra"</string>
     <string name="include_app_data_title" msgid="2829970132260278394">"Įtraukti programos duomenis"</string>
     <string name="auto_restore_title" msgid="5397528966329126506">"Automatinis atkūrimas"</string>
@@ -2511,7 +2511,7 @@
     <string name="backup_inactive_title" msgid="685838037986644604">"Atsarginė paslauga neaktyvi"</string>
     <string name="backup_configure_account_default_summary" msgid="2436933224764745553">"Šiuo metu jokioje paskyroje nesaugomi atsarginės kopijos duomenys"</string>
     <string name="backup_erase_dialog_title" msgid="1027640829482174106"></string>
-    <string name="backup_erase_dialog_message" msgid="5221011285568343155">"Nebekurti atsarginių „Wi-Fi“ slaptažodžių, žymių, kitų nustatymų ir programų duomenų kopijų ir ištrinti visas „Google“ serveriuose esančias kopijas?"</string>
+    <string name="backup_erase_dialog_message" msgid="5221011285568343155">"Nebekurti atsarginių „Wi-Fi“ slaptažodžių, žymių, kitų nustatymų ir programų duomenų kopijų ir ištrinti visas „/e/“ serveriuose esančias kopijas?"</string>
     <string name="fullbackup_erase_dialog_message" msgid="694766389396659626">"Nebekurti įrenginio duomenų (pvz., „Wi-Fi“ slaptažodžių ir skambučių istorijos) ir programų duomenų (pvz., programų saugomų nustatymų ir failų) atsarginių kopijų ir ištrinti visas kopijas iš nuotolinių serverių?"</string>
     <string name="fullbackup_data_summary" msgid="960850365007767734">"Automatiškai nuotoliniu būdu sukurkite atsarginę įrenginio duomenų (pvz., „Wi-Fi“ slaptažodžių ir skambučių istorijos) ir programų duomenų (pvz., programų nustatymų ir išsaugotų failų) kopiją.\n\nKai įjungiate automatinę atsarginę kopiją, įrenginio ir programų duomenys periodiškai išsaugomi nuotoliniu būdu. Programų duomenys gali būti bet kurie programų išsaugoti duomenys (atsižvelgiant į kūrėjo nustatymus), įskaitant duomenis, kurie gali būti neskelbtini, pvz., kontaktai, pranešimai ir nuotraukos."</string>
     <string name="device_admin_settings_title" msgid="4960761799560705902">"Įrenginio administratoriaus nustatymai"</string>
@@ -2598,7 +2598,7 @@
     <string name="sync_gmail" msgid="714886122098006477">"Gmail"</string>
     <string name="sync_calendar" msgid="9056527206714733735">"Kalendorius"</string>
     <string name="sync_contacts" msgid="9174914394377828043">"Kontaktai"</string>
-    <string name="sync_plug" msgid="3905078969081888738"><font fgcolor="#ffffffff">"Sveiki! Tai – „Google“ sinchronizavimas!"</font>" \nTai yra „Google“ požiūris į duomenų sinchronizavimą, kad būtų galima pasiekti kontaktus, susitikimus ir dar daugiau, nesvarbu, kur būtumėte."</string>
+    <string name="sync_plug" msgid="3905078969081888738"><font fgcolor="#ffffffff">"Sveiki! Tai – „/e/“ sinchronizavimas!"</font>" \nTai yra „/e/“ požiūris į duomenų sinchronizavimą, kad būtų galima pasiekti kontaktus, susitikimus ir dar daugiau, nesvarbu, kur būtumėte."</string>
     <string name="header_application_sync_settings" msgid="6205903695598000286">"Programos sinchronizavimo nustatymai"</string>
     <string name="header_data_and_synchronization" msgid="5165024023936509896">"Duomenys ir sinchronizavimas"</string>
     <string name="preference_change_password_title" msgid="8955581790270130056">"Keisti slaptažodį"</string>
@@ -2683,8 +2683,8 @@
     <string name="data_usage_app_restrict_dialog" msgid="1466689968707308512">"Dėl šios funkcijos, kai pasiekiami tik mobiliojo ryšio tinklai, gali neveikti programos, kurių veikimas priklauso nuo foninių duomenų.\n\nProgramos nustatymuose galite rasti tinkamesnių duomenų naudojimo valdiklių."</string>
     <string name="data_usage_restrict_denied_dialog" msgid="55012417305745608">"Foninius duomenis galima apriboti tik nustačius mobiliojo ryšio duomenų apribojimą."</string>
     <string name="data_usage_auto_sync_on_dialog_title" msgid="2438617846762244389">"Įjungti autom. sinchronizavimą?"</string>
-    <string name="data_usage_auto_sync_on_dialog" product="tablet" msgid="8581983093524041669">"Bet kokie paskyrų pakeitimai, kuriuos atliekate žiniatinklyje, bus automatiškai nukopijuoti į planšetinį kompiuterį.\n\nIš kai kurių paskyrų į žiniatinklį gali būti automatiškai kopijuojami visi planšetiniame kompiuteryje atlikti pakeitimai. Taip pat daroma ir „Google“ paskyroje."</string>
-    <string name="data_usage_auto_sync_on_dialog" product="default" msgid="8651376294887142858">"Bet kokie paskyrų pakeitimai, kuriuos atliekate žiniatinklyje, bus automatiškai nukopijuoti į telefoną.\n\nIš kai kurių paskyrų į žiniatinklį gali būti automatiškai kopijuojami visi telefone atlikti pakeitimai. Taip pat daroma ir „Google“ paskyroje."</string>
+    <string name="data_usage_auto_sync_on_dialog" product="tablet" msgid="8581983093524041669">"Bet kokie paskyrų pakeitimai, kuriuos atliekate žiniatinklyje, bus automatiškai nukopijuoti į planšetinį kompiuterį.\n\nIš kai kurių paskyrų į žiniatinklį gali būti automatiškai kopijuojami visi planšetiniame kompiuteryje atlikti pakeitimai. Taip pat daroma ir „/e/“ paskyroje."</string>
+    <string name="data_usage_auto_sync_on_dialog" product="default" msgid="8651376294887142858">"Bet kokie paskyrų pakeitimai, kuriuos atliekate žiniatinklyje, bus automatiškai nukopijuoti į telefoną.\n\nIš kai kurių paskyrų į žiniatinklį gali būti automatiškai kopijuojami visi telefone atlikti pakeitimai. Taip pat daroma ir „/e/“ paskyroje."</string>
     <string name="data_usage_auto_sync_off_dialog_title" msgid="9013139130490125793">"Išjungti autom. sinchronizavimą?"</string>
     <string name="data_usage_auto_sync_off_dialog" msgid="4025938250775413864">"Tai atlikus bus saikingai naudojami duomenys ir akumuliatoriaus energija, tačiau, jei norėsite surinkti naujausią informaciją, turėsite sinchronizuoti kiekvieną paskyrą neautomatiškai. Be to, negausite pranešimų, kai atsiras naujinių."</string>
     <string name="data_usage_cycle_editor_title" msgid="1373797281540188533">"Naudojimo ciklo nustatymo iš naujo data"</string>
@@ -4222,7 +4222,7 @@
     <string name="webview_disabled_for_user" msgid="1216426047631256825">"(išjungta naudotojui <xliff:g id="USER">%s</xliff:g>)"</string>
     <string name="autofill_app" msgid="7338387238377914374">"Automatinio pildymo paslauga"</string>
     <string name="autofill_keywords" msgid="7485591824120812710">"automatinis, pildymas, automatinis pildymas"</string>
-    <string name="autofill_confirmation_message" msgid="2784869528908005194">"&lt;b&gt;Įsitikinkite, kad pasitikite šia programa&lt;/b&gt; &lt;br/&gt; &lt;br/&gt; &lt;xliff:g id=app_name example=„Google“ automatinis pildymas&gt;%1$s&lt;/xliff:g&gt; naudodamas informaciją ekrane nustato, ką gali užpildyti automatiškai."</string>
+    <string name="autofill_confirmation_message" msgid="2784869528908005194">"&lt;b&gt;Įsitikinkite, kad pasitikite šia programa&lt;/b&gt; &lt;br/&gt; &lt;br/&gt; &lt;xliff:g id=app_name example=„/e/“ automatinis pildymas&gt;%1$s&lt;/xliff:g&gt; naudodamas informaciją ekrane nustato, ką gali užpildyti automatiškai."</string>
     <string name="color_theme" msgid="1535685696756738324">"Spalvų tema"</string>
     <string name="default_theme" msgid="7085644992078579076">"Numatytoji"</string>
     <string name="device_theme" msgid="4571803018917608588">"Įrenginio tema"</string>

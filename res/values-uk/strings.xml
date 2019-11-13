@@ -493,11 +493,11 @@
     <string name="crypt_keeper_warn_wipe" msgid="2738374897337991667">"Застереження. Після кількох невдалих спроб (<xliff:g id="COUNT">^1</xliff:g>) розблокувати пристрій із нього буде стерто всі дані."</string>
     <string name="crypt_keeper_enter_password" msgid="2223340178473871064">"Введіть пароль"</string>
     <string name="crypt_keeper_failed_title" msgid="7133499413023075961">"Шифрування не виконано"</string>
-    <string name="crypt_keeper_failed_summary" product="tablet" msgid="8219375738445017266">"Шифрування перервано, його неможливо закінчити. Як наслідок, дані на планшетному ПК більше не доступні. \n\nЩоб знову користуватися планшетним ПК, потрібно відновити заводські налаштування. Налаштовуючи планшетний ПК після відновлення, ви матимете можливість відновити будь-які дані, резервні копії яких було збережено у вашому обліковому записі Google."</string>
-    <string name="crypt_keeper_failed_summary" product="default" msgid="3270131542549577953">"Шифрування перервано, його неможливо закінчити. Як наслідок, дані на телефоні більше не доступні. \n\nЩоб знову користуватися телефоном, потрібно відновити заводські налаштування. Налаштовуючи телефон після відновлення, ви матимете можливість відновити будь-які дані, резервні копії яких було збережено у вашому обліковому записі Google."</string>
+    <string name="crypt_keeper_failed_summary" product="tablet" msgid="8219375738445017266">"Шифрування перервано, його неможливо закінчити. Як наслідок, дані на планшетному ПК більше не доступні. \n\nЩоб знову користуватися планшетним ПК, потрібно відновити заводські налаштування. Налаштовуючи планшетний ПК після відновлення, ви матимете можливість відновити будь-які дані, резервні копії яких було збережено у вашому обліковому записі /e/."</string>
+    <string name="crypt_keeper_failed_summary" product="default" msgid="3270131542549577953">"Шифрування перервано, його неможливо закінчити. Як наслідок, дані на телефоні більше не доступні. \n\nЩоб знову користуватися телефоном, потрібно відновити заводські налаштування. Налаштовуючи телефон після відновлення, ви матимете можливість відновити будь-які дані, резервні копії яких було збережено у вашому обліковому записі /e/."</string>
     <string name="crypt_keeper_data_corrupt_title" msgid="8759119849089795751">"Помилка дешифрування"</string>
-    <string name="crypt_keeper_data_corrupt_summary" product="tablet" msgid="840107296925798402">"Ви ввели правильний пароль, але ваші дані пошкоджено. \n\nЩоб знову користуватися планшетом, відновіть заводські налаштування. Після цього ви зможете відновити на планшеті всі дані, які зберігаються у вашому обліковому записі Google."</string>
-    <string name="crypt_keeper_data_corrupt_summary" product="default" msgid="8843311420059663824">"Ви ввели правильний пароль, але ваші дані пошкоджено. \n\nЩоб знову користуватися телефоном, відновіть заводські налаштування. Після цього ви зможете відновити на телефоні всі дані, які зберігаються у вашому обліковому записі Google."</string>
+    <string name="crypt_keeper_data_corrupt_summary" product="tablet" msgid="840107296925798402">"Ви ввели правильний пароль, але ваші дані пошкоджено. \n\nЩоб знову користуватися планшетом, відновіть заводські налаштування. Після цього ви зможете відновити на планшеті всі дані, які зберігаються у вашому обліковому записі /e/."</string>
+    <string name="crypt_keeper_data_corrupt_summary" product="default" msgid="8843311420059663824">"Ви ввели правильний пароль, але ваші дані пошкоджено. \n\nЩоб знову користуватися телефоном, відновіть заводські налаштування. Після цього ви зможете відновити на телефоні всі дані, які зберігаються у вашому обліковому записі /e/."</string>
     <string name="crypt_keeper_switch_input_method" msgid="4168332125223483198">"Переключити метод введення"</string>
     <string name="suggested_lock_settings_title" msgid="8498743819223200961">"Захистіть телефон"</string>
     <string name="suggested_lock_settings_summary" product="tablet" msgid="2296800316150748710">"Налаштуйте блокування екрана, щоб захистити планшет"</string>
@@ -1491,8 +1491,8 @@
     <string name="reset_esim_error_msg" msgid="8434956817922668388">"Не вдається скинути eSIM-карти через помилку."</string>
     <string name="master_clear_title" msgid="3531267871084279512">"Стерти всі дані (відновити заводські налаштування)"</string>
     <string name="master_clear_short_title" msgid="8652450915870274285">"Стерти всі дані (скинути налаштування)"</string>
-    <string name="master_clear_desc" product="tablet" msgid="9146059417023157222">"Буде видалено всі дані з "<b>"внутрішньої пам’яті"</b>" вашого планшета, зокрема:\n\n"<li>"ваш обліковий запис Google"</li>\n<li>"дані й налаштування системи та додатків"</li>\n<li>"завантажені додатки"</li>"."</string>
-    <string name="master_clear_desc" product="default" msgid="4800386183314202571">"Буде видалено всі дані з "<b>"внутрішньої пам’яті"</b>" вашого телефона, зокрема:\n\n"<li>"Ваш обліковий запис Google"</li>\n<li>"Дані й налаштування системи та додатків"</li>\n<li>"Завантажені додатки"</li></string>
+    <string name="master_clear_desc" product="tablet" msgid="9146059417023157222">"Буде видалено всі дані з "<b>"внутрішньої пам’яті"</b>" вашого планшета, зокрема:\n\n"<li>"ваш обліковий запис /e/"</li>\n<li>"дані й налаштування системи та додатків"</li>\n<li>"завантажені додатки"</li>"."</string>
+    <string name="master_clear_desc" product="default" msgid="4800386183314202571">"Буде видалено всі дані з "<b>"внутрішньої пам’яті"</b>" вашого телефона, зокрема:\n\n"<li>"Ваш обліковий запис /e/"</li>\n<li>"Дані й налаштування системи та додатків"</li>\n<li>"Завантажені додатки"</li></string>
     <string name="master_clear_accounts" product="default" msgid="6412857499147999073">\n\n"Наразі ви ввійшли в такі облікові записи:\n"</string>
     <string name="master_clear_other_users_present" product="default" msgid="5161423070702470742">\n\n"На цьому пристрої є інші користувачі.\n"</string>
     <string name="master_clear_desc_also_erases_external" msgid="1903185203791274237"><li>"Музика"</li>\n<li>"Фото"</li>\n<li>"Інші дані користувача"</li></string>
@@ -1569,7 +1569,7 @@
     <string name="location_scanning_bluetooth_always_scanning_title" msgid="5444989508204520019">"Шукати пристрої Bluetooth"</string>
     <string name="location_scanning_bluetooth_always_scanning_description" msgid="1285526059945206128">"Дозволити додаткам і службам будь-коли шукати пристрої поруч, навіть якщо Bluetooth вимкнено. Це може покращити роботу функцій і служб, які використовують геодані."</string>
     <string name="location_network_based" msgid="9134175479520582215">"Місцезнах. Wi-Fi і моб. мережі"</string>
-    <string name="location_neighborhood_level" msgid="5141318121229984788">"Дозвольте програмам користуватися службою визначення місцезнаходження Google, щоб швидше оцінювати ваше місцезнаходження. Анонімна інформація про місцезнаходження збиратиметься та надсилатиметься в Google."</string>
+    <string name="location_neighborhood_level" msgid="5141318121229984788">"Дозвольте програмам користуватися службою визначення місцезнаходження /e/, щоб швидше оцінювати ваше місцезнаходження. Анонімна інформація про місцезнаходження збиратиметься та надсилатиметься в /e/."</string>
     <string name="location_neighborhood_level_wifi" msgid="4234820941954812210">"Місцезнаходження, визначене Wi-Fi"</string>
     <string name="location_gps" msgid="8392461023569708478">"Супутникові тарілки GPS"</string>
     <string name="location_street_level" product="tablet" msgid="1669562198260860802">"Дозвольте програмам використовувати GPS на планшетному ПК для точного визначення місцезнаходження"</string>
@@ -1577,8 +1577,8 @@
     <string name="assisted_gps" msgid="4649317129586736885">"Використ. A-GPS"</string>
     <string name="assisted_gps_enabled" msgid="8751899609589792803">"Викор. сервер для доп. GPS (знім. прап., щоб не вик. мережу)"</string>
     <string name="assisted_gps_disabled" msgid="6982698333968010748">"Викор. сервер, щоб доп. GPS (знім. прап., щоб покращ. роб. GPS)"</string>
-    <string name="use_location_title" msgid="5206937465504979977">"Місцезнаходж. і пошук Google"</string>
-    <string name="use_location_summary" msgid="3978805802386162520">"Дозволити Google використовувати місцезнаходження для покращення результатів пошуку й інших служб"</string>
+    <string name="use_location_title" msgid="5206937465504979977">"Місцезнаходж. і пошук /e/"</string>
+    <string name="use_location_summary" msgid="3978805802386162520">"Дозволити /e/ використовувати місцезнаходження для покращення результатів пошуку й інших служб"</string>
     <string name="location_access_title" msgid="7064108942964081243">"Доступ до моїх геоданих"</string>
     <string name="location_access_summary" msgid="69031404093194341">"Надати програмам, які про це попросили, дозвіл на використання інформації про місцезнаходження"</string>
     <string name="location_sources_heading" msgid="1278732419851088319">"Джерела даних про місцезнаходження"</string>
@@ -2503,7 +2503,7 @@
     <string name="backup_section_title" msgid="7952232291452882740">"Резервне копіювання та відновлення"</string>
     <string name="personal_data_section_title" msgid="7815209034443782061">"Особисті дані"</string>
     <string name="backup_data_title" msgid="1239105919852668016">"Резервне копіювання даних"</string>
-    <string name="backup_data_summary" msgid="708773323451655666">"Створювати резервні копії даних програм, паролів Wi-Fi та інших налаштувань на серверах Google"</string>
+    <string name="backup_data_summary" msgid="708773323451655666">"Створювати резервні копії даних програм, паролів Wi-Fi та інших налаштувань на серверах /e/"</string>
     <string name="backup_configure_account_title" msgid="3790872965773196615">"Резервний обліковий запис"</string>
     <string name="include_app_data_title" msgid="2829970132260278394">"Включити дані додатка"</string>
     <string name="auto_restore_title" msgid="5397528966329126506">"Автомат. відновлення"</string>
@@ -2511,7 +2511,7 @@
     <string name="backup_inactive_title" msgid="685838037986644604">"Служба резервного копіювання неактивна"</string>
     <string name="backup_configure_account_default_summary" msgid="2436933224764745553">"Наразі жоден обліковий запис не зберігає резервних копій даних"</string>
     <string name="backup_erase_dialog_title" msgid="1027640829482174106"></string>
-    <string name="backup_erase_dialog_message" msgid="5221011285568343155">"Припинити створення резервних копій паролів Wi-Fi, закладок, інших налаштувань і даних додатків, а також стерти всі копії на серверах Google?"</string>
+    <string name="backup_erase_dialog_message" msgid="5221011285568343155">"Припинити створення резервних копій паролів Wi-Fi, закладок, інших налаштувань і даних додатків, а також стерти всі копії на серверах /e/?"</string>
     <string name="fullbackup_erase_dialog_message" msgid="694766389396659626">"Не створювати резервні копії даних пристроїв (як-от паролів Wi-Fi та історії дзвінків) і додатків (як-от налаштувань і збережених файлів) та стерти всі копії на віддалених серверах?"</string>
     <string name="fullbackup_data_summary" msgid="960850365007767734">"Автоматично завантажуйте дані з пристроїв (як-от паролі Wi-Fi та історію дзвінків) і додатків (як-от налаштування та збережені файли). Це можна робити віддалено.\n\nКоли ви вмикаєте автозавантаження, дані з пристроїв і додатків віддалено зберігаються через певні проміжки часу. Дані додатків – це будь-яка інформація, яку вони зберігають (залежно від налаштувань розробника), зокрема такі конфіденційні дані, як контакти, повідомлення та фотографії."</string>
     <string name="device_admin_settings_title" msgid="4960761799560705902">"Налаштування адміністратора пристрою"</string>
@@ -2598,7 +2598,7 @@
     <string name="sync_gmail" msgid="714886122098006477">"Gmail"</string>
     <string name="sync_calendar" msgid="9056527206714733735">"Календар"</string>
     <string name="sync_contacts" msgid="9174914394377828043">"Контакти"</string>
-    <string name="sync_plug" msgid="3905078969081888738"><font fgcolor="#ffffffff">"Вітаємо в Синхронізації Google!"</font>\n"Це служба Google для синхронізації даних, що дозволяє вам будь-де мати доступ до своїх контактів, подій тощо."</string>
+    <string name="sync_plug" msgid="3905078969081888738"><font fgcolor="#ffffffff">"Вітаємо в Синхронізації /e/!"</font>\n"Це служба /e/ для синхронізації даних, що дозволяє вам будь-де мати доступ до своїх контактів, подій тощо."</string>
     <string name="header_application_sync_settings" msgid="6205903695598000286">"Налаштування синхронізації програми"</string>
     <string name="header_data_and_synchronization" msgid="5165024023936509896">"Дані та синхронізація"</string>
     <string name="preference_change_password_title" msgid="8955581790270130056">"Змінити пароль"</string>
@@ -2683,8 +2683,8 @@
     <string name="data_usage_app_restrict_dialog" msgid="1466689968707308512">"Якщо доступні лише мобільні мережі, програми, що використовують фонові дані, можуть не працювати.\n\nВідповідніші елементи керування використанням даних можна знайти в налаштуваннях цієї програми."</string>
     <string name="data_usage_restrict_denied_dialog" msgid="55012417305745608">"Обмеження фонових даних можливе, лише якщо встановлено ліміт мобільного трафіку."</string>
     <string name="data_usage_auto_sync_on_dialog_title" msgid="2438617846762244389">"Увімк. автосинхронізацію даних?"</string>
-    <string name="data_usage_auto_sync_on_dialog" product="tablet" msgid="8581983093524041669">"Усі зміни до облікових записів, внесені в Інтернеті, автоматично копіюватимуться на ваш планшет.\n\nДеякі облікові записи також можуть автоматично копіювати в Інтернет зміни, внесені на планшеті. Так працює обліковий запис Google."</string>
-    <string name="data_usage_auto_sync_on_dialog" product="default" msgid="8651376294887142858">"Усі зміни до облікових записів, внесені в Інтернеті, автоматично копіюватимуться на ваш телефон.\n\nДеякі облікові записи також можуть автоматично копіювати в Інтернет зміни, внесені на телефоні. Так працює обліковий запис Google."</string>
+    <string name="data_usage_auto_sync_on_dialog" product="tablet" msgid="8581983093524041669">"Усі зміни до облікових записів, внесені в Інтернеті, автоматично копіюватимуться на ваш планшет.\n\nДеякі облікові записи також можуть автоматично копіювати в Інтернет зміни, внесені на планшеті. Так працює обліковий запис /e/."</string>
+    <string name="data_usage_auto_sync_on_dialog" product="default" msgid="8651376294887142858">"Усі зміни до облікових записів, внесені в Інтернеті, автоматично копіюватимуться на ваш телефон.\n\nДеякі облікові записи також можуть автоматично копіювати в Інтернет зміни, внесені на телефоні. Так працює обліковий запис /e/."</string>
     <string name="data_usage_auto_sync_off_dialog_title" msgid="9013139130490125793">"Вимкнути автосинхронізацію?"</string>
     <string name="data_usage_auto_sync_off_dialog" msgid="4025938250775413864">"Це заощадить трафік і заряд акумулятора. Проте вам доведеться вручну синхронізувати кожен обліковий запис, щоб отримати останні дані. Також ви не отримуватимете сповіщення про оновлення."</string>
     <string name="data_usage_cycle_editor_title" msgid="1373797281540188533">"Дата скидання циклу використання даних"</string>
@@ -4134,7 +4134,7 @@
     <string name="enterprise_privacy_security_logs" msgid="5377362481617301074">"Останній журнал безпеки"</string>
     <string name="enterprise_privacy_none" msgid="7706621148858381189">"Немає"</string>
     <string name="enterprise_privacy_enterprise_installed_packages" msgid="6353757812144878828">"Установлені додатки"</string>
-    <string name="enterprise_privacy_apps_count_estimation_info" msgid="7433213592572082606">"Це приблизна кількість додатків. Сюди можуть не входити додатки, установлені не з Google Play."</string>
+    <string name="enterprise_privacy_apps_count_estimation_info" msgid="7433213592572082606">"Це приблизна кількість додатків. Сюди можуть не входити додатки, установлені не з /e/ Play."</string>
     <plurals name="enterprise_privacy_number_packages_lower_bound" formatted="false" msgid="3005116533873542976">
       <item quantity="one">Щонайменше <xliff:g id="COUNT_1">%d</xliff:g> додаток</item>
       <item quantity="few">Щонайменше <xliff:g id="COUNT_1">%d</xliff:g> додатки</item>
@@ -4222,7 +4222,7 @@
     <string name="webview_disabled_for_user" msgid="1216426047631256825">"(вимкнено для користувача <xliff:g id="USER">%s</xliff:g>)"</string>
     <string name="autofill_app" msgid="7338387238377914374">"Автозаповнення"</string>
     <string name="autofill_keywords" msgid="7485591824120812710">"автоматично, заповнювати, автозаповнення"</string>
-    <string name="autofill_confirmation_message" msgid="2784869528908005194">"&lt;b&gt;Переконайтеся, що додаток надійний&lt;/b&gt; &lt;br/&gt; &lt;br/&gt; &lt;xliff:g id=app_name example=Функція Автозаповнення Google&gt;%1$s&lt;/xliff:g&gt; використовує інформацію на екрані, щоб визначати поля для автозаповнення."</string>
+    <string name="autofill_confirmation_message" msgid="2784869528908005194">"&lt;b&gt;Переконайтеся, що додаток надійний&lt;/b&gt; &lt;br/&gt; &lt;br/&gt; &lt;xliff:g id=app_name example=Функція Автозаповнення /e/&gt;%1$s&lt;/xliff:g&gt; використовує інформацію на екрані, щоб визначати поля для автозаповнення."</string>
     <string name="color_theme" msgid="1535685696756738324">"Колірна тема:"</string>
     <string name="default_theme" msgid="7085644992078579076">"За умовчанням"</string>
     <string name="device_theme" msgid="4571803018917608588">"Тема пристрою"</string>

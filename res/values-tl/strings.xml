@@ -487,11 +487,11 @@
     <string name="crypt_keeper_warn_wipe" msgid="2738374897337991667">"Babala: Mabubura ang iyong device pagkatapos ng <xliff:g id="COUNT">^1</xliff:g> pang hindi matagumpay na pagsubok na mag-unlock!"</string>
     <string name="crypt_keeper_enter_password" msgid="2223340178473871064">"I-type ang iyong password"</string>
     <string name="crypt_keeper_failed_title" msgid="7133499413023075961">"Hindi matagumpay ang pag-encrypt"</string>
-    <string name="crypt_keeper_failed_summary" product="tablet" msgid="8219375738445017266">"Nagambala at hindi makumpleto ang pag-encrypt. Bilang resulta, hindi na maa-access ang data sa iyong telepono. \n\nUpang patuloy na magamit ang iyong tablet, kailangan mong magsagawa ng factory reset. Kapag na-set up mo ang iyong tablet pagkatapos ng pag-reset, magkakaroon ka ng pagkakataong magbalik ng anumang data na na-back up sa iyong Google Account."</string>
-    <string name="crypt_keeper_failed_summary" product="default" msgid="3270131542549577953">"Nagambala at hindi makumpleto ang pag-encrypt. Bilang resulta, hindi na maa-access ang data sa iyong telepono. \n\nUpang patuloy na magamit ang iyong telepono, kailangan mong magsagawa ng factory reset. Kapag na-set up mo ang iyong telepono pagkatapos ng pag-reset, magkakaraoon ka ng pagkakataong magbalik ng anumang data na na-back up sa iyong Google Account."</string>
+    <string name="crypt_keeper_failed_summary" product="tablet" msgid="8219375738445017266">"Nagambala at hindi makumpleto ang pag-encrypt. Bilang resulta, hindi na maa-access ang data sa iyong telepono. \n\nUpang patuloy na magamit ang iyong tablet, kailangan mong magsagawa ng factory reset. Kapag na-set up mo ang iyong tablet pagkatapos ng pag-reset, magkakaroon ka ng pagkakataong magbalik ng anumang data na na-back up sa iyong /e/ Account."</string>
+    <string name="crypt_keeper_failed_summary" product="default" msgid="3270131542549577953">"Nagambala at hindi makumpleto ang pag-encrypt. Bilang resulta, hindi na maa-access ang data sa iyong telepono. \n\nUpang patuloy na magamit ang iyong telepono, kailangan mong magsagawa ng factory reset. Kapag na-set up mo ang iyong telepono pagkatapos ng pag-reset, magkakaraoon ka ng pagkakataong magbalik ng anumang data na na-back up sa iyong /e/ Account."</string>
     <string name="crypt_keeper_data_corrupt_title" msgid="8759119849089795751">"Hindi matagumpay ang pag-decrypt"</string>
-    <string name="crypt_keeper_data_corrupt_summary" product="tablet" msgid="840107296925798402">"Tama ang password na inilagay mo, ngunit sa kasamaang-palad ay sira ang iyong data. \n\nUpang maipagpatuloy ang paggamit sa iyong tablet, kailangan mong magsagawa ng factory reset. Kapag na-set up mo ang iyong tablet pagkatapos ng pag-reset, magkakaroon ka ng pagkakataong ipanumbalik ang anumang data na na-back up sa iyong Google Account."</string>
-    <string name="crypt_keeper_data_corrupt_summary" product="default" msgid="8843311420059663824">"Tama ang password na inilagay mo, ngunit sa kasamaang-palad ay sira ang iyong data. \n\nUpang maipagpatuloy ang paggamit sa iyong telepono, kailangan mong magsagawa ng factory reset. Kapag na-set up mo ang iyong telepono pagkatapos ng pag-reset, magkakaroon ka ng pagkakataong ipanumbalik ang anumang data na na-back up sa iyong Google Account."</string>
+    <string name="crypt_keeper_data_corrupt_summary" product="tablet" msgid="840107296925798402">"Tama ang password na inilagay mo, ngunit sa kasamaang-palad ay sira ang iyong data. \n\nUpang maipagpatuloy ang paggamit sa iyong tablet, kailangan mong magsagawa ng factory reset. Kapag na-set up mo ang iyong tablet pagkatapos ng pag-reset, magkakaroon ka ng pagkakataong ipanumbalik ang anumang data na na-back up sa iyong /e/ Account."</string>
+    <string name="crypt_keeper_data_corrupt_summary" product="default" msgid="8843311420059663824">"Tama ang password na inilagay mo, ngunit sa kasamaang-palad ay sira ang iyong data. \n\nUpang maipagpatuloy ang paggamit sa iyong telepono, kailangan mong magsagawa ng factory reset. Kapag na-set up mo ang iyong telepono pagkatapos ng pag-reset, magkakaroon ka ng pagkakataong ipanumbalik ang anumang data na na-back up sa iyong /e/ Account."</string>
     <string name="crypt_keeper_switch_input_method" msgid="4168332125223483198">"Magpalit ng pamamaraan ng pag-input"</string>
     <string name="suggested_lock_settings_title" msgid="8498743819223200961">"I-secure ang iyong telepono"</string>
     <string name="suggested_lock_settings_summary" product="tablet" msgid="2296800316150748710">"Magtakda ng lock ng screen para protektahan ang tablet"</string>
@@ -1465,8 +1465,8 @@
     <string name="reset_esim_error_msg" msgid="8434956817922668388">"Hindi ma-reset ang mga eSIM dahil nagkaroon ng error."</string>
     <string name="master_clear_title" msgid="3531267871084279512">"Burahin ang lahat ng data (factory reset)"</string>
     <string name="master_clear_short_title" msgid="8652450915870274285">"Burahin lahat (factory reset)"</string>
-    <string name="master_clear_desc" product="tablet" msgid="9146059417023157222">"Buburahin nito ang lahat ng data mula sa "<b>"internal storage"</b>" ng iyong tablet, kabilang ang:\n\n"<li>"Iyong Google account"</li>\n<li>"System at data ng app at mga setting"</li>\n<li>"Na-download na apps"</li></string>
-    <string name="master_clear_desc" product="default" msgid="4800386183314202571">"Buburahin nito ang lahat ng data mula sa "<b>"internal storage"</b>" ng iyong telepono, kabilang ang:\n\n"<li>"Iyong Google account"</li>\n<li>"Data at mga setting ng system at app"</li>\n<li>"Na-download na mga app"</li></string>
+    <string name="master_clear_desc" product="tablet" msgid="9146059417023157222">"Buburahin nito ang lahat ng data mula sa "<b>"internal storage"</b>" ng iyong tablet, kabilang ang:\n\n"<li>"Iyong /e/ account"</li>\n<li>"System at data ng app at mga setting"</li>\n<li>"Na-download na apps"</li></string>
+    <string name="master_clear_desc" product="default" msgid="4800386183314202571">"Buburahin nito ang lahat ng data mula sa "<b>"internal storage"</b>" ng iyong telepono, kabilang ang:\n\n"<li>"Iyong /e/ account"</li>\n<li>"Data at mga setting ng system at app"</li>\n<li>"Na-download na mga app"</li></string>
     <string name="master_clear_accounts" product="default" msgid="6412857499147999073">\n\n"Kasalukuyan kang naka-sign in sa mga sumusunod na account:\n"</string>
     <string name="master_clear_other_users_present" product="default" msgid="5161423070702470742">\n\n"May iba pang mga user sa device na ito.\n"</string>
     <string name="master_clear_desc_also_erases_external" msgid="1903185203791274237"><li>"Musika"</li>\n<li>"Mga Larawan"</li>\n<li>"Ibang data ng user"</li></string>
@@ -1543,7 +1543,7 @@
     <string name="location_scanning_bluetooth_always_scanning_title" msgid="5444989508204520019">"Pagsa-scan para sa Bluetooth"</string>
     <string name="location_scanning_bluetooth_always_scanning_description" msgid="1285526059945206128">"Payagan ang mga app at serbisyo na mag-scan ng mga kalapit na device anumang oras, kahit na naka-off ang Bluetooth. Magagamit ito, halimbawa, para pahusayin ang mga feature at serbisyong batay sa lokasyon."</string>
     <string name="location_network_based" msgid="9134175479520582215">"Lokasyon ng Wi-Fi, mobile network"</string>
-    <string name="location_neighborhood_level" msgid="5141318121229984788">"Ipagamit sa apps ang serbisyo ng lok. ng Google para mabilis na itantya ang iyong lok.  Kokolektahin at ipapadala sa Google ang mga di alam na data ng lok."</string>
+    <string name="location_neighborhood_level" msgid="5141318121229984788">"Ipagamit sa apps ang serbisyo ng lok. ng /e/ para mabilis na itantya ang iyong lok.  Kokolektahin at ipapadala sa /e/ ang mga di alam na data ng lok."</string>
     <string name="location_neighborhood_level_wifi" msgid="4234820941954812210">"Natukoy ng Wi-Fi ang lokasyon"</string>
     <string name="location_gps" msgid="8392461023569708478">"Mga GPS Satellite"</string>
     <string name="location_street_level" product="tablet" msgid="1669562198260860802">"Hayaang gamitin ng apps ang GPS sa tablet mo upang matukoy ang iyong lokasyon"</string>
@@ -1551,8 +1551,8 @@
     <string name="assisted_gps" msgid="4649317129586736885">"Gamitin ang may tulong na GPS"</string>
     <string name="assisted_gps_enabled" msgid="8751899609589792803">"Gumamit ng server upang tulungan ang GPS (alisan ng check upang pababain ang paggamit ng network)"</string>
     <string name="assisted_gps_disabled" msgid="6982698333968010748">"Gumamit ng server upang tulungan ang GPS (alisan ng check upang mapagbuti ang performance ng GPS)"</string>
-    <string name="use_location_title" msgid="5206937465504979977">"Lokasyon &amp; paghahanap sa Google"</string>
-    <string name="use_location_summary" msgid="3978805802386162520">"Hayaan ang Google na gamitin ang iyong lokasyon upang mapabuti ang mga resulta ng paghahanap at ang iba pang mga serbisyo"</string>
+    <string name="use_location_title" msgid="5206937465504979977">"Lokasyon &amp; paghahanap sa /e/"</string>
+    <string name="use_location_summary" msgid="3978805802386162520">"Hayaan ang /e/ na gamitin ang iyong lokasyon upang mapabuti ang mga resulta ng paghahanap at ang iba pang mga serbisyo"</string>
     <string name="location_access_title" msgid="7064108942964081243">"Access sa aking lokasyon"</string>
     <string name="location_access_summary" msgid="69031404093194341">"Hayaan ang apps na humiling ng iyong pahintulot na gamitin ang impormasyon ng iyong lokasyon"</string>
     <string name="location_sources_heading" msgid="1278732419851088319">"Mga pinagmulan ng lokasyon"</string>
@@ -2445,7 +2445,7 @@
     <string name="backup_section_title" msgid="7952232291452882740">"I-backup &amp; ipanumbalik"</string>
     <string name="personal_data_section_title" msgid="7815209034443782061">"Personal na data"</string>
     <string name="backup_data_title" msgid="1239105919852668016">"I-back up ang aking data"</string>
-    <string name="backup_data_summary" msgid="708773323451655666">"Mag-back up ng data ng app, mga password ng Wi-Fi at iba pang mga setting sa mga server ng Google"</string>
+    <string name="backup_data_summary" msgid="708773323451655666">"Mag-back up ng data ng app, mga password ng Wi-Fi at iba pang mga setting sa mga server ng /e/"</string>
     <string name="backup_configure_account_title" msgid="3790872965773196615">"Backup na account"</string>
     <string name="include_app_data_title" msgid="2829970132260278394">"Isama ang data ng app"</string>
     <string name="auto_restore_title" msgid="5397528966329126506">"Awtomatikong pag-restore"</string>
@@ -2453,7 +2453,7 @@
     <string name="backup_inactive_title" msgid="685838037986644604">"Hindi aktibo ang serbisyo ng pag-back up"</string>
     <string name="backup_configure_account_default_summary" msgid="2436933224764745553">"Walang account ang kasalukuyang nag-iimbak ng na-back up na data"</string>
     <string name="backup_erase_dialog_title" msgid="1027640829482174106"></string>
-    <string name="backup_erase_dialog_message" msgid="5221011285568343155">"Ihinto ang pagba-back up ng iyong mga password ng Wi-Fi, mga bookmark, iba pang mga setting at data ng app, at burahin ang lahat ng kopya sa mga server ng Google?"</string>
+    <string name="backup_erase_dialog_message" msgid="5221011285568343155">"Ihinto ang pagba-back up ng iyong mga password ng Wi-Fi, mga bookmark, iba pang mga setting at data ng app, at burahin ang lahat ng kopya sa mga server ng /e/?"</string>
     <string name="fullbackup_erase_dialog_message" msgid="694766389396659626">"Gusto mo bang ihinto ang pagba-back up sa data ng device (gaya ng mga password sa Wi-Fi at history ng pagtawag) at data ng app (gaya ng mga setting at file na naimbak ng mga app), at burahin ang lahat ng kopya sa mga remote server?"</string>
     <string name="fullbackup_data_summary" msgid="960850365007767734">"Awtomatikong i-back up ang data ng device (tulad ng mga password sa Wi-Fi at history ng tawag) at data ng app (tulad ng mga setting at mga file na inimbak ng mga app) nang malayuan.\n\nKapag i-on mo ang awtomatikong pag-backup, pana-panahong sine-save nang malayuan ang data ng device at app. Ang data ng app ay maaaring anumang data na na-save ng app (batay sa mga setting ng developer), kabilang ang potensyal na sensitibong data tulad ng mga contact, mensahe at larawan."</string>
     <string name="device_admin_settings_title" msgid="4960761799560705902">"Mga setting ng admin ng device"</string>
@@ -2540,7 +2540,7 @@
     <string name="sync_gmail" msgid="714886122098006477">"Gmail"</string>
     <string name="sync_calendar" msgid="9056527206714733735">"Kalendaryo"</string>
     <string name="sync_contacts" msgid="9174914394377828043">"Mga Contact"</string>
-    <string name="sync_plug" msgid="3905078969081888738"><font fgcolor="#ffffffff">"Maligayang pagdating sa Google sync!"</font>" \nIsang paraan ng Google sa pag-sync ng data upang payagan ang access sa iyong mga contact, appointment, at higit pa nasaan ka man."</string>
+    <string name="sync_plug" msgid="3905078969081888738"><font fgcolor="#ffffffff">"Maligayang pagdating sa /e/ sync!"</font>" \nIsang paraan ng /e/ sa pag-sync ng data upang payagan ang access sa iyong mga contact, appointment, at higit pa nasaan ka man."</string>
     <string name="header_application_sync_settings" msgid="6205903695598000286">"Mga setting ng pag-sync ng app"</string>
     <string name="header_data_and_synchronization" msgid="5165024023936509896">"Data at pag-synchronize"</string>
     <string name="preference_change_password_title" msgid="8955581790270130056">"Palitan ang password"</string>
@@ -2625,8 +2625,8 @@
     <string name="data_usage_app_restrict_dialog" msgid="1466689968707308512">"Ang tampok na ito ay maaaring maging sanhi ng pagtigil ng app na nakadepende sa data ng background kapag mga mobile network lang ang available.\n\nMaaari kang makahanap ng higit pang naaangkop na mga kontrol sa paggamit ng data sa mga setting na available sa loob ng app."</string>
     <string name="data_usage_restrict_denied_dialog" msgid="55012417305745608">"Malilimitahan mo lang ang data ng background kung nagtakda ka ng limitasyon sa mobile data."</string>
     <string name="data_usage_auto_sync_on_dialog_title" msgid="2438617846762244389">"I-on ang pag-auto sync ng data?"</string>
-    <string name="data_usage_auto_sync_on_dialog" product="tablet" msgid="8581983093524041669">"Ang anumang mga pagbabagong gagawin mo sa iyong mga account sa web ay awtomatikong makokopya sa tablet mo.\n\nMaaari ding awtomatikong kopyahin ng ilang account sa web ang anumang mga pagbabagong gagawin mo sa tablet. Ganito gumagana ang Google Account."</string>
-    <string name="data_usage_auto_sync_on_dialog" product="default" msgid="8651376294887142858">"Ang anumang mga pagbabagong gagawin mo sa iyong mga account sa web ay awtomatikong makokopya sa telepono mo.\n\nMaaari ding awtomatikong kopyahin ng ilang account sa web ang anumang mga pagbabagong gagawin mo sa telepono. Ganito gumagana ang Google Account."</string>
+    <string name="data_usage_auto_sync_on_dialog" product="tablet" msgid="8581983093524041669">"Ang anumang mga pagbabagong gagawin mo sa iyong mga account sa web ay awtomatikong makokopya sa tablet mo.\n\nMaaari ding awtomatikong kopyahin ng ilang account sa web ang anumang mga pagbabagong gagawin mo sa tablet. Ganito gumagana ang /e/ Account."</string>
+    <string name="data_usage_auto_sync_on_dialog" product="default" msgid="8651376294887142858">"Ang anumang mga pagbabagong gagawin mo sa iyong mga account sa web ay awtomatikong makokopya sa telepono mo.\n\nMaaari ding awtomatikong kopyahin ng ilang account sa web ang anumang mga pagbabagong gagawin mo sa telepono. Ganito gumagana ang /e/ Account."</string>
     <string name="data_usage_auto_sync_off_dialog_title" msgid="9013139130490125793">"I-off ang pag-auto sync ng data?"</string>
     <string name="data_usage_auto_sync_off_dialog" msgid="4025938250775413864">"Mababawasan nito ang paggamit ng data at baterya, pero kakailanganin mong manual na i-sync ang bawat account para kumolekta ng kamakailang impormasyon. Hindi ka rin makakatanggap ng mga notification kapag may mga update."</string>
     <string name="data_usage_cycle_editor_title" msgid="1373797281540188533">"Petsa ng pag-reset ng yugto ng paggamit"</string>
@@ -4084,7 +4084,7 @@
     <string name="webview_disabled_for_user" msgid="1216426047631256825">"(na-disable para kay user <xliff:g id="USER">%s</xliff:g>)"</string>
     <string name="autofill_app" msgid="7338387238377914374">"Serbisyo ng autofill"</string>
     <string name="autofill_keywords" msgid="7485591824120812710">"awtomatiko, punan, autofill"</string>
-    <string name="autofill_confirmation_message" msgid="2784869528908005194">"&lt;b&gt;Tiyaking pinagkakatiwalaan mo ang app na ito&lt;/b&gt; &lt;br/&gt; &lt;br/&gt; Ginagamit ng &lt;xliff:g id=app_name example=Google Autofill&gt;%1$s&lt;/xliff:g&gt; ang nasa iyong screen para matukoy kung ano ang pwedeng i-autofill."</string>
+    <string name="autofill_confirmation_message" msgid="2784869528908005194">"&lt;b&gt;Tiyaking pinagkakatiwalaan mo ang app na ito&lt;/b&gt; &lt;br/&gt; &lt;br/&gt; Ginagamit ng &lt;xliff:g id=app_name example=/e/ Autofill&gt;%1$s&lt;/xliff:g&gt; ang nasa iyong screen para matukoy kung ano ang pwedeng i-autofill."</string>
     <string name="color_theme" msgid="1535685696756738324">"Tema ng kulay"</string>
     <string name="default_theme" msgid="7085644992078579076">"Default"</string>
     <string name="device_theme" msgid="4571803018917608588">"Tema ng device"</string>

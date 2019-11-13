@@ -1128,7 +1128,7 @@
       \n\n
       To resume using your tablet, you need to perform a factory reset.
       When you set up your tablet after the reset, you\u2019ll have an opportunity
-      to restore any data that was backed up to your Google Account.
+      to restore any data that was backed up to your /e/ Account.
     </string>
 
     <!-- Informational text when encryption fails -->
@@ -1137,7 +1137,7 @@
       your phone is no longer accessible.
       \n\nTo resume using your phone, you need to perform a factory reset.
       When you set up your phone after the reset, you\u2019ll have an opportunity
-      to restore any data that was backed up to your Google Account.
+      to restore any data that was backed up to your /e/ Account.
     </string>
 
     <!-- Title of the encryption screen when decrypting the device failed -->
@@ -1149,7 +1149,7 @@
       corrupt.
       \n\nTo resume using your tablet, you need to perform a factory reset.
       When you set up your tablet after the reset, you\u2019ll have an opportunity
-      to restore any data that was backed up to your Google Account.
+      to restore any data that was backed up to your /e/ Account.
     </string>
 
     <!-- Informational text when encryption fails -->
@@ -1158,7 +1158,7 @@
       corrupt.
       \n\nTo resume using your phone, you need to perform a factory reset.
       When you set up your phone after the reset, you\u2019ll have an opportunity
-      to restore any data that was backed up to your Google Account.
+      to restore any data that was backed up to your /e/ Account.
     </string>
 
     <!-- Image button description to switch input method -->
@@ -3582,10 +3582,10 @@
     <!-- Description text for Bluetooth always scanning -->
     <string name="location_scanning_bluetooth_always_scanning_description">Allow apps and services to scan for nearby devices at any time, even when Bluetooth is off. This can be used, for example, to improve location-based features and services.</string>
 
-    <!-- [CHAR LIMIT=30] Security & location settings screen, setting check box label for Google location service (cell ID, wifi, etc.) -->
+    <!-- [CHAR LIMIT=30] Security & location settings screen, setting check box label for /e/ location service (cell ID, wifi, etc.) -->
     <string name="location_network_based">Wi\u2011Fi &amp; mobile network location</string>
-    <!-- [CHAR LIMIT=130] Security & location settings screen, setting summary for Google location service check box-->
-    <string name="location_neighborhood_level">Let apps use Google\u2019s location service to estimate your location faster. Anonymous location data will be collected and sent to Google.</string>
+    <!-- [CHAR LIMIT=130] Security & location settings screen, setting summary for /e/ location service check box-->
+    <string name="location_neighborhood_level">Let apps use /e/\u2019s location service to estimate your location faster. Anonymous location data will be collected and sent to /e/.</string>
     <!-- [CHAR LIMIT=130] Security & location settings screen, setting summary when Use wireless networks check box is selected, for wifi-only devices -->
     <string name="location_neighborhood_level_wifi">Location determined by Wi\u2011Fi</string>
     <!-- [CHAR LIMIT=30] Security & location settings screen, setting check box label for GPS satellites -->
@@ -3600,10 +3600,10 @@
     <string name="assisted_gps_enabled">Use server to assist GPS (uncheck to reduce network usage)</string>
     <!-- Security & location settings screen, setting summary when Assisted GPS check box is clear -->
     <string name="assisted_gps_disabled">Use server to assist GPS (uncheck to improve GPS performance)</string>
-    <!-- [CHAR_LIMIT=30] Security & location settings screen, setting check box label for Google search -->
-    <string name="use_location_title">Location &amp; Google search</string>
-    <!-- [CHAR_LIMIT=100] Security & location settings screen, setting check box summary for Google search -->
-    <string name="use_location_summary">Let Google use your location to improve search results and other services</string>
+    <!-- [CHAR_LIMIT=30] Security & location settings screen, setting check box label for /e/ search -->
+    <string name="use_location_title">Location &amp; /e/ search</string>
+    <!-- [CHAR_LIMIT=100] Security & location settings screen, setting check box summary for /e/ search -->
+    <string name="use_location_summary">Let /e/ use your location to improve search results and other services</string>
     <!-- [CHAR LIMIT=45] Label for turning on/off location access completely. -->
     <string name="location_access_title">Access to my location</string>
     <!-- [CHAR LIMIT=none] Description text for location access switch -->
@@ -5679,7 +5679,7 @@
     <!-- Backup data menu title -->
     <string name="backup_data_title">Back up my data</string>
     <!-- Summary text of the "back up data" setting -->
-    <string name="backup_data_summary">Back up app data, Wi\u2011Fi passwords, and other settings to Google servers</string>
+    <string name="backup_data_summary">Back up app data, Wi\u2011Fi passwords, and other settings to /e/ servers</string>
     <!-- Configure backup account options menu title [CHAR LIMIT=25]-->
     <string name="backup_configure_account_title">Backup account</string>
     <!-- Auto-restore menu title [CHAR LIMIT=30] -->
@@ -5696,7 +5696,7 @@
     <!-- Dialog title for confirmation to erase backup data from server -->
     <string name="backup_erase_dialog_title"></string>
     <!-- Dialog title for confirmation to erase backup data from server -->
-    <string name="backup_erase_dialog_message">Stop backing up your Wi\u2011Fi passwords, bookmarks, other settings, and app data, plus erase all copies on Google servers?</string>
+    <string name="backup_erase_dialog_message">Stop backing up your Wi\u2011Fi passwords, bookmarks, other settings, and app data, plus erase all copies on /e/ servers?</string>
     <!-- Dialog title for confirmation to erase full backup data from server -->
     <string name="fullbackup_erase_dialog_message">Stop backing up device data (such as Wi-Fi passwords and call history) and app data (such as settings and files stored by apps), plus erase all copies on remote servers?</string>
     <!-- Summary for explanation of what full app data backup means. Manufacturers may wish to overlay this resource with their own text  -->
@@ -5933,9 +5933,9 @@
     <string name="sync_calendar">Calendar</string>
     <!-- Data synchronization settings screen, checkbox setting option name -->
     <string name="sync_contacts">Contacts</string>
-    <!-- Message introducing the user to Google Sync. -->
-    <string name="sync_plug"><font fgcolor="#ffffffff">Welcome to Google sync!</font>
-    \nA Google approach to syncing data to allow access to your contacts, appointments, and more from wherever you are.
+    <!-- Message introducing the user to /e/ Sync. -->
+    <string name="sync_plug"><font fgcolor="#ffffffff">Welcome to /e/ sync!</font>
+    \nA /e/ approach to syncing data to allow access to your contacts, appointments, and more from wherever you are.
     </string>
 
     <!-- Header title for those settings relating to application syncing. -->
@@ -6123,9 +6123,9 @@
     <!--  Title of dialog shown when user enables global auto sync [CHAR LIMIT=32] -->
     <string name="data_usage_auto_sync_on_dialog_title">Turn auto-sync data on?</string>
     <!--  Body of dialog shown when user enables global auto sync, for tablet [CHAR LIMIT=none] -->
-    <string name="data_usage_auto_sync_on_dialog" product="tablet">Any changes you make to your accounts on the web will be automatically copied to your tablet.\n\nSome accounts may also automatically copy any changes you make on the tablet to the web. A Google Account works this way.</string>
+    <string name="data_usage_auto_sync_on_dialog" product="tablet">Any changes you make to your accounts on the web will be automatically copied to your tablet.\n\nSome accounts may also automatically copy any changes you make on the tablet to the web. A /e/ Account works this way.</string>
     <!--  Body of dialog shown when user enables global auto sync [CHAR LIMIT=none] -->
-    <string name="data_usage_auto_sync_on_dialog" product="default">Any changes you make to your accounts on the web will be automatically copied to your phone.\n\nSome accounts may also automatically copy any changes you make on the phone to the web. A Google Account works this way.</string>
+    <string name="data_usage_auto_sync_on_dialog" product="default">Any changes you make to your accounts on the web will be automatically copied to your phone.\n\nSome accounts may also automatically copy any changes you make on the phone to the web. A /e/ Account works this way.</string>
     <!--  Title of dialog shown when user disables global auto sync [CHAR LIMIT=32] -->
     <string name="data_usage_auto_sync_off_dialog_title">Turn auto-sync data off?</string>
     <!--  Body of dialog shown when user disables global auto sync [CHAR LIMIT=none] -->
@@ -6582,7 +6582,7 @@
     <string name="nfc_payment_default">Payment default</string>
     <!-- Summary text that is shown when no default app is set -->
     <string name="nfc_payment_default_not_set">Not set</string>
-    <!-- String indicating the label of the default payment app and a description of its state; eg Google Wallet - MasterCard 1234 -->
+    <!-- String indicating the label of the default payment app and a description of its state; eg /e/ Wallet - MasterCard 1234 -->
     <string name="nfc_payment_app_and_desc"><xliff:g id="app">%1$s</xliff:g> - <xliff:g id="description">%2$s</xliff:g></string>
     <!-- Header for what to do when the open app supports TapPay: use the default set app, or the open app -->
     <string name="nfc_payment_use_default">Use default</string>
@@ -9871,7 +9871,7 @@
         <b>Make sure you trust this app</b>
         <br/>
         <br/>
-        <xliff:g id="app_name" example="Google Autofill">%1$s</xliff:g> uses what\'s on
+        <xliff:g id="app_name" example="/e/ Autofill">%1$s</xliff:g> uses what\'s on
         your screen to determine what can be autofilled.
         ]]>
     </string>
