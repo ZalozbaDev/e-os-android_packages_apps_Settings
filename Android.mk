@@ -37,7 +37,11 @@ LOCAL_JAVA_LIBRARIES := \
 LOCAL_STATIC_JAVA_LIBRARIES := \
     jsr305 \
     settings-logtags \
-    org.lineageos.platform.internal
+    org.lineageos.platform.internal \
+    httpclient
+
+LOCAL_PREBUILT_STATIC_JAVA_LIBRARIES := \
+    httpclient:libs/httpclient-4.5.10.jar
 
 LOCAL_PROGUARD_FLAG_FILES := proguard.flags
 
