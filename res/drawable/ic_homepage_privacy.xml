@@ -1,33 +1,24 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!--
-  Copyright (C) 2018 The Android Open Source Project
-
-  Licensed under the Apache License, Version 2.0 (the "License");
-  you may not use this file except in compliance with the License.
-  You may obtain a copy of the License at
-
-       http://www.apache.org/licenses/LICENSE-2.0
-
-  Unless required by applicable law or agreed to in writing, software
-  distributed under the License is distributed on an "AS IS" BASIS,
-  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-  See the License for the specific language governing permissions and
-  limitations under the License.
-  -->
-
-<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
-
-    <item>
-        <com.android.settingslib.widget.AdaptiveIconShapeDrawable
-            android:width="@dimen/dashboard_tile_image_size"
-            android:height="@dimen/dashboard_tile_image_size"
-            android:color="@color/homepage_privacy_background" />
-    </item>
-
-    <item
-        android:width="@dimen/dashboard_tile_foreground_image_size"
-        android:height="@dimen/dashboard_tile_foreground_image_size"
-        android:start="@dimen/dashboard_tile_foreground_image_inset"
-        android:top="@dimen/dashboard_tile_foreground_image_inset"
-        android:drawable="@drawable/ic_settings_privacy"/>
-</layer-list>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="@dimen/dashboard_tile_image_size"
+    android:height="@dimen/dashboard_tile_image_size"
+    android:viewportWidth="16.933332"
+    android:viewportHeight="16.933334">
+  <path
+      android:pathData="M2.802,-0L14.1313,-0A2.802,2.802 0,0 1,16.9333 2.8019L16.9333,14.1313A2.802,2.802 0,0 1,14.1313 16.9333L2.802,16.9333A2.802,2.802 0,0 1,-0 14.1313L-0,2.8019A2.802,2.802 0,0 1,2.802 -0z"
+      android:strokeWidth="0.171675"
+      android:fillColor="#0088ed"/>
+  <path
+      android:pathData="M2.9164,8.4666a2.5258,5.5503 90,1 0,11.1006 0a2.5258,5.5503 90,1 0,-11.1006 0z"
+      android:strokeLineJoin="miter"
+      android:strokeWidth="0.410898"
+      android:fillColor="#00000000"
+      android:strokeColor="#ffffff"
+      android:strokeLineCap="butt"/>
+  <path
+      android:pathData="m10.4975,8.5258a2.0308,2.0308 0,0 1,-2.0308 2.0308,2.0308 2.0308,0 0,1 -2.0308,-2.0308 2.0308,2.0308 0,0 1,2.0308 -2.0308,2.0308 2.0308,0 0,1 2.0308,2.0308"
+      android:strokeLineJoin="miter"
+      android:strokeWidth="0.410898"
+      android:fillColor="#00000000"
+      android:strokeColor="#ffffff"
+      android:strokeLineCap="butt"/>
+</vector>
