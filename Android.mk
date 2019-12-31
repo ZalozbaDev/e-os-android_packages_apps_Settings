@@ -40,9 +40,6 @@ LOCAL_STATIC_JAVA_LIBRARIES := \
     org.lineageos.platform.internal \
     httpclient
 
-LOCAL_PREBUILT_STATIC_JAVA_LIBRARIES := \
-    httpclient:libs/httpclient-4.5.10.jar
-
 LOCAL_PROGUARD_FLAG_FILES := proguard.flags
 
 ifneq ($(INCREMENTAL_BUILDS),)
@@ -55,6 +52,14 @@ include frameworks/opt/setupwizard/library/common-gingerbread.mk
 include frameworks/base/packages/SettingsLib/common.mk
 
 include $(BUILD_PACKAGE)
+
+include $(CLEAR_VARS)
+
+LOCAL_PREBUILT_STATIC_JAVA_LIBRARIES := httpclient:libs/httpclient-4.5.10.jar
+
+
+include $(BUILD_MULTI_PREBUILT)
+
 
 # Use the following include to make our test apk.
 ifeq (,$(ONE_SHOT_MAKEFILE))
