@@ -8,13 +8,6 @@ LOCAL_MODULE := settings-logtags
 
 include $(BUILD_STATIC_JAVA_LIBRARY)
 
-include $(CLEAR_VARS)
-LOCAL_MODULE := httpclient
-LOCAL_SRC_FILES := httpclient-4.5.10.jar
-LOCAL_MODULE_CLASS := JAVA_LIBRARIES
-LOCAL_MODULE_SUFFIX := $(COMMON_JAVA_PACKAGE_SUFFIX)
-include $(BUILD_PREBUILT)
-
 # Build the Settings APK
 include $(CLEAR_VARS)
 
@@ -59,6 +52,10 @@ include frameworks/opt/setupwizard/library/common-gingerbread.mk
 include frameworks/base/packages/SettingsLib/common.mk
 
 include $(BUILD_PACKAGE)
+
+include $(CLEAR_VARS)
+LOCAL_PREBUILT_STATIC_JAVA_LIBRARIES:=httpclient:libs/httpclient-4.5.10.jar
+include $(BUILD_MULTI_PREBUILT)
 
 # Use the following include to make our test apk.
 ifeq (,$(ONE_SHOT_MAKEFILE))
