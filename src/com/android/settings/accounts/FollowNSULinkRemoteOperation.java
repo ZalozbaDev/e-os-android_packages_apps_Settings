@@ -32,7 +32,7 @@ public class FollowNSULinkRemoteOperation extends RemoteOperation {
         GetMethod get = new GetMethod(url);
         int status = client.executeMethod(get);
 
-        if(!status)
+        if(status == 0)
             return new RemoteOperationResult(false, get);
 
         String redirectLink = get.getResponseBodyAsString();
