@@ -23,13 +23,13 @@
         <!-- Media volume -->
         <com.android.settings.notification.VolumeSeekBarPreference
                 android:key="media_volume"
-                android:icon="@*android:drawable/ic_audio_media"
+                android:icon="@drawable/ic_audio_media"
                 android:title="@string/media_volume_option_title" />
 
         <!-- Alarm volume -->
         <com.android.settings.notification.VolumeSeekBarPreference
                 android:key="alarm_volume"
-                android:icon="@*android:drawable/ic_audio_alarm"
+                android:icon="@drawable/ic_audio_alarm"
                 android:title="@string/alarm_volume_option_title" />
 
         <!-- Ring volume -->
@@ -41,7 +41,7 @@
         <!-- Notification volume -->
         <com.android.settings.notification.VolumeSeekBarPreference
                 android:key="notification_volume"
-                android:icon="@*android:drawable/ic_audio_ring_notif"
+                android:icon="@drawable/ic_audio_ring_notif"
                 android:title="@string/notification_volume_option_title" />
 
         <!-- Link ringtone and notification volumes -->
