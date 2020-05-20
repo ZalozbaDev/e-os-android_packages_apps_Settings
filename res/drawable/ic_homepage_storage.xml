@@ -14,23 +14,31 @@
   See the License for the specific language governing permissions and
   limitations under the License.
   -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="@dimen/dashboard_tile_image_size"
+    android:height="@dimen/dashboard_tile_image_size"
+    android:viewportWidth="32"
+    android:viewportHeight="32">
 
-<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
-
-    <item>
-        <shape android:shape="oval">
-            <solid
-                android:color="@color/homepage_storage_background" />
-            <size
-                android:width="@dimen/dashboard_tile_image_size"
-                android:height="@dimen/dashboard_tile_image_size" />
-        </shape>
-    </item>
-
-    <item
-        android:width="@dimen/dashboard_tile_foreground_image_size"
-        android:height="@dimen/dashboard_tile_foreground_image_size"
-        android:start="@dimen/dashboard_tile_foreground_image_inset"
-        android:top="@dimen/dashboard_tile_foreground_image_inset"
-        android:drawable="@drawable/ic_storage_white" />
-</layer-list>
+    <path
+        android:fillColor="#24527F"
+        android:pathData="M25.2477 32H6.75229C3.02611 32 0 28.9739 0 25.2477V6.75229C0 3.02611 3.02611 0 6.75229 0H25.2477C28.9739 0 32 3.02611 32 6.75229V25.2477C32 28.9739 28.9739 32 25.2477 32Z" />
+    <path
+        android:fillColor="#ffffff"
+        android:fillType="evenOdd"
+        android:pathData="M5.578 17.5921C5.578 12.7068 9.52256 8.76221 14.4079 8.76221C14.8445 8.76221 15.1983 9.11608 15.1983 9.55261V16.8017H22.4474C22.884 16.8017 23.2378 17.1556 23.2378 17.5921C23.2378 22.4775 19.2933 26.4221 14.4079 26.4221C9.52256 26.4221 5.578 22.4775 5.578 17.5921ZM13.6175 10.3853C9.97894 10.7775 7.15881 13.847 7.15881 17.5921C7.15881 21.6044 10.3956 24.8412 14.4079 24.8412C18.1531 24.8412 21.2226 22.0211 21.6147 18.3825H14.4079C13.9714 18.3825 13.6175 18.0287 13.6175 17.5921V10.3853Z" />
+    <path
+        android:fillColor="#ffffff"
+        android:pathData="M17.592 6.36841V14.4079H25.6316C25.6541 9.95909 22.0409 6.36841 17.592 6.36841Z" />
+    <path
+        android:fillColor="#ffffff"
+        android:fillType="evenOdd"
+        android:pathData="M16.8016 6.36841C16.8016 5.93188 17.1555 5.578 17.592 5.578C22.4737 5.578 26.4468 9.51978 26.4219 14.4119C26.4197 14.8469 26.0665 15.1983 25.6316 15.1983H17.592C17.1555 15.1983 16.8016 14.8445 16.8016 14.4079V6.36841ZM18.3824 7.20107V13.6175H24.8027C24.4532 10.2417 21.7673 7.56524 18.3824 7.20107Z" />
+    <path
+        android:fillColor="#ffffff"
+        android:pathData="M17.592 9.16864V14.4079H22.8313C22.8313 11.5173 20.5052 9.16864 17.592 9.16864Z" />
+    <path
+        android:fillColor="#ffffff"
+        android:fillType="evenOdd"
+        android:pathData="M16.8016 8.37823H17.592C20.944 8.37823 23.6217 11.083 23.6217 14.4079V15.1983H16.8016V8.37823ZM18.3824 10.0283V13.6175H21.9714C21.6466 11.7929 20.2161 10.3537 18.3824 10.0283Z" />
+</vector>
