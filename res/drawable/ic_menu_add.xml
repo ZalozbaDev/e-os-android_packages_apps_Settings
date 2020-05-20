@@ -1,27 +1,23 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!--
-     Copyright (C) 2015 The Android Open Source Project
-
-     Licensed under the Apache License, Version 2.0 (the "License");
-     you may not use this file except in compliance with the License.
-     You may obtain a copy of the License at
-
-          http://www.apache.org/licenses/LICENSE-2.0
-
-     Unless required by applicable law or agreed to in writing, software
-     distributed under the License is distributed on an "AS IS" BASIS,
-     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-     See the License for the specific language governing permissions and
-     limitations under the License.
--->
-
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
     android:width="24dp"
     android:height="24dp"
-    android:viewportWidth="24.0"
-    android:viewportHeight="24.0"
-    android:tint="?android:attr/colorAccent">
-    <path
-        android:fillColor="#FF000000"
-        android:pathData="M19,13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"/>
+    android:viewportWidth="33"
+    android:viewportHeight="33">
+    <group>
+        <clip-path android:pathData="M0.635,0h32v32h-32z M 0,0" />
+        <path
+            android:fillColor="#24527F"
+            android:pathData="M25.8827,32H7.3873C3.6611,32 0.635,28.9739 0.635,25.2477V6.7523C0.635,3.0261 3.6611,0 7.3873,0H25.8827C29.6089,0 32.635,3.0261 32.635,6.7523V25.2477C32.635,28.9739 29.6089,32 25.8827,32Z" />
+        <group>
+            <clip-path android:pathData="M6.6128,5.9778h20.0444v20.0444h-20.0444z M 0,0" />
+            <path
+                android:fillColor="#ffffff"
+                android:fillType="evenOdd"
+                android:pathData="M6.6128,16C6.6128,15.5705 6.961,15.2222 7.3906,15.2222H25.8795C26.309,15.2222 26.6572,15.5705 26.6572,16C26.6572,16.4296 26.309,16.7778 25.8795,16.7778H7.3906C6.961,16.7778 6.6128,16.4296 6.6128,16Z" />
+            <path
+                android:fillColor="#ffffff"
+                android:fillType="evenOdd"
+                android:pathData="M16.635,5.9778C17.0645,5.9778 17.4127,6.326 17.4127,6.7556V25.2445C17.4127,25.674 17.0645,26.0222 16.635,26.0222C16.2054,26.0222 15.8572,25.674 15.8572,25.2445V6.7556C15.8572,6.326 16.2054,5.9778 16.635,5.9778Z" />
+        </group>
+    </group>
 </vector>
