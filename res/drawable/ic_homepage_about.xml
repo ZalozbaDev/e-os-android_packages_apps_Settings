@@ -14,23 +14,24 @@
   See the License for the specific language governing permissions and
   limitations under the License.
   -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="@dimen/dashboard_tile_image_size"
+    android:height="@dimen/dashboard_tile_image_size"
+    android:viewportWidth="32"
+    android:viewportHeight="32">
 
-<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
-
-    <item>
-        <shape android:shape="oval">
-            <solid
-                android:color="@color/homepage_about_background" />
-            <size
-                android:width="@dimen/dashboard_tile_image_size"
-                android:height="@dimen/dashboard_tile_image_size" />
-        </shape>
-    </item>
-
-    <item
-        android:width="@dimen/dashboard_tile_foreground_image_size"
-        android:height="@dimen/dashboard_tile_foreground_image_size"
-        android:start="@dimen/dashboard_tile_foreground_image_inset"
-        android:top="@dimen/dashboard_tile_foreground_image_inset"
-        android:drawable="@drawable/ic_phone_info" />
-</layer-list>
+    <path
+        android:fillColor="#2CCF69"
+        android:pathData="M25.2477 32H6.75229C3.02611 32 0 28.9739 0 25.2477V6.75229C0 3.02611 3.02611 0 6.75229 0H25.2477C28.9739 0 32 3.02611 32 6.75229V25.2477C32 28.9739 28.9739 32 25.2477 32Z" />
+    <path
+        android:fillColor="#ffffff"
+        android:fillType="evenOdd"
+        android:pathData="M16.0113 7.00073C11.0349 7.00073 7.00073 11.0349 7.00073 16.0113C7.00073 20.9877 11.0349 25.0219 16.0113 25.0219C20.9877 25.0219 25.0219 20.9877 25.0219 16.0113C25.0219 11.0349 20.9877 7.00073 16.0113 7.00073ZM5.41992 16.0113C5.41992 10.1619 10.1619 5.41992 16.0113 5.41992C21.8608 5.41992 26.6027 10.1619 26.6027 16.0113C26.6027 21.8608 21.8608 26.6027 16.0113 26.6027C10.1619 26.6027 5.41992 21.8608 5.41992 16.0113Z" />
+    <path
+        android:fillColor="#ffffff"
+        android:fillType="evenOdd"
+        android:pathData="M16.0114 14.0012C16.4479 14.0012 16.8018 14.3551 16.8018 14.7916V21.0019C16.8018 21.4385 16.4479 21.7923 16.0114 21.7923C15.5748 21.7923 15.2209 21.4385 15.2209 21.0019V14.7916C15.2209 14.3551 15.5748 14.0012 16.0114 14.0012Z" />
+    <path
+        android:fillColor="#ffffff"
+        android:pathData="M16.0113 12.7141C16.61 12.7141 17.0953 12.2288 17.0953 11.6301C17.0953 11.0315 16.61 10.5461 16.0113 10.5461C15.4127 10.5461 14.9274 11.0315 14.9274 11.6301C14.9274 12.2288 15.4127 12.7141 16.0113 12.7141Z" />
+</vector>

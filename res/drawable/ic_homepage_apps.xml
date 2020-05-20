@@ -14,23 +14,32 @@
   See the License for the specific language governing permissions and
   limitations under the License.
   -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="@dimen/dashboard_tile_image_size"
+    android:height="@dimen/dashboard_tile_image_size"
+    android:viewportWidth="32"
+    android:viewportHeight="32">
 
-<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
-
-    <item>
-        <shape android:shape="oval">
-            <solid
-                android:color="@color/homepage_app_and_notification_background" />
-            <size
-                android:width="@dimen/dashboard_tile_image_size"
-                android:height="@dimen/dashboard_tile_image_size" />
-        </shape>
-    </item>
-
-    <item
-        android:width="@dimen/dashboard_tile_foreground_image_size"
-        android:height="@dimen/dashboard_tile_foreground_image_size"
-        android:start="@dimen/dashboard_tile_foreground_image_inset"
-        android:top="@dimen/dashboard_tile_foreground_image_inset"
-        android:drawable="@drawable/ic_apps" />
-</layer-list>
+    <path
+        android:fillColor="#E83A52"
+        android:pathData="M25.2477 32H6.75229C3.02611 32 0 28.9739 0 25.2477V6.75229C0 3.02611 3.02611 0 6.75229 0H25.2477C28.9739 0 32 3.02611 32 6.75229V25.2477C32 28.9739 28.9739 32 25.2477 32Z" />
+    <path
+        android:fillColor="#ffffff"
+        android:fillType="evenOdd"
+        android:pathData="M6.7749 7.5653C6.7749 7.12878 7.12878 6.7749 7.5653 6.7749H13.6401C14.0766 6.7749 14.4305 7.12878 14.4305 7.5653V13.6401C14.4305 14.0766 14.0766 14.4305 13.6401 14.4305H7.5653C7.12878 14.4305 6.7749 14.0766 6.7749 13.6401V7.5653ZM8.35571 8.35571V12.8497H12.8497V8.35571H8.35571Z" />
+    <path
+        android:fillColor="#ffffff"
+        android:pathData="M24.4348 7.56531H18.36V13.6401H24.4348V7.56531Z" />
+    <path
+        android:fillColor="#ffffff"
+        android:fillType="evenOdd"
+        android:pathData="M17.5696 7.5653C17.5696 7.12878 17.9235 6.7749 18.36 6.7749H24.4348C24.8713 6.7749 25.2252 7.12878 25.2252 7.5653V13.6401C25.2252 14.0766 24.8713 14.4305 24.4348 14.4305H18.36C17.9235 14.4305 17.5696 14.0766 17.5696 13.6401V7.5653ZM19.1504 8.35571V12.8497H23.6444V8.35571H19.1504Z" />
+    <path
+        android:fillColor="#ffffff"
+        android:fillType="evenOdd"
+        android:pathData="M6.7749 18.36C6.7749 17.9235 7.12878 17.5696 7.5653 17.5696H13.6401C14.0766 17.5696 14.4305 17.9235 14.4305 18.36V24.4348C14.4305 24.8713 14.0766 25.2252 13.6401 25.2252H7.5653C7.12878 25.2252 6.7749 24.8713 6.7749 24.4348V18.36ZM8.35571 19.1504V23.6444H12.8497V19.1504H8.35571Z" />
+    <path
+        android:fillColor="#ffffff"
+        android:fillType="evenOdd"
+        android:pathData="M17.5696 18.36C17.5696 17.9235 17.9235 17.5696 18.36 17.5696H24.4348C24.8713 17.5696 25.2252 17.9235 25.2252 18.36V24.4348C25.2252 24.8713 24.8713 25.2252 24.4348 25.2252H18.36C17.9235 25.2252 17.5696 24.8713 17.5696 24.4348V18.36ZM19.1504 19.1504V23.6444H23.6444V19.1504H19.1504Z" />
+</vector>
