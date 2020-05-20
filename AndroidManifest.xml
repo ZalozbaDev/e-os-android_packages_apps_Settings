@@ -3312,7 +3312,7 @@
         <!-- /e/ specific changes -->
         <activity android:name="Settings$MicroGActivity"
             android:label="@string/micro_g"
-            android:icon="@drawable/ic_microg_settings">
+            android:icon="@drawable/ic_homepage_microg">
             <intent-filter android:priority="1">
                 <action android:name="android.settings.MICROG_SETTINGS" />
                 <category android:name="android.intent.category.DEFAULT" />
@@ -3328,7 +3328,7 @@
 
         <activity android:name="Settings$OpenKeychainActivity"
             android:label="@string/open_keychain"
-            android:icon="@drawable/ic_open_keychain">
+            android:icon="@drawable/ic_homepage_openkeychain">
             <intent-filter android:priority="1">
                 <action android:name="android.settings.OPENKEYCHAIN_SETTINGS" />
                 <category android:name="android.intent.category.DEFAULT" />

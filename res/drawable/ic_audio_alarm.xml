@@ -1,25 +1,33 @@
-<!--
-Copyright (C) 2014 The Android Open Source Project
-
-   Licensed under the Apache License, Version 2.0 (the "License");
-    you may not use this file except in compliance with the License.
-    You may obtain a copy of the License at
-
-         http://www.apache.org/licenses/LICENSE-2.0
-
-    Unless required by applicable law or agreed to in writing, software
-    distributed under the License is distributed on an "AS IS" BASIS,
-    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-    See the License for the specific language governing permissions and
-    limitations under the License.
--->
+<?xml version="1.0" encoding="utf-8"?>
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
-        android:width="32.0dp"
-        android:height="32.0dp"
-        android:viewportWidth="48.0"
-        android:viewportHeight="48.0"
-        android:tint="@color/red_1">
-    <path
-        android:fillColor="@color/black"
-        android:pathData="M44.0,11.44l-9.19,-7.71 -2.57,3.06 9.19,7.71 2.57,-3.06zm-28.24,-4.66l-2.57,-3.06 -9.19,7.71 2.57,3.06 9.19,-7.71zm9.24,9.22l-3.0,0.0l0.0,12.0l9.49,5.71 1.51,-2.47 -8.0,-4.74l0.0,-10.5zm-1.01,-8.0c-9.95,0.0 -17.99,8.06 -17.99,18.0s8.04,18.0 17.99,18.0 18.01,-8.06 18.01,-18.0 -8.06,-18.0 -18.01,-18.0zm0.01,32.0c-7.73,0.0 -14.0,-6.27 -14.0,-14.0s6.27,-14.0 14.0,-14.0 14.0,6.27 14.0,14.0 -6.26,14.0 -14.0,14.0z"/>
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="32"
+    android:viewportHeight="33">
+
+    <group>
+        <path
+            android:fillColor="#FF7301"
+            android:pathData="M25.2477 32.5271H6.75229C3.02611 32.5271 0 29.501 0 25.7748V7.27939C0 3.55321 3.02611 0.5271 6.75229 0.5271H25.2477C28.9739 0.5271 32 3.55321 32 7.27939V25.7748C32 29.501 28.9739 32.5271 25.2477 32.5271Z" />
+        <group>
+            <path
+                android:fillColor="#0088ED"
+                android:pathData="M7.09998 8.14918C6.29998 8.94918 6.01109 9.9714 6.47776 10.4381L9.38887 7.52696C8.9222 7.06029 7.89998 7.34918 7.09998 8.14918Z" />
+            <path
+                android:fillColor="#ffffff"
+                android:pathData="M6.47781 11.2158C6.27781 11.2158 6.07781 11.1492 5.92226 10.9936C5.50003 10.5714 5.3667 9.92694 5.5667 9.21583C5.72226 8.66027 6.05559 8.0825 6.54448 7.59361C7.70004 6.46027 9.14448 6.19361 9.92226 6.97138C10.0778 7.12694 10.1445 7.30472 10.1445 7.52694C10.1445 7.72694 10.0556 7.92694 9.92226 8.0825L7.03337 10.9936C6.87781 11.1269 6.67781 11.2158 6.47781 11.2158Z" />
+            <path
+                android:fillColor="#0088ED"
+                android:pathData="M24.9001 8.14918C25.7001 8.94918 25.989 9.9714 25.5223 10.4381L22.6334 7.52696C23.0779 7.06029 24.1001 7.34918 24.9001 8.14918Z" />
+            <path
+                android:fillColor="#ffffff"
+                android:pathData="M25.5223 11.2159C25.3223 11.2159 25.1223 11.1492 24.9667 10.9937L22.0778 8.08256C21.9223 7.92701 21.8556 7.74923 21.8556 7.52701C21.8556 7.32701 21.9445 7.12701 22.0778 6.97145C22.5 6.54923 23.1445 6.4159 23.8556 6.6159C24.4111 6.77145 24.9889 7.12701 25.4778 7.59367C25.9667 8.08256 26.3 8.66034 26.4556 9.2159C26.6556 9.92701 26.5223 10.5715 26.1 10.9937C25.9223 11.127 25.7223 11.2159 25.5223 11.2159Z" />
+            <path
+                android:fillColor="#ffffff"
+                android:pathData="M16.0111 9.26039C20.3444 9.26039 23.8778 12.7715 23.8778 17.1271C23.8555 21.4604 20.3444 24.9715 16.0111 24.9715C11.6555 24.9715 8.14442 21.4604 8.14442 17.1271C8.14442 12.7715 11.6555 9.26039 16.0111 9.26039ZM16.0111 7.70483C10.8111 7.70483 6.58887 11.9271 6.58887 17.1271C6.58887 22.3048 10.8111 26.5271 16.0111 26.5271C21.2111 26.5271 25.4333 22.3048 25.4333 17.1048C25.4111 11.9271 21.1889 7.70483 16.0111 7.70483Z" />
+            <path
+                android:fillColor="#ffffff"
+                android:pathData="M16.0112 17.9048H12.3446C11.9223 17.9048 11.5668 17.5492 11.5668 17.127C11.5668 16.7048 11.9223 16.3492 12.3446 16.3492H15.2112V11.7936C15.2112 11.3714 15.5668 11.0159 15.989 11.0159C16.4112 11.0159 16.7668 11.3714 16.7668 11.7936V17.127C16.789 17.5492 16.4334 17.9048 16.0112 17.9048Z" />
+        </group>
+    </group>
 </vector>
