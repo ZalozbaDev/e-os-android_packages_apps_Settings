@@ -1,28 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--
-     Copyright (C) 2016 The CyanogenMod Project
-     Copyright (C) 2018 The LineageOS Project
-
-     Licensed under the Apache License, Version 2.0 (the "License");
-     you may not use this file except in compliance with the License.
-     You may obtain a copy of the License at
-
-          http://www.apache.org/licenses/LICENSE-2.0
-
-     Unless required by applicable law or agreed to in writing, software
-     distributed under the License is distributed on an "AS IS" BASIS,
-     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-     See the License for the specific language governing permissions and
-     limitations under the License.
--->
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
-    android:width="32dp"
-    android:height="32dp"
-    android:viewportWidth="24"
-    android:viewportHeight="24"
-    android:tint="?android:attr/colorControlNormal">
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="33"
+    android:viewportHeight="33">
 
-    <path
-        android:fillColor="@android:color/black"
-        android:pathData="M10,21H14A2,2 0 0,1 12,23A2,2 0 0,1 10,21M21,19V20H3V19L5,17V11C5,7.9 7.03,5.17 10,4.29C10,4.19 10,4.1 10,4A2,2 0 0,1 12,2A2,2 0 0,1 14,4C14,4.1 14,4.19 14,4.29C16.97,5.17 19,7.9 19,11V17L21,19M17,11A5,5 0 0,0 12,6A5,5 0 0,0 7,11V18H17V11M19.75,3.19L18.33,4.61C20.04,6.3 21,8.6 21,11H23C23,8.07 21.84,5.25 19.75,3.19M1,11H3C3,8.6 3.96,6.3 5.67,4.61L4.25,3.19C2.16,5.25 1,8.07 1,11Z" />
+    <group>
+        <path
+            android:fillColor="#FF7301"
+            android:pathData="M25.8827 32H7.3873C3.66112 32 0.63501 28.9739 0.63501 25.2477V6.75229C0.63501 3.02611 3.66112 0 7.3873 0H25.8827C29.6089 0 32.635 3.02611 32.635 6.75229V25.2477C32.635 28.9739 29.6089 32 25.8827 32Z" />
+        <group>
+            <path
+                android:fillColor="#ffffff"
+                android:fillType="evenOdd"
+                android:pathData="M14.3572 24.3555C14.3572 23.926 14.7054 23.5778 15.135 23.5778H18.1794C18.3893 23.5778 18.5903 23.6626 18.7368 23.813C18.8832 23.9635 18.9626 24.1667 18.9569 24.3766C18.9236 25.6077 17.9019 26.6444 16.6461 26.6444C15.3646 26.6444 14.3572 25.5998 14.3572 24.3555Z" />
+            <path
+                android:fillColor="#ffffff"
+                android:fillType="evenOdd"
+                android:pathData="M16.6459 6.91109C16.1199 6.91109 15.6903 7.34064 15.6903 7.86664C15.6903 8.2962 15.3421 8.64442 14.9125 8.64442C14.483 8.64442 14.1348 8.2962 14.1348 7.86664C14.1348 6.48153 15.2608 5.35553 16.6459 5.35553C18.031 5.35553 19.157 6.48153 19.157 7.86664C19.157 8.2962 18.8088 8.64442 18.3792 8.64442C17.9497 8.64442 17.6014 8.2962 17.6014 7.86664C17.6014 7.34064 17.1719 6.91109 16.6459 6.91109Z" />
+            <path
+                android:fillColor="#ffffff"
+                android:fillType="evenOdd"
+                android:pathData="M16.5198 8.82234C19.8893 8.74677 22.6237 11.5879 22.6237 14.9111V18.1778C22.6237 18.803 22.9112 19.3933 23.4237 19.7778C23.427 19.7802 23.4302 19.7826 23.4334 19.7851L25.0112 21.0073C25.2741 21.211 25.3784 21.5592 25.2708 21.8739C25.1632 22.1885 24.8674 22.4 24.5349 22.4H8.75707C8.42452 22.4 8.12876 22.1885 8.02115 21.8739C7.91353 21.5592 8.01787 21.211 8.28076 21.0073L9.85854 19.7851L9.85872 19.785C10.3511 19.4037 10.646 18.7895 10.646 18.1555V14.8C10.646 11.5311 13.2748 8.87493 16.5198 8.82234ZM21.0682 14.9111C21.0682 12.4129 19.0042 10.3214 16.5527 10.3775L16.5471 10.3777C14.149 10.4154 12.2015 12.3809 12.2015 14.8V18.1555C12.2015 19.1675 11.7734 20.1586 11.0147 20.8444H22.2717C21.499 20.1642 21.0682 19.1937 21.0682 18.1778V14.9111Z" />
+            <path
+                android:fillColor="#ffffff"
+                android:fillType="evenOdd"
+                android:pathData="M6.35718 14.3555C6.35718 13.926 6.7054 13.5778 7.13496 13.5778H8.09051C8.52007 13.5778 8.86829 13.926 8.86829 14.3555C8.86829 14.7851 8.52007 15.1333 8.09051 15.1333H7.13496C6.7054 15.1333 6.35718 14.7851 6.35718 14.3555Z" />
+            <path
+                android:fillColor="#ffffff"
+                android:fillType="evenOdd"
+                android:pathData="M24.4238 14.3555C24.4238 13.926 24.7721 13.5778 25.2016 13.5778H26.1349C26.5645 13.5778 26.9127 13.926 26.9127 14.3555C26.9127 14.7851 26.5645 15.1333 26.1349 15.1333H25.2016C24.7721 15.1333 24.4238 14.7851 24.4238 14.3555Z" />
+            <path
+                android:fillColor="#ffffff"
+                android:fillType="evenOdd"
+                android:pathData="M9.36282 7.07223C9.66656 6.76849 10.159 6.76849 10.4628 7.07223L11.1294 7.73889C11.4332 8.04264 11.4332 8.5351 11.1294 8.83884C10.8257 9.14258 10.3332 9.14258 10.0295 8.83884L9.36282 8.17217C9.05907 7.86843 9.05907 7.37597 9.36282 7.07223Z" />
+            <path
+                android:fillColor="#ffffff"
+                android:fillType="evenOdd"
+                android:pathData="M23.9073 7.07223C24.211 7.37597 24.211 7.86843 23.9073 8.17217L23.2406 8.83884C22.9369 9.14258 22.4444 9.14258 22.1406 8.83884C21.8369 8.5351 21.8369 8.04264 22.1406 7.73889L22.8073 7.07223C23.1111 6.76849 23.6035 6.76849 23.9073 7.07223Z" />
+        </group>
+    </group>
 </vector>
