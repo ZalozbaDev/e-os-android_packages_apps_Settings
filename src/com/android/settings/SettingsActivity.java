@@ -851,7 +851,7 @@ public class SettingsActivity extends SettingsDrawerActivity
         // Enable/disable backup settings depending on whether the user is admin.
         // /e/ Do NOT display Backup & reset item for the moment. 
         somethingChanged = setTileEnabled(new ComponentName(packageName,
-                BackupSettingsActivity.class.getName()), true, false)
+                BackupSettingsActivity.class.getName()), true, isAdmin)
                 || somethingChanged;
 
         somethingChanged = setTileEnabled(new ComponentName(packageName,
