@@ -563,11 +563,11 @@
     <string name="crypt_keeper_warn_wipe" msgid="8104921337301750394">"Внимание! Осталось попыток: <xliff:g id="COUNT">^1</xliff:g>. Если вам не удастся выполнить авторизацию, память устройства будет очищена."</string>
     <string name="crypt_keeper_enter_password" msgid="1274917431075529732">"Введите пароль"</string>
     <string name="crypt_keeper_failed_title" msgid="8173654570682244149">"Сбой шифрования"</string>
-    <string name="crypt_keeper_failed_summary" product="tablet" msgid="5977961188966570342">"Данные на вашем планшетном ПК больше недоступны из-за того, что шифрование было прервано. \n\nЧтобы дальше использовать устройство, нужно сбросить настройки. После этого вы сможете восстановить все данные, для которых в аккаунте Google были созданы резервные копии."</string>
-    <string name="crypt_keeper_failed_summary" product="default" msgid="1028716993071131029">"Данные на вашем телефоне больше недоступны из-за того, что шифрование было прервано. \n\nЧтобы дальше использовать устройство, нужно сбросить настройки. После этого вы сможете восстановить все данные, для которых в аккаунте Google были созданы резервные копии."</string>
+    <string name="crypt_keeper_failed_summary" product="tablet" msgid="5977961188966570342">"Данные на вашем планшетном ПК больше недоступны из-за того, что шифрование было прервано. \n\nЧтобы дальше использовать устройство, нужно сбросить настройки. После этого вы сможете восстановить все данные, для которых в аккаунте /e/ были созданы резервные копии."</string>
+    <string name="crypt_keeper_failed_summary" product="default" msgid="1028716993071131029">"Данные на вашем телефоне больше недоступны из-за того, что шифрование было прервано. \n\nЧтобы дальше использовать устройство, нужно сбросить настройки. После этого вы сможете восстановить все данные, для которых в аккаунте /e/ были созданы резервные копии."</string>
     <string name="crypt_keeper_data_corrupt_title" msgid="5920153462176846037">"Не удалось расшифровать"</string>
-    <string name="crypt_keeper_data_corrupt_summary" product="tablet" msgid="4420666705959562753">"Вы ввели правильный пароль, но данные на планшете повреждены.\n\nЧтобы продолжить работу, выполните возврат к заводским настройкам. После этого вы сможете восстановить данные, резервная копия которых хранится в вашем аккаунте Google."</string>
-    <string name="crypt_keeper_data_corrupt_summary" product="default" msgid="3200498792238652367">"Вы ввели правильный пароль, но данные на телефоне повреждены.\n\nЧтобы продолжить работу, выполните возврат к заводским настройкам. После этого вы сможете восстановить данные, резервная копия которых хранится в вашем аккаунте Google."</string>
+    <string name="crypt_keeper_data_corrupt_summary" product="tablet" msgid="4420666705959562753">"Вы ввели правильный пароль, но данные на планшете повреждены.\n\nЧтобы продолжить работу, выполните возврат к заводским настройкам. После этого вы сможете восстановить данные, резервная копия которых хранится в вашем аккаунте /e/."</string>
+    <string name="crypt_keeper_data_corrupt_summary" product="default" msgid="3200498792238652367">"Вы ввели правильный пароль, но данные на телефоне повреждены.\n\nЧтобы продолжить работу, выполните возврат к заводским настройкам. После этого вы сможете восстановить данные, резервная копия которых хранится в вашем аккаунте /e/."</string>
     <string name="crypt_keeper_switch_input_method" msgid="7712732134989470573">"Сменить способ ввода"</string>
     <string name="suggested_lock_settings_title" msgid="7836065447159730217">"Защитите телефон"</string>
     <string name="suggested_lock_settings_summary" product="tablet" msgid="3213718550422761562">"Для защиты планшета настройте блокировку экрана."</string>
@@ -1275,7 +1275,7 @@
     <string name="adaptive_sleep_title_no_permission" msgid="1719759921214237016">"Требуется доступ к камере"</string>
     <string name="adaptive_sleep_summary_no_permission" msgid="5107880175176848307">"Нажмите, чтобы настроить разрешения для сервисов персонализации устройств"</string>
     <string name="adaptive_sleep_description" msgid="1835321775327187860">"Не отключать экран, пока вы смотрите на него"</string>
-    <string name="adaptive_sleep_privacy" msgid="7664570136417980556">"Когда адаптивный спящий режим включен, устройство определяет через фронтальную камеру, смотрит ли кто-то на экран. Эта функция работает только на вашем устройстве. Изображения не сохраняются и не отправляются в Google."</string>
+    <string name="adaptive_sleep_privacy" msgid="7664570136417980556">"Когда адаптивный спящий режим включен, устройство определяет через фронтальную камеру, смотрит ли кто-то на экран. Эта функция работает только на вашем устройстве. Изображения не сохраняются и не отправляются в /e/."</string>
     <string name="adaptive_sleep_contextual_slice_summary" msgid="4920636187115578946">"Не выключать экран, пока вы на него смотрите"</string>
     <string name="night_display_title" msgid="8532432776487216581">"Ночной режим"</string>
     <string name="night_display_text" msgid="4789324042428095383">"В ночном режиме экран приобретает желтоватый оттенок. Это снижает напряжение глаз при тусклом свете и может помочь вам быстрее заснуть."</string>
@@ -1406,7 +1406,7 @@
     <string name="baseband_version" msgid="2600182227599835857">"Прошивка модуля связи"</string>
     <string name="kernel_version" msgid="3513538109381366881">"Версия ядра"</string>
     <string name="build_number" msgid="9009733242117579826">"Номер сборки"</string>
-    <string name="module_version" msgid="1787518340082046658">"Системное обновление Google Play"</string>
+    <string name="module_version" msgid="1787518340082046658">"Системное обновление /e/ Play"</string>
     <string name="device_info_not_available" msgid="4804474466616712326">"Недоступно"</string>
     <string name="device_status_activity_title" msgid="1812666241137263882">"Общая информация"</string>
     <string name="device_status" msgid="7988547478034984649">"Общая информация"</string>
@@ -1672,8 +1672,8 @@
     <string name="reset_esim_error_msg" msgid="4441504470684307370">"Не удалось стереть данные скачанных SIM-карт из-за ошибки.\n\nПерезагрузите устройство и повторите попытку."</string>
     <string name="master_clear_title" msgid="5309249309235959383">"Удалить все данные (сброс к заводским настройкам)"</string>
     <string name="master_clear_short_title" msgid="5331449583601739360">"Удалить все данные"</string>
-    <string name="master_clear_desc" product="tablet" msgid="3114467865487750525">"Будут удалены все данные из "<b>"внутренней памяти"</b>" планшета, в том числе:\n\n"<li>"Ваш аккаунт Google"</li>\n<li>"Настройки/данные системы и приложений"</li>\n<li>"Установленные приложения"</li></string>
-    <string name="master_clear_desc" product="default" msgid="8447637796694856323">"Будут удалены все данные из "<b>"внутренней памяти"</b>" телефона, в том числе:\n\n"<li>"Ваш аккаунт Google"</li>\n<li>"Настройки/данные системы и приложений"</li>\n<li>"Установленные приложения"</li></string>
+    <string name="master_clear_desc" product="tablet" msgid="3114467865487750525">"Будут удалены все данные из "<b>"внутренней памяти"</b>" планшета, в том числе:\n\n"<li>"Ваш аккаунт /e/"</li>\n<li>"Настройки/данные системы и приложений"</li>\n<li>"Установленные приложения"</li></string>
+    <string name="master_clear_desc" product="default" msgid="8447637796694856323">"Будут удалены все данные из "<b>"внутренней памяти"</b>" телефона, в том числе:\n\n"<li>"Ваш аккаунт /e/"</li>\n<li>"Настройки/данные системы и приложений"</li>\n<li>"Установленные приложения"</li></string>
     <string name="master_clear_accounts" product="default" msgid="142220980039357651">\n\n"Аккаунты на этом устройстве:\n"</string>
     <string name="master_clear_other_users_present" product="default" msgid="7492338002408466023">\n\n"На этом устройстве есть другие аккаунты пользователей.\n"</string>
     <string name="master_clear_desc_also_erases_external" msgid="4738661805356792736"><li>"Музыка"</li>\n<li>"Фото"</li>\n<li>"Другие данные"</li></string>
@@ -1768,7 +1768,7 @@
     <string name="assisted_gps_enabled" msgid="6220188450779319248">"Использовать сервер для A-GPS (снимите флажок для менее интенсивного использования сети)"</string>
     <string name="assisted_gps_disabled" msgid="1062496503892849">"Использовать сервер для A-GPS (снимите флажок для улучшения работы GPS)"</string>
     <string name="use_location_title" msgid="1345594777162897654">"Учитывать при поиске"</string>
-    <string name="use_location_summary" msgid="377322574549729921">"Разрешить Google использовать данные о местоположении для улучшения поиска и работы других служб"</string>
+    <string name="use_location_summary" msgid="377322574549729921">"Разрешить /e/ использовать данные о местоположении для улучшения поиска и работы других служб"</string>
     <string name="location_access_title" msgid="4052667453826272040">"Доступ к моим геоданным"</string>
     <string name="location_access_summary" msgid="8634100005481578143">"Разрешить приложениям использовать данные о вашем местоположении"</string>
     <string name="location_sources_heading" msgid="6126965815860570524">"Определение местоположения"</string>
@@ -1784,7 +1784,7 @@
     <string name="safety_and_regulatory_info" msgid="8285048080439298528">"Безопасность и соответствие стандартам"</string>
     <string name="copyright_title" msgid="83245306827757857">"Авторские права"</string>
     <string name="license_title" msgid="8745742085916617540">"Лицензия"</string>
-    <string name="module_license_title" msgid="8705484239826702828">"Лицензии системного обновления Google Play"</string>
+    <string name="module_license_title" msgid="8705484239826702828">"Лицензии системного обновления /e/ Play"</string>
     <string name="terms_title" msgid="2071742973672326073">"Условия использования"</string>
     <string name="webview_license_title" msgid="5832692241345780517">"Системная лицензия WebView"</string>
     <string name="wallpaper_attributions" msgid="3080339190260272255">"Обои"</string>
@@ -2699,7 +2699,7 @@
     <string name="backup_section_title" msgid="6539706829848457794">"Резервное копирование и восстановление"</string>
     <string name="personal_data_section_title" msgid="6368610168625722682">"Возврат к заводским настройкам"</string>
     <string name="backup_data_title" msgid="507663517227498525">"Резервирование данных"</string>
-    <string name="backup_data_summary" msgid="8054551085241427531">"Сохранять резервные копии данных приложений, паролей точек доступа Wi-Fi и настроек на серверах Google"</string>
+    <string name="backup_data_summary" msgid="8054551085241427531">"Сохранять резервные копии данных приложений, паролей точек доступа Wi-Fi и настроек на серверах /e/"</string>
     <string name="backup_configure_account_title" msgid="8574055186903658842">"Аккаунт для резервирования"</string>
     <string name="backup_data_management_title" msgid="6596830198441939702">"Управление резервным аккаунтом"</string>
     <string name="include_app_data_title" msgid="2969603876620594523">"Учитывать данные приложений"</string>
@@ -2708,7 +2708,7 @@
     <string name="backup_inactive_title" msgid="6753265378043349277">"Сервис резервного копирования неактивен"</string>
     <string name="backup_configure_account_default_summary" msgid="5323225330966306690">"Не найдены аккаунты с резервными копиями данных"</string>
     <string name="backup_erase_dialog_title" msgid="5892431263348766484"></string>
-    <string name="backup_erase_dialog_message" msgid="2250872501409574331">"Прекратить резервное копирование паролей точек доступа Wi-Fi, закладок, других настроек и данных приложений, а также удалить все копии с серверов Google?"</string>
+    <string name="backup_erase_dialog_message" msgid="2250872501409574331">"Прекратить резервное копирование паролей точек доступа Wi-Fi, закладок, других настроек и данных приложений, а также удалить все копии с серверов /e/?"</string>
     <string name="fullbackup_erase_dialog_message" msgid="2379053988557486162">"Резервное копирование данных устройства (например, паролей сетей Wi-Fi и журнала звонков), а также данных приложений (например, настроек и файлов) будет прекращено. Данные, скопированные на удаленные серверы, будут удалены. Продолжить?"</string>
     <string name="fullbackup_data_summary" msgid="971587401251601473">"Автоматически копируйте данные устройства (например, пароли сетей Wi-Fi и журнал звонков), а также сведения из приложений (например, настройки и файлы) в удаленное хранилище.\n\nПосле того как вы включите резервное копирование, информация будет периодически сохраняться в удаленном хранилище. Обратите внимание, что данные приложений могут включать конфиденциальную информацию: контакты, сообщения, фотографии и другие сведения, сохраненные приложением на устройстве согласно настройкам разработчика."</string>
     <string name="device_admin_settings_title" msgid="31392408594557070">"Настройки администратора устройства"</string>
@@ -2770,7 +2770,7 @@
     <string name="sync_gmail" msgid="228561698646018808">"Gmail"</string>
     <string name="sync_calendar" msgid="4603704438090387251">"Календарь"</string>
     <string name="sync_contacts" msgid="2376465611511325472">"Контакты"</string>
-    <string name="sync_plug" msgid="7956982719077985381"><font fgcolor="#ffffffff">"Добро пожаловать в Google Sync."</font>\n"Технология синхронизации Google позволяет получать данные о контактах, встречах в календаре и многом другом с любого устройства."</string>
+    <string name="sync_plug" msgid="7956982719077985381"><font fgcolor="#ffffffff">"Добро пожаловать в /e/ Sync."</font>\n"Технология синхронизации /e/ позволяет получать данные о контактах, встречах в календаре и многом другом с любого устройства."</string>
     <string name="header_application_sync_settings" msgid="7427706834875419243">"Настройки синхронизации"</string>
     <string name="header_data_and_synchronization" msgid="453920312552838939">"Cинхронизация данных"</string>
     <string name="preference_change_password_title" msgid="5465821666939825972">"Изменить пароль"</string>
@@ -2853,8 +2853,8 @@
     <string name="data_usage_app_restrict_dialog" msgid="5534272311979978297">"Если будут доступны только мобильные сети, программы, зависящие от фонового режима, могут перестать работать.\n\nУстановите другие параметры передачи данных в настройках приложения."</string>
     <string name="data_usage_restrict_denied_dialog" msgid="8599940395497268584">"Чтобы ограничить передачу данных в фоновом режиме, сначала установите лимит мобильного трафика."</string>
     <string name="data_usage_auto_sync_on_dialog_title" msgid="2048411447974361181">"Включить автосинхронизацию?"</string>
-    <string name="data_usage_auto_sync_on_dialog" product="tablet" msgid="6387714350903085918">"Все изменения в аккаунтах на компьютере будут автоматически копироваться на устройство.\n\nВ некоторых случаях также выполняется обратная синхронизация (например, для аккаунта Google)."</string>
-    <string name="data_usage_auto_sync_on_dialog" product="default" msgid="6457107552266187107">"Все изменения в аккаунтах на компьютере будут автоматически копироваться на устройство.\n\nВ некоторых случаях также выполняется обратная синхронизация (например, для аккаунта Google)."</string>
+    <string name="data_usage_auto_sync_on_dialog" product="tablet" msgid="6387714350903085918">"Все изменения в аккаунтах на компьютере будут автоматически копироваться на устройство.\n\nВ некоторых случаях также выполняется обратная синхронизация (например, для аккаунта /e/)."</string>
+    <string name="data_usage_auto_sync_on_dialog" product="default" msgid="6457107552266187107">"Все изменения в аккаунтах на компьютере будут автоматически копироваться на устройство.\n\nВ некоторых случаях также выполняется обратная синхронизация (например, для аккаунта /e/)."</string>
     <string name="data_usage_auto_sync_off_dialog_title" msgid="1783917145440587470">"Отключить автосинхронизацию?"</string>
     <string name="data_usage_auto_sync_off_dialog" msgid="6523112583569674837">"Расход трафика и энергии будет ниже, но для получения новых данных придется синхронизировать аккаунты вручную. Уведомления о наличии обновлений будут отключены."</string>
     <string name="data_usage_cycle_editor_title" msgid="2019035830921480941">"Сброс статистики"</string>
@@ -4534,7 +4534,7 @@
     <string name="webview_disabled_for_user" msgid="5809886172032644498">"(отключено для пользователя <xliff:g id="USER">%s</xliff:g>)"</string>
     <string name="autofill_app" msgid="7595308061826307921">"Автозаполнение"</string>
     <string name="autofill_keywords" msgid="6260653325195017912">"автоматически, заполнять, автозаполнение"</string>
-    <string name="autofill_confirmation_message" msgid="4888767934273494272">"&lt;b&gt;Подтвердите, что вы доверяете этому приложению&lt;/b&gt; &lt;br/&gt; &lt;br/&gt; &lt;xliff:g id=app_name example=Google Autofill&gt;%1$s&lt;/xliff:g&gt; анализирует содержимое экрана и находит поля, которые можно заполнить автоматически."</string>
+    <string name="autofill_confirmation_message" msgid="4888767934273494272">"&lt;b&gt;Подтвердите, что вы доверяете этому приложению&lt;/b&gt; &lt;br/&gt; &lt;br/&gt; &lt;xliff:g id=app_name example=/e/ Autofill&gt;%1$s&lt;/xliff:g&gt; анализирует содержимое экрана и находит поля, которые можно заполнить автоматически."</string>
     <string name="debug_autofill_category" msgid="5998163555428196185">"Автозаполнение"</string>
     <string name="autofill_logging_level_title" msgid="3733958845861098307">"Ведение журнала"</string>
     <string name="autofill_max_partitions" msgid="7342195529574406366">"Лимит запросов за сеанс"</string>

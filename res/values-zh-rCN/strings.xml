@@ -555,11 +555,11 @@
     <string name="crypt_keeper_warn_wipe" msgid="8104921337301750394">"警告：如果解锁尝试再失败<xliff:g id="COUNT">^1</xliff:g>次，您的设备将被清空！"</string>
     <string name="crypt_keeper_enter_password" msgid="1274917431075529732">"键入密码"</string>
     <string name="crypt_keeper_failed_title" msgid="8173654570682244149">"加密失败"</string>
-    <string name="crypt_keeper_failed_summary" product="tablet" msgid="5977961188966570342">"加密过程中断，无法完成。因此，您已无法再使用平板电脑上的数据。\n\n要继续使用您的平板电脑，您需要恢复出厂设置。恢复出厂设置后对平板电脑进行设置时，您可以将之前备份到Google帐号的所有数据恢复到平板电脑中。"</string>
-    <string name="crypt_keeper_failed_summary" product="default" msgid="1028716993071131029">"加密过程中断，无法完成。因此，您已无法再使用手机上的数据。\n\n要继续使用您的手机，您需要恢复出厂设置。恢复出厂设置后对手机进行设置时，您可以将之前备份到Google帐号的所有数据恢复到手机中。"</string>
+    <string name="crypt_keeper_failed_summary" product="tablet" msgid="5977961188966570342">"加密过程中断，无法完成。因此，您已无法再使用平板电脑上的数据。\n\n要继续使用您的平板电脑，您需要恢复出厂设置。恢复出厂设置后对平板电脑进行设置时，您可以将之前备份到/e/帐号的所有数据恢复到平板电脑中。"</string>
+    <string name="crypt_keeper_failed_summary" product="default" msgid="1028716993071131029">"加密过程中断，无法完成。因此，您已无法再使用手机上的数据。\n\n要继续使用您的手机，您需要恢复出厂设置。恢复出厂设置后对手机进行设置时，您可以将之前备份到/e/帐号的所有数据恢复到手机中。"</string>
     <string name="crypt_keeper_data_corrupt_title" msgid="5920153462176846037">"解密失败"</string>
-    <string name="crypt_keeper_data_corrupt_summary" product="tablet" msgid="4420666705959562753">"您输入的密码正确无误，但遗憾的是，您的数据已损坏。\n\n要继续使用您的平板电脑，您需要将其恢复出厂设置。对恢复出厂设置后的平板电脑进行设置时，您可以恢复之前备份到 Google 帐号的任何数据。"</string>
-    <string name="crypt_keeper_data_corrupt_summary" product="default" msgid="3200498792238652367">"您输入的密码正确无误，但遗憾的是，您的数据已损坏。\n\n要继续使用您的手机，您需要将其恢复出厂设置。对恢复出厂设置后的手机进行设置时，您可以恢复之前备份到 Google 帐号的任何数据。"</string>
+    <string name="crypt_keeper_data_corrupt_summary" product="tablet" msgid="4420666705959562753">"您输入的密码正确无误，但遗憾的是，您的数据已损坏。\n\n要继续使用您的平板电脑，您需要将其恢复出厂设置。对恢复出厂设置后的平板电脑进行设置时，您可以恢复之前备份到 /e/ 帐号的任何数据。"</string>
+    <string name="crypt_keeper_data_corrupt_summary" product="default" msgid="3200498792238652367">"您输入的密码正确无误，但遗憾的是，您的数据已损坏。\n\n要继续使用您的手机，您需要将其恢复出厂设置。对恢复出厂设置后的手机进行设置时，您可以恢复之前备份到 /e/ 帐号的任何数据。"</string>
     <string name="crypt_keeper_switch_input_method" msgid="7712732134989470573">"切换输入法"</string>
     <string name="suggested_lock_settings_title" msgid="7836065447159730217">"保护手机的安全"</string>
     <string name="suggested_lock_settings_summary" product="tablet" msgid="3213718550422761562">"设置屏幕锁定方式以保护平板电脑"</string>
@@ -1237,7 +1237,7 @@
     <string name="adaptive_sleep_title_no_permission" msgid="1719759921214237016">"需要相机访问权限"</string>
     <string name="adaptive_sleep_summary_no_permission" msgid="5107880175176848307">"点按即可管理“设备个性化服务”的权限"</string>
     <string name="adaptive_sleep_description" msgid="1835321775327187860">"在您看着屏幕时，它将不会关闭。"</string>
-    <string name="adaptive_sleep_privacy" msgid="7664570136417980556">"屏幕感知功能会通过前置摄像头来确定是否有人正在看屏幕。这个功能只会在设备上运行，系统绝对不会存储图片或将图片发送给 Google。"</string>
+    <string name="adaptive_sleep_privacy" msgid="7664570136417980556">"屏幕感知功能会通过前置摄像头来确定是否有人正在看屏幕。这个功能只会在设备上运行，系统绝对不会存储图片或将图片发送给 /e/。"</string>
     <string name="adaptive_sleep_contextual_slice_summary" msgid="4920636187115578946">"直视屏幕时让屏幕保持开启"</string>
     <string name="night_display_title" msgid="8532432776487216581">"夜间模式"</string>
     <string name="night_display_text" msgid="4789324042428095383">"夜间模式会将您的屏幕色调调为琥珀色，可让您在光线昏暗的环境下更舒适地查看屏幕或阅读文字，并有助您入睡。"</string>
@@ -1366,7 +1366,7 @@
     <string name="baseband_version" msgid="2600182227599835857">"基带版本"</string>
     <string name="kernel_version" msgid="3513538109381366881">"内核版本"</string>
     <string name="build_number" msgid="9009733242117579826">"版本号"</string>
-    <string name="module_version" msgid="1787518340082046658">"Google Play 系统更新"</string>
+    <string name="module_version" msgid="1787518340082046658">"/e/ Play 系统更新"</string>
     <string name="device_info_not_available" msgid="4804474466616712326">"无法获取"</string>
     <string name="device_status_activity_title" msgid="1812666241137263882">"状态信息"</string>
     <string name="device_status" msgid="7988547478034984649">"状态信息"</string>
@@ -1632,8 +1632,8 @@
     <string name="reset_esim_error_msg" msgid="4441504470684307370">"发生错误，因此无法清除已下载的 SIM 卡。\n\n请重启设备，然后重试。"</string>
     <string name="master_clear_title" msgid="5309249309235959383">"清除所有数据（恢复出厂设置）"</string>
     <string name="master_clear_short_title" msgid="5331449583601739360">"清除所有数据（恢复出厂设置）"</string>
-    <string name="master_clear_desc" product="tablet" msgid="3114467865487750525">"此操作会清除您平板电脑"<b>"内部存储空间"</b>"中的所有数据，包括：\n\n"<li>"您的 Google 帐号"</li>\n<li>"系统和应用的数据和设置"</li>\n<li>"已下载的应用"</li></string>
-    <string name="master_clear_desc" product="default" msgid="8447637796694856323">"此操作会清除您手机"<b>"内部存储空间"</b>"中的所有数据，包括：\n\n"<li>"您的 Google 帐号"</li>\n<li>"系统和应用的数据和设置"</li>\n<li>"已下载的应用"</li></string>
+    <string name="master_clear_desc" product="tablet" msgid="3114467865487750525">"此操作会清除您平板电脑"<b>"内部存储空间"</b>"中的所有数据，包括：\n\n"<li>"您的 /e/ 帐号"</li>\n<li>"系统和应用的数据和设置"</li>\n<li>"已下载的应用"</li></string>
+    <string name="master_clear_desc" product="default" msgid="8447637796694856323">"此操作会清除您手机"<b>"内部存储空间"</b>"中的所有数据，包括：\n\n"<li>"您的 /e/ 帐号"</li>\n<li>"系统和应用的数据和设置"</li>\n<li>"已下载的应用"</li></string>
     <string name="master_clear_accounts" product="default" msgid="142220980039357651">\n\n"目前，您已登录以下帐号：\n"</string>
     <string name="master_clear_other_users_present" product="default" msgid="7492338002408466023">\n\n"此设备上目前还有其他用户。\n"</string>
     <string name="master_clear_desc_also_erases_external" msgid="4738661805356792736"><li>"音乐"</li>\n<li>"照片"</li>\n<li>"其他的用户数据"</li></string>
@@ -1717,7 +1717,7 @@
     <string name="location_scanning_bluetooth_always_scanning_description" msgid="5362988856388462841">"允许应用和服务随时扫描附近的设备（即使蓝牙已关闭）。这可用于改进基于位置的功能和服务。"</string>
     <string name="managed_profile_location_services" msgid="8172092734138341880">"工作用位置信息服务"</string>
     <string name="location_network_based" msgid="5247042890080021887">"WLAN和移动网络位置信息"</string>
-    <string name="location_neighborhood_level" msgid="3668890550358558267">"允许应用使用Google位置信息服务更快地大致了解您所在的位置。系统将收集匿名位置数据并将其发送给Google。"</string>
+    <string name="location_neighborhood_level" msgid="3668890550358558267">"允许应用使用/e/位置信息服务更快地大致了解您所在的位置。系统将收集匿名位置数据并将其发送给/e/。"</string>
     <string name="location_neighborhood_level_wifi" msgid="6227393490651891977">"通过WLAN确定位置"</string>
     <string name="location_gps" msgid="8783616672454701134">"GPS卫星定位"</string>
     <string name="location_street_level" product="tablet" msgid="865953107414742784">"允许应用使用您平板电脑上的GPS定位您的位置"</string>
@@ -1725,8 +1725,8 @@
     <string name="assisted_gps" msgid="1714546606018821498">"使用增强型GPS"</string>
     <string name="assisted_gps_enabled" msgid="6220188450779319248">"使用服务器来辅助GPS（取消选中可降低网络使用率）"</string>
     <string name="assisted_gps_disabled" msgid="1062496503892849">"使用服务器来辅助GPS（取消选中可提高GPS性能）"</string>
-    <string name="use_location_title" msgid="1345594777162897654">"位置信息和Google搜索"</string>
-    <string name="use_location_summary" msgid="377322574549729921">"允许Google使用您的位置信息改善搜索结果和其他服务"</string>
+    <string name="use_location_title" msgid="1345594777162897654">"位置信息和/e/搜索"</string>
+    <string name="use_location_summary" msgid="377322574549729921">"允许/e/使用您的位置信息改善搜索结果和其他服务"</string>
     <string name="location_access_title" msgid="4052667453826272040">"允许使用我的位置信息"</string>
     <string name="location_access_summary" msgid="8634100005481578143">"允许得到您许可的应用使用您的位置信息"</string>
     <string name="location_sources_heading" msgid="6126965815860570524">"位置信息来源"</string>
@@ -1742,7 +1742,7 @@
     <string name="safety_and_regulatory_info" msgid="8285048080439298528">"安全和监管手册"</string>
     <string name="copyright_title" msgid="83245306827757857">"版权"</string>
     <string name="license_title" msgid="8745742085916617540">"许可"</string>
-    <string name="module_license_title" msgid="8705484239826702828">"Google Play 系统更新许可"</string>
+    <string name="module_license_title" msgid="8705484239826702828">"/e/ Play 系统更新许可"</string>
     <string name="terms_title" msgid="2071742973672326073">"条款"</string>
     <string name="webview_license_title" msgid="5832692241345780517">"系统 WebView 许可"</string>
     <string name="wallpaper_attributions" msgid="3080339190260272255">"壁纸"</string>
@@ -2625,7 +2625,7 @@
     <string name="backup_section_title" msgid="6539706829848457794">"备份和还原"</string>
     <string name="personal_data_section_title" msgid="6368610168625722682">"个人数据"</string>
     <string name="backup_data_title" msgid="507663517227498525">"备份我的数据"</string>
-    <string name="backup_data_summary" msgid="8054551085241427531">"将应用数据、WLAN密码和其他设置备份到Google服务器"</string>
+    <string name="backup_data_summary" msgid="8054551085241427531">"将应用数据、WLAN密码和其他设置备份到/e/服务器"</string>
     <string name="backup_configure_account_title" msgid="8574055186903658842">"备份帐号"</string>
     <string name="backup_data_management_title" msgid="6596830198441939702">"管理备份帐号"</string>
     <string name="include_app_data_title" msgid="2969603876620594523">"包括应用数据"</string>
@@ -2634,7 +2634,7 @@
     <string name="backup_inactive_title" msgid="6753265378043349277">"备份服务未启用"</string>
     <string name="backup_configure_account_default_summary" msgid="5323225330966306690">"目前没有帐号存储备份数据"</string>
     <string name="backup_erase_dialog_title" msgid="5892431263348766484"></string>
-    <string name="backup_erase_dialog_message" msgid="2250872501409574331">"要停止备份您的WLAN密码、书签、其他设置和应用数据，并清除Google服务器上的所有副本吗？"</string>
+    <string name="backup_erase_dialog_message" msgid="2250872501409574331">"要停止备份您的WLAN密码、书签、其他设置和应用数据，并清除/e/服务器上的所有副本吗？"</string>
     <string name="fullbackup_erase_dialog_message" msgid="2379053988557486162">"要停止备份设备数据（例如 WLAN 密码和通话记录）和应用数据（例如应用存储的设置和文件），并清除远程服务器上的所有副本吗？"</string>
     <string name="fullbackup_data_summary" msgid="971587401251601473">"自动远程备份设备数据（例如 WLAN 密码和通话记录）和应用数据（例如应用存储的设置和文件）。\n\n启用自动备份功能后，系统会定期远程保存设备和应用数据。应用数据可以是应用根据开发者设置保存的任何数据，包括可能比较敏感的数据（例如通讯录、邮件和照片）。"</string>
     <string name="device_admin_settings_title" msgid="31392408594557070">"设备管理设置"</string>
@@ -2696,7 +2696,7 @@
     <string name="sync_gmail" msgid="228561698646018808">"Gmail"</string>
     <string name="sync_calendar" msgid="4603704438090387251">"日历"</string>
     <string name="sync_contacts" msgid="2376465611511325472">"联系人"</string>
-    <string name="sync_plug" msgid="7956982719077985381"><font fgcolor="#ffffffff">"欢迎使用 Google Sync！"</font>" \n这款数据同步工具可让您随时随地查看您的联系人、约会以及更多信息。"</string>
+    <string name="sync_plug" msgid="7956982719077985381"><font fgcolor="#ffffffff">"欢迎使用 /e/ Sync！"</font>" \n这款数据同步工具可让您随时随地查看您的联系人、约会以及更多信息。"</string>
     <string name="header_application_sync_settings" msgid="7427706834875419243">"应用同步设置"</string>
     <string name="header_data_and_synchronization" msgid="453920312552838939">"数据与同步"</string>
     <string name="preference_change_password_title" msgid="5465821666939825972">"更改密码"</string>
@@ -2779,8 +2779,8 @@
     <string name="data_usage_app_restrict_dialog" msgid="5534272311979978297">"只能连接到移动网络时，此功能可能会导致需要使用后台流量的应用无法正常运行。\n\n您可以在相关应用的设置中为其设定更合适的数据流量控制选项。"</string>
     <string name="data_usage_restrict_denied_dialog" msgid="8599940395497268584">"您必须先设置移动数据流量上限，才能限制后台数据流量。"</string>
     <string name="data_usage_auto_sync_on_dialog_title" msgid="2048411447974361181">"要打开自动同步数据功能吗？"</string>
-    <string name="data_usage_auto_sync_on_dialog" product="tablet" msgid="6387714350903085918">"您在网络上对自己的帐号进行的所有更改都会自动同步到您的平板电脑。\n\n有些帐号还可以将您在平板电脑上进行的所有更改自动同步到网络上。Google 帐号就支持此类双向同步。"</string>
-    <string name="data_usage_auto_sync_on_dialog" product="default" msgid="6457107552266187107">"您在网络上对自己的帐号进行的所有更改都会自动同步到您的手机。\n\n有些帐号还可以将您在手机上进行的所有更改自动同步到网络上。Google 帐号就支持此类双向同步。"</string>
+    <string name="data_usage_auto_sync_on_dialog" product="tablet" msgid="6387714350903085918">"您在网络上对自己的帐号进行的所有更改都会自动同步到您的平板电脑。\n\n有些帐号还可以将您在平板电脑上进行的所有更改自动同步到网络上。/e/ 帐号就支持此类双向同步。"</string>
+    <string name="data_usage_auto_sync_on_dialog" product="default" msgid="6457107552266187107">"您在网络上对自己的帐号进行的所有更改都会自动同步到您的手机。\n\n有些帐号还可以将您在手机上进行的所有更改自动同步到网络上。/e/ 帐号就支持此类双向同步。"</string>
     <string name="data_usage_auto_sync_off_dialog_title" msgid="1783917145440587470">"要关闭自动同步数据功能吗？"</string>
     <string name="data_usage_auto_sync_off_dialog" msgid="6523112583569674837">"这样可以节省数据流量和电池电量，但您需要手动同步每个帐号才能获得最新信息，并且在有更新时不会收到通知。"</string>
     <string name="data_usage_cycle_editor_title" msgid="2019035830921480941">"流量消耗重置日期"</string>
@@ -4374,7 +4374,7 @@
     <string name="webview_disabled_for_user" msgid="5809886172032644498">"（已为用户<xliff:g id="USER">%s</xliff:g>停用）"</string>
     <string name="autofill_app" msgid="7595308061826307921">"自动填充服务"</string>
     <string name="autofill_keywords" msgid="6260653325195017912">"自动, 填充, 自动填充, auto, fill, autofill"</string>
-    <string name="autofill_confirmation_message" msgid="4888767934273494272">"&lt;b&gt;请确认这是您信任的应用&lt;/b&gt; &lt;br/&gt; &lt;br/&gt; &lt;xliff:g id=app_name example=Google Autofill&gt;%1$s&lt;/xliff:g&gt;会根据您的屏幕内容判断可自动填充哪些内容。"</string>
+    <string name="autofill_confirmation_message" msgid="4888767934273494272">"&lt;b&gt;请确认这是您信任的应用&lt;/b&gt; &lt;br/&gt; &lt;br/&gt; &lt;xliff:g id=app_name example=/e/ Autofill&gt;%1$s&lt;/xliff:g&gt;会根据您的屏幕内容判断可自动填充哪些内容。"</string>
     <string name="debug_autofill_category" msgid="5998163555428196185">"自动填充"</string>
     <string name="autofill_logging_level_title" msgid="3733958845861098307">"日志记录级别"</string>
     <string name="autofill_max_partitions" msgid="7342195529574406366">"每次会话的请求数上限"</string>

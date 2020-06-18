@@ -555,11 +555,11 @@
     <string name="crypt_keeper_warn_wipe" msgid="8104921337301750394">"警告: ロック解除にあと<xliff:g id="COUNT">^1</xliff:g>回失敗すると、デバイスのデータが消去されます。"</string>
     <string name="crypt_keeper_enter_password" msgid="1274917431075529732">"パスワードを入力してください"</string>
     <string name="crypt_keeper_failed_title" msgid="8173654570682244149">"暗号化できませんでした"</string>
-    <string name="crypt_keeper_failed_summary" product="tablet" msgid="5977961188966570342">"暗号化処理が中断されて完了できなかったためタブレット上のデータにアクセスできなくなりました。\n\nタブレットの使用を再開するには出荷時設定にリセットする必要があります。リセット後、タブレットのセットアップの段階で、Googleアカウントにバックアップしたデータの復元を選択できます。"</string>
-    <string name="crypt_keeper_failed_summary" product="default" msgid="1028716993071131029">"暗号化処理が中断されて完了できなかったためデバイス上のデータにアクセスできなくなりました。\n\nデバイスの使用を再開するには出荷時設定にリセットする必要があります。リセット後、デバイスのセットアップの段階で、Googleアカウントにバックアップしたデータの復元を選択できます。"</string>
+    <string name="crypt_keeper_failed_summary" product="tablet" msgid="5977961188966570342">"暗号化処理が中断されて完了できなかったためタブレット上のデータにアクセスできなくなりました。\n\nタブレットの使用を再開するには出荷時設定にリセットする必要があります。リセット後、タブレットのセットアップの段階で、/e/アカウントにバックアップしたデータの復元を選択できます。"</string>
+    <string name="crypt_keeper_failed_summary" product="default" msgid="1028716993071131029">"暗号化処理が中断されて完了できなかったためデバイス上のデータにアクセスできなくなりました。\n\nデバイスの使用を再開するには出荷時設定にリセットする必要があります。リセット後、デバイスのセットアップの段階で、/e/アカウントにバックアップしたデータの復元を選択できます。"</string>
     <string name="crypt_keeper_data_corrupt_title" msgid="5920153462176846037">"復号の失敗"</string>
-    <string name="crypt_keeper_data_corrupt_summary" product="tablet" msgid="4420666705959562753">"入力したパスワードは正しいのですが、データが破損しています。\n\nタブレットの使用を再開するには出荷時設定にリセットする必要があります。リセット後、タブレットのセットアップの段階で、Googleアカウントにバックアップしたデータの復元を選択できます。"</string>
-    <string name="crypt_keeper_data_corrupt_summary" product="default" msgid="3200498792238652367">"入力したパスワードは正しいのですが、データが破損しています。\n\nスマートフォンの使用を再開するには出荷時設定にリセットする必要があります。リセット後、スマートフォンのセットアップの段階で、Googleアカウントにバックアップしたデータの復元を選択できます。"</string>
+    <string name="crypt_keeper_data_corrupt_summary" product="tablet" msgid="4420666705959562753">"入力したパスワードは正しいのですが、データが破損しています。\n\nタブレットの使用を再開するには出荷時設定にリセットする必要があります。リセット後、タブレットのセットアップの段階で、/e/アカウントにバックアップしたデータの復元を選択できます。"</string>
+    <string name="crypt_keeper_data_corrupt_summary" product="default" msgid="3200498792238652367">"入力したパスワードは正しいのですが、データが破損しています。\n\nスマートフォンの使用を再開するには出荷時設定にリセットする必要があります。リセット後、スマートフォンのセットアップの段階で、/e/アカウントにバックアップしたデータの復元を選択できます。"</string>
     <string name="crypt_keeper_switch_input_method" msgid="7712732134989470573">"入力方法の切り替え"</string>
     <string name="suggested_lock_settings_title" msgid="7836065447159730217">"スマートフォンの保護"</string>
     <string name="suggested_lock_settings_summary" product="tablet" msgid="3213718550422761562">"画面ロックを設定するとタブレットを保護できます"</string>
@@ -1237,7 +1237,7 @@
     <string name="adaptive_sleep_title_no_permission" msgid="1719759921214237016">"カメラへのアクセス権限が必要です"</string>
     <string name="adaptive_sleep_summary_no_permission" msgid="5107880175176848307">"タップすると、デバイス パーソナライズ サービスのアクセス権限を管理できます"</string>
     <string name="adaptive_sleep_description" msgid="1835321775327187860">"見ている間は画面が OFF になりません"</string>
-    <string name="adaptive_sleep_privacy" msgid="7664570136417980556">"スクリーン アテンションは前面カメラを使用して、ユーザーが画面を見ているかどうかを検出します。この検出はデバイスのみで行われ、画像が保存されたり、Google に送信されたりすることはありません。"</string>
+    <string name="adaptive_sleep_privacy" msgid="7664570136417980556">"スクリーン アテンションは前面カメラを使用して、ユーザーが画面を見ているかどうかを検出します。この検出はデバイスのみで行われ、画像が保存されたり、/e/ に送信されたりすることはありません。"</string>
     <string name="adaptive_sleep_contextual_slice_summary" msgid="4920636187115578946">"見ている間は画面を ON のままにします"</string>
     <string name="night_display_title" msgid="8532432776487216581">"夜間モード"</string>
     <string name="night_display_text" msgid="4789324042428095383">"夜間モードを利用すると画面が黄味がかった色になります。薄明かりの下でも画面を見やすくなり、寝付きを良くする効果も期待できます。"</string>
@@ -1366,7 +1366,7 @@
     <string name="baseband_version" msgid="2600182227599835857">"ベースバンド バージョン"</string>
     <string name="kernel_version" msgid="3513538109381366881">"カーネル バージョン"</string>
     <string name="build_number" msgid="9009733242117579826">"ビルド番号"</string>
-    <string name="module_version" msgid="1787518340082046658">"Google Play システム アップデート"</string>
+    <string name="module_version" msgid="1787518340082046658">"/e/ Play システム アップデート"</string>
     <string name="device_info_not_available" msgid="4804474466616712326">"該当なし"</string>
     <string name="device_status_activity_title" msgid="1812666241137263882">"デバイスの状態"</string>
     <string name="device_status" msgid="7988547478034984649">"デバイスの状態"</string>
@@ -1632,8 +1632,8 @@
     <string name="reset_esim_error_msg" msgid="4441504470684307370">"エラーのためダウンロード型 SIM を消去できません。\n\nデバイスを再起動してもう一度お試しください。"</string>
     <string name="master_clear_title" msgid="5309249309235959383">"すべてのデータを消去（出荷時リセット）"</string>
     <string name="master_clear_short_title" msgid="5331449583601739360">"全データを消去（出荷時リセット）"</string>
-    <string name="master_clear_desc" product="tablet" msgid="3114467865487750525">"この操作を行うと、以下のデータを含め、タブレットの"<b>"内部ストレージ"</b>"の全データが消去されます。\n\n"<li>"Google アカウント"</li>\n<li>"システムやアプリのデータと設定"</li>\n<li>"ダウンロードしたアプリ"</li></string>
-    <string name="master_clear_desc" product="default" msgid="8447637796694856323">"この操作を行うと、以下のデータを含め、スマートフォンの"<b>"内部ストレージ"</b>"の全データが消去されます。\n\n"<li>"Google アカウント"</li>\n<li>"システムやアプリのデータと設定"</li>\n<li>"ダウンロードしたアプリ"</li></string>
+    <string name="master_clear_desc" product="tablet" msgid="3114467865487750525">"この操作を行うと、以下のデータを含め、タブレットの"<b>"内部ストレージ"</b>"の全データが消去されます。\n\n"<li>"/e/ アカウント"</li>\n<li>"システムやアプリのデータと設定"</li>\n<li>"ダウンロードしたアプリ"</li></string>
+    <string name="master_clear_desc" product="default" msgid="8447637796694856323">"この操作を行うと、以下のデータを含め、スマートフォンの"<b>"内部ストレージ"</b>"の全データが消去されます。\n\n"<li>"/e/ アカウント"</li>\n<li>"システムやアプリのデータと設定"</li>\n<li>"ダウンロードしたアプリ"</li></string>
     <string name="master_clear_accounts" product="default" msgid="142220980039357651">\n\n"以下のアカウントにログインしています:\n"</string>
     <string name="master_clear_other_users_present" product="default" msgid="7492338002408466023">\n\n"このデバイスには他にもユーザーがいます。\n"</string>
     <string name="master_clear_desc_also_erases_external" msgid="4738661805356792736"><li>"音楽"</li>\n<li>"画像"</li>\n<li>"他のユーザーデータ"</li></string>
@@ -1717,7 +1717,7 @@
     <string name="location_scanning_bluetooth_always_scanning_description" msgid="5362988856388462841">"アプリやサービスに対し、Bluetooth が OFF の場合でも、常に付近のデバイスをスキャンすることを許可します。この設定は、位置情報を使用する機能やサービスの改善などに役立ちます。"</string>
     <string name="managed_profile_location_services" msgid="8172092734138341880">"仕事用プロファイル向けの位置情報サービス"</string>
     <string name="location_network_based" msgid="5247042890080021887">"Wi-Fi/モバイル接続時の位置情報"</string>
-    <string name="location_neighborhood_level" msgid="3668890550358558267">"Googleの位置情報サービスで現在地をすばやく推定することをアプリに許可します。匿名の現在地データが収集され、Googleに送信されます。"</string>
+    <string name="location_neighborhood_level" msgid="3668890550358558267">"/e/の位置情報サービスで現在地をすばやく推定することをアプリに許可します。匿名の現在地データが収集され、/e/に送信されます。"</string>
     <string name="location_neighborhood_level_wifi" msgid="6227393490651891977">"Wi-Fiで検出される現在地"</string>
     <string name="location_gps" msgid="8783616672454701134">"GPS機能"</string>
     <string name="location_street_level" product="tablet" msgid="865953107414742784">"タブレットでGPSを使用して現在地を特定することをアプリに許可する"</string>
@@ -1725,8 +1725,8 @@
     <string name="assisted_gps" msgid="1714546606018821498">"A-GPSを使用"</string>
     <string name="assisted_gps_enabled" msgid="6220188450779319248">"サーバーでGPSを補助します（OFFにするとネットワーク使用率が減少します）"</string>
     <string name="assisted_gps_disabled" msgid="1062496503892849">"サーバーでGPSを補助します（OFFにするとGPS性能が向上します）"</string>
-    <string name="use_location_title" msgid="1345594777162897654">"位置情報とGoogle検索"</string>
-    <string name="use_location_summary" msgid="377322574549729921">"検索結果やサービスの品質向上にGoogleが現在地情報を使用することを許可する"</string>
+    <string name="use_location_title" msgid="1345594777162897654">"位置情報と/e/検索"</string>
+    <string name="use_location_summary" msgid="377322574549729921">"検索結果やサービスの品質向上に/e/が現在地情報を使用することを許可する"</string>
     <string name="location_access_title" msgid="4052667453826272040">"位置情報にアクセス"</string>
     <string name="location_access_summary" msgid="8634100005481578143">"ユーザーの許可をリクエストしたアプリに位置情報の使用を許可する"</string>
     <string name="location_sources_heading" msgid="6126965815860570524">"位置情報源"</string>
@@ -1742,7 +1742,7 @@
     <string name="safety_and_regulatory_info" msgid="8285048080439298528">"安全と規制に関する情報"</string>
     <string name="copyright_title" msgid="83245306827757857">"著作権"</string>
     <string name="license_title" msgid="8745742085916617540">"ライセンス"</string>
-    <string name="module_license_title" msgid="8705484239826702828">"Google Play システム アップデートのライセンス"</string>
+    <string name="module_license_title" msgid="8705484239826702828">"/e/ Play システム アップデートのライセンス"</string>
     <string name="terms_title" msgid="2071742973672326073">"利用規約"</string>
     <string name="webview_license_title" msgid="5832692241345780517">"システムのWebViewライセンス"</string>
     <string name="wallpaper_attributions" msgid="3080339190260272255">"壁紙"</string>
@@ -2625,7 +2625,7 @@
     <string name="backup_section_title" msgid="6539706829848457794">"バックアップと復元"</string>
     <string name="personal_data_section_title" msgid="6368610168625722682">"個人データ"</string>
     <string name="backup_data_title" msgid="507663517227498525">"データのバックアップ"</string>
-    <string name="backup_data_summary" msgid="8054551085241427531">"アプリのデータ、Wi-Fiパスワード、その他の設定をGoogleサーバーにバックアップする"</string>
+    <string name="backup_data_summary" msgid="8054551085241427531">"アプリのデータ、Wi-Fiパスワード、その他の設定を/e/サーバーにバックアップする"</string>
     <string name="backup_configure_account_title" msgid="8574055186903658842">"バックアップアカウント"</string>
     <string name="backup_data_management_title" msgid="6596830198441939702">"バックアップ アカウントの管理"</string>
     <string name="include_app_data_title" msgid="2969603876620594523">"アプリのデータを含める"</string>
@@ -2634,7 +2634,7 @@
     <string name="backup_inactive_title" msgid="6753265378043349277">"バックアップ サービス無効"</string>
     <string name="backup_configure_account_default_summary" msgid="5323225330966306690">"バックアップデータを保存しているアカウントはありません"</string>
     <string name="backup_erase_dialog_title" msgid="5892431263348766484"></string>
-    <string name="backup_erase_dialog_message" msgid="2250872501409574331">"Wi-Fiパスワード、ブックマーク、その他の設定とアプリのデータのバックアップを停止し、Googleサーバー上のすべてのコピーを消去しますか？"</string>
+    <string name="backup_erase_dialog_message" msgid="2250872501409574331">"Wi-Fiパスワード、ブックマーク、その他の設定とアプリのデータのバックアップを停止し、/e/サーバー上のすべてのコピーを消去しますか？"</string>
     <string name="fullbackup_erase_dialog_message" msgid="2379053988557486162">"デバイスのデータ（Wi-Fiのパスワードや通話履歴など）とアプリのデータ（アプリで保存された設定やファイルなど）のバックアップを停止し、リモートサーバー上のすべてのコピーを消去しますか？"</string>
     <string name="fullbackup_data_summary" msgid="971587401251601473">"デバイスのデータ（Wi-Fiのパスワードや通話履歴など）とアプリのデータ（アプリで保存された設定やファイルなど）を自動的にリモートでバックアップします。\n\n自動バックアップをONにすると、デバイスのデータとアプリのデータは定期的にリモートで保存されます。アプリのデータとしては、連絡先、メッセージ、写真など、機密と見なされるデータを含め、（デベロッパーの設定に基づいて）アプリで保存されたすべてのデータがバックアップされる可能性があります。"</string>
     <string name="device_admin_settings_title" msgid="31392408594557070">"デバイス管理の設定"</string>
@@ -2696,7 +2696,7 @@
     <string name="sync_gmail" msgid="228561698646018808">"Gmail"</string>
     <string name="sync_calendar" msgid="4603704438090387251">"カレンダー"</string>
     <string name="sync_contacts" msgid="2376465611511325472">"連絡先"</string>
-    <string name="sync_plug" msgid="7956982719077985381"><font fgcolor="#ffffffff">"Google Syncへようこそ"</font>\n"このサービスを使用すると、データを同期してどこからでも連絡先や予定などにアクセスできます。"</string>
+    <string name="sync_plug" msgid="7956982719077985381"><font fgcolor="#ffffffff">"/e/ Syncへようこそ"</font>\n"このサービスを使用すると、データを同期してどこからでも連絡先や予定などにアクセスできます。"</string>
     <string name="header_application_sync_settings" msgid="7427706834875419243">"アプリの同期設定"</string>
     <string name="header_data_and_synchronization" msgid="453920312552838939">"データと同期"</string>
     <string name="preference_change_password_title" msgid="5465821666939825972">"パスワードを変更"</string>
@@ -2779,8 +2779,8 @@
     <string name="data_usage_app_restrict_dialog" msgid="5534272311979978297">"この機能をONにすると、モバイルネットワークしか使用できない場合にバックグラウンドデータに依存するアプリが停止する可能性があります。\n\nデータ使用をより適切に管理できるオプションがアプリの設定画面にないかどうかを確認してください。"</string>
     <string name="data_usage_restrict_denied_dialog" msgid="8599940395497268584">"バックグラウンド データを制限できるのは、モバイルデータの上限が設定済みの場合のみです。"</string>
     <string name="data_usage_auto_sync_on_dialog_title" msgid="2048411447974361181">"データ自動同期をONにしますか？"</string>
-    <string name="data_usage_auto_sync_on_dialog" product="tablet" msgid="6387714350903085918">"ウェブでアカウントに変更を加えると自動的にタブレットに反映されます。\n\nGoogleアカウントなど、アカウントによっては、タブレットで変更を加えた場合も自動的にウェブに反映されます。"</string>
-    <string name="data_usage_auto_sync_on_dialog" product="default" msgid="6457107552266187107">"ウェブでアカウントに変更を加えると自動的にスマートフォンに反映されます。\n\nGoogleアカウントなど、アカウントによっては、スマートフォンで変更を加えた場合も自動的にウェブに反映されます。"</string>
+    <string name="data_usage_auto_sync_on_dialog" product="tablet" msgid="6387714350903085918">"ウェブでアカウントに変更を加えると自動的にタブレットに反映されます。\n\n/e/アカウントなど、アカウントによっては、タブレットで変更を加えた場合も自動的にウェブに反映されます。"</string>
+    <string name="data_usage_auto_sync_on_dialog" product="default" msgid="6457107552266187107">"ウェブでアカウントに変更を加えると自動的にスマートフォンに反映されます。\n\n/e/アカウントなど、アカウントによっては、スマートフォンで変更を加えた場合も自動的にウェブに反映されます。"</string>
     <string name="data_usage_auto_sync_off_dialog_title" msgid="1783917145440587470">"データ自動同期をOFFにしますか？"</string>
     <string name="data_usage_auto_sync_off_dialog" msgid="6523112583569674837">"無効にすると、データと電池の使用を節約できますが、最新情報を取得するには手動で各アカウントを同期する必要があります。また、更新があったときに通知されません。"</string>
     <string name="data_usage_cycle_editor_title" msgid="2019035830921480941">"使用サイクルのリセット日"</string>
@@ -4374,7 +4374,7 @@
     <string name="webview_disabled_for_user" msgid="5809886172032644498">"（<xliff:g id="USER">%s</xliff:g> では無効）"</string>
     <string name="autofill_app" msgid="7595308061826307921">"自動入力サービス"</string>
     <string name="autofill_keywords" msgid="6260653325195017912">"自動, 入力, 自動入力"</string>
-    <string name="autofill_confirmation_message" msgid="4888767934273494272">"&lt;b&gt;このアプリが信頼できることを確認してください&lt;/b&gt; &lt;br/&gt; &lt;br/&gt; &lt;xliff:g id=app_name example=Google Autofill&gt;%1$s&lt;/xliff:g&gt; は画面上の内容に基づいて、入力可能な情報を判別します。"</string>
+    <string name="autofill_confirmation_message" msgid="4888767934273494272">"&lt;b&gt;このアプリが信頼できることを確認してください&lt;/b&gt; &lt;br/&gt; &lt;br/&gt; &lt;xliff:g id=app_name example=/e/ Autofill&gt;%1$s&lt;/xliff:g&gt; は画面上の内容に基づいて、入力可能な情報を判別します。"</string>
     <string name="debug_autofill_category" msgid="5998163555428196185">"自動入力"</string>
     <string name="autofill_logging_level_title" msgid="3733958845861098307">"ロギングレベル"</string>
     <string name="autofill_max_partitions" msgid="7342195529574406366">"セッションごとの最大リクエスト数"</string>

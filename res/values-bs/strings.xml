@@ -559,11 +559,11 @@
     <string name="crypt_keeper_warn_wipe" msgid="8104921337301750394">"Upozorenje: Preostalo vam je <xliff:g id="COUNT">^1</xliff:g> pokušaja otključavanja, nakon čega će sadržaj vašeg uređaja biti izbrisan!"</string>
     <string name="crypt_keeper_enter_password" msgid="1274917431075529732">"Otkucajte lozinku"</string>
     <string name="crypt_keeper_failed_title" msgid="8173654570682244149">"Šifriranje nije uspjelo"</string>
-    <string name="crypt_keeper_failed_summary" product="tablet" msgid="5977961188966570342">"Šifriranje je prekinuto te se ne može završiti. Zbog toga podaci sa vašeg tableta više nisu dostupni. \n\n Da biste nastavili koristiti tablet, treba da izvršite vraćanje tableta na fabričke postavke. Nakon što izvršite postavke tableta nakon vraćanja na fabričke postavke, moći ćete vratiti sve podatke za koje postoji sigurnosna kopija na Google računu."</string>
-    <string name="crypt_keeper_failed_summary" product="default" msgid="1028716993071131029">"Šifriranje je prekinuto te se ne može završiti. Zbog toga podaci sa vašeg telefona više nisu dostupni. \n\nDa biste nastavili koristiti telefon, treba da izvršite vraćanje telefona na fabričke postavke. Nakon što izvršite postavke telefona nakon vraćanja na fabričke postavke, moći ćete vratiti sve podatke za koje postoji sigurnosna kopija na Google računu."</string>
+    <string name="crypt_keeper_failed_summary" product="tablet" msgid="5977961188966570342">"Šifriranje je prekinuto te se ne može završiti. Zbog toga podaci sa vašeg tableta više nisu dostupni. \n\n Da biste nastavili koristiti tablet, treba da izvršite vraćanje tableta na fabričke postavke. Nakon što izvršite postavke tableta nakon vraćanja na fabričke postavke, moći ćete vratiti sve podatke za koje postoji sigurnosna kopija na /e/ računu."</string>
+    <string name="crypt_keeper_failed_summary" product="default" msgid="1028716993071131029">"Šifriranje je prekinuto te se ne može završiti. Zbog toga podaci sa vašeg telefona više nisu dostupni. \n\nDa biste nastavili koristiti telefon, treba da izvršite vraćanje telefona na fabričke postavke. Nakon što izvršite postavke telefona nakon vraćanja na fabričke postavke, moći ćete vratiti sve podatke za koje postoji sigurnosna kopija na /e/ računu."</string>
     <string name="crypt_keeper_data_corrupt_title" msgid="5920153462176846037">"Dešifriranje nije uspjelo"</string>
-    <string name="crypt_keeper_data_corrupt_summary" product="tablet" msgid="4420666705959562753">"Unesena lozinka je ispravna, ali nažalost vaši podaci su oštećeni. \n\nDa biste nastavili koristiti tablet, morate izvršiti vraćanje na fabričke postavke. Prilikom podešavanja tableta nakon ponovnog postavljanja, imat ćete priliku da vratite podatke čija sigurnosna kopija je spremljena u vaš Google račun."</string>
-    <string name="crypt_keeper_data_corrupt_summary" product="default" msgid="3200498792238652367">"Unesena lozinka je ispravna, ali nažalost vaši podaci su oštećeni. \n\nDa biste nastavili koristiti telefon, morate izvršiti vraćanje na fabričke postavke. Prilikom podešavanja telefona nakon ponovnog postavljanja, imat ćete priliku da vratite podatke čija sigurnosna kopija je spremljena u vaš Google račun."</string>
+    <string name="crypt_keeper_data_corrupt_summary" product="tablet" msgid="4420666705959562753">"Unesena lozinka je ispravna, ali nažalost vaši podaci su oštećeni. \n\nDa biste nastavili koristiti tablet, morate izvršiti vraćanje na fabričke postavke. Prilikom podešavanja tableta nakon ponovnog postavljanja, imat ćete priliku da vratite podatke čija sigurnosna kopija je spremljena u vaš /e/ račun."</string>
+    <string name="crypt_keeper_data_corrupt_summary" product="default" msgid="3200498792238652367">"Unesena lozinka je ispravna, ali nažalost vaši podaci su oštećeni. \n\nDa biste nastavili koristiti telefon, morate izvršiti vraćanje na fabričke postavke. Prilikom podešavanja telefona nakon ponovnog postavljanja, imat ćete priliku da vratite podatke čija sigurnosna kopija je spremljena u vaš /e/ račun."</string>
     <string name="crypt_keeper_switch_input_method" msgid="7712732134989470573">"Promjena načina unosa"</string>
     <string name="suggested_lock_settings_title" msgid="7836065447159730217">"Zaštitite telefon"</string>
     <string name="suggested_lock_settings_summary" product="tablet" msgid="3213718550422761562">"Postavite zaključavanje ekrana da zaštitite tablet"</string>
@@ -1256,7 +1256,7 @@
     <string name="adaptive_sleep_title_no_permission" msgid="1719759921214237016">"Potreban je pristup kameri"</string>
     <string name="adaptive_sleep_summary_no_permission" msgid="5107880175176848307">"Dodirnite da upravljate odobrenjima za Usluge personalizacije uređaja"</string>
     <string name="adaptive_sleep_description" msgid="1835321775327187860">"Sprečava isključivanje ekrana ako gledate u njega"</string>
-    <string name="adaptive_sleep_privacy" msgid="7664570136417980556">"Funkcija Svjesni ekran koristi prednju kameru da utvrdi gleda li neko u ekran. Funkcionira na uređaju, a slike se nikada ne arhiviraju niti šalju Googleu."</string>
+    <string name="adaptive_sleep_privacy" msgid="7664570136417980556">"Funkcija Svjesni ekran koristi prednju kameru da utvrdi gleda li neko u ekran. Funkcionira na uređaju, a slike se nikada ne arhiviraju niti šalju /e/u."</string>
     <string name="adaptive_sleep_contextual_slice_summary" msgid="4920636187115578946">"Neka ekran ostane uključen dok ga gledate"</string>
     <string name="night_display_title" msgid="8532432776487216581">"Noćno svjetlo"</string>
     <string name="night_display_text" msgid="4789324042428095383">"Noćno svjetlo oboji ekran u žutosmeđe. Tako je lakše gledati u ekran ili čitati pod prigušenim svjetlom, a može vam pomoći da lakše zaspite."</string>
@@ -1386,7 +1386,7 @@
     <string name="baseband_version" msgid="2600182227599835857">"Verzija nemoduliranog opsega"</string>
     <string name="kernel_version" msgid="3513538109381366881">"Verzija jezgre"</string>
     <string name="build_number" msgid="9009733242117579826">"Broj verzije"</string>
-    <string name="module_version" msgid="1787518340082046658">"Ažuriranje sistema Google Playa"</string>
+    <string name="module_version" msgid="1787518340082046658">"Ažuriranje sistema /e/ Playa"</string>
     <string name="device_info_not_available" msgid="4804474466616712326">"Nije dostupno"</string>
     <string name="device_status_activity_title" msgid="1812666241137263882">"Status"</string>
     <string name="device_status" msgid="7988547478034984649">"Status"</string>
@@ -1652,8 +1652,8 @@
     <string name="reset_esim_error_msg" msgid="4441504470684307370">"Preuzete SIM-ove nije moguće izbrisati zbog greške.\n\nPonovo pokrenite uređaj i pokušajte ponovo."</string>
     <string name="master_clear_title" msgid="5309249309235959383">"Izbriši sve podatke (vraćanje na fabričke postavke)"</string>
     <string name="master_clear_short_title" msgid="5331449583601739360">"Potpuno izbriši sve podatke"</string>
-    <string name="master_clear_desc" product="tablet" msgid="3114467865487750525">"Na ovaj način će se izbrisati svi podaci "<b>"interne memorije"</b>" tableta, uključujući:\n\n"<li>"Google račun"</li>\n<li>"sistemske i aplikacijske podatke i postavke"</li>\n<li>"preuzete aplikacije"</li></string>
-    <string name="master_clear_desc" product="default" msgid="8447637796694856323">"Na ovaj način će se izbrisati svi podaci "<b>"interne memorije"</b>" telefona, uključujući:\n\n"<li>"Google račun"</li>\n<li>"sistemske i aplikacijske podatke i postavke"</li>\n<li>"preuzete aplikacije"</li></string>
+    <string name="master_clear_desc" product="tablet" msgid="3114467865487750525">"Na ovaj način će se izbrisati svi podaci "<b>"interne memorije"</b>" tableta, uključujući:\n\n"<li>"/e/ račun"</li>\n<li>"sistemske i aplikacijske podatke i postavke"</li>\n<li>"preuzete aplikacije"</li></string>
+    <string name="master_clear_desc" product="default" msgid="8447637796694856323">"Na ovaj način će se izbrisati svi podaci "<b>"interne memorije"</b>" telefona, uključujući:\n\n"<li>"/e/ račun"</li>\n<li>"sistemske i aplikacijske podatke i postavke"</li>\n<li>"preuzete aplikacije"</li></string>
     <string name="master_clear_accounts" product="default" msgid="142220980039357651">\n\n"Trenutno ste prijavljeni u sljedeće račune:\n"</string>
     <string name="master_clear_other_users_present" product="default" msgid="7492338002408466023">\n\n"Drugi korisnici su prisutni na ovom uređaju.\n"</string>
     <string name="master_clear_desc_also_erases_external" msgid="4738661805356792736"><li>"muziku"</li>\n<li>"fotografije"</li>\n<li>"ostale korisničke podatke"</li></string>
@@ -1738,7 +1738,7 @@
     <string name="location_scanning_bluetooth_always_scanning_description" msgid="5362988856388462841">"Dozvolite aplikacijama i uslugama da skeniraju uređaje u blizini u svakom trenutku, čak i kada je Bluetooth isključen. Ovim se naprimjer mogu poboljšati funkcije i usluge zasnovane na lokaciji."</string>
     <string name="managed_profile_location_services" msgid="8172092734138341880">"Usluge lokacije za posao"</string>
     <string name="location_network_based" msgid="5247042890080021887">"Lokacija Wi-Fi i mob. mreža"</string>
-    <string name="location_neighborhood_level" msgid="3668890550358558267">"Omogućava da aplikacije koriste Googleovu uslugu lokacije kako bi brže procijenile vašu lokaciju. Anonimni podaci o lokaciji se prikupljaju i šalju Googleu."</string>
+    <string name="location_neighborhood_level" msgid="3668890550358558267">"Omogućava da aplikacije koriste /e/ovu uslugu lokacije kako bi brže procijenile vašu lokaciju. Anonimni podaci o lokaciji se prikupljaju i šalju /e/u."</string>
     <string name="location_neighborhood_level_wifi" msgid="6227393490651891977">"Lokacija utvrđena putem WiFi mreže"</string>
     <string name="location_gps" msgid="8783616672454701134">"GPS sateliti"</string>
     <string name="location_street_level" product="tablet" msgid="865953107414742784">"Dopustite aplikacijama da koriste GPS na tabletu za određivanje vaše lokacije"</string>
@@ -1746,8 +1746,8 @@
     <string name="assisted_gps" msgid="1714546606018821498">"Koristi potpomognuti GPS"</string>
     <string name="assisted_gps_enabled" msgid="6220188450779319248">"Koristi server za pomoć GPS-u (uklonite oznaku kako biste smanjili korištenje mreže)"</string>
     <string name="assisted_gps_disabled" msgid="1062496503892849">"Koristi server za pomoć GPS-u (uklonite oznaku kako biste poboljšali performanse GPS-a)"</string>
-    <string name="use_location_title" msgid="1345594777162897654">"Lokacija i Google pretraživanje"</string>
-    <string name="use_location_summary" msgid="377322574549729921">"Dopustite da Google koristi vašu lokaciju radi poboljšavanja rezultata pretraživanja i drugih usluga"</string>
+    <string name="use_location_title" msgid="1345594777162897654">"Lokacija i /e/ pretraživanje"</string>
+    <string name="use_location_summary" msgid="377322574549729921">"Dopustite da /e/ koristi vašu lokaciju radi poboljšavanja rezultata pretraživanja i drugih usluga"</string>
     <string name="location_access_title" msgid="4052667453826272040">"Pristup mojoj lokaciji"</string>
     <string name="location_access_summary" msgid="8634100005481578143">"Dopustite aplikacijama koje su zatražile vaše odobrenje da koriste informacije o vašoj lokaciji"</string>
     <string name="location_sources_heading" msgid="6126965815860570524">"Izvori lokacije"</string>
@@ -1763,7 +1763,7 @@
     <string name="safety_and_regulatory_info" msgid="8285048080439298528">"Priručnik za sigurnost i propise"</string>
     <string name="copyright_title" msgid="83245306827757857">"Autorska prava"</string>
     <string name="license_title" msgid="8745742085916617540">"Licenca"</string>
-    <string name="module_license_title" msgid="8705484239826702828">"Licence za ažuriranje sistema Google Playa"</string>
+    <string name="module_license_title" msgid="8705484239826702828">"Licence za ažuriranje sistema /e/ Playa"</string>
     <string name="terms_title" msgid="2071742973672326073">"Odredbe i uslovi"</string>
     <string name="webview_license_title" msgid="5832692241345780517">"Sistemske WebView licence"</string>
     <string name="wallpaper_attributions" msgid="3080339190260272255">"Pozadinske slike"</string>
@@ -2662,7 +2662,7 @@
     <string name="backup_section_title" msgid="6539706829848457794">"Sigurnosna kopija i vraćanje"</string>
     <string name="personal_data_section_title" msgid="6368610168625722682">"Lični podaci"</string>
     <string name="backup_data_title" msgid="507663517227498525">"Izrada sigurnosnih kopija podataka"</string>
-    <string name="backup_data_summary" msgid="8054551085241427531">"Pravite sigurnosne kopije podataka aplikacija, lozinki za WiFi te drugih postavki na Google serverima"</string>
+    <string name="backup_data_summary" msgid="8054551085241427531">"Pravite sigurnosne kopije podataka aplikacija, lozinki za WiFi te drugih postavki na /e/ serverima"</string>
     <string name="backup_configure_account_title" msgid="8574055186903658842">"Račun za sigurnosne kopije"</string>
     <string name="backup_data_management_title" msgid="6596830198441939702">"Upravljajte računom za sigurnosne kopije"</string>
     <string name="include_app_data_title" msgid="2969603876620594523">"Uvrstite podatke aplikacije"</string>
@@ -2671,7 +2671,7 @@
     <string name="backup_inactive_title" msgid="6753265378043349277">"Usluga za izradu sigurnosne kopije nije aktivna"</string>
     <string name="backup_configure_account_default_summary" msgid="5323225330966306690">"Nijedan račun trenutno ne pravi sigurnosne kopije podataka"</string>
     <string name="backup_erase_dialog_title" msgid="5892431263348766484"></string>
-    <string name="backup_erase_dialog_message" msgid="2250872501409574331">"Želite li prestati sa izradom sigurnosnih kopija lozinki za WiFi, oznaka, drugih postavki te podataka aplikacija i izbrisati sve kopije sa Google servera?"</string>
+    <string name="backup_erase_dialog_message" msgid="2250872501409574331">"Želite li prestati sa izradom sigurnosnih kopija lozinki za WiFi, oznaka, drugih postavki te podataka aplikacija i izbrisati sve kopije sa /e/ servera?"</string>
     <string name="fullbackup_erase_dialog_message" msgid="2379053988557486162">"Prestani da praviš sigurnosne kopije podataka (npr. lozinke za WiFi i istorija poziva) i podataka aplikacije (npr. postavke i fajlovi koje pohranjuju aplikacije), i izbriši sve kopije na udaljenim serverima?"</string>
     <string name="fullbackup_data_summary" msgid="971587401251601473">"Daljinski pokrenite automatsku izradu sigurnosnih kopija podataka na uređaju (npr. WiFi lozinki i historije poziva) i podataka iz aplikacija (npr. postavki i fajlova koje pohranjuju aplikacije).\n\nKada uključite automatsku izradu sigurnosnih kopija, podaci iz uređaja i aplikacija se periodično pohranjuju daljinski. Podaci iz aplikacije mogu biti bilo koji podaci koje je aplikacija sačuvala (na osnovu programerskih postavki), uključujući i potencijalno osjetljive podatke, kao što su kontakti, poruke i fotografije."</string>
     <string name="device_admin_settings_title" msgid="31392408594557070">"Postavke administratora uređaja"</string>
@@ -2733,7 +2733,7 @@
     <string name="sync_gmail" msgid="228561698646018808">"Gmail"</string>
     <string name="sync_calendar" msgid="4603704438090387251">"Kalendar"</string>
     <string name="sync_contacts" msgid="2376465611511325472">"Kontakti"</string>
-    <string name="sync_plug" msgid="7956982719077985381"><font fgcolor="#ffffffff">"Dobro došli u Google sync!"</font>" \nGoogle pristup sinhroniziranju podataka kako bi se omogućio pristup vašim kontaktima, obavezama i drugim stavkama gdje god da se nalazite."</string>
+    <string name="sync_plug" msgid="7956982719077985381"><font fgcolor="#ffffffff">"Dobro došli u /e/ sync!"</font>" \n/e/ pristup sinhroniziranju podataka kako bi se omogućio pristup vašim kontaktima, obavezama i drugim stavkama gdje god da se nalazite."</string>
     <string name="header_application_sync_settings" msgid="7427706834875419243">"Postavke sinhroniziranja aplikacija"</string>
     <string name="header_data_and_synchronization" msgid="453920312552838939">"Podaci i sinhroniziranje"</string>
     <string name="preference_change_password_title" msgid="5465821666939825972">"Promijenite lozinku"</string>
@@ -2816,8 +2816,8 @@
     <string name="data_usage_app_restrict_dialog" msgid="5534272311979978297">"Zbog te značajke aplikacija koja ovisi o pozadinskim podacima može prestati raditi kada su dostupne samo mobilne mreže.\n\nU postavkama možete pronaći prikladnije kontrole prijenosa podataka."</string>
     <string name="data_usage_restrict_denied_dialog" msgid="8599940395497268584">"Ograničavanje prijenosa pozadinskih podataka moguće je samo ako ste postavili ograničenje za prijenos podataka na mobilnoj mreži."</string>
     <string name="data_usage_auto_sync_on_dialog_title" msgid="2048411447974361181">"Uklj. autom. sinhron. podataka?"</string>
-    <string name="data_usage_auto_sync_on_dialog" product="tablet" msgid="6387714350903085918">"Promjene računa koje unesete na webu automatski će se kopirati na tablet.\n\nNeki računi također mogu automatski kopirati promjene s tableta na web. Google račun funkcionira na ovaj način."</string>
-    <string name="data_usage_auto_sync_on_dialog" product="default" msgid="6457107552266187107">"Promjene računa koje unesete na webu automatski će se kopirati na telefon.\n\nNeki računi također mogu automatski kopirati promjene s telefona na web. Google račun funkcionira na ovaj način."</string>
+    <string name="data_usage_auto_sync_on_dialog" product="tablet" msgid="6387714350903085918">"Promjene računa koje unesete na webu automatski će se kopirati na tablet.\n\nNeki računi također mogu automatski kopirati promjene s tableta na web. /e/ račun funkcionira na ovaj način."</string>
+    <string name="data_usage_auto_sync_on_dialog" product="default" msgid="6457107552266187107">"Promjene računa koje unesete na webu automatski će se kopirati na telefon.\n\nNeki računi također mogu automatski kopirati promjene s telefona na web. /e/ račun funkcionira na ovaj način."</string>
     <string name="data_usage_auto_sync_off_dialog_title" msgid="1783917145440587470">"Isključiti automatsko sinhroniziranje podataka?"</string>
     <string name="data_usage_auto_sync_off_dialog" msgid="6523112583569674837">"Ovim će se uštedjeti na prijenosu podataka i potrošnji baterije, ali ćete morati ručno sinhronizirati svaki račun da prikupite najnovije informacije. Također, nećete primati obavještenja kada se izvrše ažuriranja."</string>
     <string name="data_usage_cycle_editor_title" msgid="2019035830921480941">"Datum poništavanja ciklusa potrošnje"</string>
@@ -4454,7 +4454,7 @@
     <string name="webview_disabled_for_user" msgid="5809886172032644498">"(onemogućeno za korisnika <xliff:g id="USER">%s</xliff:g>)"</string>
     <string name="autofill_app" msgid="7595308061826307921">"Usluga automatskog popunjavanja"</string>
     <string name="autofill_keywords" msgid="6260653325195017912">"automatski, popunjavanje, automatsko popunjavanje"</string>
-    <string name="autofill_confirmation_message" msgid="4888767934273494272">"&lt;b&gt;Provjerite je li ova aplikacija pouzdana&lt;/b&gt; &lt;br/&gt; &lt;br/&gt; &lt;xliff:g id=app_name example=Google Automatsko popunjavanje&gt;%1$s&lt;/xliff:g&gt; koristi sadržaj na vašem ekranu da odredi šta se može automatski popuniti."</string>
+    <string name="autofill_confirmation_message" msgid="4888767934273494272">"&lt;b&gt;Provjerite je li ova aplikacija pouzdana&lt;/b&gt; &lt;br/&gt; &lt;br/&gt; &lt;xliff:g id=app_name example=/e/ Automatsko popunjavanje&gt;%1$s&lt;/xliff:g&gt; koristi sadržaj na vašem ekranu da odredi šta se može automatski popuniti."</string>
     <string name="debug_autofill_category" msgid="5998163555428196185">"Automatsko popunjavanje"</string>
     <string name="autofill_logging_level_title" msgid="3733958845861098307">"Nivo zapisivanja"</string>
     <string name="autofill_max_partitions" msgid="7342195529574406366">"Maksimalan broj zahtjeva po sesiji"</string>

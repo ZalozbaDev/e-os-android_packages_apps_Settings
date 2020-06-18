@@ -555,11 +555,11 @@
     <string name="crypt_keeper_warn_wipe" msgid="8104921337301750394">"Advarsel! Enheden ryddes efter <xliff:g id="COUNT">^1</xliff:g> mislykkede oplåsningsforsøg mere."</string>
     <string name="crypt_keeper_enter_password" msgid="1274917431075529732">"Angiv din adgangskode"</string>
     <string name="crypt_keeper_failed_title" msgid="8173654570682244149">"Kryptering mislykkedes"</string>
-    <string name="crypt_keeper_failed_summary" product="tablet" msgid="5977961188966570342">"Krypteringen blev afbrudt og kan ikke fuldføres. Som følge heraf er dataene på din tablet ikke længere tilgængelige. \n\nHvis du vil genoptage brugen af din  tablet, skal du udføre en gendannelse af fabriksdata. Når du konfigurerer din tablet efter nulstillingen, har du mulighed for at gendanne data, der blev sikkerhedskopieret på din Google-konto."</string>
-    <string name="crypt_keeper_failed_summary" product="default" msgid="1028716993071131029">"Krypteringen blev afbrudt og kan ikke fuldføres. Som følge heraf er dataene på din telefon ikke længere tilgængelige. \n\nHvis du vil genoptage brugen af telefonen, skal du udføre en gendannelse af fabriksdata. Når du konfigurerer din telefon efter nulstillingen, har du mulighed for at gendanne data, der blev sikkerhedskopieret på din Google-konto."</string>
+    <string name="crypt_keeper_failed_summary" product="tablet" msgid="5977961188966570342">"Krypteringen blev afbrudt og kan ikke fuldføres. Som følge heraf er dataene på din tablet ikke længere tilgængelige. \n\nHvis du vil genoptage brugen af din  tablet, skal du udføre en gendannelse af fabriksdata. Når du konfigurerer din tablet efter nulstillingen, har du mulighed for at gendanne data, der blev sikkerhedskopieret på din /e/-konto."</string>
+    <string name="crypt_keeper_failed_summary" product="default" msgid="1028716993071131029">"Krypteringen blev afbrudt og kan ikke fuldføres. Som følge heraf er dataene på din telefon ikke længere tilgængelige. \n\nHvis du vil genoptage brugen af telefonen, skal du udføre en gendannelse af fabriksdata. Når du konfigurerer din telefon efter nulstillingen, har du mulighed for at gendanne data, der blev sikkerhedskopieret på din /e/-konto."</string>
     <string name="crypt_keeper_data_corrupt_title" msgid="5920153462176846037">"Dekrypteringen mislykkedes"</string>
-    <string name="crypt_keeper_data_corrupt_summary" product="tablet" msgid="4420666705959562753">"Den indtastede adgangskode er korrekt, men desværre er dine data beskadigede. \n\nFør du kan bruge din tablet igen, skal du gendanne fabriksindstillingerne. Under den efterfølgende konfiguration af tabletten får du mulighed for at gendanne eventuelle data, der er sikkerhedskopieret på din Google-konto."</string>
-    <string name="crypt_keeper_data_corrupt_summary" product="default" msgid="3200498792238652367">"Den indtastede adgangskode er korrekt, men desværre er dine data beskadigede. \n\nFør du kan bruge din telefon igen, skal du gendanne fabriksindstillingerne. Under den efterfølgende konfiguration af telefonen får du mulighed for at gendanne eventuelle data, der er sikkerhedskopieret på din Google-konto."</string>
+    <string name="crypt_keeper_data_corrupt_summary" product="tablet" msgid="4420666705959562753">"Den indtastede adgangskode er korrekt, men desværre er dine data beskadigede. \n\nFør du kan bruge din tablet igen, skal du gendanne fabriksindstillingerne. Under den efterfølgende konfiguration af tabletten får du mulighed for at gendanne eventuelle data, der er sikkerhedskopieret på din /e/-konto."</string>
+    <string name="crypt_keeper_data_corrupt_summary" product="default" msgid="3200498792238652367">"Den indtastede adgangskode er korrekt, men desværre er dine data beskadigede. \n\nFør du kan bruge din telefon igen, skal du gendanne fabriksindstillingerne. Under den efterfølgende konfiguration af telefonen får du mulighed for at gendanne eventuelle data, der er sikkerhedskopieret på din /e/-konto."</string>
     <string name="crypt_keeper_switch_input_method" msgid="7712732134989470573">"Skift indtastningsmetode"</string>
     <string name="suggested_lock_settings_title" msgid="7836065447159730217">"Beskyt din telefon"</string>
     <string name="suggested_lock_settings_summary" product="tablet" msgid="3213718550422761562">"Konfigurer skærmlåsen for at beskytte din tablet"</string>
@@ -1237,7 +1237,7 @@
     <string name="adaptive_sleep_title_no_permission" msgid="1719759921214237016">"Adgang til kameraet kræves"</string>
     <string name="adaptive_sleep_summary_no_permission" msgid="5107880175176848307">"Tryk for at administrere tilladelser for Personlig tilpasning på enheden"</string>
     <string name="adaptive_sleep_description" msgid="1835321775327187860">"Holder din skærm tændt, så længe du kigger på den"</string>
-    <string name="adaptive_sleep_privacy" msgid="7664570136417980556">"Den opmærksomme skærm bruger frontkameraet til at tjekke, om der er nogen, der kigger på skærmen. Funktionen fungerer kun lokalt på enheden, og den gemmer ikke billeder eller sender billeder til Google."</string>
+    <string name="adaptive_sleep_privacy" msgid="7664570136417980556">"Den opmærksomme skærm bruger frontkameraet til at tjekke, om der er nogen, der kigger på skærmen. Funktionen fungerer kun lokalt på enheden, og den gemmer ikke billeder eller sender billeder til /e/."</string>
     <string name="adaptive_sleep_contextual_slice_summary" msgid="4920636187115578946">"Lad skærmen være tændt, når du kigger på den"</string>
     <string name="night_display_title" msgid="8532432776487216581">"Nattelys"</string>
     <string name="night_display_text" msgid="4789324042428095383">"Nattelys gør farverne på din skærm mere gullige. Det gør din skærm mere behagelig at se på i svag belysning og kan gøre det nemmere at falde i søvn."</string>
@@ -1366,7 +1366,7 @@
     <string name="baseband_version" msgid="2600182227599835857">"Basebandversion"</string>
     <string name="kernel_version" msgid="3513538109381366881">"Kernesystem"</string>
     <string name="build_number" msgid="9009733242117579826">"Buildnummer"</string>
-    <string name="module_version" msgid="1787518340082046658">"Systemopdatering til Google Play"</string>
+    <string name="module_version" msgid="1787518340082046658">"Systemopdatering til /e/ Play"</string>
     <string name="device_info_not_available" msgid="4804474466616712326">"Ikke tilgængelig"</string>
     <string name="device_status_activity_title" msgid="1812666241137263882">"Status"</string>
     <string name="device_status" msgid="7988547478034984649">"Status"</string>
@@ -1632,8 +1632,8 @@
     <string name="reset_esim_error_msg" msgid="4441504470684307370">"Downloadede SIM-kort kan ikke ryddes på grund af en fejl.\n\nGenstart din enhed, og prøv igen."</string>
     <string name="master_clear_title" msgid="5309249309235959383">"Ryd alle data (gendan fabriksindstillinger)"</string>
     <string name="master_clear_short_title" msgid="5331449583601739360">"Ryd alle data (nulstil)"</string>
-    <string name="master_clear_desc" product="tablet" msgid="3114467865487750525">"Dette sletter alle data fra den "<b>"interne lagerplads"</b>" på din tablet, f.eks.: \n\n"<li>"Din Google-konto"</li>\n<li>"Data og indstillinger for system og apps"</li>\n<li>"Downloadede apps"</li></string>
-    <string name="master_clear_desc" product="default" msgid="8447637796694856323">"Dette sletter alle data fra den "<b>"interne lagerplads"</b>" på telefonen, f.eks.: \n\n"<li>"Din Google-konto"</li>\n<li>"Data og indstillinger for system og apps"</li>\n<li>"Downloadede apps"</li></string>
+    <string name="master_clear_desc" product="tablet" msgid="3114467865487750525">"Dette sletter alle data fra den "<b>"interne lagerplads"</b>" på din tablet, f.eks.: \n\n"<li>"Din /e/-konto"</li>\n<li>"Data og indstillinger for system og apps"</li>\n<li>"Downloadede apps"</li></string>
+    <string name="master_clear_desc" product="default" msgid="8447637796694856323">"Dette sletter alle data fra den "<b>"interne lagerplads"</b>" på telefonen, f.eks.: \n\n"<li>"Din /e/-konto"</li>\n<li>"Data og indstillinger for system og apps"</li>\n<li>"Downloadede apps"</li></string>
     <string name="master_clear_accounts" product="default" msgid="142220980039357651">\n\n"Du er i øjeblikket logget ind på disse konti:\n"</string>
     <string name="master_clear_other_users_present" product="default" msgid="7492338002408466023">\n\n"Der er andre brugere til stede på denne enhed.\n"</string>
     <string name="master_clear_desc_also_erases_external" msgid="4738661805356792736"><li>"Musik"</li>\n<li>"Billeder"</li>\n<li>"Andre brugerdata"</li></string>
@@ -1717,7 +1717,7 @@
     <string name="location_scanning_bluetooth_always_scanning_description" msgid="5362988856388462841">"Tillad, at apps og tjenester altid kan søge efter enheder i nærheden, også selvom Bluetooth er deaktiveret. Dette kan f.eks. bruges til at forbedre placeringsbaserede funktioner og tjenester."</string>
     <string name="managed_profile_location_services" msgid="8172092734138341880">"Placeringstjenester til arbejdet"</string>
     <string name="location_network_based" msgid="5247042890080021887">"Placering af Wi-Fi- og mobilnet."</string>
-    <string name="location_neighborhood_level" msgid="3668890550358558267">"Tillad, at apps bruger Googles placeringstjeneste til at beregne din placering hurtigere. Der indsamles anonyme placeringsdata, som sendes til Google."</string>
+    <string name="location_neighborhood_level" msgid="3668890550358558267">"Tillad, at apps bruger /e/s placeringstjeneste til at beregne din placering hurtigere. Der indsamles anonyme placeringsdata, som sendes til /e/."</string>
     <string name="location_neighborhood_level_wifi" msgid="6227393490651891977">"Placeringen fastlægges af Wi-Fi"</string>
     <string name="location_gps" msgid="8783616672454701134">"GPS-satellitter"</string>
     <string name="location_street_level" product="tablet" msgid="865953107414742784">"Tillad, at apps bruger GPS på din tablet til at udpege din placering"</string>
@@ -1726,7 +1726,7 @@
     <string name="assisted_gps_enabled" msgid="6220188450779319248">"Brug serveren til at assistere GPS (fjern markering for at mindske netværksforbrug)"</string>
     <string name="assisted_gps_disabled" msgid="1062496503892849">"Brug serveren til at assistere GPS (fjern markering for at forbedre GPS-ydelsen)"</string>
     <string name="use_location_title" msgid="1345594777162897654">"Placering og søgning"</string>
-    <string name="use_location_summary" msgid="377322574549729921">"Lad Google bruge din placering til at forbedre søgeresultater og andre tjenester"</string>
+    <string name="use_location_summary" msgid="377322574549729921">"Lad /e/ bruge din placering til at forbedre søgeresultater og andre tjenester"</string>
     <string name="location_access_title" msgid="4052667453826272040">"Adgang til min placering"</string>
     <string name="location_access_summary" msgid="8634100005481578143">"Tillad apps, der har bedt om tilladelse, at bruge dine stedoplysninger"</string>
     <string name="location_sources_heading" msgid="6126965815860570524">"Placeringskilder"</string>
@@ -1742,7 +1742,7 @@
     <string name="safety_and_regulatory_info" msgid="8285048080439298528">"Brugervejledning i sikkerhed og regler"</string>
     <string name="copyright_title" msgid="83245306827757857">"Ophavsret"</string>
     <string name="license_title" msgid="8745742085916617540">"Licens"</string>
-    <string name="module_license_title" msgid="8705484239826702828">"Licenser til Google Play-systemopdateringer"</string>
+    <string name="module_license_title" msgid="8705484239826702828">"Licenser til /e/ Play-systemopdateringer"</string>
     <string name="terms_title" msgid="2071742973672326073">"Vilkår og betingelser"</string>
     <string name="webview_license_title" msgid="5832692241345780517">"System WebView-licens"</string>
     <string name="wallpaper_attributions" msgid="3080339190260272255">"Baggrunde"</string>
@@ -2625,7 +2625,7 @@
     <string name="backup_section_title" msgid="6539706829848457794">"Backup og gendannelse"</string>
     <string name="personal_data_section_title" msgid="6368610168625722682">"Personlige oplysninger"</string>
     <string name="backup_data_title" msgid="507663517227498525">"Sikkerhedskopiér data"</string>
-    <string name="backup_data_summary" msgid="8054551085241427531">"Sikkerhedskopiér appdata, Wi-Fi-adgangskoder og andre indstillinger på Googles servere"</string>
+    <string name="backup_data_summary" msgid="8054551085241427531">"Sikkerhedskopiér appdata, Wi-Fi-adgangskoder og andre indstillinger på /e/s servere"</string>
     <string name="backup_configure_account_title" msgid="8574055186903658842">"Backupkonto"</string>
     <string name="backup_data_management_title" msgid="6596830198441939702">"Administrer konto til backup"</string>
     <string name="include_app_data_title" msgid="2969603876620594523">"Inkluder appdata"</string>
@@ -2634,7 +2634,7 @@
     <string name="backup_inactive_title" msgid="6753265378043349277">"Backuptjenesten er deaktiveret"</string>
     <string name="backup_configure_account_default_summary" msgid="5323225330966306690">"Der er ingen konto, der i øjeblikket lagrer sikkerhedskopierede data"</string>
     <string name="backup_erase_dialog_title" msgid="5892431263348766484"></string>
-    <string name="backup_erase_dialog_message" msgid="2250872501409574331">"Vil du stoppe sikkerhedskopieringen af dine Wi-Fi-adgangskoder, bogmærker, andre indstillinger og appdata samt slette alle kopier på Googles servere?"</string>
+    <string name="backup_erase_dialog_message" msgid="2250872501409574331">"Vil du stoppe sikkerhedskopieringen af dine Wi-Fi-adgangskoder, bogmærker, andre indstillinger og appdata samt slette alle kopier på /e/s servere?"</string>
     <string name="fullbackup_erase_dialog_message" msgid="2379053988557486162">"Vil du stoppe med at sikkerhedskopiere enhedsdata (f.eks. Wi-Fi-adgangskoder og opkaldshistorik) og appdata (f.eks. indstillinger og filer, som apps har gemt) og slette alle kopier på fjernservere?"</string>
     <string name="fullbackup_data_summary" msgid="971587401251601473">"Foretag automatisk ekstern backup af enhedsdata (f.eks. Wi-Fi-adgangskoder og opkaldshistorik) og appdata (f.eks. indstillinger og filer, der er gemt i apps).\n\n Når du slår automatisk backup til, gemmes enheds- og appdata med jævne mellemrum eksternt. Appdata kan være alle former for data, som en app har gemt (afhængigt af udviklerens indstillinger), f.eks. potentielt følsomme data, såsom kontakter, beskeder og billeder."</string>
     <string name="device_admin_settings_title" msgid="31392408594557070">"Indstillinger for enhedsadministrator"</string>
@@ -2696,7 +2696,7 @@
     <string name="sync_gmail" msgid="228561698646018808">"Gmail"</string>
     <string name="sync_calendar" msgid="4603704438090387251">"Kalender"</string>
     <string name="sync_contacts" msgid="2376465611511325472">"Kontakter"</string>
-    <string name="sync_plug" msgid="7956982719077985381"><font fgcolor="#ffffffff">"Velkommen til Google Synkroniser!"</font>\n"Googles tilgang til synkronisering af data giver dig adgang til dine kontakter, aftaler og meget mere, uanset hvor du er."</string>
+    <string name="sync_plug" msgid="7956982719077985381"><font fgcolor="#ffffffff">"Velkommen til /e/ Synkroniser!"</font>\n"/e/s tilgang til synkronisering af data giver dig adgang til dine kontakter, aftaler og meget mere, uanset hvor du er."</string>
     <string name="header_application_sync_settings" msgid="7427706834875419243">"Indstillinger for synkronisering af app"</string>
     <string name="header_data_and_synchronization" msgid="453920312552838939">"Data og synkronisering"</string>
     <string name="preference_change_password_title" msgid="5465821666939825972">"Skift adgangskode"</string>
@@ -2779,8 +2779,8 @@
     <string name="data_usage_app_restrict_dialog" msgid="5534272311979978297">"Denne funktion kan medføre, at en app, der er afhængig af baggrundsdata, ikke længere fungerer, når der kun er mobilnetværk til rådighed.\n\nDu kan finde mere hensigtsmæssige metoder til kontrol af dataforbruget i de indstillinger, der er tilgængelige i selve appen."</string>
     <string name="data_usage_restrict_denied_dialog" msgid="8599940395497268584">"Begrænsning af baggrundsdata er kun mulig, hvis du har angivet en grænse for mobildata."</string>
     <string name="data_usage_auto_sync_on_dialog_title" msgid="2048411447974361181">"Aktivér automatisk datasynk.?"</string>
-    <string name="data_usage_auto_sync_on_dialog" product="tablet" msgid="6387714350903085918">"Eventuelle ændringer, som du foretager på dine konti på nettet, kopieres automatisk til din tablet.\n\nNogle konti kan også automatisk kopiere de ændringer, du foretager på din tablet, til nettet. En Google-konto fungerer på denne måde."</string>
-    <string name="data_usage_auto_sync_on_dialog" product="default" msgid="6457107552266187107">"Eventuelle ændringer, som du foretager på dine konti på nettet, kopieres automatisk til din telefon.\n\nNogle konti kan også automatisk kopiere de ændringer, du foretager på telefonen, til nettet. En Google-konto fungerer på denne måde."</string>
+    <string name="data_usage_auto_sync_on_dialog" product="tablet" msgid="6387714350903085918">"Eventuelle ændringer, som du foretager på dine konti på nettet, kopieres automatisk til din tablet.\n\nNogle konti kan også automatisk kopiere de ændringer, du foretager på din tablet, til nettet. En /e/-konto fungerer på denne måde."</string>
+    <string name="data_usage_auto_sync_on_dialog" product="default" msgid="6457107552266187107">"Eventuelle ændringer, som du foretager på dine konti på nettet, kopieres automatisk til din telefon.\n\nNogle konti kan også automatisk kopiere de ændringer, du foretager på telefonen, til nettet. En /e/-konto fungerer på denne måde."</string>
     <string name="data_usage_auto_sync_off_dialog_title" msgid="1783917145440587470">"Deaktiver automatisk datasynk.?"</string>
     <string name="data_usage_auto_sync_off_dialog" msgid="6523112583569674837">"Dette vil sænke data- og batteriforbruget, men du skal til gengæld synkronisere hver konto manuelt for at hente de seneste oplysninger, og du vil ikke modtage notifikationer, når der kommer nye opdateringer."</string>
     <string name="data_usage_cycle_editor_title" msgid="2019035830921480941">"Dato for nulstilling af forbrugsperiode"</string>
@@ -4374,7 +4374,7 @@
     <string name="webview_disabled_for_user" msgid="5809886172032644498">"(deaktiveret for brugeren <xliff:g id="USER">%s</xliff:g>)"</string>
     <string name="autofill_app" msgid="7595308061826307921">"AutoFyld-tjeneste"</string>
     <string name="autofill_keywords" msgid="6260653325195017912">"automatisk, udfyld, autofyld"</string>
-    <string name="autofill_confirmation_message" msgid="4888767934273494272">"&lt;b&gt;Sørg for, at du har tillid til denne app&lt;/b&gt; &lt;br/&gt; &lt;br/&gt; &lt;xliff:g id=app_name example=Google Autofill&gt;%1$s&lt;/xliff:g&gt; anvender indholdet af din skærm til at fastslå, hvad der kan udfyldes automatisk."</string>
+    <string name="autofill_confirmation_message" msgid="4888767934273494272">"&lt;b&gt;Sørg for, at du har tillid til denne app&lt;/b&gt; &lt;br/&gt; &lt;br/&gt; &lt;xliff:g id=app_name example=/e/ Autofill&gt;%1$s&lt;/xliff:g&gt; anvender indholdet af din skærm til at fastslå, hvad der kan udfyldes automatisk."</string>
     <string name="debug_autofill_category" msgid="5998163555428196185">"Autofyld"</string>
     <string name="autofill_logging_level_title" msgid="3733958845861098307">"Logningsniveau"</string>
     <string name="autofill_max_partitions" msgid="7342195529574406366">"Maks. antal anmodninger pr. session"</string>

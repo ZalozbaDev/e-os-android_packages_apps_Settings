@@ -555,11 +555,11 @@
     <string name="crypt_keeper_warn_wipe" msgid="8104921337301750394">"Avviso. I dati del dispositivo verranno cancellati dopo altri <xliff:g id="COUNT">^1</xliff:g> tentativi di sblocco non riusciti."</string>
     <string name="crypt_keeper_enter_password" msgid="1274917431075529732">"Digita la password"</string>
     <string name="crypt_keeper_failed_title" msgid="8173654570682244149">"Crittografia non riuscita"</string>
-    <string name="crypt_keeper_failed_summary" product="tablet" msgid="5977961188966570342">"La crittografia è stata interrotta e non è possibile portarla a termine. Di conseguenza, i dati memorizzati sul tablet non sono più accessibili. \n\nPer riprendere a utilizzare il tablet devi effettuare un ripristino dei dati di fabbrica. Quando configuri il tablet dopo il ripristino, hai la possibilità di ripristinare i dati di cui hai effettuato il backup nel tuo Account Google."</string>
-    <string name="crypt_keeper_failed_summary" product="default" msgid="1028716993071131029">"La crittografia è stata interrotta e non è possibile portarla a termine. Di conseguenza, i dati memorizzati sul telefono non sono più accessibili. \n\nPer riprendere a utilizzare il telefono devi effettuare il ripristino dei dati di fabbrica. Quando configuri il telefono dopo il ripristino, hai la possibilità di ripristinare i dati di cui hai effettuato il backup nel tuo Account Google."</string>
+    <string name="crypt_keeper_failed_summary" product="tablet" msgid="5977961188966570342">"La crittografia è stata interrotta e non è possibile portarla a termine. Di conseguenza, i dati memorizzati sul tablet non sono più accessibili. \n\nPer riprendere a utilizzare il tablet devi effettuare un ripristino dei dati di fabbrica. Quando configuri il tablet dopo il ripristino, hai la possibilità di ripristinare i dati di cui hai effettuato il backup nel tuo Account /e/."</string>
+    <string name="crypt_keeper_failed_summary" product="default" msgid="1028716993071131029">"La crittografia è stata interrotta e non è possibile portarla a termine. Di conseguenza, i dati memorizzati sul telefono non sono più accessibili. \n\nPer riprendere a utilizzare il telefono devi effettuare il ripristino dei dati di fabbrica. Quando configuri il telefono dopo il ripristino, hai la possibilità di ripristinare i dati di cui hai effettuato il backup nel tuo Account /e/."</string>
     <string name="crypt_keeper_data_corrupt_title" msgid="5920153462176846037">"Decrittografia non riuscita"</string>
-    <string name="crypt_keeper_data_corrupt_summary" product="tablet" msgid="4420666705959562753">"La password inserita è corretta ma purtroppo i tuoi dati sono danneggiati. \n\nPer riprendere a utilizzare il tablet, devi eseguire un ripristino dei dati di fabbrica. Durante la configurazione del tablet dopo il ripristino, potrai ripristinare i dati di cui hai effettuato il backup nel tuo Account Google."</string>
-    <string name="crypt_keeper_data_corrupt_summary" product="default" msgid="3200498792238652367">"La password inserita è corretta ma purtroppo i tuoi dati sono danneggiati. \n\nPer riprendere a utilizzare il telefono, devi eseguire un ripristino dei dati di fabbrica. Durante la configurazione del telefono dopo il ripristino, potrai ripristinare i dati di cui hai effettuato il backup nel tuo Account Google."</string>
+    <string name="crypt_keeper_data_corrupt_summary" product="tablet" msgid="4420666705959562753">"La password inserita è corretta ma purtroppo i tuoi dati sono danneggiati. \n\nPer riprendere a utilizzare il tablet, devi eseguire un ripristino dei dati di fabbrica. Durante la configurazione del tablet dopo il ripristino, potrai ripristinare i dati di cui hai effettuato il backup nel tuo Account /e/."</string>
+    <string name="crypt_keeper_data_corrupt_summary" product="default" msgid="3200498792238652367">"La password inserita è corretta ma purtroppo i tuoi dati sono danneggiati. \n\nPer riprendere a utilizzare il telefono, devi eseguire un ripristino dei dati di fabbrica. Durante la configurazione del telefono dopo il ripristino, potrai ripristinare i dati di cui hai effettuato il backup nel tuo Account /e/."</string>
     <string name="crypt_keeper_switch_input_method" msgid="7712732134989470573">"Cambia metodo di immissione"</string>
     <string name="suggested_lock_settings_title" msgid="7836065447159730217">"Proteggi il tuo telefono"</string>
     <string name="suggested_lock_settings_summary" product="tablet" msgid="3213718550422761562">"Imposta un blocco schermo per proteggere il tablet"</string>
@@ -1237,7 +1237,7 @@
     <string name="adaptive_sleep_title_no_permission" msgid="1719759921214237016">"Accesso alla fotocamera necessario"</string>
     <string name="adaptive_sleep_summary_no_permission" msgid="5107880175176848307">"Tocca per gestire le autorizzazioni dei Servizi di personalizzazione del dispositivo"</string>
     <string name="adaptive_sleep_description" msgid="1835321775327187860">"Consente di impedire lo spegnimento dello schermo se lo stai guardando"</string>
-    <string name="adaptive_sleep_privacy" msgid="7664570136417980556">"La funzionalità Schermo vigile usa la fotocamera anteriore per controllare se qualcuno sta guardando lo schermo. Funziona sul dispositivo e le immagini non vengono mai memorizzate o inviate a Google."</string>
+    <string name="adaptive_sleep_privacy" msgid="7664570136417980556">"La funzionalità Schermo vigile usa la fotocamera anteriore per controllare se qualcuno sta guardando lo schermo. Funziona sul dispositivo e le immagini non vengono mai memorizzate o inviate a /e/."</string>
     <string name="adaptive_sleep_contextual_slice_summary" msgid="4920636187115578946">"Mantiene lo schermo attivo mentre lo guardi"</string>
     <string name="night_display_title" msgid="8532432776487216581">"Luminosità notturna"</string>
     <string name="night_display_text" msgid="4789324042428095383">"Con la funzione Luminosità notturna, il tuo schermo diventa color ambra. In questo modo potrai guardarlo senza sforzare la vista o leggere in condizioni di luce attenuata e potrai addormentarti più facilmente."</string>
@@ -1366,7 +1366,7 @@
     <string name="baseband_version" msgid="2600182227599835857">"Versione banda di base"</string>
     <string name="kernel_version" msgid="3513538109381366881">"Versione kernel"</string>
     <string name="build_number" msgid="9009733242117579826">"Numero build"</string>
-    <string name="module_version" msgid="1787518340082046658">"Aggiornamento di sistema Google Play"</string>
+    <string name="module_version" msgid="1787518340082046658">"Aggiornamento di sistema /e/ Play"</string>
     <string name="device_info_not_available" msgid="4804474466616712326">"Non disponibile"</string>
     <string name="device_status_activity_title" msgid="1812666241137263882">"Stato"</string>
     <string name="device_status" msgid="7988547478034984649">"Stato"</string>
@@ -1632,8 +1632,8 @@
     <string name="reset_esim_error_msg" msgid="4441504470684307370">"Le SIM scaricate non possono essere resettate a causa di un errore.\n\nRiavvia il dispositivo e riprova."</string>
     <string name="master_clear_title" msgid="5309249309235959383">"Cancella tutti i dati (ripristino dati fabbrica)"</string>
     <string name="master_clear_short_title" msgid="5331449583601739360">"Cancella tutti i dati"</string>
-    <string name="master_clear_desc" product="tablet" msgid="3114467865487750525">"In questo modo tutti i dati saranno cancellati dalla "<b>"memoria interna"</b>" del tablet, inclusi:\n\n"<li>"Il tuo Account Google"</li>\n<li>"I dati e le impostazioni del sistema e delle app"</li>\n<li>"Le app scaricate"</li></string>
-    <string name="master_clear_desc" product="default" msgid="8447637796694856323">"In questo modo tutti i dati saranno cancellati dalla "<b>"memoria interna"</b>" del tuo cellulare, inclusi:\n\n"<li>"Il tuo Account Google"</li>\n<li>"Le impostazioni e i dati di sistema e delle app"</li>\n<li>"Le app scaricate"</li></string>
+    <string name="master_clear_desc" product="tablet" msgid="3114467865487750525">"In questo modo tutti i dati saranno cancellati dalla "<b>"memoria interna"</b>" del tablet, inclusi:\n\n"<li>"Il tuo Account /e/"</li>\n<li>"I dati e le impostazioni del sistema e delle app"</li>\n<li>"Le app scaricate"</li></string>
+    <string name="master_clear_desc" product="default" msgid="8447637796694856323">"In questo modo tutti i dati saranno cancellati dalla "<b>"memoria interna"</b>" del tuo cellulare, inclusi:\n\n"<li>"Il tuo Account /e/"</li>\n<li>"Le impostazioni e i dati di sistema e delle app"</li>\n<li>"Le app scaricate"</li></string>
     <string name="master_clear_accounts" product="default" msgid="142220980039357651">\n\n"Al momento sei collegato ai seguenti account:\n"</string>
     <string name="master_clear_other_users_present" product="default" msgid="7492338002408466023">\n\n"Sono presenti altri utenti su questo dispositivo.\n"</string>
     <string name="master_clear_desc_also_erases_external" msgid="4738661805356792736"><li>"Musica"</li>\n<li>"Foto"</li>\n<li>"Altri dati utente"</li></string>
@@ -1717,7 +1717,7 @@
     <string name="location_scanning_bluetooth_always_scanning_description" msgid="5362988856388462841">"Consenti ad app e servizi di cercare dispositivi nelle vicinanze in qualsiasi momento, anche quando il Bluetooth non è attivo. Questa funzione è utile, ad esempio, per migliorare funzioni e servizi basati sulla posizione."</string>
     <string name="managed_profile_location_services" msgid="8172092734138341880">"Location services for work"</string>
     <string name="location_network_based" msgid="5247042890080021887">"Posizione Wi‑Fi e rete mobile"</string>
-    <string name="location_neighborhood_level" msgid="3668890550358558267">"Consenti alle app di usare geolocalizzazione Google per stabilire la posizione. Saranno raccolti e inviati a Google dati anonimi."</string>
+    <string name="location_neighborhood_level" msgid="3668890550358558267">"Consenti alle app di usare geolocalizzazione /e/ per stabilire la posizione. Saranno raccolti e inviati a /e/ dati anonimi."</string>
     <string name="location_neighborhood_level_wifi" msgid="6227393490651891977">"Posizione determinata da Wi‑Fi"</string>
     <string name="location_gps" msgid="8783616672454701134">"Satelliti GPS"</string>
     <string name="location_street_level" product="tablet" msgid="865953107414742784">"Consenti alle applicazioni di utilizzare il GPS del tablet per individuare la tua posizione"</string>
@@ -1725,8 +1725,8 @@
     <string name="assisted_gps" msgid="1714546606018821498">"Utilizza GPS assistito"</string>
     <string name="assisted_gps_enabled" msgid="6220188450779319248">"Utilizza il server per assistere il GPS (deseleziona per ridurre l\'utilizzo della rete)"</string>
     <string name="assisted_gps_disabled" msgid="1062496503892849">"Utilizza il server per assistere il GPS (deseleziona per migliorare le prestazioni GPS)"</string>
-    <string name="use_location_title" msgid="1345594777162897654">"Posizione e ricerca Google"</string>
-    <string name="use_location_summary" msgid="377322574549729921">"Consenti a Google di usare la tua posizione per migliorare i risultati di ricerca e altri servizi"</string>
+    <string name="use_location_title" msgid="1345594777162897654">"Posizione e ricerca /e/"</string>
+    <string name="use_location_summary" msgid="377322574549729921">"Consenti a /e/ di usare la tua posizione per migliorare i risultati di ricerca e altri servizi"</string>
     <string name="location_access_title" msgid="4052667453826272040">"Accesso alla mia posizione"</string>
     <string name="location_access_summary" msgid="8634100005481578143">"Consenti alle applicazioni che hanno chiesto la tua autorizzazione di utilizzare le informazioni sulla tua posizione"</string>
     <string name="location_sources_heading" msgid="6126965815860570524">"Fonti di geolocalizzazione"</string>
@@ -1742,7 +1742,7 @@
     <string name="safety_and_regulatory_info" msgid="8285048080439298528">"Manuale su normative e sicurezza"</string>
     <string name="copyright_title" msgid="83245306827757857">"Copyright"</string>
     <string name="license_title" msgid="8745742085916617540">"Licenza"</string>
-    <string name="module_license_title" msgid="8705484239826702828">"Licenze aggiornamenti di sistema Google Play"</string>
+    <string name="module_license_title" msgid="8705484239826702828">"Licenze aggiornamenti di sistema /e/ Play"</string>
     <string name="terms_title" msgid="2071742973672326073">"Termini e condizioni"</string>
     <string name="webview_license_title" msgid="5832692241345780517">"Licenza di sistema per WebView"</string>
     <string name="wallpaper_attributions" msgid="3080339190260272255">"Sfondi"</string>
@@ -2625,7 +2625,7 @@
     <string name="backup_section_title" msgid="6539706829848457794">"Backup e ripristino"</string>
     <string name="personal_data_section_title" msgid="6368610168625722682">"Dati personali"</string>
     <string name="backup_data_title" msgid="507663517227498525">"Backup dei miei dati"</string>
-    <string name="backup_data_summary" msgid="8054551085241427531">"Effettua il backup di dati delle app, password Wi-Fi e altre impostazioni sui server di Google"</string>
+    <string name="backup_data_summary" msgid="8054551085241427531">"Effettua il backup di dati delle app, password Wi-Fi e altre impostazioni sui server di /e/"</string>
     <string name="backup_configure_account_title" msgid="8574055186903658842">"Account di backup"</string>
     <string name="backup_data_management_title" msgid="6596830198441939702">"Gestisci l\'account di backup"</string>
     <string name="include_app_data_title" msgid="2969603876620594523">"Includi dati app"</string>
@@ -2634,7 +2634,7 @@
     <string name="backup_inactive_title" msgid="6753265378043349277">"Servizio di backup non attivo"</string>
     <string name="backup_configure_account_default_summary" msgid="5323225330966306690">"Al momento nessun account memorizza i dati di backup"</string>
     <string name="backup_erase_dialog_title" msgid="5892431263348766484"></string>
-    <string name="backup_erase_dialog_message" msgid="2250872501409574331">"Interrompere il backup delle password Wi‑Fi, dei segnalibri, di altre impostazioni e dei dati delle app, oltre a cancellare tutte le copie sui server di Google?"</string>
+    <string name="backup_erase_dialog_message" msgid="2250872501409574331">"Interrompere il backup delle password Wi‑Fi, dei segnalibri, di altre impostazioni e dei dati delle app, oltre a cancellare tutte le copie sui server di /e/?"</string>
     <string name="fullbackup_erase_dialog_message" msgid="2379053988557486162">"Interrompere il backup dei dati del dispositivo (come password Wi‑Fi e cronologia chiamate) e dei dati delle app (quali impostazioni e file memorizzati nelle app), oltre a cancellare tutte le copie sui server remoti?"</string>
     <string name="fullbackup_data_summary" msgid="971587401251601473">"Effettua il backup automatico dei dati del dispositivo (come password Wi-Fi e cronologia chiamate) e delle app (come impostazioni e file archiviati dalle app) da remoto.\n\nQuando attivi il backup automatico, i dati del dispositivo e delle app vengono salvati periodicamente da remoto. I dati delle app possono essere tutti i dati salvati da un\'app (in base alle impostazioni dello sviluppatore), inclusi i dati potenzialmente sensibili come contatti, messaggi e foto."</string>
     <string name="device_admin_settings_title" msgid="31392408594557070">"Impostazioni di amministrazione del dispositivo"</string>
@@ -2696,7 +2696,7 @@
     <string name="sync_gmail" msgid="228561698646018808">"Gmail"</string>
     <string name="sync_calendar" msgid="4603704438090387251">"Calendario"</string>
     <string name="sync_contacts" msgid="2376465611511325472">"Contatti"</string>
-    <string name="sync_plug" msgid="7956982719077985381"><font fgcolor="#ffffffff">"Benvenuto in Google Sync."</font>" \nL\'approccio di Google alla sincronizzazione di dati per consentirti l\'accesso ai tuoi contatti, appuntamenti e altro ancora, ovunque tu sia."</string>
+    <string name="sync_plug" msgid="7956982719077985381"><font fgcolor="#ffffffff">"Benvenuto in /e/ Sync."</font>" \nL\'approccio di /e/ alla sincronizzazione di dati per consentirti l\'accesso ai tuoi contatti, appuntamenti e altro ancora, ovunque tu sia."</string>
     <string name="header_application_sync_settings" msgid="7427706834875419243">"Impostazioni sincronizzazione applicazioni"</string>
     <string name="header_data_and_synchronization" msgid="453920312552838939">"Dati e sincronizzazione"</string>
     <string name="preference_change_password_title" msgid="5465821666939825972">"Cambia password"</string>
@@ -2779,8 +2779,8 @@
     <string name="data_usage_app_restrict_dialog" msgid="5534272311979978297">"Questa funzione può causare l\'interruzione del funzionamento di un\'applicazione che dipende dai dati in background quando sono disponibili solo le reti mobili.\n\nPuoi trovare controlli di utilizzo dei dati più appropriati nelle impostazioni disponibili all\'interno dell\'applicazione."</string>
     <string name="data_usage_restrict_denied_dialog" msgid="8599940395497268584">"La limitazione dei dati in background è possibile solo se hai impostato un limite per i dati mobili."</string>
     <string name="data_usage_auto_sync_on_dialog_title" msgid="2048411447974361181">"Attivare la sincronizzazione automatica?"</string>
-    <string name="data_usage_auto_sync_on_dialog" product="tablet" msgid="6387714350903085918">"Tutte le modifiche che apporti ai tuoi account sul Web verranno automaticamente copiate sul tablet.\n\nAlcuni account potrebbero inoltre copiare automaticamente sul Web tutte le modifiche che apporti sul tablet. Gli Account Google funzionano in questo modo."</string>
-    <string name="data_usage_auto_sync_on_dialog" product="default" msgid="6457107552266187107">"Tutte le modifiche che apporti ai tuoi account sul Web verranno automaticamente copiate sul telefono.\n\nAlcuni account potrebbero inoltre copiare automaticamente sul Web tutte le modifiche che apporti sul telefono. Gli Account Google funzionano in questo modo."</string>
+    <string name="data_usage_auto_sync_on_dialog" product="tablet" msgid="6387714350903085918">"Tutte le modifiche che apporti ai tuoi account sul Web verranno automaticamente copiate sul tablet.\n\nAlcuni account potrebbero inoltre copiare automaticamente sul Web tutte le modifiche che apporti sul tablet. Gli Account /e/ funzionano in questo modo."</string>
+    <string name="data_usage_auto_sync_on_dialog" product="default" msgid="6457107552266187107">"Tutte le modifiche che apporti ai tuoi account sul Web verranno automaticamente copiate sul telefono.\n\nAlcuni account potrebbero inoltre copiare automaticamente sul Web tutte le modifiche che apporti sul telefono. Gli Account /e/ funzionano in questo modo."</string>
     <string name="data_usage_auto_sync_off_dialog_title" msgid="1783917145440587470">"Disattivare la sincronizzazione automatica?"</string>
     <string name="data_usage_auto_sync_off_dialog" msgid="6523112583569674837">"In questo modo limiterai l\'utilizzo di dati e della batteria, ma dovrai sincronizzare ciascun account manualmente per ottenere le informazioni recenti. Inoltre non riceverai notifiche di aggiornamenti disponibili."</string>
     <string name="data_usage_cycle_editor_title" msgid="2019035830921480941">"Data reimpostazione ciclo utilizzo"</string>
@@ -4374,7 +4374,7 @@
     <string name="webview_disabled_for_user" msgid="5809886172032644498">"(disattivato per l\'utente <xliff:g id="USER">%s</xliff:g>)"</string>
     <string name="autofill_app" msgid="7595308061826307921">"Compilazione automatica"</string>
     <string name="autofill_keywords" msgid="6260653325195017912">"automatico, compilazione, compilazione automatica"</string>
-    <string name="autofill_confirmation_message" msgid="4888767934273494272">"&lt;b&gt;Verifica che questa app sia attendibile&lt;/b&gt; &lt;br/&gt; &lt;br/&gt; &lt;xliff:g id=app_name example=La Compilazione Automatica di Google&gt;%1$s&lt;/xliff:g&gt; usa ciò che è presente nella schermata per stabilire quali contenuti possono essere compilati automaticamente."</string>
+    <string name="autofill_confirmation_message" msgid="4888767934273494272">"&lt;b&gt;Verifica che questa app sia attendibile&lt;/b&gt; &lt;br/&gt; &lt;br/&gt; &lt;xliff:g id=app_name example=La Compilazione Automatica di /e/&gt;%1$s&lt;/xliff:g&gt; usa ciò che è presente nella schermata per stabilire quali contenuti possono essere compilati automaticamente."</string>
     <string name="debug_autofill_category" msgid="5998163555428196185">"Compilazione automatica"</string>
     <string name="autofill_logging_level_title" msgid="3733958845861098307">"Livello di logging"</string>
     <string name="autofill_max_partitions" msgid="7342195529574406366">"Numero richieste massime per sessione"</string>

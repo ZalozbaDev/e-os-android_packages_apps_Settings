@@ -555,11 +555,11 @@
     <string name="crypt_keeper_warn_wipe" msgid="8104921337301750394">"警告：解鎖嘗試次數只剩 <xliff:g id="COUNT">^1</xliff:g> 次！如果持續失敗，您的裝置將被清除。"</string>
     <string name="crypt_keeper_enter_password" msgid="1274917431075529732">"輸入密碼"</string>
     <string name="crypt_keeper_failed_title" msgid="8173654570682244149">"加密失敗"</string>
-    <string name="crypt_keeper_failed_summary" product="tablet" msgid="5977961188966570342">"加密程序中斷且未完成，因此您無法再存取平板電腦上的資料。\n\n如要繼續使用平板電腦，您必須恢復原廠設定。完成重設後，您可以在設定平板電腦時，還原先前備份至「Google 帳戶」的資料。"</string>
-    <string name="crypt_keeper_failed_summary" product="default" msgid="1028716993071131029">"加密程序中斷且未完成，因此您無法再存取手機上的資料。\n\n如要繼續使用手機，您必須恢復原廠設定。完成重設後，您可以在設定手機時，還原先前備份至「Google 帳戶」的資料。"</string>
+    <string name="crypt_keeper_failed_summary" product="tablet" msgid="5977961188966570342">"加密程序中斷且未完成，因此您無法再存取平板電腦上的資料。\n\n如要繼續使用平板電腦，您必須恢復原廠設定。完成重設後，您可以在設定平板電腦時，還原先前備份至「/e/ 帳戶」的資料。"</string>
+    <string name="crypt_keeper_failed_summary" product="default" msgid="1028716993071131029">"加密程序中斷且未完成，因此您無法再存取手機上的資料。\n\n如要繼續使用手機，您必須恢復原廠設定。完成重設後，您可以在設定手機時，還原先前備份至「/e/ 帳戶」的資料。"</string>
     <string name="crypt_keeper_data_corrupt_title" msgid="5920153462176846037">"解密失敗"</string>
-    <string name="crypt_keeper_data_corrupt_summary" product="tablet" msgid="4420666705959562753">"您輸入的密碼正確，不過您的數據已損毀。\n\n如要繼續使用，您必須將平板電腦恢復原廠設定。經過重設後，您可以在設定平板電腦時將早前備份到個人 Google 帳戶的數據全部還原。"</string>
-    <string name="crypt_keeper_data_corrupt_summary" product="default" msgid="3200498792238652367">"您輸入的密碼正確，不過您的數據已損毀。\n\n如要繼續使用，您必須將手機恢復原廠設定。經過重設後，您可以在設定手機時將早前備份到個人 Google 帳戶的數據全部還原。"</string>
+    <string name="crypt_keeper_data_corrupt_summary" product="tablet" msgid="4420666705959562753">"您輸入的密碼正確，不過您的數據已損毀。\n\n如要繼續使用，您必須將平板電腦恢復原廠設定。經過重設後，您可以在設定平板電腦時將早前備份到個人 /e/ 帳戶的數據全部還原。"</string>
+    <string name="crypt_keeper_data_corrupt_summary" product="default" msgid="3200498792238652367">"您輸入的密碼正確，不過您的數據已損毀。\n\n如要繼續使用，您必須將手機恢復原廠設定。經過重設後，您可以在設定手機時將早前備份到個人 /e/ 帳戶的數據全部還原。"</string>
     <string name="crypt_keeper_switch_input_method" msgid="7712732134989470573">"切換輸入法"</string>
     <string name="suggested_lock_settings_title" msgid="7836065447159730217">"保護手機安全"</string>
     <string name="suggested_lock_settings_summary" product="tablet" msgid="3213718550422761562">"設定螢幕鎖定以保護平板電腦"</string>
@@ -1237,7 +1237,7 @@
     <string name="adaptive_sleep_title_no_permission" msgid="1719759921214237016">"需要獲取相機權限"</string>
     <string name="adaptive_sleep_summary_no_permission" msgid="5107880175176848307">"輕按以管理「裝置個人化服務」的權限"</string>
     <string name="adaptive_sleep_description" msgid="1835321775327187860">"防止螢幕在您望著時關閉"</string>
-    <string name="adaptive_sleep_privacy" msgid="7664570136417980556">"「保持螢幕亮起」利用前置鏡頭偵測使用者是否正望向螢幕。此功能只在裝置上使用，同時圖片不會被儲存或傳送至 Google。"</string>
+    <string name="adaptive_sleep_privacy" msgid="7664570136417980556">"「保持螢幕亮起」利用前置鏡頭偵測使用者是否正望向螢幕。此功能只在裝置上使用，同時圖片不會被儲存或傳送至 /e/。"</string>
     <string name="adaptive_sleep_contextual_slice_summary" msgid="4920636187115578946">"望著螢幕時保持螢幕開啟"</string>
     <string name="night_display_title" msgid="8532432776487216581">"夜燈模式"</string>
     <string name="night_display_text" msgid="4789324042428095383">"「夜燈模式」會將螢幕調校至橙黃色，在光線昏暗的環境下看螢幕或閱讀時就更舒適，並讓您更易入睡。"</string>
@@ -1366,7 +1366,7 @@
     <string name="baseband_version" msgid="2600182227599835857">"基帶版本"</string>
     <string name="kernel_version" msgid="3513538109381366881">"核心版本"</string>
     <string name="build_number" msgid="9009733242117579826">"版本號碼"</string>
-    <string name="module_version" msgid="1787518340082046658">"Google Play 系統更新"</string>
+    <string name="module_version" msgid="1787518340082046658">"/e/ Play 系統更新"</string>
     <string name="device_info_not_available" msgid="4804474466616712326">"無法使用"</string>
     <string name="device_status_activity_title" msgid="1812666241137263882">"狀態"</string>
     <string name="device_status" msgid="7988547478034984649">"狀態"</string>
@@ -1633,8 +1633,8 @@
     <string name="reset_esim_error_msg" msgid="4441504470684307370">"由於發生錯誤，因此無法清除已下載的 SIM 卡。\n\n請重新開機，然後再試一次。"</string>
     <string name="master_clear_title" msgid="5309249309235959383">"清除所有資料 (回復原廠設定)"</string>
     <string name="master_clear_short_title" msgid="5331449583601739360">"清除所有資料 (回復原廠設定)"</string>
-    <string name="master_clear_desc" product="tablet" msgid="3114467865487750525">"此操作將會清除您平板電腦"<b>"內部儲存空間"</b>"中的所有資料，包括：\n\n"<li>"您的 Google 帳戶"</li>\n<li>"系統和應用程式資料及設定"</li>\n<li>"已下載的應用程式"</li></string>
-    <string name="master_clear_desc" product="default" msgid="8447637796694856323">"此操作將會清除您手機"<b>"內部儲存空間"</b>"的所有資料，包括：\n\n"<li>"您的 Google 帳戶"</li>\n<li>"系統和應用程式資料及設定"</li>\n<li>"已下載的應用程式"</li></string>
+    <string name="master_clear_desc" product="tablet" msgid="3114467865487750525">"此操作將會清除您平板電腦"<b>"內部儲存空間"</b>"中的所有資料，包括：\n\n"<li>"您的 /e/ 帳戶"</li>\n<li>"系統和應用程式資料及設定"</li>\n<li>"已下載的應用程式"</li></string>
+    <string name="master_clear_desc" product="default" msgid="8447637796694856323">"此操作將會清除您手機"<b>"內部儲存空間"</b>"的所有資料，包括：\n\n"<li>"您的 /e/ 帳戶"</li>\n<li>"系統和應用程式資料及設定"</li>\n<li>"已下載的應用程式"</li></string>
     <string name="master_clear_accounts" product="default" msgid="142220980039357651">\n\n"您目前已登入下列帳戶：\n"</string>
     <string name="master_clear_other_users_present" product="default" msgid="7492338002408466023">\n\n"這部裝置上還有其他使用者。\n"</string>
     <string name="master_clear_desc_also_erases_external" msgid="4738661805356792736"><li>"音樂"</li>\n<li>"相片"</li>\n<li>"其他使用者資料"</li></string>
@@ -1718,7 +1718,7 @@
     <string name="location_scanning_bluetooth_always_scanning_description" msgid="5362988856388462841">"允許應用程式和服務隨時掃瞄附近的裝置 (即使藍牙功能已關閉)。此操作可用來改善適地性功能和服務。"</string>
     <string name="managed_profile_location_services" msgid="8172092734138341880">"工作用定位服務"</string>
     <string name="location_network_based" msgid="5247042890080021887">"Wi-Fi 和流動網絡位置"</string>
-    <string name="location_neighborhood_level" msgid="3668890550358558267">"允許應用程式使用 Google 的定位服務，藉此更快確定您的約略位置。系統會收集匿名的位置資料傳送給 Google。"</string>
+    <string name="location_neighborhood_level" msgid="3668890550358558267">"允許應用程式使用 /e/ 的定位服務，藉此更快確定您的約略位置。系統會收集匿名的位置資料傳送給 /e/。"</string>
     <string name="location_neighborhood_level_wifi" msgid="6227393490651891977">"根據 Wi-Fi 確定位置"</string>
     <string name="location_gps" msgid="8783616672454701134">"GPS 衛星"</string>
     <string name="location_street_level" product="tablet" msgid="865953107414742784">"允許應用程式使用平板電腦的 GPS 找出您的精確位置"</string>
@@ -1726,8 +1726,8 @@
     <string name="assisted_gps" msgid="1714546606018821498">"使用輔助 GPS"</string>
     <string name="assisted_gps_enabled" msgid="6220188450779319248">"使用伺服器輔助 GPS (取消勾選即可降低網絡使用量)"</string>
     <string name="assisted_gps_disabled" msgid="1062496503892849">"使用伺服器輔助 GPS (取消勾選即可提升 GPS 效能)"</string>
-    <string name="use_location_title" msgid="1345594777162897654">"位置和 Google 搜尋"</string>
-    <string name="use_location_summary" msgid="377322574549729921">"允許 Google 使用位置資訊來改善搜尋結果和其他服務。"</string>
+    <string name="use_location_title" msgid="1345594777162897654">"位置和 /e/ 搜尋"</string>
+    <string name="use_location_summary" msgid="377322574549729921">"允許 /e/ 使用位置資訊來改善搜尋結果和其他服務。"</string>
     <string name="location_access_title" msgid="4052667453826272040">"存取我的位置資訊"</string>
     <string name="location_access_summary" msgid="8634100005481578143">"允許提出權限要求的應用程式使用您的位置資訊"</string>
     <string name="location_sources_heading" msgid="6126965815860570524">"位置資訊來源"</string>
@@ -1743,7 +1743,7 @@
     <string name="safety_and_regulatory_info" msgid="8285048080439298528">"安全及監管手冊"</string>
     <string name="copyright_title" msgid="83245306827757857">"版權"</string>
     <string name="license_title" msgid="8745742085916617540">"授權"</string>
-    <string name="module_license_title" msgid="8705484239826702828">"Google Play 系統更新授權資料"</string>
+    <string name="module_license_title" msgid="8705484239826702828">"/e/ Play 系統更新授權資料"</string>
     <string name="terms_title" msgid="2071742973672326073">"條款及細則"</string>
     <string name="webview_license_title" msgid="5832692241345780517">"System WebView License"</string>
     <string name="wallpaper_attributions" msgid="3080339190260272255">"桌布"</string>
@@ -2626,7 +2626,7 @@
     <string name="backup_section_title" msgid="6539706829848457794">"備份與還原"</string>
     <string name="personal_data_section_title" msgid="6368610168625722682">"個人資料"</string>
     <string name="backup_data_title" msgid="507663517227498525">"備份我的資料"</string>
-    <string name="backup_data_summary" msgid="8054551085241427531">"將應用程式資料、Wi-Fi 密碼及其他設定備份到 Google 伺服器"</string>
+    <string name="backup_data_summary" msgid="8054551085241427531">"將應用程式資料、Wi-Fi 密碼及其他設定備份到 /e/ 伺服器"</string>
     <string name="backup_configure_account_title" msgid="8574055186903658842">"備份帳戶"</string>
     <string name="backup_data_management_title" msgid="6596830198441939702">"管理備份帳戶"</string>
     <string name="include_app_data_title" msgid="2969603876620594523">"包括應用程式數據"</string>
@@ -2635,7 +2635,7 @@
     <string name="backup_inactive_title" msgid="6753265378043349277">"備份服務尚未啟用"</string>
     <string name="backup_configure_account_default_summary" msgid="5323225330966306690">"目前沒有任何帳戶儲存備份資料"</string>
     <string name="backup_erase_dialog_title" msgid="5892431263348766484"></string>
-    <string name="backup_erase_dialog_message" msgid="2250872501409574331">"要停止備份您的 Wi-Fi 密碼、書籤、其他設定以及應用程式資料，並清除 Google 伺服器上儲存的所有副本嗎？"</string>
+    <string name="backup_erase_dialog_message" msgid="2250872501409574331">"要停止備份您的 Wi-Fi 密碼、書籤、其他設定以及應用程式資料，並清除 /e/ 伺服器上儲存的所有副本嗎？"</string>
     <string name="fullbackup_erase_dialog_message" msgid="2379053988557486162">"停止備份裝置資料 (例如 Wi-Fi 密碼和通話記錄) 和應用程式資料 (例如由應用程式儲存的設定和檔案)，並清除遠端伺服器內的所有副本？"</string>
     <string name="fullbackup_data_summary" msgid="971587401251601473">"自動遙距備份裝置資料 (例如 Wi-Fi 密碼和通話記錄) 和應用程式資料 (例如由應用程式儲存的設定和檔案)。\n\n啟用自動備份功能後，裝置和應用程式資料會定時以遙距方式儲存。應用程式資料可以是由應用程式儲存的任何資料 (視乎開發設定而定)，包括可能視為敏感的資料，如通訊錄、訊息及相片。"</string>
     <string name="device_admin_settings_title" msgid="31392408594557070">"裝置管理設定"</string>
@@ -2697,7 +2697,7 @@
     <string name="sync_gmail" msgid="228561698646018808">"Gmail"</string>
     <string name="sync_calendar" msgid="4603704438090387251">"日曆"</string>
     <string name="sync_contacts" msgid="2376465611511325472">"通訊錄"</string>
-    <string name="sync_plug" msgid="7956982719077985381"><font fgcolor="#ffffffff">"歡迎使用 Google Sync！"</font>\n"這是 Google 提供的資料同步處理工具，可讓您隨時隨地存取通訊錄、約會等資料。"</string>
+    <string name="sync_plug" msgid="7956982719077985381"><font fgcolor="#ffffffff">"歡迎使用 /e/ Sync！"</font>\n"這是 /e/ 提供的資料同步處理工具，可讓您隨時隨地存取通訊錄、約會等資料。"</string>
     <string name="header_application_sync_settings" msgid="7427706834875419243">"應用程式同步設定"</string>
     <string name="header_data_and_synchronization" msgid="453920312552838939">"資料及同步處理"</string>
     <string name="preference_change_password_title" msgid="5465821666939825972">"更改密碼"</string>
@@ -2780,8 +2780,8 @@
     <string name="data_usage_app_restrict_dialog" msgid="5534272311979978297">"如果採用這項功能，當只可以連接流動網絡時，需要使用背景資料的應用程式可能會停止運作。\n\n您可以前往應用程式內的設定，找出更多適合的數據用量控制。"</string>
     <string name="data_usage_restrict_denied_dialog" msgid="8599940395497268584">"您必須先設定流動數據上限，才能限制背景數據。"</string>
     <string name="data_usage_auto_sync_on_dialog_title" msgid="2048411447974361181">"開啟資料自動同步功能？"</string>
-    <string name="data_usage_auto_sync_on_dialog" product="tablet" msgid="6387714350903085918">"您在網絡上對帳戶作出的任何變更都會自動複製到您的平板電腦。\n\n部分帳戶也可能自動將您在平板電腦上作出的變更複製到網絡上。Google 帳戶會按照這種方式運作。"</string>
-    <string name="data_usage_auto_sync_on_dialog" product="default" msgid="6457107552266187107">"您在網絡上對帳戶作出的任何變更都會自動複製到您的手機。\n\n部分帳戶也可能自動將您在手機上作出的變更複製到網絡上。Google 帳戶會按照這種方式運作。"</string>
+    <string name="data_usage_auto_sync_on_dialog" product="tablet" msgid="6387714350903085918">"您在網絡上對帳戶作出的任何變更都會自動複製到您的平板電腦。\n\n部分帳戶也可能自動將您在平板電腦上作出的變更複製到網絡上。/e/ 帳戶會按照這種方式運作。"</string>
+    <string name="data_usage_auto_sync_on_dialog" product="default" msgid="6457107552266187107">"您在網絡上對帳戶作出的任何變更都會自動複製到您的手機。\n\n部分帳戶也可能自動將您在手機上作出的變更複製到網絡上。/e/ 帳戶會按照這種方式運作。"</string>
     <string name="data_usage_auto_sync_off_dialog_title" msgid="1783917145440587470">"關閉資料自動同步功能？"</string>
     <string name="data_usage_auto_sync_off_dialog" msgid="6523112583569674837">"這樣可以節省數據用量和電池用量，但您必須手動同步每個帳戶才能獲得最新資料，而且在有更新時不會收到通知。"</string>
     <string name="data_usage_cycle_editor_title" msgid="2019035830921480941">"用量週期重設日期"</string>
@@ -4194,7 +4194,7 @@
     <string name="managed_profile_contact_search_summary" msgid="2771343453017731940">"允許您的機構搜尋聯絡人，以識別來電者和聯絡人"</string>
     <string name="cross_profile_calendar_title" msgid="7570277841490216947">"跨設定檔日曆"</string>
     <string name="cross_profile_calendar_summary" msgid="8856185206722860069">"在個人日曆中顯示工作活動"</string>
-    <string name="cross_profile_calendar_restricted_summary" msgid="282962670405516067">"貴機構不允許個人應用程式存取「Google 日曆」"</string>
+    <string name="cross_profile_calendar_restricted_summary" msgid="282962670405516067">"貴機構不允許個人應用程式存取「/e/ 日曆」"</string>
     <plurals name="hours" formatted="false" msgid="1853396353451635458">
       <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> 小時</item>
       <item quantity="one">1 小時</item>
@@ -4375,7 +4375,7 @@
     <string name="webview_disabled_for_user" msgid="5809886172032644498">"(已為使用者<xliff:g id="USER">%s</xliff:g>停用)"</string>
     <string name="autofill_app" msgid="7595308061826307921">"自動填入服務"</string>
     <string name="autofill_keywords" msgid="6260653325195017912">"自動, 填入, 自動填入"</string>
-    <string name="autofill_confirmation_message" msgid="4888767934273494272">"&lt;b&gt;請確定您信任此應用程式&lt;/b&gt; &lt;br/&gt; &lt;br/&gt; &lt;xliff:g id=app_name example=Google Autofill&gt;%1$s&lt;/xliff:g&gt; 應用程式會根據您畫面上的內容判斷可自動填入的資料。"</string>
+    <string name="autofill_confirmation_message" msgid="4888767934273494272">"&lt;b&gt;請確定您信任此應用程式&lt;/b&gt; &lt;br/&gt; &lt;br/&gt; &lt;xliff:g id=app_name example=/e/ Autofill&gt;%1$s&lt;/xliff:g&gt; 應用程式會根據您畫面上的內容判斷可自動填入的資料。"</string>
     <string name="debug_autofill_category" msgid="5998163555428196185">"自動填入"</string>
     <string name="autofill_logging_level_title" msgid="3733958845861098307">"記錄等級"</string>
     <string name="autofill_max_partitions" msgid="7342195529574406366">"每個工作階段的要求數量上限"</string>
