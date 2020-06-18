@@ -326,6 +326,6 @@ public class SettingsGateway {
             Settings.EnterprisePrivacySettingsActivity.class.getName(),
             Settings.MyDeviceInfoActivity.class.getName(),
             Settings.ModuleLicensesActivity.class.getName(),
-            UserBackupSettingsActivity.class.getName(),
+            // UserBackupSettingsActivity.class.getName(),
     };
 }
