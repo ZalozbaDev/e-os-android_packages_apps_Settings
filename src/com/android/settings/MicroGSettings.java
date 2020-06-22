@@ -17,7 +17,7 @@
 package com.android.settings;
 
 import android.app.Activity;
-import android.app.Fragment;
+import androidx.fragment.app.Fragment;
 import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;

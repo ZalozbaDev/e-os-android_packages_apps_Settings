@@ -3,7 +3,7 @@ package com.android.settings;
 import android.os.Bundle;
 import android.content.Intent;
 import android.content.ComponentName;
-import android.app.Fragment;
+import androidx.fragment.app.Fragment;
 
 import android.app.Activity;
 import android.content.Context;
