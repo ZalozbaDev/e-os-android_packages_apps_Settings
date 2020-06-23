@@ -40,14 +40,14 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
-import android.support.v7.preference.Preference;
-import android.support.v7.preference.Preference.OnPreferenceChangeListener;
+import androidx.preference.Preference;
+import androidx.preference.Preference.OnPreferenceChangeListener;
 
-import android.support.v7.preference.EditTextPreference;
-import android.support.v7.preference.TwoStatePreference;
+import androidx.preference.EditTextPreference;
+import androidx.preference.TwoStatePreference;
 
-import android.support.v14.preference.SwitchPreference;
-import android.support.v7.preference.EditTextPreference;
+import androidx.preference.SwitchPreference;
+import androidx.preference.EditTextPreference;
 
 import android.util.Log;
 

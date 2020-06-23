@@ -98,6 +98,14 @@
         settings:userRestriction="no_config_vpn"
         settings:useAdminDisabledSummary="true" />
 
+    <com.android.settingslib.RestrictedPreference
+        android:fragment="com.android.settings.dns.DNSSettings"
+        android:key="e_dns_settings"
+        android:title="@string/e_dns_mode"
+        android:icon="@drawable/ic_settings_24dp"
+        android:order="0"
+        android:summary="@string/e_dns_summary"/>
+
     <com.android.settings.network.PrivateDnsModeDialogPreference
         android:key="private_dns_settings"
         android:title="@string/select_private_dns_configuration_title"
