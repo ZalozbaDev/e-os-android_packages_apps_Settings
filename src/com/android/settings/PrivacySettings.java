@@ -83,8 +83,8 @@ public class PrivacySettings extends SettingsPreferenceFragment {
         super.onCreate(savedInstanceState);
         // Don't allow any access if this is not an admin user.
         // TODO: backup/restore currently only works with owner user b/22760572
-        // /e/ Do NOT display Backup & reset item for the moment. 
-        mEnabled = false;//UserManager.get(getActivity()).isAdminUser();
+        // /e/ Do NOT display Backup & reset item for the moment.
+        mEnabled = UserManager.get(getActivity()).isAdminUser();
         if (!mEnabled) {
             return;
         }
