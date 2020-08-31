@@ -3291,7 +3291,7 @@
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
                 android:value="com.android.settings.gestures.GlobalActionsPanelSettings" />
 	</activity>
-	<!-- /e/ specific changes -->
+	<!-- /e/ specific changes >
         <activity android:name="Settings$MicroGActivity"
             android:label="@string/micro_g"
             android:icon="@drawable/ic_homepage_microg">
@@ -3306,7 +3306,7 @@
                 android:value="com.android.settings.category.ia.homepage" />
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
                 android:value="com.android.settings.MicroGSettings" />
-        </activity>
+        </activity -->
 
         <activity android:name="Settings$OpenKeychainActivity"
             android:label="@string/open_keychain"
