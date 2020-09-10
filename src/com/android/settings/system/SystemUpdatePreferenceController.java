@@ -85,6 +85,7 @@ public class SystemUpdatePreferenceController extends BasePreferenceController {
         return false;
     }
 
+
     @Override
     public CharSequence getSummary() {
         CharSequence summary = mContext.getString(R.string.android_version_summary,
@@ -117,7 +118,7 @@ public class SystemUpdatePreferenceController extends BasePreferenceController {
                 }
                 break;
         }
-        return summary;
+        return "";
     }
 
     /**
