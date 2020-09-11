@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2007 The Android Open Source Project
+<?xml version="1.0" encoding="utf-8"?><!-- Copyright (C) 2007 The Android Open Source Project
      Copyright (C) 2018 e.foundation
      Copyright (C) 2019 e.foundation
 
@@ -32,7 +31,8 @@
     <!-- Strings for Dialog switch button [CHAR LIMIT=20] -->
     <string name="dlg_switch">Switch</string>
 
-    <!-- Device Info --> <skip />
+    <!-- Device Info -->
+    <skip />
     <!-- Device Info screen. Used for a status item's value when the proper value is not known -->
     <string name="device_info_default">Unknown</string>
     <!-- [CHAR LIMIT=NONE] Device Info screen. Countdown for user taps to enable development settings -->
@@ -48,7 +48,8 @@
     <!-- [CHAR LIMIT=NONE] Toast message when user attemps to launch developer otions before enabling it. -->
     <string name="dev_settings_disabled_warning">Please enable developer options first.</string>
 
-    <!-- Category headings in left-pane header menu --> <skip />
+    <!-- Category headings in left-pane header menu -->
+    <skip />
     <!-- Settings main menu category heading. Wireless and networks (Wi-Fi, Bluetooth, data usage...). [CHAR LIMIT=40] -->
     <string name="header_category_wireless_networks">Wireless &amp; networks</string>
     <!-- Settings main menu category heading. Wireless and networks (Wi-Fi, Bluetooth, data usage...). [CHAR LIMIT=40] -->
@@ -105,7 +106,7 @@
     <string name="radio_info_ims_feature_status_unavailable">Unavailable</string>
 
     <!-- Phone Info screen. IMS Registration.  Used for diagnostic info screens, precise translation isn't needed -->
-    <string name="radio_info_ims_reg_status">IMS Registration: <xliff:g id="status" example="registered">%1$s</xliff:g>\u000AVoice over LTE: <xliff:g id="availability" example="available">%2$s</xliff:g>\u000AVoice over WiFi: <xliff:g id="availability" example="available">%3$s</xliff:g>\u000AVideo Calling: <xliff:g id="availability" example="available">%4$s</xliff:g>\u000AUT Interface: <xliff:g id="availability" example="available">%5$s</xliff:g></string>
+    <string name="radio_info_ims_reg_status">IMS Registration: <xliff:g example="registered" id="status">%1$s</xliff:g>\u000AVoice over LTE: <xliff:g example="available" id="availability">%2$s</xliff:g>\u000AVoice over WiFi: <xliff:g example="available" id="availability">%3$s</xliff:g>\u000AVideo Calling: <xliff:g example="available" id="availability">%4$s</xliff:g>\u000AUT Interface: <xliff:g example="available" id="availability">%5$s</xliff:g></string>
 
     <!-- Phone Info screen. Status label.  Used for diagnostic info screens, precise translation isn't needed -->
     <string name="radioInfo_service_in">In Service</string>
@@ -165,7 +166,7 @@
     <!-- Content description for preview pager. [CHAR LIMIT=NONE] -->
     <string name="preview_pager_content_description">Preview</string>
     <!-- Content description for dot pager indicator for preview pager. [CHAR LIMIT=NONE] -->
-    <string name="preview_page_indicator_content_description">Preview, page <xliff:g id="current_page" example="3">%1$d</xliff:g> of <xliff:g id="num_pages" example="9">%2$d</xliff:g></string>
+    <string name="preview_page_indicator_content_description">Preview, page <xliff:g example="3" id="current_page">%1$d</xliff:g> of <xliff:g example="9" id="num_pages">%2$d</xliff:g></string>
 
     <!-- Summary of font size setting screen. [CHAR LIMIT=NONE] -->
     <string name="font_size_summary">Make the text on screen smaller or larger.</string>
@@ -178,15 +179,12 @@
     <!-- Sample text for font size preview. -->
     <string name="font_size_preview_text">Servez à ce monsieur une bière et des kiwis.</string>
     <string name="font_size_preview_text_headline">Sample text</string>
-    <string name="font_size_preview_text_title"
-            translation_description="Title text in sample text used to illustrate how the currently selected font size will appear to the user. NOTE: Translate manually. No not adopt any copyrighted material for translation.">
+    <string name="font_size_preview_text_title" translation_description="Title text in sample text used to illustrate how the currently selected font size will appear to the user. NOTE: Translate manually. No not adopt any copyrighted material for translation.">
         The Wonderful Wizard of Oz
     </string>
-    <string name="font_size_preview_text_subtitle"
-            translation_description="Subtitle text in sample text used to illustrate how the currently selected font size will appear to the user. NOTE: Translate manually. No not adopt any copyrighted material for translation.">
+    <string name="font_size_preview_text_subtitle" translation_description="Subtitle text in sample text used to illustrate how the currently selected font size will appear to the user. NOTE: Translate manually. No not adopt any copyrighted material for translation.">
         Chapter 11: The Wonderful Emerald City of Oz</string>
-    <string name="font_size_preview_text_body"
-            translation_description="Text in sample text used to illustrate how the currently selected font size will appear to the user. NOTE: Translate manually. No not adopt any copyrighted material for translation.">
+    <string name="font_size_preview_text_body" translation_description="Text in sample text used to illustrate how the currently selected font size will appear to the user. NOTE: Translate manually. No not adopt any copyrighted material for translation.">
         Even with eyes protected by the green spectacles Dorothy and her friends were at first dazzled by the brilliancy of the wonderful City.
         The streets were lined with beautiful houses all built of green marble and studded everywhere with sparkling emeralds.
         They walked over a pavement of the same green marble, and where the blocks were joined together were rows of emeralds, set closely, and glittering in the brightness of the sun.
@@ -733,7 +731,8 @@
     <!-- mobile network settings screen, setting option summary text -->
     <string name="sum_carrier_select">Choose a network operator</string>
 
-    <!-- Date and time settings --><skip />
+    <!-- Date and time settings -->
+    <skip />
     <!-- Main Settings screen setting option name to go into the date and time settings-->
     <string name="date_and_time_settings_title">Date &amp; time</string>
     <!-- Title for Date & Time settings screen in SetupWizard [CHAR LIMIT=40] -->
@@ -783,7 +782,7 @@
     <!-- Setting option title to select time zone in time zone setting screen [CHAR LIMIT=30]-->
     <string name="date_time_select_zone">Time Zone</string>
     <!-- Setting option title to select time zone in a region -->
-    <string name="date_time_set_timezone_in_region">Time zones in <xliff:g id="region" example="United States">%1$s</xliff:g></string>
+    <string name="date_time_set_timezone_in_region">Time zones in <xliff:g example="United States" id="region">%1$s</xliff:g></string>
     <!-- Setting option title in time zone setting screen [CHAR LIMIT=30] -->
     <string name="date_time_select_fixed_offset_time_zones">Select UTC offset</string>
     <!-- Menu item on Select time zone screen -->
@@ -791,15 +790,15 @@
     <!-- Menu item on Select time zone screen -->
     <string name="zone_list_menu_sort_by_timezone">Sort by time zone</string>
     <!-- Label describing when a given time zone changes to DST or standard time -->
-    <string name="zone_change_to_from_dst"><xliff:g id="time_type" example="Pacific Summer Time">%1$s</xliff:g> starts on <xliff:g id="transition_date" example="Mar 11 2018">%2$s</xliff:g>.</string>
+    <string name="zone_change_to_from_dst"><xliff:g example="Pacific Summer Time" id="time_type">%1$s</xliff:g> starts on <xliff:g example="Mar 11 2018" id="transition_date">%2$s</xliff:g>.</string>
     <!-- Label describing a exemplar location and time zone offset[CHAR LIMIT=NONE] -->
-    <string name="zone_info_exemplar_location_and_offset"><xliff:g id="exemplar_location" example="Los Angeles">%1$s</xliff:g> (<xliff:g id="offset" example="GMT-08:00">%2$s</xliff:g>)</string>
+    <string name="zone_info_exemplar_location_and_offset"><xliff:g example="Los Angeles" id="exemplar_location">%1$s</xliff:g> (<xliff:g example="GMT-08:00" id="offset">%2$s</xliff:g>)</string>
     <!-- Label describing a time zone offset and name[CHAR LIMIT=NONE] -->
-    <string name="zone_info_offset_and_name"><xliff:g id="time_type" example="Pacific Time">%2$s</xliff:g> (<xliff:g id="offset" example="GMT-08:00">%1$s</xliff:g>)</string>
+    <string name="zone_info_offset_and_name"><xliff:g example="Pacific Time" id="time_type">%2$s</xliff:g> (<xliff:g example="GMT-08:00" id="offset">%1$s</xliff:g>)</string>
     <!-- Label describing a time zone and changes to DST or standard time [CHAR LIMIT=NONE] -->
-    <string name="zone_info_footer">Uses <xliff:g id="offset_and_name" example="Pacific Time (GMT-08:00)">%1$s</xliff:g>. <xliff:g id="dst_time_type" example="Pacific Daylight Time">%2$s</xliff:g> starts on <xliff:g id="transition_date" example="Mar 11 2018">%3$s</xliff:g>.</string>
+    <string name="zone_info_footer">Uses <xliff:g example="Pacific Time (GMT-08:00)" id="offset_and_name">%1$s</xliff:g>. <xliff:g example="Pacific Daylight Time" id="dst_time_type">%2$s</xliff:g> starts on <xliff:g example="Mar 11 2018" id="transition_date">%3$s</xliff:g>.</string>
     <!-- Label describing a time zone without DST [CHAR LIMIT=NONE] -->
-    <string name="zone_info_footer_no_dst">Uses <xliff:g id="offset_and_name" example="GMT-08:00 Pacific Time">%1$s</xliff:g>. No daylight savings time.</string>
+    <string name="zone_info_footer_no_dst">Uses <xliff:g example="GMT-08:00 Pacific Time" id="offset_and_name">%1$s</xliff:g>. No daylight savings time.</string>
     <!-- Describes the time type "daylight savings time" (used in zone_change_to_from_dst, when no zone specific name is available) -->
     <string name="zone_time_type_dst">Daylight savings time</string>
     <!-- Describes the time type "standard time" (used in zone_change_to_from_dst, when no zone specific name is available) -->
@@ -816,7 +815,8 @@
          [CHAR LIMIT=20] -->
     <string name="time_picker_title">Time</string>
 
-    <!-- Security Settings --><skip />
+    <!-- Security Settings -->
+    <skip />
 
     <!-- Security settings screen, setting option name to change screen timeout -->
     <string name="lock_after_timeout">Automatically lock</string>
@@ -841,7 +841,7 @@
     <!-- Text shown for summary of owner info setting (if none set) [CHAR LIMIT=40]-->
     <string name="owner_info_settings_summary">None</string>
     <!-- Description of how many characters are used in owner info [CHAR LIMIT=40]-->
-    <string name="owner_info_settings_status"><xliff:g id="count" example="90">%1$d</xliff:g> / <xliff:g id="count" example="100">%2$d</xliff:g></string>
+    <string name="owner_info_settings_status"><xliff:g example="90" id="count">%1$d</xliff:g> / <xliff:g example="100" id="count">%2$d</xliff:g></string>
     <!-- Hint text shown in owner info edit text [CHAR LIMIT=50] -->
     <string name="owner_info_settings_edit_text_hint">E.g., Joe\u2019s Android.</string>
     <!-- Text shown for title of user info setting [CHAR LIMIT=20]-->
@@ -860,7 +860,7 @@
     <!-- Main Settings screen setting option title for the item to take you to the accounts screen [CHAR LIMIT=22] -->
     <string name="account_settings_title">Accounts</string>
     <!-- Main Settings screen setting option title for the item to take you to the security screen -->
-    <string name="security_settings_title">Security &amp; location</string>
+    <string name="security_settings_title">Security &amp; Privacy</string>
     <!-- Security Settings screen setting option title for the item to take you to the encryption and credential screen -->
     <string name="encryption_and_credential_settings_title">Encryption &amp; credentials</string>
     <!-- Security Settings screen Encryption and crendential summary -->
@@ -886,7 +886,8 @@
     <string name="security_dashboard_summary">Screen lock, fingerprint</string>
     <!-- Summary for Security settings when fingerprint is not supported [CHAR LIMIT=NONE]-->
     <string name="security_dashboard_summary_no_fingerprint">Screen lock</string>
-    <!-- Fingerprint enrollment and settings --><skip />
+    <!-- Fingerprint enrollment and settings -->
+    <skip />
     <!-- Title shown for menu item that launches fingerprint settings or enrollment [CHAR LIMIT=22] -->
     <string name="security_settings_fingerprint_preference_title">Fingerprint</string>
     <!-- Fingerprint managment category title - configuration options for managing enrolled fingerprints [CHAR LIMIT=22] -->
@@ -1005,7 +1006,7 @@
     <string name="security_settings_fingerprint_enroll_lift_touch_again">Lift finger, then touch sensor again</string>
 
     <!-- Text shown when "Add fingerprint" button is disabled -->
-    <string name="fingerprint_add_max">You can add up to <xliff:g id="count" example="5">%d</xliff:g> fingerprints</string>
+    <string name="fingerprint_add_max">You can add up to <xliff:g example="5" id="count">%d</xliff:g> fingerprints</string>
     <!-- Text shown when users has enrolled a maximum number of fingerprints [CHAR LIMIT=NONE] -->
     <string name="fingerprint_intro_error_max">You\u2019ve added the maximum number of fingerprints</string>
     <!-- Text shown when an unknown error caused the device to be unable to add fingerprints [CHAR LIMIT=NONE] -->
@@ -1015,7 +1016,7 @@
     <string name="fingerprint_last_delete_title">Remove all fingerprints?</string>
 
     <!-- Title shown in a dialog which asks the user to confirm when a single fingerprint gets deleted. [CHAR LIMIT=50]-->
-    <string name="fingerprint_delete_title">Remove \'<xliff:g id="fingerprint_id" example="Fingerprint 2">%1$s</xliff:g>\'</string>
+    <string name="fingerprint_delete_title">Remove \'<xliff:g example="Fingerprint 2" id="fingerprint_id">%1$s</xliff:g>\'</string>
 
     <!-- Message shown in a dialog which asks the user to confirm when a single fingerprint gets deleted. [CHAR LIMIT=NONE]-->
     <string name="fingerprint_delete_message">Do you want to delete this fingerprint?</string>
@@ -1097,14 +1098,14 @@
 
     <!-- Informational text on the progress screen while encrypting the device -->
     <string name="crypt_keeper_setup_description" product="tablet">Wait while your tablet
-    is being encrypted. <xliff:g id="percent" example="50">^1</xliff:g>% complete.</string>
+    is being encrypted. <xliff:g example="50" id="percent">^1</xliff:g>% complete.</string>
     <!-- Informational text on the progress screen while encrypting the device -->
     <string name="crypt_keeper_setup_description" product="default">Wait while your phone
-    is being encrypted. <xliff:g id="percent" example="50">^1</xliff:g>% complete.</string>
+    is being encrypted. <xliff:g example="50" id="percent">^1</xliff:g>% complete.</string>
     <string name="crypt_keeper_setup_time_remaining" product="tablet">Wait while your tablet
-    is being encrypted. Time remaining: <xliff:g id="duration" example="1:23">^1</xliff:g></string>
+    is being encrypted. Time remaining: <xliff:g example="1:23" id="duration">^1</xliff:g></string>
     <string name="crypt_keeper_setup_time_remaining" product="default">Wait while your phone
-    is being encrypted. Time remaining: <xliff:g id="duration" example="1:23">^1</xliff:g></string>
+    is being encrypted. Time remaining: <xliff:g example="1:23" id="duration">^1</xliff:g></string>
 
     <string name="crypt_keeper_force_power_cycle" product="tablet">To unlock your tablet, turn it off and then on.</string>
     <string name="crypt_keeper_force_power_cycle" product="default">To unlock your phone, turn it off and then on.</string>
@@ -1112,7 +1113,7 @@
 
     <!-- Warn user their device will be wiped if they make x more failed attempts -->
     <string name="crypt_keeper_warn_wipe">Warning: Your device will be wiped after
-    <xliff:g id="count" example="7">^1</xliff:g> more failed attempts to be unlocked!
+    <xliff:g example="7" id="count">^1</xliff:g> more failed attempts to be unlocked!
     </string>
 
     <!-- Informational text on the password entry screen prompting the user for their password -->
@@ -1164,9 +1165,11 @@
     <!-- Image button description to switch input method -->
     <string name="crypt_keeper_switch_input_method">Switch input method</string>
 
-    <!-- Unlock Picker Settings --><skip />
+    <!-- Unlock Picker Settings -->
+    <skip />
 
-    <!-- Security Picker --><skip />
+    <!-- Security Picker -->
+    <skip />
 
     <!-- Title for suggested actions for screen lock [CHAR LIMIT=46] -->
     <string name="suggested_lock_settings_title" product="tablet">Secure your tablet</string>
@@ -1222,17 +1225,19 @@
     <!-- Title for dialog in screen lock settings, allowing users to choose other types of screen locks. [CHAR LIMIT=40] -->
     <string name="setup_lock_settings_options_dialog_title">Screen lock options</string>
 
-    <!--  Main Security lock settings --><skip />
+    <!--  Main Security lock settings -->
+    <skip />
     <!--  Title for PreferenceScreen to launch picker for security method when there is none [CHAR LIMIT=22] -->
     <string name="unlock_set_unlock_launch_picker_title">Screen lock</string>
 
     <!--  Summary for PreferenceScreen to launch picker for security method when there is none [CHAR LIMIT=NONE] -->
-    <string name="unlock_set_unlock_launch_picker_summary_lock_immediately"><xliff:g id="unlock_method" example="PIN">%1$s</xliff:g> / Immediately after sleep</string>
+    <string name="unlock_set_unlock_launch_picker_summary_lock_immediately"><xliff:g example="PIN" id="unlock_method">%1$s</xliff:g> / Immediately after sleep</string>
 
     <!--  Summary for PreferenceScreen to launch picker for security method when there is none [CHAR LIMIT=NONE] -->
-    <string name="unlock_set_unlock_launch_picker_summary_lock_after_timeout"><xliff:g id="unlock_method" example="PIN">%1$s</xliff:g> / <xliff:g id="timeout_string">%2$s</xliff:g> after sleep</string>
+    <string name="unlock_set_unlock_launch_picker_summary_lock_after_timeout"><xliff:g example="PIN" id="unlock_method">%1$s</xliff:g> / <xliff:g id="timeout_string">%2$s</xliff:g> after sleep</string>
 
-    <!--  Profile Security lock settings --><skip />
+    <!--  Profile Security lock settings -->
+    <skip />
     <!--  Title for PreferenceScreen to launch picker for security method for the managed profile when there is none [CHAR LIMIT=22] -->
     <string name="unlock_set_unlock_launch_picker_title_profile">Work profile lock</string>
 
@@ -1397,19 +1402,19 @@
     <string name="lock_failed_attempts_now_wiping_dialog_dismiss">Dismiss</string>
 
     <!-- Hint shown in dialog screen when password is too short -->
-    <string name="lockpassword_password_too_short">Must be at least <xliff:g id="count" example="3">%d</xliff:g> characters</string>
+    <string name="lockpassword_password_too_short">Must be at least <xliff:g example="3" id="count">%d</xliff:g> characters</string>
     <!-- Hint shown in dialog screen when PIN is too short -->
-    <string name="lockpassword_pin_too_short">PIN must be at least <xliff:g id="count" example="3">%d</xliff:g> digits</string>
+    <string name="lockpassword_pin_too_short">PIN must be at least <xliff:g example="3" id="count">%d</xliff:g> digits</string>
 
     <!-- Hint shown after minimum password criteria is met -->
     <string name="lockpassword_continue_label">Continue</string>
 
     <!-- Error shown in popup when password is too long -->
     <string name="lockpassword_password_too_long">Must be fewer than
-        <xliff:g id="number" example="17">%d</xliff:g> characters</string>
+        <xliff:g example="17" id="number">%d</xliff:g> characters</string>
     <!-- Error shown in popup when PIN is too long -->
     <string name="lockpassword_pin_too_long">Must be fewer than
-        <xliff:g id="number" example="17">%d</xliff:g> digits</string>
+        <xliff:g example="17" id="number">%d</xliff:g> digits</string>
 
     <!-- Error shown when in PIN mode and user enters a non-digit -->
     <string name="lockpassword_pin_contains_non_digits">Must contain only digits 0-9</string>
@@ -1435,37 +1440,37 @@
     <!-- Error shown when in PASSWORD mode and password doesn't contain the required number of letters -->
     <plurals name="lockpassword_password_requires_letters">
         <item quantity="one">Must contain at least 1 letter</item>
-        <item quantity="other">Must contain at least <xliff:g id="count" example="3">%d</xliff:g> letters</item>
+        <item quantity="other">Must contain at least <xliff:g example="3" id="count">%d</xliff:g> letters</item>
     </plurals>
 
     <!-- Error shown when in PASSWORD mode and password doesn't contain the required number of lowercase letters -->
     <plurals name="lockpassword_password_requires_lowercase">
         <item quantity="one">Must contain at least 1 lowercase letter</item>
-        <item quantity="other">Must contain at least <xliff:g id="count" example="3">%d</xliff:g> lowercase letters</item>
+        <item quantity="other">Must contain at least <xliff:g example="3" id="count">%d</xliff:g> lowercase letters</item>
     </plurals>
 
     <!-- Error shown when in PASSWORD mode and password doesn't contain the required number of uppercase letters -->
     <plurals name="lockpassword_password_requires_uppercase">
         <item quantity="one">Must contain at least 1 uppercase letter</item>
-        <item quantity="other">Must contain at least <xliff:g id="count" example="3">%d</xliff:g> uppercase letters</item>
+        <item quantity="other">Must contain at least <xliff:g example="3" id="count">%d</xliff:g> uppercase letters</item>
     </plurals>
 
     <!-- Error shown when in PASSWORD mode and password doesn't contain the required number of numerical digits -->
     <plurals name="lockpassword_password_requires_numeric">
         <item quantity="one">Must contain at least 1 numerical digit</item>
-        <item quantity="other">Must contain at least <xliff:g id="count" example="3">%d</xliff:g> numerical digits</item>
+        <item quantity="other">Must contain at least <xliff:g example="3" id="count">%d</xliff:g> numerical digits</item>
     </plurals>
 
     <!-- Error shown when in PASSWORD mode and password doesn't contain the required number of special symbols -->
     <plurals name="lockpassword_password_requires_symbols">
         <item quantity="one">Must contain at least 1 special symbol</item>
-        <item quantity="other">Must contain at least <xliff:g id="count" example="3">%d</xliff:g> special symbols</item>
+        <item quantity="other">Must contain at least <xliff:g example="3" id="count">%d</xliff:g> special symbols</item>
     </plurals>
 
     <!-- Error shown when in PASSWORD mode and password doesn't contain the required number of non-letter characters -->
     <plurals name="lockpassword_password_requires_nonletter">
         <item quantity="one">Must contain at least 1 non-letter character</item>
-        <item quantity="other">Must contain at least <xliff:g id="count" example="3">%d</xliff:g> non-letter characters</item>
+        <item quantity="other">Must contain at least <xliff:g example="3" id="count">%d</xliff:g> non-letter characters</item>
     </plurals>
 
     <!-- Error shown when in PASSWORD mode and password has been used recently. Please keep this string short! -->
@@ -1521,7 +1526,7 @@
     <!-- Summary of preference to manage device policies when there is trust agent-->
     <plurals name="manage_trust_agents_summary_on">
         <item quantity="one">1 active trust agent</item>
-        <item quantity="other"><xliff:g id="count" example="3">%d</xliff:g> active trust agents</item>
+        <item quantity="other"><xliff:g example="3" id="count">%d</xliff:g> active trust agents</item>
     </plurals>
 
     <!-- Bluetooth settings -->
@@ -1768,9 +1773,9 @@
     <string name="link_speed">%1$d Mbps</string>
 
     <!-- This string asks the user whether or not to allow an app to enable WiFi. [CHAR LIMIT=NONE] -->
-    <string name="wifi_ask_enable"><xliff:g id="requester" example="FancyApp">%s</xliff:g> wants to turn on Wi-Fi</string>
+    <string name="wifi_ask_enable"><xliff:g example="FancyApp" id="requester">%s</xliff:g> wants to turn on Wi-Fi</string>
     <!-- This string asks the user whether or not to allow an app to disable WiFi. [CHAR LIMIT=NONE] -->
-    <string name="wifi_ask_disable"><xliff:g id="requester" example="FancyApp">%s</xliff:g> wants to turn off Wi-Fi</string>
+    <string name="wifi_ask_disable"><xliff:g example="FancyApp" id="requester">%s</xliff:g> wants to turn off Wi-Fi</string>
 
     <!-- NFC settings -->
     <!-- Used in the 1st-level settings screen to turn on NFC -->
@@ -1797,7 +1802,8 @@
     <!-- Explanation of the Android Beam feature in the Android Beam settings panel. The use of "beam" here is as a verb and not considered trademarked. [CHAR LIMIT=NONE] -->
     <string name="android_beam_explained">When this feature is turned on, you can beam app content to another NFC-capable device by holding the devices close together. For example, you can beam web pages, YouTube videos, contacts, and more.\n\nJust bring the devices together (typically back to back) and then tap your screen. The app determines what gets beamed.</string>
 
-    <!-- Wi-Fi Settings --> <skip />
+    <!-- Wi-Fi Settings -->
+    <skip />
     <!-- Used in the 1st-level settings screen to turn on Wi-Fi -->
     <string name="wifi_quick_toggle_title">Wi\u2011Fi</string>
     <!-- Used in the 1st-level settings screen as the turn-on summary -->
@@ -1939,7 +1945,8 @@
     <!-- Wi-Fi settings dialog. Text to show in toast for when user turns on wifi scanning. [CHAR LIMIT=NONE] -->
     <string name="wifi_settings_scanning_required_enabled">Wi\u2011Fi scanning turned on</string>
 
-    <!-- Dialog for Access Points --> <skip />
+    <!-- Dialog for Access Points -->
+    <skip />
     <!-- Label to show/hide advanced options [CHAR LIMIT=40] -->
     <string name="wifi_show_advanced">Advanced options</string>
     <!-- Message for talkback to say when Advanced Options expanded [CHAR LIMIT=NONE] -->
@@ -2087,7 +2094,8 @@
     <!-- Dialog message for forget confirmation dialog -->
     <string name="wifi_forget_dialog_message">All passwords for this network will be deleted</string>
 
-    <!-- Wi-Fi Advanced Settings --> <skip />
+    <!-- Wi-Fi Advanced Settings -->
+    <skip />
     <!-- Wi-Fi settings screen, Saved networks, settings section.  This is a header shown above Saved networks wifi settings. [CHAR LIMIT=30] -->
     <string name="wifi_saved_access_points_titlebar">Saved networks</string>
     <!-- Wi-Fi settings screen, Saved networks summary.  This shows below the "Saved networks" item and indicates the number of networks a user has saved. -->
@@ -2322,7 +2330,7 @@
     <!-- Title of WFC roaming preference item [CHAR LIMIT=45] -->
     <string name="wifi_calling_roaming_mode_title">Roaming preference</string>
     <!-- Summary of WFC roaming preference item [CHAR LIMIT=NONE]-->
-    <string name="wifi_calling_roaming_mode_summary"><xliff:g id="wfc_roaming_preference" example="Wi-Fi">%1$s</xliff:g></string>
+    <string name="wifi_calling_roaming_mode_summary"><xliff:g example="Wi-Fi" id="wfc_roaming_preference">%1$s</xliff:g></string>
     <!-- WFC mode dialog [CHAR LIMIT=45] -->
     <string name="wifi_calling_roaming_mode_dialog_title">Roaming preference</string>
     <string-array name="wifi_calling_mode_choices">
@@ -2375,7 +2383,7 @@
     <!-- Carrier string to use in other messages -->
     <string name="carrier">Carrier</string>
     <!-- Sound and alerts settings -->
-    <skip/>
+    <skip />
     <string name="display_settings_title">Display</string>
     <!-- Sound settings screen heading -->
     <string name="sound_settings">Sound</string>
@@ -2477,18 +2485,19 @@
     <!-- Account settings header. [CHAR LIMIT=30] -->
     <string name="account_settings">Accounts</string>
     <!-- Content description for work profile accounts group [CHAR LIMIT=NONE] -->
-    <string name="accessibility_category_work">Work profile accounts - <xliff:g id="managed_by" example="Managed by Corporate application">%s</xliff:g></string>
+    <string name="accessibility_category_work">Work profile accounts - <xliff:g example="Managed by Corporate application" id="managed_by">%s</xliff:g></string>
     <!-- Content description for personal profile accounts group [CHAR LIMIT=NONE] -->
     <string name="accessibility_category_personal">Personal profile accounts</string>
     <!-- Content description for work profile details page title [CHAR LIMIT=NONE] -->
-    <string name="accessibility_work_account_title">Work account - <xliff:g id="managed_by" example="Email provider">%s</xliff:g></string>
+    <string name="accessibility_work_account_title">Work account - <xliff:g example="Email provider" id="managed_by">%s</xliff:g></string>
     <!-- Content description for personal profile details page title [CHAR LIMIT=NONE] -->
-    <string name="accessibility_personal_account_title">Personal account - <xliff:g id="managed_by" example="Email provider">%s</xliff:g></string>
+    <string name="accessibility_personal_account_title">Personal account - <xliff:g example="Email provider" id="managed_by">%s</xliff:g></string>
 
     <!-- Main Settings screen, setting option name to go into search settings -->
     <string name="search_settings">Search</string>
 
-    <!-- Display settings --><skip/>
+    <!-- Display settings -->
+    <skip />
     <!-- Sound & display settings screen, section header for settings related to display -->
     <string name="display_settings">Display</string>
     <!-- Sound & display settings screen, accelerometer-based rotation check box label -->
@@ -2800,9 +2809,9 @@
     <!-- About phone screen, summary of the item to go into the phone status screen -->
     <string name="device_status_summary" product="default">Phone number, signal, etc.</string>
     <!-- Main settings screen item's title to go into the storage settings screen [CHAR LIMIT=25] -->
-    <string name="storage_settings" >Storage</string>
+    <string name="storage_settings">Storage</string>
     <!-- Main settings screen item's title to go into the storage & USB settings screen [CHAR LIMIT=25] -->
-    <string name="storage_usb_settings" >Storage</string>
+    <string name="storage_usb_settings">Storage</string>
     <!-- Storage settings screen title -->
     <string name="storage_settings_title">Storage settings</string>
     <!-- [CHAR LIMIT=100] Main settings screen item's summary for the SD card and storage settings -->
@@ -3020,66 +3029,66 @@
     <string name="storage_external_title">Portable storage</string>
 
     <!-- Summary of a single storage volume, constrasting available and total storage space. [CHAR LIMIT=48]-->
-    <string name="storage_volume_summary"><xliff:g id="used" example="1.2GB">%1$s</xliff:g> used of <xliff:g id="total" example="32GB">%2$s</xliff:g></string>
+    <string name="storage_volume_summary"><xliff:g example="1.2GB" id="used">%1$s</xliff:g> used of <xliff:g example="32GB" id="total">%2$s</xliff:g></string>
     <!-- Summary of a single storage volume used space. [CHAR LIMIT=24] -->
-    <string name="storage_size_large"><xliff:g id="number" example="128">^1</xliff:g><small><small> <xliff:g id="unit" example="KB">^2</xliff:g></small></small></string>
+    <string name="storage_size_large"><xliff:g example="128" id="number">^1</xliff:g><small><small> <xliff:g example="KB" id="unit">^2</xliff:g></small></small></string>
     <!-- Summary of a single storage volume total space. [CHAR LIMIT=48]-->
-    <string name="storage_volume_used">Used of <xliff:g id="total" example="32GB">%1$s</xliff:g></string>
+    <string name="storage_volume_used">Used of <xliff:g example="32GB" id="total">%1$s</xliff:g></string>
     <!-- Summary of a single storage volume total space. [CHAR LIMIT=48]-->
-    <string name="storage_volume_used_total">Total used of <xliff:g id="total" example="32GB">%1$s</xliff:g></string>
+    <string name="storage_volume_used_total">Total used of <xliff:g example="32GB" id="total">%1$s</xliff:g></string>
 
     <!-- Toast informing that storage mount operation was successful. [CHAR LIMIT=64]-->
-    <string name="storage_mount_success"><xliff:g id="name" example="SD card">%1$s</xliff:g> is mounted</string>
+    <string name="storage_mount_success"><xliff:g example="SD card" id="name">%1$s</xliff:g> is mounted</string>
     <!-- Toast informing that storage unmount operation failed. [CHAR LIMIT=64]-->
-    <string name="storage_mount_failure">Couldn\u2019t mount <xliff:g id="name" example="SD card">%1$s</xliff:g></string>
+    <string name="storage_mount_failure">Couldn\u2019t mount <xliff:g example="SD card" id="name">%1$s</xliff:g></string>
 
     <!-- Toast informing that storage unmount operation was successful. [CHAR LIMIT=64]-->
-    <string name="storage_unmount_success"><xliff:g id="name" example="SD card">%1$s</xliff:g> is safely ejected</string>
+    <string name="storage_unmount_success"><xliff:g example="SD card" id="name">%1$s</xliff:g> is safely ejected</string>
     <!-- Toast informing that storage unmount operation failed. [CHAR LIMIT=64]-->
-    <string name="storage_unmount_failure">Couldn\u2019t safely eject <xliff:g id="name" example="SD card">%1$s</xliff:g></string>
+    <string name="storage_unmount_failure">Couldn\u2019t safely eject <xliff:g example="SD card" id="name">%1$s</xliff:g></string>
 
     <!-- Toast informing that storage format operation was successful. [CHAR LIMIT=64]-->
-    <string name="storage_format_success"><xliff:g id="name" example="SD card">%1$s</xliff:g> is formatted</string>
+    <string name="storage_format_success"><xliff:g example="SD card" id="name">%1$s</xliff:g> is formatted</string>
     <!-- Toast informing that storage format operation failed. [CHAR LIMIT=64]-->
-    <string name="storage_format_failure">Couldn\u2019t format <xliff:g id="name" example="SD card">%1$s</xliff:g></string>
+    <string name="storage_format_failure">Couldn\u2019t format <xliff:g example="SD card" id="name">%1$s</xliff:g></string>
 
     <!-- Title of dialog prompting user to rename a storage volume [CHAR LIMIT=32]-->
     <string name="storage_rename_title">Rename storage</string>
 
     <!-- Dialog body informing user about an unmounted storage device. [CHAR LIMIT=NONE]-->
-    <string name="storage_dialog_unmounted">This <xliff:g id="name" example="SD card">^1</xliff:g> is safely ejected, but still available.
-\n\nTo use this <xliff:g id="name" example="SD card">^1</xliff:g>, you have to mount it first.</string>
+    <string name="storage_dialog_unmounted">This <xliff:g example="SD card" id="name">^1</xliff:g> is safely ejected, but still available.
+\n\nTo use this <xliff:g example="SD card" id="name">^1</xliff:g>, you have to mount it first.</string>
 
     <!-- Dialog body informing user about an unmountable storage device. [CHAR LIMIT=NONE]-->
-    <string name="storage_dialog_unmountable">This <xliff:g id="name" example="SD card">^1</xliff:g> is corrupted.
-\n\nTo use this <xliff:g id="name" example="SD card">^1</xliff:g>, you have to set it up first.</string>
+    <string name="storage_dialog_unmountable">This <xliff:g example="SD card" id="name">^1</xliff:g> is corrupted.
+\n\nTo use this <xliff:g example="SD card" id="name">^1</xliff:g>, you have to set it up first.</string>
 
     <!-- Dialog body informing user about an unsupported storage device. [CHAR LIMIT=NONE]-->
-    <string name="storage_dialog_unsupported">This device doesn\u2019t support this <xliff:g id="name" example="SD card">^1</xliff:g>.
-\n\nTo use this <xliff:g id="name" example="SD card">^1</xliff:g> with this device, you have to set it up first.</string>
+    <string name="storage_dialog_unsupported">This device doesn\u2019t support this <xliff:g example="SD card" id="name">^1</xliff:g>.
+\n\nTo use this <xliff:g example="SD card" id="name">^1</xliff:g> with this device, you have to set it up first.</string>
 
     <!-- Body of dialog informing user about consequences of formatting an internal storage device [CHAR LIMIT=NONE]-->
-    <string name="storage_internal_format_details">After formatting, you can use this <xliff:g id="name" example="SD card">^1</xliff:g> in other devices.
-\n\nAll data on this <xliff:g id="name" example="SD card">^1</xliff:g> will be erased. Consider backing up first.
+    <string name="storage_internal_format_details">After formatting, you can use this <xliff:g example="SD card" id="name">^1</xliff:g> in other devices.
+\n\nAll data on this <xliff:g example="SD card" id="name">^1</xliff:g> will be erased. Consider backing up first.
 \n\n<b>Back up photos &amp; other media</b>
 \nMove your media files to alternative storage on this device, or transfer them to a computer using a USB cable.
 \n\n<b>Back up apps</b>
-\nAll apps stored on this <xliff:g id="name" example="SD card">^1</xliff:g> will be uninstalled and their data will be erased. To keep these apps, move them to alternative storage on this device.</string>
+\nAll apps stored on this <xliff:g example="SD card" id="name">^1</xliff:g> will be uninstalled and their data will be erased. To keep these apps, move them to alternative storage on this device.</string>
 
     <!-- Body of dialog informing user about consequences of ejecting an internal storage device [CHAR LIMIT=NONE]-->
-    <string name="storage_internal_unmount_details"><b>When you eject this <xliff:g id="name" example="SD card">^1</xliff:g>, apps stored on it will stop working, and media files stored on it will not be available until it is reinserted.</b>
-\n\nThis <xliff:g id="name" example="SD card">^1</xliff:g> is formatted to work on this device only.  It won\u2019t work on any others.</string>
+    <string name="storage_internal_unmount_details"><b>When you eject this <xliff:g example="SD card" id="name">^1</xliff:g>, apps stored on it will stop working, and media files stored on it will not be available until it is reinserted.</b>
+\n\nThis <xliff:g example="SD card" id="name">^1</xliff:g> is formatted to work on this device only.  It won\u2019t work on any others.</string>
 
     <!-- Body of dialog informing user about consequences of forgetting an internal storage device [CHAR LIMIT=NONE]-->
-    <string name="storage_internal_forget_details">To use the apps, photos, or data this <xliff:g id="name" example="SD card">^1</xliff:g> contains, reinsert it.
+    <string name="storage_internal_forget_details">To use the apps, photos, or data this <xliff:g example="SD card" id="name">^1</xliff:g> contains, reinsert it.
 \n\nAlternatively, you can choose to forget this storage if the device isn\u2019t available.
 \n\nIf you choose to forget, all the data the device contains will be lost forever.
 \n\nYou can reinstall the apps later, but their data stored on this device will be lost.</string>
 
     <!-- Title of dialog confirming that user wants to forget an internal storage device [CHAR LIMIT=32]-->
-    <string name="storage_internal_forget_confirm_title">Forget <xliff:g id="name" example="SD card">^1</xliff:g>?</string>
+    <string name="storage_internal_forget_confirm_title">Forget <xliff:g example="SD card" id="name">^1</xliff:g>?</string>
     <!-- Body of dialog confirming that user wants to forget an internal storage device [CHAR LIMIT=NONE]-->
-    <string name="storage_internal_forget_confirm">All the apps, photos, and data stored on this <xliff:g id="name" example="SD card">^1</xliff:g> will be lost forever.</string>
+    <string name="storage_internal_forget_confirm">All the apps, photos, and data stored on this <xliff:g example="SD card" id="name">^1</xliff:g> will be lost forever.</string>
 
     <!-- Item title describing storage used by apps [CHAR LIMIT=48]-->
     <string name="storage_detail_apps">Apps</string>
@@ -3096,21 +3105,21 @@
     <!-- Item title describing internal storage used by the Android System [CHAR LIMIT=48]-->
     <string name="storage_detail_system">System</string>
     <!-- Item title that will launch a file explorer [CHAR LIMIT=48]-->
-    <string name="storage_detail_explore">Explore <xliff:g id="name" example="SD card">^1</xliff:g></string>
+    <string name="storage_detail_explore">Explore <xliff:g example="SD card" id="name">^1</xliff:g></string>
 
     <!-- Body of dialog informing user about other files on a storage device [CHAR LIMIT=NONE]-->
     <string name="storage_detail_dialog_other">Other includes shared files saved by apps, files downloaded from the internet or Bluetooth, Android files, and so on.
-\n\nTo see the visible contents of this <xliff:g id="name" example="SD card">^1</xliff:g>, tap Explore.</string>
+\n\nTo see the visible contents of this <xliff:g example="SD card" id="name">^1</xliff:g>, tap Explore.</string>
 
     <!-- Body of dialog informing user about the storage used by the Android System [CHAR LIMIT=NONE]-->
-    <string name="storage_detail_dialog_system">System includes files used to run Android version <xliff:g id="version" example="8.0">%s</xliff:g></string>
+    <string name="storage_detail_dialog_system">System includes files used to run Android version <xliff:g example="8.0" id="version">%s</xliff:g></string>
 
     <!-- Body of dialog informing user about other users on a storage device [CHAR LIMIT=NONE]-->
-    <string name="storage_detail_dialog_user"><xliff:g id="user" example="Guest user">^1</xliff:g> may have saved photos, music, apps, or other data, using <xliff:g id="size" example="1.2 GB">^2</xliff:g> of storage.
-\n\nTo view details, switch to <xliff:g id="user" example="Guest user">^1</xliff:g>.</string>
+    <string name="storage_detail_dialog_user"><xliff:g example="Guest user" id="user">^1</xliff:g> may have saved photos, music, apps, or other data, using <xliff:g example="1.2 GB" id="size">^2</xliff:g> of storage.
+\n\nTo view details, switch to <xliff:g example="Guest user" id="user">^1</xliff:g>.</string>
 
     <!-- Title of wizard step prompting user to setup a storage device [CHAR LIMIT=32] -->
-    <string name="storage_wizard_init_title">Set up your <xliff:g id="name" example="SD card">^1</xliff:g></string>
+    <string name="storage_wizard_init_title">Set up your <xliff:g example="SD card" id="name">^1</xliff:g></string>
     <!-- Title of wizard choice to use storage device as external storage [CHAR LIMIT=64] -->
     <string name="storage_wizard_init_external_title">Use as portable storage</string>
     <!-- Summary of wizard choice to use storage device as external storage [CHAR LIMIT=NONE] -->
@@ -3123,31 +3132,31 @@
     <!-- Title of wizard step prompting user to format a storage device [CHAR LIMIT=32] -->
     <string name="storage_wizard_format_confirm_title">Format as internal storage</string>
     <!-- Body of wizard step prompting user to format a storage device [CHAR LIMIT=NONE] -->
-    <string name="storage_wizard_format_confirm_body">This requires the <xliff:g id="name" example="SD card">^1</xliff:g> to be formatted to make it secure.
-\n\nAfter formatting, this <xliff:g id="name" example="SD card">^1</xliff:g> will only work in this device.
-\n\n<b>Formatting erases all data currently stored on the <xliff:g id="name" example="SD card">^1</xliff:g>.</b> To avoid losing the data, consider backing it up.
+    <string name="storage_wizard_format_confirm_body">This requires the <xliff:g example="SD card" id="name">^1</xliff:g> to be formatted to make it secure.
+\n\nAfter formatting, this <xliff:g example="SD card" id="name">^1</xliff:g> will only work in this device.
+\n\n<b>Formatting erases all data currently stored on the <xliff:g example="SD card" id="name">^1</xliff:g>.</b> To avoid losing the data, consider backing it up.
     </string>
 
     <!-- Title of wizard step prompting user to format a storage device [CHAR LIMIT=32] -->
     <string name="storage_wizard_format_confirm_public_title">Format as portable storage</string>
     <!-- Body of wizard step prompting user to format a storage device [CHAR LIMIT=NONE] -->
-    <string name="storage_wizard_format_confirm_public_body">This requires the <xliff:g id="name" example="SD card">^1</xliff:g> to be formatted.
-\n\n<b>Formatting erases all data currently stored on the <xliff:g id="name" example="SD card">^1</xliff:g>.</b> To avoid losing the data, consider backing it up.
+    <string name="storage_wizard_format_confirm_public_body">This requires the <xliff:g example="SD card" id="name">^1</xliff:g> to be formatted.
+\n\n<b>Formatting erases all data currently stored on the <xliff:g example="SD card" id="name">^1</xliff:g>.</b> To avoid losing the data, consider backing it up.
     </string>
 
     <!-- Next button text of wizard step prompting user to format a storage device [CHAR LIMIT=32] -->
     <string name="storage_wizard_format_confirm_next">Erase &amp; format</string>
 
     <!-- In-progress title. This string lets the user know the SD card is being formatted. The user won't be able to proceed with setup until this step is finished. The placeholder is for the name of the device (e.g. brand name of the SD card). [CHAR LIMIT=32] -->
-    <string name="storage_wizard_format_progress_title">Formatting <xliff:g id="name" example="SD card">^1</xliff:g>\u2026</string>
+    <string name="storage_wizard_format_progress_title">Formatting <xliff:g example="SD card" id="name">^1</xliff:g>\u2026</string>
     <!-- Subtext for a full-screen title. This string lets the user know that the SD card can't be removed during this process. The user won't be able to proceed with setup until this step is finished. The placeholder is for the specific device (e.g. SD card, USB drive, etc.). [CHAR LIMIT=NONE] -->
-    <string name="storage_wizard_format_progress_body">Don\u2019t remove the <xliff:g id="name" example="SD card">^1</xliff:g> while it\u2019s being formatting.</string>
+    <string name="storage_wizard_format_progress_body">Don\u2019t remove the <xliff:g example="SD card" id="name">^1</xliff:g> while it\u2019s being formatting.</string>
 
     <!-- Title of wizard step prompting user to migrate data to new storage [CHAR LIMIT=32] -->
     <string name="storage_wizard_migrate_title">Move data to new storage</string>
     <!-- Body of wizard step prompting user to migrate data to new storage [CHAR LIMIT=NONE] -->
-    <string name="storage_wizard_migrate_body">You can move your photos, files, and some apps to this new <xliff:g id="name" example="SD card">^1</xliff:g>.
-\n\nThe move takes about <xliff:g id="time" example="1 hour">^2</xliff:g> and will free <xliff:g id="size" example="1.2 GB">^3</xliff:g> on internal storage. Some apps won\u2019t work while it\u2019s underway.
+    <string name="storage_wizard_migrate_body">You can move your photos, files, and some apps to this new <xliff:g example="SD card" id="name">^1</xliff:g>.
+\n\nThe move takes about <xliff:g example="1 hour" id="time">^2</xliff:g> and will free <xliff:g example="1.2 GB" id="size">^3</xliff:g> on internal storage. Some apps won\u2019t work while it\u2019s underway.
     </string>
 
     <!-- Title of wizard choice to migrate data right now [CHAR LIMIT=64] -->
@@ -3158,7 +3167,7 @@
     <!-- Title of wizard step prompting user to start data migration [CHAR LIMIT=32] -->
     <string name="storage_wizard_migrate_confirm_title">Move data now</string>
     <!-- Body of wizard step providing details about data migration [CHAR LIMIT=NONE] -->
-    <string name="storage_wizard_migrate_confirm_body"><b>The move takes about <xliff:g id="time" example="1 hour">^1</xliff:g>. It will free <xliff:g id="size" example="1.2 GB">^2</xliff:g> on <xliff:g id="name" example="Internal storage">^3</xliff:g>.</b></string>
+    <string name="storage_wizard_migrate_confirm_body"><b>The move takes about <xliff:g example="1 hour" id="time">^1</xliff:g>. It will free <xliff:g example="1.2 GB" id="size">^2</xliff:g> on <xliff:g example="Internal storage" id="name">^3</xliff:g>.</b></string>
     <!-- Title of wizard button prompting user to start data migration [CHAR LIMIT=32] -->
     <string name="storage_wizard_migrate_confirm_next">Move</string>
 
@@ -3167,47 +3176,47 @@
 
     <!-- Body of wizard step providing details about data migration [CHAR LIMIT=NONE] -->
     <string name="storage_wizard_migrate_details">During the move:
-\n\u2022 Don\u2019t remove the <xliff:g id="name" example="SD card">^1</xliff:g>.
+\n\u2022 Don\u2019t remove the <xliff:g example="SD card" id="name">^1</xliff:g>.
 \n\u2022 Some apps won\u2019t work correctly.
 \n\u2022 Keep the device charged.
     </string>
 
     <!-- Title of a full-screen message. This string lets the user know that their storage device is ready to use. They can tap a button at the bottom of the screen to complete the setup process. The placeholder is for the specific device (e.g. SD card, USB drive, etc.). [CHAR LIMIT=32] -->
-    <string name="storage_wizard_ready_title">Your <xliff:g id="name" example="SD card">^1</xliff:g> is ready to use</string>
+    <string name="storage_wizard_ready_title">Your <xliff:g example="SD card" id="name">^1</xliff:g> is ready to use</string>
     <!-- Body of wizard step indicating that external storage is ready [CHAR LIMIT=NONE] -->
-    <string name="storage_wizard_ready_external_body">Your <xliff:g id="name" example="SD card">^1</xliff:g> is all set to use with photos and other media.</string>
+    <string name="storage_wizard_ready_external_body">Your <xliff:g example="SD card" id="name">^1</xliff:g> is all set to use with photos and other media.</string>
     <!-- Body of wizard step indicating that internal storage is ready [CHAR LIMIT=NONE] -->
-    <string name="storage_wizard_ready_internal_body">Your new <xliff:g id="name" example="SD card">^1</xliff:g> is working.
+    <string name="storage_wizard_ready_internal_body">Your new <xliff:g example="SD card" id="name">^1</xliff:g> is working.
 \n\nTo move photos, files, and app data to this device, go to Settings > Storage.
     </string>
 
     <!-- Title of wizard step prompting user to move an app [CHAR LIMIT=32] -->
-    <string name="storage_wizard_move_confirm_title">Move <xliff:g id="app" example="Calculator">^1</xliff:g></string>
+    <string name="storage_wizard_move_confirm_title">Move <xliff:g example="Calculator" id="app">^1</xliff:g></string>
     <!-- Body of wizard step prompting user to move an app [CHAR LIMIT=NONE] -->
-    <string name="storage_wizard_move_confirm_body">Moving <xliff:g id="app" example="Calculator">^1</xliff:g> and its data to <xliff:g id="name" example="SD card">^2</xliff:g> will take only a few moments. You won\u2019t be able to use the app until the move is complete.
-\n\nDon\u2019t remove the <xliff:g id="name" example="SD card">^2</xliff:g> during the move.
+    <string name="storage_wizard_move_confirm_body">Moving <xliff:g example="Calculator" id="app">^1</xliff:g> and its data to <xliff:g example="SD card" id="name">^2</xliff:g> will take only a few moments. You won\u2019t be able to use the app until the move is complete.
+\n\nDon\u2019t remove the <xliff:g example="SD card" id="name">^2</xliff:g> during the move.
     </string>
 
     <!-- Body of lock screen challenge message explaining that the given user must be unlocked before data can be moved [CHAR LIMIT=64] -->
-    <string name="storage_wizard_move_unlock">To move data you need to unlock user <xliff:g id="app" example="Joey">^1</xliff:g>.</string>
+    <string name="storage_wizard_move_unlock">To move data you need to unlock user <xliff:g example="Joey" id="app">^1</xliff:g>.</string>
 
     <!-- Title of wizard step showing app move progress [CHAR LIMIT=32] -->
-    <string name="storage_wizard_move_progress_title">Moving <xliff:g id="app" example="Calculator">^1</xliff:g>\u2026</string>
+    <string name="storage_wizard_move_progress_title">Moving <xliff:g example="Calculator" id="app">^1</xliff:g>\u2026</string>
     <!-- Body of wizard step showing app move progress [CHAR LIMIT=NONE] -->
-    <string name="storage_wizard_move_progress_body">Don\u2019t remove the <xliff:g id="name" example="SD card">^1</xliff:g> during the move.
-\n\nThe <xliff:g id="app" example="Calculator">^2</xliff:g> app on this device won\u2019t be available until the move is complete.
+    <string name="storage_wizard_move_progress_body">Don\u2019t remove the <xliff:g example="SD card" id="name">^1</xliff:g> during the move.
+\n\nThe <xliff:g example="Calculator" id="app">^2</xliff:g> app on this device won\u2019t be available until the move is complete.
     </string>
     <!-- Title of wizard button offering to cancel move [CHAR LIMIT=32] -->
     <string name="storage_wizard_move_progress_cancel">Cancel move</string>
 
     <!-- Title of wizard step prompting user to start data migration [CHAR LIMIT=NONE] -->
-    <string name="storage_wizard_slow_body">This <xliff:g id="name" example="SD card">^1</xliff:g> appears to be slow.
+    <string name="storage_wizard_slow_body">This <xliff:g example="SD card" id="name">^1</xliff:g> appears to be slow.
 \n\nYou can continue, but apps moved to this location may stutter and data transfers may take a long time.
-\n\nConsider using a faster <xliff:g id="name" example="SD card">^1</xliff:g> for better performance.
+\n\nConsider using a faster <xliff:g example="SD card" id="name">^1</xliff:g> for better performance.
 </string>
 
     <!-- This is the title of a full-screen message. After this question, the user will get to choose how they want to use the storage device that they have in their phone. The placeholder is for the specific device (e.g. SD card, USB drive, etc.). [CHAR LIMIT=32] -->
-    <string name="storage_wizard_init_v2_title">How will you use this <xliff:g id="name" example="SD card">^1</xliff:g>?</string>
+    <string name="storage_wizard_init_v2_title">How will you use this <xliff:g example="SD card" id="name">^1</xliff:g>?</string>
 
     <!-- Title of a line item. Below this title, a user can tap a button to select this option if they want to use their SD card as extra device storage. [CHAR LIMIT=32] -->
     <string name="storage_wizard_init_v2_internal_title" product="tablet">Use for extra tablet storage</string>
@@ -3233,26 +3242,26 @@
     <string name="storage_wizard_init_v2_later">Set up later</string>
 
     <!-- Title of a dialog. This string is asking users if they want to format their SD card or USB drive in order to use it as extra phone storage. The placeholder is for the specific device (e.g. SD card, USB drive, etc.). [CHAR LIMIT=32] -->
-    <string name="storage_wizard_format_confirm_v2_title">Format this <xliff:g id="name" example="SD card">^1</xliff:g>?</string>
+    <string name="storage_wizard_format_confirm_v2_title">Format this <xliff:g example="SD card" id="name">^1</xliff:g>?</string>
     <!-- Body of a dialog. This text is confirming that the user wants to use their SD card as extra phone storage, but the formatting process will erase existing content on the card. The first placeholder is for the name of the device (e.g. a brand name of the SD card or USB drive). The second and third placeholders are for the general references (e.g. SD card, USB drive). [CHAR LIMIT=NONE] -->
-    <string name="storage_wizard_format_confirm_v2_body">This <xliff:g id="name" example="SanDisk SD card">^1</xliff:g> needs to be formatted to store apps, files, and media.
-\n\nFormatting will erase existing content on the <xliff:g id="name" example="SD card">^2</xliff:g>. To avoid losing content, back it up to another <xliff:g id="name" example="SD card">^3</xliff:g> or device.</string>
+    <string name="storage_wizard_format_confirm_v2_body">This <xliff:g example="SanDisk SD card" id="name">^1</xliff:g> needs to be formatted to store apps, files, and media.
+\n\nFormatting will erase existing content on the <xliff:g example="SD card" id="name">^2</xliff:g>. To avoid losing content, back it up to another <xliff:g example="SD card" id="name">^3</xliff:g> or device.</string>
     <!-- Button text. If a user taps this button, their SD card or USB device will be formatted and used as extra phone storage. The placeholder is for the specific device (e.g. SD card, USB drive, etc.). [CHAR LIMIT=16] -->
-    <string name="storage_wizard_format_confirm_v2_action">Format <xliff:g id="name" example="SD card">^1</xliff:g></string>
+    <string name="storage_wizard_format_confirm_v2_action">Format <xliff:g example="SD card" id="name">^1</xliff:g></string>
 
     <!-- Title of a full-screen message. This string is confirming that a user wants to move their content to the storage device. They can press a button at the bottom of the screen to move their content. The placeholder is for the specific device (e.g. SD card, USB drive, etc.). [CHAR LIMIT=32] -->
-    <string name="storage_wizard_migrate_v2_title">Move content to <xliff:g id="name" example="SD card">^1</xliff:g>?</string>
+    <string name="storage_wizard_migrate_v2_title">Move content to <xliff:g example="SD card" id="name">^1</xliff:g>?</string>
     <!-- Main text for a full-screen message. These strings let the user know what they can move to the storage device, how much space will be made in their phone's storage, and how long the move will take. The first placeholder is for the amount of space (e.g. 1.4 GB) that will become available ("free up" is the phrasal verb used for this case). The second placeholder is for the amount of time (e.g. 6 minutes) it'll take to move their content to the storage device. The third placeholder is the name of the storage device (e.g. brand name of the SD card). [CHAR LIMIT=NONE] -->
-    <string name="storage_wizard_migrate_v2_body" product="tablet">You can move files, media, and certain apps to this <xliff:g id="name" example="SanDisk SD card">^1</xliff:g>.
-\n\nThis move will free up <xliff:g id="size" example="3 GB">^2</xliff:g> of your tablet\u2019s storage and should take around <xliff:g id="duration" example="3 minutes">^3</xliff:g>.</string>
+    <string name="storage_wizard_migrate_v2_body" product="tablet">You can move files, media, and certain apps to this <xliff:g example="SanDisk SD card" id="name">^1</xliff:g>.
+\n\nThis move will free up <xliff:g example="3 GB" id="size">^2</xliff:g> of your tablet\u2019s storage and should take around <xliff:g example="3 minutes" id="duration">^3</xliff:g>.</string>
     <!-- Main text for a full-screen message. These strings let the user know what they can move to the storage device, how much space will be made in their device's storage, and how long the move will take. The first placeholder is for the amount of space (e.g. 1.4 GB) that will become available ("free up" is the phrasal verb used for this case). The second placeholder is for the amount of time (e.g. 6 minutes) it'll take to move their content to the storage device. The third placeholder is the name of the storage device (e.g. brand name of the SD card). [CHAR LIMIT=NONE] -->
-    <string name="storage_wizard_migrate_v2_body" product="default">You can move files, media, and certain apps to this <xliff:g id="name" example="SanDisk SD card">^1</xliff:g>.
-\n\nThis move will free up <xliff:g id="size" example="3 GB">^2</xliff:g> of your phone\u2019s storage and should take around <xliff:g id="duration" example="3 minutes">^3</xliff:g>.</string>
+    <string name="storage_wizard_migrate_v2_body" product="default">You can move files, media, and certain apps to this <xliff:g example="SanDisk SD card" id="name">^1</xliff:g>.
+\n\nThis move will free up <xliff:g example="3 GB" id="size">^2</xliff:g> of your phone\u2019s storage and should take around <xliff:g example="3 minutes" id="duration">^3</xliff:g>.</string>
 
     <!-- Title of a section of main text that shows a checklist of items a user should be aware of while moving their content to the SD card. [CHAR LIMIT=64] -->
     <string name="storage_wizard_migrate_v2_checklist">During the move:</string>
     <!-- Item that a user should be aware of while moving their content to the storage device. The string tells them not to remove the storage device while the move is happening. The placeholder is for the specific device (e.g. SD card, USB device, etc.). [CHAR LIMIT=64] -->
-    <string name="storage_wizard_migrate_v2_checklist_media">Don\u2019t remove the <xliff:g id="name" example="SD card">^1</xliff:g></string>
+    <string name="storage_wizard_migrate_v2_checklist_media">Don\u2019t remove the <xliff:g example="SD card" id="name">^1</xliff:g></string>
     <!-- Item that a user should be aware of while moving their content to the SD card. Tells them that apps may have trouble working while the move is happening. [CHAR LIMIT=64] -->
     <string name="storage_wizard_migrate_v2_checklist_apps">Some apps won\u2019t work</string>
     <!-- Item that a user should be aware of while moving their content to the SD card. Tells them to keep the tablet charged while the move is happening. [CHAR LIMIT=64] -->
@@ -3269,23 +3278,23 @@
     <string name="storage_wizard_migrate_progress_v2_title">Moving content\u2026</string>
 
     <!-- Title of a dialog. This string is telling users that their storage device is performing slowly. The placeholder is for the specific device (e.g. SD card, USB drive, etc.). [CHAR LIMIT=32] -->
-    <string name="storage_wizard_slow_v2_title">Slow <xliff:g id="name" example="SD card">^1</xliff:g></string>
+    <string name="storage_wizard_slow_v2_title">Slow <xliff:g example="SD card" id="name">^1</xliff:g></string>
     <!-- Strings that are part of a full-screen message. These strings let the user know that their storage device is slow, and include some options they can try. The first placeholder is for the name of the storage device (e.g. brand name of the SD card), and the second and third placeholders are for the general references (e.g. SD card, USB drive, etc.). [CHAR LIMIT=NONE] -->
-    <string name="storage_wizard_slow_v2_body">You can still use this <xliff:g id="name" example="SanDisk SD card">^1</xliff:g>, but it may be slow.
-\n\nApps stored on this <xliff:g id="name" example="SD card">^2</xliff:g> may not work properly, and content transfers could take a long time.
-\n\nTry using a faster <xliff:g id="name" example="SD card">^3</xliff:g>, or use this <xliff:g id="name" example="SD card">^4</xliff:g> for portable storage instead.</string>
+    <string name="storage_wizard_slow_v2_body">You can still use this <xliff:g example="SanDisk SD card" id="name">^1</xliff:g>, but it may be slow.
+\n\nApps stored on this <xliff:g example="SD card" id="name">^2</xliff:g> may not work properly, and content transfers could take a long time.
+\n\nTry using a faster <xliff:g example="SD card" id="name">^3</xliff:g>, or use this <xliff:g example="SD card" id="name">^4</xliff:g> for portable storage instead.</string>
     <!-- Action of a dialog. This action will start the wizard from the beginning, letting the user make an alternative choice. [CHAR LIMIT=32] -->
     <string name="storage_wizard_slow_v2_start_over">Start over</string>
     <!-- Action of a dialog. This action will continue the wizard, meaning the user acknowledges their card is slow. [CHAR LIMIT=32] -->
     <string name="storage_wizard_slow_v2_continue">Continue</string>
 
     <!-- Title of a full-screen message. This text lets the user know how to manage the storage device moving forward. The placeholder is for the name of the device (e.g. brand name of the SD card). [CHAR LIMIT=NONE] -->
-    <string name="storage_wizard_ready_v2_external_body">You can move content to <xliff:g id="name" example="SanDisk SD card">^1</xliff:g></string>
+    <string name="storage_wizard_ready_v2_external_body">You can move content to <xliff:g example="SanDisk SD card" id="name">^1</xliff:g></string>
     <!-- Title of a full-screen message. This text lets the user know that their content was moved to their storage device and how to manage the storage device moving forward. The placeholder is for the name of the device (e.g. brand name of the SD card). [CHAR LIMIT=NONE] -->
-    <string name="storage_wizard_ready_v2_internal_body">To move content to <xliff:g id="name" example="SanDisk SD card">^1</xliff:g>, go to <b>Settings > Storage</b></string>
+    <string name="storage_wizard_ready_v2_internal_body">To move content to <xliff:g example="SanDisk SD card" id="name">^1</xliff:g>, go to <b>Settings > Storage</b></string>
     <!-- Title of a full-screen message. This text lets the user know that their content was moved to their storage device and how to manage the storage device moving forward. The placeholder is for the name of the device (e.g. brand name of the SD card). [CHAR LIMIT=NONE] -->
-    <string name="storage_wizard_ready_v2_internal_moved_body">Your content was moved to <xliff:g id="name" example="SanDisk SD card">^1</xliff:g>.
-\n\nTo manage this <xliff:g id="name" example="SD card">^2</xliff:g>, go to <b>Settings > Storage</b>.</string>
+    <string name="storage_wizard_ready_v2_internal_moved_body">Your content was moved to <xliff:g example="SanDisk SD card" id="name">^1</xliff:g>.
+\n\nTo manage this <xliff:g example="SD card" id="name">^2</xliff:g>, go to <b>Settings > Storage</b>.</string>
 
     <!-- Phone info screen, section titles: -->
     <string name="battery_status_title">Battery status</string>
@@ -3461,7 +3470,7 @@
     <!-- Error message for users that aren't allowed to factory reset [CHAR LIMIT=none] -->
     <string name="master_clear_not_available">Factory reset is not available for this user</string>
     <!-- Master clear progress screen title [CHAR LIMIT=30] -->
-    <string name="master_clear_progress_title" >Erasing</string>
+    <string name="master_clear_progress_title">Erasing</string>
     <!-- Master clear progress screen text [CHAR LIMIT=75] -->
     <string name="master_clear_progress_text">Please wait...</string>
 
@@ -3611,7 +3620,8 @@
     <!-- [CHAR LIMIT=45] Section heading for location sources -->
     <string name="location_sources_heading">Location sources</string>
 
-    <!-- About --> <skip />
+    <!-- About -->
+    <skip />
     <!-- Main settings screen, setting title for the user to go into the About phone screen -->
     <string name="about_settings" product="tablet">About tablet</string>
     <!-- Main settings screen, setting title for the user to go into the About phone screen -->
@@ -3632,16 +3642,20 @@
     <string name="regulatory_labels">Regulatory labels</string>
     <!-- About phone settings screen, setting option name to show the safety and regulatory manual [CHAR LIMIT=40] -->
     <string name="safety_and_regulatory_info">Safety &amp; regulatory manual</string>
-    <!-- Note: this may be replaced by a more-specific title of the activity that will get launched --> <skip />
+    <!-- Note: this may be replaced by a more-specific title of the activity that will get launched -->
+    <skip />
     <!-- About phone settings screen, setting option name to see copyright-related info -->
     <string name="copyright_title">Copyright</string>
-    <!-- Note: this may be replaced by a more-specific title of the activity that will get launched --> <skip />
+    <!-- Note: this may be replaced by a more-specific title of the activity that will get launched -->
+    <skip />
     <!-- About phone settings screen, setting option name to see licensing info -->
     <string name="license_title">License</string>
-    <!-- Note: this may be replaced by a more-specific title of the activity that will get launched --> <skip />
+    <!-- Note: this may be replaced by a more-specific title of the activity that will get launched -->
+    <skip />
     <!-- About phone settings screen, setting option name to see terms and conditions -->
     <string name="terms_title">Terms and conditions</string>
-    <!-- Note: this may be replaced by a more-specific title of the activity that will get launched --> <skip />
+    <!-- Note: this may be replaced by a more-specific title of the activity that will get launched -->
+    <skip />
     <!-- About phone settings screen, setting option name to see licensing info for WebView component. [CHAR LIMIT=35] -->
     <string name="webview_license_title">System WebView License</string>
     <!-- About phone settings screen, setting option name to see wallpapers attributions -->
@@ -3654,7 +3668,8 @@
     <!-- About phone settings screen, Manual dialog message when manual cannot be loaded -->
     <string name="settings_manual_activity_unavailable">There is a problem loading the manual.</string>
 
-    <!-- Title for actual Settings license activity. --> <skip />
+    <!-- Title for actual Settings license activity. -->
+    <skip />
     <!-- About phone settings, Legal information setting option name and title of dialog box holding license info -->
     <string name="settings_license_activity_title">Third-party licenses</string>
     <!-- About phone settings screen, Open source license dialog message when licenses cannot be loaded -->
@@ -3857,7 +3872,8 @@
     <!-- Security & location settings screen, summary of the item that changes your work profile lock when it is unified with the personal lock -->
     <string name="lock_settings_profile_unified_summary">Same as device screen lock</string>
 
-    <!-- Applications Settings --> <skip />
+    <!-- Applications Settings -->
+    <skip />
     <!-- Applications settings screen, setting option name for the user to go to the screen to manage installed applications  -->
     <string name="manageapplications_settings_title">Manage apps</string>
     <!-- Applications settings screen, setting option summary for the user to go to the screen to manage installed applications  -->
@@ -3875,7 +3891,7 @@
     <!-- Category title listing recently used apps [CHAR_LIMIT=50]-->
     <string name="recent_app_category_title">Recently opened apps</string>
     <!-- Preference title for showing all apps on device [CHAR_LIMIT=50]-->
-    <string name="see_all_apps_title">See all <xliff:g id="count" example="3">%1$d</xliff:g> apps</string>
+    <string name="see_all_apps_title">See all <xliff:g example="3" id="count">%1$d</xliff:g> apps</string>
 
     <!-- Warning that appears below the unknown sources switch in settings -->
     <string name="install_all_warning" product="tablet">
@@ -4165,7 +4181,8 @@
     <!-- Manage applications, individual application info screen, summary for the option which will trigger instant app info in it's installer [CHAR_LIMIT=50] -->
     <string name="instant_app_details_summary">More info on <xliff:g id="app_store">%1$s</xliff:g></string>
 
-    <!-- App Ops Settings --> <skip />
+    <!-- App Ops Settings -->
+    <skip />
     <!-- [CHAR LIMIT=NONE] Time label for an operation that is currently running. -->
     <string name="app_ops_running">Running</string>
     <!-- [CHAR LIMIT=NONE] Time label for an operation that has never executed. -->
@@ -4281,7 +4298,8 @@
         features of your phone may stop working correctly until you power it off
         and then on again.</string>
 
-    <!-- Languages Settings --> <skip />
+    <!-- Languages Settings -->
+    <skip />
     <!-- Title of Language, input & gestures setting on main settings screen. -->
     <string name="language_input_gesture_title">Languages, input &amp; gestures</string>
     <!-- Summary of Language, input & gestures setting on main settings screen when both gesture setting and assistant feature is on. -->
@@ -4368,7 +4386,8 @@
     <!-- On Languages & input settings screen, setting summary.  Setting to redirect vibration to input devices. [CHAR LIMIT=100] -->
     <string name="vibrate_input_devices_summary">Send vibration to game controller when connected</string>
 
-    <!-- Keyboard Layout Preference Dialog --> <skip />
+    <!-- Keyboard Layout Preference Dialog -->
+    <skip />
     <!-- Title for the keyboard layout preference dialog. [CHAR LIMIT=35] -->
     <string name="keyboard_layout_dialog_title">Choose keyboard layout</string>
     <!-- Button to configure keyboard layouts.  [CHAR LIMIT=35] -->
@@ -4378,11 +4397,13 @@
     <!-- Label of the default keyboard layout.  [CHAR LIMIT=35] -->
     <string name="keyboard_layout_default_label">Default</string>
 
-    <!-- Keyboard Layout Picker --> <skip />
+    <!-- Keyboard Layout Picker -->
+    <skip />
     <!-- Title for the keyboard layout picker activity. [CHAR LIMIT=35] -->
     <string name="keyboard_layout_picker_title">Keyboard layouts</string>
 
-    <!-- User dictionary settings --><skip />
+    <!-- User dictionary settings -->
+    <skip />
     <!-- User dictionary settings. The title of the list item to go into the Personal dictionary settings screen. [CHAR LIMIT=35] -->
     <string name="user_dict_settings_title">Personal dictionary</string>
     <!-- User dictionary settings.  The summary of the list item to go into the Personal dictionary settings screen. -->
@@ -4551,7 +4572,7 @@
     <!-- Summary for the accessibility preference screen to enable screen magnification via the nav bar. [CHAR LIMIT=none] -->
     <string name="accessibility_screen_magnification_navbar_summary">When magnification is turned on, use the Accessibility button at the bottom of the screen to quickly magnify.\n\n<b>To zoom</b>, tap the Accessibility button, then tap anywhere on the screen.\n<ul><li>Drag 2 or more fingers to scroll</li>\n<li>Pinch 2 or more fingers to adjust zoom</li></ul>\n\n<b>To zoom temporarily</b>, tap the Accessibility button, then touch &amp; hold anywhere on the screen.\n<ul><li>Drag to move around the screen</li>\n<li>Lift finger to zoom out</li></ul>\n\nYou can’t zoom in on the keyboard or navigation bar.</string>
     <!-- Summary text appearing on the accessibility preference screen to enable screen magnification from the nav bar when the feature is enabled, but the accessibility button is not configured correctly for the feature to be used [CHAR LIMIT=none] -->
-    <string name="accessibility_screen_magnification_navbar_configuration_warning">The Accessibility button is set to <xliff:g id="service" example="Select to Speak">%1$s</xliff:g>. To use magnification, touch &amp; hold the Accessibility button, then select magnification.</string>
+    <string name="accessibility_screen_magnification_navbar_configuration_warning">The Accessibility button is set to <xliff:g example="Select to Speak" id="service">%1$s</xliff:g>. To use magnification, touch &amp; hold the Accessibility button, then select magnification.</string>
     <!-- Title for the preference to configure the accessibility shortcut, which uses the volume keys. [CHAR LIMIT=35] -->
     <string name="accessibility_global_gesture_preference_title">Volume key shortcut</string>
     <!-- Title for the preference to choose the service that is turned on and off by the accessibility shortcut. [CHAR LIMIT=35] -->
@@ -4637,32 +4658,32 @@
 
     <!-- Subtitle for the accessibility preference to configure feature that performs click action soon after mouse/trackpad pointer stops moving, in case delay before click is extremely short. Placeholder will be set to the number of milliseconds to which the delay amounts. [CHAR LIMIT=NONE] -->
     <plurals name="accessibilty_autoclick_preference_subtitle_extremely_short_delay">
-        <item quantity="one">Extremely short delay (<xliff:g id="click_delay_label" example="200">%1$d</xliff:g> ms)</item>
-        <item quantity="other">Extremely short delay (<xliff:g id="click_delay_label" example="200">%1$d</xliff:g> ms)</item>
+        <item quantity="one">Extremely short delay (<xliff:g example="200" id="click_delay_label">%1$d</xliff:g> ms)</item>
+        <item quantity="other">Extremely short delay (<xliff:g example="200" id="click_delay_label">%1$d</xliff:g> ms)</item>
     </plurals>
     <!-- Subtitle for the accessibility preference to configure feature that performs click action soon after mouse/trackpad pointer stops moving, in case delay before click is extremely short. Placeholder will be set to the number of milliseconds to which the delay amounts. [CHAR LIMIT=NONE] -->
     <plurals name="accessibilty_autoclick_preference_subtitle_very_short_delay">
-        <item quantity="one">Very short delay (<xliff:g id="click_delay_label" example="200">%1$d</xliff:g> ms)</item>
-        <item quantity="other">Very short delay (<xliff:g id="click_delay_label" example="200">%1$d</xliff:g> ms)</item>
+        <item quantity="one">Very short delay (<xliff:g example="200" id="click_delay_label">%1$d</xliff:g> ms)</item>
+        <item quantity="other">Very short delay (<xliff:g example="200" id="click_delay_label">%1$d</xliff:g> ms)</item>
     </plurals>
     <!-- Subtitle for the accessibility preference to configure feature that performs click action soon after mouse/trackpad pointer stops moving, in case delay before click is extremely short. Placeholder will be set to the number of milliseconds to which the delay amounts. [CHAR LIMIT=NONE] -->
     <plurals name="accessibilty_autoclick_preference_subtitle_short_delay">
-        <item quantity="one">Short delay (<xliff:g id="click_delay_label" example="200">%1$d</xliff:g> ms)</item>
-        <item quantity="other">Short delay (<xliff:g id="click_delay_label" example="200">%1$d</xliff:g> ms)</item>
+        <item quantity="one">Short delay (<xliff:g example="200" id="click_delay_label">%1$d</xliff:g> ms)</item>
+        <item quantity="other">Short delay (<xliff:g example="200" id="click_delay_label">%1$d</xliff:g> ms)</item>
     </plurals>
     <!-- Subtitle for the accessibility preference to configure feature that performs click action soon after mouse/trackpad pointer stops moving, in case delay before click is extremely short. Placeholder will be set to the number of milliseconds to which the delay amounts. [CHAR LIMIT=NONE] -->
     <plurals name="accessibilty_autoclick_preference_subtitle_long_delay">
-        <item quantity="one">Long delay (<xliff:g id="click_delay_label" example="200">%1$d</xliff:g> ms)</item>
-        <item quantity="other">Long delay (<xliff:g id="click_delay_label" example="200">%1$d</xliff:g> ms)</item>
+        <item quantity="one">Long delay (<xliff:g example="200" id="click_delay_label">%1$d</xliff:g> ms)</item>
+        <item quantity="other">Long delay (<xliff:g example="200" id="click_delay_label">%1$d</xliff:g> ms)</item>
     </plurals>
     <!-- Subtitle for the accessibility preference to configure feature that performs click action soon after mouse/trackpad pointer stops moving, in case delay before click is extremely short. Placeholder will be set to the number of milliseconds to which the delay amounts. [CHAR LIMIT=NONE] -->
     <plurals name="accessibilty_autoclick_preference_subtitle_very_long_delay">
-        <item quantity="one">Very long delay (<xliff:g id="click_delay_label" example="200">%1$d</xliff:g> ms)</item>
-        <item quantity="other">Very long delay (<xliff:g id="click_delay_label" example="200">%1$d</xliff:g> ms)</item>
+        <item quantity="one">Very long delay (<xliff:g example="200" id="click_delay_label">%1$d</xliff:g> ms)</item>
+        <item quantity="other">Very long delay (<xliff:g example="200" id="click_delay_label">%1$d</xliff:g> ms)</item>
     </plurals>
 
     <!-- Summary for vibration settings preference when notification vibration and haptic feedback intensity are set. [CHAR LIMIT=32] -->
-    <string name="accessibility_vibration_summary">Ring <xliff:g id="summary_ring" example="Medium">%1$s</xliff:g>, touch <xliff:g id="summary_touch" example="High">%2$s</xliff:g></string>
+    <string name="accessibility_vibration_summary">Ring <xliff:g example="Medium" id="summary_ring">%1$s</xliff:g>, touch <xliff:g example="High" id="summary_touch">%2$s</xliff:g></string>
 
     <!-- Summary for vibration settings preference when ring & notification are set to off-->
     <string name="accessibility_vibration_summary_off">Ring &amp; notification set to off</string>
@@ -4735,7 +4756,7 @@
     <string name="locale_default">Default</string>
 
     <!-- Label for color selection title in sim settings [CHAR LIMIT=35] -->
-    <string name = "color_title">Color</string>
+    <string name="color_title">Color</string>
     <!-- Label for default color. This lets the app pick the color. [CHAR LIMIT=35] -->
     <string name="color_unspecified">Default</string>
     <!-- Label for no color (transparent). [CHAR LIMIT=35] -->
@@ -4764,9 +4785,9 @@
     <!-- Title for a warning about security implications of enabling an accessibility
          service. [CHAR LIMIT=NONE] -->
     <string name="enable_service_title">Use
-         <xliff:g id="service" example="TalkBack">%1$s</xliff:g>?</string>
+         <xliff:g example="TalkBack" id="service">%1$s</xliff:g>?</string>
     <!-- Title for the list of capabilities of an accessibility service. -->
-    <string name="capabilities_list_title"><xliff:g id="service" example="TalkBack">%1$s</xliff:g>
+    <string name="capabilities_list_title"><xliff:g example="TalkBack" id="service">%1$s</xliff:g>
         needs to:</string>
     <!-- Warning shown when user input has been blocked due to another app overlaying screen
          content. Since we don't know what the app is showing on top of the input target, we
@@ -4775,8 +4796,7 @@
         can’t verify your response.</string>
     <!-- Warning that the device data will not be encrypted with password or PIN if
         enabling an accessibility service and there is a secure lock setup. [CHAR LIMIT=NONE] -->
-    <string name="enable_service_encryption_warning">If you turn on <xliff:g id="service"
-        example="TalkBack">%1$s</xliff:g>, your device won’t use your screen lock to enhance
+    <string name="enable_service_encryption_warning">If you turn on <xliff:g example="TalkBack" id="service">%1$s</xliff:g>, your device won’t use your screen lock to enhance
         data encryption.</string>
     <!-- Warning that the device data will not be encrypted with password or PIN if
          choosing a secure lock and there is an enabled accessibility service. [CHAR LIMIT=NONE] -->
@@ -4784,18 +4804,15 @@
         your device won’t use your screen lock to enhance data encryption.</string>
 
     <!-- Message to the user to enter his pattern before enabling an accessibility service. [CHAR LIMIT=NONE] -->
-    <string name="enable_service_pattern_reason">Because turning on <xliff:g id="service"
-        example="TalkBack">%1$s</xliff:g> affects data encryption, you need to confirm your pattern.
+    <string name="enable_service_pattern_reason">Because turning on <xliff:g example="TalkBack" id="service">%1$s</xliff:g> affects data encryption, you need to confirm your pattern.
     </string>
 
     <!-- Message to the user to enter his PIN before enabling an accessibility service. [CHAR LIMIT=NONE] -->
-    <string name="enable_service_pin_reason">Because turning on <xliff:g id="service"
-        example="TalkBack">%1$s</xliff:g> affects data encryption, you need to confirm your PIN.
+    <string name="enable_service_pin_reason">Because turning on <xliff:g example="TalkBack" id="service">%1$s</xliff:g> affects data encryption, you need to confirm your PIN.
     </string>
 
     <!-- Message to the user to enter his password before enabling an accessibility service. [CHAR LIMIT=NONE] -->
-    <string name="enable_service_password_reason">Because turning on <xliff:g id="service"
-        example="TalkBack">%1$s</xliff:g> affects data encryption, you need to confirm your password.
+    <string name="enable_service_password_reason">Because turning on <xliff:g example="TalkBack" id="service">%1$s</xliff:g> affects data encryption, you need to confirm your password.
     </string>
 
     <!-- Title for the capability of an accessibility service to receive events and keys. -->
@@ -4805,10 +4822,10 @@
         interacting with an app.</string>
 
     <!-- Title for a warning about disabling an accessibility service. [CHAR LIMIT=NONE] -->
-    <string name="disable_service_title">Stop <xliff:g id="service" example="TalkBack">%1$s</xliff:g>?</string>
+    <string name="disable_service_title">Stop <xliff:g example="TalkBack" id="service">%1$s</xliff:g>?</string>
     <!-- Message for a warning about disabling accessibility service. [CHAR LIMIT=NONE] -->
     <string name="disable_service_message">Tapping OK will
-        stop <xliff:g id="service" example="TalkBack">%1$s</xliff:g>.</string>
+        stop <xliff:g example="TalkBack" id="service">%1$s</xliff:g>.</string>
 
     <!-- Title for the prompt shown as a placeholder if no accessibility services are installed. [CHAR LIMIT=50] -->
     <string name="accessibility_no_services_installed">No services installed</string>
@@ -4894,19 +4911,19 @@
     <string name="print_job_summary"><xliff:g id="printer">%1$s</xliff:g>\n<xliff:g id="time">%2$s</xliff:g></string>
 
     <!-- Template for the label for a configuring print job (i.e. the user is currently selecting the paper size and printer to use). [CHAR LIMIT=25] -->
-    <string name="print_configuring_state_title_template" >Configuring <xliff:g id="print_job_name" example="foo.jpg">%1$s</xliff:g></string>
+    <string name="print_configuring_state_title_template">Configuring <xliff:g example="foo.jpg" id="print_job_name">%1$s</xliff:g></string>
 
     <!-- Template for the label of the state for a ongoing print job. [CHAR LIMIT=25] -->
-    <string name="print_printing_state_title_template">Printing <xliff:g id="print_job_name" example="foo.jpg">%1$s</xliff:g></string>
+    <string name="print_printing_state_title_template">Printing <xliff:g example="foo.jpg" id="print_job_name">%1$s</xliff:g></string>
 
     <!-- Template for the label for a cancelling print job. [CHAR LIMIT=25] -->
-    <string name="print_cancelling_state_title_template" >Cancelling <xliff:g id="print_job_name" example="foo.jpg">%1$s</xliff:g></string>
+    <string name="print_cancelling_state_title_template">Cancelling <xliff:g example="foo.jpg" id="print_job_name">%1$s</xliff:g></string>
 
     <!-- Template for the label of the state for a failed print job. [CHAR LIMIT=25] -->
-    <string name="print_failed_state_title_template">Printer error <xliff:g id="print_job_name" example="foo.jpg">%1$s</xliff:g></string>
+    <string name="print_failed_state_title_template">Printer error <xliff:g example="foo.jpg" id="print_job_name">%1$s</xliff:g></string>
 
     <!-- Template for the label of the state for a blocked print job. [CHAR LIMIT=25] -->
-    <string name="print_blocked_state_title_template">Printer blocked <xliff:g id="print_job_name" example="foo.jpg">%1$s</xliff:g></string>
+    <string name="print_blocked_state_title_template">Printer blocked <xliff:g example="foo.jpg" id="print_job_name">%1$s</xliff:g></string>
 
     <!-- Utterance to announce that the search box is shown. This is spoken to a blind user. [CHAR LIMIT=none] -->
     <string name="print_search_box_shown_utterance">Search box shown</string>
@@ -5334,7 +5351,7 @@
     <!-- [CHAR LIMIT=50] Description for over-counted power use -->
     <string name="battery_desc_overcounted">Over-counted power use</string>
     <!-- Representation of a mAh value. [CHAR LIMIT=NONE] -->
-    <string name="mah"><xliff:g id="number" example="30">%d</xliff:g> mAh</string>
+    <string name="mah"><xliff:g example="30" id="number">%d</xliff:g> mAh</string>
 
     <!-- Description for battery usage time for an app, i.e. Used for 30min. Note: ^1 should be used in all translations [CHAR LIMIT=60] -->
     <string name="battery_used_for">Used for <xliff:g id="time">^1</xliff:g></string>
@@ -5361,9 +5378,9 @@
     <!-- Title for battery usage amount by this app. [CHAR LIMIT=80] -->
     <string name="battery_detail_power_usage">Battery usage</string>
     <!-- Title for the battery usage group, which means all the battery data are calculated 'since full charge' [CHAR LIMIT=40] -->
-    <string name ="battery_detail_info_title">Since full charge</string>
+    <string name="battery_detail_info_title">Since full charge</string>
     <!-- Title for the battery management group [CHAR LIMIT=40] -->
-    <string name ="battery_detail_manage_title">Manage battery usage</string>
+    <string name="battery_detail_manage_title">Manage battery usage</string>
 
     <!-- Graph subtext displayed to user when enhanced battery estimate is being used [CHAR LIMIT=120] -->
     <string name="advanced_battery_graph_subtext">Battery left estimate is based on your device usage</string>
@@ -5439,7 +5456,7 @@
         <xliff:g id="timeDuration">%3$s</xliff:g></string>
     <!-- [CHAR LIMIT=NONE] Label for process stats, duration of time the stats are over;
          timeDuration is a duration such as "1h 30m" -->
-    <string name="process_stats_total_duration_percentage"><xliff:g id="percent" example="50%">%1$s</xliff:g>
+    <string name="process_stats_total_duration_percentage"><xliff:g example="50%" id="percent">%1$s</xliff:g>
         of RAM used over
         <xliff:g id="timeDuration">%2$s</xliff:g></string>
     <!-- [CHAR LIMIT=NONE] Label for process stats, text for stats type -->
@@ -5499,7 +5516,8 @@
     <!-- [CHAR LIMIT=NONE] Menu for process stats to show information on cached processes -->
     <string name="menu_proc_stats_type_cached">Cached</string>
 
-    <!-- Voice input/output settings --><skip />
+    <!-- Voice input/output settings -->
+    <skip />
     <!-- Title of setting on main settings screen. This item will take the user to the screen to tweak settings related to speech functionality -->
     <string name="voice_input_output_settings">Voice input &amp; output</string>
     <!-- Main voice input/output settings screen title -->
@@ -5509,7 +5527,8 @@
     <!-- Title of keyboard settings list item within voice input/output settings -->
     <string name="keyboard_settings_title">Android keyboard</string>
 
-    <!-- Voice input settings --><skip />
+    <!-- Voice input settings -->
+    <skip />
     <!-- [CHAR_LIMIT=NONE] Name of the settings item to open the voice input settings. -->
     <string name="voice_input_settings">Voice input settings</string>
     <!-- [CHAR_LIMIT=NONE] Title of the screen of the voice input settings -->
@@ -5650,7 +5669,7 @@
     <!-- Error message [CHAR LIMIT=NONE] -->
     <string name="credentials_reset_warning">Incorrect password. You have one more chance before credential storage is erased.</string>
     <!-- Error message [CHAR LIMIT=NONE] -->
-    <string name="credentials_reset_warning_plural">Incorrect password. You have <xliff:g id="number" example="5">%1$d</xliff:g> more chances before credential storage is erased.</string>
+    <string name="credentials_reset_warning_plural">Incorrect password. You have <xliff:g example="5" id="number">%1$d</xliff:g> more chances before credential storage is erased.</string>
     <!-- Toast message [CHAR LIMIT=30] -->
     <string name="credentials_erased">Credential storage is erased.</string>
     <!-- Toast message [CHAR LIMIT=30] when credential storage containing private keys and certificates could not be erased (opposite of string credentials_erased) -->
@@ -5669,7 +5688,8 @@
     <!-- Sound settings screen, setting option summary text -->
     <string name="emergency_tone_summary">Set behavior when an emergency call is placed</string>
 
-    <!-- Backup and reset Settings screen --><skip />
+    <!-- Backup and reset Settings screen -->
+    <skip />
     <!-- Backup and reset settings menu and activity title -->
     <string name="privacy_settings_title">Backup</string>
     <!-- Backup section title -->
@@ -5701,7 +5721,8 @@
     <string name="fullbackup_erase_dialog_message">Stop backing up device data (such as Wi-Fi passwords and call history) and app data (such as settings and files stored by apps), plus erase all copies on remote servers?</string>
     <!-- Summary for explanation of what full app data backup means. Manufacturers may wish to overlay this resource with their own text  -->
     <string name="fullbackup_data_summary">Automatically back up device data (such as Wi-Fi passwords and call history) and app data (such as settings and files stored by apps) remotely.\n\nWhen you turn on automatic backup, device and app data is periodically saved remotely. App data can be any data that an app has saved (based on developer settings), including potentially sensitive data such as contacts, messages, and photos.</string>
-    <!-- Device admin app settings screen --><skip />
+    <!-- Device admin app settings screen -->
+    <skip />
     <!-- Device admin app settings activity title -->
     <string name="device_admin_settings_title">Device admin settings</string>
     <!-- Label for screen showing the active device admin apps -->
@@ -5770,17 +5791,17 @@
          a user is configuring password for a network.
          The argument should be the name of the network.
          [CHAR LIMIT=50] -->
-    <string name="wifi_setup_title_editing_network">Connect to Wi\u2011Fi network <xliff:g id="network_name" example="Happy Mobile">%s</xliff:g></string>
+    <string name="wifi_setup_title_editing_network">Connect to Wi\u2011Fi network <xliff:g example="Happy Mobile" id="network_name">%s</xliff:g></string>
     <!-- Title shown in Wifi Setup For Setup Wizard with XL screen when
          the device is connecting a network the user specified.
          The argument should be the name of the network.
          [CHAR LIMIT=50] -->
-    <string name="wifi_setup_title_connecting_network">Connecting to Wi\u2011Fi network <xliff:g id="network_name" example="Happy Mobile">%s</xliff:g>\u2026</string>
+    <string name="wifi_setup_title_connecting_network">Connecting to Wi\u2011Fi network <xliff:g example="Happy Mobile" id="network_name">%s</xliff:g>\u2026</string>
     <!-- Title shown in Wifi Setup For Setup Wizard with XL screen when
          the device successfully connected to a network the user specified.
          The argument should be the name of the network.
          [CHAR LIMIT=50] -->
-    <string name="wifi_setup_title_connected_network">Connected to Wi\u2011Fi network <xliff:g id="network_name" example="Happy Mobile">%s</xliff:g></string>
+    <string name="wifi_setup_title_connected_network">Connected to Wi\u2011Fi network <xliff:g example="Happy Mobile" id="network_name">%s</xliff:g></string>
     <!-- Title shown in Wifi Setup For Setup Wizard with XL screen when
          a user is adding a network.
          [CHAR LIMIT=50] -->
@@ -5905,7 +5926,8 @@
     <!-- Title for a checkbox that enables data synchronization in the account and sync screen [CHAR LIMIT=35] -->
     <string name="sync_automatically">Auto-sync app data</string>
 
-    <!-- Sync status messages on Accounts & Synchronization settings --><skip />
+    <!-- Sync status messages on Accounts & Synchronization settings -->
+    <skip />
     <!-- Sync status shown when sync is enabled [CHAR LIMIT=25] -->
     <string name="sync_enabled">Sync is ON</string>
     <!-- Sync status shown when sync is disabled [CHAR LIMIT=25] -->
@@ -5994,9 +6016,9 @@
     <!-- Misc files [CHAR LIMIT=25] -->
     <string name="misc_files">Misc files</string>
     <!-- number of misc files selected [CHAR LIMIT=40] -->
-    <string name="misc_files_selected_count">selected <xliff:g id="number" example="3">%1$d</xliff:g> out of <xliff:g id="total" example="15">%2$d</xliff:g></string>
+    <string name="misc_files_selected_count">selected <xliff:g example="3" id="number">%1$d</xliff:g> out of <xliff:g example="15" id="total">%2$d</xliff:g></string>
     <!-- number of bytes represented by the selected misc files [CHAR LIMIT=40] -->
-    <string name="misc_files_selected_count_bytes"><xliff:g id="number" example="3.25MB">%1$s</xliff:g> out of <xliff:g id="total" example="15.25MB">%2$s</xliff:g></string>
+    <string name="misc_files_selected_count_bytes"><xliff:g example="3.25MB" id="number">%1$s</xliff:g> out of <xliff:g example="15.25MB" id="total">%2$s</xliff:g></string>
     <!--  action to select all [CHAR LIMIT=30] -->
     <string name="select_all">Select all</string>
 
@@ -6160,9 +6182,9 @@
     <string name="data_usage_restrict_background_multiuser" product="default">If you restrict background mobile data, some apps and services won\u2019t work unless you\u2019re connected to Wi\u2011Fi.\n\nThis setting affects all users on this phone.</string>
 
     <!-- Label displaying current network data usage warning threshold. [CHAR LIMIT=18] -->
-    <string name="data_usage_sweep_warning"><font size="18"><xliff:g id="number" example="128">^1</xliff:g></font> <font size="9"><xliff:g id="unit" example="KB">^2</xliff:g></font>\n<font size="12">warning</font></string>
+    <string name="data_usage_sweep_warning"><font size="18"><xliff:g example="128" id="number">^1</xliff:g></font> <font size="9"><xliff:g example="KB" id="unit">^2</xliff:g></font>\n<font size="12">warning</font></string>
     <!-- Label displaying current network data usage limit threshold. [CHAR LIMIT=18] -->
-    <string name="data_usage_sweep_limit"><font size="18"><xliff:g id="number" example="128">^1</xliff:g></font> <font size="9"><xliff:g id="unit" example="KB">^2</xliff:g></font>\n<font size="12">limit</font></string>
+    <string name="data_usage_sweep_limit"><font size="18"><xliff:g example="128" id="number">^1</xliff:g></font> <font size="9"><xliff:g example="KB" id="unit">^2</xliff:g></font>\n<font size="12">limit</font></string>
 
     <!-- TODO: Remove it once the same entry in SettingsLib is translated. -->
     <!-- Title of data usage item that represents all uninstalled applications. [CHAR LIMIT=48] -->
@@ -6171,14 +6193,14 @@
     <!-- Title of data usage item that represents all uninstalled applications or removed users. [CHAR LIMIT=48] -->
     <string name="data_usage_uninstalled_apps_users">Removed apps and users</string>
     <!-- Combination of total network bytes sent and received by an application. [CHAR LIMIT=NONE] -->
-    <string name="data_usage_received_sent"><xliff:g id="received" example="128KB">%1$s</xliff:g> received, <xliff:g id="sent" example="1.3GB">%2$s</xliff:g> sent</string>
+    <string name="data_usage_received_sent"><xliff:g example="128KB" id="received">%1$s</xliff:g> received, <xliff:g example="1.3GB" id="sent">%2$s</xliff:g> sent</string>
     <!-- Label displaying total network data transferred during a specific time period. [CHAR LIMIT=64] -->
-    <string name="data_usage_total_during_range"><xliff:g id="range" example="Jul 1 - Jul 31">%2$s</xliff:g>: about <xliff:g id="total" example="128KB">%1$s</xliff:g> used.</string>
+    <string name="data_usage_total_during_range"><xliff:g example="Jul 1 - Jul 31" id="range">%2$s</xliff:g>: about <xliff:g example="128KB" id="total">%1$s</xliff:g> used.</string>
 
     <!-- Label displaying total network data transferred during a specific time period, including a disclaimer that contrasts device versus carrier reporting. [CHAR LIMIT=80] -->
-    <string name="data_usage_total_during_range_mobile" product="tablet"><xliff:g id="range" example="Jul 1 - Jul 31">%2$s</xliff:g>: about <xliff:g id="total" example="128KB">%1$s</xliff:g> used, as measured by your tablet. Your carrier\u2019s data usage accounting may differ.</string>
+    <string name="data_usage_total_during_range_mobile" product="tablet"><xliff:g example="Jul 1 - Jul 31" id="range">%2$s</xliff:g>: about <xliff:g example="128KB" id="total">%1$s</xliff:g> used, as measured by your tablet. Your carrier\u2019s data usage accounting may differ.</string>
     <!-- Label displaying total network data transferred during a specific time period, including a disclaimer that contrasts device versus carrier reporting. [CHAR LIMIT=80] -->
-    <string name="data_usage_total_during_range_mobile" product="default"><xliff:g id="range" example="Jul 1 - Jul 31">%2$s</xliff:g>: about <xliff:g id="total" example="128KB">%1$s</xliff:g> used, as measured by your phone. Your carrier\u2019s data usage accounting may differ.</string>
+    <string name="data_usage_total_during_range_mobile" product="default"><xliff:g example="Jul 1 - Jul 31" id="range">%2$s</xliff:g>: about <xliff:g example="128KB" id="total">%1$s</xliff:g> used, as measured by your phone. Your carrier\u2019s data usage accounting may differ.</string>
 
     <!-- Dialog title for selecting metered networks. [CHAR LIMIT=25] -->
     <string name="data_usage_metered_title">Network restrictions</string>
@@ -6282,13 +6304,13 @@
     <!-- Button label to forget a VPN profile. [CHAR LIMIT=40] -->
     <string name="vpn_forget">Forget</string>
     <!-- Dialog title to connect to a VPN profile. [CHAR LIMIT=40] -->
-    <string name="vpn_connect_to">Connect to <xliff:g id="profile" example="School">%s</xliff:g></string>
+    <string name="vpn_connect_to">Connect to <xliff:g example="School" id="profile">%s</xliff:g></string>
     <!-- Dialog message body to disconnect from a VPN profile. -->
     <string name="vpn_disconnect_confirm">Disconnect this VPN?</string>
     <!-- Button label to disconnect from a VPN profile. [CHAR LIMIT=40] -->
     <string name="vpn_disconnect">Disconnect</string>
     <!-- Field label to show the version number for a VPN app. [CHAR LIMIT=40] -->
-    <string name="vpn_version">Version <xliff:g id="version" example="3.3.0">%s</xliff:g></string>
+    <string name="vpn_version">Version <xliff:g example="3.3.0" id="version">%s</xliff:g></string>
     <!-- Button label to forget a VPN profile [CHAR LIMIT=40] -->
     <string name="vpn_forget_long">Forget VPN</string>
     <!-- Dialog message title to set another VPN app to be always-on [CHAR LIMIT=40] -->
@@ -6306,7 +6328,7 @@
     <!-- Dialog action button to turn on a VPN. -->
     <string name="vpn_turn_on">Turn on</string>
     <!-- Dialog mesage title when the user can't connect an always-on vpn [CHAR LIMIT=NONE] -->
-    <string name="vpn_cant_connect_title"><xliff:g id="vpn_name" example="OpenVPN">%1$s</xliff:g> can\'t connect</string>
+    <string name="vpn_cant_connect_title"><xliff:g example="OpenVPN" id="vpn_name">%1$s</xliff:g> can\'t connect</string>
     <!-- Dialog message subtitle when the user can't connect an always-on vpn [CHAR LIMIT=NONE] -->
     <string name="vpn_cant_connect_message">This app doesn\'t support always-on VPN</string>
     <!-- Preference title for VPN settings. [CHAR LIMIT=40] -->
@@ -6382,7 +6404,7 @@
     <!-- Alert dialog when viewing a set of user credentials. -->
     <string name="user_credential_title">Credential details</string>
     <!-- Announcement to confirm a user credential being removed. [CHAR LIMIT=NONE] -->
-    <string name="user_credential_removed">Removed credential: <xliff:g id="credential_name" example="signing key">%s</xliff:g></string>
+    <string name="user_credential_removed">Removed credential: <xliff:g example="signing key" id="credential_name">%s</xliff:g></string>
     <!-- Placeholder for the list of installed user credentials (private keys) when the list is empty. [CHAR LIMIT=120] -->
     <string name="user_credential_none_installed">No user credentials installed</string>
 
@@ -6406,7 +6428,8 @@
     "system_update_settings_list_item_title" in this project. [CHAR LIMIT=25] -->
     <string name="additional_system_update_settings_list_item_title">Additional system updates</string>
 
-    <!-- Notification of installed CA Certs --> <skip/>
+    <!-- Notification of installed CA Certs -->
+    <skip />
 
     <!-- Shows up when there is a user SSL CA Cert installed on the
          device.  Indicates to the user that SSL traffic can be intercepted.  [CHAR LIMIT=NONE] -->
@@ -6437,7 +6460,7 @@
     </plurals>
 
     <!-- User settings -->
-    <skip/>
+    <skip />
 
     <!-- User settings screen title [CHAR LIMIT=40] -->
     <string name="user_settings_title">Multiple users</string>
@@ -6462,7 +6485,7 @@
     <!-- User information string to represent the owner of the device [CHAR LIMIT=25] -->
     <string name="user_admin">Admin</string>
     <!-- User settings title for current user entry "You" user. [CHAR LIMIT=30] -->
-    <string name="user_you">You (<xliff:g id="name" example="Name">%s</xliff:g>)</string>
+    <string name="user_you">You (<xliff:g example="Name" id="name">%s</xliff:g>)</string>
     <!-- Title for the preference to enter the nickname of the userto display in the user switcher [CHAR LIMIT=25]-->
     <string name="user_nickname">Nickname</string>
     <!-- Title for add user type dialog [CHAR LIMIT=45] -->
@@ -6563,7 +6586,7 @@
     <!-- Title for the emergency info preference [CHAR LIMIT=40] -->
     <string name="emergency_info_title">Emergency information</string>
     <!-- Summary for the emergency info preference [CHAR LIMIT=40] -->
-    <string name="emergency_info_summary">Info &amp; contacts for <xliff:g id="user_name" example="Jason">%1$s</xliff:g></string>
+    <string name="emergency_info_summary">Info &amp; contacts for <xliff:g example="Jason" id="user_name">%1$s</xliff:g></string>
 
     <!-- Application Restrictions screen title [CHAR LIMIT=45] -->
     <string name="application_restrictions">Allow apps and content</string>
@@ -6572,7 +6595,8 @@
     <!-- Applicaitons with restrictions - settings button [CHAR LIMIT=30] -->
     <string name="apps_with_restrictions_settings_button">Expand settings for application</string>
 
-    <!-- NFC payment settings --><skip/>
+    <!-- NFC payment settings -->
+    <skip />
     <string name="nfc_payment_settings_title">Tap &amp; pay</string>
     <!-- Caption for button linking to a page explaining how Tap and Pay works-->
     <string name="nfc_payment_how_it_works">How it works</string>
@@ -6605,7 +6629,8 @@
     <string name="nfc_payment_set_default_label">Set as your preference?</string>
     <string name="nfc_payment_set_default">Always use <xliff:g id="app">%1$s</xliff:g> when you Tap &amp; pay?</string>
     <string name="nfc_payment_set_default_instead_of">Always use <xliff:g id="app">%1$s</xliff:g> instead of <xliff:g id="app">%2$s</xliff:g> when you Tap &amp; pay?</string>
-    <!-- Restrictions settings --><skip/>
+    <!-- Restrictions settings -->
+    <skip />
 
     <!-- Restriction settings title [CHAR LIMIT=35] -->
     <string name="restriction_settings_title">Restrictions</string>
@@ -6617,7 +6642,8 @@
     <!-- Label for are-notifications-enabled checkbox in app details [CHAR LIMIT=20] -->
     <string name="app_notifications_switch_label">Show notifications</string>
 
-    <!--  Help URLs for some screens. Not specified here. Specified in product overlays --><skip/>
+    <!--  Help URLs for some screens. Not specified here. Specified in product overlays -->
+    <skip />
     <!-- Help menu label [CHAR LIMIT=20] -->
     <string name="help_label">Help &amp; feedback</string>
 
@@ -6816,7 +6842,7 @@
     <!-- Restrictions title for allowing location sharing [CHAR LIMIT=35] -->
     <string name="restriction_location_enable_title">Location</string>
     <!-- Restrictions summary for allowing location sharing [CHAR LIMIT=100] -->
-    <string name="restriction_location_enable_summary" >Let apps use your location information</string>
+    <string name="restriction_location_enable_summary">Let apps use your location information</string>
 
     <!-- Wizard back button label [CHAR LIMIT=25] -->
     <string name="wizard_back">Back</string>
@@ -7100,7 +7126,7 @@
     <!-- Sounds and Notification -->
     <!-- Sound: Dashboard summary indicating the volume of ringtone. example: Ring volume at 20%.
     [CHAR LIMIT=100] -->
-    <string name="sound_settings_summary">Ring volume at <xliff:g id="percentage" example="2%">%1$s</xliff:g></string>
+    <string name="sound_settings_summary">Ring volume at <xliff:g example="2%" id="percentage">%1$s</xliff:g></string>
 
     <!-- Summary for sound settings, explaining a few important settings under it [CHAR LIMIT=NONE]-->
     <string name="sound_dashboard_summary">Volume, vibration, Do Not Disturb</string>
@@ -7198,7 +7224,7 @@
     <!-- Sound: Summary for the Do not Disturb option when at least one automatic rules turned on. [CHAR LIMIT=NONE]-->
     <plurals name="zen_mode_settings_summary_on">
         <item quantity="one">1 rule</item>
-        <item quantity="other"><xliff:g id="on_count" example="10">%d</xliff:g> rules</item>
+        <item quantity="other"><xliff:g example="10" id="on_count">%d</xliff:g> rules</item>
     </plurals>
 
     <!-- Sound: Title for the Do not Disturb option and associated settings page. [CHAR LIMIT=50]-->
@@ -7223,7 +7249,7 @@
     <string name="zen_mode_behavior_total_silence">Total Silence</string>
 
     <!-- Do not disturb: Used before specifying which sounds can bypass DND (ie: No sound except alarms and reminders). [CHAR LIMIT=40] -->
-    <string name="zen_mode_behavior_no_sound_except">No sound except <xliff:g id="categories" example="alarms, media and system feedback">%1$s</xliff:g></string>
+    <string name="zen_mode_behavior_no_sound_except">No sound except <xliff:g example="alarms, media and system feedback" id="categories">%1$s</xliff:g></string>
 
     <!-- Do not disturb: Specifies alarms and media can bypass DND.  [CHAR LIMIT=100] -->
     <string name="zen_mode_behavior_alarms_only">No sound except alarms and media</string>
@@ -7256,7 +7282,7 @@
     <string name="zen_mode_option_no_interruptions">Total silence</string>
 
     <!--  Do not disturb: Zen mode combined summary + condition line [CHAR LIMIT=60] -->
-    <string name="zen_mode_summary_combination"><xliff:g id="mode" example="Priority only">%1$s</xliff:g>: <xliff:g id="exit condition" example="Until you turn this off">%2$s</xliff:g></string>
+    <string name="zen_mode_summary_combination"><xliff:g example="Priority only" id="mode">%1$s</xliff:g>: <xliff:g example="Until you turn this off" id="exit condition">%2$s</xliff:g></string>
 
     <!--  Do not disturb: Title for the Visual interruptions option and associated settings page. [CHAR LIMIT=30] -->
     <string name="zen_mode_visual_interruptions_settings_title">Block visual disturbances</string>
@@ -7350,22 +7376,22 @@
     <string name="zen_mode_button_turn_off">Turn off now</string>
 
     <!-- [CHAR LIMIT=110] Zen mode settings footer: Footer showing end time of DND -->
-    <string name="zen_mode_settings_dnd_manual_end_time">Do Not Disturb is on until <xliff:g id="formatted_time" example="7:00 AM">%s</xliff:g></string>
+    <string name="zen_mode_settings_dnd_manual_end_time">Do Not Disturb is on until <xliff:g example="7:00 AM" id="formatted_time">%s</xliff:g></string>
 
     <!-- [CHAR LIMIT=110] Zen mode settings footer: Footer showing length of DND -->
     <string name="zen_mode_settings_dnd_manual_indefinite">Do Not Disturb will stay on until you turn it off</string>
 
     <!-- [CHAR LIMIT=110] Zen mode settings footer: Footer showing how DND was triggered by an automatic DND rule -->
-    <string name="zen_mode_settings_dnd_automatic_rule">Do Not Disturb was automatically turned on by a rule (<xliff:g id="rule_name" example="Weeknights">%s</xliff:g>)</string>
+    <string name="zen_mode_settings_dnd_automatic_rule">Do Not Disturb was automatically turned on by a rule (<xliff:g example="Weeknights" id="rule_name">%s</xliff:g>)</string>
 
     <!-- [CHAR LIMIT=110] Zen mode settings footer: Footer how DND was triggered by an app -->
-    <string name="zen_mode_settings_dnd_automatic_rule_app">Do Not Disturb was automatically turned on by an app (<xliff:g id="app_name" example="Android Services">%s</xliff:g>)</string>
+    <string name="zen_mode_settings_dnd_automatic_rule_app">Do Not Disturb was automatically turned on by an app (<xliff:g example="Android Services" id="app_name">%s</xliff:g>)</string>
 
     <!--[CHAR LIMIT=40] Zen Interruption level: Priority.  -->
     <string name="zen_interruption_level_priority">Priority only</string>
 
     <!-- [CHAR LIMIT=20] Accessibility string for current zen mode and selected exit condition. A template that simply concatenates existing mode string and the current condition description.  -->
-    <string name="zen_mode_and_condition"><xliff:g id="zen_mode" example="Priority interruptions only">%1$s</xliff:g>. <xliff:g id="exit_condition" example="For one hour">%2$s</xliff:g></string>
+    <string name="zen_mode_and_condition"><xliff:g example="Priority interruptions only" id="zen_mode">%1$s</xliff:g>. <xliff:g example="For one hour" id="exit_condition">%2$s</xliff:g></string>
 
     <!-- Sound settings screen, summary format of do not disturb when on with extra info. [CHAR LIMIT=NONE] -->
     <string name="zen_mode_sound_summary_on_with_info">On / <xliff:g name="dnd_summary" example="No sound except alarms and media">%1$s</xliff:g></string>
@@ -7388,16 +7414,16 @@
     <!--  Do not disturb: Summary for zen mode duration setting indicating how long dnd will last when dnd is manually toggled on [CHAR LIMIT=NONE] -->
     <plurals name="zen_mode_duration_summary_time_hours">
         <item quantity="one">1 hour (unless turned on automatically)</item>
-        <item quantity="other"><xliff:g id="num_hours" example="3">%d</xliff:g> hours (unless turned on automatically)</item>
+        <item quantity="other"><xliff:g example="3" id="num_hours">%d</xliff:g> hours (unless turned on automatically)</item>
     </plurals>
 
     <!--  Do not disturb: Summary for zen mode duration setting indicating how long dnd will last when toggled on -->
-    <string name="zen_mode_duration_summary_time_minutes"><xliff:g id="num_minutes" example="5">%d</xliff:g> minutes (unless turned on automatically)</string>
+    <string name="zen_mode_duration_summary_time_minutes"><xliff:g example="5" id="num_minutes">%d</xliff:g> minutes (unless turned on automatically)</string>
 
     <!-- Summary for the Sound Do not Disturb option when at least one automatic rules is enabled. [CHAR LIMIT=NONE]-->
     <plurals name="zen_mode_sound_summary_summary_off_info">
         <item quantity="one">1 rule can turn on automatically</item>
-        <item quantity="other"><xliff:g id="on_count" example="3">%d</xliff:g> rules can turn on automatically</item>
+        <item quantity="other"><xliff:g example="3" id="on_count">%d</xliff:g> rules can turn on automatically</item>
     </plurals>
 
     <!-- Do not disturb settings, category header [CHAR LIMIT=100]-->
@@ -7418,11 +7444,11 @@
     <!-- Do not disturb settings, sound and vibrations summary [CHAR LIMIT=100]-->
     <string name="zen_sound_none_muted">Not muted</string>
     <!-- Do not disturb settings, sound and vibrations summary [CHAR LIMIT=100]-->
-    <string name="zen_sound_one_allowed">Muted, but allow <xliff:g id="sound_type" example="alarms">%1$s</xliff:g></string>
+    <string name="zen_sound_one_allowed">Muted, but allow <xliff:g example="alarms" id="sound_type">%1$s</xliff:g></string>
     <!-- Do not disturb settings, sound and vibrations summary [CHAR LIMIT=100]-->
-    <string name="zen_sound_two_allowed">Muted, but allow <xliff:g id="sound_type" example="alarms">%1$s</xliff:g> and <xliff:g id="sound_type" example="media">%2$s</xliff:g></string>
+    <string name="zen_sound_two_allowed">Muted, but allow <xliff:g example="alarms" id="sound_type">%1$s</xliff:g> and <xliff:g example="media" id="sound_type">%2$s</xliff:g></string>
     <!-- Do not disturb settings, sound and vibrations summary [CHAR LIMIT=100]-->
-    <string name="zen_sound_three_allowed">Muted, but allow <xliff:g id="sound_type" example="alarms">%1$s</xliff:g>, <xliff:g id="sound_type" example="alarms">%2$s</xliff:g>, and <xliff:g id="sound_type" example="media">%3$s</xliff:g></string>
+    <string name="zen_sound_three_allowed">Muted, but allow <xliff:g example="alarms" id="sound_type">%1$s</xliff:g>, <xliff:g example="alarms" id="sound_type">%2$s</xliff:g>, and <xliff:g example="media" id="sound_type">%3$s</xliff:g></string>
 
     <!-- Do not disturb settings, messages, events and reminders title [CHAR LIMIT=100]-->
     <string name="zen_msg_event_reminder_title">Messages, events &amp; reminders</string>
@@ -7493,7 +7519,7 @@
     <string name="ringtones_install_custom_sound_title">Add custom sound?</string>
 
     <!-- Sound installation: Message for the dialog to confirm that a new sound will be installed to the Ringtones, Notifications, or Alarms folder. [CHAR LIMIT=none] -->
-    <string name="ringtones_install_custom_sound_content">This file will be copied to the <xliff:g id="folder_name" example="Ringtones">%s</xliff:g> folder</string>
+    <string name="ringtones_install_custom_sound_content">This file will be copied to the <xliff:g example="Ringtones" id="folder_name">%s</xliff:g> folder</string>
 
     <!-- Ringtones preference category: Title for the Ringotnes preference categories. [CHAR LIMIT=none] -->
     <string name="ringtones_category_preference_title">Ringtones</string>
@@ -7678,7 +7704,7 @@
     <!-- Title for a warning message about security implications of enabling a notification
           listener, displayed as a dialog message. [CHAR LIMIT=NONE] -->
     <string name="notification_listener_security_warning_title">Allow notification access for
-         <xliff:g id="service" example="NotificationReader">%1$s</xliff:g>?</string>
+         <xliff:g example="NotificationReader" id="service">%1$s</xliff:g>?</string>
     <!-- Summary for a warning message about security implications of enabling a notification
           listener, displayed as a dialog message. [CHAR LIMIT=NONE] -->
     <string name="notification_listener_security_warning_summary">
@@ -7702,7 +7728,7 @@
     <!-- Title for a warning message about security implications of enabling a VR
           listener, displayed as a dialog message. [CHAR LIMIT=NONE] -->
     <string name="vr_listener_security_warning_title">Allow VR service access for
-         <xliff:g id="service" example="VrCore">%1$s</xliff:g>?</string>
+         <xliff:g example="VrCore" id="service">%1$s</xliff:g>?</string>
     <!-- Summary for a warning message about security implications of enabling a VR
           listener, displayed as a dialog message. [CHAR LIMIT=NONE] -->
     <string name="vr_listener_security_warning_summary">
@@ -7764,8 +7790,8 @@
 
     <!-- [CHAR LIMIT=45] App notification settings, group summary-->
     <plurals name="notification_group_summary">
-        <item quantity="one"><xliff:g id="count" example="1">%d</xliff:g> category</item>
-        <item quantity="other"><xliff:g id="count" example="10">%d</xliff:g> categories</item>
+        <item quantity="one"><xliff:g example="1" id="count">%d</xliff:g> category</item>
+        <item quantity="other"><xliff:g example="10" id="count">%d</xliff:g> categories</item>
     </plurals>
 
     <!-- [CHAR LIMIT=NONE] App notification settings: no channels -->
@@ -7778,14 +7804,14 @@
     <string name="app_notification_listing_summary_zero">On for all apps</string>
     <!-- [CHAR LIMIT=45] App notification listing summary, blocked apps -->
     <plurals name="app_notification_listing_summary_others">
-        <item quantity="one">Off for <xliff:g id="count" example="1">%d</xliff:g> app</item>
-        <item quantity="other">Off for <xliff:g id="count" example="10">%d</xliff:g> apps</item>
+        <item quantity="one">Off for <xliff:g example="1" id="count">%d</xliff:g> app</item>
+        <item quantity="other">Off for <xliff:g example="10" id="count">%d</xliff:g> apps</item>
     </plurals>
 
     <!-- [CHAR LIMIT=NONE] Footer listing a count of deleted channels. -->
     <plurals name="deleted_channels">
-        <item quantity="one"><xliff:g id="count" example="1">%d</xliff:g> category deleted</item>
-        <item quantity="other"><xliff:g id="count" example="10">%d</xliff:g> categories deleted</item>
+        <item quantity="one"><xliff:g example="1" id="count">%d</xliff:g> category deleted</item>
+        <item quantity="other"><xliff:g example="10" id="count">%d</xliff:g> categories deleted</item>
     </plurals>
 
     <!-- [CHAR LIMIT=NONE] App notification settings: notifications enabled-->
@@ -7876,7 +7902,7 @@
     <string name="zen_mode_choose_rule_type">Choose rule type</string>
 
     <!-- [CHAR LIMIT=40] Zen mode settings: Delete rule dialog confirmation message -->
-    <string name="zen_mode_delete_rule_confirmation">Delete \u201c<xliff:g id="rule" example="Weekends">%1$s</xliff:g>\u201d rule?</string>
+    <string name="zen_mode_delete_rule_confirmation">Delete \u201c<xliff:g example="Weekends" id="rule">%1$s</xliff:g>\u201d rule?</string>
 
     <!-- [CHAR LIMIT=40] Zen mode settings: Delete rule dialog button caption -->
     <string name="zen_mode_delete_rule_button">Delete</string>
@@ -7885,7 +7911,7 @@
     <string name="zen_mode_rule_type_unknown">Unknown</string>
 
     <!-- [CHAR LIMIT=NONE] Zen mode behavior settings footer: footer describing why the user cannot change the current do not disturb behavior settings -->
-    <string name="zen_mode_app_set_behavior">These settings can\'t be changed right now. An app (<xliff:g id="app_name" example="Android Services">%1$s</xliff:g>) has automatically turned on Do Not Disturb with custom behavior."</string>
+    <string name="zen_mode_app_set_behavior">These settings can\'t be changed right now. An app (<xliff:g example="Android Services" id="app_name">%1$s</xliff:g>) has automatically turned on Do Not Disturb with custom behavior."</string>
 
     <!-- [CHAR LIMIT=NONE] Zen mode behavior settings footer: footer describing why the user cannot change the current do not disturb behavior settings -->
     <string name="zen_mode_unknown_app_set_behavior">These settings can\'t be changed right now. An app has automatically turned on Do Not Disturb with custom behavior."</string>
@@ -7909,13 +7935,13 @@
     <string name="zen_mode_event_rule_calendar">During events for</string>
 
     <!-- [CHAR LIMIT=40] Zen mode settings: Event-based rule summary fragment: During events for -->
-    <string name="zen_mode_event_rule_summary_calendar_template">During events for <xliff:g id="calendar" example="any calendar">%1$s</xliff:g></string>
+    <string name="zen_mode_event_rule_summary_calendar_template">During events for <xliff:g example="any calendar" id="calendar">%1$s</xliff:g></string>
 
     <!-- [CHAR LIMIT=40] Zen mode settings: Event-based rule summary fragment: any calendar -->
     <string name="zen_mode_event_rule_summary_any_calendar">any calendar</string>
 
     <!-- [CHAR LIMIT=40] Zen mode settings: Event-based rule summary fragment: Where reply is -->
-    <string name="zen_mode_event_rule_summary_reply_template">Where reply is <xliff:g id="reply" example="Yes, Maybe, or Not replied">%1$s</xliff:g></string>
+    <string name="zen_mode_event_rule_summary_reply_template">Where reply is <xliff:g example="Yes, Maybe, or Not replied" id="reply">%1$s</xliff:g></string>
 
     <!-- [CHAR LIMIT=40] Zen mode settings: Event-based rule calendar option value for any calendar -->
     <string name="zen_mode_event_rule_calendar_any">Any calendar</string>
@@ -7936,10 +7962,10 @@
     <string name="zen_mode_rule_not_found_text">Rule not found.</string>
 
     <!-- [CHAR LIMIT=40] Zen mode settings: Rule summary template (when enabled) -->
-    <string name="zen_mode_rule_summary_enabled_combination">On / <xliff:g id="mode" example="Alarms only">%1$s</xliff:g></string>
+    <string name="zen_mode_rule_summary_enabled_combination">On / <xliff:g example="Alarms only" id="mode">%1$s</xliff:g></string>
 
     <!-- [CHAR LIMIT=40] Zen mode settings: Third party Rule summary template -->
-    <string name="zen_mode_rule_summary_provider_combination"><xliff:g id="package" example="Condition Provider App">%1$s</xliff:g>\n<xliff:g id="summary" example="On / Alarms only">%2$s</xliff:g></string>
+    <string name="zen_mode_rule_summary_provider_combination"><xliff:g example="Condition Provider App" id="package">%1$s</xliff:g>\n<xliff:g example="On / Alarms only" id="summary">%2$s</xliff:g></string>
 
     <!-- [CHAR LIMIT=40] Zen mode settings: Time-based rule days option title -->
     <string name="zen_mode_schedule_rule_days">Days</string>
@@ -7960,10 +7986,10 @@
     <string name="summary_divider_text">,\u0020</string>
 
     <!-- [CHAR LIMIT=40] General template for a symbolic start - end range in a text summary -->
-    <string name="summary_range_symbol_combination"><xliff:g id="start" example="Sun">%1$s</xliff:g> - <xliff:g id="end" example="Thu">%2$s</xliff:g></string>
+    <string name="summary_range_symbol_combination"><xliff:g example="Sun" id="start">%1$s</xliff:g> - <xliff:g example="Thu" id="end">%2$s</xliff:g></string>
 
     <!-- [CHAR LIMIT=40] General template for a verbal start to end range in a text summary -->
-    <string name="summary_range_verbal_combination"><xliff:g id="start" example="Sun">%1$s</xliff:g> to <xliff:g id="end" example="Thu">%2$s</xliff:g></string>
+    <string name="summary_range_verbal_combination"><xliff:g example="Sun" id="start">%1$s</xliff:g> to <xliff:g example="Thu" id="end">%2$s</xliff:g></string>
 
     <!-- [CHAR LIMIT=20] Zen mode settings: Calls option -->
     <string name="zen_mode_calls">Calls</string>
@@ -7980,7 +8006,7 @@
     <!-- Zen mode settings: Starred contacts summary [CHAR LIMIT=NONE] -->
     <plurals name="zen_mode_starred_contacts_summary_additional_contacts">
         <item quantity="one">1 other</item>
-        <item quantity="other"><xliff:g id="num_people" example="3">%d</xliff:g> others</item>
+        <item quantity="other"><xliff:g example="3" id="num_people">%d</xliff:g> others</item>
     </plurals>
 
     <!-- [CHAR LIMIT=20] Zen mode settings: Messages option -->
@@ -8053,10 +8079,10 @@
     <string name="zen_mode_repeat_callers_title">Allow repeat callers</string>
 
     <!-- [CHAR LIMIT=50] Zen mode settings: calls summary -->
-    <string name="zen_mode_calls_summary_one">From <xliff:g id="caller type" example="contacts">%1$s</xliff:g></string>
+    <string name="zen_mode_calls_summary_one">From <xliff:g example="contacts" id="caller type">%1$s</xliff:g></string>
 
     <!-- [CHAR LIMIT=50] Zen mode settings: calls summary -->
-    <string name="zen_mode_calls_summary_two">From <xliff:g id="caller type" example="starred contacts">%1$s</xliff:g> and <xliff:g id="callert tpye" example="repeat callers">%2$s</xliff:g></string>
+    <string name="zen_mode_calls_summary_two">From <xliff:g example="starred contacts" id="caller type">%1$s</xliff:g> and <xliff:g example="repeat callers" id="callert tpye">%2$s</xliff:g></string>
 
     <!-- [CHAR LIMIT=200] Zen mode settings: Repeat callers option summary -->
     <string name="zen_mode_repeat_callers_summary">If the same person calls a second time within a <xliff:g id="minutes">%d</xliff:g> minute period</string>
@@ -8083,25 +8109,25 @@
     <string name="zen_mode_end_time">End time</string>
 
     <!-- [CHAR LIMIT=60] Zen mode settings: End time option: Summary text value format when end time = next day -->
-    <string name="zen_mode_end_time_next_day_summary_format"><xliff:g id="formatted_time" example="7:00 AM">%s</xliff:g> next day</string>
+    <string name="zen_mode_end_time_next_day_summary_format"><xliff:g example="7:00 AM" id="formatted_time">%s</xliff:g> next day</string>
 
     <!-- [CHAR LIMIT=NONE] Zen mode summary spoken when changing mode by voice: switch to alarms only forever. -->
     <string name="zen_mode_summary_alarms_only_indefinite">Change to alarms only indefinitely</string>
 
     <!-- [CHAR LIMIT=NONE] Zen mode summary spoken when changing mode by voice: switch to alarms only for < 60 minutes. -->
     <plurals name="zen_mode_summary_alarms_only_by_minute">
-        <item quantity="one">Change to alarms only for one minute until <xliff:g id="formattedTime" example="10:00 PM">%2$s</xliff:g></item>
-        <item quantity="other">Change to alarms only for <xliff:g id="duration" example="2">%1$d</xliff:g> minutes (until <xliff:g id="formattedTime" example="10:00 PM">%2$s</xliff:g>)</item>
+        <item quantity="one">Change to alarms only for one minute until <xliff:g example="10:00 PM" id="formattedTime">%2$s</xliff:g></item>
+        <item quantity="other">Change to alarms only for <xliff:g example="2" id="duration">%1$d</xliff:g> minutes (until <xliff:g example="10:00 PM" id="formattedTime">%2$s</xliff:g>)</item>
     </plurals>
 
     <!-- [CHAR LIMIT=NONE] Zen mode summary spoken when changing mode by voice: switch to alarms only for N hours. -->
     <plurals name="zen_mode_summary_alarms_only_by_hour">
-        <item quantity="one">Change to alarms only for one hour until <xliff:g id="formattedTime" example="10:00 PM">%2$s</xliff:g></item>
-        <item quantity="other">Change to alarms only for <xliff:g id="duration" example="2">%1$d</xliff:g> hours until <xliff:g id="formattedTime" example="10:00 PM">%2$s</xliff:g></item>
+        <item quantity="one">Change to alarms only for one hour until <xliff:g example="10:00 PM" id="formattedTime">%2$s</xliff:g></item>
+        <item quantity="other">Change to alarms only for <xliff:g example="2" id="duration">%1$d</xliff:g> hours until <xliff:g example="10:00 PM" id="formattedTime">%2$s</xliff:g></item>
     </plurals>
 
     <!-- [CHAR LIMIT=NONE] Zen mode summary spoken when changing mode by voice: switch to alarms only until a specific time. -->
-    <string name="zen_mode_summary_alarms_only_by_time">Change to alarms only until <xliff:g id="formattedTime" example="10:00 PM">%1$s</xliff:g></string>
+    <string name="zen_mode_summary_alarms_only_by_time">Change to alarms only until <xliff:g example="10:00 PM" id="formattedTime">%1$s</xliff:g></string>
 
     <!-- [CHAR LIMIT=NONE] Zen mode summary spoken when changing mode by voice: Turn on all notifications. -->
     <string name="zen_mode_summary_always">Change to always interrupt</string>
@@ -8207,13 +8233,13 @@
     <string name="encrypt_talkback_dialog_require_password">Require password?</string>
 
     <!-- Message for encryption dialog telling the user that Talkback and other accessibility services will be disabled. -->
-    <string name="encrypt_talkback_dialog_message_pin">When you enter your PIN to start this device, accessibility services like <xliff:g id="service" example="TalkBack">%1$s</xliff:g> won\u2019t yet be available.</string>
+    <string name="encrypt_talkback_dialog_message_pin">When you enter your PIN to start this device, accessibility services like <xliff:g example="TalkBack" id="service">%1$s</xliff:g> won\u2019t yet be available.</string>
 
     <!-- Message for encryption dialog telling the user that Talkback and other accessibility services will be disabled. -->
-    <string name="encrypt_talkback_dialog_message_pattern">When you enter your pattern to start this device, accessibility services like <xliff:g id="service" example="TalkBack">%1$s</xliff:g> won\u2019t yet be available.</string>
+    <string name="encrypt_talkback_dialog_message_pattern">When you enter your pattern to start this device, accessibility services like <xliff:g example="TalkBack" id="service">%1$s</xliff:g> won\u2019t yet be available.</string>
 
     <!-- Message for encryption dialog telling the user that Talkback and other accessibility services will be disabled. -->
-    <string name="encrypt_talkback_dialog_message_password">When you enter your password to start this device, accessibility services like <xliff:g id="service" example="TalkBack">%1$s</xliff:g> won\u2019t yet be available.</string>
+    <string name="encrypt_talkback_dialog_message_password">When you enter your password to start this device, accessibility services like <xliff:g example="TalkBack" id="service">%1$s</xliff:g> won\u2019t yet be available.</string>
 
     <!-- [CHAR LIMIT=NONE] Dialog body explaining that the app just selected by the user will not work after a reboot until until after the user enters their credentials, such as a PIN or password. -->
     <string name="direct_boot_unaware_dialog_message">Note: After a reboot, this app can\'t start until you unlock your phone</string>
@@ -8235,7 +8261,7 @@
     <string name="app_launch_other_defaults_title">Other defaults</string>
 
     <!-- Summary for app storage preference -->
-    <string name="storage_summary_format"><xliff:g id="size" example="30.00MB">%1$s</xliff:g> used in <xliff:g id="storage_type" example="internal memory">%2$s</xliff:g></string>
+    <string name="storage_summary_format"><xliff:g example="30.00MB" id="size">%1$s</xliff:g> used in <xliff:g example="internal memory" id="storage_type">%2$s</xliff:g></string>
     <!-- Summary describing internal storage for applications [CHAR LIMIT=25] -->
     <string name="storage_type_internal">Internal storage</string>
     <!-- Summary describing external storage for applications [CHAR LIMIT=25] -->
@@ -8244,7 +8270,7 @@
     <!-- Title for data usage screen when entered from app info [CHAR LIMIT=30] -->
     <string name="app_data_usage">App data usage</string>
     <!-- Summary for data usage preference [CHAR LIMIT=15] -->
-    <string name="data_summary_format"><xliff:g id="size" example="30.00MB">%1$s</xliff:g> used since <xliff:g id="date" example="Jan 12">%2$s</xliff:g></string>
+    <string name="data_summary_format"><xliff:g example="30.00MB" id="size">%1$s</xliff:g> used since <xliff:g example="Jan 12" id="date">%2$s</xliff:g></string>
 
     <!-- Title of storage preference to control where app is stored -->
     <string name="storage_used">Storage used</string>
@@ -8260,11 +8286,11 @@
     <!-- App notification summary with notifications enabled [CHAR LIMIT=40] -->
     <string name="notifications_enabled">On</string>
     <!-- App notification summary with notifications enabled [CHAR LIMIT=40] -->
-    <string name="notifications_enabled_with_info">On / <xliff:g id="notifications_categories_off" example="3 categories turned off">%1$s</xliff:g> </string>
+    <string name="notifications_enabled_with_info">On / <xliff:g example="3 categories turned off" id="notifications_categories_off">%1$s</xliff:g> </string>
     <!-- Label for showing apps with blocked notifications in list [CHAR LIMIT=30] -->
     <string name="notifications_disabled">Off</string>
     <!-- Label for showing apps with some blocked notifications in list [CHAR LIMIT=30] -->
-    <string name="notifications_partly_blocked"><xliff:g id="count" example="1">%1$d</xliff:g> of <xliff:g id="count" example="10">%2$d</xliff:g> categories turned off</string>
+    <string name="notifications_partly_blocked"><xliff:g example="1" id="count">%1$d</xliff:g> of <xliff:g example="10" id="count">%2$d</xliff:g> categories turned off</string>
     <!-- App notification summary with notifications silenced [CHAR LIMIT=40] -->
     <string name="notifications_silenced">Silenced</string>
     <!-- App notification summary with notifications redacted [CHAR LIMIT=70] -->
@@ -8282,26 +8308,26 @@
 
     <!-- Permissions preference summary [CHAR LIMIT=40] -->
     <plurals name="notifications_categories_off">
-        <item quantity="one"><xliff:g id="count" example="1">%d</xliff:g> category turned off</item>
-        <item quantity="other"><xliff:g id="count" example="10">%d</xliff:g> categories turned off</item>
+        <item quantity="one"><xliff:g example="1" id="count">%d</xliff:g> category turned off</item>
+        <item quantity="other"><xliff:g example="10" id="count">%d</xliff:g> categories turned off</item>
     </plurals>
 
     <!-- Permissions preference summary [CHAR LIMIT=40] -->
     <plurals name="permissions_summary">
-        <item quantity="one"><xliff:g id="count" example="1">%d</xliff:g> permission granted</item>
-        <item quantity="other"><xliff:g id="count" example="10">%d</xliff:g> permissions granted</item>
+        <item quantity="one"><xliff:g example="1" id="count">%d</xliff:g> permission granted</item>
+        <item quantity="other"><xliff:g example="10" id="count">%d</xliff:g> permissions granted</item>
     </plurals>
 
     <!-- Runtime permissions preference summary [CHAR LIMIT=40] -->
     <plurals name="runtime_permissions_summary">
-        <item quantity="one"><xliff:g id="count" example="1">%d</xliff:g> of <xliff:g id="count" example="1">%d</xliff:g> permission granted</item>
-        <item quantity="other"><xliff:g id="count" example="10">%d</xliff:g> of <xliff:g id="count" example="10">%d</xliff:g> permissions granted</item>
+        <item quantity="one"><xliff:g example="1" id="count">%d</xliff:g> of <xliff:g example="1" id="count">%d</xliff:g> permission granted</item>
+        <item quantity="other"><xliff:g example="10" id="count">%d</xliff:g> of <xliff:g example="10" id="count">%d</xliff:g> permissions granted</item>
     </plurals>
 
     <!-- Runtime permissions preference summary.  Number of additional permissions granted. [CHAR LIMIT=40] -->
     <plurals name="runtime_permissions_additional_count">
-        <item quantity="one"><xliff:g id="count" example="1">%d</xliff:g> additional permission</item>
-        <item quantity="other"><xliff:g id="count" example="10">%d</xliff:g> additional permissions</item>
+        <item quantity="one"><xliff:g example="1" id="count">%d</xliff:g> additional permission</item>
+        <item quantity="other"><xliff:g example="10" id="count">%d</xliff:g> additional permissions</item>
     </plurals>
 
     <!-- Runtime permissions preference summary, shown when the app has no permissions granted. [CHAR LIMIT=40] -->
@@ -8346,7 +8372,7 @@
     <!-- Label for list that shows all permissions -->
     <string name="app_permissions">App permissions</string>
     <!-- Summary of permissions currently granted to apps [CHAR LIMIT=60] -->
-    <string name="app_permissions_summary">Apps using <xliff:g id="apps" example="location">%1$s</xliff:g></string>
+    <string name="app_permissions_summary">Apps using <xliff:g example="location" id="apps">%1$s</xliff:g></string>
 
     <!-- Label for tap to wake setting [CHAR LIMIT=30] -->
     <string name="tap_to_wake">Tap to wake</string>
@@ -8361,10 +8387,10 @@
     <string name="domain_urls_summary_none">Don\u2019t open supported links</string>
 
     <!-- Summary of an app that can open URLs for exactly one domain [CHAR LIMIT=45] -->
-    <string name="domain_urls_summary_one">Open <xliff:g id="domain" example="mail.google.com">%s</xliff:g></string>
+    <string name="domain_urls_summary_one">Open <xliff:g example="mail.google.com" id="domain">%s</xliff:g></string>
 
     <!-- Summary of an app that can open several domain's URLs [CHAR LIMIT=45] -->
-    <string name="domain_urls_summary_some">Open <xliff:g id="domain" example="mail.google.com">%s</xliff:g> and other URLs</string>
+    <string name="domain_urls_summary_some">Open <xliff:g example="mail.google.com" id="domain">%s</xliff:g> and other URLs</string>
 
     <!-- Summary of open web links settings when no app can open supported links [CHAR LIMIT=NONE] -->
     <string name="domain_urls_apps_summary_off">No app opening supported links</string>
@@ -8372,7 +8398,7 @@
     <!-- Summary of open web links settings when at least one app can open supported links [CHAR LIMIT=NONE] -->
     <plurals name="domain_urls_apps_summary_on">
         <item quantity="one">One app opening supported links</item>
-        <item quantity="other"><xliff:g id="count" example="10">%d</xliff:g> apps opening supported links</item>
+        <item quantity="other"><xliff:g example="10" id="count">%d</xliff:g> apps opening supported links</item>
     </plurals>
 
     <!-- Explanation that the app that will ALWAYS be launched to open web links to domains that it understands -->
@@ -8462,13 +8488,13 @@
     <string name="memory_details_title">Memory details</string>
 
     <!-- Description of app always running [CHAR LIMIT=45] -->
-    <string name="always_running">Always running (<xliff:g id="percentage" example="5%">%s</xliff:g>)</string>
+    <string name="always_running">Always running (<xliff:g example="5%" id="percentage">%s</xliff:g>)</string>
 
     <!-- Description of app sometimes running [CHAR LIMIT=45] -->
-    <string name="sometimes_running">Sometimes running (<xliff:g id="percentage" example="5%">%s</xliff:g>)</string>
+    <string name="sometimes_running">Sometimes running (<xliff:g example="5%" id="percentage">%s</xliff:g>)</string>
 
     <!-- Description of app rarely running [CHAR LIMIT=45] -->
-    <string name="rarely_running">Rarely running (<xliff:g id="percentage" example="5%">%s</xliff:g>)</string>
+    <string name="rarely_running">Rarely running (<xliff:g example="5%" id="percentage">%s</xliff:g>)</string>
 
     <!-- Maximum memory usage key [CHAR LIMIT=25] -->
     <string name="memory_max_use">Maximum</string>
@@ -8477,16 +8503,16 @@
     <string name="memory_avg_use">Average</string>
 
     <!-- Maximum memory used by an app [CHAR LIMIT=25] -->
-    <string name="memory_max_desc">Maximum <xliff:g id="memory" example="30MB">%1$s</xliff:g></string>
+    <string name="memory_max_desc">Maximum <xliff:g example="30MB" id="memory">%1$s</xliff:g></string>
 
     <!-- Average memory used by an app [CHAR LIMIT=25] -->
-    <string name="memory_avg_desc">Average <xliff:g id="memory" example="30MB">%1$s</xliff:g></string>
+    <string name="memory_avg_desc">Average <xliff:g example="30MB" id="memory">%1$s</xliff:g></string>
 
     <!-- Formatting for memory description [CHAR LIMIT=25] -->
-    <string name="memory_use_running_format"><xliff:g id="memory" example="30MB">%1$s</xliff:g> / <xliff:g id="running" example="Always running">%2$s</xliff:g></string>
+    <string name="memory_use_running_format"><xliff:g example="30MB" id="memory">%1$s</xliff:g> / <xliff:g example="Always running" id="running">%2$s</xliff:g></string>
 
     <!-- Label for process [CHAR LIMIT=25] -->
-    <string name="process_format"><xliff:g id="app_name" example="Settings">%1$s</xliff:g> (<xliff:g id="count" example="3">%2$d</xliff:g>)</string>
+    <string name="process_format"><xliff:g example="Settings" id="app_name">%1$s</xliff:g> (<xliff:g example="3" id="count">%2$d</xliff:g>)</string>
 
     <!-- Label for list to control apps that ignore battery saving restrictions [CHAR LIMIT=27]-->
     <string name="high_power_apps">Battery optimization</string>
@@ -8535,10 +8561,10 @@
 
     <!-- Body text of prompt dialog app can invoke to turn off optimization [CHAR LIMIT=NONE] -->
     <string name="high_power_prompt_body">
-        Allowing <xliff:g id="app_name" example="Settings">%1$s</xliff:g> to always run in the background may reduce battery life.
+        Allowing <xliff:g example="Settings" id="app_name">%1$s</xliff:g> to always run in the background may reduce battery life.
         \n\nYou can change this later from Settings > Apps &amp; notifications.</string>
     <!-- Summary of power usage for an app [CHAR LIMIT=NONE] -->
-    <string name="battery_summary"><xliff:g id="percentage" example="2">%1$s</xliff:g> use since last full charge</string>
+    <string name="battery_summary"><xliff:g example="2" id="percentage">%1$s</xliff:g> use since last full charge</string>
 
     <!-- Title of a group of settings that let you manage settings that affect battery life [CHAR LIMIT=60] -->
     <string name="battery_power_management">Power management</string>
@@ -8556,7 +8582,7 @@
     <string name="additional_permissions">Additional permissions</string>
 
     <!-- Description of how many more permissions to view on next page [CHAR LIMIT=30] -->
-    <string name="additional_permissions_more"><xliff:g id="count" example="2">%1$d</xliff:g> more</string>
+    <string name="additional_permissions_more"><xliff:g example="2" id="count">%1$d</xliff:g> more</string>
 
     <!-- Title of dialog shown to ask for user consent for sharing a bugreport that was requested remotely by the IT administrator. -->
     <string name="share_remote_bugreport_dialog_title">Share bug report?</string>
@@ -8709,7 +8735,7 @@
     <string name="memory_details">Details</string>
 
     <!-- Summary for how much memory an app has used [CHAR LIMIT=NONE] -->
-    <string name="memory_use_summary"><xliff:g id="size" example="30MB">%1$s</xliff:g> avg memory used in last 3 hours</string>
+    <string name="memory_use_summary"><xliff:g example="30MB" id="size">%1$s</xliff:g> avg memory used in last 3 hours</string>
 
     <!-- Summary for no memory use for an app [CHAR LIMIT=NONE] -->
     <string name="no_memory_use_summary">No memory used in last 3 hours</string>
@@ -8737,8 +8763,8 @@
 
     <!-- Description of number of apps using memory [CHAR LIMIT=NONE] -->
     <plurals name="memory_usage_apps_summary">
-        <item quantity="one">1 app used memory in the last <xliff:g id="duration" example="3 hours">%2$s</xliff:g></item>
-        <item quantity="other"><xliff:g id="count" example="10">%1$d</xliff:g> apps used memory in the last <xliff:g id="duration" example="3 hours">%2$s</xliff:g></item>
+        <item quantity="one">1 app used memory in the last <xliff:g example="3 hours" id="duration">%2$s</xliff:g></item>
+        <item quantity="other"><xliff:g example="10" id="count">%1$d</xliff:g> apps used memory in the last <xliff:g example="3 hours" id="duration">%2$s</xliff:g></item>
     </plurals>
 
     <!-- Label for frequency that the app is runnig (e.g. always, sometimes, etc.) [CHAR LIMIT=25] -->
@@ -8751,7 +8777,7 @@
     <string name="no_data_usage">No data used</string>
 
     <!-- Zen mode access settings - title for warning dialog when enabling access [CHAR LIMIT=NONE] -->
-    <string name="zen_access_warning_dialog_title">Allow access to Do Not Disturb for <xliff:g id="app" example="Tasker">%1$s</xliff:g>?</string>
+    <string name="zen_access_warning_dialog_title">Allow access to Do Not Disturb for <xliff:g example="Tasker" id="app">%1$s</xliff:g>?</string>
 
     <!-- Zen mode access settings - summary for warning dialog when enabling access [CHAR LIMIT=NONE] -->
     <string name="zen_access_warning_dialog_summary">The app will be able to turn on/off Do Not Disturb and make changes to related settings.</string>
@@ -8759,7 +8785,7 @@
     <string name="zen_access_disabled_package_warning">Must stay turned on because notification access is on</string>
 
     <!-- Zen mode access settings - title for warning dialog when revoking access [CHAR LIMIT=NONE] -->
-    <string name="zen_access_revoke_warning_dialog_title">Revoke access to Do Not Disturb for <xliff:g id="app" example="Tasker">%1$s</xliff:g>?</string>
+    <string name="zen_access_revoke_warning_dialog_title">Revoke access to Do Not Disturb for <xliff:g example="Tasker" id="app">%1$s</xliff:g>?</string>
 
     <!-- Zen mode access settings - summary for warning dialog when revoking access [CHAR LIMIT=NONE] -->
     <string name="zen_access_revoke_warning_dialog_summary">All Do Not Disturb rules created by this app will be removed.</string>
@@ -8777,7 +8803,7 @@
     <string name="ignore_optimizations_off_desc">Recommended for better battery life</string>
 
     <!-- Ignore battery optimizations dialog title [CHAR LIMIT=NONE] -->
-    <string name="ignore_optimizations_title">Allow <xliff:g id="app" example="Tasker">%s</xliff:g> to ignore battery optimizations?</string>
+    <string name="ignore_optimizations_title">Allow <xliff:g example="Tasker" id="app">%s</xliff:g> to ignore battery optimizations?</string>
 
     <!-- Label for None item in AppListPreference [CHAR LIMIT=40] -->
     <string name="app_list_preference_none">None</string>
@@ -8787,7 +8813,7 @@
         prevent your admin from tracking data usage for apps in your work profile</string>
 
     <!-- Number of characters used for lock screen text [CHAR LIMIT=NONE] -->
-    <string name="accessibility_lock_screen_progress"><xliff:g id="count" example="1">%1$d</xliff:g> of <xliff:g id="count" example="1">%2$d</xliff:g> characters used</string>
+    <string name="accessibility_lock_screen_progress"><xliff:g example="1" id="count">%1$d</xliff:g> of <xliff:g example="1" id="count">%2$d</xliff:g> characters used</string>
 
     <!-- System Alert Window settings -->
     <!-- Title of display overlay screen [CHAR LIMIT=30] -->
@@ -8811,7 +8837,7 @@
     <string name="overlay_settings">Display over other apps</string>
 
     <!-- Summary of number of apps currently can display over other apps [CHAR LIMIT=60] -->
-    <string name="system_alert_window_summary"><xliff:g id="count" example="10">%1$d</xliff:g> of <xliff:g id="count" example="10">%2$d</xliff:g> apps allowed to display over other apps</string>
+    <string name="system_alert_window_summary"><xliff:g example="10" id="count">%1$d</xliff:g> of <xliff:g example="10" id="count">%2$d</xliff:g> apps allowed to display over other apps</string>
 
     <!-- Label for showing apps that can display over other apps [CHAR LIMIT=45] -->
     <string name="filter_overlay_apps">Apps with permission</string>
@@ -8831,7 +8857,7 @@
     <!-- Keyword for WRITE_SETTINGS -->
     <string name="keywords_write_settings">write modify system settings</string>
     <!-- Summary of number of apps currently can write system settings [CHAR LIMIT=60] -->
-    <string name="write_settings_summary"><xliff:g id="count" example="10">%1$d</xliff:g> of <xliff:g id="count" example="10">%2$d</xliff:g> apps allowed to modify system settings</string>
+    <string name="write_settings_summary"><xliff:g example="10" id="count">%1$d</xliff:g> of <xliff:g example="10" id="count">%2$d</xliff:g> apps allowed to modify system settings</string>
 
     <!-- Label for showing apps that can install other apps [CHAR LIMIT=45] -->
     <string name="filter_install_sources_apps">Can install other apps</string>
@@ -8904,46 +8930,46 @@
     <string name="disconnected">Not connected</string>
 
     <!-- Summary of data usage [CHAR LIMIT=NONE] -->
-    <string name="data_usage_summary_format"><xliff:g id="amount" example="50%">%1$s</xliff:g> of data used</string>
+    <string name="data_usage_summary_format"><xliff:g example="50%" id="amount">%1$s</xliff:g> of data used</string>
 
     <!-- Summary of data usage [CHAR LIMIT=NONE] -->
-    <string name="data_usage_wifi_format"><xliff:g id="amount" example="50%">^1</xliff:g> used on Wi\u2011Fi</string>
+    <string name="data_usage_wifi_format"><xliff:g example="50%" id="amount">^1</xliff:g> used on Wi\u2011Fi</string>
 
     <!-- Summary of notifications [CHAR LIMIT=NONE] -->
     <plurals name="notification_summary">
         <item quantity="one">Off for 1 app</item>
-        <item quantity="other">Off for <xliff:g id="count" example="10">%d</xliff:g> apps</item>
+        <item quantity="other">Off for <xliff:g example="10" id="count">%d</xliff:g> apps</item>
     </plurals>
 
     <!-- Summary of notifications when no apps are blocked [CHAR LIMIT=NONE] -->
     <string name="notification_summary_none">On for all apps</string>
 
     <!-- Summary of apps [CHAR LIMIT=NONE] -->
-    <string name="apps_summary"><xliff:g id="count" example="24">%1$d</xliff:g> apps installed</string>
+    <string name="apps_summary"><xliff:g example="24" id="count">%1$d</xliff:g> apps installed</string>
     <!-- Example summary of apps used in Setup Wizard preview screen [CHAR LIMIT=NONE] -->
     <string name="apps_summary_example">24 apps installed</string>
 
     <!-- Summary of storage usage [CHAR LIMIT=NONE] -->
-    <string name="storage_summary"><xliff:g id="percentage" example="54%">%1$s</xliff:g> used - <xliff:g id="free_space" example="32GB">%2$s</xliff:g> free</string>
+    <string name="storage_summary"><xliff:g example="54%" id="percentage">%1$s</xliff:g> used - <xliff:g example="32GB" id="free_space">%2$s</xliff:g> free</string>
 
     <!-- Summary of storage usage when there is SD card [CHAR LIMIT=NONE] -->
-    <string name="storage_summary_with_sdcard">Internal storage: <xliff:g id="percentage" example="54%">%1$s</xliff:g> used - <xliff:g id="free_space" example="32GB">%2$s</xliff:g> free</string>
+    <string name="storage_summary_with_sdcard">Internal storage: <xliff:g example="54%" id="percentage">%1$s</xliff:g> used - <xliff:g example="32GB" id="free_space">%2$s</xliff:g> free</string>
 
     <!-- Summary of display with screen sleep timeout [CHAR LIMIT=NONE] -->
-    <string name="display_summary">Sleep after <xliff:g id="timeout_description" example="10 minutes">%1$s</xliff:g> of inactivity</string>
+    <string name="display_summary">Sleep after <xliff:g example="10 minutes" id="timeout_description">%1$s</xliff:g> of inactivity</string>
     <!-- Summary for Display settings, explaining a few important settings under it [CHAR LIMIT=NONE]-->
     <string name="display_dashboard_summary">Wallpaper, sleep, font size</string>
     <!-- Example summary of display used in Setup Wizard preview screen [CHAR LIMIT=NONE] -->
     <string name="display_summary_example">Sleep after 10 minutes of inactivity</string>
 
     <!-- Summary of memory screen [CHAR LIMIT=NONE] -->
-    <string name="memory_summary">Avg <xliff:g id="used_memory" example="1.7GB">%1$s</xliff:g> of <xliff:g id="total_memory" example="2GB">%2$s</xliff:g> memory used</string>
+    <string name="memory_summary">Avg <xliff:g example="1.7GB" id="used_memory">%1$s</xliff:g> of <xliff:g example="2GB" id="total_memory">%2$s</xliff:g> memory used</string>
 
     <!-- Summary of User settings [CHAR LIMIT=NONE] -->
-    <string name="users_summary">Signed in as <xliff:g id="user_name" example="Jason">%1$s</xliff:g></string>
+    <string name="users_summary">Signed in as <xliff:g example="Jason" id="user_name">%1$s</xliff:g></string>
 
     <!-- Summary of payment screen [CHAR LIMIT=NONE] -->
-    <string name="payment_summary"><xliff:g id="app_name" example="Payment App">%1$s</xliff:g> is default</string>
+    <string name="payment_summary"><xliff:g example="Payment App" id="app_name">%1$s</xliff:g> is default</string>
 
     <!-- Summary of location on screen [CHAR LIMIT=NONE] -->
     <string name="location_on_summary">On</string>
@@ -8955,7 +8981,7 @@
     <string name="backup_disabled">Back up disabled</string>
 
     <!-- Summary of Android version info [CHAR LIMIT=NONE] -->
-    <string name="android_version_summary">Updated to Android <xliff:g id="version" example="6.0">%1$s</xliff:g></string>
+    <string name="android_version_summary">Updated to Android <xliff:g example="6.0" id="version">%1$s</xliff:g></string>
     <!-- Summary of Android version info (when there is a pending upgrade available) [CHAR LIMIT=NONE] -->
     <string name="android_version_pending_update_summary">Update available</string>
 
@@ -9097,13 +9123,13 @@
     <!-- Title for the collapsed suggestions section on the dashboard, representing number of suggestions. [CHAR LIMIT=30] -->
     <plurals name="suggestions_collapsed_title">
         <item quantity="one">1 suggestion</item>
-        <item quantity="other"><xliff:g id="count" example="10">%1$d</xliff:g> suggestions</item>
+        <item quantity="other"><xliff:g example="10" id="count">%1$d</xliff:g> suggestions</item>
     </plurals>
 
     <!-- Summary for the collapsed suggestions section on the dashboard, representing number of suggestions. [CHAR LIMIT=30] -->
     <plurals name="suggestions_collapsed_summary">
         <item quantity="one">+1 suggestion</item>
-        <item quantity="other">+<xliff:g id="count" example="10">%1$d</xliff:g> suggestions</item>
+        <item quantity="other">+<xliff:g example="10" id="count">%1$d</xliff:g> suggestions</item>
     </plurals>
 
     <!-- Name of option to remove a suggestion from the list [CHAR LIMIT=30] -->
@@ -9149,13 +9175,13 @@
     <string name="ethernet">Ethernet</string>
 
     <!-- Format string for amount of cellular data used [CHAR LIMIT=30] -->
-    <string name="cell_data_template"><xliff:g id="amount" example="1 GB">^1</xliff:g> mobile data</string>
+    <string name="cell_data_template"><xliff:g example="1 GB" id="amount">^1</xliff:g> mobile data</string>
 
     <!-- Format string for amount of wifi data used [CHAR LIMIT=30] -->
-    <string name="wifi_data_template"><xliff:g id="amount" example="1 GB">^1</xliff:g> Wi-Fi data</string>
+    <string name="wifi_data_template"><xliff:g example="1 GB" id="amount">^1</xliff:g> Wi-Fi data</string>
 
     <!-- Format string for amount of ethernet data used [CHAR LIMIT=30] -->
-    <string name="ethernet_data_template"><xliff:g id="amount" example="1 GB">^1</xliff:g> ethernet data</string>
+    <string name="ethernet_data_template"><xliff:g example="1 GB" id="amount">^1</xliff:g> ethernet data</string>
 
     <!-- Format for a summary describing the amount of data before the user is warned [CHAR LIMIT=NONE] -->
     <string name="cell_warning_only"><xliff:g name="amount" example="1 GB">%1$s</xliff:g> Data warning</string>
@@ -9187,7 +9213,7 @@
     <!-- Summary showing how many networks restrictions [CHAR LIMIT=NONE] -->
     <plurals name="network_restrictions_summary">
         <item quantity="one">1 restriction</item>
-        <item quantity="other"><xliff:g id="count" example="10">%1$d</xliff:g> restrictions</item>
+        <item quantity="other"><xliff:g example="10" id="count">%1$d</xliff:g> restrictions</item>
     </plurals>
 
     <!-- A summary shown on data usage screens to indicate inaccuracy of data tracking [CHAR LIMIT=NONE] -->
@@ -9224,7 +9250,7 @@
     <!-- Description of number of apps allowed to ignore Data Saver [CHAR LIMIT=NONE] -->
     <plurals name="data_saver_unrestricted_summary">
         <item quantity="one">1 app allowed to use unrestricted data when Data Saver is on</item>
-        <item quantity="other"><xliff:g id="count" example="10">%1$d</xliff:g> apps allowed to use unrestricted data when Data Saver is on</item>
+        <item quantity="other"><xliff:g example="10" id="count">%1$d</xliff:g> apps allowed to use unrestricted data when Data Saver is on</item>
     </plurals>
 
     <!-- Data usage title text [CHAR LIMIT=30] -->
@@ -9327,7 +9353,7 @@
     <string name="battery_saver_on_summary">On</string>
 
     <!-- Summary of battery saver when it is off and scheduled [CHAR LIMIT=NONE] -->
-    <string name="battery_saver_off_scheduled_summary">Will turn on at <xliff:g id="battery_percentage" example="15%">%1$s</xliff:g></string>
+    <string name="battery_saver_off_scheduled_summary">Will turn on at <xliff:g example="15%" id="battery_percentage">%1$s</xliff:g></string>
 
     <!-- Summary of battery saver when it is off and scheduled [CHAR LIMIT=NONE] -->
     <string name="battery_saver_off_summary">Off</string>
@@ -9435,7 +9461,7 @@
     <!-- Summary for special access settings [CHAR_LIMIT=NONE] -->
     <plurals name="special_access_summary">
         <item quantity="one">1 app can use unrestricted data</item>
-        <item quantity="other"><xliff:g id="count" example="10">%d</xliff:g> apps can use unrestricted data</item>
+        <item quantity="other"><xliff:g example="10" id="count">%d</xliff:g> apps can use unrestricted data</item>
     </plurals>
 
     <!-- Developer option to convert to file encryption - final warning -->
@@ -9501,7 +9527,7 @@
     <string name="winscope_trace_quick_settings_title">Winscope Trace</string>
 
     <!-- Template for formatting country and language. eg Canada - French [CHAR LIMIT=NONE]-->
-    <string name="support_country_format"><xliff:g id="country" example="Canada">%1$s</xliff:g> - <xliff:g id="language" example="French">%2$s</xliff:g></string>
+    <string name="support_country_format"><xliff:g example="Canada" id="country">%1$s</xliff:g> - <xliff:g example="French" id="language">%2$s</xliff:g></string>
 
     <!-- [CHAR LIMIT=60] Title of work profile setting page -->
     <string name="managed_profile_settings_title">Work profile settings</string>
@@ -9513,19 +9539,19 @@
     <!-- Time in hours -->
     <plurals name="hours">
         <item quantity="one">1 hour</item>
-        <item quantity="other"><xliff:g id="number" example="7">%s</xliff:g> hours</item>
+        <item quantity="other"><xliff:g example="7" id="number">%s</xliff:g> hours</item>
     </plurals>
 
     <!-- Time in minutes -->
     <plurals name="minutes">
         <item quantity="one">1 minute</item>
-        <item quantity="other"><xliff:g id="number" example="7">%s</xliff:g> minutes</item>
+        <item quantity="other"><xliff:g example="7" id="number">%s</xliff:g> minutes</item>
     </plurals>
 
     <!-- Time in seconds -->
     <plurals name="seconds">
         <item quantity="one">1 second</item>
-        <item quantity="other"><xliff:g id="number" example="7">%s</xliff:g> seconds</item>
+        <item quantity="other"><xliff:g example="7" id="number">%s</xliff:g> seconds</item>
     </plurals>
 
     <!-- Used as title on the automatic storage manager settings. [CHAR LIMIT=60] -->
@@ -9645,7 +9671,7 @@
     <string name="oem_unlock_enable_disabled_summary_sim_locked_device">Unavailable on carrier-locked devices</string>
     <!-- Information displayed after user locks OEM lock [Char Limit=None]-->
     <string name="oem_lock_info_message">Please restart the device to enable device protection feature.</string>
-    <string name="automatic_storage_manager_freed_bytes"><xliff:g id="size" example="3.25MB">%1$s</xliff:g> total made available\n\nLast ran on <xliff:g id="date" example="Jan 12">%2$s</xliff:g></string>
+    <string name="automatic_storage_manager_freed_bytes"><xliff:g example="3.25MB" id="size">%1$s</xliff:g> total made available\n\nLast ran on <xliff:g example="Jan 12" id="date">%2$s</xliff:g></string>
 
     <!-- Title text for enabling web actions. [CHAR_LIMIT=60] -->
     <string name="web_action_enable_title">Instant apps</string>
@@ -9666,7 +9692,7 @@
     <string name="automatic_storage_manager_activation_warning">Your storage is now being managed by the storage manager</string>
 
     <!-- Accounts for section header [CHAR LIMIT=30] -->
-    <string name="account_for_section_header">Accounts for <xliff:g id="user_name" example="Jason">%1$s</xliff:g></string>
+    <string name="account_for_section_header">Accounts for <xliff:g example="Jason" id="user_name">%1$s</xliff:g></string>
 
     <!-- Configure section header [CHAR LIMIT=30] -->
     <string name="configure_section_header">Configure</string>
@@ -9688,14 +9714,15 @@
     <!-- Preference summary for account sync when syncing is off for everything [CHAR LIMIT=NONE] -->
     <string name="account_sync_summary_all_off">Sync off for all items</string>
 
-    <!-- Enterprise Privacy --> <skip />
+    <!-- Enterprise Privacy -->
+    <skip />
 
     <!-- Title of setting on security settings screen. This will take the user to a screen with information about admin powers and their impact on the user's privacy on a managed device. Shown on enterprise-managed devices only. Note: "Device" is singular and refers to the device (e.g. phone or tablet) that the user is holding in their hand. -->
     <string name="enterprise_privacy_settings">Managed device info</string>
     <!-- Summary for Enterprise Privacy settings, explaining what the user can expect to find under it [CHAR LIMIT=NONE]-->
     <string name="enterprise_privacy_settings_summary_generic">Changes &amp; settings managed by your organization</string>
     <!-- Summary for Enterprise Privacy settings, explaining what the user can expect to find under it [CHAR LIMIT=NONE]-->
-    <string name="enterprise_privacy_settings_summary_with_name">Changes &amp; settings managed by <xliff:g id="organization_name" example="Foo, Inc.">%s</xliff:g></string>
+    <string name="enterprise_privacy_settings_summary_with_name">Changes &amp; settings managed by <xliff:g example="Foo, Inc." id="organization_name">%s</xliff:g></string>
     <!-- Enterprise Privacy settings activity header, summarizing the powers that the admin has. [CHAR LIMIT=NONE] -->
     <string name="enterprise_privacy_header">To provide access to your work data, your organization may change settings and install software on your device.\n\nFor more details, contact your organization\'s admin.</string>
     <!-- Title for the 'Types of information your organization can see' preference category. [CHAR LIMIT=60] -->
@@ -9743,7 +9770,7 @@
     <!-- Label explaining that the current input method was set by the admin. [CHAR LIMIT=NONE] -->
     <string name="enterprise_privacy_input_method">Default keyboard</string>
     <!-- Summary indicating the input method set by the admin. [CHAR LIMIT=NONE] -->
-    <string name="enterprise_privacy_input_method_name">Set to <xliff:g id="app_label" example="Example Keyboard">%s</xliff:g></string>
+    <string name="enterprise_privacy_input_method_name">Set to <xliff:g example="Example Keyboard" id="app_label">%s</xliff:g></string>
     <!-- Label explaining that an always-on VPN was set by the admin for the entire device. [CHAR LIMIT=NONE] -->
     <string name="enterprise_privacy_always_on_vpn_device">Always-on VPN turned on</string>
     <!-- Label explaining that an always-on VPN was set by the admin in the personal profile. [CHAR LIMIT=NONE] -->
@@ -9781,7 +9808,7 @@
     <!-- Message indicating that the device is enterprise-managed by a Device Owner [CHAR LIMIT=NONE] -->
     <string name="do_disclosure_generic">This device is managed by your organization.</string>
     <!-- Message indicating that the device is enterprise-managed by a Device Owner [CHAR LIMIT=NONE] -->
-    <string name="do_disclosure_with_name">This device is managed by <xliff:g id="organization_name" example="Foo, Inc.">%s</xliff:g>.</string>
+    <string name="do_disclosure_with_name">This device is managed by <xliff:g example="Foo, Inc." id="organization_name">%s</xliff:g>.</string>
     <!-- Message indicating that the device is enterprise-managed: Space that separates the main text and the "learn more" link that follows it. [CHAR LIMIT=NONE] -->
     <string name="do_disclosure_learn_more_separator">" "</string>
     <!-- Button label to allow the user to view additional information [CHAR LIMIT=NONE BACKUP_MESSAGE_ID=2416766240581561009] -->
@@ -9830,9 +9857,9 @@
     <string name="storage_files">Files</string>
 
     <!-- Summary of a single storage volume used space. [CHAR LIMIT=24] -->
-    <string name="storage_size_large_alternate"><xliff:g id="number" example="128">^1</xliff:g><small> <font size="20"><xliff:g id="unit" example="KB">^2</xliff:g></font></small></string>
+    <string name="storage_size_large_alternate"><xliff:g example="128" id="number">^1</xliff:g><small> <font size="20"><xliff:g example="KB" id="unit">^2</xliff:g></font></small></string>
     <!-- Summary of a single storage volume total space. [CHAR LIMIT=48]-->
-    <string name="storage_volume_total">Used of <xliff:g id="total" example="32GB">%1$s</xliff:g></string>
+    <string name="storage_volume_total">Used of <xliff:g example="32GB" id="total">%1$s</xliff:g></string>
     <!-- Follows the percent of storage used by a storage volume. Exposed inside of a donut graph. [CHAR LIMIT=7]-->
     <string name="storage_percent_full">used</string>
 
@@ -9855,9 +9882,9 @@
     <string name="app_info_storage_title">Space used</string>
 
     <!-- UI webview setting: WebView uninstalled-for-user explanatory text [CHAR LIMIT=30] -->
-    <string name="webview_uninstalled_for_user">(uninstalled for user <xliff:g id="user" example="John Doe">%s</xliff:g>)</string>
+    <string name="webview_uninstalled_for_user">(uninstalled for user <xliff:g example="John Doe" id="user">%s</xliff:g>)</string>
     <!-- UI webview setting: WebView disabled-for-user explanatory text [CHAR LIMIT=30] -->
-    <string name="webview_disabled_for_user">(disabled for user <xliff:g id="user" example="John Doe">%s</xliff:g>)</string>
+    <string name="webview_disabled_for_user">(disabled for user <xliff:g example="John Doe" id="user">%s</xliff:g>)</string>
 
     <!-- AutoFill strings -->
     <!-- Preference label for choosing auto-fill service. [CHAR LIMIT=60] -->
@@ -9898,7 +9925,7 @@
     <string name="show_operator_name_summary">Display network name in status bar</string>
 
     <!-- Indicates if the automatic storage manager is enabled or not. [CHAR_LIMIT=40] -->
-    <string name="storage_manager_indicator">Storage Manager: <xliff:g id="status" example="on">^1</xliff:g></string>
+    <string name="storage_manager_indicator">Storage Manager: <xliff:g example="on" id="status">^1</xliff:g></string>
 
     <!-- Off status for the automatic storage manager. [CHAR_LIMIT=10] -->
     <string name="storage_manager_indicator_off">Off</string>
@@ -9976,7 +10003,7 @@
 
     <!-- String used to describe the name of a directory in a volume; it must
          show both names, with the directory name wrapped in parenthesis -->
-    <string name="directory_on_volume"><xliff:g id="volume" example="SD Card">%1$s</xliff:g> (<xliff:g id="directory" example="Movies">%2$s</xliff:g>)</string>
+    <string name="directory_on_volume"><xliff:g example="SD Card" id="volume">%1$s</xliff:g> (<xliff:g example="Movies" id="directory">%2$s</xliff:g>)</string>
 
     <!-- Slices Strings -->
 
@@ -10054,11 +10081,11 @@
     <string name="take_call_on_title">Take call on</string>
 
     <!--  Title for battery Suggestion. (tablet) [CHAR LIMIT=46] -->
-    <string name="battery_suggestion_title" product="tablet" >Improve tablet\'s battery life</string>
+    <string name="battery_suggestion_title" product="tablet">Improve tablet\'s battery life</string>
     <!--  Title for battery Suggestion. (device) [CHAR LIMIT=46] -->
-    <string name="battery_suggestion_title" product="device" >Improve device\'s battery life</string>
+    <string name="battery_suggestion_title" product="device">Improve device\'s battery life</string>
     <!--  Title for battery Suggestion. (phone) [CHAR LIMIT=46] -->
-    <string name="battery_suggestion_title" product="default" >Improve phone\'s battery life</string>
+    <string name="battery_suggestion_title" product="default">Improve phone\'s battery life</string>
     <!--  Summary for battery Suggestion. [CHAR LIMIT=55] -->
     <string name="battery_suggestion_summary"></string>
 
