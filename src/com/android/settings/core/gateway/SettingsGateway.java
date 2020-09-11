@@ -147,6 +147,7 @@ public class SettingsGateway {
      * security exception if the fragment it needs to display is not in this list.
      */
     public static final String[] ENTRY_FRAGMENTS = {
+            OpenKeychainSettings.class.getName(),
             AdvancedConnectedDeviceDashboardFragment.class.getName(),
             WifiSettings.class.getName(),
             ConfigureWifiSettings.class.getName(),
@@ -266,7 +267,7 @@ public class SettingsGateway {
             ToggleBackupSettingFragment.class.getName(),
             PreviouslyConnectedDeviceDashboardFragment.class.getName(),
             MicroGSettings.class.getName(),
-            OpenKeychainSettings.class.getName(),
+
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
