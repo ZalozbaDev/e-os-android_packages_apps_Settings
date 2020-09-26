@@ -25,6 +25,7 @@ import com.android.settings.MicroGSettings;
 import com.android.settings.OpenKeychainSettings;
 import com.android.settings.PrivacySettings;
 import com.android.settings.Settings;
+import com.android.settings.SystemUpdaterSettings;
 import com.android.settings.TestingSettings;
 import com.android.settings.TetherSettings;
 import com.android.settings.TrustedCredentialsSettings;
@@ -147,6 +148,7 @@ public class SettingsGateway {
      * security exception if the fragment it needs to display is not in this list.
      */
     public static final String[] ENTRY_FRAGMENTS = {
+            SystemUpdaterSettings.class.getName(),
             AdvancedConnectedDeviceDashboardFragment.class.getName(),
             WifiSettings.class.getName(),
             ConfigureWifiSettings.class.getName(),
@@ -271,6 +273,7 @@ public class SettingsGateway {
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
             // Home page
+            Settings.SystemUpdaterActivity.class.getName(),
             Settings.NetworkDashboardActivity.class.getName(),
             Settings.ConnectedDeviceDashboardActivity.class.getName(),
             Settings.AppAndNotificationDashboardActivity.class.getName(),
@@ -282,7 +285,7 @@ public class SettingsGateway {
             Settings.SecurityDashboardActivity.class.getName(),
             Settings.AccessibilitySettingsActivity.class.getName(),
             Settings.SystemDashboardActivity.class.getName(),
-	    // Settings.MicroGActivity.class.getName(),
+            // Settings.MicroGActivity.class.getName(),
             SupportDashboardActivity.class.getName(),
             // Home page > Network & Internet
             Settings.WifiSettingsActivity.class.getName(),
