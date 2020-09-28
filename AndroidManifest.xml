@@ -168,11 +168,8 @@
 
         <activity android:name="Settings$SystemUpdaterActivity"
             android:label="@string/system_update_settings_list_item_title"
+            android:parentActivityName="Settings"
             android:icon="@drawable/ic_system_update">
-            <intent-filter android:priority="1">
-                <action android:name="android.settings.SYSTEM_UPDATE_SETTINGS" />
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
             <intent-filter>
                 <action android:name="com.android.settings.action.SETTINGS" />
             </intent-filter>

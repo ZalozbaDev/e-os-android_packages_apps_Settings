@@ -29,6 +29,7 @@ public class Settings extends SettingsActivity {
     /*
     * Settings subclasses for launching independently.
     */
+    public static class SystemUpdaterActivity extends SettingsActivity { /* empty */ }
     public static class AssistGestureSettingsActivity extends SettingsActivity { /* empty */}
     public static class BluetoothSettingsActivity extends SettingsActivity { /* empty */ }
     public static class SimSettingsActivity extends SettingsActivity { /* empty */ }
@@ -168,7 +169,6 @@ public class Settings extends SettingsActivity {
     public static class AdvancedConnectedDeviceActivity extends SettingsActivity { /* empty */ }
 
     // Top level categories for new IA
-    public static class SystemUpdaterActivity extends SettingsActivity { /* empty */ }
     public static class NetworkDashboardActivity extends SettingsActivity {}
     public static class ConnectedDeviceDashboardActivity extends SettingsActivity {}
     public static class PowerUsageSummaryActivity extends SettingsActivity { /* empty */ }
