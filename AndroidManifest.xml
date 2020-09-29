@@ -170,7 +170,7 @@
             android:label="@string/system_update_settings_list_item_title"
             android:parentActivityName="Settings"
             android:icon="@drawable/ic_system_update">
-            <intent-filter>
+            <intent-filter android:priority="1">
                 <action android:name="com.android.settings.action.SETTINGS" />
             </intent-filter>
             <meta-data android:name="com.android.settings.category"
