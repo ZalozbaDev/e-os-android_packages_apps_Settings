@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto">
+
+    <Preference
+        android:icon="@drawable/ic_system_update"
+        android:key="system_update_settings"
+        android:order="-30"
+        android:summary="@string/summary_placeholder"
+        android:title="@string/system_update_settings_list_item_title"
+        settings:controller="com.android.settings.system.SystemUpdatePreferenceController"
+        settings:keywords="@string/keywords_system_update_settings">
+        <intent android:action="android.settings.SYSTEM_UPDATE_SETTINGS" />
+    </Preference>
+
+</PreferenceScreen>

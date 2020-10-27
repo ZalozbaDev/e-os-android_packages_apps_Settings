@@ -21,6 +21,18 @@
     android:key="top_level_settings">
 
     <Preference
+        android:key="top_level_update"
+        android:title="@string/system_update_settings_list_item_title"
+        android:summary="@string/system_update_summary"
+        android:icon="@drawable/ic_system_update"
+        android:order="-150"
+        android:fragment="com.android.settings.SystemUpdaterSettings"
+        settings:controller="com.android.settings.system.SystemUpdatePreferenceController"
+        settings:keywords="@string/keywords_system_update_settings">
+        <intent android:action="android.settings.SYSTEM_UPDATE_SETTINGS" />
+    </Preference>
+
+    <Preference
         android:key="top_level_network"
         android:title="@string/network_dashboard_title"
         android:summary="@string/summary_placeholder"
