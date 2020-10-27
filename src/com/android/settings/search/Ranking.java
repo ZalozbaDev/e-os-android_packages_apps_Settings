@@ -25,6 +25,7 @@ import com.android.settings.LegalSettings;
 import com.android.settings.PrivacySettings;
 import com.android.settings.ScreenPinningSettings;
 import com.android.settings.SecuritySettings;
+import com.android.settings.SystemUpdaterSettings;
 import com.android.settings.WallpaperTypeSettings;
 import com.android.settings.WirelessSettings;
 import com.android.settings.accessibility.AccessibilitySettings;
@@ -91,6 +92,7 @@ public final class Ranking {
     public static final int RANK_GESTURE = 24;
     public static final int RANK_MICROG = 25;
     public static final int RANK_OPENKEYCHAIN = 26;
+    public static final int RANK_UPDATER = 27;
 
     public static final int RANK_UNDEFINED = -1;
     public static final int RANK_OTHERS = 1024;
@@ -194,6 +196,9 @@ public final class Ranking {
 
         // OpenKeychain
         sRankMap.put(OpenKeychainSettings.class.getName(), RANK_OPENKEYCHAIN);
+
+        // System Update
+        sRankMap.put(SystemUpdaterSettings.class.getName(), RANK_UPDATER);
 
         sBaseRankMap.put("com.android.settings", 0);
     }
