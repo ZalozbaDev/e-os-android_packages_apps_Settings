@@ -266,7 +266,6 @@ public class SettingsGateway {
             DirectoryAccessDetails.class.getName(),
             ToggleBackupSettingFragment.class.getName(),
             PreviouslyConnectedDeviceDashboardFragment.class.getName(),
-            MicroGSettings.class.getName(),
             OpenKeychainSettings.class.getName(),
             SystemUpdaterSettings.class.getName(),
     };
@@ -284,7 +283,6 @@ public class SettingsGateway {
             Settings.SecurityDashboardActivity.class.getName(),
             Settings.AccessibilitySettingsActivity.class.getName(),
             Settings.SystemDashboardActivity.class.getName(),
-	    // Settings.MicroGActivity.class.getName(),
             SupportDashboardActivity.class.getName(),
             // Home page > Network & Internet
             Settings.WifiSettingsActivity.class.getName(),
