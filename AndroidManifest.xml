@@ -184,6 +184,22 @@
                 android:value="com.android.settings.shortcut.CreateShortcut" />
         </activity>
 
+
+        <!--System Updater-->
+        <activity android:name="Settings$SystemUpdaterActivity"
+            android:label="@string/system_update_settings_list_item_title"
+            android:icon="@drawable/ic_system_update">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.android.settings.SystemUpdaterSettings" />
+            <meta-data android:name="com.android.settings.PRIMARY_PROFILE_CONTROLLED"
+                android:value="true" />
+        </activity>
+
+
         <!-- Wireless Controls -->
         <activity
             android:name=".Settings$NetworkDashboardActivity"

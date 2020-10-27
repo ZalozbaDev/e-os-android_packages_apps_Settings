@@ -1,5 +1,7 @@
 /*
  * Copyright (C) 2016 The Android Open Source Project
+ * Copyright (C) 2019-2021 E FOUNDATION
+ * Copyright (C) 2019-2021 ECORP SAS
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -23,6 +25,7 @@ import com.android.settings.MasterClear;
 import com.android.settings.MicroGSettings;
 import com.android.settings.OpenKeychainSettings;
 import com.android.settings.Settings;
+import com.android.settings.SystemUpdaterSettings;
 import com.android.settings.TestingSettings;
 import com.android.settings.TetherSettings;
 import com.android.settings.TrustedCredentialsSettings;
@@ -309,7 +312,8 @@ public class SettingsGateway {
             GestureNavigationSettingsFragment.class.getName(),
             InteractAcrossProfilesSettings.class.getName(),
             InteractAcrossProfilesDetails.class.getName(),
-            MediaControlsSettings.class.getName()
+            MediaControlsSettings.class.getName(),
+            SystemUpdaterSettings.class.getName()
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
