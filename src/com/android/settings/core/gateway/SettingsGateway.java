@@ -23,6 +23,7 @@ import com.android.settings.MasterClear;
 import com.android.settings.MicroGSettings;
 import com.android.settings.OpenKeychainSettings;
 import com.android.settings.Settings;
+import com.android.settings.SystemUpdaterSettings;
 import com.android.settings.TestingSettings;
 import com.android.settings.TetherSettings;
 import com.android.settings.TrustedCredentialsSettings;
@@ -288,6 +289,7 @@ public class SettingsGateway {
             DarkModeSettingsFragment.class.getName(),
             MicroGSettings.class.getName(),
             OpenKeychainSettings.class.getName(),
+            SystemUpdaterSettings.class.getName(),
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
