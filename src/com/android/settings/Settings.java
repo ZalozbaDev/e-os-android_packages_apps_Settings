@@ -177,5 +177,7 @@ public class Settings extends SettingsActivity {
     public static class SystemDashboardActivity extends SettingsActivity {}
     public static class MicroGActivity extends SettingsActivity { /* empty */ }
     public static class OpenKeychainActivity extends SettingsActivity { /* empty */ }
+    public static class SystemUpdaterActivity extends SettingsActivity { /* empty */ }
+
 
 }
