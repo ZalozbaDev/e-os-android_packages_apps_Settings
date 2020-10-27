@@ -286,7 +286,6 @@ public class SettingsGateway {
             MobileNetworkListFragment.class.getName(),
             GlobalActionsPanelSettings.class.getName(),
             DarkModeSettingsFragment.class.getName(),
-            //MicroGSettings.class.getName(),
             OpenKeychainSettings.class.getName(),
     };
 
