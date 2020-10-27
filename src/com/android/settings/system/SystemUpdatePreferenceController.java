@@ -67,7 +67,7 @@ public class SystemUpdatePreferenceController extends BasePreferenceController {
         if (isAvailable()) {
             Utils.updatePreferenceToSpecificActivityOrRemove(mContext, screen,
                     getPreferenceKey(),
-                    Utils.UPDATE_PREFERENCE_FLAG_SET_TITLE_TO_MATCHING_ACTIVITY);
+                    Utils.UPDATE_PREFERENCE_FLAG_DONT_SET_TITLE_TO_MATCHING_ACTIVITY);
         }
     }
 
