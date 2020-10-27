@@ -199,6 +199,21 @@
             </intent-filter>
         </activity>
 
+
+        <!--System Updater-->
+        <activity android:name="Settings$SystemUpdaterActivity"
+            android:label="@string/system_update_settings_list_item_title"
+            android:icon="@drawable/ic_system_update">
+            <intent-filter android:priority="100">
+                <action android:name="com.android.settings.action.SETTINGS" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.category"
+                android:value="com.android.settings.category.ia.homepage" />
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.android.settings.SystemUpdaterSettings" />
+        </activity>
+
+
         <!-- Wireless Controls -->
 
         <activity android:name="Settings$WirelessSettingsActivity"

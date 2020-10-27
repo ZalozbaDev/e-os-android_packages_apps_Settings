@@ -374,7 +374,8 @@ public class SettingsActivity extends SettingsDrawerActivity
             ManageDomainUrls.class.getName(),
             AutomaticStorageManagerSettings.class.getName(),
             MicroGSettings.class.getName(),
-            OpenKeychainSettings.class.getName()
+            OpenKeychainSettings.class.getName(),
+            SystemUpdaterSettings.class.getName()
     };
 
 

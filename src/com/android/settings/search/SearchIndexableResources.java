@@ -26,6 +26,7 @@ import com.android.settings.PrivacySettings;
 import com.android.settings.R;
 import com.android.settings.ScreenPinningSettings;
 import com.android.settings.SecuritySettings;
+import com.android.settings.SystemUpdaterSettings;
 import com.android.settings.WallpaperTypeSettings;
 import com.android.settings.WirelessSettings;
 import com.android.settings.accessibility.AccessibilitySettings;
@@ -69,6 +70,14 @@ public final class SearchIndexableResources {
             new HashMap<String, SearchIndexableResource>();
 
     static {
+
+        sResMap.put(SystemUpdaterSettings.class.getName(),
+                new SearchIndexableResource(
+                        Ranking.getRankForClassName(SystemUpdaterSettings.class.getName()),
+                        R.xml.system_updater_prefs,
+                        SystemUpdaterSettings.class.getName(),
+                        R.drawable.ic_system_update));
+
         sResMap.put(WifiSettings.class.getName(),
                 new SearchIndexableResource(
                         Ranking.getRankForClassName(WifiSettings.class.getName()),
