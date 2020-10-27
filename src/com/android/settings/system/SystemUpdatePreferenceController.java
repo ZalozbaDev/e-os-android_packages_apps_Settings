@@ -43,7 +43,7 @@ public class SystemUpdatePreferenceController extends BasePreferenceController {
 
     private static final String TAG = "SysUpdatePrefContr";
 
-    private static final String KEY_SYSTEM_UPDATE_SETTINGS = "system_update_settings";
+    private static final String KEY_SYSTEM_UPDATE_SETTINGS = "top_level_update";
 
     private final UserManager mUm;
     private final SystemUpdateManager mUpdateManager;
