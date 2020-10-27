@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
   Copyright (C) 2018 The Android Open Source Project
+  Copyright (C) 2019-2021 ECORP SAS
 
   Licensed under the Apache License, Version 2.0 (the "License");
   you may not use this file except in compliance with the License.
@@ -19,6 +20,17 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res-auto"
     android:key="top_level_settings">
+
+    <com.android.settings.widget.HomepagePreference
+        android:key="top_level_update"
+        android:title="@string/system_update_settings_list_item_title"
+        android:summary="@string/system_update_summary"
+        android:icon="@drawable/ic_system_update"
+        android:order="-160"
+        settings:controller="com.android.settings.system.SystemUpdatePreferenceController"
+        settings:keywords="@string/keywords_system_update_settings">
+        <intent android:action="android.settings.SYSTEM_UPDATE_SETTINGS" />
+    </com.android.settings.widget.HomepagePreference>
 
     <com.android.settings.widget.HomepagePreference
         android:fragment="com.android.settings.network.NetworkDashboardFragment"
