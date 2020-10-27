@@ -57,8 +57,8 @@
         android:summary="@string/summary_placeholder"
         android:icon="@drawable/ic_system_update"
         android:order="-30"
-        settings:keywords="@string/keywords_system_update_settings"
-        settings:controller="com.android.settings.system.SystemUpdatePreferenceController">
+        settings:controller="com.android.settings.system.SystemUpdatePreferenceController"
+        settings:keywords="@string/keywords_system_update_settings">
         <intent android:action="android.settings.SYSTEM_UPDATE_SETTINGS" />
     </Preference>
 
