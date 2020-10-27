@@ -67,7 +67,7 @@ public class SystemUpdatePreferenceController extends BasePreferenceController {
         if (isAvailable()) {
             Utils.updatePreferenceToSpecificActivityOrRemove(mContext, screen,
                     getPreferenceKey(),
-                    Utils.UPDATE_PREFERENCE_FLAG_SET_TITLE_TO_MATCHING_ACTIVITY);
+                    Utils.UPDATE_PREFERENCE_FLAG_DONT_SET_TITLE_TO_MATCHING_ACTIVITY);
         }
     }
 
@@ -87,8 +87,7 @@ public class SystemUpdatePreferenceController extends BasePreferenceController {
 
     @Override
     public CharSequence getSummary() {
-        CharSequence summary = mContext.getString(R.string.android_version_summary,
-                Build.VERSION.RELEASE);
+        CharSequence summary = "";
         final FutureTask<Bundle> bundleFutureTask = new FutureTask<>(
                 // Put the API call in a future to avoid StrictMode violation.
                 () -> mUpdateManager.retrieveSystemUpdateInfo());
@@ -111,11 +110,6 @@ public class SystemUpdatePreferenceController extends BasePreferenceController {
                 Log.d(TAG, "Update statue unknown");
                 // fall through to next branch
             case SystemUpdateManager.STATUS_IDLE:
-                final String version = updateInfo.getString(SystemUpdateManager.KEY_TITLE);
-                if (!TextUtils.isEmpty(version)) {
-                    summary = mContext.getString(R.string.android_version_summary, version);
-                }
-                break;
         }
         return summary;
     }
