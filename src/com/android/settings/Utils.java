@@ -119,6 +119,7 @@ public final class Utils extends com.android.settingslib.Utils {
      * Set the preference's title to the matching activity's label.
      */
     public static final int UPDATE_PREFERENCE_FLAG_SET_TITLE_TO_MATCHING_ACTIVITY = 1;
+    public static final int UPDATE_PREFERENCE_FLAG_DONT_SET_TITLE_TO_MATCHING_ACTIVITY = 0;
 
     public static final String SETTINGS_PACKAGE_NAME = "com.android.settings";
 
