@@ -21,7 +21,8 @@ public class SystemUpdaterSettings extends Fragment {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        Intent intent = new Intent("android.settings.SYSTEM_UPDATE_SETTINGS");
+        Intent intent = new Intent("android.intent.action.MAIN");
+        intent.setComponent(new ComponentName("org.lineageos.updater", "org.lineageos.updater.UpdatesActivity"));
         startActivity(intent);
 
         Activity activity = getActivity();
