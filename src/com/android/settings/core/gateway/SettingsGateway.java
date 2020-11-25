@@ -266,7 +266,7 @@ public class SettingsGateway {
             DirectoryAccessDetails.class.getName(),
             ToggleBackupSettingFragment.class.getName(),
             PreviouslyConnectedDeviceDashboardFragment.class.getName(),
-            OpenKeychainSettings.class.getName(),
+        //     OpenKeychainSettings.class.getName(),
             SystemUpdaterSettings.class.getName(),
     };
 
