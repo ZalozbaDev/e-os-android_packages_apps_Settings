@@ -3409,7 +3409,7 @@
                  android:permission="android.permission.BIND_JOB_SERVICE" />
 
 	<!-- /e/ specific changes -->
-        <activity android:name="Settings$OpenKeychainActivity"
+      <!--  <activity android:name="Settings$OpenKeychainActivity"
             android:label="@string/open_keychain"
             android:icon="@drawable/ic_homepage_openkeychain">
             <intent-filter android:priority="1">
@@ -3423,7 +3423,7 @@
                 android:value="com.android.settings.category.ia.homepage" />
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
                 android:value="com.android.settings.OpenKeychainSettings" />
-        </activity>
+        </activity-->
 
         <!-- This is the longest AndroidManifest.xml ever. -->
     </application>
