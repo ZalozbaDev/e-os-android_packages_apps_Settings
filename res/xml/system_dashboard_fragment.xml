@@ -25,6 +25,14 @@
         android:order="-250"
         android:fragment="com.android.settings.gestures.GestureSettings" />
 
+    <Preference
+        android:title="@string/micro_g"
+        android:icon="@drawable/ic_homepage_microg"
+        >
+        <intent android:action="android.intent.action.MAIN"
+            android:targetPackage="com.google.android.gms"
+            android:targetClass="org.microg.gms.ui.SettingsActivity" />
+    </Preference>
    
     <Preference
         android:key="reset_dashboard"
