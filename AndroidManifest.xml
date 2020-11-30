@@ -181,7 +181,7 @@
         <activity android:name="Settings$SystemUpdaterActivity"
             android:label="@string/system_update_settings_list_item_title"
             android:icon="@drawable/ic_system_update">
-            <intent-filter android:priority="0">
+            <intent-filter android:order="100">
                 <action android:name="com.android.settings.action.SETTINGS" />
             </intent-filter>
             <meta-data android:name="com.android.settings.category"
@@ -190,8 +190,7 @@
                 android:value="com.android.settings.SystemUpdaterSettings" />
         </activity>
 
-
-        <!-- Wireless Controls -->
+        d<!-- Wireless Controls -->
         <activity
             android:name=".Settings$NetworkDashboardActivity"
             android:label="@string/network_dashboard_title"
