@@ -181,7 +181,7 @@
         <activity android:name="Settings$SystemUpdaterActivity"
             android:label="@string/system_update_settings_list_item_title"
             android:icon="@drawable/ic_system_update">
-            <intent-filter android:priority="200">
+            <intent-filter android:priority="0">
                 <action android:name="com.android.settings.action.SETTINGS" />
             </intent-filter>
             <meta-data android:name="com.android.settings.category"
