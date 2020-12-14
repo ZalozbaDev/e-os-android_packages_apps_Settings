@@ -257,7 +257,6 @@ public class SettingsGateway {
             BluetoothDeviceDetailsFragment.class.getName(),
             DataUsageList.class.getName(),
             MicroGSettings.class.getName(),
-            OpenKeychainSettings.class.getName(),
             SystemUpdaterSettings.class.getName()
 
     };
