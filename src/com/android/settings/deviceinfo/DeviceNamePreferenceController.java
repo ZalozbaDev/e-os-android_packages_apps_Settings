@@ -78,6 +78,9 @@ public class DeviceNamePreferenceController extends BasePreferenceController
         if (mDeviceName == null) {
             mDeviceName = Build.MODEL;
         }
+        if (Build.MODEL.equals("FP3")) {
+            mDeviceName = "FP3/FP3+";
+        }
     }
 
     @Override
