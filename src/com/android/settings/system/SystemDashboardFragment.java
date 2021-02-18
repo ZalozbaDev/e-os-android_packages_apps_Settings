@@ -16,6 +16,7 @@
 package com.android.settings.system;
 
 import android.content.Context;
+import android.os.Build;
 import android.os.Bundle;
 import android.provider.SearchIndexableResource;
 import android.support.v7.preference.Preference;
@@ -44,8 +45,13 @@ public class SystemDashboardFragment extends DashboardFragment {
         super.onCreate(icicle);
 
         final PreferenceScreen screen = getPreferenceScreen();
+
+        /*Have to remove when backup with seedVault successfully worked*/
         Preference backup = findPreference(KEY_BACK_UP);
-        screen.removePreference(backup);
+        String[] build = Build.TAGS.split(",");
+        if (build[1].equalsIgnoreCase("test-release")) {
+            screen.removePreference(backup);
+        }
         // We do not want to display an advanced button if only one setting is hidden
         if (getVisiblePreferenceCount(screen) == screen.getInitialExpandedChildrenCount() + 1) {
             screen.setInitialExpandedChildrenCount(Integer.MAX_VALUE);
