@@ -37,12 +37,15 @@ public class SystemDashboardFragment extends DashboardFragment {
     private static final String TAG = "SystemDashboardFrag";
 
     private static final String KEY_RESET = "reset_dashboard";
+    private static final String KEY_BACK_UP = "backup_settings";
 
     @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
 
         final PreferenceScreen screen = getPreferenceScreen();
+        Preference backup = findPreference(KEY_BACK_UP);
+        screen.removePreference(backup);
         // We do not want to display an advanced button if only one setting is hidden
         if (getVisiblePreferenceCount(screen) == screen.getInitialExpandedChildrenCount() + 1) {
             screen.setInitialExpandedChildrenCount(Integer.MAX_VALUE);
