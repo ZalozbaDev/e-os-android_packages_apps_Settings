@@ -21,7 +21,9 @@ import static com.android.settingslib.RestrictedLockUtils.EnforcedAdmin;
 import android.app.Activity;
 import android.app.admin.DevicePolicyManager;
 import android.app.settings.SettingsEnums;
+import android.content.ActivityNotFoundException;
 import android.content.BroadcastReceiver;
+import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
@@ -29,6 +31,7 @@ import android.content.pm.ApplicationInfo;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 import android.content.pm.PackageManager.NameNotFoundException;
+import android.content.pm.ResolveInfo;
 import android.content.pm.UserInfo;
 import android.net.Uri;
 import android.os.Bundle;
@@ -388,10 +391,39 @@ public class AppInfoDashboardFragment extends DashboardFragment
         super.onActivityResult(requestCode, resultCode, data);
         if (requestCode == REQUEST_UNINSTALL) {
             // Refresh option menu
+                if (mAppEntry.info.packageName.equals("com.google.android.gms")){
+                    Intent broadcastIntent = new Intent();
+                    broadcastIntent.setAction("foundation.e.apps");
+                    broadcastIntent.addFlags(Intent.FLAG_INCLUDE_STOPPED_PACKAGES);
+                    sendImplicitBroadcast(getActivity(),broadcastIntent,"foundation.e.apps");
+                }
+
             getActivity().invalidateOptionsMenu();
         }
         if (mAppButtonsPreferenceController != null) {
             mAppButtonsPreferenceController.handleActivityResult(requestCode, resultCode, data);
+        }
+    }
+
+    private void sendImplicitBroadcast(Context ctxt, Intent intent,String application) {
+        try {
+            PackageManager pm = ctxt.getPackageManager();
+            List<ResolveInfo> matches = pm.queryBroadcastReceivers(intent, 0);
+
+            for (ResolveInfo resolveInfo : matches) {
+                Intent explicit = new Intent(intent);
+                if (resolveInfo.activityInfo.packageName.equals(application)) {
+                    ComponentName cn = new ComponentName(resolveInfo.activityInfo.applicationInfo.packageName,
+                            resolveInfo.activityInfo.name);
+                    explicit.setComponent(cn);
+                    ctxt.sendBroadcast(explicit);
+                    break;
+                }
+
+
+            }
+        }catch (ActivityNotFoundException e){
+            e.printStackTrace();
         }
     }
 
@@ -479,6 +511,7 @@ public class AppInfoDashboardFragment extends DashboardFragment
         final Uri packageURI = Uri.parse("package:" + packageName);
         final Intent uninstallIntent = new Intent(Intent.ACTION_UNINSTALL_PACKAGE, packageURI);
         uninstallIntent.putExtra(Intent.EXTRA_UNINSTALL_ALL_USERS, allUsers);
+        uninstallIntent.putExtra("packageName", packageName);
         mMetricsFeatureProvider.action(
                 getContext(), SettingsEnums.ACTION_SETTINGS_UNINSTALL_APP);
         startActivityForResult(uninstallIntent, REQUEST_UNINSTALL);
