@@ -99,9 +99,14 @@ public class SystemDashboardFragment extends DashboardFragment {
                 @Override
                 public List<SearchIndexableResource> getXmlResourcesToIndex(
                         Context context, boolean enabled) {
-                    final SearchIndexableResource sir = new SearchIndexableResource(context);
-                    sir.xmlResId = R.xml.system_dashboard_fragment;
-                    return Arrays.asList(sir);
+                    String[] build = Build.TAGS.split(",");
+                    if (build[1].equalsIgnoreCase("test-release")) {
+                        return null;
+                    }else {
+                        final SearchIndexableResource sir = new SearchIndexableResource(context);
+                        sir.xmlResId = R.xml.system_dashboard_fragment;
+                        return Arrays.asList(sir);
+                    }
                 }
 
                 @Override
