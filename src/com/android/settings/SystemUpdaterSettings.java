@@ -11,10 +11,12 @@ import android.provider.SearchIndexableResource;
 import com.android.settings.R;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settings.search.Indexable;
+import com.android.settingslib.search.SearchIndexable;
+
 import java.util.ArrayList;
 import java.util.List;
 
-
+@SearchIndexable
 public class SystemUpdaterSettings extends Fragment {
 
     @Override
@@ -29,9 +31,7 @@ public class SystemUpdaterSettings extends Fragment {
         if (activity != null) {
             activity.finish();
         }
-
     }
-
 
     public static final Indexable.SearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
             new BaseSearchIndexProvider() {
@@ -46,7 +46,4 @@ public class SystemUpdaterSettings extends Fragment {
                     return result;
                 }
             };
-
-
 }
-
