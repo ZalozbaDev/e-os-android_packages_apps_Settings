@@ -48,7 +48,7 @@ public class SystemDashboardFragment extends DashboardFragment {
 
         /*Have to remove when backup with seedVault successfully worked*/
         Preference backup = findPreference(KEY_BACK_UP);
-        if (Build.TAGS.equalsIgnoreCase("test-keys,test-release")) {
+        if (!Build.TAGS.equalsIgnoreCase("test-keys,test-release")) {
             screen.removePreference(backup);
         }
         // We do not want to display an advanced button if only one setting is hidden
