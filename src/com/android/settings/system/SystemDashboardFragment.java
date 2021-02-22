@@ -112,4 +112,14 @@ public class SystemDashboardFragment extends DashboardFragment {
                         return keys;
                 }
             };*/
+    public static final Indexable.SearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
+            new BaseSearchIndexProvider() {
+                @Override
+                public List<SearchIndexableResource> getXmlResourcesToIndex(
+                        Context context, boolean enabled) {
+                    final SearchIndexableResource sir = new SearchIndexableResource(context);
+                    sir.xmlResId = R.xml.system_dashboard_fragment;
+                    return Arrays.asList(sir);
+                }
+            };
 }
