@@ -25,7 +25,6 @@ import android.content.Context;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.util.Log;
-import android.os.Build;
 
 import com.android.settings.core.PreferenceXmlParserUtils.MetadataFlag;
 import com.android.settingslib.core.AbstractPreferenceController;
@@ -118,14 +117,7 @@ public class PreferenceControllerListHelper {
                 Log.w(TAG, controller.getPreferenceKey() + " already has a controller");
                 continue;
             }
-            if (Build.TAGS.equalsIgnoreCase("test-keys,test-release")) {
-                if (controller.getPreferenceKey().equalsIgnoreCase("backup_settings")){
-                    Log.w(TAG, controller.getPreferenceKey() + "do nothing okay");
-                }
-            }else{
-                filteredList.add(controller);
-            }
-
+            filteredList.add(controller);
         }
         return filteredList;
     }
