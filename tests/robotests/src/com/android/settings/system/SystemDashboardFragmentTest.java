@@ -50,6 +50,7 @@ public class SystemDashboardFragmentTest {
 
     @Test
     public void testNonIndexableKeys_existInXmlLayout() {
+        android.util.Log.e("TAG", "testNonIndexableKeys_existInXmlLayout: inside");
         final Context context = RuntimeEnvironment.application;
         final List<String> niks = SystemDashboardFragment.SEARCH_INDEX_DATA_PROVIDER
                 .getNonIndexableKeys(context);
