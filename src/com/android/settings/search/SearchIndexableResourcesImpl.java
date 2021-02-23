@@ -154,15 +154,15 @@ public class SearchIndexableResourcesImpl implements SearchIndexableResources {
         addIndex(VirtualKeyboardFragment.class);
         addIndex(AvailableVirtualKeyboardFragment.class);
         addIndex(PhysicalKeyboardFragment.class);
-        addIndex(BackupSettingsActivity.class);
-        addIndex(BackupSettingsFragment.class);
+//        addIndex(BackupSettingsActivity.class);
+//        addIndex(BackupSettingsFragment.class);
         addIndex(DateTimeSettings.class);
         addIndex(AccessibilitySettings.class);
         addIndex(PrintSettingsFragment.class);
         addIndex(DevelopmentSettingsDashboardFragment.class);
         addIndex(DeviceInfoSettings.class);
         addIndex(LegalSettings.class);
-        addIndex(SystemDashboardFragment.class);
+//        addIndex(SystemDashboardFragment.class);
         addIndex(ResetDashboardFragment.class);
         addIndex(StorageDashboardFragment.class);
         addIndex(ConnectedDeviceDashboardFragment.class);
