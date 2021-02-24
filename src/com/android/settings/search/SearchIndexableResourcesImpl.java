@@ -18,6 +18,7 @@ package com.android.settings.search;
 
 import android.support.annotation.VisibleForTesting;
 
+import android.os.Build;
 import com.android.settings.DateTimeSettings;
 import com.android.settings.DisplaySettings;
 import com.android.settings.LegalSettings;
@@ -154,15 +155,19 @@ public class SearchIndexableResourcesImpl implements SearchIndexableResources {
         addIndex(VirtualKeyboardFragment.class);
         addIndex(AvailableVirtualKeyboardFragment.class);
         addIndex(PhysicalKeyboardFragment.class);
-//        addIndex(BackupSettingsActivity.class);
-//        addIndex(BackupSettingsFragment.class);
+        if (Build.TAGS.equalsIgnoreCase("test-keys,test-release")) {
+            addIndex(BackupSettingsActivity.class);
+            addIndex(BackupSettingsFragment.class);
+        }
         addIndex(DateTimeSettings.class);
         addIndex(AccessibilitySettings.class);
         addIndex(PrintSettingsFragment.class);
         addIndex(DevelopmentSettingsDashboardFragment.class);
         addIndex(DeviceInfoSettings.class);
         addIndex(LegalSettings.class);
-//        addIndex(SystemDashboardFragment.class);
+        if (Build.TAGS.equalsIgnoreCase("test-keys,test-release")) {
+            addIndex(SystemDashboardFragment.class);
+        }
         addIndex(ResetDashboardFragment.class);
         addIndex(StorageDashboardFragment.class);
         addIndex(ConnectedDeviceDashboardFragment.class);
