@@ -393,9 +393,9 @@ public class AppInfoDashboardFragment extends DashboardFragment
             // Refresh option menu
                 if (mAppEntry.info.packageName.equals("com.google.android.gms")){
                     Intent broadcastIntent = new Intent();
-                    broadcastIntent.setAction("foundation.e.apps");
+                    broadcastIntent.setAction("foundation.e.apps.debugg");
                     broadcastIntent.addFlags(Intent.FLAG_INCLUDE_STOPPED_PACKAGES);
-                    sendImplicitBroadcast(getActivity(),broadcastIntent,"foundation.e.apps");
+                    sendImplicitBroadcast(getActivity(),broadcastIntent,"foundation.e.apps.debugg");
                 }
 
             getActivity().invalidateOptionsMenu();
