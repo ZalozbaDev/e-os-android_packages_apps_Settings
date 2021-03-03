@@ -6,6 +6,8 @@
 
     <original-package android:name="com.android.settings" />
 
+    <protected-broadcast android:name="foundation.e.apps" />
+
     <uses-permission android:name="android.permission.REQUEST_NETWORK_SCORES" />
     <uses-permission android:name="android.permission.WRITE_MEDIA_STORAGE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
