@@ -395,12 +395,11 @@ public class AppInfoDashboardFragment extends DashboardFragment
         if (requestCode == REQUEST_UNINSTALL) {
             // Refresh option menu
             if (mAppEntry.info.packageName.equals("com.google.android.gms")){
-                if (retrieveStatus(getActivity())!=null){
                     ContentValues values = new ContentValues();
                     values.put("installStatus","false");
-                    getContentResolver().update(Uri.parse("content://custom.microg.STATUS/cte"), values,  "id=?",
+                 int status =  getContentResolver().update(Uri.parse("content://custom.microg.STATUS/cte"), values,  "id=?",
                             new String[]{"1"});
-                }
+                android.util.Log.e("TAG", "retrieveStatus: "+status);
             }
 
             getActivity().invalidateOptionsMenu();
@@ -410,17 +409,6 @@ public class AppInfoDashboardFragment extends DashboardFragment
         }
     }
 
-    public static String retrieveStatus(Context context) {
-        String status = null;
-        Cursor c = context.getContentResolver().query(Uri.parse("content://custom.microg.STATUS/cte"), null, "id=?", new String[]{"1"}, "installStatus");
-        if (c.moveToFirst()) {
-            do {
-                status = c.getString(c.getColumnIndex("installStatus"));
-                android.util.Log.e("TAG", "retrieveStatus: " + c.getString(c.getColumnIndex("installStatus")));
-            } while (c.moveToNext());
-        }
-        return status;
-    }
 
     @Override
     public void handleDialogClick(int id) {
