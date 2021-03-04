@@ -62,6 +62,9 @@ import com.android.settingslib.core.lifecycle.Lifecycle;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import android.database.Cursor;
+import android.net.Uri;
+import android.content.ContentValues;
 
 /**
  * Dashboard fragment to display application information from Settings. This activity presents
@@ -391,12 +394,21 @@ public class AppInfoDashboardFragment extends DashboardFragment
         super.onActivityResult(requestCode, resultCode, data);
         if (requestCode == REQUEST_UNINSTALL) {
             // Refresh option menu
-                if (mAppEntry.info.packageName.equals("com.google.android.gms")){
-                    Intent broadcastIntent = new Intent();
-                    broadcastIntent.setAction("foundation.e.apps.debugg");
-                    broadcastIntent.addFlags(Intent.FLAG_INCLUDE_STOPPED_PACKAGES);
-                    sendImplicitBroadcast(getActivity(),broadcastIntent,"foundation.e.apps.debugg");
+//                if (mAppEntry.info.packageName.equals("com.google.android.gms")){
+//                    Intent broadcastIntent = new Intent();
+//                    broadcastIntent.setAction("foundation.e.apps.debugg");
+//                    broadcastIntent.addFlags(Intent.FLAG_INCLUDE_STOPPED_PACKAGES);
+//                    sendImplicitBroadcast(getActivity(),broadcastIntent,"foundation.e.apps.debugg");
+//                }
+
+            if (mAppEntry.info.packageName.equals("com.google.android.gms")){
+                if (retrieveStatus(getActivity())!=null){
+                    ContentValues values = new ContentValues();
+                    values.put("installStatus","false");
+                    getContentResolver().update(Uri.parse("content://custom.microg.STATUS/cte"), values,  "id=?",
+                            new String[]{"1"});
                 }
+            }
 
             getActivity().invalidateOptionsMenu();
         }
@@ -404,6 +416,19 @@ public class AppInfoDashboardFragment extends DashboardFragment
             mAppButtonsPreferenceController.handleActivityResult(requestCode, resultCode, data);
         }
     }
+
+    public static String retrieveStatus(Context context) {
+        String status = null;
+        Cursor c = context.getContentResolver().query(Uri.parse("content://custom.microg.STATUS/cte"), null, "id=?", new String[]{"1"}, "installStatus");
+        if (c.moveToFirst()) {
+            do {
+                status = c.getString(c.getColumnIndex("installStatus"));
+                android.util.Log.e("TAG", "retrieveStatus: " + c.getString(c.getColumnIndex("installStatus")));
+            } while (c.moveToNext());
+        }
+        return status;
+    }
+
 
     private void sendImplicitBroadcast(Context ctxt, Intent intent,String application) {
         try {
