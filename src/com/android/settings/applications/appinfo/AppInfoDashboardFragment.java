@@ -394,13 +394,6 @@ public class AppInfoDashboardFragment extends DashboardFragment
         super.onActivityResult(requestCode, resultCode, data);
         if (requestCode == REQUEST_UNINSTALL) {
             // Refresh option menu
-//                if (mAppEntry.info.packageName.equals("com.google.android.gms")){
-//                    Intent broadcastIntent = new Intent();
-//                    broadcastIntent.setAction("foundation.e.apps.debugg");
-//                    broadcastIntent.addFlags(Intent.FLAG_INCLUDE_STOPPED_PACKAGES);
-//                    sendImplicitBroadcast(getActivity(),broadcastIntent,"foundation.e.apps.debugg");
-//                }
-
             if (mAppEntry.info.packageName.equals("com.google.android.gms")){
                 if (retrieveStatus(getActivity())!=null){
                     ContentValues values = new ContentValues();
@@ -427,29 +420,6 @@ public class AppInfoDashboardFragment extends DashboardFragment
             } while (c.moveToNext());
         }
         return status;
-    }
-
-
-    private void sendImplicitBroadcast(Context ctxt, Intent intent,String application) {
-        try {
-            PackageManager pm = ctxt.getPackageManager();
-            List<ResolveInfo> matches = pm.queryBroadcastReceivers(intent, 0);
-
-            for (ResolveInfo resolveInfo : matches) {
-                Intent explicit = new Intent(intent);
-                if (resolveInfo.activityInfo.packageName.equals(application)) {
-                    ComponentName cn = new ComponentName(resolveInfo.activityInfo.applicationInfo.packageName,
-                            resolveInfo.activityInfo.name);
-                    explicit.setComponent(cn);
-                    ctxt.sendBroadcast(explicit);
-                    break;
-                }
-
-
-            }
-        }catch (ActivityNotFoundException e){
-            e.printStackTrace();
-        }
     }
 
     @Override
