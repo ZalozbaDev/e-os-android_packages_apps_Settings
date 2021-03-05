@@ -413,7 +413,7 @@ public class AppInfoDashboardFragment extends DashboardFragment
 
     public static String retrieveStatus(Context context) {
         String status = null;
-        Cursor c = context.getContentResolver().query(Uri.parse("content://custom.microg.STATUS/cte"), null, "id=?", new String[]{"1"}, "installStatus");
+        Cursor c = context.getContentResolver().query(Uri.parse("content://foundation.e.apps.micro.status/cte"), null, "id=?", new String[]{"1"}, "installStatus");
         if (c.moveToFirst()) {
             do {
                 status = c.getString(c.getColumnIndex("installStatus"));
