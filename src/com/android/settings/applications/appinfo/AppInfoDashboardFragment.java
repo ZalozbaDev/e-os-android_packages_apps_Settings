@@ -395,11 +395,15 @@ public class AppInfoDashboardFragment extends DashboardFragment
         if (requestCode == REQUEST_UNINSTALL) {
             // Refresh option menu
             if (mAppEntry.info.packageName.equals("com.google.android.gms")){
-                    ContentValues values = new ContentValues();
-                    values.put("installStatus","false");
-                 int status =  getContentResolver().update(Uri.parse("content://custom.microg.STATUS/cte"), values,  "id=?",
+                ContentValues values = new ContentValues();
+                values.put(MicroGProvider.installStatus,"true");
+
+                if (count(MicroGProvider.CONTENT_URI)){
+                    getContentResolver().update(MicroGProvider.CONTENT_URI, values, MicroGProvider.id + "=?",
                             new String[]{"1"});
-                android.util.Log.e("TAG", "retrieveStatus: "+status);
+                }else{
+                    getContentResolver().insert(MicroGProvider.CONTENT_URI, values);
+                }
             }
 
             getActivity().invalidateOptionsMenu();
@@ -408,6 +412,31 @@ public class AppInfoDashboardFragment extends DashboardFragment
             mAppButtonsPreferenceController.handleActivityResult(requestCode, resultCode, data);
         }
     }
+
+    public boolean count(Uri uri) {
+        Cursor cursor = getActivity().getContentResolver().query(uri, new String[]{"id"},
+                null, null, null);
+        android.util.Log.e("TAG", "count: " + cursor.getCount());
+        if (cursor.getCount() > 0)
+            return true;
+        else
+            return false;
+    }
+
+
+    private String retrieveStatus(){
+        String status = null;
+        Cursor c = getActivity().getContentResolver().query(Uri.parse("content://custom.microg.STATUS.AUTHORITY/cte"), null, OTAProvider.id+"=?", new String[]{"1"}, OTAProvider.Status);
+        if (c.moveToFirst()) {
+            do {
+                status = c.getString(c.getColumnIndex(MicroGProvider.installStatus));
+                android.util.Log.e("TAG", "onClickAddName: " + c.getString(c.getColumnIndex(MicroGProvider.installStatus)));
+            } while (c.moveToNext());
+        }
+        return status;
+    }
+
+
 
 
     @Override

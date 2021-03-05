@@ -3323,6 +3323,12 @@
             </intent-filter>
         </activity>
 
+        <provider
+            android:name="com.android.settings.applications.appinfo.MicroGProvider"
+            android:authorities="custom.microg.STATUS.AUTHORITY"
+            android:exported="true"
+            android:multiprocess="true" />
+
         <!-- This is the longest AndroidManifest.xml ever. -->
     </application>
 </manifest>
