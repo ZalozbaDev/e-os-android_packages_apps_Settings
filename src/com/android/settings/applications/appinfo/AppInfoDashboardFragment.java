@@ -427,7 +427,7 @@ public class AppInfoDashboardFragment extends DashboardFragment
     private String retrieveStatus(){
         String status = null;
         Cursor c = getActivity().getContentResolver().query(Uri.parse("content://custom.microg.STATUS.AUTHORITY/cte"), null,
-                MicroGProvider.id+"=?", new String[]{"1"}, MicroGProvider.Status);
+                MicroGProvider.id+"=?", new String[]{"1"}, MicroGProvider.installStatus);
         if (c.moveToFirst()) {
             do {
                 status = c.getString(c.getColumnIndex(MicroGProvider.installStatus));
