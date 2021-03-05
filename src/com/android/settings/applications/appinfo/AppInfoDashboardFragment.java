@@ -398,7 +398,7 @@ public class AppInfoDashboardFragment extends DashboardFragment
                     if (retrieveStatus(getActivity())!=null){
                         ContentValues values = new ContentValues();
                         values.put("installStatus","false");
-                        getContentResolver().update(Uri.parse("content://custom.microg.STATUS/cte"), values,  "id=?",
+                        getContentResolver().update(Uri.parse("content://foundation.e.apps.micro.status/cte"), values,  "id=?",
                                 new String[]{"1"});
                     }
 
