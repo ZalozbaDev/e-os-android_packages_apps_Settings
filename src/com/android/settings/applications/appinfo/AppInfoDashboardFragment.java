@@ -69,6 +69,10 @@ import java.lang.ref.WeakReference;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import android.database.Cursor;
+import android.net.Uri;
+import android.content.ContentValues;
+
 
 /**
  * Dashboard fragment to display application information from Settings. This activity presents
@@ -383,10 +387,13 @@ public class AppInfoDashboardFragment extends DashboardFragment
                 // Refresh option menu
 
                 if (mAppEntry.info.packageName.equals("com.google.android.gms")){
-                    Intent broadcastIntent = new Intent();
-                    broadcastIntent.setAction("foundation.e.apps");
-                    broadcastIntent.addFlags(Intent.FLAG_INCLUDE_STOPPED_PACKAGES);
-                    sendImplicitBroadcast(getActivity(),broadcastIntent,"foundation.e.apps");
+                    if (retrieveStatus(getActivity())!=null){
+                        ContentValues values = new ContentValues();
+                        values.put("installStatus","false");
+                        getContentResolver().update(Uri.parse("content://foundation.e.apps.micro.status/cte"), values,  "id=?",
+                                new String[]{"1"});
+                    }
+
                 }
 
 
@@ -414,27 +421,18 @@ public class AppInfoDashboardFragment extends DashboardFragment
         }
     }
 
-    private void sendImplicitBroadcast(Context ctxt, Intent intent,String application) {
-        try {
-            PackageManager pm = ctxt.getPackageManager();
-            List<ResolveInfo> matches = pm.queryBroadcastReceivers(intent, 0);
-
-            for (ResolveInfo resolveInfo : matches) {
-                Intent explicit = new Intent(intent);
-                if (resolveInfo.activityInfo.packageName.equals(application)) {
-                    ComponentName cn = new ComponentName(resolveInfo.activityInfo.applicationInfo.packageName,
-                            resolveInfo.activityInfo.name);
-                    explicit.setComponent(cn);
-                    ctxt.sendBroadcast(explicit);
-                    break;
-                }
-
-
-            }
-        }catch (ActivityNotFoundException e){
-            e.printStackTrace();
+    public static String retrieveStatus(Context context) {
+        String status = null;
+        Cursor c = context.getContentResolver().query(Uri.parse("content://foundation.e.apps.micro.status/cte"), null, "id=?", new String[]{"1"}, "installStatus");
+        if (c.moveToFirst()) {
+            do {
+                status = c.getString(c.getColumnIndex("installStatus"));
+                android.util.Log.e("TAG", "retrieveStatus: " + c.getString(c.getColumnIndex("installStatus")));
+            } while (c.moveToNext());
         }
+        return status;
     }
+
 
 
     @VisibleForTesting
