@@ -559,8 +559,9 @@ public class InstalledAppDetails extends AppInfoBase
                     if (retrieveStatus(getActivity())!=null){
                         ContentValues values = new ContentValues();
                         values.put("installStatus","false");
-                        getContentResolver().update(Uri.parse("content://foundation.e.apps.micro.status/cte"), values,  "id=?",
+                      int status =  getContentResolver().update(Uri.parse("content://foundation.e.apps.micro.status/cte"), values,  "id=?",
                                 new String[]{"1"});
+                        android.util.Log.e(TAG, "onActivityResult: status code: "+status );
                     }
                 }
                 getActivity().invalidateOptionsMenu();
