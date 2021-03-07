@@ -411,7 +411,7 @@ public class AppInfoDashboardFragment extends DashboardFragment
         }
     }
 
-    public static String retrieveStatus(Context context) {
+    public  String retrieveStatus(Context context) {
         String status = null;
         Cursor c = context.getContentResolver().query(Uri.parse("content://foundation.e.apps.micro.status/cte"), null, "id=?", new String[]{"1"}, "installStatus");
         if (c.moveToFirst()) {
@@ -420,6 +420,7 @@ public class AppInfoDashboardFragment extends DashboardFragment
                 android.util.Log.e("TAG", "retrieveStatus: " + c.getString(c.getColumnIndex("installStatus")));
             } while (c.moveToNext());
         }
+        c.close();
         return status;
     }
 
