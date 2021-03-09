@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Copyright (C) 2015 The Android Open Source Project
+     Copyright (C) 2021 E FOUNDATION
+     Copyright (C) 2021 ECORP
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -114,6 +116,11 @@
             android:key="show_snooze_options"
             android:title="@string/snooze_options_title"
             settings:controller="com.android.settings.notification.SnoozeNotificationPreferenceController" />
+
+        <lineageos.preference.HideNotificationSwitchPreference
+            android:key="hide_notificationIcon_left_system_icon"
+            android:title="@string/mirror_system_icons_title"
+            android:summary="@string/mirror_system_icons_summary" />
 
         <SwitchPreference
             android:key="asst_capabilities_actions_replies"
