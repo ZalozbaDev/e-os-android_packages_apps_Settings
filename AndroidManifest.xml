@@ -95,6 +95,8 @@
     <uses-permission android:name="android.permission.USE_RESERVED_DISK" />
     <uses-permission android:name="android.permission.MANAGE_SCOPED_ACCESS_DIRECTORY_PERMISSIONS" />
 
+    <uses-permission android:name="foundation.e.apps.micro.status.READ_WRITE" />
+
     <application android:label="@string/settings_label"
             android:icon="@mipmap/ic_launcher"
             android:taskAffinity=""
