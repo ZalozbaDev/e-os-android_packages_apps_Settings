@@ -94,9 +94,10 @@
 
         <SwitchPreference
             android:key="hide_notification_icons"
+            lineage:requiresConfig="@*android:bool/config_intrusiveNotificationLed"
             android:title="@string/hide_notification_icons"
-            settings:controller="com.android.settings.notification.HideNotificationIconsPreferenceController" />
-
+             />
+        <!--settings:controller="com.android.settings.notification.HideNotificationIconsPreferenceController"-->
         <SwitchPreference
             android:key="asst_capabilities_actions_replies"
             android:title="@string/asst_capabilities_actions_replies_title"
