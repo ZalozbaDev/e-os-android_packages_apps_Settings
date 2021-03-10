@@ -33,6 +33,13 @@ public class HideNotificationIconsPreferenceController extends TogglePreferenceC
     @VisibleForTesting
     static final int OFF = 0;
 
+    /*
+    mContext.getResources()
+                .getBoolean(com.android.internal.R.bool.config_hide_notificationIcons)
+                ? AVAILABLE : UNSUPPORTED_ON_DEVICE;
+
+    * */
+
     public HideNotificationIconsPreferenceController(Context context, String preferenceKey) {
         super(context, preferenceKey);
     }
@@ -44,14 +51,13 @@ public class HideNotificationIconsPreferenceController extends TogglePreferenceC
 
     @Override
     public boolean isChecked() {
-
-        return Settings.Secure.getInt(mContext.getContentResolver(),
-                SHOW_NOTIFICATION_SNOOZE, OFF) == ON;
+        return mContext.getResources()
+                .getBoolean(com.android.internal.R.bool.config_hide_notificationIcons);
     }
 
     @Override
     public boolean setChecked(boolean isChecked) {
-        return Settings.Secure.putInt(mContext.getContentResolver(),
-                SHOW_NOTIFICATION_SNOOZE, isChecked ? ON : OFF);
+
+       return isChecked;//Settings.Secure.putInt(mContext.getContentResolver(),SHOW_NOTIFICATION_SNOOZE, isChecked ? ON : OFF);
     }
 }
