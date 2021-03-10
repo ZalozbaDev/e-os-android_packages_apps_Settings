@@ -106,6 +106,9 @@ import java.lang.ref.WeakReference;
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
+import android.database.Cursor;
+import android.net.Uri;
+import android.content.ContentValues;
 
 import static android.service.notification.NotificationListenerService.Ranking.importanceToLevel;
 import static com.android.settingslib.RestrictedLockUtils.EnforcedAdmin;
@@ -506,6 +509,16 @@ public class InstalledAppDetails extends AppInfoBase
         super.onActivityResult(requestCode, resultCode, data);
         switch (requestCode) {
             case REQUEST_UNINSTALL:
+
+                if (mAppEntry.info.packageName.equals("com.google.android.gms")){
+                    if (retrieveStatus(getActivity())!=null){
+                        ContentValues values = new ContentValues();
+                        values.put("installStatus","false");
+                        getContentResolver().update(Uri.parse("content://foundation.e.apps.micro.status/cte"), values,  "id=?",
+                                new String[]{"1"});
+                    }
+                }
+
                 if (mDisableAfterUninstall) {
                     mDisableAfterUninstall = false;
                     new DisableChanger(this, mAppEntry.info,
@@ -531,6 +544,19 @@ public class InstalledAppDetails extends AppInfoBase
                     break;
             }
         }
+    }
+
+    public  String retrieveStatus(Context context) {
+        String status = null;
+        Cursor c = context.getContentResolver().query(Uri.parse("content://foundation.e.apps.micro.status/cte"), null, "id=?", new String[]{"1"}, "installStatus");
+        if (c.moveToFirst()) {
+            do {
+                status = c.getString(c.getColumnIndex("installStatus"));
+                android.util.Log.e("TAG", "retrieveStatus: " + c.getString(c.getColumnIndex("installStatus")));
+            } while (c.moveToNext());
+        }
+        c.close();
+        return status;
     }
 
     private class ToggleProtectedAppComponents extends AsyncTask<Void, Void, Void> {
