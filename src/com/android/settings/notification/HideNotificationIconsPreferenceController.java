@@ -51,8 +51,9 @@ public class HideNotificationIconsPreferenceController extends TogglePreferenceC
 
     @Override
     public boolean isChecked() {
-        return mContext.getResources()
-                .getBoolean(com.android.internal.R.bool.config_hide_notificationIcons);
+        return true;
+//        return mContext.getResources()
+//                .getBoolean(com.android.internal.R.bool.config_hide_notificationIcons);
     }
 
     @Override
