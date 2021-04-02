@@ -574,6 +574,11 @@
             android:title="@string/kill_app_longpress_back"
             android:summary="@string/kill_app_longpress_back_summary"
             android:defaultValue="false" />
+
+        <SwitchPreference
+            android:key="change_update_source"
+            android:title="@string/title_ota"
+            android:summary="@string/ota_summary" />
     </PreferenceCategory>
 
 </PreferenceScreen>

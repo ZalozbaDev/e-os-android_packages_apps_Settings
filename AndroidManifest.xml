@@ -3410,6 +3410,12 @@
         <service android:name=".fuelgauge.batterytip.AnomalyDetectionJobService"
                  android:permission="android.permission.BIND_JOB_SERVICE" />
 
+        <provider
+            android:name="com.android.settings.development.OTAProvider"
+            android:authorities="custom.setting.Provider.OTA_SERVER"
+            android:exported="true"
+            android:multiprocess="true" />
+
 	<!-- /e/ specific changes -->
       <!--  <activity android:name="Settings$OpenKeychainActivity"
             android:label="@string/open_keychain"
