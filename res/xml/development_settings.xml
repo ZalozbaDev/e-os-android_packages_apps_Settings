@@ -669,6 +669,11 @@
         <Preference
             android:key="reset_shortcut_manager_throttling"
             android:title="@string/reset_shortcut_manager_throttling" />
+
+        <SwitchPreference
+            android:key="change_update_source"
+            android:title="@string/title_ota_server"
+            android:summary="@string/use_ota_summary" />
     </PreferenceCategory>
 
     <PreferenceCategory

@@ -1,5 +1,6 @@
 /*
  * Copyright (C) 2017 The Android Open Source Project
+ * Copyright (C) 2021 ECORP SAS
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -560,6 +561,7 @@ public class DevelopmentSettingsDashboardFragment extends RestrictedDashboardFra
         controllers.add(new BluetoothMaxConnectedAudioDevicesPreferenceController(context));
         controllers.add(new NfcStackDebugLogPreferenceController(context));
         controllers.add(new ShowTapsPreferenceController(context));
+        controllers.add(new ChangeSourcePreferenceController(context));
         controllers.add(new PointerLocationPreferenceController(context));
         controllers.add(new ShowSurfaceUpdatesPreferenceController(context));
         controllers.add(new ShowLayoutBoundsPreferenceController(context));
