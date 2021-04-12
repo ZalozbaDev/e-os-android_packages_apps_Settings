@@ -16,49 +16,55 @@
 
 package com.android.settings.notification;
 
+import android.app.admin.DevicePolicyManager;
 import android.content.Context;
-import android.provider.Settings;
+import androidx.preference.Preference;
+import androidx.preference.TwoStatePreference;
 
-import androidx.annotation.VisibleForTesting;
+import com.android.internal.widget.LockPatternUtils;
+import com.android.settings.core.PreferenceControllerMixin;
+import com.android.settingslib.core.AbstractPreferenceController;
+//PinScramblePreferenceController
 
-import com.android.settings.core.TogglePreferenceController;
+public class HideNotificationIconsPreferenceController extends AbstractPreferenceController
+        implements PreferenceControllerMixin, Preference.OnPreferenceChangeListener {
 
-import static android.provider.Settings.Secure.SHOW_NOTIFICATION_SNOOZE;
+    static final String HIDE_NOTIFICATIONICON_LEFT_SYSTEM_ICON = "hide_notificationIcon_left_system_icon";
 
-public class HideNotificationIconsPreferenceController extends TogglePreferenceController {
-
-    private static final String TAG = "HideNotificationIconsPreferenceController";
-    @VisibleForTesting
-    static final int ON = 1;
-    @VisibleForTesting
-    static final int OFF = 0;
-
-    /*
-    mContext.getResources()
-                .getBoolean(com.android.internal.R.bool.config_hide_notificationIcons)
-                ? AVAILABLE : UNSUPPORTED_ON_DEVICE;
-
-    * */
-
-    public HideNotificationIconsPreferenceController(Context context, String preferenceKey) {
-        super(context, preferenceKey);
+    public HideNotificationIconsPreferenceController(Context context) {
+        super(context);
     }
 
-    @Override
-    public int getAvailabilityStatus() {
-        return AVAILABLE;
-    }
 
     @Override
-    public boolean isChecked() {
+    public boolean isAvailable() {
         return true;
-//        return mContext.getResources()
-//                .getBoolean(com.android.internal.R.bool.config_hide_notificationIcons);
     }
 
     @Override
-    public boolean setChecked(boolean isChecked) {
-
-       return isChecked;//Settings.Secure.putInt(mContext.getContentResolver(),SHOW_NOTIFICATION_SNOOZE, isChecked ? ON : OFF);
+    public String getPreferenceKey() {
+        return HIDE_NOTIFICATIONICON_LEFT_SYSTEM_ICON;
     }
+
+    @Override
+    public void updateState(Preference preference) {
+        ((TwoStatePreference) preference).setChecked(LineageSettings.System.getInt(
+                mContext.getContentResolver(),
+                LineageSettings.System.HIDE_NOTIFICATIONICON_LEFT_SYSTEM_ICON,
+                0) == 1);
+    }
+
+
+
+    @Override
+    public boolean onPreferenceChange(Preference preference, Object newValue) {
+        LineageSettings.System.putInt(
+                mContext.getContentResolver(),
+                LineageSettings.System.HIDE_NOTIFICATIONICON_LEFT_SYSTEM_ICON,
+                (Boolean) newValue ? 1 : 0);
+        return true;
+    }
+
+
+
 }
