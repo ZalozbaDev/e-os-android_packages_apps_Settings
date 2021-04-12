@@ -24,6 +24,7 @@ import androidx.preference.TwoStatePreference;
 import com.android.internal.widget.LockPatternUtils;
 import com.android.settings.core.PreferenceControllerMixin;
 import com.android.settingslib.core.AbstractPreferenceController;
+import lineageos.providers.LineageSettings;
 //PinScramblePreferenceController
 
 public class HideNotificationIconsPreferenceController extends AbstractPreferenceController
