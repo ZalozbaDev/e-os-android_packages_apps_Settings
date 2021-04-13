@@ -46,22 +46,29 @@ public class HideNotificationIconsPreferenceController extends TogglePreferenceC
     static final int OFF = 0;
 
     public HideNotificationIconsPreferenceController(Context context, String preferenceKey) {
+
         super(context, preferenceKey);
+
+        Log.e("Setting....", "Setting ...HideNotificationIconsPreferenceController.................. ");
     }
 
     @Override
     public int getAvailabilityStatus() {
+        Log.e("Setting....", "Setting ...getAvailabilityStatus.................. ");
+
         return AVAILABLE;
     }
 
     @Override
     public boolean isChecked() {
+        Log.e("Setting....", "Setting ...isChecked.................. ");
         return Settings.Secure.getInt(mContext.getContentResolver(),
                 LineageSettings.System.HIDE_NOTIFICATIONICON_LEFT_SYSTEM_ICON, OFF) == ON;
     }
 
     @Override
     public boolean setChecked(boolean isChecked) {
+        Log.e("Setting....", "Setting ...setChecked.................. "+isChecked);
         return Settings.Secure.putInt(mContext.getContentResolver(),
                 LineageSettings.System.HIDE_NOTIFICATIONICON_LEFT_SYSTEM_ICON, isChecked ? ON : OFF);
     }
