@@ -25,6 +25,7 @@ import com.android.internal.widget.LockPatternUtils;
 import com.android.settings.core.PreferenceControllerMixin;
 import com.android.settingslib.core.AbstractPreferenceController;
 import lineageos.providers.LineageSettings;
+import android.util.Log;
 //PinScramblePreferenceController
 
 public class HideNotificationIconsPreferenceController extends AbstractPreferenceController
@@ -39,26 +40,34 @@ public class HideNotificationIconsPreferenceController extends AbstractPreferenc
 
     @Override
     public boolean isAvailable() {
+        Log.e("Setting....", "Setting ...isAvailable ");
+       // LineageSettings.System.HIDE_NOTIFICATIONICON_LEFT_SYSTEM_ICON;
         return true;
     }
 
     @Override
     public String getPreferenceKey() {
+        Log.e("Setting....", "Setting ...getPreferenceKey ");
         return HIDE_NOTIFICATIONICON_LEFT_SYSTEM_ICON;
     }
 
     @Override
     public void updateState(Preference preference) {
+        Log.e("Setting....", "Setting ...updateState ");
         ((TwoStatePreference) preference).setChecked(LineageSettings.System.getInt(
                 mContext.getContentResolver(),
                 LineageSettings.System.HIDE_NOTIFICATIONICON_LEFT_SYSTEM_ICON,
                 0) == 1);
+
+
     }
 
 
 
     @Override
     public boolean onPreferenceChange(Preference preference, Object newValue) {
+
+        Log.e("Setting....", "Setting ...onPreferenceChange ");
         LineageSettings.System.putInt(
                 mContext.getContentResolver(),
                 LineageSettings.System.HIDE_NOTIFICATIONICON_LEFT_SYSTEM_ICON,
