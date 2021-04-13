@@ -26,54 +26,95 @@ import com.android.settings.core.PreferenceControllerMixin;
 import com.android.settingslib.core.AbstractPreferenceController;
 import lineageos.providers.LineageSettings;
 import android.util.Log;
+
+
+import android.content.Context;
+import android.provider.Settings;
+
+import com.android.settings.core.TogglePreferenceController;
+
+import androidx.annotation.VisibleForTesting;
+
 //PinScramblePreferenceController
 
-public class HideNotificationIconsPreferenceController extends AbstractPreferenceController
-        implements PreferenceControllerMixin, Preference.OnPreferenceChangeListener {
+public class HideNotificationIconsPreferenceController extends TogglePreferenceController {
 
-    static final String HIDE_NOTIFICATIONICON_LEFT_SYSTEM_ICON = "hide_notificationIcon_left_system_icon";
+    private static final String TAG = "HideNotificationIconsPreferenceController";
+    @VisibleForTesting
+    static final int ON = 1;
+    @VisibleForTesting
+    static final int OFF = 0;
 
-    public HideNotificationIconsPreferenceController(Context context) {
-        super(context);
-    }
-
-
-    @Override
-    public boolean isAvailable() {
-        Log.e("Setting....", "Setting ...isAvailable ");
-       // LineageSettings.System.HIDE_NOTIFICATIONICON_LEFT_SYSTEM_ICON;
-        return true;
+    public HideNotificationIconsPreferenceController(Context context, String preferenceKey) {
+        super(context, preferenceKey);
     }
 
     @Override
-    public String getPreferenceKey() {
-        Log.e("Setting....", "Setting ...getPreferenceKey ");
-        return HIDE_NOTIFICATIONICON_LEFT_SYSTEM_ICON;
+    public int getAvailabilityStatus() {
+        return AVAILABLE;
     }
 
     @Override
-    public void updateState(Preference preference) {
-        Log.e("Setting....", "Setting ...updateState ");
-        ((TwoStatePreference) preference).setChecked(LineageSettings.System.getInt(
-                mContext.getContentResolver(),
-                LineageSettings.System.HIDE_NOTIFICATIONICON_LEFT_SYSTEM_ICON,
-                0) == 1);
-
-
+    public boolean isChecked() {
+        return Settings.Secure.getInt(mContext.getContentResolver(),
+                LineageSettings.System.HIDE_NOTIFICATIONICON_LEFT_SYSTEM_ICON, OFF) == ON;
     }
-
-
 
     @Override
-    public boolean onPreferenceChange(Preference preference, Object newValue) {
-
-        Log.e("Setting....", "Setting ...onPreferenceChange ");
-        LineageSettings.System.putInt(
-                mContext.getContentResolver(),
-                LineageSettings.System.HIDE_NOTIFICATIONICON_LEFT_SYSTEM_ICON,
-                (Boolean) newValue ? 1 : 0);
-        return true;
+    public boolean setChecked(boolean isChecked) {
+        return Settings.Secure.putInt(mContext.getContentResolver(),
+                LineageSettings.System.HIDE_NOTIFICATIONICON_LEFT_SYSTEM_ICON, isChecked ? ON : OFF);
     }
+
+//
+//
+//
+//        AbstractPreferenceController
+//        implements PreferenceControllerMixin, Preference.OnPreferenceChangeListener {
+//
+//            static final String HIDE_NOTIFICATIONICON_LEFT_SYSTEM_ICON = "hide_notificationIcon_left_system_icon";
+//
+//    public HideNotificationIconsPreferenceController(Context context) {
+//                super(context);
+//            }
+//
+//
+//            @Override
+//            public boolean isAvailable() {
+//                Log.e("Setting....", "Setting ...isAvailable ");
+//                // LineageSettings.System.HIDE_NOTIFICATIONICON_LEFT_SYSTEM_ICON;
+//                return true;
+//            }
+//
+//            @Override
+//            public String getPreferenceKey() {
+//                Log.e("Setting....", "Setting ...getPreferenceKey ");
+//                return HIDE_NOTIFICATIONICON_LEFT_SYSTEM_ICON;
+//            }
+//
+//            @Override
+//            public void updateState(Preference preference) {
+//                Log.e("Setting....", "Setting ...updateState ");
+//                ((TwoStatePreference) preference).setChecked(LineageSettings.System.getInt(
+//                        mContext.getContentResolver(),
+//                        LineageSettings.System.HIDE_NOTIFICATIONICON_LEFT_SYSTEM_ICON,
+//                        0) == 1);
+//
+//
+//            }
+//
+//
+//
+//            @Override
+//            public boolean onPreferenceChange(Preference preference, Object newValue) {
+//
+//                Log.e("Setting....", "Setting ...onPreferenceChange ");
+//                LineageSettings.System.putInt(
+//                        mContext.getContentResolver(),
+//                        LineageSettings.System.HIDE_NOTIFICATIONICON_LEFT_SYSTEM_ICON,
+//                        (Boolean) newValue ? 1 : 0);
+//                return true;
+//    }
 
 
 
