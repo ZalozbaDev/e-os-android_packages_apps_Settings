@@ -61,7 +61,10 @@ public class HideNotificationIconsPreferenceController extends TogglePreferenceC
 
     @Override
     public boolean isChecked() {
+
+
         Log.e("Setting....", "Setting ...isChecked.................. ");
+
         return Settings.Secure.getInt(mContext.getContentResolver(),
                 LineageSettings.System.HIDE_NOTIFICATIONICON_LEFT_SYSTEM_ICON, OFF) == ON;
     }
@@ -69,8 +72,14 @@ public class HideNotificationIconsPreferenceController extends TogglePreferenceC
     @Override
     public boolean setChecked(boolean isChecked) {
         Log.e("Setting....", "Setting ...setChecked.................. "+isChecked);
-        return Settings.Secure.putInt(mContext.getContentResolver(),
+        Log.e("Setting....", "Setting ...value .................. "+LineageSettings.System.HIDE_NOTIFICATIONICON_LEFT_SYSTEM_ICON);
+        boolean out=Settings.Secure.putInt(mContext.getContentResolver(),
                 LineageSettings.System.HIDE_NOTIFICATIONICON_LEFT_SYSTEM_ICON, isChecked ? ON : OFF);
+
+        Log.e("Setting....", "Setting ...setChecked.........out......... "+out);
+
+        Log.e("Setting....", "Setting ...setChecked.........HIDE_NOTIFICATIONICON_LEFT_SYSTEM_ICON......... "+LineageSettings.System.HIDE_NOTIFICATIONICON_LEFT_SYSTEM_ICON);
+        return out;
     }
 
 //
