@@ -92,11 +92,18 @@
             android:title="@string/snooze_options_title"
             settings:controller="com.android.settings.notification.SnoozeNotificationPreferenceController" />
 
-        <SwitchPreference
-            android:key="hide_notification_icons"
+<!--        <SwitchPreference-->
+<!--            android:key="hide_notification_icons"-->
+<!--            android:title="@string/hide_notification_icons"-->
+<!--            settings:controller="com.android.settings.notification.HideNotificationIconsPreferenceController"-->
+<!--             />-->
+
+        <lineageos.preference.HideNotificationSwitchPreference
+            android:key="heads_up_notifications_enabled"
             android:title="@string/hide_notification_icons"
-            settings:controller="com.android.settings.notification.HideNotificationIconsPreferenceController"
-             />
+           />
+<!--        android:summary="@string/heads_up_notifications_enabled_summary"-->
+
         <!--settings:controller="com.android.settings.notification.HideNotificationIconsPreferenceController"-->
         <SwitchPreference
             android:key="asst_capabilities_actions_replies"
@@ -109,6 +116,8 @@
             android:key="notification_badging"
             android:title="@string/notification_badging_title"
             settings:controller="com.android.settings.notification.BadgingNotificationPreferenceController"/>
+
+
 
         <!-- Pulse notification light -->
         <SwitchPreference
