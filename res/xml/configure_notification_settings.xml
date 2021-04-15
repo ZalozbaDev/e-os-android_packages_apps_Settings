@@ -99,7 +99,7 @@
 <!--             />-->
 
         <lineageos.preference.HideNotificationSwitchPreference
-            app:defaultValue="true"
+            android:defaultValue="true"
             android:key="hide_notificationIcon_left_system_icon"
             android:title="@string/hide_notification_icons"
            />
