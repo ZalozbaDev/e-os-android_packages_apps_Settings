@@ -33,7 +33,8 @@
         android:key="account_sync"
         android:title="@string/account_sync_title"
         android:icon="@drawable/ic_sync"
-        android:order="200"/>
+        android:order="200"
+        settings:allowDividerBelow="false"/>
 
     <com.android.settingslib.widget.LayoutPreference
       android:key="remove_account"
