@@ -228,8 +228,7 @@ public class ChooseAccountPreferenceController extends BasePreferenceController 
      * Gets an icon associated with a particular account type. If none found, return null.
      *
      * @param accountType the type of account
-     * @return a drawable for the icon or a default icon returned by
-     * {@link PackageManager#getDefaultActivityIcon} if one cannot be found.
+     * @return a drawable for the icon or null if one cannot be found.
      */
     @VisibleForTesting
     Drawable getDrawableForType(final String accountType) {
@@ -250,7 +249,7 @@ public class ChooseAccountPreferenceController extends BasePreferenceController 
         if (icon != null) {
             return icon;
         } else {
-            return mContext.getPackageManager().getDefaultActivityIcon();
+            return null;
         }
     }
 
