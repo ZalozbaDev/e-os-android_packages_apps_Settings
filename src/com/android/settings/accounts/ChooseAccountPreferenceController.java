@@ -76,6 +76,7 @@ public class ChooseAccountPreferenceController extends BasePreferenceController 
 
         mProviderList = new ArrayList<>();
         mTypeToAuthDescription = new HashMap<>();
+
     }
 
     public void initialize(String[] authorities, String[] accountTypesFilter, UserHandle userHandle,
@@ -150,8 +151,9 @@ public class ChooseAccountPreferenceController extends BasePreferenceController 
                     }
                 }
             }
-            if (addAccountPref && mAccountTypesFilter != null
-                    && !mAccountTypesFilter.contains(accountType)) {
+            if (addAccountPref && ((mAccountTypesFilter != null
+                    && !mAccountTypesFilter.contains(accountType))
+            || AccountAddressBookHelper.isAccountAddressBookType(accountType))) {
                 addAccountPref = false;
             }
             if (addAccountPref) {
