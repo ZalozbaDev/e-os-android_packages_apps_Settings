@@ -79,6 +79,12 @@ public class AccountPreferenceController extends AbstractPreferenceController
     private static final int ORDER_NEXT_TO_LAST = 1001;
     private static final int ORDER_NEXT_TO_NEXT_TO_LAST = 1000;
 
+    /*
+     by convention all address book account types has "address_book" postfix
+     e.g. "foundation.e.accountmanager.address_book"
+     */
+    private static final String ADDRESS_BOOK_ACCOUNT_TYPE = "address_book";
+
     private UserManager mUm;
     private SparseArray<ProfileData> mProfiles = new SparseArray<ProfileData>();
     private ManagedProfileBroadcastReceiver mManagedProfileBroadcastReceiver
@@ -482,6 +488,9 @@ public class AccountPreferenceController extends AbstractPreferenceController
 
         for (int i = 0; i < accountTypes.length; i++) {
             final String accountType = accountTypes[i];
+            // Skip displaying address book accounts
+            if (accountType.contains(ADDRESS_BOOK_ACCOUNT_TYPE))
+                continue;
             // Skip showing any account that does not have any of the requested authorities
             if (!accountTypeHasAnyRequestedAuthorities(helper, accountType)) {
                 continue;
