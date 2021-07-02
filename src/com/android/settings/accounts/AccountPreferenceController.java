@@ -482,9 +482,6 @@ public class AccountPreferenceController extends AbstractPreferenceController
 
         for (int i = 0; i < accountTypes.length; i++) {
             final String accountType = accountTypes[i];
-            // Skip displaying address book accounts
-            if (AccountAddressBookHelper.isAccountAddressBookType(accountType))
-                continue;
             final CharSequence label = helper.getLabelForType(mContext, accountType);
             if (label == null) {
                 continue;
@@ -499,20 +496,26 @@ public class AccountPreferenceController extends AbstractPreferenceController
 
             // Add a preference row for each individual account
             for (Account account : accounts) {
+                // create account with converted name
+                Account convertedNameAccount = new Account(
+                        AccountAddressBookHelper.convertAccountName(account.name),
+                        account.type,
+                        account.getAccessId()
+                        );
                 final AccountTypePreference preference =
-                        preferenceToRemove.remove(AccountTypePreference.buildKey(account));
+                        preferenceToRemove.remove(AccountTypePreference.buildKey(convertedNameAccount));
                 if (preference != null) {
                     accountTypePreferences.add(preference);
                     continue;
                 }
                 final ArrayList<String> auths =
-                    helper.getAuthoritiesForAccountType(account.type);
+                    helper.getAuthoritiesForAccountType(convertedNameAccount.type);
                 if (!AccountRestrictionHelper.showAccount(mAuthorities, auths)) {
                     continue;
                 }
                 final Bundle fragmentArguments = new Bundle();
                 fragmentArguments.putParcelable(AccountDetailDashboardFragment.KEY_ACCOUNT,
-                    account);
+                        convertedNameAccount);
                 fragmentArguments.putParcelable(AccountDetailDashboardFragment.KEY_USER_HANDLE,
                     userHandle);
                 fragmentArguments.putString(AccountDetailDashboardFragment.KEY_ACCOUNT_TYPE,
@@ -522,9 +525,10 @@ public class AccountPreferenceController extends AbstractPreferenceController
                 fragmentArguments.putInt(AccountDetailDashboardFragment.KEY_ACCOUNT_TITLE_RES,
                     titleResId);
                 fragmentArguments.putParcelable(EXTRA_USER, userHandle);
+                //c
                 accountTypePreferences.add(new AccountTypePreference(
                     prefContext, mMetricsFeatureProvider.getMetricsCategory(mParent),
-                    account, titleResPackageName, titleResId, label,
+                        convertedNameAccount, titleResPackageName, titleResId, label,
                     AccountDetailDashboardFragment.class.getName(), fragmentArguments, icon));
             }
             helper.preloadDrawableForType(mContext, accountType);
