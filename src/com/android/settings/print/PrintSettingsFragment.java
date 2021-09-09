@@ -212,6 +212,7 @@ public class PrintSettingsFragment extends ProfileSettingsPreferenceFragment
 
                 Drawable drawable = service.getResolveInfo().loadIcon(pm);
                 if (drawable != null) {
+                    drawable.mutate().setTint(context.getResources().getColor(R.color.color_default_accent));
                     preference.setIcon(drawable);
                 }
 
@@ -365,7 +366,7 @@ public class PrintSettingsFragment extends ProfileSettingsPreferenceFragment
                         case PrintJobInfo.STATE_QUEUED:
                         case PrintJobInfo.STATE_STARTED: {
                             Drawable icon = getActivity().getDrawable(
-                                    com.android.internal.R.drawable.ic_print);
+                                    R.drawable.ic_print);
                             icon.setTint(tintColor);
                             preference.setIcon(icon);
                             break;
@@ -374,7 +375,7 @@ public class PrintSettingsFragment extends ProfileSettingsPreferenceFragment
                         case PrintJobInfo.STATE_FAILED:
                         case PrintJobInfo.STATE_BLOCKED: {
                             Drawable icon = getActivity().getDrawable(
-                                    com.android.internal.R.drawable.ic_print_error);
+                                    R.drawable.ic_print_error);
                             icon.setTint(tintColor);
                             preference.setIcon(icon);
                             break;

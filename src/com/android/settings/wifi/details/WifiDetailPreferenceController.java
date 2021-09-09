@@ -28,6 +28,8 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.graphics.Bitmap;
+import android.graphics.PorterDuff;
+import android.graphics.PorterDuffColorFilter;
 import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.Drawable;
 import android.graphics.drawable.VectorDrawable;
@@ -585,7 +587,6 @@ public class WifiDetailPreferenceController extends AbstractPreferenceController
         }
 
         Drawable wifiIconDark = wifiIcon.getConstantState().newDrawable().mutate();
-        wifiIconDark.setTintList(Utils.getColorAttr(mContext, android.R.attr.colorControlNormal));
         mSignalStrengthPref.setIcon(wifiIconDark);
 
         mSignalStrengthPref.setSummary(mSignalStr[mRssiSignalLevel]);
@@ -603,9 +604,6 @@ public class WifiDetailPreferenceController extends AbstractPreferenceController
             return original;
         }
 
-        // clear tint list to make sure can set 87% black after enlarge
-        original.setTintList(null);
-
         // enlarge icon size
         final Bitmap bitmap = Utils.createBitmap(original,
                 iconSize /*width*/,
@@ -613,7 +611,7 @@ public class WifiDetailPreferenceController extends AbstractPreferenceController
         Drawable newIcon = new BitmapDrawable(null /*resource*/, bitmap);
 
         // config color for 87% black after enlarge
-        newIcon.setTintList(Utils.getColorAttr(mContext, android.R.attr.textColorPrimary));
+        newIcon.setTintList(Utils.getColorAttr(mContext, R.color.color_default_accent));
 
         return newIcon;
     }
@@ -960,7 +958,9 @@ public class WifiDetailPreferenceController extends AbstractPreferenceController
         }
 
         public Drawable getIcon(int level) {
-            return mContext.getDrawable(Utils.getWifiIconResource(level)).mutate();
+            Drawable icon = mContext.getDrawable(Utils.getWifiIconResource(level));
+            icon.setTint(mContext.getColor(R.color.color_default_accent));
+            return icon.mutate();
         }
     }
 

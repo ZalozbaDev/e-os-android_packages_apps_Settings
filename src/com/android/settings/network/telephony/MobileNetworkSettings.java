@@ -248,7 +248,7 @@ public class MobileNetworkSettings extends RestrictedDashboardFragment {
                 mSubId != SubscriptionManager.INVALID_SUBSCRIPTION_ID) {
             final MenuItem item = menu.add(Menu.NONE, R.id.edit_sim_name, Menu.NONE,
                     R.string.mobile_network_sim_name);
-            item.setIcon(com.android.internal.R.drawable.ic_mode_edit);
+            item.setIcon(R.drawable.ic_mode_edit);
             item.setShowAsAction(MenuItem.SHOW_AS_ACTION_ALWAYS);
         }
         super.onCreateOptionsMenu(menu, inflater);

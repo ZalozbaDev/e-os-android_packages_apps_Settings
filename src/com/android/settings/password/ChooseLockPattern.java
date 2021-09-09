@@ -22,6 +22,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.res.ColorStateList;
 import android.content.res.Resources.Theme;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.util.Log;
 import android.util.Pair;
@@ -30,6 +31,7 @@ import android.view.KeyEvent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.WindowManager;
 import android.widget.LinearLayout;
 import android.widget.ScrollView;
 import android.widget.TextView;
@@ -62,7 +64,7 @@ import java.util.List;
 
 /**
  * If the user has a lock pattern set already, makes them confirm the existing one.
- *
+ * <p>
  * Then, prompts the user to choose a lock pattern:
  * - prompts for initial pattern
  * - asks for confirmation / restart
@@ -212,7 +214,7 @@ public class ChooseLockPattern extends SettingsActivity {
 
         @Override
         public void onActivityResult(int requestCode, int resultCode,
-                Intent data) {
+                                     Intent data) {
             super.onActivityResult(requestCode, resultCode, data);
             switch (requestCode) {
                 case CONFIRM_EXISTING_REQUEST:
@@ -244,64 +246,64 @@ public class ChooseLockPattern extends SettingsActivity {
         protected LockPatternView.OnPatternListener mChooseNewLockPatternListener =
                 new LockPatternView.OnPatternListener() {
 
-                public void onPatternStart() {
-                    mLockPatternView.removeCallbacks(mClearPatternRunnable);
-                    patternInProgress();
-                }
-
-                public void onPatternCleared() {
-                    mLockPatternView.removeCallbacks(mClearPatternRunnable);
-                }
-
-                public void onPatternDetected(List<LockPatternView.Cell> pattern) {
-                    if (mUiStage == Stage.NeedToConfirm || mUiStage == Stage.ConfirmWrong) {
-                        if (mChosenPattern == null) throw new IllegalStateException(
-                                "null chosen pattern in stage 'need to confirm");
-                        final String chosenPatternStr = LockPatternUtils.patternToString(
-                                mChosenPattern, mPatternSize);
-                        final String potentialPatternStr = LockPatternUtils.patternToString(
-                                pattern, mPatternSize);
-
-                        if (chosenPatternStr.equals(potentialPatternStr)) {
-                            updateStage(Stage.ChoiceConfirmed);
-                        } else {
-                            updateStage(Stage.ConfirmWrong);
-                        }
-                    } else if (mUiStage == Stage.Introduction || mUiStage == Stage.ChoiceTooShort){
-                        if (pattern.size() < LockPatternUtils.MIN_LOCK_PATTERN_SIZE) {
-                            updateStage(Stage.ChoiceTooShort);
-                        } else {
-                            mChosenPattern = new ArrayList<LockPatternView.Cell>(pattern);
-                            updateStage(Stage.FirstChoiceValid);
-                        }
-                    } else {
-                        throw new IllegalStateException("Unexpected stage " + mUiStage + " when "
-                                + "entering the pattern.");
+                    public void onPatternStart() {
+                        mLockPatternView.removeCallbacks(mClearPatternRunnable);
+                        patternInProgress();
                     }
-                }
 
-                public void onPatternCellAdded(List<Cell> pattern) {
-
-                }
-
-                private void patternInProgress() {
-                    mHeaderText.setText(R.string.lockpattern_recording_inprogress);
-                    if (mDefaultHeaderColorList != null) {
-                        mHeaderText.setTextColor(mDefaultHeaderColorList);
+                    public void onPatternCleared() {
+                        mLockPatternView.removeCallbacks(mClearPatternRunnable);
                     }
-                    mFooterText.setText("");
-                    mNextButton.setEnabled(false);
 
-                    if (mTitleHeaderScrollView != null) {
-                        mTitleHeaderScrollView.post(new Runnable() {
-                            @Override
-                            public void run() {
-                                mTitleHeaderScrollView.fullScroll(ScrollView.FOCUS_DOWN);
+                    public void onPatternDetected(List<LockPatternView.Cell> pattern) {
+                        if (mUiStage == Stage.NeedToConfirm || mUiStage == Stage.ConfirmWrong) {
+                            if (mChosenPattern == null) throw new IllegalStateException(
+                                    "null chosen pattern in stage 'need to confirm");
+                            final String chosenPatternStr = LockPatternUtils.patternToString(
+                                    mChosenPattern, mPatternSize);
+                            final String potentialPatternStr = LockPatternUtils.patternToString(
+                                    pattern, mPatternSize);
+
+                            if (chosenPatternStr.equals(potentialPatternStr)) {
+                                updateStage(Stage.ChoiceConfirmed);
+                            } else {
+                                updateStage(Stage.ConfirmWrong);
                             }
-                        });
+                        } else if (mUiStage == Stage.Introduction || mUiStage == Stage.ChoiceTooShort) {
+                            if (pattern.size() < LockPatternUtils.MIN_LOCK_PATTERN_SIZE) {
+                                updateStage(Stage.ChoiceTooShort);
+                            } else {
+                                mChosenPattern = new ArrayList<LockPatternView.Cell>(pattern);
+                                updateStage(Stage.FirstChoiceValid);
+                            }
+                        } else {
+                            throw new IllegalStateException("Unexpected stage " + mUiStage + " when "
+                                    + "entering the pattern.");
+                        }
                     }
-                }
-         };
+
+                    public void onPatternCellAdded(List<Cell> pattern) {
+
+                    }
+
+                    private void patternInProgress() {
+                        mHeaderText.setText(R.string.lockpattern_recording_inprogress);
+                        if (mDefaultHeaderColorList != null) {
+                            mHeaderText.setTextColor(mDefaultHeaderColorList);
+                        }
+                        mFooterText.setText("");
+                        mNextButton.setEnabled(false);
+
+                        if (mTitleHeaderScrollView != null) {
+                            mTitleHeaderScrollView.post(new Runnable() {
+                                @Override
+                                public void run() {
+                                    mTitleHeaderScrollView.fullScroll(ScrollView.FOCUS_DOWN);
+                                }
+                            });
+                        }
+                    }
+                };
 
         @Override
         public int getMetricsCategory() {
@@ -319,7 +321,7 @@ public class ChooseLockPattern extends SettingsActivity {
 
 
             /**
-             * @param text The displayed text for this mode.
+             * @param text    The displayed text for this mode.
              * @param enabled Whether the button should be enabled.
              */
             LeftButtonMode(int text, boolean enabled) {
@@ -342,7 +344,7 @@ public class ChooseLockPattern extends SettingsActivity {
             Ok(android.R.string.ok, true);
 
             /**
-             * @param text The displayed text for this mode.
+             * @param text    The displayed text for this mode.
              * @param enabled Whether the button should be enabled.
              */
             RightButtonMode(int text, boolean enabled) {
@@ -394,18 +396,18 @@ public class ChooseLockPattern extends SettingsActivity {
 
             /**
              * @param messageForBiometrics The message displayed at the top, above header for
-             *                              fingerprint flow.
-             * @param message The message displayed at the top.
-             * @param headerMessage The message displayed at the top.
-             * @param leftMode The mode of the left button.
-             * @param rightMode The mode of the right button.
-             * @param footerMessage The footer message.
-             * @param patternEnabled Whether the pattern widget is enabled.
+             *                             fingerprint flow.
+             * @param message              The message displayed at the top.
+             * @param headerMessage        The message displayed at the top.
+             * @param leftMode             The mode of the left button.
+             * @param rightMode            The mode of the right button.
+             * @param footerMessage        The footer message.
+             * @param patternEnabled       Whether the pattern widget is enabled.
              */
             Stage(int messageForBiometrics, int message, int headerMessage,
-                    LeftButtonMode leftMode,
-                    RightButtonMode rightMode,
-                    int footerMessage, boolean patternEnabled) {
+                  LeftButtonMode leftMode,
+                  RightButtonMode rightMode,
+                  int footerMessage, boolean patternEnabled) {
                 this.headerMessage = headerMessage;
                 this.messageForBiometrics = messageForBiometrics;
                 this.message = message;
@@ -474,7 +476,7 @@ public class ChooseLockPattern extends SettingsActivity {
 
         @Override
         public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                Bundle savedInstanceState) {
+                                 Bundle savedInstanceState) {
             final GlifLayout layout = (GlifLayout) inflater.inflate(
                     R.layout.choose_lock_pattern, container, false);
             layout.setHeaderText(getActivity().getTitle());
@@ -519,7 +521,7 @@ public class ChooseLockPattern extends SettingsActivity {
                     LockPatternView.Cell.of(0, 1, mPatternSize),
                     LockPatternView.Cell.of(1, 1, mPatternSize),
                     LockPatternView.Cell.of(2, 1, mPatternSize)
-                    ));
+            ));
 
             return layout;
         }
@@ -566,10 +568,10 @@ public class ChooseLockPattern extends SettingsActivity {
                     // know there isn't an existing password or the user confirms their password.
                     updateStage(Stage.NeedToConfirm);
                     boolean launchedConfirmationActivity =
-                        mChooseLockSettingsHelper.launchConfirmationActivity(
-                                CONFIRM_EXISTING_REQUEST,
-                                getString(R.string.unlock_set_unlock_launch_picker_title), true,
-                                mUserId);
+                            mChooseLockSettingsHelper.launchConfirmationActivity(
+                                    CONFIRM_EXISTING_REQUEST,
+                                    getString(R.string.unlock_set_unlock_launch_picker_title), true,
+                                    mUserId);
                     if (!launchedConfirmationActivity) {
                         updateStage(Stage.Introduction);
                     }
@@ -694,6 +696,7 @@ public class ChooseLockPattern extends SettingsActivity {
          * Updates the messages and buttons appropriate to what stage the user
          * is at in choosing a view.  This doesn't handle clearing out the pattern;
          * the pattern is expected to be in the right state.
+         *
          * @param stage
          */
         protected void updateStage(Stage stage) {
@@ -856,9 +859,9 @@ public class ChooseLockPattern extends SettingsActivity {
         private byte mPatternSize;
 
         public void start(LockPatternUtils utils, boolean credentialRequired,
-                boolean hasChallenge, long challenge,
-                List<LockPatternView.Cell> chosenPattern, byte[] currentPattern,
-                int userId, byte patternSize) {
+                          boolean hasChallenge, long challenge,
+                          List<LockPatternView.Cell> chosenPattern, byte[] currentPattern,
+                          int userId, byte patternSize) {
             prepare(utils, credentialRequired, hasChallenge, challenge, userId);
 
             mCurrentPattern = currentPattern;

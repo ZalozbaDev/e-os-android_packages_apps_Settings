@@ -122,7 +122,7 @@ public class MediaOutputSlice implements CustomSliceable {
         if (drawable == null) {
             Log.d(TAG, "getDeviceIconCompat() device : " + device.getName() + ", drawable is null");
             // Use default Bluetooth device icon to handle getIcon() is null case.
-            drawable = mContext.getDrawable(com.android.internal.R.drawable.ic_bt_headphones_a2dp);
+            drawable = mContext.getDrawable(R.drawable.ic_bt_headphones_a2dp);
         }
 
         return Utils.createIconWithDrawable(drawable);

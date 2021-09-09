@@ -23,27 +23,29 @@
         <item name="android:windowIsFloating">true</item>
     </style>
 
-    <style name="Theme.SettingsBase" parent="@android:style/Theme.DeviceDefault.Settings" />
-
-    <style name="Theme.Settings" parent="Theme.SettingsBase">
+    <style name="Theme.SettingsBase" parent="@android:style/Theme.DeviceDefault.Settings">
         <item name="preferenceTheme">@style/PreferenceTheme</item>
         <item name="android:clipToPadding">false</item>
         <item name="android:clipChildren">false</item>
         <item name="android:listPreferredItemHeight">72dip</item>
         <item name="android:homeAsUpIndicator">@drawable/ic_arrow_back</item>
-        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@color/color_default_primary_dark</item>
+        <item name="android:navigationBarDividerColor">@color/color_default_primary_dark</item>
+        <item name="android:statusBarColor">@color/color_default_primary_dark</item>
 
         <item name="fingerprint_layout_theme">@style/FingerprintLayoutTheme</item>
         <item name="face_layout_theme">@style/FaceLayoutTheme</item>
-        <item name="ic_menu_moreoverflow">@*android:drawable/ic_menu_moreoverflow_holo_dark</item>
+        <item name="ic_menu_moreoverflow">@drawable/ic_more_24</item>
+        <item name="actionOverflowButtonStyle">@style/customOverFlow</item>
+        <item name="android:actionOverflowButtonStyle">@style/customOverFlow</item>
 
         <!-- For wifi icon -->
         <item name="wifi_signal">@drawable/wifi_signal</item>
-        <item name="wifi_signal_color">?android:attr/colorAccent</item>
+        <item name="wifi_signal_color">@color/color_default_accent</item>
         <item name="wifi_friction">@drawable/wifi_friction</item>
 
         <item name="side_margin">0dp</item>
-        <item name="sudListItemIconColor">?android:attr/colorAccent</item>
+        <item name="sudListItemIconColor">@color/color_default_accent</item>
 
         <!-- Redefine the ActionBar style for contentInsetStart -->
         <item name="android:actionBarStyle">@style/Widget.ActionBar</item>
@@ -58,11 +60,20 @@
         <item name="*android:lockPatternStyle">@style/LockPatternStyle.Setup</item>
 
         <!-- For AppBarLayout -->
-        <item name="colorPrimary">@*android:color/primary_device_default_settings_light</item>
-        <item name="colorPrimaryVariant">@android:color/white</item>
+        <item name="colorPrimary">@color/color_default_primary</item>
+        <item name="colorPrimaryDark">@color/color_default_primary_dark</item>
+        <item name="colorAccent">@color/color_default_accent</item>
+        <item name="colorPrimaryVariant">@color/color_default_primary_dark</item>
+        <item name="android:colorBackground">@color/color_default_background</item>
+        <item name="android:windowBackground">@color/color_default_background</item>
+        <item name="android:textColorPrimary">@color/color_default_primary_text</item>
+        <item name="android:textColorSecondary">@color/color_default_secondary_text</item>
 
         <!-- For slice view in settings -->
         <item name="sliceViewStyle">@style/Widget.SliceView.Settings</item>
+    </style>
+
+    <style name="Theme.Settings" parent="Theme.SettingsBase">
     </style>
 
     <!-- Variant of the settings theme with no action bar. -->
@@ -80,14 +91,26 @@
 
     <style name="Theme.SubSettings" parent="Theme.SubSettings.Base"/>
 
-    <style name="Theme.ProvisioningActivity" parent="@android:style/Theme.Translucent.NoTitleBar">
+    <style name="Theme.ProvisioningActivity.Base" parent="@android:style/Theme.Translucent.NoTitleBar">
         <item name="android:windowAnimationStyle">@null</item>
         <item name="android:windowIsTranslucent">true</item>
-        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowBackground">@color/color_default_background</item>
         <item name="android:windowContentOverlay">@null</item>
         <item name="android:windowNoTitle">true</item>
         <item name="android:windowIsFloating">true</item>
         <item name="android:backgroundDimEnabled">false</item>
+        <item name="colorPrimary">@color/color_default_primary</item>
+        <item name="colorPrimaryDark">@color/color_default_primary_dark</item>
+        <item name="colorAccent">@color/color_default_accent</item>
+        <item name="android:colorBackground">@color/color_default_background</item>
+        <item name="android:textColorPrimary">@color/color_default_primary_text</item>
+        <item name="android:textColorSecondary">@color/color_default_secondary_text</item>
+        <item name="android:navigationBarColor">@color/color_default_primary_dark</item>
+        <item name="android:navigationBarDividerColor">@color/color_default_primary_dark</item>
+        <item name="android:statusBarColor">@color/color_default_primary_dark</item>
+    </style>
+
+    <style name="Theme.ProvisioningActivity" parent="@style/Theme.ProvisioningActivity.Base">
     </style>
 
     <style name="ThemeOverlay.SwitchBar.Settings.Base" parent="@*android:style/ThemeOverlay.DeviceDefault.ActionBar">
@@ -95,11 +118,13 @@
         <item name="switchBarMarginStart">@dimen/switchbar_subsettings_margin_start</item>
         <item name="switchBarMarginEnd">@dimen/switchbar_subsettings_margin_end</item>
         <item name="switchBarBackgroundColor">@color/switchbar_background_color</item>
-        <item name="switchBarBackgroundActivatedColor">?android:attr/colorAccent</item>
-        <item name="switchBarRestrictionIcon">@*android:drawable/ic_info</item>
+        <item name="switchBarBackgroundActivatedColor">@color/color_default_accent</item>
+        <item name="switchBarRestrictionIcon">@drawable/ic_info</item>
     </style>
 
-    <style name="ThemeOverlay.SwitchBar.Settings" parent="ThemeOverlay.SwitchBar.Settings.Base"/>
+    <style name="ThemeOverlay.SwitchBar.Settings" parent="ThemeOverlay.SwitchBar.Settings.Base">
+        <item name="android:textColorPrimaryInverse">@color/color_default_foreground</item>
+    </style>
 
     <style name="Widget.SwitchBar.Switch" parent="@android:style/Widget.Material.CompoundButton.Switch">
         <item name="android:trackTint">@color/switchbar_switch_track_tint</item>
@@ -108,13 +133,27 @@
         <item name="android:minWidth">@dimen/min_tap_target_size</item>
     </style>
 
-    <style name="Theme.CryptKeeper" parent="@android:style/Theme.Material.NoActionBar">
+    <style name="Theme.CryptKeeper.Base" parent="@android:style/Theme.Material.NoActionBar">
         <item name="android:windowTranslucentStatus">false</item>
         <item name="android:windowTranslucentNavigation">false</item>
         <item name="android:windowDrawsSystemBarBackgrounds">false</item>
-        <item name="android:background">@android:color/black</item>
+        <item name="android:background">@color/color_default_background</item>
 
         <item name="*android:lockPatternStyle">@style/LockPatternStyle.Unlock</item>
+
+        <item name="colorPrimary">@color/color_default_primary</item>
+        <item name="colorPrimaryDark">@color/color_default_primary_dark</item>
+        <item name="colorAccent">@color/color_default_accent</item>
+        <item name="android:windowBackground">@color/color_default_background</item>
+        <item name="android:colorBackground">@color/color_default_background</item>
+        <item name="android:textColorPrimary">@color/color_default_primary_text</item>
+        <item name="android:textColorSecondary">@color/color_default_secondary_text</item>
+        <item name="android:navigationBarColor">@color/color_default_primary_dark</item>
+        <item name="android:navigationBarDividerColor">@color/color_default_primary_dark</item>
+        <item name="android:statusBarColor">@color/color_default_primary_dark</item>
+    </style>
+
+    <style name="Theme.CryptKeeper" parent="@style/Theme.CryptKeeper.Base">
     </style>
 
     <style name="ThemeOverlay.AlertDialog" parent="@android:style/ThemeOverlay.Material.Dialog.Alert">
@@ -122,7 +161,8 @@
     </style>
 
     <style name="Theme.AlertDialog.Base" parent="@style/Theme.AppCompat.DayNight.Dialog.Alert">
-        <item name="colorAccent">@*android:color/accent_device_default_light</item>
+        <item name="colorAccent">@color/color_default_accent</item>
+        <item name="android:windowBackground">@color/dialog_background</item>
         <item name="android:colorBackground">@color/dialog_background</item>
     </style>
 
@@ -141,6 +181,32 @@
         <item name="buttonBarButtonStyle">@*android:style/Widget.DeviceDefault.Button.ButtonBar.AlertDialog</item>
     </style>
 
+    <style name="Theme.Dialog" parent="@style/Theme.DialogBase">
+        <item name="android:alertDialogTheme">@style/Theme.AlertDialog</item>
+        <item name="android:colorAccent">@color/color_default_accent</item>
+        <item name="android:windowBackground">@color/color_default_background</item>
+        <item name="android:colorBackground">@color/color_default_background</item>
+        <item name="android:textColorPrimary">@color/color_default_primary_text</item>
+        <item name="android:textColorSecondary">@color/color_default_secondary_text</item>
+    </style>
+
+    <style name="Theme.DialogBase" parent="@android:style/Theme.DeviceDefault.Light.Dialog">
+    </style>
+
+    <style name="Custom.Panel" parent="@style/Custom.PanelBase">
+        <item name="android:colorPrimary">@color/color_default_primary</item>
+        <item name="android:colorPrimaryDark">@color/color_default_primary_dark</item>
+        <item name="android:alertDialogTheme">@style/Theme.AlertDialog</item>
+        <item name="android:colorAccent">@color/color_default_accent</item>
+        <item name="android:windowBackground">@color/color_default_background</item>
+        <item name="android:colorBackground">@color/color_default_background</item>
+        <item name="android:textColorPrimary">@color/color_default_primary_text</item>
+        <item name="android:textColorSecondary">@color/color_default_secondary_text</item>
+    </style>
+
+    <style name="Custom.PanelBase" parent="@android:style/Theme.DeviceDefault.Light.Panel">
+    </style>
+
     <style name="Theme.ConfirmDeviceCredentials" parent="Theme.SubSettings">
         <item name="confirmDeviceCredentialsSideMargin">@dimen/confirm_credentials_side_margin</item>
         <item name="confirmDeviceCredentialsTopMargin">@dimen/confirm_credentials_top_margin</item>
@@ -149,7 +215,7 @@
     <style name="Theme.ConfirmDeviceCredentialsDark" parent="@android:style/Theme.DeviceDefault">
         <item name="android:windowActionBar">false</item>
         <item name="android:windowNoTitle">true</item>
-        <item name="android:windowBackground">?android:attr/colorPrimary</item>
+        <item name="android:windowBackground">@color/color_default_background</item>
 
         <item name="confirmDeviceCredentialsSideMargin">32dp</item>
         <item name="confirmDeviceCredentialsTopMargin">32dp</item>
@@ -161,28 +227,50 @@
 
     <style name="Theme.ConfirmDeviceCredentialsWork" parent="Theme.ConfirmDeviceCredentialsDark">
         <item name="*android:lockPatternStyle">@style/LockPatternStyle.Dark.Work</item>
-        <item name="android:colorAccent">@*android:color/white</item>
+        <item name="android:colorAccent">@color/color_default_accent</item>
     </style>
 
-    <style name="FallbackHome" parent="@android:style/Theme.DeviceDefault.NoActionBar">
-        <item name="android:windowBackground">@android:color/transparent</item>
+    <style name="FallbackHome.Base" parent="@android:style/Theme.DeviceDefault.NoActionBar">
+        <item name="android:windowBackground">@color/color_default_background</item>
         <item name="android:colorBackgroundCacheHint">@null</item>
         <item name="android:windowShowWallpaper">true</item>
         <item name="android:windowNoTitle">true</item>
         <item name="android:windowTranslucentStatus">false</item>
         <item name="android:windowTranslucentNavigation">false</item>
         <item name="android:windowDrawsSystemBarBackgrounds">true</item>
-        <item name="android:statusBarColor">#00000000</item>
-        <item name="android:navigationBarColor">#00000000</item>
+        <item name="android:statusBarColor">@color/color_default_primary_dark</item>
+        <item name="android:navigationBarColor">@color/color_default_primary_dark</item>
+        <item name="android:navigationBarDividerColor">@color/color_default_primary_dark</item>
+
+        <item name="colorPrimary">@color/color_default_primary</item>
+        <item name="colorPrimaryDark">@color/color_default_primary_dark</item>
+        <item name="colorAccent">@color/color_default_accent</item>
+        <item name="android:colorBackground">@color/color_default_background</item>
+        <item name="android:textColorPrimary">@color/color_default_primary_text</item>
+        <item name="android:textColorSecondary">@color/color_default_secondary_text</item>
     </style>
 
-    <style name="FallbackHome.SetupWizard" parent="@android:style/Theme.Material.NoActionBar.Fullscreen">
+    <style name="FallbackHome" parent="@style/FallbackHome.Base">
+    </style>
+
+    <style name="FallbackHome.SetupWizard.Base" parent="@android:style/Theme.Material.NoActionBar.Fullscreen">
         <item name="android:windowBackground">@drawable/fallback_home_unprovisioned_background</item>
         <item name="android:colorBackgroundCacheHint">@null</item>
         <item name="android:windowNoTitle">true</item>
         <item name="android:windowDrawsSystemBarBackgrounds">true</item>
-        <item name="android:statusBarColor">#00000000</item>
-        <item name="android:navigationBarColor">#00000000</item>
+        <item name="android:statusBarColor">@color/color_default_primary_dark</item>
+        <item name="android:navigationBarColor">@color/color_default_primary_dark</item>
+        <item name="android:navigationBarDividerColor">@color/color_default_primary_dark</item>
+
+        <item name="colorPrimary">@color/color_default_primary</item>
+        <item name="colorPrimaryDark">@color/color_default_primary_dark</item>
+        <item name="colorAccent">@color/color_default_accent</item>
+        <item name="android:colorBackground">@color/color_default_background</item>
+        <item name="android:textColorPrimary">@color/color_default_primary_text</item>
+        <item name="android:textColorSecondary">@color/color_default_secondary_text</item>
+    </style>
+
+    <style name="FallbackHome.SetupWizard" parent="@style/FallbackHome.SetupWizard.Base">
     </style>
 
     <style name="Theme.BluetoothPermission" parent="@style/Theme.AlertDialog">
@@ -190,23 +278,28 @@
     </style>
 
     <style name="Theme.Settings.HomeBase" parent="Theme.Settings.NoActionBar">
-        <item name="colorPrimary">@*android:color/primary_device_default_settings_light</item>
-        <item name="colorAccent">@*android:color/accent_device_default_light</item>
+        <item name="colorPrimary">@color/color_default_primary</item>
+        <item name="colorPrimaryDark">@color/color_default_primary_dark</item>
+        <item name="colorAccent">@color/color_default_accent</item>
+        <item name="android:colorBackground">@color/color_default_background</item>
+        <item name="android:navigationBarDividerColor">@color/color_default_primary_dark</item>
+        <item name="android:navigationBarColor">@color/color_default_primary_dark</item>
+        <item name="android:statusBarColor">@color/color_default_primary_dark</item>
+        <item name="android:windowBackground">@color/color_default_background</item>
         <item name="preferenceTheme">@style/PreferenceTheme</item>
 
         <!-- action bar, needed for search bar icon tinting -->
-        <item name="android:actionBarTheme">@*android:style/ThemeOverlay.DeviceDefault.ActionBar</item>
+        <item name="android:actionBarTheme">@style/customActionBarTheme</item>
 
         <!-- Define this color for material design -->
-        <item name="colorPrimaryVariant">@android:color/white</item>
+        <item name="colorPrimaryVariant">@color/color_default_primary_dark</item>
     </style>
 
     <style name="Theme.Settings.Home" parent="Theme.Settings.HomeBase">
-        <item name="colorPrimaryDark">@*android:color/primary_dark_device_default_settings_light</item>
-        <item name="android:windowLightStatusBar">true</item>
-        <item name="android:navigationBarDividerColor">@*android:color/ripple_material_light</item>
-        <item name="android:navigationBarColor">@android:color/transparent</item>
-        <item name="android:windowBackground">@android:color/white</item>
+    </style>
+    
+    <style name="customActionBarTheme" parent="@*android:style/ThemeOverlay.DeviceDefault.ActionBar">
+        <item name="android:background">@color/color_default_primary_dark</item>
     </style>
 
     <!-- Note that Dialog themes do not set list dividers -->
@@ -222,34 +315,38 @@
          regardless of whether system theme changed to dark or light theme. WARNING: your settings
          activity shows in setupwizard flow, but doesn't use setupwizard theme. This theme must be
          set to ensure settings activity always shows light theme in setupwizard flow. -->
-    <style name="LightTheme.SettingsBase.SetupWizard" parent="@android:style/Theme.DeviceDefault">
-        <item name="android:windowLightStatusBar">true</item>
-        <item name="android:navigationBarColor">@android:color/white</item>
-        <item name="android:windowLightNavigationBar">true</item>
-        <item name="android:navigationBarDividerColor">@*android:color/navigation_bar_divider_device_default_settings</item>
+    <style name="LightTheme.SettingsBase.SetupWizard.Base" parent="@android:style/Theme.DeviceDefault">
+        <item name="android:navigationBarColor">@color/color_default_primary_dark</item>
+        <item name="android:navigationBarDividerColor">@color/color_default_primary_dark</item>
+        <item name="android:statusBarColor">@color/color_default_primary_dark</item>
 
-        <item name="android:colorPrimary">@*android:color/primary_device_default_settings_light</item>
-        <item name="android:colorPrimaryDark">@*android:color/primary_dark_device_default_settings_light</item>
-        <item name="android:colorBackground">@*android:color/background_device_default_light</item>
-        <item name="android:colorAccent">@*android:color/accent_device_default_light</item>
+        <item name="android:colorPrimary">@color/color_default_primary</item>
+        <item name="android:colorPrimaryDark">@color/color_default_primary_dark</item>
+        <item name="android:windowBackground">@color/color_default_background</item>
+        <item name="android:colorBackground">@color/color_default_background</item>
+        <item name="android:colorAccent">@color/color_default_accent</item>
 
         <item name="android:listDivider">@*android:color/list_divider_color_light</item>
 
-        <item name="android:textColorPrimary">@*android:color/primary_text_light</item>
-        <item name="android:textColorSecondary">@*android:color/secondary_text_light</item>
+        <item name="android:textColorPrimary">@color/color_default_primary_text</item>
+        <item name="android:textColorSecondary">@color/color_default_secondary_text</item>
+    </style>
+
+    <style name="LightTheme.SettingsBase.SetupWizard" parent="@style/LightTheme.SettingsBase.SetupWizard.Base">
     </style>
 
     <!-- Light theme for those pages inherit SubSettings and launched during setup flow -->
-    <style name="LightTheme.SubSettings.SetupWizard" parent="@android:style/Theme.DeviceDefault.Light">
-        <item name="android:windowLightStatusBar">true</item>
-        <item name="android:statusBarColor">@android:color/white</item>
-        <item name="android:navigationBarColor">@android:color/white</item>
-        <item name="android:windowLightNavigationBar">true</item>
-        <item name="android:windowBackground">@android:color/white</item>
-        <item name="android:navigationBarDividerColor">@*android:color/navigation_bar_divider_device_default_settings</item>
+    <style name="LightTheme.SubSettings.SetupWizard.Base" parent="@android:style/Theme.DeviceDefault.Light">
+        <item name="android:statusBarColor">@color/color_default_primary_dark</item>
+        <item name="android:navigationBarColor">@color/color_default_primary_dark</item>
+        <item name="android:windowBackground">@color/color_default_background</item>
+        <item name="android:navigationBarDividerColor">@color/color_default_primary_dark</item>
 
-        <item name="android:colorPrimary">@android:color/white</item>
-        <item name="android:colorPrimaryDark">@android:color/white</item>
-        <item name="android:colorAccent">@color/material_blue_700</item>
+        <item name="android:colorPrimary">@color/color_default_primary</item>
+        <item name="android:colorPrimaryDark">@color/color_default_primary_dark</item>
+        <item name="android:colorAccent">@color/color_default_accent</item>
+    </style>
+
+    <style name="LightTheme.SubSettings.SetupWizard" parent="@style/LightTheme.SubSettings.SetupWizard.Base">
     </style>
 </resources>

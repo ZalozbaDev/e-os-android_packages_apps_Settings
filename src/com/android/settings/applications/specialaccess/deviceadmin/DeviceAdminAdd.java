@@ -734,8 +734,8 @@ public class DeviceAdminAdd extends Activity {
         tv.setMaxLines(mAddMsgEllipsized ? getEllipsizedLines() : MAX_ADD_MSG_LINES);
 
         mAddMsgExpander.setImageResource(mAddMsgEllipsized ?
-            com.android.internal.R.drawable.expander_ic_minimized :
-            com.android.internal.R.drawable.expander_ic_maximized);
+            R.drawable.ic_arrow_circle_down :
+            R.drawable.ic_arrow_circle_up);
     }
 
     int getEllipsizedLines() {

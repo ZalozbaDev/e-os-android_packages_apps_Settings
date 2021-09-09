@@ -115,7 +115,7 @@ public abstract class StorageWizardBase extends FragmentActivity {
         mBack = mFooterBarMixin.getSecondaryButton();
         mNext = mFooterBarMixin.getPrimaryButton();
 
-        setIcon(com.android.internal.R.drawable.ic_sd_card_48dp);
+        setIcon(R.drawable.ic_menu_sd_card);
     }
 
     @Override

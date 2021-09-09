@@ -268,7 +268,7 @@ public class PowerUsageSummary extends PowerUsageBase implements OnLongClickList
     public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
         if (DEBUG) {
             menu.add(Menu.NONE, MENU_STATS_TYPE, Menu.NONE, R.string.menu_stats_total)
-                    .setIcon(com.android.internal.R.drawable.ic_menu_info_details)
+                    .setIcon(R.drawable.ic_info_outline_24dp)
                     .setAlphabeticShortcut('t');
         }
 

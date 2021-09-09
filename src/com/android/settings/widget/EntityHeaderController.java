@@ -122,6 +122,10 @@ public class EntityHeaderController {
             mHeader = LayoutInflater.from(fragment.getContext())
                     .inflate(R.layout.settings_entity_header, null /* root */);
         }
+        View headerView = mHeader.findViewById(R.id.entity_header);
+        if(headerView != null) {
+            headerView.setBackgroundColor(mActivity.getColor(R.color.color_default_primary_dark));
+        }
     }
 
     public EntityHeaderController setRecyclerView(RecyclerView recyclerView, Lifecycle lifecycle) {
@@ -318,8 +322,7 @@ public class EntityHeaderController {
             return this;
         }
         actionBar.setBackgroundDrawable(
-                new ColorDrawable(
-                        Utils.getColorAttrDefaultColor(activity, android.R.attr.colorPrimaryDark)));
+                new ColorDrawable(activity.getColor(R.color.color_default_primary_dark)));
         actionBar.setElevation(0);
         if (mRecyclerView != null && mLifecycle != null) {
             ActionBarShadowController.attachToView(mActivity, mLifecycle, mRecyclerView);
@@ -345,7 +348,7 @@ public class EntityHeaderController {
                 if (mEditOnClickListener == null) {
                     button.setVisibility(View.GONE);
                 } else {
-                    button.setImageResource(com.android.internal.R.drawable.ic_mode_edit);
+                    button.setImageResource(R.drawable.ic_mode_edit);
                     button.setVisibility(View.VISIBLE);
                     button.setOnClickListener(mEditOnClickListener);
                 }

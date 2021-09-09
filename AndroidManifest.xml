@@ -1609,7 +1609,7 @@
         <activity android:name=".SetupRedactionInterstitial"
             android:enabled="false"
             android:exported="true"
-            android:theme="@style/SudThemeGlif.DayNight"
+            android:theme="@style/Theme.Settings"
             android:label="@string/lock_screen_notifications_interstitial_title"
             android:icon="@drawable/ic_suggested_notifications">
             <intent-filter>
@@ -2014,7 +2014,7 @@
 
         <activity android:name=".development.AppPicker"
                   android:label="@string/select_application"
-                  android:theme="@android:style/Theme.DeviceDefault.Light.Dialog" />
+                  android:theme="@style/Theme.Dialog" />
 
         <activity android:name="Settings$WebViewAppPickerActivity"
                   android:label="@string/select_webview_provider_dialog_title" />
@@ -2097,7 +2097,7 @@
                   android:label="@string/bluetooth_connection_permission_request"
                   android:excludeFromRecents="true"
                   android:permission="android.permission.BLUETOOTH_ADMIN"
-                  android:theme="@android:style/Theme.DeviceDefault.Light.Dialog.Alert">
+                  android:theme="@style/Theme.AlertDialog">
             <intent-filter android:priority="1">
                 <action android:name="android.bluetooth.device.action.CONNECTION_ACCESS_REQUEST" />
                 <action android:name="android.bluetooth.device.action.CONNECTION_ACCESS_CANCEL" />
@@ -2444,7 +2444,7 @@
         <activity android:name=".nfc.PaymentDefaultDialog"
                   android:label="@string/nfc_payment_set_default_label"
                   android:excludeFromRecents="true"
-                  android:theme="@android:style/Theme.DeviceDefault.Light.Dialog.Alert">
+                  android:theme="@style/Theme.AlertDialog">
             <intent-filter android:priority="1">
                 <action android:name="android.nfc.cardemulation.action.ACTION_CHANGE_DEFAULT" />
                 <category android:name="android.intent.category.DEFAULT" />
@@ -2676,7 +2676,7 @@
 
         <!-- Confirmation dialog for enabling notification access from CompanionDeviceManager -->
         <activity android:name=".notification.NotificationAccessConfirmationActivity"
-                  android:theme="@android:style/Theme.DeviceDefault.Light.Dialog.Alert" />
+                  android:theme="@style/Theme.AlertDialog" />
 
         <receiver android:name="com.android.settingslib.bluetooth.BluetoothDiscoverableTimeoutReceiver">
             <intent-filter>
@@ -2720,7 +2720,7 @@
 
         <activity
             android:name=".wifi.RequestToggleWiFiActivity"
-            android:theme="@android:style/Theme.DeviceDefault.Light.Dialog.Alert"
+            android:theme="@style/Theme.AlertDialog"
             android:excludeFromRecents="true"
             android:permission="android.permission.CHANGE_WIFI_STATE">
             <intent-filter>
@@ -3031,7 +3031,7 @@
         <activity android:name=".support.SupportDashboardActivity"
                   android:label="@string/page_tab_title_support"
                   android:icon="@drawable/ic_homepage_support"
-                  android:theme="@android:style/Theme.DeviceDefault.Light.Panel"
+                  android:theme="@style/Custom.Panel"
                   android:enabled="@bool/config_support_enabled">
             <intent-filter>
                 <action android:name="com.android.settings.action.SUPPORT_SETTINGS" />
@@ -3272,10 +3272,10 @@
         </activity>
 
         <activity android:name=".homepage.contextualcards.ContextualCardFeedbackDialog"
-                  android:theme="@android:style/Theme.DeviceDefault.Light.Dialog.Alert" />
+                  android:theme="@style/Theme.AlertDialog" />
 
         <activity android:name=".homepage.contextualcards.FaceReEnrollDialog"
-                  android:theme="@android:style/Theme.DeviceDefault.Light.Dialog.Alert" />
+                  android:theme="@style/Theme.AlertDialog" />
 
         <activity
             android:name="Settings$WifiCallingDisclaimerActivity"

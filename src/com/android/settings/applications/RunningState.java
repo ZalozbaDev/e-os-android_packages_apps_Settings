@@ -719,7 +719,7 @@ public class RunningState {
                 }
             }
             return context.getDrawable(
-                    com.android.internal.R.drawable.ic_menu_cc);
+                    R.drawable.ic_supervisor);
         }
     }
 

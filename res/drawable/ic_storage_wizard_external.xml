@@ -22,13 +22,13 @@
         android:pathData="M64,64m-64,0a64,64 0,1 1,128 0a64,64 0,1 1,-128 0"
         android:strokeColor="#00000000"
         android:fillType="evenOdd"
-        android:fillColor="#FFFFFF"
+        android:fillColor="@color/color_default_view_on_accent"
         android:strokeWidth="1"/>
     <path
         android:pathData="M18.98,95C17.88,95 17,94.12 17,93.03L17,34.97C17,33.88 17.88,33 18.98,33L47.02,33C48.12,33 49,33.88 49,34.97L49,93.03C49,94.12 48.12,95 47.02,95L18.98,95Z"
         android:strokeColor="#00000000"
         android:fillType="evenOdd"
-        android:fillColor="#FFFFFF"
+        android:fillColor="@color/color_default_view_on_accent"
         android:strokeWidth="1"/>
     <path
         android:pathData="M18.98,96C17.33,96 16,94.68 16,93.03L16,34.97C16,33.32 17.33,32 18.98,32L47.02,32C48.67,32 50,33.32 50,34.97L50,93.03C50,94.68 48.67,96 47.02,96L18.98,96Z"
@@ -70,19 +70,19 @@
         android:pathData="M94,33L119.52,33C119.9,33 120.26,33.23 120.42,33.58C125.14,43.7 127.67,51.84 128,58C128.33,64.11 127.47,72.18 125.4,82.2L125.4,82.2C125.3,82.67 124.9,83 124.42,83L94,83C93.45,83 93,82.55 93,82L93,34C93,33.45 93.45,33 94,33C94,33 94,33 94,33Z"
         android:strokeColor="#00000000"
         android:fillType="evenOdd"
-        android:fillColor="#FFFFFF"
+        android:fillColor="@color/color_default_view_on_accent"
         android:strokeWidth="1"/>
     <path
         android:pathData="M73.63,41L68.13,41L64.01,45.2L64,53.6C64,54.37 64.62,55 65.38,55L73.63,55C74.38,55 75,54.37 75,53.6L75,42.4C75,41.63 74.38,41 73.63,41ZM69.5,45.2L68.13,45.2L68.13,42.4L69.5,42.4L69.5,45.2ZM71.56,45.2L70.19,45.2L70.19,42.4L71.56,42.4L71.56,45.2ZM73.63,45.2L72.25,45.2L72.25,42.4L73.63,42.4L73.63,45.2Z"
         android:strokeColor="#00000000"
         android:fillType="nonZero"
-        android:fillColor="?android:attr/colorAccent"
+        android:fillColor="@color/color_default_accent"
         android:strokeWidth="1"/>
     <path
         android:pathData="M63.99,69L60,73L63.99,77L63.99,74L71,74L71,72L63.99,72L63.99,69ZM78,67L74.01,63L74.01,66L67,66L67,68L74.01,68L74.01,71L78,67Z"
         android:strokeColor="#00000000"
         android:fillType="nonZero"
-        android:fillColor="?android:attr/colorAccent"
+        android:fillColor="@color/color_default_accent"
         android:strokeWidth="1"/>
     <path
         android:pathData="M64,126.08C98.29,126.08 126.08,98.29 126.08,64C126.08,29.71 98.29,1.92 64,1.92C29.71,1.92 1.92,29.71 1.92,64C1.92,98.29 29.71,126.08 64,126.08ZM64,128C28.65,128 0,99.35 0,64C0,28.65 28.65,0 64,0C99.35,0 128,28.65 128,64C128,99.35 99.35,128 64,128Z"

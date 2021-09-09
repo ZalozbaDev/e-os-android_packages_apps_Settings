@@ -191,7 +191,7 @@ public class AccountSyncSettings extends AccountPreferenceBase {
                 .setIcon(R.drawable.ic_menu_refresh_holo_dark);
         MenuItem syncCancel = menu.add(0, MENU_SYNC_CANCEL_ID, 0,
                 getString(R.string.sync_menu_sync_cancel))
-                .setIcon(com.android.internal.R.drawable.ic_menu_close_clear_cancel);
+                .setIcon(R.drawable.ic_cancel_cross);
 
         syncNow.setShowAsAction(MenuItem.SHOW_AS_ACTION_NEVER |
                 MenuItem.SHOW_AS_ACTION_WITH_TEXT);

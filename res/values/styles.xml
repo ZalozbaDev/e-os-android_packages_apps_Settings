@@ -16,8 +16,17 @@
 
 <resources>
 
+    <style name="customOverFlow">
+        <item name="android:src">@drawable/ic_more_24</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:foreground">?android:attr/selectableItemBackground</item>
+    </style>
+
     <style name="Widget.ActionBar.Base"
-           parent="@android:style/Widget.DeviceDefault.Light.ActionBar.Solid"/>
+           parent="@android:style/Widget.DeviceDefault.Light.ActionBar.Solid">
+        <item name="android:background">@color/color_default_primary_dark</item>
+        <item name="actionOverflowButtonStyle">@style/customOverFlow</item>
+    </style>
 
     <style name="Widget.ActionBar"
            parent="Widget.ActionBar.Base">
@@ -26,6 +35,7 @@
 
     <style name="Widget.ActionBar.SubSettings" parent="Widget.ActionBar">
         <item name="android:contentInsetStart">@dimen/actionbar_subsettings_contentInsetStart</item>
+        <item name="android:background">@color/color_default_primary_dark</item>
     </style>
 
     <style name="info_label">
@@ -362,7 +372,10 @@
         <item name="android:progressDrawable">@drawable/ring_progress</item>
     </style>
 
-    <style name="ActionPrimaryButton" parent="android:Widget.DeviceDefault.Button.Colored"/>
+    <style name="ActionPrimaryButton" parent="android:Widget.DeviceDefault.Button.Colored">
+        <item name="textColor">@color/color_default_view_on_accent</item>
+        <item name="android:textColor">@color/color_default_view_on_accent</item>
+    </style>
 
     <style name="ActionSecondaryButton" parent="android:Widget.DeviceDefault.Button"/>
 

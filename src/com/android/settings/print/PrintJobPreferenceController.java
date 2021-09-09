@@ -96,7 +96,7 @@ public class PrintJobPreferenceController extends PrintJobPreferenceControllerBa
         switch (info.getState()) {
             case PrintJobInfo.STATE_QUEUED:
             case PrintJobInfo.STATE_STARTED: {
-                Drawable icon = mContext.getDrawable(com.android.internal.R.drawable.ic_print);
+                Drawable icon = mContext.getDrawable(R.drawable.ic_print);
                 icon.setTint(tintColor);
                 mPreference.setIcon(icon);
                 break;
@@ -105,7 +105,7 @@ public class PrintJobPreferenceController extends PrintJobPreferenceControllerBa
             case PrintJobInfo.STATE_FAILED:
             case PrintJobInfo.STATE_BLOCKED: {
                 Drawable icon = mContext.getDrawable(
-                        com.android.internal.R.drawable.ic_print_error);
+                        R.drawable.ic_print_error);
                 icon.setTint(tintColor);
                 mPreference.setIcon(icon);
                 break;

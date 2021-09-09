@@ -77,8 +77,8 @@
             android:layout_gravity="center_vertical"
             android:paddingLeft="16dip"
             android:contentDescription="@string/printer_info_desc"
-            android:src="@*android:drawable/ic_info"
-            android:tint="?android:attr/colorControlNormal"
+            android:src="@drawable/ic_info"
+            android:tint="@color/color_default_accent"
             android:tintMode="src_in" />
 
     </LinearLayout>
