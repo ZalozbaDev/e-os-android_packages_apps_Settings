@@ -27,6 +27,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:theme="?android:attr/actionBarTheme"
+        android:background="@color/color_default_primary_dark"
         android:navigationContentDescription="@*android:string/action_bar_up_description" />
     <FrameLayout
         android:id="@+id/content_frame"

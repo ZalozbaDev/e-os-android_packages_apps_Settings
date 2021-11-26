@@ -29,6 +29,7 @@ import android.content.pm.ActivityInfo;
 import android.content.pm.PackageManager;
 import android.content.pm.PackageManager.NameNotFoundException;
 import android.content.res.Resources.Theme;
+import android.graphics.drawable.ColorDrawable;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.UserHandle;
@@ -276,6 +277,7 @@ public class SettingsActivity extends SettingsBaseActivity
             actionBar.setDisplayHomeAsUpEnabled(deviceProvisioned);
             actionBar.setHomeButtonEnabled(deviceProvisioned);
             actionBar.setDisplayShowTitleEnabled(true);
+            actionBar.setBackgroundDrawable(new ColorDrawable(getColor(R.color.color_default_primary_dark)));
         }
         mSwitchBar = findViewById(R.id.switch_bar);
         if (mSwitchBar != null) {

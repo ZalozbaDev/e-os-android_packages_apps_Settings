@@ -79,7 +79,7 @@ public class SearchMenuController implements LifecycleObserver, OnCreateOptionsM
         }
         final MenuItem searchItem = menu.add(Menu.NONE, Menu.NONE, 0 /* order */,
                 R.string.search_menu);
-        searchItem.setIcon(R.drawable.ic_search_24dp);
+        searchItem.setIcon(R.drawable.ic_homepage_search);
         searchItem.setShowAsAction(MenuItem.SHOW_AS_ACTION_ALWAYS);
 
         searchItem.setOnMenuItemClickListener(target -> {

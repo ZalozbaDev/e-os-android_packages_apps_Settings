@@ -16,21 +16,26 @@
 package com.android.settings.wifi;
 
 import android.content.Context;
+import android.graphics.PorterDuff;
+import android.graphics.drawable.Drawable;
 
 import androidx.fragment.app.Fragment;
 import androidx.preference.PreferenceViewHolder;
 
+import com.android.settings.R;
 import com.android.settingslib.wifi.AccessPoint;
 import com.android.settingslib.wifi.AccessPointPreference;
 
 public class LongPressAccessPointPreference extends AccessPointPreference {
 
     private final Fragment mFragment;
+    private Context mContext;
 
     public LongPressAccessPointPreference(AccessPoint accessPoint, Context context,
             UserBadgeCache cache, boolean forSavedNetworks, int iconResId, Fragment fragment) {
         super(accessPoint, context, cache, iconResId, forSavedNetworks);
         mFragment = fragment;
+        this.mContext = context;
     }
 
     @Override
@@ -41,5 +46,13 @@ public class LongPressAccessPointPreference extends AccessPointPreference {
             view.itemView.setTag(this);
             view.itemView.setLongClickable(true);
         }
+    }
+
+    @Override
+    public void setIcon(Drawable drawable) {
+        if (drawable != null) {
+            drawable.setColorFilter(mContext.getColor(R.color.color_default_accent), PorterDuff.Mode.SRC_IN);
+        }
+        super.setIcon(drawable);
     }
 }

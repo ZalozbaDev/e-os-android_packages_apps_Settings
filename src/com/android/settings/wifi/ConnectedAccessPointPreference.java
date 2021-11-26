@@ -35,6 +35,7 @@ public class ConnectedAccessPointPreference extends LongPressAccessPointPreferen
     private OnGearClickListener mOnGearClickListener;
     private boolean mIsCaptivePortal;
 
+
     public ConnectedAccessPointPreference(AccessPoint accessPoint, Context context,
             UserBadgeCache cache, @DrawableRes int iconResId, boolean forSavedNetworks,
             Fragment fragment) {

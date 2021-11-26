@@ -125,7 +125,7 @@ public class ActionDisabledByAdminDialogHelper {
             admin = null;
 
             supportIconView.setImageDrawable(
-                    mActivity.getDrawable(com.android.internal.R.drawable.ic_info));
+                    mActivity.getDrawable(R.drawable.ic_info));
 
             TypedArray ta = mActivity.obtainStyledAttributes(new int[]{android.R.attr.colorAccent});
             supportIconView.setImageTintList(ColorStateList.valueOf(ta.getColor(0, 0)));

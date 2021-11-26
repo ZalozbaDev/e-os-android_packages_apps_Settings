@@ -91,7 +91,7 @@ public class BluetoothDevicesSlice implements CustomSliceable {
         mContext.getTheme().applyStyle(R.style.Theme_Settings_Home, true /* force */);
 
         final IconCompat icon = IconCompat.createWithResource(mContext,
-                com.android.internal.R.drawable.ic_settings_bluetooth);
+                R.drawable.ic_settings_bluetooth);
         final CharSequence title = mContext.getText(R.string.bluetooth_devices);
         final CharSequence titleNoBluetoothDevices = mContext.getText(
                 R.string.no_bluetooth_devices);
@@ -215,7 +215,7 @@ public class BluetoothDevicesSlice implements CustomSliceable {
         // Use default bluetooth icon if can't get icon.
         if (drawable == null) {
             return IconCompat.createWithResource(mContext,
-                    com.android.internal.R.drawable.ic_settings_bluetooth);
+                    R.drawable.ic_settings_bluetooth);
         }
 
         return Utils.createIconWithDrawable(drawable);

@@ -90,7 +90,7 @@ public class UsageAccessDetails extends AppInfoWithHeader implements OnPreferenc
             if (mUsageState != null && (Boolean) newValue != mUsageState.isPermissible()) {
                 if (mUsageState.isPermissible() && mDpm.isProfileOwnerApp(mPackageName)) {
                     new AlertDialog.Builder(getContext())
-                            .setIcon(com.android.internal.R.drawable.ic_dialog_alert_material)
+                            .setIcon(R.drawable.ic_dialog_alert_material)
                             .setTitle(android.R.string.dialog_alert_title)
                             .setMessage(R.string.work_profile_usage_access_warning)
                             .setPositiveButton(R.string.okay, null)
