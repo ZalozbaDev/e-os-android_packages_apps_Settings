@@ -133,28 +133,15 @@
         <item name="android:minWidth">@dimen/min_tap_target_size</item>
     </style>
 
-    <style name="Theme.CryptKeeper.Base" parent="@android:style/Theme.Material.NoActionBar">
+    <style name="Theme.CryptKeeper" parent="@android:style/Theme.Material.NoActionBar">
         <item name="android:windowTranslucentStatus">false</item>
         <item name="android:windowTranslucentNavigation">false</item>
         <item name="android:windowDrawsSystemBarBackgrounds">false</item>
-        <item name="android:background">@color/color_default_background</item>
+        <item name="android:background">@android:color/black</item>
 
         <item name="*android:lockPatternStyle">@style/LockPatternStyle.Unlock</item>
-
-        <item name="colorPrimary">@color/color_default_primary</item>
-        <item name="colorPrimaryDark">@color/color_default_primary_dark</item>
-        <item name="colorAccent">@color/color_default_accent</item>
-        <item name="android:windowBackground">@color/color_default_background</item>
-        <item name="android:colorBackground">@color/color_default_background</item>
-        <item name="android:textColorPrimary">@color/color_default_primary_text</item>
-        <item name="android:textColorSecondary">@color/color_default_secondary_text</item>
-        <item name="android:navigationBarColor">@color/color_default_primary_dark</item>
-        <item name="android:navigationBarDividerColor">@color/color_default_primary_dark</item>
-        <item name="android:statusBarColor">@color/color_default_primary_dark</item>
     </style>
 
-    <style name="Theme.CryptKeeper" parent="@style/Theme.CryptKeeper.Base">
-    </style>
 
     <style name="ThemeOverlay.AlertDialog" parent="@android:style/ThemeOverlay.Material.Dialog.Alert">
         <item name="android:windowSoftInputMode">adjustResize</item>
