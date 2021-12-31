@@ -46,7 +46,7 @@
     <color name="running_processes_system_ram">#ff384248</color>
     <color name="running_processes_free_ram">#ffced7db</color>
 
-    <color name="sim_noitification">@*android:color/accent_device_default_light</color>
+    <color name="sim_noitification">@lineageos.platform:color/color_default_accent</color>
 
     <color name="confirm_device_credential_transparent_black">#60000000</color>
 
@@ -101,7 +101,7 @@
 
     <color name="contextual_card_stroke_color">#1f000000</color>
     <color name="contextual_card_dismissal_background">@*android:color/material_grey_100</color>
-    <color name="contextual_card_background">@*android:color/background_device_default_light</color>
+    <color name="contextual_card_background">@lineageos.platform:color/color_default_background</color>
     <!-- End of dashboard/homepage icon background colors -->
 
     <color name="switchbar_background_color">@*android:color/material_grey_600</color>
@@ -132,7 +132,7 @@
     <color name="notification_history_background">?android:attr/colorBackgroundFloating</color>
 
     <!-- launcher icon color -->
-    <color name="icon_launcher_setting_color">@*android:color/accent_device_default_light</color>
+    <color name="icon_launcher_setting_color">@lineageos.platform:color/color_default_accent</color>
 
     <!-- QR code scanner colors -->
     <color name="qr_corner_line_color">#ffdadce0</color>
@@ -141,10 +141,10 @@
     <!-- End of QR code scanner colors -->
 
     <!-- Search bar background color -->
-    <color name="search_bar_background">@android:color/white</color>
+    <color name="search_bar_background">@lineageos.platform:color/color_default_primary_dark</color>
 
     <!-- Dialog background color -->
-    <color name="dialog_background">@*android:color/background_device_default_light</color>
+    <color name="dialog_background">@lineageos.platform:color/color_default_foreground</color>
 
     <color name="face_intro_outline">#ffdadce0</color>
 

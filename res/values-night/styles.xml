@@ -18,7 +18,11 @@
 <resources>
 
 <style name="Widget.ActionBar.Base" parent="@android:style/Widget.DeviceDefault.ActionBar.Solid">
-  <item name="android:background">?android:attr/colorPrimaryDark</item>
+  <item name="android:background">@lineageos.platform:color/color_default_primary</item>
+  <item name="android:colorControlNormal">@lineageos.platform:color/color_default_accent</item>
+  <item name="colorControlNormal">@lineageos.platform:color/color_default_accent</item>
+  <item name="android:colorAccent">@lineageos.platform:color/color_default_accent</item>
+  <item name="colorAccent">@lineageos.platform:color/color_default_accent</item>
 </style>
 
 </resources>
