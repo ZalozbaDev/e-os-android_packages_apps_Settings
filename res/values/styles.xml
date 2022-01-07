@@ -16,7 +16,9 @@
 <resources>
 
     <style name="Widget.ActionBar.Base"
-           parent="@android:style/Widget.DeviceDefault.Light.ActionBar.Solid"/>
+           parent="@android:style/Widget.DeviceDefault.Light.ActionBar.Solid">
+        <item name="android:background">@lineageos.platform:color/color_default_primary</item>
+    </style>
 
     <style name="Widget.ActionBar"
            parent="Widget.ActionBar.Base">
@@ -787,4 +789,18 @@
            parent="@*android:style/TextAppearance.DeviceDefault.Subhead">
         <item name="android:fontFamily">@*android:string/config_headlineFontFamily</item>
     </style>
+
+    <style name="actionBarTheme" parent="@*android:style/ThemeOverlay.DeviceDefault.ActionBar">
+        <item name="android:colorControlNormal">@lineageos.platform:color/color_default_accent</item>
+        <item name="colorControlNormal">@lineageos.platform:color/color_default_accent</item>
+        <item name="android:colorAccent">@lineageos.platform:color/color_default_accent</item>
+        <item name="colorAccent">@lineageos.platform:color/color_default_accent</item>
+        <item name="android:actionOverflowButtonStyle">@style/customOverFlow</item>
+        <item name="actionOverflowButtonStyle">@style/customOverFlow</item>
+    </style>
+
+    <style name="customOverFlow" parent="@style/Widget.AppCompat.ActionButton.Overflow">
+        <item name="android:tint">@lineageos.platform:color/color_default_accent</item>
+    </style>
+
 </resources>
