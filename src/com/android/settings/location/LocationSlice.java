@@ -57,14 +57,13 @@ public class LocationSlice implements CustomSliceable {
         final IconCompat icon = IconCompat.createWithResource(mContext,
                 R.drawable.ic_signal_location);
         final CharSequence title = mContext.getText(R.string.location_settings_title);
-        @ColorInt final int color = Utils.getColorAccentDefaultColor(mContext);
+        @ColorInt final int color = mContext.getResources().getColor(R.color.color_default_accent);
         final PendingIntent primaryAction = getPrimaryAction();
         final SliceAction primarySliceAction = SliceAction.createDeeplink(primaryAction, icon,
                 ListBuilder.ICON_IMAGE, title);
 
         return new ListBuilder(mContext, CustomSliceRegistry.LOCATION_SLICE_URI,
                 ListBuilder.INFINITY)
-                .setAccentColor(color)
                 .addRow(new RowBuilder()
                         .setTitle(title)
                         .setTitleItem(icon, ICON_IMAGE)

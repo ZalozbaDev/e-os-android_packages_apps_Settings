@@ -74,8 +74,7 @@ public class BluetoothSliceBuilder {
         final CharSequence title = context.getText(R.string.bluetooth_settings);
         final IconCompat icon = IconCompat.createWithResource(context,
                 R.drawable.ic_settings_bluetooth);
-        @ColorInt final int color = com.android.settings.Utils.getColorAccent(
-                context).getDefaultColor();
+        @ColorInt final int color = context.getResources().getColor(R.color.color_default_accent);
         final PendingIntent toggleAction = getBroadcastIntent(context);
         final PendingIntent primaryAction = getPrimaryAction(context);
         final SliceAction primarySliceAction = SliceAction.createDeeplink(primaryAction, icon,
@@ -84,7 +83,6 @@ public class BluetoothSliceBuilder {
                 null /* actionTitle */, isBluetoothEnabled);
 
         return new ListBuilder(context, CustomSliceRegistry.BLUETOOTH_URI, ListBuilder.INFINITY)
-                .setAccentColor(color)
                 .addRow(new RowBuilder()
                         .setTitle(title)
                         .addEndItem(toggleSliceAction)

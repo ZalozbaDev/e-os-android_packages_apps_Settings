@@ -64,7 +64,7 @@ public class FingerprintLocationAnimationView extends View implements
                 R.fraction.fingerprint_sensor_location_fraction_x, 1, 1);
         mFractionCenterY = getResources().getFraction(
                 R.fraction.fingerprint_sensor_location_fraction_y, 1, 1);
-        @ColorInt int colorAccent = Utils.getColorAccentDefaultColor(context);
+        @ColorInt int colorAccent = context.getResources().getColor(R.color.color_default_accent);
         mDotPaint.setAntiAlias(true);
         mPulsePaint.setAntiAlias(true);
         mDotPaint.setColor(colorAccent);

@@ -38,7 +38,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:lineSpacingExtra="@dimen/sud_description_line_spacing_extra"
-            android:textColor="?android:attr/textColorSecondary" />
+            android:textColor="@color/color_default_secondary_text" />
 
         <TextView
             android:id="@+id/storage_wizard_body"
@@ -46,7 +46,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/sud_description_margin_top"
             android:lineSpacingExtra="@dimen/sud_description_line_spacing_extra"
-            android:textColor="?android:attr/textColorPrimary"
+            android:textColor="@color/color_default_primary_text"
             android:visibility="gone" />
 
         <FrameLayout

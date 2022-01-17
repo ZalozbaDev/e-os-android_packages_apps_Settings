@@ -26,7 +26,7 @@ for root, dirs, files in os.walk('.'):
         alpha = src.endswith("_alpha")
         if alpha:
             src = src[0:-6]
-            alpha_clause = '\n    android:tint="?android:attr/colorAccent"'
+            alpha_clause = '\n    android:tint="@color/color_default_accent"'
         else:
             alpha_clause = ''
 

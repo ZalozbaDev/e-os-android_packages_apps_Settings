@@ -74,8 +74,7 @@ public class MediaOutputSlice implements CustomSliceable {
         // Reload theme for switching dark mode on/off
         mContext.getTheme().applyStyle(R.style.Theme_Settings_Home, true /* force */);
 
-        final ListBuilder listBuilder = new ListBuilder(mContext, getUri(), ListBuilder.INFINITY)
-                .setAccentColor(COLOR_NOT_TINTED);
+        final ListBuilder listBuilder = new ListBuilder(mContext, getUri(), ListBuilder.INFINITY);
 
         if (!isVisible()) {
             Log.d(TAG, "getSlice() is not visible");

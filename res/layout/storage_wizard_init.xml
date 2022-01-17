@@ -53,7 +53,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="@dimen/sud_description_margin_bottom"
-                    android:textColor="?android:attr/textColorSecondary"
+                    android:textColor="@color/color_default_secondary_text"
                     android:text="@string/storage_wizard_init_v2_internal_summary" />
                 <Button
                     android:id="@+id/storage_wizard_init_internal"
@@ -75,22 +75,22 @@
                 android:layout_width="0dp"
                 android:layout_height="1dp"
                 android:layout_weight="1"
-                android:background="@android:color/black"
-                android:backgroundTint="?android:attr/textColorTertiary" />
+                android:background="@color/color_default_primary_text"
+                android:backgroundTint="@color/color_default_secondary_text" />
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
                 android:layout_marginEnd="8dp"
                 android:text="@string/storage_wizard_init_v2_or"
-                android:textColor="?android:attr/textColorTertiary"
+                android:textColor="@color/color_default_secondary_text"
                 android:textAllCaps="true" />
             <View
                 android:layout_width="0dp"
                 android:layout_height="1dp"
                 android:layout_weight="1"
                 android:background="@android:color/black"
-                android:backgroundTint="?android:attr/textColorTertiary" />
+                android:backgroundTint="@color/color_default_secondary_text" />
         </LinearLayout>
 
         <LinearLayout
@@ -120,7 +120,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="@dimen/sud_description_margin_bottom"
-                    android:textColor="?android:attr/textColorSecondary"
+                    android:textColor="@color/color_default_secondary_text"
                     android:text="@string/storage_wizard_init_v2_external_summary" />
                 <Button
                     android:id="@+id/storage_wizard_init_external"

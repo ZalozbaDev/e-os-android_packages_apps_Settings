@@ -87,12 +87,11 @@ public class DarkThemeSlice implements CustomSliceable {
         }
         sKeepSliceShow = true;
         final PendingIntent toggleAction = getBroadcastIntent(mContext);
-        @ColorInt final int color = Utils.getColorAccentDefaultColor(mContext);
+        @ColorInt final int color = mContext.getResources().getColor(R.color.color_default_accent);
         final IconCompat icon =
                 IconCompat.createWithResource(mContext, R.drawable.dark_theme);
         return new ListBuilder(mContext, CustomSliceRegistry.DARK_THEME_SLICE_URI,
                 ListBuilder.INFINITY)
-                .setAccentColor(color)
                 .addRow(new ListBuilder.RowBuilder()
                         .setTitle(mContext.getText(R.string.dark_theme_slice_title))
                         .setTitleItem(icon, ICON_IMAGE)

@@ -157,7 +157,6 @@ public class WifiSlice implements CustomSliceable {
                 null /* actionTitle */, isWifiEnabled);
 
         return new ListBuilder(mContext, getUri(), ListBuilder.INFINITY)
-                .setAccentColor(COLOR_NOT_TINTED)
                 .setKeywords(getKeywords())
                 .addRow(new ListBuilder.RowBuilder()
                         .setTitle(title)
@@ -205,13 +204,12 @@ public class WifiSlice implements CustomSliceable {
         if (accessPoint.isActive()) {
             final NetworkInfo.State state = accessPoint.getNetworkInfo().getState();
             if (state == NetworkInfo.State.CONNECTED) {
-                color = Utils.getColorAccentDefaultColor(mContext);
+                color = mContext.getResources().getColor(R.color.color_default_accent);
             } else { // connecting
-                color = Utils.getDisabled(mContext, Utils.getColorAttrDefaultColor(mContext,
-                        android.R.attr.colorControlNormal));
+                color = Utils.getDisabled(mContext, mContext.getColor(R.color.color_default_accent));
             }
         } else {
-            color = Utils.getColorAttrDefaultColor(mContext, android.R.attr.colorControlNormal);
+            color = mContext.getColor(R.color.color_default_accent);
         }
 
         d.setColorFilter(new PorterDuffColorFilter(color, PorterDuff.Mode.SRC_IN));
@@ -231,7 +229,7 @@ public class WifiSlice implements CustomSliceable {
 
     private SliceAction getCaptivePortalEndAction(AccessPoint accessPoint, CharSequence title) {
         return getAccessPointAction(accessPoint, false /* isCaptivePortal */,
-                IconCompat.createWithResource(mContext, R.drawable.ic_settings_accent), title);
+                IconCompat.createWithResource(mContext, R.drawable.ic_settings_cog), title);
     }
 
     private SliceAction getAccessPointAction(AccessPoint accessPoint, boolean isCaptivePortal,

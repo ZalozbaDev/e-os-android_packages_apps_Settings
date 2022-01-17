@@ -30,7 +30,7 @@
         android:layout_weight="1"
         android:layout_marginBottom="2dp"
         android:layout_marginStart="12dp"
-        android:textColor="?android:attr/textColorPrimary"
+        android:textColor="@color/color_default_primary_text"
         android:text="@string/back_sensitivity_title" />
 
     <TextView
@@ -93,7 +93,7 @@
         android:layout_weight="1"
         android:layout_marginBottom="2dp"
         android:layout_marginStart="12dp"
-        android:textColor="?android:attr/textColorPrimary"
+        android:textColor="@color/color_default_primary_text"
         android:text="@string/back_exclusion_title" />
 
     <TextView
@@ -155,7 +155,7 @@
         android:layout_weight="1"
         android:layout_marginBottom="2dp"
         android:layout_marginStart="12dp"
-        android:textColor="?android:attr/textColorPrimary"
+        android:textColor="@color/color_default_primary_text"
         android:text="@string/show_navbar_hint_title" />
 
     <Switch
@@ -166,6 +166,6 @@
         android:layout_weight="1"
         android:layout_marginBottom="2dp"
         android:layout_marginStart="12dp"
-        android:textColor="?android:attr/textColorSecondary"
+        android:textColor="@color/color_default_secondary_text"
         android:text="@string/show_navbar_hint_summary"/>
 </LinearLayout>

@@ -65,7 +65,6 @@ public class StorageSlice implements CustomSliceable {
         final PrivateStorageInfo info = getPrivateStorageInfo();
         return new ListBuilder(mContext, CustomSliceRegistry.STORAGE_SLICE_URI,
                 ListBuilder.INFINITY)
-                .setAccentColor(Utils.getColorAccentDefaultColor(mContext))
                 .setHeader(new ListBuilder.HeaderBuilder().setTitle(title))
                 .addRow(new ListBuilder.RowBuilder()
                         .setTitle(getStorageUsedText(info))

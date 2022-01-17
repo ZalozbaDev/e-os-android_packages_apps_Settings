@@ -112,8 +112,7 @@ public class FaceSetupSlice implements CustomSliceable {
         }
 
         final ListBuilder listBuilder = new ListBuilder(mContext,
-                CustomSliceRegistry.FACE_ENROLL_SLICE_URI, ListBuilder.INFINITY)
-                .setAccentColor(Utils.getColorAccentDefaultColor(mContext));
+                CustomSliceRegistry.FACE_ENROLL_SLICE_URI, ListBuilder.INFINITY);
         final IconCompat icon = IconCompat.createWithResource(mContext, R.drawable.ic_face_24dp);
         return listBuilder.addRow(buildRowBuilder(title, subtitle, icon, mContext, getIntent()))
                 .build();

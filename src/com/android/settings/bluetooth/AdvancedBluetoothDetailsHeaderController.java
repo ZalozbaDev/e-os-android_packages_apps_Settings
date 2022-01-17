@@ -187,11 +187,11 @@ public class AdvancedBluetoothDetailsHeaderController extends BasePreferenceCont
                         context.getResources().getDimensionPixelSize(
                                 R.dimen.advanced_bluetooth_battery_meter_height));
         drawable.setBatteryLevel(level);
-        final int attr = level > LOW_BATTERY_LEVEL || charging
-                ? android.R.attr.colorControlNormal
-                : android.R.attr.colorError;
+        int color = level > LOW_BATTERY_LEVEL || charging
+                ? context.getColor(R.color.color_default_accent)
+                : com.android.settings.Utils.getColorAttrDefaultColor(context, android.R.attr.colorError);
         drawable.setColorFilter(new PorterDuffColorFilter(
-                com.android.settings.Utils.getColorAttrDefaultColor(context, attr),
+                color,
                 PorterDuff.Mode.SRC));
         drawable.setCharging(charging);
 

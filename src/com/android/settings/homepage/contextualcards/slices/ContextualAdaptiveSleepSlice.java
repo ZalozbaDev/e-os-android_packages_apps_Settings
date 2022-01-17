@@ -92,7 +92,6 @@ public class ContextualAdaptiveSleepSlice implements CustomSliceable {
             final ListBuilder listBuilder = new ListBuilder(mContext,
                     CONTEXTUAL_ADAPTIVE_SLEEP_URI,
                     ListBuilder.INFINITY)
-                    .setAccentColor(COLOR_NOT_TINTED)
                     .addRow(new ListBuilder.RowBuilder()
                             .setTitleItem(icon, ListBuilder.ICON_IMAGE)
                             .setTitle(title)

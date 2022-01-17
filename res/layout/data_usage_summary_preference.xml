@@ -31,7 +31,7 @@
         android:id="@+id/usage_title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textColor="?android:attr/textColorPrimary"
+        android:textColor="@color/color_default_primary_text"
         android:text="@string/data_usage_title" />
 
     <com.android.settings.datausage.MeasurableLinearLayout
@@ -47,7 +47,7 @@
             android:fontFamily="@*android:string/config_headlineFontFamily"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:textSize="16sp"
-            android:textColor="?android:attr/colorAccent" />
+            android:textColor="@color/color_default_accent" />
 
         <Space
             android:layout_width="0dp"
@@ -81,7 +81,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceListItemSecondary"
-            android:textColor="?android:attr/textColorSecondary" />
+            android:textColor="@color/color_default_secondary_text" />
 
         <Space
             android:layout_width="0dp"
@@ -92,7 +92,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceListItemSecondary"
-            android:textColor="?android:attr/textColorSecondary" />
+            android:textColor="@color/color_default_secondary_text" />
 
     </LinearLayout>
 
@@ -106,7 +106,7 @@
             android:id="@+id/data_limits"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textColor="?android:attr/textColorSecondary" />
+            android:textColor="@color/color_default_secondary_text" />
 
         <TextView
             android:id="@+id/cycle_left_time"

@@ -51,7 +51,7 @@ public class LongPressAccessPointPreference extends AccessPointPreference {
     @Override
     public void setIcon(Drawable drawable) {
         if (drawable != null) {
-            drawable.setColorFilter(mContext.getColor(R.color.color_default_accent), PorterDuff.Mode.SRC_IN);
+            drawable.setColorFilter(mContext.getColor(R.color.default_icon_color), PorterDuff.Mode.SRC_IN);
         }
         super.setIcon(drawable);
     }

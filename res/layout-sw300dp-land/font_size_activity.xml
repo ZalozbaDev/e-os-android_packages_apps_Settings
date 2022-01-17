@@ -77,8 +77,6 @@
                     android:layout_alignParentStart="true"
                     android:background="?android:attr/selectableItemBackgroundBorderless"
                     android:src="@drawable/ic_font_size_16dp"
-                    android:tint="?android:attr/textColorPrimary"
-                    android:tintMode="src_in"
                     android:scaleType="center"
                     android:focusable="true"
                     android:contentDescription="@string/font_size_make_smaller_desc" />
@@ -90,8 +88,6 @@
                     android:layout_alignParentEnd="true"
                     android:background="?android:attr/selectableItemBackgroundBorderless"
                     android:src="@drawable/ic_font_size_24dp"
-                    android:tint="?android:attr/textColorPrimary"
-                    android:tintMode="src_in"
                     android:scaleType="center"
                     android:focusable="true"
                     android:contentDescription="@string/font_size_make_larger_desc" />

@@ -36,7 +36,7 @@
             android:layout_height="wrap_content"
             android:singleLine="true"
             android:textAppearance="@*android:style/TextAppearance.DeviceDefault.Subhead"
-            android:textColor="?android:attr/textColorPrimary"
+            android:textColor="@color/color_default_primary_text"
             android:ellipsize="marquee"
             android:fadingEdge="horizontal" />
 
@@ -49,7 +49,7 @@
             android:visibility="gone"
             android:textAlignment="viewStart"
             android:textAppearance="@*android:style/TextAppearance.DeviceDefault.Body1"
-            android:textColor="?android:attr/textColorSecondary"
+            android:textColor="@color/color_default_secondary_text"
             android:maxLines="10" />
 
     </RelativeLayout>

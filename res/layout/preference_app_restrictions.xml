@@ -72,7 +72,7 @@
                 android:visibility="gone"
                 android:textAppearance="?android:attr/textAppearanceSmall"
                 android:textSize="13sp"
-                android:textColor="?android:attr/textColorSecondary"
+                android:textColor="@color/color_default_secondary_text"
                 android:focusable="false"
                 android:maxLines="4" />
         </RelativeLayout>
@@ -83,7 +83,7 @@
         android:layout_height="fill_parent"
         android:paddingStart="12dip"
         android:paddingEnd="12dp"
-        android:src="@drawable/ic_settings_accent"
+        android:src="@drawable/ic_settings_cog"
         android:contentDescription="@string/apps_with_restrictions_settings_button"
         android:layout_gravity="center"
         android:clickable="true"

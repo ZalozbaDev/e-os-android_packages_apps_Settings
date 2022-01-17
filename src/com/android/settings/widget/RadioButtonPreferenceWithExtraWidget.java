@@ -72,7 +72,7 @@ public class RadioButtonPreferenceWithExtraWidget extends RadioButtonPreference 
                 mExtraWidget.setContentDescription(
                         getContext().getResources().getText(R.string.information_label));
             } else if (mExtraWidgetVisibility == EXTRA_WIDGET_VISIBILITY_SETTING) {
-                mExtraWidget.setImageResource(R.drawable.ic_settings_accent);
+                mExtraWidget.setImageResource(R.drawable.ic_settings_cog);
                 mExtraWidget.setContentDescription(
                         getContext().getResources().getText(R.string.settings_label));
             }

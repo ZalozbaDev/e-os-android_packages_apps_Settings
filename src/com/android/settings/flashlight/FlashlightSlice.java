@@ -70,12 +70,11 @@ public class FlashlightSlice implements CustomSliceable {
             return null;
         }
         final PendingIntent toggleAction = getBroadcastIntent(mContext);
-        @ColorInt final int color = Utils.getColorAccentDefaultColor(mContext);
+        @ColorInt final int color = mContext.getResources().getColor(R.color.color_default_accent);
         final IconCompat icon =
                 IconCompat.createWithResource(mContext, R.drawable.ic_signal_flashlight);
         return new ListBuilder(mContext, CustomSliceRegistry.FLASHLIGHT_SLICE_URI,
                 ListBuilder.INFINITY)
-                .setAccentColor(color)
                 .addRow(new RowBuilder()
                         .setTitle(mContext.getText(R.string.power_flashlight))
                         .setTitleItem(icon, ICON_IMAGE)

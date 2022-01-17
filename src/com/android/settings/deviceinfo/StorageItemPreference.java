@@ -36,12 +36,15 @@ public class StorageItemPreference extends Preference {
     private static final int PROGRESS_MAX = 100;
     private int mProgressPercent = UNINITIALIZED;
 
+    private Context mContext;
+
     public StorageItemPreference(Context context) {
         this(context, null);
     }
 
     public StorageItemPreference(Context context, AttributeSet attrs) {
         super(context, attrs);
+        this.mContext = context;
         setLayoutResource(R.layout.storage_item);
         setSummary(R.string.memory_calculating_size);
     }
@@ -64,7 +67,8 @@ public class StorageItemPreference extends Preference {
     protected void updateProgressBar() {
         if (mProgressBar == null || mProgressPercent == UNINITIALIZED)
             return;
-
+        mProgressBar.getProgressDrawable().setColorFilter(
+                mContext.getColor(R.color.color_default_accent), android.graphics.PorterDuff.Mode.SRC_IN);
         mProgressBar.setMax(PROGRESS_MAX);
         mProgressBar.setProgress(mProgressPercent);
     }

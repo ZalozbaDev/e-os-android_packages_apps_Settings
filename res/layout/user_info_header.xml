@@ -72,7 +72,7 @@
                 android:paddingBottom="3dip"
                 android:textAppearance="?android:attr/textAppearanceSmall"
                 android:textSize="13sp"
-                android:textColor="?android:attr/textColorSecondary"
+                android:textColor="@color/color_default_secondary_text"
                 android:focusable="false"
                 android:text="@string/user_summary_restricted_profile"
                 android:maxLines="4" />

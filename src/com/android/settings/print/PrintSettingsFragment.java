@@ -212,7 +212,7 @@ public class PrintSettingsFragment extends ProfileSettingsPreferenceFragment
 
                 Drawable drawable = service.getResolveInfo().loadIcon(pm);
                 if (drawable != null) {
-                    drawable.mutate().setTint(context.getResources().getColor(R.color.color_default_accent));
+                    drawable.mutate().setTint(context.getResources().getColor(R.color.default_icon_color));
                     preference.setIcon(drawable);
                 }
 
@@ -358,7 +358,7 @@ public class PrintSettingsFragment extends ProfileSettingsPreferenceFragment
                                     DateFormat.SHORT, DateFormat.SHORT)));
 
                     TypedArray a = getActivity().obtainStyledAttributes(new int[]{
-                            android.R.attr.colorControlNormal});
+                            R.color.color_default_accent});
                     int tintColor = a.getColor(0, 0);
                     a.recycle();
 

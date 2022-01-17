@@ -74,7 +74,7 @@ public class ZenModeSliceBuilder {
         final boolean isZenModeEnabled = isZenModeEnabled(context);
         final CharSequence title = context.getText(R.string.zen_mode_settings_title);
         final CharSequence subtitle = context.getText(R.string.zen_mode_slice_subtitle);
-        @ColorInt final int color = Utils.getColorAccentDefaultColor(context);
+        @ColorInt final int color = context.getResources().getColor(R.color.color_default_accent);
         final PendingIntent toggleAction = getBroadcastIntent(context);
         final PendingIntent primaryAction = getPrimaryAction(context);
         final SliceAction primarySliceAction = SliceAction.createDeeplink(primaryAction,
@@ -85,7 +85,6 @@ public class ZenModeSliceBuilder {
 
         return new ListBuilder(context, CustomSliceRegistry.ZEN_MODE_SLICE_URI,
                 ListBuilder.INFINITY)
-                .setAccentColor(color)
                 .addRow(new RowBuilder()
                         .setTitle(title)
                         .setSubtitle(subtitle)

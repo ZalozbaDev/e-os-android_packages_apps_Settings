@@ -47,7 +47,7 @@ instead of an ImageView -->
             android:singleLine="true"
             android:contentDescription=""
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:textColor="?android:attr/textColorPrimary"
+            android:textColor="@color/color_default_primary_text"
             android:importantForAccessibility="no"/>
     </LinearLayout>
 
@@ -78,7 +78,7 @@ instead of an ImageView -->
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceSmall"
-                android:textColor="?android:attr/textColorSecondary"
+                android:textColor="@color/color_default_secondary_text"
                 android:layout_alignParentEnd="true"/>
 
             <!-- Use layout_alignParentStart and layout_toStartOf to make the TextView multi-lines
@@ -88,7 +88,7 @@ instead of an ImageView -->
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceSmall"
-                android:textColor="?android:attr/textColorSecondary"
+                android:textColor="@color/color_default_secondary_text"
                 android:maxLines="10"
                 android:layout_alignParentStart="true"
                 android:layout_toStartOf="@+id/current_time"/>

@@ -20,6 +20,7 @@ import android.content.Context;
 import android.graphics.PorterDuff;
 import android.graphics.PorterDuffColorFilter;
 
+import com.android.settings.R;
 import com.android.settingslib.Utils;
 import com.android.settingslib.graph.BatteryMeterDrawableBase;
 
@@ -37,7 +38,7 @@ public class BatterySaverDrawable extends BatteryMeterDrawableBase {
         setPowerSave(true);
         setCharging(false);
         setPowerSaveAsColorError(false);
-        final int tintColor = Utils.getColorAttrDefaultColor(context, android.R.attr.colorAccent);
+        final int tintColor = context.getColor(R.color.color_default_accent);
         setColorFilter(new PorterDuffColorFilter(tintColor, PorterDuff.Mode.SRC_IN));
     }
 }

@@ -40,7 +40,7 @@
                 android:layout_width="@dimen/contextual_card_icon_size"
                 android:layout_height="@dimen/contextual_card_icon_size"
                 android:layout_marginStart="@dimen/contextual_card_icon_padding_start"
-                android:tint="?android:attr/colorAccent"/>
+                android:tint="@color/color_default_accent"/>
 
             <TextView
                 android:id="@android:id/title"

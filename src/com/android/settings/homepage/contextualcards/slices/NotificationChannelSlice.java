@@ -146,8 +146,7 @@ public class NotificationChannelSlice implements CustomSliceable {
     @Override
     public Slice getSlice() {
         final ListBuilder listBuilder =
-                new ListBuilder(mContext, getUri(), ListBuilder.INFINITY)
-                        .setAccentColor(COLOR_NOT_TINTED);
+                new ListBuilder(mContext, getUri(), ListBuilder.INFINITY);
         /**
          * Get package which is satisfied with:
          * 1. Recently installed.

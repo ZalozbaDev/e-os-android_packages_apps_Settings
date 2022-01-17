@@ -63,6 +63,7 @@
         <item name="colorPrimary">@color/color_default_primary</item>
         <item name="colorPrimaryDark">@color/color_default_primary_dark</item>
         <item name="colorAccent">@color/color_default_accent</item>
+        <item name="android:colorAccent">@color/color_default_accent</item>
         <item name="colorPrimaryVariant">@color/color_default_primary_dark</item>
         <item name="android:colorBackground">@color/color_default_background</item>
         <item name="android:windowBackground">@color/color_default_background</item>
@@ -71,6 +72,14 @@
 
         <!-- For slice view in settings -->
         <item name="sliceViewStyle">@style/Widget.SliceView.Settings</item>
+
+        <item name="android:colorControlNormal">@color/default_icon_color</item>
+        <item name="colorControlNormal">@color/default_icon_color</item>
+        <item name="android:scrollbarThumbHorizontal">@color/color_default_gray2</item>
+        <item name="android:scrollbarThumbVertical">@color/color_default_gray2</item>
+        <item name="android:itemTextAppearance">@style/customMenuTextAppearance</item>
+        <item name="android:actionBarTheme">@style/actionBarTheme</item>
+        <item name="actionBarTheme">@style/actionBarTheme</item>
     </style>
 
     <style name="Theme.Settings" parent="Theme.SettingsBase">
@@ -102,12 +111,19 @@
         <item name="colorPrimary">@color/color_default_primary</item>
         <item name="colorPrimaryDark">@color/color_default_primary_dark</item>
         <item name="colorAccent">@color/color_default_accent</item>
+        <item name="android:colorAccent">@color/color_default_accent</item>
         <item name="android:colorBackground">@color/color_default_background</item>
         <item name="android:textColorPrimary">@color/color_default_primary_text</item>
         <item name="android:textColorSecondary">@color/color_default_secondary_text</item>
         <item name="android:navigationBarColor">@color/color_default_primary_dark</item>
         <item name="android:navigationBarDividerColor">@color/color_default_primary_dark</item>
         <item name="android:statusBarColor">@color/color_default_primary_dark</item>
+
+        <item name="android:colorControlNormal">@color/default_icon_color</item>
+        <item name="colorControlNormal">@color/default_icon_color</item>
+        <item name="android:scrollbarThumbHorizontal">@color/color_default_gray2</item>
+        <item name="android:scrollbarThumbVertical">@color/color_default_gray2</item>
+        <item name="android:itemTextAppearance">@style/customMenuTextAppearance</item>
     </style>
 
     <style name="Theme.ProvisioningActivity" parent="@style/Theme.ProvisioningActivity.Base">
@@ -149,6 +165,7 @@
 
     <style name="Theme.AlertDialog.Base" parent="@style/Theme.AppCompat.DayNight.Dialog.Alert">
         <item name="colorAccent">@color/color_default_accent</item>
+        <item name="android:colorAccent">@color/color_default_accent</item>
         <item name="android:windowBackground">@color/dialog_background</item>
         <item name="android:colorBackground">@color/dialog_background</item>
     </style>
@@ -170,9 +187,10 @@
 
     <style name="Theme.Dialog" parent="@style/Theme.DialogBase">
         <item name="android:alertDialogTheme">@style/Theme.AlertDialog</item>
+        <item name="colorAccent">@color/color_default_accent</item>
         <item name="android:colorAccent">@color/color_default_accent</item>
-        <item name="android:windowBackground">@color/color_default_background</item>
-        <item name="android:colorBackground">@color/color_default_background</item>
+        <item name="android:windowBackground">@color/dialog_background</item>
+        <item name="android:colorBackground">@color/dialog_background</item>
         <item name="android:textColorPrimary">@color/color_default_primary_text</item>
         <item name="android:textColorSecondary">@color/color_default_secondary_text</item>
     </style>
@@ -184,6 +202,7 @@
         <item name="android:colorPrimary">@color/color_default_primary</item>
         <item name="android:colorPrimaryDark">@color/color_default_primary_dark</item>
         <item name="android:alertDialogTheme">@style/Theme.AlertDialog</item>
+        <item name="colorAccent">@color/color_default_accent</item>
         <item name="android:colorAccent">@color/color_default_accent</item>
         <item name="android:windowBackground">@color/color_default_background</item>
         <item name="android:colorBackground">@color/color_default_background</item>
@@ -214,6 +233,7 @@
 
     <style name="Theme.ConfirmDeviceCredentialsWork" parent="Theme.ConfirmDeviceCredentialsDark">
         <item name="*android:lockPatternStyle">@style/LockPatternStyle.Dark.Work</item>
+        <item name="colorAccent">@color/color_default_accent</item>
         <item name="android:colorAccent">@color/color_default_accent</item>
     </style>
 
@@ -232,9 +252,18 @@
         <item name="colorPrimary">@color/color_default_primary</item>
         <item name="colorPrimaryDark">@color/color_default_primary_dark</item>
         <item name="colorAccent">@color/color_default_accent</item>
+        <item name="android:colorAccent">@color/color_default_accent</item>
         <item name="android:colorBackground">@color/color_default_background</item>
         <item name="android:textColorPrimary">@color/color_default_primary_text</item>
         <item name="android:textColorSecondary">@color/color_default_secondary_text</item>
+
+        <item name="android:colorControlNormal">@color/default_icon_color</item>
+        <item name="colorControlNormal">@color/default_icon_color</item>
+        <item name="android:scrollbarThumbHorizontal">@color/color_default_gray2</item>
+        <item name="android:scrollbarThumbVertical">@color/color_default_gray2</item>
+        <item name="android:itemTextAppearance">@style/customMenuTextAppearance</item>
+        <item name="android:actionOverflowButtonStyle">@style/customOverFlow</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_arrow_back</item>
     </style>
 
     <style name="FallbackHome" parent="@style/FallbackHome.Base">
@@ -252,9 +281,18 @@
         <item name="colorPrimary">@color/color_default_primary</item>
         <item name="colorPrimaryDark">@color/color_default_primary_dark</item>
         <item name="colorAccent">@color/color_default_accent</item>
+        <item name="android:colorAccent">@color/color_default_accent</item>
         <item name="android:colorBackground">@color/color_default_background</item>
         <item name="android:textColorPrimary">@color/color_default_primary_text</item>
         <item name="android:textColorSecondary">@color/color_default_secondary_text</item>
+
+        <item name="android:colorControlNormal">@color/default_icon_color</item>
+        <item name="colorControlNormal">@color/default_icon_color</item>
+        <item name="android:scrollbarThumbHorizontal">@color/color_default_gray2</item>
+        <item name="android:scrollbarThumbVertical">@color/color_default_gray2</item>
+        <item name="android:itemTextAppearance">@style/customMenuTextAppearance</item>
+        <item name="android:actionOverflowButtonStyle">@style/customOverFlow</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_arrow_back</item>
     </style>
 
     <style name="FallbackHome.SetupWizard" parent="@style/FallbackHome.SetupWizard.Base">
@@ -268,6 +306,7 @@
         <item name="colorPrimary">@color/color_default_primary</item>
         <item name="colorPrimaryDark">@color/color_default_primary_dark</item>
         <item name="colorAccent">@color/color_default_accent</item>
+        <item name="android:colorAccent">@color/color_default_accent</item>
         <item name="android:colorBackground">@color/color_default_background</item>
         <item name="android:navigationBarDividerColor">@color/color_default_primary_dark</item>
         <item name="android:navigationBarColor">@color/color_default_primary_dark</item>
@@ -276,17 +315,21 @@
         <item name="preferenceTheme">@style/PreferenceTheme</item>
 
         <!-- action bar, needed for search bar icon tinting -->
-        <item name="android:actionBarTheme">@style/customActionBarTheme</item>
+        <item name="android:actionBarTheme">@style/actionBarTheme</item>
 
         <!-- Define this color for material design -->
         <item name="colorPrimaryVariant">@color/color_default_primary_dark</item>
+
+        <item name="android:colorControlNormal">@color/default_icon_color</item>
+        <item name="colorControlNormal">@color/default_icon_color</item>
+        <item name="android:scrollbarThumbHorizontal">@color/color_default_gray2</item>
+        <item name="android:scrollbarThumbVertical">@color/color_default_gray2</item>
+        <item name="android:itemTextAppearance">@style/customMenuTextAppearance</item>
+        <item name="android:actionOverflowButtonStyle">@style/customOverFlow</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_arrow_back</item>
     </style>
 
     <style name="Theme.Settings.Home" parent="Theme.Settings.HomeBase">
-    </style>
-    
-    <style name="customActionBarTheme" parent="@*android:style/ThemeOverlay.DeviceDefault.ActionBar">
-        <item name="android:background">@color/color_default_primary_dark</item>
     </style>
 
     <!-- Note that Dialog themes do not set list dividers -->
@@ -311,12 +354,21 @@
         <item name="android:colorPrimaryDark">@color/color_default_primary_dark</item>
         <item name="android:windowBackground">@color/color_default_background</item>
         <item name="android:colorBackground">@color/color_default_background</item>
+        <item name="colorAccent">@color/color_default_accent</item>
         <item name="android:colorAccent">@color/color_default_accent</item>
 
         <item name="android:listDivider">@*android:color/list_divider_color_light</item>
 
         <item name="android:textColorPrimary">@color/color_default_primary_text</item>
         <item name="android:textColorSecondary">@color/color_default_secondary_text</item>
+
+        <item name="android:colorControlNormal">@color/default_icon_color</item>
+        <item name="colorControlNormal">@color/default_icon_color</item>
+        <item name="android:scrollbarThumbHorizontal">@color/color_default_gray2</item>
+        <item name="android:scrollbarThumbVertical">@color/color_default_gray2</item>
+        <item name="android:itemTextAppearance">@style/customMenuTextAppearance</item>
+        <item name="android:actionOverflowButtonStyle">@style/customOverFlow</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_arrow_back</item>
     </style>
 
     <style name="LightTheme.SettingsBase.SetupWizard" parent="@style/LightTheme.SettingsBase.SetupWizard.Base">
@@ -331,7 +383,16 @@
 
         <item name="android:colorPrimary">@color/color_default_primary</item>
         <item name="android:colorPrimaryDark">@color/color_default_primary_dark</item>
+        <item name="colorAccent">@color/color_default_accent</item>
         <item name="android:colorAccent">@color/color_default_accent</item>
+
+        <item name="android:colorControlNormal">@color/default_icon_color</item>
+        <item name="colorControlNormal">@color/default_icon_color</item>
+        <item name="android:scrollbarThumbHorizontal">@color/color_default_gray2</item>
+        <item name="android:scrollbarThumbVertical">@color/color_default_gray2</item>
+        <item name="android:itemTextAppearance">@style/customMenuTextAppearance</item>
+        <item name="android:actionOverflowButtonStyle">@style/customOverFlow</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_arrow_back</item>
     </style>
 
     <style name="LightTheme.SubSettings.SetupWizard" parent="@style/LightTheme.SubSettings.SetupWizard.Base">

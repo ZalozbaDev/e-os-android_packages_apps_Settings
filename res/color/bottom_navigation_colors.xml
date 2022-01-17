@@ -18,8 +18,8 @@
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
     <item
         android:state_checked="true"
-        android:color="?android:attr/colorAccent" />
+        android:color="@color/color_default_accent" />
     <item
         android:state_checked="false"
-        android:color="?android:attr/textColorPrimary" />
+        android:color="@color/color_default_primary_text" />
 </selector>

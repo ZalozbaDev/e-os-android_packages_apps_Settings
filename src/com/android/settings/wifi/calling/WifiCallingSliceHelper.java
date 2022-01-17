@@ -190,7 +190,6 @@ public class WifiCallingSliceHelper {
         final IconCompat icon = IconCompat.createWithResource(mContext, R.drawable.wifi_signal);
 
         return new ListBuilder(mContext, sliceUri, ListBuilder.INFINITY)
-                .setAccentColor(Utils.getColorAccentDefaultColor(mContext))
                 .addRow(new RowBuilder()
                         .setTitle(mContext.getText(R.string.wifi_calling_settings_title))
                         .addEndItem(
@@ -279,8 +278,7 @@ public class WifiCallingSliceHelper {
             Uri sliceUri) {
         final IconCompat icon = IconCompat.createWithResource(mContext, R.drawable.wifi_signal);
         // Top row shows information on current preference state
-        ListBuilder listBuilder = new ListBuilder(mContext, sliceUri, ListBuilder.INFINITY)
-                .setAccentColor(Utils.getColorAccentDefaultColor(mContext));
+        ListBuilder listBuilder = new ListBuilder(mContext, sliceUri, ListBuilder.INFINITY);
         listBuilder.setHeader(new ListBuilder.HeaderBuilder()
                 .setTitle(mContext.getText(R.string.wifi_calling_mode_title))
                 .setSubtitle(getWifiCallingPreferenceSummary(currentWfcPref))
@@ -468,7 +466,6 @@ public class WifiCallingSliceHelper {
             Uri sliceUri, PendingIntent primaryActionIntent) {
         final IconCompat icon = IconCompat.createWithResource(mContext, R.drawable.wifi_signal);
         return new ListBuilder(mContext, sliceUri, ListBuilder.INFINITY)
-                .setAccentColor(Utils.getColorAccentDefaultColor(mContext))
                 .addRow(new RowBuilder()
                         .setTitle(title)
                         .setSubtitle(subtitle)

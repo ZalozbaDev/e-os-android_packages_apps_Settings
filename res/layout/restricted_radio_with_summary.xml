@@ -44,7 +44,7 @@
             android:layout_width="@*android:dimen/config_restrictedIconSize"
             android:layout_height="match_parent"
             android:scaleType="centerInside"
-            android:tint="?android:attr/colorAccent"
+            android:tint="@color/color_default_accent"
             android:src="@drawable/ic_info"
             android:layout_marginLeft="@dimen/restricted_icon_padding"
             android:visibility="gone" />
@@ -57,7 +57,7 @@
         android:paddingBottom="8dp"
         android:paddingStart="52dp"
         android:textAppearance="?android:attr/textAppearanceListItemSecondary"
-        android:textColor="?android:attr/textColorSecondary"
+        android:textColor="@color/color_default_secondary_text"
         android:maxLines="10" />
 
 </com.android.settings.CheckableLinearLayout>
