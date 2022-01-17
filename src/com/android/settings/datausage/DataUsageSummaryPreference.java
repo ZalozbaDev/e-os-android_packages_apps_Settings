@@ -261,7 +261,7 @@ public class DataUsageSummaryPreference extends Preference {
                         TextUtils.expandTemplate(getContext().getText(R.string.data_remaining),
                                 DataUsageUtils.formatDataUsage(getContext(), dataRemaining)));
                 usageRemainingField.setTextColor(
-                        Utils.getColorAttr(getContext(), android.R.attr.colorAccent));
+                        Utils.getColorAttr(getContext(), R.color.color_default_accent));
             } else {
                 usageRemainingField.setText(
                         TextUtils.expandTemplate(getContext().getText(R.string.data_overusage),
@@ -327,7 +327,7 @@ public class DataUsageSummaryPreference extends Preference {
 
             if (updateAgeMillis <= WARNING_AGE) {
                 setCarrierInfoTextStyle(
-                        carrierInfo, android.R.attr.textColorSecondary, Typeface.SANS_SERIF);
+                        carrierInfo, R.color.color_default_secondary_text, Typeface.SANS_SERIF);
             } else {
                 setCarrierInfoTextStyle(carrierInfo, android.R.attr.colorError, SANS_SERIF_MEDIUM);
             }

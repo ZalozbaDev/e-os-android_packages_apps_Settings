@@ -43,7 +43,7 @@
         style="@style/LanguageCheckboxAndLabel"
         android:layout_width="wrap_content"
         tools:text="22"
-        android:textColor="?android:attr/colorAccent"
+        android:textColor="@color/color_default_accent"
         android:minWidth="24sp"
         android:gravity="center_vertical|center_horizontal"
         android:layout_alignTop="@id/checkbox"

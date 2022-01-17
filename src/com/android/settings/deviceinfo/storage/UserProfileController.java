@@ -28,6 +28,7 @@ import androidx.preference.Preference;
 import androidx.preference.PreferenceScreen;
 
 import com.android.internal.util.Preconditions;
+import com.android.settings.R;
 import com.android.settings.Utils;
 import com.android.settings.core.PreferenceControllerMixin;
 import com.android.settings.core.SubSettingLauncher;
@@ -131,7 +132,7 @@ public class UserProfileController extends AbstractPreferenceController implemen
 
     private static Drawable applyTint(Context context, Drawable icon) {
         icon = icon.mutate();
-        icon.setTintList(Utils.getColorAttr(context, android.R.attr.colorControlNormal));
+        icon.setTintList(Utils.getColorAttr(context, R.color.color_default_accent));
         return icon;
     }
 

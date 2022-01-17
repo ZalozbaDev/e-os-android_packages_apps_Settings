@@ -57,7 +57,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="8dip"
             android:textAppearance="@*android:style/TextAppearance.DeviceDefault.Body1"
-            android:textColor="?android:attr/textColorSecondary" />
+            android:textColor="@color/color_default_secondary_text" />
 
     </LinearLayout>
 
@@ -71,7 +71,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:textAppearance="@*android:style/TextAppearance.DeviceDefault.Body1"
-            android:textColor="?android:attr/textColorSecondary"
+            android:textColor="@color/color_default_secondary_text"
             android:textAlignment="viewStart" />
 
         <TextView
@@ -80,7 +80,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="8dip"
             android:textAppearance="@*android:style/TextAppearance.DeviceDefault.Body1"
-            android:textColor="?android:attr/textColorSecondary" />
+            android:textColor="@color/color_default_secondary_text" />
 
     </LinearLayout>
 

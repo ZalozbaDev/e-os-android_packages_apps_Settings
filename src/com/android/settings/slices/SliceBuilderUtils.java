@@ -258,7 +258,7 @@ public class SliceBuilderUtils {
         final PendingIntent contentIntent = getContentPendingIntent(context, sliceData);
         final IconCompat icon = getSafeIcon(context, sliceData);
         final CharSequence subtitleText = getSubtitleText(context, controller, sliceData);
-        @ColorInt final int color = Utils.getColorAccentDefaultColor(context);
+        @ColorInt final int color = context.getResources().getColor(R.color.color_default_accent);
         final TogglePreferenceController toggleController =
                 (TogglePreferenceController) controller;
         final SliceAction sliceAction = getToggleAction(context, sliceData,
@@ -266,7 +266,6 @@ public class SliceBuilderUtils {
         final Set<String> keywords = buildSliceKeywords(sliceData);
 
         return new ListBuilder(context, sliceData.getUri(), ListBuilder.INFINITY)
-                .setAccentColor(color)
                 .addRow(new RowBuilder()
                         .setTitle(sliceData.getTitle())
                         .setSubtitle(subtitleText)
@@ -283,11 +282,10 @@ public class SliceBuilderUtils {
         final PendingIntent contentIntent = getContentPendingIntent(context, sliceData);
         final IconCompat icon = getSafeIcon(context, sliceData);
         final CharSequence subtitleText = getSubtitleText(context, controller, sliceData);
-        @ColorInt final int color = Utils.getColorAccentDefaultColor(context);
+        @ColorInt final int color = context.getResources().getColor(R.color.color_default_accent);
         final Set<String> keywords = buildSliceKeywords(sliceData);
 
         return new ListBuilder(context, sliceData.getUri(), ListBuilder.INFINITY)
-                .setAccentColor(color)
                 .addRow(new RowBuilder()
                         .setTitle(sliceData.getTitle())
                         .setSubtitle(subtitleText)
@@ -309,7 +307,7 @@ public class SliceBuilderUtils {
         final PendingIntent actionIntent = getSliderAction(context, sliceData);
         final PendingIntent contentIntent = getContentPendingIntent(context, sliceData);
         final IconCompat icon = getSafeIcon(context, sliceData);
-        @ColorInt final int color = Utils.getColorAccentDefaultColor(context);
+        @ColorInt final int color = context.getResources().getColor(R.color.color_default_accent);
         final CharSequence subtitleText = getSubtitleText(context, controller, sliceData);
         final SliceAction primaryAction = SliceAction.createDeeplink(contentIntent, icon,
                 ListBuilder.ICON_IMAGE, sliceData.getTitle());
@@ -324,7 +322,6 @@ public class SliceBuilderUtils {
         }
 
         return new ListBuilder(context, sliceData.getUri(), ListBuilder.INFINITY)
-                .setAccentColor(color)
                 .addInputRange(new InputRangeBuilder()
                         .setTitle(sliceData.getTitle())
                         .setSubtitle(subtitleText)
@@ -346,11 +343,10 @@ public class SliceBuilderUtils {
                 ListBuilder.ICON_IMAGE,
                 sliceData.getTitle());
         final CharSequence subtitleText = getSubtitleText(context, controller, sliceData);
-        @ColorInt final int color = Utils.getColorAccentDefaultColor(context);
+        @ColorInt final int color = context.getResources().getColor(R.color.color_default_accent);
         final Set<String> keywords = buildSliceKeywords(sliceData);
 
         return new ListBuilder(context, sliceData.getUri(), ListBuilder.INFINITY)
-                .setAccentColor(color)
                 .addRow(new RowBuilder()
                         .setTitle(sliceData.getTitle())
                         .setSubtitle(subtitleText)
@@ -427,7 +423,7 @@ public class SliceBuilderUtils {
     private static Slice buildUnavailableSlice(Context context, SliceData data) {
         final String title = data.getTitle();
         final Set<String> keywords = buildSliceKeywords(data);
-        @ColorInt final int color = Utils.getColorAccentDefaultColor(context);
+        @ColorInt final int color = context.getResources().getColor(R.color.color_default_accent);
 
         final String customSubtitle = data.getUnavailableSliceSubtitle();
         final CharSequence subtitle = !TextUtils.isEmpty(customSubtitle) ? customSubtitle
@@ -438,7 +434,6 @@ public class SliceBuilderUtils {
                 icon, ListBuilder.ICON_IMAGE, title);
 
         return new ListBuilder(context, data.getUri(), ListBuilder.INFINITY)
-                .setAccentColor(color)
                 .addRow(new RowBuilder()
                         .setTitle(title)
                         .setTitleItem(icon, ListBuilder.ICON_IMAGE)
@@ -453,14 +448,14 @@ public class SliceBuilderUtils {
         int iconResource = data.getIconResource();
 
         if (iconResource == 0) {
-            iconResource = R.drawable.ic_settings_accent;
+            iconResource = R.drawable.ic_settings_cog;
         }
         try {
             return IconCompat.createWithResource(context, iconResource);
         } catch (Exception e) {
             Log.w(TAG, "Falling back to settings icon because there is an error getting slice icon "
                     + data.getUri(), e);
-            return IconCompat.createWithResource(context, R.drawable.ic_settings_accent);
+            return IconCompat.createWithResource(context, R.drawable.ic_settings_cog);
         }
     }
 }

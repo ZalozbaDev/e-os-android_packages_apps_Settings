@@ -75,12 +75,11 @@ public class MediaOutputIndicatorSlice implements CustomSliceable {
                 0 /* requestCode */, getMediaOutputSliceIntent(), 0 /* flags */);
         final SliceAction primarySliceAction = SliceAction.createDeeplink(
                 primaryActionIntent, icon, ListBuilder.ICON_IMAGE, title);
-        @ColorInt final int color = Utils.getColorAccentDefaultColor(mContext);
+        @ColorInt final int color = mContext.getResources().getColor(R.color.color_default_accent);
 
         final ListBuilder listBuilder = new ListBuilder(mContext,
                 MEDIA_OUTPUT_INDICATOR_SLICE_URI,
                 ListBuilder.INFINITY)
-                .setAccentColor(color)
                 .addRow(new ListBuilder.RowBuilder()
                         .setTitle(title)
                         .setSubtitle(findActiveDeviceName())

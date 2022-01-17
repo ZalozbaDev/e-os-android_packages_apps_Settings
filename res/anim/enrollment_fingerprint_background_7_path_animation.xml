@@ -22,7 +22,7 @@
             android:duration="300"
             android:propertyName="fillColor"
             android:valueFrom="#000000"
-            android:valueTo="@color/color_default_accent"
+            android:valueTo="@color/color_icon_background_blue"
             android:valueType="intType"
             android:interpolator="@android:interpolator/linear_out_slow_in" />
         <objectAnimator
@@ -37,7 +37,7 @@
         <objectAnimator
             android:duration="300"
             android:propertyName="fillColor"
-            android:valueFrom="@color/color_default_accent"
+            android:valueFrom="@color/color_icon_background_blue"
             android:valueTo="#000000"
             android:valueType="intType"
             android:interpolator="@android:interpolator/fast_out_slow_in" />

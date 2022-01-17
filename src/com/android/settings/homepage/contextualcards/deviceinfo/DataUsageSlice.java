@@ -73,7 +73,6 @@ public class DataUsageSlice implements CustomSliceable {
         final ListBuilder listBuilder =
                 new ListBuilder(mContext, CustomSliceRegistry.DATA_USAGE_SLICE_URI,
                         ListBuilder.INFINITY)
-                        .setAccentColor(Utils.getColorAccentDefaultColor(mContext))
                         .setHeader(new ListBuilder.HeaderBuilder().setTitle(title));
         if (DataUsageUtils.hasSim(mContext)) {
             listBuilder.addRow(new ListBuilder.RowBuilder()

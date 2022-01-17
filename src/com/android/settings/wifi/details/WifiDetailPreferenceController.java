@@ -394,7 +394,7 @@ public class WifiDetailPreferenceController extends AbstractPreferenceController
                 .setButton3OnClickListener(view -> connectNetwork())
                 .setButton3Enabled(true)
                 .setButton4Text(R.string.share)
-                .setButton4Icon(R.drawable.ic_qrcode_24dp)
+                .setButton4Icon(R.drawable.ic_qrcode)
                 .setButton4OnClickListener(view -> shareNetwork());
 
         mSignalStrengthPref = screen.findPreference(KEY_SIGNAL_STRENGTH_PREF);
@@ -611,7 +611,7 @@ public class WifiDetailPreferenceController extends AbstractPreferenceController
         Drawable newIcon = new BitmapDrawable(null /*resource*/, bitmap);
 
         // config color for 87% black after enlarge
-        newIcon.setTintList(Utils.getColorAttr(mContext, R.color.color_default_accent));
+        newIcon.setTintList(Utils.getColorAttr(mContext, R.color.default_icon_color));
 
         return newIcon;
     }
@@ -959,7 +959,7 @@ public class WifiDetailPreferenceController extends AbstractPreferenceController
 
         public Drawable getIcon(int level) {
             Drawable icon = mContext.getDrawable(Utils.getWifiIconResource(level));
-            icon.setTint(mContext.getColor(R.color.color_default_accent));
+            icon.setTint(mContext.getColor(R.color.default_icon_color));
             return icon.mutate();
         }
     }

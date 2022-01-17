@@ -28,7 +28,7 @@
         android:layout_height="wrap_content"
         android:textAlignment="viewStart"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:textColor="?android:attr/textColorSecondary" />
+        android:textColor="@color/color_default_secondary_text" />
 
     <com.android.settings.fuelgauge.BatteryActiveView
         android:id="@+id/battery_active"

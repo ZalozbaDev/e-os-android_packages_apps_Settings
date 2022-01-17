@@ -46,8 +46,8 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:minLines="3"
-            android:textAppearance="@android:style/TextAppearance.DeviceDefault.Small"/>
-            android:textColor="?android:attr/textColorPrimary"/>
+            android:textAppearance="@android:style/TextAppearance.DeviceDefault.Small"
+            android:textColor="@color/color_default_primary_text"/>
 
     </LinearLayout>
 

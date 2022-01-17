@@ -179,7 +179,7 @@ public class AccessibilityGestureNavigationTutorial {
         final int indexIconStart = messageString.indexOf("%s");
         final int indexIconEnd = indexIconStart + 2;
         final Drawable icon = context.getDrawable(R.drawable.ic_accessibility_new);
-        icon.setTint(getThemeAttrColor(context, android.R.attr.textColorPrimary));
+        icon.setTint(getThemeAttrColor(context, R.color.color_default_primary));
         icon.setBounds(0, 0, lineHeight, lineHeight);
         spannableMessage.setSpan(
                 new ImageSpan(icon), indexIconStart, indexIconEnd,

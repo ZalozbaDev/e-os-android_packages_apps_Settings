@@ -34,10 +34,10 @@
     <color name="color_default_gray2">@lineageos.platform:color/color_default_gray2</color>
     <color name="color_default_view_on_accent">@lineageos.platform:color/color_default_view_on_accent</color>
 
-    <color name="crypt_keeper_clock_background">@color/color_default_background</color>
-    <color name="crypt_keeper_clock_foreground">@color/color_default_foreground</color>
-    <color name="crypt_keeper_clock_am_pm">@color/color_default_background</color>
-    <color name="crypt_keeper_password_background">@color/color_default_foreground</color>
+    <color name="crypt_keeper_clock_background">#ff9a9a9a</color>
+    <color name="crypt_keeper_clock_foreground">#ff666666</color>
+    <color name="crypt_keeper_clock_am_pm">#ff9a9a9a</color>
+    <color name="crypt_keeper_password_background">#70606060</color>
 
     <color name="divider_color">@color/color_default_divider</color>
     <color name="title_color">@color/color_default_accent</color>
@@ -148,7 +148,7 @@
     <color name="notification_alert_color">@color/color_default_orange1</color>
     <color name="notification_importance_button_unselected">@color/color_default_secondary_text</color>
     <color name="notification_importance_button_selected">@color/color_default_accent</color> <!-- material blue 700 -->
-    <color name="notification_importance_selection_bg">@color/color_default_background</color>
+    <color name="notification_importance_selection_bg">@color/color_default_foreground</color>
 
     <!-- launcher icon color -->
     <color name="icon_launcher_setting_color">@color/color_default_accent</color>
@@ -165,5 +165,8 @@
     <!-- Dialog background color -->
     <color name="dialog_background">@color/color_default_foreground</color>
 
-    <color name="face_intro_outline">@color/color_default_accent</color>
+    <color name="face_intro_outline">#ffdadce0</color>
+
+    <color name="default_icon_color">#DE000000</color>
+    <color name="color_icon_background_blue">#0088ED</color>
 </resources>

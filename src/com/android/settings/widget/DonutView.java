@@ -109,7 +109,7 @@ public class DonutView extends View {
         if (applyColorAccent) {
             final ColorFilter mAccentColorFilter =
                     new PorterDuffColorFilter(
-                            Utils.getColorAttrDefaultColor(context, android.R.attr.colorAccent),
+                            context.getColor(R.color.color_default_accent),
                             PorterDuff.Mode.SRC_IN);
             mBackgroundCircle.setColorFilter(mAccentColorFilter);
             mFilledArc.setColorFilter(mAccentColorFilter);
@@ -122,7 +122,7 @@ public class DonutView extends View {
                 : Paint.BIDI_RTL;
 
         mTextPaint = new TextPaint();
-        mTextPaint.setColor(Utils.getColorAccentDefaultColor(getContext()));
+        mTextPaint.setColor(getContext().getResources().getColor(R.color.color_default_accent));
         mTextPaint.setAntiAlias(true);
         mTextPaint.setTextSize(
                 resources.getDimension(R.dimen.storage_donut_view_label_text_size));
@@ -130,7 +130,7 @@ public class DonutView extends View {
         mTextPaint.setBidiFlags(bidiFlags);
 
         mBigNumberPaint = new TextPaint();
-        mBigNumberPaint.setColor(Utils.getColorAccentDefaultColor(getContext()));
+        mBigNumberPaint.setColor(getContext().getResources().getColor(R.color.color_default_accent));
         mBigNumberPaint.setAntiAlias(true);
         mBigNumberPaint.setTextSize(
                 resources.getDimension(R.dimen.storage_donut_view_percent_text_size));

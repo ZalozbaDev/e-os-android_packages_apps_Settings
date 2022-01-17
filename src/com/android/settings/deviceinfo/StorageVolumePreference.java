@@ -59,7 +59,7 @@ public class StorageVolumePreference extends Preference {
 
         mStorageManager = context.getSystemService(StorageManager.class);
         mVolume = volume;
-        mColorTintList = Utils.getColorAttr(context, android.R.attr.colorControlNormal);
+        mColorTintList = Utils.getColorAttr(context, R.color.color_default_accent);
 
         setLayoutResource(R.layout.storage_volume);
 

@@ -19,6 +19,10 @@
 
 <style name="Widget.ActionBar.Base" parent="@android:style/Widget.DeviceDefault.ActionBar.Solid">
   <item name="android:background">@color/color_default_primary_dark</item>
+  <item name="android:colorControlNormal">@color/default_icon_color</item>
+  <item name="colorControlNormal">@color/default_icon_color</item>
+  <item name="android:colorAccent">@color/color_default_accent</item>
+  <item name="colorAccent">@color/color_default_accent</item>
 </style>
 
 </resources>

@@ -28,7 +28,7 @@
     <ImageView android:id="@+id/restricted_icon"
             android:layout_width="@*android:dimen/config_restrictedIconSize"
             android:layout_height="@*android:dimen/config_restrictedIconSize"
-            android:tint="?android:attr/colorAccent"
+            android:tint="@color/color_default_accent"
             android:src="@drawable/ic_info"
             android:baselineAlignBottom="true"
             android:layout_marginEnd="@dimen/restricted_icon_padding"

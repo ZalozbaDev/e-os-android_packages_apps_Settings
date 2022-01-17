@@ -66,7 +66,7 @@
             android:paddingStart="18dp"
             android:text="@string/increasing_ring_min_volume_title"
             android:textAppearance="?android:attr/textAppearanceSmall"
-            android:textColor="?android:attr/textColorSecondary"
+            android:textColor="@color/color_default_secondary_text"
             android:singleLine="true" />
 
         <SeekBar android:id="@+id/start_volume"
@@ -84,7 +84,7 @@
             android:paddingStart="18dp"
             android:text="@string/increasing_ring_ramp_up_time_title"
             android:textAppearance="?android:attr/textAppearanceSmall"
-            android:textColor="?android:attr/textColorSecondary"
+            android:textColor="@color/color_default_secondary_text"
             android:singleLine="true" />
 
         <TextView android:id="@+id/ramp_up_time_value"
@@ -96,7 +96,7 @@
             android:layout_alignParentEnd="true"
             android:gravity="end"
             android:textAppearance="?android:attr/textAppearanceSmall"
-            android:textColor="?android:attr/textColorSecondary"
+            android:textColor="@color/color_default_secondary_text"
             android:singleLine="true" />
 
         <SeekBar android:id="@+id/ramp_up_time"
@@ -112,7 +112,7 @@
             android:layout_below="@id/ramp_up_time"
             android:layout_alignStart="@android:id/title"
             android:textAppearance="?android:attr/textAppearanceSmall"
-            android:textColor="?android:attr/textColorSecondary"
+            android:textColor="@color/color_default_secondary_text"
             android:maxLines="4" />
 
     </RelativeLayout>

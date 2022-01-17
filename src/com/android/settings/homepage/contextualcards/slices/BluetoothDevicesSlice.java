@@ -100,8 +100,7 @@ public class BluetoothDevicesSlice implements CustomSliceable {
         final SliceAction primarySliceAction = SliceAction.createDeeplink(primaryActionIntent, icon,
                 ListBuilder.ICON_IMAGE, title);
         final ListBuilder listBuilder =
-                new ListBuilder(mContext, getUri(), ListBuilder.INFINITY)
-                        .setAccentColor(COLOR_NOT_TINTED);
+                new ListBuilder(mContext, getUri(), ListBuilder.INFINITY);
 
         // Get row builders by Bluetooth devices.
         final List<ListBuilder.RowBuilder> rows = getBluetoothRowBuilder();
@@ -265,7 +264,7 @@ public class BluetoothDevicesSlice implements CustomSliceable {
     SliceAction buildBluetoothDetailDeepLinkAction(CachedBluetoothDevice bluetoothDevice) {
         return SliceAction.createDeeplink(
                 getBluetoothDetailIntent(bluetoothDevice),
-                IconCompat.createWithResource(mContext, R.drawable.ic_settings_accent),
+                IconCompat.createWithResource(mContext, R.drawable.ic_settings_cog),
                 ListBuilder.ICON_IMAGE,
                 bluetoothDevice.getName());
     }

@@ -37,7 +37,7 @@
         android:layout_width="@*android:dimen/config_restrictedIconSize"
         android:layout_height="@*android:dimen/config_restrictedIconSize"
         android:scaleType="centerInside"
-        android:tint="?android:attr/colorAccent"
+        android:tint="@color/color_default_accent"
         android:src="@drawable/ic_info"
         android:layout_alignParentRight="true"
         android:visibility="gone" />

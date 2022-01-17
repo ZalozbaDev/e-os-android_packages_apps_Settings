@@ -168,7 +168,6 @@ public class Enhanced4gLteSliceHelper {
                 R.mipmap.ic_launcher);
 
         return new ListBuilder(mContext, sliceUri, ListBuilder.INFINITY)
-                .setAccentColor(Utils.getColorAccentDefaultColor(mContext))
                 .addRow(new RowBuilder()
                         .setTitle(getEnhanced4glteModeTitle(subId))
                         .addEndItem(

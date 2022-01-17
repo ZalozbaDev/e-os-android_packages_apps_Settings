@@ -452,7 +452,7 @@ public class RunningProcessesView extends FrameLayout
         final Context context = getContext();
         mColorBar.setProgressTintList(
                 ColorStateList.valueOf(context.getColor(R.color.running_processes_system_ram)));
-        mColorBar.setSecondaryProgressTintList(Utils.getColorAccent(context));
+        mColorBar.setSecondaryProgressTintList(ColorStateList.valueOf(context.getResources().getColor(R.color.color_default_accent)));
         mColorBar.setSecondaryProgressTintMode(PorterDuff.Mode.SRC);
         mColorBar.setProgressBackgroundTintList(
                 ColorStateList.valueOf(context.getColor(R.color.running_processes_free_ram)));

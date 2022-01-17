@@ -51,7 +51,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/title"
-            android:textColor="?android:attr/textColorSecondary"
+            android:textColor="@color/color_default_secondary_text"
             android:layout_alignStart="@id/title" />
     </LinearLayout>
 </LinearLayout>

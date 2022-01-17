@@ -19,7 +19,7 @@
 
         <Preference
                 android:key="version"
-                android:textColor="?android:attr/textColorSecondary"
+                android:textColor="@color/color_default_secondary_text"
                 android:selectable="false"/>
 
         <com.android.settingslib.RestrictedSwitchPreference

@@ -47,7 +47,7 @@
         android:layout_weight="1"
         android:layout_gravity="start|center"
         android:textAppearance="@*android:style/TextAppearance.DeviceDefault.Body2"
-        android:textColor="?android:attr/colorAccent"/>
+        android:textColor="@color/color_default_accent"/>
 
     <ProgressBar
         android:id="@+id/scanning_progress"

@@ -227,7 +227,6 @@ public class ChannelListPreferenceController extends NotificationPreferenceContr
 
     private Drawable getAlertingIcon() {
         Drawable icon = mContext.getDrawable(R.drawable.ic_notifications_alert);
-        icon.setTintList(Utils.getColorAccent(mContext));
         return icon;
     }
 

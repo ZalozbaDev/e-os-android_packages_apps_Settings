@@ -198,7 +198,6 @@ public abstract class StorageWizardBase extends FragmentActivity {
     protected void setIcon(int resId) {
         final GlifLayout layout = getGlifLayout();
         final Drawable icon = getDrawable(resId).mutate();
-        icon.setTintList(Utils.getColorAccent(layout.getContext()));
         layout.setIcon(icon);
     }
 

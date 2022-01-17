@@ -76,7 +76,7 @@ public class MobileDataSlice implements CustomSliceable {
         final IconCompat icon = IconCompat.createWithResource(mContext,
                 R.drawable.ic_network_cell);
         final String title = mContext.getText(R.string.mobile_data_settings_title).toString();
-        @ColorInt final int color = Utils.getColorAccentDefaultColor(mContext);
+        @ColorInt final int color = mContext.getResources().getColor(R.color.color_default_accent);
 
         // Return null until we can show a disabled-action Slice, blaming Airplane mode.
         if (isAirplaneModeEnabled()) {
@@ -98,7 +98,6 @@ public class MobileDataSlice implements CustomSliceable {
 
         final ListBuilder listBuilder = new ListBuilder(mContext, getUri(),
                 ListBuilder.INFINITY)
-                .setAccentColor(color)
                 .addRow(new ListBuilder.RowBuilder()
                         .setTitle(title)
                         .setSubtitle(summary)

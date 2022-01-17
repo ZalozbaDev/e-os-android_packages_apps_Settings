@@ -75,7 +75,7 @@
                   android:layout_weight="1"
                   android:textAppearance="@style/TextAppearance.Small"
                   android:textAlignment="viewStart"
-                  android:textColor="?android:attr/textColorSecondary" />
+                  android:textColor="@color/color_default_secondary_text" />
     </LinearLayout>
     <LinearLayout
         android:id="@+id/radio_extra_widget_container"

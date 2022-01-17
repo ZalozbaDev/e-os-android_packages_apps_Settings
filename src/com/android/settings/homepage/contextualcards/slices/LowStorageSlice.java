@@ -66,8 +66,7 @@ public class LowStorageSlice implements CustomSliceable {
         final String percentageString = NumberFormat.getPercentInstance().format(usedPercentage);
         final String freeSizeString = Formatter.formatFileSize(mContext, info.freeBytes);
         final ListBuilder listBuilder = new ListBuilder(mContext,
-                CustomSliceRegistry.LOW_STORAGE_SLICE_URI, ListBuilder.INFINITY).setAccentColor(
-                Utils.getColorAccentDefaultColor(mContext));
+                CustomSliceRegistry.LOW_STORAGE_SLICE_URI, ListBuilder.INFINITY);
         final IconCompat icon = IconCompat.createWithResource(mContext, R.drawable.ic_storage);
 
         if (usedPercentage < LOW_STORAGE_THRESHOLD) {

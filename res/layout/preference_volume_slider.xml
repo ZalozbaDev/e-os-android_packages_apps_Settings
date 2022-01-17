@@ -59,7 +59,7 @@
                 android:paddingStart="12dp"
                 android:singleLine="true"
                 android:textAppearance="@*android:style/TextAppearance.DeviceDefault.Subhead"
-                android:textColor="?android:attr/textColorPrimary"
+                android:textColor="@color/color_default_primary_text"
                 android:ellipsize="marquee"
                 android:fadingEdge="horizontal"/>
             <!-- Preference should place its actual preference widget here. -->
@@ -95,7 +95,7 @@
                 android:ellipsize="end"
                 android:visibility="gone"
                 android:textAppearance="@*android:style/TextAppearance.DeviceDefault.Body1"
-                android:textColor="?android:attr/textColorSecondary"/>
+                android:textColor="@color/color_default_secondary_text"/>
 
         </LinearLayout>
     </LinearLayout>

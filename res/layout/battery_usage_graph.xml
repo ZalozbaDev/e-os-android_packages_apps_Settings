@@ -31,7 +31,7 @@
         android:fontFamily="@*android:string/config_headlineFontFamily"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:textSize="36sp"
-        android:textColor="?android:attr/colorAccent" />
+        android:textColor="@color/color_default_accent" />
 
     <com.android.settings.widget.UsageView
         android:id="@+id/battery_usage"
@@ -39,9 +39,9 @@
         android:layout_height="141dp"
         android:layout_marginBottom="16dp"
         settings:sideLabels="@array/battery_labels"
-        android:colorAccent="?android:attr/colorAccent"
+        android:colorAccent="@color/color_default_accent"
         android:gravity="end"
-        settings:textColor="?android:attr/textColorSecondary" />
+        settings:textColor="@color/color_default_secondary_text" />
 
     <TextView
         android:id="@+id/bottom_summary"

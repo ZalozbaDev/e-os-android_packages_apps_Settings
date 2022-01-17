@@ -65,7 +65,6 @@ public class DeviceInfoSlice implements CustomSliceable {
                 ListBuilder.ICON_IMAGE, title);
         return new ListBuilder(mContext, CustomSliceRegistry.DEVICE_INFO_SLICE_URI,
                 ListBuilder.INFINITY)
-                .setAccentColor((Utils.getColorAccentDefaultColor(mContext)))
                 .setHeader(new ListBuilder.HeaderBuilder().setTitle(title))
                 .addRow(new ListBuilder.RowBuilder()
                         .setTitle(getPhoneNumber())

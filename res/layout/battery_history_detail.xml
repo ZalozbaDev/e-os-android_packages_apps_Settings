@@ -39,7 +39,7 @@
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:textSize="36sp"
-                android:textColor="?android:attr/colorAccent"/>
+                android:textColor="@color/color_default_accent"/>
 
             <TextView
                 android:id="@+id/estimation"
@@ -47,16 +47,16 @@
                 android:layout_height="wrap_content"
                 android:paddingBottom="8dp"
                 android:textAppearance="?android:attr/textAppearanceMedium"
-                android:textColor="?android:attr/textColorSecondary"/>
+                android:textColor="@color/color_default_secondary_text"/>
 
             <com.android.settings.widget.UsageView
                 android:id="@+id/battery_usage"
                 android:layout_width="match_parent"
                 android:layout_height="141dp"
                 settings:sideLabels="@array/battery_labels"
-                android:colorAccent="?android:attr/colorAccent"
+                android:colorAccent="@color/color_default_accent"
                 android:gravity="end"
-                settings:textColor="?android:attr/textColorSecondary"/>
+                settings:textColor="@color/color_default_secondary_text"/>
         </LinearLayout>
 
         <View

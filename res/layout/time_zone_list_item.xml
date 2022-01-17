@@ -42,7 +42,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:textAppearance="?android:attr/textAppearanceListItemSecondary"
-            android:textColor="?android:attr/textColorSecondary" />
+            android:textColor="@color/color_default_secondary_text" />
 
         <TextView
             android:id="@+id/tz_item_time"
@@ -50,7 +50,7 @@
             android:layout_height="wrap_content"
             android:textAlignment="viewEnd"
             android:textAppearance="?android:attr/textAppearanceListItemSecondary"
-            android:textColor="?android:attr/textColorSecondary" />
+            android:textColor="@color/color_default_secondary_text" />
     </LinearLayout>
 
     <TextView
@@ -58,5 +58,5 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceListItemSecondary"
-        android:textColor="?android:attr/textColorSecondary" />
+        android:textColor="@color/color_default_secondary_text" />
 </LinearLayout>

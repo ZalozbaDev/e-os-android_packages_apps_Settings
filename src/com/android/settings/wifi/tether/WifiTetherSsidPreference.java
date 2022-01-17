@@ -71,7 +71,7 @@ public class WifiTetherSsidPreference extends ValidatedEditTextPreference {
         setLayoutResource(com.android.settingslib.R.layout.preference_two_target);
         setWidgetLayoutResource(R.layout.wifi_button_preference_widget);
 
-        mShareIconDrawable = getDrawable(R.drawable.ic_qrcode_24dp);
+        mShareIconDrawable = getDrawable(R.drawable.ic_qrcode);
     }
 
     @Override

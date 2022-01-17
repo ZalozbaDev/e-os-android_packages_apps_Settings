@@ -38,7 +38,7 @@
             android:id="@+id/restricted_lock_icon_remote_input"
             android:layout_width="@*android:dimen/config_restrictedIconSize"
             android:layout_height="@*android:dimen/config_restrictedIconSize"
-            android:tint="?android:attr/colorAccent"
+            android:tint="@color/color_default_accent"
             android:src="@drawable/ic_info"
             android:layout_marginEnd="?android:attr/dialogPreferredPadding"
             android:layout_gravity="center_vertical"
