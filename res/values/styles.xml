@@ -803,4 +803,63 @@
         <item name="android:tint">@lineageos.platform:color/color_default_accent</item>
     </style>
 
+    <style name="customHeadlineStyle" parent="@*android:style/TextAppearance.DeviceDefault.Headline">
+        <item name="textColor">@lineageos.platform:color/color_default_primary_text</item>
+        <item name="android:textColor">@lineageos.platform:color/color_default_primary_text</item>
+        <item name="android:textColorHint">@lineageos.platform:color/color_default_secondary_text</item>
+        <item name="android:textColorHighlight">@lineageos.platform:color/color_default_accent</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColorLink">@lineageos.platform:color/color_default_accent</item>
+        <item name="android:textColorPrimary">@lineageos.platform:color/color_default_primary_text</item>
+        <item name="android:textColorSecondary">@lineageos.platform:color/color_default_secondary_text</item>
+    </style>
+
+    <style name="customTitleStyle" parent="@*android:style/TextAppearance.DeviceDefault.Title">
+        <item name="textColor">@lineageos.platform:color/color_default_primary_text</item>
+        <item name="android:textColor">@lineageos.platform:color/color_default_primary_text</item>
+        <item name="android:textColorHint">@lineageos.platform:color/color_default_secondary_text</item>
+        <item name="android:textColorHighlight">@lineageos.platform:color/color_default_accent</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColorLink">@lineageos.platform:color/color_default_accent</item>
+        <item name="android:textColorPrimary">@lineageos.platform:color/color_default_primary_text</item>
+        <item name="android:textColorSecondary">@lineageos.platform:color/color_default_secondary_text</item>
+    </style>
+
+    <style name="customSubheadStyle" parent="@*android:style/TextAppearance.DeviceDefault.Subhead">
+        <item name="textColor">@lineageos.platform:color/color_default_primary_text</item>
+        <item name="android:textColor">@lineageos.platform:color/color_default_primary_text</item>
+        <item name="android:textColorHint">@lineageos.platform:color/color_default_secondary_text</item>
+        <item name="android:textColorHighlight">@lineageos.platform:color/color_default_accent</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColorLink">@lineageos.platform:color/color_default_accent</item>
+        <item name="android:textColorPrimary">@lineageos.platform:color/color_default_primary_text</item>
+        <item name="android:textColorSecondary">@lineageos.platform:color/color_default_secondary_text</item>
+    </style>
+
+    <style name="customBody1Style" parent="@*android:style/TextAppearance.DeviceDefault.Body1">
+        <item name="textColor">@lineageos.platform:color/color_default_primary_text</item>
+        <item name="android:textColor">@lineageos.platform:color/color_default_primary_text</item>
+        <item name="android:textColorHint">@lineageos.platform:color/color_default_secondary_text</item>
+        <item name="android:textColorHighlight">@lineageos.platform:color/color_default_accent</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColorLink">@lineageos.platform:color/color_default_accent</item>
+        <item name="android:textColorPrimary">@lineageos.platform:color/color_default_primary_text</item>
+        <item name="android:textColorSecondary">@lineageos.platform:color/color_default_secondary_text</item>
+    </style>
+
+    <style name="customCaptionStyle" parent="@*android:style/TextAppearance.DeviceDefault.Caption">
+        <item name="textColor">@lineageos.platform:color/color_default_secondary_text</item>
+        <item name="android:textColor">@lineageos.platform:color/color_default_secondary_text</item>
+        <item name="android:textColorHint">@lineageos.platform:color/color_default_secondary_text</item>
+        <item name="android:textColorHighlight">@lineageos.platform:color/color_default_accent</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColorLink">@lineageos.platform:color/color_default_accent</item>
+        <item name="android:textColorPrimary">@lineageos.platform:color/color_default_primary_text</item>
+        <item name="android:textColorSecondary">@lineageos.platform:color/color_default_secondary_text</item>
+    </style>
 </resources>
