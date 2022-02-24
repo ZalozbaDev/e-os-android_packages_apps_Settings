@@ -36,25 +36,25 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/font_size_preview_text_headline"
-                android:textAppearance="@*android:style/TextAppearance.DeviceDefault.Headline"/>
+                android:textAppearance="@style/customHeadlineStyle"/>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/font_size_preview_text_title"
-                android:textAppearance="@*android:style/TextAppearance.DeviceDefault.Title"/>
+                android:textAppearance="@style/customTitleStyle"/>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/font_size_preview_text_subtitle"
-                android:textAppearance="@*android:style/TextAppearance.DeviceDefault.Subhead"/>
+                android:textAppearance="@style/customSubheadStyle"/>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/font_size_preview_text_body"
-                android:textAppearance="@*android:style/TextAppearance.DeviceDefault.Body1"/>
+                android:textAppearance="@style/customBody1Style"/>
         </LinearLayout>
     </view>
 </ScrollView>

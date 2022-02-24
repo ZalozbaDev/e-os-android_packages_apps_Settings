@@ -18,7 +18,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fillViewport="true"
-    android:background="?android:attr/colorBackgroundFloating"
+    android:background="@lineageos.platform:color/color_default_foreground"
     android:importantForAccessibility="noHideDescendants">
 
     <view class="com.android.settings.TouchBlockingFrameLayout"
@@ -43,7 +43,7 @@
                     android:layout_width="48dp"
                     android:layout_height="48dp"
                     android:src="@drawable/ic_settings_wireless"
-                    android:tint="?android:attr/colorAccent"
+                    android:tint="@lineageos.platform:color/color_default_accent"
                     android:scaleType="center" />
 
                 <LinearLayout
@@ -57,16 +57,16 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/wifi_settings"
-                        android:textAppearance="@*android:style/TextAppearance.DeviceDefault.Subhead"
-                        android:textColor="?android:attr/textColorPrimary" />
+                        android:textAppearance="@style/customSubheadStyle"
+                        android:textColor="@lineageos.platform:color/color_default_primary_text" />
 
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/wifi_display_status_not_available"
-                        android:textAppearance="@*android:style/TextAppearance.DeviceDefault.Body1"
-                        android:textColor="?android:attr/textColorSecondary" />
+                        android:textAppearance="@style/customBody1Style"
+                        android:textColor="@lineageos.platform:color/color_default_secondary_text" />
                 </LinearLayout>
             </LinearLayout>
 
@@ -82,7 +82,7 @@
                     android:layout_width="48dp"
                     android:layout_height="48dp"
                     android:src="@drawable/ic_settings_data_usage"
-                    android:tint="?android:attr/colorAccent"
+                    android:tint="@lineageos.platform:color/color_default_accent"
                     android:scaleType="center" />
 
                 <LinearLayout
@@ -96,15 +96,15 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/data_usage_summary_title"
-                        android:textAppearance="@*android:style/TextAppearance.DeviceDefault.Subhead"
-                        android:textColor="?android:attr/textColorPrimary" />
+                        android:textAppearance="@style/customSubheadStyle"
+                        android:textColor="@lineageos.platform:color/color_default_primary_text" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/no_data_usage"
-                        android:textAppearance="@*android:style/TextAppearance.DeviceDefault.Body1"
-                        android:textColor="?android:attr/textColorSecondary" />
+                        android:textAppearance="@style/customBody1Style"
+                        android:textColor="@lineageos.platform:color/color_default_secondary_text" />
                 </LinearLayout>
             </LinearLayout>
 
@@ -120,7 +120,7 @@
                     android:layout_width="48dp"
                     android:layout_height="48dp"
                     android:src="@drawable/ic_settings_display"
-                    android:tint="?android:attr/colorAccent"
+                    android:tint="@lineageos.platform:color/color_default_accent"
                     android:scaleType="center" />
 
                 <LinearLayout
@@ -134,15 +134,15 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/display_settings_title"
-                        android:textAppearance="@*android:style/TextAppearance.DeviceDefault.Subhead"
-                        android:textColor="?android:attr/textColorPrimary" />
+                        android:textAppearance="@style/customSubheadStyle"
+                        android:textColor="@lineageos.platform:color/color_default_primary_text" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/display_summary_example"
-                        android:textAppearance="@*android:style/TextAppearance.DeviceDefault.Body1"
-                        android:textColor="?android:attr/textColorSecondary" />
+                        android:textAppearance="@style/customBody1Style"
+                        android:textColor="@lineageos.platform:color/color_default_secondary_text" />
                 </LinearLayout>
             </LinearLayout>
 
@@ -158,7 +158,7 @@
                     android:layout_width="48dp"
                     android:layout_height="48dp"
                     android:src="@drawable/ic_settings_sound"
-                    android:tint="?android:attr/colorAccent"
+                    android:tint="@lineageos.platform:color/color_default_accent"
                     android:scaleType="center" />
 
                 <LinearLayout
@@ -172,15 +172,15 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/sound_settings"
-                        android:textAppearance="@*android:style/TextAppearance.DeviceDefault.Subhead"
-                        android:textColor="?android:attr/textColorPrimary" />
+                        android:textAppearance="@style/customSubheadStyle"
+                        android:textColor="@lineageos.platform:color/color_default_primary_text" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/sound_settings_example_summary"
-                        android:textAppearance="@*android:style/TextAppearance.DeviceDefault.Body1"
-                        android:textColor="?android:attr/textColorSecondary" />
+                        android:textAppearance="@style/customBody1Style"
+                        android:textColor="@lineageos.platform:color/color_default_secondary_text" />
                 </LinearLayout>
             </LinearLayout>
 
@@ -196,7 +196,7 @@
                     android:layout_width="48dp"
                     android:layout_height="48dp"
                     android:src="@drawable/ic_settings_applications"
-                    android:tint="?android:attr/colorAccent"
+                    android:tint="@lineageos.platform:color/color_default_accent"
                     android:scaleType="center" />
 
                 <LinearLayout
@@ -210,15 +210,15 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/applications_settings"
-                        android:textAppearance="@*android:style/TextAppearance.DeviceDefault.Subhead"
-                        android:textColor="?android:attr/textColorPrimary" />
+                        android:textAppearance="@style/customSubheadStyle"
+                        android:textColor="@lineageos.platform:color/color_default_primary_text" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/apps_summary_example"
-                        android:textAppearance="@*android:style/TextAppearance.DeviceDefault.Body1"
-                        android:textColor="?android:attr/textColorSecondary" />
+                        android:textAppearance="@style/customBody1Style"
+                        android:textColor="@lineageos.platform:color/color_default_secondary_text" />
                 </LinearLayout>
             </LinearLayout>
         </LinearLayout>
