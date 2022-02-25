@@ -155,11 +155,11 @@ public class ImportancePreference extends Preference {
     }
 
     private ColorStateList getAccentTint() {
-        return Utils.getColorAttr(getContext(), com.android.settings.R.color.color_default_accent);
+        return Utils.getColorAttr(getContext(), android.R.attr.colorAccent);
     }
 
     private ColorStateList getRegularTint() {
-        return Utils.getColorAttr(getContext(), com.android.settings.R.color.color_default_primary_text);
+        return Utils.getColorAttr(getContext(), android.R.attr.textColorPrimary);
     }
 
     void setImportanceSummary(ViewGroup parent, int importance, boolean fromUser) {

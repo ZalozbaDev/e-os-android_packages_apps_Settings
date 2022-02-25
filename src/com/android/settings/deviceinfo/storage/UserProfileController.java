@@ -132,7 +132,7 @@ public class UserProfileController extends AbstractPreferenceController implemen
 
     private static Drawable applyTint(Context context, Drawable icon) {
         icon = icon.mutate();
-        icon.setTintList(Utils.getColorAttr(context, R.color.color_default_accent));
+        icon.setTintList(Utils.getColorAttr(context, android.R.attr.colorAccent));
         return icon;
     }
 

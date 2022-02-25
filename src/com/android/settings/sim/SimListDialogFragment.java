@@ -177,7 +177,7 @@ public class SimListDialogFragment extends SimDialogFragment implements
                 summary.setText("");
                 icon.setImageDrawable(mContext.getDrawable(R.drawable.ic_feedback_24dp));
                 icon.setImageTintList(
-                        Utils.getColorAttr(mContext, R.color.color_default_secondary_text));
+                        Utils.getColorAttr(mContext, android.R.attr.textColorSecondary));
             } else {
                 title.setText(sub.getDisplayName());
                 summary.setText(isMdnProvisioned(sub.getNumber()) ? sub.getNumber() : "");

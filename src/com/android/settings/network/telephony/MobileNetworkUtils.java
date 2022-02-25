@@ -539,7 +539,7 @@ public class MobileNetworkUtils {
         // Set the signal strength icon at the bottom right
         icons.setLayerGravity(1 /* index of SignalDrawable */, Gravity.BOTTOM | Gravity.RIGHT);
         icons.setLayerSize(1 /* index of SignalDrawable */, iconSize, iconSize);
-        icons.setTintList(Utils.getColorAttr(context, R.color.color_default_accent));
+        icons.setTintList(Utils.getColorAttr(context, android.R.attr.colorAccent));
         return icons;
     }
 

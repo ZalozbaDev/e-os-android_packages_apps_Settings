@@ -206,7 +206,7 @@ public class PermissionBarChartPreferenceController extends BasePreferenceContro
         try {
             icon = mPackageManager.getPermissionGroupInfo(permissionGroup, 0)
                     .loadIcon(mPackageManager);
-            icon.setTintList(Utils.getColorAttr(mContext, R.color.color_default_secondary_text));
+            icon.setTintList(Utils.getColorAttr(mContext, android.R.attr.textColorSecondary));
         } catch (PackageManager.NameNotFoundException e) {
             Log.w(TAG, "Cannot find group icon for " + permissionGroup, e);
         }
