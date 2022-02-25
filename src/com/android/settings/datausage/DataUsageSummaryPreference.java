@@ -261,7 +261,7 @@ public class DataUsageSummaryPreference extends Preference {
                         TextUtils.expandTemplate(getContext().getText(R.string.data_remaining),
                                 DataUsageUtils.formatDataUsage(getContext(), dataRemaining)));
                 usageRemainingField.setTextColor(
-                        Utils.getColorAttr(getContext(), R.color.color_default_accent));
+                        Utils.getColorAttr(getContext(), android.R.attr.colorAccent));
             } else {
                 usageRemainingField.setText(
                         TextUtils.expandTemplate(getContext().getText(R.string.data_overusage),
