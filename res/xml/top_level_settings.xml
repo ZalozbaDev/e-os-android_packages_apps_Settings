@@ -23,7 +23,7 @@
     <Preference
         android:key="top_level_update"
         android:title="@string/system_update_settings_list_item_title"
-        android:summary="@string/summary_placeholder"
+        android:summary="@string/system_update_summary"
         android:icon="@drawable/ic_system_update"
         android:order="-150"
         android:fragment="com.android.settings.SystemUpdaterSettings"
