@@ -40,6 +40,7 @@ import com.android.settings.network.NetworkDashboardFragment;
 import com.android.settings.notification.ConfigureNotificationSettings;
 import com.android.settings.notification.SoundSettings;
 import com.android.settings.notification.zen.ZenModeSettings;
+import com.android.settings.privacy.AdvancedPrivacyDashboardFragment;
 import com.android.settings.privacy.PrivacyDashboardFragment;
 import com.android.settings.security.LockscreenDashboardFragment;
 import com.android.settings.security.SecuritySettings;
@@ -108,6 +109,8 @@ public class DashboardFragmentRegistry {
         PARENT_TO_CATEGORY_KEY_MAP.put(NightDisplaySettings.class.getName(),
                 CategoryKey.CATEGORY_NIGHT_DISPLAY);
         PARENT_TO_CATEGORY_KEY_MAP.put(PrivacyDashboardFragment.class.getName(),
+                CategoryKey.CATEGORY_PRIVACY);
+        PARENT_TO_CATEGORY_KEY_MAP.put(AdvancedPrivacyDashboardFragment.class.getName(),
                 CategoryKey.CATEGORY_PRIVACY);
         PARENT_TO_CATEGORY_KEY_MAP.put(EnterprisePrivacySettings.class.getName(),
                 CategoryKey.CATEGORY_ENTERPRISE_PRIVACY);
