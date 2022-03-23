@@ -168,6 +168,14 @@
         settings:controller="com.android.settings.privacy.TopLevelPrivacyEntryPreferenceController"/>
 
     <com.android.settings.widget.HomepagePreference
+        android:key="top_level_advanced_privacy"
+        android:title="@string/advanced_privacy_dashboard_title"
+        android:summary="@string/advanced_privacy_dashboard_summary"
+        android:icon="@drawable/ic_homepage_advanced_privacy"
+        android:order="-35"
+        android:fragment="com.android.settings.privacy.AdvancedPrivacyDashboardFragment"/>
+
+    <com.android.settings.widget.HomepagePreference
         android:fragment="com.android.settings.location.LocationSettings"
         android:icon="@drawable/ic_settings_location"
         android:key="top_level_location"

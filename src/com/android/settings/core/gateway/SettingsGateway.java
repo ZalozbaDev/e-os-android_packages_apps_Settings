@@ -152,6 +152,7 @@ import com.android.settings.password.ChooseLockPassword;
 import com.android.settings.password.ChooseLockPattern;
 import com.android.settings.print.PrintJobSettingsFragment;
 import com.android.settings.print.PrintSettingsFragment;
+import com.android.settings.privacy.AdvancedPrivacyDashboardFragment;
 import com.android.settings.privacy.PrivacyControlsFragment;
 import com.android.settings.privacy.PrivacyDashboardFragment;
 import com.android.settings.security.LockscreenDashboardFragment;
@@ -345,7 +346,8 @@ public class SettingsGateway {
             MobileNetworkSettings.class.getName(),
             AppLocaleDetails.class.getName(),
             TurnScreenOnSettings.class.getName(),
-            TurnScreenOnDetails.class.getName()
+            TurnScreenOnDetails.class.getName(),
+            AdvancedPrivacyDashboardFragment.class.getName()
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
