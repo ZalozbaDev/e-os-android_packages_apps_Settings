@@ -102,6 +102,14 @@
         android:fragment="com.android.settings.privacy.PrivacyDashboardFragment"/>
 
     <Preference
+        android:key="top_level_advanced_privacy"
+        android:title="@string/advanced_privacy_dashboard_title"
+        android:summary="@string/advanced_privacy_dashboard_summary"
+        android:icon="@drawable/ic_homepage_advanced_privacy"
+        android:order="-54"
+        android:fragment="com.android.settings.privacy.AdvancedPrivacyDashboardFragment"/>
+
+    <Preference
         android:key="top_level_location"
         android:title="@string/location_settings_title"
         android:summary="@string/location_settings_loading_app_permission_stats"
