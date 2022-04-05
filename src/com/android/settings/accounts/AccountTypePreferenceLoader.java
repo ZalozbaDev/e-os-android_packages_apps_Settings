@@ -196,6 +196,11 @@ public class AccountTypePreferenceLoader {
         }
         ActivityInfo resolvedActivityInfo = resolveInfo.activityInfo;
         ApplicationInfo resolvedAppInfo = resolvedActivityInfo.applicationInfo;
+
+        if (resolvedActivityInfo.packageName.equals("foundation.e.drive")) {
+            return true;
+        }
+
         try {
             // Allows to launch only authenticator owned activities.
             ApplicationInfo authenticatorAppInf = pm.getApplicationInfo(authDesc.packageName, 0);
