@@ -18,6 +18,7 @@ package com.android.settings.privacy;
 
 import android.app.Activity;
 import android.content.Context;
+import android.content.ComponentName;
 import android.content.Intent;
 import android.os.Bundle;
 import android.provider.SearchIndexableResource;
@@ -35,14 +36,16 @@ import java.util.List;
 @SearchIndexable
 public class AdvancedPrivacyDashboardFragment extends Fragment {
 
-    private static final String privacyCentralPackageName = "foundation.e.privacycentralapp.e";
+    private static final String privacyCentralPackageName = "foundation.e.advancedprivacy";
+    private static final String privacyCentralActivityName = "foundation.e.privacycentralapp.main.MainActivity";
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
         Activity activity = getActivity();
-        Intent intent = activity.getPackageManager().getLaunchIntentForPackage(privacyCentralPackageName);
+        Intent intent = new Intent().setComponent(new ComponentName(privacyCentralPackageName,
+                privacyCentralActivityName));
         startActivity(intent);
 
         if (activity != null) {
