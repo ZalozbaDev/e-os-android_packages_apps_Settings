@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!--  Copyright (C) 2007 The Android Open Source Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
@@ -12,10 +12,7 @@
      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
      See the License for the specific language governing permissions and
      limitations under the License.
- -->
-
-<resources xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+ --><resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="yes" msgid="1999566976857398962">"Да"</string>
     <string name="no" msgid="5541738710521607130">"Не"</string>
     <string name="create" msgid="986997212165228751">"Направи"</string>
@@ -23,9 +20,9 @@
     <string name="deny" msgid="7326117222944479942">"Одбиј"</string>
     <string name="device_info_default" msgid="1406619232867343310">"Непознато"</string>
     <plurals name="show_dev_countdown" formatted="false" msgid="1646187747875476269">
-      <item quantity="one">Треба да обавите још <xliff:g id="STEP_COUNT_1">%1$d</xliff:g> корак да бисте постали програмер.</item>
-      <item quantity="few">Треба да обавите још <xliff:g id="STEP_COUNT_1">%1$d</xliff:g> корака да бисте постали програмер.</item>
-      <item quantity="other">Треба да обавите још <xliff:g id="STEP_COUNT_1">%1$d</xliff:g> корака да бисте постали програмер.</item>
+        <item quantity="one">Треба да обавите још <xliff:g id="STEP_COUNT_1">%1$d</xliff:g> корак да бисте постали програмер.</item>
+        <item quantity="few">Треба да обавите још <xliff:g id="STEP_COUNT_1">%1$d</xliff:g> корака да бисте постали програмер.</item>
+        <item quantity="other">Треба да обавите још <xliff:g id="STEP_COUNT_1">%1$d</xliff:g> корака да бисте постали програмер.</item>
     </plurals>
     <string name="show_dev_on" msgid="2840850085134853754">"Постали сте програмер!"</string>
     <string name="show_dev_already" msgid="7041756429707644630">"Нема потребе, већ сте програмер."</string>
@@ -188,7 +185,7 @@
     <string name="date_and_time" msgid="1788358029823431692">"Датум и време"</string>
     <string name="choose_timezone" msgid="1450780665958642147">"Избор временске зоне"</string>
     <!-- no translation found for intent_sender_data_label (1733806423295725392) -->
-    <skip />
+    <skip/>
     <string name="intent_sender_sendbroadcast_text" msgid="3202857258557610646">"Пошаљи <xliff:g id="BROADCAST">broadcast</xliff:g>"</string>
     <string name="intent_sender_action_label" msgid="257853357827275530">"<xliff:g id="ACTION">Action</xliff:g>:"</string>
     <string name="intent_sender_startactivity_text" msgid="519934560779343541">"Покрени <xliff:g id="ACTIVITY">activity</xliff:g>"</string>
@@ -273,9 +270,9 @@
     <string name="locale_remove_menu" msgid="3521546263421387474">"Уклони"</string>
     <string name="add_a_language" msgid="2126220398077503271">"Додајте језик"</string>
     <plurals name="dlg_remove_locales_title" formatted="false" msgid="2845515796732609837">
-      <item quantity="one">Желите ли да уклоните изабране језике?</item>
-      <item quantity="few">Желите ли да уклоните изабране језике?</item>
-      <item quantity="other">Желите ли да уклоните изабране језике?</item>
+        <item quantity="one">Желите ли да уклоните изабране језике?</item>
+        <item quantity="few">Желите ли да уклоните изабране језике?</item>
+        <item quantity="other">Желите ли да уклоните изабране језике?</item>
     </plurals>
     <string name="dlg_remove_locales_message" msgid="8110560091134252067">"Текст ће бити приказан на неком другом језику."</string>
     <string name="dlg_remove_locales_error_title" msgid="5875503658221562572">"Није могуће уклонити све језике"</string>
@@ -376,9 +373,9 @@
     <string name="location_settings_master_switch_title" msgid="4232810467362584112">"Користи локацију"</string>
     <string name="location_settings_summary_location_off" msgid="4797932754681162262">"Искључена"</string>
     <plurals name="location_settings_summary_location_on" formatted="false" msgid="1019959038518185676">
-      <item quantity="one">Укључено – <xliff:g id="COUNT_1">%1$d</xliff:g> апликација има приступ локацији</item>
-      <item quantity="few">Укључено – <xliff:g id="COUNT_1">%1$d</xliff:g> апликације имају приступ локацији</item>
-      <item quantity="other">Укључено – <xliff:g id="COUNT_1">%1$d</xliff:g> апликација има приступ локацији</item>
+        <item quantity="one">Укључено – <xliff:g id="COUNT_1">%1$d</xliff:g> апликација има приступ локацији</item>
+        <item quantity="few">Укључено – <xliff:g id="COUNT_1">%1$d</xliff:g> апликације имају приступ локацији</item>
+        <item quantity="other">Укључено – <xliff:g id="COUNT_1">%1$d</xliff:g> апликација има приступ локацији</item>
     </plurals>
     <string name="location_settings_loading_app_permission_stats" msgid="6054103701535557342">"Учитава се…"</string>
     <string name="account_settings_title" msgid="9138880127246241885">"Налози"</string>
@@ -405,12 +402,9 @@
     <string name="security_settings_face_enroll_education_title" msgid="8662585502032112675">"Како да подесите откључавање лицем"</string>
     <string name="security_settings_face_enroll_education_title_accessibility" msgid="4632402390714441918">"Подесите откључавање лицем"</string>
     <string name="security_settings_face_enroll_education_title_unlock_disabled" msgid="8810954233979716906">"Потврдите идентитет лицем"</string>
-    <string name="security_settings_face_enroll_education_message" msgid="4308030157487176799"></string>
     <string name="security_settings_face_enroll_education_start" msgid="8830924400907195590">"Започните"</string>
     <string name="security_settings_face_enroll_introduction_accessibility" msgid="5748221179069430975">"Користите подеш. за приступачн."</string>
-    <string name="security_settings_face_enroll_introduction_accessibility_expanded" msgid="6763509014732769185"></string>
-    <string name="security_settings_face_enroll_introduction_accessibility_diversity" msgid="2774962371839179206"></string>
-    <string name="security_settings_face_enroll_introduction_accessibility_vision" msgid="7700394302162170363"></string>
+    <string name="security_settings_face_enroll_introduction_accessibility_diversity" msgid="2774962371839179206"/>
     <string name="security_settings_face_enroll_introduction_cancel" msgid="7551159644361639436">"Откажи"</string>
     <string name="security_settings_face_enroll_introduction_no_thanks" msgid="1820618982738898717">"Не, хвала"</string>
     <string name="security_settings_face_enroll_introduction_agree" msgid="1822303197642630076">"Прихватам"</string>
@@ -420,10 +414,8 @@
     <string name="security_settings_face_enroll_introduction_message" msgid="3015751486939484934">"Откључавајте телефон, одобравајте куповине или се пријављујте у апликације помоћу лица."</string>
     <string name="security_settings_face_enroll_introduction_message_unlock_disabled" msgid="5841976283789481311">"Откључавајте телефон или одобравајте куповине помоћу лица.\n\nНапомена: Не можете да откључавате овај уређај помоћу лица. Више информација затражите од администратора организације."</string>
     <string name="security_settings_face_enroll_introduction_message_setup" msgid="765965418187421753">"Откључавајте телефон, одобравајте куповине или се пријављујте у апликације помоћу лица"</string>
-    <string name="security_settings_face_enroll_introduction_footer_part_0" msgid="908831787971630413"></string>
-    <string name="security_settings_face_enroll_introduction_footer_part_1" msgid="4438129587730915782"></string>
-    <string name="security_settings_face_enroll_introduction_footer_part_2" msgid="6099785970191751036"></string>
-    <string name="security_settings_face_enroll_introduction_footer_part_3" msgid="8708726599723727710"></string>
+    <string name="security_settings_face_enroll_introduction_footer_part_1" msgid="4438129587730915782"/>
+    <string name="security_settings_face_enroll_introduction_footer_part_3" msgid="8708726599723727710"/>
     <string name="security_settings_face_enroll_repeat_title" msgid="4446229670377418717">"Поставите лице у центар круга"</string>
     <string name="security_settings_face_enroll_enrolling_skip" msgid="5568617401632528567">"Прескочи"</string>
     <string name="face_add_max" msgid="4578405795494514876">"Максималан број лица који можете да додате је <xliff:g id="COUNT">%d</xliff:g>"</string>
@@ -462,11 +454,10 @@
     <string name="fingerprint_add_title" msgid="1837610443487902050">"Додај отисак прста"</string>
     <string name="fingerprint_enable_keyguard_toggle_title" msgid="5451094461919440992">"закључавање екрана"</string>
     <plurals name="security_settings_fingerprint_preference_summary" formatted="false" msgid="988602245530967106">
-      <item quantity="one">Подешен је <xliff:g id="COUNT_1">%1$d</xliff:g> отисак прста </item>
-      <item quantity="few">Подешена су <xliff:g id="COUNT_1">%1$d</xliff:g> отиска прстију</item>
-      <item quantity="other">Подешено је <xliff:g id="COUNT_1">%1$d</xliff:g> отисака прстију</item>
+        <item quantity="one">Подешен је <xliff:g id="COUNT_1">%1$d</xliff:g> отисак прста </item>
+        <item quantity="few">Подешена су <xliff:g id="COUNT_1">%1$d</xliff:g> отиска прстију</item>
+        <item quantity="other">Подешено је <xliff:g id="COUNT_1">%1$d</xliff:g> отисака прстију</item>
     </plurals>
-    <string name="security_settings_fingerprint_preference_summary_none" msgid="1044059475710838504"></string>
     <string name="security_settings_fingerprint_enroll_introduction_title" msgid="521797365974277693">"Откључајте отиском прста"</string>
     <string name="security_settings_fingerprint_enroll_introduction_title_unlock_disabled" msgid="1911710308293783998">"Користите отисак прста"</string>
     <string name="security_settings_fingerprint_enroll_introduction_message" msgid="242123866344666054">"Само додирните сензор за отисак прста да бисте откључали телефон, овластили куповине или се пријавили на апликације Ово ће бити могуће помоћу свих отисака прстију које додате, па будите опрезни кога додајете.\n\nНапомена: Отисак прста може да буде мање безбедан од јаког шаблона или PIN-а."</string>
@@ -570,9 +561,7 @@
     <string name="suggested_lock_settings_summary" product="device" msgid="8479766049078378225">"Подесите закључавање екрана да бисте заштитили уређај"</string>
     <string name="suggested_lock_settings_summary" product="default" msgid="2443273582716671033">"Подесите закључавање екрана да бисте заштитили телефон"</string>
     <string name="suggested_fingerprint_lock_settings_title" msgid="3140266181874137984">"Додајте отисак прста за откључавање"</string>
-    <string name="suggested_fingerprint_lock_settings_summary" product="tablet" msgid="1040265358906410746"></string>
-    <string name="suggested_fingerprint_lock_settings_summary" product="device" msgid="1040265358906410746"></string>
-    <string name="suggested_fingerprint_lock_settings_summary" product="default" msgid="1040265358906410746"></string>
+    <string name="suggested_fingerprint_lock_settings_summary" product="device" msgid="1040265358906410746"/>
     <string name="lock_settings_picker_title" msgid="9219376327364915334">"Закључавање екрана"</string>
     <string name="lock_settings_picker_title_profile" msgid="8377696902400733227">"Изаберите закључавање за Work"</string>
     <string name="setup_lock_settings_picker_title" product="tablet" msgid="1276283007274778191">"Заштитите таблет"</string>
@@ -594,7 +583,6 @@
     <string name="unlock_set_unlock_launch_picker_change_summary" msgid="6023813780512501969">"Мењање или онемогућавање шаблона, PIN кода или безбедности лозинке"</string>
     <string name="unlock_set_unlock_launch_picker_enable_summary" msgid="1699993191343299179">"Изаберите метод закључавања екрана"</string>
     <string name="unlock_set_unlock_off_title" msgid="2831957685685921667">"Ништа"</string>
-    <string name="unlock_set_unlock_off_summary" msgid="4578319976164001322"></string>
     <string name="unlock_set_unlock_none_title" msgid="2844029875174409728">"Превлачење"</string>
     <string name="unlock_set_unlock_none_summary" msgid="641298008390890152">"Нема безбедности"</string>
     <string name="unlock_set_unlock_pattern_title" msgid="8224895208452995332">"Шаблон"</string>
@@ -681,25 +669,25 @@
     <string name="lock_failed_attempts_now_wiping_profile" msgid="3171880997211568208">"Превише нетачних покушаја. Избрисаћемо овај профил за Work и његове податке."</string>
     <string name="lock_failed_attempts_now_wiping_dialog_dismiss" msgid="170155081899679669">"Одбаци"</string>
     <plurals name="lockpassword_password_too_short" formatted="false" msgid="2192234965414232157">
-      <item quantity="one">Мора да садржи најмање <xliff:g id="COUNT_1">%d</xliff:g> знак</item>
-      <item quantity="few">Мора да садржи најмање <xliff:g id="COUNT_1">%d</xliff:g> знака</item>
-      <item quantity="other">Мора да садржи најмање <xliff:g id="COUNT_1">%d</xliff:g> знакова</item>
+        <item quantity="one">Мора да садржи најмање <xliff:g id="COUNT_1">%d</xliff:g> знак</item>
+        <item quantity="few">Мора да садржи најмање <xliff:g id="COUNT_1">%d</xliff:g> знака</item>
+        <item quantity="other">Мора да садржи најмање <xliff:g id="COUNT_1">%d</xliff:g> знакова</item>
     </plurals>
     <plurals name="lockpassword_pin_too_short" formatted="false" msgid="6817086810898414162">
-      <item quantity="one">PIN мора да садржи најмање <xliff:g id="COUNT_1">%d</xliff:g> цифру</item>
-      <item quantity="few">PIN мора да садржи најмање <xliff:g id="COUNT_1">%d</xliff:g> цифре</item>
-      <item quantity="other">PIN мора да садржи најмање <xliff:g id="COUNT_1">%d</xliff:g> цифара</item>
+        <item quantity="one">PIN мора да садржи најмање <xliff:g id="COUNT_1">%d</xliff:g> цифру</item>
+        <item quantity="few">PIN мора да садржи најмање <xliff:g id="COUNT_1">%d</xliff:g> цифре</item>
+        <item quantity="other">PIN мора да садржи најмање <xliff:g id="COUNT_1">%d</xliff:g> цифара</item>
     </plurals>
     <string name="lockpassword_continue_label" msgid="2507983991979547816">"Настави"</string>
     <plurals name="lockpassword_password_too_long" formatted="false" msgid="8118091957172967677">
-      <item quantity="one">Мора да садржи мање од <xliff:g id="NUMBER_1">%d</xliff:g> знака</item>
-      <item quantity="few">Мора да садржи мање од <xliff:g id="NUMBER_1">%d</xliff:g> знака</item>
-      <item quantity="other">Мора да садржи мање од <xliff:g id="NUMBER_1">%d</xliff:g> знакова</item>
+        <item quantity="one">Мора да садржи мање од <xliff:g id="NUMBER_1">%d</xliff:g> знака</item>
+        <item quantity="few">Мора да садржи мање од <xliff:g id="NUMBER_1">%d</xliff:g> знака</item>
+        <item quantity="other">Мора да садржи мање од <xliff:g id="NUMBER_1">%d</xliff:g> знакова</item>
     </plurals>
     <plurals name="lockpassword_pin_too_long" formatted="false" msgid="8706992338720310765">
-      <item quantity="one">Мора да садржи мање од <xliff:g id="NUMBER_1">%d</xliff:g> цифре</item>
-      <item quantity="few">Мора да садржи мање од <xliff:g id="NUMBER_1">%d</xliff:g> цифре</item>
-      <item quantity="other">Мора да садржи мање од <xliff:g id="NUMBER_1">%d</xliff:g> цифара</item>
+        <item quantity="one">Мора да садржи мање од <xliff:g id="NUMBER_1">%d</xliff:g> цифре</item>
+        <item quantity="few">Мора да садржи мање од <xliff:g id="NUMBER_1">%d</xliff:g> цифре</item>
+        <item quantity="other">Мора да садржи мање од <xliff:g id="NUMBER_1">%d</xliff:g> цифара</item>
     </plurals>
     <string name="lockpassword_pin_contains_non_digits" msgid="8749897085454833003">"Мора да садржи само цифре 0–9"</string>
     <string name="lockpassword_pin_recently_used" msgid="6650277060998923465">"Администратор уређаја не дозвољава употребу недавно коришћеног PIN-а"</string>
@@ -709,34 +697,34 @@
     <string name="lockpassword_password_requires_digit" msgid="312518567592683795">"Мора да садржи најмање једну цифру"</string>
     <string name="lockpassword_password_requires_symbol" msgid="6178512486154701321">"Мора да садржи најмање један симбол"</string>
     <plurals name="lockpassword_password_requires_letters" formatted="false" msgid="2385916409676839024">
-      <item quantity="one">Мора да садржи најмање <xliff:g id="COUNT">%d</xliff:g> слово</item>
-      <item quantity="few">Мора да садржи најмање <xliff:g id="COUNT">%d</xliff:g> слова</item>
-      <item quantity="other">Мора да садржи најмање <xliff:g id="COUNT">%d</xliff:g> слова</item>
+        <item quantity="one">Мора да садржи најмање <xliff:g id="COUNT">%d</xliff:g> слово</item>
+        <item quantity="few">Мора да садржи најмање <xliff:g id="COUNT">%d</xliff:g> слова</item>
+        <item quantity="other">Мора да садржи најмање <xliff:g id="COUNT">%d</xliff:g> слова</item>
     </plurals>
     <plurals name="lockpassword_password_requires_lowercase" formatted="false" msgid="2057467885488612701">
-      <item quantity="one">Мора да садржи најмање <xliff:g id="COUNT">%d</xliff:g> малo слово</item>
-      <item quantity="few">Мора да садржи најмање <xliff:g id="COUNT">%d</xliff:g> мала слова</item>
-      <item quantity="other">Мора да садржи најмање <xliff:g id="COUNT">%d</xliff:g> малих слова</item>
+        <item quantity="one">Мора да садржи најмање <xliff:g id="COUNT">%d</xliff:g> малo слово</item>
+        <item quantity="few">Мора да садржи најмање <xliff:g id="COUNT">%d</xliff:g> мала слова</item>
+        <item quantity="other">Мора да садржи најмање <xliff:g id="COUNT">%d</xliff:g> малих слова</item>
     </plurals>
     <plurals name="lockpassword_password_requires_uppercase" formatted="false" msgid="4541266279643052025">
-      <item quantity="one">Мора да садржи најмање <xliff:g id="COUNT">%d</xliff:g> велико слово</item>
-      <item quantity="few">Мора да садржи најмање <xliff:g id="COUNT">%d</xliff:g> велика слова</item>
-      <item quantity="other">Мора да садржи најмање <xliff:g id="COUNT">%d</xliff:g> великих слова</item>
+        <item quantity="one">Мора да садржи најмање <xliff:g id="COUNT">%d</xliff:g> велико слово</item>
+        <item quantity="few">Мора да садржи најмање <xliff:g id="COUNT">%d</xliff:g> велика слова</item>
+        <item quantity="other">Мора да садржи најмање <xliff:g id="COUNT">%d</xliff:g> великих слова</item>
     </plurals>
     <plurals name="lockpassword_password_requires_numeric" formatted="false" msgid="70617964591376248">
-      <item quantity="one">Мора да садржи најмање <xliff:g id="COUNT">%d</xliff:g> цифру</item>
-      <item quantity="few">Мора да садржи најмање <xliff:g id="COUNT">%d</xliff:g> цифре</item>
-      <item quantity="other">Мора да садржи најмање <xliff:g id="COUNT">%d</xliff:g> цифара</item>
+        <item quantity="one">Мора да садржи најмање <xliff:g id="COUNT">%d</xliff:g> цифру</item>
+        <item quantity="few">Мора да садржи најмање <xliff:g id="COUNT">%d</xliff:g> цифре</item>
+        <item quantity="other">Мора да садржи најмање <xliff:g id="COUNT">%d</xliff:g> цифара</item>
     </plurals>
     <plurals name="lockpassword_password_requires_symbols" formatted="false" msgid="7981236881269921943">
-      <item quantity="one">Мора да садржи најмање <xliff:g id="COUNT">%d</xliff:g> специјални симбол</item>
-      <item quantity="few">Мора да садржи најмање <xliff:g id="COUNT">%d</xliff:g> специјална симбола</item>
-      <item quantity="other">Мора да садржи најмање <xliff:g id="COUNT">%d</xliff:g> специјалних симбола</item>
+        <item quantity="one">Мора да садржи најмање <xliff:g id="COUNT">%d</xliff:g> специјални симбол</item>
+        <item quantity="few">Мора да садржи најмање <xliff:g id="COUNT">%d</xliff:g> специјална симбола</item>
+        <item quantity="other">Мора да садржи најмање <xliff:g id="COUNT">%d</xliff:g> специјалних симбола</item>
     </plurals>
     <plurals name="lockpassword_password_requires_nonletter" formatted="false" msgid="1567877061888948467">
-      <item quantity="one">Мора да садржи најмање <xliff:g id="COUNT">%d</xliff:g> знак који није слово</item>
-      <item quantity="few">Мора да садржи најмање <xliff:g id="COUNT">%d</xliff:g> знака који нису словa</item>
-      <item quantity="other">Мора да садржи најмање <xliff:g id="COUNT">%d</xliff:g> знакова који нису словa</item>
+        <item quantity="one">Мора да садржи најмање <xliff:g id="COUNT">%d</xliff:g> знак који није слово</item>
+        <item quantity="few">Мора да садржи најмање <xliff:g id="COUNT">%d</xliff:g> знака који нису словa</item>
+        <item quantity="other">Мора да садржи најмање <xliff:g id="COUNT">%d</xliff:g> знакова који нису словa</item>
     </plurals>
     <string name="lockpassword_password_recently_used" msgid="5341218079730167191">"Администратор уређаја не дозвољава употребу недавно коришћене лозинке"</string>
     <string name="lockpassword_password_blacklisted_by_admin" msgid="8956110268546396737">"ИТ администратор блокира честе лозинке. Изаберите другу лозинку."</string>
@@ -751,17 +739,17 @@
     <string name="manage_device_admin" msgid="1044620606203916275">"Апл. за администратора уређаја"</string>
     <string name="number_of_device_admins_none" msgid="152926922020437312">"Нема активних апликација"</string>
     <plurals name="number_of_device_admins" formatted="false" msgid="2528735319390151989">
-      <item quantity="one"><xliff:g id="COUNT_1">%d</xliff:g> активна апликација</item>
-      <item quantity="few"><xliff:g id="COUNT_1">%d</xliff:g> активне апликације</item>
-      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> активних апликација</item>
+        <item quantity="one"><xliff:g id="COUNT_1">%d</xliff:g> активна апликација</item>
+        <item quantity="few"><xliff:g id="COUNT_1">%d</xliff:g> активне апликације</item>
+        <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> активних апликација</item>
     </plurals>
     <string name="manage_trust_agents" msgid="6410149930029992356">"Поуздани агенти"</string>
     <string name="disabled_because_no_backup_security" msgid="4998095356607488854">"Да бисте ово користили, прво подесите закључавање екрана"</string>
     <string name="manage_trust_agents_summary" msgid="6423843123607674286">"Ништа"</string>
     <plurals name="manage_trust_agents_summary_on" formatted="false" msgid="5438047398376802735">
-      <item quantity="one"><xliff:g id="COUNT">%d</xliff:g> активан поуздани агент</item>
-      <item quantity="few"><xliff:g id="COUNT">%d</xliff:g> активна поуздана агента</item>
-      <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> активних поузданих агената</item>
+        <item quantity="one"><xliff:g id="COUNT">%d</xliff:g> активан поуздани агент</item>
+        <item quantity="few"><xliff:g id="COUNT">%d</xliff:g> активна поуздана агента</item>
+        <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> активних поузданих агената</item>
     </plurals>
     <string name="bluetooth_quick_toggle_title" msgid="5955341060378240781">"Bluetooth"</string>
     <string name="bluetooth_quick_toggle_summary" msgid="5257744297562880017">"Укључи Bluetooth"</string>
@@ -780,7 +768,6 @@
     <string name="bluetooth_incoming_pairing_msg" msgid="1068123527866596779">"Са уређаја:&lt;br&gt;&lt;b&gt;<xliff:g id="DEVICE_NAME">%1$s</xliff:g>&lt;/b&gt;&lt;br&gt;&lt;br&gt;Желите ли да се упарите са тим уређајем?"</string>
     <string name="bluetooth_display_passkey_pin_msg" msgid="8672803845151786521">"За упаривање са уређајем:<xliff:g id="BOLD1_0">&lt;br&gt;&lt;b&gt;</xliff:g><xliff:g id="DEVICE_NAME">%1$s</xliff:g><xliff:g id="END_BOLD1">&lt;/b&gt;&lt;br&gt;&lt;br&gt;</xliff:g>Унесите на њему:<xliff:g id="BOLD2_1">&lt;br&gt;&lt;b&gt;</xliff:g><xliff:g id="PASSKEY">%2$s</xliff:g><xliff:g id="END_BOLD2">&lt;/b&gt;</xliff:g>, а затим притисните Return или Enter."</string>
     <string name="bluetooth_pairing_shares_phonebook" msgid="4329325125260724843">"Дозволите приступ контактима и историји позива"</string>
-    <string name="bluetooth_error_title" msgid="2284738188253690278"></string>
     <string name="bluetooth_connecting_error_message" msgid="3941893154784152112">"Није могуће повезати се са уређајем <xliff:g id="DEVICE_NAME">%1$s</xliff:g>."</string>
     <string name="bluetooth_preference_scan_title" msgid="3460316252463771851">"Скенирање за уређаје"</string>
     <string name="bluetooth_search_for_devices" msgid="6516902340975407648">"Освежи"</string>
@@ -1039,10 +1026,10 @@
     <string name="wifi_connect" msgid="2481467560349907397">"Повежи"</string>
     <string name="wifi_turned_on_message" msgid="8069855406962662881">"Wi-Fi је укључен"</string>
     <!-- no translation found for wifi_connected_to_message (7470435873743756802) -->
-    <skip />
+    <skip/>
     <string name="wifi_connecting" msgid="7450277833386859724">"Повезује се…"</string>
     <!-- no translation found for wifi_disconnect (6890251759039761939) -->
-    <skip />
+    <skip/>
     <string name="wifi_failed_connect_message" msgid="8538000546604347894">"Повезивање са мрежом није успело"</string>
     <string name="wifi_not_in_range_message" msgid="3885327464037574739">"Мрежа није у домету"</string>
     <string name="wifi_forget" msgid="3485573280364015620">"Заборави"</string>
@@ -1054,19 +1041,19 @@
     <string name="wifi_forget_dialog_title" msgid="4363829200968563164">"Желите ли да уређај заборави мрежу?"</string>
     <string name="wifi_forget_dialog_message" msgid="8419499588321940243">"Све лозинке за ову мрежу ће бити избрисане"</string>
     <plurals name="wifi_saved_access_points_summary" formatted="false" msgid="2802436466732147888">
-      <item quantity="one">%d мрежа</item>
-      <item quantity="few">%d мреже</item>
-      <item quantity="other">%d мрежа</item>
+        <item quantity="one">%d мрежа</item>
+        <item quantity="few">%d мреже</item>
+        <item quantity="other">%d мрежа</item>
     </plurals>
     <plurals name="wifi_saved_passpoint_access_points_summary" formatted="false" msgid="5802057518058840450">
-      <item quantity="one">%d пријава</item>
-      <item quantity="few">%d пријаве</item>
-      <item quantity="other">%d пријава</item>
+        <item quantity="one">%d пријава</item>
+        <item quantity="few">%d пријаве</item>
+        <item quantity="other">%d пријава</item>
     </plurals>
     <plurals name="wifi_saved_all_access_points_summary" formatted="false" msgid="5125849180309374451">
-      <item quantity="one">%d мрежа и пријава</item>
-      <item quantity="few">%d мреже и пријаве</item>
-      <item quantity="other">%d мрежа и пријава</item>
+        <item quantity="one">%d мрежа и пријава</item>
+        <item quantity="few">%d мреже и пријаве</item>
+        <item quantity="other">%d мрежа и пријава</item>
     </plurals>
     <string name="wifi_advanced_titlebar" msgid="1234150304285575798">"Напредна Wi-Fi подешавања"</string>
     <string name="wifi_advanced_ssid_title" msgid="1561437650193980185">"SSID"</string>
@@ -1079,7 +1066,7 @@
     <string name="wifi_saved_access_points_label" msgid="5691340724310548151">"Сачуване мреже"</string>
     <string name="wifi_subscribed_access_points_tab" msgid="7224061396195667208">"Претплате"</string>
     <!-- no translation found for wifi_saved_access_points_tab (2075914709522121708) -->
-    <skip />
+    <skip/>
     <string name="wifi_advanced_settings_label" msgid="5880605751602184383">"IP подешавања"</string>
     <string name="wifi_advanced_not_available" msgid="8701003884367299092">"Напредна подешавања Wi‑Fi мреже нису доступна за овог корисника"</string>
     <string name="wifi_ip_settings_menu_save" msgid="5190481040428567106">"Сачувај"</string>
@@ -1138,22 +1125,21 @@
     <string name="wifi_calling_mode_dialog_title" msgid="944146521898592440">"Подешавање позивања"</string>
     <string name="wifi_calling_roaming_mode_title" msgid="7703305991991520773">"Подешавања роминга"</string>
     <!-- no translation found for wifi_calling_roaming_mode_summary (6061631305384464179) -->
-    <skip />
+    <skip/>
     <string name="wifi_calling_roaming_mode_dialog_title" msgid="5382466713784067077">"Подешавања роминга"</string>
-  <string-array name="wifi_calling_mode_choices_v2">
-    <item msgid="6052353275413974742">"Wi-Fi"</item>
-    <item msgid="8622872038388687383">"Мобилни подаци"</item>
-    <item msgid="3027927219952052398">"Само Wi-Fi"</item>
-  </string-array>
-  <string-array name="wifi_calling_mode_choices_v2_without_wifi_only">
-    <item msgid="588620799769664461">"Wi-Fi"</item>
-    <item msgid="7566603075659706590">"Мобилни подаци"</item>
-  </string-array>
+    <string-array name="wifi_calling_mode_choices_v2">
+        <item msgid="6052353275413974742">"Wi-Fi"</item>
+        <item msgid="8622872038388687383">"Мобилни подаци"</item>
+        <item msgid="3027927219952052398">"Само Wi-Fi"</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_choices_v2_without_wifi_only">
+        <item msgid="588620799769664461">"Wi-Fi"</item>
+        <item msgid="7566603075659706590">"Мобилни подаци"</item>
+    </string-array>
     <string name="wifi_calling_mode_wifi_preferred_summary" msgid="3240387177966098351">"Ако је Wi‑Fi недоступан, користите мобилну мрежу"</string>
     <string name="wifi_calling_mode_cellular_preferred_summary" msgid="3746914244902314059">"Ако мобилна мрежа није доступна, користи Wi‑Fi"</string>
     <string name="wifi_calling_mode_wifi_only_summary" msgid="3155660680014892641">"Позивање преко Wi-Fi-ја. Ако се Wi‑Fi веза изгуби, позив ће се завршити."</string>
     <string name="wifi_calling_off_explanation" msgid="6295526820826322895">"Када је позивање преко Wi-Fi-ја укључено, телефон може да преусмерава позиве преко Wi-Fi мрежа или мреже мобилног оператера у зависности од тога које сте подешавање изабрали и који сигнал је јачи. Пре него што укључите ову функцију, информишите се код мобилног оператера о накнадама и другим детаљима.<xliff:g id="ADDITIONAL_TEXT">%1$s</xliff:g>"</string>
-    <string name="wifi_calling_off_explanation_2" msgid="3487475808574416183"></string>
     <string name="emergency_address_title" msgid="3490633500025717573">"Адреса за хитне случајеве"</string>
     <string name="emergency_address_summary" msgid="3022628750270626473">"Користи се као ваша локација када упутите хитни позив помоћу Wi-Fi-ја"</string>
     <string name="private_dns_help_message" msgid="851221502063782306"><annotation id="url">"Сазнајте више"</annotation>" о функцијама Приватног DNS-а"</string>
@@ -1249,7 +1235,6 @@
     <string name="auto_brightness_disclaimer" msgid="1868395832774087351">"Оптимизујте ниво осветљености према светлу. Можете привремено да подесите осветљеност и кад је ова опција укључена."</string>
     <string name="auto_brightness_description" msgid="6807117118142381193">"Осветљеност екрана ће се аутоматски прилагодити окружењу и активностима. Можете ручно да померате клизач да би прилагодљиво подешавање осветљености научило шта вам одговара."</string>
     <string name="display_white_balance_title" msgid="2624544323029364713">"Баланс беле екрана"</string>
-    <string name="display_white_balance_summary" msgid="7625456704950209050"></string>
     <string name="adaptive_sleep_title" msgid="2987961991423539233">"Пажња екрана"</string>
     <string name="adaptive_sleep_summary_on" msgid="313187971631243800">"Укључено/екран се неће искључити ако гледате у њега"</string>
     <string name="adaptive_sleep_summary_off" msgid="5272156339202897523">"Искључено"</string>
@@ -1369,13 +1354,12 @@
     <string name="sim_preferred_message" msgid="6004009449266648351">"<xliff:g id="NEW_SIM">%1$s</xliff:g> је једина SIM картица у уређају. Желите ли да користите ову SIM картицу за мобилне податке, позиве и SMS поруке?"</string>
     <string name="wrong_pin_code_pukked" msgid="3414172752791445033">"Нетачан SIM PIN кôд. Сада морате да контактирате мобилног оператера да бисте откључали уређај."</string>
     <plurals name="wrong_pin_code" formatted="false" msgid="4054088588731305475">
-      <item quantity="one">Нетачан SIM PIN кôд. Имате још <xliff:g id="NUMBER_1">%d</xliff:g> покушај.</item>
-      <item quantity="few">Нетачан SIM PIN кôд. Имате још <xliff:g id="NUMBER_1">%d</xliff:g> покушаја.</item>
-      <item quantity="other">Нетачан SIM PIN кôд. Имате још <xliff:g id="NUMBER_1">%d</xliff:g> покушаја.</item>
+        <item quantity="one">Нетачан SIM PIN кôд. Имате још <xliff:g id="NUMBER_1">%d</xliff:g> покушај.</item>
+        <item quantity="few">Нетачан SIM PIN кôд. Имате још <xliff:g id="NUMBER_1">%d</xliff:g> покушаја.</item>
+        <item quantity="other">Нетачан SIM PIN кôд. Имате још <xliff:g id="NUMBER_1">%d</xliff:g> покушаја.</item>
     </plurals>
     <string name="pin_failed" msgid="3726505565797352255">"Радња са SIM PIN кодом није успела!"</string>
     <string name="system_update_settings_list_item_title" msgid="3398346836439366350">"Ажурирања система"</string>
-    <string name="system_update_settings_list_item_summary" msgid="6703752298349642101"></string>
     <string name="firmware_version" msgid="1606901586501447275">"Android верзија"</string>
     <string name="security_patch" msgid="2872125288404962091">"Ниво безбедносне закрпе за Android"</string>
     <string name="model_info" msgid="8997566254717810904">"Модел"</string>
@@ -1451,8 +1435,7 @@
     <string name="sd_insert_summary" product="default" msgid="5949168259622002192">"Уметање SD картице за прикључивање"</string>
     <string name="sd_mount" product="nosdcard" msgid="8305985249945415150">"Прикључите USB меморију"</string>
     <string name="sd_mount" product="default" msgid="5279813999455776169">"Прикључивање SD картице"</string>
-    <string name="sd_mount_summary" product="nosdcard" msgid="2190410240845521205"></string>
-    <string name="sd_mount_summary" product="default" msgid="2190410240845521205"></string>
+    <string name="sd_mount_summary" product="default" msgid="2190410240845521205"/>
     <string name="sd_format" product="nosdcard" msgid="8657427883364711513">"Брисање USB меморије"</string>
     <string name="sd_format" product="default" msgid="9085302892248732329">"Брисање SD картице"</string>
     <string name="sd_format_summary" product="nosdcard" msgid="6179784504937189658">"Брише све податке из интерне USB меморије, као што су музика и фотографије"</string>
@@ -1464,8 +1447,7 @@
     <string name="dlg_confirm_unmount_title" product="default" msgid="8251329019960361646">"Желите ли да извадите SD картицу?"</string>
     <string name="dlg_confirm_unmount_text" product="nosdcard" msgid="1212025106709645023">"Ако искључите USB меморију, неке апликације које користите ће се зауставити и можда неће бити доступне док поново не прикључите USB меморију."</string>
     <string name="dlg_confirm_unmount_text" product="default" msgid="3887768438615563697">"Ако извадите SD картицу, неке апликације које користите ће се зауставити и можда неће бити доступне све док поново не ставите SD картицу."</string>
-    <string name="dlg_error_unmount_title" product="nosdcard" msgid="2205587942165199845"></string>
-    <string name="dlg_error_unmount_title" product="default" msgid="2205587942165199845"></string>
+    <string name="dlg_error_unmount_title" product="default" msgid="2205587942165199845"/>
     <string name="dlg_error_unmount_text" product="nosdcard" msgid="7876201891724279436">"Није могуће искључити USB меморију. Пробајте поново касније."</string>
     <string name="dlg_error_unmount_text" product="default" msgid="2185659901137961711">"Није могуће искључити SD картицу. Пробајте поново касније."</string>
     <string name="unmount_inform_text" product="nosdcard" msgid="5932607205977999175">"USB меморија ће бити искључена."</string>
@@ -1626,7 +1608,6 @@
     <string name="menu_new" msgid="6571230342655509006">"Нов назив приступне тачке"</string>
     <string name="menu_save" msgid="6611465355127483100">"Сачувај"</string>
     <string name="menu_cancel" msgid="4526003389139913077">"Одбаци"</string>
-    <string name="error_title" msgid="7158648377702417716"></string>
     <string name="error_name_empty" msgid="1258275899283079142">"Поље Назив не сме да буде празно."</string>
     <string name="error_apn_empty" msgid="7657491065443746915">"Поље Назив приступне тачке не сме да буде празно."</string>
     <string name="error_mcc_not3" msgid="883659545640179094">"Поље MЦК мора да садржи 3 цифре."</string>
@@ -1721,9 +1702,9 @@
     <string name="location_app_level_permissions" msgid="8621490207602159375">"Дозвола за апликацију"</string>
     <string name="location_app_permission_summary_location_off" msgid="2711822936853500335">"Локација је искључена"</string>
     <plurals name="location_app_permission_summary_location_on" formatted="false" msgid="8286873148858526214">
-      <item quantity="one"> <xliff:g id="PERMITTED_LOCATION_APP_COUNT_2">%1$d</xliff:g> апликација од <xliff:g id="TOTAL_LOCATION_APP_COUNT_3">%2$d</xliff:g> има приступ локацији</item>
-      <item quantity="few"> <xliff:g id="PERMITTED_LOCATION_APP_COUNT_2">%1$d</xliff:g> апликације од <xliff:g id="TOTAL_LOCATION_APP_COUNT_3">%2$d</xliff:g> имају приступ локацији</item>
-      <item quantity="other"> <xliff:g id="PERMITTED_LOCATION_APP_COUNT_2">%1$d</xliff:g> апликација од <xliff:g id="TOTAL_LOCATION_APP_COUNT_3">%2$d</xliff:g> има приступ локацији</item>
+        <item quantity="one"> <xliff:g id="PERMITTED_LOCATION_APP_COUNT_2">%1$d</xliff:g> апликација од <xliff:g id="TOTAL_LOCATION_APP_COUNT_3">%2$d</xliff:g> има приступ локацији</item>
+        <item quantity="few"> <xliff:g id="PERMITTED_LOCATION_APP_COUNT_2">%1$d</xliff:g> апликације од <xliff:g id="TOTAL_LOCATION_APP_COUNT_3">%2$d</xliff:g> имају приступ локацији</item>
+        <item quantity="other"> <xliff:g id="PERMITTED_LOCATION_APP_COUNT_2">%1$d</xliff:g> апликација од <xliff:g id="TOTAL_LOCATION_APP_COUNT_3">%2$d</xliff:g> има приступ локацији</item>
     </plurals>
     <string name="location_category_recent_location_access" msgid="7880996987927703141">"Недавни приступ локацији"</string>
     <string name="location_recent_location_access_view_details" msgid="5803264082558504544">"Прикажи детаље"</string>
@@ -1882,9 +1863,9 @@
     <string name="clear_cache_btn_text" msgid="8597272828928143723">"Обриши кеш"</string>
     <string name="cache_size_label" msgid="313456088966822757">"Кеш"</string>
     <plurals name="uri_permissions_text" formatted="false" msgid="8212425823423508096">
-      <item quantity="one">%d ставка</item>
-      <item quantity="few">%d ставке</item>
-      <item quantity="other">%d ставки</item>
+        <item quantity="one">%d ставка</item>
+        <item quantity="few">%d ставке</item>
+        <item quantity="other">%d ставки</item>
     </plurals>
     <string name="clear_uri_btn_text" msgid="4828117421162495134">"Обриши приступ"</string>
     <string name="controls_label" msgid="8671492254263626383">"Контроле"</string>
@@ -1939,7 +1920,6 @@
     <string name="clear_data_dlg_text" msgid="1107610960337399006">"Подаци ове апликације ће се трајно избрисати. То обухвата фајлове, подешавања, базе података и друге податке апликација."</string>
     <string name="dlg_ok" msgid="1421350367857960997">"Потврди"</string>
     <string name="dlg_cancel" msgid="5164705061530774899">"Откажи"</string>
-    <string name="app_not_found_dlg_title" msgid="7122106240981109930"></string>
     <string name="app_not_found_dlg_text" msgid="8634675268730513704">"Апликација није пронађена на листи инсталираних апликација."</string>
     <string name="clear_failed_dlg_text" msgid="6866741916836125732">"Брисање меморијског простора за апликацију није успело."</string>
     <string name="join_two_items" msgid="7893073836681382429">"<xliff:g id="FIRST_ITEM">%1$s</xliff:g> и <xliff:g id="SECOND_ITEM">%2$s</xliff:g>"</string>
@@ -1979,12 +1959,12 @@
     <string name="no_running_services" msgid="9079738069349859373">"Нема покренутих услуга."</string>
     <string name="service_started_by_app" msgid="6845028506417670179">"Започела је апликација."</string>
     <!-- no translation found for service_client_name (2210898622981598861) -->
-    <skip />
+    <skip/>
     <string name="service_background_processes" msgid="2800539421534521948">"<xliff:g id="MEMORY">%1$s</xliff:g> слободно"</string>
     <string name="service_foreground_processes" msgid="6380905887193621704">"<xliff:g id="MEMORY">%1$s</xliff:g> иск."</string>
     <string name="memory" msgid="5253757199926592074">"RAM"</string>
     <!-- no translation found for service_process_name (7827318358399776412) -->
-    <skip />
+    <skip/>
     <string name="running_process_item_user_label" msgid="1444898861984132133">"Корисник: <xliff:g id="USER_NAME">%1$s</xliff:g>"</string>
     <string name="running_process_item_removed_user_label" msgid="4812732296696662613">"Уклоњени корисник"</string>
     <string name="running_processes_item_description_s_s" msgid="6835918861352501671">"<xliff:g id="NUMPROCESS">%1$d</xliff:g> процес и <xliff:g id="NUMSERVICES">%2$d</xliff:g> услуга"</string>
@@ -2016,16 +1996,13 @@
     <string name="runningservicedetails_stop_dlg_text" product="tablet" msgid="2076922609580490122">"Ако зауставите ову услугу, неке функције таблета ће можда престати исправно да функционишу док не искључите и поново укључите таблет."</string>
     <string name="runningservicedetails_stop_dlg_text" product="default" msgid="2625863973434309085">"Ако зауставите ову услугу, неке функције телефона ће можда престати исправно да функционишу док не искључите и поново укључите телефон."</string>
     <string name="language_input_gesture_title" msgid="3292455685728572960">"Језици, унос и покрети"</string>
-    <string name="language_input_gesture_summary_on_with_assist" msgid="8670153838520237089"></string>
-    <string name="language_input_gesture_summary_on_non_assist" msgid="2738661322747920463"></string>
-    <string name="language_input_gesture_summary_off" msgid="1604575860215661606"></string>
+    <string name="language_input_gesture_summary_on_non_assist" msgid="2738661322747920463"/>
     <string name="language_settings" msgid="8700174277543875046">"Језици и унос"</string>
     <string name="language_empty_list_user_restricted" msgid="8050367405839231863">"Немате дозволу да мењате језик уређаја."</string>
     <string name="language_keyboard_settings_title" msgid="7934844313233544557">"Језици и унос"</string>
     <string name="input_assistance" msgid="3437568284144952104">"Алатке"</string>
     <string name="keyboard_settings_category" msgid="5392847229300117064">"Тастатура и методе уноса"</string>
     <string name="phone_language" msgid="5986939176239963826">"Језици"</string>
-    <string name="phone_language_summary" msgid="863041222809685325"></string>
     <string name="auto_replace" msgid="4830732960264447043">"Аутоматска замена"</string>
     <string name="auto_replace_summary" msgid="1285443414597153423">"Исправљање погрешно унетих речи"</string>
     <string name="auto_caps" msgid="5573583581288305355">"Аутоматско писање великих почетних слова"</string>
@@ -2062,7 +2039,6 @@
     <string name="keyboard_layout_picker_title" msgid="240504762718562906">"Распореди тастатуре"</string>
     <string name="user_dict_settings_title" msgid="680410651924276991">"Лични речник"</string>
     <string name="user_dict_settings_for_work_title" msgid="1245315720684961770">"Лични речник за посао"</string>
-    <string name="user_dict_settings_summary" msgid="262228126041933459"></string>
     <string name="user_dict_settings_add_menu_title" msgid="8046882347281382968">"Додај"</string>
     <string name="user_dict_settings_add_dialog_title" msgid="3485845465134083084">"Додавање у речник"</string>
     <string name="user_dict_settings_add_screen_title" msgid="1866408024073475379">"Фраза"</string>
@@ -2191,9 +2167,9 @@
     <string name="accessibility_hearingaid_pair_instructions_second_message" msgid="7546508010485969475">"Проверите да ли су слушни апарати у режиму упаривања."</string>
     <string name="accessibility_hearingaid_active_device_summary" msgid="509703438222873967">"Активан: <xliff:g id="DEVICE_NAME">%1$s</xliff:g>"</string>
     <plurals name="show_number_hearingaid_count" formatted="false" msgid="776000580683647556">
-      <item quantity="one"><xliff:g id="NUMBER_DEVICE_COUNT_1">%1$d</xliff:g> сачувани слушни апарат</item>
-      <item quantity="few"><xliff:g id="NUMBER_DEVICE_COUNT_1">%1$d</xliff:g> сачувана слушна апарата</item>
-      <item quantity="other"><xliff:g id="NUMBER_DEVICE_COUNT_1">%1$d</xliff:g> сачуваних слушних апарата</item>
+        <item quantity="one"><xliff:g id="NUMBER_DEVICE_COUNT_1">%1$d</xliff:g> сачувани слушни апарат</item>
+        <item quantity="few"><xliff:g id="NUMBER_DEVICE_COUNT_1">%1$d</xliff:g> сачувана слушна апарата</item>
+        <item quantity="other"><xliff:g id="NUMBER_DEVICE_COUNT_1">%1$d</xliff:g> сачуваних слушних апарата</item>
     </plurals>
     <string name="accessibility_summary_state_enabled" msgid="1065431632216039369">"Укључено"</string>
     <string name="accessibility_summary_state_disabled" msgid="9173234532752799694">"Искључено"</string>
@@ -2202,29 +2178,29 @@
     <string name="enable_quick_setting" msgid="6648073323202243604">"Прикажи у Брзим подешавањима"</string>
     <string name="daltonizer_type" msgid="1715154680803795947">"Режим исправљања"</string>
     <plurals name="accessibilty_autoclick_preference_subtitle_extremely_short_delay" formatted="false" msgid="8532203878881473608">
-      <item quantity="one">Изузетно кратак период (<xliff:g id="CLICK_DELAY_LABEL_1">%1$d</xliff:g> ms)</item>
-      <item quantity="few">Изузетно кратак период (<xliff:g id="CLICK_DELAY_LABEL_1">%1$d</xliff:g> ms)</item>
-      <item quantity="other">Изузетно кратак период (<xliff:g id="CLICK_DELAY_LABEL_1">%1$d</xliff:g> ms)</item>
+        <item quantity="one">Изузетно кратак период (<xliff:g id="CLICK_DELAY_LABEL_1">%1$d</xliff:g> ms)</item>
+        <item quantity="few">Изузетно кратак период (<xliff:g id="CLICK_DELAY_LABEL_1">%1$d</xliff:g> ms)</item>
+        <item quantity="other">Изузетно кратак период (<xliff:g id="CLICK_DELAY_LABEL_1">%1$d</xliff:g> ms)</item>
     </plurals>
     <plurals name="accessibilty_autoclick_preference_subtitle_very_short_delay" formatted="false" msgid="5067805618144149445">
-      <item quantity="one">Веома кратак период (<xliff:g id="CLICK_DELAY_LABEL_1">%1$d</xliff:g> ms)</item>
-      <item quantity="few">Веома кратак период (<xliff:g id="CLICK_DELAY_LABEL_1">%1$d</xliff:g> ms)</item>
-      <item quantity="other">Веома кратак период (<xliff:g id="CLICK_DELAY_LABEL_1">%1$d</xliff:g> ms)</item>
+        <item quantity="one">Веома кратак период (<xliff:g id="CLICK_DELAY_LABEL_1">%1$d</xliff:g> ms)</item>
+        <item quantity="few">Веома кратак период (<xliff:g id="CLICK_DELAY_LABEL_1">%1$d</xliff:g> ms)</item>
+        <item quantity="other">Веома кратак период (<xliff:g id="CLICK_DELAY_LABEL_1">%1$d</xliff:g> ms)</item>
     </plurals>
     <plurals name="accessibilty_autoclick_preference_subtitle_short_delay" formatted="false" msgid="416055324409474880">
-      <item quantity="one">Кратак период (<xliff:g id="CLICK_DELAY_LABEL_1">%1$d</xliff:g> ms)</item>
-      <item quantity="few">Кратак период (<xliff:g id="CLICK_DELAY_LABEL_1">%1$d</xliff:g> ms)</item>
-      <item quantity="other">Кратак период (<xliff:g id="CLICK_DELAY_LABEL_1">%1$d</xliff:g> ms)</item>
+        <item quantity="one">Кратак период (<xliff:g id="CLICK_DELAY_LABEL_1">%1$d</xliff:g> ms)</item>
+        <item quantity="few">Кратак период (<xliff:g id="CLICK_DELAY_LABEL_1">%1$d</xliff:g> ms)</item>
+        <item quantity="other">Кратак период (<xliff:g id="CLICK_DELAY_LABEL_1">%1$d</xliff:g> ms)</item>
     </plurals>
     <plurals name="accessibilty_autoclick_preference_subtitle_long_delay" formatted="false" msgid="556424440912669213">
-      <item quantity="one">Дуг период (<xliff:g id="CLICK_DELAY_LABEL_1">%1$d</xliff:g> ms)</item>
-      <item quantity="few">Дуг период (<xliff:g id="CLICK_DELAY_LABEL_1">%1$d</xliff:g> ms)</item>
-      <item quantity="other">Дуг период (<xliff:g id="CLICK_DELAY_LABEL_1">%1$d</xliff:g> ms)</item>
+        <item quantity="one">Дуг период (<xliff:g id="CLICK_DELAY_LABEL_1">%1$d</xliff:g> ms)</item>
+        <item quantity="few">Дуг период (<xliff:g id="CLICK_DELAY_LABEL_1">%1$d</xliff:g> ms)</item>
+        <item quantity="other">Дуг период (<xliff:g id="CLICK_DELAY_LABEL_1">%1$d</xliff:g> ms)</item>
     </plurals>
     <plurals name="accessibilty_autoclick_preference_subtitle_very_long_delay" formatted="false" msgid="4474904810885802549">
-      <item quantity="one">Веома дуг период (<xliff:g id="CLICK_DELAY_LABEL_1">%1$d</xliff:g> ms)</item>
-      <item quantity="few">Веома дуг период (<xliff:g id="CLICK_DELAY_LABEL_1">%1$d</xliff:g> ms)</item>
-      <item quantity="other">Веома дуг период (<xliff:g id="CLICK_DELAY_LABEL_1">%1$d</xliff:g> ms)</item>
+        <item quantity="one">Веома дуг период (<xliff:g id="CLICK_DELAY_LABEL_1">%1$d</xliff:g> ms)</item>
+        <item quantity="few">Веома дуг период (<xliff:g id="CLICK_DELAY_LABEL_1">%1$d</xliff:g> ms)</item>
+        <item quantity="other">Веома дуг период (<xliff:g id="CLICK_DELAY_LABEL_1">%1$d</xliff:g> ms)</item>
     </plurals>
     <string name="accessibility_vibration_summary" msgid="27904038683405084">"Звоно <xliff:g id="SUMMARY_RING">%1$s</xliff:g>, обавештење <xliff:g id="SUMMARY_NOTIFICATION">%2$s</xliff:g>, додир <xliff:g id="SUMMARY_TOUCH">%3$s</xliff:g>"</string>
     <string name="accessibility_vibration_summary_off" msgid="7776105450117095736">"Звоно и обавештења су искључена"</string>
@@ -2295,14 +2271,14 @@
     <string name="print_settings" msgid="8519810615863882491">"Штампање"</string>
     <string name="print_settings_summary_no_service" msgid="6721731154917653862">"Искључено"</string>
     <plurals name="print_settings_summary" formatted="false" msgid="1034273609054146099">
-      <item quantity="one"><xliff:g id="COUNT">%1$d</xliff:g> услуга штампања је укључена</item>
-      <item quantity="few"><xliff:g id="COUNT">%1$d</xliff:g> услуге штампања су укључене</item>
-      <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> услуга штампања је укључено</item>
+        <item quantity="one"><xliff:g id="COUNT">%1$d</xliff:g> услуга штампања је укључена</item>
+        <item quantity="few"><xliff:g id="COUNT">%1$d</xliff:g> услуге штампања су укључене</item>
+        <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> услуга штампања је укључено</item>
     </plurals>
     <plurals name="print_jobs_summary" formatted="false" msgid="3933688846338306536">
-      <item quantity="one"><xliff:g id="COUNT">%1$d</xliff:g> задатак за штампање</item>
-      <item quantity="few"><xliff:g id="COUNT">%1$d</xliff:g> задатка за штампање</item>
-      <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> задатака за штампање</item>
+        <item quantity="one"><xliff:g id="COUNT">%1$d</xliff:g> задатак за штампање</item>
+        <item quantity="few"><xliff:g id="COUNT">%1$d</xliff:g> задатка за штампање</item>
+        <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> задатака за штампање</item>
     </plurals>
     <string name="print_settings_title" msgid="7680498284751129935">"Услуге штампања"</string>
     <string name="print_no_services_installed" msgid="7554057966540602692">"Ниједна услуга није инсталирана"</string>
@@ -2359,7 +2335,7 @@
     <string name="battery_stats_wake_lock_label" msgid="8115041205778441548">"Будно стање"</string>
     <string name="battery_stats_phone_signal_label" msgid="679649411998679555">"Сигнал мобилне мреже"</string>
     <!-- no translation found for battery_stats_last_duration (3088100394725340600) -->
-    <skip />
+    <skip/>
     <string name="awake" msgid="5405871714019268978">"Време буђења уређаја"</string>
     <string name="wifi_on_time" msgid="3880778525760926066">"Време од укључивања Wi-Fi мреже"</string>
     <string name="bluetooth_on_time" msgid="8424625554628450028">"Време од укључивања Wi-Fi мреже"</string>
@@ -2392,29 +2368,29 @@
     <string name="battery_tip_dialog_message" product="device" msgid="2620789680336796054">"Уређај сте користили дуже него обично. Батерија може да се испразни раније од очекиваног.\n\nАпликације са највећом потрошњом батерије:"</string>
     <string name="battery_tip_dialog_message_footer" msgid="986542164372177504">"Укључује активности у позадини са великом потрошњом"</string>
     <plurals name="battery_tip_restrict_title" formatted="false" msgid="3108195491484891588">
-      <item quantity="one">Ограничите %1$d апликацију</item>
-      <item quantity="few">Ограничите %1$d апликације</item>
-      <item quantity="other">Ограничите %1$d апликација</item>
+        <item quantity="one">Ограничите %1$d апликацију</item>
+        <item quantity="few">Ограничите %1$d апликације</item>
+        <item quantity="other">Ограничите %1$d апликација</item>
     </plurals>
     <plurals name="battery_tip_restrict_handled_title" formatted="false" msgid="5862649927574803958">
-      <item quantity="one">%2$d апликација је недавно ограничена</item>
-      <item quantity="few">%2$d апликације су недавно ограничене</item>
-      <item quantity="other">%2$d апликација је недавно ограничено</item>
+        <item quantity="one">%2$d апликација је недавно ограничена</item>
+        <item quantity="few">%2$d апликације су недавно ограничене</item>
+        <item quantity="other">%2$d апликација је недавно ограничено</item>
     </plurals>
     <plurals name="battery_tip_restrict_summary" formatted="false" msgid="3328499737453686910">
-      <item quantity="one">%2$d апликација пуно троши батерију у позадини</item>
-      <item quantity="few">%2$d апликације пуно троше батерију у позадини</item>
-      <item quantity="other">%2$d апликација пуно троши батерију у позадини</item>
+        <item quantity="one">%2$d апликација пуно троши батерију у позадини</item>
+        <item quantity="few">%2$d апликације пуно троше батерију у позадини</item>
+        <item quantity="other">%2$d апликација пуно троши батерију у позадини</item>
     </plurals>
     <plurals name="battery_tip_restrict_handled_summary" formatted="false" msgid="3036853535034350991">
-      <item quantity="one">Ове апликације не могу да раде у позадини</item>
-      <item quantity="few">Ове апликације не могу да раде у позадини</item>
-      <item quantity="other">Ове апликације не могу да раде у позадини</item>
+        <item quantity="one">Ове апликације не могу да раде у позадини</item>
+        <item quantity="few">Ове апликације не могу да раде у позадини</item>
+        <item quantity="other">Ове апликације не могу да раде у позадини</item>
     </plurals>
     <plurals name="battery_tip_restrict_app_dialog_title" formatted="false" msgid="7897944678619251740">
-      <item quantity="one">Желите ли да ограничите %1$d апликацију?</item>
-      <item quantity="few">Желите ли да ограничите %1$d апликације?</item>
-      <item quantity="other">Желите ли да ограничите %1$d апликација?</item>
+        <item quantity="one">Желите ли да ограничите %1$d апликацију?</item>
+        <item quantity="few">Желите ли да ограничите %1$d апликације?</item>
+        <item quantity="other">Желите ли да ограничите %1$d апликација?</item>
     </plurals>
     <string name="battery_tip_restrict_app_dialog_message" msgid="137856003724730751">"Да бисте уштедели батерију, онемогућите да <xliff:g id="APP">%1$s</xliff:g> троши батерију у позадини. Та апликација можда неће радити како треба и обавештења могу да касне."</string>
     <string name="battery_tip_restrict_apps_less_than_5_dialog_message" msgid="5894648804112181324">"Да бисте уштедели батерију, онемогућите да ове апликације троше батерију у позадини. Ограничене апликације можда неће радити како треба и обавештења могу да касне.\n\nАпликације:"</string>
@@ -2433,9 +2409,9 @@
     <string name="smart_battery_footer" msgid="8407121907452993645">"Када менаџер батерије открије да апликације празне батерију, имате опцију да ограничите те апликације. Ограничене апликације можда неће радити како треба и обавештења могу да касне."</string>
     <string name="restricted_app_title" msgid="6585080822121007436">"Ограничене апликације"</string>
     <plurals name="restricted_app_summary" formatted="false" msgid="6059772951505411003">
-      <item quantity="one">Ограничите потрошњу батерије за %1$d апликацију</item>
-      <item quantity="few">Ограничите потрошњу батерије за %1$d апликације</item>
-      <item quantity="other">Ограничите потрошњу батерије за %1$d апликација</item>
+        <item quantity="one">Ограничите потрошњу батерије за %1$d апликацију</item>
+        <item quantity="few">Ограничите потрошњу батерије за %1$d апликације</item>
+        <item quantity="other">Ограничите потрошњу батерије за %1$d апликација</item>
     </plurals>
     <string name="restricted_app_time_summary" msgid="3097721884155913252">"Ограничена <xliff:g id="TIME">%1$s</xliff:g>"</string>
     <string name="restricted_app_detail_footer" msgid="3683577206409650564">"Ове апликације су трошиле батерију у позадини. Ограничене апликације можда неће радити како треба и обавештења могу да касне."</string>
@@ -2444,9 +2420,9 @@
     <string name="battery_manager_on" product="default" msgid="3197525907390349054">"Укључено / Откривање када апликације испразне батерију"</string>
     <string name="battery_manager_off" msgid="673547668722420924">"Искључено"</string>
     <plurals name="battery_manager_app_restricted" formatted="false" msgid="6714534362166394848">
-      <item quantity="one">%1$d апликација је ограничена</item>
-      <item quantity="few">%1$d апликације су ограничене</item>
-      <item quantity="other">%1$d апликација је ограничено</item>
+        <item quantity="one">%1$d апликација је ограничена</item>
+        <item quantity="few">%1$d апликације су ограничене</item>
+        <item quantity="other">%1$d апликација је ограничено</item>
     </plurals>
     <string name="battery_header_title_alternate" msgid="8371821625994616659">"<xliff:g id="NUMBER">^1</xliff:g>"<small>" "<font size="20">"<xliff:g id="UNIT">%</xliff:g>"</font></small>""</string>
     <string name="dialog_stop_title" msgid="5972757101865665655">"Заустављате апликацију?"</string>
@@ -2567,7 +2543,7 @@
     <string name="battery_saver_sticky_description_new" product="tablet" msgid="6740553373344759992">"Уштеда батерије се искључује када је таблет на <xliff:g id="PERCENT">%1$s</xliff:g>"</string>
     <string name="battery_saver_sticky_description_new" product="device" msgid="8512106347424406909">"Уштеда батерије се искључује када је уређај на <xliff:g id="PERCENT">%1$s</xliff:g>"</string>
     <!-- no translation found for battery_saver_seekbar_title (3712266470054006641) -->
-    <skip />
+    <skip/>
     <string name="battery_saver_seekbar_title_placeholder" msgid="7141264642540687540">"Укључи"</string>
     <string name="battery_saver_master_switch_title" msgid="3474312070095834915">"Користи Уштеду батерије"</string>
     <string name="battery_saver_turn_on_automatically_title" msgid="7857393318205740864">"Аутоматски укључи"</string>
@@ -2668,7 +2644,6 @@
     <string name="auto_restore_summary" msgid="6830198851045584001">"Када се апликација поново инсталира, врати резервне копије подешавања и података"</string>
     <string name="backup_inactive_title" msgid="6753265378043349277">"Услуга прављења резервних копија није активна"</string>
     <string name="backup_configure_account_default_summary" msgid="5323225330966306690">"Тренутно ниједан налог не чува резервне копије података"</string>
-    <string name="backup_erase_dialog_title" msgid="5892431263348766484"></string>
     <string name="backup_erase_dialog_message" msgid="2250872501409574331">"Желите ли да зауставите прављење резервних копија Wi-Fi лозинки, обележивача, осталих подешавања и података о апликацијама, као и да избришете све копије на /e/ серверима?"</string>
     <string name="fullbackup_erase_dialog_message" msgid="2379053988557486162">"Желите ли да зауставите прављење резервних копија података уређаја (попут Wi-Fi лозинки и историје позива) и података апликација (попут подешавања и датотека сачуваних у апликацијама) и избришете све копије на удаљеним серверима?"</string>
     <string name="fullbackup_data_summary" msgid="971587401251601473">"Аутоматски правите резервне копије података уређаја (попут Wi-Fi лозинки и историје позива) и података апликација (попут подешавања и датотека сачуваних у апликацијама) даљински.\n\nКада укључите аутоматско прављење резервних копија, подаци уређаја и апликација се повремено чувају даљински. Подаци апликација могу да буду било који подаци које је апликација сачувала (на основу подешавања програмера), укључујући потенцијално осетљиве податке као што су контакти, поруке и слике."</string>
@@ -2942,25 +2917,25 @@
     <string name="ssl_ca_cert_warning" msgid="3898387588657346106">"Мрежа се можда надгледа"</string>
     <string name="done_button" msgid="6269449526248267">"Готово"</string>
     <plurals name="ssl_ca_cert_dialog_title" formatted="false" msgid="5491460811755938449">
-      <item quantity="one">Означите сертификате као поуздане или их уклоните</item>
-      <item quantity="few">Означите сертификате као поуздане или их уклоните</item>
-      <item quantity="other">Означите сертификате као поуздане или их уклоните</item>
+        <item quantity="one">Означите сертификате као поуздане или их уклоните</item>
+        <item quantity="few">Означите сертификате као поуздане или их уклоните</item>
+        <item quantity="other">Означите сертификате као поуздане или их уклоните</item>
     </plurals>
     <plurals name="ssl_ca_cert_info_message_device_owner" formatted="false" msgid="2788832560436163252">
-      <item quantity="one"><xliff:g id="MANAGING_DOMAIN_1">%s</xliff:g> је инсталирао ауторитете за издавање сертификата на уређају, што може да му омогући да прати активности уређаја на мрежи, укључујући имејлове, апликације и безбедне веб-сајтове.\n\nКонтактирајте администратора да бисте добили више информација о овим сертификатима.</item>
-      <item quantity="few"><xliff:g id="MANAGING_DOMAIN_1">%s</xliff:g> су инсталирала ауторитете за издавање сертификата на уређају, што може да им омогући да прате активности уређаја на мрежи, укључујући имејлове, апликације и безбедне веб-сајтове.\n\nКонтактирајте администратора да бисте добили више информација о овим сертификатима.</item>
-      <item quantity="other"><xliff:g id="MANAGING_DOMAIN_1">%s</xliff:g> су инсталирала ауторитете за издавање сертификата на уређају, што може да им омогући да прате активности уређаја на мрежи, укључујући имејлове, апликације и безбедне веб-сајтове.\n\nКонтактирајте администратора да бисте добили више информација о овим сертификатима.</item>
+        <item quantity="one"><xliff:g id="MANAGING_DOMAIN_1">%s</xliff:g> је инсталирао ауторитете за издавање сертификата на уређају, што може да му омогући да прати активности уређаја на мрежи, укључујући имејлове, апликације и безбедне веб-сајтове.\n\nКонтактирајте администратора да бисте добили више информација о овим сертификатима.</item>
+        <item quantity="few"><xliff:g id="MANAGING_DOMAIN_1">%s</xliff:g> су инсталирала ауторитете за издавање сертификата на уређају, што може да им омогући да прате активности уређаја на мрежи, укључујући имејлове, апликације и безбедне веб-сајтове.\n\nКонтактирајте администратора да бисте добили више информација о овим сертификатима.</item>
+        <item quantity="other"><xliff:g id="MANAGING_DOMAIN_1">%s</xliff:g> су инсталирала ауторитете за издавање сертификата на уређају, што може да им омогући да прате активности уређаја на мрежи, укључујући имејлове, апликације и безбедне веб-сајтове.\n\nКонтактирајте администратора да бисте добили више информација о овим сертификатима.</item>
     </plurals>
     <plurals name="ssl_ca_cert_info_message" formatted="false" msgid="3989916958347169622">
-      <item quantity="one"><xliff:g id="MANAGING_DOMAIN_1">%s</xliff:g> је инсталирао ауторитете за издавање сертификата за профил за Work, што може да му омогући да прати активности на пословној мрежи, укључујући имејлове, апликације и безбедне веб-сајтове.\n\nКонтактирајте администратора да бисте добили више информација о овим сертификатима.</item>
-      <item quantity="few"><xliff:g id="MANAGING_DOMAIN_1">%s</xliff:g> су инсталирала ауторитете за издавање сертификата на уређају, што може да им омогући да прате активности уређаја на мрежи, укључујући имејлове, апликације и безбедне веб-сајтове.\n\nКонтактирајте администратора да бисте добили више информација о овим сертификатима.</item>
-      <item quantity="other"><xliff:g id="MANAGING_DOMAIN_1">%s</xliff:g> су инсталирала ауторитете за издавање сертификата на уређају, што може да им омогући да прате активности уређаја на мрежи, укључујући имејлове, апликације и безбедне веб-сајтове.\n\nКонтактирајте администратора да бисте добили више информација о овим сертификатима.</item>
+        <item quantity="one"><xliff:g id="MANAGING_DOMAIN_1">%s</xliff:g> је инсталирао ауторитете за издавање сертификата за профил за Work, што може да му омогући да прати активности на пословној мрежи, укључујући имејлове, апликације и безбедне веб-сајтове.\n\nКонтактирајте администратора да бисте добили више информација о овим сертификатима.</item>
+        <item quantity="few"><xliff:g id="MANAGING_DOMAIN_1">%s</xliff:g> су инсталирала ауторитете за издавање сертификата на уређају, што може да им омогући да прате активности уређаја на мрежи, укључујући имејлове, апликације и безбедне веб-сајтове.\n\nКонтактирајте администратора да бисте добили више информација о овим сертификатима.</item>
+        <item quantity="other"><xliff:g id="MANAGING_DOMAIN_1">%s</xliff:g> су инсталирала ауторитете за издавање сертификата на уређају, што може да им омогући да прате активности уређаја на мрежи, укључујући имејлове, апликације и безбедне веб-сајтове.\n\nКонтактирајте администратора да бисте добили више информација о овим сертификатима.</item>
     </plurals>
     <string name="ssl_ca_cert_warning_message" msgid="4374052724815563051">"Трећа страна може да прати вашу активност на мрежи, укључујући е-пошту, апликације и безбедне веб-сајтове.\n\nТо омогућава поуздани акредитив који је инсталиран на уређају."</string>
     <plurals name="ssl_ca_cert_settings_button" formatted="false" msgid="125941406175485894">
-      <item quantity="one">Провери сертификате</item>
-      <item quantity="few">Провери сертификате</item>
-      <item quantity="other">Провери сертификате</item>
+        <item quantity="one">Провери сертификате</item>
+        <item quantity="few">Провери сертификате</item>
+        <item quantity="other">Провери сертификате</item>
     </plurals>
     <string name="user_settings_title" msgid="6550866465409807877">"Више корисника"</string>
     <string name="user_settings_footer_text" product="device" msgid="7523914344521302179">"Делите уређај тако што ћете додати нове кориснике. Сваки корисник има лични простор на уређају за прилагођене почетне екране, налоге, апликације, подешавања и друго."</string>
@@ -3065,7 +3040,7 @@
     <string name="call_manager_enable_summary" msgid="7362506369604163030">"Омогућите овој услузи да управља начином на који се упућују позиви."</string>
     <string name="call_manager_title" msgid="3397433159509629466">"Менаџер позива"</string>
     <!-- no translation found for call_manager_summary (2558839230880919191) -->
-    <skip />
+    <skip/>
     <string name="cell_broadcast_settings" msgid="6414938308090183446">"Обавештења о хитним случајевима"</string>
     <string name="network_operators_settings" msgid="5105453353329748954">"Мрежни оператери"</string>
     <string name="access_point_names" msgid="5768430498022188057">"Називи приступних тачака"</string>
@@ -3103,7 +3078,6 @@
     <string name="user_image_take_photo" msgid="2601691481533190924">"Сликајте"</string>
     <string name="user_image_choose_photo" msgid="5904586923236027350">"Одаберите слику"</string>
     <string name="user_image_photo_selector" msgid="7727851029781491727">"Изаберите слику"</string>
-    <string name="regulatory_info_text" msgid="1154461023369976667"></string>
     <string name="sim_setup_wizard_title" msgid="3945520353564138219">"SIM картице"</string>
     <string name="sim_settings_title" msgid="8392862852842113531">"SIM картице"</string>
     <string name="sim_settings_summary" msgid="5777472623476930332">"<xliff:g id="SIM_NAME">%1$s</xliff:g> – <xliff:g id="SIM_NUMBER">%2$s</xliff:g>"</string>
@@ -3147,9 +3121,9 @@
     <string name="sim_selection_channel_title" msgid="3193666315607572484">"Избор SIM картице"</string>
     <string name="dashboard_title" msgid="5660733037244683387">"Подешавања"</string>
     <plurals name="settings_suggestion_header_summary_hidden_items" formatted="false" msgid="6585075562837786847">
-      <item quantity="one">Прикажи %d скривену ставку</item>
-      <item quantity="few">Прикажи %d скривене ставке</item>
-      <item quantity="other">Прикажи %d скривених ставки</item>
+        <item quantity="one">Прикажи %d скривену ставку</item>
+        <item quantity="few">Прикажи %d скривене ставке</item>
+        <item quantity="other">Прикажи %d скривених ставки</item>
     </plurals>
     <string name="network_dashboard_title" msgid="788543070557731240">"Мрежа и интернет"</string>
     <string name="network_dashboard_summary_mobile" msgid="4020746665765996480">"мобилна мрежа"</string>
@@ -3285,9 +3259,9 @@
     <string name="live_caption_summary" msgid="2898451867595161809">"Аутоматски титл за медије"</string>
     <string name="zen_mode_settings_summary_off" msgid="7844433300559059480">"Никад"</string>
     <plurals name="zen_mode_settings_summary_on" formatted="false" msgid="3254890503929315009">
-      <item quantity="one"><xliff:g id="ON_COUNT">%d</xliff:g> је омогућено</item>
-      <item quantity="few"><xliff:g id="ON_COUNT">%d</xliff:g> су омогућена</item>
-      <item quantity="other"><xliff:g id="ON_COUNT">%d</xliff:g> је омогућено</item>
+        <item quantity="one"><xliff:g id="ON_COUNT">%d</xliff:g> је омогућено</item>
+        <item quantity="few"><xliff:g id="ON_COUNT">%d</xliff:g> су омогућена</item>
+        <item quantity="other"><xliff:g id="ON_COUNT">%d</xliff:g> је омогућено</item>
     </plurals>
     <string name="zen_mode_settings_title" msgid="682676757791334259">"Не узнемиравај"</string>
     <string name="zen_mode_slice_subtitle" msgid="6849372107272604160">"Ограничите прекиде"</string>
@@ -3369,15 +3343,15 @@
     <string name="zen_mode_duration_summary_always_prompt" msgid="7658172853423383037">"Питај сваки пут"</string>
     <string name="zen_mode_duration_summary_forever" msgid="5551992961329998606">"Док не искључите"</string>
     <plurals name="zen_mode_duration_summary_time_hours" formatted="false" msgid="3601160794696489864">
-      <item quantity="one"><xliff:g id="NUM_HOURS">%d</xliff:g> сат</item>
-      <item quantity="few"><xliff:g id="NUM_HOURS">%d</xliff:g> сата</item>
-      <item quantity="other"><xliff:g id="NUM_HOURS">%d</xliff:g> сати</item>
+        <item quantity="one"><xliff:g id="NUM_HOURS">%d</xliff:g> сат</item>
+        <item quantity="few"><xliff:g id="NUM_HOURS">%d</xliff:g> сата</item>
+        <item quantity="other"><xliff:g id="NUM_HOURS">%d</xliff:g> сати</item>
     </plurals>
     <string name="zen_mode_duration_summary_time_minutes" msgid="3187122993179039992">"<xliff:g id="NUM_MINUTES">%d</xliff:g> мин"</string>
     <plurals name="zen_mode_sound_summary_summary_off_info" formatted="false" msgid="3812633366476034740">
-      <item quantity="one"><xliff:g id="ON_COUNT">%d</xliff:g> распоред може да се укључује аутоматски</item>
-      <item quantity="few"><xliff:g id="ON_COUNT">%d</xliff:g> распореда могу да се укључују аутоматски</item>
-      <item quantity="other"><xliff:g id="ON_COUNT">%d</xliff:g> распореда може да се укључује аутоматски</item>
+        <item quantity="one"><xliff:g id="ON_COUNT">%d</xliff:g> распоред може да се укључује аутоматски</item>
+        <item quantity="few"><xliff:g id="ON_COUNT">%d</xliff:g> распореда могу да се укључују аутоматски</item>
+        <item quantity="other"><xliff:g id="ON_COUNT">%d</xliff:g> распореда може да се укључује аутоматски</item>
     </plurals>
     <string name="zen_category_behavior" msgid="4456460102057665854">"Искључи звук уређаја али дозволи изузетке"</string>
     <string name="zen_category_exceptions" msgid="6329803391764042865">"Изузеци"</string>
@@ -3504,23 +3478,23 @@
     <string name="notification_switch_label" msgid="2950240358797111509">"Приказуј обавештења"</string>
     <string name="default_notification_assistant" msgid="243718059890346442">"Прилагодљива обавештења"</string>
     <plurals name="notifications_sent_daily" formatted="false" msgid="1479283620504341566">
-      <item quantity="one">~<xliff:g id="NUMBER_1">%d</xliff:g> обавештење дневно</item>
-      <item quantity="few">~<xliff:g id="NUMBER_1">%d</xliff:g> обавештења дневно</item>
-      <item quantity="other">~<xliff:g id="NUMBER_1">%d</xliff:g> обавештења дневно</item>
+        <item quantity="one">~<xliff:g id="NUMBER_1">%d</xliff:g> обавештење дневно</item>
+        <item quantity="few">~<xliff:g id="NUMBER_1">%d</xliff:g> обавештења дневно</item>
+        <item quantity="other">~<xliff:g id="NUMBER_1">%d</xliff:g> обавештења дневно</item>
     </plurals>
     <plurals name="notifications_sent_weekly" formatted="false" msgid="4913443431857170519">
-      <item quantity="one">~<xliff:g id="NUMBER_1">%d</xliff:g> обавештење недељно</item>
-      <item quantity="few">~<xliff:g id="NUMBER_1">%d</xliff:g> обавештења недељно</item>
-      <item quantity="other">~<xliff:g id="NUMBER_1">%d</xliff:g> обавештења недељно</item>
+        <item quantity="one">~<xliff:g id="NUMBER_1">%d</xliff:g> обавештење недељно</item>
+        <item quantity="few">~<xliff:g id="NUMBER_1">%d</xliff:g> обавештења недељно</item>
+        <item quantity="other">~<xliff:g id="NUMBER_1">%d</xliff:g> обавештења недељно</item>
     </plurals>
     <string name="notifications_sent_never" msgid="9081278709126812062">"Никад"</string>
     <string name="manage_notification_access_title" msgid="4714320299084782521">"Приступ обавештењима"</string>
     <string name="work_profile_notification_access_blocked_summary" msgid="8643809206612366067">"Приступ обавештењима профила за Work је блокиран"</string>
     <string name="manage_notification_access_summary_zero" msgid="7528633634628627431">"Апликације не могу да читају обавештења"</string>
     <plurals name="manage_notification_access_summary_nonzero" formatted="false" msgid="3703008881487586312">
-      <item quantity="one">%d апликација може да чита обавештења</item>
-      <item quantity="few">%d апликације могу да читају обавештења</item>
-      <item quantity="other">%d апликација може да чита обавештења</item>
+        <item quantity="one">%d апликација може да чита обавештења</item>
+        <item quantity="few">%d апликације могу да читају обавештења</item>
+        <item quantity="other">%d апликација може да чита обавештења</item>
     </plurals>
     <string name="notification_assistant_title" msgid="6983941403582134437">"Прилагодљива обавештења"</string>
     <string name="no_notification_assistant" msgid="2533323397091834096">"Нема"</string>
@@ -3555,22 +3529,22 @@
     <string name="notification_channels" msgid="1502969522886493799">"Категорије"</string>
     <string name="notification_channels_other" msgid="18159805343647908">"Другo"</string>
     <plurals name="notification_group_summary" formatted="false" msgid="483490958130993160">
-      <item quantity="one"><xliff:g id="COUNT_1">%d</xliff:g> категорија</item>
-      <item quantity="few"><xliff:g id="COUNT_1">%d</xliff:g> категорије</item>
-      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> категорија</item>
+        <item quantity="one"><xliff:g id="COUNT_1">%d</xliff:g> категорија</item>
+        <item quantity="few"><xliff:g id="COUNT_1">%d</xliff:g> категорије</item>
+        <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> категорија</item>
     </plurals>
     <string name="no_channels" msgid="4716199078612071915">"Ова апликација није поставила ниједно обавештење"</string>
     <string name="app_settings_link" msgid="6725453466705333311">"Додатна подешавања у апликацији"</string>
     <string name="app_notification_listing_summary_zero" msgid="2988400013221120744">"Укључено за све апликације"</string>
     <plurals name="app_notification_listing_summary_others" formatted="false" msgid="1506127395400503717">
-      <item quantity="one">Искључено за <xliff:g id="COUNT_1">%d</xliff:g> апликацију</item>
-      <item quantity="few">Искључено за <xliff:g id="COUNT_1">%d</xliff:g> апликације</item>
-      <item quantity="other">Искључено за <xliff:g id="COUNT_1">%d</xliff:g> апликација</item>
+        <item quantity="one">Искључено за <xliff:g id="COUNT_1">%d</xliff:g> апликацију</item>
+        <item quantity="few">Искључено за <xliff:g id="COUNT_1">%d</xliff:g> апликације</item>
+        <item quantity="other">Искључено за <xliff:g id="COUNT_1">%d</xliff:g> апликација</item>
     </plurals>
     <plurals name="deleted_channels" formatted="false" msgid="5963473421547029532">
-      <item quantity="one"><xliff:g id="COUNT_1">%d</xliff:g> категорија је избрисана</item>
-      <item quantity="few"><xliff:g id="COUNT_1">%d</xliff:g> категорије су избрисане</item>
-      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> категорија је избрисано</item>
+        <item quantity="one"><xliff:g id="COUNT_1">%d</xliff:g> категорија је избрисана</item>
+        <item quantity="few"><xliff:g id="COUNT_1">%d</xliff:g> категорије су избрисане</item>
+        <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> категорија је избрисано</item>
     </plurals>
     <string name="notification_toggle_on" msgid="1624283327379059003">"Укључено"</string>
     <string name="notification_toggle_off" msgid="3295373308338024844">"Искључено"</string>
@@ -3641,9 +3615,9 @@
     <string name="zen_mode_custom_calls_footer" msgid="6521283204577441053">"Долазни позиви су блокирани за „<xliff:g id="SCHEDULE_NAME">%1$s</xliff:g>“. Можете да прилагодите подешавања да бисте дозволили пријатељима, члановима породице или другим контактима да вас контактирају."</string>
     <string name="zen_mode_starred_contacts_title" msgid="630299631659575589">"Контакти са звездицом"</string>
     <plurals name="zen_mode_starred_contacts_summary_additional_contacts" formatted="false" msgid="7001724653833724925">
-      <item quantity="one">Још <xliff:g id="NUM_PEOPLE">%d</xliff:g> особа</item>
-      <item quantity="few">Још <xliff:g id="NUM_PEOPLE">%d</xliff:g> особе</item>
-      <item quantity="other">Још <xliff:g id="NUM_PEOPLE">%d</xliff:g> особа</item>
+        <item quantity="one">Још <xliff:g id="NUM_PEOPLE">%d</xliff:g> особа</item>
+        <item quantity="few">Још <xliff:g id="NUM_PEOPLE">%d</xliff:g> особе</item>
+        <item quantity="other">Још <xliff:g id="NUM_PEOPLE">%d</xliff:g> особа</item>
     </plurals>
     <string name="zen_mode_messages" msgid="7835537207069585861">"Дозволи поруке"</string>
     <string name="zen_mode_messages_footer" msgid="6996375319078720643">"Да бисте били сигурни да ће се дозвољене поруке чути, проверите да ли је уређај подешен да звони, вибрира или је у нечујном режиму."</string>
@@ -3670,9 +3644,9 @@
     <string name="zen_mode_bypassing_apps" msgid="625309443389126481">"Дозволи да апликације занемарују"</string>
     <string name="zen_mode_bypassing_apps_title" msgid="4142154650779609193">"Изузеци за апликације"</string>
     <plurals name="zen_mode_bypassing_apps_subtext" formatted="false" msgid="3992144201138339160">
-      <item quantity="one">Обавештења из <xliff:g id="NUMBER">%1$d</xliff:g> апликације могу да замене режим Не узнемиравај</item>
-      <item quantity="few">Обавештења из <xliff:g id="NUMBER">%1$d</xliff:g> апликације могу да замене режим Не узнемиравај</item>
-      <item quantity="other">Обавештења из <xliff:g id="NUMBER">%1$d</xliff:g> апликација могу да замене режим Не узнемиравај</item>
+        <item quantity="one">Обавештења из <xliff:g id="NUMBER">%1$d</xliff:g> апликације могу да замене режим Не узнемиравај</item>
+        <item quantity="few">Обавештења из <xliff:g id="NUMBER">%1$d</xliff:g> апликације могу да замене режим Не узнемиравај</item>
+        <item quantity="other">Обавештења из <xliff:g id="NUMBER">%1$d</xliff:g> апликација могу да замене режим Не узнемиравај</item>
     </plurals>
     <string name="zen_mode_events_list" msgid="7191316245742097229">"догађаји"</string>
     <string name="zen_mode_all_callers" msgid="8104755389401941875">"сви"</string>
@@ -3694,14 +3668,14 @@
     <string name="zen_mode_end_time_next_day_summary_format" msgid="419683704068360804">"У <xliff:g id="FORMATTED_TIME">%s</xliff:g> следећег дана"</string>
     <string name="zen_mode_summary_alarms_only_indefinite" msgid="910047326128154945">"Пребацује у режим само са алармима на неодређено време"</string>
     <plurals name="zen_mode_summary_alarms_only_by_minute" formatted="false" msgid="1900512966361163390">
-      <item quantity="one">Пребацује у режим само са алармима у трајању од <xliff:g id="DURATION">%1$d</xliff:g> минута (до <xliff:g id="FORMATTEDTIME_1">%2$s</xliff:g>)</item>
-      <item quantity="few">Пребацује у режим само са алармима у трајању од <xliff:g id="DURATION">%1$d</xliff:g> минута (до <xliff:g id="FORMATTEDTIME_1">%2$s</xliff:g>)</item>
-      <item quantity="other">Пребацује у режим само са алармима у трајању од <xliff:g id="DURATION">%1$d</xliff:g> минута (до <xliff:g id="FORMATTEDTIME_1">%2$s</xliff:g>)</item>
+        <item quantity="one">Пребацује у режим само са алармима у трајању од <xliff:g id="DURATION">%1$d</xliff:g> минута (до <xliff:g id="FORMATTEDTIME_1">%2$s</xliff:g>)</item>
+        <item quantity="few">Пребацује у режим само са алармима у трајању од <xliff:g id="DURATION">%1$d</xliff:g> минута (до <xliff:g id="FORMATTEDTIME_1">%2$s</xliff:g>)</item>
+        <item quantity="other">Пребацује у режим само са алармима у трајању од <xliff:g id="DURATION">%1$d</xliff:g> минута (до <xliff:g id="FORMATTEDTIME_1">%2$s</xliff:g>)</item>
     </plurals>
     <plurals name="zen_mode_summary_alarms_only_by_hour" formatted="false" msgid="955991428001659124">
-      <item quantity="one">Пребацује у режим само са алармима у трајању од <xliff:g id="DURATION">%1$d</xliff:g> сата до <xliff:g id="FORMATTEDTIME_1">%2$s</xliff:g></item>
-      <item quantity="few">Пребацује у режим само са алармима у трајању од <xliff:g id="DURATION">%1$d</xliff:g> сата до <xliff:g id="FORMATTEDTIME_1">%2$s</xliff:g></item>
-      <item quantity="other">Пребацује у режим само са алармима у трајању од <xliff:g id="DURATION">%1$d</xliff:g> сати до <xliff:g id="FORMATTEDTIME_1">%2$s</xliff:g></item>
+        <item quantity="one">Пребацује у режим само са алармима у трајању од <xliff:g id="DURATION">%1$d</xliff:g> сата до <xliff:g id="FORMATTEDTIME_1">%2$s</xliff:g></item>
+        <item quantity="few">Пребацује у режим само са алармима у трајању од <xliff:g id="DURATION">%1$d</xliff:g> сата до <xliff:g id="FORMATTEDTIME_1">%2$s</xliff:g></item>
+        <item quantity="other">Пребацује у режим само са алармима у трајању од <xliff:g id="DURATION">%1$d</xliff:g> сати до <xliff:g id="FORMATTEDTIME_1">%2$s</xliff:g></item>
     </plurals>
     <string name="zen_mode_summary_alarms_only_by_time" msgid="8140619669703968810">"Пребацује у режим само са алармима до <xliff:g id="FORMATTEDTIME">%1$s</xliff:g>"</string>
     <string name="zen_mode_summary_always" msgid="722093064250082317">"Пребацује у режим увек прекидај"</string>
@@ -3776,24 +3750,24 @@
     <string name="notification_summary_level" msgid="4074326972839105652">"%d. ниво"</string>
     <string name="notification_summary_channel" msgid="8459033623057872803">"<xliff:g id="CHANNEL_NAME">%1$s</xliff:g> • <xliff:g id="GROUP_NAME">%2$s</xliff:g>"</string>
     <plurals name="notifications_categories_off" formatted="false" msgid="1385401442703692986">
-      <item quantity="one">Искључена је <xliff:g id="COUNT_1">%d</xliff:g> категорија</item>
-      <item quantity="few">Искључене су <xliff:g id="COUNT_1">%d</xliff:g> категорије</item>
-      <item quantity="other">Искључено је <xliff:g id="COUNT_1">%d</xliff:g> категорија</item>
+        <item quantity="one">Искључена је <xliff:g id="COUNT_1">%d</xliff:g> категорија</item>
+        <item quantity="few">Искључене су <xliff:g id="COUNT_1">%d</xliff:g> категорије</item>
+        <item quantity="other">Искључено је <xliff:g id="COUNT_1">%d</xliff:g> категорија</item>
     </plurals>
     <plurals name="permissions_summary" formatted="false" msgid="5015472550875144481">
-      <item quantity="one"><xliff:g id="COUNT_1">%d</xliff:g> дозвола је одобрена</item>
-      <item quantity="few"><xliff:g id="COUNT_1">%d</xliff:g> дозволе су одобрене</item>
-      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> дозвола је одобрено</item>
+        <item quantity="one"><xliff:g id="COUNT_1">%d</xliff:g> дозвола је одобрена</item>
+        <item quantity="few"><xliff:g id="COUNT_1">%d</xliff:g> дозволе су одобрене</item>
+        <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> дозвола је одобрено</item>
     </plurals>
     <plurals name="runtime_permissions_summary" formatted="false" msgid="2091022049141391855">
-      <item quantity="one">Дата је <xliff:g id="COUNT_2">%d</xliff:g> од <xliff:g id="COUNT_3">%d</xliff:g> дозвола</item>
-      <item quantity="few">Дате су <xliff:g id="COUNT_2">%d</xliff:g> од <xliff:g id="COUNT_3">%d</xliff:g> дозвола</item>
-      <item quantity="other">Дато је <xliff:g id="COUNT_2">%d</xliff:g> од <xliff:g id="COUNT_3">%d</xliff:g> дозвола</item>
+        <item quantity="one">Дата је <xliff:g id="COUNT_2">%d</xliff:g> од <xliff:g id="COUNT_3">%d</xliff:g> дозвола</item>
+        <item quantity="few">Дате су <xliff:g id="COUNT_2">%d</xliff:g> од <xliff:g id="COUNT_3">%d</xliff:g> дозвола</item>
+        <item quantity="other">Дато је <xliff:g id="COUNT_2">%d</xliff:g> од <xliff:g id="COUNT_3">%d</xliff:g> дозвола</item>
     </plurals>
     <plurals name="runtime_permissions_additional_count" formatted="false" msgid="5888624648943937645">
-      <item quantity="one"><xliff:g id="COUNT_1">%d</xliff:g> додатна дозвола</item>
-      <item quantity="few"><xliff:g id="COUNT_1">%d</xliff:g> додатне дозволе</item>
-      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> додатних дозвола</item>
+        <item quantity="one"><xliff:g id="COUNT_1">%d</xliff:g> додатна дозвола</item>
+        <item quantity="few"><xliff:g id="COUNT_1">%d</xliff:g> додатне дозволе</item>
+        <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> додатних дозвола</item>
     </plurals>
     <string name="runtime_permissions_summary_no_permissions_granted" msgid="7456745929035665029">"Ниједна дозвола није одобрена"</string>
     <string name="runtime_permissions_summary_no_permissions_requested" msgid="7174876170116073356">"Ниједна дозвола није захтевана"</string>
@@ -3821,9 +3795,9 @@
     <string name="domain_urls_summary_some" msgid="1197692164421314523">"Отварај <xliff:g id="DOMAIN">%s</xliff:g> и друге URL-ове"</string>
     <string name="domain_urls_apps_summary_off" msgid="2534980824850890416">"Ниједна апликација не отвара подржане линкове"</string>
     <plurals name="domain_urls_apps_summary_on" formatted="false" msgid="7864816862441985323">
-      <item quantity="one"><xliff:g id="COUNT">%d</xliff:g> апликација отвара подржане линкове</item>
-      <item quantity="few"><xliff:g id="COUNT">%d</xliff:g> апликације отварају подржане линкове</item>
-      <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> апликација отвара подржане линкове</item>
+        <item quantity="one"><xliff:g id="COUNT">%d</xliff:g> апликација отвара подржане линкове</item>
+        <item quantity="few"><xliff:g id="COUNT">%d</xliff:g> апликације отварају подржане линкове</item>
+        <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> апликација отвара подржане линкове</item>
     </plurals>
     <string name="app_link_open_always" msgid="7734202520425781182">"Отварај у овој апликацији"</string>
     <string name="app_link_open_ask" msgid="2422450109908936371">"Питај сваки пут"</string>
@@ -3865,14 +3839,14 @@
     <string name="show_all_apps" msgid="4490719452453223082">"Прикажи коришћење батерије"</string>
     <string name="hide_extra_apps" msgid="7313907836289865123">"Прикажи коришћење апликација"</string>
     <plurals name="power_high_usage_summary" formatted="false" msgid="573433136005336970">
-      <item quantity="one"><xliff:g id="NUMBER">%2$d</xliff:g> апликација се понаша на неуобичајен начин</item>
-      <item quantity="few"><xliff:g id="NUMBER">%2$d</xliff:g> апликације се понашају на неуобичајен начин</item>
-      <item quantity="other"><xliff:g id="NUMBER">%2$d</xliff:g> апликација се понаша на неуобичајен начин</item>
+        <item quantity="one"><xliff:g id="NUMBER">%2$d</xliff:g> апликација се понаша на неуобичајен начин</item>
+        <item quantity="few"><xliff:g id="NUMBER">%2$d</xliff:g> апликације се понашају на неуобичајен начин</item>
+        <item quantity="other"><xliff:g id="NUMBER">%2$d</xliff:g> апликација се понаша на неуобичајен начин</item>
     </plurals>
     <plurals name="power_high_usage_title" formatted="false" msgid="8013115866788425817">
-      <item quantity="one">Апликације много троше батерију</item>
-      <item quantity="few">Апликације много троше батерију</item>
-      <item quantity="other">Апликације много троше батерију</item>
+        <item quantity="one">Апликације много троше батерију</item>
+        <item quantity="few">Апликације много троше батерију</item>
+        <item quantity="other">Апликације много троше батерију</item>
     </plurals>
     <string name="high_power_filter_on" msgid="447849271630431531">"Без оптимизације"</string>
     <string name="high_power_on" msgid="8778058701270819268">"Без оптимизације"</string>
@@ -3948,9 +3922,9 @@
     <string name="free_memory" msgid="439783742246854785">"Слободно"</string>
     <string name="memory_usage_apps" msgid="5776108502569850579">"Меморија коју користе апликације"</string>
     <plurals name="memory_usage_apps_summary" formatted="false" msgid="1355637088533572208">
-      <item quantity="one"><xliff:g id="COUNT">%1$d</xliff:g> апликација је користила меморију у претходном периоду од <xliff:g id="DURATION_1">%2$s</xliff:g></item>
-      <item quantity="few"><xliff:g id="COUNT">%1$d</xliff:g> апликације су користиле меморију у претходном периоду од <xliff:g id="DURATION_1">%2$s</xliff:g></item>
-      <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> апликација је користило меморију у претходном периоду од <xliff:g id="DURATION_1">%2$s</xliff:g></item>
+        <item quantity="one"><xliff:g id="COUNT">%1$d</xliff:g> апликација је користила меморију у претходном периоду од <xliff:g id="DURATION_1">%2$s</xliff:g></item>
+        <item quantity="few"><xliff:g id="COUNT">%1$d</xliff:g> апликације су користиле меморију у претходном периоду од <xliff:g id="DURATION_1">%2$s</xliff:g></item>
+        <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> апликација је користило меморију у претходном периоду од <xliff:g id="DURATION_1">%2$s</xliff:g></item>
     </plurals>
     <string name="running_frequency" msgid="7260225121706316639">"Учесталост"</string>
     <string name="memory_maximum_usage" msgid="2047013391595835607">"Максимум коришћења"</string>
@@ -4020,9 +3994,9 @@
     <string name="data_usage_summary_format" msgid="6844301859713164522">"Искоришћено је <xliff:g id="AMOUNT">%1$s</xliff:g> података"</string>
     <string name="data_usage_wifi_format" msgid="7644390582649568117">"<xliff:g id="AMOUNT">^1</xliff:g> потрошено на Wi‑Fi мреже"</string>
     <plurals name="notification_summary" formatted="false" msgid="7638388920823212470">
-      <item quantity="one">Искључено за <xliff:g id="COUNT">%d</xliff:g> апликацију</item>
-      <item quantity="few">Искључено за <xliff:g id="COUNT">%d</xliff:g> апликације</item>
-      <item quantity="other">Искључено за <xliff:g id="COUNT">%d</xliff:g> апликација</item>
+        <item quantity="one">Искључено за <xliff:g id="COUNT">%d</xliff:g> апликацију</item>
+        <item quantity="few">Искључено за <xliff:g id="COUNT">%d</xliff:g> апликације</item>
+        <item quantity="other">Искључено за <xliff:g id="COUNT">%d</xliff:g> апликација</item>
     </plurals>
     <string name="notification_summary_none" msgid="9179312319023988089">"Укључено за све апликације"</string>
     <string name="apps_summary" msgid="4007416751775414252">"Инсталираних апликација: <xliff:g id="COUNT">%1$d</xliff:g>"</string>
@@ -4087,14 +4061,14 @@
     <string name="suggestions_summary" msgid="1709710458908440469">"+<xliff:g id="ID_1">%1$d</xliff:g>"</string>
     <string name="suggestions_more_title" msgid="240124526378997009">"и још <xliff:g id="ID_1">%1$d</xliff:g>"</string>
     <plurals name="suggestions_collapsed_title" formatted="false" msgid="5023679825210836444">
-      <item quantity="one"><xliff:g id="COUNT">%1$d</xliff:g> предлог</item>
-      <item quantity="few"><xliff:g id="COUNT">%1$d</xliff:g> предлога</item>
-      <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> предлога</item>
+        <item quantity="one"><xliff:g id="COUNT">%1$d</xliff:g> предлог</item>
+        <item quantity="few"><xliff:g id="COUNT">%1$d</xliff:g> предлога</item>
+        <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> предлога</item>
     </plurals>
     <plurals name="suggestions_collapsed_summary" formatted="false" msgid="3789011332018516832">
-      <item quantity="one">и још <xliff:g id="COUNT">%1$d</xliff:g> предлог</item>
-      <item quantity="few">и још <xliff:g id="COUNT">%1$d</xliff:g> предлога</item>
-      <item quantity="other">и још <xliff:g id="COUNT">%1$d</xliff:g> предлога</item>
+        <item quantity="one">и још <xliff:g id="COUNT">%1$d</xliff:g> предлог</item>
+        <item quantity="few">и још <xliff:g id="COUNT">%1$d</xliff:g> предлога</item>
+        <item quantity="other">и још <xliff:g id="COUNT">%1$d</xliff:g> предлога</item>
     </plurals>
     <string name="suggestion_remove" msgid="6753986344585367776">"Уклони"</string>
     <string name="color_temperature" msgid="8256912135746305176">"Хладна температура боје"</string>
@@ -4121,9 +4095,9 @@
     <string name="billing_cycle_fragment_summary" msgid="6346655500491631357">"Сваког <xliff:g id="ID_1">%1$s</xliff:g>. у месецу"</string>
     <string name="network_restrictions" msgid="8385824604048229846">"Мрежна ограничења"</string>
     <plurals name="network_restrictions_summary" formatted="false" msgid="3875128958788008975">
-      <item quantity="one"><xliff:g id="COUNT">%1$d</xliff:g> ограничење</item>
-      <item quantity="few"><xliff:g id="COUNT">%1$d</xliff:g> ограничења</item>
-      <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> ограничења</item>
+        <item quantity="one"><xliff:g id="COUNT">%1$d</xliff:g> ограничење</item>
+        <item quantity="few"><xliff:g id="COUNT">%1$d</xliff:g> ограничења</item>
+        <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> ограничења</item>
     </plurals>
     <string name="operator_warning" msgid="5672761970087591211">"Обрачун података код мобилног оператера се можда разликује од обрачуна уређаја."</string>
     <string name="data_used_template" msgid="8229342096562327646">"Потрошили сте <xliff:g id="ID_1">%1$s</xliff:g>"</string>
@@ -4136,9 +4110,9 @@
     <string name="configure" msgid="1499586749829665889">"Конфигуришите"</string>
     <string name="data_usage_other_apps" msgid="5649047093607329537">"Друге апликације које су трошиле податке"</string>
     <plurals name="data_saver_unrestricted_summary" formatted="false" msgid="3316296488378947221">
-      <item quantity="one"><xliff:g id="COUNT">%1$d</xliff:g> апликација има дозволу да користи неограничену количину података када је Уштеда података укључена</item>
-      <item quantity="few"><xliff:g id="COUNT">%1$d</xliff:g> апликације имају дозволу да користе неограничену количину података када је Уштеда података укључена</item>
-      <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> апликација има дозволу да користи неограничену количину података када је Уштеда података укључена</item>
+        <item quantity="one"><xliff:g id="COUNT">%1$d</xliff:g> апликација има дозволу да користи неограничену количину података када је Уштеда података укључена</item>
+        <item quantity="few"><xliff:g id="COUNT">%1$d</xliff:g> апликације имају дозволу да користе неограничену количину података када је Уштеда података укључена</item>
+        <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> апликација има дозволу да користи неограничену количину података када је Уштеда података укључена</item>
     </plurals>
     <string name="data_usage_title" msgid="4039024073687469094">"Примарни подаци"</string>
     <string name="data_usage_wifi_title" msgid="1060495519280456926">"Wi‑Fi подаци"</string>
@@ -4147,9 +4121,9 @@
     <string name="data_overusage" msgid="3680477320458707259">"<xliff:g id="ID_1">^1</xliff:g> преко ограничења"</string>
     <string name="data_remaining" msgid="6316251496381922837">"Још <xliff:g id="ID_1">^1</xliff:g>"</string>
     <plurals name="billing_cycle_days_left" formatted="false" msgid="661792524671718753">
-      <item quantity="one">Остао је још %d дан</item>
-      <item quantity="few">Остала су још %d дана</item>
-      <item quantity="other">Остало је још %d дана</item>
+        <item quantity="one">Остао је још %d дан</item>
+        <item quantity="few">Остала су још %d дана</item>
+        <item quantity="other">Остало је још %d дана</item>
     </plurals>
     <string name="billing_cycle_none_left" msgid="1694844019159277504">"Време је истекло"</string>
     <string name="billing_cycle_less_than_one_day_left" msgid="1210202399053992163">"Преостало је мање од једног дана"</string>
@@ -4225,9 +4199,9 @@
     <string name="overlay_toast_failed_to_apply" msgid="4839587811338164960">"Примена преклопног елемента није успела"</string>
     <string name="special_access" msgid="1767980727423395147">"Посебан приступ апликацији"</string>
     <plurals name="special_access_summary" formatted="false" msgid="4995506406763570815">
-      <item quantity="one"><xliff:g id="COUNT">%d</xliff:g> апликација може да користи неограничену количину података</item>
-      <item quantity="few"><xliff:g id="COUNT">%d</xliff:g> апликације могу да користе неограничену количину података</item>
-      <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> апликација може да користи неограничену количину података</item>
+        <item quantity="one"><xliff:g id="COUNT">%d</xliff:g> апликација може да користи неограничену количину података</item>
+        <item quantity="few"><xliff:g id="COUNT">%d</xliff:g> апликације могу да користе неограничену количину података</item>
+        <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> апликација може да користи неограничену количину података</item>
     </plurals>
     <string name="special_access_more" msgid="132919514147475846">"Прикажи још"</string>
     <string name="confirm_convert_to_fbe_warning" msgid="3783325656948378111">"Желите ли стварно да избришете податке корисника и да конвертујете у шифровање датотека?"</string>
@@ -4263,19 +4237,19 @@
     <string name="cross_profile_calendar_summary" msgid="8856185206722860069">"Приказивање пословних догађаја у личном календару"</string>
     <string name="cross_profile_calendar_restricted_summary" msgid="282962670405516067">"Организација не дозвољава личним апликацијама да приступају радном календару"</string>
     <plurals name="hours" formatted="false" msgid="1853396353451635458">
-      <item quantity="one"><xliff:g id="NUMBER">%s</xliff:g> сат</item>
-      <item quantity="few"><xliff:g id="NUMBER">%s</xliff:g> сата</item>
-      <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> сати</item>
+        <item quantity="one"><xliff:g id="NUMBER">%s</xliff:g> сат</item>
+        <item quantity="few"><xliff:g id="NUMBER">%s</xliff:g> сата</item>
+        <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> сати</item>
     </plurals>
     <plurals name="minutes" formatted="false" msgid="6244503272924425418">
-      <item quantity="one"><xliff:g id="NUMBER">%s</xliff:g> минут</item>
-      <item quantity="few"><xliff:g id="NUMBER">%s</xliff:g> минута</item>
-      <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> минута</item>
+        <item quantity="one"><xliff:g id="NUMBER">%s</xliff:g> минут</item>
+        <item quantity="few"><xliff:g id="NUMBER">%s</xliff:g> минута</item>
+        <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> минута</item>
     </plurals>
     <plurals name="seconds" formatted="false" msgid="4237020272336995370">
-      <item quantity="one"><xliff:g id="NUMBER">%s</xliff:g> секунда</item>
-      <item quantity="few"><xliff:g id="NUMBER">%s</xliff:g> секунде</item>
-      <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> секунди</item>
+        <item quantity="one"><xliff:g id="NUMBER">%s</xliff:g> секунда</item>
+        <item quantity="few"><xliff:g id="NUMBER">%s</xliff:g> секунде</item>
+        <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> секунди</item>
     </plurals>
     <string name="automatic_storage_manager_settings" msgid="519158151463974656">"Управљај меморијским простором"</string>
     <string name="automatic_storage_manager_text" msgid="6900593059927987273">"Да би ослободио меморијски простор, менаџер меморијског простора уклања резервне копије слика и видео снимака са уређаја."</string>
@@ -4293,7 +4267,6 @@
     <string name="double_tap_power_for_camera_summary" msgid="1100926048598415509">"Да бисте брзо отворили камеру, двапут притисните дугме за напајање. Ово функционише на сваком екрану."</string>
     <string name="double_tap_power_for_camera_suggestion_title" msgid="4299496243418753571">"Брзо отворите камеру"</string>
     <string name="double_twist_for_camera_mode_title" msgid="8387290007393716098">"Окретање камере"</string>
-    <string name="double_twist_for_camera_mode_summary" msgid="592503740044744951"></string>
     <string name="double_twist_for_camera_suggestion_title" msgid="8178844037382604158">"Брже снимајте селфије"</string>
     <string name="system_navigation_title" msgid="1698862900901417194">"Навигација кроз систем"</string>
     <string name="swipe_up_to_switch_apps_title" msgid="6677266952021118342">"Навигација помоћу 2 дугмета"</string>
@@ -4374,18 +4347,18 @@
     <string name="enterprise_privacy_enterprise_installed_packages" msgid="9114143640515900082">"Апликације су инсталиране"</string>
     <string name="enterprise_privacy_apps_count_estimation_info" msgid="7959907857710107792">"Број апликација представља процену. Можда не обухвата апликације инсталиране изван Play продавнице."</string>
     <plurals name="enterprise_privacy_number_packages_lower_bound" formatted="false" msgid="5403847001419529018">
-      <item quantity="one">Најмање <xliff:g id="COUNT_1">%d</xliff:g> апликација</item>
-      <item quantity="few">Најмање <xliff:g id="COUNT_1">%d</xliff:g> апликације</item>
-      <item quantity="other">Најмање <xliff:g id="COUNT_1">%d</xliff:g> апликација</item>
+        <item quantity="one">Најмање <xliff:g id="COUNT_1">%d</xliff:g> апликација</item>
+        <item quantity="few">Најмање <xliff:g id="COUNT_1">%d</xliff:g> апликације</item>
+        <item quantity="other">Најмање <xliff:g id="COUNT_1">%d</xliff:g> апликација</item>
     </plurals>
     <string name="enterprise_privacy_location_access" msgid="8023838718108456971">"Дозволе за локацију"</string>
     <string name="enterprise_privacy_microphone_access" msgid="7242958026470143653">"Дозволе за микрофон"</string>
     <string name="enterprise_privacy_camera_access" msgid="7685460535880069016">"Дозволе за камеру"</string>
     <string name="enterprise_privacy_enterprise_set_default_apps" msgid="7498546659083996300">"Подразумеване апликације"</string>
     <plurals name="enterprise_privacy_number_packages" formatted="false" msgid="8568544906431825430">
-      <item quantity="one"><xliff:g id="COUNT_1">%d</xliff:g> апликација</item>
-      <item quantity="few"><xliff:g id="COUNT_1">%d</xliff:g> апликације</item>
-      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> апликација</item>
+        <item quantity="one"><xliff:g id="COUNT_1">%d</xliff:g> апликација</item>
+        <item quantity="few"><xliff:g id="COUNT_1">%d</xliff:g> апликације</item>
+        <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> апликација</item>
     </plurals>
     <string name="enterprise_privacy_input_method" msgid="3278314982700662246">"Подразумевана тастатура"</string>
     <string name="enterprise_privacy_input_method_name" msgid="2974859490559054584">"Подешено је на <xliff:g id="APP_LABEL">%s</xliff:g>"</string>
@@ -4397,40 +4370,40 @@
     <string name="enterprise_privacy_ca_certs_personal" msgid="1516422660828485795">"Поуздани акредитиви на личном профилу"</string>
     <string name="enterprise_privacy_ca_certs_work" msgid="4318941788592655561">"Поуздани акредитиви на профилу за Work"</string>
     <plurals name="enterprise_privacy_number_ca_certs" formatted="false" msgid="6459725295322004179">
-      <item quantity="one">Најмање <xliff:g id="COUNT_1">%d</xliff:g> CA сертификат</item>
-      <item quantity="few">Најмање <xliff:g id="COUNT_1">%d</xliff:g> CA сертификата</item>
-      <item quantity="other">Најмање <xliff:g id="COUNT_1">%d</xliff:g> CA сертификата</item>
+        <item quantity="one">Најмање <xliff:g id="COUNT_1">%d</xliff:g> CA сертификат</item>
+        <item quantity="few">Најмање <xliff:g id="COUNT_1">%d</xliff:g> CA сертификата</item>
+        <item quantity="other">Најмање <xliff:g id="COUNT_1">%d</xliff:g> CA сертификата</item>
     </plurals>
     <string name="enterprise_privacy_lock_device" msgid="464054894363899866">"Администратор може да закључава уређај и ресетује лозинку"</string>
     <string name="enterprise_privacy_wipe_device" msgid="869589182352244591">"Администратор може да брише све податке са уређаја"</string>
     <string name="enterprise_privacy_failed_password_wipe_device" msgid="7045164901334821226">"Неуспели покушаји уноса лозинке пре брисања свих података са уређаја"</string>
     <string name="enterprise_privacy_failed_password_wipe_work" msgid="2537582942554484170">"Неуспели покушаји уноса лозинке пре брисања података са профила за Work"</string>
     <plurals name="enterprise_privacy_number_failed_password_wipe" formatted="false" msgid="8811973918944217791">
-      <item quantity="one"><xliff:g id="COUNT_1">%d</xliff:g> покушај</item>
-      <item quantity="few"><xliff:g id="COUNT_1">%d</xliff:g> покушаја</item>
-      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> покушаја</item>
+        <item quantity="one"><xliff:g id="COUNT_1">%d</xliff:g> покушај</item>
+        <item quantity="few"><xliff:g id="COUNT_1">%d</xliff:g> покушаја</item>
+        <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> покушаја</item>
     </plurals>
     <string name="do_disclosure_generic" msgid="3067459392402324538">"Овим уређајем управља организација."</string>
     <string name="do_disclosure_with_name" msgid="867544298924410766">"Овим уређајем управља <xliff:g id="ORGANIZATION_NAME">%s</xliff:g>."</string>
     <string name="do_disclosure_learn_more_separator" msgid="5714364437437041671">" "</string>
     <string name="learn_more" msgid="3534519107947510952">"Сазнајте више"</string>
     <plurals name="default_camera_app_title" formatted="false" msgid="8112432929729136399">
-      <item quantity="one">апликација за камеру</item>
-      <item quantity="few">апликације за камеру</item>
-      <item quantity="other">апликације за камеру</item>
+        <item quantity="one">апликација за камеру</item>
+        <item quantity="few">апликације за камеру</item>
+        <item quantity="other">апликације за камеру</item>
     </plurals>
     <string name="default_calendar_app_title" msgid="1870095225089706093">"Апликација Календар"</string>
     <string name="default_contacts_app_title" msgid="7740028900741944569">"Апликација Контакти"</string>
     <plurals name="default_email_app_title" formatted="false" msgid="8338194872609410234">
-      <item quantity="one">апликација за имејл клијент</item>
-      <item quantity="few">апликације за имејл клијент</item>
-      <item quantity="other">апликације за имејл клијент</item>
+        <item quantity="one">апликација за имејл клијент</item>
+        <item quantity="few">апликације за имејл клијент</item>
+        <item quantity="other">апликације за имејл клијент</item>
     </plurals>
     <string name="default_map_app_title" msgid="7569231732944853320">"Апликација за мапе"</string>
     <plurals name="default_phone_app_title" formatted="false" msgid="4222188821845826493">
-      <item quantity="one">апликација Телефон</item>
-      <item quantity="few">апликације Телефон</item>
-      <item quantity="other">апликација Телефон</item>
+        <item quantity="one">апликација Телефон</item>
+        <item quantity="few">апликације Телефон</item>
+        <item quantity="other">апликација Телефон</item>
     </plurals>
     <string name="app_names_concatenation_template_2" msgid="8320181646458855457">"<xliff:g id="FIRST_APP_NAME">%1$s</xliff:g>, <xliff:g id="SECOND_APP_NAME">%2$s</xliff:g>"</string>
     <string name="app_names_concatenation_template_3" msgid="7019703249717854148">"<xliff:g id="FIRST_APP_NAME">%1$s</xliff:g>, <xliff:g id="SECOND_APP_NAME">%2$s</xliff:g>, <xliff:g id="THIRD_APP_NAME">%3$s</xliff:g>"</string>
@@ -4520,7 +4493,6 @@
     <string name="battery_suggestion_title" product="tablet" msgid="1525940496459255289">"Продужите трајање батерије таблета"</string>
     <string name="battery_suggestion_title" product="device" msgid="2280773774080720377">"Продужите трајање батерије уређаја"</string>
     <string name="battery_suggestion_title" product="default" msgid="4811554469047272537">"Продужите трајање батерије телефона"</string>
-    <string name="battery_suggestion_summary" msgid="8186720080540016197"></string>
     <string name="gesture_prevent_ringing_screen_title" msgid="8293094715267769349">"Спречите звоњење"</string>
     <string name="gesture_prevent_ringing_title" msgid="5978577898997523581">"Дугме за напајање и појачавање звука одједном:"</string>
     <string name="gesture_prevent_ringing_sound_title" msgid="4529077822282099235">"Пречица за спречавање звоњења"</string>
@@ -4603,9 +4575,9 @@
     <string name="calls_and_sms_ask_every_time" msgid="3178743088737726677">"Питај сваки пут"</string>
     <string name="mobile_network_summary_add_a_network" msgid="9079866102827526779">"Додајте мрежу"</string>
     <plurals name="mobile_network_summary_count" formatted="false" msgid="5173633860800230925">
-      <item quantity="one"><xliff:g id="COUNT_1">%1$d</xliff:g> SIM картица</item>
-      <item quantity="few"><xliff:g id="COUNT_1">%1$d</xliff:g> SIM картице</item>
-      <item quantity="other"><xliff:g id="COUNT_1">%1$d</xliff:g> SIM картица</item>
+        <item quantity="one"><xliff:g id="COUNT_1">%1$d</xliff:g> SIM картица</item>
+        <item quantity="few"><xliff:g id="COUNT_1">%1$d</xliff:g> SIM картице</item>
+        <item quantity="other"><xliff:g id="COUNT_1">%1$d</xliff:g> SIM картица</item>
     </plurals>
     <string name="default_for_calls" msgid="2788950217176988034">"Подразумевано за позиве"</string>
     <string name="default_for_sms" msgid="1316988329407434771">"Подразумевано за SMS-ове"</string>
@@ -4671,9 +4643,9 @@
     <string name="network_connection_connect_successful" msgid="2587314077675642476">"Повезивање је успело"</string>
     <string name="network_connection_request_dialog_showall" msgid="6392059758456994944">"Прикажи све"</string>
     <plurals name="show_bluetooth_devices" formatted="false" msgid="5247313302567705452">
-      <item quantity="one">Повезан је <xliff:g id="NUMBER_DEVICE_COUNT_1">%1$d</xliff:g> уређај</item>
-      <item quantity="few">Повезана су <xliff:g id="NUMBER_DEVICE_COUNT_1">%1$d</xliff:g> уређаја</item>
-      <item quantity="other">Повезано је <xliff:g id="NUMBER_DEVICE_COUNT_1">%1$d</xliff:g> уређаја</item>
+        <item quantity="one">Повезан је <xliff:g id="NUMBER_DEVICE_COUNT_1">%1$d</xliff:g> уређај</item>
+        <item quantity="few">Повезана су <xliff:g id="NUMBER_DEVICE_COUNT_1">%1$d</xliff:g> уређаја</item>
+        <item quantity="other">Повезано је <xliff:g id="NUMBER_DEVICE_COUNT_1">%1$d</xliff:g> уређаја</item>
     </plurals>
     <string name="no_bluetooth_devices" msgid="6310025908614933116">"Нема Bluetooth уређаја"</string>
     <string name="bluetooth_left_name" msgid="7440064067910080502">"Лево"</string>
@@ -4698,27 +4670,26 @@
     <string name="contextual_card_feedback_send" msgid="7409408664417908922">"Пошаљите повратне информације"</string>
     <string name="contextual_card_feedback_confirm_message" msgid="3186334562157665381">"Желите ли да нам пошаљете повратне информације за овај предлог?"</string>
     <string name="copyable_slice_toast" msgid="1008251852798990606">"Копирано је у привремену меморију: <xliff:g id="COPY_CONTENT">%1$s</xliff:g>"</string>
-    <string name="search_bar_account_avatar_content_description" msgid="880523277036898350"></string>
     <string name="permission_bar_chart_empty_text" msgid="4856719891991325077">"Ниједна апликација није користила дозволе"</string>
     <string name="permission_bar_chart_title" msgid="2493212904955611441">"Коришћење дозвола у последња 24 сата"</string>
     <string name="permission_bar_chart_details" msgid="5816698018592357088">"Прикажи све на контролној табли"</string>
     <plurals name="permission_bar_chart_label" formatted="false" msgid="4853396794340896078">
-      <item quantity="one"><xliff:g id="NUMBER">%s</xliff:g> апликација</item>
-      <item quantity="few"><xliff:g id="NUMBER">%s</xliff:g> апликације</item>
-      <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> апликација</item>
+        <item quantity="one"><xliff:g id="NUMBER">%s</xliff:g> апликација</item>
+        <item quantity="few"><xliff:g id="NUMBER">%s</xliff:g> апликације</item>
+        <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> апликација</item>
     </plurals>
     <string name="accessibility_usage_title" msgid="9190967143518779145">"Коришћење Приступачности"</string>
     <plurals name="accessibility_usage_summary" formatted="false" msgid="6910643986958263005">
-      <item quantity="one"><xliff:g id="SERVICE_COUNT">%1$d</xliff:g> апликација имају потпун приступ уређају</item>
-      <item quantity="few"><xliff:g id="SERVICE_COUNT">%1$d</xliff:g> апликације имају потпун приступ уређају</item>
-      <item quantity="other"><xliff:g id="SERVICE_COUNT">%1$d</xliff:g> апликација има потпун приступ уређају</item>
+        <item quantity="one"><xliff:g id="SERVICE_COUNT">%1$d</xliff:g> апликација имају потпун приступ уређају</item>
+        <item quantity="few"><xliff:g id="SERVICE_COUNT">%1$d</xliff:g> апликације имају потпун приступ уређају</item>
+        <item quantity="other"><xliff:g id="SERVICE_COUNT">%1$d</xliff:g> апликација има потпун приступ уређају</item>
     </plurals>
     <string name="manage_app_notification" msgid="8272999309499332742">"Управљајте обавештењима апликације <xliff:g id="APP_NAME">%1$s</xliff:g>"</string>
     <string name="no_suggested_app" msgid="2482015948111074654">"Нема предложене апликације"</string>
     <plurals name="notification_few_channel_count_summary" formatted="false" msgid="6610904178351403728">
-      <item quantity="one"><xliff:g id="NOTIFICATION_CHANNEL_COUNT_1">%1$d</xliff:g> канал за обавештења.</item>
-      <item quantity="few"><xliff:g id="NOTIFICATION_CHANNEL_COUNT_1">%1$d</xliff:g> канала за обавештења.</item>
-      <item quantity="other"><xliff:g id="NOTIFICATION_CHANNEL_COUNT_1">%1$d</xliff:g> канала за обавештења.</item>
+        <item quantity="one"><xliff:g id="NOTIFICATION_CHANNEL_COUNT_1">%1$d</xliff:g> канал за обавештења.</item>
+        <item quantity="few"><xliff:g id="NOTIFICATION_CHANNEL_COUNT_1">%1$d</xliff:g> канала за обавештења.</item>
+        <item quantity="other"><xliff:g id="NOTIFICATION_CHANNEL_COUNT_1">%1$d</xliff:g> канала за обавештења.</item>
     </plurals>
     <string name="notification_many_channel_count_summary" msgid="6324166979527102233">"<xliff:g id="NOTIFICATION_CHANNEL_COUNT">%1$d</xliff:g> канал за обавештења. Додирните да бисте управљали свим."</string>
     <string name="recently_installed_app" msgid="2899861390925377564">"Недавно сте инсталирали ову апликацију."</string>
@@ -4751,10 +4722,8 @@
     <string name="dual_cdma_sim_warning_notification_channel_title" msgid="1049161096896074364">"SIM комбинација"</string>
     <string name="work_policy_privacy_settings" msgid="2702644843505242596">"Информације о смерницама за Work"</string>
     <string name="work_policy_privacy_settings_summary" msgid="690118670737638405">"Подешавањима управља ИТ администратор"</string>
-    <string name="rtt_settings_title" msgid="7049259598645966354"></string>
-    <string name="rtt_settings_no_visible" msgid="7440356831140948382"></string>
-    <string name="rtt_settings_visible_during_call" msgid="7866181103286073700"></string>
-    <string name="rtt_settings_always_visible" msgid="2364173070088756238"></string>
+    <string name="rtt_settings_no_visible" msgid="7440356831140948382"/>
+    <string name="rtt_settings_always_visible" msgid="2364173070088756238"/>
     <string name="bluetooth_message_access_notification_content" msgid="5111712860712823893">"Уређај жели да приступа порукама. Додирните за детаље."</string>
     <string name="bluetooth_message_access_dialog_title" msgid="9009836130395061579">"Желите ли да дозволите приступ порукама?"</string>
     <string name="bluetooth_message_access_dialog_content" msgid="7186694737578788487">"Bluetooth уређај, <xliff:g id="DEVICE_NAME_0">%1$s</xliff:g>, жели да приступа порукама.\n\nРаније се нисте повезивали са уређајем <xliff:g id="DEVICE_NAME_1">%2$s</xliff:g>."</string>

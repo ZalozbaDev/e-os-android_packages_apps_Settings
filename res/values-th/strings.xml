@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!--  Copyright (C) 2007 The Android Open Source Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
@@ -12,10 +12,7 @@
      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
      See the License for the specific language governing permissions and
      limitations under the License.
- -->
-
-<resources xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+ --><resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="yes" msgid="1999566976857398962">"ใช่"</string>
     <string name="no" msgid="5541738710521607130">"ไม่"</string>
     <string name="create" msgid="986997212165228751">"สร้าง"</string>
@@ -23,8 +20,8 @@
     <string name="deny" msgid="7326117222944479942">"ปฏิเสธ"</string>
     <string name="device_info_default" msgid="1406619232867343310">"ไม่ทราบ"</string>
     <plurals name="show_dev_countdown" formatted="false" msgid="1646187747875476269">
-      <item quantity="other">คุณกำลังจะได้เป็นนักพัฒนาซอฟต์แวร์ในอีก <xliff:g id="STEP_COUNT_1">%1$d</xliff:g> ขั้นตอน</item>
-      <item quantity="one">คุณกำลังจะได้เป็นนักพัฒนาซอฟต์แวร์ในอีก <xliff:g id="STEP_COUNT_0">%1$d</xliff:g> ขั้นตอน</item>
+        <item quantity="other">คุณกำลังจะได้เป็นนักพัฒนาซอฟต์แวร์ในอีก <xliff:g id="STEP_COUNT_1">%1$d</xliff:g> ขั้นตอน</item>
+        <item quantity="one">คุณกำลังจะได้เป็นนักพัฒนาซอฟต์แวร์ในอีก <xliff:g id="STEP_COUNT_0">%1$d</xliff:g> ขั้นตอน</item>
     </plurals>
     <string name="show_dev_on" msgid="2840850085134853754">"ตอนนี้คุณเป็นนักพัฒนาซอฟต์แวร์แล้ว!"</string>
     <string name="show_dev_already" msgid="7041756429707644630">"ไม่จำเป็น คุณเป็นนักพัฒนาซอฟต์แวร์อยู่แล้ว"</string>
@@ -187,7 +184,7 @@
     <string name="date_and_time" msgid="1788358029823431692">"วันที่และเวลา"</string>
     <string name="choose_timezone" msgid="1450780665958642147">"เลือกเขตเวลา"</string>
     <!-- no translation found for intent_sender_data_label (1733806423295725392) -->
-    <skip />
+    <skip/>
     <string name="intent_sender_sendbroadcast_text" msgid="3202857258557610646">"ส่ง <xliff:g id="BROADCAST">broadcast</xliff:g>"</string>
     <string name="intent_sender_action_label" msgid="257853357827275530">"<xliff:g id="ACTION">Action</xliff:g>:"</string>
     <string name="intent_sender_startactivity_text" msgid="519934560779343541">"เริ่มต้น <xliff:g id="ACTIVITY">activity</xliff:g>"</string>
@@ -272,8 +269,8 @@
     <string name="locale_remove_menu" msgid="3521546263421387474">"นำออก"</string>
     <string name="add_a_language" msgid="2126220398077503271">"เพิ่มภาษา"</string>
     <plurals name="dlg_remove_locales_title" formatted="false" msgid="2845515796732609837">
-      <item quantity="other">นำภาษาที่เลือกออกไหม</item>
-      <item quantity="one">นำภาษาที่เลือกออกไหม</item>
+        <item quantity="other">นำภาษาที่เลือกออกไหม</item>
+        <item quantity="one">นำภาษาที่เลือกออกไหม</item>
     </plurals>
     <string name="dlg_remove_locales_message" msgid="8110560091134252067">"ข้อความจะแสดงเป็นภาษาอื่น"</string>
     <string name="dlg_remove_locales_error_title" msgid="5875503658221562572">"ไม่สามารถนำทุกภาษาออกได้"</string>
@@ -374,8 +371,8 @@
     <string name="location_settings_master_switch_title" msgid="4232810467362584112">"ใช้ตำแหน่ง"</string>
     <string name="location_settings_summary_location_off" msgid="4797932754681162262">"ปิด"</string>
     <plurals name="location_settings_summary_location_on" formatted="false" msgid="1019959038518185676">
-      <item quantity="other">เปิดอยู่ - แอป <xliff:g id="COUNT_1">%1$d</xliff:g> แอปมีสิทธิ์เข้าถึงตำแหน่ง</item>
-      <item quantity="one">เปิดอยู่ - แอป <xliff:g id="COUNT_0">%1$d</xliff:g> แอปมีสิทธิ์เข้าถึงตำแหน่ง</item>
+        <item quantity="other">เปิดอยู่ - แอป <xliff:g id="COUNT_1">%1$d</xliff:g> แอปมีสิทธิ์เข้าถึงตำแหน่ง</item>
+        <item quantity="one">เปิดอยู่ - แอป <xliff:g id="COUNT_0">%1$d</xliff:g> แอปมีสิทธิ์เข้าถึงตำแหน่ง</item>
     </plurals>
     <string name="location_settings_loading_app_permission_stats" msgid="6054103701535557342">"กำลังโหลด…"</string>
     <string name="account_settings_title" msgid="9138880127246241885">"บัญชี"</string>
@@ -402,12 +399,9 @@
     <string name="security_settings_face_enroll_education_title" msgid="8662585502032112675">"วิธีตั้งค่าการปลดล็อกด้วยใบหน้า"</string>
     <string name="security_settings_face_enroll_education_title_accessibility" msgid="4632402390714441918">"ตั้งค่าปลดล็อกด้วยใบหน้า"</string>
     <string name="security_settings_face_enroll_education_title_unlock_disabled" msgid="8810954233979716906">"ใช้ใบหน้าในการตรวจสอบสิทธิ์"</string>
-    <string name="security_settings_face_enroll_education_message" msgid="4308030157487176799"></string>
     <string name="security_settings_face_enroll_education_start" msgid="8830924400907195590">"เริ่ม"</string>
     <string name="security_settings_face_enroll_introduction_accessibility" msgid="5748221179069430975">"ใช้การตั้งค่าการช่วยเหลือพิเศษ"</string>
-    <string name="security_settings_face_enroll_introduction_accessibility_expanded" msgid="6763509014732769185"></string>
-    <string name="security_settings_face_enroll_introduction_accessibility_diversity" msgid="2774962371839179206"></string>
-    <string name="security_settings_face_enroll_introduction_accessibility_vision" msgid="7700394302162170363"></string>
+    <string name="security_settings_face_enroll_introduction_accessibility_diversity" msgid="2774962371839179206"/>
     <string name="security_settings_face_enroll_introduction_cancel" msgid="7551159644361639436">"ยกเลิก"</string>
     <string name="security_settings_face_enroll_introduction_no_thanks" msgid="1820618982738898717">"ไม่ล่ะ ขอบคุณ"</string>
     <string name="security_settings_face_enroll_introduction_agree" msgid="1822303197642630076">"ยอมรับ"</string>
@@ -417,10 +411,8 @@
     <string name="security_settings_face_enroll_introduction_message" msgid="3015751486939484934">"ใช้ใบหน้าเพื่อปลดล็อกโทรศัพท์ อนุญาตการซื้อ หรือลงชื่อเข้าใช้แอป"</string>
     <string name="security_settings_face_enroll_introduction_message_unlock_disabled" msgid="5841976283789481311">"ใช้ใบหน้าเพื่อปลดล็อกโทรศัพท์หรืออนุมัติการซื้อ\n\nหมายเหตุ: คุณใช้ใบหน้าเพื่อปลดล็อกอุปกรณ์นี้ไม่ได้ โปรดติดต่อผู้ดูแลระบบขององค์กรสำหรับข้อมูลเพิ่มเติม"</string>
     <string name="security_settings_face_enroll_introduction_message_setup" msgid="765965418187421753">"ใช้ใบหน้าเพื่อปลดล็อกโทรศัพท์ อนุญาตการซื้อ หรือลงชื่อเข้าใช้แอป"</string>
-    <string name="security_settings_face_enroll_introduction_footer_part_0" msgid="908831787971630413"></string>
-    <string name="security_settings_face_enroll_introduction_footer_part_1" msgid="4438129587730915782"></string>
-    <string name="security_settings_face_enroll_introduction_footer_part_2" msgid="6099785970191751036"></string>
-    <string name="security_settings_face_enroll_introduction_footer_part_3" msgid="8708726599723727710"></string>
+    <string name="security_settings_face_enroll_introduction_footer_part_1" msgid="4438129587730915782"/>
+    <string name="security_settings_face_enroll_introduction_footer_part_3" msgid="8708726599723727710"/>
     <string name="security_settings_face_enroll_repeat_title" msgid="4446229670377418717">"จัดใบหน้าของคุณให้อยู่กลางวงกลม"</string>
     <string name="security_settings_face_enroll_enrolling_skip" msgid="5568617401632528567">"ข้าม"</string>
     <string name="face_add_max" msgid="4578405795494514876">"คุณเพิ่มใบหน้าได้สูงสุด <xliff:g id="COUNT">%d</xliff:g> รายการ"</string>
@@ -459,10 +451,9 @@
     <string name="fingerprint_add_title" msgid="1837610443487902050">"เพิ่มลายนิ้วมือ"</string>
     <string name="fingerprint_enable_keyguard_toggle_title" msgid="5451094461919440992">"ล็อกหน้าจอ"</string>
     <plurals name="security_settings_fingerprint_preference_summary" formatted="false" msgid="988602245530967106">
-      <item quantity="other">ตั้งค่าลายนิ้วมือ <xliff:g id="COUNT_1">%1$d</xliff:g> รายการ</item>
-      <item quantity="one">ตั้งค่าลายนิ้วมือ <xliff:g id="COUNT_0">%1$d</xliff:g> รายการ</item>
+        <item quantity="other">ตั้งค่าลายนิ้วมือ <xliff:g id="COUNT_1">%1$d</xliff:g> รายการ</item>
+        <item quantity="one">ตั้งค่าลายนิ้วมือ <xliff:g id="COUNT_0">%1$d</xliff:g> รายการ</item>
     </plurals>
-    <string name="security_settings_fingerprint_preference_summary_none" msgid="1044059475710838504"></string>
     <string name="security_settings_fingerprint_enroll_introduction_title" msgid="521797365974277693">"ปลดล็อกด้วยลายนิ้วมือ"</string>
     <string name="security_settings_fingerprint_enroll_introduction_title_unlock_disabled" msgid="1911710308293783998">"การใช้ลายนิ้วมือ"</string>
     <string name="security_settings_fingerprint_enroll_introduction_message" msgid="242123866344666054">"เพียงแตะเซ็นเซอร์ลายนิ้วมือเพื่อปลดล็อกโทรศัพท์ อนุมัติการซื้อ หรือลงชื่อเข้าใช้แอป โปรดใช้ความระมัดระวังในการเพิ่มลายนิ้วมือคนอื่น ลายนิ้วมือที่เพิ่มแม้เพียงลายเดียวก็สามารถทำสิ่งต่างๆ เหล่านี้ได้\n\nหมายเหตุ: ลายนิ้วมือของคุณอาจไม่ปลอดภัยเท่ารูปแบบหรือ PIN ที่เดายาก"</string>
@@ -566,9 +557,7 @@
     <string name="suggested_lock_settings_summary" product="device" msgid="8479766049078378225">"ตั้งค่าล็อกหน้าจอเพื่อปกป้องอุปกรณ์"</string>
     <string name="suggested_lock_settings_summary" product="default" msgid="2443273582716671033">"ตั้งค่าล็อกหน้าจอเพื่อปกป้องโทรศัพท์"</string>
     <string name="suggested_fingerprint_lock_settings_title" msgid="3140266181874137984">"เพิ่มลายนิ้วมือเพื่อปลดล็อก"</string>
-    <string name="suggested_fingerprint_lock_settings_summary" product="tablet" msgid="1040265358906410746"></string>
-    <string name="suggested_fingerprint_lock_settings_summary" product="device" msgid="1040265358906410746"></string>
-    <string name="suggested_fingerprint_lock_settings_summary" product="default" msgid="1040265358906410746"></string>
+    <string name="suggested_fingerprint_lock_settings_summary" product="device" msgid="1040265358906410746"/>
     <string name="lock_settings_picker_title" msgid="9219376327364915334">"เลือกการล็อกหน้าจอ"</string>
     <string name="lock_settings_picker_title_profile" msgid="8377696902400733227">"เลือกล็อกงาน"</string>
     <string name="setup_lock_settings_picker_title" product="tablet" msgid="1276283007274778191">"ปกป้องแท็บเล็ตของคุณ"</string>
@@ -590,7 +579,6 @@
     <string name="unlock_set_unlock_launch_picker_change_summary" msgid="6023813780512501969">"เปลี่ยนหรือปิดการใช้งานรูปแบบ, PIN หรือความปลอดภัยของรหัสผ่าน"</string>
     <string name="unlock_set_unlock_launch_picker_enable_summary" msgid="1699993191343299179">"เลือกวิธีที่จะล็อกหน้าจอ"</string>
     <string name="unlock_set_unlock_off_title" msgid="2831957685685921667">"ไม่มี"</string>
-    <string name="unlock_set_unlock_off_summary" msgid="4578319976164001322"></string>
     <string name="unlock_set_unlock_none_title" msgid="2844029875174409728">"เลื่อน"</string>
     <string name="unlock_set_unlock_none_summary" msgid="641298008390890152">"ไม่มีการรักษาความปลอดภัย"</string>
     <string name="unlock_set_unlock_pattern_title" msgid="8224895208452995332">"รูปแบบ"</string>
@@ -677,21 +665,21 @@
     <string name="lock_failed_attempts_now_wiping_profile" msgid="3171880997211568208">"ใช้ความพยายามหลายครั้งเกินไป ระบบจะลบโปรไฟล์งานนี้และข้อมูลในโปรไฟล์"</string>
     <string name="lock_failed_attempts_now_wiping_dialog_dismiss" msgid="170155081899679669">"ปิด"</string>
     <plurals name="lockpassword_password_too_short" formatted="false" msgid="2192234965414232157">
-      <item quantity="other">ต้องมีอักขระอย่างน้อย <xliff:g id="COUNT_1">%d</xliff:g> ตัว</item>
-      <item quantity="one">ต้องมีอักขระอย่างน้อย <xliff:g id="COUNT_0">%d</xliff:g> ตัว</item>
+        <item quantity="other">ต้องมีอักขระอย่างน้อย <xliff:g id="COUNT_1">%d</xliff:g> ตัว</item>
+        <item quantity="one">ต้องมีอักขระอย่างน้อย <xliff:g id="COUNT_0">%d</xliff:g> ตัว</item>
     </plurals>
     <plurals name="lockpassword_pin_too_short" formatted="false" msgid="6817086810898414162">
-      <item quantity="other">PIN ต้องมีตัวเลขอย่างน้อย <xliff:g id="COUNT_1">%d</xliff:g> ตัว</item>
-      <item quantity="one">PIN ต้องมีตัวเลขอย่างน้อย <xliff:g id="COUNT_0">%d</xliff:g> ตัว</item>
+        <item quantity="other">PIN ต้องมีตัวเลขอย่างน้อย <xliff:g id="COUNT_1">%d</xliff:g> ตัว</item>
+        <item quantity="one">PIN ต้องมีตัวเลขอย่างน้อย <xliff:g id="COUNT_0">%d</xliff:g> ตัว</item>
     </plurals>
     <string name="lockpassword_continue_label" msgid="2507983991979547816">"ดำเนินการต่อ"</string>
     <plurals name="lockpassword_password_too_long" formatted="false" msgid="8118091957172967677">
-      <item quantity="other">ต้องมีอักขระไม่เกิน <xliff:g id="NUMBER_1">%d</xliff:g> ตัว</item>
-      <item quantity="one">ต้องมีอักขระไม่เกิน <xliff:g id="NUMBER_0">%d</xliff:g> ตัว</item>
+        <item quantity="other">ต้องมีอักขระไม่เกิน <xliff:g id="NUMBER_1">%d</xliff:g> ตัว</item>
+        <item quantity="one">ต้องมีอักขระไม่เกิน <xliff:g id="NUMBER_0">%d</xliff:g> ตัว</item>
     </plurals>
     <plurals name="lockpassword_pin_too_long" formatted="false" msgid="8706992338720310765">
-      <item quantity="other">ต้องมีตัวเลขไม่เกิน <xliff:g id="NUMBER_1">%d</xliff:g> ตัว</item>
-      <item quantity="one">ต้องมีตัวเลขไม่เกิน <xliff:g id="NUMBER_0">%d</xliff:g> ตัว</item>
+        <item quantity="other">ต้องมีตัวเลขไม่เกิน <xliff:g id="NUMBER_1">%d</xliff:g> ตัว</item>
+        <item quantity="one">ต้องมีตัวเลขไม่เกิน <xliff:g id="NUMBER_0">%d</xliff:g> ตัว</item>
     </plurals>
     <string name="lockpassword_pin_contains_non_digits" msgid="8749897085454833003">"ต้องมีตัวเลข 0-9 เท่านั้น"</string>
     <string name="lockpassword_pin_recently_used" msgid="6650277060998923465">"ผู้ดูแลระบบอุปกรณ์ไม่อนุญาตให้ใช้ PIN ที่เพิ่งใช้ไป"</string>
@@ -701,28 +689,28 @@
     <string name="lockpassword_password_requires_digit" msgid="312518567592683795">"ต้องมีตัวเลขอย่างน้อย 1 ตัว"</string>
     <string name="lockpassword_password_requires_symbol" msgid="6178512486154701321">"ต้องมีสัญลักษณ์อย่างน้อย 1 ตัว"</string>
     <plurals name="lockpassword_password_requires_letters" formatted="false" msgid="2385916409676839024">
-      <item quantity="other">ต้องมีตัวอักษรอย่างน้อย <xliff:g id="COUNT">%d</xliff:g> ตัว</item>
-      <item quantity="one">ต้องมีตัวอักษรอย่างน้อย 1 ตัว</item>
+        <item quantity="other">ต้องมีตัวอักษรอย่างน้อย <xliff:g id="COUNT">%d</xliff:g> ตัว</item>
+        <item quantity="one">ต้องมีตัวอักษรอย่างน้อย 1 ตัว</item>
     </plurals>
     <plurals name="lockpassword_password_requires_lowercase" formatted="false" msgid="2057467885488612701">
-      <item quantity="other">ต้องมีตัวอักษรพิมพ์เล็กอย่างน้อย <xliff:g id="COUNT">%d</xliff:g> ตัว</item>
-      <item quantity="one">ต้องมีตัวอักษรพิมพ์เล็กอย่างน้อย 1 ตัว</item>
+        <item quantity="other">ต้องมีตัวอักษรพิมพ์เล็กอย่างน้อย <xliff:g id="COUNT">%d</xliff:g> ตัว</item>
+        <item quantity="one">ต้องมีตัวอักษรพิมพ์เล็กอย่างน้อย 1 ตัว</item>
     </plurals>
     <plurals name="lockpassword_password_requires_uppercase" formatted="false" msgid="4541266279643052025">
-      <item quantity="other">ต้องมีตัวอักษรพิมพ์ใหญ่อย่างน้อย <xliff:g id="COUNT">%d</xliff:g> ตัว</item>
-      <item quantity="one">ต้องมีตัวอักษรพิมพ์ใหญ่อย่างน้อย 1 ตัว</item>
+        <item quantity="other">ต้องมีตัวอักษรพิมพ์ใหญ่อย่างน้อย <xliff:g id="COUNT">%d</xliff:g> ตัว</item>
+        <item quantity="one">ต้องมีตัวอักษรพิมพ์ใหญ่อย่างน้อย 1 ตัว</item>
     </plurals>
     <plurals name="lockpassword_password_requires_numeric" formatted="false" msgid="70617964591376248">
-      <item quantity="other">ต้องมีตัวเลขอย่างน้อย <xliff:g id="COUNT">%d</xliff:g> ตัว</item>
-      <item quantity="one">ต้องมีตัวเลขอย่างน้อย 1 ตัว</item>
+        <item quantity="other">ต้องมีตัวเลขอย่างน้อย <xliff:g id="COUNT">%d</xliff:g> ตัว</item>
+        <item quantity="one">ต้องมีตัวเลขอย่างน้อย 1 ตัว</item>
     </plurals>
     <plurals name="lockpassword_password_requires_symbols" formatted="false" msgid="7981236881269921943">
-      <item quantity="other">ต้องมีสัญลักษณ์พิเศษอย่างน้อย <xliff:g id="COUNT">%d</xliff:g> ตัว</item>
-      <item quantity="one">ต้องมีสัญลักษณ์พิเศษอย่างน้อย 1 ตัว</item>
+        <item quantity="other">ต้องมีสัญลักษณ์พิเศษอย่างน้อย <xliff:g id="COUNT">%d</xliff:g> ตัว</item>
+        <item quantity="one">ต้องมีสัญลักษณ์พิเศษอย่างน้อย 1 ตัว</item>
     </plurals>
     <plurals name="lockpassword_password_requires_nonletter" formatted="false" msgid="1567877061888948467">
-      <item quantity="other">ต้องมีอักขระที่ไม่ใช่ตัวอักษรอย่างน้อย <xliff:g id="COUNT">%d</xliff:g> ตัว</item>
-      <item quantity="one">ต้องมีอักขระที่ไม่ใช่ตัวอักษรอย่างน้อย 1 ตัว</item>
+        <item quantity="other">ต้องมีอักขระที่ไม่ใช่ตัวอักษรอย่างน้อย <xliff:g id="COUNT">%d</xliff:g> ตัว</item>
+        <item quantity="one">ต้องมีอักขระที่ไม่ใช่ตัวอักษรอย่างน้อย 1 ตัว</item>
     </plurals>
     <string name="lockpassword_password_recently_used" msgid="5341218079730167191">"ผู้ดูแลระบบอุปกรณ์ไม่อนุญาตให้ใช้รหัสผ่านที่เพิ่งใช้ไป"</string>
     <string name="lockpassword_password_blacklisted_by_admin" msgid="8956110268546396737">"ผู้ดูแลระบบไอทีบล็อกรหัสผ่านที่ไม่รัดกุม ลองรหัสผ่านอื่น"</string>
@@ -737,15 +725,15 @@
     <string name="manage_device_admin" msgid="1044620606203916275">"แอปผู้ดูแลอุปกรณ์"</string>
     <string name="number_of_device_admins_none" msgid="152926922020437312">"ไม่มีแอปที่ใช้งานอยู่"</string>
     <plurals name="number_of_device_admins" formatted="false" msgid="2528735319390151989">
-      <item quantity="other">มี <xliff:g id="COUNT_1">%d</xliff:g> แอปที่ใช้งานอยู่</item>
-      <item quantity="one">มี <xliff:g id="COUNT_0">%d</xliff:g> แอปที่ใช้งานอยู่</item>
+        <item quantity="other">มี <xliff:g id="COUNT_1">%d</xliff:g> แอปที่ใช้งานอยู่</item>
+        <item quantity="one">มี <xliff:g id="COUNT_0">%d</xliff:g> แอปที่ใช้งานอยู่</item>
     </plurals>
     <string name="manage_trust_agents" msgid="6410149930029992356">"เอเจนต์ความน่าเชื่อถือ"</string>
     <string name="disabled_because_no_backup_security" msgid="4998095356607488854">"หากต้องการใช้ ให้ตั้งค่าการล็อกหน้าจอก่อน"</string>
     <string name="manage_trust_agents_summary" msgid="6423843123607674286">"ไม่มี"</string>
     <plurals name="manage_trust_agents_summary_on" formatted="false" msgid="5438047398376802735">
-      <item quantity="other">มีเอเจนต์ความน่าเชื่อถือ <xliff:g id="COUNT">%d</xliff:g> รายการ</item>
-      <item quantity="one">มีเอเจนต์ความน่าเชื่อถือ 1 รายการ</item>
+        <item quantity="other">มีเอเจนต์ความน่าเชื่อถือ <xliff:g id="COUNT">%d</xliff:g> รายการ</item>
+        <item quantity="one">มีเอเจนต์ความน่าเชื่อถือ 1 รายการ</item>
     </plurals>
     <string name="bluetooth_quick_toggle_title" msgid="5955341060378240781">"บลูทูธ"</string>
     <string name="bluetooth_quick_toggle_summary" msgid="5257744297562880017">"เปิดบลูทูธ"</string>
@@ -764,7 +752,6 @@
     <string name="bluetooth_incoming_pairing_msg" msgid="1068123527866596779">"จาก:&lt;br&gt;&lt;b&gt;<xliff:g id="DEVICE_NAME">%1$s</xliff:g>&lt;/b&gt;&lt;br&gt;&lt;br&gt;จับคู่กับอุปกรณ์นี้หรือไม่"</string>
     <string name="bluetooth_display_passkey_pin_msg" msgid="8672803845151786521">"ในการจับคู่กับ: <xliff:g id="BOLD1_0">&lt;br&gt;&lt;b&gt;</xliff:g><xliff:g id="DEVICE_NAME">%1$s</xliff:g><xliff:g id="END_BOLD1">&lt;/b&gt;&lt;br&gt;&lt;br&gt;</xliff:g> ให้พิมพ์: <xliff:g id="BOLD2_1">&lt;br&gt;&lt;b&gt;</xliff:g><xliff:g id="PASSKEY">%2$s</xliff:g><xliff:g id="END_BOLD2">&lt;/b&gt;</xliff:g> แล้วกด Return หรือ Enter"</string>
     <string name="bluetooth_pairing_shares_phonebook" msgid="4329325125260724843">"ให้สิทธิ์เข้าถึงรายชื่อติดต่อและประวัติการโทร"</string>
-    <string name="bluetooth_error_title" msgid="2284738188253690278"></string>
     <string name="bluetooth_connecting_error_message" msgid="3941893154784152112">"ไม่สามารถเชื่อมต่อกับ <xliff:g id="DEVICE_NAME">%1$s</xliff:g>"</string>
     <string name="bluetooth_preference_scan_title" msgid="3460316252463771851">"สแกนหาอุปกรณ์"</string>
     <string name="bluetooth_search_for_devices" msgid="6516902340975407648">"รีเฟรช"</string>
@@ -1023,10 +1010,10 @@
     <string name="wifi_connect" msgid="2481467560349907397">"เชื่อมต่อ"</string>
     <string name="wifi_turned_on_message" msgid="8069855406962662881">"เปิด Wi-Fi แล้ว"</string>
     <!-- no translation found for wifi_connected_to_message (7470435873743756802) -->
-    <skip />
+    <skip/>
     <string name="wifi_connecting" msgid="7450277833386859724">"กำลังเชื่อมต่อ…"</string>
     <!-- no translation found for wifi_disconnect (6890251759039761939) -->
-    <skip />
+    <skip/>
     <string name="wifi_failed_connect_message" msgid="8538000546604347894">"ไม่สามารถเชื่อมต่อกับเครือข่าย"</string>
     <string name="wifi_not_in_range_message" msgid="3885327464037574739">"เครือข่ายไม่อยู่ในพื้นที่ให้บริการ"</string>
     <string name="wifi_forget" msgid="3485573280364015620">"ไม่จำ"</string>
@@ -1038,16 +1025,16 @@
     <string name="wifi_forget_dialog_title" msgid="4363829200968563164">"ไม่จำเครือข่ายใช่ไหม"</string>
     <string name="wifi_forget_dialog_message" msgid="8419499588321940243">"ระบบจะลบรหัสผ่านทั้งหมดของเครือข่ายนี้"</string>
     <plurals name="wifi_saved_access_points_summary" formatted="false" msgid="2802436466732147888">
-      <item quantity="other">%d เครือข่าย</item>
-      <item quantity="one">1 เครือข่าย</item>
+        <item quantity="other">%d เครือข่าย</item>
+        <item quantity="one">1 เครือข่าย</item>
     </plurals>
     <plurals name="wifi_saved_passpoint_access_points_summary" formatted="false" msgid="5802057518058840450">
-      <item quantity="other">การสมัครใช้บริการ %d รายการ</item>
-      <item quantity="one">การสมัครใช้บริการ 1 รายการ</item>
+        <item quantity="other">การสมัครใช้บริการ %d รายการ</item>
+        <item quantity="one">การสมัครใช้บริการ 1 รายการ</item>
     </plurals>
     <plurals name="wifi_saved_all_access_points_summary" formatted="false" msgid="5125849180309374451">
-      <item quantity="other">เครือข่ายและการสมัครใช้บริการ %d รายการ</item>
-      <item quantity="one">เครือข่ายและการสมัครใช้บริการ 1 รายการ</item>
+        <item quantity="other">เครือข่ายและการสมัครใช้บริการ %d รายการ</item>
+        <item quantity="one">เครือข่ายและการสมัครใช้บริการ 1 รายการ</item>
     </plurals>
     <string name="wifi_advanced_titlebar" msgid="1234150304285575798">"WiFi ขั้นสูง"</string>
     <string name="wifi_advanced_ssid_title" msgid="1561437650193980185">"SSID"</string>
@@ -1060,7 +1047,7 @@
     <string name="wifi_saved_access_points_label" msgid="5691340724310548151">"เครือข่ายที่บันทึก"</string>
     <string name="wifi_subscribed_access_points_tab" msgid="7224061396195667208">"การสมัครใช้บริการ"</string>
     <!-- no translation found for wifi_saved_access_points_tab (2075914709522121708) -->
-    <skip />
+    <skip/>
     <string name="wifi_advanced_settings_label" msgid="5880605751602184383">"การตั้งค่า IP"</string>
     <string name="wifi_advanced_not_available" msgid="8701003884367299092">"การตั้งค่า Wi‑Fi ขั้นสูงไม่พร้อมใช้งานสำหรับผู้ใช้รายนี้"</string>
     <string name="wifi_ip_settings_menu_save" msgid="5190481040428567106">"บันทึก"</string>
@@ -1119,22 +1106,21 @@
     <string name="wifi_calling_mode_dialog_title" msgid="944146521898592440">"ค่ากำหนดในการโทร"</string>
     <string name="wifi_calling_roaming_mode_title" msgid="7703305991991520773">"ค่ากำหนดโรมมิ่ง"</string>
     <!-- no translation found for wifi_calling_roaming_mode_summary (6061631305384464179) -->
-    <skip />
+    <skip/>
     <string name="wifi_calling_roaming_mode_dialog_title" msgid="5382466713784067077">"ค่ากำหนดโรมมิ่ง"</string>
-  <string-array name="wifi_calling_mode_choices_v2">
-    <item msgid="6052353275413974742">"Wi-Fi"</item>
-    <item msgid="8622872038388687383">"อินเทอร์เน็ตมือถือ"</item>
-    <item msgid="3027927219952052398">"Wi-Fi เท่านั้น"</item>
-  </string-array>
-  <string-array name="wifi_calling_mode_choices_v2_without_wifi_only">
-    <item msgid="588620799769664461">"Wi-Fi"</item>
-    <item msgid="7566603075659706590">"อินเทอร์เน็ตมือถือ"</item>
-  </string-array>
+    <string-array name="wifi_calling_mode_choices_v2">
+        <item msgid="6052353275413974742">"Wi-Fi"</item>
+        <item msgid="8622872038388687383">"อินเทอร์เน็ตมือถือ"</item>
+        <item msgid="3027927219952052398">"Wi-Fi เท่านั้น"</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_choices_v2_without_wifi_only">
+        <item msgid="588620799769664461">"Wi-Fi"</item>
+        <item msgid="7566603075659706590">"อินเทอร์เน็ตมือถือ"</item>
+    </string-array>
     <string name="wifi_calling_mode_wifi_preferred_summary" msgid="3240387177966098351">"ใช้เครือข่ายมือถือหาก Wi-Fi ไม่พร้อมใช้งาน"</string>
     <string name="wifi_calling_mode_cellular_preferred_summary" msgid="3746914244902314059">"ใช้ Wi‑Fi หากเครือข่ายมือถือไม่พร้อมใช้งาน"</string>
     <string name="wifi_calling_mode_wifi_only_summary" msgid="3155660680014892641">"โทรผ่าน Wi-Fi สายจะตัดหากสัญญาณ Wi‑Fi ขาดหาย"</string>
     <string name="wifi_calling_off_explanation" msgid="6295526820826322895">"เมื่อเปิดการโทรผ่าน Wi-Fi โทรศัพท์จะกำหนดเส้นทางการโทรผ่านเครือข่าย Wi-Fi หรือเครือข่ายของผู้ให้บริการได้ ทั้งนี้ขึ้นอยู่กับค่ากำหนดของคุณและสัญญาณฝั่งที่แรงกว่า โปรดสอบถามค่าธรรมเนียมและรายละเอียดอื่นๆ กับผู้ให้บริการก่อนที่จะเปิดฟีเจอร์นี้<xliff:g id="ADDITIONAL_TEXT">%1$s</xliff:g>"</string>
-    <string name="wifi_calling_off_explanation_2" msgid="3487475808574416183"></string>
     <string name="emergency_address_title" msgid="3490633500025717573">"ที่อยู่ฉุกเฉิน"</string>
     <string name="emergency_address_summary" msgid="3022628750270626473">"ใช้เป็นตำแหน่งของคุณเมื่อโทรหาหมายเลขฉุกเฉินผ่าน Wi-Fi"</string>
     <string name="private_dns_help_message" msgid="851221502063782306"><annotation id="url">"ดูข้อมูลเพิ่มเติม"</annotation>"เกี่ยวกับฟีเจอร์ของ DNS ส่วนตัว"</string>
@@ -1230,7 +1216,6 @@
     <string name="auto_brightness_disclaimer" msgid="1868395832774087351">"เพิ่มประสิทธิภาพระดับความสว่างสำหรับแสงที่มี เมื่อเปิดฟีเจอร์นี้ คุณจะยังปรับความสว่างชั่วคราวได้"</string>
     <string name="auto_brightness_description" msgid="6807117118142381193">"ความสว่างของหน้าจอจะปรับให้เหมาะสมกับสภาพแวดล้อมและกิจกรรมที่คุณทำโดยอัตโนมัติ คุณเลื่อนแถบเลื่อนด้วยตนเองได้เพื่อช่วยให้การปรับความสว่างอัตโนมัติทราบความสว่างที่คุณต้องการ"</string>
     <string name="display_white_balance_title" msgid="2624544323029364713">"แสดงไวท์บาลานซ์"</string>
-    <string name="display_white_balance_summary" msgid="7625456704950209050"></string>
     <string name="adaptive_sleep_title" msgid="2987961991423539233">"การจดจ่อที่หน้าจอ"</string>
     <string name="adaptive_sleep_summary_on" msgid="313187971631243800">"เปิด/หน้าจอจะไม่ปิดหากคุณกำลังดูอยู่"</string>
     <string name="adaptive_sleep_summary_off" msgid="5272156339202897523">"ปิด"</string>
@@ -1350,12 +1335,11 @@
     <string name="sim_preferred_message" msgid="6004009449266648351">"<xliff:g id="NEW_SIM">%1$s</xliff:g> เป็นซิมเดียวที่อยู่ในอุปกรณ์ของคุณ คุณต้องการใช้ซิมนี้เพื่อใช้อินเทอร์เน็ตมือถือ โทรออก และส่งข้อความ SMS หรือไม่"</string>
     <string name="wrong_pin_code_pukked" msgid="3414172752791445033">"รหัส PIN ของซิมไม่ถูกต้อง ตอนนี้คุณต้องติดต่อผู้ให้บริการเพื่อปลดล็อกอุปกรณ์ของคุณ"</string>
     <plurals name="wrong_pin_code" formatted="false" msgid="4054088588731305475">
-      <item quantity="other">รหัส PIN ของซิมไม่ถูกต้อง คุณพยายามได้อีก <xliff:g id="NUMBER_1">%d</xliff:g> ครั้ง</item>
-      <item quantity="one">รหัส PIN ของซิมไม่ถูกต้อง คุณพยายามได้อีก <xliff:g id="NUMBER_0">%d</xliff:g> ครั้งก่อนที่จะต้องติดต่อผู้ให้บริการเพื่อปลดล็อกอุปกรณ์</item>
+        <item quantity="other">รหัส PIN ของซิมไม่ถูกต้อง คุณพยายามได้อีก <xliff:g id="NUMBER_1">%d</xliff:g> ครั้ง</item>
+        <item quantity="one">รหัส PIN ของซิมไม่ถูกต้อง คุณพยายามได้อีก <xliff:g id="NUMBER_0">%d</xliff:g> ครั้งก่อนที่จะต้องติดต่อผู้ให้บริการเพื่อปลดล็อกอุปกรณ์</item>
     </plurals>
     <string name="pin_failed" msgid="3726505565797352255">"การปลดล็อกด้วย PIN ของซิมล้มเหลว!"</string>
     <string name="system_update_settings_list_item_title" msgid="3398346836439366350">"การอัปเดตระบบ"</string>
-    <string name="system_update_settings_list_item_summary" msgid="6703752298349642101"></string>
     <string name="firmware_version" msgid="1606901586501447275">"เวอร์ชันของ Android"</string>
     <string name="security_patch" msgid="2872125288404962091">"ระดับแพตช์ความปลอดภัยของ Android"</string>
     <string name="model_info" msgid="8997566254717810904">"โมเดล"</string>
@@ -1431,8 +1415,7 @@
     <string name="sd_insert_summary" product="default" msgid="5949168259622002192">"เสียบการ์ด SD เพื่อต่อเชื่อม"</string>
     <string name="sd_mount" product="nosdcard" msgid="8305985249945415150">"ต่อเชื่อมที่เก็บข้อมูล USB"</string>
     <string name="sd_mount" product="default" msgid="5279813999455776169">"ต่อเชื่อมการ์ด SD"</string>
-    <string name="sd_mount_summary" product="nosdcard" msgid="2190410240845521205"></string>
-    <string name="sd_mount_summary" product="default" msgid="2190410240845521205"></string>
+    <string name="sd_mount_summary" product="default" msgid="2190410240845521205"/>
     <string name="sd_format" product="nosdcard" msgid="8657427883364711513">"ลบที่เก็บข้อมูล USB"</string>
     <string name="sd_format" product="default" msgid="9085302892248732329">"ลบการ์ด SD"</string>
     <string name="sd_format_summary" product="nosdcard" msgid="6179784504937189658">"ลบข้อมูลทั้งหมดบนที่เก็บข้อมูล USB ภายใน เช่น เพลงและรูปภาพ"</string>
@@ -1444,8 +1427,7 @@
     <string name="dlg_confirm_unmount_title" product="default" msgid="8251329019960361646">"ยกเลิกการต่อเชื่อมการ์ด SD หรือไม่"</string>
     <string name="dlg_confirm_unmount_text" product="nosdcard" msgid="1212025106709645023">"หากคุณยกเลิกการต่อเชื่อมที่จัดเก็บข้อมูล USB แอปพลิเคชันบางอย่างที่คุณใช้งานอยู่จะหยุดทำงานและอาจไม่สามารถใช้งานได้จนกว่าคุณจะต่อเชื่อมที่จัดเก็บข้อมูล USB อีกครั้ง"</string>
     <string name="dlg_confirm_unmount_text" product="default" msgid="3887768438615563697">"หากคุณยกเลิกการต่อเชื่อมการ์ด SD แอปพลิเคชันบางอย่างที่ใช้อยู่จะหยุดทำงานและอาจใช้งานไม่ได้จนกว่าคุณจะต่อเชื่อมการ์ด SD อีกครั้ง"</string>
-    <string name="dlg_error_unmount_title" product="nosdcard" msgid="2205587942165199845"></string>
-    <string name="dlg_error_unmount_title" product="default" msgid="2205587942165199845"></string>
+    <string name="dlg_error_unmount_title" product="default" msgid="2205587942165199845"/>
     <string name="dlg_error_unmount_text" product="nosdcard" msgid="7876201891724279436">"ไม่สามารถยกเลิกการต่อเชื่อมที่จัดเก็บข้อมูล USB ได้ ลองอีกครั้งในภายหลัง"</string>
     <string name="dlg_error_unmount_text" product="default" msgid="2185659901137961711">"ไม่สามารถยกเลิกการต่อเชื่อมการ์ด SD ลองอีกครั้งในภายหลัง"</string>
     <string name="unmount_inform_text" product="nosdcard" msgid="5932607205977999175">"ที่เก็บข้อมูล USB จะถูกยกเลิกการต่อเชื่อม"</string>
@@ -1606,7 +1588,6 @@
     <string name="menu_new" msgid="6571230342655509006">"APN ใหม่"</string>
     <string name="menu_save" msgid="6611465355127483100">"บันทึก"</string>
     <string name="menu_cancel" msgid="4526003389139913077">"ทิ้ง"</string>
-    <string name="error_title" msgid="7158648377702417716"></string>
     <string name="error_name_empty" msgid="1258275899283079142">"ต้องใส่ข้อมูลในช่องชื่อ"</string>
     <string name="error_apn_empty" msgid="7657491065443746915">"ต้องใส่ข้อมูล APN"</string>
     <string name="error_mcc_not3" msgid="883659545640179094">"ช่อง MCC ต้องเป็นเลข 3 หลัก"</string>
@@ -1701,8 +1682,8 @@
     <string name="location_app_level_permissions" msgid="8621490207602159375">"สิทธิ์ของแอป"</string>
     <string name="location_app_permission_summary_location_off" msgid="2711822936853500335">"ตำแหน่งปิดอยู่"</string>
     <plurals name="location_app_permission_summary_location_on" formatted="false" msgid="8286873148858526214">
-      <item quantity="other"> แอป <xliff:g id="PERMITTED_LOCATION_APP_COUNT_2">%1$d</xliff:g> แอปจาก <xliff:g id="TOTAL_LOCATION_APP_COUNT_3">%2$d</xliff:g> แอปมีสิทธิ์เข้าถึงตำแหน่ง</item>
-      <item quantity="one"> แอป <xliff:g id="PERMITTED_LOCATION_APP_COUNT_0">%1$d</xliff:g> แอปจาก <xliff:g id="TOTAL_LOCATION_APP_COUNT_1">%2$d</xliff:g> แอปมีสิทธิ์เข้าถึงตำแหน่ง</item>
+        <item quantity="other"> แอป <xliff:g id="PERMITTED_LOCATION_APP_COUNT_2">%1$d</xliff:g> แอปจาก <xliff:g id="TOTAL_LOCATION_APP_COUNT_3">%2$d</xliff:g> แอปมีสิทธิ์เข้าถึงตำแหน่ง</item>
+        <item quantity="one"> แอป <xliff:g id="PERMITTED_LOCATION_APP_COUNT_0">%1$d</xliff:g> แอปจาก <xliff:g id="TOTAL_LOCATION_APP_COUNT_1">%2$d</xliff:g> แอปมีสิทธิ์เข้าถึงตำแหน่ง</item>
     </plurals>
     <string name="location_category_recent_location_access" msgid="7880996987927703141">"การเข้าถึงตำแหน่งล่าสุด"</string>
     <string name="location_recent_location_access_view_details" msgid="5803264082558504544">"ดูรายละเอียด"</string>
@@ -1861,8 +1842,8 @@
     <string name="clear_cache_btn_text" msgid="8597272828928143723">"ล้างแคช"</string>
     <string name="cache_size_label" msgid="313456088966822757">"แคช"</string>
     <plurals name="uri_permissions_text" formatted="false" msgid="8212425823423508096">
-      <item quantity="other">%d รายการ</item>
-      <item quantity="one">1 รายการ</item>
+        <item quantity="other">%d รายการ</item>
+        <item quantity="one">1 รายการ</item>
     </plurals>
     <string name="clear_uri_btn_text" msgid="4828117421162495134">"ล้างการเข้าถึง"</string>
     <string name="controls_label" msgid="8671492254263626383">"การควบคุม"</string>
@@ -1917,7 +1898,6 @@
     <string name="clear_data_dlg_text" msgid="1107610960337399006">"ระบบจะลบข้อมูลของแอปนี้อย่างถาวร ซึ่งรวมถึงไฟล์ การตั้งค่า ฐานข้อมูล และข้อมูลแอปอื่นๆ"</string>
     <string name="dlg_ok" msgid="1421350367857960997">"ตกลง"</string>
     <string name="dlg_cancel" msgid="5164705061530774899">"ยกเลิก"</string>
-    <string name="app_not_found_dlg_title" msgid="7122106240981109930"></string>
     <string name="app_not_found_dlg_text" msgid="8634675268730513704">"ไม่พบแอปพลิเคชันนี้ในรายการแอปพลิเคชันที่ติดตั้งไว้"</string>
     <string name="clear_failed_dlg_text" msgid="6866741916836125732">"ล้างที่จัดเก็บข้อมูลสำหรับแอปไม่ได้"</string>
     <string name="join_two_items" msgid="7893073836681382429">"<xliff:g id="FIRST_ITEM">%1$s</xliff:g> และ <xliff:g id="SECOND_ITEM">%2$s</xliff:g>"</string>
@@ -1957,12 +1937,12 @@
     <string name="no_running_services" msgid="9079738069349859373">"ไม่มีอะไรทำงานอยู่"</string>
     <string name="service_started_by_app" msgid="6845028506417670179">"เริ่มทำงานแล้วโดยแอปพลิเคชัน"</string>
     <!-- no translation found for service_client_name (2210898622981598861) -->
-    <skip />
+    <skip/>
     <string name="service_background_processes" msgid="2800539421534521948">"<xliff:g id="MEMORY">%1$s</xliff:g> ว่าง"</string>
     <string name="service_foreground_processes" msgid="6380905887193621704">"ใช้งาน <xliff:g id="MEMORY">%1$s</xliff:g>"</string>
     <string name="memory" msgid="5253757199926592074">"RAM"</string>
     <!-- no translation found for service_process_name (7827318358399776412) -->
-    <skip />
+    <skip/>
     <string name="running_process_item_user_label" msgid="1444898861984132133">"ผู้ใช้: <xliff:g id="USER_NAME">%1$s</xliff:g>"</string>
     <string name="running_process_item_removed_user_label" msgid="4812732296696662613">"นำผู้ใช้ออกแล้ว"</string>
     <string name="running_processes_item_description_s_s" msgid="6835918861352501671">"<xliff:g id="NUMPROCESS">%1$d</xliff:g> กระบวนการและ <xliff:g id="NUMSERVICES">%2$d</xliff:g> บริการ"</string>
@@ -1994,16 +1974,13 @@
     <string name="runningservicedetails_stop_dlg_text" product="tablet" msgid="2076922609580490122">"หากคุณหยุดบริการนี้ ฟีเจอร์บางอย่างของแท็บเล็ตอาจทำงานได้ไม่ถูกต้องจนกว่าคุณจะปิดเครื่องแล้วเปิดใหม่อีกครั้ง"</string>
     <string name="runningservicedetails_stop_dlg_text" product="default" msgid="2625863973434309085">"หากคุณหยุดบริการนี้ ฟีเจอร์บางอย่างของโทรศัพท์อาจทำงานได้ไม่ถูกต้องจนกว่าคุณปิดจะเครื่องแล้วเปิดใหม่อีกครั้ง"</string>
     <string name="language_input_gesture_title" msgid="3292455685728572960">"ภาษา การป้อนข้อมูล และท่าทางสัมผัส"</string>
-    <string name="language_input_gesture_summary_on_with_assist" msgid="8670153838520237089"></string>
-    <string name="language_input_gesture_summary_on_non_assist" msgid="2738661322747920463"></string>
-    <string name="language_input_gesture_summary_off" msgid="1604575860215661606"></string>
+    <string name="language_input_gesture_summary_on_non_assist" msgid="2738661322747920463"/>
     <string name="language_settings" msgid="8700174277543875046">"ภาษาและการป้อนข้อมูล"</string>
     <string name="language_empty_list_user_restricted" msgid="8050367405839231863">"คุณไม่มีสิทธิ์เปลี่ยนภาษาของอุปกรณ์"</string>
     <string name="language_keyboard_settings_title" msgid="7934844313233544557">"ภาษาและการป้อนข้อมูล"</string>
     <string name="input_assistance" msgid="3437568284144952104">"เครื่องมือ"</string>
     <string name="keyboard_settings_category" msgid="5392847229300117064">"แป้นพิมพ์และวิธีการป้อนข้อมูล"</string>
     <string name="phone_language" msgid="5986939176239963826">"ภาษา"</string>
-    <string name="phone_language_summary" msgid="863041222809685325"></string>
     <string name="auto_replace" msgid="4830732960264447043">"แทนที่อัตโนมัติ"</string>
     <string name="auto_replace_summary" msgid="1285443414597153423">"แก้คำที่พิมพ์ผิด"</string>
     <string name="auto_caps" msgid="5573583581288305355">"การทำให้เป็นตัวพิมพ์ใหญ่โดยอัตโนมัติ"</string>
@@ -2040,7 +2017,6 @@
     <string name="keyboard_layout_picker_title" msgid="240504762718562906">"รูปแบบแป้นพิมพ์"</string>
     <string name="user_dict_settings_title" msgid="680410651924276991">"พจนานุกรมส่วนตัว"</string>
     <string name="user_dict_settings_for_work_title" msgid="1245315720684961770">"พจนานุกรมส่วนตัวสำหรับการทำงาน"</string>
-    <string name="user_dict_settings_summary" msgid="262228126041933459"></string>
     <string name="user_dict_settings_add_menu_title" msgid="8046882347281382968">"เพิ่ม"</string>
     <string name="user_dict_settings_add_dialog_title" msgid="3485845465134083084">"เพิ่มลงในพจนานุกรม"</string>
     <string name="user_dict_settings_add_screen_title" msgid="1866408024073475379">"วลี"</string>
@@ -2169,8 +2145,8 @@
     <string name="accessibility_hearingaid_pair_instructions_second_message" msgid="7546508010485969475">"ตรวจสอบว่าเครื่องช่วยการได้ยินอยู่ในโหมดการจับคู่"</string>
     <string name="accessibility_hearingaid_active_device_summary" msgid="509703438222873967">"<xliff:g id="DEVICE_NAME">%1$s</xliff:g> ใช้งานอยู่"</string>
     <plurals name="show_number_hearingaid_count" formatted="false" msgid="776000580683647556">
-      <item quantity="other">บันทึกเครื่องช่วยการได้ยิน <xliff:g id="NUMBER_DEVICE_COUNT_1">%1$d</xliff:g> เครื่องแล้ว</item>
-      <item quantity="one">บันทึกเครื่องช่วยการได้ยิน <xliff:g id="NUMBER_DEVICE_COUNT_0">%1$d</xliff:g> เครื่องแล้ว</item>
+        <item quantity="other">บันทึกเครื่องช่วยการได้ยิน <xliff:g id="NUMBER_DEVICE_COUNT_1">%1$d</xliff:g> เครื่องแล้ว</item>
+        <item quantity="one">บันทึกเครื่องช่วยการได้ยิน <xliff:g id="NUMBER_DEVICE_COUNT_0">%1$d</xliff:g> เครื่องแล้ว</item>
     </plurals>
     <string name="accessibility_summary_state_enabled" msgid="1065431632216039369">"เปิด"</string>
     <string name="accessibility_summary_state_disabled" msgid="9173234532752799694">"ปิด"</string>
@@ -2179,24 +2155,24 @@
     <string name="enable_quick_setting" msgid="6648073323202243604">"แสดงในการตั้งค่าด่วน"</string>
     <string name="daltonizer_type" msgid="1715154680803795947">"โหมดแก้ไข"</string>
     <plurals name="accessibilty_autoclick_preference_subtitle_extremely_short_delay" formatted="false" msgid="8532203878881473608">
-      <item quantity="other">เวลาหน่วงสั้นที่สุด (<xliff:g id="CLICK_DELAY_LABEL_1">%1$d</xliff:g> มิลลิวินาที)</item>
-      <item quantity="one">เวลาหน่วงสั้นที่สุด (<xliff:g id="CLICK_DELAY_LABEL_0">%1$d</xliff:g> มิลลิวินาที)</item>
+        <item quantity="other">เวลาหน่วงสั้นที่สุด (<xliff:g id="CLICK_DELAY_LABEL_1">%1$d</xliff:g> มิลลิวินาที)</item>
+        <item quantity="one">เวลาหน่วงสั้นที่สุด (<xliff:g id="CLICK_DELAY_LABEL_0">%1$d</xliff:g> มิลลิวินาที)</item>
     </plurals>
     <plurals name="accessibilty_autoclick_preference_subtitle_very_short_delay" formatted="false" msgid="5067805618144149445">
-      <item quantity="other">เวลาหน่วงสั้นมาก (<xliff:g id="CLICK_DELAY_LABEL_1">%1$d</xliff:g> มิลลิวินาที)</item>
-      <item quantity="one">เวลาหน่วงสั้นมาก (<xliff:g id="CLICK_DELAY_LABEL_0">%1$d</xliff:g> มิลลิวินาที)</item>
+        <item quantity="other">เวลาหน่วงสั้นมาก (<xliff:g id="CLICK_DELAY_LABEL_1">%1$d</xliff:g> มิลลิวินาที)</item>
+        <item quantity="one">เวลาหน่วงสั้นมาก (<xliff:g id="CLICK_DELAY_LABEL_0">%1$d</xliff:g> มิลลิวินาที)</item>
     </plurals>
     <plurals name="accessibilty_autoclick_preference_subtitle_short_delay" formatted="false" msgid="416055324409474880">
-      <item quantity="other">เวลาหน่วงสั้น (<xliff:g id="CLICK_DELAY_LABEL_1">%1$d</xliff:g> มิลลิวินาที)</item>
-      <item quantity="one">เวลาหน่วงสั้น (<xliff:g id="CLICK_DELAY_LABEL_0">%1$d</xliff:g> มิลลิวินาที)</item>
+        <item quantity="other">เวลาหน่วงสั้น (<xliff:g id="CLICK_DELAY_LABEL_1">%1$d</xliff:g> มิลลิวินาที)</item>
+        <item quantity="one">เวลาหน่วงสั้น (<xliff:g id="CLICK_DELAY_LABEL_0">%1$d</xliff:g> มิลลิวินาที)</item>
     </plurals>
     <plurals name="accessibilty_autoclick_preference_subtitle_long_delay" formatted="false" msgid="556424440912669213">
-      <item quantity="other">เวลาหน่วงยาว (<xliff:g id="CLICK_DELAY_LABEL_1">%1$d</xliff:g> มิลลิวินาที)</item>
-      <item quantity="one">เวลาหน่วงยาว (<xliff:g id="CLICK_DELAY_LABEL_0">%1$d</xliff:g> มิลลิวินาที)</item>
+        <item quantity="other">เวลาหน่วงยาว (<xliff:g id="CLICK_DELAY_LABEL_1">%1$d</xliff:g> มิลลิวินาที)</item>
+        <item quantity="one">เวลาหน่วงยาว (<xliff:g id="CLICK_DELAY_LABEL_0">%1$d</xliff:g> มิลลิวินาที)</item>
     </plurals>
     <plurals name="accessibilty_autoclick_preference_subtitle_very_long_delay" formatted="false" msgid="4474904810885802549">
-      <item quantity="other">เวลาหน่วงยาวมาก (<xliff:g id="CLICK_DELAY_LABEL_1">%1$d</xliff:g> มิลลิวินาที)</item>
-      <item quantity="one">เวลาหน่วงยาวมาก (<xliff:g id="CLICK_DELAY_LABEL_0">%1$d</xliff:g> มิลลิวินาที)</item>
+        <item quantity="other">เวลาหน่วงยาวมาก (<xliff:g id="CLICK_DELAY_LABEL_1">%1$d</xliff:g> มิลลิวินาที)</item>
+        <item quantity="one">เวลาหน่วงยาวมาก (<xliff:g id="CLICK_DELAY_LABEL_0">%1$d</xliff:g> มิลลิวินาที)</item>
     </plurals>
     <string name="accessibility_vibration_summary" msgid="27904038683405084">"เสียงเรียกเข้า <xliff:g id="SUMMARY_RING">%1$s</xliff:g>, การแจ้งเตือน <xliff:g id="SUMMARY_NOTIFICATION">%2$s</xliff:g>, การแตะ <xliff:g id="SUMMARY_TOUCH">%3$s</xliff:g>"</string>
     <string name="accessibility_vibration_summary_off" msgid="7776105450117095736">"ตั้งค่าเมื่อมีเสียงเรียกเข้าและการแจ้งเตือนเป็นปิด"</string>
@@ -2267,12 +2243,12 @@
     <string name="print_settings" msgid="8519810615863882491">"การพิมพ์"</string>
     <string name="print_settings_summary_no_service" msgid="6721731154917653862">"ปิด"</string>
     <plurals name="print_settings_summary" formatted="false" msgid="1034273609054146099">
-      <item quantity="other">บริการการพิมพ์เปิดอยู่ <xliff:g id="COUNT">%1$d</xliff:g> รายการ</item>
-      <item quantity="one">บริการการพิมพ์เปิดอยู่ 1 รายการ</item>
+        <item quantity="other">บริการการพิมพ์เปิดอยู่ <xliff:g id="COUNT">%1$d</xliff:g> รายการ</item>
+        <item quantity="one">บริการการพิมพ์เปิดอยู่ 1 รายการ</item>
     </plurals>
     <plurals name="print_jobs_summary" formatted="false" msgid="3933688846338306536">
-      <item quantity="other">งานพิมพ์ <xliff:g id="COUNT">%1$d</xliff:g> รายการ</item>
-      <item quantity="one">งานพิมพ์ 1 รายการ</item>
+        <item quantity="other">งานพิมพ์ <xliff:g id="COUNT">%1$d</xliff:g> รายการ</item>
+        <item quantity="one">งานพิมพ์ 1 รายการ</item>
     </plurals>
     <string name="print_settings_title" msgid="7680498284751129935">"บริการการพิมพ์"</string>
     <string name="print_no_services_installed" msgid="7554057966540602692">"ไม่ได้ติดตั้งบริการใดไว้"</string>
@@ -2329,7 +2305,7 @@
     <string name="battery_stats_wake_lock_label" msgid="8115041205778441548">"เปิดหน้าจอค้าง"</string>
     <string name="battery_stats_phone_signal_label" msgid="679649411998679555">"สัญญาณเครือข่ายมือถือ"</string>
     <!-- no translation found for battery_stats_last_duration (3088100394725340600) -->
-    <skip />
+    <skip/>
     <string name="awake" msgid="5405871714019268978">"เวลาการทำงานของอุปกรณ์"</string>
     <string name="wifi_on_time" msgid="3880778525760926066">"เวลาเปิดใช้ WiFi"</string>
     <string name="bluetooth_on_time" msgid="8424625554628450028">"เวลาเปิดใช้ WiFi"</string>
@@ -2362,24 +2338,24 @@
     <string name="battery_tip_dialog_message" product="device" msgid="2620789680336796054">"มีการใช้งานอุปกรณ์มากกว่าปกติ แบตเตอรี่อาจหมดเร็วกว่าที่คาดไว้\n\nแอปที่ใช้แบตเตอรี่มากสุดมีลำดับดังนี้"</string>
     <string name="battery_tip_dialog_message_footer" msgid="986542164372177504">"รวมกิจกรรมในเบื้องหลังที่ใช้พลังงานมาก"</string>
     <plurals name="battery_tip_restrict_title" formatted="false" msgid="3108195491484891588">
-      <item quantity="other">จำกัดแอป %1$d แอป</item>
-      <item quantity="one">จำกัดแอป %1$d แอป</item>
+        <item quantity="other">จำกัดแอป %1$d แอป</item>
+        <item quantity="one">จำกัดแอป %1$d แอป</item>
     </plurals>
     <plurals name="battery_tip_restrict_handled_title" formatted="false" msgid="5862649927574803958">
-      <item quantity="other">จำกัดแอป %2$d แอปเมื่อเร็วๆ นี้</item>
-      <item quantity="one">จำกัดแอป %1$s แอปเมื่อเร็วๆ นี้</item>
+        <item quantity="other">จำกัดแอป %2$d แอปเมื่อเร็วๆ นี้</item>
+        <item quantity="one">จำกัดแอป %1$s แอปเมื่อเร็วๆ นี้</item>
     </plurals>
     <plurals name="battery_tip_restrict_summary" formatted="false" msgid="3328499737453686910">
-      <item quantity="other">แอป %2$d แอปใช้แบตเตอรี่ในเบื้องหลังเปลือง</item>
-      <item quantity="one">แอป %1$s แอปใช้แบตเตอรี่ในเบื้องหลังเปลือง</item>
+        <item quantity="other">แอป %2$d แอปใช้แบตเตอรี่ในเบื้องหลังเปลือง</item>
+        <item quantity="one">แอป %1$s แอปใช้แบตเตอรี่ในเบื้องหลังเปลือง</item>
     </plurals>
     <plurals name="battery_tip_restrict_handled_summary" formatted="false" msgid="3036853535034350991">
-      <item quantity="other">แอปเหล่านี้ทำงานในเบื้องหลังไม่ได้</item>
-      <item quantity="one">แอปนี้ทำงานในเบื้องหลังไม่ได้</item>
+        <item quantity="other">แอปเหล่านี้ทำงานในเบื้องหลังไม่ได้</item>
+        <item quantity="one">แอปนี้ทำงานในเบื้องหลังไม่ได้</item>
     </plurals>
     <plurals name="battery_tip_restrict_app_dialog_title" formatted="false" msgid="7897944678619251740">
-      <item quantity="other">จำกัดแอป %1$d แอปใช่ไหม</item>
-      <item quantity="one">จำกัดแอปใช่ไหม</item>
+        <item quantity="other">จำกัดแอป %1$d แอปใช่ไหม</item>
+        <item quantity="one">จำกัดแอปใช่ไหม</item>
     </plurals>
     <string name="battery_tip_restrict_app_dialog_message" msgid="137856003724730751">"หากต้องการประหยัดแบตเตอรี่ ต้องไม่ให้แอป <xliff:g id="APP">%1$s</xliff:g> ใช้งานแบตเตอรี่ในพื้นหลัง แอปนี้อาจไม่ทำงานตามปกติและการแจ้งเตือนอาจล่าช้า"</string>
     <string name="battery_tip_restrict_apps_less_than_5_dialog_message" msgid="5894648804112181324">"หากต้องการประหยัดแบตเตอรี่ ต้องไม่ให้แอปเหล่านี้ใช้งานแบตเตอรี่ในพื้นหลัง แอปที่ถูกจำกัดอาจไม่ทำงานตามปกติและการแจ้งเตือนอาจล่าช้า\n\nแอปดังกล่าวได้แก่"</string>
@@ -2398,8 +2374,8 @@
     <string name="smart_battery_footer" msgid="8407121907452993645">"เมื่อตัวจัดการแบตเตอรี่ตรวจพบว่าแอปทำให้แบตเตอรี่หมดเร็ว คุณจะมีตัวเลือกในการจำกัดแอปเหล่านี้ แอปที่ถูกจำกัดอาจไม่ทำงานตามปกติและการแจ้งเตือนอาจล่าช้า"</string>
     <string name="restricted_app_title" msgid="6585080822121007436">"แอปที่ถูกจำกัด"</string>
     <plurals name="restricted_app_summary" formatted="false" msgid="6059772951505411003">
-      <item quantity="other">การจำกัดการใช้งานแบตเตอรี่ของแอป %1$d</item>
-      <item quantity="one">การจำกัดการใช้งานแบตเตอรี่ของแอป %1$d</item>
+        <item quantity="other">การจำกัดการใช้งานแบตเตอรี่ของแอป %1$d</item>
+        <item quantity="one">การจำกัดการใช้งานแบตเตอรี่ของแอป %1$d</item>
     </plurals>
     <string name="restricted_app_time_summary" msgid="3097721884155913252">"จำกัดเมื่อ <xliff:g id="TIME">%1$s</xliff:g>"</string>
     <string name="restricted_app_detail_footer" msgid="3683577206409650564">"แอปเหล่านี้ใช้งานแบตเตอรี่ในพื้นหลัง แอปที่ถูกจำกัดอาจไม่ทำงานตามปกติและการแจ้งเตือนอาจล่าช้า"</string>
@@ -2408,8 +2384,8 @@
     <string name="battery_manager_on" product="default" msgid="3197525907390349054">"เปิด/ตรวจจับเมื่อแอปทำให้แบตเตอรี่หมดเร็ว"</string>
     <string name="battery_manager_off" msgid="673547668722420924">"ปิด"</string>
     <plurals name="battery_manager_app_restricted" formatted="false" msgid="6714534362166394848">
-      <item quantity="other">จำกัดแอป %1$d แอป</item>
-      <item quantity="one">จำกัดแอป %1$d แอป</item>
+        <item quantity="other">จำกัดแอป %1$d แอป</item>
+        <item quantity="one">จำกัดแอป %1$d แอป</item>
     </plurals>
     <string name="battery_header_title_alternate" msgid="8371821625994616659">"<xliff:g id="NUMBER">^1</xliff:g>"<small>" "<font size="20">"<xliff:g id="UNIT">%</xliff:g>"</font></small>""</string>
     <string name="dialog_stop_title" msgid="5972757101865665655">"หยุดแอปไหม"</string>
@@ -2530,7 +2506,7 @@
     <string name="battery_saver_sticky_description_new" product="tablet" msgid="6740553373344759992">"โหมดประหยัดแบตเตอรี่จะปิดเมื่อแบตเตอรี่แท็บเล็ตอยู่ที่ <xliff:g id="PERCENT">%1$s</xliff:g>"</string>
     <string name="battery_saver_sticky_description_new" product="device" msgid="8512106347424406909">"โหมดประหยัดแบตเตอรี่จะปิดเมื่อแบตเตอรี่อุปกรณ์อยู่ที่ <xliff:g id="PERCENT">%1$s</xliff:g>"</string>
     <!-- no translation found for battery_saver_seekbar_title (3712266470054006641) -->
-    <skip />
+    <skip/>
     <string name="battery_saver_seekbar_title_placeholder" msgid="7141264642540687540">"เปิด"</string>
     <string name="battery_saver_master_switch_title" msgid="3474312070095834915">"ใช้โหมดประหยัดแบตเตอรี่"</string>
     <string name="battery_saver_turn_on_automatically_title" msgid="7857393318205740864">"เปิดอัตโนมัติ"</string>
@@ -2631,7 +2607,6 @@
     <string name="auto_restore_summary" msgid="6830198851045584001">"เมื่อติดตั้งแอปใหม่อีกครั้ง ให้คืนค่าการตั้งค่าและข้อมูลที่สำรองไว้"</string>
     <string name="backup_inactive_title" msgid="6753265378043349277">"บริการสำรองข้อมูลไม่ได้ทำงานอยู่"</string>
     <string name="backup_configure_account_default_summary" msgid="5323225330966306690">"ไม่มีบัญชีใดในปัจจุบันที่จัดเก็บข้อมูลที่สำรองไว้"</string>
-    <string name="backup_erase_dialog_title" msgid="5892431263348766484"></string>
     <string name="backup_erase_dialog_message" msgid="2250872501409574331">"หยุดการสำรองข้อมูลรหัสผ่าน WiFi, บุ๊กมาร์ก, การตั้งค่าอื่นๆ และข้อมูลแอปพลิเคชัน รวมทั้งลบสำเนาทั้งหมดบนเซิร์ฟเวอร์ของ /e/ หรือไม่"</string>
     <string name="fullbackup_erase_dialog_message" msgid="2379053988557486162">"หยุดการสำรองข้อมูลอุปกรณ์ (เช่น รหัสผ่าน Wi-Fi และประวัติการโทร) และข้อมูลแอป (เช่น การตั้งค่าและไฟล์ที่แอปจัดเก็บไว้) พร้อมทั้งลบสำเนาทั้งหมดบนเซิร์ฟเวอร์ระยะไกลไหม"</string>
     <string name="fullbackup_data_summary" msgid="971587401251601473">"สำรองข้อมูลในอุปกรณ์ (เช่น รหัสผ่าน Wi-Fi และประวัติการโทร) และข้อมูลแอป (เช่น การตั้งค่าและไฟล์ที่แอปจัดเก็บไว้) ลงใน /e/ ไดร์ฟจากระยะไกลโดยอัตโนมัติ\n\nเมื่อคุณเปิดเปิดการสำรองข้อมูลอัตโนมัติ ระบบจะบันทึกข้อมูลอุปกรณ์และข้อมูลแอปไปยังโฟลเดอร์ส่วนตัวใน /e/ ไดรฟ์เป็นระยะๆ ข้อมูลแอปอาจเป็นข้อมูลใดๆ ก็ตามที่แอปบันทึกไว้ (ตามการตั้งค่าของนักพัฒนาซอฟต์แวร์) ซึ่งรวมถึงข้อมูลที่อาจมีความละเอียดอ่อน เช่น รายชื่อติดต่อ ข้อความ และรูปภาพ"</string>
@@ -2905,21 +2880,21 @@
     <string name="ssl_ca_cert_warning" msgid="3898387588657346106">"เครือข่ายอาจถูกตรวจสอบ"</string>
     <string name="done_button" msgid="6269449526248267">"เสร็จสิ้น"</string>
     <plurals name="ssl_ca_cert_dialog_title" formatted="false" msgid="5491460811755938449">
-      <item quantity="other">เชื่อถือหรือนำใบรับรองออก</item>
-      <item quantity="one">เชื่อถือหรือนำใบรับรองออก</item>
+        <item quantity="other">เชื่อถือหรือนำใบรับรองออก</item>
+        <item quantity="one">เชื่อถือหรือนำใบรับรองออก</item>
     </plurals>
     <plurals name="ssl_ca_cert_info_message_device_owner" formatted="false" msgid="2788832560436163252">
-      <item quantity="other"><xliff:g id="MANAGING_DOMAIN_1">%s</xliff:g> ได้ติดตั้งใบรับรอง CA บนอุปกรณ์ของคุณ ซึ่งอาจช่วยในการตรวจสอบกิจกรรมเครือข่ายของอุปกรณ์ได้ รวมถึงอีเมล แอป และเว็บไซต์ที่ปลอดภัย\n\nโปรดติดต่อผู้ดูแลระบบสำหรับข้อมูลเพิ่มเติมเกี่ยวกับใบรับรองเหล่านี้</item>
-      <item quantity="one"><xliff:g id="MANAGING_DOMAIN_0">%s</xliff:g> ได้ติดตั้งใบรับรอง CA บนอุปกรณ์ของคุณ ซึ่งอาจช่วยในการตรวจสอบกิจกรรมเครือข่ายของอุปกรณ์ได้ รวมถึงอีเมล แอป และเว็บไซต์ที่ปลอดภัย\n\nโปรดติดต่อผู้ดูแลระบบสำหรับข้อมูลเพิ่มเติมเกี่ยวกับใบรับรองนี้</item>
+        <item quantity="other"><xliff:g id="MANAGING_DOMAIN_1">%s</xliff:g> ได้ติดตั้งใบรับรอง CA บนอุปกรณ์ของคุณ ซึ่งอาจช่วยในการตรวจสอบกิจกรรมเครือข่ายของอุปกรณ์ได้ รวมถึงอีเมล แอป และเว็บไซต์ที่ปลอดภัย\n\nโปรดติดต่อผู้ดูแลระบบสำหรับข้อมูลเพิ่มเติมเกี่ยวกับใบรับรองเหล่านี้</item>
+        <item quantity="one"><xliff:g id="MANAGING_DOMAIN_0">%s</xliff:g> ได้ติดตั้งใบรับรอง CA บนอุปกรณ์ของคุณ ซึ่งอาจช่วยในการตรวจสอบกิจกรรมเครือข่ายของอุปกรณ์ได้ รวมถึงอีเมล แอป และเว็บไซต์ที่ปลอดภัย\n\nโปรดติดต่อผู้ดูแลระบบสำหรับข้อมูลเพิ่มเติมเกี่ยวกับใบรับรองนี้</item>
     </plurals>
     <plurals name="ssl_ca_cert_info_message" formatted="false" msgid="3989916958347169622">
-      <item quantity="other"><xliff:g id="MANAGING_DOMAIN_1">%s</xliff:g> ได้ติดตั้งใบรับรอง CA สำหรับโปรไฟล์งานของคุณ ซึ่งอาจช่วยให้เขาตรวจสอบกิจกรรมในเครือข่ายการทำงานได้ รวมถึงอีเมล แอป และเว็บไซต์ที่ปลอดภัย\n\nโปรดติดต่อผู้ดูแลระบบสำหรับข้อมูลเพิ่มเติมเกี่ยวกับใบรับรองเหล่านี้</item>
-      <item quantity="one"><xliff:g id="MANAGING_DOMAIN_0">%s</xliff:g> ได้ติดตั้งใบรับรอง CA สำหรับโปรไฟล์งานของคุณ ซึ่งอาจช่วยให้เขาตรวจสอบกิจกรรมในเครือข่ายการทำงานได้ รวมถึงอีเมล แอป และเว็บไซต์ที่ปลอดภัย\n\nโปรดติดต่อผู้ดูแลระบบสำหรับข้อมูลเพิ่มเติมเกี่ยวกับใบรับรองนี้</item>
+        <item quantity="other"><xliff:g id="MANAGING_DOMAIN_1">%s</xliff:g> ได้ติดตั้งใบรับรอง CA สำหรับโปรไฟล์งานของคุณ ซึ่งอาจช่วยให้เขาตรวจสอบกิจกรรมในเครือข่ายการทำงานได้ รวมถึงอีเมล แอป และเว็บไซต์ที่ปลอดภัย\n\nโปรดติดต่อผู้ดูแลระบบสำหรับข้อมูลเพิ่มเติมเกี่ยวกับใบรับรองเหล่านี้</item>
+        <item quantity="one"><xliff:g id="MANAGING_DOMAIN_0">%s</xliff:g> ได้ติดตั้งใบรับรอง CA สำหรับโปรไฟล์งานของคุณ ซึ่งอาจช่วยให้เขาตรวจสอบกิจกรรมในเครือข่ายการทำงานได้ รวมถึงอีเมล แอป และเว็บไซต์ที่ปลอดภัย\n\nโปรดติดต่อผู้ดูแลระบบสำหรับข้อมูลเพิ่มเติมเกี่ยวกับใบรับรองนี้</item>
     </plurals>
     <string name="ssl_ca_cert_warning_message" msgid="4374052724815563051">"บุคคลที่สามสามารถตรวจสอบกิจกรรมทางเครือข่ายของคุณได้ รวมทั้งอีเมล แอป และเว็บไซต์ที่ปลอดภัย\n\nข้อมูลรับรองที่เชื่อถือได้ที่ติดตั้งในอุปกรณ์ของคุณทำให้การดำเนินการนี้เป็นไปได้"</string>
     <plurals name="ssl_ca_cert_settings_button" formatted="false" msgid="125941406175485894">
-      <item quantity="other">ตรวจสอบใบรับรอง</item>
-      <item quantity="one">ตรวจสอบใบรับรอง</item>
+        <item quantity="other">ตรวจสอบใบรับรอง</item>
+        <item quantity="one">ตรวจสอบใบรับรอง</item>
     </plurals>
     <string name="user_settings_title" msgid="6550866465409807877">"ผู้ใช้หลายคน"</string>
     <string name="user_settings_footer_text" product="device" msgid="7523914344521302179">"แชร์อุปกรณ์โดยการเพิ่มผู้ใช้ใหม่ ผู้ใช้แต่ละรายจะมีพื้นที่ส่วนตัวในอุปกรณ์ของคุณสำหรับหน้าจอหลักที่กำหนดเอง บัญชี แอป การตั้งค่า และอื่นๆ"</string>
@@ -3024,7 +2999,7 @@
     <string name="call_manager_enable_summary" msgid="7362506369604163030">"อนุญาตให้บริการนี้จัดการวิธีการโทรของคุณ"</string>
     <string name="call_manager_title" msgid="3397433159509629466">"Call Manager"</string>
     <!-- no translation found for call_manager_summary (2558839230880919191) -->
-    <skip />
+    <skip/>
     <string name="cell_broadcast_settings" msgid="6414938308090183446">"การแจ้งเตือนเหตุฉุกเฉิน"</string>
     <string name="network_operators_settings" msgid="5105453353329748954">"ผู้ให้บริการเครือข่าย"</string>
     <string name="access_point_names" msgid="5768430498022188057">"Access point names"</string>
@@ -3062,7 +3037,6 @@
     <string name="user_image_take_photo" msgid="2601691481533190924">"ถ่ายรูป"</string>
     <string name="user_image_choose_photo" msgid="5904586923236027350">"เลือกรูปภาพ"</string>
     <string name="user_image_photo_selector" msgid="7727851029781491727">"เลือกรูปภาพ"</string>
-    <string name="regulatory_info_text" msgid="1154461023369976667"></string>
     <string name="sim_setup_wizard_title" msgid="3945520353564138219">"ซิมการ์ด"</string>
     <string name="sim_settings_title" msgid="8392862852842113531">"ซิมการ์ด"</string>
     <string name="sim_settings_summary" msgid="5777472623476930332">"<xliff:g id="SIM_NAME">%1$s</xliff:g> - <xliff:g id="SIM_NUMBER">%2$s</xliff:g>"</string>
@@ -3106,8 +3080,8 @@
     <string name="sim_selection_channel_title" msgid="3193666315607572484">"การเลือกซิม"</string>
     <string name="dashboard_title" msgid="5660733037244683387">"การตั้งค่า"</string>
     <plurals name="settings_suggestion_header_summary_hidden_items" formatted="false" msgid="6585075562837786847">
-      <item quantity="other">แสดงรายการที่ซ่อน %d รายการ</item>
-      <item quantity="one">แสดงรายการที่ซ่อน %d รายการ</item>
+        <item quantity="other">แสดงรายการที่ซ่อน %d รายการ</item>
+        <item quantity="one">แสดงรายการที่ซ่อน %d รายการ</item>
     </plurals>
     <string name="network_dashboard_title" msgid="788543070557731240">"เครือข่ายและอินเทอร์เน็ต"</string>
     <string name="network_dashboard_summary_mobile" msgid="4020746665765996480">"มือถือ"</string>
@@ -3243,8 +3217,8 @@
     <string name="live_caption_summary" msgid="2898451867595161809">"แสดงคำบรรยายสื่อโดยอัตโนมัติ"</string>
     <string name="zen_mode_settings_summary_off" msgid="7844433300559059480">"ไม่เลย"</string>
     <plurals name="zen_mode_settings_summary_on" formatted="false" msgid="3254890503929315009">
-      <item quantity="other">เปิดใช้อยู่ <xliff:g id="ON_COUNT">%d</xliff:g> รายการ</item>
-      <item quantity="one">เปิดใช้อยู่ 1 รายการ</item>
+        <item quantity="other">เปิดใช้อยู่ <xliff:g id="ON_COUNT">%d</xliff:g> รายการ</item>
+        <item quantity="one">เปิดใช้อยู่ 1 รายการ</item>
     </plurals>
     <string name="zen_mode_settings_title" msgid="682676757791334259">"ห้ามรบกวน"</string>
     <string name="zen_mode_slice_subtitle" msgid="6849372107272604160">"จำกัดการรบกวน"</string>
@@ -3326,13 +3300,13 @@
     <string name="zen_mode_duration_summary_always_prompt" msgid="7658172853423383037">"ถามทุกครั้ง"</string>
     <string name="zen_mode_duration_summary_forever" msgid="5551992961329998606">"จนกว่าคุณจะปิด"</string>
     <plurals name="zen_mode_duration_summary_time_hours" formatted="false" msgid="3601160794696489864">
-      <item quantity="other"><xliff:g id="NUM_HOURS">%d</xliff:g> ชั่วโมง</item>
-      <item quantity="one">1 ชั่วโมง</item>
+        <item quantity="other"><xliff:g id="NUM_HOURS">%d</xliff:g> ชั่วโมง</item>
+        <item quantity="one">1 ชั่วโมง</item>
     </plurals>
     <string name="zen_mode_duration_summary_time_minutes" msgid="3187122993179039992">"<xliff:g id="NUM_MINUTES">%d</xliff:g> นาที"</string>
     <plurals name="zen_mode_sound_summary_summary_off_info" formatted="false" msgid="3812633366476034740">
-      <item quantity="other"><xliff:g id="ON_COUNT">%d</xliff:g> กำหนดการเปิดได้โดยอัตโนมัติ</item>
-      <item quantity="one">1 กำหนดการเปิดได้โดยอัตโนมัติ</item>
+        <item quantity="other"><xliff:g id="ON_COUNT">%d</xliff:g> กำหนดการเปิดได้โดยอัตโนมัติ</item>
+        <item quantity="one">1 กำหนดการเปิดได้โดยอัตโนมัติ</item>
     </plurals>
     <string name="zen_category_behavior" msgid="4456460102057665854">"ปิดเสียงอุปกรณ์ แต่อนุญาตข้อยกเว้น"</string>
     <string name="zen_category_exceptions" msgid="6329803391764042865">"ข้อยกเว้น"</string>
@@ -3459,20 +3433,20 @@
     <string name="notification_switch_label" msgid="2950240358797111509">"แสดงการแจ้งเตือน"</string>
     <string name="default_notification_assistant" msgid="243718059890346442">"การแจ้งเตือนแบบปรับอัตโนมัติ"</string>
     <plurals name="notifications_sent_daily" formatted="false" msgid="1479283620504341566">
-      <item quantity="other">การแจ้งเตือนประมาณ <xliff:g id="NUMBER_1">%d</xliff:g> ครั้งต่อวัน</item>
-      <item quantity="one">การแจ้งเตือนประมาณ <xliff:g id="NUMBER_0">%d</xliff:g> ครั้งต่อวัน</item>
+        <item quantity="other">การแจ้งเตือนประมาณ <xliff:g id="NUMBER_1">%d</xliff:g> ครั้งต่อวัน</item>
+        <item quantity="one">การแจ้งเตือนประมาณ <xliff:g id="NUMBER_0">%d</xliff:g> ครั้งต่อวัน</item>
     </plurals>
     <plurals name="notifications_sent_weekly" formatted="false" msgid="4913443431857170519">
-      <item quantity="other">การแจ้งเตือนประมาณ <xliff:g id="NUMBER_1">%d</xliff:g> ครั้งต่อสัปดาห์</item>
-      <item quantity="one">การแจ้งเตือนประมาณ <xliff:g id="NUMBER_0">%d</xliff:g> ครั้งต่อสัปดาห์</item>
+        <item quantity="other">การแจ้งเตือนประมาณ <xliff:g id="NUMBER_1">%d</xliff:g> ครั้งต่อสัปดาห์</item>
+        <item quantity="one">การแจ้งเตือนประมาณ <xliff:g id="NUMBER_0">%d</xliff:g> ครั้งต่อสัปดาห์</item>
     </plurals>
     <string name="notifications_sent_never" msgid="9081278709126812062">"ไม่เลย"</string>
     <string name="manage_notification_access_title" msgid="4714320299084782521">"การเข้าถึงการแจ้งเตือน"</string>
     <string name="work_profile_notification_access_blocked_summary" msgid="8643809206612366067">"การเข้าถึงการแจ้งเตือนโปรไฟล์งานถูกบล็อก"</string>
     <string name="manage_notification_access_summary_zero" msgid="7528633634628627431">"แอปไม่สามารถอ่านการแจ้งเตือน"</string>
     <plurals name="manage_notification_access_summary_nonzero" formatted="false" msgid="3703008881487586312">
-      <item quantity="other">%d แอปสามารถอ่านการแจ้งเตือนได้</item>
-      <item quantity="one">%d แอปสามารถอ่านการแจ้งเตือนได้</item>
+        <item quantity="other">%d แอปสามารถอ่านการแจ้งเตือนได้</item>
+        <item quantity="one">%d แอปสามารถอ่านการแจ้งเตือนได้</item>
     </plurals>
     <string name="notification_assistant_title" msgid="6983941403582134437">"การแจ้งเตือนแบบปรับอัตโนมัติ"</string>
     <string name="no_notification_assistant" msgid="2533323397091834096">"ไม่มี"</string>
@@ -3507,19 +3481,19 @@
     <string name="notification_channels" msgid="1502969522886493799">"หมวดหมู่"</string>
     <string name="notification_channels_other" msgid="18159805343647908">"อื่นๆ"</string>
     <plurals name="notification_group_summary" formatted="false" msgid="483490958130993160">
-      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> หมวดหมู่</item>
-      <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> หมวดหมู่</item>
+        <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> หมวดหมู่</item>
+        <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> หมวดหมู่</item>
     </plurals>
     <string name="no_channels" msgid="4716199078612071915">"แอปนี้ไม่ได้โพสต์การแจ้งเตือนใดๆ"</string>
     <string name="app_settings_link" msgid="6725453466705333311">"การตั้งค่าเพิ่มเติมในแอป"</string>
     <string name="app_notification_listing_summary_zero" msgid="2988400013221120744">"เปิดสำหรับแอปทั้งหมด"</string>
     <plurals name="app_notification_listing_summary_others" formatted="false" msgid="1506127395400503717">
-      <item quantity="other">ปิดสำหรับ <xliff:g id="COUNT_1">%d</xliff:g> แอป</item>
-      <item quantity="one">ปิดสำหรับ <xliff:g id="COUNT_0">%d</xliff:g> แอป</item>
+        <item quantity="other">ปิดสำหรับ <xliff:g id="COUNT_1">%d</xliff:g> แอป</item>
+        <item quantity="one">ปิดสำหรับ <xliff:g id="COUNT_0">%d</xliff:g> แอป</item>
     </plurals>
     <plurals name="deleted_channels" formatted="false" msgid="5963473421547029532">
-      <item quantity="other">ลบแล้ว <xliff:g id="COUNT_1">%d</xliff:g> หมวดหมู่</item>
-      <item quantity="one">ลบแล้ว <xliff:g id="COUNT_0">%d</xliff:g> หมวดหมู่</item>
+        <item quantity="other">ลบแล้ว <xliff:g id="COUNT_1">%d</xliff:g> หมวดหมู่</item>
+        <item quantity="one">ลบแล้ว <xliff:g id="COUNT_0">%d</xliff:g> หมวดหมู่</item>
     </plurals>
     <string name="notification_toggle_on" msgid="1624283327379059003">"เปิด"</string>
     <string name="notification_toggle_off" msgid="3295373308338024844">"ปิด"</string>
@@ -3590,8 +3564,8 @@
     <string name="zen_mode_custom_calls_footer" msgid="6521283204577441053">"บล็อกสายเรียกเข้าสำหรับ \"<xliff:g id="SCHEDULE_NAME">%1$s</xliff:g>\" เอาไว้ คุณปรับเปลี่ยนการตั้งค่าเพื่ออนุญาตให้เพื่อน ครอบครัว หรือรายชื่อติดต่อคนอื่นๆ ติดต่อคุณได้"</string>
     <string name="zen_mode_starred_contacts_title" msgid="630299631659575589">"รายชื่อติดต่อที่ติดดาว"</string>
     <plurals name="zen_mode_starred_contacts_summary_additional_contacts" formatted="false" msgid="7001724653833724925">
-      <item quantity="other">อีก <xliff:g id="NUM_PEOPLE">%d</xliff:g> คน</item>
-      <item quantity="one">อีก 1 คน</item>
+        <item quantity="other">อีก <xliff:g id="NUM_PEOPLE">%d</xliff:g> คน</item>
+        <item quantity="one">อีก 1 คน</item>
     </plurals>
     <string name="zen_mode_messages" msgid="7835537207069585861">"อนุญาตข้อความ"</string>
     <string name="zen_mode_messages_footer" msgid="6996375319078720643">"ตรวจสอบว่าคุณตั้งค่าอุปกรณ์ให้ส่งเสียง สั่น หรือปิดเสียงไว้เพื่อให้แน่ใจว่าอุปกรณ์จะส่งเสียงเมื่อได้รับข้อความที่อนุญาต"</string>
@@ -3618,8 +3592,8 @@
     <string name="zen_mode_bypassing_apps" msgid="625309443389126481">"อนุญาตให้แอปลบล้าง"</string>
     <string name="zen_mode_bypassing_apps_title" msgid="4142154650779609193">"ข้อยกเว้นแอป"</string>
     <plurals name="zen_mode_bypassing_apps_subtext" formatted="false" msgid="3992144201138339160">
-      <item quantity="other">การแจ้งเตือนจากแอป <xliff:g id="NUMBER">%1$d</xliff:g> แอปลบล้างโหมดห้ามรบกวนได้</item>
-      <item quantity="one">การแจ้งเตือนจากแอป 1 แอปลบล้างโหมดห้ามรบกวนได้</item>
+        <item quantity="other">การแจ้งเตือนจากแอป <xliff:g id="NUMBER">%1$d</xliff:g> แอปลบล้างโหมดห้ามรบกวนได้</item>
+        <item quantity="one">การแจ้งเตือนจากแอป 1 แอปลบล้างโหมดห้ามรบกวนได้</item>
     </plurals>
     <string name="zen_mode_events_list" msgid="7191316245742097229">"กิจกรรม"</string>
     <string name="zen_mode_all_callers" msgid="8104755389401941875">"ทุกคน"</string>
@@ -3641,12 +3615,12 @@
     <string name="zen_mode_end_time_next_day_summary_format" msgid="419683704068360804">"<xliff:g id="FORMATTED_TIME">%s</xliff:g> วันถัดไป"</string>
     <string name="zen_mode_summary_alarms_only_indefinite" msgid="910047326128154945">"เปลี่ยนเป็นเฉพาะปลุกเท่านั้นโดยไม่มีกำหนด"</string>
     <plurals name="zen_mode_summary_alarms_only_by_minute" formatted="false" msgid="1900512966361163390">
-      <item quantity="other">เปลี่ยนเป็นเฉพาะปลุกเท่านั้นเป็นเวลา <xliff:g id="DURATION">%1$d</xliff:g> นาที (จนถึงเวลา <xliff:g id="FORMATTEDTIME_1">%2$s</xliff:g>)</item>
-      <item quantity="one">เปลี่ยนเป็นเฉพาะปลุกเท่านั้นเป็นเวลา 1 นาทีจนถึงเวลา <xliff:g id="FORMATTEDTIME_0">%2$s</xliff:g></item>
+        <item quantity="other">เปลี่ยนเป็นเฉพาะปลุกเท่านั้นเป็นเวลา <xliff:g id="DURATION">%1$d</xliff:g> นาที (จนถึงเวลา <xliff:g id="FORMATTEDTIME_1">%2$s</xliff:g>)</item>
+        <item quantity="one">เปลี่ยนเป็นเฉพาะปลุกเท่านั้นเป็นเวลา 1 นาทีจนถึงเวลา <xliff:g id="FORMATTEDTIME_0">%2$s</xliff:g></item>
     </plurals>
     <plurals name="zen_mode_summary_alarms_only_by_hour" formatted="false" msgid="955991428001659124">
-      <item quantity="other">เปลี่ยนเป็นเฉพาะปลุกเท่านั้นเป็นเวลา <xliff:g id="DURATION">%1$d</xliff:g> ชั่วโมงจนถึงเวลา <xliff:g id="FORMATTEDTIME_1">%2$s</xliff:g></item>
-      <item quantity="one">เปลี่ยนเป็นเฉพาะปลุกเท่านั้นเป็นเวลา 1 ชั่วโมงจนถึงเวลา <xliff:g id="FORMATTEDTIME_0">%2$s</xliff:g></item>
+        <item quantity="other">เปลี่ยนเป็นเฉพาะปลุกเท่านั้นเป็นเวลา <xliff:g id="DURATION">%1$d</xliff:g> ชั่วโมงจนถึงเวลา <xliff:g id="FORMATTEDTIME_1">%2$s</xliff:g></item>
+        <item quantity="one">เปลี่ยนเป็นเฉพาะปลุกเท่านั้นเป็นเวลา 1 ชั่วโมงจนถึงเวลา <xliff:g id="FORMATTEDTIME_0">%2$s</xliff:g></item>
     </plurals>
     <string name="zen_mode_summary_alarms_only_by_time" msgid="8140619669703968810">"เปลี่ยนเป็นเฉพาะปลุกเท่านั้นจนถึง <xliff:g id="FORMATTEDTIME">%1$s</xliff:g>"</string>
     <string name="zen_mode_summary_always" msgid="722093064250082317">"เปลี่ยนเป็นรบกวนได้เสมอ"</string>
@@ -3721,20 +3695,20 @@
     <string name="notification_summary_level" msgid="4074326972839105652">"ระดับ %d"</string>
     <string name="notification_summary_channel" msgid="8459033623057872803">"<xliff:g id="CHANNEL_NAME">%1$s</xliff:g> • <xliff:g id="GROUP_NAME">%2$s</xliff:g>"</string>
     <plurals name="notifications_categories_off" formatted="false" msgid="1385401442703692986">
-      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> หมวดหมู่ปิดอยู่</item>
-      <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> หมวดหมู่ปิดอยู่</item>
+        <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> หมวดหมู่ปิดอยู่</item>
+        <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> หมวดหมู่ปิดอยู่</item>
     </plurals>
     <plurals name="permissions_summary" formatted="false" msgid="5015472550875144481">
-      <item quantity="other">มอบสิทธิ์ <xliff:g id="COUNT_1">%d</xliff:g> รายการ</item>
-      <item quantity="one">มอบสิทธิ์ <xliff:g id="COUNT_0">%d</xliff:g> รายการ</item>
+        <item quantity="other">มอบสิทธิ์ <xliff:g id="COUNT_1">%d</xliff:g> รายการ</item>
+        <item quantity="one">มอบสิทธิ์ <xliff:g id="COUNT_0">%d</xliff:g> รายการ</item>
     </plurals>
     <plurals name="runtime_permissions_summary" formatted="false" msgid="2091022049141391855">
-      <item quantity="other">อนุญาต <xliff:g id="COUNT_2">%d</xliff:g> จาก <xliff:g id="COUNT_3">%d</xliff:g> รายการแล้ว</item>
-      <item quantity="one">อนุญาต <xliff:g id="COUNT_0">%d</xliff:g> จาก <xliff:g id="COUNT_1">%d</xliff:g> รายการแล้ว</item>
+        <item quantity="other">อนุญาต <xliff:g id="COUNT_2">%d</xliff:g> จาก <xliff:g id="COUNT_3">%d</xliff:g> รายการแล้ว</item>
+        <item quantity="one">อนุญาต <xliff:g id="COUNT_0">%d</xliff:g> จาก <xliff:g id="COUNT_1">%d</xliff:g> รายการแล้ว</item>
     </plurals>
     <plurals name="runtime_permissions_additional_count" formatted="false" msgid="5888624648943937645">
-      <item quantity="other">สิทธิ์เพิ่มเติม <xliff:g id="COUNT_1">%d</xliff:g> รายการ</item>
-      <item quantity="one">สิทธิ์เพิ่มเติม <xliff:g id="COUNT_0">%d</xliff:g> รายการ</item>
+        <item quantity="other">สิทธิ์เพิ่มเติม <xliff:g id="COUNT_1">%d</xliff:g> รายการ</item>
+        <item quantity="one">สิทธิ์เพิ่มเติม <xliff:g id="COUNT_0">%d</xliff:g> รายการ</item>
     </plurals>
     <string name="runtime_permissions_summary_no_permissions_granted" msgid="7456745929035665029">"ไม่มีการมอบสิทธิ์"</string>
     <string name="runtime_permissions_summary_no_permissions_requested" msgid="7174876170116073356">"ไม่มีการขอสิทธิ์"</string>
@@ -3762,8 +3736,8 @@
     <string name="domain_urls_summary_some" msgid="1197692164421314523">"เปิด <xliff:g id="DOMAIN">%s</xliff:g> และ URL อื่นๆ"</string>
     <string name="domain_urls_apps_summary_off" msgid="2534980824850890416">"ไม่มีแอปใดเปิดลิงก์ที่รองรับได้เลย"</string>
     <plurals name="domain_urls_apps_summary_on" formatted="false" msgid="7864816862441985323">
-      <item quantity="other">มี <xliff:g id="COUNT">%d</xliff:g> แอปเปิดลิงก์ที่รองรับได้</item>
-      <item quantity="one">มี 1 แอปเปิดลิงก์ที่รองรับได้</item>
+        <item quantity="other">มี <xliff:g id="COUNT">%d</xliff:g> แอปเปิดลิงก์ที่รองรับได้</item>
+        <item quantity="one">มี 1 แอปเปิดลิงก์ที่รองรับได้</item>
     </plurals>
     <string name="app_link_open_always" msgid="7734202520425781182">"เปิดในแอปนี้"</string>
     <string name="app_link_open_ask" msgid="2422450109908936371">"ถามทุกครั้ง"</string>
@@ -3805,12 +3779,12 @@
     <string name="show_all_apps" msgid="4490719452453223082">"แสดงการใช้งานอุปกรณ์แบบเต็ม"</string>
     <string name="hide_extra_apps" msgid="7313907836289865123">"แสดงการใช้งานแอป"</string>
     <plurals name="power_high_usage_summary" formatted="false" msgid="573433136005336970">
-      <item quantity="other"><xliff:g id="NUMBER">%2$d</xliff:g> แอปมีลักษณะการทำงานผิดปกติ</item>
-      <item quantity="one"><xliff:g id="APP">%1$s</xliff:g> มีลักษณะการทำงานผิดปกติ</item>
+        <item quantity="other"><xliff:g id="NUMBER">%2$d</xliff:g> แอปมีลักษณะการทำงานผิดปกติ</item>
+        <item quantity="one"><xliff:g id="APP">%1$s</xliff:g> มีลักษณะการทำงานผิดปกติ</item>
     </plurals>
     <plurals name="power_high_usage_title" formatted="false" msgid="8013115866788425817">
-      <item quantity="other">แอปหลายแอปทำให้แบตเตอรี่หมดเร็ว</item>
-      <item quantity="one"><xliff:g id="APP">%1$s</xliff:g> ทำให้แบตเตอรี่หมดเร็ว</item>
+        <item quantity="other">แอปหลายแอปทำให้แบตเตอรี่หมดเร็ว</item>
+        <item quantity="one"><xliff:g id="APP">%1$s</xliff:g> ทำให้แบตเตอรี่หมดเร็ว</item>
     </plurals>
     <string name="high_power_filter_on" msgid="447849271630431531">"ไม่ได้เพิ่มประสิทธิภาพ"</string>
     <string name="high_power_on" msgid="8778058701270819268">"ไม่ได้เพิ่มประสิทธิภาพ"</string>
@@ -3886,8 +3860,8 @@
     <string name="free_memory" msgid="439783742246854785">"เหลือ"</string>
     <string name="memory_usage_apps" msgid="5776108502569850579">"หน่วยความจำที่แอปใช้"</string>
     <plurals name="memory_usage_apps_summary" formatted="false" msgid="1355637088533572208">
-      <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> แอปใช้หน่วยความจำใน <xliff:g id="DURATION_1">%2$s</xliff:g>ที่ผ่านมา</item>
-      <item quantity="one">1 แอปใช้หน่วยความจำใน <xliff:g id="DURATION_0">%2$s</xliff:g>ที่ผ่านมา</item>
+        <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> แอปใช้หน่วยความจำใน <xliff:g id="DURATION_1">%2$s</xliff:g>ที่ผ่านมา</item>
+        <item quantity="one">1 แอปใช้หน่วยความจำใน <xliff:g id="DURATION_0">%2$s</xliff:g>ที่ผ่านมา</item>
     </plurals>
     <string name="running_frequency" msgid="7260225121706316639">"ความถี่"</string>
     <string name="memory_maximum_usage" msgid="2047013391595835607">"การใช้งานสูงสุด"</string>
@@ -3957,8 +3931,8 @@
     <string name="data_usage_summary_format" msgid="6844301859713164522">"ใช้อินเทอร์เน็ตไป <xliff:g id="AMOUNT">%1$s</xliff:g>"</string>
     <string name="data_usage_wifi_format" msgid="7644390582649568117">"ใช้ไป <xliff:g id="AMOUNT">^1</xliff:g> จาก Wi‑Fi"</string>
     <plurals name="notification_summary" formatted="false" msgid="7638388920823212470">
-      <item quantity="other">ปิดสำหรับ <xliff:g id="COUNT">%d</xliff:g> แอป</item>
-      <item quantity="one">ปิดสำหรับ 1 แอป</item>
+        <item quantity="other">ปิดสำหรับ <xliff:g id="COUNT">%d</xliff:g> แอป</item>
+        <item quantity="one">ปิดสำหรับ 1 แอป</item>
     </plurals>
     <string name="notification_summary_none" msgid="9179312319023988089">"เปิดสำหรับแอปทั้งหมด"</string>
     <string name="apps_summary" msgid="4007416751775414252">"ติดตั้งแล้ว <xliff:g id="COUNT">%1$d</xliff:g> แอป"</string>
@@ -4023,12 +3997,12 @@
     <string name="suggestions_summary" msgid="1709710458908440469">"+<xliff:g id="ID_1">%1$d</xliff:g>"</string>
     <string name="suggestions_more_title" msgid="240124526378997009">"+อีก <xliff:g id="ID_1">%1$d</xliff:g> รายการ"</string>
     <plurals name="suggestions_collapsed_title" formatted="false" msgid="5023679825210836444">
-      <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> คำแนะนำ</item>
-      <item quantity="one">1 คำแนะนำ</item>
+        <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> คำแนะนำ</item>
+        <item quantity="one">1 คำแนะนำ</item>
     </plurals>
     <plurals name="suggestions_collapsed_summary" formatted="false" msgid="3789011332018516832">
-      <item quantity="other">+<xliff:g id="COUNT">%1$d</xliff:g> คำแนะนำ</item>
-      <item quantity="one">+1 คำแนะนำ</item>
+        <item quantity="other">+<xliff:g id="COUNT">%1$d</xliff:g> คำแนะนำ</item>
+        <item quantity="one">+1 คำแนะนำ</item>
     </plurals>
     <string name="suggestion_remove" msgid="6753986344585367776">"นำออก"</string>
     <string name="color_temperature" msgid="8256912135746305176">"อุณหภูมิสีเย็น"</string>
@@ -4055,8 +4029,8 @@
     <string name="billing_cycle_fragment_summary" msgid="6346655500491631357">"ทุกเดือนในวันที่ <xliff:g id="ID_1">%1$s</xliff:g>"</string>
     <string name="network_restrictions" msgid="8385824604048229846">"ข้อจำกัดของเครือข่าย"</string>
     <plurals name="network_restrictions_summary" formatted="false" msgid="3875128958788008975">
-      <item quantity="other">ข้อจำกัด <xliff:g id="COUNT">%1$d</xliff:g> ข้อ</item>
-      <item quantity="one">ข้อจำกัด 1 ข้อ</item>
+        <item quantity="other">ข้อจำกัด <xliff:g id="COUNT">%1$d</xliff:g> ข้อ</item>
+        <item quantity="one">ข้อจำกัด 1 ข้อ</item>
     </plurals>
     <string name="operator_warning" msgid="5672761970087591211">"การบันทึกบัญชีข้อมูลของผู้ให้บริการอาจแตกต่างจากการบันทึกบัญชีของอุปกรณ์"</string>
     <string name="data_used_template" msgid="8229342096562327646">"ใช้ไป <xliff:g id="ID_1">%1$s</xliff:g>"</string>
@@ -4069,8 +4043,8 @@
     <string name="configure" msgid="1499586749829665889">"กำหนดค่า"</string>
     <string name="data_usage_other_apps" msgid="5649047093607329537">"แอปอื่นๆ ที่รวมอยู่ในการใช้งาน"</string>
     <plurals name="data_saver_unrestricted_summary" formatted="false" msgid="3316296488378947221">
-      <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> แอปได้รับอนุญาตให้ใช้อินเทอร์เน็ตได้ไม่จำกัดเมื่อเปิดโปรแกรมประหยัดอินเทอร์เน็ต</item>
-      <item quantity="one">1 แอปได้รับอนุญาตให้ใช้อินเทอร์เน็ตได้ไม่จำกัดเมื่อเปิดโปรแกรมประหยัดอินเทอร์เน็ต</item>
+        <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> แอปได้รับอนุญาตให้ใช้อินเทอร์เน็ตได้ไม่จำกัดเมื่อเปิดโปรแกรมประหยัดอินเทอร์เน็ต</item>
+        <item quantity="one">1 แอปได้รับอนุญาตให้ใช้อินเทอร์เน็ตได้ไม่จำกัดเมื่อเปิดโปรแกรมประหยัดอินเทอร์เน็ต</item>
     </plurals>
     <string name="data_usage_title" msgid="4039024073687469094">"ข้อมูลหลัก"</string>
     <string name="data_usage_wifi_title" msgid="1060495519280456926">"อินเทอร์เน็ตจาก Wi‑Fi"</string>
@@ -4079,8 +4053,8 @@
     <string name="data_overusage" msgid="3680477320458707259">"เกิน <xliff:g id="ID_1">^1</xliff:g>"</string>
     <string name="data_remaining" msgid="6316251496381922837">"เหลือ <xliff:g id="ID_1">^1</xliff:g>"</string>
     <plurals name="billing_cycle_days_left" formatted="false" msgid="661792524671718753">
-      <item quantity="other">เหลืออีก %d วัน</item>
-      <item quantity="one">เหลืออีก %d วัน</item>
+        <item quantity="other">เหลืออีก %d วัน</item>
+        <item quantity="one">เหลืออีก %d วัน</item>
     </plurals>
     <string name="billing_cycle_none_left" msgid="1694844019159277504">"ไม่มีเวลาเหลือ"</string>
     <string name="billing_cycle_less_than_one_day_left" msgid="1210202399053992163">"เหลือไม่ถึง 1 วัน"</string>
@@ -4156,8 +4130,8 @@
     <string name="overlay_toast_failed_to_apply" msgid="4839587811338164960">"ใช้การวางซ้อนไม่สำเร็จ"</string>
     <string name="special_access" msgid="1767980727423395147">"สิทธิ์เข้าถึงพิเศษของแอป"</string>
     <plurals name="special_access_summary" formatted="false" msgid="4995506406763570815">
-      <item quantity="other">ใช้อินเทอร์เน็ตได้ไม่จำกัด <xliff:g id="COUNT">%d</xliff:g> แอป</item>
-      <item quantity="one">ใช้อินเทอร์เน็ตได้ไม่จำกัด 1 แอป</item>
+        <item quantity="other">ใช้อินเทอร์เน็ตได้ไม่จำกัด <xliff:g id="COUNT">%d</xliff:g> แอป</item>
+        <item quantity="one">ใช้อินเทอร์เน็ตได้ไม่จำกัด 1 แอป</item>
     </plurals>
     <string name="special_access_more" msgid="132919514147475846">"ดูเพิ่มเติม"</string>
     <string name="confirm_convert_to_fbe_warning" msgid="3783325656948378111">"ต้องการล้างข้อมูลผู้ใช้และแปลงเป็นการเข้ารหัสไฟล์จริงๆ ใช่ไหม"</string>
@@ -4193,16 +4167,16 @@
     <string name="cross_profile_calendar_summary" msgid="8856185206722860069">"แสดงกิจกรรมที่เกี่ยวกับงานในปฏิทินส่วนตัว"</string>
     <string name="cross_profile_calendar_restricted_summary" msgid="282962670405516067">"องค์กรไม่อนุญาตให้แอปส่วนตัวเข้าถึง Work Calendar"</string>
     <plurals name="hours" formatted="false" msgid="1853396353451635458">
-      <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> ชั่วโมง</item>
-      <item quantity="one">1 ชั่วโมง</item>
+        <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> ชั่วโมง</item>
+        <item quantity="one">1 ชั่วโมง</item>
     </plurals>
     <plurals name="minutes" formatted="false" msgid="6244503272924425418">
-      <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> นาที</item>
-      <item quantity="one">1 นาที</item>
+        <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> นาที</item>
+        <item quantity="one">1 นาที</item>
     </plurals>
     <plurals name="seconds" formatted="false" msgid="4237020272336995370">
-      <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> วินาที</item>
-      <item quantity="one">1 วินาที</item>
+        <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> วินาที</item>
+        <item quantity="one">1 วินาที</item>
     </plurals>
     <string name="automatic_storage_manager_settings" msgid="519158151463974656">"จัดการพื้นที่เก็บข้อมูล"</string>
     <string name="automatic_storage_manager_text" msgid="6900593059927987273">"ตัวจัดการพื้นที่เก็บข้อมูลจะนำรูปภาพและวิดีโอที่สำรองไว้ออกจากอุปกรณ์ของคุณ เพื่อช่วยเพิ่มพื้นที่เก็บข้อมูล"</string>
@@ -4220,7 +4194,6 @@
     <string name="double_tap_power_for_camera_summary" msgid="1100926048598415509">"หากต้องการเปิดกล้องอย่างรวดเร็ว ให้กดปุ่มเปิด/ปิด 2 ครั้งจากหน้าจอใดก็ได้"</string>
     <string name="double_tap_power_for_camera_suggestion_title" msgid="4299496243418753571">"เปิดกล้องถ่ายรูปได้อย่างรวดเร็ว"</string>
     <string name="double_twist_for_camera_mode_title" msgid="8387290007393716098">"พลิกกล้อง"</string>
-    <string name="double_twist_for_camera_mode_summary" msgid="592503740044744951"></string>
     <string name="double_twist_for_camera_suggestion_title" msgid="8178844037382604158">"ถ่ายเซลฟีได้เร็วขึ้น"</string>
     <string name="system_navigation_title" msgid="1698862900901417194">"การนำทางของระบบ"</string>
     <string name="swipe_up_to_switch_apps_title" msgid="6677266952021118342">"การนำทางแบบ 2 ปุ่ม"</string>
@@ -4301,16 +4274,16 @@
     <string name="enterprise_privacy_enterprise_installed_packages" msgid="9114143640515900082">"ติดตั้งแอปแล้ว"</string>
     <string name="enterprise_privacy_apps_count_estimation_info" msgid="7959907857710107792">"จำนวนแอปเป็นเพียงค่าประมาณซึ่งอาจไม่รวมแอปที่ติดตั้งจากที่อื่นที่ไม่ใช่ Play Store"</string>
     <plurals name="enterprise_privacy_number_packages_lower_bound" formatted="false" msgid="5403847001419529018">
-      <item quantity="other">มีแอปอย่างน้อย <xliff:g id="COUNT_1">%d</xliff:g> แอป</item>
-      <item quantity="one">มีแอปอย่างน้อย <xliff:g id="COUNT_0">%d</xliff:g> แอป</item>
+        <item quantity="other">มีแอปอย่างน้อย <xliff:g id="COUNT_1">%d</xliff:g> แอป</item>
+        <item quantity="one">มีแอปอย่างน้อย <xliff:g id="COUNT_0">%d</xliff:g> แอป</item>
     </plurals>
     <string name="enterprise_privacy_location_access" msgid="8023838718108456971">"สิทธิ์เข้าถึงตำแหน่ง"</string>
     <string name="enterprise_privacy_microphone_access" msgid="7242958026470143653">"สิทธิ์เข้าถึงไมโครโฟน"</string>
     <string name="enterprise_privacy_camera_access" msgid="7685460535880069016">"สิทธิ์เข้าถึงกล้องถ่ายรูป"</string>
     <string name="enterprise_privacy_enterprise_set_default_apps" msgid="7498546659083996300">"แอปเริ่มต้น"</string>
     <plurals name="enterprise_privacy_number_packages" formatted="false" msgid="8568544906431825430">
-      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> แอป</item>
-      <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> แอป</item>
+        <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> แอป</item>
+        <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> แอป</item>
     </plurals>
     <string name="enterprise_privacy_input_method" msgid="3278314982700662246">"แป้นพิมพ์เริ่มต้น"</string>
     <string name="enterprise_privacy_input_method_name" msgid="2974859490559054584">"ตั้งค่าเป็น <xliff:g id="APP_LABEL">%s</xliff:g>"</string>
@@ -4322,35 +4295,35 @@
     <string name="enterprise_privacy_ca_certs_personal" msgid="1516422660828485795">"ข้อมูลรับรองที่เชื่อถือได้ในโปรไฟล์ส่วนตัวของคุณ"</string>
     <string name="enterprise_privacy_ca_certs_work" msgid="4318941788592655561">"ข้อมูลรับรองที่เชื่อถือได้ในโปรไฟล์งานของคุณ"</string>
     <plurals name="enterprise_privacy_number_ca_certs" formatted="false" msgid="6459725295322004179">
-      <item quantity="other">มีใบรับรอง CA อย่างน้อย <xliff:g id="COUNT_1">%d</xliff:g> รายการ</item>
-      <item quantity="one">มีใบรับรอง CA อย่างน้อย <xliff:g id="COUNT_0">%d</xliff:g> รายการ</item>
+        <item quantity="other">มีใบรับรอง CA อย่างน้อย <xliff:g id="COUNT_1">%d</xliff:g> รายการ</item>
+        <item quantity="one">มีใบรับรอง CA อย่างน้อย <xliff:g id="COUNT_0">%d</xliff:g> รายการ</item>
     </plurals>
     <string name="enterprise_privacy_lock_device" msgid="464054894363899866">"ผู้ดูแลระบบสามารถล็อกอุปกรณ์และรีเซ็ตรหัสผ่าน"</string>
     <string name="enterprise_privacy_wipe_device" msgid="869589182352244591">"ผู้ดูแลระบบสามารถลบข้อมูลทั้งหมดในอุปกรณ์"</string>
     <string name="enterprise_privacy_failed_password_wipe_device" msgid="7045164901334821226">"มีการป้อนรหัสผ่านผิดหลายครั้งก่อนที่ระบบจะลบข้อมูลทั้งหมดในอุปกรณ์"</string>
     <string name="enterprise_privacy_failed_password_wipe_work" msgid="2537582942554484170">"มีการป้อนรหัสผ่านผิดหลายครั้งก่อนที่ระบบจะลบข้อมูลโปรไฟล์งาน"</string>
     <plurals name="enterprise_privacy_number_failed_password_wipe" formatted="false" msgid="8811973918944217791">
-      <item quantity="other">พยายามแล้ว <xliff:g id="COUNT_1">%d</xliff:g> ครั้ง</item>
-      <item quantity="one">พยายามแล้ว <xliff:g id="COUNT_0">%d</xliff:g> ครั้ง</item>
+        <item quantity="other">พยายามแล้ว <xliff:g id="COUNT_1">%d</xliff:g> ครั้ง</item>
+        <item quantity="one">พยายามแล้ว <xliff:g id="COUNT_0">%d</xliff:g> ครั้ง</item>
     </plurals>
     <string name="do_disclosure_generic" msgid="3067459392402324538">"อุปกรณ์นี้จัดการโดยองค์กรของคุณ"</string>
     <string name="do_disclosure_with_name" msgid="867544298924410766">"อุปกรณ์เครื่องนี้จัดการโดย <xliff:g id="ORGANIZATION_NAME">%s</xliff:g>"</string>
     <string name="do_disclosure_learn_more_separator" msgid="5714364437437041671">" "</string>
     <string name="learn_more" msgid="3534519107947510952">"ดูข้อมูลเพิ่มเติม"</string>
     <plurals name="default_camera_app_title" formatted="false" msgid="8112432929729136399">
-      <item quantity="other">แอปกล้องถ่ายรูป</item>
-      <item quantity="one">แอปกล้องถ่ายรูป</item>
+        <item quantity="other">แอปกล้องถ่ายรูป</item>
+        <item quantity="one">แอปกล้องถ่ายรูป</item>
     </plurals>
     <string name="default_calendar_app_title" msgid="1870095225089706093">"แอปปฏิทิน"</string>
     <string name="default_contacts_app_title" msgid="7740028900741944569">"แอปรายชื่อติดต่อ"</string>
     <plurals name="default_email_app_title" formatted="false" msgid="8338194872609410234">
-      <item quantity="other">แอปโปรแกรมรับส่งอีเมล</item>
-      <item quantity="one">แอปโปรแกรมรับส่งอีเมล</item>
+        <item quantity="other">แอปโปรแกรมรับส่งอีเมล</item>
+        <item quantity="one">แอปโปรแกรมรับส่งอีเมล</item>
     </plurals>
     <string name="default_map_app_title" msgid="7569231732944853320">"แอปแผนที่"</string>
     <plurals name="default_phone_app_title" formatted="false" msgid="4222188821845826493">
-      <item quantity="other">แอปโทรศัพท์</item>
-      <item quantity="one">แอปโทรศัพท์</item>
+        <item quantity="other">แอปโทรศัพท์</item>
+        <item quantity="one">แอปโทรศัพท์</item>
     </plurals>
     <string name="app_names_concatenation_template_2" msgid="8320181646458855457">"<xliff:g id="FIRST_APP_NAME">%1$s</xliff:g>, <xliff:g id="SECOND_APP_NAME">%2$s</xliff:g>"</string>
     <string name="app_names_concatenation_template_3" msgid="7019703249717854148">"<xliff:g id="FIRST_APP_NAME">%1$s</xliff:g>, <xliff:g id="SECOND_APP_NAME">%2$s</xliff:g>, <xliff:g id="THIRD_APP_NAME">%3$s</xliff:g>"</string>
@@ -4440,7 +4413,6 @@
     <string name="battery_suggestion_title" product="tablet" msgid="1525940496459255289">"เพิ่มอายุการใช้งานแบตเตอรี่ของแท็บเล็ต"</string>
     <string name="battery_suggestion_title" product="device" msgid="2280773774080720377">"เพิ่มอายุการใช้งานแบตเตอรี่ของอุปกรณ์"</string>
     <string name="battery_suggestion_title" product="default" msgid="4811554469047272537">"เพิ่มอายุการใช้งานแบตเตอรี่ของโทรศัพท์"</string>
-    <string name="battery_suggestion_summary" msgid="8186720080540016197"></string>
     <string name="gesture_prevent_ringing_screen_title" msgid="8293094715267769349">"ป้องกันการส่งเสียง"</string>
     <string name="gesture_prevent_ringing_title" msgid="5978577898997523581">"กดปุ่มเปิด/ปิดและปุ่มเพิ่มระดับเสียงพร้อมกันเพื่อ"</string>
     <string name="gesture_prevent_ringing_sound_title" msgid="4529077822282099235">"ทางลัดเพื่อไม่ให้ส่งเสียง"</string>
@@ -4523,8 +4495,8 @@
     <string name="calls_and_sms_ask_every_time" msgid="3178743088737726677">"ถามทุกครั้ง"</string>
     <string name="mobile_network_summary_add_a_network" msgid="9079866102827526779">"เพิ่มเครือข่าย"</string>
     <plurals name="mobile_network_summary_count" formatted="false" msgid="5173633860800230925">
-      <item quantity="other"><xliff:g id="COUNT_1">%1$d</xliff:g> ซิม</item>
-      <item quantity="one"><xliff:g id="COUNT_0">%1$d</xliff:g> ซิม</item>
+        <item quantity="other"><xliff:g id="COUNT_1">%1$d</xliff:g> ซิม</item>
+        <item quantity="one"><xliff:g id="COUNT_0">%1$d</xliff:g> ซิม</item>
     </plurals>
     <string name="default_for_calls" msgid="2788950217176988034">"ค่าเริ่มต้นสำหรับการโทร"</string>
     <string name="default_for_sms" msgid="1316988329407434771">"ค่าเริ่มต้นสำหรับ SMS"</string>
@@ -4590,8 +4562,8 @@
     <string name="network_connection_connect_successful" msgid="2587314077675642476">"เชื่อมต่อสำเร็จ"</string>
     <string name="network_connection_request_dialog_showall" msgid="6392059758456994944">"แสดงทั้งหมด"</string>
     <plurals name="show_bluetooth_devices" formatted="false" msgid="5247313302567705452">
-      <item quantity="other">เชื่อมต่ออุปกรณ์อยู่ <xliff:g id="NUMBER_DEVICE_COUNT_1">%1$d</xliff:g> เครื่อง</item>
-      <item quantity="one">เชื่อมต่ออุปกรณ์อยู่ <xliff:g id="NUMBER_DEVICE_COUNT_0">%1$d</xliff:g> เครื่อง</item>
+        <item quantity="other">เชื่อมต่ออุปกรณ์อยู่ <xliff:g id="NUMBER_DEVICE_COUNT_1">%1$d</xliff:g> เครื่อง</item>
+        <item quantity="one">เชื่อมต่ออุปกรณ์อยู่ <xliff:g id="NUMBER_DEVICE_COUNT_0">%1$d</xliff:g> เครื่อง</item>
     </plurals>
     <string name="no_bluetooth_devices" msgid="6310025908614933116">"ไม่มีอุปกรณ์บลูทูธ"</string>
     <string name="bluetooth_left_name" msgid="7440064067910080502">"ซ้าย"</string>
@@ -4616,24 +4588,23 @@
     <string name="contextual_card_feedback_send" msgid="7409408664417908922">"ส่งความคิดเห็น"</string>
     <string name="contextual_card_feedback_confirm_message" msgid="3186334562157665381">"ต้องการส่งความคิดเห็นเกี่ยวกับคำแนะนำนี้ถึงเราไหม"</string>
     <string name="copyable_slice_toast" msgid="1008251852798990606">"คัดลอก <xliff:g id="COPY_CONTENT">%1$s</xliff:g> ไปยังคลิปบอร์ดแล้ว"</string>
-    <string name="search_bar_account_avatar_content_description" msgid="880523277036898350"></string>
     <string name="permission_bar_chart_empty_text" msgid="4856719891991325077">"ไม่มีสิทธิ์ที่แอปใช้"</string>
     <string name="permission_bar_chart_title" msgid="2493212904955611441">"การใช้สิทธิ์ในช่วง 24 ชั่วโมงที่ผ่านมา"</string>
     <string name="permission_bar_chart_details" msgid="5816698018592357088">"ดูทั้งหมดในหน้าแดชบอร์ด"</string>
     <plurals name="permission_bar_chart_label" formatted="false" msgid="4853396794340896078">
-      <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> แอป</item>
-      <item quantity="one">1 แอป</item>
+        <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> แอป</item>
+        <item quantity="one">1 แอป</item>
     </plurals>
     <string name="accessibility_usage_title" msgid="9190967143518779145">"การใช้งานการช่วยเหลือพิเศษ"</string>
     <plurals name="accessibility_usage_summary" formatted="false" msgid="6910643986958263005">
-      <item quantity="other">แอป <xliff:g id="SERVICE_COUNT">%1$d</xliff:g> แอปมีสิทธิ์เข้าถึงอุปกรณ์ได้โดยสมบูรณ์</item>
-      <item quantity="one">แอป 1 แอปมีสิทธิ์เข้าถึงอุปกรณ์ได้โดยสมบูรณ์</item>
+        <item quantity="other">แอป <xliff:g id="SERVICE_COUNT">%1$d</xliff:g> แอปมีสิทธิ์เข้าถึงอุปกรณ์ได้โดยสมบูรณ์</item>
+        <item quantity="one">แอป 1 แอปมีสิทธิ์เข้าถึงอุปกรณ์ได้โดยสมบูรณ์</item>
     </plurals>
     <string name="manage_app_notification" msgid="8272999309499332742">"จัดการการแจ้งเตือนของ<xliff:g id="APP_NAME">%1$s</xliff:g>"</string>
     <string name="no_suggested_app" msgid="2482015948111074654">"ไม่มีแอปพลิเคชันแนะนำ"</string>
     <plurals name="notification_few_channel_count_summary" formatted="false" msgid="6610904178351403728">
-      <item quantity="other">ช่องทางการแจ้งเตือน <xliff:g id="NOTIFICATION_CHANNEL_COUNT_1">%1$d</xliff:g> ช่องทาง</item>
-      <item quantity="one">ช่องทางการแจ้งเตือน <xliff:g id="NOTIFICATION_CHANNEL_COUNT_0">%1$d</xliff:g> ช่องทาง</item>
+        <item quantity="other">ช่องทางการแจ้งเตือน <xliff:g id="NOTIFICATION_CHANNEL_COUNT_1">%1$d</xliff:g> ช่องทาง</item>
+        <item quantity="one">ช่องทางการแจ้งเตือน <xliff:g id="NOTIFICATION_CHANNEL_COUNT_0">%1$d</xliff:g> ช่องทาง</item>
     </plurals>
     <string name="notification_many_channel_count_summary" msgid="6324166979527102233">"ช่องทางการแจ้งเตือน <xliff:g id="NOTIFICATION_CHANNEL_COUNT">%1$d</xliff:g> ช่องทาง แตะเพื่อจัดการทั้งหมด"</string>
     <string name="recently_installed_app" msgid="2899861390925377564">"คุณเพิ่งติดตั้งแอปนี้"</string>
@@ -4666,10 +4637,8 @@
     <string name="dual_cdma_sim_warning_notification_channel_title" msgid="1049161096896074364">"การรวมซิม"</string>
     <string name="work_policy_privacy_settings" msgid="2702644843505242596">"ข้อมูลนโยบายงาน"</string>
     <string name="work_policy_privacy_settings_summary" msgid="690118670737638405">"การตั้งค่าที่ผู้ดูแลระบบไอทีจัดการ"</string>
-    <string name="rtt_settings_title" msgid="7049259598645966354"></string>
-    <string name="rtt_settings_no_visible" msgid="7440356831140948382"></string>
-    <string name="rtt_settings_visible_during_call" msgid="7866181103286073700"></string>
-    <string name="rtt_settings_always_visible" msgid="2364173070088756238"></string>
+    <string name="rtt_settings_no_visible" msgid="7440356831140948382"/>
+    <string name="rtt_settings_always_visible" msgid="2364173070088756238"/>
     <string name="bluetooth_message_access_notification_content" msgid="5111712860712823893">"อุปกรณ์หนึ่งต้องการเข้าถึงข้อความของคุณ แตะเพื่อดูรายละเอียด"</string>
     <string name="bluetooth_message_access_dialog_title" msgid="9009836130395061579">"อนุญาตให้เข้าถึงข้อความไหม"</string>
     <string name="bluetooth_message_access_dialog_content" msgid="7186694737578788487">"อุปกรณ์บลูทูธ <xliff:g id="DEVICE_NAME_0">%1$s</xliff:g> ต้องการเข้าถึงข้อความของคุณ\n\nคุณไม่เคยเชื่อมต่อกับ <xliff:g id="DEVICE_NAME_1">%2$s</xliff:g> มาก่อน"</string>
