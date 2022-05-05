@@ -401,7 +401,6 @@
     <string name="security_settings_face_enroll_education_title_unlock_disabled" msgid="8810954233979716906">"Brug dit ansigt til godkendelse"</string>
     <string name="security_settings_face_enroll_education_start" msgid="8830924400907195590">"Start"</string>
     <string name="security_settings_face_enroll_introduction_accessibility" msgid="5748221179069430975">"Brug avanceret konfiguration"</string>
-    <string name="security_settings_face_enroll_introduction_accessibility_diversity" msgid="2774962371839179206"/>
     <string name="security_settings_face_enroll_introduction_cancel" msgid="7551159644361639436">"Annuller"</string>
     <string name="security_settings_face_enroll_introduction_no_thanks" msgid="1820618982738898717">"Nej tak"</string>
     <string name="security_settings_face_enroll_introduction_agree" msgid="1822303197642630076">"Acceptér"</string>
@@ -411,7 +410,6 @@
     <string name="security_settings_face_enroll_introduction_message" msgid="3015751486939484934">"Brug dit ansigt til at låse din telefon op, godkende køb og logge ind i apps."</string>
     <string name="security_settings_face_enroll_introduction_message_unlock_disabled" msgid="5841976283789481311">"Lås din telefon op eller godkend køb ved hjælp af dit ansigt.\n\nBemærk! Du kan ikke bruge dit ansigt til at låse denne enhed op. Kontakt administratoren for din organisation for at få flere oplysninger."</string>
     <string name="security_settings_face_enroll_introduction_message_setup" msgid="765965418187421753">"Brug dit ansigt til at låse din telefon op, godkende køb og logge ind i apps"</string>
-    <string name="security_settings_face_enroll_introduction_footer_part_1" msgid="4438129587730915782"/>
     <string name="security_settings_face_enroll_introduction_footer_part_3" msgid="8708726599723727710"/>
     <string name="security_settings_face_enroll_repeat_title" msgid="4446229670377418717">"Centrer dit ansigt i cirklen"</string>
     <string name="security_settings_face_enroll_enrolling_skip" msgid="5568617401632528567">"Spring over"</string>
@@ -557,7 +555,6 @@
     <string name="suggested_lock_settings_summary" product="device" msgid="8479766049078378225">"Konfigurer skærmlåsen for at beskytte din enhed"</string>
     <string name="suggested_lock_settings_summary" product="default" msgid="2443273582716671033">"Konfigurer skærmlåsen for at beskytte din telefon"</string>
     <string name="suggested_fingerprint_lock_settings_title" msgid="3140266181874137984">"Tilføj fingeraftryk for at låse op"</string>
-    <string name="suggested_fingerprint_lock_settings_summary" product="device" msgid="1040265358906410746"/>
     <string name="lock_settings_picker_title" msgid="9219376327364915334">"Vælg skærmlås"</string>
     <string name="lock_settings_picker_title_profile" msgid="8377696902400733227">"Vælg arbejdslås"</string>
     <string name="setup_lock_settings_picker_title" product="tablet" msgid="1276283007274778191">"Beskyt din tablet"</string>
@@ -1415,7 +1412,6 @@
     <string name="sd_insert_summary" product="default" msgid="5949168259622002192">"Insæt et SD-kort, der skal monteres"</string>
     <string name="sd_mount" product="nosdcard" msgid="8305985249945415150">"Isæt USB-lager"</string>
     <string name="sd_mount" product="default" msgid="5279813999455776169">"Montér SD-kort"</string>
-    <string name="sd_mount_summary" product="default" msgid="2190410240845521205"/>
     <string name="sd_format" product="nosdcard" msgid="8657427883364711513">"Slet USB-lager"</string>
     <string name="sd_format" product="default" msgid="9085302892248732329">"Formatér SD-kort"</string>
     <string name="sd_format_summary" product="nosdcard" msgid="6179784504937189658">"Sletter alle data på det interne USB-lager, f.eks. musik og billeder"</string>
@@ -1427,7 +1423,6 @@
     <string name="dlg_confirm_unmount_title" product="default" msgid="8251329019960361646">"Vil du demontere SD-kortet?"</string>
     <string name="dlg_confirm_unmount_text" product="nosdcard" msgid="1212025106709645023">"Hvis du demonterer USB-lager, vil nogle af de kørende apps stoppe, og de kan være utilgængelige, indtil du monterer USB-lager igen."</string>
     <string name="dlg_confirm_unmount_text" product="default" msgid="3887768438615563697">"Hvis du demonterer SD-kortet, vil nogle af de kørende apps stoppe, og de kan være utilgængelige, indtil du monterer SD-kortet igen."</string>
-    <string name="dlg_error_unmount_title" product="default" msgid="2205587942165199845"/>
     <string name="dlg_error_unmount_text" product="nosdcard" msgid="7876201891724279436">"USB-lager kunne ikke demonteres. Prøv igen senere."</string>
     <string name="dlg_error_unmount_text" product="default" msgid="2185659901137961711">"SD-kortet kunne ikke demonteres. Prøv igen senere."</string>
     <string name="unmount_inform_text" product="nosdcard" msgid="5932607205977999175">"USB-lager demonteres."</string>
@@ -1974,7 +1969,6 @@
     <string name="runningservicedetails_stop_dlg_text" product="tablet" msgid="2076922609580490122">"Hvis du stopper denne tjeneste, kan nogle af funktionerne på din tablet holde op med at fungere korrekt, indtil du slukker og tænder den igen."</string>
     <string name="runningservicedetails_stop_dlg_text" product="default" msgid="2625863973434309085">"Hvis du stopper denne tjeneste, kan nogle af funktionerne på din tablet holde op med at fungere korrekt, indtil du slukker og derefter tænder den igen."</string>
     <string name="language_input_gesture_title" msgid="3292455685728572960">"Sprog, indtastning og bevægelser"</string>
-    <string name="language_input_gesture_summary_on_non_assist" msgid="2738661322747920463"/>
     <string name="language_settings" msgid="8700174277543875046">"Sprog og indtastning"</string>
     <string name="language_empty_list_user_restricted" msgid="8050367405839231863">"Du har ikke tilladelse til at ændre enhedens sprog."</string>
     <string name="language_keyboard_settings_title" msgid="7934844313233544557">"Sprog og indtastning"</string>
@@ -4637,7 +4631,6 @@
     <string name="dual_cdma_sim_warning_notification_channel_title" msgid="1049161096896074364">"SIM-kombination"</string>
     <string name="work_policy_privacy_settings" msgid="2702644843505242596">"Oplysninger om din arbejdspolitik"</string>
     <string name="work_policy_privacy_settings_summary" msgid="690118670737638405">"Indstillinger, som administreres af din it-administrator"</string>
-    <string name="rtt_settings_no_visible" msgid="7440356831140948382"/>
     <string name="rtt_settings_always_visible" msgid="2364173070088756238"/>
     <string name="bluetooth_message_access_notification_content" msgid="5111712860712823893">"En enhed vil gerne have adgang til dine beskeder. Tryk for at få flere oplysninger."</string>
     <string name="bluetooth_message_access_dialog_title" msgid="9009836130395061579">"Vil du give adgang til beskeder?"</string>

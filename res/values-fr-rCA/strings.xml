@@ -401,7 +401,6 @@
     <string name="security_settings_face_enroll_education_title_unlock_disabled" msgid="8810954233979716906">"Utiliser son visage pour s\'authentifier"</string>
     <string name="security_settings_face_enroll_education_start" msgid="8830924400907195590">"Démarrer"</string>
     <string name="security_settings_face_enroll_introduction_accessibility" msgid="5748221179069430975">"Utiliser config. d\'accessibilité"</string>
-    <string name="security_settings_face_enroll_introduction_accessibility_diversity" msgid="2774962371839179206"/>
     <string name="security_settings_face_enroll_introduction_cancel" msgid="7551159644361639436">"Annuler"</string>
     <string name="security_settings_face_enroll_introduction_no_thanks" msgid="1820618982738898717">"Non, merci"</string>
     <string name="security_settings_face_enroll_introduction_agree" msgid="1822303197642630076">"D\'accord"</string>
@@ -411,7 +410,6 @@
     <string name="security_settings_face_enroll_introduction_message" msgid="3015751486939484934">"Utilisez votre visage pour déverrouiller votre téléphone, autoriser vos achats et vous connecter à des applications."</string>
     <string name="security_settings_face_enroll_introduction_message_unlock_disabled" msgid="5841976283789481311">"Utilisez votre visage pour déverrouiller votre téléphone ou autoriser des achats.\n\nRemarque : Vous ne pouvez pas utiliser votre visage pour déverrouiller cet appareil. Pour obtenir plus d\'information, communiquez avec l\'administrateur de votre organisation."</string>
     <string name="security_settings_face_enroll_introduction_message_setup" msgid="765965418187421753">"Utilisez votre visage pour déverrouiller votre téléphone, autoriser vos achats et vous connecter à des applications"</string>
-    <string name="security_settings_face_enroll_introduction_footer_part_1" msgid="4438129587730915782"/>
     <string name="security_settings_face_enroll_introduction_footer_part_3" msgid="8708726599723727710"/>
     <string name="security_settings_face_enroll_repeat_title" msgid="4446229670377418717">"Centrez votre visage dans le cercle"</string>
     <string name="security_settings_face_enroll_enrolling_skip" msgid="5568617401632528567">"Ignorer"</string>
@@ -557,7 +555,6 @@
     <string name="suggested_lock_settings_summary" product="device" msgid="8479766049078378225">"Définir un verr. de l\'écran pour protéger l\'appareil"</string>
     <string name="suggested_lock_settings_summary" product="default" msgid="2443273582716671033">"Définir un verr. de l\'écran pour protéger le téléphone"</string>
     <string name="suggested_fingerprint_lock_settings_title" msgid="3140266181874137984">"Ajouter empreinte digitale pour déverrouiller"</string>
-    <string name="suggested_fingerprint_lock_settings_summary" product="device" msgid="1040265358906410746"/>
     <string name="lock_settings_picker_title" msgid="9219376327364915334">"Verrouillage de l\'écran"</string>
     <string name="lock_settings_picker_title_profile" msgid="8377696902400733227">"Verrouill. profil pro"</string>
     <string name="setup_lock_settings_picker_title" product="tablet" msgid="1276283007274778191">"Protégez votre tablette"</string>
@@ -1415,7 +1412,6 @@
     <string name="sd_insert_summary" product="default" msgid="5949168259622002192">"Insérer la carte SD à installer"</string>
     <string name="sd_mount" product="nosdcard" msgid="8305985249945415150">"Installer mémoire stockage USB"</string>
     <string name="sd_mount" product="default" msgid="5279813999455776169">"Installer la carte SD"</string>
-    <string name="sd_mount_summary" product="default" msgid="2190410240845521205"/>
     <string name="sd_format" product="nosdcard" msgid="8657427883364711513">"Effacer la mémoire de stockage USB"</string>
     <string name="sd_format" product="default" msgid="9085302892248732329">"Effacer la carte SD"</string>
     <string name="sd_format_summary" product="nosdcard" msgid="6179784504937189658">"Effacer les données de la mémoire de stockage USB interne (ex. : musique, photos)"</string>
@@ -1427,7 +1423,6 @@
     <string name="dlg_confirm_unmount_title" product="default" msgid="8251329019960361646">"Désinstaller la carte SD?"</string>
     <string name="dlg_confirm_unmount_text" product="nosdcard" msgid="1212025106709645023">"Si vous désinstallez la mémoire de stockage USB, certaines applications en cours d\'utilisation seront fermées. Elles risquent de rester indisponibles jusqu\'à ce que la mémoire de stockage USB soit réinstallée."</string>
     <string name="dlg_confirm_unmount_text" product="default" msgid="3887768438615563697">"Si vous désinstallez la carte SD, certaines applications en cours d\'utilisation s\'arrêteront et risquent de ne plus être disponibles tant que vous n\'aurez pas réinstallé la carte SD."</string>
-    <string name="dlg_error_unmount_title" product="default" msgid="2205587942165199845"/>
     <string name="dlg_error_unmount_text" product="nosdcard" msgid="7876201891724279436">"Impossible de désinstaller la mémoire de stockage USB. Réessayez plus tard."</string>
     <string name="dlg_error_unmount_text" product="default" msgid="2185659901137961711">"Impossible de désinstaller la carte SD. Réessayez plus tard."</string>
     <string name="unmount_inform_text" product="nosdcard" msgid="5932607205977999175">"La mémoire de stockage USB va être désinstallée."</string>
@@ -1974,7 +1969,6 @@
     <string name="runningservicedetails_stop_dlg_text" product="tablet" msgid="2076922609580490122">"Si vous arrêtez ce service, certaines fonctionnalités de votre tablette peuvent cesser de fonctionner correctement jusqu\'à ce que vous ayez éteint, puis rallumé votre appareil."</string>
     <string name="runningservicedetails_stop_dlg_text" product="default" msgid="2625863973434309085">"Si vous arrêtez ce service, certaines fonctionnalités de votre téléphone peuvent cesser de fonctionner correctement jusqu\'à ce que vous ayez éteint, puis rallumé votre appareil."</string>
     <string name="language_input_gesture_title" msgid="3292455685728572960">"Langues, entrée et gestes"</string>
-    <string name="language_input_gesture_summary_on_non_assist" msgid="2738661322747920463"/>
     <string name="language_settings" msgid="8700174277543875046">"Langues et modes d\'entrée"</string>
     <string name="language_empty_list_user_restricted" msgid="8050367405839231863">"Vous n\'êtes pas autorisé à modifier la langue de l\'appareil."</string>
     <string name="language_keyboard_settings_title" msgid="7934844313233544557">"Langues et modes d\'entrée"</string>
@@ -4637,7 +4631,6 @@
     <string name="dual_cdma_sim_warning_notification_channel_title" msgid="1049161096896074364">"Combinaison de cartes SIM"</string>
     <string name="work_policy_privacy_settings" msgid="2702644843505242596">"Les détails de votre politique professionnelle"</string>
     <string name="work_policy_privacy_settings_summary" msgid="690118670737638405">"Les paramètres sont gérés par votre administrateur informatique"</string>
-    <string name="rtt_settings_no_visible" msgid="7440356831140948382"/>
     <string name="rtt_settings_always_visible" msgid="2364173070088756238"/>
     <string name="bluetooth_message_access_notification_content" msgid="5111712860712823893">"Un appareil souhaite accéder à vos messages. Touchez l\'écran pour en savoir plus."</string>
     <string name="bluetooth_message_access_dialog_title" msgid="9009836130395061579">"Autoriser l\'accès aux messages?"</string>
