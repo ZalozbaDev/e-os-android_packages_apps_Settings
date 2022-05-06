@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!--  Copyright (C) 2007 The Android Open Source Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
@@ -12,10 +12,7 @@
      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
      See the License for the specific language governing permissions and
      limitations under the License.
- -->
-
-<resources xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+ --><resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="yes" msgid="1999566976857398962">"Ya"</string>
     <string name="no" msgid="5541738710521607130">"Tidak"</string>
     <string name="create" msgid="986997212165228751">"Buat"</string>
@@ -24,8 +21,8 @@
     <string name="confirmation_turn_on" msgid="2979094011928347665">"Hidupkan"</string>
     <string name="device_info_default" msgid="1406619232867343310">"Tidak diketahui"</string>
     <plurals name="show_dev_countdown" formatted="false" msgid="1646187747875476269">
-      <item quantity="other"><xliff:g id="STEP_COUNT_1">%1$d</xliff:g> langkah lagi sebelum menjadi pembangun.</item>
-      <item quantity="one"><xliff:g id="STEP_COUNT_0">%1$d</xliff:g> langkah lagi sebelum menjadi pembangun.</item>
+        <item quantity="other"><xliff:g id="STEP_COUNT_1">%1$d</xliff:g> langkah lagi sebelum menjadi pembangun.</item>
+        <item quantity="one"><xliff:g id="STEP_COUNT_0">%1$d</xliff:g> langkah lagi sebelum menjadi pembangun.</item>
     </plurals>
     <string name="show_dev_on" msgid="2840850085134853754">"Anda telah menjadi pembangun!"</string>
     <string name="show_dev_already" msgid="7041756429707644630">"Tidak perlu, anda sudah pun menjadi pembangun."</string>
@@ -158,7 +155,7 @@
     <string name="date_and_time" msgid="1788358029823431692">"Tarikh &amp; masa"</string>
     <string name="choose_timezone" msgid="1450780665958642147">"Pilih zon masa"</string>
     <!-- no translation found for intent_sender_data_label (1733806423295725392) -->
-    <skip />
+    <skip/>
     <string name="intent_sender_sendbroadcast_text" msgid="3202857258557610646">"Hantar <xliff:g id="BROADCAST">broadcast</xliff:g>"</string>
     <string name="intent_sender_action_label" msgid="257853357827275530">"<xliff:g id="ACTION">Action</xliff:g>:"</string>
     <string name="intent_sender_startactivity_text" msgid="519934560779343541">"Mulakan <xliff:g id="ACTIVITY">activity</xliff:g>"</string>
@@ -207,8 +204,8 @@
     <string name="locale_remove_menu" msgid="3521546263421387474">"Alih keluar"</string>
     <string name="add_a_language" msgid="2126220398077503271">"Tambahkan bahasa"</string>
     <plurals name="dlg_remove_locales_title" formatted="false" msgid="2845515796732609837">
-      <item quantity="other">Alih keluar bahasa yang dipilih?</item>
-      <item quantity="one">Alih keluar bahasa yang dipilih?</item>
+        <item quantity="other">Alih keluar bahasa yang dipilih?</item>
+        <item quantity="one">Alih keluar bahasa yang dipilih?</item>
     </plurals>
     <string name="dlg_remove_locales_message" msgid="8110560091134252067">"Teks akan dipaparkan dalam bahasa lain."</string>
     <string name="dlg_remove_locales_error_title" msgid="5875503658221562572">"Tidak boleh mengalih keluar semua bahasa"</string>
@@ -299,8 +296,8 @@
     <string name="location_settings_master_switch_title" msgid="4232810467362584112">"Gunakan lokasi"</string>
     <string name="location_settings_summary_location_off" msgid="4797932754681162262">"Mati"</string>
     <plurals name="location_settings_summary_location_on" formatted="false" msgid="1019959038518185676">
-      <item quantity="other">Hidup - <xliff:g id="COUNT_1">%1$d</xliff:g> apl mempunyai akses kepada lokasi</item>
-      <item quantity="one">Hidup - <xliff:g id="COUNT_0">%1$d</xliff:g> apl mempunyai akses kepada lokasi</item>
+        <item quantity="other">Hidup - <xliff:g id="COUNT_1">%1$d</xliff:g> apl mempunyai akses kepada lokasi</item>
+        <item quantity="one">Hidup - <xliff:g id="COUNT_0">%1$d</xliff:g> apl mempunyai akses kepada lokasi</item>
     </plurals>
     <string name="location_settings_loading_app_permission_stats" msgid="6054103701535557342">"Memuatkan…"</string>
     <string name="account_settings_title" msgid="9138880127246241885">"Akaun"</string>
@@ -327,15 +324,12 @@
     <string name="security_settings_face_enroll_education_title" msgid="8662585502032112675">"Cara menyediakan wajah buka kunci"</string>
     <string name="security_settings_face_enroll_education_title_accessibility" msgid="4632402390714441918">"Sediakan wajah buka kunci"</string>
     <string name="security_settings_face_enroll_education_title_unlock_disabled" msgid="8810954233979716906">"Gunakan wajah untuk membuat pengesahan"</string>
-    <string name="security_settings_face_enroll_education_message" msgid="4308030157487176799"></string>
     <string name="security_settings_face_enroll_education_start" msgid="8830924400907195590">"Mula"</string>
     <string name="security_settings_face_enroll_education_accessibility_dialog_message" msgid="4681495507974718824">"Jika wajah buka kunci kebolehaksesan dimatikan, beberapa langkah persediaan mungkin tidak berfungsi dengan baik dengan TalkBack."</string>
     <string name="security_settings_face_enroll_education_accessibility_dialog_negative" msgid="7872647360361245461">"Kembali"</string>
     <string name="security_settings_face_enroll_education_accessibility_dialog_positive" msgid="3148077647572203458">"Teruskan persediaan"</string>
     <string name="security_settings_face_enroll_introduction_accessibility" msgid="5748221179069430975">"Gunakan persediaan kebolehaksesan"</string>
-    <string name="security_settings_face_enroll_introduction_accessibility_expanded" msgid="6763509014732769185"></string>
-    <string name="security_settings_face_enroll_introduction_accessibility_diversity" msgid="2774962371839179206"></string>
-    <string name="security_settings_face_enroll_introduction_accessibility_vision" msgid="7700394302162170363"></string>
+    <string name="security_settings_face_enroll_introduction_accessibility_diversity" msgid="2774962371839179206"/>
     <string name="security_settings_face_enroll_introduction_cancel" msgid="7551159644361639436">"Batal"</string>
     <string name="security_settings_face_enroll_introduction_no_thanks" msgid="1820618982738898717">"Tidak, terima kasih"</string>
     <string name="security_settings_face_enroll_introduction_agree" msgid="1822303197642630076">"Setuju"</string>
@@ -345,10 +339,8 @@
     <string name="security_settings_face_enroll_introduction_message" msgid="3015751486939484934">"Gunakan wajah anda untuk membuka kunci telefon, membenarkan pembelian atau log masuk ke apl."</string>
     <string name="security_settings_face_enroll_introduction_message_unlock_disabled" msgid="5841976283789481311">"Gunakan wajah anda untuk membuka kunci telefon atau membenarkan pembelian.\n\nPerhatian: Anda tidak boleh menggunakan wajah anda untuk membuka kunci peranti ini. Untuk mendapatkan maklumat lanjut, hubungi pentadbir organisasi anda."</string>
     <string name="security_settings_face_enroll_introduction_message_setup" msgid="765965418187421753">"Gunakan wajah anda untuk membuka kunci telefon, membenarkan pembelian atau log masuk ke apl"</string>
-    <string name="security_settings_face_enroll_introduction_footer_part_0" msgid="908831787971630413"></string>
-    <string name="security_settings_face_enroll_introduction_footer_part_1" msgid="4438129587730915782"></string>
-    <string name="security_settings_face_enroll_introduction_footer_part_2" msgid="6099785970191751036"></string>
-    <string name="security_settings_face_enroll_introduction_footer_part_3" msgid="8708726599723727710"></string>
+    <string name="security_settings_face_enroll_introduction_footer_part_1" msgid="4438129587730915782"/>
+    <string name="security_settings_face_enroll_introduction_footer_part_3" msgid="8708726599723727710"/>
     <string name="security_settings_face_enroll_repeat_title" msgid="4446229670377418717">"Tengahkan wajah anda dalam bulatan"</string>
     <string name="security_settings_face_enroll_enrolling_skip" msgid="5568617401632528567">"Langkau"</string>
     <string name="face_add_max" msgid="4578405795494514876">"Anda boleh menambah sehingga <xliff:g id="COUNT">%d</xliff:g> wajah"</string>
@@ -387,10 +379,9 @@
     <string name="fingerprint_add_title" msgid="1837610443487902050">"Tambahkan cap jari"</string>
     <string name="fingerprint_enable_keyguard_toggle_title" msgid="5451094461919440992">"kunci skrin"</string>
     <plurals name="security_settings_fingerprint_preference_summary" formatted="false" msgid="988602245530967106">
-      <item quantity="other"><xliff:g id="COUNT_1">%1$d</xliff:g> cap jari disediakan</item>
-      <item quantity="one"><xliff:g id="COUNT_0">%1$d</xliff:g> cap jari disediakan</item>
+        <item quantity="other"><xliff:g id="COUNT_1">%1$d</xliff:g> cap jari disediakan</item>
+        <item quantity="one"><xliff:g id="COUNT_0">%1$d</xliff:g> cap jari disediakan</item>
     </plurals>
-    <string name="security_settings_fingerprint_preference_summary_none" msgid="1044059475710838504"></string>
     <string name="security_settings_fingerprint_enroll_introduction_title" msgid="521797365974277693">"Buka kunci dengan cap jari"</string>
     <string name="security_settings_fingerprint_enroll_introduction_title_unlock_disabled" msgid="1911710308293783998">"Gunakan cap jari anda"</string>
     <string name="security_settings_fingerprint_enroll_introduction_message" msgid="242123866344666054">"Hanya sentuh penderia cap jari untuk membuka kunci telefon anda, membenarkan pembelian atau mengelog masuk ke apl. Berhati-hati tentang cap jari yang anda tambahkan. Satu cap jari yang ditambahkan dapat melakukan mana-mana perkara ini.\n\nPerhatian: Cap jari anda mungkin kurang selamat berbading corak atau PIN yang kukuh."</string>
@@ -494,9 +485,7 @@
     <string name="suggested_lock_settings_summary" product="device" msgid="8479766049078378225">"Tetapkan kunci skrin untuk melindungi peranti"</string>
     <string name="suggested_lock_settings_summary" product="default" msgid="2443273582716671033">"Tetapkan kunci skrin untuk melindungi telefon"</string>
     <string name="suggested_fingerprint_lock_settings_title" msgid="3140266181874137984">"Tambahkan cap jari untuk membuka kunci"</string>
-    <string name="suggested_fingerprint_lock_settings_summary" product="tablet" msgid="1040265358906410746"></string>
-    <string name="suggested_fingerprint_lock_settings_summary" product="device" msgid="1040265358906410746"></string>
-    <string name="suggested_fingerprint_lock_settings_summary" product="default" msgid="1040265358906410746"></string>
+    <string name="suggested_fingerprint_lock_settings_summary" product="device" msgid="1040265358906410746"/>
     <string name="lock_settings_picker_title" msgid="9219376327364915334">"Pilih kunci skrin"</string>
     <string name="lock_settings_picker_title_profile" msgid="8377696902400733227">"Pilih kunci kerja"</string>
     <string name="setup_lock_settings_picker_title" product="tablet" msgid="1276283007274778191">"Lindungi tablet anda"</string>
@@ -518,7 +507,6 @@
     <string name="unlock_set_unlock_launch_picker_change_summary" msgid="6023813780512501969">"Tukar atau lumpuhkan corak, PIN atau keselamatan kata laluan"</string>
     <string name="unlock_set_unlock_launch_picker_enable_summary" msgid="1699993191343299179">"Pilih kaedah untuk mengunci skrin"</string>
     <string name="unlock_set_unlock_off_title" msgid="2831957685685921667">"Tiada"</string>
-    <string name="unlock_set_unlock_off_summary" msgid="4578319976164001322"></string>
     <string name="unlock_set_unlock_none_title" msgid="2844029875174409728">"Leret"</string>
     <string name="unlock_set_unlock_none_summary" msgid="641298008390890152">"Tiada keselamatan"</string>
     <string name="unlock_set_unlock_pattern_title" msgid="8224895208452995332">"Corak"</string>
@@ -605,21 +593,21 @@
     <string name="lock_failed_attempts_now_wiping_profile" msgid="3171880997211568208">"Terlalu banyak percubaan yang salah. Profil kerja ini dan data profil akan dipadamkan."</string>
     <string name="lock_failed_attempts_now_wiping_dialog_dismiss" msgid="170155081899679669">"Ketepikan"</string>
     <plurals name="lockpassword_password_too_short" formatted="false" msgid="2192234965414232157">
-      <item quantity="other">Mesti mengandungi sekurang-kurangnya <xliff:g id="COUNT_1">%d</xliff:g> aksara</item>
-      <item quantity="one">Mesti mengandungi sekurang-kurangnya <xliff:g id="COUNT_0">%d</xliff:g> aksara</item>
+        <item quantity="other">Mesti mengandungi sekurang-kurangnya <xliff:g id="COUNT_1">%d</xliff:g> aksara</item>
+        <item quantity="one">Mesti mengandungi sekurang-kurangnya <xliff:g id="COUNT_0">%d</xliff:g> aksara</item>
     </plurals>
     <plurals name="lockpassword_pin_too_short" formatted="false" msgid="6817086810898414162">
-      <item quantity="other">PIN mesti mengandungi sekurang-kurangnya <xliff:g id="COUNT_1">%d</xliff:g> digit</item>
-      <item quantity="one">PIN mesti mengandungi sekurang-kurangnya <xliff:g id="COUNT_0">%d</xliff:g> digit</item>
+        <item quantity="other">PIN mesti mengandungi sekurang-kurangnya <xliff:g id="COUNT_1">%d</xliff:g> digit</item>
+        <item quantity="one">PIN mesti mengandungi sekurang-kurangnya <xliff:g id="COUNT_0">%d</xliff:g> digit</item>
     </plurals>
     <string name="lockpassword_continue_label" msgid="2507983991979547816">"Teruskan"</string>
     <plurals name="lockpassword_password_too_long" formatted="false" msgid="8118091957172967677">
-      <item quantity="other">Mesti kurang daripada <xliff:g id="NUMBER_1">%d</xliff:g> aksara</item>
-      <item quantity="one">Mesti kurang daripada <xliff:g id="NUMBER_0">%d</xliff:g> aksara</item>
+        <item quantity="other">Mesti kurang daripada <xliff:g id="NUMBER_1">%d</xliff:g> aksara</item>
+        <item quantity="one">Mesti kurang daripada <xliff:g id="NUMBER_0">%d</xliff:g> aksara</item>
     </plurals>
     <plurals name="lockpassword_pin_too_long" formatted="false" msgid="8706992338720310765">
-      <item quantity="other">Mesti kurang daripada <xliff:g id="NUMBER_1">%d</xliff:g> digit</item>
-      <item quantity="one">Mesti kurang daripada <xliff:g id="NUMBER_0">%d</xliff:g> digit</item>
+        <item quantity="other">Mesti kurang daripada <xliff:g id="NUMBER_1">%d</xliff:g> digit</item>
+        <item quantity="one">Mesti kurang daripada <xliff:g id="NUMBER_0">%d</xliff:g> digit</item>
     </plurals>
     <string name="lockpassword_pin_recently_used" msgid="6650277060998923465">"Pentadbir peranti tidak membenarkan penggunaan PIN terbaharu"</string>
     <string name="lockpassword_pin_blacklisted_by_admin" msgid="115994274880232984">"PIN lazim disekat oleh pentadbir IT anda. Cuba PIN yang lain."</string>
@@ -628,32 +616,32 @@
     <string name="lockpassword_password_requires_digit" msgid="312518567592683795">"Mesti mengandungi sekurang-kurangnya satu digit"</string>
     <string name="lockpassword_password_requires_symbol" msgid="6178512486154701321">"Mesti mengandungi sekurang-kurangnya satu simbol"</string>
     <plurals name="lockpassword_password_requires_letters" formatted="false" msgid="2385916409676839024">
-      <item quantity="other">Mesti mengandungi sekurang-kurangnya <xliff:g id="COUNT">%d</xliff:g> huruf</item>
-      <item quantity="one">Mesti mengandungi sekurang-kurangnya 1 huruf</item>
+        <item quantity="other">Mesti mengandungi sekurang-kurangnya <xliff:g id="COUNT">%d</xliff:g> huruf</item>
+        <item quantity="one">Mesti mengandungi sekurang-kurangnya 1 huruf</item>
     </plurals>
     <plurals name="lockpassword_password_requires_lowercase" formatted="false" msgid="2057467885488612701">
-      <item quantity="other">Mesti mengandungi sekurang-kurangnya <xliff:g id="COUNT">%d</xliff:g> huruf kecil</item>
-      <item quantity="one">Mesti mengandungi sekurang-kurangnya 1 huruf kecil</item>
+        <item quantity="other">Mesti mengandungi sekurang-kurangnya <xliff:g id="COUNT">%d</xliff:g> huruf kecil</item>
+        <item quantity="one">Mesti mengandungi sekurang-kurangnya 1 huruf kecil</item>
     </plurals>
     <plurals name="lockpassword_password_requires_uppercase" formatted="false" msgid="4541266279643052025">
-      <item quantity="other">Mesti mengandungi sekurang-kurangnya <xliff:g id="COUNT">%d</xliff:g> huruf besar</item>
-      <item quantity="one">Mesti mengandungi sekurang-kurangnya 1 huruf besar</item>
+        <item quantity="other">Mesti mengandungi sekurang-kurangnya <xliff:g id="COUNT">%d</xliff:g> huruf besar</item>
+        <item quantity="one">Mesti mengandungi sekurang-kurangnya 1 huruf besar</item>
     </plurals>
     <plurals name="lockpassword_password_requires_numeric" formatted="false" msgid="70617964591376248">
-      <item quantity="other">Mesti mengandungi sekurang-kurangnya <xliff:g id="COUNT">%d</xliff:g> angka</item>
-      <item quantity="one">Mesti mengandungi sekurang-kurangnya 1 angka</item>
+        <item quantity="other">Mesti mengandungi sekurang-kurangnya <xliff:g id="COUNT">%d</xliff:g> angka</item>
+        <item quantity="one">Mesti mengandungi sekurang-kurangnya 1 angka</item>
     </plurals>
     <plurals name="lockpassword_password_requires_symbols" formatted="false" msgid="7981236881269921943">
-      <item quantity="other">Mesti mengandungi sekurang-kurangnya <xliff:g id="COUNT">%d</xliff:g> simbol khas</item>
-      <item quantity="one">Mesti mengandungi sekurang-kurangnya 1 simbol khas</item>
+        <item quantity="other">Mesti mengandungi sekurang-kurangnya <xliff:g id="COUNT">%d</xliff:g> simbol khas</item>
+        <item quantity="one">Mesti mengandungi sekurang-kurangnya 1 simbol khas</item>
     </plurals>
     <plurals name="lockpassword_password_requires_nonletter" formatted="false" msgid="1567877061888948467">
-      <item quantity="other">Mesti mengandungi sekurang-kurangnya <xliff:g id="COUNT">%d</xliff:g> aksara bukan huruf</item>
-      <item quantity="one">Mesti mengandungi sekurang-kurangnya 1 aksara bukan huruf</item>
+        <item quantity="other">Mesti mengandungi sekurang-kurangnya <xliff:g id="COUNT">%d</xliff:g> aksara bukan huruf</item>
+        <item quantity="one">Mesti mengandungi sekurang-kurangnya 1 aksara bukan huruf</item>
     </plurals>
     <plurals name="lockpassword_password_requires_nonnumerical" formatted="false" msgid="5056743974888384475">
-      <item quantity="other">Mesti mengandungi sekurang-kurangnya <xliff:g id="COUNT">%d</xliff:g> aksara bukan angka</item>
-      <item quantity="one">Mesti mengandungi sekurang-kurangnya 1 aksara bukan angka</item>
+        <item quantity="other">Mesti mengandungi sekurang-kurangnya <xliff:g id="COUNT">%d</xliff:g> aksara bukan angka</item>
+        <item quantity="one">Mesti mengandungi sekurang-kurangnya 1 aksara bukan angka</item>
     </plurals>
     <string name="lockpassword_password_recently_used" msgid="5341218079730167191">"Pentadbir peranti tidak membenarkan penggunaan kata laluan terbaharu"</string>
     <string name="lockpassword_password_blacklisted_by_admin" msgid="8956110268546396737">"Kata laluan lazim disekat oleh pentadbir IT anda. Cuba kata laluan yang lain."</string>
@@ -668,15 +656,15 @@
     <string name="manage_device_admin" msgid="1044620606203916275">"Apl pentadbir peranti"</string>
     <string name="number_of_device_admins_none" msgid="152926922020437312">"Tiada apl aktif"</string>
     <plurals name="number_of_device_admins" formatted="false" msgid="2528735319390151989">
-      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> apl aktif</item>
-      <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> apl aktif</item>
+        <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> apl aktif</item>
+        <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> apl aktif</item>
     </plurals>
     <string name="manage_trust_agents" msgid="6410149930029992356">"Ejen amanah"</string>
     <string name="disabled_because_no_backup_security" msgid="4998095356607488854">"Untuk menggunakan, mula-mula tetapkan kunci skrin"</string>
     <string name="manage_trust_agents_summary" msgid="6423843123607674286">"Tiada"</string>
     <plurals name="manage_trust_agents_summary_on" formatted="false" msgid="5438047398376802735">
-      <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> ejen amanah aktif</item>
-      <item quantity="one">1 ejen amanah aktif</item>
+        <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> ejen amanah aktif</item>
+        <item quantity="one">1 ejen amanah aktif</item>
     </plurals>
     <string name="bluetooth_quick_toggle_title" msgid="5955341060378240781">"Bluetooth"</string>
     <string name="bluetooth_quick_toggle_summary" msgid="5257744297562880017">"Hidupkan Bluetooth"</string>
@@ -695,7 +683,6 @@
     <string name="bluetooth_incoming_pairing_msg" msgid="1068123527866596779">"Dari:&lt;br&gt;&lt;b&gt;<xliff:g id="DEVICE_NAME">%1$s</xliff:g>&lt;/b&gt;&lt;br&gt;&lt;br&gt;Jadikan pasangan peranti ini?"</string>
     <string name="bluetooth_display_passkey_pin_msg" msgid="8672803845151786521">"Untuk berpasangan dengan:<xliff:g id="BOLD1_0">&lt;br&gt;&lt;b&gt;</xliff:g><xliff:g id="DEVICE_NAME">%1$s</xliff:g><xliff:g id="END_BOLD1">&lt;/b&gt;&lt;br&gt;&lt;br&gt;</xliff:g>Taip padanya:<xliff:g id="BOLD2_1">&lt;br&gt;&lt;b&gt;</xliff:g><xliff:g id="PASSKEY">%2$s</xliff:g><xliff:g id="END_BOLD2">&lt;/b&gt;</xliff:g>, kemudian tekan Kembali atau Enter."</string>
     <string name="bluetooth_pairing_shares_phonebook" msgid="4329325125260724843">"Benarkan akses kepada kenalan dan sejarah panggilan anda"</string>
-    <string name="bluetooth_error_title" msgid="2284738188253690278"></string>
     <string name="bluetooth_connecting_error_message" msgid="3941893154784152112">"Tidak dapat menyambung ke <xliff:g id="DEVICE_NAME">%1$s</xliff:g>."</string>
     <string name="bluetooth_preference_scan_title" msgid="3460316252463771851">"Imbas untuk mengesan peranti"</string>
     <string name="bluetooth_search_for_devices" msgid="6516902340975407648">"Muatkan semula"</string>
@@ -982,16 +969,16 @@
     <string name="wifi_forget_dialog_title" msgid="4363829200968563164">"Lupakan rangkaian?"</string>
     <string name="wifi_forget_dialog_message" msgid="8419499588321940243">"Semua kata laluan untuk rangkaian ini akan dipadamkan"</string>
     <plurals name="wifi_saved_access_points_summary" formatted="false" msgid="2802436466732147888">
-      <item quantity="other">%d rangkaian</item>
-      <item quantity="one">1 rangkaian</item>
+        <item quantity="other">%d rangkaian</item>
+        <item quantity="one">1 rangkaian</item>
     </plurals>
     <plurals name="wifi_saved_passpoint_access_points_summary" formatted="false" msgid="5802057518058840450">
-      <item quantity="other">%d langganan</item>
-      <item quantity="one">1 langganan</item>
+        <item quantity="other">%d langganan</item>
+        <item quantity="one">1 langganan</item>
     </plurals>
     <plurals name="wifi_saved_all_access_points_summary" formatted="false" msgid="5125849180309374451">
-      <item quantity="other">%d rangkaian &amp; langganan</item>
-      <item quantity="one">1 rangkaian &amp; langganan</item>
+        <item quantity="other">%d rangkaian &amp; langganan</item>
+        <item quantity="one">1 rangkaian &amp; langganan</item>
     </plurals>
     <string name="wifi_advanced_titlebar" msgid="1234150304285575798">"Wi-Fi Lanjutan"</string>
     <string name="wifi_advanced_ssid_title" msgid="1561437650193980185">"SSID"</string>
@@ -1005,7 +992,7 @@
     <string name="wifi_saved_access_points_label" msgid="5691340724310548151">"Rangkaian disimpan"</string>
     <string name="wifi_subscribed_access_points_tab" msgid="7224061396195667208">"Langganan"</string>
     <!-- no translation found for wifi_saved_access_points_tab (2075914709522121708) -->
-    <skip />
+    <skip/>
     <string name="wifi_advanced_settings_label" msgid="5880605751602184383">"Tetapan IP"</string>
     <string name="wifi_advanced_not_available" msgid="8701003884367299092">"Tetapan terperinci Wi-Fi tidak tersedia untuk pengguna ini"</string>
     <string name="wifi_ip_settings_menu_save" msgid="5190481040428567106">"Simpan"</string>
@@ -1075,22 +1062,21 @@
     <string name="wifi_calling_mode_dialog_title" msgid="944146521898592440">"Pilihan panggilan"</string>
     <string name="wifi_calling_roaming_mode_title" msgid="7703305991991520773">"Pilihan perayauan"</string>
     <!-- no translation found for wifi_calling_roaming_mode_summary (6061631305384464179) -->
-    <skip />
+    <skip/>
     <string name="wifi_calling_roaming_mode_dialog_title" msgid="5382466713784067077">"Pilihan perayauan"</string>
-  <string-array name="wifi_calling_mode_choices_v2">
-    <item msgid="6052353275413974742">"Wi-Fi"</item>
-    <item msgid="8622872038388687383">"Mudah alih"</item>
-    <item msgid="3027927219952052398">"Wi-Fi sahaja"</item>
-  </string-array>
-  <string-array name="wifi_calling_mode_choices_v2_without_wifi_only">
-    <item msgid="588620799769664461">"Wi-Fi"</item>
-    <item msgid="7566603075659706590">"Mudah alih"</item>
-  </string-array>
+    <string-array name="wifi_calling_mode_choices_v2">
+        <item msgid="6052353275413974742">"Wi-Fi"</item>
+        <item msgid="8622872038388687383">"Mudah alih"</item>
+        <item msgid="3027927219952052398">"Wi-Fi sahaja"</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_choices_v2_without_wifi_only">
+        <item msgid="588620799769664461">"Wi-Fi"</item>
+        <item msgid="7566603075659706590">"Mudah alih"</item>
+    </string-array>
     <string name="wifi_calling_mode_wifi_preferred_summary" msgid="3240387177966098351">"Jika Wi-Fi tidak tersedia, gunakan rangkaian mudah alih"</string>
     <string name="wifi_calling_mode_cellular_preferred_summary" msgid="3746914244902314059">"Jika rangkaian mudah alih tidak tersedia, gunakan Wi-Fi"</string>
     <string name="wifi_calling_mode_wifi_only_summary" msgid="3155660680014892641">"Panggil melalui Wi‑Fi. Jika Wi-Fi terputus, panggilan akan ditamatkan."</string>
     <string name="wifi_calling_off_explanation" msgid="6295526820826322895">"Apabila panggilan Wi-Fi dihidupkan, telefon anda boleh menghalakan panggilan melalui rangkaian Wi-Fi atau rangkaian pembawa anda, bergantung pada pilihan anda dan isyarat yang lebih kuat. Sebelum menghidupkan ciri ini, semak dengan pembawa anda berkenaan bayaran dan butiran lain.<xliff:g id="ADDITIONAL_TEXT">%1$s</xliff:g>"</string>
-    <string name="wifi_calling_off_explanation_2" msgid="3487475808574416183"></string>
     <string name="emergency_address_title" msgid="3490633500025717573">"Alamat Kecemasan"</string>
     <string name="emergency_address_summary" msgid="3022628750270626473">"Digunakan sebagai lokasi anda apabila anda membuat panggilan kecemasan melalui Wi-Fi"</string>
     <string name="private_dns_help_message" msgid="851221502063782306"><annotation id="url">"Ketahui lebih lanjut"</annotation>" tentang ciri DNS Peribadi"</string>
@@ -1188,7 +1174,6 @@
     <string name="auto_brightness_disclaimer" msgid="1868395832774087351">"Optimumkan tahap kecerahan untuk cahaya tersedia. Apabila dihidupkan, anda dapat melaraskan kecerahan utk sementara."</string>
     <string name="auto_brightness_description" msgid="6807117118142381193">"Kecerahan skrin anda akan dilaraskan secara automatik dengan persekitaran dan aktiviti. Anda boleh mengalihkan peluncur secara manual untuk membantu kecerahan mudah suai mempelajari pilihan anda."</string>
     <string name="display_white_balance_title" msgid="2624544323029364713">"Paparkan imbangan putih"</string>
-    <string name="display_white_balance_summary" msgid="7625456704950209050"></string>
     <string name="peak_refresh_rate_title" msgid="1878771412897140903">"Smooth Display"</string>
     <string name="peak_refresh_rate_summary" msgid="1527087897198455042">"Meningkatkan kadar muat semula daripada 60 kepada 90 Hz untuk sesetengah kandungan secara automatik. Meningkatkan penggunaan bateri."</string>
     <string name="force_high_refresh_rate_toggle" msgid="5861514655252832828">"Paksa kadar muat semula 90 Hz"</string>
@@ -1320,13 +1305,12 @@
     <string name="sim_preferred_message" msgid="6004009449266648351">"<xliff:g id="NEW_SIM">%1$s</xliff:g> merupakan satu-satunya SIM dalam peranti anda. Adakah anda mahu menggunakan SIM ini untuk data mudah alih, panggilan dan mesej SMS?"</string>
     <string name="wrong_pin_code_pukked" msgid="3414172752791445033">"Kod PIN SIM tidak betul, jadi anda harus menghubungi pembawa anda untuk membuka kunci peranti."</string>
     <plurals name="wrong_pin_code" formatted="false" msgid="4054088588731305475">
-      <item quantity="other">Kod PIN SIM salah, anda ada <xliff:g id="NUMBER_1">%d</xliff:g> cubaan lagi.</item>
-      <item quantity="one">Kod PIN SIM tidak betul. Anda ada <xliff:g id="NUMBER_0">%d</xliff:g> cubaan lagi sebelum anda harus menghubungi pembawa anda untuk membuka kunci peranti.</item>
+        <item quantity="other">Kod PIN SIM salah, anda ada <xliff:g id="NUMBER_1">%d</xliff:g> cubaan lagi.</item>
+        <item quantity="one">Kod PIN SIM tidak betul. Anda ada <xliff:g id="NUMBER_0">%d</xliff:g> cubaan lagi sebelum anda harus menghubungi pembawa anda untuk membuka kunci peranti.</item>
     </plurals>
     <string name="wrong_pin_code_one" msgid="6924852214263071441">"Kod PIN SIM salah. Anda mempunyai 1 percubaan lagi sebelum perlu menghubungi pembawa anda untuk membuka kunci peranti."</string>
     <string name="pin_failed" msgid="3726505565797352255">"Operasi PIN SIM gagal!"</string>
     <string name="system_update_settings_list_item_title" msgid="3398346836439366350">"Kemas kini sistem"</string>
-    <string name="system_update_settings_list_item_summary" msgid="6703752298349642101"></string>
     <string name="firmware_version" msgid="1606901586501447275">"Versi Android"</string>
     <string name="security_patch" msgid="4071756145347865382">"Kemas kini keselamatan Android"</string>
     <string name="model_info" msgid="8997566254717810904">"Model"</string>
@@ -1403,8 +1387,7 @@
     <string name="sd_insert_summary" product="default" msgid="5949168259622002192">"Masukkan kad SD untuk dilekapkan"</string>
     <string name="sd_mount" product="nosdcard" msgid="8305985249945415150">"Lekap storan USB"</string>
     <string name="sd_mount" product="default" msgid="5279813999455776169">"Lekapkan kad SD"</string>
-    <string name="sd_mount_summary" product="nosdcard" msgid="2190410240845521205"></string>
-    <string name="sd_mount_summary" product="default" msgid="2190410240845521205"></string>
+    <string name="sd_mount_summary" product="default" msgid="2190410240845521205"/>
     <string name="sd_format" product="nosdcard" msgid="8657427883364711513">"Padamkan storan USB"</string>
     <string name="sd_format" product="default" msgid="9085302892248732329">"Padam kad SD"</string>
     <string name="sd_format_summary" product="nosdcard" msgid="6179784504937189658">"Memadamkan semua data pada storan USB dalaman, seperti muzik dan foto"</string>
@@ -1416,8 +1399,7 @@
     <string name="dlg_confirm_unmount_title" product="default" msgid="8251329019960361646">"Nyahlekap kad SD?"</string>
     <string name="dlg_confirm_unmount_text" product="nosdcard" msgid="1212025106709645023">"Jika anda menyahlekap storan USB, sesetengah aplikasi yang anda sedang gunakan akan berhenti dan menjadi tidak tersedia sehingga anda melekapkan semula storan USB."</string>
     <string name="dlg_confirm_unmount_text" product="default" msgid="3887768438615563697">"Jika anda menyahlekap kad SD, sesetengah aplikasi yang anda gunakan akan terhenti dan mungkin tidak tersedia sehingga anda melekapkan semula kad SD itu."</string>
-    <string name="dlg_error_unmount_title" product="nosdcard" msgid="2205587942165199845"></string>
-    <string name="dlg_error_unmount_title" product="default" msgid="2205587942165199845"></string>
+    <string name="dlg_error_unmount_title" product="default" msgid="2205587942165199845"/>
     <string name="dlg_error_unmount_text" product="nosdcard" msgid="7876201891724279436">"Tidak boleh menyahlekap storan USB. Cuba sebentar lagi."</string>
     <string name="dlg_error_unmount_text" product="default" msgid="2185659901137961711">"Tidak boleh menyahlekap kad SD. Cuba sebentar lagi."</string>
     <string name="unmount_inform_text" product="nosdcard" msgid="5932607205977999175">"Storan USB akan dinyahlekapkan."</string>
@@ -1579,7 +1561,6 @@
     <string name="menu_new" msgid="6571230342655509006">"APN Baharu"</string>
     <string name="menu_save" msgid="6611465355127483100">"Simpan"</string>
     <string name="menu_cancel" msgid="4526003389139913077">"Buang"</string>
-    <string name="error_title" msgid="7158648377702417716"></string>
     <string name="error_name_empty" msgid="1258275899283079142">"Medan Nama tidak boleh kosong."</string>
     <string name="error_apn_empty" msgid="7657491065443746915">"APN tidak boleh kosong."</string>
     <string name="error_mcc_not3" msgid="883659545640179094">"Medan MCC mestilah 3 digit."</string>
@@ -1703,8 +1684,8 @@
     <string name="location_app_level_permissions" msgid="45436724900423656">"Akses apl kepada lokasi"</string>
     <string name="location_app_permission_summary_location_off" msgid="2711822936853500335">"Lokasi dimatikan"</string>
     <plurals name="location_app_permission_summary_location_on" formatted="false" msgid="8286873148858526214">
-      <item quantity="other"> <xliff:g id="PERMITTED_LOCATION_APP_COUNT_2">%1$d</xliff:g> daripada <xliff:g id="TOTAL_LOCATION_APP_COUNT_3">%2$d</xliff:g> apl mempunyai akses kepada lokasi</item>
-      <item quantity="one"> <xliff:g id="PERMITTED_LOCATION_APP_COUNT_0">%1$d</xliff:g> daripada <xliff:g id="TOTAL_LOCATION_APP_COUNT_1">%2$d</xliff:g> apl mempunyai akses kepada lokasi</item>
+        <item quantity="other"> <xliff:g id="PERMITTED_LOCATION_APP_COUNT_2">%1$d</xliff:g> daripada <xliff:g id="TOTAL_LOCATION_APP_COUNT_3">%2$d</xliff:g> apl mempunyai akses kepada lokasi</item>
+        <item quantity="one"> <xliff:g id="PERMITTED_LOCATION_APP_COUNT_0">%1$d</xliff:g> daripada <xliff:g id="TOTAL_LOCATION_APP_COUNT_1">%2$d</xliff:g> apl mempunyai akses kepada lokasi</item>
     </plurals>
     <string name="location_category_recent_location_access" msgid="7880996987927703141">"Akses lokasi terbaharu"</string>
     <string name="location_recent_location_access_view_details" msgid="5803264082558504544">"Lihat butiran"</string>
@@ -1851,8 +1832,8 @@
     <string name="install_applications_title" msgid="7890233747559108106">"Benarkan semua sumber apl"</string>
     <string name="recent_app_category_title" msgid="189758417804427533">"Apl yang dibuka baru-baru ini"</string>
     <plurals name="see_all_apps_title" formatted="false" msgid="6864581406735745400">
-      <item quantity="other">Lihat semua %1$d apl</item>
-      <item quantity="one">Lihat semua apl</item>
+        <item quantity="other">Lihat semua %1$d apl</item>
+        <item quantity="one">Lihat semua apl</item>
     </plurals>
     <string name="forgot_password_title" msgid="3967873480875239885">"Hubungi pentadbir IT anda"</string>
     <string name="forgot_password_text" msgid="2583194470767613163">"Mereka dapat membantu anda menetapkan semula PIN, corak atau kata laluan"</string>
@@ -1877,8 +1858,8 @@
     <string name="clear_cache_btn_text" msgid="8597272828928143723">"Kosongkan cache"</string>
     <string name="cache_size_label" msgid="313456088966822757">"Cache"</string>
     <plurals name="uri_permissions_text" formatted="false" msgid="8212425823423508096">
-      <item quantity="other">%d item</item>
-      <item quantity="one">1 item</item>
+        <item quantity="other">%d item</item>
+        <item quantity="one">1 item</item>
     </plurals>
     <string name="clear_uri_btn_text" msgid="4828117421162495134">"Padam bersih akses"</string>
     <string name="controls_label" msgid="8671492254263626383">"Kawalan"</string>
@@ -1933,7 +1914,6 @@
     <string name="clear_data_dlg_text" msgid="1107610960337399006">"Data apl ini akan dipadamkan secara kekal. Kandungan ini termasuk fail, tetapan, pangkalan data dan data apl yang lain."</string>
     <string name="dlg_ok" msgid="1421350367857960997">"OK"</string>
     <string name="dlg_cancel" msgid="5164705061530774899">"Batal"</string>
-    <string name="app_not_found_dlg_title" msgid="7122106240981109930"></string>
     <string name="app_not_found_dlg_text" msgid="8634675268730513704">"Aplikasi tidak ditemui dalam senarai aplikasi yang dipasang."</string>
     <string name="clear_failed_dlg_text" msgid="6866741916836125732">"Tidak dapat mengosongkan storan untuk apl."</string>
     <string name="join_two_items" msgid="7893073836681382429">"<xliff:g id="FIRST_ITEM">%1$s</xliff:g> da <xliff:g id="SECOND_ITEM">%2$s</xliff:g>"</string>
@@ -1973,12 +1953,12 @@
     <string name="no_running_services" msgid="9079738069349859373">"Tiada apa-apa yang dijalankan."</string>
     <string name="service_started_by_app" msgid="6845028506417670179">"Dimulakan oleh aplikasi."</string>
     <!-- no translation found for service_client_name (2210898622981598861) -->
-    <skip />
+    <skip/>
     <string name="service_background_processes" msgid="2800539421534521948">"<xliff:g id="MEMORY">%1$s</xliff:g> bebas"</string>
     <string name="service_foreground_processes" msgid="6380905887193621704">"<xliff:g id="MEMORY">%1$s</xliff:g> diguna"</string>
     <string name="memory" msgid="5253757199926592074">"RAM"</string>
     <!-- no translation found for service_process_name (7827318358399776412) -->
-    <skip />
+    <skip/>
     <string name="running_process_item_user_label" msgid="1444898861984132133">"Pengguna: <xliff:g id="USER_NAME">%1$s</xliff:g>"</string>
     <string name="running_process_item_removed_user_label" msgid="4812732296696662613">"Pengguna dialih keluar"</string>
     <string name="running_processes_item_description_s_s" msgid="6835918861352501671">"<xliff:g id="NUMPROCESS">%1$d</xliff:g> proses dan <xliff:g id="NUMSERVICES">%2$d</xliff:g> perkhidmatan"</string>
@@ -2010,16 +1990,13 @@
     <string name="runningservicedetails_stop_dlg_text" product="tablet" msgid="2076922609580490122">"Jika anda menghentikan perkhidmatan ini, beberapa ciri-ciri tablet anda boleh berhenti berfungsi dengan betul sehingga anda mematikannya dan kemudian menghidupkannya semula."</string>
     <string name="runningservicedetails_stop_dlg_text" product="default" msgid="2625863973434309085">"Jika anda menghentikan perkhidmatan ini, beberapa ciri telefon anda boleh berhenti berfungsi dengan betul sehingga anda mematikannya dan kemudian menghidupkannya semula."</string>
     <string name="language_input_gesture_title" msgid="3292455685728572960">"Bahasa, masukan &amp; gerak isyarat"</string>
-    <string name="language_input_gesture_summary_on_with_assist" msgid="8670153838520237089"></string>
-    <string name="language_input_gesture_summary_on_non_assist" msgid="2738661322747920463"></string>
-    <string name="language_input_gesture_summary_off" msgid="1604575860215661606"></string>
+    <string name="language_input_gesture_summary_on_non_assist" msgid="2738661322747920463"/>
     <string name="language_settings" msgid="8700174277543875046">"Bahasa &amp; input"</string>
     <string name="language_empty_list_user_restricted" msgid="8050367405839231863">"Anda tiada kebenaran untuk menukar bahasa peranti."</string>
     <string name="language_keyboard_settings_title" msgid="7934844313233544557">"Bahasa &amp; input"</string>
     <string name="input_assistance" msgid="3437568284144952104">"Alatan"</string>
     <string name="keyboard_settings_category" msgid="5392847229300117064">"Papan kekunci &amp; kaedah input"</string>
     <string name="phone_language" msgid="5986939176239963826">"Bahasa"</string>
-    <string name="phone_language_summary" msgid="863041222809685325"></string>
     <string name="auto_replace" msgid="4830732960264447043">"Autoganti"</string>
     <string name="auto_replace_summary" msgid="1285443414597153423">"Betulkan perkataan yang ditaip salah"</string>
     <string name="auto_caps" msgid="5573583581288305355">"Auto huruf besar"</string>
@@ -2057,7 +2034,6 @@
     <string name="keyboard_layout_picker_title" msgid="240504762718562906">"Susun atur papan kekunci"</string>
     <string name="user_dict_settings_title" msgid="680410651924276991">"Kamus peribadi"</string>
     <string name="user_dict_settings_for_work_title" msgid="1245315720684961770">"Kamus peribadi untuk kerja"</string>
-    <string name="user_dict_settings_summary" msgid="262228126041933459"></string>
     <string name="user_dict_settings_add_menu_title" msgid="8046882347281382968">"Tambah"</string>
     <string name="user_dict_settings_add_dialog_title" msgid="3485845465134083084">"Tambah ke kamus"</string>
     <string name="user_dict_settings_add_screen_title" msgid="1866408024073475379">"Frasa"</string>
@@ -2237,8 +2213,8 @@
     <string name="accessibility_hearingaid_pair_instructions_message" msgid="8913409742121315657">"Untuk menggandingkan alat bantu pendengaran anda, cari dan ketik peranti anda pada skrin seterusnya. Pastikan alat bantu pendengaran berada dalam mod gandingan."</string>
     <string name="accessibility_hearingaid_active_device_summary" msgid="509703438222873967">"<xliff:g id="DEVICE_NAME">%1$s</xliff:g> aktif"</string>
     <plurals name="show_number_hearingaid_count" formatted="false" msgid="776000580683647556">
-      <item quantity="other"><xliff:g id="NUMBER_DEVICE_COUNT_1">%1$d</xliff:g> alat bantu pendengaran disimpan</item>
-      <item quantity="one"><xliff:g id="NUMBER_DEVICE_COUNT_0">%1$d</xliff:g> alat bantu pendengaran disimpan</item>
+        <item quantity="other"><xliff:g id="NUMBER_DEVICE_COUNT_1">%1$d</xliff:g> alat bantu pendengaran disimpan</item>
+        <item quantity="one"><xliff:g id="NUMBER_DEVICE_COUNT_0">%1$d</xliff:g> alat bantu pendengaran disimpan</item>
     </plurals>
     <string name="accessibility_summary_shortcut_enabled" msgid="4030427268146752644">"Pintasan dihidupkan"</string>
     <string name="accessibility_summary_shortcut_disabled" msgid="564005462092499068">"Mati"</string>
@@ -2255,20 +2231,20 @@
     <string name="daltonizer_mode_protanomaly_summary" msgid="482834207025141433">"Merah-hijau"</string>
     <string name="daltonizer_mode_tritanomaly_summary" msgid="2837137091067433059">"Biru-Kuning"</string>
     <plurals name="accessibilty_autoclick_preference_subtitle_short_delay" formatted="false" msgid="5354221071353645263">
-      <item quantity="other">Singkat (<xliff:g id="CLICK_DELAY_LABEL_1">%1$s</xliff:g> saat)</item>
-      <item quantity="one">Singkat (<xliff:g id="CLICK_DELAY_LABEL_0">%1$s</xliff:g> saat)</item>
+        <item quantity="other">Singkat (<xliff:g id="CLICK_DELAY_LABEL_1">%1$s</xliff:g> saat)</item>
+        <item quantity="one">Singkat (<xliff:g id="CLICK_DELAY_LABEL_0">%1$s</xliff:g> saat)</item>
     </plurals>
     <plurals name="accessibilty_autoclick_preference_subtitle_medium_delay" formatted="false" msgid="1550891909800510628">
-      <item quantity="other">Sederhana (<xliff:g id="CLICK_DELAY_LABEL_1">%1$s</xliff:g> saat)</item>
-      <item quantity="one">Sederhana (<xliff:g id="CLICK_DELAY_LABEL_0">%1$s</xliff:g> saat)</item>
+        <item quantity="other">Sederhana (<xliff:g id="CLICK_DELAY_LABEL_1">%1$s</xliff:g> saat)</item>
+        <item quantity="one">Sederhana (<xliff:g id="CLICK_DELAY_LABEL_0">%1$s</xliff:g> saat)</item>
     </plurals>
     <plurals name="accessibilty_autoclick_preference_subtitle_long_delay" formatted="false" msgid="2230755548820485984">
-      <item quantity="other">Panjang (<xliff:g id="CLICK_DELAY_LABEL_1">%1$s</xliff:g> saat)</item>
-      <item quantity="one">Panjang (<xliff:g id="CLICK_DELAY_LABEL_0">%1$s</xliff:g> saat)</item>
+        <item quantity="other">Panjang (<xliff:g id="CLICK_DELAY_LABEL_1">%1$s</xliff:g> saat)</item>
+        <item quantity="one">Panjang (<xliff:g id="CLICK_DELAY_LABEL_0">%1$s</xliff:g> saat)</item>
     </plurals>
     <plurals name="accessibilty_autoclick_delay_unit_second" formatted="false" msgid="4537791441118261556">
-      <item quantity="other"><xliff:g id="CLICK_DELAY_LABEL_2">%1$s</xliff:g> saat</item>
-      <item quantity="one"><xliff:g id="CLICK_DELAY_LABEL_0">%1$s</xliff:g> saat</item>
+        <item quantity="other"><xliff:g id="CLICK_DELAY_LABEL_2">%1$s</xliff:g> saat</item>
+        <item quantity="one"><xliff:g id="CLICK_DELAY_LABEL_0">%1$s</xliff:g> saat</item>
     </plurals>
     <string name="accessibility_vibration_summary" msgid="27904038683405084">"Dering <xliff:g id="SUMMARY_RING">%1$s</xliff:g>, pemberitahuan <xliff:g id="SUMMARY_NOTIFICATION">%2$s</xliff:g>, sentuhan <xliff:g id="SUMMARY_TOUCH">%3$s</xliff:g>"</string>
     <string name="accessibility_vibration_summary_off" msgid="7776105450117095736">"Dering &amp; pemberitahuan ditetapkan kepada mati"</string>
@@ -2339,12 +2315,12 @@
     <string name="print_settings" msgid="8519810615863882491">"Pencetakan"</string>
     <string name="print_settings_summary_no_service" msgid="6721731154917653862">"Mati"</string>
     <plurals name="print_settings_summary" formatted="false" msgid="1034273609054146099">
-      <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> perkhidmatan cetak dihidupkan</item>
-      <item quantity="one">1 perkhidmatan cetak dihidupkan</item>
+        <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> perkhidmatan cetak dihidupkan</item>
+        <item quantity="one">1 perkhidmatan cetak dihidupkan</item>
     </plurals>
     <plurals name="print_jobs_summary" formatted="false" msgid="3933688846338306536">
-      <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> tugas cetak</item>
-      <item quantity="one">1 tugas cetak</item>
+        <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> tugas cetak</item>
+        <item quantity="one">1 tugas cetak</item>
     </plurals>
     <string name="print_settings_title" msgid="7680498284751129935">"Perkhidmatan cetak"</string>
     <string name="print_no_services_installed" msgid="7554057966540602692">"Tiada perkhidmatan dipasangkan"</string>
@@ -2401,7 +2377,7 @@
     <string name="battery_stats_wake_lock_label" msgid="8115041205778441548">"Berjaga"</string>
     <string name="battery_stats_phone_signal_label" msgid="679649411998679555">"Isyarat rangkaian"</string>
     <!-- no translation found for battery_stats_last_duration (3088100394725340600) -->
-    <skip />
+    <skip/>
     <string name="awake" msgid="5405871714019268978">"Waktu jaga peranti"</string>
     <string name="wifi_on_time" msgid="3880778525760926066">"Masa hidup Wi-Fi"</string>
     <string name="bluetooth_on_time" msgid="8424625554628450028">"Masa hidup Wi-Fi"</string>
@@ -2436,24 +2412,24 @@
     <string name="battery_tip_dialog_message" product="device" msgid="2620789680336796054">"Peranti anda telah digunakan lebih kerap berbanding biasa. Bateri anda mungkin kehabisan lebih cepat daripada jangkaan.\n\nApl yang paling banyak digunakan mengikut penggunaan bateri:"</string>
     <string name="battery_tip_dialog_message_footer" msgid="986542164372177504">"Termasuk aktiviti latar belakang kuasa tinggi"</string>
     <plurals name="battery_tip_restrict_title" formatted="false" msgid="3108195491484891588">
-      <item quantity="other">Hadkan %1$d apl</item>
-      <item quantity="one">Hadkan %1$d apl</item>
+        <item quantity="other">Hadkan %1$d apl</item>
+        <item quantity="one">Hadkan %1$d apl</item>
     </plurals>
     <plurals name="battery_tip_restrict_handled_title" formatted="false" msgid="5862649927574803958">
-      <item quantity="other">%2$d apl disekat baru-baru ini</item>
-      <item quantity="one">%1$s disekat baru-baru ini</item>
+        <item quantity="other">%2$d apl disekat baru-baru ini</item>
+        <item quantity="one">%1$s disekat baru-baru ini</item>
     </plurals>
     <plurals name="battery_tip_restrict_summary" formatted="false" msgid="3328499737453686910">
-      <item quantity="other">%2$d apl menunjukkan penggunaan bateri latar belakang yang tinggi</item>
-      <item quantity="one">%1$s menunjukkan penggunaan bateri latar belakang yang tinggi</item>
+        <item quantity="other">%2$d apl menunjukkan penggunaan bateri latar belakang yang tinggi</item>
+        <item quantity="one">%1$s menunjukkan penggunaan bateri latar belakang yang tinggi</item>
     </plurals>
     <plurals name="battery_tip_restrict_handled_summary" formatted="false" msgid="3036853535034350991">
-      <item quantity="other">Apl ini tidak dapat dijalankan di latar belakang</item>
-      <item quantity="one">Apl ini tidak dapat dijalankan di latar belakang</item>
+        <item quantity="other">Apl ini tidak dapat dijalankan di latar belakang</item>
+        <item quantity="one">Apl ini tidak dapat dijalankan di latar belakang</item>
     </plurals>
     <plurals name="battery_tip_restrict_app_dialog_title" formatted="false" msgid="7897944678619251740">
-      <item quantity="other">Hadkan %1$d apl?</item>
-      <item quantity="one">Hadkan apl?</item>
+        <item quantity="other">Hadkan %1$d apl?</item>
+        <item quantity="one">Hadkan apl?</item>
     </plurals>
     <string name="battery_tip_restrict_app_dialog_message" msgid="137856003724730751">"Untuk menjimatkan bateri, hentikan <xliff:g id="APP">%1$s</xliff:g> daripada menggunakan bateri di latar belakang. Apl ini mungkin tidak berfungsi dengan betul dan pemberitahuan mungkin ditangguhkan."</string>
     <string name="battery_tip_restrict_apps_less_than_5_dialog_message" msgid="5894648804112181324">"Untuk menjimatkan bateri, hentikan apl ini daripada menggunakan bateri di latar belakang. Apl terhad mungkin tidak berfungsi dengan betul dan pemberitahuan mungkin ditangguhkan.\n\nApl:"</string>
@@ -2472,8 +2448,8 @@
     <string name="smart_battery_footer" msgid="8407121907452993645">"Apabila Pengurus Bateri mengesan apl menyusutkan bateri, anda diberikan pilihan untuk mengehadkan apl ini. Apl terhad mungkin tidak berfungsi dengan betul dan pemberitahuan mungkin ditangguhkan."</string>
     <string name="restricted_app_title" msgid="6585080822121007436">"Apl terhad"</string>
     <plurals name="restricted_app_summary" formatted="false" msgid="6059772951505411003">
-      <item quantity="other">Mengehadkan penggunaan bateri untuk %1$d apl</item>
-      <item quantity="one">Mengehadkan penggunaan bateri untuk %1$d apl</item>
+        <item quantity="other">Mengehadkan penggunaan bateri untuk %1$d apl</item>
+        <item quantity="one">Mengehadkan penggunaan bateri untuk %1$d apl</item>
     </plurals>
     <string name="restricted_app_time_summary" msgid="3097721884155913252">"Terhad <xliff:g id="TIME">%1$s</xliff:g>"</string>
     <string name="restricted_app_detail_footer" msgid="3683577206409650564">"Apl ini telah menggunakan bateri di latar belakang. Apl terhad mungkin tidak berfungsi dengan betul dan pemberitahuan mungkin ditangguhkan."</string>
@@ -2482,8 +2458,8 @@
     <string name="battery_manager_on" product="default" msgid="3197525907390349054">"Hidup / Mengesan apabila apl menyusutkan bateri"</string>
     <string name="battery_manager_off" msgid="673547668722420924">"Mati"</string>
     <plurals name="battery_manager_app_restricted" formatted="false" msgid="6714534362166394848">
-      <item quantity="other">%1$d apl disekat</item>
-      <item quantity="one">%1$d apl disekat</item>
+        <item quantity="other">%1$d apl disekat</item>
+        <item quantity="one">%1$d apl disekat</item>
     </plurals>
     <string name="battery_header_title_alternate" msgid="8371821625994616659">"<xliff:g id="NUMBER">^1</xliff:g>"<small>" "<font size="20">"<xliff:g id="UNIT">%</xliff:g>"</font></small>""</string>
     <string name="battery_missing_message" msgid="5202575301365811053">"Masalah membaca meter bateri anda"</string>
@@ -2605,7 +2581,7 @@
     <string name="battery_saver_sticky_description_new" product="tablet" msgid="6740553373344759992">"Penjimat Bateri dimatikan apabila tablet anda pada <xliff:g id="PERCENT">%1$s</xliff:g>"</string>
     <string name="battery_saver_sticky_description_new" product="device" msgid="8512106347424406909">"Penjimat Bateri dimatikan apabila peranti anda pada <xliff:g id="PERCENT">%1$s</xliff:g>"</string>
     <!-- no translation found for battery_saver_seekbar_title (3712266470054006641) -->
-    <skip />
+    <skip/>
     <string name="battery_saver_seekbar_title_placeholder" msgid="7141264642540687540">"Hidupkan"</string>
     <string name="battery_saver_master_switch_title" msgid="3474312070095834915">"Gunakan Penjimat Bateri"</string>
     <string name="battery_saver_turn_on_automatically_title" msgid="7857393318205740864">"Hidupkan secara automatik"</string>
@@ -2712,7 +2688,6 @@
     <string name="auto_restore_summary" msgid="6830198851045584001">"Apabila memasang semula aplikasi, pulihkan tetapan dan data yang disandarkan"</string>
     <string name="backup_inactive_title" msgid="6753265378043349277">"Perkhidmatan sandaran tidak aktif"</string>
     <string name="backup_configure_account_default_summary" msgid="5323225330966306690">"Tiada akaun yang sedang menyimpan data sandaran buat masa ini"</string>
-    <string name="backup_erase_dialog_title" msgid="5892431263348766484"></string>
     <string name="backup_erase_dialog_message" msgid="2250872501409574331">"Berhenti membuat sandaran kata laluan Wi-Fi anda, penanda halaman, tetapan lain dan data apl serta padamkan semua salinan pada pelayan Google?"</string>
     <string name="fullbackup_erase_dialog_message" msgid="2379053988557486162">"Berhenti menyandarkan data peranti (seperti kata laluan Wi-Fi dan sejarah panggilan) dan data apl (seperti tetapan dan fail yang disimpan oleh apl), serta padamkan semua salinan pada pelayan jauh?"</string>
     <string name="fullbackup_data_summary" msgid="971587401251601473">"Sandarkan data peranti (seperti kata laluan Wi-Fi dan sejarah panggilan) dan data apl (seperti tetapan dan fail yang disimpan mengikut apl) dari jauh secara automatik.\n\nApabila anda menghidupkan sandaran automatik, data peranti dan apl disimpan secara berkala dari jauh. Data apl boleh terdiri daripada sebarang data yang telah disimpan oleh apl (berdasarkan tetapan pembangun), termasuk data yang berkemungkinan sensitif, seperti kenalan, mesej dan foto."</string>
@@ -2741,8 +2716,8 @@
     <string name="notification_history_snooze" msgid="3980568893290512257">"Ditunda"</string>
     <string name="notification_history_dismiss" msgid="6180321217375722918">"Diketepikan baru-baru ini"</string>
     <plurals name="notification_history_count" formatted="false" msgid="1859304685071321991">
-      <item quantity="other"><xliff:g id="NUMBER_1">%d</xliff:g> pemberitahuan</item>
-      <item quantity="one"><xliff:g id="NUMBER_0">%d</xliff:g> pemberitahuan</item>
+        <item quantity="other"><xliff:g id="NUMBER_1">%d</xliff:g> pemberitahuan</item>
+        <item quantity="one"><xliff:g id="NUMBER_0">%d</xliff:g> pemberitahuan</item>
     </plurals>
     <string name="sound_category_call_ringtone_vibrate_title" msgid="9090693401915654528">"Nada dering &amp; getaran panggilan"</string>
     <string name="wifi_setup_detail" msgid="2012898800571616422">"Butiran rangkaian"</string>
@@ -2990,21 +2965,21 @@
     <string name="ssl_ca_cert_warning" msgid="3898387588657346106">"Rangkaian mungkin dipantau"</string>
     <string name="done_button" msgid="6269449526248267">"Selesai"</string>
     <plurals name="ssl_ca_cert_dialog_title" formatted="false" msgid="5491460811755938449">
-      <item quantity="other">Percayai atau alih keluar sijil</item>
-      <item quantity="one">Percayai atau alih keluar sijil</item>
+        <item quantity="other">Percayai atau alih keluar sijil</item>
+        <item quantity="one">Percayai atau alih keluar sijil</item>
     </plurals>
     <plurals name="ssl_ca_cert_info_message_device_owner" formatted="false" msgid="2788832560436163252">
-      <item quantity="other"><xliff:g id="MANAGING_DOMAIN_1">%s</xliff:g> telah memasang sijil kuasa pada peranti anda yang mungkin membenarkan pemantauan aktiviti rangkaian peranti anda, termasuk e-mel, apl dan tapak web selamat.\n\nHubungi pentadbir anda untuk mengetahui lebih lanjut tentang sijil ini.</item>
-      <item quantity="one"><xliff:g id="MANAGING_DOMAIN_0">%s</xliff:g> telah memasang sijil kuasa pada peranti anda yang mungkin membenarkan pemantauan aktiviti rangkaian peranti anda, termasuk e-mel, apl dan tapak web selamat.\n\nHubungi pentadbir anda untuk mengetahui lebih lanjut tentang sijil ini.</item>
+        <item quantity="other"><xliff:g id="MANAGING_DOMAIN_1">%s</xliff:g> telah memasang sijil kuasa pada peranti anda yang mungkin membenarkan pemantauan aktiviti rangkaian peranti anda, termasuk e-mel, apl dan tapak web selamat.\n\nHubungi pentadbir anda untuk mengetahui lebih lanjut tentang sijil ini.</item>
+        <item quantity="one"><xliff:g id="MANAGING_DOMAIN_0">%s</xliff:g> telah memasang sijil kuasa pada peranti anda yang mungkin membenarkan pemantauan aktiviti rangkaian peranti anda, termasuk e-mel, apl dan tapak web selamat.\n\nHubungi pentadbir anda untuk mengetahui lebih lanjut tentang sijil ini.</item>
     </plurals>
     <plurals name="ssl_ca_cert_info_message" formatted="false" msgid="3989916958347169622">
-      <item quantity="other"><xliff:g id="MANAGING_DOMAIN_1">%s</xliff:g> telah memasang sijil kuasa untuk profil kerja anda yang mungkin membenarkan pemantauan aktiviti rangkaian kerja, termasuk e-mel, apl dan tapak web selamat.\n\nHubungi pentadbir anda untuk mengetahui lebih lanjut tentang sijil ini.</item>
-      <item quantity="one"><xliff:g id="MANAGING_DOMAIN_0">%s</xliff:g> telah memasang sijil kuasa untuk profil kerja anda yang mungkin membenarkan pemantauan aktiviti rangkaian kerja, termasuk e-mel, apl dan tapak web selamat.\n\nHubungi pentadbir anda untuk mengetahui lebih lanjut tentang sijil ini.</item>
+        <item quantity="other"><xliff:g id="MANAGING_DOMAIN_1">%s</xliff:g> telah memasang sijil kuasa untuk profil kerja anda yang mungkin membenarkan pemantauan aktiviti rangkaian kerja, termasuk e-mel, apl dan tapak web selamat.\n\nHubungi pentadbir anda untuk mengetahui lebih lanjut tentang sijil ini.</item>
+        <item quantity="one"><xliff:g id="MANAGING_DOMAIN_0">%s</xliff:g> telah memasang sijil kuasa untuk profil kerja anda yang mungkin membenarkan pemantauan aktiviti rangkaian kerja, termasuk e-mel, apl dan tapak web selamat.\n\nHubungi pentadbir anda untuk mengetahui lebih lanjut tentang sijil ini.</item>
     </plurals>
     <string name="ssl_ca_cert_warning_message" msgid="4374052724815563051">"Pihak ketiga berkeupayaan untuk memantau aktiviti rangkaian anda, termasuk e-mel, apl dan tapak web selamat.\n\nBukti kelayakan dipercayai yang dipasang pada peranti anda yang membolehkan perkara ini."</string>
     <plurals name="ssl_ca_cert_settings_button" formatted="false" msgid="125941406175485894">
-      <item quantity="other">Semak sijil</item>
-      <item quantity="one">Semak sijil</item>
+        <item quantity="other">Semak sijil</item>
+        <item quantity="one">Semak sijil</item>
     </plurals>
     <string name="user_settings_title" msgid="6550866465409807877">"Berbilang pengguna"</string>
     <string name="user_settings_footer_text" product="device" msgid="7523914344521302179">"Kongsi peranti anda dengan menambahkan pengguna baharu. Setiap pengguna mempunyai ruang peribadi pada peranti anda untuk Skrin utama tersuai, akaun, apl, tetapan dan pelbagai lagi."</string>
@@ -3094,7 +3069,7 @@
     <string name="call_manager_enable_summary" msgid="7362506369604163030">"Benarkan perkhidmatan ini mengurus cara panggilan anda dibuat."</string>
     <string name="call_manager_title" msgid="3397433159509629466">"Panggil Pengurus"</string>
     <!-- no translation found for call_manager_summary (2558839230880919191) -->
-    <skip />
+    <skip/>
     <string name="cell_broadcast_settings" msgid="2416980110093867199">"Makluman kecemasan wayarles"</string>
     <string name="network_operators_settings" msgid="5105453353329748954">"Pengendali rangkaian"</string>
     <string name="access_point_names" msgid="5768430498022188057">"Nama titik capaian"</string>
@@ -3142,7 +3117,6 @@
     <string name="user_image_take_photo" msgid="2601691481533190924">"Ambil foto"</string>
     <string name="user_image_choose_photo" msgid="5904586923236027350">"Pilih imej"</string>
     <string name="user_image_photo_selector" msgid="7727851029781491727">"Pilih foto"</string>
-    <string name="regulatory_info_text" msgid="1154461023369976667"></string>
     <string name="sim_setup_wizard_title" msgid="3945520353564138219">"Kad SIM"</string>
     <string name="sim_settings_title" msgid="8392862852842113531">"Kad SIM"</string>
     <string name="sim_settings_summary" msgid="5777472623476930332">"<xliff:g id="SIM_NAME">%1$s</xliff:g> - <xliff:g id="SIM_NUMBER">%2$s</xliff:g>"</string>
@@ -3184,8 +3158,8 @@
     <string name="sim_selection_channel_title" msgid="3193666315607572484">"Pilihan SIM"</string>
     <string name="dashboard_title" msgid="5660733037244683387">"Tetapan"</string>
     <plurals name="settings_suggestion_header_summary_hidden_items" formatted="false" msgid="6585075562837786847">
-      <item quantity="other">Tunjukkan %d item yang tersembunyi</item>
-      <item quantity="one">Tunjukkan %d item yang tersembunyi</item>
+        <item quantity="other">Tunjukkan %d item yang tersembunyi</item>
+        <item quantity="one">Tunjukkan %d item yang tersembunyi</item>
     </plurals>
     <string name="network_dashboard_title" msgid="788543070557731240">"Rangkaian &amp; Internet"</string>
     <string name="network_dashboard_summary_mobile" msgid="4020746665765996480">"mudah alih"</string>
@@ -3337,8 +3311,8 @@
     <string name="live_caption_summary" msgid="2898451867595161809">"Sari kata media automatik"</string>
     <string name="zen_mode_settings_summary_off" msgid="3604559081434571933">"Tiada"</string>
     <plurals name="zen_mode_settings_summary_on" formatted="false" msgid="1460413335725340350">
-      <item quantity="other"><xliff:g id="ON_COUNT">%d</xliff:g> jadual ditetapkan</item>
-      <item quantity="one">1 jadual ditetapkan</item>
+        <item quantity="other"><xliff:g id="ON_COUNT">%d</xliff:g> jadual ditetapkan</item>
+        <item quantity="one">1 jadual ditetapkan</item>
     </plurals>
     <string name="zen_mode_settings_title" msgid="682676757791334259">"Jangan Ganggu"</string>
     <string name="zen_mode_settings_summary" msgid="6040862775514495191">"Dapatkan pemberitahuan oleh orang dan apl penting sahaja"</string>
@@ -3413,13 +3387,13 @@
     <string name="zen_mode_duration_summary_always_prompt" msgid="7658172853423383037">"Tanya setiap kali"</string>
     <string name="zen_mode_duration_summary_forever" msgid="5551992961329998606">"Sehingga anda matikan"</string>
     <plurals name="zen_mode_duration_summary_time_hours" formatted="false" msgid="3601160794696489864">
-      <item quantity="other"><xliff:g id="NUM_HOURS">%d</xliff:g> jam</item>
-      <item quantity="one">1 jam</item>
+        <item quantity="other"><xliff:g id="NUM_HOURS">%d</xliff:g> jam</item>
+        <item quantity="one">1 jam</item>
     </plurals>
     <string name="zen_mode_duration_summary_time_minutes" msgid="3187122993179039992">"<xliff:g id="NUM_MINUTES">%d</xliff:g> minit"</string>
     <plurals name="zen_mode_sound_summary_summary_off_info" formatted="false" msgid="3812633366476034740">
-      <item quantity="other"><xliff:g id="ON_COUNT">%d</xliff:g> jadual boleh dihidupkan secara automatik</item>
-      <item quantity="one">1 jadual boleh dihidupkan secara automatik</item>
+        <item quantity="other"><xliff:g id="ON_COUNT">%d</xliff:g> jadual boleh dihidupkan secara automatik</item>
+        <item quantity="one">1 jadual boleh dihidupkan secara automatik</item>
     </plurals>
     <string name="zen_category_behavior" msgid="3214056473947178507">"Perkara yang boleh mengganggu Jangan Ganggu"</string>
     <string name="zen_category_people" msgid="8252926021894933047">"Orang"</string>
@@ -3557,8 +3531,8 @@
     <string name="manage_conversations" msgid="4440289604887824337">"Urus perbualan"</string>
     <string name="priority_conversation_count_zero" msgid="3862289535537564713">"Tiada perbualan keutamaan"</string>
     <plurals name="priority_conversation_count" formatted="false" msgid="4229447176780862649">
-      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> perbualan keutamaan</item>
-      <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> perbualan keutamaan</item>
+        <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> perbualan keutamaan</item>
+        <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> perbualan keutamaan</item>
     </plurals>
     <string name="important_conversations" msgid="1233893707189659401">"Perbualan keutamaan"</string>
     <string name="important_conversations_summary_bubbles" msgid="614327166808117644">"Tunjukkan di sebelah atas bahagian perbualan dan kelihatan sebagai gelembung terapung"</string>
@@ -3595,20 +3569,20 @@
     <string name="notification_app_switch_label" msgid="4422902423925084193">"Semua pemberitahuan <xliff:g id="APP_NAME">%1$s</xliff:g>"</string>
     <string name="default_notification_assistant" msgid="243718059890346442">"Pemberitahuan Boleh Suai"</string>
     <plurals name="notifications_sent_daily" formatted="false" msgid="1479283620504341566">
-      <item quantity="other">~<xliff:g id="NUMBER_1">%d</xliff:g> pemberitahuan sehari</item>
-      <item quantity="one">~<xliff:g id="NUMBER_0">%d</xliff:g> pemberitahuan sehari</item>
+        <item quantity="other">~<xliff:g id="NUMBER_1">%d</xliff:g> pemberitahuan sehari</item>
+        <item quantity="one">~<xliff:g id="NUMBER_0">%d</xliff:g> pemberitahuan sehari</item>
     </plurals>
     <plurals name="notifications_sent_weekly" formatted="false" msgid="4913443431857170519">
-      <item quantity="other">~<xliff:g id="NUMBER_1">%d</xliff:g> pemberitahuan seminggu</item>
-      <item quantity="one">~<xliff:g id="NUMBER_0">%d</xliff:g> pemberitahuan seminggu</item>
+        <item quantity="other">~<xliff:g id="NUMBER_1">%d</xliff:g> pemberitahuan seminggu</item>
+        <item quantity="one">~<xliff:g id="NUMBER_0">%d</xliff:g> pemberitahuan seminggu</item>
     </plurals>
     <string name="notifications_sent_never" msgid="9081278709126812062">"Jangan sekali-kali"</string>
     <string name="manage_notification_access_title" msgid="4714320299084782521">"Akses pemberitahuan"</string>
     <string name="work_profile_notification_access_blocked_summary" msgid="8643809206612366067">"Akses ke pemberitahuan profil kerja disekat"</string>
     <string name="manage_notification_access_summary_zero" msgid="7528633634628627431">"Apl tidak boleh membaca pemberitahuan"</string>
     <plurals name="manage_notification_access_summary_nonzero" formatted="false" msgid="3703008881487586312">
-      <item quantity="other">%d apl boleh membaca pemberitahuan</item>
-      <item quantity="one">%d apl boleh membaca pemberitahuan</item>
+        <item quantity="other">%d apl boleh membaca pemberitahuan</item>
+        <item quantity="one">%d apl boleh membaca pemberitahuan</item>
     </plurals>
     <string name="notification_assistant_title" msgid="6983941403582134437">"Pemberitahuan Boleh Suai"</string>
     <string name="no_notification_assistant" msgid="2533323397091834096">"Tiada"</string>
@@ -3653,8 +3627,8 @@
     <string name="interact_across_profiles_consent_dialog_permissions_summary" msgid="995051542847604039">"Apl ini boleh menggunakan kebenaran apl <xliff:g id="NAME">%1$s</xliff:g> peribadi, seperti akses kepada lokasi, storan atau kenalan."</string>
     <string name="interact_across_profiles_number_of_connected_apps_none" msgid="8573289199942092964">"Tiada apl yang disambungkan"</string>
     <plurals name="interact_across_profiles_number_of_connected_apps" formatted="false" msgid="6991750455661974772">
-      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> apl disambungkan</item>
-      <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> apl disambungkan</item>
+        <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> apl disambungkan</item>
+        <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> apl disambungkan</item>
     </plurals>
     <string name="interact_across_profiles_install_work_app_title" msgid="2821669067014436056">"Untuk menyambung apl ini, pasang <xliff:g id="NAME">%1$s</xliff:g> dalam profil kerja anda"</string>
     <string name="interact_across_profiles_install_personal_app_title" msgid="4790651223324866344">"Untuk menyambung apl ini, pasang <xliff:g id="NAME">%1$s</xliff:g> dalam profil peribadi anda"</string>
@@ -3669,20 +3643,20 @@
     <string name="notification_channels" msgid="1502969522886493799">"Kategori"</string>
     <string name="notification_channels_other" msgid="18159805343647908">"Lain-lain"</string>
     <plurals name="notification_group_summary" formatted="false" msgid="483490958130993160">
-      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> kategori</item>
-      <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> kategori</item>
+        <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> kategori</item>
+        <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> kategori</item>
     </plurals>
     <string name="no_channels" msgid="4716199078612071915">"Apl ini belum menyiarkan sebarang pemberitahuan"</string>
     <string name="app_settings_link" msgid="6725453466705333311">"Tetapan tambahan dalam apl"</string>
     <string name="notification_screen_summary" msgid="5984915275134654822">"Sejarah pemberitahuan, gelembung, yang baru dihantar"</string>
     <string name="app_notification_listing_summary_zero" msgid="2988400013221120744">"Hidupkan untuk semua apl"</string>
     <plurals name="app_notification_listing_summary_others" formatted="false" msgid="1506127395400503717">
-      <item quantity="other">Dimatikan untuk <xliff:g id="COUNT_1">%d</xliff:g> apl</item>
-      <item quantity="one">Dimatikan untuk <xliff:g id="COUNT_0">%d</xliff:g> apl</item>
+        <item quantity="other">Dimatikan untuk <xliff:g id="COUNT_1">%d</xliff:g> apl</item>
+        <item quantity="one">Dimatikan untuk <xliff:g id="COUNT_0">%d</xliff:g> apl</item>
     </plurals>
     <plurals name="deleted_channels" formatted="false" msgid="5963473421547029532">
-      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> kategori dipadamkan</item>
-      <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> kategori dipadamkan</item>
+        <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> kategori dipadamkan</item>
+        <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> kategori dipadamkan</item>
     </plurals>
     <string name="notification_toggle_on" msgid="1624283327379059003">"Hidup"</string>
     <string name="notification_toggle_off" msgid="3295373308338024844">"Mati"</string>
@@ -3755,8 +3729,8 @@
     <string name="zen_mode_from_important_conversations" msgid="528050873364229253">"Perbualan keutamaan"</string>
     <string name="zen_mode_from_no_conversations" msgid="3924593219855567165">"Tiada"</string>
     <plurals name="zen_mode_conversations_count" formatted="false" msgid="8348944826762075457">
-      <item quantity="other"><xliff:g id="CONVERSATIONS">%d</xliff:g> perbualan</item>
-      <item quantity="one">1 perbualan</item>
+        <item quantity="other"><xliff:g id="CONVERSATIONS">%d</xliff:g> perbualan</item>
+        <item quantity="one">1 perbualan</item>
     </plurals>
     <string name="zen_mode_conversations_count_none" msgid="4745022470794983983">"Tiada"</string>
     <string name="zen_mode_people_calls_messages_section_title" msgid="6815202112413762206">"Orang yang boleh ganggu"</string>
@@ -3768,8 +3742,8 @@
     <string name="zen_mode_custom_calls_footer" msgid="6521283204577441053">"Panggilan masuk disekat untuk ‘<xliff:g id="SCHEDULE_NAME">%1$s</xliff:g>’. Anda boleh melaraskan tetapan untuk membenarkan rakan, keluarga atau kenalan lain menghubungi anda."</string>
     <string name="zen_mode_starred_contacts_title" msgid="630299631659575589">"Kenalan dibintangi"</string>
     <plurals name="zen_mode_starred_contacts_summary_additional_contacts" formatted="false" msgid="7001724653833724925">
-      <item quantity="other"><xliff:g id="NUM_PEOPLE">%d</xliff:g> yang lain</item>
-      <item quantity="one">seorang lagi</item>
+        <item quantity="other"><xliff:g id="NUM_PEOPLE">%d</xliff:g> yang lain</item>
+        <item quantity="one">seorang lagi</item>
     </plurals>
     <string name="zen_mode_starred_contacts_summary_none" msgid="6320777044373994482">"Tiada"</string>
     <string name="zen_mode_messages" msgid="7315084748885170585">"Mesej"</string>
@@ -3782,8 +3756,8 @@
     <string name="zen_mode_all_calls_summary" msgid="7337907849083824698">"Anda boleh dihubungi oleh semua panggilan"</string>
     <string name="zen_mode_contacts_count_none" msgid="7928563147160462589">"Tiada"</string>
     <plurals name="zen_mode_contacts_count" formatted="false" msgid="3434092344686708445">
-      <item quantity="other"><xliff:g id="NUM_CONTACTS">%d</xliff:g> kenalan</item>
-      <item quantity="one">1 kenalan</item>
+        <item quantity="other"><xliff:g id="NUM_CONTACTS">%d</xliff:g> kenalan</item>
+        <item quantity="one">1 kenalan</item>
     </plurals>
     <string name="zen_mode_from_anyone" msgid="6027004263046694174">"Sesiapa sahaja"</string>
     <string name="zen_mode_from_contacts" msgid="2989933306317064818">"Kenalan"</string>
@@ -3823,8 +3797,8 @@
     <string name="zen_mode_bypassing_apps_summary_some" msgid="5315750826830358230">"Sesetengah pemberitahuan"</string>
     <string name="zen_mode_bypassing_apps_footer" msgid="1454862989340760124">"Orang yang dipilih masih dapat menghubungi anda walaupun anda tidak membenarkan apl mengganggu"</string>
     <plurals name="zen_mode_bypassing_apps_subtext" formatted="false" msgid="7781990918323204156">
-      <item quantity="other"><xliff:g id="APP_NAMES">%s</xliff:g> boleh ganggu</item>
-      <item quantity="one"><xliff:g id="APP_NAME_0">%s</xliff:g> boleh ganggu</item>
+        <item quantity="other"><xliff:g id="APP_NAMES">%s</xliff:g> boleh ganggu</item>
+        <item quantity="one"><xliff:g id="APP_NAME_0">%s</xliff:g> boleh ganggu</item>
     </plurals>
     <string name="zen_mode_apps_bypassing_list_count" msgid="1581384924379825405">"<xliff:g id="NUMBER">%d</xliff:g> lagi"</string>
     <string name="zen_mode_bypassing_apps_title" msgid="371050263563164059">"Apl"</string>
@@ -3833,8 +3807,8 @@
     <string name="zen_mode_bypassing_app_channels_header" msgid="4011017798712587373">"Pemberitahuan yang boleh ganggu"</string>
     <string name="zen_mode_bypassing_app_channels_toggle_all" msgid="1449462656358219116">"Benarkan semua pemberitahuan"</string>
     <plurals name="zen_mode_other_sounds_summary" formatted="false" msgid="945147615383565311">
-      <item quantity="other"><xliff:g id="SOUND_CATEGORIES">%s</xliff:g> boleh ganggu</item>
-      <item quantity="one"><xliff:g id="SOUND_CATEGORY">%s</xliff:g> boleh ganggu</item>
+        <item quantity="other"><xliff:g id="SOUND_CATEGORIES">%s</xliff:g> boleh ganggu</item>
+        <item quantity="one"><xliff:g id="SOUND_CATEGORY">%s</xliff:g> boleh ganggu</item>
     </plurals>
     <string name="zen_mode_other_sounds_none" msgid="6219663385759635854">"Tiada apa-apa yang boleh ganggu"</string>
     <string name="zen_mode_other_sounds_list_count" msgid="1443126333853419582">"<xliff:g id="NUMBER">%d</xliff:g> lagi"</string>
@@ -3848,7 +3822,7 @@
     <string name="zen_mode_starred_callers" msgid="1002370699564211178">"kenalan yang dibintangi"</string>
     <string name="zen_mode_repeat_callers_list" msgid="181819778783743847">"pemanggil berulang"</string>
     <!-- no translation found for zen_mode_calls_summary_one (1928015516061784276) -->
-    <skip />
+    <skip/>
     <string name="zen_mode_calls_summary_two" msgid="6351563496898410742">"<xliff:g id="CALLER_TYPE_0">%1$s</xliff:g> dan <xliff:g id="CALLER_TYPE_1">%2$s</xliff:g>"</string>
     <string name="zen_mode_repeat_callers_summary" msgid="4121054819936083025">"Jika orang yang sama memanggil sekali lagi dalam tempoh <xliff:g id="MINUTES">%d</xliff:g> minit"</string>
     <string name="zen_mode_behavior_summary_custom" msgid="3126805555852783860">"Tersuai"</string>
@@ -3861,12 +3835,12 @@
     <string name="zen_mode_end_time_next_day_summary_format" msgid="419683704068360804">"<xliff:g id="FORMATTED_TIME">%s</xliff:g> hari seterusnya"</string>
     <string name="zen_mode_summary_alarms_only_indefinite" msgid="910047326128154945">"Tukar kepada penggera sahaja selama-lamanya"</string>
     <plurals name="zen_mode_summary_alarms_only_by_minute" formatted="false" msgid="1900512966361163390">
-      <item quantity="other">Tukar kepada penggera hanya untuk <xliff:g id="DURATION">%1$d</xliff:g> minit (sehingga <xliff:g id="FORMATTEDTIME_1">%2$s</xliff:g>)</item>
-      <item quantity="one">Tukar kepada penggera hanya untuk satu minit sehingga <xliff:g id="FORMATTEDTIME_0">%2$s</xliff:g></item>
+        <item quantity="other">Tukar kepada penggera hanya untuk <xliff:g id="DURATION">%1$d</xliff:g> minit (sehingga <xliff:g id="FORMATTEDTIME_1">%2$s</xliff:g>)</item>
+        <item quantity="one">Tukar kepada penggera hanya untuk satu minit sehingga <xliff:g id="FORMATTEDTIME_0">%2$s</xliff:g></item>
     </plurals>
     <plurals name="zen_mode_summary_alarms_only_by_hour" formatted="false" msgid="955991428001659124">
-      <item quantity="other">Tukar kepada penggera hanya untuk <xliff:g id="DURATION">%1$d</xliff:g> jam sehingga <xliff:g id="FORMATTEDTIME_1">%2$s</xliff:g></item>
-      <item quantity="one">Tukar kepada penggera hanya untuk satu jam sehingga <xliff:g id="FORMATTEDTIME_0">%2$s</xliff:g></item>
+        <item quantity="other">Tukar kepada penggera hanya untuk <xliff:g id="DURATION">%1$d</xliff:g> jam sehingga <xliff:g id="FORMATTEDTIME_1">%2$s</xliff:g></item>
+        <item quantity="one">Tukar kepada penggera hanya untuk satu jam sehingga <xliff:g id="FORMATTEDTIME_0">%2$s</xliff:g></item>
     </plurals>
     <string name="zen_mode_summary_alarms_only_by_time" msgid="8140619669703968810">"Tukar kepada penggera sahaja hingga <xliff:g id="FORMATTEDTIME">%1$s</xliff:g>"</string>
     <string name="zen_mode_summary_always" msgid="722093064250082317">"Tukar kepada sentiasa ganggu"</string>
@@ -3946,20 +3920,20 @@
     <string name="notification_summary_level" msgid="4074326972839105652">"Tahap %d"</string>
     <string name="notification_summary_channel" msgid="8459033623057872803">"<xliff:g id="CHANNEL_NAME">%1$s</xliff:g> • <xliff:g id="GROUP_NAME">%2$s</xliff:g>"</string>
     <plurals name="notifications_categories_off" formatted="false" msgid="1385401442703692986">
-      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> kategori dimatikan</item>
-      <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> kategori dimatikan</item>
+        <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> kategori dimatikan</item>
+        <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> kategori dimatikan</item>
     </plurals>
     <plurals name="permissions_summary" formatted="false" msgid="5015472550875144481">
-      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> kebenaran diberikan</item>
-      <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> kebenaran diberikan</item>
+        <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> kebenaran diberikan</item>
+        <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> kebenaran diberikan</item>
     </plurals>
     <plurals name="runtime_permissions_summary" formatted="false" msgid="2091022049141391855">
-      <item quantity="other"><xliff:g id="COUNT_2">%d</xliff:g> daripada <xliff:g id="COUNT_3">%d</xliff:g> kebenaran diberikan</item>
-      <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> daripada <xliff:g id="COUNT_1">%d</xliff:g> kebenaran diberikan</item>
+        <item quantity="other"><xliff:g id="COUNT_2">%d</xliff:g> daripada <xliff:g id="COUNT_3">%d</xliff:g> kebenaran diberikan</item>
+        <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> daripada <xliff:g id="COUNT_1">%d</xliff:g> kebenaran diberikan</item>
     </plurals>
     <plurals name="runtime_permissions_additional_count" formatted="false" msgid="5888624648943937645">
-      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> kebenaran tambahan</item>
-      <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> kebenaran tambahan</item>
+        <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> kebenaran tambahan</item>
+        <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> kebenaran tambahan</item>
     </plurals>
     <string name="runtime_permissions_summary_no_permissions_granted" msgid="7456745929035665029">"Tiada kebenaran diberikan"</string>
     <string name="runtime_permissions_summary_no_permissions_requested" msgid="7174876170116073356">"Tiada kebenaran diminta"</string>
@@ -3987,15 +3961,15 @@
     <string name="domain_urls_summary_some" msgid="1197692164421314523">"Buka <xliff:g id="DOMAIN">%s</xliff:g> dan URL lain"</string>
     <string name="domain_urls_apps_summary_off" msgid="2534980824850890416">"Tiada apl yang membuka pautan yang disokong"</string>
     <plurals name="domain_urls_apps_summary_on" formatted="false" msgid="7864816862441985323">
-      <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> apl membuka pautan yang disokong</item>
-      <item quantity="one">Satu apl membuka pautan yang disokong</item>
+        <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> apl membuka pautan yang disokong</item>
+        <item quantity="one">Satu apl membuka pautan yang disokong</item>
     </plurals>
     <string name="app_link_open_always" msgid="9167065494930657503">"Benarkan apl membuka pautan yang disokong"</string>
     <string name="app_link_open_ask" msgid="2422450109908936371">"Tanya setiap kali"</string>
     <string name="app_link_open_never" msgid="5299808605386052350">"Jangan benarkan apl membuka pautan"</string>
     <plurals name="app_link_open_always_summary" formatted="false" msgid="1816161439007251694">
-      <item quantity="other">Apl mendakwa sedang mengendalikan <xliff:g id="COUNT_1">%d</xliff:g> pautan</item>
-      <item quantity="one">Apl mendakwa sedang mengendalikan <xliff:g id="COUNT_0">%d</xliff:g> pautan</item>
+        <item quantity="other">Apl mendakwa sedang mengendalikan <xliff:g id="COUNT_1">%d</xliff:g> pautan</item>
+        <item quantity="one">Apl mendakwa sedang mengendalikan <xliff:g id="COUNT_0">%d</xliff:g> pautan</item>
     </plurals>
     <string name="open_supported_links_footer" msgid="3188808142432787933">"Apl mendakwa sedang mengendalikan pautan di bawah:"</string>
     <string name="default_apps_title" msgid="6943471331817718664">"Lalai"</string>
@@ -4036,12 +4010,12 @@
     <string name="show_all_apps" msgid="4490719452453223082">"Tunjukkan penggunaan peranti penuh"</string>
     <string name="hide_extra_apps" msgid="7313907836289865123">"Tunjukkan penggunaan apl"</string>
     <plurals name="power_high_usage_summary" formatted="false" msgid="573433136005336970">
-      <item quantity="other"><xliff:g id="NUMBER">%2$d</xliff:g> apl bergelagat luar biasa</item>
-      <item quantity="one"><xliff:g id="APP">%1$s</xliff:g> bergelagat luar biasa</item>
+        <item quantity="other"><xliff:g id="NUMBER">%2$d</xliff:g> apl bergelagat luar biasa</item>
+        <item quantity="one"><xliff:g id="APP">%1$s</xliff:g> bergelagat luar biasa</item>
     </plurals>
     <plurals name="power_high_usage_title" formatted="false" msgid="8013115866788425817">
-      <item quantity="other">Apl menyusutkan kuasa bateri</item>
-      <item quantity="one"><xliff:g id="APP">%1$s</xliff:g> menyusutkan kuasa bateri</item>
+        <item quantity="other">Apl menyusutkan kuasa bateri</item>
+        <item quantity="one"><xliff:g id="APP">%1$s</xliff:g> menyusutkan kuasa bateri</item>
     </plurals>
     <string name="high_power_filter_on" msgid="447849271630431531">"Tidak dioptimumkan"</string>
     <string name="high_power_on" msgid="8778058701270819268">"Tidak dioptimumkan"</string>
@@ -4117,8 +4091,8 @@
     <string name="free_memory" msgid="439783742246854785">"Kosong"</string>
     <string name="memory_usage_apps" msgid="5776108502569850579">"Memori yang digunakan oleh apl"</string>
     <plurals name="memory_usage_apps_summary" formatted="false" msgid="1355637088533572208">
-      <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> apl menggunakan memori dalam <xliff:g id="DURATION_1">%2$s</xliff:g> yang lalu</item>
-      <item quantity="one">1 apl menggunakan memori dalam <xliff:g id="DURATION_0">%2$s</xliff:g> yang lalu</item>
+        <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> apl menggunakan memori dalam <xliff:g id="DURATION_1">%2$s</xliff:g> yang lalu</item>
+        <item quantity="one">1 apl menggunakan memori dalam <xliff:g id="DURATION_0">%2$s</xliff:g> yang lalu</item>
     </plurals>
     <string name="running_frequency" msgid="7260225121706316639">"Frekuensi"</string>
     <string name="memory_maximum_usage" msgid="2047013391595835607">"Penggunaan maksimum"</string>
@@ -4191,8 +4165,8 @@
     <string name="data_usage_summary_format" msgid="6844301859713164522">"<xliff:g id="AMOUNT">%1$s</xliff:g> data digunakan"</string>
     <string name="data_usage_wifi_format" msgid="7644390582649568117">"<xliff:g id="AMOUNT">^1</xliff:g> digunakan pada Wi‑Fi"</string>
     <plurals name="notification_summary" formatted="false" msgid="7638388920823212470">
-      <item quantity="other">Dimatikan untuk <xliff:g id="COUNT">%d</xliff:g> apl</item>
-      <item quantity="one">Dimatikan untuk 1 apl</item>
+        <item quantity="other">Dimatikan untuk <xliff:g id="COUNT">%d</xliff:g> apl</item>
+        <item quantity="one">Dimatikan untuk 1 apl</item>
     </plurals>
     <string name="notification_summary_none" msgid="9179312319023988089">"Hidupkan untuk semua apl"</string>
     <string name="apps_summary" msgid="4007416751775414252">"<xliff:g id="COUNT">%1$d</xliff:g> apl dipasang"</string>
@@ -4257,12 +4231,12 @@
     <string name="suggestions_summary" msgid="1709710458908440469">"+<xliff:g id="ID_1">%1$d</xliff:g>"</string>
     <string name="suggestions_more_title" msgid="240124526378997009">"+<xliff:g id="ID_1">%1$d</xliff:g> lagi"</string>
     <plurals name="suggestions_collapsed_title" formatted="false" msgid="5023679825210836444">
-      <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> cadangan</item>
-      <item quantity="one">1 cadangan</item>
+        <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> cadangan</item>
+        <item quantity="one">1 cadangan</item>
     </plurals>
     <plurals name="suggestions_collapsed_summary" formatted="false" msgid="3789011332018516832">
-      <item quantity="other">+<xliff:g id="COUNT">%1$d</xliff:g> cadangan</item>
-      <item quantity="one">+1 cadangan</item>
+        <item quantity="other">+<xliff:g id="COUNT">%1$d</xliff:g> cadangan</item>
+        <item quantity="one">+1 cadangan</item>
     </plurals>
     <string name="suggestion_remove" msgid="6753986344585367776">"Alih keluar"</string>
     <string name="color_temperature" msgid="8256912135746305176">"Suhu warna sejuk"</string>
@@ -4289,8 +4263,8 @@
     <string name="billing_cycle_fragment_summary" msgid="6346655500491631357">"Setiap bulan pada hari ke-<xliff:g id="ID_1">%1$s</xliff:g>"</string>
     <string name="network_restrictions" msgid="8385824604048229846">"Sekatan rangkaian"</string>
     <plurals name="network_restrictions_summary" formatted="false" msgid="3875128958788008975">
-      <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> sekatan</item>
-      <item quantity="one">1 sekatan</item>
+        <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> sekatan</item>
+        <item quantity="one">1 sekatan</item>
     </plurals>
     <string name="operator_warning" msgid="5672761970087591211">"Cara pengiraan data pembawa mungkin berbeza daripada pengiraan peranti"</string>
     <string name="data_used_template" msgid="8229342096562327646">"<xliff:g id="ID_1">%1$s</xliff:g> digunakan"</string>
@@ -4303,8 +4277,8 @@
     <string name="configure" msgid="1499586749829665889">"Konfigurasikan"</string>
     <string name="data_usage_other_apps" msgid="5649047093607329537">"Apl lain yang termasuk dalam penggunaan"</string>
     <plurals name="data_saver_unrestricted_summary" formatted="false" msgid="3316296488378947221">
-      <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> apl dibenarkan menggunakan data tanpa had apabila Penjimat Data dihidupkan</item>
-      <item quantity="one">1 apl dibenarkan menggunakan data tanpa had apabila Penjimat Data dihidupkan</item>
+        <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> apl dibenarkan menggunakan data tanpa had apabila Penjimat Data dihidupkan</item>
+        <item quantity="one">1 apl dibenarkan menggunakan data tanpa had apabila Penjimat Data dihidupkan</item>
     </plurals>
     <string name="data_usage_title" msgid="4039024073687469094">"Data utama"</string>
     <string name="data_usage_wifi_title" msgid="1060495519280456926">"Data Wi‑Fi"</string>
@@ -4315,8 +4289,8 @@
     <string name="data_usage_chart_brief_content_description" msgid="5548074070258881530">"Graf menunjukkan penggunaan data antara <xliff:g id="START_DATE">%1$s</xliff:g> hingga <xliff:g id="END_DATE">%2$s</xliff:g>."</string>
     <string name="data_usage_chart_no_data_content_description" msgid="5481968839079467231">"Tiada data dalam julat tarikh ini"</string>
     <plurals name="billing_cycle_days_left" formatted="false" msgid="661792524671718753">
-      <item quantity="other">%d hari lagi</item>
-      <item quantity="one">%d hari lagi</item>
+        <item quantity="other">%d hari lagi</item>
+        <item quantity="one">%d hari lagi</item>
     </plurals>
     <string name="billing_cycle_none_left" msgid="1694844019159277504">"Tiada baki masa"</string>
     <string name="billing_cycle_less_than_one_day_left" msgid="1210202399053992163">"Tinggal kurang daripada 1 hari"</string>
@@ -4388,8 +4362,8 @@
     <string name="overlay_toast_failed_to_apply" msgid="4839587811338164960">"Gagal menggunakan tindanan"</string>
     <string name="special_access" msgid="1767980727423395147">"Akses apl khas"</string>
     <plurals name="special_access_summary" formatted="false" msgid="4995506406763570815">
-      <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> apl boleh menggunakan data tanpa had</item>
-      <item quantity="one">1 apl boleh menggunakan data tanpa had</item>
+        <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> apl boleh menggunakan data tanpa had</item>
+        <item quantity="one">1 apl boleh menggunakan data tanpa had</item>
     </plurals>
     <string name="special_access_more" msgid="132919514147475846">"Lihat lagi"</string>
     <string name="confirm_convert_to_fbe_warning" msgid="3783325656948378111">"Benar-benar padamkan data pengguna dan tukarkan kepada penyulitan fail?"</string>
@@ -4426,16 +4400,16 @@
     <string name="cross_profile_calendar_title" msgid="7570277841490216947">"Kalendar profil silang"</string>
     <string name="cross_profile_calendar_summary" msgid="8856185206722860069">"Tunjukkan acara kerja pada kalendar peribadi anda"</string>
     <plurals name="hours" formatted="false" msgid="1853396353451635458">
-      <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> jam</item>
-      <item quantity="one">1 jam</item>
+        <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> jam</item>
+        <item quantity="one">1 jam</item>
     </plurals>
     <plurals name="minutes" formatted="false" msgid="6244503272924425418">
-      <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> minit</item>
-      <item quantity="one">1 minit</item>
+        <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> minit</item>
+        <item quantity="one">1 minit</item>
     </plurals>
     <plurals name="seconds" formatted="false" msgid="4237020272336995370">
-      <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> saat</item>
-      <item quantity="one">1 saat</item>
+        <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> saat</item>
+        <item quantity="one">1 saat</item>
     </plurals>
     <string name="automatic_storage_manager_settings" msgid="519158151463974656">"Urus storan"</string>
     <string name="automatic_storage_manager_text" msgid="6900593059927987273">"Untuk membantu mengosongkan ruang storan, pengurus storan akan mengalih keluar foto dan video sandaran daripada peranti anda."</string>
@@ -4453,7 +4427,6 @@
     <string name="double_tap_power_for_camera_summary" msgid="1100926048598415509">"Untuk membuka kamera dengan cepat, tekan butang kuasa dua kali. Berfungsi daripada sebarang skrin."</string>
     <string name="double_tap_power_for_camera_suggestion_title" msgid="4299496243418753571">"Buka kamera dengan cepat"</string>
     <string name="double_twist_for_camera_mode_title" msgid="472455236910935684">"Balikkan kamera untuk mengambil swafoto"</string>
-    <string name="double_twist_for_camera_mode_summary" msgid="592503740044744951"></string>
     <string name="double_twist_for_camera_suggestion_title" msgid="8178844037382604158">"Ambil potret diri dengan lebih pantas"</string>
     <string name="system_navigation_title" msgid="1698862900901417194">"Navigasi sistem"</string>
     <string name="swipe_up_to_switch_apps_title" msgid="6677266952021118342">"Navigasi 2 butang"</string>
@@ -4538,16 +4511,16 @@
     <string name="enterprise_privacy_enterprise_installed_packages" msgid="9114143640515900082">"Apl dipasang"</string>
     <string name="enterprise_privacy_apps_count_estimation_info" msgid="7959907857710107792">"Bilangan apl adalah anggaran. Kiraan ini mungkin tidak termasuk apl yang dipasang di luar Gedung Play."</string>
     <plurals name="enterprise_privacy_number_packages_lower_bound" formatted="false" msgid="5403847001419529018">
-      <item quantity="other">Minimum <xliff:g id="COUNT_1">%d</xliff:g> apl</item>
-      <item quantity="one">Minimum <xliff:g id="COUNT_0">%d</xliff:g> apl</item>
+        <item quantity="other">Minimum <xliff:g id="COUNT_1">%d</xliff:g> apl</item>
+        <item quantity="one">Minimum <xliff:g id="COUNT_0">%d</xliff:g> apl</item>
     </plurals>
     <string name="enterprise_privacy_location_access" msgid="8023838718108456971">"Kebenaran lokasi"</string>
     <string name="enterprise_privacy_microphone_access" msgid="7242958026470143653">"Kebenaran mikrofon"</string>
     <string name="enterprise_privacy_camera_access" msgid="7685460535880069016">"Kebenaran kamera"</string>
     <string name="enterprise_privacy_enterprise_set_default_apps" msgid="7498546659083996300">"Apl lalai"</string>
     <plurals name="enterprise_privacy_number_packages" formatted="false" msgid="8568544906431825430">
-      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> apl</item>
-      <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> apl</item>
+        <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> apl</item>
+        <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> apl</item>
     </plurals>
     <string name="enterprise_privacy_input_method" msgid="3278314982700662246">"Papan kekunci lalai"</string>
     <string name="enterprise_privacy_input_method_name" msgid="2974859490559054584">"Ditetapkan pada <xliff:g id="APP_LABEL">%s</xliff:g>"</string>
@@ -4559,35 +4532,35 @@
     <string name="enterprise_privacy_ca_certs_personal" msgid="1516422660828485795">"Bukti kelayakan dipercayai dalam profil peribadi anda"</string>
     <string name="enterprise_privacy_ca_certs_work" msgid="4318941788592655561">"Bukti kelayakan dipercayai dalam profil kerja anda"</string>
     <plurals name="enterprise_privacy_number_ca_certs" formatted="false" msgid="6459725295322004179">
-      <item quantity="other">Minimum <xliff:g id="COUNT_1">%d</xliff:g> sijil CA</item>
-      <item quantity="one">Minimum <xliff:g id="COUNT_0">%d</xliff:g> sijil CA</item>
+        <item quantity="other">Minimum <xliff:g id="COUNT_1">%d</xliff:g> sijil CA</item>
+        <item quantity="one">Minimum <xliff:g id="COUNT_0">%d</xliff:g> sijil CA</item>
     </plurals>
     <string name="enterprise_privacy_lock_device" msgid="464054894363899866">"Pentadbir boleh mengunci peranti dan menetapkan semula kata laluan"</string>
     <string name="enterprise_privacy_wipe_device" msgid="869589182352244591">"Pentadbir boleh memadamkan semua data peranti"</string>
     <string name="enterprise_privacy_failed_password_wipe_device" msgid="7045164901334821226">"Percubaan kata laluan yang gagal sebelum memadamkan semua data peranti"</string>
     <string name="enterprise_privacy_failed_password_wipe_work" msgid="2537582942554484170">"Percubaan kata laluan yang gagal sebelum memadamkan data profil kerja"</string>
     <plurals name="enterprise_privacy_number_failed_password_wipe" formatted="false" msgid="8811973918944217791">
-      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> percubaan</item>
-      <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> percubaan</item>
+        <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> percubaan</item>
+        <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> percubaan</item>
     </plurals>
     <string name="do_disclosure_generic" msgid="3067459392402324538">"Peranti ini diurus oleh organisasi anda."</string>
     <string name="do_disclosure_with_name" msgid="867544298924410766">"Peranti ini diurus oleh <xliff:g id="ORGANIZATION_NAME">%s</xliff:g>."</string>
     <string name="do_disclosure_learn_more_separator" msgid="5714364437437041671">" "</string>
     <string name="learn_more" msgid="3534519107947510952">"Ketahui lebih lanjut"</string>
     <plurals name="default_camera_app_title" formatted="false" msgid="8112432929729136399">
-      <item quantity="other">Apl kamera</item>
-      <item quantity="one">Apl kamera</item>
+        <item quantity="other">Apl kamera</item>
+        <item quantity="one">Apl kamera</item>
     </plurals>
     <string name="default_calendar_app_title" msgid="1870095225089706093">"Apl Kalendar"</string>
     <string name="default_contacts_app_title" msgid="7740028900741944569">"Apl Kenalan"</string>
     <plurals name="default_email_app_title" formatted="false" msgid="8338194872609410234">
-      <item quantity="other">Apl klien e-mel</item>
-      <item quantity="one">Apl klien e-mel</item>
+        <item quantity="other">Apl klien e-mel</item>
+        <item quantity="one">Apl klien e-mel</item>
     </plurals>
     <string name="default_map_app_title" msgid="7569231732944853320">"Apl Peta"</string>
     <plurals name="default_phone_app_title" formatted="false" msgid="4222188821845826493">
-      <item quantity="other">Apl telefon</item>
-      <item quantity="one">Apl telefon</item>
+        <item quantity="other">Apl telefon</item>
+        <item quantity="one">Apl telefon</item>
     </plurals>
     <string name="app_names_concatenation_template_2" msgid="8320181646458855457">"<xliff:g id="FIRST_APP_NAME">%1$s</xliff:g>, <xliff:g id="SECOND_APP_NAME">%2$s</xliff:g>"</string>
     <string name="app_names_concatenation_template_3" msgid="7019703249717854148">"<xliff:g id="FIRST_APP_NAME">%1$s</xliff:g>, <xliff:g id="SECOND_APP_NAME">%2$s</xliff:g>, <xliff:g id="THIRD_APP_NAME">%3$s</xliff:g>"</string>
@@ -4690,7 +4663,6 @@
     <string name="battery_suggestion_title" product="tablet" msgid="1525940496459255289">"Lanjutkan hayat bateri tablet"</string>
     <string name="battery_suggestion_title" product="device" msgid="2280773774080720377">"Lanjutkan hayat bateri peranti"</string>
     <string name="battery_suggestion_title" product="default" msgid="4811554469047272537">"Lanjutkan hayat bateri telefon"</string>
-    <string name="battery_suggestion_summary" msgid="8186720080540016197"></string>
     <string name="gesture_prevent_ringing_screen_title" msgid="8293094715267769349">"Halang dering"</string>
     <string name="gesture_prevent_ringing_title" msgid="5978577898997523581">"Tekan butang Kuasa &amp; Naikkan Kelantangan serentak untuk"</string>
     <string name="gesture_prevent_ringing_sound_title" msgid="4529077822282099235">"Pintasan untuk menghalang dering"</string>
@@ -4777,8 +4749,8 @@
     <string name="calls_and_sms_ask_every_time" msgid="3178743088737726677">"Tanya setiap kali"</string>
     <string name="mobile_network_summary_add_a_network" msgid="9079866102827526779">"Tambah rangkaian"</string>
     <plurals name="mobile_network_summary_count" formatted="false" msgid="5173633860800230925">
-      <item quantity="other"><xliff:g id="COUNT_1">%1$d</xliff:g> SIM</item>
-      <item quantity="one"><xliff:g id="COUNT_0">%1$d</xliff:g> SIM</item>
+        <item quantity="other"><xliff:g id="COUNT_1">%1$d</xliff:g> SIM</item>
+        <item quantity="one"><xliff:g id="COUNT_0">%1$d</xliff:g> SIM</item>
     </plurals>
     <string name="default_for_calls" msgid="2788950217176988034">"Lalai untuk panggilan"</string>
     <string name="default_for_sms" msgid="1316988329407434771">"Lalai untuk SMS"</string>
@@ -4868,18 +4840,17 @@
     <string name="contextual_card_feedback_send" msgid="7409408664417908922">"Hantar maklum balas"</string>
     <string name="contextual_card_feedback_confirm_message" msgid="3186334562157665381">"Adakah anda mahu memberi maklum balas tentang cadangan ini?"</string>
     <string name="copyable_slice_toast" msgid="1008251852798990606">"<xliff:g id="COPY_CONTENT">%1$s</xliff:g> disalin ke papan keratan."</string>
-    <string name="search_bar_account_avatar_content_description" msgid="880523277036898350"></string>
     <string name="permission_bar_chart_empty_text" msgid="4856719891991325077">"Tiada apl yang menggunakan kebenaran"</string>
     <string name="permission_bar_chart_title" msgid="2493212904955611441">"Penggunaan kebenaran dalam tempoh 24 jam terakhir"</string>
     <string name="permission_bar_chart_details" msgid="5816698018592357088">"Lihat semua dalam Papan Pemuka"</string>
     <plurals name="permission_bar_chart_label" formatted="false" msgid="4853396794340896078">
-      <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> apl</item>
-      <item quantity="one">1 apl</item>
+        <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> apl</item>
+        <item quantity="one">1 apl</item>
     </plurals>
     <string name="accessibility_usage_title" msgid="9190967143518779145">"Penggunaan kebolehaksesan"</string>
     <plurals name="accessibility_usage_summary" formatted="false" msgid="6910643986958263005">
-      <item quantity="other"><xliff:g id="SERVICE_COUNT">%1$d</xliff:g> apl mempunyai akses penuh kepada peranti anda</item>
-      <item quantity="one">1 apl mempunyai akses penuh kepada peranti anda</item>
+        <item quantity="other"><xliff:g id="SERVICE_COUNT">%1$d</xliff:g> apl mempunyai akses penuh kepada peranti anda</item>
+        <item quantity="one">1 apl mempunyai akses penuh kepada peranti anda</item>
     </plurals>
     <string name="media_output_panel_title" msgid="5920946795078065159">"Tukar output"</string>
     <string name="media_output_panel_summary_of_playing_device" msgid="6998758947764222915">"Sedang dimainkan pada <xliff:g id="DEVICE_NAME">%1$s</xliff:g>"</string>
@@ -4940,10 +4911,8 @@
     <string name="cards_passes_setting_toggle" msgid="3380984848045396695">"Tunjukkan kad &amp; pas"</string>
     <string name="device_controls_setting_subtitle" msgid="4388544861427973600">"Untuk mengakses kawalan bagi peranti yang disambungkan, tahan butang Kuasa"</string>
     <string name="cards_passes_setting_subtitle" msgid="4427459738229697469">"Untuk mengakses item seperti kaedah pembayaran dan pas masuk, tekan dan tahan butang Kuasa."</string>
-    <string name="rtt_settings_title" msgid="7049259598645966354"></string>
-    <string name="rtt_settings_no_visible" msgid="7440356831140948382"></string>
-    <string name="rtt_settings_visible_during_call" msgid="7866181103286073700"></string>
-    <string name="rtt_settings_always_visible" msgid="2364173070088756238"></string>
+    <string name="rtt_settings_no_visible" msgid="7440356831140948382"/>
+    <string name="rtt_settings_always_visible" msgid="2364173070088756238"/>
     <string name="media_output_panel_stop_casting_button" msgid="6094875883164119035">"Berhenti menghantar"</string>
     <string name="volte_5G_limited_title" msgid="5908052268836750629">"Matikan VoLTE?"</string>
     <string name="volte_5G_limited_text" msgid="7150583768725182345">"Tindakan ini turut mematikan sambungan 5G.\nSemasa panggilan suara, anda tidak boleh menggunakan Internet dan sesetengah apl mungkin tidak berfungsi."</string>

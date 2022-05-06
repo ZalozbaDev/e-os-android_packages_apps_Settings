@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!--  Copyright (C) 2007 The Android Open Source Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
@@ -12,10 +12,7 @@
      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
      See the License for the specific language governing permissions and
      limitations under the License.
- -->
-
-<resources xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+ --><resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="yes" msgid="1999566976857398962">"હા"</string>
     <string name="no" msgid="5541738710521607130">"નહીં"</string>
     <string name="create" msgid="986997212165228751">"બનાવો"</string>
@@ -24,8 +21,8 @@
     <string name="confirmation_turn_on" msgid="2979094011928347665">"ચાલુ કરો"</string>
     <string name="device_info_default" msgid="1406619232867343310">"અજાણ્યું"</string>
     <plurals name="show_dev_countdown" formatted="false" msgid="1646187747875476269">
-      <item quantity="one">તમે હવે એક વિકાસકર્તા બનવાથી <xliff:g id="STEP_COUNT_1">%1$d</xliff:g> પગલાં દૂર છો.</item>
-      <item quantity="other">તમે હવે એક વિકાસકર્તા બનવાથી <xliff:g id="STEP_COUNT_1">%1$d</xliff:g> પગલાં દૂર છો.</item>
+        <item quantity="one">તમે હવે એક વિકાસકર્તા બનવાથી <xliff:g id="STEP_COUNT_1">%1$d</xliff:g> પગલાં દૂર છો.</item>
+        <item quantity="other">તમે હવે એક વિકાસકર્તા બનવાથી <xliff:g id="STEP_COUNT_1">%1$d</xliff:g> પગલાં દૂર છો.</item>
     </plurals>
     <string name="show_dev_on" msgid="2840850085134853754">"તમે હવે ડેવલપર છો!"</string>
     <string name="show_dev_already" msgid="7041756429707644630">"કોઈ જરૂર નથી, તમે પહેલાંથી જ એક ડેવલપર છો."</string>
@@ -158,7 +155,7 @@
     <string name="date_and_time" msgid="1788358029823431692">"તારીખ અને સમય"</string>
     <string name="choose_timezone" msgid="1450780665958642147">"સમય ઝોન પસંદ કરો"</string>
     <!-- no translation found for intent_sender_data_label (1733806423295725392) -->
-    <skip />
+    <skip/>
     <string name="intent_sender_sendbroadcast_text" msgid="3202857258557610646">"<xliff:g id="BROADCAST">broadcast</xliff:g> મોકલો"</string>
     <string name="intent_sender_action_label" msgid="257853357827275530">"<xliff:g id="ACTION">Action</xliff:g>:"</string>
     <string name="intent_sender_startactivity_text" msgid="519934560779343541">"<xliff:g id="ACTIVITY">activity</xliff:g> પ્રારંભ કરો"</string>
@@ -207,8 +204,8 @@
     <string name="locale_remove_menu" msgid="3521546263421387474">"દૂર કરો"</string>
     <string name="add_a_language" msgid="2126220398077503271">"ભાષા ઉમેરો"</string>
     <plurals name="dlg_remove_locales_title" formatted="false" msgid="2845515796732609837">
-      <item quantity="one">પસંદ કરેલ ભાષાઓને દૂર કરીએ?</item>
-      <item quantity="other">પસંદ કરેલ ભાષાઓને દૂર કરીએ?</item>
+        <item quantity="one">પસંદ કરેલ ભાષાઓને દૂર કરીએ?</item>
+        <item quantity="other">પસંદ કરેલ ભાષાઓને દૂર કરીએ?</item>
     </plurals>
     <string name="dlg_remove_locales_message" msgid="8110560091134252067">"ટેક્સ્ટ બીજી ભાષામાં પ્રદર્શિત કરવામાં આવશે."</string>
     <string name="dlg_remove_locales_error_title" msgid="5875503658221562572">"બધી ભાષાઓ દૂર કરી શકતાં નથી"</string>
@@ -299,8 +296,8 @@
     <string name="location_settings_master_switch_title" msgid="4232810467362584112">"સ્થાનનો ઉપયોગ કરો"</string>
     <string name="location_settings_summary_location_off" msgid="4797932754681162262">"બંધ છે"</string>
     <plurals name="location_settings_summary_location_on" formatted="false" msgid="1019959038518185676">
-      <item quantity="one">ચાલુ છે - <xliff:g id="COUNT_1">%1$d</xliff:g> ઍપ સ્થાનનો ઍક્સેસ ધરાવે છે</item>
-      <item quantity="other">ચાલુ છે - <xliff:g id="COUNT_1">%1$d</xliff:g> ઍપ સ્થાનનો ઍક્સેસ ધરાવે છે</item>
+        <item quantity="one">ચાલુ છે - <xliff:g id="COUNT_1">%1$d</xliff:g> ઍપ સ્થાનનો ઍક્સેસ ધરાવે છે</item>
+        <item quantity="other">ચાલુ છે - <xliff:g id="COUNT_1">%1$d</xliff:g> ઍપ સ્થાનનો ઍક્સેસ ધરાવે છે</item>
     </plurals>
     <string name="location_settings_loading_app_permission_stats" msgid="6054103701535557342">"લોડ કરી રહ્યું છે…"</string>
     <string name="account_settings_title" msgid="9138880127246241885">"એકાઉન્ટ"</string>
@@ -327,15 +324,12 @@
     <string name="security_settings_face_enroll_education_title" msgid="8662585502032112675">"ફેસ અનલૉક કેવી રીતે સેટઅપ કરવું"</string>
     <string name="security_settings_face_enroll_education_title_accessibility" msgid="4632402390714441918">"ફેસ અનલૉકનું સેટઅપ કરો"</string>
     <string name="security_settings_face_enroll_education_title_unlock_disabled" msgid="8810954233979716906">"પ્રમાણિત કરવા તમારા ચહેરાનો ઉપયોગ કરો"</string>
-    <string name="security_settings_face_enroll_education_message" msgid="4308030157487176799"></string>
     <string name="security_settings_face_enroll_education_start" msgid="8830924400907195590">"શરૂ કરો"</string>
     <string name="security_settings_face_enroll_education_accessibility_dialog_message" msgid="4681495507974718824">"જો ઍક્સેસિબિલિટી ફેસ અનલૉકની સુવિધા બંધ કરવામાં આવે, તો ટૉકબૅક વડે સેટઅપના અમુક પગલાં યોગ્ય રીતે કામ કરી શકશે નહીં."</string>
     <string name="security_settings_face_enroll_education_accessibility_dialog_negative" msgid="7872647360361245461">"પાછા ફરો"</string>
     <string name="security_settings_face_enroll_education_accessibility_dialog_positive" msgid="3148077647572203458">"સેટઅપ ચાલુ રાખો"</string>
     <string name="security_settings_face_enroll_introduction_accessibility" msgid="5748221179069430975">"ઍક્સેસિબિલિટી સેટઅપનો ઉપયોગ કરો"</string>
-    <string name="security_settings_face_enroll_introduction_accessibility_expanded" msgid="6763509014732769185"></string>
-    <string name="security_settings_face_enroll_introduction_accessibility_diversity" msgid="2774962371839179206"></string>
-    <string name="security_settings_face_enroll_introduction_accessibility_vision" msgid="7700394302162170363"></string>
+    <string name="security_settings_face_enroll_introduction_accessibility_diversity" msgid="2774962371839179206"/>
     <string name="security_settings_face_enroll_introduction_cancel" msgid="7551159644361639436">"રદ કરો"</string>
     <string name="security_settings_face_enroll_introduction_no_thanks" msgid="1820618982738898717">"ના, આભાર"</string>
     <string name="security_settings_face_enroll_introduction_agree" msgid="1822303197642630076">"સંમત છું"</string>
@@ -345,10 +339,8 @@
     <string name="security_settings_face_enroll_introduction_message" msgid="3015751486939484934">"તમારા ફોનને અનલૉક કરવા, ખરીદીઓ અધિકૃત કરવા અથવા ઍપમાં સાઇન ઇન કરવા માટે તમારા ચહેરાનો ઉપયોગ કરો."</string>
     <string name="security_settings_face_enroll_introduction_message_unlock_disabled" msgid="5841976283789481311">"તમારા ફોનને અનલૉક કરવા અથવા ખરીદીઓને મંજૂર કરવા માટે તમારા ચહેરાનો ઉપયોગ કરો.\n\nનોંધ: આ ઉપકરણને અનલૉક કરવા માટે તમે તમારા ચહેરાનો ઉપયોગ નહીં કરી શકો. વધુ માહિતી માટે, તમારી સંસ્થાના વ્યવસ્થાપકનો સંપર્ક કરો."</string>
     <string name="security_settings_face_enroll_introduction_message_setup" msgid="765965418187421753">"તમારા ફોનને અનલૉક કરવા, ખરીદીઓ અધિકૃત કરવા અથવા ઍપમાં સાઇન ઇન કરવા માટે તમારા ચહેરાનો ઉપયોગ કરો"</string>
-    <string name="security_settings_face_enroll_introduction_footer_part_0" msgid="908831787971630413"></string>
-    <string name="security_settings_face_enroll_introduction_footer_part_1" msgid="4438129587730915782"></string>
-    <string name="security_settings_face_enroll_introduction_footer_part_2" msgid="6099785970191751036"></string>
-    <string name="security_settings_face_enroll_introduction_footer_part_3" msgid="8708726599723727710"></string>
+    <string name="security_settings_face_enroll_introduction_footer_part_1" msgid="4438129587730915782"/>
+    <string name="security_settings_face_enroll_introduction_footer_part_3" msgid="8708726599723727710"/>
     <string name="security_settings_face_enroll_repeat_title" msgid="4446229670377418717">"તમારા ચહેરાને વર્તુળના કેન્દ્રમાં રાખો"</string>
     <string name="security_settings_face_enroll_enrolling_skip" msgid="5568617401632528567">"છોડો"</string>
     <string name="face_add_max" msgid="4578405795494514876">"તમે <xliff:g id="COUNT">%d</xliff:g> ચહેરા સુધી ઉમેરી શકો છો"</string>
@@ -387,10 +379,9 @@
     <string name="fingerprint_add_title" msgid="1837610443487902050">"ફિંગરપ્રિન્ટ ઉમેરો"</string>
     <string name="fingerprint_enable_keyguard_toggle_title" msgid="5451094461919440992">"સ્ક્રીન લૉક"</string>
     <plurals name="security_settings_fingerprint_preference_summary" formatted="false" msgid="988602245530967106">
-      <item quantity="one"><xliff:g id="COUNT_1">%1$d</xliff:g> ફિંગરપ્રિન્ટ સેટ અપ</item>
-      <item quantity="other"><xliff:g id="COUNT_1">%1$d</xliff:g> ફિંગરપ્રિન્ટ સેટ અપ</item>
+        <item quantity="one"><xliff:g id="COUNT_1">%1$d</xliff:g> ફિંગરપ્રિન્ટ સેટ અપ</item>
+        <item quantity="other"><xliff:g id="COUNT_1">%1$d</xliff:g> ફિંગરપ્રિન્ટ સેટ અપ</item>
     </plurals>
-    <string name="security_settings_fingerprint_preference_summary_none" msgid="1044059475710838504"></string>
     <string name="security_settings_fingerprint_enroll_introduction_title" msgid="521797365974277693">"ફિંગરપ્રિન્ટથી અનલૉક"</string>
     <string name="security_settings_fingerprint_enroll_introduction_title_unlock_disabled" msgid="1911710308293783998">"તમારી ફિંગરપ્રિન્ટ વાપરો"</string>
     <string name="security_settings_fingerprint_enroll_introduction_message" msgid="242123866344666054">"તમારા ફોનને અનલૉક કરવા, ખરીદીઓ અધિકૃત કરવા અથવા ઍપ્લિકેશનોમાં સાઇન ઇન કરવા માટે બસ ફિંગરપ્રિન્ટ સેન્સરને ટચ કરો. તમે કોની ફિંગરપ્રિન્ટ ઉમેરી છે તે બાબતે સાવચેત રહો. એક ઉમેરેલ ફિંગરપ્રિન્ટ પણ આમાંની કોઈપણ વસ્તુઓ કરી શકે છે.\n\nનોંધ: તમારી ફિંગરપ્રિન્ટ એક સશક્ત પૅટર્ન અથવા પિન કરતાં ઓછી સુરક્ષિત હોઈ શકે છે."</string>
@@ -494,9 +485,7 @@
     <string name="suggested_lock_settings_summary" product="device" msgid="8479766049078378225">"ઉપકરણને સુરક્ષિત કરવા માટે સ્ક્રીન લૉક સેટ કરો"</string>
     <string name="suggested_lock_settings_summary" product="default" msgid="2443273582716671033">"ફોનને સુરક્ષિત કરવા માટે સ્ક્રીન લૉક સેટ કરો"</string>
     <string name="suggested_fingerprint_lock_settings_title" msgid="3140266181874137984">"અનલૉક કરવા માટે ફિંગરપ્રિન્ટ ઉમેરો"</string>
-    <string name="suggested_fingerprint_lock_settings_summary" product="tablet" msgid="1040265358906410746"></string>
-    <string name="suggested_fingerprint_lock_settings_summary" product="device" msgid="1040265358906410746"></string>
-    <string name="suggested_fingerprint_lock_settings_summary" product="default" msgid="1040265358906410746"></string>
+    <string name="suggested_fingerprint_lock_settings_summary" product="device" msgid="1040265358906410746"/>
     <string name="lock_settings_picker_title" msgid="9219376327364915334">"સ્ક્રીન લૉક પસંદ કરો"</string>
     <string name="lock_settings_picker_title_profile" msgid="8377696902400733227">"કાર્ય લૉક પસંદ કરો"</string>
     <string name="setup_lock_settings_picker_title" product="tablet" msgid="1276283007274778191">"ટેબ્લેટની સુરક્ષા કરો"</string>
@@ -518,7 +507,6 @@
     <string name="unlock_set_unlock_launch_picker_change_summary" msgid="6023813780512501969">"પૅટર્ન, પિન અથવા પાસવર્ડ સુરક્ષા બદલો અથવા અક્ષમ કરો"</string>
     <string name="unlock_set_unlock_launch_picker_enable_summary" msgid="1699993191343299179">"સ્ક્રીનને લૉક કરવા માટેની પદ્ધતિ પસંદ કરો"</string>
     <string name="unlock_set_unlock_off_title" msgid="2831957685685921667">"કોઈ નહીં"</string>
-    <string name="unlock_set_unlock_off_summary" msgid="4578319976164001322"></string>
     <string name="unlock_set_unlock_none_title" msgid="2844029875174409728">"સ્વાઇપ કરો"</string>
     <string name="unlock_set_unlock_none_summary" msgid="641298008390890152">"કોઈ સુરક્ષા નહીં"</string>
     <string name="unlock_set_unlock_pattern_title" msgid="8224895208452995332">"પૅટર્ન"</string>
@@ -605,21 +593,21 @@
     <string name="lock_failed_attempts_now_wiping_profile" msgid="3171880997211568208">"ઘણા બધા ખોટા પ્રયત્નો. આ કાર્યાલયની પ્રોફાઇલ અને તેનો ડેટા ડિલીટ કરવામાં આવશે."</string>
     <string name="lock_failed_attempts_now_wiping_dialog_dismiss" msgid="170155081899679669">"છોડી દો"</string>
     <plurals name="lockpassword_password_too_short" formatted="false" msgid="2192234965414232157">
-      <item quantity="one">ઓછામાં ઓછા <xliff:g id="COUNT_1">%d</xliff:g> અક્ષરો હોવા જરૂરી છે</item>
-      <item quantity="other">ઓછામાં ઓછા <xliff:g id="COUNT_1">%d</xliff:g> અક્ષરો હોવા જરૂરી છે</item>
+        <item quantity="one">ઓછામાં ઓછા <xliff:g id="COUNT_1">%d</xliff:g> અક્ષરો હોવા જરૂરી છે</item>
+        <item quantity="other">ઓછામાં ઓછા <xliff:g id="COUNT_1">%d</xliff:g> અક્ષરો હોવા જરૂરી છે</item>
     </plurals>
     <plurals name="lockpassword_pin_too_short" formatted="false" msgid="6817086810898414162">
-      <item quantity="one">પિનમાં ઓછામાં ઓછા <xliff:g id="COUNT_1">%d</xliff:g> અંક હોવા જરૂરી છે</item>
-      <item quantity="other">પિનમાં ઓછામાં ઓછા <xliff:g id="COUNT_1">%d</xliff:g> અંક હોવા જરૂરી છે</item>
+        <item quantity="one">પિનમાં ઓછામાં ઓછા <xliff:g id="COUNT_1">%d</xliff:g> અંક હોવા જરૂરી છે</item>
+        <item quantity="other">પિનમાં ઓછામાં ઓછા <xliff:g id="COUNT_1">%d</xliff:g> અંક હોવા જરૂરી છે</item>
     </plurals>
     <string name="lockpassword_continue_label" msgid="2507983991979547816">"ચાલુ રાખો"</string>
     <plurals name="lockpassword_password_too_long" formatted="false" msgid="8118091957172967677">
-      <item quantity="one"><xliff:g id="NUMBER_1">%d</xliff:g> કરતાં ઓછા અક્ષરો હોવા જરૂરી છે</item>
-      <item quantity="other"><xliff:g id="NUMBER_1">%d</xliff:g> કરતાં ઓછા અક્ષરો હોવા જરૂરી છે</item>
+        <item quantity="one"><xliff:g id="NUMBER_1">%d</xliff:g> કરતાં ઓછા અક્ષરો હોવા જરૂરી છે</item>
+        <item quantity="other"><xliff:g id="NUMBER_1">%d</xliff:g> કરતાં ઓછા અક્ષરો હોવા જરૂરી છે</item>
     </plurals>
     <plurals name="lockpassword_pin_too_long" formatted="false" msgid="8706992338720310765">
-      <item quantity="one"><xliff:g id="NUMBER_1">%d</xliff:g> કરતાં ઓછા અંક હોવા જરૂરી છે</item>
-      <item quantity="other"><xliff:g id="NUMBER_1">%d</xliff:g> કરતાં ઓછા અંક હોવા જરૂરી છે</item>
+        <item quantity="one"><xliff:g id="NUMBER_1">%d</xliff:g> કરતાં ઓછા અંક હોવા જરૂરી છે</item>
+        <item quantity="other"><xliff:g id="NUMBER_1">%d</xliff:g> કરતાં ઓછા અંક હોવા જરૂરી છે</item>
     </plurals>
     <string name="lockpassword_pin_recently_used" msgid="6650277060998923465">"ઉપકરણ વ્યવસ્થાપક તાજેતરનાં પિનનો ઉપયોગ કરવાની મંજૂરી આપતા નથી"</string>
     <string name="lockpassword_pin_blacklisted_by_admin" msgid="115994274880232984">"સામાન્ય પિન તમારા IT વ્યવસ્થાપક દ્વારા બ્લૉક કરવામાં આવે છે. એક અલગ પિન અજમાવી જુઓ."</string>
@@ -628,32 +616,32 @@
     <string name="lockpassword_password_requires_digit" msgid="312518567592683795">"ઓછામાં ઓછો એક અંક હોવો આવશ્યક છે"</string>
     <string name="lockpassword_password_requires_symbol" msgid="6178512486154701321">"ઓછામાં ઓછું એક પ્રતિક હોવું આવશ્યક છે"</string>
     <plurals name="lockpassword_password_requires_letters" formatted="false" msgid="2385916409676839024">
-      <item quantity="one">ઓછામાં ઓછા <xliff:g id="COUNT">%d</xliff:g> અક્ષર ધરાવતો હોવો જોઈએ</item>
-      <item quantity="other">ઓછામાં ઓછા <xliff:g id="COUNT">%d</xliff:g> અક્ષર ધરાવતો હોવો જોઈએ</item>
+        <item quantity="one">ઓછામાં ઓછા <xliff:g id="COUNT">%d</xliff:g> અક્ષર ધરાવતો હોવો જોઈએ</item>
+        <item quantity="other">ઓછામાં ઓછા <xliff:g id="COUNT">%d</xliff:g> અક્ષર ધરાવતો હોવો જોઈએ</item>
     </plurals>
     <plurals name="lockpassword_password_requires_lowercase" formatted="false" msgid="2057467885488612701">
-      <item quantity="one">ઓછામાં ઓછા <xliff:g id="COUNT">%d</xliff:g> લોઅરકેસ અક્ષર ધરાવતો હોવો જોઈએ</item>
-      <item quantity="other">ઓછામાં ઓછા <xliff:g id="COUNT">%d</xliff:g> લોઅરકેસ અક્ષર ધરાવતો હોવો જોઈએ</item>
+        <item quantity="one">ઓછામાં ઓછા <xliff:g id="COUNT">%d</xliff:g> લોઅરકેસ અક્ષર ધરાવતો હોવો જોઈએ</item>
+        <item quantity="other">ઓછામાં ઓછા <xliff:g id="COUNT">%d</xliff:g> લોઅરકેસ અક્ષર ધરાવતો હોવો જોઈએ</item>
     </plurals>
     <plurals name="lockpassword_password_requires_uppercase" formatted="false" msgid="4541266279643052025">
-      <item quantity="one">ઓછામાં ઓછા <xliff:g id="COUNT">%d</xliff:g> અપરકેસ અક્ષર ધરાવતો હોવો જોઈએ</item>
-      <item quantity="other">ઓછામાં ઓછા <xliff:g id="COUNT">%d</xliff:g> અપરકેસ અક્ષર ધરાવતો હોવો જોઈએ</item>
+        <item quantity="one">ઓછામાં ઓછા <xliff:g id="COUNT">%d</xliff:g> અપરકેસ અક્ષર ધરાવતો હોવો જોઈએ</item>
+        <item quantity="other">ઓછામાં ઓછા <xliff:g id="COUNT">%d</xliff:g> અપરકેસ અક્ષર ધરાવતો હોવો જોઈએ</item>
     </plurals>
     <plurals name="lockpassword_password_requires_numeric" formatted="false" msgid="70617964591376248">
-      <item quantity="one">ઓછામાં ઓછા <xliff:g id="COUNT">%d</xliff:g> સંખ્યાવાચક અંક ધરાવતો હોવો જોઈએ</item>
-      <item quantity="other">ઓછામાં ઓછા <xliff:g id="COUNT">%d</xliff:g> સંખ્યાવાચક અંક ધરાવતો હોવો જોઈએ</item>
+        <item quantity="one">ઓછામાં ઓછા <xliff:g id="COUNT">%d</xliff:g> સંખ્યાવાચક અંક ધરાવતો હોવો જોઈએ</item>
+        <item quantity="other">ઓછામાં ઓછા <xliff:g id="COUNT">%d</xliff:g> સંખ્યાવાચક અંક ધરાવતો હોવો જોઈએ</item>
     </plurals>
     <plurals name="lockpassword_password_requires_symbols" formatted="false" msgid="7981236881269921943">
-      <item quantity="one">ઓછામાં ઓછા <xliff:g id="COUNT">%d</xliff:g> વિશિષ્ટ પ્રતીક ધરાવતો હોવો જોઈએ</item>
-      <item quantity="other">ઓછામાં ઓછા <xliff:g id="COUNT">%d</xliff:g> વિશિષ્ટ પ્રતીક ધરાવતો હોવો જોઈએ</item>
+        <item quantity="one">ઓછામાં ઓછા <xliff:g id="COUNT">%d</xliff:g> વિશિષ્ટ પ્રતીક ધરાવતો હોવો જોઈએ</item>
+        <item quantity="other">ઓછામાં ઓછા <xliff:g id="COUNT">%d</xliff:g> વિશિષ્ટ પ્રતીક ધરાવતો હોવો જોઈએ</item>
     </plurals>
     <plurals name="lockpassword_password_requires_nonletter" formatted="false" msgid="1567877061888948467">
-      <item quantity="one">ઓછામાં ઓછા <xliff:g id="COUNT">%d</xliff:g> વર્ણ સિવાયના અક્ષર ધરાવતો હોવો જોઈએ</item>
-      <item quantity="other">ઓછામાં ઓછા <xliff:g id="COUNT">%d</xliff:g> વર્ણ સિવાયના અક્ષર ધરાવતો હોવો જોઈએ</item>
+        <item quantity="one">ઓછામાં ઓછા <xliff:g id="COUNT">%d</xliff:g> વર્ણ સિવાયના અક્ષર ધરાવતો હોવો જોઈએ</item>
+        <item quantity="other">ઓછામાં ઓછા <xliff:g id="COUNT">%d</xliff:g> વર્ણ સિવાયના અક્ષર ધરાવતો હોવો જોઈએ</item>
     </plurals>
     <plurals name="lockpassword_password_requires_nonnumerical" formatted="false" msgid="5056743974888384475">
-      <item quantity="one">ઓછામાં ઓછો <xliff:g id="COUNT">%d</xliff:g> અક્ષર એવો હોવો જોઈએ કે જે સંખ્યા ન હોય</item>
-      <item quantity="other">ઓછામાં ઓછા <xliff:g id="COUNT">%d</xliff:g> અક્ષર એવા હોવા જોઈએ કે જે સંખ્યા ન હોય</item>
+        <item quantity="one">ઓછામાં ઓછો <xliff:g id="COUNT">%d</xliff:g> અક્ષર એવો હોવો જોઈએ કે જે સંખ્યા ન હોય</item>
+        <item quantity="other">ઓછામાં ઓછા <xliff:g id="COUNT">%d</xliff:g> અક્ષર એવા હોવા જોઈએ કે જે સંખ્યા ન હોય</item>
     </plurals>
     <string name="lockpassword_password_recently_used" msgid="5341218079730167191">"ઉપકરણ વ્યવસ્થાપક તાજેતરનાં પાસવર્ડનો ઉપયોગ કરવાની મંજૂરી આપતા નથી"</string>
     <string name="lockpassword_password_blacklisted_by_admin" msgid="8956110268546396737">"સામાન્ય પાસવર્ડ તમારા IT વ્યવસ્થાપક દ્વારા બ્લૉક કરવામાં આવે છે. એક અલગ પાસવર્ડ અજમાવી જુઓ."</string>
@@ -668,15 +656,15 @@
     <string name="manage_device_admin" msgid="1044620606203916275">"ડિવાઇસ વ્યવસ્થાપક ઍપ્લિકેશનો"</string>
     <string name="number_of_device_admins_none" msgid="152926922020437312">"કોઈ સક્રિય ઍપ્લિકેશન નથી"</string>
     <plurals name="number_of_device_admins" formatted="false" msgid="2528735319390151989">
-      <item quantity="one"><xliff:g id="COUNT_1">%d</xliff:g> સક્રિય ઍપ્લિકેશન</item>
-      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> સક્રિય ઍપ્લિકેશન</item>
+        <item quantity="one"><xliff:g id="COUNT_1">%d</xliff:g> સક્રિય ઍપ્લિકેશન</item>
+        <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> સક્રિય ઍપ્લિકેશન</item>
     </plurals>
     <string name="manage_trust_agents" msgid="6410149930029992356">"ટ્રસ્ટ એજન્ટ"</string>
     <string name="disabled_because_no_backup_security" msgid="4998095356607488854">"ઉપયોગ કરવા માટે, પ્રથમ એક સ્ક્રીન લૉક સેટ કરો"</string>
     <string name="manage_trust_agents_summary" msgid="6423843123607674286">"કોઈ નહીં"</string>
     <plurals name="manage_trust_agents_summary_on" formatted="false" msgid="5438047398376802735">
-      <item quantity="one"><xliff:g id="COUNT">%d</xliff:g> સક્રિય ટ્રસ્ટ એજન્ટ</item>
-      <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> સક્રિય ટ્રસ્ટ એજન્ટ</item>
+        <item quantity="one"><xliff:g id="COUNT">%d</xliff:g> સક્રિય ટ્રસ્ટ એજન્ટ</item>
+        <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> સક્રિય ટ્રસ્ટ એજન્ટ</item>
     </plurals>
     <string name="bluetooth_quick_toggle_title" msgid="5955341060378240781">"બ્લૂટૂથ"</string>
     <string name="bluetooth_quick_toggle_summary" msgid="5257744297562880017">"બ્લૂટૂથ ચાલુ કરો"</string>
@@ -695,7 +683,6 @@
     <string name="bluetooth_incoming_pairing_msg" msgid="1068123527866596779">"અહીંથી:&lt;br&gt;&lt;b&gt;<xliff:g id="DEVICE_NAME">%1$s</xliff:g>&lt;/b&gt;&lt;br&gt;&lt;br&gt;આ ઉપકરણ સાથે જોડી કરીએ?"</string>
     <string name="bluetooth_display_passkey_pin_msg" msgid="8672803845151786521">"આની સાથે જોડી કરવા:<xliff:g id="BOLD1_0">&lt;br&gt;&lt;b&gt;</xliff:g><xliff:g id="DEVICE_NAME">%1$s</xliff:g><xliff:g id="END_BOLD1">&lt;/b&gt;&lt;br&gt;&lt;br&gt;</xliff:g>તેના પર લખો:<xliff:g id="BOLD2_1">&lt;br&gt;&lt;b&gt;</xliff:g><xliff:g id="PASSKEY">%2$s</xliff:g><xliff:g id="END_BOLD2">&lt;/b&gt;</xliff:g>, પછી Return અથવા Enter દબાવો."</string>
     <string name="bluetooth_pairing_shares_phonebook" msgid="4329325125260724843">"તમારા સંપર્કો અને કૉલ ઇતિહાસના ઍક્સેસની મંજૂરી આપો"</string>
-    <string name="bluetooth_error_title" msgid="2284738188253690278"></string>
     <string name="bluetooth_connecting_error_message" msgid="3941893154784152112">"<xliff:g id="DEVICE_NAME">%1$s</xliff:g> સાથે કનેક્ટ કરી શકાયું નથી."</string>
     <string name="bluetooth_preference_scan_title" msgid="3460316252463771851">"ઉપકરણો માટે સ્કૅન કરો"</string>
     <string name="bluetooth_search_for_devices" msgid="6516902340975407648">"તાજું કરો"</string>
@@ -982,16 +969,16 @@
     <string name="wifi_forget_dialog_title" msgid="4363829200968563164">"નેટવર્કને ભૂલી જઈએ?"</string>
     <string name="wifi_forget_dialog_message" msgid="8419499588321940243">"આ નેટવર્ક માટેના બધા પાસવર્ડ ડિલીટ કરવામાં આવશે"</string>
     <plurals name="wifi_saved_access_points_summary" formatted="false" msgid="2802436466732147888">
-      <item quantity="one">%d નેટવર્ક</item>
-      <item quantity="other">%d નેટવર્ક</item>
+        <item quantity="one">%d નેટવર્ક</item>
+        <item quantity="other">%d નેટવર્ક</item>
     </plurals>
     <plurals name="wifi_saved_passpoint_access_points_summary" formatted="false" msgid="5802057518058840450">
-      <item quantity="one">%d સબ્સ્ક્રિપ્શન</item>
-      <item quantity="other">%d સબ્સ્ક્રિપ્શન</item>
+        <item quantity="one">%d સબ્સ્ક્રિપ્શન</item>
+        <item quantity="other">%d સબ્સ્ક્રિપ્શન</item>
     </plurals>
     <plurals name="wifi_saved_all_access_points_summary" formatted="false" msgid="5125849180309374451">
-      <item quantity="one">%d નેટવર્ક અને સબસ્ક્રિપ્શન</item>
-      <item quantity="other">%d નેટવર્ક અને સબસ્ક્રિપ્શન</item>
+        <item quantity="one">%d નેટવર્ક અને સબસ્ક્રિપ્શન</item>
+        <item quantity="other">%d નેટવર્ક અને સબસ્ક્રિપ્શન</item>
     </plurals>
     <string name="wifi_advanced_titlebar" msgid="1234150304285575798">"વિગતવાર વાઇ-ફાઇ"</string>
     <string name="wifi_advanced_ssid_title" msgid="1561437650193980185">"SSID"</string>
@@ -1005,7 +992,7 @@
     <string name="wifi_saved_access_points_label" msgid="5691340724310548151">"સાચવેલા નેટવર્ક"</string>
     <string name="wifi_subscribed_access_points_tab" msgid="7224061396195667208">"સબ્સ્ક્રિપ્શન"</string>
     <!-- no translation found for wifi_saved_access_points_tab (2075914709522121708) -->
-    <skip />
+    <skip/>
     <string name="wifi_advanced_settings_label" msgid="5880605751602184383">"IP સેટિંગ"</string>
     <string name="wifi_advanced_not_available" msgid="8701003884367299092">"આ વપરાશકર્તા માટે વાઇ-ફાઇ વિગતવાર સેટિંગ્સ ઉપલબ્ધ નથી"</string>
     <string name="wifi_ip_settings_menu_save" msgid="5190481040428567106">"સાચવો"</string>
@@ -1075,22 +1062,21 @@
     <string name="wifi_calling_mode_dialog_title" msgid="944146521898592440">"કૉલિંગ પસંદગી"</string>
     <string name="wifi_calling_roaming_mode_title" msgid="7703305991991520773">"રોમિંગ પસંદગી"</string>
     <!-- no translation found for wifi_calling_roaming_mode_summary (6061631305384464179) -->
-    <skip />
+    <skip/>
     <string name="wifi_calling_roaming_mode_dialog_title" msgid="5382466713784067077">"રોમિંગ પસંદગી"</string>
-  <string-array name="wifi_calling_mode_choices_v2">
-    <item msgid="6052353275413974742">"વાઇ-ફાઇ"</item>
-    <item msgid="8622872038388687383">"મોબાઇલ"</item>
-    <item msgid="3027927219952052398">"ફક્ત વાઇ-ફાઇ"</item>
-  </string-array>
-  <string-array name="wifi_calling_mode_choices_v2_without_wifi_only">
-    <item msgid="588620799769664461">"વાઇ-ફાઇ"</item>
-    <item msgid="7566603075659706590">"મોબાઇલ"</item>
-  </string-array>
+    <string-array name="wifi_calling_mode_choices_v2">
+        <item msgid="6052353275413974742">"વાઇ-ફાઇ"</item>
+        <item msgid="8622872038388687383">"મોબાઇલ"</item>
+        <item msgid="3027927219952052398">"ફક્ત વાઇ-ફાઇ"</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_choices_v2_without_wifi_only">
+        <item msgid="588620799769664461">"વાઇ-ફાઇ"</item>
+        <item msgid="7566603075659706590">"મોબાઇલ"</item>
+    </string-array>
     <string name="wifi_calling_mode_wifi_preferred_summary" msgid="3240387177966098351">"વાઇ-ફાઇ ઉપલબ્ધ ન હોય, તો મોબાઇલ નેટવર્કનો ઉપયોગ કરો"</string>
     <string name="wifi_calling_mode_cellular_preferred_summary" msgid="3746914244902314059">"મોબાઇલ નેટવર્ક ઉપલબ્ધ ન હોય, તો વાઇ-ફાઇનો ઉપયોગ કરો"</string>
     <string name="wifi_calling_mode_wifi_only_summary" msgid="3155660680014892641">"વાઇ-ફાઇ પરથી કૉલ કરો. વાઇ-ફાઇ જતું રહેશે, તો કૉલ સમાપ્ત થઈ જશે."</string>
     <string name="wifi_calling_off_explanation" msgid="6295526820826322895">"જ્યારે વાઇ-ફાઇ કૉલિંગ ચાલુ હોય, ત્યારે તમારી પસંદગી અને કયા સિગ્નલ મજબૂત છે તેને આધારે, તમારો ફોન વાઇ-ફાઇ નેટવર્ક અથવા તમારા કૅરિઅરના નેટવર્ક મારફતે કૉલને રૂટ કરી શકે છે. આ સુવિધાને ચાલુ કરતાં પહેલાં, શુલ્ક અને અન્ય વિગતો માટે તમારા કૅરિઅર સાથે વાત કરો.<xliff:g id="ADDITIONAL_TEXT">%1$s</xliff:g>"</string>
-    <string name="wifi_calling_off_explanation_2" msgid="3487475808574416183"></string>
     <string name="emergency_address_title" msgid="3490633500025717573">"કટોકટીનું સરનામું"</string>
     <string name="emergency_address_summary" msgid="3022628750270626473">"જ્યારે તમે વાઇ-ફાઇનો ઉપયોગ કરીને કોઈ કટોકટીનો કૉલ કરો તો તેનો તમારા સ્થાન તરીકે ઉપયોગ કરવામાં આવશે"</string>
     <string name="private_dns_help_message" msgid="851221502063782306">"ખાનગી DNS સુવિધા વિશે "<annotation id="url">"વધુ જાણો"</annotation></string>
@@ -1188,7 +1174,6 @@
     <string name="auto_brightness_disclaimer" msgid="1868395832774087351">"ઉપલબ્ધ પ્રકાશ માટેનાં તેજ સ્તરને ઑપ્ટિમાઇઝ કરો. જ્યારે આ સુવિધા ચાલુ હોય, ત્યારે પણ તમે તેજને અસ્થાયી રૂપે સમાયોજિત કરી શકો છો."</string>
     <string name="auto_brightness_description" msgid="6807117118142381193">"તમારી સ્ક્રીનની બ્રાઇટનેસ તમારા પર્યાવરણ અને પ્રવૃત્તિઓ સાથે ઑટોમૅટિક રીતે ઓછું-વધતું થઈને ગોઠવાશે. તમે સ્લાઇડર મેન્યુઅલી ખસેડીને અડૅપ્ટિવ બ્રાઇટનેસને તમારી પસંદગીઓ જાણવામાં સહાય કરી શકો છો."</string>
     <string name="display_white_balance_title" msgid="2624544323029364713">"વ્હાઇટ બૅલેન્સ ડિસ્પ્લે"</string>
-    <string name="display_white_balance_summary" msgid="7625456704950209050"></string>
     <string name="peak_refresh_rate_title" msgid="1878771412897140903">"Smooth Display"</string>
     <string name="peak_refresh_rate_summary" msgid="1527087897198455042">"અમુક કન્ટેન્ટ માટે રિફ્રેશ થવાનો રેટ ઑટોમૅટિક રીતે 60થી વધારીને 90 Hz કરે છે. બૅટરીનો વપરાશ વધારે છે."</string>
     <string name="force_high_refresh_rate_toggle" msgid="5861514655252832828">"90 Hz રિફ્રેશ રેટ ફરજિયાત બનાવો"</string>
@@ -1320,13 +1305,12 @@
     <string name="sim_preferred_message" msgid="6004009449266648351">"તમારા ઉપકરણમાં એકમાત્ર <xliff:g id="NEW_SIM">%1$s</xliff:g> સિમ છે. શું તમે મોબાઇલ ડેટા, કૉલ અને SMS સંદેશા માટે આ સિમનો ઉપયોગ કરવા માગો છો?"</string>
     <string name="wrong_pin_code_pukked" msgid="3414172752791445033">"ખોટો સિમ પિન કોડ, તમારે હવે તમારું ઉપકરણ અનલૉક કરવા માટે તમારા કૅરીઅરનો સંપર્ક કરવો આવશ્યક છે."</string>
     <plurals name="wrong_pin_code" formatted="false" msgid="4054088588731305475">
-      <item quantity="one">ખોટો સિમ પિન કોડ, તમારી પાસે <xliff:g id="NUMBER_1">%d</xliff:g> પ્રયાસ બાકી છે.</item>
-      <item quantity="other">ખોટો સિમ પિન કોડ, તમારી પાસે <xliff:g id="NUMBER_1">%d</xliff:g> પ્રયાસ બાકી છે.</item>
+        <item quantity="one">ખોટો સિમ પિન કોડ, તમારી પાસે <xliff:g id="NUMBER_1">%d</xliff:g> પ્રયાસ બાકી છે.</item>
+        <item quantity="other">ખોટો સિમ પિન કોડ, તમારી પાસે <xliff:g id="NUMBER_1">%d</xliff:g> પ્રયાસ બાકી છે.</item>
     </plurals>
     <string name="wrong_pin_code_one" msgid="6924852214263071441">"ખોટો સિમ પિન કોડ, તમારે તમારું ડિવાઇસ અનલૉક કરવા માટે તમારા મોબાઇલ ઑપરેટરનો સંપર્ક કરવાની આવશ્યકતા પડે તે પહેલાં તમારી પાસે 1 પ્રયાસ બાકી છે."</string>
     <string name="pin_failed" msgid="3726505565797352255">"સિમ પિન ઑપરેશન નિષ્ફળ થયું!"</string>
     <string name="system_update_settings_list_item_title" msgid="3398346836439366350">"સિસ્ટમ અપડેટ્સ"</string>
-    <string name="system_update_settings_list_item_summary" msgid="6703752298349642101"></string>
     <string name="firmware_version" msgid="1606901586501447275">"Android વર્ઝન"</string>
     <string name="security_patch" msgid="4071756145347865382">"Android માટે સુરક્ષા અપડેટ"</string>
     <string name="model_info" msgid="8997566254717810904">"મોડલ"</string>
@@ -1403,8 +1387,7 @@
     <string name="sd_insert_summary" product="default" msgid="5949168259622002192">"માઉન્ટ કરવા માટે એક SD કાર્ડ શામેલ કરો"</string>
     <string name="sd_mount" product="nosdcard" msgid="8305985249945415150">"USB સંગ્રહને માઉન્ટ કરો"</string>
     <string name="sd_mount" product="default" msgid="5279813999455776169">"SD કાર્ડને માઉન્ટ કરો"</string>
-    <string name="sd_mount_summary" product="nosdcard" msgid="2190410240845521205"></string>
-    <string name="sd_mount_summary" product="default" msgid="2190410240845521205"></string>
+    <string name="sd_mount_summary" product="default" msgid="2190410240845521205"/>
     <string name="sd_format" product="nosdcard" msgid="8657427883364711513">"USB સ્ટોરેજ ભૂસી નાખો"</string>
     <string name="sd_format" product="default" msgid="9085302892248732329">"SD કાર્ડ કાઢી નાંખો"</string>
     <string name="sd_format_summary" product="nosdcard" msgid="6179784504937189658">"આંતરિક USB સંગ્રહમાંથી તમામ ડેટા કાઢી નાંખે છે, જેમ કે સંગીત અને ફોટો"</string>
@@ -1416,8 +1399,7 @@
     <string name="dlg_confirm_unmount_title" product="default" msgid="8251329019960361646">"SD કાર્ડને અનમાઉન્ટ કરીએ?"</string>
     <string name="dlg_confirm_unmount_text" product="nosdcard" msgid="1212025106709645023">"જો તમે USB સંગ્રહને અનમાઉન્ટ કરો છો, તો તમે ઉપયોગમાં લઈ રહ્યાં છો તે કેટલીક ઍપ્લિકેશનો બંધ થઈ જશે અને જ્યાં સુધી તમે USB સંગ્રહને ફરીથી માઉન્ટ ન કરી લો ત્યાં સુધી અનુપલબ્ધ હોઈ શકે છે."</string>
     <string name="dlg_confirm_unmount_text" product="default" msgid="3887768438615563697">"જો તમે SD કાર્ડને અનમાઉન્ટ કરો છો, તો તમે ઉપયોગમાં લઈ રહ્યાં છો તે કેટલીક ઍપ્લિકેશનો બંધ થઈ જશે અને જ્યાં સુધી તમે SD કાર્ડને ફરીથી માઉન્ટ ન કરી લો ત્યાં સુધી અનુપલબ્ધ હોઈ શકે છે."</string>
-    <string name="dlg_error_unmount_title" product="nosdcard" msgid="2205587942165199845"></string>
-    <string name="dlg_error_unmount_title" product="default" msgid="2205587942165199845"></string>
+    <string name="dlg_error_unmount_title" product="default" msgid="2205587942165199845"/>
     <string name="dlg_error_unmount_text" product="nosdcard" msgid="7876201891724279436">"USB સંગ્રહને અનમાઉન્ટ કરી શકાયું નહીં. પછી ફરીથી પ્રયાસ કરો."</string>
     <string name="dlg_error_unmount_text" product="default" msgid="2185659901137961711">"SD કાર્ડને અનમાઉન્ટ કરી શકાયું નહીં. પછી ફરીથી પ્રયાસ કરો."</string>
     <string name="unmount_inform_text" product="nosdcard" msgid="5932607205977999175">"USB સ્ટોરેજ અનમાઉન્ટ કરાશે."</string>
@@ -1579,7 +1561,6 @@
     <string name="menu_new" msgid="6571230342655509006">"નવું APN"</string>
     <string name="menu_save" msgid="6611465355127483100">"સાચવો"</string>
     <string name="menu_cancel" msgid="4526003389139913077">"નિકાળો"</string>
-    <string name="error_title" msgid="7158648377702417716"></string>
     <string name="error_name_empty" msgid="1258275899283079142">"નામ ફીલ્ડ ખાલી હોઈ શકતું નથી."</string>
     <string name="error_apn_empty" msgid="7657491065443746915">"APN ખાલી હોઇ શકતું નથી."</string>
     <string name="error_mcc_not3" msgid="883659545640179094">"MCC ફીલ્ડ 3 આંકડાનું હોવું આવશ્યક છે."</string>
@@ -1703,8 +1684,8 @@
     <string name="location_app_level_permissions" msgid="45436724900423656">"સ્થાન માટે ઍપનો ઍક્સેસ"</string>
     <string name="location_app_permission_summary_location_off" msgid="2711822936853500335">"સ્થાન બંધ છે"</string>
     <plurals name="location_app_permission_summary_location_on" formatted="false" msgid="8286873148858526214">
-      <item quantity="one"> <xliff:g id="TOTAL_LOCATION_APP_COUNT_3">%2$d</xliff:g>માંથી <xliff:g id="PERMITTED_LOCATION_APP_COUNT_2">%1$d</xliff:g> ઍપ સ્થાનનો ઍક્સેસ ધરાવે છે</item>
-      <item quantity="other"> <xliff:g id="TOTAL_LOCATION_APP_COUNT_3">%2$d</xliff:g>માંથી <xliff:g id="PERMITTED_LOCATION_APP_COUNT_2">%1$d</xliff:g> ઍપ સ્થાનનો ઍક્સેસ ધરાવે છે</item>
+        <item quantity="one"> <xliff:g id="TOTAL_LOCATION_APP_COUNT_3">%2$d</xliff:g>માંથી <xliff:g id="PERMITTED_LOCATION_APP_COUNT_2">%1$d</xliff:g> ઍપ સ્થાનનો ઍક્સેસ ધરાવે છે</item>
+        <item quantity="other"> <xliff:g id="TOTAL_LOCATION_APP_COUNT_3">%2$d</xliff:g>માંથી <xliff:g id="PERMITTED_LOCATION_APP_COUNT_2">%1$d</xliff:g> ઍપ સ્થાનનો ઍક્સેસ ધરાવે છે</item>
     </plurals>
     <string name="location_category_recent_location_access" msgid="7880996987927703141">"તાજેતરનો સ્થાન ઍક્સેસ"</string>
     <string name="location_recent_location_access_view_details" msgid="5803264082558504544">"વિગતો જુઓ"</string>
@@ -1851,8 +1832,8 @@
     <string name="install_applications_title" msgid="7890233747559108106">"બધા ઍપ્લિકેશન સ્રોતોને મંજૂરી આપો"</string>
     <string name="recent_app_category_title" msgid="189758417804427533">"તાજેતરમાં ખોલેલી ઍપ"</string>
     <plurals name="see_all_apps_title" formatted="false" msgid="6864581406735745400">
-      <item quantity="one">બધી %1$d ઍપ જુઓ</item>
-      <item quantity="other">બધી %1$d ઍપ જુઓ</item>
+        <item quantity="one">બધી %1$d ઍપ જુઓ</item>
+        <item quantity="other">બધી %1$d ઍપ જુઓ</item>
     </plurals>
     <string name="forgot_password_title" msgid="3967873480875239885">"તમારા IT વ્યવસ્થાપકનો સંપર્ક કરો"</string>
     <string name="forgot_password_text" msgid="2583194470767613163">"તેઓ તમારા પિન, પૅટર્ન અથવા પાસવર્ડને રીસેટ કરવામાં તમારી સહાય કરી શકે છે"</string>
@@ -1877,8 +1858,8 @@
     <string name="clear_cache_btn_text" msgid="8597272828928143723">"કેશ સાફ કરો"</string>
     <string name="cache_size_label" msgid="313456088966822757">"કેશ"</string>
     <plurals name="uri_permissions_text" formatted="false" msgid="8212425823423508096">
-      <item quantity="one">%d આઇટમ</item>
-      <item quantity="other">%d આઇટમ</item>
+        <item quantity="one">%d આઇટમ</item>
+        <item quantity="other">%d આઇટમ</item>
     </plurals>
     <string name="clear_uri_btn_text" msgid="4828117421162495134">"સાફ કરવાની ઍક્સેસ"</string>
     <string name="controls_label" msgid="8671492254263626383">"નિયંત્રણો"</string>
@@ -1933,7 +1914,6 @@
     <string name="clear_data_dlg_text" msgid="1107610960337399006">"આ ઍપના ડેટાને કાયમી રીતે કાઢી નાખવામાં આવશે. આમાં ફાઇલો, સેટિંગ, ડેટાબેઝ અને અન્ય ઍપ ડેટા પણ શામેલ હોય છે."</string>
     <string name="dlg_ok" msgid="1421350367857960997">"ઓકે"</string>
     <string name="dlg_cancel" msgid="5164705061530774899">"રદ કરો"</string>
-    <string name="app_not_found_dlg_title" msgid="7122106240981109930"></string>
     <string name="app_not_found_dlg_text" msgid="8634675268730513704">"ઇન્સ્ટોલ કરેલ ઍપ્લિકેશન્સની સૂચિમાં ઍપ્લિકેશન મળી નહોતી."</string>
     <string name="clear_failed_dlg_text" msgid="6866741916836125732">"ઍપ માટે સ્ટોરેજ સાફ ન કરી શક્યાં."</string>
     <string name="join_two_items" msgid="7893073836681382429">"<xliff:g id="FIRST_ITEM">%1$s</xliff:g> અને <xliff:g id="SECOND_ITEM">%2$s</xliff:g>"</string>
@@ -1973,12 +1953,12 @@
     <string name="no_running_services" msgid="9079738069349859373">"કંઈ ચાલી રહ્યું નથી."</string>
     <string name="service_started_by_app" msgid="6845028506417670179">"ઍપ્લિકેશન દ્વારા પ્રારંભ થયો."</string>
     <!-- no translation found for service_client_name (2210898622981598861) -->
-    <skip />
+    <skip/>
     <string name="service_background_processes" msgid="2800539421534521948">"<xliff:g id="MEMORY">%1$s</xliff:g> મફત"</string>
     <string name="service_foreground_processes" msgid="6380905887193621704">"<xliff:g id="MEMORY">%1$s</xliff:g> વપરાયેલ"</string>
     <string name="memory" msgid="5253757199926592074">"RAM"</string>
     <!-- no translation found for service_process_name (7827318358399776412) -->
-    <skip />
+    <skip/>
     <string name="running_process_item_user_label" msgid="1444898861984132133">"વપરાશકર્તા: <xliff:g id="USER_NAME">%1$s</xliff:g>"</string>
     <string name="running_process_item_removed_user_label" msgid="4812732296696662613">"દૂર કરેલ વપરાશકર્તા"</string>
     <string name="running_processes_item_description_s_s" msgid="6835918861352501671">"<xliff:g id="NUMPROCESS">%1$d</xliff:g> પ્રક્રિયા અને <xliff:g id="NUMSERVICES">%2$d</xliff:g> સેવા"</string>
@@ -2010,16 +1990,13 @@
     <string name="runningservicedetails_stop_dlg_text" product="tablet" msgid="2076922609580490122">"જો તમે આ સેવા બંધ કરો છો, તો તમારા ટેબ્લેટની કેટલીક સુવિધાઓ કાર્ય કરતી બંધ થઈ જશે જ્યાં સુધી તમે તેને પાવર બંધ કરીને ફરીથી ચાલુ ન કરો."</string>
     <string name="runningservicedetails_stop_dlg_text" product="default" msgid="2625863973434309085">"જો તમે આ સેવા બંધ કરો છો, તો તમારા ફોનની કેટલીક સુવિધાઓ કાર્ય કરતી બંધ થઈ જશે જ્યાં સુધી તમે તેને પાવર બંધ કરીને ફરીથી ચાલુ ન કરો."</string>
     <string name="language_input_gesture_title" msgid="3292455685728572960">"ભાષાઓ, ઇનપુટ અને સંકેતો"</string>
-    <string name="language_input_gesture_summary_on_with_assist" msgid="8670153838520237089"></string>
-    <string name="language_input_gesture_summary_on_non_assist" msgid="2738661322747920463"></string>
-    <string name="language_input_gesture_summary_off" msgid="1604575860215661606"></string>
+    <string name="language_input_gesture_summary_on_non_assist" msgid="2738661322747920463"/>
     <string name="language_settings" msgid="8700174277543875046">"ભાષા અને ઇનપુટ"</string>
     <string name="language_empty_list_user_restricted" msgid="8050367405839231863">"તમારી પાસે ઉપકરણની ભાષા બદલવાની પરવાનગી નથી."</string>
     <string name="language_keyboard_settings_title" msgid="7934844313233544557">"ભાષા અને ઇનપુટ"</string>
     <string name="input_assistance" msgid="3437568284144952104">"સાધનો"</string>
     <string name="keyboard_settings_category" msgid="5392847229300117064">"કીબોર્ડ અને ઇનપુટ પદ્ધતિઓ"</string>
     <string name="phone_language" msgid="5986939176239963826">"ભાષાઓ"</string>
-    <string name="phone_language_summary" msgid="863041222809685325"></string>
     <string name="auto_replace" msgid="4830732960264447043">"સ્વતઃ બદલો"</string>
     <string name="auto_replace_summary" msgid="1285443414597153423">"ખોટી રીતે લખાયેલ શબ્દોને સુધારો"</string>
     <string name="auto_caps" msgid="5573583581288305355">"સ્વતઃ-કેપિટલાઇઝેશન"</string>
@@ -2057,7 +2034,6 @@
     <string name="keyboard_layout_picker_title" msgid="240504762718562906">"કીબોર્ડ લેઆઉટ્સ"</string>
     <string name="user_dict_settings_title" msgid="680410651924276991">"વ્યક્તિગત શબ્દકોશ"</string>
     <string name="user_dict_settings_for_work_title" msgid="1245315720684961770">"કાર્ય માટેનો વ્યક્તિગત શબ્દકોશ"</string>
-    <string name="user_dict_settings_summary" msgid="262228126041933459"></string>
     <string name="user_dict_settings_add_menu_title" msgid="8046882347281382968">"ઉમેરો"</string>
     <string name="user_dict_settings_add_dialog_title" msgid="3485845465134083084">"શબ્દકોષમાં ઉમેરો"</string>
     <string name="user_dict_settings_add_screen_title" msgid="1866408024073475379">"શબ્દસમૂહ"</string>
@@ -2237,8 +2213,8 @@
     <string name="accessibility_hearingaid_pair_instructions_message" msgid="8913409742121315657">"સાંભળવામાં મદદ આપતા યંત્રનું જોડાણ કરવા માટે, આગળની સ્ક્રીન પર તમારા ડિવાઇસને શોધો અને તેના પર ટૅપ કરો. ખાતરી કરો કે સાંભળવામાં મદદ આપતા યંત્રો જોડાણ બનાવવાના મોડમાં છે."</string>
     <string name="accessibility_hearingaid_active_device_summary" msgid="509703438222873967">"<xliff:g id="DEVICE_NAME">%1$s</xliff:g> સક્રિય"</string>
     <plurals name="show_number_hearingaid_count" formatted="false" msgid="776000580683647556">
-      <item quantity="one"><xliff:g id="NUMBER_DEVICE_COUNT_1">%1$d</xliff:g> શ્રવણ યંત્રો સાચવ્યા</item>
-      <item quantity="other"><xliff:g id="NUMBER_DEVICE_COUNT_1">%1$d</xliff:g> શ્રવણ યંત્રો સાચવ્યા</item>
+        <item quantity="one"><xliff:g id="NUMBER_DEVICE_COUNT_1">%1$d</xliff:g> શ્રવણ યંત્રો સાચવ્યા</item>
+        <item quantity="other"><xliff:g id="NUMBER_DEVICE_COUNT_1">%1$d</xliff:g> શ્રવણ યંત્રો સાચવ્યા</item>
     </plurals>
     <string name="accessibility_summary_shortcut_enabled" msgid="4030427268146752644">"શૉર્ટકટ ચાલુ"</string>
     <string name="accessibility_summary_shortcut_disabled" msgid="564005462092499068">"બંધ"</string>
@@ -2255,20 +2231,20 @@
     <string name="daltonizer_mode_protanomaly_summary" msgid="482834207025141433">"લાલ-લીલો"</string>
     <string name="daltonizer_mode_tritanomaly_summary" msgid="2837137091067433059">"વાદળી-પીળો"</string>
     <plurals name="accessibilty_autoclick_preference_subtitle_short_delay" formatted="false" msgid="5354221071353645263">
-      <item quantity="one">ટૂંકો વિલંબિત સમય (<xliff:g id="CLICK_DELAY_LABEL_1">%1$s</xliff:g> સેકન્ડ)</item>
-      <item quantity="other">ટૂંકો વિલંબિત સમય (<xliff:g id="CLICK_DELAY_LABEL_1">%1$s</xliff:g> સેકન્ડ)</item>
+        <item quantity="one">ટૂંકો વિલંબિત સમય (<xliff:g id="CLICK_DELAY_LABEL_1">%1$s</xliff:g> સેકન્ડ)</item>
+        <item quantity="other">ટૂંકો વિલંબિત સમય (<xliff:g id="CLICK_DELAY_LABEL_1">%1$s</xliff:g> સેકન્ડ)</item>
     </plurals>
     <plurals name="accessibilty_autoclick_preference_subtitle_medium_delay" formatted="false" msgid="1550891909800510628">
-      <item quantity="one">મધ્યમ વિલંબિત સમય (<xliff:g id="CLICK_DELAY_LABEL_1">%1$s</xliff:g> સેકન્ડ)</item>
-      <item quantity="other">મધ્યમ વિલંબિત સમય (<xliff:g id="CLICK_DELAY_LABEL_1">%1$s</xliff:g> સેકન્ડ)</item>
+        <item quantity="one">મધ્યમ વિલંબિત સમય (<xliff:g id="CLICK_DELAY_LABEL_1">%1$s</xliff:g> સેકન્ડ)</item>
+        <item quantity="other">મધ્યમ વિલંબિત સમય (<xliff:g id="CLICK_DELAY_LABEL_1">%1$s</xliff:g> સેકન્ડ)</item>
     </plurals>
     <plurals name="accessibilty_autoclick_preference_subtitle_long_delay" formatted="false" msgid="2230755548820485984">
-      <item quantity="one">લાંબો વિલંબિત સમય (<xliff:g id="CLICK_DELAY_LABEL_1">%1$s</xliff:g> સેકન્ડ)</item>
-      <item quantity="other">લાંબો વિલંબિત સમય (<xliff:g id="CLICK_DELAY_LABEL_1">%1$s</xliff:g> સેકન્ડ)</item>
+        <item quantity="one">લાંબો વિલંબિત સમય (<xliff:g id="CLICK_DELAY_LABEL_1">%1$s</xliff:g> સેકન્ડ)</item>
+        <item quantity="other">લાંબો વિલંબિત સમય (<xliff:g id="CLICK_DELAY_LABEL_1">%1$s</xliff:g> સેકન્ડ)</item>
     </plurals>
     <plurals name="accessibilty_autoclick_delay_unit_second" formatted="false" msgid="4537791441118261556">
-      <item quantity="one"><xliff:g id="CLICK_DELAY_LABEL_2">%1$s</xliff:g> સેકન્ડ</item>
-      <item quantity="other"><xliff:g id="CLICK_DELAY_LABEL_2">%1$s</xliff:g> સેકન્ડ</item>
+        <item quantity="one"><xliff:g id="CLICK_DELAY_LABEL_2">%1$s</xliff:g> સેકન્ડ</item>
+        <item quantity="other"><xliff:g id="CLICK_DELAY_LABEL_2">%1$s</xliff:g> સેકન્ડ</item>
     </plurals>
     <string name="accessibility_vibration_summary" msgid="27904038683405084">"રિંગ વગાડો <xliff:g id="SUMMARY_RING">%1$s</xliff:g>, નોટિફિકેશન મોકલો <xliff:g id="SUMMARY_NOTIFICATION">%2$s</xliff:g>, સ્પર્શ કરો <xliff:g id="SUMMARY_TOUCH">%3$s</xliff:g>"</string>
     <string name="accessibility_vibration_summary_off" msgid="7776105450117095736">"રિંગ અને નોટિફિકેશનના વાઇબ્રેશનને બંધ પર સેટ કર્યું"</string>
@@ -2339,12 +2315,12 @@
     <string name="print_settings" msgid="8519810615863882491">"પ્રિન્ટિંગ"</string>
     <string name="print_settings_summary_no_service" msgid="6721731154917653862">"બંધ"</string>
     <plurals name="print_settings_summary" formatted="false" msgid="1034273609054146099">
-      <item quantity="one"><xliff:g id="COUNT">%1$d</xliff:g> પ્રિન્ટ સેવા ચાલુ છે</item>
-      <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> પ્રિન્ટ સેવા ચાલુ છે</item>
+        <item quantity="one"><xliff:g id="COUNT">%1$d</xliff:g> પ્રિન્ટ સેવા ચાલુ છે</item>
+        <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> પ્રિન્ટ સેવા ચાલુ છે</item>
     </plurals>
     <plurals name="print_jobs_summary" formatted="false" msgid="3933688846338306536">
-      <item quantity="one"><xliff:g id="COUNT">%1$d</xliff:g> પ્રિન્ટ જોબ</item>
-      <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> પ્રિન્ટ જોબ</item>
+        <item quantity="one"><xliff:g id="COUNT">%1$d</xliff:g> પ્રિન્ટ જોબ</item>
+        <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> પ્રિન્ટ જોબ</item>
     </plurals>
     <string name="print_settings_title" msgid="7680498284751129935">"પ્રિન્ટ સેવાઓ"</string>
     <string name="print_no_services_installed" msgid="7554057966540602692">"કોઈ સેવાઓ ઇન્સ્ટોલ કરેલી નથી"</string>
@@ -2401,7 +2377,7 @@
     <string name="battery_stats_wake_lock_label" msgid="8115041205778441548">"જાગૃત"</string>
     <string name="battery_stats_phone_signal_label" msgid="679649411998679555">"મોબાઇલ નેટવર્ક સિગ્નલ"</string>
     <!-- no translation found for battery_stats_last_duration (3088100394725340600) -->
-    <skip />
+    <skip/>
     <string name="awake" msgid="5405871714019268978">"ઉપકરણનો જાગૃત સમય"</string>
     <string name="wifi_on_time" msgid="3880778525760926066">"વાઇ-ફાઇ ચાલુ સમય"</string>
     <string name="bluetooth_on_time" msgid="8424625554628450028">"વાઇ-ફાઇ ચાલુ સમય"</string>
@@ -2436,24 +2412,24 @@
     <string name="battery_tip_dialog_message" product="device" msgid="2620789680336796054">"તમારું ડિવાઇસ સામાન્ય કરતાં વધુ ઉપયોગમાં લેવાયું છે. તમારી બૅટરી અપેક્ષા કરતાં વહેલી ખલાસ થઈ શકે છે.\n\nબૅટરી વપરાશ અનુસાર ટોચની ઍપ:"</string>
     <string name="battery_tip_dialog_message_footer" msgid="986542164372177504">"બૅકગ્રાઉન્ડમાંની હાઇ પાવર પ્રવૃત્તિનો સમાવેશ થાય છે"</string>
     <plurals name="battery_tip_restrict_title" formatted="false" msgid="3108195491484891588">
-      <item quantity="one">%1$d ઍપને પ્રતિબંધિત કરો</item>
-      <item quantity="other">%1$d ઍપને પ્રતિબંધિત કરો</item>
+        <item quantity="one">%1$d ઍપને પ્રતિબંધિત કરો</item>
+        <item quantity="other">%1$d ઍપને પ્રતિબંધિત કરો</item>
     </plurals>
     <plurals name="battery_tip_restrict_handled_title" formatted="false" msgid="5862649927574803958">
-      <item quantity="one">તાજેતરમાં %2$d ઍપને પ્રતિબંધિત કરવામાં આવી</item>
-      <item quantity="other">તાજેતરમાં %2$d ઍપને પ્રતિબંધિત કરવામાં આવી</item>
+        <item quantity="one">તાજેતરમાં %2$d ઍપને પ્રતિબંધિત કરવામાં આવી</item>
+        <item quantity="other">તાજેતરમાં %2$d ઍપને પ્રતિબંધિત કરવામાં આવી</item>
     </plurals>
     <plurals name="battery_tip_restrict_summary" formatted="false" msgid="3328499737453686910">
-      <item quantity="one">%2$d ઍપનો બૅકગ્રાઉન્ડમાં બૅટરીનો વપરાશ ઘણો વધારે છે</item>
-      <item quantity="other">%2$d ઍપનો બૅકગ્રાઉન્ડમાં બૅટરીનો વપરાશ ઘણો વધારે છે</item>
+        <item quantity="one">%2$d ઍપનો બૅકગ્રાઉન્ડમાં બૅટરીનો વપરાશ ઘણો વધારે છે</item>
+        <item quantity="other">%2$d ઍપનો બૅકગ્રાઉન્ડમાં બૅટરીનો વપરાશ ઘણો વધારે છે</item>
     </plurals>
     <plurals name="battery_tip_restrict_handled_summary" formatted="false" msgid="3036853535034350991">
-      <item quantity="one">આ ઍપને બૅકગ્રાઉન્ડમાં ચલાવી શકાતી નથી</item>
-      <item quantity="other">આ ઍપને બૅકગ્રાઉન્ડમાં ચલાવી શકાતી નથી</item>
+        <item quantity="one">આ ઍપને બૅકગ્રાઉન્ડમાં ચલાવી શકાતી નથી</item>
+        <item quantity="other">આ ઍપને બૅકગ્રાઉન્ડમાં ચલાવી શકાતી નથી</item>
     </plurals>
     <plurals name="battery_tip_restrict_app_dialog_title" formatted="false" msgid="7897944678619251740">
-      <item quantity="one">%1$d ઍપને પ્રતિબંધિત કરીએ?</item>
-      <item quantity="other">%1$d ઍપને પ્રતિબંધિત કરીએ?</item>
+        <item quantity="one">%1$d ઍપને પ્રતિબંધિત કરીએ?</item>
+        <item quantity="other">%1$d ઍપને પ્રતિબંધિત કરીએ?</item>
     </plurals>
     <string name="battery_tip_restrict_app_dialog_message" msgid="137856003724730751">"બૅટરી બચાવવા માટે, <xliff:g id="APP">%1$s</xliff:g>ને બૅકગ્રાઉન્ડમાં બૅટરીનો ઉપયોગ કરવાથી અટકાવો. આ ઍપ યોગ્ય રીતે કાર્ય નહીં કરી શકે અને નોટિફિકેશન વિલંબિત થઈ શકે છે."</string>
     <string name="battery_tip_restrict_apps_less_than_5_dialog_message" msgid="5894648804112181324">"બૅટરી બચાવવા માટે, આ ઍપને બૅકગ્રાઉન્ડમાં બૅટરીનો ઉપયોગ કરવાથી અટકાવો. પ્રતિબંધિત ઍપ યોગ્ય રીતે કાર્ય નહીં કરી શકે અને નોટિફિકેશન વિલંબિત થઈ શકે છે.\n\nઍપ:"</string>
@@ -2472,8 +2448,8 @@
     <string name="smart_battery_footer" msgid="8407121907452993645">"જ્યારે બૅટરી મેનેજર શોધે છે કે ઍપ બૅટરીનો અતિશય ઉપયોગ કરી રહી છે, ત્યારે તમારી પાસે આ ઍપને પ્રતિબંધિત કરવાનો વિકલ્પ હશે. પ્રતિબંધિત ઍપ યોગ્ય રીતે કાર્ય નહીં કરી શકે અને નોટિફિકેશન વિલંબિત થઈ શકે છે."</string>
     <string name="restricted_app_title" msgid="6585080822121007436">"પ્રતિબંધિત ઍપ"</string>
     <plurals name="restricted_app_summary" formatted="false" msgid="6059772951505411003">
-      <item quantity="one">%1$d ઍપ માટે બૅટરી વપરાશ મર્યાદિત કરીએ છીએ</item>
-      <item quantity="other">%1$d ઍપ માટે બૅટરી વપરાશ મર્યાદિત કરીએ છીએ</item>
+        <item quantity="one">%1$d ઍપ માટે બૅટરી વપરાશ મર્યાદિત કરીએ છીએ</item>
+        <item quantity="other">%1$d ઍપ માટે બૅટરી વપરાશ મર્યાદિત કરીએ છીએ</item>
     </plurals>
     <string name="restricted_app_time_summary" msgid="3097721884155913252">"<xliff:g id="TIME">%1$s</xliff:g> પ્રતિબંધિત કરવામાં આવેલ"</string>
     <string name="restricted_app_detail_footer" msgid="3683577206409650564">"આ ઍપ બૅકગ્રાઉન્ડમાં બૅટરી વાપરી રહી છે. પ્રતિબંધિત ઍપ યોગ્ય રીતે કાર્ય કરશે નહીં અને નોટિફિકેશનમાં વિલંબ થઈ શકે છે."</string>
@@ -2482,8 +2458,8 @@
     <string name="battery_manager_on" product="default" msgid="3197525907390349054">"ચાલુ / ઍપ બૅટરીનો ક્યારે અતિશય ઉપયોગ કરે છે તેની જાણકારી મેળવી રહ્યાં છીએ"</string>
     <string name="battery_manager_off" msgid="673547668722420924">"બંધ કરો"</string>
     <plurals name="battery_manager_app_restricted" formatted="false" msgid="6714534362166394848">
-      <item quantity="one">%1$d ઍપ પ્રતિબંધિત છે</item>
-      <item quantity="other">%1$d ઍપ પ્રતિબંધિત છે</item>
+        <item quantity="one">%1$d ઍપ પ્રતિબંધિત છે</item>
+        <item quantity="other">%1$d ઍપ પ્રતિબંધિત છે</item>
     </plurals>
     <string name="battery_header_title_alternate" msgid="8371821625994616659">"<xliff:g id="NUMBER">^1</xliff:g>"<small>" "<font size="20">"<xliff:g id="UNIT">%</xliff:g>"</font></small>""</string>
     <string name="battery_missing_message" msgid="5202575301365811053">"તમારું બૅટરી મીટર વાંચવામાં સમસ્યા આવી"</string>
@@ -2605,7 +2581,7 @@
     <string name="battery_saver_sticky_description_new" product="tablet" msgid="6740553373344759992">"તમારું ટૅબ્લેટ <xliff:g id="PERCENT">%1$s</xliff:g> પર હોય ત્યારે બૅટરી સેવર બંધ થાય છે"</string>
     <string name="battery_saver_sticky_description_new" product="device" msgid="8512106347424406909">"તમારું ડિવાઇસ <xliff:g id="PERCENT">%1$s</xliff:g> પર હોય ત્યારે બૅટરી સેવર બંધ થાય છે"</string>
     <!-- no translation found for battery_saver_seekbar_title (3712266470054006641) -->
-    <skip />
+    <skip/>
     <string name="battery_saver_seekbar_title_placeholder" msgid="7141264642540687540">"ચાલુ કરો"</string>
     <string name="battery_saver_master_switch_title" msgid="3474312070095834915">"બૅટરી સેવરનો ઉપયોગ કરો"</string>
     <string name="battery_saver_turn_on_automatically_title" msgid="7857393318205740864">"ઑટોમૅટિક રીતે ચાલુ કરો"</string>
@@ -2712,7 +2688,6 @@
     <string name="auto_restore_summary" msgid="6830198851045584001">"જ્યારે એક ઍપ્લિકેશન ઇન્સ્ટોલ કરી રહ્યાં હોય, ત્યારે બેકઅપ લીધેલ સેટિંગ્સ અને ડેટા પુનઃસ્થાપિત કરો"</string>
     <string name="backup_inactive_title" msgid="6753265378043349277">"બૅકઅપ સેવા સક્રિય કરેલી નથી"</string>
     <string name="backup_configure_account_default_summary" msgid="5323225330966306690">"બેકઅપ લેવાયેલ ડેટા અત્યારે કોઇ એકાઉન્ટ સ્ટોર કરી રહ્યું નથી"</string>
-    <string name="backup_erase_dialog_title" msgid="5892431263348766484"></string>
     <string name="backup_erase_dialog_message" msgid="2250872501409574331">"વાઇ-ફાઇ પાસવર્ડ્સ, બુકમાર્ક્સ, અન્ય સેટિંગ્સ અને ઍપ્લિકેશન ડેટાનો બેકઅપ લેવાનું રોકીએ, તેમજ Google સર્વર્સ પરની બધી કૉપિઝને કાઢી નાખીએ?"</string>
     <string name="fullbackup_erase_dialog_message" msgid="2379053988557486162">"ઉપકરણ ડેટા (જેમ કે વાઇ-ફાઇ પાસવર્ડ્સ અને કૉલ ઇતિહાસ) અને ઍપ્લિકેશન ડેટા (જેમ કે સેટિંગ્સ અને ઍપ્લિકેશનો દ્વારા સંગ્રહિત ફાઇલો) નું બેકઅપ લેવાનું રોકીએ, ઉપરાંત રિમોટ સર્વર્સ પરની તમામ કૉપિઝ કાઢી નાખીએ?"</string>
     <string name="fullbackup_data_summary" msgid="971587401251601473">"ડિવાઇસ ડેટા (જેમ કે વાઇ-ફાઇ પાસવર્ડ અને કૉલ ઇતિહાસ) અને ઍપ ડેટા (જેમ કે સેટિંગ અને ઍપ દ્વારા સંગ્રહિત ફાઇલો)નો રિમોટલી ઑટોમૅટિક રીતે બૅકઅપ લો.\n\nજ્યારે તમે ઑટોમૅટિક રીતે બૅકઅપ ચાલુ કરો છો, ત્યારે ડિવાઇસ અને ઍપ ડેટા સમયાંતરે રિમોટલી સચવાય છે. ઍપ ડેટા એવો કોઈપણ ડેટા હોઈ શકે જેને કોઈ ઍપએ સાચવ્યો હોય (ડેવલપર સેટિંગના આધારે) જેમાં સંપર્કો, સંદેશા અને ફોટો જેવા સંભવિતપણે સંવેદનશીલ ડેટાનો સમાવેશ થાય છે."</string>
@@ -2741,8 +2716,8 @@
     <string name="notification_history_snooze" msgid="3980568893290512257">"સ્નૂઝ કરેલ"</string>
     <string name="notification_history_dismiss" msgid="6180321217375722918">"તાજેતરમાં છોડી દેવાયેલ"</string>
     <plurals name="notification_history_count" formatted="false" msgid="1859304685071321991">
-      <item quantity="one"><xliff:g id="NUMBER_1">%d</xliff:g> નોટિફિકેશન</item>
-      <item quantity="other"><xliff:g id="NUMBER_1">%d</xliff:g> નોટિફિકેશન</item>
+        <item quantity="one"><xliff:g id="NUMBER_1">%d</xliff:g> નોટિફિકેશન</item>
+        <item quantity="other"><xliff:g id="NUMBER_1">%d</xliff:g> નોટિફિકેશન</item>
     </plurals>
     <string name="sound_category_call_ringtone_vibrate_title" msgid="9090693401915654528">"કૉલ રિંગટોન અને વાઇબ્રેટ"</string>
     <string name="wifi_setup_detail" msgid="2012898800571616422">"નેટવર્ક વિગતો"</string>
@@ -2990,21 +2965,21 @@
     <string name="ssl_ca_cert_warning" msgid="3898387588657346106">"નેટવર્ક મૉનિટર કરી શકાય છે"</string>
     <string name="done_button" msgid="6269449526248267">"થઈ ગયું"</string>
     <plurals name="ssl_ca_cert_dialog_title" formatted="false" msgid="5491460811755938449">
-      <item quantity="one">પ્રમાણપત્રો પર વિશ્વાસ કરો અથવા તો દૂર કરો</item>
-      <item quantity="other">પ્રમાણપત્રો પર વિશ્વાસ કરો અથવા તો દૂર કરો</item>
+        <item quantity="one">પ્રમાણપત્રો પર વિશ્વાસ કરો અથવા તો દૂર કરો</item>
+        <item quantity="other">પ્રમાણપત્રો પર વિશ્વાસ કરો અથવા તો દૂર કરો</item>
     </plurals>
     <plurals name="ssl_ca_cert_info_message_device_owner" formatted="false" msgid="2788832560436163252">
-      <item quantity="one"><xliff:g id="MANAGING_DOMAIN_1">%s</xliff:g> એ તમારા ઉપકરણ પર પ્રમાણપત્ર સત્તાધિકારીઓ ઇન્સ્ટૉલ કર્યા, જે તેમને ઇમેઇલ્સ, ઍપ્લિકેશનો અને સુરક્ષિત વેબસાઇટ્સ સહિત તમારા ઉપકરણની નેટવર્ક પ્રવૃત્તિને મૉનિટર કરવાની મંજૂરી આપી શકે છે.\n\nઆ પ્રમાણપત્રો વિશે વધુ માહિતી માટે, તમારા વ્યવસ્થાપકનો સંપર્ક કરો.</item>
-      <item quantity="other"><xliff:g id="MANAGING_DOMAIN_1">%s</xliff:g> એ તમારા ઉપકરણ પર પ્રમાણપત્ર સત્તાધિકારીઓ ઇન્સ્ટૉલ કર્યા, જે તેમને ઇમેઇલ્સ, ઍપ્લિકેશનો અને સુરક્ષિત વેબસાઇટ્સ સહિત તમારા ઉપકરણની નેટવર્ક પ્રવૃત્તિને મૉનિટર કરવાની મંજૂરી આપી શકે છે.\n\nઆ પ્રમાણપત્રો વિશે વધુ માહિતી માટે, તમારા વ્યવસ્થાપકનો સંપર્ક કરો.</item>
+        <item quantity="one"><xliff:g id="MANAGING_DOMAIN_1">%s</xliff:g> એ તમારા ઉપકરણ પર પ્રમાણપત્ર સત્તાધિકારીઓ ઇન્સ્ટૉલ કર્યા, જે તેમને ઇમેઇલ્સ, ઍપ્લિકેશનો અને સુરક્ષિત વેબસાઇટ્સ સહિત તમારા ઉપકરણની નેટવર્ક પ્રવૃત્તિને મૉનિટર કરવાની મંજૂરી આપી શકે છે.\n\nઆ પ્રમાણપત્રો વિશે વધુ માહિતી માટે, તમારા વ્યવસ્થાપકનો સંપર્ક કરો.</item>
+        <item quantity="other"><xliff:g id="MANAGING_DOMAIN_1">%s</xliff:g> એ તમારા ઉપકરણ પર પ્રમાણપત્ર સત્તાધિકારીઓ ઇન્સ્ટૉલ કર્યા, જે તેમને ઇમેઇલ્સ, ઍપ્લિકેશનો અને સુરક્ષિત વેબસાઇટ્સ સહિત તમારા ઉપકરણની નેટવર્ક પ્રવૃત્તિને મૉનિટર કરવાની મંજૂરી આપી શકે છે.\n\nઆ પ્રમાણપત્રો વિશે વધુ માહિતી માટે, તમારા વ્યવસ્થાપકનો સંપર્ક કરો.</item>
     </plurals>
     <plurals name="ssl_ca_cert_info_message" formatted="false" msgid="3989916958347169622">
-      <item quantity="one"><xliff:g id="MANAGING_DOMAIN_1">%s</xliff:g> એ તમારી કાર્યાલયની પ્રોફાઇલ માટે પ્રમાણપત્ર સત્તાધિકારી ઇન્સ્ટૉલ કર્યું, જે તેમને ઇમેઇલ, ઍપ્લિકેશનો અને સુરક્ષિત વેબસાઇટો સહિત કાર્યાલયના નેટવર્કની પ્રવૃત્તિનું નિયમન કરવાની મંજૂરી આપી શકે છે.\n\nઆ પ્રમાણપત્ર વિશે વધુ માહિતી માટે, તમારા વ્યવસ્થાપકનો સંપર્ક કરો.</item>
-      <item quantity="other"><xliff:g id="MANAGING_DOMAIN_1">%s</xliff:g> એ તમારી કાર્યાલયની પ્રોફાઇલ માટે પ્રમાણપત્ર સત્તાધિકારી ઇન્સ્ટૉલ કર્યું, જે તેમને ઇમેઇલ, ઍપ્લિકેશનો અને સુરક્ષિત વેબસાઇટો સહિત કાર્યાલયના નેટવર્કની પ્રવૃત્તિનું નિયમન કરવાની મંજૂરી આપી શકે છે.\n\nઆ પ્રમાણપત્ર વિશે વધુ માહિતી માટે, તમારા વ્યવસ્થાપકનો સંપર્ક કરો.</item>
+        <item quantity="one"><xliff:g id="MANAGING_DOMAIN_1">%s</xliff:g> એ તમારી કાર્યાલયની પ્રોફાઇલ માટે પ્રમાણપત્ર સત્તાધિકારી ઇન્સ્ટૉલ કર્યું, જે તેમને ઇમેઇલ, ઍપ્લિકેશનો અને સુરક્ષિત વેબસાઇટો સહિત કાર્યાલયના નેટવર્કની પ્રવૃત્તિનું નિયમન કરવાની મંજૂરી આપી શકે છે.\n\nઆ પ્રમાણપત્ર વિશે વધુ માહિતી માટે, તમારા વ્યવસ્થાપકનો સંપર્ક કરો.</item>
+        <item quantity="other"><xliff:g id="MANAGING_DOMAIN_1">%s</xliff:g> એ તમારી કાર્યાલયની પ્રોફાઇલ માટે પ્રમાણપત્ર સત્તાધિકારી ઇન્સ્ટૉલ કર્યું, જે તેમને ઇમેઇલ, ઍપ્લિકેશનો અને સુરક્ષિત વેબસાઇટો સહિત કાર્યાલયના નેટવર્કની પ્રવૃત્તિનું નિયમન કરવાની મંજૂરી આપી શકે છે.\n\nઆ પ્રમાણપત્ર વિશે વધુ માહિતી માટે, તમારા વ્યવસ્થાપકનો સંપર્ક કરો.</item>
     </plurals>
     <string name="ssl_ca_cert_warning_message" msgid="4374052724815563051">"તૃતીય પક્ષ ઇમેઇલ્સ, ઍપ્લિકેશનો અને સુરક્ષિત વેબસાઇટ્સ સહિત, તમારી નેટવર્ક પ્રવૃત્તિનું નિરીક્ષણ કરવામાં સક્ષમ હોય છે.\n\nતમારા ઉપકરણ પર ઇન્સ્ટોલ કરેલ વિશ્વસનીય ઓળખપત્ર આ કરવાનું શક્ય બનાવી રહ્યું છે."</string>
     <plurals name="ssl_ca_cert_settings_button" formatted="false" msgid="125941406175485894">
-      <item quantity="one">પ્રમાણપત્રો તપાસો</item>
-      <item quantity="other">પ્રમાણપત્રો તપાસો</item>
+        <item quantity="one">પ્રમાણપત્રો તપાસો</item>
+        <item quantity="other">પ્રમાણપત્રો તપાસો</item>
     </plurals>
     <string name="user_settings_title" msgid="6550866465409807877">"એકથી વધુ વપરાશકર્તાઓ"</string>
     <string name="user_settings_footer_text" product="device" msgid="7523914344521302179">"નવા વપરાશકર્તાઓને ઉમેરીને તમારું ઉપકરણ શેર કરો. કસ્ટમ હોમ સ્ક્રીન, એકાઉન્ટ, ઍપ, સેટિંગ અને વધુ માટે તમારા ઉપકરણ પર દરેક વપરાશકર્તા માટે વ્યક્તિગત સ્પેસ છે."</string>
@@ -3094,7 +3069,7 @@
     <string name="call_manager_enable_summary" msgid="7362506369604163030">"આ સેવાને તમારા કૉલ કેવી રીતે કરવામાં આવે તે મેનેજ કરવાની મંજૂરી આપો."</string>
     <string name="call_manager_title" msgid="3397433159509629466">"કૉલ સંચાલક"</string>
     <!-- no translation found for call_manager_summary (2558839230880919191) -->
-    <skip />
+    <skip/>
     <string name="cell_broadcast_settings" msgid="2416980110093867199">"વાયરલેસ ઇમર્જન્સી અલર્ટ"</string>
     <string name="network_operators_settings" msgid="5105453353329748954">"નેટવર્ક ઓપરેટર્સ"</string>
     <string name="access_point_names" msgid="5768430498022188057">"ઍક્સેસ પોઇન્ટના નામ"</string>
@@ -3142,7 +3117,6 @@
     <string name="user_image_take_photo" msgid="2601691481533190924">"ફોટો લો"</string>
     <string name="user_image_choose_photo" msgid="5904586923236027350">"છબી પસંદ કરો"</string>
     <string name="user_image_photo_selector" msgid="7727851029781491727">"ફોટો પસંદ કરો"</string>
-    <string name="regulatory_info_text" msgid="1154461023369976667"></string>
     <string name="sim_setup_wizard_title" msgid="3945520353564138219">"સિમ કાર્ડ"</string>
     <string name="sim_settings_title" msgid="8392862852842113531">"સિમ કાર્ડ"</string>
     <string name="sim_settings_summary" msgid="5777472623476930332">"<xliff:g id="SIM_NAME">%1$s</xliff:g> - <xliff:g id="SIM_NUMBER">%2$s</xliff:g>"</string>
@@ -3184,8 +3158,8 @@
     <string name="sim_selection_channel_title" msgid="3193666315607572484">"સિમની પસંદગી"</string>
     <string name="dashboard_title" msgid="5660733037244683387">"સેટિંગ"</string>
     <plurals name="settings_suggestion_header_summary_hidden_items" formatted="false" msgid="6585075562837786847">
-      <item quantity="one">%d છુપાયેલ આઇટમ બતાવો</item>
-      <item quantity="other">%d છુપાયેલ આઇટમ બતાવો</item>
+        <item quantity="one">%d છુપાયેલ આઇટમ બતાવો</item>
+        <item quantity="other">%d છુપાયેલ આઇટમ બતાવો</item>
     </plurals>
     <string name="network_dashboard_title" msgid="788543070557731240">"નેટવર્ક અને ઇન્ટરનેટ"</string>
     <string name="network_dashboard_summary_mobile" msgid="4020746665765996480">"મોબાઇલ"</string>
@@ -3337,8 +3311,8 @@
     <string name="live_caption_summary" msgid="2898451867595161809">"મીડિયામાં કૅપ્શન ઑટોમૅટિક રીતે ઉમેરો"</string>
     <string name="zen_mode_settings_summary_off" msgid="3604559081434571933">"કોઈ નહીં"</string>
     <plurals name="zen_mode_settings_summary_on" formatted="false" msgid="1460413335725340350">
-      <item quantity="one"><xliff:g id="ON_COUNT">%d</xliff:g> શેડ્યૂલ સેટ કરવામાં આવ્યું</item>
-      <item quantity="other"><xliff:g id="ON_COUNT">%d</xliff:g> શેડ્યૂલ સેટ કરવામાં આવ્યા</item>
+        <item quantity="one"><xliff:g id="ON_COUNT">%d</xliff:g> શેડ્યૂલ સેટ કરવામાં આવ્યું</item>
+        <item quantity="other"><xliff:g id="ON_COUNT">%d</xliff:g> શેડ્યૂલ સેટ કરવામાં આવ્યા</item>
     </plurals>
     <string name="zen_mode_settings_title" msgid="682676757791334259">"ખલેલ પાડશો નહીં"</string>
     <string name="zen_mode_settings_summary" msgid="6040862775514495191">"ફક્ત મહત્વપૂર્ણ લોકો અને ઍપ દ્વારા નોટિફિકેશન મેળવો"</string>
@@ -3413,13 +3387,13 @@
     <string name="zen_mode_duration_summary_always_prompt" msgid="7658172853423383037">"દર વખતે પૂછો"</string>
     <string name="zen_mode_duration_summary_forever" msgid="5551992961329998606">"તમે બંધ ન કરો ત્યાં સુધી"</string>
     <plurals name="zen_mode_duration_summary_time_hours" formatted="false" msgid="3601160794696489864">
-      <item quantity="one"><xliff:g id="NUM_HOURS">%d</xliff:g> કલાક</item>
-      <item quantity="other"><xliff:g id="NUM_HOURS">%d</xliff:g> કલાક</item>
+        <item quantity="one"><xliff:g id="NUM_HOURS">%d</xliff:g> કલાક</item>
+        <item quantity="other"><xliff:g id="NUM_HOURS">%d</xliff:g> કલાક</item>
     </plurals>
     <string name="zen_mode_duration_summary_time_minutes" msgid="3187122993179039992">"<xliff:g id="NUM_MINUTES">%d</xliff:g> મિનિટ"</string>
     <plurals name="zen_mode_sound_summary_summary_off_info" formatted="false" msgid="3812633366476034740">
-      <item quantity="one"><xliff:g id="ON_COUNT">%d</xliff:g> શેડ્યૂલ ઑટોમૅટિક રીતે ચાલુ થઈ શકશે</item>
-      <item quantity="other"><xliff:g id="ON_COUNT">%d</xliff:g> શેડ્યૂલ ઑટોમૅટિક રીતે ચાલુ થઈ શકશે</item>
+        <item quantity="one"><xliff:g id="ON_COUNT">%d</xliff:g> શેડ્યૂલ ઑટોમૅટિક રીતે ચાલુ થઈ શકશે</item>
+        <item quantity="other"><xliff:g id="ON_COUNT">%d</xliff:g> શેડ્યૂલ ઑટોમૅટિક રીતે ચાલુ થઈ શકશે</item>
     </plurals>
     <string name="zen_category_behavior" msgid="3214056473947178507">"\'ખલેલ પાડશો નહીં\' સુવિધામાં શું વિક્ષેપ આવી શકે છે"</string>
     <string name="zen_category_people" msgid="8252926021894933047">"લોકો"</string>
@@ -3557,8 +3531,8 @@
     <string name="manage_conversations" msgid="4440289604887824337">"વાતચીત મેનેજ કરો"</string>
     <string name="priority_conversation_count_zero" msgid="3862289535537564713">"પ્રાધાન્યતા ધરાવતી કોઈ વાતચીત નથી"</string>
     <plurals name="priority_conversation_count" formatted="false" msgid="4229447176780862649">
-      <item quantity="one">પ્રાધાન્યતા ધરાવતી <xliff:g id="COUNT_1">%d</xliff:g> વાતચીત</item>
-      <item quantity="other">પ્રાધાન્યતા ધરાવતી <xliff:g id="COUNT_1">%d</xliff:g> વાતચીત</item>
+        <item quantity="one">પ્રાધાન્યતા ધરાવતી <xliff:g id="COUNT_1">%d</xliff:g> વાતચીત</item>
+        <item quantity="other">પ્રાધાન્યતા ધરાવતી <xliff:g id="COUNT_1">%d</xliff:g> વાતચીત</item>
     </plurals>
     <string name="important_conversations" msgid="1233893707189659401">"પ્રાધાન્યવાળી વાતચીત"</string>
     <string name="important_conversations_summary_bubbles" msgid="614327166808117644">"વાતચીત વિભાગની ટોચ પર અને ફ્લોટિંગ બબલ તરીકે બતાવો"</string>
@@ -3595,20 +3569,20 @@
     <string name="notification_app_switch_label" msgid="4422902423925084193">"<xliff:g id="APP_NAME">%1$s</xliff:g>ના બધા નોટિફિકેશન"</string>
     <string name="default_notification_assistant" msgid="243718059890346442">"સુવિધાજનક નોટિફિકેશન"</string>
     <plurals name="notifications_sent_daily" formatted="false" msgid="1479283620504341566">
-      <item quantity="one">~<xliff:g id="NUMBER_1">%d</xliff:g> નોટિફિકેશન પ્રતિ દિવસ</item>
-      <item quantity="other">~<xliff:g id="NUMBER_1">%d</xliff:g> નોટિફિકેશન પ્રતિ દિવસ</item>
+        <item quantity="one">~<xliff:g id="NUMBER_1">%d</xliff:g> નોટિફિકેશન પ્રતિ દિવસ</item>
+        <item quantity="other">~<xliff:g id="NUMBER_1">%d</xliff:g> નોટિફિકેશન પ્રતિ દિવસ</item>
     </plurals>
     <plurals name="notifications_sent_weekly" formatted="false" msgid="4913443431857170519">
-      <item quantity="one">~<xliff:g id="NUMBER_1">%d</xliff:g> નોટિફિકેશન પ્રતિ સપ્તાહ</item>
-      <item quantity="other">~<xliff:g id="NUMBER_1">%d</xliff:g> નોટિફિકેશન પ્રતિ સપ્તાહ</item>
+        <item quantity="one">~<xliff:g id="NUMBER_1">%d</xliff:g> નોટિફિકેશન પ્રતિ સપ્તાહ</item>
+        <item quantity="other">~<xliff:g id="NUMBER_1">%d</xliff:g> નોટિફિકેશન પ્રતિ સપ્તાહ</item>
     </plurals>
     <string name="notifications_sent_never" msgid="9081278709126812062">"ક્યારેય નહીં"</string>
     <string name="manage_notification_access_title" msgid="4714320299084782521">"નોટિફિકેશન ઍક્સેસ"</string>
     <string name="work_profile_notification_access_blocked_summary" msgid="8643809206612366067">"કાર્યાલયની પ્રોફાઇલની સૂચનાઓનો ઍક્સેસ બ્લૉક કરવામાં આવ્યો છે"</string>
     <string name="manage_notification_access_summary_zero" msgid="7528633634628627431">"ઍપ્લિકેશનો સૂચનાઓ વાંચી શકતી નથી"</string>
     <plurals name="manage_notification_access_summary_nonzero" formatted="false" msgid="3703008881487586312">
-      <item quantity="one">%d ઍપ્લિકેશનો સૂચનાઓ વાંચી શકે છે</item>
-      <item quantity="other">%d ઍપ્લિકેશનો સૂચનાઓ વાંચી શકે છે</item>
+        <item quantity="one">%d ઍપ્લિકેશનો સૂચનાઓ વાંચી શકે છે</item>
+        <item quantity="other">%d ઍપ્લિકેશનો સૂચનાઓ વાંચી શકે છે</item>
     </plurals>
     <string name="notification_assistant_title" msgid="6983941403582134437">"સુવિધાજનક નોટિફિકેશન"</string>
     <string name="no_notification_assistant" msgid="2533323397091834096">"એકપણ નહીં"</string>
@@ -3653,8 +3627,8 @@
     <string name="interact_across_profiles_consent_dialog_permissions_summary" msgid="995051542847604039">"આ ઍપ, સ્થાન, સ્ટોરેજ અથવા સંપર્કો જેવી તમારી વ્યક્તિગત <xliff:g id="NAME">%1$s</xliff:g> ઍપની પરવાનગીઓનો ઉપયોગ કરી શકે છે."</string>
     <string name="interact_across_profiles_number_of_connected_apps_none" msgid="8573289199942092964">"કોઈ ઍપ કનેક્ટ થયેલી નથી"</string>
     <plurals name="interact_across_profiles_number_of_connected_apps" formatted="false" msgid="6991750455661974772">
-      <item quantity="one"><xliff:g id="COUNT_1">%d</xliff:g> ઍપ કનેક્ટ કરી</item>
-      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> ઍપ કનેક્ટ કરી</item>
+        <item quantity="one"><xliff:g id="COUNT_1">%d</xliff:g> ઍપ કનેક્ટ કરી</item>
+        <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> ઍપ કનેક્ટ કરી</item>
     </plurals>
     <string name="interact_across_profiles_install_work_app_title" msgid="2821669067014436056">"આ ઍપ કનેક્ટ કરવા માટે, તમારી ઑફિસની પ્રોફાઇલમાં <xliff:g id="NAME">%1$s</xliff:g> ઇન્સ્ટૉલ કરો"</string>
     <string name="interact_across_profiles_install_personal_app_title" msgid="4790651223324866344">"આ ઍપ કનેક્ટ કરવા માટે, તમારી વ્યક્તિગત પ્રોફાઇલમાં <xliff:g id="NAME">%1$s</xliff:g> ઇન્સ્ટૉલ કરો"</string>
@@ -3669,20 +3643,20 @@
     <string name="notification_channels" msgid="1502969522886493799">"કૅટેગરીઓ"</string>
     <string name="notification_channels_other" msgid="18159805343647908">"અન્ય"</string>
     <plurals name="notification_group_summary" formatted="false" msgid="483490958130993160">
-      <item quantity="one"><xliff:g id="COUNT_1">%d</xliff:g> કૅટેગરી</item>
-      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> કૅટેગરી</item>
+        <item quantity="one"><xliff:g id="COUNT_1">%d</xliff:g> કૅટેગરી</item>
+        <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> કૅટેગરી</item>
     </plurals>
     <string name="no_channels" msgid="4716199078612071915">"આ ઍપ્લિએક્શને કોઈ સૂચનાઓ પોસ્ટ કરી નથી"</string>
     <string name="app_settings_link" msgid="6725453466705333311">"ઍપ્લિકેશનમાંની વધારાની સેટિંગ્સ"</string>
     <string name="notification_screen_summary" msgid="5984915275134654822">"નોટિફિકેશન ઇતિહાસ, બબલ, તાજેતરમાં મોકલેલા"</string>
     <string name="app_notification_listing_summary_zero" msgid="2988400013221120744">"બધી ઍપ માટે ચાલુ કરો"</string>
     <plurals name="app_notification_listing_summary_others" formatted="false" msgid="1506127395400503717">
-      <item quantity="one"><xliff:g id="COUNT_1">%d</xliff:g> ઍપ માટે બંધ છે</item>
-      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> ઍપ માટે બંધ છે</item>
+        <item quantity="one"><xliff:g id="COUNT_1">%d</xliff:g> ઍપ માટે બંધ છે</item>
+        <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> ઍપ માટે બંધ છે</item>
     </plurals>
     <plurals name="deleted_channels" formatted="false" msgid="5963473421547029532">
-      <item quantity="one"><xliff:g id="COUNT_1">%d</xliff:g> કૅટેગરી કાઢી નાખી</item>
-      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> કૅટેગરી કાઢી નાખી</item>
+        <item quantity="one"><xliff:g id="COUNT_1">%d</xliff:g> કૅટેગરી કાઢી નાખી</item>
+        <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> કૅટેગરી કાઢી નાખી</item>
     </plurals>
     <string name="notification_toggle_on" msgid="1624283327379059003">"ચાલુ"</string>
     <string name="notification_toggle_off" msgid="3295373308338024844">"બંધ"</string>
@@ -3755,8 +3729,8 @@
     <string name="zen_mode_from_important_conversations" msgid="528050873364229253">"પ્રાધાન્ય આપ્યું હોય તેવી વાતચીત"</string>
     <string name="zen_mode_from_no_conversations" msgid="3924593219855567165">"કોઈ નહીં"</string>
     <plurals name="zen_mode_conversations_count" formatted="false" msgid="8348944826762075457">
-      <item quantity="one"><xliff:g id="CONVERSATIONS">%d</xliff:g> વાતચીત</item>
-      <item quantity="other"><xliff:g id="CONVERSATIONS">%d</xliff:g> વાતચીત</item>
+        <item quantity="one"><xliff:g id="CONVERSATIONS">%d</xliff:g> વાતચીત</item>
+        <item quantity="other"><xliff:g id="CONVERSATIONS">%d</xliff:g> વાતચીત</item>
     </plurals>
     <string name="zen_mode_conversations_count_none" msgid="4745022470794983983">"કોઈ નહીં"</string>
     <string name="zen_mode_people_calls_messages_section_title" msgid="6815202112413762206">"વિક્ષેપ ઊભો કરી શકે છે તે"</string>
@@ -3768,8 +3742,8 @@
     <string name="zen_mode_custom_calls_footer" msgid="6521283204577441053">"‘<xliff:g id="SCHEDULE_NAME">%1$s</xliff:g>’ માટે ઇનકમિંગ કૉલને બ્લૉક કરેલા છે. તમારા મિત્રો, પરિવારજનો અથવા અન્ય સંપર્કો તમારો સંપર્ક કરી શકે તે માટે તમે સેટિંગને અનુકૂળ કરી શકો છો."</string>
     <string name="zen_mode_starred_contacts_title" msgid="630299631659575589">"સ્ટાર આપેલ સંપર્કો"</string>
     <plurals name="zen_mode_starred_contacts_summary_additional_contacts" formatted="false" msgid="7001724653833724925">
-      <item quantity="one"><xliff:g id="NUM_PEOPLE">%d</xliff:g> અન્ય</item>
-      <item quantity="other"><xliff:g id="NUM_PEOPLE">%d</xliff:g> અન્યો</item>
+        <item quantity="one"><xliff:g id="NUM_PEOPLE">%d</xliff:g> અન્ય</item>
+        <item quantity="other"><xliff:g id="NUM_PEOPLE">%d</xliff:g> અન્યો</item>
     </plurals>
     <string name="zen_mode_starred_contacts_summary_none" msgid="6320777044373994482">"કોઈ નહીં"</string>
     <string name="zen_mode_messages" msgid="7315084748885170585">"Messages"</string>
@@ -3782,8 +3756,8 @@
     <string name="zen_mode_all_calls_summary" msgid="7337907849083824698">"બધા કૉલ તમારા પર આવી શકે છે"</string>
     <string name="zen_mode_contacts_count_none" msgid="7928563147160462589">"કોઈ નહીં"</string>
     <plurals name="zen_mode_contacts_count" formatted="false" msgid="3434092344686708445">
-      <item quantity="one"><xliff:g id="NUM_CONTACTS">%d</xliff:g> સંપર્ક</item>
-      <item quantity="other"><xliff:g id="NUM_CONTACTS">%d</xliff:g> સંપર્કો</item>
+        <item quantity="one"><xliff:g id="NUM_CONTACTS">%d</xliff:g> સંપર્ક</item>
+        <item quantity="other"><xliff:g id="NUM_CONTACTS">%d</xliff:g> સંપર્કો</item>
     </plurals>
     <string name="zen_mode_from_anyone" msgid="6027004263046694174">"કોઈપણ"</string>
     <string name="zen_mode_from_contacts" msgid="2989933306317064818">"સંપર્કો"</string>
@@ -3823,8 +3797,8 @@
     <string name="zen_mode_bypassing_apps_summary_some" msgid="5315750826830358230">"અમુક નોટિફિકેશન"</string>
     <string name="zen_mode_bypassing_apps_footer" msgid="1454862989340760124">"તમે ઍપને વિક્ષેપ પાડવાની મંજૂરી ન આપો તો પણ પસંદગીના લોકો તમારો સંપર્ક કરી શકે છે"</string>
     <plurals name="zen_mode_bypassing_apps_subtext" formatted="false" msgid="7781990918323204156">
-      <item quantity="one"><xliff:g id="APP_NAMES">%s</xliff:g> વિક્ષેપ કરી શકે છે</item>
-      <item quantity="other"><xliff:g id="APP_NAMES">%s</xliff:g> વિક્ષેપ કરી શકે છે</item>
+        <item quantity="one"><xliff:g id="APP_NAMES">%s</xliff:g> વિક્ષેપ કરી શકે છે</item>
+        <item quantity="other"><xliff:g id="APP_NAMES">%s</xliff:g> વિક્ષેપ કરી શકે છે</item>
     </plurals>
     <string name="zen_mode_apps_bypassing_list_count" msgid="1581384924379825405">"<xliff:g id="NUMBER">%d</xliff:g> વધુ"</string>
     <string name="zen_mode_bypassing_apps_title" msgid="371050263563164059">"ઍપ"</string>
@@ -3833,8 +3807,8 @@
     <string name="zen_mode_bypassing_app_channels_header" msgid="4011017798712587373">"વિક્ષેપ ઊભો કરી શકે તેવા નોટિફિકેશન"</string>
     <string name="zen_mode_bypassing_app_channels_toggle_all" msgid="1449462656358219116">"બધા નોટિફિકેશનની મંજૂરી આપો"</string>
     <plurals name="zen_mode_other_sounds_summary" formatted="false" msgid="945147615383565311">
-      <item quantity="one"><xliff:g id="SOUND_CATEGORIES">%s</xliff:g> વિક્ષેપ કરી શકે છે</item>
-      <item quantity="other"><xliff:g id="SOUND_CATEGORIES">%s</xliff:g> વિક્ષેપ કરી શકે છે</item>
+        <item quantity="one"><xliff:g id="SOUND_CATEGORIES">%s</xliff:g> વિક્ષેપ કરી શકે છે</item>
+        <item quantity="other"><xliff:g id="SOUND_CATEGORIES">%s</xliff:g> વિક્ષેપ કરી શકે છે</item>
     </plurals>
     <string name="zen_mode_other_sounds_none" msgid="6219663385759635854">"કંઈપણ વિક્ષેપ આવી શકશે નહીં"</string>
     <string name="zen_mode_other_sounds_list_count" msgid="1443126333853419582">"<xliff:g id="NUMBER">%d</xliff:g> વધુ"</string>
@@ -3848,7 +3822,7 @@
     <string name="zen_mode_starred_callers" msgid="1002370699564211178">"સ્ટાર આપેલા સંપર્કો"</string>
     <string name="zen_mode_repeat_callers_list" msgid="181819778783743847">"રિપીટ કૉલર"</string>
     <!-- no translation found for zen_mode_calls_summary_one (1928015516061784276) -->
-    <skip />
+    <skip/>
     <string name="zen_mode_calls_summary_two" msgid="6351563496898410742">"<xliff:g id="CALLER_TYPE_0">%1$s</xliff:g> અને <xliff:g id="CALLER_TYPE_1">%2$s</xliff:g>"</string>
     <string name="zen_mode_repeat_callers_summary" msgid="4121054819936083025">"જો <xliff:g id="MINUTES">%d</xliff:g>-મિનિટના સમયગાળા દરમ્યાન તે જ વ્યક્તિ ફરીથી કૉલ કરે તો"</string>
     <string name="zen_mode_behavior_summary_custom" msgid="3126805555852783860">"કસ્ટમ"</string>
@@ -3861,12 +3835,12 @@
     <string name="zen_mode_end_time_next_day_summary_format" msgid="419683704068360804">"<xliff:g id="FORMATTED_TIME">%s</xliff:g> આગલા દિવસે"</string>
     <string name="zen_mode_summary_alarms_only_indefinite" msgid="910047326128154945">"ફક્ત અનિશ્ચિત એલાર્મને જ બદલો"</string>
     <plurals name="zen_mode_summary_alarms_only_by_minute" formatted="false" msgid="1900512966361163390">
-      <item quantity="one">ફક્ત <xliff:g id="DURATION">%1$d</xliff:g> મિનિટ માટે એલાર્મ્સ પર બદલો (<xliff:g id="FORMATTEDTIME_1">%2$s</xliff:g> સુધી)</item>
-      <item quantity="other">ફક્ત <xliff:g id="DURATION">%1$d</xliff:g> મિનિટ માટે એલાર્મ્સ પર બદલો (<xliff:g id="FORMATTEDTIME_1">%2$s</xliff:g> સુધી)</item>
+        <item quantity="one">ફક્ત <xliff:g id="DURATION">%1$d</xliff:g> મિનિટ માટે એલાર્મ્સ પર બદલો (<xliff:g id="FORMATTEDTIME_1">%2$s</xliff:g> સુધી)</item>
+        <item quantity="other">ફક્ત <xliff:g id="DURATION">%1$d</xliff:g> મિનિટ માટે એલાર્મ્સ પર બદલો (<xliff:g id="FORMATTEDTIME_1">%2$s</xliff:g> સુધી)</item>
     </plurals>
     <plurals name="zen_mode_summary_alarms_only_by_hour" formatted="false" msgid="955991428001659124">
-      <item quantity="one"><xliff:g id="FORMATTEDTIME_1">%2$s</xliff:g> સુધી ફક્ત <xliff:g id="DURATION">%1$d</xliff:g> કલાક માટે એલાર્મ્સ પર બદલો</item>
-      <item quantity="other"><xliff:g id="FORMATTEDTIME_1">%2$s</xliff:g> સુધી ફક્ત <xliff:g id="DURATION">%1$d</xliff:g> કલાક માટે એલાર્મ્સ પર બદલો</item>
+        <item quantity="one"><xliff:g id="FORMATTEDTIME_1">%2$s</xliff:g> સુધી ફક્ત <xliff:g id="DURATION">%1$d</xliff:g> કલાક માટે એલાર્મ્સ પર બદલો</item>
+        <item quantity="other"><xliff:g id="FORMATTEDTIME_1">%2$s</xliff:g> સુધી ફક્ત <xliff:g id="DURATION">%1$d</xliff:g> કલાક માટે એલાર્મ્સ પર બદલો</item>
     </plurals>
     <string name="zen_mode_summary_alarms_only_by_time" msgid="8140619669703968810">"એલાર્મ્સ પર ફક્ત <xliff:g id="FORMATTEDTIME">%1$s</xliff:g> સુધી બદલો"</string>
     <string name="zen_mode_summary_always" msgid="722093064250082317">"હંમેશાં ખલેલ પાડો પર બદલો"</string>
@@ -3946,20 +3920,20 @@
     <string name="notification_summary_level" msgid="4074326972839105652">"સ્તર %d"</string>
     <string name="notification_summary_channel" msgid="8459033623057872803">"<xliff:g id="CHANNEL_NAME">%1$s</xliff:g> • <xliff:g id="GROUP_NAME">%2$s</xliff:g>"</string>
     <plurals name="notifications_categories_off" formatted="false" msgid="1385401442703692986">
-      <item quantity="one"><xliff:g id="COUNT_1">%d</xliff:g> કૅટેગરી બંધ છે</item>
-      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> કૅટેગરી બંધ છે</item>
+        <item quantity="one"><xliff:g id="COUNT_1">%d</xliff:g> કૅટેગરી બંધ છે</item>
+        <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> કૅટેગરી બંધ છે</item>
     </plurals>
     <plurals name="permissions_summary" formatted="false" msgid="5015472550875144481">
-      <item quantity="one"><xliff:g id="COUNT_1">%d</xliff:g> પરવાનગીઓ આપી</item>
-      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> પરવાનગીઓ આપી</item>
+        <item quantity="one"><xliff:g id="COUNT_1">%d</xliff:g> પરવાનગીઓ આપી</item>
+        <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> પરવાનગીઓ આપી</item>
     </plurals>
     <plurals name="runtime_permissions_summary" formatted="false" msgid="2091022049141391855">
-      <item quantity="one"><xliff:g id="COUNT_3">%d</xliff:g> માંથી <xliff:g id="COUNT_2">%d</xliff:g> પરવાનગી આપી</item>
-      <item quantity="other"><xliff:g id="COUNT_3">%d</xliff:g> માંથી <xliff:g id="COUNT_2">%d</xliff:g> પરવાનગી આપી</item>
+        <item quantity="one"><xliff:g id="COUNT_3">%d</xliff:g> માંથી <xliff:g id="COUNT_2">%d</xliff:g> પરવાનગી આપી</item>
+        <item quantity="other"><xliff:g id="COUNT_3">%d</xliff:g> માંથી <xliff:g id="COUNT_2">%d</xliff:g> પરવાનગી આપી</item>
     </plurals>
     <plurals name="runtime_permissions_additional_count" formatted="false" msgid="5888624648943937645">
-      <item quantity="one"><xliff:g id="COUNT_1">%d</xliff:g> વધારાની પરવાનગીઓ</item>
-      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> વધારાની પરવાનગીઓ</item>
+        <item quantity="one"><xliff:g id="COUNT_1">%d</xliff:g> વધારાની પરવાનગીઓ</item>
+        <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> વધારાની પરવાનગીઓ</item>
     </plurals>
     <string name="runtime_permissions_summary_no_permissions_granted" msgid="7456745929035665029">"કોઈ પરવાનગીઓ આપેલ નથી"</string>
     <string name="runtime_permissions_summary_no_permissions_requested" msgid="7174876170116073356">"કોઈ પરવાનગીઓની વિનંતી કરેલ નથી"</string>
@@ -3987,15 +3961,15 @@
     <string name="domain_urls_summary_some" msgid="1197692164421314523">"<xliff:g id="DOMAIN">%s</xliff:g> અને અન્ય URL ખોલો"</string>
     <string name="domain_urls_apps_summary_off" msgid="2534980824850890416">"સમર્થિત લિંક ખોલે તેવી કોઈ ઍપ્લિકેશન નથી"</string>
     <plurals name="domain_urls_apps_summary_on" formatted="false" msgid="7864816862441985323">
-      <item quantity="one">સમર્થિત લિંક ખોલે તેવી <xliff:g id="COUNT">%d</xliff:g> ઍપ્લિકેશન</item>
-      <item quantity="other">સમર્થિત લિંક ખોલે તેવી <xliff:g id="COUNT">%d</xliff:g> ઍપ્લિકેશન</item>
+        <item quantity="one">સમર્થિત લિંક ખોલે તેવી <xliff:g id="COUNT">%d</xliff:g> ઍપ્લિકેશન</item>
+        <item quantity="other">સમર્થિત લિંક ખોલે તેવી <xliff:g id="COUNT">%d</xliff:g> ઍપ્લિકેશન</item>
     </plurals>
     <string name="app_link_open_always" msgid="9167065494930657503">"સપોર્ટેડ લિંક ખોલવાની ઍપને મંજૂરી આપો"</string>
     <string name="app_link_open_ask" msgid="2422450109908936371">"દર વખતે પૂછો"</string>
     <string name="app_link_open_never" msgid="5299808605386052350">"લિંક ખોલવાની ઍપને મંજૂરી આપશો નહીં"</string>
     <plurals name="app_link_open_always_summary" formatted="false" msgid="1816161439007251694">
-      <item quantity="one"><xliff:g id="COUNT_1">%d</xliff:g> લિંક હૅન્ડલ કરવા માટેના ઍપના દાવા</item>
-      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> લિંક હૅન્ડલ કરવા માટેના ઍપના દાવા</item>
+        <item quantity="one"><xliff:g id="COUNT_1">%d</xliff:g> લિંક હૅન્ડલ કરવા માટેના ઍપના દાવા</item>
+        <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> લિંક હૅન્ડલ કરવા માટેના ઍપના દાવા</item>
     </plurals>
     <string name="open_supported_links_footer" msgid="3188808142432787933">"નીચેની લિંક ખોલવા માટેના ઍપના દાવા:"</string>
     <string name="default_apps_title" msgid="6943471331817718664">"ડિફૉલ્ટ"</string>
@@ -4036,12 +4010,12 @@
     <string name="show_all_apps" msgid="4490719452453223082">"ડિવાઇસનો સંપૂર્ણ વપરાશ બતાવો"</string>
     <string name="hide_extra_apps" msgid="7313907836289865123">"ઍપ્લિકેશનનો વપરાશ બતાવો"</string>
     <plurals name="power_high_usage_summary" formatted="false" msgid="573433136005336970">
-      <item quantity="one"><xliff:g id="NUMBER">%2$d</xliff:g> ઍપ્લિકેશન અસાધારણ રીતે વર્તન કરી રહી છે</item>
-      <item quantity="other"><xliff:g id="NUMBER">%2$d</xliff:g> ઍપ્લિકેશન અસાધારણ રીતે વર્તન કરી રહી છે</item>
+        <item quantity="one"><xliff:g id="NUMBER">%2$d</xliff:g> ઍપ્લિકેશન અસાધારણ રીતે વર્તન કરી રહી છે</item>
+        <item quantity="other"><xliff:g id="NUMBER">%2$d</xliff:g> ઍપ્લિકેશન અસાધારણ રીતે વર્તન કરી રહી છે</item>
     </plurals>
     <plurals name="power_high_usage_title" formatted="false" msgid="8013115866788425817">
-      <item quantity="one">ઍપ્લિકેશનો અતિશય બૅટરી વાપરે છે</item>
-      <item quantity="other">ઍપ્લિકેશનો અતિશય બૅટરી વાપરે છે</item>
+        <item quantity="one">ઍપ્લિકેશનો અતિશય બૅટરી વાપરે છે</item>
+        <item quantity="other">ઍપ્લિકેશનો અતિશય બૅટરી વાપરે છે</item>
     </plurals>
     <string name="high_power_filter_on" msgid="447849271630431531">"ઓપ્ટિમાઇઝ કરેલ નથી"</string>
     <string name="high_power_on" msgid="8778058701270819268">"ઓપ્ટિમાઇઝ કરેલ નથી"</string>
@@ -4117,8 +4091,8 @@
     <string name="free_memory" msgid="439783742246854785">"ખાલી"</string>
     <string name="memory_usage_apps" msgid="5776108502569850579">"ઍપ્લિકેશનો દ્વારા વપરાયેલ મેમરી"</string>
     <plurals name="memory_usage_apps_summary" formatted="false" msgid="1355637088533572208">
-      <item quantity="one"><xliff:g id="COUNT">%1$d</xliff:g> ઍપ્લિકેશન એ છેલ્લા <xliff:g id="DURATION_1">%2$s</xliff:g> માં મેમરી ઉપયોગ કરી</item>
-      <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> ઍપ્લિકેશન એ છેલ્લા <xliff:g id="DURATION_1">%2$s</xliff:g> માં મેમરી ઉપયોગ કરી</item>
+        <item quantity="one"><xliff:g id="COUNT">%1$d</xliff:g> ઍપ્લિકેશન એ છેલ્લા <xliff:g id="DURATION_1">%2$s</xliff:g> માં મેમરી ઉપયોગ કરી</item>
+        <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> ઍપ્લિકેશન એ છેલ્લા <xliff:g id="DURATION_1">%2$s</xliff:g> માં મેમરી ઉપયોગ કરી</item>
     </plurals>
     <string name="running_frequency" msgid="7260225121706316639">"આવર્તન"</string>
     <string name="memory_maximum_usage" msgid="2047013391595835607">"મહત્તમ વપરાશ"</string>
@@ -4191,8 +4165,8 @@
     <string name="data_usage_summary_format" msgid="6844301859713164522">"<xliff:g id="AMOUNT">%1$s</xliff:g> ડેટા વાપર્યો"</string>
     <string name="data_usage_wifi_format" msgid="7644390582649568117">"વાઇ-ફાઇ પર <xliff:g id="AMOUNT">^1</xliff:g> ઉપયોગ થયો છે"</string>
     <plurals name="notification_summary" formatted="false" msgid="7638388920823212470">
-      <item quantity="one"><xliff:g id="COUNT">%d</xliff:g> ઍપ્લિકેશન માટે બંધ છે</item>
-      <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> ઍપ્લિકેશન માટે બંધ છે</item>
+        <item quantity="one"><xliff:g id="COUNT">%d</xliff:g> ઍપ્લિકેશન માટે બંધ છે</item>
+        <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> ઍપ્લિકેશન માટે બંધ છે</item>
     </plurals>
     <string name="notification_summary_none" msgid="9179312319023988089">"બધી ઍપ્લિકેશનો માટે ચાલુ"</string>
     <string name="apps_summary" msgid="4007416751775414252">"<xliff:g id="COUNT">%1$d</xliff:g> ઍપ્લિકેશનો ઇન્સ્ટોલ કરી"</string>
@@ -4257,12 +4231,12 @@
     <string name="suggestions_summary" msgid="1709710458908440469">"+<xliff:g id="ID_1">%1$d</xliff:g>"</string>
     <string name="suggestions_more_title" msgid="240124526378997009">"+વધુ <xliff:g id="ID_1">%1$d</xliff:g>"</string>
     <plurals name="suggestions_collapsed_title" formatted="false" msgid="5023679825210836444">
-      <item quantity="one"><xliff:g id="COUNT">%1$d</xliff:g> સૂચન</item>
-      <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> સૂચન</item>
+        <item quantity="one"><xliff:g id="COUNT">%1$d</xliff:g> સૂચન</item>
+        <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> સૂચન</item>
     </plurals>
     <plurals name="suggestions_collapsed_summary" formatted="false" msgid="3789011332018516832">
-      <item quantity="one">+<xliff:g id="COUNT">%1$d</xliff:g> સૂચન</item>
-      <item quantity="other">+<xliff:g id="COUNT">%1$d</xliff:g> સૂચન</item>
+        <item quantity="one">+<xliff:g id="COUNT">%1$d</xliff:g> સૂચન</item>
+        <item quantity="other">+<xliff:g id="COUNT">%1$d</xliff:g> સૂચન</item>
     </plurals>
     <string name="suggestion_remove" msgid="6753986344585367776">"દૂર કરો"</string>
     <string name="color_temperature" msgid="8256912135746305176">"કૂલ રંગ તાપમાન"</string>
@@ -4289,8 +4263,8 @@
     <string name="billing_cycle_fragment_summary" msgid="6346655500491631357">"દર મહિને <xliff:g id="ID_1">%1$s</xliff:g> તારીખે"</string>
     <string name="network_restrictions" msgid="8385824604048229846">"નેટવર્ક પ્રતિબંધ"</string>
     <plurals name="network_restrictions_summary" formatted="false" msgid="3875128958788008975">
-      <item quantity="one"><xliff:g id="COUNT">%1$d</xliff:g> પ્રતિબંધ</item>
-      <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> પ્રતિબંધ</item>
+        <item quantity="one"><xliff:g id="COUNT">%1$d</xliff:g> પ્રતિબંધ</item>
+        <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> પ્રતિબંધ</item>
     </plurals>
     <string name="operator_warning" msgid="5672761970087591211">"કૅરિઅર ડેટા ગણતરી, ડિવાઇસ ગણતરીથી અલગ હોઈ શકે છે"</string>
     <string name="data_used_template" msgid="8229342096562327646">"<xliff:g id="ID_1">%1$s</xliff:g> ઉપયોગ થયો"</string>
@@ -4303,8 +4277,8 @@
     <string name="configure" msgid="1499586749829665889">"ગોઠવો"</string>
     <string name="data_usage_other_apps" msgid="5649047093607329537">"વપરાશમાં અન્ય ઍપ્લિકેશનોનો સમાવેશ થાય છે"</string>
     <plurals name="data_saver_unrestricted_summary" formatted="false" msgid="3316296488378947221">
-      <item quantity="one">જ્યારે ડેટા સેવર ચાલુ હોય ત્યારે <xliff:g id="COUNT">%1$d</xliff:g> ઍપ્લિકેશનને અપ્રતિબંધિત ડેટાનો ઉપયોગ કરવાની મંજૂરી છે</item>
-      <item quantity="other">જ્યારે ડેટા સેવર ચાલુ હોય ત્યારે <xliff:g id="COUNT">%1$d</xliff:g> ઍપ્લિકેશનને અપ્રતિબંધિત ડેટાનો ઉપયોગ કરવાની મંજૂરી છે</item>
+        <item quantity="one">જ્યારે ડેટા સેવર ચાલુ હોય ત્યારે <xliff:g id="COUNT">%1$d</xliff:g> ઍપ્લિકેશનને અપ્રતિબંધિત ડેટાનો ઉપયોગ કરવાની મંજૂરી છે</item>
+        <item quantity="other">જ્યારે ડેટા સેવર ચાલુ હોય ત્યારે <xliff:g id="COUNT">%1$d</xliff:g> ઍપ્લિકેશનને અપ્રતિબંધિત ડેટાનો ઉપયોગ કરવાની મંજૂરી છે</item>
     </plurals>
     <string name="data_usage_title" msgid="4039024073687469094">"પ્રાથમિક ડેટા"</string>
     <string name="data_usage_wifi_title" msgid="1060495519280456926">"વાઇ-ફાઇ ડેટા"</string>
@@ -4315,8 +4289,8 @@
     <string name="data_usage_chart_brief_content_description" msgid="5548074070258881530">"ગ્રાફ <xliff:g id="START_DATE">%1$s</xliff:g> અને <xliff:g id="END_DATE">%2$s</xliff:g>ની વચ્ચેનો ડેટા વપરાશ બતાવે છે."</string>
     <string name="data_usage_chart_no_data_content_description" msgid="5481968839079467231">"આ તારીખ રેંજમાં કોઈ ડેટા નથી"</string>
     <plurals name="billing_cycle_days_left" formatted="false" msgid="661792524671718753">
-      <item quantity="one">%d દિવસ બાકી</item>
-      <item quantity="other">%d દિવસ બાકી</item>
+        <item quantity="one">%d દિવસ બાકી</item>
+        <item quantity="other">%d દિવસ બાકી</item>
     </plurals>
     <string name="billing_cycle_none_left" msgid="1694844019159277504">"સમય બાકી નથી"</string>
     <string name="billing_cycle_less_than_one_day_left" msgid="1210202399053992163">"1 દિવસ કરતાં ઓછો સમય બાકી"</string>
@@ -4388,8 +4362,8 @@
     <string name="overlay_toast_failed_to_apply" msgid="4839587811338164960">"ઓવરલે લાગુ કરવામાં નિષ્ફળ થયાં"</string>
     <string name="special_access" msgid="1767980727423395147">"વિશેષ ઍપનો ઍક્સેસ"</string>
     <plurals name="special_access_summary" formatted="false" msgid="4995506406763570815">
-      <item quantity="one"><xliff:g id="COUNT">%d</xliff:g> ઍપ્લિકેશન અપ્રતિબંધિત ડેટાનો ઉપયોગ કરી શકે છે</item>
-      <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> ઍપ્લિકેશન અપ્રતિબંધિત ડેટાનો ઉપયોગ કરી શકે છે</item>
+        <item quantity="one"><xliff:g id="COUNT">%d</xliff:g> ઍપ્લિકેશન અપ્રતિબંધિત ડેટાનો ઉપયોગ કરી શકે છે</item>
+        <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> ઍપ્લિકેશન અપ્રતિબંધિત ડેટાનો ઉપયોગ કરી શકે છે</item>
     </plurals>
     <string name="special_access_more" msgid="132919514147475846">"વધુ જુઓ"</string>
     <string name="confirm_convert_to_fbe_warning" msgid="3783325656948378111">"ખરેખર વપરાશકર્તા ડેટાને સાફ કરીને ફાઇલ એન્ક્રિપ્શનમાં રૂપાંતરિત કરીએ?"</string>
@@ -4426,16 +4400,16 @@
     <string name="cross_profile_calendar_title" msgid="7570277841490216947">"ક્રૉસ-પ્રોફાઇલ કૅલેન્ડર"</string>
     <string name="cross_profile_calendar_summary" msgid="8856185206722860069">"તમારા વ્યક્તિગત કૅલેન્ડર પર કાર્યાલયની ઇવેન્ટ બતાવો"</string>
     <plurals name="hours" formatted="false" msgid="1853396353451635458">
-      <item quantity="one"><xliff:g id="NUMBER">%s</xliff:g> કલાક</item>
-      <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> કલાક</item>
+        <item quantity="one"><xliff:g id="NUMBER">%s</xliff:g> કલાક</item>
+        <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> કલાક</item>
     </plurals>
     <plurals name="minutes" formatted="false" msgid="6244503272924425418">
-      <item quantity="one"><xliff:g id="NUMBER">%s</xliff:g> મિનિટ</item>
-      <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> મિનિટ</item>
+        <item quantity="one"><xliff:g id="NUMBER">%s</xliff:g> મિનિટ</item>
+        <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> મિનિટ</item>
     </plurals>
     <plurals name="seconds" formatted="false" msgid="4237020272336995370">
-      <item quantity="one"><xliff:g id="NUMBER">%s</xliff:g> સેકન્ડ</item>
-      <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> સેકન્ડ</item>
+        <item quantity="one"><xliff:g id="NUMBER">%s</xliff:g> સેકન્ડ</item>
+        <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> સેકન્ડ</item>
     </plurals>
     <string name="automatic_storage_manager_settings" msgid="519158151463974656">"સ્ટોરેજનું સંચાલન કરો"</string>
     <string name="automatic_storage_manager_text" msgid="6900593059927987273">"સ્ટોરેજ સ્પેસ ખાલી કરવામાં સહાય માટે, સ્ટોરેજ સંંચાલક તમારા ઉપકરણમાંથી બૅકઅપ લીધેલા ફોટો અને વીડિઓને દૂર કરો."</string>
@@ -4453,7 +4427,6 @@
     <string name="double_tap_power_for_camera_summary" msgid="1100926048598415509">"વધુ ઝડપથી કૅમેરો ખોલવા માટે, પાવર બટનને બે વાર દબાવો. કોઈપણ સ્ક્રીન પરથી કામ કરે છે."</string>
     <string name="double_tap_power_for_camera_suggestion_title" msgid="4299496243418753571">"કૅમેરા ઝડપથી ખોલો"</string>
     <string name="double_twist_for_camera_mode_title" msgid="472455236910935684">"સેલ્ફી માટે કૅમેરાને ફ્લિપ કરો"</string>
-    <string name="double_twist_for_camera_mode_summary" msgid="592503740044744951"></string>
     <string name="double_twist_for_camera_suggestion_title" msgid="8178844037382604158">"વધે ઝડપથી સેલ્ફીઓ લો"</string>
     <string name="system_navigation_title" msgid="1698862900901417194">"સિસ્ટમ નૅવિગેશન"</string>
     <string name="swipe_up_to_switch_apps_title" msgid="6677266952021118342">"2-બટનથી નૅવિગેશન"</string>
@@ -4538,16 +4511,16 @@
     <string name="enterprise_privacy_enterprise_installed_packages" msgid="9114143640515900082">"ઍપ્લિકેશનો ઇન્સ્ટૉલ કરી છે"</string>
     <string name="enterprise_privacy_apps_count_estimation_info" msgid="7959907857710107792">"ઍપ્લિકેશનની સંખ્યા અંદાજિત છે.તેમાં Play Store ની બહારની ઇન્સ્ટૉલ કરેલી ઍપ્લિકેશનો સમાવેશ હોઇ શકે નહીં."</string>
     <plurals name="enterprise_privacy_number_packages_lower_bound" formatted="false" msgid="5403847001419529018">
-      <item quantity="one">મહત્તમ <xliff:g id="COUNT_1">%d</xliff:g> ઍપ્લિકેશન</item>
-      <item quantity="other">મહત્તમ <xliff:g id="COUNT_1">%d</xliff:g> ઍપ્લિકેશન</item>
+        <item quantity="one">મહત્તમ <xliff:g id="COUNT_1">%d</xliff:g> ઍપ્લિકેશન</item>
+        <item quantity="other">મહત્તમ <xliff:g id="COUNT_1">%d</xliff:g> ઍપ્લિકેશન</item>
     </plurals>
     <string name="enterprise_privacy_location_access" msgid="8023838718108456971">"સ્થાન માટેની પરવાનગીઓ"</string>
     <string name="enterprise_privacy_microphone_access" msgid="7242958026470143653">"માઇક્રોફોન માટેની પરવાનગીઓ"</string>
     <string name="enterprise_privacy_camera_access" msgid="7685460535880069016">"કૅમેરા માટેની પરવાનગીઓ"</string>
     <string name="enterprise_privacy_enterprise_set_default_apps" msgid="7498546659083996300">"ડિફૉલ્ટ ઍપ"</string>
     <plurals name="enterprise_privacy_number_packages" formatted="false" msgid="8568544906431825430">
-      <item quantity="one"><xliff:g id="COUNT_1">%d</xliff:g> ઍપ્લિકેશન</item>
-      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> ઍપ્લિકેશન</item>
+        <item quantity="one"><xliff:g id="COUNT_1">%d</xliff:g> ઍપ્લિકેશન</item>
+        <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> ઍપ્લિકેશન</item>
     </plurals>
     <string name="enterprise_privacy_input_method" msgid="3278314982700662246">"ડિફૉલ્ટ કીબોર્ડ"</string>
     <string name="enterprise_privacy_input_method_name" msgid="2974859490559054584">"<xliff:g id="APP_LABEL">%s</xliff:g> પર સેટ કરેલ"</string>
@@ -4559,35 +4532,35 @@
     <string name="enterprise_privacy_ca_certs_personal" msgid="1516422660828485795">"તમારી વ્યક્તિગત પ્રોફાઇલમાંનાં વિશ્વસનીય ઓળખપત્રો"</string>
     <string name="enterprise_privacy_ca_certs_work" msgid="4318941788592655561">"તમારા કાર્યાલયની પ્રોફાઇલમાંનાં વિશ્વસનીય ઓળખપત્રો"</string>
     <plurals name="enterprise_privacy_number_ca_certs" formatted="false" msgid="6459725295322004179">
-      <item quantity="one">ન્યૂનતમ <xliff:g id="COUNT_1">%d</xliff:g> CA પ્રમાણપત્ર</item>
-      <item quantity="other">ન્યૂનતમ <xliff:g id="COUNT_1">%d</xliff:g> CA પ્રમાણપત્ર</item>
+        <item quantity="one">ન્યૂનતમ <xliff:g id="COUNT_1">%d</xliff:g> CA પ્રમાણપત્ર</item>
+        <item quantity="other">ન્યૂનતમ <xliff:g id="COUNT_1">%d</xliff:g> CA પ્રમાણપત્ર</item>
     </plurals>
     <string name="enterprise_privacy_lock_device" msgid="464054894363899866">"વ્યવસ્થાપક ઉપકરણને લૉક કરી શકે છે અને પાસવર્ડ ફરીથી સેટ કરી શકે છે"</string>
     <string name="enterprise_privacy_wipe_device" msgid="869589182352244591">"વ્યવસ્થાપક ઉપકરણમાંનો બધો ડેટા કાઢી નાખી શકે છે"</string>
     <string name="enterprise_privacy_failed_password_wipe_device" msgid="7045164901334821226">"ઉપકરણમાંનો બધો ડેટા કાઢી નાખતા પહેલાં, પાસવર્ડના પ્રયાસો નિષ્ફળ થયા"</string>
     <string name="enterprise_privacy_failed_password_wipe_work" msgid="2537582942554484170">"કાર્ય પ્રોફાઇલનો ડેટા કાઢી નાખતા પહેલાં, પાસવર્ડના પ્રયાસો નિષ્ફળ થયા"</string>
     <plurals name="enterprise_privacy_number_failed_password_wipe" formatted="false" msgid="8811973918944217791">
-      <item quantity="one"><xliff:g id="COUNT_1">%d</xliff:g> પ્રયાસ</item>
-      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> પ્રયાસ</item>
+        <item quantity="one"><xliff:g id="COUNT_1">%d</xliff:g> પ્રયાસ</item>
+        <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> પ્રયાસ</item>
     </plurals>
     <string name="do_disclosure_generic" msgid="3067459392402324538">"આ ડિવાઇસ તમારી સંસ્થા દ્વારા મેનેજ થાય છે."</string>
     <string name="do_disclosure_with_name" msgid="867544298924410766">"આ ઉપકરણનું સંચાલન <xliff:g id="ORGANIZATION_NAME">%s</xliff:g> દ્વારા થાય છે"</string>
     <string name="do_disclosure_learn_more_separator" msgid="5714364437437041671">" "</string>
     <string name="learn_more" msgid="3534519107947510952">"વધુ જાણો"</string>
     <plurals name="default_camera_app_title" formatted="false" msgid="8112432929729136399">
-      <item quantity="one">કૅમેરા ઍપ્લિકેશનો</item>
-      <item quantity="other">કૅમેરા ઍપ્લિકેશનો</item>
+        <item quantity="one">કૅમેરા ઍપ્લિકેશનો</item>
+        <item quantity="other">કૅમેરા ઍપ્લિકેશનો</item>
     </plurals>
     <string name="default_calendar_app_title" msgid="1870095225089706093">"કૅલેન્ડર ઍપ્લિકેશન"</string>
     <string name="default_contacts_app_title" msgid="7740028900741944569">"સંપર્ક ઍપ્લિકેશન"</string>
     <plurals name="default_email_app_title" formatted="false" msgid="8338194872609410234">
-      <item quantity="one">ઇમેઇલ ક્લાઇન્ટ ઍપ્લિકેશનો</item>
-      <item quantity="other">ઇમેઇલ ક્લાઇન્ટ ઍપ્લિકેશનો</item>
+        <item quantity="one">ઇમેઇલ ક્લાઇન્ટ ઍપ્લિકેશનો</item>
+        <item quantity="other">ઇમેઇલ ક્લાઇન્ટ ઍપ્લિકેશનો</item>
     </plurals>
     <string name="default_map_app_title" msgid="7569231732944853320">"નકશા ઍપ્લિકેશન"</string>
     <plurals name="default_phone_app_title" formatted="false" msgid="4222188821845826493">
-      <item quantity="one">ફોન ઍપ્લિકેશનો</item>
-      <item quantity="other">ફોન ઍપ્લિકેશનો</item>
+        <item quantity="one">ફોન ઍપ્લિકેશનો</item>
+        <item quantity="other">ફોન ઍપ્લિકેશનો</item>
     </plurals>
     <string name="app_names_concatenation_template_2" msgid="8320181646458855457">"<xliff:g id="FIRST_APP_NAME">%1$s</xliff:g>, <xliff:g id="SECOND_APP_NAME">%2$s</xliff:g>"</string>
     <string name="app_names_concatenation_template_3" msgid="7019703249717854148">"<xliff:g id="FIRST_APP_NAME">%1$s</xliff:g>, <xliff:g id="SECOND_APP_NAME">%2$s</xliff:g>, <xliff:g id="THIRD_APP_NAME">%3$s</xliff:g>"</string>
@@ -4690,7 +4663,6 @@
     <string name="battery_suggestion_title" product="tablet" msgid="1525940496459255289">"ટૅબ્લેટની બૅટરી આવરદા સુધારો"</string>
     <string name="battery_suggestion_title" product="device" msgid="2280773774080720377">"ઉપકરણની બૅટરી આવરદા સુધારો"</string>
     <string name="battery_suggestion_title" product="default" msgid="4811554469047272537">"ફોનની બૅટરી આવરદા સુધારો"</string>
-    <string name="battery_suggestion_summary" msgid="8186720080540016197"></string>
     <string name="gesture_prevent_ringing_screen_title" msgid="8293094715267769349">"રિંગ વાગતી અટકાવો"</string>
     <string name="gesture_prevent_ringing_title" msgid="5978577898997523581">"વૉલ્યૂમ વધારવાનું અને પાવરનું, એમ બન્ને બટનને એકસાથે દબાવો"</string>
     <string name="gesture_prevent_ringing_sound_title" msgid="4529077822282099235">"રિંગ વાગતી રોકવા માટેનો શૉર્ટકટ"</string>
@@ -4777,8 +4749,8 @@
     <string name="calls_and_sms_ask_every_time" msgid="3178743088737726677">"દર વખતે પૂછો"</string>
     <string name="mobile_network_summary_add_a_network" msgid="9079866102827526779">"નેટવર્ક ઉમેરો"</string>
     <plurals name="mobile_network_summary_count" formatted="false" msgid="5173633860800230925">
-      <item quantity="one"><xliff:g id="COUNT_1">%1$d</xliff:g> સિમ</item>
-      <item quantity="other"><xliff:g id="COUNT_1">%1$d</xliff:g> સિમ</item>
+        <item quantity="one"><xliff:g id="COUNT_1">%1$d</xliff:g> સિમ</item>
+        <item quantity="other"><xliff:g id="COUNT_1">%1$d</xliff:g> સિમ</item>
     </plurals>
     <string name="default_for_calls" msgid="2788950217176988034">"કૉલ માટે ડિફૉલ્ટ"</string>
     <string name="default_for_sms" msgid="1316988329407434771">"SMS માટે ડિફૉલ્ટ"</string>
@@ -4868,18 +4840,17 @@
     <string name="contextual_card_feedback_send" msgid="7409408664417908922">"પ્રતિસાદ મોકલો"</string>
     <string name="contextual_card_feedback_confirm_message" msgid="3186334562157665381">"શું તમે આ સૂચન વિશે અમને પ્રતિસાદ આપવા માગો છો?"</string>
     <string name="copyable_slice_toast" msgid="1008251852798990606">"<xliff:g id="COPY_CONTENT">%1$s</xliff:g>ને ક્લિપબોર્ડ પર કૉપિ કર્યું."</string>
-    <string name="search_bar_account_avatar_content_description" msgid="880523277036898350"></string>
     <string name="permission_bar_chart_empty_text" msgid="4856719891991325077">"કોઈ ઍપ દ્વારા પરવાનગીઓનો ઉપયોગ થયો નથી"</string>
     <string name="permission_bar_chart_title" msgid="2493212904955611441">"છેલ્લા 24 કલાકમાં પરવાનગીનો વપરાશ"</string>
     <string name="permission_bar_chart_details" msgid="5816698018592357088">"બધી વિગતો ડૅશબોર્ડમાં જુઓ"</string>
     <plurals name="permission_bar_chart_label" formatted="false" msgid="4853396794340896078">
-      <item quantity="one"><xliff:g id="NUMBER">%s</xliff:g> ઍપ</item>
-      <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> ઍપ</item>
+        <item quantity="one"><xliff:g id="NUMBER">%s</xliff:g> ઍપ</item>
+        <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> ઍપ</item>
     </plurals>
     <string name="accessibility_usage_title" msgid="9190967143518779145">"ઍક્સેસિબિલિટી વપરાશ"</string>
     <plurals name="accessibility_usage_summary" formatted="false" msgid="6910643986958263005">
-      <item quantity="one"><xliff:g id="SERVICE_COUNT">%1$d</xliff:g> ઍપ તમારા ડિવાઇસ માટે સંપૂર્ણ ઍક્સેસ ધરાવે છે</item>
-      <item quantity="other"><xliff:g id="SERVICE_COUNT">%1$d</xliff:g> ઍપ તમારા ડિવાઇસ માટે સંપૂર્ણ ઍક્સેસ ધરાવે છે</item>
+        <item quantity="one"><xliff:g id="SERVICE_COUNT">%1$d</xliff:g> ઍપ તમારા ડિવાઇસ માટે સંપૂર્ણ ઍક્સેસ ધરાવે છે</item>
+        <item quantity="other"><xliff:g id="SERVICE_COUNT">%1$d</xliff:g> ઍપ તમારા ડિવાઇસ માટે સંપૂર્ણ ઍક્સેસ ધરાવે છે</item>
     </plurals>
     <string name="media_output_panel_title" msgid="5920946795078065159">"આઉટપુટ સ્વિચ કરો"</string>
     <string name="media_output_panel_summary_of_playing_device" msgid="6998758947764222915">"હાલમાં <xliff:g id="DEVICE_NAME">%1$s</xliff:g> પર ચલાવી રહ્યાં છે"</string>
@@ -4940,10 +4911,8 @@
     <string name="cards_passes_setting_toggle" msgid="3380984848045396695">"કાર્ડ અને પાસ બતાવો"</string>
     <string name="device_controls_setting_subtitle" msgid="4388544861427973600">"કનેક્ટેડ ડિવાઇસના નિયંત્રણોને ઍક્સેસ કરવા માટે, પાવર બટનને દબાવી રાખો"</string>
     <string name="cards_passes_setting_subtitle" msgid="4427459738229697469">"તમારી ચુકવણી પદ્ધતિ અને બોર્ડિંગ પાસ જેવી વસ્તુઓનો ઍક્સેસ મેળવવા માટે, પાવર બટનને દબાવી રાખો."</string>
-    <string name="rtt_settings_title" msgid="7049259598645966354"></string>
-    <string name="rtt_settings_no_visible" msgid="7440356831140948382"></string>
-    <string name="rtt_settings_visible_during_call" msgid="7866181103286073700"></string>
-    <string name="rtt_settings_always_visible" msgid="2364173070088756238"></string>
+    <string name="rtt_settings_no_visible" msgid="7440356831140948382"/>
+    <string name="rtt_settings_always_visible" msgid="2364173070088756238"/>
     <string name="media_output_panel_stop_casting_button" msgid="6094875883164119035">"કાસ્ટ કરવાનું રોકો"</string>
     <string name="volte_5G_limited_title" msgid="5908052268836750629">"VoLTE બંધ કરીએ?"</string>
     <string name="volte_5G_limited_text" msgid="7150583768725182345">"આમ કરવાથી તમારું 5G કનેક્શન પણ બંધ થઈ જશે.\nવૉઇસ કૉલ દરમ્યાન, તમે ઇન્ટરનેટનો ઉપયોગ કરી શકતાં નથી અને કેટલીક ઍપ કદાચ કામ ન પણ કરે."</string>
