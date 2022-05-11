@@ -14,8 +14,7 @@
      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
      See the License for the specific language governing permissions and
      limitations under the License.
--->
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+--><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <plurals name="show_dev_countdown_cm">
         <item quantity="one">Du bist <xliff:g id="step_count">%1$d</xliff:g> Schritt vom Aktivieren der Entwicklereinstellungen entfernt.</item>
         <item quantity="other">Du bist <xliff:g id="step_count">%1$d</xliff:g> Schritte vom Aktivieren der Entwicklereinstellungen entfernt.</item>
@@ -89,7 +88,7 @@
     <string name="high_touch_sensitivity_title">Hohe Touch-Empfindlichkeit</string>
     <string name="high_touch_sensitivity_summary">Touch-Empfindlichkeit erhöhen, um den Touchscreen auch mit Handschuhen bedienen zu können</string>
     <string name="touchscreen_hovering_title">Touchscreen als Maus verwenden</string>
-    <string name="touchscreen_hovering_summary">Erlaubt es, den über dem Touchscreen schwebenden Finger im Browser, Remote Desktop usw. als Mauszeiger zu verwenden.</string>
+    <string name="touchscreen_hovering_summary">Erlaubt es, den über dem Touchscreen schwebenden Finger im Browser, Remote Desktop usw. als Mauszeiger zu verwenden</string>
     <string name="update_recovery_title">Recovery aktualisieren</string>
     <string name="update_recovery_summary">Recovery bei Systemupdates aktualisieren</string>
     <string name="update_recovery_on_warning">HINWEIS: Wenn diese Funktion aktiviert ist, wird dein installiertes Recovery-System durch das in der aktuellen Version des Betriebssystems ersetzt.\n\nDein Recovery-System wird fortan bei Updates des Systems ebenfalls aktualisiert, damit die Kompatibilität mit zukünftigen Versionen gewährleistet ist.\n\nWillst du diese Funktion aktivieren?</string>
@@ -112,4 +111,16 @@
     <string name="backup_transport_title">Backup-Anbieter auswählen</string>
     <string name="fast_charging_title">Schnelles Laden</string>
     <string name="fast_charging_summary">Deaktivieren, um die vom Gerät beim Laden erzeugte Wärme zu reduzieren oder die Lebensdauer des Akkus zu verlängern</string>
+    <string name="advanced_privacy_dashboard_title">Erweiterter Datenschutz</string>
+    <string name="advanced_privacy_dashboard_summary">Tracker verwalten, Standorte fälschen, IP-Adressen verstecken</string>
+    <string name="lineageos_contributors_title">LineageOS Mitwirkende</string>
+    <string name="e_supporters_title">/e/ Unterstützer</string>
+    <string name="e_contributors_title">/e/ Mitwirkende</string>
+    <string name="elicense_title">Rechtliches zu /e/</string>
+    <string name="use_ota_staging_popup_message">Damit wird dir Zugang zu den Testversionen von /e/ OS gegeben, zum Herunterladen und Installieren. Diese Versionen können unstabil sein, und sollten nur für Testzwecke benutzt werden. Bitte akzeptiere nur, wenn du genau weißt, was du tust.</string>
+    <string name="use_ota_staging_popup_title">Du verbindest dich gerade mit dem /e/ OS Testkanal</string>
+    <string name="use_ota_summary">Zugang erhalten zu den Testveröffentlichungen von /e/ OS</string>
+    <string name="title_ota_server">Mit dem /e/ OS Testkanal verbinden</string>
+    <string name="e_version">/e/ OS Version</string>
+    <string name="system_update_summary">Aktualisierungen, Präferenzen, Versionshinweise</string>
 </resources>
