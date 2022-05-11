@@ -14,8 +14,7 @@
      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
      See the License for the specific language governing permissions and
      limitations under the License.
--->
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+--><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="mobile_data_settings_summary_unavailable">Keine SIM-Karte verfügbar</string>
     <plurals name="show_dev_countdown_cm">
         <item quantity="one">Du bist <xliff:g id="step_count">%1$d</xliff:g> Schritt vom Aktivieren der Entwicklereinstellungen entfernt.</item>
@@ -83,7 +82,7 @@
     <string name="proximity_wake_title">Unbeabsichtigtes Aufwecken verhindern</string>
     <string name="proximity_wake_summary">Vor dem Aufwecken des Gerätes Näherungssensor überprüfen</string>
     <string name="touchscreen_hovering_title">Touchscreen als Maus verwenden</string>
-    <string name="touchscreen_hovering_summary">Erlaubt es, den über dem Touchscreen schwebenden Finger im Browser, Remote Desktop usw. als Mauszeiger zu verwenden.</string>
+    <string name="touchscreen_hovering_summary">Erlaubt es, den über dem Touchscreen schwebenden Finger im Browser, Remote Desktop usw. als Mauszeiger zu verwenden</string>
     <string name="touchscreen_gesture_settings_title">Bildschirmgesten</string>
     <string name="touchscreen_gesture_settings_summary">Führe durch verschiedene Bildschirmgesten einige schnelle Aktionen aus</string>
     <string name="volume_link_notification_title">Klingelton- und Benachrichtigungslautstärke verknüpfen</string>
@@ -97,4 +96,16 @@
     <string name="wifi_setup_wizard_title">WLAN-Netzwerk auswählen</string>
     <string name="advanced_notifications_title">Erweiterte Benachrichtigungseinstellungen</string>
     <string name="peak_refresh_rate_summary_custom">Setzt die Aktualisierungsrate für einige Inhalte automatisch von 60 auf %1$d Hz herauf. Erhöhter Akkuverbrauch.</string>
+    <string name="advanced_privacy_dashboard_title">Erweiterter Datenschutz</string>
+    <string name="advanced_privacy_dashboard_summary">Tracker verwalten, Standorte fälschen, IP-Adressen verstecken</string>
+    <string name="lineageos_contributors_title">LineageOS Mitwirkende</string>
+    <string name="e_supporters_title">/e/ Unterstützer</string>
+    <string name="e_contributors_title">/e/ Mitwirkende</string>
+    <string name="elicense_title">Rechtliches zu /e/</string>
+    <string name="use_ota_staging_popup_message">Damit wird dir Zugang zu den Testversionen von /e/ OS gegeben, zum Herunterladen und Installieren. Diese Versionen können unstabil sein, und sollten nur für Testzwecke benutzt werden. Bitte akzeptiere nur, wenn du genau weißt, was du tust.</string>
+    <string name="use_ota_staging_popup_title">Du verbindest dich gerade mit dem /e/ OS Testkanal</string>
+    <string name="use_ota_summary">Zugang erhalten zu den Testveröffentlichungen von /e/ OS</string>
+    <string name="title_ota_server">Mit dem /e/ OS Testkanal verbinden</string>
+    <string name="e_version">/e/ OS Version</string>
+    <string name="system_update_summary">Aktualisierungen, Präferenzen, Versionshinweise</string>
 </resources>
