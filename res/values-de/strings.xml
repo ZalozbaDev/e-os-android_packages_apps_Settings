@@ -283,7 +283,7 @@
     <string name="action_drag_label_remove" msgid="1034900377796780568">"Sprache entfernen"</string>
     <string name="activity_picker_label" msgid="351250401590691126">"Aktivität auswählen"</string>
     <string name="device_info_label" msgid="2935198177248803716">"Geräteinfo"</string>
-    <string name="display_label" msgid="3056320781191343221">"Display"</string>
+    <string name="display_label" msgid="3056320781191343221">Bildschirm</string>
     <string name="phone_info_label" product="tablet" msgid="7518199097113911566">"Tablet-Informationen"</string>
     <string name="phone_info_label" product="default" msgid="1824896269282225602">"Über das Telefon"</string>
     <string name="sd_card_settings_label" product="nosdcard" msgid="1850505156136467106">"USB-Speicher"</string>
@@ -346,7 +346,7 @@
     <string name="zone_menu_by_offset" msgid="1257702747474426745">"Auf UTC-Basis auswählen"</string>
     <string name="date_picker_title" msgid="646573308567782578">"Datum"</string>
     <string name="time_picker_title" msgid="1784236407401743393">"Uhrzeit"</string>
-    <string name="lock_after_timeout" msgid="8682769000437403444">"Sperren nach autom. Ausschalten des Displays"</string>
+    <string name="lock_after_timeout" msgid="8682769000437403444">Sperren nach autom. Ausschalten des Bildschirms</string>
     <string name="lock_after_timeout_summary" msgid="4869265514658147304">"<xliff:g id="TIMEOUT_STRING">%1$s</xliff:g> nach Ablauf des Zeitlimits"</string>
     <string name="lock_immediately_summary_with_exception" msgid="40819611828339044">"Unmittelbar nach Ablauf des Zeitlimits, außer bei dauerhafter Entsperrung durch <xliff:g id="TRUST_AGENT_NAME">%1$s</xliff:g>"</string>
     <string name="lock_after_timeout_summary_with_exception" msgid="3441806647509073124">"<xliff:g id="TIMEOUT_STRING">%1$s</xliff:g> nach Ablauf des Zeitlimits, außer bei dauerhafter Entsperrung durch <xliff:g id="TRUST_AGENT_NAME">%2$s</xliff:g>"</string>
@@ -355,7 +355,7 @@
     <string name="security_enable_widgets_title" msgid="676199714313423099">"Widgets aktivieren"</string>
     <string name="security_enable_widgets_disabled_summary" msgid="5191637768484254146">"Vom Administrator deaktiviert"</string>
     <string name="lockdown_settings_title" msgid="8988970335658365075">"Option zum Sperren anzeigen"</string>
-    <string name="lockdown_settings_summary" msgid="7422522013953398806">"Option für Ein/Aus-Taste des Displays, durch die Smart Lock, das biometrische Entsperren und Benachrichtigungen auf dem Sperrbildschirm deaktiviert werden"</string>
+    <string name="lockdown_settings_summary" msgid="7422522013953398806">Option für Ein/Aus-Taste des Bildschirms, durch die das Smart Lock, das biometrische Entsperren und Benachrichtigungen auf dem Sperrbildschirm deaktiviert werden</string>
     <string name="trust_agents_extend_unlock_title" msgid="6704799119336718965">"Trust Agents können Entsperrung nur verlängern"</string>
     <string name="trust_agents_extend_unlock_summary" msgid="2567077920329962827">"Wenn aktiviert, halten Trust Agents das Gerät länger entsperrt, sie können aber gesperrte Geräte nicht mehr entsperren"</string>
     <string name="trust_lost_locks_screen_title" msgid="4231232144565291276">"Bildschirm sperren, wenn nicht mehr vertrauenswürdig"</string>
@@ -384,14 +384,14 @@
     <string name="decryption_settings_summary" product="tablet" msgid="1864963068216544631">"Gerät nicht verschlüsselt"</string>
     <string name="lockscreen_settings_title" msgid="5324197107343656770">"Sperrbildschirmanzeige"</string>
     <string name="lockscreen_settings_what_to_show_category" msgid="9205490627927741254">"Was wird angezeigt?"</string>
-    <string name="security_settings_summary" msgid="1627059516127354233">"Meinen Standort, Display-Entsperrung, SIM-Kartensperre und Sperre für Anmeldedatenspeicher festlegen"</string>
-    <string name="cdma_security_settings_summary" msgid="2455517905101186330">"Meinen Standort, Display-Entsperrung, SIM-Kartensperrung und Sperrung des Anmeldedatenspeichers festlegen"</string>
+    <string name="security_settings_summary" msgid="1627059516127354233">Meinen Standort, Bildschirm-Entsperrung, SIM-Kartensperre und Sperre für Anmeldedatenspeicher festlegen</string>
+    <string name="cdma_security_settings_summary" msgid="2455517905101186330">Meinen Standort, Bildschirm-Entsperrung, SIM-Kartensperrung und Sperrung des Anmeldedatenspeichers festlegen</string>
     <string name="security_passwords_title" msgid="4154420930973818581">"Datenschutz"</string>
     <string name="disabled_by_administrator_summary" msgid="4181894719300350343">"Vom Administrator deaktiviert"</string>
     <string name="security_status_title" msgid="6958004275337618656">"Sicherheitsstatus"</string>
-    <string name="security_dashboard_summary_face" msgid="4198949293847206382">"Displaysperre, Face Unlock"</string>
-    <string name="security_dashboard_summary" msgid="8750183806533140464">"Displaysperre und Fingerabdruck"</string>
-    <string name="security_dashboard_summary_no_fingerprint" msgid="1044589595710115123">"Displaysperre"</string>
+    <string name="security_dashboard_summary_face" msgid="4198949293847206382">Bildschirmsperre, Gesichtserkennung-Entsperrung</string>
+    <string name="security_dashboard_summary" msgid="8750183806533140464">Bildschirmsperre, Fingerabdruck</string>
+    <string name="security_dashboard_summary_no_fingerprint" msgid="1044589595710115123">Bildschirmsperre</string>
     <string name="security_settings_face_preference_summary" msgid="6675126437396914838">"Gesicht hinzugefügt"</string>
     <string name="security_settings_face_preference_summary_none" msgid="3758209126322559995">"Face Unlock einrichten"</string>
     <string name="security_settings_face_preference_title" msgid="821557938243856757">"Face Unlock"</string>
@@ -446,7 +446,7 @@
     <string name="fingerprint_manage_category_title" msgid="1249349505688268850">"Fingerabdrücke verwalten"</string>
     <string name="fingerprint_usage_category_title" msgid="8757959085075024856">"Abdruck nutzen für"</string>
     <string name="fingerprint_add_title" msgid="1837610443487902050">"Fingerabdruck hinzufügen"</string>
-    <string name="fingerprint_enable_keyguard_toggle_title" msgid="5451094461919440992">"Displaysperre"</string>
+    <string name="fingerprint_enable_keyguard_toggle_title" msgid="5451094461919440992">Bildschirmsperre</string>
     <plurals name="security_settings_fingerprint_preference_summary" formatted="false" msgid="988602245530967106">
         <item quantity="other"><xliff:g id="COUNT_1">%1$d</xliff:g> Fingerabdrücke eingerichtet</item>
         <item quantity="one"><xliff:g id="COUNT_0">%1$d</xliff:g> Fingerabdruck eingerichtet</item>
@@ -462,7 +462,7 @@
     <string name="security_settings_fingerprint_enroll_introduction_continue_setup" msgid="7155412679784724630">"Weiter"</string>
     <string name="setup_fingerprint_enroll_skip_title" msgid="2473807887676247264">"Fingerabdruck überspringen?"</string>
     <string name="setup_fingerprint_enroll_skip_after_adding_lock_text" msgid="2412645723804450304">"Die Fingerabdruck-Einrichtung dauert nur ein, zwei Minuten. Wenn du sie jetzt überspringst, kannst du sie später über die Einstellungen nachholen."</string>
-    <string name="lock_screen_intro_skip_title" msgid="342553937472568925">"Displaysperre überspringen?"</string>
+    <string name="lock_screen_intro_skip_title" msgid="342553937472568925">Bildschirmsperre überspringen\?</string>
     <string name="lock_screen_intro_skip_dialog_text_frp" product="tablet" msgid="1570832293693405757">"Die Geräteschutzfunktionen werden nicht aktiviert. Du kannst dann nicht verhindern, dass andere Personen dieses Tablet verwenden, falls es verloren geht, gestohlen oder zurückgesetzt wird."</string>
     <string name="lock_screen_intro_skip_dialog_text_frp" product="device" msgid="4618501606519351904">"Die Geräteschutzfunktionen werden nicht aktiviert. Du kannst dann nicht verhindern, dass andere Personen dieses Gerät verwenden, falls es verloren geht, gestohlen oder zurückgesetzt wird."</string>
     <string name="lock_screen_intro_skip_dialog_text_frp" product="default" msgid="2412426429887900241">"Die Geräteschutzfunktionen werden nicht aktiviert. Du kannst dann nicht verhindern, dass andere Personen dieses Smartphone verwenden, falls es verloren geht, gestohlen oder zurückgesetzt wird."</string>
@@ -490,14 +490,14 @@
     <string name="setup_fingerprint_enroll_enrolling_skip_message" msgid="4876965433600560365">"Du hast festgelegt, dass du unter anderem deinen Fingerabdruck zum Entsperren deines Smartphones verwenden möchtest. Wenn du diesen Schritt jetzt überspringst, musst du die Einrichtung zu einem späteren Zeitpunkt vornehmen. Die Einrichtung dauert nur ca. eine Minute."</string>
     <string name="fingerprint_lock_screen_setup_skip_dialog_text" product="tablet" msgid="6901147203720764421">"Mit der Displaysperre kannst du dein Tablet schützen, damit es bei Diebstahl oder anderweitigem Verlust von niemand anders verwendet werden kann. Die Displaysperre ist auch für die Authentifizierung per Fingerabdruck erforderlich. Tippe auf \"Abbrechen\" und lege dann eine PIN, ein Muster oder ein Passwort fest."</string>
     <string name="fingerprint_lock_screen_setup_skip_dialog_text" product="device" msgid="1286244133923093528">"Mit der Displaysperre kannst du dein Gerät schützen, damit es bei Diebstahl oder anderweitigem Verlust von niemand anders verwendet werden kann. Die Displaysperre ist auch für die Authentifizierung per Fingerabdruck erforderlich. Tippe auf \"Abbrechen\" und lege dann eine PIN, ein Muster oder ein Passwort fest."</string>
-    <string name="fingerprint_lock_screen_setup_skip_dialog_text" product="default" msgid="4810191157587317521">"Mit der Displaysperre kannst du dein Smartphone schützen, damit es bei Diebstahl oder anderweitigem Verlust von niemand anders verwendet werden kann. Die Displaysperre ist auch für die Authentifizierung per Fingerabdruck erforderlich. Tippe auf \"Abbrechen\" und lege dann eine PIN, ein Muster oder ein Passwort fest."</string>
+    <string name="fingerprint_lock_screen_setup_skip_dialog_text" product="default" msgid="4810191157587317521">Mit der Bildschirmsperre kannst du dein Smartphone schützen, damit es bei Diebstahl oder anderweitigem Verlust von niemand anders verwendet werden kann. Die Bildschirmsperre ist auch für die Authentifizierung per Fingerabdruck erforderlich. Tippe auf „Abbrechen“ und lege dann eine PIN, ein Muster oder ein Passwort fest.</string>
     <string name="face_lock_screen_setup_skip_dialog_text" product="tablet" msgid="7387535629289108475">"Mit der Displaysperre kannst du dein Tablet schützen, damit es niemand anders verwenden kann, falls es gestohlen wird oder du es verloren hast. Du musst auch die Displaysperre einrichten, um Face Unlock nutzen zu können. Tippe auf \"Abbrechen\", um zurückzugehen."</string>
     <string name="face_lock_screen_setup_skip_dialog_text" product="device" msgid="4995287019957131123">"Mit der Displaysperre kannst du dein Gerät schützen, damit es niemand anders verwenden kann, falls es gestohlen wird oder du es verloren hast. Du musst auch die Displaysperre einrichten, um Face Unlock nutzen zu können. Tippe auf \"Abbrechen\", um zurückzugehen."</string>
-    <string name="face_lock_screen_setup_skip_dialog_text" product="default" msgid="7086796722966738156">"Mit der Displaysperre kannst du dein Smartphone schützen, damit es niemand anders verwenden kann, falls es gestohlen wird oder du es verloren hast. Du musst auch die Displaysperre einrichten, um Face Unlock nutzen zu können. Tippe auf \"Abbrechen\", um zurückzugehen."</string>
+    <string name="face_lock_screen_setup_skip_dialog_text" product="default" msgid="7086796722966738156">Mit der Bildschirmsperre kannst du dein Smartphone schützen, damit es niemand anders verwenden kann, falls es gestohlen wird oder du es verloren hast. Du musst auch die Bildschirmsperre einrichten, um Gesichtserkennung-Entsperrung nutzen zu können. Tippe auf „Abbrechen“, um zurückzugehen.</string>
     <string name="lock_screen_pin_skip_title" msgid="6853866579893458111">"PIN-Einrichtung überspringen?"</string>
     <string name="lock_screen_password_skip_title" msgid="8891463713793185768">"Passworteinrichtung überspringen?"</string>
     <string name="lock_screen_pattern_skip_title" msgid="7214938393640060932">"Mustereinrichtung überspringen?"</string>
-    <string name="security_settings_fingerprint_enroll_setup_screen_lock" msgid="3538784524778508018">"Displaysperre einrichten"</string>
+    <string name="security_settings_fingerprint_enroll_setup_screen_lock" msgid="3538784524778508018">Bildschirmsperre einrichten</string>
     <string name="security_settings_fingerprint_enroll_done" msgid="9198775984215057337">"Fertig"</string>
     <string name="security_settings_fingerprint_enroll_touch_dialog_title" msgid="5742429501012827526">"Das ist nicht der Sensor"</string>
     <string name="security_settings_fingerprint_enroll_touch_dialog_message" msgid="7172969336386036998">"Sensor auf Rückseite mit Zeigefinger berühren."</string>
@@ -507,7 +507,9 @@
     <string name="fingerprint_enroll_button_add" msgid="6652490687672815760">"Weiteren hinzufügen"</string>
     <string name="fingerprint_enroll_button_next" msgid="1034110123277869532">"Weiter"</string>
     <string name="security_settings_fingerprint_enroll_disclaimer" msgid="7875826823637114097">"Du kannst deinen Fingerabdruck nicht nur dazu verwenden, dein Smartphone zu entsperren, sondern mit ihm auch Käufe autorisieren und dich in Apps anmelden. "<annotation id="url">"Weitere Informationen"</annotation></string>
-    <string name="security_settings_fingerprint_enroll_disclaimer_lockscreen_disabled" msgid="4260983700868889294">" Die Option für die Displaysperre ist deaktiviert. Wende dich an den Administrator deiner Organisation, um weitere Informationen zu erhalten. "<annotation id="admin_details">"Weitere Details"</annotation>\n\n"Du kannst deinen Fingerabdruck dennoch verwenden, um Käufe zu autorisieren und dich in Apps anzumelden. "<annotation id="url">"Weitere Informationen"</annotation></string>
+    <string name="security_settings_fingerprint_enroll_disclaimer_lockscreen_disabled" msgid="4260983700868889294"> Die Option für die Bildschirmsperre ist deaktiviert. Wende dich an den Administrator deiner Organisation, um weitere Informationen zu erhalten. <annotation id="admin_details">Weitere Details</annotation>
+\n
+\nDu kannst deinen Fingerabdruck dennoch verwenden, um Käufe zu autorisieren und dich in Apps anzumelden. <annotation id="url">Weitere Informationen</annotation></string>
     <string name="security_settings_fingerprint_enroll_lift_touch_again" msgid="2590665137265458789">"Hebe den Finger und tippe dann erneut auf den Sensor"</string>
     <string name="fingerprint_add_max" msgid="8639321019299347447">Du kannst bis zu <xliff:g id="count" example="5">%d</xliff:g> Fingerabdrücke hinzufügen.</string>
     <string name="fingerprint_intro_error_max" msgid="4431784409732135610">"Du hast die maximale Anzahl an Fingerabdrücken hinzugefügt"</string>
@@ -523,13 +525,15 @@
     <string name="crypt_keeper_encrypt_title" product="default" msgid="8302873664348463041">"Smartphone verschlüsseln"</string>
     <string name="crypt_keeper_encrypted_summary" msgid="3866488451639592071">"Verschlüsselt"</string>
     <string name="crypt_keeper_desc" product="tablet" msgid="4103951371711323192">"Du kannst deine Konten, Einstellungen, heruntergeladenen Apps und die zugehörigen Daten, Medienelemente und andere Dateien verschlüsseln. Nachdem du dein Tablet verschlüsselt hast, musst du, sofern du eine Displaysperre eingerichtet hast (also ein Muster, eine numerische PIN oder ein Passwort), bei jedem Einschalten des Tablets das Display entsperren, um das Tablet zu entschlüsseln. Der einzige andere Weg zur Entschlüsselung ist das Zurücksetzen auf die Werkseinstellungen. Hierdurch werden alle deine Daten gelöscht.\n\nDie Verschlüsselung dauert mindestens eine Stunde. Bei Beginn muss der Akku aufgeladen sein und das Tablet muss sich während des gesamten Vorgangs im Netzbetrieb befinden. Wenn du den Vorgang unterbrichst, gehen einige oder alle deine Daten verloren."</string>
-    <string name="crypt_keeper_desc" product="default" msgid="6180866043921135548">"Du kannst deine Konten, Einstellungen, heruntergeladenen Apps und die zugehörigen Daten, Medienelemente und andere Dateien verschlüsseln. Nachdem du dein Smartphone verschlüsselt hast, musst du, sofern du eine Displaysperre eingerichtet hast (also ein Muster, eine numerische PIN oder ein Passwort), bei jedem Einschalten des Smartphones das Display entsperren, um das Smartphone zu entschlüsseln. Der einzige andere Weg zur Entschlüsselung ist das Zurücksetzen auf die Werkseinstellungen. Hierdurch werden alle deine Daten gelöscht.\n\nDie Verschlüsselung dauert mindestens eine Stunde. Bei Beginn muss der Akku aufgeladen sein und das Smartphone muss sich während des gesamten Vorgangs im Netzbetrieb befinden. Wenn du den Vorgang unterbrichst, gehen einige oder alle deine Daten verloren."</string>
+    <string name="crypt_keeper_desc" product="default" msgid="6180866043921135548">Du kannst deine Konten, Einstellungen, heruntergeladenen Apps und die zugehörigen Daten, Medienelemente und andere Dateien verschlüsseln. Nachdem du dein Smartphone verschlüsselt hast, musst du, sofern du eine Bildschirmsperre eingerichtet hast (also ein Muster, eine numerische PIN oder ein Passwort), bei jedem Einschalten des Smartphones den Bildschirm entsperren, um das Smartphone zu entschlüsseln. Der einzige andere Weg zur Entschlüsselung ist das Zurücksetzen auf die Werkseinstellungen. Hierdurch werden alle deine Daten gelöscht.
+\n
+\nDie Verschlüsselung dauert mindestens eine Stunde. Bei Beginn muss der Akku aufgeladen sein und das Smartphone muss sich während des gesamten Vorgangs im Netzbetrieb befinden. Wenn du den Vorgang unterbrichst, gehen einige oder alle deine Daten verloren.</string>
     <string name="crypt_keeper_button_text" product="tablet" msgid="5551608011810921471">"Tablet verschlüsseln"</string>
     <string name="crypt_keeper_button_text" product="default" msgid="6370330929679426136">"Smartphone verschlüsseln"</string>
     <string name="crypt_keeper_low_charge_text" msgid="4920087247177024521">"Lade den Akku auf und versuche es noch einmal."</string>
     <string name="crypt_keeper_unplugged_text" msgid="2709721134148651329">"Schließe dein Ladegerät an und versuche es noch einmal."</string>
-    <string name="crypt_keeper_dialog_need_password_title" msgid="1847280235529858357">"Keine PIN oder kein Passwort für Displaysperre"</string>
-    <string name="crypt_keeper_dialog_need_password_message" msgid="7210616262954236042">"Du musst eine PIN oder ein Passwort für die Displaysperre festlegen, bevor du die Verschlüsselung starten kannst."</string>
+    <string name="crypt_keeper_dialog_need_password_title" msgid="1847280235529858357">Keine PIN oder kein Passwort für Bildschirmsperre</string>
+    <string name="crypt_keeper_dialog_need_password_message" msgid="7210616262954236042">Du musst eine PIN oder ein Passwort für die Bildschirmsperre festlegen, bevor du die Verschlüsselung starten kannst.</string>
     <string name="crypt_keeper_confirm_title" msgid="8600000209722452230">"Verschlüsseln?"</string>
     <string name="crypt_keeper_final_desc" product="tablet" msgid="3270587498436152259">"Dieser Vorgang ist nicht umkehrbar und jede Unterbrechung ist mit einem Datenverlust verbunden. Die Verschlüsselung dauert mindestens eine Stunde. In dieser Zeit wird das Tablet mehrfach neu gestartet."</string>
     <string name="crypt_keeper_final_desc" product="default" msgid="3040428543349852419">"Dieser Vorgang ist nicht umkehrbar und jede Unterbrechung ist mit einem Datenverlust verbunden. Die Verschlüsselung dauert mindestens eine Stunde. In dieser Zeit wird das Telefon mehrfach neu gestartet."</string>
@@ -552,26 +556,26 @@
     <string name="suggested_lock_settings_title" msgid="7836065447159730217">"Smartphone schützen"</string>
     <string name="suggested_lock_settings_summary" product="tablet" msgid="3213718550422761562">"Displaysperre einrichten, um das Tablet zu schützen"</string>
     <string name="suggested_lock_settings_summary" product="device" msgid="8479766049078378225">"Displaysperre einrichten, um das Gerät zu schützen"</string>
-    <string name="suggested_lock_settings_summary" product="default" msgid="2443273582716671033">"Displaysperre einrichten, um das Smartphone zu schützen"</string>
+    <string name="suggested_lock_settings_summary" product="default" msgid="2443273582716671033">Bildschirmsperre einrichten, um das Smartphone zu schützen</string>
     <string name="suggested_fingerprint_lock_settings_title" msgid="3140266181874137984">"Fingerabdruck zum Entsperren hinzufügen"</string>
-    <string name="lock_settings_picker_title" msgid="9219376327364915334">"Displaysperre wählen"</string>
+    <string name="lock_settings_picker_title" msgid="9219376327364915334">Bildschirmsperre wählen</string>
     <string name="lock_settings_picker_title_profile" msgid="8377696902400733227">"Geschäftliche Sperre"</string>
     <string name="setup_lock_settings_picker_title" product="tablet" msgid="1276283007274778191">"Tablet schützen"</string>
     <string name="setup_lock_settings_picker_title" product="device" msgid="3585905639045649905">"Gerät schützen"</string>
     <string name="setup_lock_settings_picker_title" product="default" msgid="2758197863515864300">"Smartphone schützen"</string>
-    <string name="lock_settings_picker_biometrics_added_security_message" msgid="1105247657304421299">"Richte für zusätzliche Sicherheit eine alternative Displaysperre ein"</string>
+    <string name="lock_settings_picker_biometrics_added_security_message" msgid="1105247657304421299">Alternative Bildschirmsperre einrichten für zusätzliche Sicherheit</string>
     <string name="setup_lock_settings_picker_message" product="tablet" msgid="4870877800737248926">"Du kannst verhindern, dass andere Personen dieses Tablet ohne deine Erlaubnis verwenden, indem du die Geräteschutzfunktionen aktivierst. Wähle eine Displaysperre aus."</string>
     <string name="setup_lock_settings_picker_message" product="device" msgid="8961855222808442301">"Du kannst verhindern, dass andere Personen dieses Gerät ohne deine Erlaubnis verwenden, indem du die Geräteschutzfunktionen aktivierst. Wähle eine Displaysperre aus."</string>
-    <string name="setup_lock_settings_picker_message" product="default" msgid="8867435145945818970">"Du kannst verhindern, dass andere Personen dieses Smartphone ohne deine Erlaubnis verwenden, indem du die Geräteschutzfunktionen aktivierst. Wähle eine Displaysperre aus."</string>
-    <string name="lock_settings_picker_fingerprint_message" msgid="6414674538453498900">"Alternative Methode für die Displaysperre auswählen"</string>
-    <string name="lock_settings_picker_face_message" msgid="2044129433641084149">"Alternative Methode für die Displaysperre auswählen"</string>
-    <string name="setup_lock_settings_options_button_label" msgid="6098297461618298505">"Optionen für die Displaysperre"</string>
-    <string name="setup_lock_settings_options_dialog_title" msgid="7985107300517468569">"Optionen für die Displaysperre"</string>
-    <string name="unlock_set_unlock_launch_picker_title" msgid="4981063601772605609">"Displaysperre"</string>
+    <string name="setup_lock_settings_picker_message" product="default" msgid="8867435145945818970">Du kannst verhindern, dass andere Personen dieses Smartphone ohne deine Erlaubnis verwenden, indem du die Schutzfunktionen für dein Mobilgerät aktivierst. Wähle eine Bildschirmsperre aus.</string>
+    <string name="lock_settings_picker_fingerprint_message" msgid="6414674538453498900">Alternative Methode für die Bildschirmsperre auswählen</string>
+    <string name="lock_settings_picker_face_message" msgid="2044129433641084149">Alternative Methode für die Bildschirmsperre auswählen</string>
+    <string name="setup_lock_settings_options_button_label" msgid="6098297461618298505">Optionen für die Bildschirmsperre</string>
+    <string name="setup_lock_settings_options_dialog_title" msgid="7985107300517468569">Optionen für die Bildschirmsperre</string>
+    <string name="unlock_set_unlock_launch_picker_title" msgid="4981063601772605609">Bildschirmsperre</string>
     <string name="unlock_set_unlock_launch_picker_summary_lock_immediately" msgid="5799070517574360310"><xliff:g id="unlock_method" example="PIN">%1$s</xliff:g> / direkt nach Ruhemodus</string>
     <string name="unlock_set_unlock_launch_picker_summary_lock_after_timeout" msgid="4572132216801894216"><xliff:g id="unlock_method" example="PIN">%1$s</xliff:g> / <xliff:g id="timeout_string">%2$s</xliff:g> nach Ruhemodus</string>
     <string name="unlock_set_unlock_launch_picker_title_profile" msgid="7631371082326055429">"Sperre des Arbeitsprofils"</string>
-    <string name="unlock_set_unlock_launch_picker_change_title" msgid="4746783679112447948">"Displaysperre ändern"</string>
+    <string name="unlock_set_unlock_launch_picker_change_title" msgid="4746783679112447948">Bildschirmsperre ändern</string>
     <string name="unlock_set_unlock_launch_picker_change_summary" msgid="6023813780512501969">"Sperre (Muster, PIN, Passwort) ändern oder deaktivieren"</string>
     <string name="unlock_set_unlock_launch_picker_enable_summary" msgid="1699993191343299179">"Methode zum Sperren des Bildschirms wählen"</string>
     <string name="unlock_set_unlock_off_title" msgid="2831957685685921667">"Keine"</string>
@@ -584,25 +588,25 @@
     <string name="unlock_set_unlock_password_title" msgid="2559842616268607041">"Passwort"</string>
     <string name="unlock_set_unlock_password_summary" msgid="7647435233968707432">"Hohe Sicherheit"</string>
     <string name="unlock_set_do_later_title" msgid="6565575303676064364">"Jetzt nicht"</string>
-    <string name="current_screen_lock" msgid="1367883977261098017">"Aktuelle Displaysperre"</string>
+    <string name="current_screen_lock" msgid="1367883977261098017">Aktuelle Bildschirmsperre</string>
     <string name="fingerprint_unlock_set_unlock_pattern" msgid="4492334416059646032">"Fingerabdruck + Muster"</string>
     <string name="fingerprint_unlock_set_unlock_pin" msgid="4724451168139460493">"Fingerabdruck + PIN"</string>
     <string name="fingerprint_unlock_set_unlock_password" msgid="5614333047430835971">"Fingerabdruck + Passwort"</string>
     <string name="fingerprint_unlock_skip_fingerprint" msgid="7631242444064287891">"Weiter ohne Fingerabdruck"</string>
-    <string name="fingerprint_unlock_title" msgid="4978686534505944042">"Du kannst dein Smartphone mit deinem Fingerabdruck entsperren. Aus Sicherheitsgründen benötigst du bei dieser Option eine alternative Displaysperre."</string>
+    <string name="fingerprint_unlock_title" msgid="4978686534505944042">Du kannst dein Smartphone mit deinem Fingerabdruck entsperren. Aus Sicherheitsgründen benötigst du bei dieser Option eine alternative Bildschirmsperre.</string>
     <string name="face_unlock_set_unlock_pattern" msgid="5991691559532427891">"Face Unlock + Muster"</string>
     <string name="face_unlock_set_unlock_pin" msgid="8990569318587034610">"Face Unlock + PIN"</string>
     <string name="face_unlock_set_unlock_password" msgid="8612535943511761549">"Face Unlock + Passwort"</string>
     <string name="face_unlock_skip_face" msgid="7117201898540606846">"Ohne Face Unlock fortfahren"</string>
-    <string name="face_unlock_title" msgid="7344830351598247267">"Du kannst dein Smartphone über die Gesichtserkennung entsperren. Aus Sicherheitsgründen benötigst du bei dieser Option eine alternative Displaysperre."</string>
+    <string name="face_unlock_title" msgid="7344830351598247267">Du kannst dein Smartphone über die Gesichtserkennung entsperren. Aus Sicherheitsgründen benötigst du bei dieser Option eine alternative Bildschirmsperre.</string>
     <string name="unlock_set_unlock_disabled_summary" msgid="4022867760387966129">"Durch Administrator, Richtlinie oder Anmeldedatenspeicher deaktiviert"</string>
     <string name="unlock_set_unlock_mode_off" msgid="4632139864722236359">"Keine"</string>
     <string name="unlock_set_unlock_mode_none" msgid="5596049938457028214">"Wischen"</string>
     <string name="unlock_set_unlock_mode_pattern" msgid="1926480143883094896">"Muster"</string>
     <string name="unlock_set_unlock_mode_pin" msgid="9028659554829888373">"PIN"</string>
     <string name="unlock_set_unlock_mode_password" msgid="8810609692771987513">"Passwort"</string>
-    <string name="unlock_setup_wizard_fingerprint_details" msgid="5974580769186206478">"Sobald du eine Displaysperre eingerichtet hast, kannst du unter \"Einstellungen\" &gt; \"Sicherheit\" auch deinen Fingerabdruck einrichten."</string>
-    <string name="unlock_disable_lock_title" msgid="2564279819907932759">"Displaysperre deaktivieren"</string>
+    <string name="unlock_setup_wizard_fingerprint_details" msgid="5974580769186206478">Sobald du eine Bildschirmsperre eingerichtet hast, kannst du unter „Einstellungen“ &gt; „Sicherheit“ auch deinen Fingerabdruck einrichten.</string>
+    <string name="unlock_disable_lock_title" msgid="2564279819907932759">Bildschirmsperre deaktivieren</string>
     <string name="unlock_disable_frp_warning_title" msgid="1520689401825045809">"Geräteschutz entfernen?"</string>
     <string name="unlock_disable_frp_warning_title_profile" msgid="1005284289723910461">"Profilschutz entfernen?"</string>
     <string name="unlock_disable_frp_warning_content_pattern" msgid="669384600341275312">"Wenn du dein Muster entfernst, funktionieren die Funktionen zum Geräteschutz nicht."</string>
@@ -620,11 +624,11 @@
 \n<xliff:g id="empty_line">
 \n
 \n</xliff:g>Deine gespeicherten Fingerabdrücke werden ebenfalls von diesem Gerät entfernt und du kannst mit ihnen weder dein Smartphone entsperren noch Käufe autorisieren oder dich in Apps anmelden.</string>
-    <string name="unlock_disable_frp_warning_content_unknown" msgid="8903568674104115231">"Der Geräteschutz funktioniert ohne deine Displaysperre nicht."</string>
-    <string name="unlock_disable_frp_warning_content_unknown_fingerprint" msgid="4985095359625056279">Der Geräteschutz funktioniert ohne deine Displaysperre nicht.
-\n<xliff:g id="empty_line"/>
+    <string name="unlock_disable_frp_warning_content_unknown" msgid="8903568674104115231">Der Geräteschutz funktioniert ohne deine Bildschirmsperre nicht.</string>
+    <string name="unlock_disable_frp_warning_content_unknown_fingerprint" msgid="4985095359625056279">Der Geräteschutz funktioniert ohne deine Bildschirmsperre nicht.
+\n<xliff:g id="empty_line">
 \n
-\nDeine gespeicherten Fingerabdrücke werden ebenfalls von diesem Gerät entfernt und du kannst mit ihnen weder dein Smartphone entsperren noch Käufe autorisieren oder dich in Apps anmelden.</string>
+\n</xliff:g>Deine gespeicherten Fingerabdrücke werden ebenfalls von diesem Gerät entfernt und du kannst mit ihnen weder dein Smartphone entsperren noch Käufe autorisieren oder dich in Apps anmelden.</string>
     <string name="unlock_disable_frp_warning_content_pattern_profile" msgid="6850770024037691891">"Die Profilschutzeinstellungen funktionieren ohne dein Muster nicht."</string>
     <string name="unlock_disable_frp_warning_content_pattern_fingerprint_profile" msgid="313998125412427527">Die Profilschutzeinstellungen funktionieren ohne dein Muster nicht.
 \n<xliff:g id="empty_line">
@@ -640,10 +644,10 @@
 \n<xliff:g id="empty_line">
 \n
 \n</xliff:g>Deine gespeicherten Fingerabdrücke werden ebenfalls aus diesem Profil entfernt und du kannst mit ihnen weder dein Profil entsperren noch Käufe autorisieren oder dich in Apps anmelden.</string>
-    <string name="unlock_disable_frp_warning_content_unknown_profile" msgid="6886183964362015704">"Die Profilschutzeinstellungen funktionieren ohne deine Displaysperre nicht."</string>
-    <string name="unlock_disable_frp_warning_content_unknown_fingerprint_profile" msgid="3754195701700959477">"Die Profilschutzeinstellungen funktionieren ohne deine Displaysperre nicht.<xliff:g id="EMPTY_LINE">
-
-</xliff:g>Deine gespeicherten Fingerabdrücke werden ebenfalls aus diesem Profil entfernt und du kannst mit ihnen weder dein Profil entsperren noch Käufe autorisieren oder dich in Apps anmelden."</string>
+    <string name="unlock_disable_frp_warning_content_unknown_profile" msgid="6886183964362015704">Die Profilschutzeinstellungen funktionieren ohne deine Bildschirmsperre nicht.</string>
+    <string name="unlock_disable_frp_warning_content_unknown_fingerprint_profile" msgid="3754195701700959477">Die Profilschutzeinstellungen funktionieren ohne deine Bildschirmsperre nicht.<xliff:g id="empty_line">
+\n
+\n </xliff:g>Deine gespeicherten Fingerabdrücke werden ebenfalls aus diesem Profil entfernt und du kannst mit ihnen weder dein Profil entsperren noch Käufe autorisieren oder dich in Apps anmelden.</string>
     <string name="unlock_disable_frp_warning_ok" msgid="621607297961726537">"Ja, entfernen"</string>
     <string name="unlock_change_lock_pattern_title" msgid="8234523589333929193">"Entsperrungsmuster ändern"</string>
     <string name="unlock_change_lock_pin_title" msgid="2324077520816477479">"Entsperrungs-PIN ändern"</string>
@@ -651,7 +655,7 @@
     <string name="unlock_footer_high_complexity_requested" msgid="4471274783909915352"><xliff:g id="app_name" example="Gmail">%1$s</xliff:g> empfiehlt, eine starke PIN oder ein starkes Passwort einzugeben – anderenfalls funktioniert die App möglicherweise nicht wie erwartet</string>
     <string name="unlock_footer_medium_complexity_requested" msgid="5515870066751600640"><xliff:g id="app_name" example="Gmail">%1$s</xliff:g> empfiehlt, eine neue PIN oder ein neues Passwort einzugeben – anderenfalls funktioniert die App möglicherweise nicht wie erwartet</string>
     <string name="unlock_footer_low_complexity_requested" msgid="2517656037576567971"><xliff:g id="app_name" example="Gmail">%1$s</xliff:g> empfiehlt, ein neues Muster, eine neue PIN oder ein neues Passwort einzugeben – anderenfalls funktioniert die App möglicherweise nicht wie erwartet</string>
-    <string name="unlock_footer_none_complexity_requested" msgid="8534900170428140529"><xliff:g id="app_name" example="Gmail">%1$s</xliff:g> empfiehlt eine neue Displaysperre</string>
+    <string name="unlock_footer_none_complexity_requested" msgid="8534900170428140529"><xliff:g id="app_name" example="Gmail">%1$s</xliff:g> empfiehlt eine neue Bildschirmsperre</string>
     <string name="lock_failed_attempts_before_wipe" msgid="6874652886647631418">"Bitte versuche es noch einmal. Versuch <xliff:g id="CURRENT_ATTEMPTS">%1$d</xliff:g> von <xliff:g id="TOTAL_ATTEMPTS">%2$d</xliff:g>."</string>
     <string name="lock_last_attempt_before_wipe_warning_title" msgid="7450322567217745999">"Deine Daten werden gelöscht"</string>
     <string name="lock_last_pattern_attempt_before_wipe_device" msgid="5816668400104558952">"Wenn du beim nächsten Versuch ein falsches Muster eingibst, werden die Daten auf diesem Gerät gelöscht"</string>
@@ -721,7 +725,7 @@
     <string name="lockpassword_confirm_label" msgid="560897521093566777">"Bestätigen"</string>
     <string name="lockpassword_cancel_label" msgid="6711112212489992112">"Abbrechen"</string>
     <string name="lockpassword_clear_label" msgid="311359833434539894">"Löschen"</string>
-    <string name="lockpassword_credential_changed" msgid="5934778179732392028">"Die Displaysperre wurde bereits geändert. Versuch es mit der neuen Displaysperre noch mal."</string>
+    <string name="lockpassword_credential_changed" msgid="5934778179732392028">Die Bildschirmsperre wurde bereits geändert. Versuch es mit der neuen Bildschirmsperre noch mal.</string>
     <string name="lockpattern_tutorial_cancel_label" msgid="775215267818384016">"Abbrechen"</string>
     <string name="lockpattern_tutorial_continue_label" msgid="1329049481210689408">"Weiter"</string>
     <string name="lock_setup" msgid="4622999020926280737">"Die Einrichtung ist abgeschlossen."</string>
@@ -732,11 +736,11 @@
         <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> aktive App</item>
     </plurals>
     <string name="manage_trust_agents" msgid="6410149930029992356">"Trust Agents"</string>
-    <string name="disabled_because_no_backup_security" msgid="4998095356607488854">"Lege zunächst eine Displaysperre fest, damit du die Option verwenden kannst."</string>
+    <string name="disabled_because_no_backup_security" msgid="4998095356607488854">Lege zuerst eine Bildschirmsperre fest, damit du die Option verwenden kannst</string>
     <string name="manage_trust_agents_summary" msgid="6423843123607674286">"Keine"</string>
     <plurals name="manage_trust_agents_summary_on" formatted="false" msgid="5438047398376802735">
         <item quantity="one">1 aktiver Trust Agent</item>
-        <item quantity="other">&lt;&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" id=\"count\" example=\"3\"&gt;%d&lt;/xliff:g&gt; aktive Trust Agents</item>
+        <item quantity="other"><xliff:g id="count" example="3">%d</xliff:g> aktive Trust Agents</item>
     </plurals>
     <string name="bluetooth_quick_toggle_title" msgid="5955341060378240781">"Bluetooth"</string>
     <string name="bluetooth_quick_toggle_summary" msgid="5257744297562880017">"Bluetooth aktivieren"</string>
@@ -754,8 +758,8 @@
     <!-- syntax error in translation for bluetooth_confirm_passkey_msg (327192310468680072) org.xmlpull.v1.XmlPullParserException: name expected (position:START_TAG <null>@1:239 in     <string name="bluetooth_confirm_passkey_msg" msgid="327192310468680072">"Zur Kopplung mit:&gt;&lt;b&gt;<xliff:g id="DEVICE_NAME">%1$s</xliff:g>&lt;/b&gt;&lt;br&gt;&lt;br&gt;Vergewissere dich, dass folgender Zugangscode angezeigt wird:<&lt;br&gt;&lt;b&gt;P<xliff:g id="PASSKEY">%2$s</xliff:g>&lt;/b&gt;."</string>
 )  -->
     <string name="bluetooth_incoming_pairing_msg" msgid="1068123527866596779">"Von:&lt;br&gt;&lt;b&gt;<xliff:g id="DEVICE_NAME">%1$s</xliff:g>&lt;/b&gt;&lt;br&gt;&lt;br&gt; Mit diesem Gerät koppeln?"</string>
-    <string name="bluetooth_display_passkey_pin_msg" msgid="8672803845151786521">"Gib zur Kopplung mit <xliff:g id="BOLD1_0">&lt;br&gt;&lt;b&gt;</xliff:g><xliff:g id="DEVICE_NAME">%1$s</xliff:g><xliff:g id="END_BOLD1">&lt;/b&gt;&lt;br&gt;&lt;br&gt;</xliff:g> <xliff:g id="BOLD2_1">&lt;br&gt;&lt;b&gt;</xliff:g><xliff:g id="PASSKEY">%2$s</xliff:g><xliff:g id="END_BOLD2">&lt;/b&gt;</xliff:g> ein und drücke anschließend die Eingabetaste."</string>
-    <string name="bluetooth_pairing_shares_phonebook" msgid="4329325125260724843">"Zugriff auf deine Kontakte und deine Anrufliste zulassen"</string>
+    <string name="bluetooth_display_passkey_pin_msg" msgid="8672803845151786521">Gib zur Kopplung mit: <xliff:g id="bold1">&lt;br&gt;&lt;b&gt;</xliff:g><xliff:g id="device_name">%1$s</xliff:g><xliff:g id="end_bold1">&lt;/b&gt;&lt;br&gt;&lt;br&gt;</xliff:g>Folgendes ein:<xliff:g id="bold2">&lt;br&gt;&lt;b&gt;</xliff:g><xliff:g id="passkey">%2$s</xliff:g><xliff:g id="end_bold2">&lt;/b&gt;</xliff:g> und drücke anschließend die Eingabetaste.</string>
+    <string name="bluetooth_pairing_shares_phonebook" msgid="4329325125260724843">Zugriff auf deine Kontakte und Anrufliste zulassen</string>
     <string name="bluetooth_connecting_error_message" msgid="3941893154784152112">"Keine Verbindung zu <xliff:g id="DEVICE_NAME">%1$s</xliff:g> möglich"</string>
     <string name="bluetooth_preference_scan_title" msgid="3460316252463771851">"Scan nach Geräten"</string>
     <string name="bluetooth_search_for_devices" msgid="6516902340975407648">"Aktualisieren"</string>
@@ -816,11 +820,11 @@
     <string name="wifi_display_settings_title" msgid="6451625615274960175">"Streamen"</string>
     <string name="wifi_display_enable_menu_item" msgid="7391841780777318134">"Kabellose Übertragung aktivieren"</string>
     <string name="wifi_display_no_devices_found" msgid="7904877793677102805">"Kein Gerät in der Nähe gefunden."</string>
-    <string name="wifi_display_status_connecting" msgid="530880182560077334">"Verbindung wird hergestellt..."</string>
+    <string name="wifi_display_status_connecting" msgid="530880182560077334">Verbindung wird hergestellt</string>
     <string name="wifi_display_status_connected" msgid="2189925211258519539">"Verbunden"</string>
     <string name="wifi_display_status_in_use" msgid="5904009697167947449">"In Verwendung"</string>
     <string name="wifi_display_status_not_available" msgid="8463750208946968594">"Nicht verfügbar"</string>
-    <string name="wifi_display_details" msgid="2351632307998142920">"Display-Einstellungen"</string>
+    <string name="wifi_display_details" msgid="2351632307998142920">Bildschirmeinstellungen</string>
     <string name="wifi_display_options_title" msgid="7584326966240865043">"Optionen für kabellose Übertragung (WiDi)"</string>
     <string name="wifi_display_options_forget" msgid="3140558691112356024">"Entfernen"</string>
     <string name="wifi_display_options_done" msgid="7608851767701954020">"Fertig"</string>
@@ -1133,7 +1137,7 @@
     <string name="wifi_calling_turn_on" msgid="7687886259199428823">"WLAN-Telefonie verwenden"</string>
     <string name="wifi_calling_not_supported" msgid="3303917737849393175">"WLAN-Telefonie wird von %1$s nicht unterstützt"</string>
     <string name="carrier" msgid="1755020806290963951">"Mobilfunkanbieter"</string>
-    <string name="display_settings_title" msgid="626835071804834218">"Display"</string>
+    <string name="display_settings_title" msgid="626835071804834218">Bildschirm</string>
     <string name="sound_settings" msgid="5514582720435174014">"Töne"</string>
     <string name="all_volume_title" msgid="6196367642878437513">"Lautstärke"</string>
     <string name="musicfx_title" msgid="5458574743312283473">"Musikeffekte"</string>
@@ -1151,7 +1155,7 @@
     <string name="dock_settings_summary" msgid="8548721822219932359">"Audioeinstellungen für angeschlossenes Dock"</string>
     <string name="dtmf_tone_enable_title" msgid="2241337296249130217">"Wähltastentöne"</string>
     <string name="sound_effects_enable_title" msgid="328569690466233866">"Töne bei Berührung"</string>
-    <string name="lock_sounds_enable_title" msgid="804365014499259673">"Ton bei Displaysperre"</string>
+    <string name="lock_sounds_enable_title" msgid="804365014499259673">Ton bei Bildschirmsperre</string>
     <string name="audio_record_proc_title" msgid="486071779724181619">"Geräuschunterdrückung"</string>
     <string name="volume_media_description" msgid="2736061076584067204">"Musik, Video, Spiele und andere Medien"</string>
     <string name="volume_ring_description" msgid="5423168446359881864">"Klingelton &amp; Benachrichtigungen"</string>
@@ -1183,7 +1187,7 @@
     <string name="accessibility_work_account_title" msgid="7622485151217943839">"Arbeitskonto – <xliff:g id="MANAGED_BY">%s</xliff:g>"</string>
     <string name="accessibility_personal_account_title" msgid="8535265881509557013">"Privates Konto – <xliff:g id="MANAGED_BY">%s</xliff:g>"</string>
     <string name="search_settings" msgid="7573686516434589771">"Suche"</string>
-    <string name="display_settings" msgid="7197750639709493852">"Display"</string>
+    <string name="display_settings" msgid="7197750639709493852">Bildschirm</string>
     <string name="accelerometer_title" msgid="7745991950833748909">"Bildschirm automatisch drehen"</string>
     <string name="color_mode_title" msgid="8666690832113906028">"Farben"</string>
     <string name="color_mode_option_natural" msgid="6192875655101283303">"Natürlich"</string>
@@ -1218,7 +1222,7 @@
     <string name="auto_brightness_off_summary" msgid="4993150980274474226">"Nicht an Lichtverhältnisse anpassen"</string>
     <string name="auto_brightness_very_high_summary" msgid="2784981315548144255">"Erhöhter Akkuverbrauch"</string>
     <string name="auto_brightness_disclaimer" msgid="1868395832774087351">"\"Helligkeit an Lichtverhältnisse anpassen\": Ist diese Funktion aktiviert, kannst du die Helligkeit dennoch vorübergehend ändern."</string>
-    <string name="auto_brightness_description" msgid="6807117118142381193">"Die Helligkeit des Displays passt sich automatisch an deine Umgebung und deine Aktivitäten an. Mit dem Schieberegler kannst du manuell nachjustieren und \"Automatische Helligkeit\" merkt sich deine Präferenz."</string>
+    <string name="auto_brightness_description" msgid="6807117118142381193">Die Helligkeit des Bildschirms passt sich automatisch an deine Umgebung und deine Aktivitäten an. Mit dem Schieberegler kannst du manuell nachjustieren und die Funktion „Automatische Helligkeit“ merkt sich deine Präferenz.</string>
     <string name="display_white_balance_title" msgid="2624544323029364713">"Weißabgleich des Bildschirms"</string>
     <string name="adaptive_sleep_title" msgid="2987961991423539233">"Aufmerksamkeitserkennung"</string>
     <string name="adaptive_sleep_summary_on" msgid="313187971631243800">"An / Der Bildschirm wird nicht ausgeschaltet, solange du auf ihn blickst"</string>
@@ -1229,7 +1233,7 @@
     <string name="adaptive_sleep_privacy" msgid="7664570136417980556">"Die Funktion \"Aufmerksamkeitserkennung\" verwendet die Frontkamera, um zu erkennen, ob jemand den Bildschirm ansieht. Es werden dabei keine Bilder gespeichert und auch nie an /e/ gesendet."</string>
     <string name="adaptive_sleep_contextual_slice_summary" msgid="4920636187115578946">"Bildschirm aktiviert lassen, solange du auf ihn schaust"</string>
     <string name="night_display_title" msgid="8532432776487216581">"Nachtlicht"</string>
-    <string name="night_display_text" msgid="4789324042428095383">"Die Funktion \"Nachtlicht\" gibt der Displayanzeige eine gelbe Tönung. Das schont in dunklen Umgebungen die Augen und kann das Einschlafen erleichtern."</string>
+    <string name="night_display_text" msgid="4789324042428095383">Die Funktion „Nachtlicht“ gibt der Bildschirmanzeige eine gelbe Tönung. Das schont in dunklen Umgebungen die Augen und kann das Einschlafen erleichtern.</string>
     <string name="night_display_auto_mode_title" msgid="5869128421470824381">"Zeitplan"</string>
     <string name="night_display_auto_mode_never" msgid="2721729920187175239">"Kein Zeitplan"</string>
     <string name="night_display_auto_mode_custom" msgid="3938791496034086916">"Zu benutzerdefinierter Zeit"</string>
@@ -1268,16 +1272,16 @@
     <string name="dark_ui_summary_on" msgid="3886998135388176000">"An/<xliff:g id="ID_1">%1$s</xliff:g>"</string>
     <string name="dark_ui_summary_on_auto_mode_never" msgid="2468597062391435521">"Wird nie automatisch deaktiviert"</string>
     <string name="dark_ui_summary_on_auto_mode_auto" msgid="5553376115092648636">"Wird automatisch bei Sonnenaufgang deaktiviert"</string>
-    <string name="dark_ui_text" msgid="4392646155331126666">"Beim dunklen Design ist der Hintergrund einiger Bildschirme schwarz, damit dein Akku länger hält. Zeitpläne für das dunkle Design werden erst aktiviert, wenn das Display aus ist."</string>
-    <string name="screen_timeout" msgid="7709947617767439410">"Display automatisch ausschalten"</string>
-    <string name="screen_timeout_title" msgid="785134393520893049">"Display wird ausgeschaltet."</string>
+    <string name="dark_ui_text" msgid="4392646155331126666">Beim dunklen Design ist der Hintergrund einiger Bildschirme schwarz, damit dein Akku länger hält. Zeitpläne für das dunkle Design werden erst aktiviert, wenn der Bildschirm aus ist.</string>
+    <string name="screen_timeout" msgid="7709947617767439410">Bildschirm automatisch ausschalten</string>
+    <string name="screen_timeout_title" msgid="785134393520893049">Bildschirm wird ausgeschaltet</string>
     <string name="screen_timeout_summary" msgid="5558778019594643427">"Nach <xliff:g id="TIMEOUT_DESCRIPTION">%1$s</xliff:g> ohne Aktivität"</string>
     <string name="wallpaper_settings_title" msgid="5635129851136006383">"Hintergrund"</string>
     <string name="style_and_wallpaper_settings_title" msgid="7580575814098427579">"Designs und Hintergründe"</string>
     <string name="wallpaper_settings_summary_default" msgid="7569803705735001813">"Standard"</string>
     <string name="wallpaper_settings_summary_custom" msgid="3174561317688848729">"Benutzerdefiniert"</string>
     <string name="wallpaper_suggestion_title" msgid="3812842717939877330">"Hintergrund ändern"</string>
-    <string name="wallpaper_suggestion_summary" msgid="9077061486716754784">"Display personalisieren"</string>
+    <string name="wallpaper_suggestion_summary" msgid="9077061486716754784">Bildschirmanzeige personalisieren</string>
     <string name="wallpaper_settings_fragment_title" msgid="8445963841717633149">"Hintergrund auswählen"</string>
     <string name="style_suggestion_title" msgid="5213040799245193378">"/e/ phone personalisieren"</string>
     <string name="style_suggestion_summary" msgid="4271131877800968159">"Verschiedene Designs und Hintergründe ausprobieren"</string>
@@ -1295,7 +1299,7 @@
     <string name="screensaver_settings_button" msgid="6159236558934930238">"Einstellungen"</string>
     <string name="automatic_brightness" msgid="4599827881929079513">"Automatische Helligkeit"</string>
     <string name="lift_to_wake_title" msgid="8994218158737714046">"Zum Aktivieren anheben"</string>
-    <string name="ambient_display_screen_title" msgid="8615947016991429325">"Inaktivitätsdisplay"</string>
+    <string name="ambient_display_screen_title" msgid="8615947016991429325">Bildschirm bei Inaktivität</string>
     <string name="ambient_display_category_triggers" msgid="1216640141609270011">"Wann werden Inhalte angezeigt?"</string>
     <string name="doze_title" msgid="7164999188166153712">"Neue Benachrichtigungen"</string>
     <string name="doze_summary" msgid="1047254712885464738">"Beim Eingang von Benachrichtigungen Bildschirm aktivieren"</string>
@@ -1332,9 +1336,9 @@
     <string name="sim_enter_cancel" msgid="2001859323724961490">"Abbrechen"</string>
     <string name="sim_multi_sims_title" msgid="4875083890014013296">"Mehrere SIM-Karten gefunden"</string>
     <string name="sim_multi_sims_summary" msgid="1711012455679332238">"Wähle deine bevorzugte SIM-Karte für mobile Daten aus."</string>
-    <string name="sim_change_data_title" msgid="4663239438584588847">"<xliff:g id="CARRIER">%1$s</xliff:g> für mobile Daten nutzen?"</string>
-    <string name="sim_change_data_message" msgid="3046178883369645132">"Du verwendest <xliff:g id="CARRIER2_0">%2$s</xliff:g> für mobile Daten. Wenn du zu <xliff:g id="CARRIER1">%1$s</xliff:g> wechselst, wird <xliff:g id="CARRIER2_1">%2$s</xliff:g> nicht mehr für mobile Daten verwendet."</string>
-    <string name="sim_change_data_ok" msgid="4922114750417276560">"<xliff:g id="CARRIER">%1$s</xliff:g> verwenden"</string>
+    <string name="sim_change_data_title" msgid="4663239438584588847"> <xliff:g id="carrier" example="Verizon">%1$s</xliff:g> für mobile Daten nutzen\? </string>
+    <string name="sim_change_data_message" msgid="3046178883369645132"> Du verwendest <xliff:g id="carrier2" example="T-mobile">%2$s</xliff:g> für mobile Daten. Wenn du zu <xliff:g id="carrier1" example="Verizon">%1$s</xliff:g> wechselst, wird <xliff:g id="carrier2" example="T-mobile">%2$s</xliff:g> nicht mehr für mobile Daten verwendet. </string>
+    <string name="sim_change_data_ok" msgid="4922114750417276560"> <xliff:g id="carrier" example="Verizon">%1$s</xliff:g> verwenden </string>
     <string name="sim_preferred_title" msgid="7182406911552216373">"Bevorzugte SIM-Karte aktualisieren?"</string>
     <string name="sim_preferred_message" msgid="6004009449266648351">"<xliff:g id="NEW_SIM">%1$s</xliff:g> ist die einzige SIM-Karte in deinem Gerät. Möchtest du diese SIM-Karte für mobile Daten, Anrufe und SMS verwenden?"</string>
     <string name="wrong_pin_code_pukked" msgid="3414172752791445033">"Falscher PIN-Code der SIM-Karte. Bitte wende dich an deinen Mobilfunkanbieter, damit er dein Gerät entsperrt."</string>
@@ -1342,7 +1346,7 @@
         <item quantity="other">Falscher PIN-Code der SIM-Karte. Du hast noch <xliff:g id="NUMBER_1">%d</xliff:g> Versuche.</item>
         <item quantity="one">Falscher PIN-Code der SIM-Karte. Noch <xliff:g id="NUMBER_0">%d</xliff:g> Versuch, bevor Gerät vom Mobilfunkanbieter entsperrt werden muss</item>
     </plurals>
-    <string name="pin_failed" msgid="3726505565797352255">"Fehler beim Entsperren mit der PIN der SIM-Karte"</string>
+    <string name="pin_failed" msgid="3726505565797352255">Fehler beim Entsperren mit der PIN der SIM-Karte!</string>
     <string name="system_update_settings_list_item_title" msgid="3398346836439366350">"Systemupdates"</string>
     <string name="firmware_version" msgid="1606901586501447275">"Android-Version"</string>
     <string name="security_patch" msgid="2872125288404962091">"Stand der Sicherheitsupdates"</string>
@@ -1742,7 +1746,7 @@
     <string name="confirm_device_credential_pin" msgid="5708034681954992002">"PIN nutzen"</string>
     <string name="confirm_device_credential_pattern" msgid="39207099645510263">"Muster verwenden"</string>
     <string name="confirm_device_credential_password" msgid="2471269024934865534">"Passwort nutzen"</string>
-    <string name="lockpassword_choose_your_screen_lock_header" msgid="7587198092214670356">"Displaysperre einrichten"</string>
+    <string name="lockpassword_choose_your_screen_lock_header" msgid="7587198092214670356">Bildschirmsperre einrichten</string>
     <string name="lockpassword_choose_your_password_message" msgid="4474728476383676731">"Richte zur Sicherheit ein Passwort ein"</string>
     <string name="lockpassword_choose_your_password_header_for_fingerprint" msgid="3167261267229254090">"Passwort festlegen, um Fingerabdruck zu verwenden"</string>
     <string name="lockpassword_choose_your_pattern_header_for_fingerprint" msgid="4707788269512303400">"Fingerabdruck-Muster festlegen"</string>
@@ -1788,7 +1792,7 @@
     <string name="lockpattern_change_lock_pin_label" msgid="7327409886587802756">"Entsperrungs-PIN ändern"</string>
     <string name="lockpattern_recording_intro_header" msgid="8325736706877916560">"Zeichne ein Entsperrungsmuster"</string>
     <string name="lockpattern_recording_intro_footer" msgid="2656868858594487197">"Menütaste drücken, um die Hilfe aufzurufen"</string>
-    <string name="lockpattern_recording_inprogress" msgid="7268008332694009191">"Wenn du fertig bist, lass das Display los"</string>
+    <string name="lockpattern_recording_inprogress" msgid="7268008332694009191">Wenn du fertig bist, hebe den Finger an</string>
     <string name="lockpattern_recording_incorrect_too_short" msgid="3351522018450593723">"Verbinde mindestens <xliff:g id="NUMBER">%d</xliff:g> Punkte. Bitte versuche es noch einmal."</string>
     <string name="lockpattern_pattern_entered_header" msgid="7709618312713127249">"Muster wurde aufgezeichnet."</string>
     <string name="lockpattern_need_to_confirm" msgid="6489499109451714360">"Zeichne das Muster zur Bestätigung erneut"</string>
@@ -1811,15 +1815,15 @@
     <string name="lockpattern_too_many_failed_confirmation_attempts" msgid="7891484005551794824">"Zu viele fehlerhafte Versuche. Bitte versuche es in <xliff:g id="NUMBER">%d</xliff:g> Sekunden erneut."</string>
     <string name="activity_not_found" msgid="5464331414465894254">"App ist nicht auf dem Telefon installiert."</string>
     <string name="lock_settings_profile_title" msgid="103605580492566086">"Sicherheit des Arbeitsprofils"</string>
-    <string name="lock_settings_profile_screen_lock_title" msgid="3776275029218681815">"Displaysperre des Arbeitsprofils"</string>
+    <string name="lock_settings_profile_screen_lock_title" msgid="3776275029218681815">Bildschirmsperre des Arbeitsprofils</string>
     <string name="lock_settings_profile_unification_title" msgid="5777961097706546513">"Einheitliche Sperre verwenden"</string>
-    <string name="lock_settings_profile_unification_summary" msgid="1317553536289481654">"Einheitliche Sperre für Arbeitsprofil und Display verwenden"</string>
+    <string name="lock_settings_profile_unification_summary" msgid="1317553536289481654">Einheitliche Sperre für Arbeitsprofil und Bildschirm verwenden</string>
     <string name="lock_settings_profile_unification_dialog_title" msgid="5163178097464820825">"Einheitliche Sperre verwenden?"</string>
-    <string name="lock_settings_profile_unification_dialog_body" msgid="1222905637428672355">"Dein Gerät verwendet die Displaysperre des Arbeitsprofils. Die Arbeitsrichtlinien gelten für beide Sperren."</string>
-    <string name="lock_settings_profile_unification_dialog_uncompliant_body" msgid="8844682343443755895">"Die Sperre deines Arbeitsprofils entspricht nicht den Sicherheitsanforderungen deines Unternehmens. Du kannst für das Display und dein Arbeitsprofil dieselbe Sperre verwenden. In diesem Fall gelten jedoch sämtliche Richtlinien des Arbeitsprofils auch für die Displaysperre."</string>
+    <string name="lock_settings_profile_unification_dialog_body" msgid="1222905637428672355">Dein Gerät verwendet die Bildschirmsperre des Arbeitsprofils. Die Arbeitsrichtlinien gelten für beide Sperren.</string>
+    <string name="lock_settings_profile_unification_dialog_uncompliant_body" msgid="8844682343443755895">Die Sperre deines Arbeitsprofils entspricht nicht den Sicherheitsanforderungen deines Unternehmens. Du kannst für den Bildschirm und dein Arbeitsprofil dieselbe Sperre verwenden. In diesem Fall gelten jedoch sämtliche Richtlinien des Arbeitsprofils auch für die Bildschirmsperre.</string>
     <string name="lock_settings_profile_unification_dialog_confirm" msgid="6276915393736137843">"Einheitliche Sperre verwenden"</string>
     <string name="lock_settings_profile_unification_dialog_uncompliant_confirm" msgid="8509287115116369677">"Einheitliche Sperre verwenden"</string>
-    <string name="lock_settings_profile_unified_summary" msgid="777095092175037385">"Identisch mit Displaysperre des Geräts"</string>
+    <string name="lock_settings_profile_unified_summary" msgid="777095092175037385">Identisch mit Bildschirmsperre des Geräts</string>
     <string name="manageapplications_settings_title" msgid="9198876415524237657">"Apps verwalten"</string>
     <string name="manageapplications_settings_summary" msgid="848586372489062357">"Installierte Apps verwalten und entfernen"</string>
     <string name="applications_settings" msgid="1941993743933425622">"App-Info"</string>
@@ -2066,7 +2070,7 @@
     <string name="usage_time_label" msgid="9105343335151559883">"Nutzungszeit"</string>
     <string name="accessibility_settings" msgid="4713215774904704682">"Bedienungshilfen"</string>
     <string name="accessibility_settings_title" msgid="6739115703615065716">"Einstellungen für Bedienungshilfen"</string>
-    <string name="accessibility_settings_summary" msgid="2195085206729325737">"Screenreader, Display, Interaktionssteuerung"</string>
+    <string name="accessibility_settings_summary" msgid="2195085206729325737">Bildschirm-Leseausgabe, Anzeige, Interaktionssteuerung</string>
     <string name="vision_settings_title" msgid="8919983801864103069">"Anzeigeeinstellungen"</string>
     <string name="vision_settings_description" msgid="7614894785054441991">"Du kannst dieses Gerät an deine Bedürfnisse anpassen. Die Bedienungshilfen kannst du später in den Einstellungen ändern."</string>
     <string name="vision_settings_suggestion_title" msgid="4689275412658803919">"Schriftgröße ändern"</string>
@@ -2220,8 +2224,8 @@
     <string name="enable_service_title" msgid="7231533866953706788">"<xliff:g id="SERVICE">%1$s</xliff:g> die vollständige Kontrolle über dein Gerät geben?"</string>
     <string name="capabilities_list_title" msgid="1225853611983394386">"<xliff:g id="SERVICE">%1$s</xliff:g> muss:"</string>
     <string name="touch_filtered_warning" msgid="4225815157460318241">"Deine Eingabe wird von \"Einstellungen\" nicht erkannt, weil die Berechtigungsanfrage von einer App verdeckt wird."</string>
-    <string name="enable_service_encryption_warning" msgid="931082737770453755">"Wenn du <xliff:g id="SERVICE">%1$s</xliff:g> aktivierst, verwendet dein Gerät nicht die Displaysperre, um die Datenverschlüsselung zu verbessern."</string>
-    <string name="secure_lock_encryption_warning" msgid="669152607190123579">"Da du eine Bedienungshilfe aktiviert hast, verwendet dein Gerät nicht die Displaysperre, um die Datenverschlüsselung zu verbessern."</string>
+    <string name="enable_service_encryption_warning" msgid="931082737770453755">Wenn du <xliff:g id="service" example="TalkBack">%1$s</xliff:g> aktivierst, verwendet dein Gerät nicht die Bildschirmsperre, um die Datenverschlüsselung zu verbessern.</string>
+    <string name="secure_lock_encryption_warning" msgid="669152607190123579">Da du eine Bedienungshilfe aktiviert hast, verwendet dein Gerät nicht die Bildschirmsperre, um die Datenverschlüsselung zu verbessern.</string>
     <string name="enable_service_pattern_reason" msgid="6832846117817938536">"Da die Aktivierung von <xliff:g id="SERVICE">%1$s</xliff:g> Auswirkungen auf die Datenverschlüsselung hat, musst du dein Muster bestätigen."</string>
     <string name="enable_service_pin_reason" msgid="6040417014360237703">"Da die Aktivierung von <xliff:g id="SERVICE">%1$s</xliff:g> Auswirkungen auf die Datenverschlüsselung hat, musst du deine PIN bestätigen."</string>
     <string name="enable_service_password_reason" msgid="6962544350351734238">"Da die Aktivierung von <xliff:g id="SERVICE">%1$s</xliff:g> Auswirkungen auf die Datenverschlüsselung hat, musst du dein Passwort bestätigen."</string>
@@ -2289,9 +2293,9 @@
     <string name="background_activity_warning_dialog_title" msgid="3449566823290744823">"Hintergrundaktivität einschränken?"</string>
     <string name="background_activity_warning_dialog_text" msgid="8202776985767701095">"Wenn du die Hintergrundaktivität einer App einschränkst, kann dies zu unerwünschtem Verhalten führen"</string>
     <string name="background_activity_disabled_dialog_text" msgid="4053170297325882494">"Da bei dieser App die Akkunutzung nicht optimiert wird, kannst du sie nicht einschränken.\n\nDu musst du zunächst die Akkuoptimierung aktivieren."</string>
-    <string name="device_screen_usage" msgid="1011630249648289909">"Displaynutzung seit letzter vollständiger Aufladung"</string>
+    <string name="device_screen_usage" msgid="1011630249648289909">Bildschirmnutzung seit letzter vollständiger Aufladung</string>
     <string name="power_usage_list_summary" msgid="3237540201918492925">"Akkunutzung seit der letzten vollständigen Aufladung"</string>
-    <string name="screen_usage_summary" msgid="1393184943010909471">"Aktivierungsdauer des Displays seit letzter vollständiger Aufladung"</string>
+    <string name="screen_usage_summary" msgid="1393184943010909471">Aktivierungsdauer des Bildschirms seit letzter vollständiger Aufladung</string>
     <string name="device_usage_list_summary" msgid="242243537371697285">"Gerätenutzung seit letzter vollständiger Aufladung"</string>
     <string name="battery_since_unplugged" msgid="6991509383429936921">"Akkuverbrauch seit dem Ausstecken"</string>
     <string name="battery_since_reset" msgid="2930376112877476562">"Akkuverbrauch seit dem Zurücksetzen"</string>
@@ -2407,7 +2411,7 @@
     <string name="dialog_location_message" product="tablet" msgid="7165269165194599595">"Eine normale Verwaltung des Akkuverbrauchs deines Tablets ist nicht möglich, da <xliff:g id="APP">%1$s</xliff:g> immer wieder den Standort abfragt, auch wenn du die App nicht verwendest.\n\nUm das Problem zu beheben, kannst du den Standortzugriff für diese App deaktivieren."</string>
     <string name="dialog_location_message" product="device" msgid="4606829479989940464">"Eine normale Verwaltung des Akkuverbrauchs deines Geräts ist nicht möglich, da <xliff:g id="APP">%1$s</xliff:g> immer wieder den Standort abfragt, auch wenn du die App nicht verwendest.\n\nUm das Problem zu beheben, kannst du den Standortzugriff für diese App deaktivieren."</string>
     <string name="dialog_location_ok" msgid="6338680851382069716">"Deaktivieren"</string>
-    <string name="power_screen" msgid="4596900105850963806">"Display"</string>
+    <string name="power_screen" msgid="4596900105850963806">Bildschirm</string>
     <string name="power_flashlight" msgid="8993388636332573202">"Taschenlampe"</string>
     <string name="power_camera" msgid="4778315081581293923">"Kamera"</string>
     <string name="power_wifi" msgid="4614007837288250325">"WLAN"</string>
@@ -2452,8 +2456,8 @@
     <string name="battery_sugg_radio" msgid="5476234634503535270">"Flugmodus zum Energiesparen in Gebieten ohne Mobilfunkabdeckung"</string>
     <string name="battery_desc_flashlight" msgid="6694895513133361404">"Akkuverbrauch durch Taschenlampe"</string>
     <string name="battery_desc_camera" msgid="6152712271731518018">"Akkuverbrauch durch Kamera"</string>
-    <string name="battery_desc_display" msgid="7175017688954602685">"Akkuverbrauch durch Display und Beleuchtung"</string>
-    <string name="battery_sugg_display" msgid="3102137296547788111">"Display-Helligkeit und/oder Zeit bis zum automatischen Ausschalten verringern"</string>
+    <string name="battery_desc_display" msgid="7175017688954602685">Akkuverbrauch durch Bildschirm und Beleuchtung</string>
+    <string name="battery_sugg_display" msgid="3102137296547788111">Bildschirm-Helligkeit und/oder Zeit bis zum automatischen Ausschalten verringern</string>
     <string name="battery_desc_wifi" msgid="5276669172548928768">"Akkuverbrauch durch WLAN"</string>
     <string name="battery_sugg_wifi" msgid="359757575108350109">"WLAN bei Nichtverwendung oder Nichtverfügbarkeit deaktivieren"</string>
     <string name="battery_desc_bluetooth" msgid="2237947137783306282">"Akkuverbrauch durch Bluetooth"</string>
@@ -2470,7 +2474,7 @@
     <string name="mah" msgid="3604527474433227780">"<xliff:g id="NUMBER">%d</xliff:g> mAh"</string>
     <string name="battery_used_for" msgid="6401552215008504483">"Verwendungsdauer: <xliff:g id="TIME">^1</xliff:g>"</string>
     <string name="battery_active_for" msgid="4416277218863232476">"Aktiv: <xliff:g id="TIME">^1</xliff:g>"</string>
-    <string name="battery_screen_usage" msgid="90008745183187461">"Displaynutzung: <xliff:g id="TIME">^1</xliff:g>"</string>
+    <string name="battery_screen_usage" msgid="90008745183187461">Bildschirmnutzung: <xliff:g id="time">^1</xliff:g></string>
     <string name="battery_used_by" msgid="6457305178016189330">"<xliff:g id="PERCENT">%1$s</xliff:g> durch <xliff:g id="APP">%2$s</xliff:g> verbraucht"</string>
     <string name="battery_overall_usage" msgid="8940140259734182014">"<xliff:g id="PERCENT">%1$s</xliff:g> des gesamten Akkuverbrauchs"</string>
     <string name="battery_detail_since_full_charge" msgid="5650946565524184582">"Verbrauchsdetails seit letzter vollständiger Ladung"</string>
@@ -3102,7 +3106,7 @@
     <string name="system_dashboard_summary" msgid="7400745270362833832">"Sprachen, Gesten, Zeit, Sicherung"</string>
     <string name="search_results_title" msgid="3360639917793022533">"Einstellungen"</string>
     <string name="keywords_wifi" msgid="8156528242318351490">"wlan, wi-fi, netzwerkverbindung, internet, kabellos, daten, wifi, wi-fi, w-lan"</string>
-    <string name="keywords_wifi_notify_open_networks" msgid="6580896556389306636">"WLAN-Benachrichtigung, WLAN-Benachrichtigung"</string>
+    <string name="keywords_wifi_notify_open_networks" msgid="6580896556389306636">WLAN-Benachrichtigung</string>
     <string name="keywords_vibrate_on_touch" msgid="8379369786860641429">"Vibration abschalten, tippen, Tastatur"</string>
     <string name="keywords_time_format" msgid="5384803098766166820">"24-Stunden-Format verwenden"</string>
     <string name="keywords_storage_files" msgid="4509695858659705198">"Download"</string>
@@ -3114,12 +3118,12 @@
     <string name="keywords_change_wifi_state" msgid="7573039644328488165">"wlan, umschalten, steuern"</string>
     <string name="keywords_more_mobile_networks" msgid="5041272719326831744">"mobilfunk, mobil, mobilfunkanbieter, kabellos, drahtlos, daten, 4g, 3g, 2g, lte"</string>
     <string name="keywords_wifi_calling" msgid="4319184318421027136">"wlan, anruf, anrufen, wlan-telefonie, anrufe über wlan"</string>
-    <string name="keywords_display" msgid="874738809280751745">"bildschirm, display, touchscreen"</string>
-    <string name="keywords_display_brightness_level" msgid="850742707616318056">"display dimmen, touchscreen, akku, hell"</string>
-    <string name="keywords_display_night_display" msgid="4711054330804250058">"display dimmen, nacht, farbton, night shift, helligkeit, displayfarbe, farbe, nachtmodus"</string>
-    <string name="keywords_display_wallpaper" msgid="8478137541939526564">"hintergrund, personalisieren, display anpassen, bildschirm anpassen"</string>
+    <string name="keywords_display" msgid="874738809280751745">Bildschirm, Berührungseingabe</string>
+    <string name="keywords_display_brightness_level" msgid="850742707616318056">Bildschirm dimmen, Berührungseingabe, Akku, Helligkeit</string>
+    <string name="keywords_display_night_display" msgid="4711054330804250058">Bildschirm dimmen, Nacht, Farbton, Nachtmodus, Helligkeit, Bildschirmfarbe, Farbe</string>
+    <string name="keywords_display_wallpaper" msgid="8478137541939526564">Hintergrund, personalisieren, Bildschirm anpassen, Anzeige anpassen</string>
     <string name="keywords_display_font_size" msgid="3593317215149813183">"textgröße"</string>
-    <string name="keywords_display_cast_screen" msgid="2572331770299149370">"Projekt, Streaming, Display-Mirroring, Bildschirmfreigabe, Mirroring, freigegebener Bildschirm, Bildschirm-Streaming"</string>
+    <string name="keywords_display_cast_screen" msgid="2572331770299149370">Projekt, Streaming, Bildschirm spiegeln, Bildschirmfreigabe, Spiegeln, freigegebener Bildschirm, Bildschirm-Streaming</string>
     <string name="keywords_storage" msgid="3004667910133021783">"speicherplatz, festplatte, gerätenutzung"</string>
     <string name="keywords_battery" msgid="7040323668283600530">"akkuverbrauch, akkulaufzeit, aufladen"</string>
     <string name="keywords_spell_checker" msgid="5148906820603481657">"rechtschreibung, schreibweise, wörterbuch, rechtschreibprüfung, autokorrektur"</string>
@@ -3143,8 +3147,8 @@
     <string name="keywords_ignore_optimizations" msgid="8967142288569785145">"ignorieren, optimierungen, stromsparmodus, app standby"</string>
     <string name="keywords_color_mode" msgid="1193896024705705826">"brillant, rgb, srgb, farbe, natürlich, standard"</string>
     <string name="keywords_color_temperature" msgid="8159539138837118453">"farbe, temperatur, d65, d73, weiß, gelb, blau, warm, kalt"</string>
-    <string name="keywords_lockscreen" msgid="3656926961043485797">"zum entsperren über das display streichen, zum entsperren wischen, passwort, muster, pin"</string>
-    <string name="keywords_profile_challenge" msgid="5135555521652143612">"herausforderung bei der arbeit, arbeit, profil"</string>
+    <string name="keywords_lockscreen" msgid="3656926961043485797">Zum Entsperren über den Bildschirm wischen, Passwort, Muster, PIN</string>
+    <string name="keywords_profile_challenge" msgid="5135555521652143612">Herausforderung bei der Arbeit, Arbeit, Profil</string>
     <string name="keywords_unification" msgid="2677472004971453468">"arbeitsprofil, verwaltetes profil, gruppieren, gruppierung, arbeit, profil"</string>
     <string name="keywords_gesture" msgid="3456930847450080520">"gesten, bewegungen, touch-gesten"</string>
     <string name="keywords_payment_settings" msgid="6268791289277000043">"Bezahlen, kontaktlos, Zahlungen"</string>
@@ -3158,16 +3162,16 @@
     <string name="keywords_dark_ui_mode" msgid="6465231409128452489">"design, hell, dunkel, modus, dark"</string>
     <string name="keywords_systemui_theme" msgid="6341194275296707801">"Dunkles Design"</string>
     <string name="keywords_device_feedback" msgid="5489930491636300027">"Fehler"</string>
-    <string name="keywords_ambient_display_screen" msgid="661492302323274647">"Inaktivitätsdisplay, Sperrbildschirm"</string>
+    <string name="keywords_ambient_display_screen" msgid="661492302323274647">Inaktivitäts-Bildschirm, Sperrbildschirm</string>
     <string name="keywords_lock_screen_notif" msgid="6363144436467429932">"Sperrbildschirmbenachrichtigung, Benachrichtigungen"</string>
     <string name="keywords_face_settings" msgid="1360447094486865058">"Gesicht"</string>
     <string name="keywords_fingerprint_settings" msgid="7345121109302813358">"Fingerabdruck, Fingerabdruck hinzufügen"</string>
-    <string name="keywords_display_auto_brightness" msgid="7162942396941827998">"display dimmen, touchscreen, akku, intelligente helligkeit, dynamische helligkeit, automatische helligkeit"</string>
-    <string name="keywords_display_adaptive_sleep" msgid="8003895686008403685">"display dimmen, ruhemodus, akku, zeitlimit, aufmerksamkeit, display, bildschirm, inaktivität, timeout, automatisch ausschalten"</string>
+    <string name="keywords_display_auto_brightness" msgid="7162942396941827998">Bildschirm dimmen, Berührungseingabe, Akku, intelligente Helligkeit, dynamische Helligkeit, automatische Helligkeit</string>
+    <string name="keywords_display_adaptive_sleep" msgid="8003895686008403685">Bildschirm dimmen, Ruhemodus, Akku, Zeitlimit, Aufmerksamkeit, Bildschirm, Inaktivität, automatisch ausschalten</string>
     <string name="keywords_auto_rotate" msgid="7914655570000378975">"drehen, spiegeln, drehung, hochformat, querformat, ausrichtung, vertikal, horizontal"</string>
     <string name="keywords_system_update_settings" msgid="5769003488814164931">"upgrade, android"</string>
     <string name="keywords_zen_mode_settings" msgid="7810203406522669584">"dnd, zeitplan, benachrichtigungen, blockieren, lautlos, vibrieren, schlaf, arbeit, fokus, ton, stumm, tag, wochentag, wochenende, wochenende, ereignis, bns"</string>
-    <string name="keywords_screen_timeout" msgid="8921857020437540572">"display, sperrzeit, timeout, lockscreen, bildschirm, zeitlimit, automatisch ausschalten"</string>
+    <string name="keywords_screen_timeout" msgid="8921857020437540572">Bildschirm, Sperrzeit, Sperrbildschirm, Zeitlimit, automatisch ausschalten</string>
     <string name="keywords_storage_settings" msgid="6018856193950281898">"Speicher, Cache, Daten, löschen, entfernen, frei machen, Platz"</string>
     <string name="keywords_bluetooth_settings" msgid="2588159530959868188">"verbunden, gerät, kopfhörer, headset, lautsprecher, drahtlos, koppeln, ohrhörer, musik, medien"</string>
     <string name="keywords_wallpaper" msgid="6712776876474488023">"hintergrund, bildschirm, sperrbildschirm, design"</string>
@@ -3175,7 +3179,7 @@
     <string name="keywords_default_payment_app" msgid="5162298193637362104">"zahlung, standard"</string>
     <string name="keywords_ambient_display" msgid="3149287105145443697">"eingehende Benachrichtigung"</string>
     <string name="keywords_hotspot_tethering" msgid="3688439689671232627">"usb tethering, bluetooth tethering, wlan hotspot, wifi hotspot"</string>
-    <string name="keywords_touch_vibration" msgid="1125291201902251273">"haptik, vibrieren, display, empfindlichkeit"</string>
+    <string name="keywords_touch_vibration" msgid="1125291201902251273">Berührung, vibrieren, Bildschirm, Empfindlichkeit</string>
     <string name="keywords_ring_vibration" msgid="1736301626537417541">"Haptik, vibrieren, Smartphone, Anruf, Empfindlichkeit, klingeln"</string>
     <string name="keywords_notification_vibration" msgid="9162262178415439951">"Haptik, vibrieren, Empfindlichkeit"</string>
     <string name="keywords_battery_saver_sticky" msgid="1646191718840975110">"Energiesparmodus, fixiert, nichtflüchtig, Stromsparfunktion, Akku"</string>
@@ -3263,10 +3267,10 @@
     <string name="zen_mode_restrict_notifications_summary_custom" msgid="3918461289557316364">"Teilweise ausgeblendet"</string>
     <string name="zen_mode_restrict_notifications_summary_hidden" msgid="636494600775773296">"Kein optisches oder akustisches Signal bei Benachrichtigungen"</string>
     <string name="zen_mode_what_to_block_title" msgid="5692710098205334164">"Benutzerdefinierte Einschränkungen"</string>
-    <string name="zen_mode_block_effects_screen_on" msgid="8780668375194500987">"Bei aktiviertem Display"</string>
-    <string name="zen_mode_block_effects_screen_off" msgid="2291988790355612826">"Bei deaktiviertem Display"</string>
+    <string name="zen_mode_block_effects_screen_on" msgid="8780668375194500987">Bei aktiviertem Bildschirm</string>
+    <string name="zen_mode_block_effects_screen_off" msgid="2291988790355612826">Bei deaktiviertem Bildschirm</string>
     <string name="zen_mode_block_effect_sound" msgid="7929909410442858327">"Töne und Vibration ausschalten"</string>
-    <string name="zen_mode_block_effect_intent" msgid="7621578645742903531">"Display nicht einschalten"</string>
+    <string name="zen_mode_block_effect_intent" msgid="7621578645742903531">Bildschirm nicht einschalten</string>
     <string name="zen_mode_block_effect_light" msgid="1997222991427784993">"Benachrichtigungslicht blinkt nicht"</string>
     <string name="zen_mode_block_effect_peek" msgid="2525844009475266022">"Keine Pop-up-Benachrichtigungen"</string>
     <string name="zen_mode_block_effect_status" msgid="5765965061064691918">"Symbole in der Statusleiste oben auf dem Bildschirm ausblenden"</string>
@@ -3274,8 +3278,8 @@
     <string name="zen_mode_block_effect_ambient" msgid="1247740599476031543">"\"Bitte nicht stören\" bei Benachrichtigungen nicht beenden"</string>
     <string name="zen_mode_block_effect_list" msgid="7549367848660137118">"Aus Benachrichtigungsleiste ausblenden"</string>
     <string name="zen_mode_block_effect_summary_none" msgid="6688519142395714659">"Nie"</string>
-    <string name="zen_mode_block_effect_summary_screen_off" msgid="6989818116297061488">"Bei deaktiviertem Display"</string>
-    <string name="zen_mode_block_effect_summary_screen_on" msgid="4876016548834916087">"Bei aktiviertem Display"</string>
+    <string name="zen_mode_block_effect_summary_screen_off" msgid="6989818116297061488">Bei deaktiviertem Bildschirm</string>
+    <string name="zen_mode_block_effect_summary_screen_on" msgid="4876016548834916087">Bei aktiviertem Bildschirm</string>
     <string name="zen_mode_block_effect_summary_sound" msgid="1559968890497946901">"Töne und Vibration"</string>
     <string name="zen_mode_block_effect_summary_some" msgid="2730383453754229650">"Töne, Vibration und einige visuelle Elemente von Benachrichtigungen"</string>
     <string name="zen_mode_block_effect_summary_all" msgid="3131918059492425222">"Töne, Vibration und visuelle Elemente von Benachrichtigungen"</string>
@@ -3313,7 +3317,7 @@
     <string name="zen_category_exceptions" msgid="6329803391764042865">"Ausnahmen"</string>
     <string name="zen_category_schedule" msgid="6117378495178187519">"Zeitplan"</string>
     <string name="zen_sound_title" msgid="7345256674791165630">"Alle Ausnahmen anzeigen"</string>
-    <string name="zen_sound_footer" msgid="4090291351903631977">"Wenn \"Bitte nicht stören\" aktiviert ist, ist weder ein akustisches Signal zu hören noch eine Vibration zu spüren. Mit den Einstellungen oben kannst du festlegen, welche Ausnahmen gelten sollten."</string>
+    <string name="zen_sound_footer" msgid="4090291351903631977">Wenn „Bitte nicht stören“ aktiviert ist, wird weder ein Klang noch eine Vibration abgespielt. Mit den Einstellungen oben kannst du festlegen, welche Ausnahmen gelten sollten.</string>
     <string name="zen_sound_category_title" msgid="3092475944624375238">"Alle stummschalten außer"</string>
     <string name="zen_sound_all_muted" msgid="1134675098348493443">"Stummgeschaltet"</string>
     <string name="zen_sound_none_muted" msgid="1985587320995599306">"Nicht stummgeschaltet"</string>
@@ -3626,7 +3630,7 @@
     <string name="zen_mode_summary_alarms_only_by_time" msgid="8140619669703968810">"Bis <xliff:g id="FORMATTEDTIME">%1$s</xliff:g> zur Option \"Nur Weckrufe\" wechseln"</string>
     <string name="zen_mode_summary_always" msgid="722093064250082317">"Zur Option \"Immer unterbrechen\" wechseln"</string>
     <string name="zen_mode_screen_on" msgid="7312758100468915319">"Wenn der Bildschirm aktiviert ist"</string>
-    <string name="zen_mode_screen_on_summary" msgid="510055058460316698">"Benachrichtigungen, die durch \"Bitte Bitte nicht stören\" stummgeschaltet wurden, werden auf dem Bildschirm eingeblendet und in der Statusleiste ist ein Symbol für sie zu sehen"</string>
+    <string name="zen_mode_screen_on_summary" msgid="510055058460316698">Benachrichtigungen, die durch „Bitte nicht stören“ stumm geschaltet wurden, werden auf dem Bildschirm eingeblendet und in der Statusleiste ist ein Symbol für sie zu sehen</string>
     <string name="zen_mode_screen_off" msgid="7069798697669366075">"Bei deaktiviertem Bildschirm"</string>
     <string name="zen_mode_screen_off_summary" msgid="4698018253505406152">"Bei Benachrichtigungen, die durch \"Bitte nicht stören\" stummgeschaltet wurden, Bildschirm aktivieren und LED blinken lassen"</string>
     <string name="zen_mode_screen_off_summary_no_led" msgid="1958271859408992636">"Bei Benachrichtigungen, die durch \"Bitte nicht stören\" stummgeschaltet wurden, Bildschirm aktivieren"</string>
@@ -3666,7 +3670,7 @@
     <string name="encrypt_talkback_dialog_message_pin" msgid="4482887117824444481">"Wenn du zum Starten dieses Geräts deine PIN eingibst, stehen Dienste für Bedienungshilfen wie <xliff:g id="SERVICE">%1$s</xliff:g> noch nicht zur Verfügung."</string>
     <string name="encrypt_talkback_dialog_message_pattern" msgid="5156321541636018756">"Wenn du zum Starten dieses Geräts dein Muster eingibst, stehen Dienste für Bedienungshilfen wie <xliff:g id="SERVICE">%1$s</xliff:g> noch nicht zur Verfügung."</string>
     <string name="encrypt_talkback_dialog_message_password" msgid="1917287751192953034">"Wenn du zum Starten dieses Geräts dein Passwort eingibst, stehen Dienste für Bedienungshilfen wie <xliff:g id="SERVICE">%1$s</xliff:g> noch nicht zur Verfügung."</string>
-    <string name="direct_boot_unaware_dialog_message" msgid="5766006106305996844">"Hinweis: Falls du dein Smartphone neu startest und eine Displaysperre aktiviert ist, wird diese App erst gestartet, wenn du dein Smartphone entsperrst"</string>
+    <string name="direct_boot_unaware_dialog_message" msgid="5766006106305996844">Hinweis: Falls du dein Smartphone neu startest und eine Bildschirmsperre aktiviert ist, wird diese App erst gestartet, wenn du dein Smartphone entsperrst hast</string>
     <string name="imei_information_title" msgid="8703564992893669514">"IMEI-Informationen"</string>
     <string name="imei_information_summary" msgid="4763358372990258786">"Informationen zur relativen IMEI"</string>
     <string name="slot_number" msgid="2663789411468530397">"(Slot <xliff:g id="SLOT_NUM">%1$d</xliff:g>)"</string>
@@ -3909,7 +3913,7 @@
     <string name="camera_gesture_title" msgid="5559439253128696180">"Zum Öffnen der Kamera zweimal drehen"</string>
     <string name="camera_gesture_desc" msgid="7557645057320805328">"Kamera-App durch zweimaliges Drehen des Handgelenks öffnen"</string>
     <string name="camera_double_tap_power_gesture_title" msgid="8264757967127716261">"Für Kamera Ein/Aus zweimal drücken"</string>
-    <string name="camera_double_tap_power_gesture_desc" msgid="1539147023700755155">"Kamera ohne Entsperren des Displays schnell öffnen"</string>
+    <string name="camera_double_tap_power_gesture_desc" msgid="1539147023700755155">Kamera ohne Entsperren des Bildschirms schnell öffnen</string>
     <string name="screen_zoom_title" msgid="6928045302654960559">"Anzeigegröße"</string>
     <string name="screen_zoom_short_summary" msgid="2458636490408833800">"Elemente auf dem Bildschirm vergrößern oder verkleinern"</string>
     <string name="screen_zoom_keywords" msgid="5964023524422386592">"kompaktheitsgrad, bildschirm zoom, display zoom, maßstab, skalierung, skalieren"</string>
@@ -3942,7 +3946,7 @@
     <string name="storage_summary_with_sdcard" msgid="2063780050580228868">"Interner Speicher: <xliff:g id="PERCENTAGE">%1$s</xliff:g> belegt – <xliff:g id="FREE_SPACE">%2$s</xliff:g> frei"</string>
     <string name="display_summary" msgid="5526061030874717172">"Nach <xliff:g id="TIMEOUT_DESCRIPTION">%1$s</xliff:g> Inaktivität wird Ruhemodus aktiviert"</string>
     <string name="display_dashboard_summary" msgid="5102247404958535634">"Hintergrund, Ruhemodus, Schriftgröße"</string>
-    <string name="display_dashboard_summary_with_style" msgid="2792175367835485163">"Designs, Hintergründe, automatisches Ausschalten des Displays, Schriftgröße"</string>
+    <string name="display_dashboard_summary_with_style" msgid="2792175367835485163">Designs, Hintergründe, automatisches Ausschalten des Bildschirms, Schriftgröße</string>
     <string name="display_dashboard_nowallpaper_summary" msgid="6198590533661927162">"Ruhemodus, Schriftgröße"</string>
     <string name="display_summary_example" msgid="4275121979039344438">"Ruhemodus wird nach 10 Minuten Inaktivität aktiviert"</string>
     <string name="memory_summary" msgid="8221954450951651735">"Im Mittel werden <xliff:g id="USED_MEMORY">%1$s</xliff:g> von <xliff:g id="TOTAL_MEMORY">%2$s</xliff:g> genutzt"</string>
@@ -4007,7 +4011,7 @@
     </plurals>
     <string name="suggestion_remove" msgid="6753986344585367776">"Entfernen"</string>
     <string name="color_temperature" msgid="8256912135746305176">"Kalte Farbtemperatur"</string>
-    <string name="color_temperature_desc" msgid="6713259535885669622">"Kältere Displayfarben verwenden"</string>
+    <string name="color_temperature_desc" msgid="6713259535885669622">Kältere Bildschirmfarben verwenden</string>
     <string name="color_temperature_toast" msgid="7611532183532407342">"Deaktiviere den Bildschirm, um die neue Farbeinstellung zu übernehmen"</string>
     <string name="camera_laser_sensor_switch" msgid="7097842750947187671">"Kamera-Lasersensor"</string>
     <string name="ota_disable_automatic_update" msgid="1953894421412420231">"Automatische Systemupdates"</string>
@@ -4087,7 +4091,7 @@
     <string name="battery_saver_button_turn_on" msgid="2206239048232352476">"Jetzt aktivieren"</string>
     <string name="battery_saver_button_turn_off" msgid="6371072408072481484">"Jetzt deaktivieren"</string>
     <string name="not_battery_optimizing" msgid="8361294470943376258">"Akku-Optimierung wird nicht verwendet"</string>
-    <string name="lockscreen_remote_input" msgid="6030274311185811503">"Wenn das Gerät gesperrt ist, ist das Schreiben von Antworten oder anderen Texten in Nachrichten nicht möglich"</string>
+    <string name="lockscreen_remote_input" msgid="6030274311185811503">Bei Sperrung des Gerätes ist das Schreiben von Antworten oder anderen Texten in Benachrichtigungen nicht möglich</string>
     <string name="default_spell_checker" msgid="7108373288347014351">"Standardrechtschreibprüfung"</string>
     <string name="choose_spell_checker" msgid="7402513404783243675">"Rechtschreibprüfung wählen"</string>
     <string name="spell_checker_master_switch_title" msgid="1233180004430328851">"Rechtschreibprüfung verwenden"</string>
@@ -4125,8 +4129,8 @@
     <string name="notification_log_details_ranking_none" msgid="2484105338466675261">"Dieser Schlüssel ist in dem Rangobjekt nicht enthalten."</string>
     <string name="theme_customization_category" msgid="6031945560184297318">"Designs"</string>
     <string name="theme_customization_device_default" msgid="7641813022590999286">"Gemäß Standard fürs Gerät"</string>
-    <string name="display_cutout_emulation" msgid="1421648375408281244">"Display-Aussparung"</string>
-    <string name="display_cutout_emulation_keywords" msgid="4506580703807358127">"display aussparung, notch"</string>
+    <string name="display_cutout_emulation" msgid="1421648375408281244">Bildschirm-Aussparung</string>
+    <string name="display_cutout_emulation_keywords" msgid="4506580703807358127">Bildschirm Aussparung, notch</string>
     <string name="overlay_option_device_default" msgid="7986355499809313848">"Gemäß Standard fürs Gerät"</string>
     <string name="overlay_toast_failed_to_apply" msgid="4839587811338164960">"Overlay konnte nicht angewendet werden"</string>
     <string name="special_access" msgid="1767980727423395147">"Spezieller App-Zugriff"</string>
@@ -4192,7 +4196,7 @@
     <string name="gesture_preference_summary" product="tablet" msgid="4031666250963488007">"Gesten zum Steuern deines Tablets"</string>
     <string name="gesture_preference_summary" product="device" msgid="3520072325356373349">"Gesten zum Steuern deines Geräts"</string>
     <string name="double_tap_power_for_camera_title" msgid="7888308618710578563">"Zur Kamera wechseln"</string>
-    <string name="double_tap_power_for_camera_summary" msgid="1100926048598415509">"Ein-/Aus-Taste zweimal drücken, um Kamera direkt zu starten. Funktioniert bei jedem Display."</string>
+    <string name="double_tap_power_for_camera_summary" msgid="1100926048598415509">Ein-/Aus-Taste zweimal drücken, um Kamera direkt zu starten. Funktioniert bei jedem Bildschirm.</string>
     <string name="double_tap_power_for_camera_suggestion_title" msgid="4299496243418753571">"Kamera schnell öffnen"</string>
     <string name="double_twist_for_camera_mode_title" msgid="8387290007393716098">"Kamera umschalten"</string>
     <string name="double_twist_for_camera_suggestion_title" msgid="8178844037382604158">"Schnell Selfies aufnehmen"</string>
@@ -4215,18 +4219,18 @@
     <string name="back_sensitivity_dialog_title" msgid="6153608904168908264">"Empfindlichkeit bei Touch-Geste \"Zurück\""</string>
     <string name="ambient_display_title" product="default" msgid="5885136049497127396">"Für Blick aufs Display doppeltippen"</string>
     <string name="ambient_display_title" product="tablet" msgid="205744440641466921">"Doppeltippen für schnellen Blick auf das Display des Tablets"</string>
-    <string name="ambient_display_title" product="device" msgid="4164103424628824786">"Doppeltippen für schnellen Blick auf das Display des Geräts"</string>
+    <string name="ambient_display_title" product="device" msgid="4164103424628824786">Doppeltippen für schnellen Überblick</string>
     <string name="ambient_display_summary" msgid="2650326740502690434">"Wenn auf den Bildschirm doppelgetippt wird, werden die Uhrzeit, Benachrichtigungen und andere Informationen angezeigt"</string>
     <string name="ambient_display_pickup_title" product="default" msgid="4418310591912877548">"Für Blick aufs Display Smartphone in die Hand nehmen"</string>
     <string name="ambient_display_pickup_title" product="tablet" msgid="8055486872070888377">"Tablet hochnehmen, um das Display anzusehen"</string>
-    <string name="ambient_display_pickup_title" product="device" msgid="8980156994848721455">"Gerät hochnehmen, um das Display anzusehen"</string>
+    <string name="ambient_display_pickup_title" product="device" msgid="8980156994848721455">Gerät hochnehmen, für die Anzeige</string>
     <string name="ambient_display_wake_screen_title" msgid="7637678749035378085">"Bildschirm aktivieren"</string>
     <string name="ambient_display_pickup_summary" product="default" msgid="1087355013674109242">"Wenn das Smartphone in die Hand genommen wird, werden die Uhrzeit, Benachrichtigungen und andere Informationen angezeigt"</string>
     <string name="ambient_display_pickup_summary" product="tablet" msgid="2589556997034530529">"Wenn das Tablet in die Hand genommen wird, werden die Uhrzeit, Benachrichtigungen und andere Informationen angezeigt"</string>
     <string name="ambient_display_pickup_summary" product="device" msgid="1916011370011115627">"Wenn das Gerät in die Hand genommen wird, werden die Uhrzeit, Benachrichtigungen und andere Informationen angezeigt"</string>
     <string name="ambient_display_tap_screen_title" product="default" msgid="2811332293938467179">"Tippen, um Informationen auf dem Smartphone anzusehen"</string>
     <string name="ambient_display_tap_screen_title" product="tablet" msgid="6461531447715370632">"Tippen, um Informationen auf dem Tablet anzusehen"</string>
-    <string name="ambient_display_tap_screen_title" product="device" msgid="4423803387551153840">"Tippen, um Informationen auf dem Gerät anzusehen"</string>
+    <string name="ambient_display_tap_screen_title" product="device" msgid="4423803387551153840">Beim Tippen Bildschirm aktivieren</string>
     <string name="ambient_display_tap_screen_summary" msgid="4480489179996521405">"Wenn auf den Bildschirm getippt wird, werden die Uhrzeit, Benachrichtigungen und andere Informationen angezeigt"</string>
     <string name="fingerprint_swipe_for_notifications_title" msgid="2271217256447175017">"Benachrichtigungen durch Wischen über Fingerabdrucksensor öffnen"</string>
     <string name="fingerprint_gesture_screen_title" msgid="9086261338232806522">"Fingerabdrucksensor verwenden"</string>
