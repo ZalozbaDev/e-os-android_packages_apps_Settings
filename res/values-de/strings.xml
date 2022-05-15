@@ -708,8 +708,8 @@
         <item quantity="other">Das Passwort muss mindestens <xliff:g id="count" example="3">%d</xliff:g> Großbuchstaben enthalten</item>
     </plurals>
     <plurals name="lockpassword_password_requires_numeric" formatted="false" msgid="70617964591376248">
-        <item quantity="other">Das Passwort muss mindestens <xliff:g id="COUNT">%d</xliff:g> Ziffern enthalten</item>
         <item quantity="one">Das Passwort muss mindestens eine Ziffer enthalten</item>
+        <item quantity="other">Das Passwort muss mindestens <xliff:g id="count" example="3">%d</xliff:g> Ziffern enthalten</item>
     </plurals>
     <plurals name="lockpassword_password_requires_symbols" formatted="false" msgid="7981236881269921943">
         <item quantity="one">Das Passwort muss mindestens ein Sonderzeichen enthalten</item>
@@ -1033,16 +1033,16 @@
     <string name="wifi_forget_dialog_title" msgid="4363829200968563164">"Netzwerk entfernen?"</string>
     <string name="wifi_forget_dialog_message" msgid="8419499588321940243">"Alle Passwörter für dieses Netzwerk werden gelöscht"</string>
     <plurals name="wifi_saved_access_points_summary" formatted="false" msgid="2802436466732147888">
-        <item quantity="other">%d Netzwerke</item>
-        <item quantity="one">1 Netzwerk</item>
+        <item quantity="one">1 Netzwerk</item>
+        <item quantity="other">%d Netzwerke</item>
     </plurals>
     <plurals name="wifi_saved_passpoint_access_points_summary" formatted="false" msgid="5802057518058840450">
-        <item quantity="other">%d Abos</item>
-        <item quantity="one">1 Abo</item>
+        <item quantity="one">1 Abo</item>
+        <item quantity="other">%d Abos</item>
     </plurals>
     <plurals name="wifi_saved_all_access_points_summary" formatted="false" msgid="5125849180309374451">
+        <item quantity="one">1 Netzwerk und Abo</item>
         <item quantity="other">%d Netzwerke und Abos</item>
-        <item quantity="one">1 Netzwerk und Abo</item>
     </plurals>
     <string name="wifi_advanced_titlebar" msgid="1234150304285575798">"Erweiterte WLAN-Einstellungen"</string>
     <string name="wifi_advanced_ssid_title" msgid="1561437650193980185">"SSID"</string>
@@ -1848,8 +1848,8 @@
     <string name="clear_cache_btn_text" msgid="8597272828928143723">"Cache leeren"</string>
     <string name="cache_size_label" msgid="313456088966822757">"Cache"</string>
     <plurals name="uri_permissions_text" formatted="false" msgid="8212425823423508096">
-        <item quantity="other">%d Elemente</item>
         <item quantity="one">1 Element</item>
+        <item quantity="other">%d Elemente</item>
     </plurals>
     <string name="clear_uri_btn_text" msgid="4828117421162495134">"Zugriff löschen"</string>
     <string name="controls_label" msgid="8671492254263626383">"Steuerung"</string>
@@ -2248,12 +2248,12 @@
     <string name="print_settings" msgid="8519810615863882491">"Drucken"</string>
     <string name="print_settings_summary_no_service" msgid="6721731154917653862">"Aus"</string>
     <plurals name="print_settings_summary" formatted="false" msgid="1034273609054146099">
-        <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> Druckdienste aktiviert</item>
-        <item quantity="one">1 Druckdienst aktiviert</item>
+        <item quantity="one">1 Druckdienst aktiviert</item>
+        <item quantity="other"><xliff:g id="count">%1$d</xliff:g> Druckdienste aktiviert</item>
     </plurals>
     <plurals name="print_jobs_summary" formatted="false" msgid="3933688846338306536">
-        <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> Druckaufträge</item>
-        <item quantity="one">1 Druckauftrag</item>
+        <item quantity="one">1 Druckauftrag</item>
+        <item quantity="other"><xliff:g id="count">%1$d</xliff:g> Druckaufträge</item>
     </plurals>
     <string name="print_settings_title" msgid="7680498284751129935">"Druckdienste"</string>
     <string name="print_no_services_installed" msgid="7554057966540602692">"Keine Dienste installiert"</string>
@@ -2347,20 +2347,20 @@
         <item quantity="one">%1$d App einschränken</item>
     </plurals>
     <plurals name="battery_tip_restrict_handled_title" formatted="false" msgid="5862649927574803958">
-        <item quantity="other">%2$d Apps kürzlich eingeschränkt</item>
-        <item quantity="one">%1$s App kürzlich eingeschränkt</item>
+        <item quantity="one">%1$s App kürzlich eingeschränkt</item>
+        <item quantity="other">%2$d Apps kürzlich eingeschränkt</item>
     </plurals>
     <plurals name="battery_tip_restrict_summary" formatted="false" msgid="3328499737453686910">
-        <item quantity="other">Bei %2$d Apps ist der Akkuverbrauch im Hintergrund hoch</item>
-        <item quantity="one">Bei %1$s App ist der Akkuverbrauch im Hintergrund hoch</item>
+        <item quantity="one">%1$s hat einen hohen Akkuverbrauch im Hintergrund</item>
+        <item quantity="other">%2$d Apps haben einen hohen Akkuverbrauch im Hintergrund</item>
     </plurals>
     <plurals name="battery_tip_restrict_handled_summary" formatted="false" msgid="3036853535034350991">
         <item quantity="other">Diese Apps können nicht im Hintergrund ausgeführt werden</item>
         <item quantity="one">Diese App kann nicht im Hintergrund ausgeführt werden</item>
     </plurals>
     <plurals name="battery_tip_restrict_app_dialog_title" formatted="false" msgid="7897944678619251740">
-        <item quantity="other">%1$d Apps einschränken?</item>
-        <item quantity="one">App einschränken?</item>
+        <item quantity="one">App einschränken\?</item>
+        <item quantity="other">%1$d Apps einschränken\?</item>
     </plurals>
     <string name="battery_tip_restrict_app_dialog_message" msgid="137856003724730751">"Um den Akku zu schonen, verhindere, dass <xliff:g id="APP">%1$s</xliff:g> im Hintergrund Strom verbraucht. Eventuell funktioniert die App dann nicht mehr richtig und Benachrichtigungen werden verzögert angezeigt."</string>
     <string name="battery_tip_restrict_apps_less_than_5_dialog_message" msgid="5894648804112181324">"Um den Akku zu schonen, verhindere, dass diese Apps im Hintergrund Strom verbrauchen. Eventuell funktionieren sie dann nicht mehr richtig und Benachrichtigungen werden verzögert angezeigt.\n\nApps:"</string>
@@ -3305,13 +3305,13 @@
     <string name="zen_mode_duration_summary_always_prompt" msgid="7658172853423383037">"Jedes Mal fragen"</string>
     <string name="zen_mode_duration_summary_forever" msgid="5551992961329998606">"Bis zur Deaktivierung"</string>
     <plurals name="zen_mode_duration_summary_time_hours" formatted="false" msgid="3601160794696489864">
-        <item quantity="other"><xliff:g id="NUM_HOURS">%d</xliff:g> Stunden</item>
-        <item quantity="one">1 Stunde</item>
+        <item quantity="one">1 Stunde</item>
+        <item quantity="other"><xliff:g id="num_hours">%d</xliff:g> Stunden</item>
     </plurals>
     <string name="zen_mode_duration_summary_time_minutes" msgid="3187122993179039992">"<xliff:g id="NUM_MINUTES">%d</xliff:g> Minuten"</string>
     <plurals name="zen_mode_sound_summary_summary_off_info" formatted="false" msgid="3812633366476034740">
-        <item quantity="other"><xliff:g id="ON_COUNT">%d</xliff:g> Zeitpläne können automatisch aktiviert werden</item>
-        <item quantity="one">1 Zeitplan kann automatisch aktiviert werden</item>
+        <item quantity="one">1 Zeitplan kann automatisch aktiviert werden</item>
+        <item quantity="other"><xliff:g id="on_count" example="3">%d</xliff:g> Zeitpläne können automatisch aktiviert werden</item>
     </plurals>
     <string name="zen_category_behavior" msgid="4456460102057665854">"Gerät stummschalten, aber Ausnahmen zulassen"</string>
     <string name="zen_category_exceptions" msgid="6329803391764042865">"Ausnahmen"</string>
@@ -3569,8 +3569,8 @@
     <string name="zen_mode_custom_calls_footer" msgid="6521283204577441053">"Im Modus \"<xliff:g id="SCHEDULE_NAME">%1$s</xliff:g>\" werden eingehende Anrufe blockiert. Du kannst die Einstellungen anpassen, sodass dich Freunde, Familie oder andere Kontakte erreichen können."</string>
     <string name="zen_mode_starred_contacts_title" msgid="630299631659575589">"Markierte Kontakte"</string>
     <plurals name="zen_mode_starred_contacts_summary_additional_contacts" formatted="false" msgid="7001724653833724925">
-        <item quantity="other"><xliff:g id="NUM_PEOPLE">%d</xliff:g> weitere Personen</item>
-        <item quantity="one">1 weitere Person</item>
+        <item quantity="one">1 weitere Person</item>
+        <item quantity="other"><xliff:g id="num_people">%d</xliff:g> Weitere</item>
     </plurals>
     <string name="zen_mode_messages" msgid="7835537207069585861">"Nachrichten zulassen"</string>
     <string name="zen_mode_messages_footer" msgid="6996375319078720643">"Damit sichergestellt ist, dass bei einer zugelassenen Nachricht auch wirklich ein akustisches Signal ertönt, solltest du kontrollieren, dass der Klingeltonmodus aktiviert ist. Beim Vibrationsmodus oder beim Lautlosmodus ertönt kein solches Signal."</string>
@@ -3741,8 +3741,8 @@
     <string name="domain_urls_summary_some" msgid="1197692164421314523">"<xliff:g id="DOMAIN">%s</xliff:g> und andere URLs öffnen"</string>
     <string name="domain_urls_apps_summary_off" msgid="2534980824850890416">"Keine App öffnet unterstützte Links"</string>
     <plurals name="domain_urls_apps_summary_on" formatted="false" msgid="7864816862441985323">
-        <item quantity="other"> Apps öffnen unterstützte Links</item>
-        <item quantity="one">1 App öffnet unterstützte Links</item>
+        <item quantity="one">1 App öffnet unterstützte Links</item>
+        <item quantity="other"><xliff:g id="count" example="10">%d</xliff:g> Apps öffnen unterstützte Links</item>
     </plurals>
     <string name="app_link_open_always" msgid="7734202520425781182">"In dieser App öffnen"</string>
     <string name="app_link_open_ask" msgid="2422450109908936371">"Jedes Mal fragen"</string>
@@ -3784,12 +3784,12 @@
     <string name="show_all_apps" msgid="4490719452453223082">"Vollständige Gerätenutzung anzeigen"</string>
     <string name="hide_extra_apps" msgid="7313907836289865123">"App-Nutzung anzeigen"</string>
     <plurals name="power_high_usage_summary" formatted="false" msgid="573433136005336970">
-        <item quantity="other"><xliff:g id="NUMBER">%2$d</xliff:g> Apps funktionieren nicht wie gewohnt</item>
-        <item quantity="one"><xliff:g id="APP">%1$s</xliff:g> funktioniert nicht wie gewohnt</item>
+        <item quantity="one"><xliff:g id="app">%1$s</xliff:g> funktioniert nicht wie gewohnt</item>
+        <item quantity="other"><xliff:g id="number"/> Apps funktionieren nicht wie gewohnt</item>
     </plurals>
     <plurals name="power_high_usage_title" formatted="false" msgid="8013115866788425817">
+        <item quantity="one"><xliff:g id="app">%1$s</xliff:g> belastet den Akku</item>
         <item quantity="other">Apps belasten den Akku</item>
-        <item quantity="one"><xliff:g id="APP">%1$s</xliff:g> belastet den Akku</item>
     </plurals>
     <string name="high_power_filter_on" msgid="447849271630431531">"Nicht optimiert"</string>
     <string name="high_power_on" msgid="8778058701270819268">"Nicht optimiert"</string>
@@ -3865,8 +3865,8 @@
     <string name="free_memory" msgid="439783742246854785">"Frei"</string>
     <string name="memory_usage_apps" msgid="5776108502569850579">"Von Apps verbrauchter Speicher"</string>
     <plurals name="memory_usage_apps_summary" formatted="false" msgid="1355637088533572208">
-        <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> Apps haben den Speicher in den letzten <xliff:g id="DURATION_1">%2$s</xliff:g> verbraucht.</item>
-        <item quantity="one">1 App hat den Speicher in den letzten <xliff:g id="DURATION_0">%2$s</xliff:g> verbraucht.</item>
+        <item quantity="one">1 App hat Speicher in den letzten <xliff:g id="duration" example="3 hours">%2$s</xliff:g> genutzt.</item>
+        <item quantity="other"><xliff:g id="count" example="10"/> Apps haben Speicher in den letzten <xliff:g id="duration" example="3 hours">%2$s</xliff:g> genutzt.</item>
     </plurals>
     <string name="running_frequency" msgid="7260225121706316639">"Häufigkeit"</string>
     <string name="memory_maximum_usage" msgid="2047013391595835607">"Maximaler Verbrauch"</string>
@@ -3936,8 +3936,8 @@
     <string name="data_usage_summary_format" msgid="6844301859713164522">"<xliff:g id="AMOUNT">%1$s</xliff:g> genutzt"</string>
     <string name="data_usage_wifi_format" msgid="7644390582649568117">"<xliff:g id="AMOUNT">^1</xliff:g> WLAN-Datennutzung"</string>
     <plurals name="notification_summary" formatted="false" msgid="7638388920823212470">
-        <item quantity="other">Deaktiviert für <xliff:g id="COUNT">%d</xliff:g> Apps</item>
-        <item quantity="one">Deaktiviert für 1 App</item>
+        <item quantity="one">Deaktiviert für 1 App</item>
+        <item quantity="other">Deaktiviert für <xliff:g id="count" example="10">%d</xliff:g> Apps</item>
     </plurals>
     <string name="notification_summary_none" msgid="9179312319023988089">"Für alle Apps aktiviert"</string>
     <string name="apps_summary" msgid="4007416751775414252">"<xliff:g id="COUNT">%1$d</xliff:g> Apps installiert"</string>
@@ -4002,12 +4002,12 @@
     <string name="suggestions_summary" msgid="1709710458908440469">"+ <xliff:g id="ID_1">%1$d</xliff:g>"</string>
     <string name="suggestions_more_title" msgid="240124526378997009">"+<xliff:g id="ID_1">%1$d</xliff:g> weitere"</string>
     <plurals name="suggestions_collapsed_title" formatted="false" msgid="5023679825210836444">
-        <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> Vorschläge</item>
-        <item quantity="one">1 Vorschlag</item>
+        <item quantity="one">1 Vorschlag</item>
+        <item quantity="other"><xliff:g id="count" example="10">%1$d</xliff:g> Vorschläge</item>
     </plurals>
     <plurals name="suggestions_collapsed_summary" formatted="false" msgid="3789011332018516832">
-        <item quantity="other">+<xliff:g id="COUNT">%1$d</xliff:g> Vorschläge</item>
-        <item quantity="one">+1  Vorschlag</item>
+        <item quantity="one">+1 Vorschlag</item>
+        <item quantity="other">+ <xliff:g id="count" example="10">%1$d</xliff:g> Vorschläge</item>
     </plurals>
     <string name="suggestion_remove" msgid="6753986344585367776">"Entfernen"</string>
     <string name="color_temperature" msgid="8256912135746305176">"Kalte Farbtemperatur"</string>
@@ -4034,8 +4034,8 @@
     <string name="billing_cycle_fragment_summary" msgid="6346655500491631357">"Monatlich am <xliff:g id="ID_1">%1$s</xliff:g>."</string>
     <string name="network_restrictions" msgid="8385824604048229846">"Netzwerkbeschränkungen"</string>
     <plurals name="network_restrictions_summary" formatted="false" msgid="3875128958788008975">
-        <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> Beschränkungen</item>
-        <item quantity="one">1 Beschränkung</item>
+        <item quantity="one">1 Beschränkung</item>
+        <item quantity="other"><xliff:g id="count" example="10">%1$d</xliff:g> Beschränkungen</item>
     </plurals>
     <string name="operator_warning" msgid="5672761970087591211">"Dein Mobilfunkanbieter berechnet die Datennutzung eventuell anders als das Gerät"</string>
     <string name="data_used_template" msgid="8229342096562327646">"Verbrauchte Daten: <xliff:g id="ID_1">%1$s</xliff:g>"</string>
@@ -4048,8 +4048,8 @@
     <string name="configure" msgid="1499586749829665889">"Konfigurieren"</string>
     <string name="data_usage_other_apps" msgid="5649047093607329537">"Weitere Apps, die ebenfalls Daten verbraucht haben"</string>
     <plurals name="data_saver_unrestricted_summary" formatted="false" msgid="3316296488378947221">
-        <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> Apps dürfen uneingeschränkt Daten verbrauchen, auch wenn der Datensparmodus aktiviert ist</item>
         <item quantity="one">1 App darf uneingeschränkt Daten verbrauchen, auch wenn der Datensparmodus aktiviert ist</item>
+        <item quantity="other"><xliff:g id="count" example="10">%1$d</xliff:g> Apps dürfen uneingeschränkt Daten verbrauchen, auch wenn der Datensparmodus aktiviert ist</item>
     </plurals>
     <string name="data_usage_title" msgid="4039024073687469094">"Primärdaten"</string>
     <string name="data_usage_wifi_title" msgid="1060495519280456926">"WLAN-Daten"</string>
@@ -4135,8 +4135,8 @@
     <string name="overlay_toast_failed_to_apply" msgid="4839587811338164960">"Overlay konnte nicht angewendet werden"</string>
     <string name="special_access" msgid="1767980727423395147">"Spezieller App-Zugriff"</string>
     <plurals name="special_access_summary" formatted="false" msgid="4995506406763570815">
-        <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> Apps dürfen uneingeschränkt Daten nutzen</item>
-        <item quantity="one">1 App darf uneingeschränkt Daten nutzen</item>
+        <item quantity="one">1 App darf uneingeschränkt Daten nutzen</item>
+        <item quantity="other"><xliff:g id="count" example="10">%d</xliff:g> Apps dürfen uneingeschränkt Daten nutzen</item>
     </plurals>
     <string name="special_access_more" msgid="132919514147475846">"Mehr anzeigen"</string>
     <string name="confirm_convert_to_fbe_warning" msgid="3783325656948378111">"Nutzerdaten wirklich löschen und zur Dateiverschlüsselung wechseln?"</string>
@@ -4172,8 +4172,8 @@
     <string name="cross_profile_calendar_summary" msgid="8856185206722860069">"Geschäftliche Termine in meinem persönlichen Kalender anzeigen"</string>
     <string name="cross_profile_calendar_restricted_summary" msgid="282962670405516067">"Deine Organisation lässt den Zugriff privater Apps auf deinen Arbeitskalender nicht zu"</string>
     <plurals name="hours" formatted="false" msgid="1853396353451635458">
-        <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> Stunden</item>
-        <item quantity="one">1 Stunde</item>
+        <item quantity="one">1 Stunde</item>
+        <item quantity="other"><xliff:g id="number">%s</xliff:g> Stunden</item>
     </plurals>
     <plurals name="minutes" formatted="false" msgid="6244503272924425418">
         <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> Minuten</item>
