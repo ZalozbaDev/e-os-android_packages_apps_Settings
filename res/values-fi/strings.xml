@@ -118,18 +118,18 @@
     <string name="bluetooth_ask_enablement_and_lasting_discovery_no_name" product="tablet" msgid="4922952478824372605">"Sovellus haluaa ottaa Bluetoothin käyttöön ja määrittää, että tablettisi on muiden laitteiden löydettävissä. Voit muokata tätä asetusta myöhemmin Bluetooth-asetuksissa."</string>
     <string name="bluetooth_ask_enablement_and_lasting_discovery_no_name" product="default" msgid="1381582950049639439">"Sovellus haluaa ottaa Bluetoothin käyttöön ja määrittää, että puhelimesi on muiden laitteiden löydettävissä. Voit muokata tätä asetusta myöhemmin Bluetooth-asetuksissa."</string>
     <string name="bluetooth_turning_on" msgid="3842613808709024730">"Bluetooth otetaan käyttöön…"</string>
-    <string name="bluetooth_turning_off" msgid="7406309124247701148">"Bluetooth poistetaan käytöstä..."</string>
+    <string name="bluetooth_turning_off" msgid="7406309124247701148">Bluetooth poistetaan käytöstä…</string>
     <string name="bluetooth_connection_permission_request" msgid="8793131019383198861">"Bluetooth-yhteyspyyntö"</string>
     <string name="bluetooth_connection_notif_message" msgid="6087344980352898209">"Yhdistä laitteeseen <xliff:g id="DEVICE_NAME">%1$s</xliff:g> koskettamalla."</string>
     <string name="bluetooth_connection_dialog_text" msgid="2537152772549874391">"Haluatko yhdistää laitteeseen <xliff:g id="DEVICE_NAME">%1$s</xliff:g>?"</string>
     <string name="bluetooth_phonebook_request" msgid="1085102844577089889">"PBAP-pyyntö"</string>
-    <string name="bluetooth_pb_acceptance_dialog_text" msgid="7153531868579789993">"<xliff:g id="DEVICE_NAME_0">%1$s</xliff:g> haluaa käyttää yhteystietoja ja soittohistoriaa. Sallitaanko sille laitteen <xliff:g id="DEVICE_NAME_1">%2$s</xliff:g> käyttö?"</string>
+    <string name="bluetooth_pb_acceptance_dialog_text" msgid="7153531868579789993"> <xliff:g id="DEVICE_NAME_0">%1$s</xliff:g> haluaa käyttää yhteystietoja ja soittohistoriaa. Sallitaanko sille laitteen <xliff:g id="DEVICE_NAME_1">%2$s</xliff:g> käyttö\? </string>
     <string name="bluetooth_remember_choice" msgid="173821849670438110">"Älä kysy uudestaan"</string>
     <string name="bluetooth_pb_remember_choice" msgid="2080511174185036562">"Älä kysy uudestaan"</string>
     <string name="bluetooth_map_request" msgid="8664081227240707479">"MAP-pyyntö"</string>
     <string name="bluetooth_map_acceptance_dialog_text" msgid="2647611490952377156">"%1$s haluaa käyttää viestejäsi. Myönnetäänkö käyttöoikeus kohteeseen %2$s?"</string>
     <string name="bluetooth_sap_request" msgid="473439406287008397">"SIM-kortin käyttöoikeuspyyntö"</string>
-    <string name="bluetooth_sap_acceptance_dialog_text" msgid="2849083276356078655">"<xliff:g id="DEVICE_NAME_0">%1$s</xliff:g> haluaa käyttää SIM-korttiasi. SIM-kortin käyttöoikeuden myöntäminen poistaa laitteesi datayhteyden käytöstä yhteyden ajaksi. Myönnä käyttöoikeus laitteelle <xliff:g id="DEVICE_NAME_1">%2$s?</xliff:g>?"</string>
+    <string name="bluetooth_sap_acceptance_dialog_text" msgid="2849083276356078655"><xliff:g id="DEVICE_NAME_0">%1$s</xliff:g> haluaa käyttää SIM-korttiasi. SIM-kortin käyttöoikeuden myöntäminen poistaa laitteesi datayhteyden käytöstä yhteyden ajaksi. Myönnä käyttöoikeus laitteelle <xliff:g id="DEVICE_NAME_1">%2$s\?</xliff:g></string>
     <string name="bluetooth_device_name_summary" msgid="8678342689845439583">"Muille laitteille näkyvä nimi: <xliff:g id="DEVICE_NAME">^1</xliff:g>"</string>
     <string name="bluetooth_off_footer" msgid="76578735660216295">"Ota Bluetooth käyttöön saadaksesi yhteyden muihin laitteisiin."</string>
     <string name="bluetooth_paired_device_title" msgid="3240639218362342026">"Omat laitteet"</string>
@@ -195,7 +195,7 @@
     <string name="sdcard_settings_bad_removal_status" product="default" msgid="6817342973919819392">"SD-kortti poistettiin sen ollessa käytössä!"</string>
     <string name="sdcard_settings_used_bytes_label" msgid="5646588579332741943">"Käytetyt tavut:"</string>
     <string name="sdcard_settings_scanning_status" product="nosdcard" msgid="8037280964384235345">"Etsitään tiedost. USB-tilasta"</string>
-    <string name="sdcard_settings_scanning_status" product="default" msgid="3297316465982471437">"Luetaan mediaa SD-kortilta..."</string>
+    <string name="sdcard_settings_scanning_status" product="default" msgid="3297316465982471437">Luetaan mediaa SD-kortilta…</string>
     <string name="sdcard_settings_read_only_status" product="nosdcard" msgid="3444648373391629840">"USB-tila vain luku -tilassa."</string>
     <string name="sdcard_settings_read_only_status" product="default" msgid="4338796260718910164">"SD-kortti vain luku -tilassa."</string>
     <string name="skip_label" msgid="6380034601349015895">"Ohita"</string>
@@ -451,7 +451,9 @@
     <string name="crypt_keeper_encrypt_title" product="default" msgid="8302873664348463041">"Salaa puhelin"</string>
     <string name="crypt_keeper_encrypted_summary" msgid="3866488451639592071">"Salattu"</string>
     <string name="crypt_keeper_desc" product="tablet" msgid="4103951371711323192">"Voit salata tilisi, asetukset, ladatut sovellukset tietoineen, median ja muut tiedostot. Jos olet salannut puhelimesi ja kytkenyt näytön lukituksen (kuvion, PIN-koodin tai salasanan avulla), sinun pitää vapauttaa lukitus salauksen purkamiseksi aina virran kytkemisen jälkeen. Ainoa vaihtoehtoinen tapa poistaa salaus on suorittaa palautus tehdasasetuksiin, jolloin kaikki tiedot katoavat.\n\nSalaaminen kestää ainakin tunnin. Akun täytyy olla alussa ladattu, ja puhelimen pitää olla pistorasiaan kiinnitettynä koko prosessin ajan. Jos keskeytät sen, tiedot häviävät kokonaan tai osittain."</string>
-    <string name="crypt_keeper_desc" product="default" msgid="6180866043921135548">"Voit salata tilisi, asetukset, ladatut sovellukset tietoineen, median ja muut tiedostot. Jos olet salannut puhelimesi ja kytkenyt näytön lukituksen (kuvion, PIN-koodin tai salasanan avulla), sinun pitää vapauttaa lukitus salauksen purkamiseksi aina virran kytkemisen jälkeen. Ainoa vaihtoehtoinen tapa poistaa  salaus on suorittaa palautus tehdasasetuksiin, jolloin kaikki tiedot katoavat.\n\nSalaaminen kestää ainakin tunnin. Akun täytyy olla alussa ladattu, ja puhelimen pitää olla pistorasiaan kiinnitettynä koko prosessin ajan. Jos keskeytät sen, tiedot häviävät kokonaan tai osittain."</string>
+    <string name="crypt_keeper_desc" product="default" msgid="6180866043921135548">Voit salata tilisi, asetukset, ladatut sovellukset tietoineen, median ja muut tiedostot. Kun olet salannut puhelimesi ja kytkenyt näytön lukituksen (kuvion, PIN-koodin tai salasanan avulla), sinun pitää avata lukitus salauksen purkamiseksi aina virran kytkemisen jälkeen. Ainoa vaihtoehtoinen tapa poistaa salaus on suorittaa tehdasasetusten palautus, jolloin kaikki tiedot katoavat.
+\n
+\nSalaaminen saattaa kestää jopa yli tunnin. Aloittaessasi akun täytyy olla ladattu ja laite tulee olla pistorasiaan kytkettynä koko prosessin ajan. Jos keskeytät, tiedot häviävät kokonaan tai osittain</string>
     <string name="crypt_keeper_button_text" product="tablet" msgid="5551608011810921471">"Salaa tabletti"</string>
     <string name="crypt_keeper_button_text" product="default" msgid="6370330929679426136">"Salaa puhelin"</string>
     <string name="crypt_keeper_low_charge_text" msgid="4920087247177024521">"Lataa akku ja yritä uudelleen."</string>
@@ -468,7 +470,7 @@
     <string name="crypt_keeper_setup_time_remaining" product="default" msgid="8556105766597855198">"Odota, puhelimesi salataan. Aikaa jäljellä: <xliff:g id="DURATION">^1</xliff:g>"</string>
     <string name="crypt_keeper_force_power_cycle" product="tablet" msgid="3832496715430327682">"Avaa lukitus käynnistämällä tabletti uudelleen."</string>
     <string name="crypt_keeper_force_power_cycle" product="default" msgid="5070346039522135361">"Avaa lukitus käynnistämällä puhelin uudelleen."</string>
-    <string name="crypt_keeper_warn_wipe" msgid="8104921337301750394">"Varoitus: laite tyhjennetään <xliff:g id="COUNT">^1</xliff:g> epäonnistuneen lukituksenpoistoyrityksen jälkeen!"</string>
+    <string name="crypt_keeper_warn_wipe" msgid="8104921337301750394">Varoitus: Laiteesi tyhjennetään <xliff:g id="COUNT">^1</xliff:g> epäonnistuneen lukituksen avausyrityksen jälkeen! </string>
     <string name="crypt_keeper_enter_password" msgid="1274917431075529732">"Kirjoita salasana"</string>
     <string name="crypt_keeper_failed_title" msgid="8173654570682244149">"Salaus epäonnistui"</string>
     <string name="crypt_keeper_failed_summary" product="tablet" msgid="5977961188966570342">"Salaus keskeytyi, eikä sitä voi suorittaa loppuun. Tästä johtuen tablet-laitteesi tietoja ei voi enää käyttää. \n\nVoit jatkaa tablet-laitteesi käyttöä, kun palautat tehdasasetukset. Kun olet määrittänyt tablet-laitteesi asetukset tehdasasetusten palautuksen jälkeen, voit palauttaa tiedot, jotka olet varmuuskopioinut Google-tiliisi."</string>
@@ -682,7 +684,7 @@
     <string name="bluetooth_connecting_error_message" msgid="3941893154784152112">"Yhteyden muodostaminen laitteeseen <xliff:g id="DEVICE_NAME">%1$s</xliff:g> epäonnistui."</string>
     <string name="bluetooth_preference_scan_title" msgid="3460316252463771851">"Etsi laitteita"</string>
     <string name="bluetooth_search_for_devices" msgid="6516902340975407648">"Päivitä"</string>
-    <string name="bluetooth_searching_for_devices" msgid="6541984133657573124">"Haetaan..."</string>
+    <string name="bluetooth_searching_for_devices" msgid="6541984133657573124">Haetaan…</string>
     <string name="bluetooth_preference_device_settings" msgid="1688662188157019998">"Laiteasetukset"</string>
     <string name="bluetooth_preference_paired_dialog_title" msgid="1090131276572055841">"Laitepari"</string>
     <string name="bluetooth_preference_paired_dialog_internet_option" msgid="4337953030661626289">"Internetyhteys"</string>
@@ -714,7 +716,7 @@
     <string name="bluetooth_unpair_dialog_body" product="device" msgid="5117397433721336918">"<xliff:g id="DEVICE_NAME">%1$s</xliff:g> ei ole enää laitteen pari."</string>
     <string name="bluetooth_untethered_unpair_dialog_body" msgid="1938465582242297905">"<xliff:g id="DEVICE_NAME">%1$s</xliff:g> ei ole enää minkään tähän tiliin linkitetyn laitteen pari"</string>
     <string name="bluetooth_unpair_dialog_forget_confirm_button" msgid="9184489424930549015">"Unohda laite"</string>
-    <string name="bluetooth_connect_specific_profiles_title" msgid="1323072239637864488">"Yhdistä profiiliin..."</string>
+    <string name="bluetooth_connect_specific_profiles_title" msgid="1323072239637864488">Yhdistä…</string>
     <string name="bluetooth_disconnect_a2dp_profile" msgid="339103864166293612">"<xliff:g id="DEVICE_NAME">%1$s</xliff:g> irrotetaan median äänentoistosta."</string>
     <string name="bluetooth_disconnect_headset_profile" msgid="7857706184371154920">"<xliff:g id="DEVICE_NAME">%1$s</xliff:g> irrotetaan handsfree-äänentoistosta."</string>
     <string name="bluetooth_disconnect_hid_profile" msgid="4794752406024916925">"<xliff:g id="DEVICE_NAME">%1$s</xliff:g> irrotetaan syöttölaitteesta."</string>
@@ -1005,7 +1007,7 @@
     <string name="wifi_p2p_device_info" msgid="4304362679971797283">"Laitteen tiedot"</string>
     <string name="wifi_p2p_persist_network" msgid="7942929491568227945">"Muista tämä yhteys"</string>
     <string name="wifi_p2p_menu_search" msgid="8383306178784876840">"Etsi laitteita"</string>
-    <string name="wifi_p2p_menu_searching" msgid="3428767661028761100">"Haetaan..."</string>
+    <string name="wifi_p2p_menu_searching" msgid="3428767661028761100">Haetaan…</string>
     <string name="wifi_p2p_menu_rename" msgid="7059994112737743336">"Nimeä laite uudelleen"</string>
     <string name="wifi_p2p_peer_devices" msgid="5158559154640283546">"Vertaislaitteet"</string>
     <string name="wifi_p2p_remembered_groups" msgid="5497007770930525695">"Muistissa olevat ryhmät"</string>
@@ -1032,8 +1034,8 @@
     <string name="wifi_hotspot_footer_info_local_only" msgid="3813311942370920903">"Sovellukset voivat luoda hotspotin ja jakaa sisältöä lähellä oleville laitteille."</string>
     <string name="wifi_hotspot_auto_off_title" msgid="8855711787485504882">"Laita hotspot pois päältä automaattisesti"</string>
     <string name="wifi_hotspot_auto_off_summary" msgid="8283656069997871354">"Kun laitteita ei ole yhdistettynä"</string>
-    <string name="wifi_tether_starting" msgid="8879874184033857814">"Otetaan yhteyspiste käyttöön..."</string>
-    <string name="wifi_tether_stopping" msgid="4416492968019409188">"Poistetaan yhteyspiste käytöstä..."</string>
+    <string name="wifi_tether_starting" msgid="8879874184033857814">Otetaan yhteyspiste käyttöön…</string>
+    <string name="wifi_tether_stopping" msgid="4416492968019409188">Poistetaan yhteyspiste käytöstä…</string>
     <string name="wifi_tether_enabled_subtext" msgid="5085002421099821056">"<xliff:g id="NETWORK_SSID">%1$s</xliff:g> on aktiivinen"</string>
     <string name="wifi_tether_failed_subtext" msgid="437190628041885500">"Kannettavan Wi-Fi-hotspotin virhe"</string>
     <string name="wifi_tether_configure_ap_text" msgid="7072559431286459122">"Luo Wi-Fi-hotspot"</string>
@@ -1294,7 +1296,7 @@
     <string name="sim_enter_cancel" msgid="2001859323724961490">"Peruuta"</string>
     <string name="sim_multi_sims_title" msgid="4875083890014013296">"SIM-kortteja löytyi useita"</string>
     <string name="sim_multi_sims_summary" msgid="1711012455679332238">"Valitse SIM-kortti mobiilidatan käyttöä varten."</string>
-    <string name="sim_change_data_title" msgid="4663239438584588847">"Käytetäänkö mobiilidataa (<xliff:g id="CARRIER">%1$s</xliff:g>)?"</string>
+    <string name="sim_change_data_title" msgid="4663239438584588847"> Käytetäänkö mobiilidataa (<xliff:g id="CARRIER">%1$s</xliff:g>)\? </string>
     <string name="sim_change_data_message" msgid="3046178883369645132">"Käytät mobiilidataa (<xliff:g id="CARRIER2_0">%2$s</xliff:g>). Jos <xliff:g id="CARRIER1">%1$s</xliff:g> otetaan käyttöön, <xliff:g id="CARRIER2_1">%2$s</xliff:g> ei enää käytä mobiilidataa."</string>
     <string name="sim_change_data_ok" msgid="4922114750417276560">"Valitse <xliff:g id="CARRIER">%1$s</xliff:g>"</string>
     <string name="sim_preferred_title" msgid="7182406911552216373">"Päivitä ensisij. SIM-kortti?"</string>
@@ -1903,7 +1905,7 @@
     <string name="installed" msgid="2837449358488825884">"Asennettu"</string>
     <string name="no_applications" msgid="985069304755391640">"Ei sovelluksia."</string>
     <string name="internal_storage" msgid="999496851424448809">"Sisäinen tallennustila"</string>
-    <string name="recompute_size" msgid="1098091228370999128">"Lasketaan kokoa uudelleen..."</string>
+    <string name="recompute_size" msgid="1098091228370999128">Lasketaan koot uudelleen…</string>
     <string name="clear_data_dlg_title" msgid="180446967743732410">"Poistetaanko sovelluksen tiedot?"</string>
     <string name="clear_data_dlg_text" msgid="1107610960337399006">"Sovelluksen data poistetaan pysyvästi. Tämä koskee tiedostoja, asetuksia, tietokantoja ja muuta sovellusdataa."</string>
     <string name="dlg_ok" msgid="1421350367857960997">"OK"</string>
@@ -1912,7 +1914,7 @@
     <string name="clear_failed_dlg_text" msgid="6866741916836125732">"Sovelluksen tietojen tyhjentäminen tallennustilasta epäonnistui."</string>
     <string name="join_two_items" msgid="7893073836681382429">"<xliff:g id="FIRST_ITEM">%1$s</xliff:g> ja <xliff:g id="SECOND_ITEM">%2$s</xliff:g>"</string>
     <string name="join_two_unrelated_items" msgid="5301233410730513655">"<xliff:g id="FIRST_ITEM">%1$s</xliff:g>, <xliff:g id="SECOND_ITEM">%2$s</xliff:g>"</string>
-    <string name="computing_size" msgid="4915310659841174866">"Lasketaan..."</string>
+    <string name="computing_size" msgid="4915310659841174866">Lasketaan…</string>
     <string name="invalid_size_value" msgid="7017371543563259201">"Paketin koon laskeminen epäonnistui."</string>
     <string name="version_text" msgid="7628938665256107608">"versio <xliff:g id="VERSION_NUM">%1$s</xliff:g>"</string>
     <string name="move_app" msgid="5421158479447276791">"Siirrä"</string>
@@ -2043,7 +2045,7 @@
     <string name="user_dict_settings_context_menu_delete_title" msgid="651550824433043545">"Poista"</string>
     <string name="user_dict_settings_empty_text" msgid="86562873609647919">"Käyttäjän sanakirjassa ei ole sanoja. Lisää sana koskettamalla Lisää (+) ‑painiketta."</string>
     <string name="user_dict_settings_all_languages" msgid="8563387437755363526">"Kaikille kielille"</string>
-    <string name="user_dict_settings_more_languages" msgid="5378870726809672319">"Lisää kieliä..."</string>
+    <string name="user_dict_settings_more_languages" msgid="5378870726809672319">Lisää kieliä…</string>
     <string name="testing" msgid="6294172343766732037">"Testaus"</string>
     <string name="testing_phone_info" product="tablet" msgid="1910768200608214456">"Tablet-laitteen tiedot"</string>
     <string name="testing_phone_info" product="default" msgid="1150527695827743906">"Puhelimen tiedot"</string>
@@ -2682,7 +2684,7 @@
     <string name="backup_inactive_title" msgid="6753265378043349277">"Varmuuskopiointipalvelu ei ole aktiivinen"</string>
     <string name="backup_configure_account_default_summary" msgid="5323225330966306690">"Mikään tili ei tällä hetkellä tallenna varmuuskopioituja tietoja"</string>
     <string name="backup_erase_dialog_message" msgid="2250872501409574331">"Haluatko lopettaa Wi-Fi-salasanojen, kirjanmerkkien, muiden asetuksien ja sovellustietojen varmuuskopioinnin ja poistaa kaikki kopiot Googlen palvelimilta?"</string>
-    <string name="fullbackup_erase_dialog_message" msgid="2379053988557486162">"Lopetetaanko laitteen tietojen (kuten Wi-Fi-salasanojen ja soittohistorian) ja sovellusten tietojen (kuten asetusten ja sovellusten tallentamien tiedostojen) automaattinen varmuuskopiointi? Myös vanhat varmuuskopiot poistetaan etäpalvelimilta."</string>
+    <string name="fullbackup_erase_dialog_message" msgid="2379053988557486162">Lopetetaanko laitteen tietojen (kuten Wi-Fi-salasanojen ja soittohistorian) ja sovellusten tietojen (kuten asetusten ja sovellusten tallentamien tiedostojen) automaattinen varmuuskopiointi\? Myös vanhat varmuuskopiot poistetaan etäpalvelimilta\?</string>
     <string name="fullbackup_data_summary" msgid="971587401251601473">"Varmuuskopioi laitteen tiedot (kuten Wi-Fi-salasanat ja soittohistoria) sekä sovellusten tiedot (kuten asetukset ja sovellusten tallentamat tiedostot) automaattisesti etäyhteyden kautta.\n\nKun otat automaattisen varmuuskopioinnin käyttöön, laitteen ja sovellusten tiedot varmuuskopioidaan säännöllisesti etäyhteyden kautta. Sovellusten tietoihin voi sisältyä mitä tahansa tietoja, joita sovellukset ovat tallentaneet (kehittäjien asetuksien perusteella). Ne saattavat sisältää myös arkaluontoisia tietoja, kuten yhteystietoja, viestejä ja kuvia."</string>
     <string name="device_admin_settings_title" msgid="31392408594557070">"Laitteenhallinnan asetukset"</string>
     <string name="active_device_admin_msg" msgid="7744106305636543184">"Laitteenhallintasovellus"</string>
@@ -2737,7 +2739,7 @@
     <string name="sync_disabled" msgid="1636223106968593391">"Synkronointi ei käyt."</string>
     <string name="sync_error" msgid="846923369794727644">"Synkronointivirhe"</string>
     <string name="last_synced" msgid="1527008461298110443">"Viimeksi synkronoitu: <xliff:g id="LAST_SYNC_TIME">%1$s</xliff:g>"</string>
-    <string name="sync_in_progress" msgid="6200093151211458977">"Synkronoidaan nyt..."</string>
+    <string name="sync_in_progress" msgid="6200093151211458977">Synkronoidaan nyt…</string>
     <string name="settings_backup" msgid="5357973563989458049">"Varmuuskopioi asetukset"</string>
     <string name="settings_backup_summary" msgid="6803046376335724034">"Varmuuskopioi asetukseni"</string>
     <string name="sync_menu_sync_now" msgid="3948443642329221882">"Synkronoi nyt"</string>
@@ -2757,7 +2759,7 @@
     <string name="really_remove_account_title" msgid="253097435885652310">"Poistetaanko tili?"</string>
     <string name="really_remove_account_message" product="tablet" msgid="8893801622174947887">"Poistamalla tämän tilin poistat kaikki sen viestit, yhteystiedot ja muut tiedot tabletista."</string>
     <string name="really_remove_account_message" product="default" msgid="1217810840427479274">"Poistamalla tämän tilin poistat kaikki sen viestit, yhteystiedot ja muut tiedot puhelimesta."</string>
-    <string name="really_remove_account_message" product="device" msgid="5241756807386611084">"Poistamalla tämän tilin poistat kaikki sen viestit, yhteystiedot ja muut tiedot laitteelta."</string>
+    <string name="really_remove_account_message" product="device" msgid="5241756807386611084">Tämän tilin poistaminen poistaa kaikki sen viestit, yhteystiedot ja muut tiedot laitteelta!</string>
     <string name="remove_account_failed" msgid="3709502163548900644">"Järjestelmänvalvoja ei salli tätä muutosta."</string>
     <string name="cant_sync_dialog_title" msgid="2613000568881139517">"Manuaalinen synkronointi epäonnistui"</string>
     <string name="cant_sync_dialog_message" msgid="7612557105054568581">"Tämän kohteen synkronointi on tällä hetkellä pois käytöstä. Voit muuttaa asetuksia ottamalla taustatiedonsiirron ja automaattisen synkronoinnin väliaikaisesti käyttöön."</string>
@@ -3004,7 +3006,7 @@
     <string name="user_confirm_remove_message" msgid="362545924965977597">"Kaikki sovellukset ja tiedot poistetaan."</string>
     <string name="work_profile_confirm_remove_message" msgid="1037294114103024478">"Kaikki tämän profiilin sovellukset ja tiedot poistetaan, jos jatkat."</string>
     <string name="user_profile_confirm_remove_message" msgid="3641289528179850718">"Kaikki sovellukset ja tiedot poistetaan."</string>
-    <string name="user_adding_new_user" msgid="7439602720177181412">"Lisätään uutta käyttäjää..."</string>
+    <string name="user_adding_new_user" msgid="7439602720177181412">Lisätään uutta käyttäjää…</string>
     <string name="user_delete_user_description" msgid="7764153465503821011">"Poista käyttäjä"</string>
     <string name="user_delete_button" msgid="3833498650182594653">"Poista"</string>
     <string name="user_guest" msgid="4545590092001460388">"Vieras"</string>
@@ -3970,7 +3972,7 @@
     <string name="assist_and_voice_input_title" msgid="6317935163145135914">"Avustus ja äänisyöte"</string>
     <string name="default_assist_title" msgid="1182435129627493758">"Digiavustajasovellus"</string>
     <string name="default_digital_assistant_title" msgid="5654663086385490838">"Oletusdigiavustajasovellus"</string>
-    <string name="assistant_security_warning_title" msgid="6444187332360938730">"Haluatko, että <xliff:g id="ASSISTANT_APP_NAME">%s</xliff:g> on avustajasi?"</string>
+    <string name="assistant_security_warning_title" msgid="6444187332360938730"> Haluatko, että <xliff:g id="ASSISTANT_APP_NAME">%s</xliff:g> on avustajasi\? </string>
     <string name="assistant_security_warning" msgid="5623237187748811070">"Assistentti voi lukea tietoja järjestelmässäsi käytössä olevista sovelluksista, mukaan lukien tiedot, jotka näkyvät näytölläsi tai jotka ovat käytettävissä sovelluksissa."</string>
     <string name="assistant_security_warning_agree" msgid="9013334158753473359">"Hyväksyn"</string>
     <string name="assistant_security_warning_disagree" msgid="1539182108068356410">"En hyväksy"</string>
@@ -4767,7 +4769,7 @@
     <string name="mobile_network_use_sim_off" msgid="6303281166199670639">"Pois päältä"</string>
     <string name="mobile_network_disable_sim_explanation" msgid="2851862257846773796">"Poista SIM-kortti, jos haluat poistaa sen käytöstä"</string>
     <string name="mobile_network_tap_to_activate" msgid="4139979375717958102">"Aktivoi <xliff:g id="CARRIER">%1$s</xliff:g> napauttamalla"</string>
-    <string name="mobile_network_esim_swap_confirm_title" msgid="2762744961192218789">"Otetaanko <xliff:g id="CARRIER">%1$s</xliff:g> käyttöön?"</string>
+    <string name="mobile_network_esim_swap_confirm_title" msgid="2762744961192218789"> Otetaanko <xliff:g id="CARRIER">%1$s</xliff:g> käyttöön\? </string>
     <string name="mobile_network_esim_swap_confirm_body" msgid="8168680839542031781">"Vain yksi ladattu SIM-kortti voi olla kerrallaan aktiivinen.\n\nVanhaa palvelua (<xliff:g id="CARRIER2">%2$s</xliff:g>) ei peruuteta, jos <xliff:g id="CARRIER1">%1$s</xliff:g> otetaan käyttöön."</string>
     <string name="mobile_network_esim_swap_confirm_ok" msgid="8695772737522378095">"Vaihda: <xliff:g id="CARRIER">%1$s</xliff:g>"</string>
     <string name="mobile_network_erase_sim" msgid="4629071168032714930">"Tyhjennä SIM-kortti"</string>
