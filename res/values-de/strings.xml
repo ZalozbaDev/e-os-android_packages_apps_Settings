@@ -924,8 +924,8 @@
     <string name="wifi_dpp_connecting" msgid="2312769193202897589">"Verbindung wird hergestellt…"</string>
     <string name="wifi_dpp_share_hotspot" msgid="6186452780604755316">"Hotspot teilen"</string>
     <string name="wifi_dpp_lockscreen_title" msgid="4231438175617953652">"Deine Identität bestätigen"</string>
-    <string name="wifi_dpp_wifi_password" msgid="4992986319806934381">"WLAN-Passwort: <xliff:g id="PASSWORD">%1$s</xliff:g>"</string>
-    <string name="wifi_dpp_hotspot_password" msgid="688464342650820420">"Passwort des Hotspots: <xliff:g id="PASSWORD">%1$s</xliff:g>"</string>
+    <string name="wifi_dpp_wifi_password" msgid="4992986319806934381">WLAN-Passwort: <xliff:g id="password" example="my password">%1$s</xliff:g></string>
+    <string name="wifi_dpp_hotspot_password" msgid="688464342650820420">Passwort des Hotspots: <xliff:g id="password" example="my password">%1$s</xliff:g></string>
     <string name="wifi_auto_connect_title" msgid="1890342051674657892">"Automatische Verbindung"</string>
     <string name="wifi_auto_connect_summary" msgid="1707702705345670370">"Verbindung zulassen, wenn dieses Netzwerk in Reichweite ist"</string>
     <string name="wifi_dpp_add_device" msgid="8695656122114721335">"Gerät hinzufügen"</string>
@@ -964,7 +964,7 @@
     <string name="lost_internet_access_persist" msgid="6813604557672782197">"Nicht mehr anzeigen"</string>
     <string name="wifi_connect" msgid="2481467560349907397">"Verbinden"</string>
     <string name="wifi_turned_on_message" msgid="8069855406962662881">"WLAN ist aktiviert"</string>
-    <string name="wifi_connected_to_message" msgid="8976048616505112896">"Verbunden mit <xliff:g id="NETWORK_NAME">%1$s</xliff:g>"</string>
+    <string name="wifi_connected_to_message" msgid="8976048616505112896">Verbunden mit <xliff:g id="network_name" example="MyNetwork">%1$s</xliff:g></string>
     <string name="wifi_connecting" msgid="7450277833386859724">"Verbinden…"</string>
     <string name="wifi_failed_connect_message" msgid="8538000546604347894">"Netzwerkverbindung konnte nicht hergestellt werden."</string>
     <string name="wifi_not_in_range_message" msgid="3885327464037574739">"Netzwerk außer Reichweite"</string>
