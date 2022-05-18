@@ -14,8 +14,7 @@
      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
      See the License for the specific language governing permissions and
      limitations under the License.
--->
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+--><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <plurals name="show_dev_countdown_cm">
         <item quantity="one">Vous êtes maintenant à <xliff:g id="step_count">%1$d</xliff:g> étape de l\'activation des paramètres de développement.
 Vous êtes maintenant à <xliff:g id="step_count">%1$d</xliff:g> étapes de l\'activation des paramètres de développement.</item>
@@ -113,4 +112,8 @@ Vous êtes maintenant à <xliff:g id="step_count">%1$d</xliff:g> étapes de l\'a
     <string name="backup_transport_title">Sélectionner un fournisseur de sauvegarde</string>
     <string name="fast_charging_title">Charge rapide</string>
     <string name="fast_charging_summary">Désactiver pour réduire la chaleur produite par l\'appareil pendant la charge ou pour prolonger la durée de vie de la batterie</string>
+    <string name="use_ota_staging_popup_message">Cela vous permettra de télécharger et d\'installer des versions de test d\'/e/OS. Ces versions sont instables, et ne doivent être utilisées qu\'à des fins de test. Veuillez accepter que si vous savez ce que vous faites.</string>
+    <string name="use_ota_staging_popup_title">Vous êtes sur le point de vous connecter au canal de test /e/OS</string>
+    <string name="use_ota_summary">Accéder aux versions de test d\'/e/OS</string>
+    <string name="title_ota_server">Connexion au canal de test /e/OS</string>
 </resources>
