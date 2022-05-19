@@ -1270,7 +1270,7 @@
     <string name="automatic_brightness" msgid="4599827881929079513">"Automatische Helligkeit"</string>
     <string name="lift_to_wake_title" msgid="8994218158737714046">"Zum Aktivieren anheben"</string>
     <string name="ambient_display_screen_title" msgid="8615947016991429325">Bildschirm bei Inaktivität</string>
-    <string name="ambient_display_category_triggers" msgid="1216640141609270011">"Wann werden Inhalte angezeigt?"</string>
+    <string name="ambient_display_category_triggers" msgid="1216640141609270011">Wann anzeigen</string>
     <string name="doze_title" msgid="1523090408230862316">Bildschirm bei Benachrichtigungen aktivieren</string>
     <string name="doze_summary" msgid="8252867381522942804">Wenn der Bildschirm inaktiv ist, wird er bei neuen Benachrichtigungen aktiviert</string>
     <string name="doze_always_on_title" msgid="7326245192352868477">"Zeit und Informationen immer anzeigen"</string>
@@ -2796,8 +2796,8 @@
     <string name="settings_backup_summary" msgid="6803046376335724034">"Meine Einstellungen sichern"</string>
     <string name="sync_menu_sync_now" msgid="3948443642329221882">"Jetzt synchronisieren"</string>
     <string name="sync_menu_sync_cancel" msgid="2422994461106269813">"Synchronisierung abbrechen"</string>
-    <string name="sync_one_time_sync" msgid="8114337154112057462">"Tippen, um jetzt zu synchronisieren<xliff:g id="LAST_SYNC_TIME">
-%1$s</xliff:g>"</string>
+    <string name="sync_one_time_sync" msgid="8114337154112057462">Tippen, um jetzt zu synchronisieren <xliff:g id="last_sync_time">
+\n%1$s</xliff:g></string>
     <string name="sync_gmail" msgid="228561698646018808">"Gmail"</string>
     <string name="sync_calendar" msgid="4603704438090387251">"Google Kalender"</string>
     <string name="sync_contacts" msgid="2376465611511325472">"Kontakte"</string>
@@ -3642,16 +3642,20 @@
     <string name="no_notification_listeners" msgid="2839354157349636000">"Keine installierte App hat Benachrichtigungszugriff angefordert."</string>
     <string name="notification_access_detail_switch" msgid="46386786409608330">"Benachrichtigungszugriff erlauben"</string>
     <string name="notification_assistant_security_warning_title" msgid="2972346436050925276">"<xliff:g id="SERVICE">%1$s</xliff:g> Zugriff auf Benachrichtigungen erlauben?"</string>
-    <string name="notification_assistant_security_warning_summary" msgid="7362924206925040510">"<xliff:g id="NOTIFICATION_ASSISTANT_NAME">%1$s</xliff:g> kann alle Benachrichtigungen lesen, darunter auch personenbezogene Daten wie Kontaktnamen und eingehende Nachrichten. Außerdem kann die App Benachrichtigungen schließen oder Schaltflächen in Benachrichtigungen verwenden und so beispielsweise Anrufe entgegennehmen. \n\nZusätzlich wird die App in die Lage versetzt, die \"Bitte nicht stören\"-Funktion zu aktivieren bzw. zu deaktivieren und zugehörige Einstellungen zu ändern."</string>
+    <string name="notification_assistant_security_warning_summary" msgid="7362924206925040510"> <xliff:g id="notification_assistant_name" example="Notification Assistant">%1$s</xliff:g> kann alle Benachrichtigungen lesen, darunter auch personenbezogene Daten wie Kontaktnamen und eingehende Nachrichten. Außerdem kann die App Benachrichtigungen schließen oder Schaltflächen in Benachrichtigungen verwenden und so beispielsweise Anrufe entgegennehmen.
+\n
+\nZusätzlich wird die App in die Lage versetzt, die „Bitte nicht stören“-Funktion zu aktivieren bzw. zu deaktivieren und zugehörige Einstellungen zu ändern. </string>
     <string name="notification_listener_security_warning_title" msgid="5791700876622858363">"Benachrichtigungszugriff für <xliff:g id="SERVICE">%1$s</xliff:g> zulassen?"</string>
-    <string name="notification_listener_security_warning_summary" msgid="1658213659262173405">"<xliff:g id="NOTIFICATION_LISTENER_NAME">%1$s</xliff:g> kann alle Benachrichtigungen lesen, darunter auch personenbezogene Daten wie Kontaktnamen und eingehende Nachrichten. Außerdem kann die App Benachrichtigungen schließen oder Schaltflächen in Benachrichtigungen verwenden und so beispielsweise Anrufe entgegennehmen. \n\nZusätzlich wird die App in die Lage versetzt, die \"Bitte nicht stören\"-Funktion zu aktivieren bzw. zu deaktivieren und zugehörige Einstellungen zu ändern."</string>
-    <string name="notification_listener_disable_warning_summary" msgid="8373396293802088961">"Wenn du den Benachrichtigungszugriff für <xliff:g id="NOTIFICATION_LISTENER_NAME">%1$s</xliff:g> deaktivierst, wird möglicherweise auch der \"Bitte nicht stören\"-Zugriff deaktiviert."</string>
+    <string name="notification_listener_security_warning_summary" msgid="1658213659262173405"> <xliff:g id="notification_listener_name">%1$s</xliff:g> kann alle Benachrichtigungen lesen, darunter auch personenbezogene Daten wie Kontaktnamen und eingehende Nachrichten. Außerdem kann die App Benachrichtigungen schließen oder Schaltflächen in Benachrichtigungen verwenden und so beispielsweise Anrufe entgegennehmen.
+\n
+\nZusätzlich wird die App in die Lage versetzt, die „Bitte nicht stören“-Funktion zu aktivieren bzw. zu deaktivieren und zugehörige Einstellungen zu ändern. </string>
+    <string name="notification_listener_disable_warning_summary" msgid="8373396293802088961"> Wenn du den Benachrichtigungszugriff für <xliff:g id="notification_listener_name">%1$s</xliff:g> deaktivierst, wird möglicherweise auch der „Bitte nicht stören“-Zugriff deaktiviert. </string>
     <string name="notification_listener_disable_warning_confirm" msgid="841492108402184976">"Deaktivieren"</string>
     <string name="notification_listener_disable_warning_cancel" msgid="8802784105045594324">"Abbrechen"</string>
     <string name="vr_listeners_title" msgid="4960357292472540964">"VR-Hilfsdienste"</string>
     <string name="no_vr_listeners" msgid="8442646085375949755">"Keine installierte App hat die Ausführung als VR-Hilfedienst angefordert."</string>
     <string name="vr_listener_security_warning_title" msgid="7026351795627615177">"VR-Dienstzugriff für <xliff:g id="SERVICE">%1$s</xliff:g> erlauben?"</string>
-    <string name="vr_listener_security_warning_summary" msgid="1888843557687017791">"<xliff:g id="VR_LISTENER_NAME">%1$s</xliff:g> kann ausgeführt werden, wenn der Modus für virtuelle Realität für Apps aktiviert wird."</string>
+    <string name="vr_listener_security_warning_summary" msgid="1888843557687017791"> <xliff:g id="vr_listener_name">%1$s</xliff:g> kann ausgeführt werden, wenn der Modus für virtuelle Realität für Apps aktiviert wird. </string>
     <string name="display_vr_pref_title" msgid="4850474436291113569">"Wenn das Gerät im VR-Modus ist"</string>
     <string name="display_vr_pref_low_persistence" msgid="7039841277157739871">"Unschärfe reduzieren (empfohlen)"</string>
     <string name="display_vr_pref_off" msgid="4008841566387432721">"Flimmern reduzieren"</string>
@@ -3888,12 +3892,12 @@
     <string name="zen_mode_end_time_next_day_summary_format" msgid="419683704068360804">"Am nächsten Tag um <xliff:g id="FORMATTED_TIME">%s</xliff:g>"</string>
     <string name="zen_mode_summary_alarms_only_indefinite" msgid="910047326128154945">"Für unbegrenzte Zeit zur Option \"Nur Weckrufe\" wechseln"</string>
     <plurals name="zen_mode_summary_alarms_only_by_minute" formatted="false" msgid="1900512966361163390">
-        <item quantity="other">Für <xliff:g id="DURATION">%1$d</xliff:g> Minuten bis <xliff:g id="FORMATTEDTIME_1">%2$s</xliff:g> zur Option \"Nur Weckrufe\" wechseln</item>
-        <item quantity="one">Für eine Minute bis <xliff:g id="FORMATTEDTIME_0">%2$s</xliff:g> zur Option \"Nur Weckerufe\" wechseln</item>
+        <item quantity="one">Für eine Minute bis <xliff:g id="formattedTime" example="10:00 PM">%2$s</xliff:g> zur Option \"Nur Weckrufe\" wechseln</item>
+        <item quantity="other">Für <xliff:g id="duration" example="2">%1$d</xliff:g> Minuten (bis <xliff:g id="formattedTime" example="10:00 PM">%2$s</xliff:g>) zur Option \"Nur Weckrufe\" wechseln</item>
     </plurals>
     <plurals name="zen_mode_summary_alarms_only_by_hour" formatted="false" msgid="955991428001659124">
-        <item quantity="other">Für <xliff:g id="DURATION">%1$d</xliff:g> Stunden bis <xliff:g id="FORMATTEDTIME_1">%2$s</xliff:g> zur Option \"Nur Weckrufe\" wechseln</item>
-        <item quantity="one">Für eine Stunde bis <xliff:g id="FORMATTEDTIME_0">%2$s</xliff:g> zur Option \"Nur Weckrufe\" wechseln</item>
+        <item quantity="one">Für eine Stunde bis <xliff:g id="formattedTime" example="10:00 PM">%2$s</xliff:g> zur Option \"Nur Weckrufe\" wechseln</item>
+        <item quantity="other">Für <xliff:g id="duration" example="2">%1$d</xliff:g> Stunden (bis <xliff:g id="formattedTime" example="10:00 PM">%2$s</xliff:g>) zur Option \"Nur Weckrufe\" wechseln</item>
     </plurals>
     <string name="zen_mode_summary_alarms_only_by_time" msgid="8140619669703968810">"Bis <xliff:g id="FORMATTEDTIME">%1$s</xliff:g> zur Option \"Nur Weckrufe\" wechseln"</string>
     <string name="zen_mode_summary_always" msgid="722093064250082317">"Zur Option \"Immer unterbrechen\" wechseln"</string>
@@ -4030,7 +4034,7 @@
     <string name="assist_and_voice_input_title" msgid="6317935163145135914">"Assistent &amp; Spracheingabe"</string>
     <string name="default_assist_title" msgid="1182435129627493758">"App für digitalen Assistenten"</string>
     <string name="default_digital_assistant_title" msgid="5654663086385490838">"Standardapp für digitalen Assistenten"</string>
-    <string name="assistant_security_warning_title" msgid="6444187332360938730">"<xliff:g id="ASSISTANT_APP_NAME">%s</xliff:g> als Assistenten festlegen?"</string>
+    <string name="assistant_security_warning_title" msgid="6444187332360938730"> <xliff:g id="assistant_app_name">%s</xliff:g> als Assistenten festlegen\? </string>
     <string name="assistant_security_warning" msgid="5623237187748811070">"Der Assistent kann Informationen zu Apps abrufen, die du auf deinem System verwendest, einschließlich Informationen, die auf deinem Bildschirm angezeigt werden oder die in Apps zugänglich sind."</string>
     <string name="assistant_security_warning_agree" msgid="9013334158753473359">"Zustimmen"</string>
     <string name="assistant_security_warning_disagree" msgid="1539182108068356410">"Nicht zustimmen"</string>
@@ -4064,7 +4068,7 @@
     <string name="hide_extra_apps" msgid="7313907836289865123">"App-Nutzung anzeigen"</string>
     <plurals name="power_high_usage_summary" formatted="false" msgid="573433136005336970">
         <item quantity="one"><xliff:g id="app">%1$s</xliff:g> funktioniert nicht wie gewohnt</item>
-        <item quantity="other"><xliff:g id="number"/> Apps funktionieren nicht wie gewohnt</item>
+        <item quantity="other"><xliff:g id="number">%2$d</xliff:g> Apps funktionieren nicht wie gewohnt</item>
     </plurals>
     <plurals name="power_high_usage_title" formatted="false" msgid="8013115866788425817">
         <item quantity="one"><xliff:g id="app">%1$s</xliff:g> belastet den Akku</item>
@@ -4147,7 +4151,7 @@
     <string name="memory_usage_apps" msgid="5776108502569850579">"Von Apps verbrauchter Speicher"</string>
     <plurals name="memory_usage_apps_summary" formatted="false" msgid="1355637088533572208">
         <item quantity="one">1 App hat Speicher in den letzten <xliff:g id="duration" example="3 hours">%2$s</xliff:g> genutzt.</item>
-        <item quantity="other"><xliff:g id="count" example="10"/> Apps haben Speicher in den letzten <xliff:g id="duration" example="3 hours">%2$s</xliff:g> genutzt.</item>
+        <item quantity="other"><xliff:g id="count" example="10">%1$d</xliff:g> Apps haben Speicher in den letzten <xliff:g id="duration" example="3 hours">%2$s</xliff:g> genutzt.</item>
     </plurals>
     <string name="running_frequency" msgid="7260225121706316639">"Häufigkeit"</string>
     <string name="memory_maximum_usage" msgid="2047013391595835607">"Maximaler Verbrauch"</string>
