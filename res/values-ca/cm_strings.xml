@@ -14,8 +14,7 @@
      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
      See the License for the specific language governing permissions and
      limitations under the License.
--->
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+--><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <plurals name="show_dev_countdown_cm">
         <item quantity="one">Ara ets a <xliff:g id="step_count">%1$d</xliff:g> pas d\'habilitar les configuracions de desenvolupament.</item>
         <item quantity="other">Ara ets a <xliff:g id="step_count">%1$d</xliff:g> passos d\'habilitar les configuracions de desenvolupament.</item>
@@ -112,4 +111,13 @@
     <string name="backup_transport_title">Trieu un proveïdor de còpia de seguretat</string>
     <string name="fast_charging_title">Càrrega ràpida</string>
     <string name="fast_charging_summary">Desactiveu-lo per reduir la calor produïda pel dispositiu mentre es carrega o per ampliar la vida útil de la bateria</string>
+    <string name="lineageos_contributors_title">Col·laboradors a LineageOS</string>
+    <string name="e_supporters_title">Donen suport a /e/</string>
+    <string name="e_contributors_title">Col·laboradors a /e/</string>
+    <string name="elicense_title">Termes legals del projecte /e/</string>
+    <string name="use_ota_summary">Accedeix a versions de prova d\'/e/OS</string>
+    <string name="use_ota_staging_popup_message">Et permetrà descarregar i instal·lar versions experimentals d\'/e/OS. Poden ser inestables, i fins i tot ocasionar pèrdua de dades. Per això es recomanen només en telèfons de prova.
+\nSi et plau, activa aquesta opció només si saps què estàs fent.</string>
+    <string name="use_ota_staging_popup_title">Ets a punt d\'activar el canal de proves d\'/e/OS</string>
+    <string name="title_ota_server">Utilitza el canal de proves /e/OS</string>
 </resources>
