@@ -14,8 +14,7 @@
      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
      See the License for the specific language governing permissions and
      limitations under the License.
--->
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+--><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <plurals name="show_dev_countdown_cm">
         <item quantity="one">Ahora estás a <xliff:g id="step_count">%1$d</xliff:g> paso de habilitar las opciones de desarrollo.</item>
         <item quantity="other">Ahora estás a <xliff:g id="step_count">%1$d</xliff:g> pasos de habilitar las opciones de desarrollo.</item>
@@ -80,4 +79,8 @@
     <string name="backup_transport_title">Seleccionar el proveedor de la copia de seguridad</string>
     <string name="connected_tws_device_saved_title">Auriculares guardados</string>
     <string name="peak_refresh_rate_summary_custom">Aumenta automáticamente la frecuencia de actualización de 60 a %1$d Hz en determinados tipos de contenido. Se usará más batería.</string>
+    <string name="use_ota_staging_popup_message">Le permitirá descargar e instalar versiones experimentales de /e/OS, que pueden ser inestables e incluso ocasionar pérdidas de datos. Por favor, acepta sólo si sabes lo que estás haciendo.</string>
+    <string name="use_ota_staging_popup_title">Estás a punto de activar el canal de pruebas de /e/OS</string>
+    <string name="use_ota_summary">Accede a versiones de prueba de /e/OS</string>
+    <string name="title_ota_server">Accede al canal de pruebas de /e/OS</string>
 </resources>
