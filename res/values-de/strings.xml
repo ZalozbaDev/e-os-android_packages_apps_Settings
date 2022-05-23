@@ -1500,26 +1500,41 @@
     <string name="storage_wizard_init_internal_title" msgid="3256355049992147270">"Als internen Speicher verwenden"</string>
     <string name="storage_wizard_init_internal_summary" msgid="2283798331883929674">"Zum Speichern deiner Daten wie Apps und Fotos nur auf diesem Gerät. Eine Formatierung ist erforderlich. Dadurch kann das Speichermedium nicht mit anderen Geräten verwendet werden."</string>
     <string name="storage_wizard_format_confirm_title" msgid="4898014527956178762">"Als internen Speicher formatieren"</string>
-    <string name="storage_wizard_format_confirm_body" msgid="5514665245241830772">"Um die Sicherheit zu gewährleisten, muss die <xliff:g id="NAME_0">^1</xliff:g> zuerst formatiert werden. \n\nDanach ist die <xliff:g id="NAME_1">^1</xliff:g> ausschließlich für dieses Gerät formatiert und funktioniert nicht mit anderen Geräten. \n\n"<b>"Durch die Formatierung werden alle derzeit auf der <xliff:g id="NAME_2">^1</xliff:g> gespeicherten Daten gelöscht."</b>" Um den Verlust von Daten zu verhindern, sichere sie vor der Formatierung."</string>
+    <string name="storage_wizard_format_confirm_body" msgid="5514665245241830772">Um die Sicherheit zu gewährleisten, muss die <xliff:g id="name" example="SD card">^1</xliff:g> zuerst formatiert werden.
+\n
+\nDanach ist die <xliff:g id="name" example="SD card">^1</xliff:g> ausschließlich für dieses Gerät formatiert und funktioniert nicht mit anderen Geräten.
+\n
+\n<b>Durch die Formatierung werden alle derzeit auf der <xliff:g id="name" example="SD card">^1</xliff:g> gespeicherten Daten gelöscht.</b> Um den Verlust von Daten zu verhindern, sichere sie vor der Formatierung. </string>
     <string name="storage_wizard_format_confirm_public_title" msgid="649252654496577680">"Als tragbaren Speicher formatieren"</string>
-    <string name="storage_wizard_format_confirm_public_body" msgid="6219883780307218266">"Hierzu muss die <xliff:g id="NAME_0">^1</xliff:g> formatiert werden. \n\n"<b>"Durch die Formatierung werden alle derzeit auf der <xliff:g id="NAME_1">^1</xliff:g> gespeicherten Daten gelöscht."</b>" Um den Verlust von Daten zu verhindern, sichere sie vor der Formatierung."</string>
+    <string name="storage_wizard_format_confirm_public_body" msgid="6219883780307218266">Hierzu muss die <xliff:g id="name" example="SD card">^1</xliff:g> formatiert werden.
+\n
+\n<b>Durch die Formatierung werden alle derzeit auf der <xliff:g id="name" example="SD card">^1</xliff:g> gespeicherten Daten gelöscht.</b> Um den Verlust von Daten zu verhindern, sichere sie vor der Formatierung. </string>
     <string name="storage_wizard_format_confirm_next" msgid="4412063054982084056">"Löschen und formatieren"</string>
-    <string name="storage_wizard_format_progress_title" msgid="9170393018855949774">"<xliff:g id="NAME">^1</xliff:g> wird formatiert…"</string>
-    <string name="storage_wizard_format_progress_body" msgid="1044024044955390417">"Entferne das Speichergerät (<xliff:g id="NAME">^1</xliff:g>) nicht, solange die Formatierung nicht abgeschlossen ist."</string>
+    <string name="storage_wizard_format_progress_title" msgid="9170393018855949774"><xliff:g id="name" example="SD card">^1</xliff:g> wird formatiert …</string>
+    <string name="storage_wizard_format_progress_body" msgid="1044024044955390417">Entferne <xliff:g id="name" example="SD card">^1</xliff:g> nicht, solange die Formatierung nicht abgeschlossen ist.</string>
     <string name="storage_wizard_migrate_title" msgid="3013711737005104623">"Daten in neuen Speicher verschieben"</string>
-    <string name="storage_wizard_migrate_body" msgid="1630853797296198275">"Du kannst deine Fotos, Dateien und manche Apps jetzt auf den neuen Datenträger <xliff:g id="NAME">^1</xliff:g> verschieben.\n\nDieser Vorgang dauert etwa <xliff:g id="TIME">^2</xliff:g>. Dabei wird <xliff:g id="SIZE">^3</xliff:g> interner Speicherplatz freigegeben. Einige Apps funktionieren während des Vorgangs nicht."</string>
+    <string name="storage_wizard_migrate_body" msgid="1630853797296198275">Du kannst deine Fotos, Dateien und manche Apps jetzt auf den neuen Datenträger <xliff:g id="name" example="SD card">^1</xliff:g> verschieben.
+\n
+\nDieser Vorgang dauert etwa <xliff:g id="time" example="1 hour">^2</xliff:g>. Dabei wird <xliff:g id="size" example="1.2 GB">^3</xliff:g> interner Speicherplatz freigegeben. Einige Apps funktionieren während des Vorgangs nicht. </string>
     <string name="storage_wizard_migrate_now" msgid="175023718337037181">"Jetzt verschieben"</string>
     <string name="storage_wizard_migrate_later" msgid="6573789572520980112">"Später verschieben"</string>
     <string name="storage_wizard_migrate_confirm_title" msgid="255346780598924540">"Daten jetzt verschieben"</string>
-    <string name="storage_wizard_migrate_confirm_body" msgid="5039938578355576124"><b>"Das Verschieben dauert etwa <xliff:g id="TIME">^1</xliff:g>. Dabei werden <xliff:g id="SIZE">^2</xliff:g> auf <xliff:g id="NAME">^3</xliff:g> freigegeben."</b></string>
+    <string name="storage_wizard_migrate_confirm_body" msgid="5039938578355576124"><b>Das Verschieben dauert etwa <xliff:g id="time" example="1 hour">^1</xliff:g>. Dabei werden <xliff:g id="size" example="1.2 GB">^2</xliff:g> auf <xliff:g id="name" example="Internal storage">^3</xliff:g> freigegeben.</b></string>
     <string name="storage_wizard_migrate_confirm_next" msgid="217478540562501692">"Verschieben"</string>
     <string name="storage_wizard_migrate_progress_title" msgid="462238335086734131">"Daten werden verschoben…"</string>
-    <string name="storage_wizard_migrate_details" msgid="7474061662976940407">"Beachte beim Verschieben deiner Daten Folgendes: \n• Entferne nicht den Datenspeicher (<xliff:g id="NAME">^1</xliff:g>). \n• Einige Apps funktionieren eventuell nicht. \n• Achte darauf, dass das Gerät dabei immer geladen wird."</string>
-    <string name="storage_wizard_ready_title" msgid="3093468548660255543">"<xliff:g id="NAME">^1</xliff:g> kann nun verwendet werden"</string>
-    <string name="storage_wizard_ready_external_body" msgid="45040717412844114">"Du kannst deine <xliff:g id="NAME">^1</xliff:g> nun zum Speichern von Fotos und anderen Medien einsetzen."</string>
-    <string name="storage_wizard_ready_internal_body" msgid="7734817996475607447">"Deine neue <xliff:g id="NAME">^1</xliff:g> steht nun für dich bereit. \n\nWenn du Fotos, Dateien und App-Daten auf dieses Gerät verschieben möchtest, gehe zu \"Einstellungen\" &gt; \"Speicher\"."</string>
-    <string name="storage_wizard_move_confirm_title" msgid="6812469630804101590">"<xliff:g id="APP">^1</xliff:g> verschieben"</string>
-    <string name="storage_wizard_move_confirm_body" msgid="1713022828842263574">"Das Verschieben von <xliff:g id="APP">^1</xliff:g> und der entsprechenden Daten auf die <xliff:g id="NAME_0">^2</xliff:g> dauert nur einen Moment. Du kannst die App erst wieder verwenden, nachdem sie vollständig verschoben wurde. \n\nEntferne die <xliff:g id="NAME_1">^2</xliff:g> während des Vorgangs nicht."</string>
+    <string name="storage_wizard_migrate_details" msgid="7474061662976940407">Beachte beim Verschieben deiner Daten Folgendes:
+\n• Entferne <xliff:g id="name" example="SD card">^1</xliff:g> nicht.
+\n• Einige Apps funktionieren eventuell währenddessen nicht.
+\n• Achte darauf, dass das Gerät dabei immer aufgeladen ist. </string>
+    <string name="storage_wizard_ready_title" msgid="3093468548660255543"><xliff:g id="name" example="SD card">^1</xliff:g> kann nun verwendet werden</string>
+    <string name="storage_wizard_ready_external_body" msgid="45040717412844114">Du kannst deine <xliff:g id="name" example="SD card">^1</xliff:g> nun zum Speichern von Fotos und anderen Medien einsetzen.</string>
+    <string name="storage_wizard_ready_internal_body" msgid="7734817996475607447">Deine neue <xliff:g id="name" example="SD card">^1</xliff:g> steht nun für dich bereit.
+\n
+\nWenn du Fotos, Dateien und App-Daten auf dieses Gerät verschieben möchtest, gehe zu Einstellungen &gt; Speicher. </string>
+    <string name="storage_wizard_move_confirm_title" msgid="6812469630804101590"><xliff:g id="app" example="Calculator">^1</xliff:g> verschieben</string>
+    <string name="storage_wizard_move_confirm_body" msgid="1713022828842263574">Das Verschieben von <xliff:g id="app" example="Calculator">^1</xliff:g> und der entsprechenden Daten auf <xliff:g id="name" example="SD card">^2</xliff:g> dauert nur einen Moment. Du kannst die App erst wieder verwenden, nachdem sie vollständig verschoben wurde.
+\n
+\nEntferne die <xliff:g id="name" example="SD card">^2</xliff:g> während des Vorgangs nicht. </string>
     <string name="storage_wizard_move_unlock" msgid="14651384927767749">"Um Daten zu verschieben, muss erst <xliff:g id="APP">^1</xliff:g> entsperrt werden."</string>
     <string name="storage_wizard_move_progress_title" msgid="3912406225614672391">"<xliff:g id="APP">^1</xliff:g> wird verschoben…"</string>
     <string name="storage_wizard_move_progress_body" msgid="2396714553394935094">"Entferne die <xliff:g id="NAME">^1</xliff:g> während des Vorgangs nicht. \n\nDie App <xliff:g id="APP">^2</xliff:g> auf diesem Gerät ist erst wieder verfügbar, nachdem sie vollständig verschoben wurde."</string>
@@ -1552,12 +1567,18 @@
     <string name="storage_wizard_migrate_v2_later" msgid="6067756122853315642">"Inhalte später verschieben"</string>
     <string name="storage_wizard_migrate_progress_v2_title" msgid="8791318509516968103">"Inhalte werden verschoben…"</string>
     <string name="storage_wizard_slow_v2_title" msgid="3760766921170980221">"Langsames Speichergerät (<xliff:g id="NAME">^1</xliff:g>)"</string>
-    <string name="storage_wizard_slow_v2_body" msgid="7604252106419016929">"Du kannst <xliff:g id="NAME_0">^1</xliff:g> weiterhin verwenden, aber die Arbeitsgeschwindigkeit ist möglicherweise beeinträchtigt. \n\nDie auf dem Speichergerät (<xliff:g id="NAME_1">^2</xliff:g>) gespeicherten Apps funktionieren möglicherweise nicht korrekt und das Übertragen von Inhalten kann sehr lange dauern. \n\nVersuche, ein schnelleres Speichergerät (<xliff:g id="NAME_2">^3</xliff:g>) zu verwenden oder verwende stattdessen das Speichergerät (<xliff:g id="NAME_3">^4</xliff:g>) als mobilen Speicher."</string>
+    <string name="storage_wizard_slow_v2_body" msgid="7604252106419016929">Du kannst<xliff:g id="name" example="SanDisk SD card">^1</xliff:g> weiterhin verwenden, aber die Arbeitsgeschwindigkeit ist möglicherweise beeinträchtigt.
+\n
+\nDie auf <xliff:g id="name" example="SD card">^2</xliff:g> gespeicherten Apps funktionieren möglicherweise nicht korrekt und das Übertragen von Inhalten kann sehr lange dauern.
+\n
+\nVersuche, eine schnellere <xliff:g id="name" example="SD card">^3</xliff:g> zu verwenden oder verwende die <xliff:g id="name" example="SD card">^4</xliff:g> als mobilen Speicher.</string>
     <string name="storage_wizard_slow_v2_start_over" msgid="1806852287668077536">"Neu starten"</string>
     <string name="storage_wizard_slow_v2_continue" msgid="7469713755893007901">"Weiter"</string>
-    <string name="storage_wizard_ready_v2_external_body" msgid="3896836008684280905">"Verschieben von Inhalten auf Speichergerät (<xliff:g id="NAME">^1</xliff:g>) möglich"</string>
-    <string name="storage_wizard_ready_v2_internal_body" msgid="5710665992219332454">"Um Inhalte auf das Speichergerät (<xliff:g id="NAME">^1</xliff:g>) zu verschieben, gehe zu "<b>"Einstellungen &gt; Speicher"</b></string>
-    <string name="storage_wizard_ready_v2_internal_moved_body" msgid="1269878056598666852">"Deine Inhalte wurden auf das Speichergerät (<xliff:g id="NAME_0">^1</xliff:g>) verschoben. \n\nUm das Speichergerät (<xliff:g id="NAME_1">^2</xliff:g>) zu verwalten, gehe zu "<b>"Einstellungen &gt; Speicher"</b>"."</string>
+    <string name="storage_wizard_ready_v2_external_body" msgid="3896836008684280905">Verschieben von Inhalten auf <xliff:g id="name" example="SanDisk SD card">^1</xliff:g> möglich</string>
+    <string name="storage_wizard_ready_v2_internal_body" msgid="5710665992219332454">Um Inhalte auf <xliff:g id="name" example="SanDisk SD card">^1</xliff:g> zu verschieben, gehe zu <b>Einstellungen &gt; Speicher</b></string>
+    <string name="storage_wizard_ready_v2_internal_moved_body" msgid="1269878056598666852">Deine Inhalte wurden auf <xliff:g id="name" example="SanDisk SD card">^1</xliff:g>) verschoben.
+\n
+\nUm <xliff:g id="name" example="SD card">^2</xliff:g> zu verwalten, gehe zu <b>Einstellungen &gt; Speicher</b>.</string>
     <string name="battery_status_title" msgid="4661768220545945771">"Akkustatus"</string>
     <string name="battery_level_title" msgid="1371765298786083448">"Akkustand"</string>
     <string name="apn_settings" msgid="4295467389400441299">APNs</string>
@@ -2141,14 +2162,14 @@
     <string name="accessibility_screen_magnification_gestures_title" msgid="3121714118381882167">"Dreimal tippen zum Vergrößern"</string>
     <string name="accessibility_screen_magnification_navbar_title" msgid="480853328665484528">"Mit Tastenkombination vergrößern"</string>
     <string name="accessibility_screen_magnification_state_navbar_gesture" msgid="8067042663897802231">"Mit Tastenkombination und 3-mal Tippen vergrößern"</string>
-    <string name="accessibility_introduction_title" msgid="8834950581512452348">"Über <xliff:g id="SERVICE">%1$s</xliff:g>"</string>
+    <string name="accessibility_introduction_title" msgid="8834950581512452348">Über <xliff:g id="service" example="Select to Speak">%1$s</xliff:g></string>
     <string name="accessibility_screen_option" msgid="8465307075278878145">"Optionen"</string>
     <string name="accessibility_preference_magnification_summary" msgid="2875518904115896888">"Auf dem Bildschirm heranzoomen"</string>
     <string name="accessibility_screen_magnification_short_summary" msgid="2207048420669939150">"Zum Zoomen dreimal tippen"</string>
     <string name="accessibility_screen_magnification_navbar_short_summary" msgid="4885018322430052037">"Zum Zoomen auf eine Schaltfläche tippen"</string>
     <string name="accessibility_screen_magnification_summary" msgid="2023126829553044999">Du kannst auf den Bildschirm schnell heranzoomen, um Inhalte besser zu sehen.<br/><br/><b>So zoomst du heran:</b><br/> 1. Starte die Vergrößerung über die Verknüpfung<br/> 2. Tippe auf den Bildschirm<br/> 3. Ziehe zwei Finger entlang des Bildschirms, um dich darauf zu bewegen<br/> 4. Ziehe zwei Finger auseinander oder zusammen, um den Zoom anzupassen<br/> 5. Beende die Vergrößerung über die Verknüpfung<br/><br/><b>So zoomst du vorübergehend heran:</b><br/> 1. Starte die Vergrößerung über die Verknüpfung<br/> 2. Halte eine beliebige Stelle auf den Bildschirm gedrückt<br/> 3. Ziehe den Finger entlang des Bildschirms, um dich darauf zu bewegen<br/> 4. Hebe den Finger, um die Vergrößerung zu beenden</string>
     <string name="accessibility_screen_magnification_navbar_summary" msgid="807985499898802296">"Wenn die Vergrößerung aktiviert ist, kannst du Elemente auf dem Bildschirm heranzoomen.\n\n"<b>"Wenn du zoomen möchtest"</b>", starte die Vergrößerung und tippe dann auf eine beliebige Stelle auf dem Bildschirm.\n"<ul><li>"Zum Scrollen ziehe mit zwei oder mehr Fingern"</li>\n<li>"Zum Anpassen des Zooms ziehe zwei oder mehr Finger zusammen bzw. auseinander"</li></ul>\n\n<b>"Wenn du vorübergehend heranzoomen möchtest"</b>", starte die Vergrößerung und tippe dann auf eine beliebige Stelle auf dem Bildschirm und halte sie gedrückt.\n"<ul><li>"Wenn du dich im Bildschirm bewegen möchtest, ziehe den Bildschirm"</li>\n<li>"Zum Herauszoomen hebe den Finger"</li></ul>\n\n"In die Tastatur oder Navigationsleiste kann nicht hineingezoomt werden."</string>
-    <string name="accessibility_tutorial_pager" msgid="8461939455728454061">"Seite <xliff:g id="CURRENT_PAGE">%1$d</xliff:g> von <xliff:g id="NUM_PAGES">%2$d</xliff:g>"</string>
+    <string name="accessibility_tutorial_pager" msgid="8461939455728454061">Seite &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" id=\"current_page\" example=\"2\"&gt;%1$d&lt;/xliff:g&gt; von &lt;&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" id=\"num_pages\" example=\"3\"&gt;%2$d&lt;/xliff:g&gt;</string>
     <string name="accessibility_tutorial_dialog_title_button" msgid="4681164949716215131">"Zum Öffnen Schaltfläche \"Bedienungshilfen\" nutzen"</string>
     <string name="accessibility_tutorial_dialog_title_volume" msgid="494810949830845234">"Zum Öffnen die Lautstärketasten gedrückt halten"</string>
     <string name="accessibility_tutorial_dialog_title_triple" msgid="7089562919284464400">Zum Öffnen dreimal auf den Bildschirm tippen</string>
@@ -2172,7 +2193,7 @@
 \n
 \nWenn du zwischen den Funktionen wechseln möchtest, wische mit drei Fingern über den Bildschirm nach oben und halte.</string>
     <string name="accessibility_tutorial_dialog_button" msgid="2031773187678948436">"OK"</string>
-    <string name="accessibility_shortcut_title" msgid="8125867833704517463">"Verknüpfung für \"<xliff:g id="SERVICE">%1$s</xliff:g>\""</string>
+    <string name="accessibility_shortcut_title" msgid="8125867833704517463">Verknüpfung für <xliff:g id="service" example="Select to Speak">%1$s</xliff:g></string>
     <string name="accessibility_shortcut_edit_summary_software" msgid="6405629977940618205">"Schaltfläche \"Bedienungshilfen\""</string>
     <string name="accessibility_shortcut_edit_dialog_title_software_gesture" msgid="8078659880723370597">"Mit zwei Fingern nach oben wischen"</string>
     <string name="accessibility_shortcut_edit_dialog_title_software_gesture_talkback" msgid="7422753388389160524">"Mit drei Fingern nach oben wischen"</string>
@@ -2194,7 +2215,7 @@
     <string name="accessibility_shortcut_edit_dialog_summary_triple_tap" msgid="3081710523998838305">"Tippe schnell dreimal hintereinander auf den Bildschirm. Durch diese Verknüpfung kann dein Gerät langsamer werden."</string>
     <string name="accessibility_shortcut_edit_dialog_title_advance" msgid="4567868630655591506">"Erweitert"</string>
     <string name="accessibility_screen_magnification_navbar_configuration_warning" msgid="266736851606791552">Die Schaltfläche für die Bedienungshilfen ist auf <xliff:g id="service" example="Select to Speak">%1$s</xliff:g> gestellt. Um die Vergrößerung nutzen zu können, tippe &amp; halte die Schaltfläche für die Bedienungshilfen gedrückt und wähle anschließend „Vergrößerung“ aus.</string>
-    <string name="accessibility_screen_magnification_gesture_navigation_warning" msgid="991017769735632046">"Die Touch-Geste für die Bedienungshilfen ist auf den Dienst \"<xliff:g id="SERVICE">%1$s</xliff:g>\" eingestellt. Wenn du die Vergrößerung verwenden möchtest, wische mit zwei Fingern vom unteren Bildschirmrand nach oben und halte den Bildschirm gedrückt. Wähle dann \"Vergrößerung\" aus."</string>
+    <string name="accessibility_screen_magnification_gesture_navigation_warning" msgid="991017769735632046">Die Geste für die Bedienungshilfen ist auf den Dienst <xliff:g id="service" example="Select to Speak">%1$s</xliff:g> eingestellt. Wenn du die Vergrößerung verwenden möchtest, wische mit zwei Fingern vom unteren Bildschirmrand nach oben und halte den Bildschirm gedrückt. Wähle dann „Vergrößerung“ aus.</string>
     <string name="accessibility_global_gesture_preference_title" msgid="3713636732641882959">"Verknüpfung für Lautstärketaste"</string>
     <string name="accessibility_shortcut_service_title" msgid="6842883700702723355">"Verknüpfter Dienst"</string>
     <string name="accessibility_shortcut_settings" msgid="836783442658447995">"Einstellungen für Verknüpfungen"</string>
@@ -2240,13 +2261,13 @@
     <string name="accessibility_notification_vibration_title" msgid="6205679908785776478">"Vibration bei Benachrichtigungseingang"</string>
     <string name="accessibility_ring_vibration_title" msgid="4689811297654320885">"Vibration bei Klingeln"</string>
     <string name="accessibility_touch_vibration_title" msgid="533931451319110741">"Haptisches Feedback"</string>
-    <string name="accessibility_service_master_switch_title" msgid="3001666897585097640">"<xliff:g id="ACCESSIBILITY_APP_NAME">%1$s</xliff:g> verwenden"</string>
-    <string name="accessibility_service_master_open_title" msgid="7437956750557583681">"\"<xliff:g id="ACCESSIBILITY_APP_NAME">%1$s</xliff:g>\" öffnen"</string>
+    <string name="accessibility_service_master_switch_title" msgid="3001666897585097640"><xliff:g id="accessibility_app_name" example="TalkBack">%1$s</xliff:g> verwenden</string>
+    <string name="accessibility_service_master_open_title" msgid="7437956750557583681"><xliff:g id="accessibility_app_name" example="TalkBack">%1$s</xliff:g> öffnen</string>
     <string name="accessibility_daltonizer_master_switch_title" msgid="3580563017377754890">"Farbkorrektur aktivieren"</string>
     <string name="accessibility_caption_master_switch_title" msgid="3821125170899547375">"Untertitel anzeigen"</string>
     <string name="accessibility_caption_master_switch_summary" msgid="4908774362453838764">"Nur für unterstützte Apps"</string>
     <string name="captioning_caption_appearance_title" msgid="4501313548541670063">"Untertitelgröße und -stil"</string>
-    <string name="captioning_caption_appearance_summary" msgid="7340741178479381312">"Textgröße: <xliff:g id="ACCESSIBILITY_FONT_SIZE">%1$s</xliff:g>"</string>
+    <string name="captioning_caption_appearance_summary" msgid="7340741178479381312">Textgröße: <xliff:g id="accessibility_font_size" example="Large">%1$s</xliff:g></string>
     <string name="captioning_more_options_title" msgid="3484496882942539652">"Weitere Optionen"</string>
     <string name="accessibility_caption_preference_summary" msgid="1191356970836416954">"Diese Einstellungen für Untertitel werden nicht von allen Apps unterstützt."</string>
     <string name="accessibility_shortcut_type_software" msgid="2552732582767687515">"Schaltfläche \"Bedienungshilfen\""</string>
@@ -2278,22 +2299,22 @@
     <string name="daltonizer_mode_protanomaly_summary" msgid="482834207025141433">"Rot-Grün-Sehschwäche"</string>
     <string name="daltonizer_mode_tritanomaly_summary" msgid="2837137091067433059">"Blau-Gelb-Sehschwäche"</string>
     <plurals name="accessibilty_autoclick_preference_subtitle_short_delay" formatted="false" msgid="5354221071353645263">
-        <item quantity="other">Kurz (<xliff:g id="CLICK_DELAY_LABEL_1">%1$s</xliff:g> Sekunden)</item>
-        <item quantity="one">Kurz (<xliff:g id="CLICK_DELAY_LABEL_0">%1$s</xliff:g> Sekunde)</item>
+        <item quantity="one">Kurz (<xliff:g id="click_delay_label" example="200">%1$s</xliff:g> Sekunde)</item>
+        <item quantity="other">Kurz (<xliff:g id="click_delay_label" example="200">%1$s</xliff:g> Sekunden)</item>
     </plurals>
     <plurals name="accessibilty_autoclick_preference_subtitle_medium_delay" formatted="false" msgid="1550891909800510628">
-        <item quantity="other">Mittel (<xliff:g id="CLICK_DELAY_LABEL_1">%1$s</xliff:g> Sekunden)</item>
-        <item quantity="one">Mittel (<xliff:g id="CLICK_DELAY_LABEL_0">%1$s</xliff:g> Sekunde)</item>
+        <item quantity="one">Mittel (<xliff:g id="click_delay_label" example="200">%1$s</xliff:g> Sekunde)</item>
+        <item quantity="other">Mittel (<xliff:g id="click_delay_label" example="200">%1$s</xliff:g> Sekunden)</item>
     </plurals>
     <plurals name="accessibilty_autoclick_preference_subtitle_long_delay" formatted="false" msgid="2230755548820485984">
-        <item quantity="other">Lang (<xliff:g id="CLICK_DELAY_LABEL_1">%1$s</xliff:g> Sekunden)</item>
-        <item quantity="one">Lang (<xliff:g id="CLICK_DELAY_LABEL_0">%1$s</xliff:g> Sekunde)</item>
+        <item quantity="one">Lang <xliff:g id="click_delay_label" example="200">%1$s</xliff:g> Sekunde)</item>
+        <item quantity="other">Lang (<xliff:g id="click_delay_label" example="200">%1$s</xliff:g> Sekunden)</item>
     </plurals>
     <plurals name="accessibilty_autoclick_delay_unit_second" formatted="false" msgid="4537791441118261556">
-        <item quantity="other"><xliff:g id="CLICK_DELAY_LABEL_2">%1$s</xliff:g> Sekunden</item>
-        <item quantity="one"><xliff:g id="CLICK_DELAY_LABEL_0">%1$s</xliff:g> Sekunde</item>
+        <item quantity="one"><xliff:g id="click_delay_label" example="1">%1$s</xliff:g> Sekunde</item>
+        <item quantity="other"><xliff:g id="click_delay_label" example="0.6">%1$s</xliff:g> Sekunden</item>
     </plurals>
-    <string name="accessibility_vibration_summary" msgid="27904038683405084">"Klingeln: <xliff:g id="SUMMARY_RING">%1$s</xliff:g>, Benachrichtigung: <xliff:g id="SUMMARY_NOTIFICATION">%2$s</xliff:g>, Berührung: <xliff:g id="SUMMARY_TOUCH">%3$s</xliff:g>"</string>
+    <string name="accessibility_vibration_summary" msgid="27904038683405084">Klingeln: <xliff:g id="summary_ring" example="Medium">%1$s</xliff:g>, Benachrichtigung: <xliff:g id="summary_notification" example="Low">%2$s</xliff:g>, Berührung: <xliff:g id="summary_touch" example="High">%3$s</xliff:g></string>
     <string name="accessibility_vibration_summary_off" msgid="7776105450117095736">"Vibration bei Klingeln und Benachrichtigungseingang auf \"Aus\" eingestellt"</string>
     <string name="accessibility_vibration_summary_low" msgid="6482721005400340317">"Vibration bei Klingeln und Benachrichtigungseingang auf \"Gering\" eingestellt"</string>
     <string name="accessibility_vibration_summary_medium" msgid="2348889320548746469">"Vibration bei Klingeln und Benachrichtigungseingang auf \"Mittel\" eingestellt"</string>
@@ -2335,7 +2356,7 @@
     <string name="color_cyan" msgid="4341758639597035927">"Blaugrün"</string>
     <string name="color_yellow" msgid="5957551912912679058">"Gelb"</string>
     <string name="color_magenta" msgid="8943538189219528423">"Magenta"</string>
-    <string name="enable_service_title" msgid="7231533866953706788">"<xliff:g id="SERVICE">%1$s</xliff:g> die vollständige Kontrolle über dein Gerät geben?"</string>
+    <string name="enable_service_title" msgid="7231533866953706788"><xliff:g id="service" example="TalkBack">%1$s</xliff:g> die vollständige Kontrolle über dein Gerät erlauben\?</string>
     <string name="capabilities_list_title" msgid="1225853611983394386"><xliff:g id="service" example="TalkBack">%1$s</xliff:g> muss:</string>
     <string name="touch_filtered_warning" msgid="4225815157460318241">"Deine Eingabe wird von \"Einstellungen\" nicht erkannt, weil die Berechtigungsanfrage von einer App verdeckt wird."</string>
     <string name="enable_service_encryption_warning" msgid="931082737770453755">Wenn du <xliff:g id="service" example="TalkBack">%1$s</xliff:g> aktivierst, verwendet dein Gerät nicht die Bildschirmsperre, um die Datenverschlüsselung zu verbessern.</string>
@@ -3477,7 +3498,7 @@
     <string name="work_sync_dialog_yes" msgid="9161415252411868574">"Ersetzen"</string>
     <string name="work_sync_dialog_message" msgid="1328692374812258546">"Die Töne deines privaten Profils werden für dein Arbeitsprofil verwendet"</string>
     <string name="ringtones_install_custom_sound_title" msgid="3885712267015760638">"Benutzerdefinierten Ton hinzufügen?"</string>
-    <string name="ringtones_install_custom_sound_content" msgid="5844996763705884979">"Diese Datei wird in den Ordner \"<xliff:g id="FOLDER_NAME">%s</xliff:g>\" kopiert"</string>
+    <string name="ringtones_install_custom_sound_content" msgid="5844996763705884979">Diese Datei wird in den Ordner <xliff:g id="folder_name" example="Ringtones">%s</xliff:g> kopiert</string>
     <string name="ringtones_category_preference_title" msgid="26680768777533727">"Klingeltöne"</string>
     <string name="other_sound_category_preference_title" msgid="8182757473602586634">"Andere Töne und Vibrationen"</string>
     <string name="configure_notification_settings" msgid="1492820231694314376">"Benachrichtigungen"</string>
@@ -3512,7 +3533,7 @@
     <string name="bubbles_conversation_app_link" msgid="5468779786387915337">"Alle Einstellungen für Bubbles"</string>
     <string name="bubbles_conversation_toggle_title" msgid="5225039214083311316">"Diese Unterhaltung als Bubble anzeigen"</string>
     <string name="bubbles_conversation_toggle_summary" msgid="720229032254323578">"Verschiebbares Symbol über anderen Apps anzeigen"</string>
-    <string name="bubbles_app_toggle_summary" msgid="1574515698567947948">"<xliff:g id="APP_NAME">%1$s</xliff:g> erlauben, einige Benachrichtigungen als Bubbles anzuzeigen"</string>
+    <string name="bubbles_app_toggle_summary" msgid="1574515698567947948"><xliff:g id="app_name" example="YouTube">%1$s</xliff:g> erlauben, einige Benachrichtigungen als Blasen anzuzeigen</string>
     <string name="bubbles_feature_disabled_dialog_title" msgid="1794193899792284007">"Bubbles für das Gerät aktivieren?"</string>
     <string name="bubbles_feature_disabled_dialog_text" msgid="5275666953364031055">"Wenn du die Bubbles für diese App aktivierst, wird die Funktion auch auf deinem Gerät aktiviert.\n\nDies wirkt sich auch auf andere Apps oder Unterhaltungen aus, die als Bubble erscheinen können."</string>
     <string name="bubbles_feature_disabled_button_approve" msgid="2042628067101419871">"Aktivieren"</string>
@@ -3581,8 +3602,8 @@
     <string name="manage_conversations" msgid="4440289604887824337">"Unterhaltungen verwalten"</string>
     <string name="priority_conversation_count_zero" msgid="3862289535537564713">"Keine vorrangigen Unterhaltungen"</string>
     <plurals name="priority_conversation_count" formatted="false" msgid="4229447176780862649">
-        <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> vorrangige Unterhaltungen</item>
-        <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> vorrangige Unterhaltung</item>
+        <item quantity="one"><xliff:g id="count" example="1">%d</xliff:g> vorrangige Unterhaltung</item>
+        <item quantity="other"><xliff:g id="count" example="10">%d</xliff:g> vorrangige Unterhaltungen</item>
     </plurals>
     <string name="important_conversations" msgid="1233893707189659401">"Vorrangige Unterhaltungen"</string>
     <string name="important_conversations_summary_bubbles" msgid="614327166808117644">"Oben im Bereich \"Unterhaltungen\" und als unverankerte Bubbles anzeigen"</string>
@@ -3612,14 +3633,14 @@
     <string name="allow_interruption_summary" msgid="9044131663518112543">"Die App darf Töne sowie Vibrationen erzeugen und/oder Pop-up-Benachrichtigungen auf dem Bildschirm einblenden"</string>
     <string name="notification_priority_title" msgid="5554834239080425229">"Priorität"</string>
     <string name="notification_channel_summary_priority" msgid="7225362351439076913">"Wird oben im Bereich „Unterhaltungen“ als unverankerte Bubble angezeigt und erscheint mit einem Profilbild auf dem Sperrbildschirm"</string>
-    <string name="convo_not_supported_summary" msgid="4285471045268268048">"<xliff:g id="APP_NAME">%1$s</xliff:g> unterstützt die meisten Funktionen für Unterhaltungen nicht. Du kannst keine Unterhaltung als Priorität festlegen und Unterhaltungen erscheinen nicht als unverankerte Bubbles."</string>
+    <string name="convo_not_supported_summary" msgid="4285471045268268048"><xliff:g id="app_name" example="Android Services">%1$s</xliff:g> unterstützt die meisten Funktionen für Unterhaltungen nicht. Du kannst keine Unterhaltung als vorrangig festlegen und Unterhaltungen erscheinen nicht als schwebende Blasen.</string>
     <string name="notification_channel_summary_min" msgid="8823399508450176842">"Benachrichtigungen in der Benachrichtigungsleiste werden auf eine Zeile minimiert"</string>
     <string name="notification_channel_summary_low" msgid="5549662596677692000">"Kein Ton und keine Vibration"</string>
     <string name="notification_conversation_summary_low" msgid="6352818857388412326">"Kein Ton und keine Vibration, erscheint weiter unten im Bereich \"Unterhaltungen\""</string>
     <string name="notification_channel_summary_default" msgid="3674057458265438896">"Kann klingeln oder vibrieren, abhängig von den Telefoneinstellungen"</string>
     <string name="notification_channel_summary_high" msgid="3411637309360617621">"Bei entsperrtem Gerät Benachrichtigungen als Banner oben auf dem Bildschirm anzeigen"</string>
-    <string name="notification_switch_label" msgid="8029371325967501557">"Alle Benachrichtigungen von \"<xliff:g id="APP_NAME">%1$s</xliff:g>\""</string>
-    <string name="notification_app_switch_label" msgid="4422902423925084193">"Alle <xliff:g id="APP_NAME">%1$s</xliff:g>-Benachrichtigungen"</string>
+    <string name="notification_switch_label" msgid="8029371325967501557">Alle Benachrichtigungen von „<xliff:g id="app_name" example="Android Services">%1$s</xliff:g>“</string>
+    <string name="notification_app_switch_label" msgid="4422902423925084193">Alle <xliff:g id="app_name" example="Android Services">%1$s</xliff:g>-Benachrichtigungen</string>
     <string name="default_notification_assistant" msgid="243718059890346442">"Adaptive Benachrichtigungen"</string>
     <plurals name="notifications_sent_daily" formatted="false" msgid="1479283620504341566">
         <item quantity="other">Ungefähr <xliff:g id="NUMBER_1">%d</xliff:g> Benachrichtigungen pro Tag</item>
@@ -3641,11 +3662,11 @@
     <string name="no_notification_assistant" msgid="2533323397091834096">"Kein Dienst"</string>
     <string name="no_notification_listeners" msgid="2839354157349636000">"Keine installierte App hat Benachrichtigungszugriff angefordert."</string>
     <string name="notification_access_detail_switch" msgid="46386786409608330">"Benachrichtigungszugriff erlauben"</string>
-    <string name="notification_assistant_security_warning_title" msgid="2972346436050925276">"<xliff:g id="SERVICE">%1$s</xliff:g> Zugriff auf Benachrichtigungen erlauben?"</string>
+    <string name="notification_assistant_security_warning_title" msgid="2972346436050925276"><xliff:g id="service" example="NotificationAssistant">%1$s</xliff:g> Zugriff auf Benachrichtigungen erlauben\?</string>
     <string name="notification_assistant_security_warning_summary" msgid="7362924206925040510"> <xliff:g id="notification_assistant_name" example="Notification Assistant">%1$s</xliff:g> kann alle Benachrichtigungen lesen, darunter auch personenbezogene Daten wie Kontaktnamen und eingehende Nachrichten. Außerdem kann die App Benachrichtigungen schließen oder Schaltflächen in Benachrichtigungen verwenden und so beispielsweise Anrufe entgegennehmen.
 \n
 \nZusätzlich wird die App in die Lage versetzt, die „Bitte nicht stören“-Funktion zu aktivieren bzw. zu deaktivieren und zugehörige Einstellungen zu ändern. </string>
-    <string name="notification_listener_security_warning_title" msgid="5791700876622858363">"Benachrichtigungszugriff für <xliff:g id="SERVICE">%1$s</xliff:g> zulassen?"</string>
+    <string name="notification_listener_security_warning_title" msgid="5791700876622858363">Benachrichtigungszugriff für <xliff:g id="service" example="NotificationReader">%1$s</xliff:g> zulassen\?</string>
     <string name="notification_listener_security_warning_summary" msgid="1658213659262173405"> <xliff:g id="notification_listener_name">%1$s</xliff:g> kann alle Benachrichtigungen lesen, darunter auch personenbezogene Daten wie Kontaktnamen und eingehende Nachrichten. Außerdem kann die App Benachrichtigungen schließen oder Schaltflächen in Benachrichtigungen verwenden und so beispielsweise Anrufe entgegennehmen.
 \n
 \nZusätzlich wird die App in die Lage versetzt, die „Bitte nicht stören“-Funktion zu aktivieren bzw. zu deaktivieren und zugehörige Einstellungen zu ändern. </string>
@@ -3654,7 +3675,7 @@
     <string name="notification_listener_disable_warning_cancel" msgid="8802784105045594324">"Abbrechen"</string>
     <string name="vr_listeners_title" msgid="4960357292472540964">"VR-Hilfsdienste"</string>
     <string name="no_vr_listeners" msgid="8442646085375949755">"Keine installierte App hat die Ausführung als VR-Hilfedienst angefordert."</string>
-    <string name="vr_listener_security_warning_title" msgid="7026351795627615177">"VR-Dienstzugriff für <xliff:g id="SERVICE">%1$s</xliff:g> erlauben?"</string>
+    <string name="vr_listener_security_warning_title" msgid="7026351795627615177">VR-Dienstzugriff für <xliff:g id="service" example="VrCore">%1$s</xliff:g> zulassen\?</string>
     <string name="vr_listener_security_warning_summary" msgid="1888843557687017791"> <xliff:g id="vr_listener_name">%1$s</xliff:g> kann ausgeführt werden, wenn der Modus für virtuelle Realität für Apps aktiviert wird. </string>
     <string name="display_vr_pref_title" msgid="4850474436291113569">"Wenn das Gerät im VR-Modus ist"</string>
     <string name="display_vr_pref_low_persistence" msgid="7039841277157739871">"Unschärfe reduzieren (empfohlen)"</string>
@@ -3676,12 +3697,12 @@
     <string name="interact_across_profiles_summary_1" msgid="6093976896137600231">"Verknüpfte Apps teilen Berechtigungen und können auf Daten der jeweils anderen Apps zugreifen."</string>
     <string name="interact_across_profiles_summary_2" msgid="505748305453633885">"Verknüpfe nur Apps, bei denen du sicher bist, dass sie keine personenbezogenen Daten an deinen IT-Administrator weiterleiten."</string>
     <string name="interact_across_profiles_summary_3" msgid="444428694843299854">"Du kannst die Verknüpfung der Apps jederzeit in den Datenschutzeinstellungen deines Geräts aufheben."</string>
-    <string name="interact_across_profiles_consent_dialog_title" msgid="8530621211216508681">"Darf die geschäftliche App \"<xliff:g id="NAME">%1$s</xliff:g>\" auf deine personenbezogenen Daten zugreifen?"</string>
+    <string name="interact_across_profiles_consent_dialog_title" msgid="8530621211216508681">Darf die geschäftliche App <xliff:g id="name" example="Calendar">%1$s</xliff:g> auf deine persönlichen Daten zugreifen\?</string>
     <string name="interact_across_profiles_consent_dialog_summary" msgid="3949870271562055048">"Verknüpfe nur Apps, bei denen du sicher bist, dass sie keine personenbezogenen Daten an deinen IT-Administrator weiterleiten."</string>
     <string name="interact_across_profiles_consent_dialog_app_data_title" msgid="8436318876213958940">"App-Daten"</string>
-    <string name="interact_across_profiles_consent_dialog_app_data_summary" msgid="6057019384328088311">"Diese App kann auf Daten in deiner privaten App \"<xliff:g id="NAME">%1$s</xliff:g>\" zugreifen."</string>
+    <string name="interact_across_profiles_consent_dialog_app_data_summary" msgid="6057019384328088311">Diese App kann auf Daten in deiner persönlichen App <xliff:g id="name" example="Calendar">%1$s</xliff:g> zugreifen.</string>
     <string name="interact_across_profiles_consent_dialog_permissions_title" msgid="2316852600280487055">"Berechtigungen"</string>
-    <string name="interact_across_profiles_consent_dialog_permissions_summary" msgid="995051542847604039">"Diese App kann die Berechtigungen deiner privaten App \"<xliff:g id="NAME">%1$s</xliff:g>\" nutzen, wie etwa den Zugriff auf Standort, Speicher oder Kontakte."</string>
+    <string name="interact_across_profiles_consent_dialog_permissions_summary" msgid="995051542847604039">Diese App kann die Berechtigungen deiner persönlichen App <xliff:g id="name" example="Calendar">%1$s</xliff:g> nutzen, wie etwa den Zugriff auf Standort, Speicher oder Kontakte.</string>
     <string name="interact_across_profiles_number_of_connected_apps_none" msgid="8573289199942092964">"Keine Apps verknüpft"</string>
     <plurals name="interact_across_profiles_number_of_connected_apps" formatted="false" msgid="6991750455661974772">
         <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> Apps verbunden</item>
