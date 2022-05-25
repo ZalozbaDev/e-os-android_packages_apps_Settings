@@ -630,8 +630,7 @@
 \n
 \n</xliff:g>Deine gespeicherten Fingerabdrücke werden ebenfalls von diesem Gerät entfernt und du kannst mit ihnen weder dein Smartphone entsperren noch Käufe autorisieren oder dich in Apps anmelden.</string>
     <string name="unlock_disable_frp_warning_content_pattern_profile" msgid="6850770024037691891">"Die Profilschutzeinstellungen funktionieren ohne dein Muster nicht."</string>
-    <string name="unlock_disable_frp_warning_content_pattern_fingerprint_profile" msgid="313998125412427527">Die Profilschutzeinstellungen funktionieren ohne dein Muster nicht.
-\n<xliff:g id="empty_line">
+    <string name="unlock_disable_frp_warning_content_pattern_fingerprint_profile" msgid="313998125412427527">Die Profilschutzeinstellungen funktionieren ohne dein Muster nicht. <xliff:g id="empty_line">
 \n
 \n</xliff:g>Deine gespeicherten Fingerabdrücke werden ebenfalls aus diesem Profil entfernt und du kannst mit ihnen weder dein Profil entsperren noch Käufe autorisieren oder dich in Apps anmelden.</string>
     <string name="unlock_disable_frp_warning_content_pin_profile" msgid="6328378875803145738">"Die Profilschutzeinstellungen funktionieren ohne deine PIN nicht."</string>
@@ -763,7 +762,7 @@
     <string name="bluetooth_connecting_error_message" msgid="3941893154784152112">"Keine Verbindung zu <xliff:g id="DEVICE_NAME">%1$s</xliff:g> möglich"</string>
     <string name="bluetooth_preference_scan_title" msgid="3460316252463771851">"Scan nach Geräten"</string>
     <string name="bluetooth_search_for_devices" msgid="6516902340975407648">"Aktualisieren"</string>
-    <string name="bluetooth_searching_for_devices" msgid="6541984133657573124">"Suche läuft..."</string>
+    <string name="bluetooth_searching_for_devices" msgid="6541984133657573124">Suche läuft …</string>
     <string name="bluetooth_preference_device_settings" msgid="1688662188157019998">"Geräteeinstellungen"</string>
     <string name="bluetooth_preference_paired_dialog_title" msgid="1090131276572055841">"Gekoppeltes Gerät"</string>
     <string name="bluetooth_preference_paired_dialog_internet_option" msgid="4337953030661626289">"Internetverbindung"</string>
@@ -780,7 +779,7 @@
     <string name="bluetooth_device_context_pair_connect" msgid="2406032703622371826">"Kopplung durchführen und verbinden"</string>
     <string name="bluetooth_device_context_unpair" msgid="7525735305244087162">"Entkoppeln"</string>
     <string name="bluetooth_device_context_disconnect_unpair" msgid="2001359431289794561">"Verbindung trennen und entkoppeln"</string>
-    <string name="bluetooth_device_context_connect_advanced" msgid="934657460643490773">"Optionen..."</string>
+    <string name="bluetooth_device_context_connect_advanced" msgid="934657460643490773">Optionen …</string>
     <string name="bluetooth_menu_advanced" msgid="7633682234855216066">"Erweitert"</string>
     <string name="bluetooth_advanced_titlebar" msgid="5369701494951467257">"Bluetooth - Erweitert"</string>
     <string name="bluetooth_empty_list_bluetooth_off" msgid="316627049372961941">"Bei aktiviertem Bluetooth kann dein Gerät mit Bluetooth-Geräten in der Nähe kommunizieren."</string>
@@ -795,7 +794,7 @@
     <string name="bluetooth_unpair_dialog_body" product="device" msgid="5117397433721336918">"Dein Gerät ist dann nicht mehr mit <xliff:g id="DEVICE_NAME">%1$s</xliff:g> gekoppelt"</string>
     <string name="bluetooth_untethered_unpair_dialog_body" msgid="1938465582242297905">„<xliff:g id="device_name" example="Jack's headphone">%1$s</xliff:g>“ ist dann mit keinem Gerät mehr gekoppelt, das mit diesem Konto verknüpft ist</string>
     <string name="bluetooth_unpair_dialog_forget_confirm_button" msgid="9184489424930549015">"Gerät entkoppeln"</string>
-    <string name="bluetooth_connect_specific_profiles_title" msgid="1323072239637864488">"Verbinden mit..."</string>
+    <string name="bluetooth_connect_specific_profiles_title" msgid="1323072239637864488">Verbinden mit …</string>
     <string name="bluetooth_disconnect_a2dp_profile" msgid="339103864166293612">"<xliff:g id="DEVICE_NAME">%1$s</xliff:g> wird vom Medien-Audio getrennt."</string>
     <string name="bluetooth_disconnect_headset_profile" msgid="7857706184371154920">"<xliff:g id="DEVICE_NAME">%1$s</xliff:g> wird von der Freisprechfunktion getrennt."</string>
     <string name="bluetooth_disconnect_hid_profile" msgid="4794752406024916925">"<xliff:g id="DEVICE_NAME">%1$s</xliff:g> wird vom Eingabegerät getrennt."</string>
@@ -1407,7 +1406,7 @@
     <string name="memory_available" msgid="712528795743654737">"Verfügbar"</string>
     <string name="memory_available_read_only" msgid="3201969221573511590">"Verfügbar (schreibgeschützt)"</string>
     <string name="memory_size" msgid="2710897518522931469">"Gesamtspeicher"</string>
-    <string name="memory_calculating_size" msgid="3898240439798661242">"Wird berechnet..."</string>
+    <string name="memory_calculating_size" msgid="3898240439798661242">Wird berechnet …</string>
     <string name="memory_apps_usage" msgid="8818570780540532952">"Apps und App-Daten"</string>
     <string name="memory_media_usage" msgid="5161308657995646963">"Medien"</string>
     <string name="memory_downloads_usage" msgid="8252462247720191179">"Downloads"</string>
@@ -1564,9 +1563,15 @@
 \nEntferne die <xliff:g id="name" example="SD card">^2</xliff:g> während des Vorgangs nicht. </string>
     <string name="storage_wizard_move_unlock" msgid="14651384927767749">"Um Daten zu verschieben, muss erst <xliff:g id="APP">^1</xliff:g> entsperrt werden."</string>
     <string name="storage_wizard_move_progress_title" msgid="3912406225614672391">"<xliff:g id="APP">^1</xliff:g> wird verschoben…"</string>
-    <string name="storage_wizard_move_progress_body" msgid="2396714553394935094">"Entferne die <xliff:g id="NAME">^1</xliff:g> während des Vorgangs nicht. \n\nDie App <xliff:g id="APP">^2</xliff:g> auf diesem Gerät ist erst wieder verfügbar, nachdem sie vollständig verschoben wurde."</string>
+    <string name="storage_wizard_move_progress_body" msgid="2396714553394935094">Entferne die <xliff:g id="NAME">^1</xliff:g> während des Vorgangs nicht.
+\n
+\nDie App <xliff:g id="APP">^2</xliff:g> auf diesem Gerät ist erst wieder verfügbar, nachdem sie vollständig verschoben wurde. </string>
     <string name="storage_wizard_move_progress_cancel" msgid="3494022998599718937">"Verschieben abbrechen"</string>
-    <string name="storage_wizard_slow_body" msgid="8293565076885232029">"Die <xliff:g id="NAME_0">^1</xliff:g> ist offenbar langsam. \n\nDu kannst fortfahren, aber hierher verschobene Apps bleiben eventuell hängen und Datenübertragungen können lange dauern. \n\nFür eine bessere Leistung solltest du eine schnellere <xliff:g id="NAME_1">^1</xliff:g> nutzen."</string>
+    <string name="storage_wizard_slow_body" msgid="8293565076885232029">Die <xliff:g id="name" example="SD card">^1</xliff:g> ist offenbar langsam.
+\n
+\nDu kannst fortfahren, aber hierher verschobene Apps bleiben eventuell hängen und Datenübertragungen können lange dauern.
+\n
+\nFür eine bessere Leistung solltest du eine schnellere <xliff:g id="name" example="SD card">^1</xliff:g> nutzen. </string>
     <string name="storage_wizard_init_v2_title" msgid="2538630338392381113">"Wie möchtest du das Gerät (<xliff:g id="NAME">^1</xliff:g>) nutzen?"</string>
     <string name="storage_wizard_init_v2_internal_title" product="tablet" msgid="1884468440013151482">"Zur Speichererweiterung verwenden"</string>
     <string name="storage_wizard_init_v2_internal_summary" product="tablet" msgid="2907833056467441047">"Nur für Apps, Dateien und Medien auf diesem Tablet"</string>
@@ -1785,11 +1790,11 @@
     <string name="settings_manual_activity_unavailable" msgid="2514549851682321576">"Problem beim Laden des Handbuchs."</string>
     <string name="settings_license_activity_title" msgid="7832071619364734914">"Lizenzen Dritter"</string>
     <string name="settings_license_activity_unavailable" msgid="9014803774391134570">"Beim Laden der Lizenzen ist ein Problem aufgetreten."</string>
-    <string name="settings_license_activity_loading" msgid="1653151990366578827">"Wird geladen..."</string>
+    <string name="settings_license_activity_loading" msgid="1653151990366578827">Wird geladen …</string>
     <string name="settings_safetylegal_title" msgid="1334501164265709288">"Sicherheitsinformationen"</string>
     <string name="settings_safetylegal_activity_title" msgid="2218587051061093358">"Sicherheitsinformationen"</string>
     <string name="settings_safetylegal_activity_unreachable" msgid="6571695168138207587">"Es ist keine Datenverbindung vorhanden. Wenn Sie diese Informationen jetzt sehen möchten, gehen Sie auf einem beliebigen Computer mit Internetanschluss zu %s."</string>
-    <string name="settings_safetylegal_activity_loading" msgid="1757860124583063395">"Wird geladen..."</string>
+    <string name="settings_safetylegal_activity_loading" msgid="1757860124583063395">Wird geladen …</string>
     <string name="confirm_device_credential_pin" msgid="5708034681954992002">"PIN nutzen"</string>
     <string name="confirm_device_credential_pattern" msgid="39207099645510263">"Muster verwenden"</string>
     <string name="confirm_device_credential_password" msgid="2471269024934865534">"Passwort nutzen"</string>
@@ -1843,7 +1848,7 @@
     <string name="lockpattern_recording_incorrect_too_short" msgid="3351522018450593723">"Verbinde mindestens <xliff:g id="NUMBER">%d</xliff:g> Punkte. Bitte versuche es noch einmal."</string>
     <string name="lockpattern_pattern_entered_header" msgid="7709618312713127249">"Muster wurde aufgezeichnet."</string>
     <string name="lockpattern_need_to_confirm" msgid="6489499109451714360">"Zeichne das Muster zur Bestätigung erneut"</string>
-    <string name="lockpattern_pattern_confirmed_header" msgid="2969990617475456153">"Dein neues Entsperrungsmuster:"</string>
+    <string name="lockpattern_pattern_confirmed_header" msgid="2969990617475456153">Dein neues Entsperrmuster</string>
     <string name="lockpattern_confirm_button_text" msgid="6122815520373044089">"Bestätigen"</string>
     <string name="lockpattern_restart_button_text" msgid="255339375151895998">"Neu aufzeichnen"</string>
     <string name="lockpattern_retry_button_text" msgid="4229668933251849760">"Löschen"</string>
@@ -1946,7 +1951,7 @@
     <string name="installed" msgid="2837449358488825884">"Installiert"</string>
     <string name="no_applications" msgid="985069304755391640">"Keine Apps"</string>
     <string name="internal_storage" msgid="999496851424448809">"Interner Speicher"</string>
-    <string name="recompute_size" msgid="1098091228370999128">"Größe wird neu berechnet..."</string>
+    <string name="recompute_size" msgid="1098091228370999128">Größe wird neu berechnet …</string>
     <string name="clear_data_dlg_title" msgid="180446967743732410">"App-Daten löschen?"</string>
     <string name="clear_data_dlg_text" msgid="1107610960337399006">"Die Daten dieser App werden endgültig gelöscht. Dazu gehören Dateien, Einstellungen, Datenbanken und sonstige App-Daten."</string>
     <string name="dlg_ok" msgid="1421350367857960997">"Ok"</string>
@@ -1955,7 +1960,7 @@
     <string name="clear_failed_dlg_text" msgid="6866741916836125732">"Speicherinhalt der App konnte nicht gelöscht werden."</string>
     <string name="join_two_items" msgid="7893073836681382429">"<xliff:g id="FIRST_ITEM">%1$s</xliff:g> und <xliff:g id="SECOND_ITEM">%2$s</xliff:g>"</string>
     <string name="join_two_unrelated_items" msgid="5301233410730513655">"<xliff:g id="FIRST_ITEM">%1$s</xliff:g>, <xliff:g id="SECOND_ITEM">%2$s</xliff:g>"</string>
-    <string name="computing_size" msgid="4915310659841174866">"Berechnung..."</string>
+    <string name="computing_size" msgid="4915310659841174866">Berechnung …</string>
     <string name="invalid_size_value" msgid="7017371543563259201">"Paketgröße konnte nicht berechnet werden."</string>
     <string name="version_text" msgid="7628938665256107608">"Version <xliff:g id="VERSION_NUM">%1$s</xliff:g>"</string>
     <string name="move_app" msgid="5421158479447276791">"Verschieben"</string>
@@ -2085,7 +2090,7 @@
     <string name="user_dict_settings_context_menu_delete_title" msgid="651550824433043545">"Löschen"</string>
     <string name="user_dict_settings_empty_text" msgid="86562873609647919">"Es sind noch keine Wörter in deinem Wörterbuch vorhanden. Du kannst Wörter hinzufügen, indem du auf das \"+\"-Symbol tippst."</string>
     <string name="user_dict_settings_all_languages" msgid="8563387437755363526">"Für alle Sprachen"</string>
-    <string name="user_dict_settings_more_languages" msgid="5378870726809672319">"Weitere Sprachen..."</string>
+    <string name="user_dict_settings_more_languages" msgid="5378870726809672319">Weitere Sprachen …</string>
     <string name="testing" msgid="6294172343766732037">"Test"</string>
     <string name="testing_phone_info" product="tablet" msgid="1910768200608214456">"Tablet-Informationen"</string>
     <string name="testing_phone_info" product="default" msgid="1150527695827743906">"Telefoninformation"</string>
@@ -2314,7 +2319,7 @@
     <string name="print_menu_item_add_service" msgid="1549091062463044676">"Dienst hinzufügen"</string>
     <string name="print_menu_item_add_printer" msgid="8711630848324870892">"Drucker hinzufügen"</string>
     <string name="print_menu_item_search" msgid="5989979785203603169">"Suchen"</string>
-    <string name="print_searching_for_printers" msgid="5401413178028348800">"Suche nach Druckern…"</string>
+    <string name="print_searching_for_printers" msgid="5401413178028348800">Suche nach Druckern …</string>
     <string name="print_service_disabled" msgid="9185935228930987786">"Dienst deaktiviert"</string>
     <string name="print_print_jobs" msgid="2605944855933091183">"Druckaufträge"</string>
     <string name="print_print_job" msgid="8477859161886726608">"Druckauftrag"</string>
@@ -2744,7 +2749,7 @@
     <string name="cryptkeeper_wrong_password" msgid="7295607881887114486">"Falsches Passwort"</string>
     <string name="cryptkeeper_wrong_pin" msgid="2347961593970714201">"Falsche PIN"</string>
     <string name="checking_decryption" msgid="6111642972615688237">"Wird überprüft…"</string>
-    <string name="starting_android" msgid="6694154070215356186">"Android wird gestartet..."</string>
+    <string name="starting_android" msgid="6694154070215356186">Android wird gestartet …</string>
     <string name="delete" msgid="8330605554706263775">"Löschen"</string>
     <string name="misc_files" msgid="6598066985800749585">"Sonstige Dateien"</string>
     <string name="misc_files_selected_count" msgid="5597802791672749532"><xliff:g id="number" example="3">%1$d</xliff:g> von <xliff:g id="total" example="15">%2$d</xliff:g> ausgewählt</string>
@@ -2774,7 +2779,7 @@
     <string name="account_settings_menu_auto_sync" msgid="1660484779001900562">"Daten autom. synchronisieren"</string>
     <string name="account_settings_menu_auto_sync_personal" msgid="2905595464540145671">"Personenbezogene Daten autom. synchronisieren"</string>
     <string name="account_settings_menu_auto_sync_work" msgid="8561102487795657789">"Arbeitsdaten autom. synchronisieren"</string>
-    <string name="data_usage_change_cycle" msgid="4501026427365283899">"Zyklus ändern..."</string>
+    <string name="data_usage_change_cycle" msgid="4501026427365283899">Zyklus ändern …</string>
     <string name="data_usage_pick_cycle_day" msgid="3548922497494790123">"Tag, an dem Datenverbrauchszyklus zurückgesetzt wird:"</string>
     <string name="data_usage_empty" msgid="5619908658853726866">"Kein Datenverbrauch in diesem Zeitraum"</string>
     <string name="data_usage_label_foreground" msgid="8782117644558473624">"Vordergrund"</string>
@@ -3590,12 +3595,12 @@
     <string name="zen_schedule_rule_enabled_toast" msgid="6534402316741678208">"Automatische Regel zur Aktivierung des Status \"Bitte nicht stören\" zu bestimmten Zeiten eingestellt"</string>
     <string name="zen_event_rule_type_name" msgid="1921166617081971754">"Termin"</string>
     <string name="zen_event_rule_enabled_toast" msgid="4943723266121388395">"Automatische Regel zur Aktivierung des Status \"Bitte nicht stören\" während bestimmter Ereignisse eingestellt"</string>
-    <string name="zen_mode_event_rule_calendar" msgid="6279460374929508907">"Während Terminen aus folgendem Kalender:"</string>
+    <string name="zen_mode_event_rule_calendar" msgid="6279460374929508907">Bei Terminen für</string>
     <string name="zen_mode_event_rule_summary_calendar_template" msgid="3065013489987409864">"Während Terminen aus dem Kalender \"<xliff:g id="CALENDAR">%1$s</xliff:g>\""</string>
     <string name="zen_mode_event_rule_summary_any_calendar" msgid="8395450413356855311">"alle Kalender"</string>
     <string name="zen_mode_event_rule_summary_reply_template" msgid="7786137431469077008">"Bei folgenden Antworten: <xliff:g id="REPLY">%1$s</xliff:g>"</string>
     <string name="zen_mode_event_rule_calendar_any" msgid="5152139705998281205">"Alle Kalender"</string>
-    <string name="zen_mode_event_rule_reply" msgid="6099405414361340225">"Bei folgenden Antworten:"</string>
+    <string name="zen_mode_event_rule_reply" msgid="6099405414361340225">Bei folgenden Antworten</string>
     <string name="zen_mode_event_rule_reply_any_except_no" msgid="4672746760505346596">"\"Ja\", \"Vielleicht\" oder \"Keine Antwort\""</string>
     <string name="zen_mode_event_rule_reply_yes_or_maybe" msgid="6584448788100186574">"\"Ja\" oder \"Vielleicht\""</string>
     <string name="zen_mode_event_rule_reply_yes" msgid="7812120982734551236">"\"Ja\""</string>
@@ -3734,7 +3739,7 @@
     <string name="storage_summary_format" msgid="5721782272185284276">"<xliff:g id="SIZE">%1$s</xliff:g> <xliff:g id="STORAGE_TYPE">%2$s</xliff:g> belegt"</string>
     <string name="storage_type_internal" msgid="8072987826282477558">"Interner Speicher"</string>
     <string name="storage_type_external" msgid="8258689891893683905">"Externer Speicher"</string>
-    <string name="data_summary_format" msgid="8802057788950096650">"<xliff:g id="SIZE">%1$s</xliff:g> seit <xliff:g id="DATE">%2$s</xliff:g> genutzt"</string>
+    <string name="data_summary_format" msgid="8802057788950096650"><xliff:g id="size" example="30.00MB">%1$s</xliff:g> seit <xliff:g id="date" example="Jan 12">%2$s</xliff:g> genutzt</string>
     <string name="storage_used" msgid="2591194906751432725">"Genutzter Speicher"</string>
     <string name="change" msgid="273206077375322595">"Ändern"</string>
     <string name="change_storage" msgid="8773820275624113401">"Speicher ändern"</string>
@@ -4401,7 +4406,7 @@
     <string name="game_storage_settings" msgid="2521393115726178837">"Spiele"</string>
     <string name="audio_files_title" msgid="5981409295669041303">"Audiodateien"</string>
     <string name="app_info_storage_title" msgid="4076977173803093808">"Belegter Speicherplatz"</string>
-    <string name="webview_uninstalled_for_user" msgid="627352948986275488">"(für Nutzer <xliff:g id="USER">%s</xliff:g> deinstalliert)"</string>
+    <string name="webview_uninstalled_for_user" msgid="627352948986275488">(für Nutzer <xliff:g id="user" example="John Doe">%s</xliff:g> deinstalliert)</string>
     <string name="webview_disabled_for_user" msgid="5809886172032644498">(für Nutzer<xliff:g id="user" example="John Doe">%s</xliff:g> deaktiviert)</string>
     <string name="autofill_app" msgid="7595308061826307921">"AutoFill-Dienst"</string>
     <string name="autofill_keywords" msgid="6260653325195017912">"automatisch, ausfüllen, füllen, autofill"</string>
