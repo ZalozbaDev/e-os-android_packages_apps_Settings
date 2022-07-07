@@ -28,7 +28,9 @@ public class MailAccountSyncHelper {
     private static final String MAIL_RECEIVER_CLASS = "com.fsck.k9.account.AccountSyncReceiver";
     private static final String ACTION_PREFIX = "foundation.e.accountmanager.account.";
 
-    public static void accountLoggedIn(Context applicationContext) {
+    private static MailAccountSyncHelper instance = null;
+
+    public void accountLoggedIn(Context applicationContext) {
         if (applicationContext == null) {
             return;
         }
@@ -37,7 +39,7 @@ public class MailAccountSyncHelper {
         applicationContext.sendBroadcast(intent);
     }
 
-    public static void accountLoggedOut(Context applicationContext, String email) {
+    public void accountLoggedOut(Context applicationContext, String email) {
         if (applicationContext == null || email == null || !email.contains("@")) {
             return;
         }
@@ -48,13 +50,24 @@ public class MailAccountSyncHelper {
     }
 
     @TargetApi(Build.VERSION_CODES.HONEYCOMB_MR1)
-    private static Intent getIntent() {
+    private Intent getIntent() {
         Intent intent = new Intent();
         intent.addFlags(Intent.FLAG_INCLUDE_STOPPED_PACKAGES);
         intent.setComponent(new ComponentName(MAIL_PACKAGE, MAIL_RECEIVER_CLASS));
         return intent;
     }
 
+
+    public static MailAccountSyncHelper getInstance() {
+        if (instance == null) {
+            synchronized (MailAccountSyncHelper.class) {
+                if (instance == null) {
+                    instance = new MailAccountSyncHelper();
+                }
+            }
+        }
+        return instance;
+    }
 
     private MailAccountSyncHelper() {
     }
