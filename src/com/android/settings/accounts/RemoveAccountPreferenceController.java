@@ -175,7 +175,7 @@ public class RemoveAccountPreferenceController extends AbstractPreferenceControl
                         if (failed) {
                             RemoveAccountFailureDialog.show(getTargetFragment());
                         } else {
-                            MailAccountSyncHelper.accountLoggedOut(targetActivity.getApplicationContext(), email);
+                            MailAccountSyncHelper.getInstance().accountLoggedOut(targetActivity.getApplicationContext(), email);
                             targetActivity.finish();
                         }
                     }, null, mUserHandle);
