@@ -23,7 +23,7 @@
         <item quantity="other">Ora ti mancano <xliff:g id="STEP_COUNT_1">%1$d</xliff:g> passaggi per diventare uno sviluppatore.</item>
         <item quantity="one">Ora ti manca <xliff:g id="STEP_COUNT_0">%1$d</xliff:g> passaggio per diventare uno sviluppatore.</item>
     </plurals>
-    <string name="show_dev_on" msgid="2840850085134853754">"Ora sei uno sviluppatore."</string>
+    <string name="show_dev_on" msgid="2840850085134853754">Ora sei uno sviluppatore!</string>
     <string name="show_dev_already" msgid="7041756429707644630">"Non è necessario, sei già uno sviluppatore."</string>
     <string name="dev_settings_disabled_warning" msgid="6971867026249671244">"Attiva prima Opzioni sviluppatore."</string>
     <string name="header_category_wireless_networks" msgid="303445626075235229">"Wireless e reti"</string>
@@ -55,7 +55,7 @@
     <string name="radioInfo_service_out" msgid="1868347333892403287">"Fuori servizio"</string>
     <string name="radioInfo_service_emergency" msgid="6838935881091760942">"Solo chiamate di emergenza"</string>
     <string name="radioInfo_service_off" msgid="6184928420860868571">"Segnale radio disattivato"</string>
-    <string name="radioInfo_roaming_in" msgid="8892550453644088692">"Roaming"</string>
+    <string name="radioInfo_roaming_in" msgid="8892550453644088692">Roaming</string>
     <string name="radioInfo_roaming_not" msgid="3137594549464975054">"Non in roaming"</string>
     <string name="radioInfo_phone_idle" msgid="5310342873119295351">"Inattivo"</string>
     <string name="radioInfo_phone_ringing" msgid="1360894968062218051">"Chiamata in corso"</string>
@@ -76,7 +76,7 @@
     <string name="sdcard_format" product="nosdcard" msgid="3248760426252305366">"Cancella archivio USB"</string>
     <string name="sdcard_format" product="default" msgid="3676635435136326182">"Cancella scheda SD"</string>
     <string name="preview_pager_content_description" msgid="3762247188224576303">"Anteprima"</string>
-    <string name="preview_page_indicator_content_description" msgid="2790254666634885865">"Anteprima, pagina <xliff:g id="CURRENT_PAGE">%1$d</xliff:g> di <xliff:g id="NUM_PAGES">%2$d</xliff:g>"</string>
+    <string name="preview_page_indicator_content_description" msgid="2790254666634885865"></string>
     <string name="font_size_summary" msgid="1296835853522566260">"Ingrandisci o riduci il testo sullo schermo."</string>
     <string name="font_size_make_smaller_desc" msgid="4978038055549590140">"Rimpicciolisci"</string>
     <string name="font_size_make_larger_desc" msgid="5583046033381722247">"Ingrandisci"</string>
@@ -152,13 +152,13 @@
     <string name="bluetooth_connection_notif_message" msgid="6087344980352898209">"Tocca per connetterti a \"<xliff:g id="DEVICE_NAME">%1$s</xliff:g>\"."</string>
     <string name="bluetooth_connection_dialog_text" msgid="2537152772549874391">"Vuoi connetterti a \"<xliff:g id="DEVICE_NAME">%1$s</xliff:g>\"?"</string>
     <string name="bluetooth_phonebook_request" msgid="1085102844577089889">"Richiesta di accesso alla rubrica"</string>
-    <string name="bluetooth_pb_acceptance_dialog_text" msgid="7153531868579789993">"<xliff:g id="DEVICE_NAME_0">%1$s</xliff:g> desidera accedere ai tuoi contatti e alla tua cronologia chiamate. Consentire l\'accesso al dispositivo <xliff:g id="DEVICE_NAME_1">%2$s</xliff:g>?"</string>
+    <string name="bluetooth_pb_acceptance_dialog_text" msgid="7153531868579789993"> <xliff:g id="device_name">%1$s</xliff:g> vuole accedere i contatti e il registro chiamate. Consenti <xliff:g id="device_name">%2$s</xliff:g>\? </string>
     <string name="bluetooth_remember_choice" msgid="173821849670438110">"Non chiedermelo più"</string>
     <string name="bluetooth_pb_remember_choice" msgid="2080511174185036562">"Non chiedermelo più"</string>
     <string name="bluetooth_map_request" msgid="8664081227240707479">"Richiesta di accesso ai messaggi"</string>
     <string name="bluetooth_map_acceptance_dialog_text" msgid="2647611490952377156">"%1$s desidera accedere ai tuoi messaggi. Dare accesso a %2$s?"</string>
     <string name="bluetooth_sap_request" msgid="473439406287008397">"Richiesta di accesso alla SIM"</string>
-    <string name="bluetooth_sap_acceptance_dialog_text" msgid="2849083276356078655">"<xliff:g id="DEVICE_NAME_0">%1$s</xliff:g> desidera accedere alla tua scheda SIM. Se consenti l\'accesso, la connettività dati sul dispositivo sarà disattivata per tutta la durata della connessione. Consentire l\'accesso a <xliff:g id="DEVICE_NAME_1">%2$s?</xliff:g>?"</string>
+    <string name="bluetooth_sap_acceptance_dialog_text" msgid="2849083276356078655"><xliff:g id="device_name">%1$s</xliff:g> vuole accedere alla SIM card. Se acconsenti, disattiverà la connessione del device per la durata della connessione. Consenti <xliff:g id="device_name">%2$s\?</xliff:g></string>
     <string name="bluetooth_device_name_summary" msgid="8678342689845439583">"Visibile come <xliff:g id="DEVICE_NAME">^1</xliff:g> agli altri dispositivi"</string>
     <string name="bluetooth_off_footer" msgid="76578735660216295">"Attiva il Bluetooth per connetterti ad altri dispositivi."</string>
     <string name="bluetooth_paired_device_title" msgid="3240639218362342026">"I tuoi dispositivi"</string>
@@ -188,7 +188,7 @@
     <string name="intent_sender_sendbroadcast_text" msgid="3202857258557610646">"Invia <xliff:g id="BROADCAST">broadcast</xliff:g>"</string>
     <string name="intent_sender_action_label" msgid="257853357827275530">"<xliff:g id="ACTION">Action</xliff:g>:"</string>
     <string name="intent_sender_startactivity_text" msgid="519934560779343541">"Inizia <xliff:g id="ACTIVITY">activity</xliff:g>"</string>
-    <string name="intent_sender_resource_label" msgid="5087385727740280207">"<xliff:g id="RESOURCE">Resource</xliff:g>:"</string>
+    <string name="intent_sender_resource_label" msgid="5087385727740280207"><xliff:g id="resource">Risorsa</xliff:g>: </string>
     <string name="intent_sender_account_label" msgid="36614006839665458">"Account:"</string>
     <string name="proxy_settings_title" msgid="4201866858226087066">"Proxy"</string>
     <string name="proxy_clear_text" msgid="6529658759984031149">"Cancella"</string>
@@ -257,7 +257,7 @@
     <string name="sdcard_settings_unmounted_status" product="nosdcard" msgid="1053258530368541571">"Puoi rimuovere l\'archivio USB."</string>
     <string name="sdcard_settings_unmounted_status" product="default" msgid="5813940671700138561">"È ora possibile rimuovere la scheda SD."</string>
     <string name="sdcard_settings_bad_removal_status" product="nosdcard" msgid="209564009449909311">"Archivio USB rimosso quando ancora in uso."</string>
-    <string name="sdcard_settings_bad_removal_status" product="default" msgid="6817342973919819392">"La scheda SD è stata rimossa quando ancora in uso."</string>
+    <string name="sdcard_settings_bad_removal_status" product="default" msgid="6817342973919819392">Memoria USB rimossa mentre ancora in uso!</string>
     <string name="sdcard_settings_used_bytes_label" msgid="5646588579332741943">"Byte utilizzati:"</string>
     <string name="sdcard_settings_scanning_status" product="nosdcard" msgid="8037280964384235345">"Ricerca di media in archivio USB…"</string>
     <string name="sdcard_settings_scanning_status" product="default" msgid="3297316465982471437">"Ricerca di media nella scheda SD..."</string>
@@ -308,7 +308,7 @@
     <string name="sms_messages_title" msgid="9152493525985640011">"Messaggi SMS"</string>
     <string name="cellular_data_summary" msgid="6551434804367912367">"Consenti utilizzo di dati su rete mobile"</string>
     <string name="allow_data_usage_title" msgid="2645963379925196671">"Consenti util. dati in roaming"</string>
-    <string name="roaming" msgid="3055365654530847985">"Roaming"</string>
+    <string name="roaming" msgid="3055365654530847985">Roaming</string>
     <string name="roaming_enable" msgid="7845716016861535340">"Connetti a servizi di dati in roaming"</string>
     <string name="roaming_disable" msgid="729512894708689604">"Connetti a servizi di dati in roaming"</string>
     <string name="roaming_reenable_message" msgid="5150423860521673540">"Connettività dati persa: hai lasciato la rete del tuo operatore con il roaming dati disattivato."</string>
@@ -335,11 +335,11 @@
     <string name="date_time_search_region" msgid="1364133854952610919">"Cerca area geografica"</string>
     <string name="date_time_select_region" msgid="5449345333305056072">"Area geografica"</string>
     <string name="date_time_select_fixed_offset_time_zones" msgid="594848300882055361">"Seleziona scarto da UTC"</string>
-    <string name="zone_change_to_from_dst" msgid="686451769985774294">"<xliff:g id="TIME_TYPE">%1$s</xliff:g> inizia il giorno <xliff:g id="TRANSITION_DATE">%2$s</xliff:g>."</string>
-    <string name="zone_info_exemplar_location_and_offset" msgid="2186042522225153092">"<xliff:g id="EXEMPLAR_LOCATION">%1$s</xliff:g> (<xliff:g id="OFFSET">%2$s</xliff:g>)"</string>
-    <string name="zone_info_offset_and_name" msgid="3960192548990990152">"<xliff:g id="TIME_TYPE">%2$s</xliff:g> (<xliff:g id="OFFSET">%1$s</xliff:g>)"</string>
-    <string name="zone_info_footer" msgid="7004693956837388129">"Fuso orario usato: <xliff:g id="OFFSET_AND_NAME">%1$s</xliff:g>. Il fuso <xliff:g id="DST_TIME_TYPE">%2$s</xliff:g> inizia il giorno <xliff:g id="TRANSITION_DATE">%3$s</xliff:g>."</string>
-    <string name="zone_info_footer_no_dst" msgid="8399585343328811158">"Usa <xliff:g id="OFFSET_AND_NAME">%1$s</xliff:g>. Nessuna ora legale."</string>
+    <string name="zone_change_to_from_dst" msgid="686451769985774294"><xliff:g id="time_type" example="Pacific Summer Time">%1$s</xliff:g> inizia il <xliff:g id="transition_date" example="Mar 11 2018">%2$s</xliff:g>.</string>
+    <string name="zone_info_exemplar_location_and_offset" msgid="2186042522225153092"><xliff:g id="exemplar_location" example="Los Angeles">%1$s</xliff:g> (<xliff:g id="offset" example="GMT-08:00">%2$s</xliff:g>)</string>
+    <string name="zone_info_offset_and_name" msgid="3960192548990990152"><xliff:g id="time_type" example="Pacific Time">%2$s</xliff:g> (<xliff:g id="offset" example="GMT-08:00">%1$s</xliff:g>)</string>
+    <string name="zone_info_footer" msgid="7004693956837388129">Uso <xliff:g id="offset_and_name" example="Pacific Time (GMT-08:00)">%1$s</xliff:g>. <xliff:g id="dst_time_type" example="Pacific Daylight Time">%2$s</xliff:g> da <xliff:g id="transition_date" example="Mar 11 2018">%3$s</xliff:g>.</string>
+    <string name="zone_info_footer_no_dst" msgid="8399585343328811158">Uso <xliff:g id="offset_and_name" example="GMT-08:00 Pacific Time">%1$s</xliff:g>. Senza ora legale.</string>
     <string name="zone_time_type_dst" msgid="9189689342265305808">"Ora legale"</string>
     <string name="zone_time_type_standard" msgid="6865420715430680352">"Ora solare"</string>
     <string name="zone_menu_by_region" msgid="2963565278710225652">"Selezione per area geografica"</string>
@@ -359,17 +359,17 @@
     <string name="trust_agents_extend_unlock_title" msgid="6704799119336718965">"Sblocco solo per agenti di attendibilità"</string>
     <string name="trust_agents_extend_unlock_summary" msgid="2567077920329962827">"Se l\'opzione è attiva, gli agenti di attendibilità manterranno sbloccato il tuo dispositivo per più tempo, ma non potranno più sbloccare un dispositivo bloccato."</string>
     <string name="trust_lost_locks_screen_title" msgid="4231232144565291276">"Blocco dello schermo quando viene persa l\'attendibilità"</string>
-    <string name="trust_lost_locks_screen_summary" msgid="718374221849537361">"Se l\'opzione è attiva, il dispositivo si blocca quando l\'ultimo agente di attendibilità perde l\'attendibilità."</string>
+    <string name="trust_lost_locks_screen_summary" msgid="718374221849537361">Se attivato, il device si blocca quando l\'ultimo agente di attendibilità la perde</string>
     <string name="owner_info_settings_summary" msgid="347238313388083297">"Nessuno"</string>
-    <string name="owner_info_settings_status" msgid="7488764871758677862">"<xliff:g id="COUNT_0">%1$d</xliff:g>/<xliff:g id="COUNT_1">%2$d</xliff:g>"</string>
-    <string name="owner_info_settings_edit_text_hint" msgid="841926875876050274">"Ad es. Dispositivo Android di Anna"</string>
+    <string name="owner_info_settings_status" msgid="7488764871758677862"><xliff:g id="count" example="90">%1$d</xliff:g> / <xliff:g id="count" example="100">%2$d</xliff:g></string>
+    <string name="owner_info_settings_edit_text_hint" msgid="841926875876050274">Ad es. Device Android di Paolo</string>
     <string name="user_info_settings_title" msgid="8462815658350460581">"Dati utente"</string>
     <string name="show_profile_info_on_lockscreen_label" msgid="5734739022887933365">"Mostra info profilo in schermata di blocco"</string>
     <string name="profile_info_settings_title" msgid="8964582466273552765">"Informazioni profilo"</string>
     <string name="Accounts_settings_title" msgid="8434263183710375412">"Account"</string>
     <string name="location_settings_title" msgid="8375074508036087178">"Geolocalizzazione"</string>
     <string name="location_settings_master_switch_title" msgid="4232810467362584112">"Usa geolocalizzazione"</string>
-    <string name="location_settings_summary_location_off" msgid="4797932754681162262">"OFF"</string>
+    <string name="location_settings_summary_location_off" msgid="4797932754681162262">Off</string>
     <plurals name="location_settings_summary_location_on" formatted="false" msgid="1019959038518185676">
         <item quantity="other">On - <xliff:g id="COUNT_1">%1$d</xliff:g> app hanno accesso alla posizione</item>
         <item quantity="one">ON - <xliff:g id="COUNT_0">%1$d</xliff:g> app ha accesso alla posizione</item>
@@ -384,7 +384,7 @@
     <string name="decryption_settings_summary" product="tablet" msgid="1864963068216544631">"Dispositivo non criptato"</string>
     <string name="lockscreen_settings_title" msgid="5324197107343656770">"Visualizzazione schermata di blocco"</string>
     <string name="lockscreen_settings_what_to_show_category" msgid="9205490627927741254">"Cosa mostrare"</string>
-    <string name="security_settings_summary" msgid="1627059516127354233">"Imposta La mia posizione, sblocco schermo, blocco SIM, blocco cred."</string>
+    <string name="security_settings_summary" msgid="1627059516127354233">Imposta posizione, sblocco schermo, blocco SIM, blocco credenziali</string>
     <string name="cdma_security_settings_summary" msgid="2455517905101186330">"Imposta La mia posizione, sblocco schermo, blocco archivio credenziali"</string>
     <string name="security_passwords_title" msgid="4154420930973818581">"Privacy"</string>
     <string name="disabled_by_administrator_summary" msgid="4181894719300350343">"Disattivata dall\'amministratore"</string>
@@ -412,7 +412,7 @@
     <string name="security_settings_face_enroll_introduction_message_setup" msgid="765965418187421753">"Usa il tuo volto per sbloccare il telefono, autorizzare gli acquisti o accedere alle app"</string>
     <string name="security_settings_face_enroll_repeat_title" msgid="4446229670377418717">"Inquadra il tuo volto nel cerchio"</string>
     <string name="security_settings_face_enroll_enrolling_skip" msgid="5568617401632528567">"Ignora"</string>
-    <string name="face_add_max" msgid="4578405795494514876">"Puoi aggiungere fino a <xliff:g id="COUNT">%d</xliff:g> volti"</string>
+    <string name="face_add_max" msgid="4578405795494514876">Puoi aggiungere fino a <xliff:g id="count" example="5">%d</xliff:g> volti</string>
     <string name="face_intro_error_max" msgid="2474735057709291626">"Hai aggiunto il numero massimo di volti"</string>
     <string name="face_intro_error_unknown" msgid="1626057493054989995">"Impossibile aggiungere altri volti"</string>
     <string name="security_settings_face_enroll_error_dialog_title" msgid="2460820099922775936">"Registrazione non completata"</string>
@@ -480,11 +480,11 @@
     <string name="security_settings_fingerprint_enroll_dialog_ok" msgid="4074335979239208021">"OK"</string>
     <string name="security_settings_fingerprint_enroll_dialog_delete" msgid="6027141901007342389">"Elimina"</string>
     <string name="security_settings_fingerprint_enroll_start_title" msgid="7391368057800077604">"Tocca il sensore"</string>
-    <string name="security_settings_fingerprint_enroll_start_message" msgid="5010227772754175346">"Appoggia il dito sul sensore e sollevalo quando senti una vibrazione"</string>
+    <string name="security_settings_fingerprint_enroll_start_message" msgid="5010227772754175346">Appoggia il dito sul sensore e sollevalo quando lo senti vibrare</string>
     <string name="security_settings_fingerprint_enroll_repeat_title" msgid="9172202128243545021">"Solleva, quindi tocca di nuovo"</string>
-    <string name="security_settings_fingerprint_enroll_repeat_message" msgid="5382958363770893577">"Solleva ripetutamente il dito per aggiungere le diverse parti dell\'impronta"</string>
+    <string name="security_settings_fingerprint_enroll_repeat_message" msgid="5382958363770893577">Poggia più volte il dito per aggiungere le altre parti dell\'impronta</string>
     <string name="security_settings_fingerprint_enroll_finish_title" msgid="3606325177406951457">"Impronta aggiunta"</string>
-    <string name="security_settings_fingerprint_enroll_finish_message" msgid="8220458039597261933">"Quando vedi questa icona, usa l\'impronta per identificarti o autorizzare gli acquisti"</string>
+    <string name="security_settings_fingerprint_enroll_finish_message" msgid="8220458039597261933">Quando vedi questa icona, usa l\'impronta per identificarti o autorizzare gli acquisti</string>
     <string name="security_settings_fingerprint_enroll_enrolling_skip" msgid="3004786457919122854">"Più tardi"</string>
     <string name="setup_fingerprint_enroll_enrolling_skip_title" msgid="352947044008973812">"Saltare configurazione impronta digitale?"</string>
     <string name="setup_fingerprint_enroll_enrolling_skip_message" msgid="4876965433600560365">"Hai scelto anche l\'utilizzo dell\'impronta tra i vari metodi per sbloccare il telefono. Se salti la configurazione ora, dovrai eseguirla in un secondo momento. Basta un minuto."</string>
@@ -509,21 +509,23 @@
     <string name="security_settings_fingerprint_enroll_disclaimer" msgid="7875826823637114097">"Oltre che per sbloccare il telefono, puoi utilizzare la tua impronta per autorizzare acquisti e accessi alle app. "<annotation id="url">"Ulteriori informazioni"</annotation></string>
     <string name="security_settings_fingerprint_enroll_disclaimer_lockscreen_disabled" msgid="4260983700868889294">" L\'opzione di blocco dello schermo è disattivata. Per ulteriori informazioni, contatta l\'amministratore della tua organizzazione. "<annotation id="admin_details">"Altri dettagli"</annotation>\n\n"Puoi comunque utilizzare la tua impronta per autorizzare acquisti e accessi alle app. "<annotation id="url">"Ulteriori informazioni"</annotation></string>
     <string name="security_settings_fingerprint_enroll_lift_touch_again" msgid="2590665137265458789">"Solleva il dito, quindi tocca di nuovo il sensore"</string>
-    <string name="fingerprint_add_max" msgid="8639321019299347447">"Puoi aggiungere fino a <xliff:g id="COUNT">%d</xliff:g> impronte digitali"</string>
+    <string name="fingerprint_add_max" msgid="8639321019299347447">Puoi aggiungere fino a <xliff:g id="count" example="5">%d</xliff:g> impronte</string>
     <string name="fingerprint_intro_error_max" msgid="4431784409732135610">"Hai aggiunto il numero massimo di impronte digitali"</string>
     <string name="fingerprint_intro_error_unknown" msgid="877005321503793963">"Impossibile aggiungere ulteriori impronte digitali"</string>
     <string name="fingerprint_last_delete_title" msgid="4081475675646514726">"Rimuovere tutte le impronte digitali?"</string>
-    <string name="fingerprint_delete_title" msgid="1469865327307917858">"Rimuovi \"<xliff:g id="FINGERPRINT_ID">%1$s</xliff:g>\""</string>
+    <string name="fingerprint_delete_title" msgid="1469865327307917858">Remuovi \'<xliff:g id="fingerprint_id" example="Fingerprint 2">%1$s</xliff:g>\'</string>
     <string name="fingerprint_delete_message" msgid="1454995433333496541">"Vuoi eliminare questa impronta?"</string>
-    <string name="fingerprint_last_delete_message" msgid="93311579320049852">"Non potrai più utilizzare le impronte digitali per sbloccare il telefono, autorizzare gli acquisti o accedere alle app."</string>
-    <string name="fingerprint_last_delete_message_profile_challenge" msgid="3460246522493987163">"Non potrai utilizzare le impronte digitali per sbloccare il profilo di lavoro, autorizzare gli acquisti o accedere alle app di lavoro."</string>
+    <string name="fingerprint_last_delete_message" msgid="93311579320049852">Non potrai utilizzare l\'impronta per sbloccare il telefono, autorizzare gli acquisti o accedere alle app</string>
+    <string name="fingerprint_last_delete_message_profile_challenge" msgid="3460246522493987163">Non potrai utilizzare l\'impronta per sbloccare il profilo di lavoro, autorizzare gli acquisti o accedere alle app di lavoro</string>
     <string name="fingerprint_last_delete_confirm" msgid="3294910995598819259">"Sì, rimuovi"</string>
     <string name="crypt_keeper_settings_title" msgid="4938812137822100044">"Crittografia"</string>
     <string name="crypt_keeper_encrypt_title" product="tablet" msgid="7484150746479958376">"Cripta tablet"</string>
     <string name="crypt_keeper_encrypt_title" product="default" msgid="8302873664348463041">"Cripta telefono"</string>
     <string name="crypt_keeper_encrypted_summary" msgid="3866488451639592071">"Criptato"</string>
     <string name="crypt_keeper_desc" product="tablet" msgid="4103951371711323192">"Puoi criptare account, impostazioni, app scaricate e relativi dati, contenuti multimediali e altri file. Una volta criptato il tablet, presumendo che tu abbia impostato il blocco schermo (vale a dire una sequenza, un PIN numerico o una password), devi sbloccare lo schermo per decriptare il tablet a ogni accensione. L\'unico altro metodo di decriptazione consiste nell\'eseguire un ripristino dei dati di fabbrica, che cancella tutti i dati.\n\nLa procedura di crittografia richiede almeno un\'ora. Devi iniziarla con la batteria completamente carica e tenere il telefono sempre collegato a una presa di corrente per tutta la durata della procedura. Qualora dovessi interromperla, perderai tutti i dati o parte di essi."</string>
-    <string name="crypt_keeper_desc" product="default" msgid="6180866043921135548">"Puoi criptare account, impostazioni, app scaricate e relativi dati, contenuti multimediali e altri file. Una volta criptato il telefono, presumendo che tu abbia impostato il blocco schermo (vale a dire una sequenza, un PIN numerico o una password), devi sbloccare lo schermo per decriptare il telefono a ogni accensione. L\'unico altro metodo di decriptazione consiste nell\'eseguire un ripristino dei dati di fabbrica, che cancella tutti i dati.\n\nLa procedura di crittografia richiede almeno un\'ora. Devi iniziarla con la batteria completamente carica e tenere il telefono sempre collegato a una presa di corrente per tutta la durata della procedura. Qualora dovessi interromperla, perderai tutti i dati o parte di essi."</string>
+    <string name="crypt_keeper_desc" product="default" msgid="6180866043921135548">Puoi criptare account, impostazioni, app scaricate e relativi dati, contenuti multimediali e altri file. Una volta criptato il telefono, dando per scontato che abbia impostato un blocco schermo (sequenza, PIN numerico o password), dovrai sbloccare lo schermo per decriptare il telefono a ogni accensione. L\'unico altro metodo di decriptazione consiste nell\'eseguire un ripristino dei dati di fabbrica, che cancella tutti i dati.
+\n
+\nLa procedura di crittografia richiede almeno un\'ora. Devi iniziarla con la batteria completamente carica e tenere il telefono sempre collegato a una presa di corrente per tutta la durata della procedura. Qualora dovessi interromperla, perderai tutti i dati o parte di essi</string>
     <string name="crypt_keeper_button_text" product="tablet" msgid="5551608011810921471">"Cripta tablet"</string>
     <string name="crypt_keeper_button_text" product="default" msgid="6370330929679426136">"Cripta telefono"</string>
     <string name="crypt_keeper_low_charge_text" msgid="4920087247177024521">"Carica la batteria e riprova."</string>
@@ -535,12 +537,12 @@
     <string name="crypt_keeper_final_desc" product="default" msgid="3040428543349852419">"L\'operazione di crittografia non è reversibile e la sua interruzione causerà la perdita di dati. La crittografia richiede almeno un\'ora, durante la quale il telefono verrà riavviato diverse volte."</string>
     <string name="crypt_keeper_setup_title" msgid="3339725741305796680">"Crittografia"</string>
     <string name="crypt_keeper_setup_description" product="tablet" msgid="4417016995091289019">"Attendi il termine della crittografia del tablet. <xliff:g id="PERCENT">^1</xliff:g>% completato."</string>
-    <string name="crypt_keeper_setup_description" product="default" msgid="7902355422499500352">"Attendi il termine della crittografia del telefono. <xliff:g id="PERCENT">^1</xliff:g>% completato."</string>
+    <string name="crypt_keeper_setup_description" product="default" msgid="7902355422499500352">Attendi la cifratura del telefono. <xliff:g id="percent" example="50">^1</xliff:g>% completato.</string>
     <string name="crypt_keeper_setup_time_remaining" product="tablet" msgid="8348188415839917821">"Attendi che il tablet venga criptato. Tempo rimanente: <xliff:g id="DURATION">^1</xliff:g>"</string>
-    <string name="crypt_keeper_setup_time_remaining" product="default" msgid="8556105766597855198">"Attendi che il telefono venga criptato. Tempo rimanente: <xliff:g id="DURATION">^1</xliff:g>"</string>
+    <string name="crypt_keeper_setup_time_remaining" product="default" msgid="8556105766597855198">Attendi la cifratura del telefono. Tempo necessario: <xliff:g id="duration" example="1:23">^1</xliff:g></string>
     <string name="crypt_keeper_force_power_cycle" product="tablet" msgid="3832496715430327682">"Per sbloccare il tablet, spegnilo e accendilo."</string>
     <string name="crypt_keeper_force_power_cycle" product="default" msgid="5070346039522135361">"Per sbloccare il telefono, spegnilo e accendilo."</string>
-    <string name="crypt_keeper_warn_wipe" msgid="8104921337301750394">"Avviso. I dati del dispositivo verranno cancellati dopo altri <xliff:g id="COUNT">^1</xliff:g> tentativi di sblocco non riusciti."</string>
+    <string name="crypt_keeper_warn_wipe" msgid="8104921337301750394">Attenzione: I dati del dispositivo verranno cancellati dopo altri <xliff:g id="count" example="7">^1</xliff:g> tentativi falliti di sbloccarlo! </string>
     <string name="crypt_keeper_enter_password" msgid="1274917431075529732">"Digita la password"</string>
     <string name="crypt_keeper_failed_title" msgid="8173654570682244149">"Crittografia non riuscita"</string>
     <string name="crypt_keeper_failed_summary" product="tablet" msgid="5977961188966570342">"La crittografia è stata interrotta e non è possibile portarla a termine. Di conseguenza, i dati memorizzati sul tablet non sono più accessibili. \n\nPer riprendere a utilizzare il tablet devi effettuare un ripristino dei dati di fabbrica. Quando configuri il tablet dopo il ripristino, hai la possibilità di ripristinare i dati di cui hai effettuato il backup nel tuo Account /e/."</string>
@@ -568,8 +570,8 @@
     <string name="setup_lock_settings_options_button_label" msgid="6098297461618298505">"Opzioni di blocco schermo"</string>
     <string name="setup_lock_settings_options_dialog_title" msgid="7985107300517468569">"Opzioni di blocco schermo"</string>
     <string name="unlock_set_unlock_launch_picker_title" msgid="4981063601772605609">"Blocco schermo"</string>
-    <string name="unlock_set_unlock_launch_picker_summary_lock_immediately" msgid="5799070517574360310">"<xliff:g id="UNLOCK_METHOD">%1$s</xliff:g>/Subito dopo la sospensione"</string>
-    <string name="unlock_set_unlock_launch_picker_summary_lock_after_timeout" msgid="4572132216801894216">"<xliff:g id="UNLOCK_METHOD">%1$s</xliff:g>/<xliff:g id="TIMEOUT_STRING">%2$s</xliff:g> dopo sospensione"</string>
+    <string name="unlock_set_unlock_launch_picker_summary_lock_immediately" msgid="5799070517574360310"><xliff:g id="unlock_method" example="PIN">%1$s</xliff:g> / Subito dopo la sospensione</string>
+    <string name="unlock_set_unlock_launch_picker_summary_lock_after_timeout" msgid="4572132216801894216"><xliff:g id="unlock_method" example="PIN">%1$s</xliff:g> / <xliff:g id="timeout_string">%2$s</xliff:g> dopo la sospensione</string>
     <string name="unlock_set_unlock_launch_picker_title_profile" msgid="7631371082326055429">"Blocco profilo lavoro"</string>
     <string name="unlock_set_unlock_launch_picker_change_title" msgid="4746783679112447948">"Cambia blocco schermo"</string>
     <string name="unlock_set_unlock_launch_picker_change_summary" msgid="6023813780512501969">"Cambia o disattiva protez. tramite sequenza, PIN o password"</string>
@@ -606,45 +608,45 @@
     <string name="unlock_disable_frp_warning_title" msgid="1520689401825045809">"Rimuovere la protezione del dispositivo?"</string>
     <string name="unlock_disable_frp_warning_title_profile" msgid="1005284289723910461">"Rimuovere la protezione del profilo?"</string>
     <string name="unlock_disable_frp_warning_content_pattern" msgid="669384600341275312">"Le funzionalità di protezione del dispositivo non funzioneranno senza sequenza."</string>
-    <string name="unlock_disable_frp_warning_content_pattern_fingerprint" msgid="8160948976853039106">"Le funzionalità di protezione del dispositivo non funzioneranno senza sequenza.<xliff:g id="EMPTY_LINE">
-
-</xliff:g>Anche le impronte digitali salvate verranno eliminate da questo dispositivo e non potrai più utilizzarle per sbloccare il telefono, autorizzare gli acquisti o accedere alle app."</string>
+    <string name="unlock_disable_frp_warning_content_pattern_fingerprint" msgid="8160948976853039106">Senza sequenza, la protezione del dispositivo non sarà attiva.<xliff:g id="empty_line">
+\n
+\n</xliff:g>Verranno rimosse dal dispositivo anche le impronte salvate e non potrai usarle per sbloccare il telefono, autorizzare acquisti o accedere alle app.</string>
     <string name="unlock_disable_frp_warning_content_pin" msgid="3732073290049930632">"Le funzionalità di protezione del dispositivo non funzioneranno senza PIN."</string>
-    <string name="unlock_disable_frp_warning_content_pin_fingerprint" msgid="2018020861756931097">"Le funzionalità di protezione del dispositivo non funzioneranno senza PIN.<xliff:g id="EMPTY_LINE">
-
-</xliff:g>Anche le impronte digitali salvate verranno eliminate da questo dispositivo e non potrai più utilizzarle per sbloccare il telefono, autorizzare gli acquisti o accedere alle app."</string>
+    <string name="unlock_disable_frp_warning_content_pin_fingerprint" msgid="2018020861756931097">Senza PIN, la protezione del dispositivo non sarà attiva.<xliff:g id="empty_line">
+\n
+\n</xliff:g>Verranno rimosse dal dispositivo anche le impronte salvate e non potrai usarle per sbloccare il telefono, autorizzare acquisti o accedere alle app.</string>
     <string name="unlock_disable_frp_warning_content_password" msgid="2130004168084396797">"Le funzionalità di protezione del dispositivo non funzioneranno senza password."</string>
-    <string name="unlock_disable_frp_warning_content_password_fingerprint" msgid="8455564842615579472">"Le funzionalità di protezione del dispositivo non funzioneranno senza password.<xliff:g id="EMPTY_LINE">
-
-</xliff:g>Anche le impronte digitali salvate verranno eliminate da questo dispositivo e non potrai più utilizzarle per sbloccare il telefono, autorizzare gli acquisti o accedere alle app."</string>
+    <string name="unlock_disable_frp_warning_content_password_fingerprint" msgid="8455564842615579472">Senza password, la protezione del dispositivo non sarà attiva.<xliff:g id="empty_line">
+\n
+\n</xliff:g>Verranno rimosse dal dispositivo anche le impronte salvate e non potrai usarle per sbloccare il telefono, autorizzare acquisti o accedere alle app.</string>
     <string name="unlock_disable_frp_warning_content_unknown" msgid="8903568674104115231">"Le funzionalità di protezione del dispositivo non funzioneranno senza blocco schermo."</string>
-    <string name="unlock_disable_frp_warning_content_unknown_fingerprint" msgid="4985095359625056279">"Le funzionalità di protezione del dispositivo non funzioneranno senza blocco schermo.<xliff:g id="EMPTY_LINE">
-
-</xliff:g>Anche le impronte digitali salvate verranno eliminate da questo dispositivo e non potrai più utilizzarle per sbloccare il telefono, autorizzare gli acquisti o accedere alle app."</string>
+    <string name="unlock_disable_frp_warning_content_unknown_fingerprint" msgid="4985095359625056279">Senza blocco schermo, la protezione del dispositivo non sarà attiva.<xliff:g id="empty_line">
+\n
+\n</xliff:g>Verranno rimosse dal dispositivo anche le impronte salvate e non potrai usarle per sbloccare il telefono, autorizzare acquisti o accedere alle app.</string>
     <string name="unlock_disable_frp_warning_content_pattern_profile" msgid="6850770024037691891">"Le funzioni di protezione del profilo non funzioneranno senza sequenza."</string>
-    <string name="unlock_disable_frp_warning_content_pattern_fingerprint_profile" msgid="313998125412427527">"Le funzionalità di protezione del profilo non funzioneranno senza sequenza.<xliff:g id="EMPTY_LINE">
-
-</xliff:g>Anche le impronte digitali salvate verranno eliminate da questo profilo e non potrai più utilizzarle per sbloccare il profilo, autorizzare gli acquisti o accedere alle app."</string>
+    <string name="unlock_disable_frp_warning_content_pattern_fingerprint_profile" msgid="313998125412427527">Senza sequenza, la protezione del profilo non sarà attiva.<xliff:g id="empty_line">
+\n
+\n</xliff:g>Verranno rimosse dal profilo anche le impronte salvate e non potrai usarle per sbloccare il profilo, autorizzare acquisti o accedere alle app.</string>
     <string name="unlock_disable_frp_warning_content_pin_profile" msgid="6328378875803145738">"Le funzioni di protezione del profilo non funzioneranno senza PIN."</string>
-    <string name="unlock_disable_frp_warning_content_pin_fingerprint_profile" msgid="6844729803535310058">"Le funzionalità di protezione del profilo non funzioneranno senza PIN.<xliff:g id="EMPTY_LINE">
-
-</xliff:g>Anche le impronte digitali salvate verranno eliminate da questo profilo e non potrai più utilizzarle per sbloccare il profilo, autorizzare gli acquisti o accedere alle app."</string>
+    <string name="unlock_disable_frp_warning_content_pin_fingerprint_profile" msgid="6844729803535310058">Senza PIN, la protezione del profilo non sarà attiva.<xliff:g id="empty_line">
+\n
+\n</xliff:g>Verranno rimosse dal profilo anche le impronte salvate e non potrai usarle per sbloccare il profilo, autorizzare acquisti o accedere alle app.</string>
     <string name="unlock_disable_frp_warning_content_password_profile" msgid="6922335143823758149">"Le funzioni di protezione del profilo non funzioneranno senza password."</string>
-    <string name="unlock_disable_frp_warning_content_password_fingerprint_profile" msgid="5724824564583660260">"Le funzionalità di protezione del profilo non funzioneranno senza password.<xliff:g id="EMPTY_LINE">
-
-</xliff:g>Anche le impronte digitali salvate verranno eliminate da questo profilo e non potrai più utilizzarle per sbloccare il profilo, autorizzare gli acquisti o accedere alle app."</string>
+    <string name="unlock_disable_frp_warning_content_password_fingerprint_profile" msgid="5724824564583660260">Senza password, la protezione del profilo non sarà attiva.<xliff:g id="empty_line">
+\n
+\n</xliff:g>Verranno rimosse dal profilo anche le impronte salvate e non potrai usarle per sbloccare il profilo, autorizzare acquisti o accedere alle app.</string>
     <string name="unlock_disable_frp_warning_content_unknown_profile" msgid="6886183964362015704">"Le funzioni di protezione del profilo non funzioneranno senza blocco schermo."</string>
-    <string name="unlock_disable_frp_warning_content_unknown_fingerprint_profile" msgid="3754195701700959477">"Le funzionalità di protezione del profilo non funzioneranno senza blocco schermo.<xliff:g id="EMPTY_LINE">
-
-</xliff:g>Anche le impronte digitali salvate verranno eliminate da questo profilo e non potrai più utilizzarle per sbloccare il profilo, autorizzare gli acquisti o accedere alle app."</string>
+    <string name="unlock_disable_frp_warning_content_unknown_fingerprint_profile" msgid="3754195701700959477">Senza blocco schermo, la protezione del profilo non sarà attiva.<xliff:g id="empty_line">
+\n
+\n</xliff:g>Verranno rimosse dal profilo anche le impronte salvate e non potrai usarle per sbloccare il profilo, autorizzare acquisti o accedere alle app.</string>
     <string name="unlock_disable_frp_warning_ok" msgid="621607297961726537">"Sì, rimuovi"</string>
     <string name="unlock_change_lock_pattern_title" msgid="8234523589333929193">"Cambia sequenza di sblocco"</string>
     <string name="unlock_change_lock_pin_title" msgid="2324077520816477479">"Cambia PIN di sblocco"</string>
     <string name="unlock_change_lock_password_title" msgid="873517913969091074">"Cambia password di sblocco"</string>
-    <string name="unlock_footer_high_complexity_requested" msgid="4471274783909915352">"<xliff:g id="APP_NAME">%1$s</xliff:g> consiglia una password o un PIN efficaci; in caso contrario potrebbe non funzionare come previsto."</string>
-    <string name="unlock_footer_medium_complexity_requested" msgid="5515870066751600640">"<xliff:g id="APP_NAME">%1$s</xliff:g> consiglia un nuovo PIN o una nuova password; in caso contrario potrebbe non funzionare come previsto."</string>
-    <string name="unlock_footer_low_complexity_requested" msgid="2517656037576567971">"<xliff:g id="APP_NAME">%1$s</xliff:g> consiglia un nuovo PIN oppure una nuova sequenza o password; in caso contrario potrebbe non funzionare come previsto."</string>
-    <string name="unlock_footer_none_complexity_requested" msgid="8534900170428140529">"<xliff:g id="APP_NAME">%1$s</xliff:g> consiglia un nuovo blocco schermo"</string>
+    <string name="unlock_footer_high_complexity_requested" msgid="4471274783909915352"><xliff:g id="app_name" example="Gmail">%1$s</xliff:g> invita a utilizzare un PIN o una password sicuri dato che senza potrebbe non funzionare come previsto</string>
+    <string name="unlock_footer_medium_complexity_requested" msgid="5515870066751600640"><xliff:g id="app_name" example="Gmail">%1$s</xliff:g> consiglia un nuovo PIN o password dato che senza potrebbe non funzionare come previsto</string>
+    <string name="unlock_footer_low_complexity_requested" msgid="2517656037576567971"><xliff:g id="app_name" example="Gmail">%1$s</xliff:g> consiglia una nuova sequanza, PIN o password dato che senza potrebbe non funzionare come previsto</string>
+    <string name="unlock_footer_none_complexity_requested" msgid="8534900170428140529"><xliff:g id="app_name" example="Gmail">%1$s</xliff:g> consiglia di usare un nuovo blocco schermo</string>
     <string name="lock_failed_attempts_before_wipe" msgid="6874652886647631418">"Riprova. Tentativo <xliff:g id="CURRENT_ATTEMPTS">%1$d</xliff:g> di <xliff:g id="TOTAL_ATTEMPTS">%2$d</xliff:g>."</string>
     <string name="lock_last_attempt_before_wipe_warning_title" msgid="7450322567217745999">"I tuoi dati verranno eliminati"</string>
     <string name="lock_last_pattern_attempt_before_wipe_device" msgid="5816668400104558952">"Se al prossimo tentativo inserirai una sequenza sbagliata, i dati del dispositivo verranno eliminati"</string>
@@ -661,12 +663,12 @@
     <string name="lock_failed_attempts_now_wiping_profile" msgid="3171880997211568208">"Troppi tentativi sbagliati. Questo profilo di lavoro e i relativi dati verranno eliminati."</string>
     <string name="lock_failed_attempts_now_wiping_dialog_dismiss" msgid="170155081899679669">"Ignora"</string>
     <plurals name="lockpassword_password_too_short" formatted="false" msgid="2192234965414232157">
-        <item quantity="other">Deve contenere almeno <xliff:g id="COUNT_1">%d</xliff:g> caratteri</item>
-        <item quantity="one">Deve contenere almeno <xliff:g id="COUNT_0">%d</xliff:g> carattere</item>
+        <item quantity="one">Deve contenere almeno <xliff:g id="count" example="1">%d</xliff:g> carattere</item>
+        <item quantity="other">Deve contenere almeno <xliff:g id="count" example="3">%d</xliff:g> caratteri</item>
     </plurals>
     <plurals name="lockpassword_pin_too_short" formatted="false" msgid="6817086810898414162">
-        <item quantity="other">Il PIN deve contenere almeno <xliff:g id="COUNT_1">%d</xliff:g> cifre</item>
-        <item quantity="one">Il PIN deve contenere almeno <xliff:g id="COUNT_0">%d</xliff:g> cifra</item>
+        <item quantity="one">Il PIN must deve essere di almeno <xliff:g id="count" example="1">%d</xliff:g> cifra</item>
+        <item quantity="other">Il PIN must deve essere di almeno <xliff:g id="count" example="3">%d</xliff:g> cifre</item>
     </plurals>
     <string name="lockpassword_continue_label" msgid="2507983991979547816">"Continua"</string>
     <plurals name="lockpassword_password_too_long" formatted="false" msgid="8118091957172967677">
@@ -980,7 +982,7 @@
     <string name="wifi_use_system_certs" msgid="5587866698144996931">"Utilizza certificati di sistema"</string>
     <string name="wifi_do_not_provide_eap_user_cert" msgid="6336636553673065145">"Non fornire"</string>
     <string name="wifi_do_not_validate_eap_server" msgid="4673867078988209732">"Non convalidare"</string>
-    <string name="wifi_do_not_validate_eap_server_warning" msgid="5741728006175181647">"Nessun certificato specificato. La connessione non sarà privata."</string>
+    <string name="wifi_do_not_validate_eap_server_warning" msgid="5741728006175181647">Nessun certificato specificato. Connessione non protetta.</string>
     <string name="wifi_ssid_too_long" msgid="5961719058705013875">"Il nome della rete è troppo lungo."</string>
     <string name="wifi_no_domain_warning" msgid="1452133316532366772">"Specifica un dominio."</string>
     <string name="wifi_wps_available_first_item" msgid="5780501151792036589">"WPS disponibile"</string>
@@ -4160,16 +4162,16 @@
     <string name="cross_profile_calendar_summary" msgid="8856185206722860069">"Mostra gli eventi di lavoro sul tuo calendario personale"</string>
     <string name="cross_profile_calendar_restricted_summary" msgid="282962670405516067">"La tua organizzazione non consente alle app personali di accedere al tuo calendario di lavoro"</string>
     <plurals name="hours" formatted="false" msgid="1853396353451635458">
-        <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> ore</item>
         <item quantity="one">1 ora</item>
+        <item quantity="other"></item>
     </plurals>
     <plurals name="minutes" formatted="false" msgid="6244503272924425418">
-        <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> minuti</item>
         <item quantity="one">1 minuto</item>
+        <item quantity="other"></item>
     </plurals>
     <plurals name="seconds" formatted="false" msgid="4237020272336995370">
-        <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> secondi</item>
         <item quantity="one">1 secondo</item>
+        <item quantity="other"></item>
     </plurals>
     <string name="automatic_storage_manager_settings" msgid="519158151463974656">"Gestisci archiviazione"</string>
     <string name="automatic_storage_manager_text" msgid="6900593059927987273">"Per liberare spazio, la gestione memoria rimuove foto e video dal dispositivo dopo averne eseguito il backup."</string>
@@ -4647,4 +4649,21 @@
     <string name="bluetooth_connect_access_dialog_content" msgid="4336436466468405850">"<xliff:g id="DEVICE_NAME_0">%1$s</xliff:g> vorrebbe connettersi a questo telefono.\n\nNon hai mai effettuato la connessione al dispositivo <xliff:g id="DEVICE_NAME_1">%2$s</xliff:g>."</string>
     <string name="bluetooth_connect_access_dialog_negative" msgid="4944672755226375059">"Non connettere"</string>
     <string name="bluetooth_connect_access_dialog_positive" msgid="3630561675207269710">"Connetti"</string>
+    <string name="e_dns_summary">Configura DNS</string>
+    <string name="e_dns_not_set">9.9.9.9</string>
+    <string name="e_dns_name_summary">Imposta DNS</string>
+    <string name="e_use_dhcp_dns_summary">Consenti uso del DNS del provider rete</string>
+    <string name="e_use_dhcp_dns">Usa network DNS</string>
+    <string name="e_dns_name">DNS</string>
+    <string name="e_dns_mode">DNS</string>
+    <string name="e_dns_settings_title">Impostazioni DNS</string>
+    <string name="open_keychain">OpenKeychain</string>
+    <string name="micro_g">MicroG</string>
+    <string name="call_manager_summary"><xliff:g id="app">%1$s</xliff:g></string>
+    <string name="battery_saver_seekbar_title"><xliff:g id="percent">%1$s</xliff:g></string>
+    <string name="service_process_name"><xliff:g id="process">%1$s</xliff:g></string>
+    <string name="service_client_name"><xliff:g id="client_name">%1$s</xliff:g></string>
+    <string name="status_imei"></string>
+    <string name="wifi_calling_roaming_mode_summary"><xliff:g id="wfc_roaming_preference" example="Wi-Fi">%1$s</xliff:g></string>
+    <string name="intent_sender_data_label"><xliff:g id="data">Dati:</xliff:g></string>
 </resources>
