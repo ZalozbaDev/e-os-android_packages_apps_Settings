@@ -142,6 +142,7 @@ import com.android.settings.password.ChooseLockPassword;
 import com.android.settings.password.ChooseLockPattern;
 import com.android.settings.print.PrintJobSettingsFragment;
 import com.android.settings.print.PrintSettingsFragment;
+import com.android.settings.privacy.AdvancedPrivacyDashboardFragment;
 import com.android.settings.privacy.PrivacyDashboardFragment;
 import com.android.settings.security.CryptKeeperSettings;
 import com.android.settings.security.LockscreenDashboardFragment;
@@ -323,7 +324,8 @@ public class SettingsGateway {
             NetworkProviderSettings.class.getName(),
             NetworkSelectSettings.class.getName(),
             AlarmsAndRemindersDetails.class.getName(),
-            MediaManagementAppsDetails.class.getName()
+            MediaManagementAppsDetails.class.getName(),
+            AdvancedPrivacyDashboardFragment.class.getName(),
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {

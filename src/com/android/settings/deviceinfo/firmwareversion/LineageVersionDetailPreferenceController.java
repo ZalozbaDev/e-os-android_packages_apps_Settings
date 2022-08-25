@@ -131,6 +131,6 @@ public class LineageVersionDetailPreferenceController extends BasePreferenceCont
     @Override
     public void copy() {
         Sliceable.setCopyContent(mContext, getSummary(),
-                mContext.getText(org.lineageos.platform.internal.R.string.lineage_version));
+                mContext.getText(R.string.e_version));
     }
 }
