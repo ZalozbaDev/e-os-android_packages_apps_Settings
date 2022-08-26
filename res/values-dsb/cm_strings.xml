@@ -17,101 +17,101 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <plurals name="show_dev_countdown_cm">
-        <item quantity="one">Už jste jen <xliff:g id="step_count">%1$d</xliff:g> krok od povolení vývojářských nastavení.</item>
-        <item quantity="few">Už jste jen <xliff:g id="step_count">%1$d</xliff:g> kroky od povolení vývojářských nastavení.</item>
-        <item quantity="many">Už jste jen <xliff:g id="step_count">%1$d</xliff:g> kroků od povolení vývojářských nastavení.</item>
-        <item quantity="other">Už jste jen <xliff:g id="step_count">%1$d</xliff:g> kroků od povolení vývojářských nastavení.</item>
+        <item quantity="one">Ty sy jano <xliff:g id="step_count">%1$d</xliff:g> kšoceń wót aktiwěrowanja programěraŕskich nastajenjow.</item>
+        <item quantity="few">Ty sy jano <xliff:g id="step_count">%1$d</xliff:g> kšocenje wót aktiwěrowanja programěraŕskich nastajenjow.</item>
+        <item quantity="many">Ty sy jano <xliff:g id="step_count">%1$d</xliff:g> kšoceni wót aktiwěrowanja programěraŕskich nastajenjow.</item>
+        <item quantity="two">Ty sy jano <xliff:g id="step_count">%1$d</xliff:g> kšoceni wót aktiwěrowanja programěraŕskich nastajenjow.</item>
     </plurals>
-    <string name="show_dev_on_cm">Vývojářské nastavení je povoleno!</string>
-    <string name="show_dev_already_cm">DS: Wuwiwarske nastajenja su hižo dowolene.</string>
-    <string name="suggestion_button_close">Zavřít</string>
-    <string name="advanced_reboot_title">Rozšířený restart</string>
-    <string name="advanced_reboot_summary">Pokud je povoleno, v nabídce vypnutí jsou také možnosti restartovat zařízení do recovery nebo bootloaderu</string>
-    <string name="adb_enable">Ladění systému Android</string>
-    <string name="adb_enable_summary">Povolit rozhraní Android Debug Bridge (adb)</string>
-    <string name="adb_enable_root">Ladění s\u00a0právy root</string>
-    <string name="adb_enable_summary_root">Povolit spuštění ladění Androidu s\u00a0právy root</string>
-    <string name="adb_notify">Oznámení o ladění</string>
-    <string name="adb_notify_summary">Zobrazit oznámení když je aktivní ladění přes síť nebo USB</string>
-    <string name="adb_over_network">ADB přes síť</string>
-    <string name="adb_over_network_summary">Povolit ladění přes TCP/IP síťové připojení (např. Wi\u2011Fi nebo síť USB). Toto nastavení bude obnoveno po restartu</string>
-    <string name="adb_over_network_warning">VAROVÁNÍ: Když je ADB přes síť aktivní, váš telefon je otevřen pro vniknutí jakéhokoliv zařízení ze sítě!\n\nPoužívejte tuto funkci jen když jste připojen na důvěryhodné síti.\n\nChcete opravdu zapnout tuto funkci?</string>
-    <string name="lineagelicense_title">Právní ujednání LineageOS</string>
-    <string name="kill_app_longpress_back">Vynucené ukončení aplikace</string>
-    <string name="kill_app_longpress_back_summary">Ukončení aplikace na popředí dlouhým podržením tlačítka zpět</string>
-    <string name="device_hostname">Hostitelské jméno zařízení</string>
-    <string name="tethering_allow_vpn_upstreams_title">Umožnit klientům používat VPN</string>
-    <string name="tethering_allow_vpn_upstreams_summary">Povolit klientům hotspotu používat připojení VPN tohoto zařízení pro upstream konektivitu</string>
-    <string name="increasing_ring_volume_option_title">Zvyšující se hlasitost vyzvánění</string>
-    <string name="increasing_ring_min_volume_title">Počáteční hlasitost</string>
-    <string name="increasing_ring_ramp_up_time_title">Doba zesilování</string>
-    <string name="lockscreen_media_art_title">Zobrazit obal médií</string>
-    <string name="lockscreen_visualizer_title">Zobrazit hudební vizualizaci</string>
-    <string name="lock_settings_picker_pattern_size_message">Zvolit velikost vzoru</string>
-    <string name="lockpattern_settings_enable_error_path_title">Zobrazit cestu chybného gesta</string>
-    <string name="lockpattern_settings_enable_dots_title">Zobrazit body gesta</string>
-    <string name="translucent_lockscreen_notifications_bg_title">Průsvitné pozadí oznámení</string>
-    <string name="app_notification_sound_timeout_title">Minimální doba mezi zvuky oznámení</string>
-    <string name="app_notification_sound_timeout_summary_template">Povolit zvuky nebo vibrace ne více než jednou každých <xliff:g id="duration">%1$s</xliff:g></string>
-    <string name="app_notification_sound_timeout_value_none">Bez omezení</string>
-    <string name="app_notification_sound_timeout_value_10_seconds">10 sekund</string>
-    <string name="app_notification_sound_timeout_value_30_seconds">30 sekund</string>
+    <string name="show_dev_on_cm">Ty sy programěraŕske nastajenja aktiwěrował(a)!</string>
+    <string name="show_dev_already_cm">Njejo trjeba, programěraŕske nastajenja su južo aktiwěrowane.</string>
+    <string name="suggestion_button_close">Zacyniś</string>
+    <string name="advanced_reboot_title">Rozšyrjony restart</string>
+    <string name="advanced_reboot_summary">Gaž display jo wótamknjony, pśidaj k restartowemu menijoju opcije za restart w modusu recovery abo w bootloaderu.</string>
+    <string name="adb_enable">Debugowanje android-systema</string>
+    <string name="adb_enable_summary">Interface \"Android Debug Bridge\" (ADB) aktiwěrowaś</string>
+    <string name="adb_enable_root">Debugowanje ako root</string>
+    <string name="adb_enable_summary_root">Debugowanje android-systema ako root dowóliś</string>
+    <string name="adb_notify">Powěźeńka wót debugowanja</string>
+    <string name="adb_notify_summary">Powěźeńku pokazaś, gaž debugowanje USB abo pśez seś jo aktiwěrowane</string>
+    <string name="adb_over_network">ADB pśez seś</string>
+    <string name="adb_over_network_summary">Debugowanje TCP/IP pśez seśowy interface (WLAN, USB-seśi) aktiwěrowaś. Toś to nastajenje se pśi restarśe resetujo.</string>
+    <string name="adb_over_network_warning">WARNOWANJE: Gaž ADB pśez seś jo aktiwěrowany, ga wobstoj pśistup z kuždeje seśi na twój rěd!\n\nToś tu funkciju wužywaj jano, gaž se wobźaržujoš w seśi, kótaraž jo dowěry dostojna.\n\nCoš pśeto toś tu funkciju aktiwěrowaś?</string>
+    <string name="lineagelicense_title">Juristiske pokazki k LineageOS</string>
+    <string name="kill_app_longpress_back">Aplikaciju z tastu \"slědk\" dokóńcowaś</string>
+    <string name="kill_app_longpress_back_summary">Dokóńcowanje aplikacije w prědku pśez tłocenje a źaržanje tasty \"slědk\"</string>
+    <string name="device_hostname">Hostowe mě rědu</string>
+    <string name="tethering_allow_vpn_upstreams_title">Dowóliś, aby pśizamknjone rědy (clienty) VPN wužywali</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Dowólijo clientam hotspota, aby VPN toś togo rědu za upstream wužywali</string>
+    <string name="increasing_ring_volume_option_title">Rosćeca głosnosć zwónjenja</string>
+    <string name="increasing_ring_min_volume_title">Zachopna głosnosć</string>
+    <string name="increasing_ring_ramp_up_time_title">Dłujkosć pśiběranja głosnosći</string>
+    <string name="lockscreen_media_art_title">Wobalku albuma pokazaś</string>
+    <string name="lockscreen_visualizer_title">Muzikowu wizualizaciju pokazaś</string>
+    <string name="lock_settings_picker_pattern_size_message">Wjelikosć mustera wuzwóliś</string>
+    <string name="lockpattern_settings_enable_error_path_title">Wopacny muster pokazaś</string>
+    <string name="lockpattern_settings_enable_dots_title">Typki mustera pokazaś</string>
+    <string name="translucent_lockscreen_notifications_bg_title">Pśewidobna slězyna za powěźeńki</string>
+    <string name="app_notification_sound_timeout_title">Minimalny cas mjazy powěźeńkowymi zukami</string>
+    <string name="app_notification_sound_timeout_summary_template">Zuki a wibracije jano we wótstawku wót <xliff:g id="duration">%1$s</xliff:g> s dowóliś</string>
+    <string name="app_notification_sound_timeout_value_none">Mimo wobgranicowanja</string>
+    <string name="app_notification_sound_timeout_value_10_seconds">10 sekundow</string>
+    <string name="app_notification_sound_timeout_value_30_seconds">30 sekundow</string>
     <string name="app_notification_sound_timeout_value_1_minute">1 minuta</string>
-    <string name="app_notification_sound_timeout_value_5_minutes">5 minut</string>
-    <string name="app_notification_sound_timeout_value_15_minutes">10 minut</string>
-    <string name="app_notification_sound_timeout_value_30_minutes">30 minut</string>
-    <string name="unlock_scramble_pin_layout_title">Přeházet rozložení</string>
-    <string name="unlock_scramble_pin_layout_summary">Přeházet rozložení pro zadání PIN při odemykání zařízení</string>
-    <string name="volume_link_notification_title">Spojit hlasitost vyzvánění a oznámení</string>
-    <string name="directly_show_lock">Odemykat přímo</string>
-    <string name="directly_show_lock_summary">Přeskočit odemčení obrazovky přejetím a okamžitě spustit zadávání klíče</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="tablet">Vyhledejte snímač otisku prstů <xliff:g id="sensor_location">%1$s</xliff:g> vašeho tabletu.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="device">Vyhledejte snímač otisku prstů <xliff:g id="sensor_location">%1$s</xliff:g> vašeho zařízení.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="default">Vyhledejte snímač otisku prstů <xliff:g id="sensor_location">%1$s</xliff:g> na telefonu.</string>
-    <string name="security_settings_fingerprint_sensor_location_back">zpět</string>
-    <string name="security_settings_fingerprint_sensor_location_front">přední</string>
-    <string name="security_settings_fingerprint_sensor_location_left">levá strana</string>
-    <string name="security_settings_fingerprint_sensor_location_right">pravá strana</string>
-    <string name="status_bar_double_tap_to_sleep_title">Klepnutím uspat</string>
-    <string name="status_bar_double_tap_to_sleep_summary">Dvojitým poklepáním na stavovou lištu nebo zamykací obrazovku vypnout obrazovku</string>
-    <string name="touchscreen_gesture_settings_title">Gesta na obrazovce</string>
-    <string name="touchscreen_gesture_settings_summary">Možnost spustit rychlou akci pomocí různých gest na obrazovce</string>
-    <string name="data_usage_app_restrict_all">Povolit přístup k síti</string>
-    <string name="data_usage_app_restrict_all_summary">Povolit využití sítě</string>
-    <string name="data_usage_app_restrict_data">Mobilní data</string>
-    <string name="data_usage_app_restrict_data_summary">Povolit používání mobilních dat</string>
-    <string name="data_usage_app_restrict_vpn">VPN data</string>
-    <string name="data_usage_app_restrict_vpn_summary">Povolit používání VPN dat</string>
-    <string name="data_usage_app_restrict_wifi">Wi\u2011Fi data</string>
-    <string name="data_usage_app_restrict_wifi_summary">Povolit používání Wi\u2011Fi dat</string>
-    <string name="proximity_wake_title">Zabránit nechtěnému probuzení</string>
-    <string name="proximity_wake_summary">Kontrolovat senzor přiblížení pro zabránění nechtěného probuzení</string>
-    <string name="wake_when_plugged_or_unplugged_title">Probudit při nabíjení</string>
-    <string name="wake_when_plugged_or_unplugged_summary">Zapnout obrazovku při připojení nebo odpojení nabíječky</string>
-    <string name="high_touch_sensitivity_title">Vysoká citlivost dotyku</string>
-    <string name="high_touch_sensitivity_summary">Zvýšení citlivosti dotykové vrstvy, což umožňuje použít rukavice</string>
-    <string name="touchscreen_hovering_title">Detekce nad obrazovkou</string>
-    <string name="touchscreen_hovering_summary">Umožňuje pohybovat se jakoby nad obsahem obrazovky podobně, jako když myší najedete na nějaký ovládací prvek</string>
-    <string name="update_recovery_title">Aktualizovat recovery oddíl</string>
-    <string name="update_recovery_summary">Aktualizovat oddíl recovery pomocí aktualizace systému</string>
-    <string name="update_recovery_on_warning">UPOZORNĚNÍ: Pokud je tato funkce zapnutá, vaše nainstalované recovery bude nahrazeno aktuální verzí z právě nainstalovaného systému.\n\nOddíl recovery bude aktualizován současně s aktualizací systému, čímž bude zajištěna kompatibilita s budoucími verzemi.\n\nChcete povolit tuto funkci?</string>
-    <string name="update_recovery_off_warning">VAROVÁNÍ: Pokud je tato funkce vypnutá, vaše nainstalované recovery nebude aktualizováno s aktualizacemi systému.\n\nBudoucí aktualizace systému se se starou verzí recovery nemusí správně nainstalovat.\n\nOpravdu chcete tuto funkci vypnout?</string>
-    <string name="berry_black_theme_title">Čistě černý</string>
-    <string name="berry_black_theme_summary">Čistě černé pozadí při tmavém motivu</string>
-    <string name="back_sensitivity_title">Citlivost gesta Zpět</string>
-    <string name="back_sensitivity_message">Vyšší citlivost může narušovat gesta v aplikacích prováděná u okrajů obrazovky.</string>
-    <string name="back_exclusion_title">Vyloučení gesta Zpět nahoře</string>
-    <string name="back_exclusion_summary">Vyloučit část horní části obrazovky z oblasti gesta Zpět</string>
+    <string name="app_notification_sound_timeout_value_5_minutes">5 minutow</string>
+    <string name="app_notification_sound_timeout_value_15_minutes">10 minutow</string>
+    <string name="app_notification_sound_timeout_value_30_minutes">30 minutow</string>
+    <string name="unlock_scramble_pin_layout_title">Rěd ze pśigódu</string>
+    <string name="unlock_scramble_pin_layout_summary">Pśi kuždem wopytanju wótamknjenja rěd cyfrow ze pśigódu wótnowotki wuzwóliś</string>
+    <string name="volume_link_notification_title">Głosnosć powěźeńkow z głosnosću zwónjenja zwězaś</string>
+    <string name="directly_show_lock">Direktne wótamkanje</string>
+    <string name="directly_show_lock_summary">Wótamknjenje displayja pśez muster pśeskócyś a ned ze zapódaśim PINa zachopiś</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="tablet">Namakaj sensor za palcowe wótśišće na <xliff:g id="sensor_location">%1$s</xliff:g> swójogo tableta.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="device">Namakaj sensor za palcowe wótśišće na <xliff:g id="sensor_location">%1$s</xliff:g> swójogo rědu.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="default">Namakaj sensor za palcowe wótśišće na <xliff:g id="sensor_location">%1$s</xliff:g> na smartphonje.</string>
+    <string name="security_settings_fingerprint_sensor_location_back">slědnem boce</string>
+    <string name="security_settings_fingerprint_sensor_location_front">prědnem boce</string>
+    <string name="security_settings_fingerprint_sensor_location_left">lěwem boce</string>
+    <string name="security_settings_fingerprint_sensor_location_right">pšawem boce</string>
+    <string name="status_bar_double_tap_to_sleep_title">Pótusnuś, aby se standby aktiwěrował</string>
+    <string name="status_bar_double_tap_to_sleep_summary">Dwójcy pótusnuś statusowu bałku abo blokěrowany display, aby display se wušaltował</string>
+    <string name="touchscreen_gesture_settings_title">Mustery na touchscreenje</string>
+    <string name="touchscreen_gesture_settings_summary">Móžnosć wuwjeźenja malsnych akcijow pśez wšake mustery na touchscreenje</string>
+    <string name="data_usage_app_restrict_all">Pśistup k seśi dowóliś</string>
+    <string name="data_usage_app_restrict_all_summary">Wužywanje seśi dowóliś</string>
+    <string name="data_usage_app_restrict_data">Mobilne daty</string>
+    <string name="data_usage_app_restrict_data_summary">Wužywanje mobilneje seśi za daty dowóliś</string>
+    <string name="data_usage_app_restrict_vpn">VPN-daty</string>
+    <string name="data_usage_app_restrict_vpn_summary">Wužywanje VPN za daty dowóliś</string>
+    <string name="data_usage_app_restrict_wifi">WLAN-daty</string>
+    <string name="data_usage_app_restrict_wifi_summary">Wužywanje WLAN-seśi za daty dowóliś</string>
+    <string name="proximity_wake_title">Njewótglědanemu wubuźenju rědu zadoraś</string>
+    <string name="proximity_wake_summary">Pśed zbuźenim rědu pśibližeński sensor pśespytowaś</string>
+    <string name="wake_when_plugged_or_unplugged_title">Pśi zatkanju wubuźiś</string>
+    <string name="wake_when_plugged_or_unplugged_summary">Pśi pśizamknjenju k elektricy abo pśetergnjenju lodowanja display aktiwěrowaś</string>
+    <string name="high_touch_sensitivity_title">Wusoka sensibelnosć dotyknjenja</string>
+    <string name="high_touch_sensitivity_summary">Sensibelnosć dotyknjenja pówušyś, aby touchscreen (display) se teke w rukajcach mógł wobsłužowaś</string>
+    <string name="touchscreen_hovering_title">Touchscreen ako myš wužywaś</string>
+    <string name="touchscreen_hovering_summary">Dowólijo, aby pó touchscreenje se suwajucy palc se wužywał ako curos myšy</string>
+    <string name="update_recovery_title">Aktualizěrowanje recovery</string>
+    <string name="update_recovery_summary">Aktualizěrowanje recovery zrownju z aktualizěrowanim systema</string>
+    <string name="update_recovery_on_warning">WARNOWANJE: Gaž toś ta funkcija jo aktiwěrowana, ga twój instalěrowany recovery-system se zaměnijo z recovery-systemom we aktualnej wersiji operaciskego systema.\n\nTwój recovery-system buźo wóttychměst pśi updatach tejerownosći aktualizěrowany, aby kompatibilnosć z pśiducymi wersijami se garantěrowała.\n\nCoš toś tu funkciju aktualizěrowaś?</string>
+    <string name="update_recovery_off_warning">WARNOWANJE: Gaž toś ta funkcija jo deaktiwěrowana, ga instalěrowany recovery-system njebuźo se gromaźe z operaciskim systemom aktualizěrowaś.\n\nPśiduce updaty operaciskego systema njebudu se snaź móc instalěrowaś, zestarjete abo wót wužywarja definěrowane recovery-wersije pśedlaže.\n\nCoš napšawdu toś tu funkciju deaktiwěrowaś?</string>
+    <string name="berry_black_theme_title">Cysta carna barwa</string>
+    <string name="berry_black_theme_summary">Cysto carna slězyna za śmojty design</string>
+    <string name="back_sensitivity_title">Sensibelnosć za gestu \"slědk\"</string>
+    <string name="back_sensitivity_message">Wuša sensibelnosć móžo wšykne gesty aplikacijow na kšomje displayja zmóliś.</string>
+    <string name="back_exclusion_title">Deaktiwěrowanje gesty \"slědk\" na górjejcnej kšomje displayja</string>
+    <string name="back_exclusion_summary">Górjejcny źěł displayja wót gesty \"slědk\" wuzamknuś</string>
     <string name="min_label">Min.</string>
-    <string name="max_label">Max.</string>
-    <string name="show_navbar_hint_title">Navigační nápověda</string>
-    <string name="show_navbar_hint_summary">Zobrazit navigační nápovědu ve spodní části obrazovky (tenký proužek)</string>
-    <string name="keywords_notification_log">oznámení, výpis oznámení</string>
-    <string name="connected_tws_device_saved_title">Uložená sluchátka</string>
-    <string name="heads_up_notifications_enabled_title">Plovoucí upozornění</string>
-    <string name="heads_up_notifications_enabled_summary">Zobrazit prioritní oznámení v malém plovoucím okně</string>
-    <string name="backup_transport_setting_label">Změnit poskytovatele zálohování</string>
-    <string name="backup_transport_title">Vyberte poskytovatele zálohování</string>
-    <string name="fast_charging_title">Rychlé nabíjení</string>
-    <string name="fast_charging_summary">Vypnutím snížíte teplo produkované zařízením během nabíjení nebo prodloužíte životnost baterie</string>
+    <string name="max_label">Maks.</string>
+    <string name="show_navbar_hint_title">Nawigaciska smuga</string>
+    <string name="show_navbar_hint_summary">Nawigacisku smugu pśi dołojcnej kšomje displayja pokazaś (wuska smuga)</string>
+    <string name="keywords_notification_log">Powěźeńki, protokol powěźeńkow</string>
+    <string name="connected_tws_device_saved_title">Zachowane słuchałka</string>
+    <string name="heads_up_notifications_enabled_title">Pop-up</string>
+    <string name="heads_up_notifications_enabled_summary">Wažne powěźeńki w małkem, se zmawajucem woknyšku pokazaś</string>
+    <string name="backup_transport_setting_label">Drugego póbitowarja backupow wuzwóliś</string>
+    <string name="backup_transport_title">Drugego póbitowarja backupow wuzwóliś</string>
+    <string name="fast_charging_title">Malsne lodowanje</string>
+    <string name="fast_charging_summary">Deaktiwěrowaś, aby se reducěrowała śopłota, ak nastanjo pśi lodowanju rědu, abo aby cas žywjenja aku se pódlejšył</string>
 </resources>
