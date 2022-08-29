@@ -98,15 +98,15 @@
     <!-- no translation found for wifi_tether_security:0 (6312112980634811065) -->
     <!-- no translation found for wifi_tether_security:1 (1428294025896439258) -->
   <string-array name="wifi_p2p_wps_setup">
-    <item msgid="1446717102923442720">"Stisknutí tlačítka"</item>
-    <item msgid="2630618799033509548">"PIN ze sdíleného zařízení"</item>
+    <item msgid="1446717102923442720">"Push-tłóčatko"</item>
+    <item msgid="2630618799033509548">"PIN zwjazaneho nastroja"</item>
     <item msgid="6088264311596031080">"PIN tutoho nastroja."</item>
   </string-array>
   <string-array name="wifi_p2p_status">
     <item msgid="8357401480964012245">"Zwjazane"</item>
     <item msgid="66312817817365647">"Přeprošene"</item>
     <item msgid="4463567967438038210">"Njewuspěšne"</item>
-    <item msgid="6556827947082659801">"K dispoziciji"</item>
+    <item msgid="6556827947082659801">"Přistupne"</item>
     <item msgid="6096962300722555553">"Zwonka dosaha"</item>
   </string-array>
   <string-array name="bluetooth_visibility_timeout_entries">
@@ -169,7 +169,7 @@
   <string-array name="wifi_proxy_settings">
     <item msgid="4669222334822978847">"Žadyn"</item>
     <item msgid="6242198071587397280">"Manuelnje"</item>
-    <item msgid="464383874780058242">"Awtom. konfiguracija proxyja"</item>
+    <item msgid="464383874780058242">"Awtom. konfiguracija proksyja"</item>
   </string-array>
   <string-array name="apn_auth_entries">
     <item msgid="2900892411844440682">"Žadyn"</item>
@@ -207,7 +207,7 @@
     <item msgid="3441876902463317017">"GID"</item>
   </string-array>
   <string-array name="app_install_location_entries">
-    <item msgid="3771157789865587832">"Interny skład nastroja"</item>
+    <item msgid="3771157789865587832">"Nutřkowny skład nastroja"</item>
     <item msgid="5501345333507193420">"Wuměnliwa SD-karta"</item>
     <item msgid="2362840341195111674">"Wuběr přez system"</item>
   </string-array>
@@ -225,8 +225,8 @@
     <item msgid="50701215019227883">"wibracija"</item>
     <item msgid="2690144000353492014">"kontakty čitać"</item>
     <item msgid="3858029424955955625">"kontakty wobdźěłać"</item>
-    <item msgid="3439658954936709507">"zapis rozmołwow čitać"</item>
-    <item msgid="1908944516631132130">"zapis rozmołwow wobdźěłać"</item>
+    <item msgid="3439658954936709507">"zapis zawołanjow čitać"</item>
+    <item msgid="1908944516631132130">"zapis zawołanjow wobdźěłać"</item>
     <item msgid="9066115715905100138">"protyku čitać"</item>
     <item msgid="1664720478157892566">"protyku wobdźěłać"</item>
     <item msgid="5478277451617814822">"WLAN pytać"</item>
@@ -238,7 +238,7 @@
     <item msgid="3397583039407928979">"SMSki přijimać"</item>
     <item msgid="3658964859478786980">"nuzowe SMSki přijimać"</item>
     <item msgid="7975129014728281140">"MMSki přijimać"</item>
-    <item msgid="404809195686849835">"WAP-push-powěsć přijimać"</item>
+    <item msgid="404809195686849835">"WAP-push-powěsće přijimać"</item>
     <item msgid="5167716820004184705">"SMSki pósłać"</item>
     <item msgid="3834284815734286927">"ICC-SMS čitać"</item>
     <item msgid="6394881108820762646">"ICC-SMS pisać"</item>
@@ -264,7 +264,7 @@
     <item msgid="2297727967385895059">"stejišća z wysokej potrjebu miliny wobkedźbować"</item>
     <item msgid="8700593962030471569">"wužiwanske statistiki wotwołać"</item>
     <item msgid="4140820386622184831">"mikrofon hasnyć abo zaswěćić"</item>
-    <item msgid="317746827951691657">"HS: zobrazit zprávu"</item>
+    <item msgid="317746827951691657">"toast pokazać"</item>
     <item msgid="5679422988212309779">"medijowe wobsahi projicěrować"</item>
     <item msgid="6454031639780101439">"VPN zaswěćić"</item>
     <item msgid="2441327072846850561">"pozadk za pisanje"</item>
@@ -283,7 +283,7 @@
     <item msgid="2504191192460059817">"wobrazowku zaswěćić"</item>
     <item msgid="7905819538788103556">"konta wutworić"</item>
     <item msgid="1675025662248079254">"w pozadku wukonjeć"</item>
-    <item msgid="2553974920157061225">"sylnosć zwuka pomocnikow"</item>
+    <item msgid="2553974920157061225">"sylnosć zwuka pomocnych słužbow"</item>
   </string-array>
   <string-array name="app_ops_labels">
     <item msgid="7780927354556651567">"Stejišćo"</item>
@@ -331,26 +331,26 @@
     <item msgid="5186169827582545242">"Městno"</item>
     <item msgid="6122293931012635638">"Wužiwanske statistiki wotwołać"</item>
     <item msgid="2526677383312751932">"Mikrofon zaswěćić abo hasnyć"</item>
-    <item msgid="4000577305179914546">"Zobrazit zprávu"</item>
-    <item msgid="8660207174515570558">"Promítat média"</item>
-    <item msgid="3904996949561946108">"VPN aktiwěrować"</item>
-    <item msgid="504052124101832515">"Zápis tapety"</item>
-    <item msgid="1657182386933187909">"Strukturna asistenca"</item>
-    <item msgid="437655393941385937">"Asistenca za wurězk wobrazowki"</item>
-    <item msgid="973363520315356844">"Staw telefona začitać"</item>
-    <item msgid="1203157739257425062">"Přidat hlasovou zprávu"</item>
-    <item msgid="9143978647977300187">"SIP wužić"</item>
-    <item msgid="3053060162752878562">"Zpracovat odchozí hovor"</item>
+    <item msgid="4000577305179914546">"Toast pokazać"</item>
+    <item msgid="8660207174515570558">"Medije projicěrować"</item>
+    <item msgid="3904996949561946108">"VPN zaswěćić"</item>
+    <item msgid="504052124101832515">"Pozadk pisać"</item>
+    <item msgid="1657182386933187909">"Strukturny asistent"</item>
+    <item msgid="437655393941385937">"Asistent za wurězk wobrazowki"</item>
+    <item msgid="973363520315356844">"Status telefona čitać"</item>
+    <item msgid="1203157739257425062">"Rěčanu powěsć přidać"</item>
+    <item msgid="9143978647977300187">"SIP wužiwać"</item>
+    <item msgid="3053060162752878562">"Wuchadźacy telefonat wobdźěłać"</item>
     <item msgid="4480721672278100858">"Wotćišć porsta"</item>
     <item msgid="7883743426029759112">"Ćělne sensory"</item>
     <item msgid="2546206711741159825">"Powěsće informaciskich słužbow čitać"</item>
-    <item msgid="2363460595607829243">"Stejišćo simulować"</item>
+    <item msgid="2363460595607829243">"Stejišćo simulěrować"</item>
     <item msgid="3778165903878569143">"Skład čitać"</item>
     <item msgid="555939881912035315">"Skład pisać"</item>
     <item msgid="4281352581602735717">"Wobrazowku zaswěćić"</item>
     <item msgid="346122795998225472">"Konta wutworić"</item>
     <item msgid="3756073389408535680">"W pozadku wukonjeć"</item>
-    <item msgid="2114661179947426734">"Hlasitost zvuků pro usnadnění přístupu"</item>
+    <item msgid="2114661179947426734">"Sylnosć zwuka za pomocne słužby"</item>
   </string-array>
   <string-array name="long_press_timeout_selector_titles">
     <item msgid="6926391290986427331">"Krótke"</item>
@@ -406,7 +406,7 @@
     <item msgid="68918911194507915">"IPSec VPN z certifikatami a hybridnej awtentifikaciju"</item>
   </string-array>
   <string-array name="vpn_proxy_settings">
-    <item msgid="7165538292837266997">"Žadyn proxy"</item>
+    <item msgid="7165538292837266997">"Žadyn proksy"</item>
     <item msgid="2397017538263427575">"Manuelnje"</item>
   </string-array>
   <string-array name="vpn_states">
