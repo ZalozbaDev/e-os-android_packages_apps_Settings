@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2012-2016 The CyanogenMod Project
+     Copyright (C) 2017-2019 The LineageOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="show_dev_countdown_cm">
+        <item quantity="one">Hišće <xliff:g id="step_count">%1$d</xliff:g> krok hač k dowolenju wuwiwarskich nastajenjow.</item>
+        <item quantity="two">Hišće <xliff:g id="step_count">%1$d</xliff:g> krokaj hač k dowolenju wuwiwarskich nastajenjow.</item>
+        <item quantity="few">Hišće <xliff:g id="step_count">%1$d</xliff:g> kroki hač k dowolenju wuwiwarskich nastajenjow.</item>
+        <item quantity="other">Hišće <xliff:g id="step_count">%1$d</xliff:g> krokow hač k dowolenju wuwiwarskich nastajenjow.</item>
+    </plurals>
+    <string name="show_dev_on_cm">Wuwiwarske nastajenja su dowolene!</string>
+    <string name="show_dev_already_cm">Wuwiwarske nastajenja su hižo dowolene.</string>
+    <string name="suggestion_button_close">Začinić</string>
+    <string name="advanced_reboot_title">Rozšěrjeny nowostart</string>
+    <string name="advanced_reboot_summary">Při wotamknjenej wobrazowce menijej nowostarta móžnosći nowostarta w recovery-modusu abo w bootloaderje dodać</string>
+    <string name="adb_enable">Android-debugging</string>
+    <string name="adb_enable_summary">Android Debug Bridge (adb) dowolić</string>
+    <string name="adb_enable_root">Root-debugging</string>
+    <string name="adb_enable_summary_root">Android-debugging jako root dowolić</string>
+    <string name="adb_notify">Zdźělenka wo debuggingu</string>
+    <string name="adb_notify_summary">Zdźělenku pokazać, hdyž je debugging přez syć abo USB aktiwny</string>
+    <string name="adb_over_network">ADB přez syć</string>
+    <string name="adb_over_network_summary">TCP/IP-debugging přez syćowe zwiski (na př. WLAN abo USB-syće) dowolić. Tute nastajenje so po nowostarće wróćo staji</string>
+    <string name="adb_over_network_warning">KEDŹBU: Hdyž je ADB přez syć dowoleny, je twój telefon z kóždeje zwjazaneje syće přistupny!\n\nWužiwaj tutu funkciju jeničce hdyž wobsteji zwisk z dowěry hódnej syću.\n\nChceš funkciju woprawdźe dowolić?</string>
+    <string name="lineagelicense_title">Prawniske pokiwy k LineageOS</string>
+    <string name="kill_app_longpress_back">Wunuzowane skónčenje aplikacijow</string>
+    <string name="kill_app_longpress_back_summary">Skónčenje aplikacije prědku přez dołhe tłóčenje tłóčatka Wróćo</string>
+    <string name="device_hostname">Hosćićelske mjeno nastroja</string>
+    <string name="tethering_allow_vpn_upstreams_title">Klientam wužiwanje VPN zmóžnić</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Dowoli klientam hotspota wužiwanje VPN-zwiski tutoho nastroja za upstream-konektiwitu</string>
+    <string name="increasing_ring_volume_option_title">Přiběraca sylnosć klinkanja</string>
+    <string name="increasing_ring_min_volume_title">Spočatna sylnosć zwuka</string>
+    <string name="increasing_ring_ramp_up_time_title">Čas přiběranja</string>
+    <string name="lockscreen_media_art_title">Wobalku albuma pokazać</string>
+    <string name="lockscreen_visualizer_title">Hudźbnu wizualizaciju pokazać</string>
+    <string name="lock_settings_picker_pattern_size_message">Wulkosć gesty wubrać</string>
+    <string name="lockpattern_settings_enable_error_path_title">Zmylk při wěstotnej gesće pokazać</string>
+    <string name="lockpattern_settings_enable_dots_title">Dypki gesty pokazać</string>
+    <string name="translucent_lockscreen_notifications_bg_title">Přewidny pozadk za zdźělenki</string>
+    <string name="app_notification_sound_timeout_title">Minimalny čas mjez zwukami zdźělenkow</string>
+    <string name="app_notification_sound_timeout_summary_template">Zwuki abo wibracije jenož kóždych <xliff:g id="duration">%1$s</xliff:g> dowolić</string>
+    <string name="app_notification_sound_timeout_value_none">Bjez wobmjezowanja</string>
+    <string name="app_notification_sound_timeout_value_10_seconds">10 sekundow</string>
+    <string name="app_notification_sound_timeout_value_30_seconds">30 sekundow</string>
+    <string name="app_notification_sound_timeout_value_1_minute">1 mjeńšina</string>
+    <string name="app_notification_sound_timeout_value_5_minutes">5 mjeńšin</string>
+    <string name="app_notification_sound_timeout_value_15_minutes">10 mjeńšin</string>
+    <string name="app_notification_sound_timeout_value_30_minutes">30 mjeńšin</string>
+    <string name="unlock_scramble_pin_layout_title">Připadne rozrjadowanje</string>
+    <string name="unlock_scramble_pin_layout_summary">Při kóždym pospyće wotamknjenja přez PIN porjad cyfrow změnić</string>
+    <string name="volume_link_notification_title">Sylnosć zwuka klinkanja a zdźělenkow zwjazać</string>
+    <string name="directly_show_lock">Bjezposrědnje wotamknyć</string>
+    <string name="directly_show_lock_summary">Nic šmórać za wotamknjenje wobrazowki, ale hnydom ze zapodaćom PIN započeć</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="tablet">Pytaj za sensorom za porstowe wotćišće na <xliff:g id="sensor_location">%1$s</xliff:g> twojeho tableta.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="device">Pytaj za sensorom za porstowe wotćišće na <xliff:g id="sensor_location">%1$s</xliff:g> twojeho nastroja.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="default">Pytaj za sensorom za porstowe wotćišće na <xliff:g id="sensor_location">%1$s</xliff:g> telefona.</string>
+    <string name="security_settings_fingerprint_sensor_location_back">zadnim boku</string>
+    <string name="security_settings_fingerprint_sensor_location_front">prědnim boku</string>
+    <string name="security_settings_fingerprint_sensor_location_left">lěwym boku</string>
+    <string name="security_settings_fingerprint_sensor_location_right">prawym boku</string>
+    <string name="status_bar_double_tap_to_sleep_title">Z dypanjom do stand-by</string>
+    <string name="status_bar_double_tap_to_sleep_summary">Z dwójnym dypanjom na statusowu lajstu abo zamknjenu wobrazowku za hasnjenje wobrazowki</string>
+    <string name="touchscreen_gesture_settings_title">Gesty na wobrazowce</string>
+    <string name="touchscreen_gesture_settings_summary">Móžnosć přewjedźenja někotrych spěšnych akcijow z pomocu gestow na wobrazowce</string>
+    <string name="data_usage_app_restrict_all">Přistup k syći dowolić</string>
+    <string name="data_usage_app_restrict_all_summary">Wužiwanje syće dowolić</string>
+    <string name="data_usage_app_restrict_data">Mobilne daty</string>
+    <string name="data_usage_app_restrict_data_summary">Wužiwanje mobilnych datow dowolić</string>
+    <string name="data_usage_app_restrict_vpn">VPN-daty</string>
+    <string name="data_usage_app_restrict_vpn_summary">Wužiwanje VPN-datow dowolić</string>
+    <string name="data_usage_app_restrict_wifi">WLAN-daty</string>
+    <string name="data_usage_app_restrict_wifi_summary">Wužiwanje WLAN-datow dowolić</string>
+    <string name="proximity_wake_title">Bjezwotpohladne budźenje zakazać</string>
+    <string name="proximity_wake_summary">Do budźenja nastroja sensor přibliženja přepruwować</string>
+    <string name="wake_when_plugged_or_unplugged_title">Při nabiwanju zbudźić</string>
+    <string name="wake_when_plugged_or_unplugged_summary">Wobrazowku při zwjazanju abo dźělenju nabiwadła zaswěćić</string>
+    <string name="high_touch_sensitivity_title">Wysoka čućiwosć dótknjenja</string>
+    <string name="high_touch_sensitivity_summary">Čućiwosć zwyšić, zo by so wobrazowka tež z rukajcami wužiwać dała</string>
+    <string name="touchscreen_hovering_title">Touchscreen jako myšku wužiwać</string>
+    <string name="touchscreen_hovering_summary">Zmóžnja wužiwanja porsta nad wobrazowku jako pokazowak myški na př. w browseru, remote desktop atd.</string>
+    <string name="update_recovery_title">Recovery aktualizować</string>
+    <string name="update_recovery_summary">Recovery při aktualizaciji systema aktualizować</string>
+    <string name="update_recovery_on_warning">POKIW: Hdyž je tuta funkcija aktiwna, so twój instalowany recovery naruna z wonym w aktualnej wersiji systema.\n\nTwój recovery budźe so w přichodźe runočasnje ze systemom aktualizować, zo by kompatibilita z přichodnymi wersijemi zaručena była.\n\nChceš tutu funkciju dowolić?</string>
+    <string name="update_recovery_off_warning">KEDŹBU: Hdyž njeje tuta funkcija aktiwna, so twój instalowany recovery hromadźe z aktualizacijemi systema njeaktualizuje.\n\nPřichodne aktualizacije systema so snadź njehodźa instalować při zestarjenych abo swójskich wersijach recovery.\n\nChceš tutu funkciju woprawdźe zakazać?</string>
+    <string name="berry_black_theme_title">Ryzy čorne</string>
+    <string name="berry_black_theme_summary">Ryzy čorny pozadk za ćmowy design</string>
+    <string name="back_sensitivity_title">Čućiwosć za gestu Wróćo</string>
+    <string name="back_sensitivity_message">Wyša čućiwosć móže wšě gesty w aplikacijach na kromje wobrazowki mylić.</string>
+    <string name="back_exclusion_title">Horjeka žana gesta Wróćo</string>
+    <string name="back_exclusion_summary">Wuzamkuje gestu Wróćo w hornim dźělu</string>
+    <string name="min_label">Min.</string>
+    <string name="max_label">Maks.</string>
+    <string name="show_navbar_hint_title">Naćisnjena nawigacija</string>
+    <string name="show_navbar_hint_summary">Zlochka naćisnje nawigacisku lajstu na delnjej kromje wobrazowki</string>
+    <string name="keywords_notification_log">zdźělenki, protokol zdźělenkow</string>
+    <string name="connected_tws_device_saved_title">Składowane słuchatka</string>
+    <string name="heads_up_notifications_enabled_title">Wuskakace powěsće</string>
+    <string name="heads_up_notifications_enabled_summary">Wažne zdźělenki w małym, so znošowacym woknje pokazać</string>
+    <string name="backup_transport_setting_label">Poskićowarja zawěsćenja změnić</string>
+    <string name="backup_transport_title">Poskićowarja zawěsćenja wubrać</string>
+    <string name="fast_charging_title">Spěšne nabiwanje</string>
+    <string name="fast_charging_summary">Hasnyć, zo by so wot nastroja w běhu nabiwanja produkowana ćopłota pomjeńšiła a dźeržliwosć baterije podlěšiła</string>
+</resources>
