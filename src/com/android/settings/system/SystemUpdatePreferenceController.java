@@ -23,6 +23,7 @@ import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.PersistableBundle;
+import android.os.SystemProperties;
 import android.os.SystemUpdateManager;
 import android.os.UserManager;
 import android.telephony.CarrierConfigManager;
@@ -44,6 +45,8 @@ public class SystemUpdatePreferenceController extends BasePreferenceController {
     private static final String TAG = "SysUpdatePrefContr";
 
     private static final String KEY_SYSTEM_UPDATE_SETTINGS = "top_level_update";
+
+    private static final String E_OS_VERSION_PROP = "ro.lineage.build.version";
 
     private final UserManager mUm;
     private final SystemUpdateManager mUpdateManager;
@@ -88,8 +91,8 @@ public class SystemUpdatePreferenceController extends BasePreferenceController {
 
     @Override
     public CharSequence getSummary() {
-        CharSequence summary = mContext.getString(R.string.android_version_summary,
-                Build.VERSION.RELEASE_OR_PREVIEW_DISPLAY);
+        CharSequence summary = mContext.getString(R.string.e_version_summary,
+                SystemProperties.get(E_OS_VERSION_PROP));
         final FutureTask<Bundle> bundleFutureTask = new FutureTask<>(
                 // Put the API call in a future to avoid StrictMode violation.
                 () -> mUpdateManager.retrieveSystemUpdateInfo());
