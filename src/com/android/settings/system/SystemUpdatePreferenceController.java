@@ -91,8 +91,8 @@ public class SystemUpdatePreferenceController extends BasePreferenceController {
 
     @Override
     public CharSequence getSummary() {
-        CharSequence summary = mContext.getString(R.string.e_version_summary,
-                SystemProperties.get(E_OS_VERSION_PROP));
+        final String currentVersion = SystemProperties.get(E_OS_VERSION_PROP);
+        CharSequence summary = mContext.getString(R.string.e_version_summary, currentVersion);
         final FutureTask<Bundle> bundleFutureTask = new FutureTask<>(
                 // Put the API call in a future to avoid StrictMode violation.
                 () -> mUpdateManager.retrieveSystemUpdateInfo());
@@ -104,21 +104,20 @@ public class SystemUpdatePreferenceController extends BasePreferenceController {
             Log.w(TAG, "Error getting system update info.");
             return summary;
         }
+
+        String version = updateInfo.getString(SystemUpdateManager.KEY_TITLE);
         switch (updateInfo.getInt(SystemUpdateManager.KEY_STATUS)) {
             case SystemUpdateManager.STATUS_WAITING_DOWNLOAD:
-            case SystemUpdateManager.STATUS_IN_PROGRESS:
-            case SystemUpdateManager.STATUS_WAITING_INSTALL:
-            case SystemUpdateManager.STATUS_WAITING_REBOOT:
-                summary = mContext.getText(R.string.android_version_pending_update_summary);
+                summary = mContext.getString(R.string.e_version_pending_update_summary, version);
                 break;
-            case SystemUpdateManager.STATUS_UNKNOWN:
-                Log.d(TAG, "Update statue unknown");
-                // fall through to next branch
-            case SystemUpdateManager.STATUS_IDLE:
-                final String version = updateInfo.getString(SystemUpdateManager.KEY_TITLE);
-                if (!TextUtils.isEmpty(version)) {
-                    summary = mContext.getString(R.string.android_version_summary, version);
-                }
+            case SystemUpdateManager.STATUS_IN_PROGRESS:
+                summary = mContext.getString(R.string.e_version_in_progress_update_summary, version);
+                break;
+            case SystemUpdateManager.STATUS_WAITING_REBOOT:
+                summary = mContext.getString(R.string.e_version_reboot_pending_summary, version);
+                break;
+            default:
+                summary = mContext.getString(R.string.e_version_summary, currentVersion);
                 break;
         }
         return summary;
