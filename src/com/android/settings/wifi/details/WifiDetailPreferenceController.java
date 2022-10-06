@@ -424,7 +424,7 @@ public class WifiDetailPreferenceController extends AbstractPreferenceController
                 .setButton1Icon(R.drawable.ic_settings_delete)
                 .setButton1OnClickListener(view -> forgetNetwork())
                 .setButton3Text(R.string.wifi_connect)
-                .setButton3Icon(R.drawable.ic_settings_wireless)
+                .setButton3Icon(R.drawable.ic_wireless)
                 .setButton3OnClickListener(view -> connectNetwork())
                 .setButton3Enabled(true)
                 .setButton4Text(R.string.share)
@@ -1211,7 +1211,7 @@ public class WifiDetailPreferenceController extends AbstractPreferenceController
             case STATE_CONNECTED:
                 // init button state and set as invisible
                 mButtonsPref.setButton3Text(R.string.wifi_connect)
-                        .setButton3Icon(R.drawable.ic_settings_wireless)
+                        .setButton3Icon(R.drawable.ic_wireless)
                         .setButton3Enabled(true)
                         .setButton3Visible(false);
                 break;
@@ -1224,7 +1224,7 @@ public class WifiDetailPreferenceController extends AbstractPreferenceController
                     mButtonsPref.setButton3Visible(false);
                 } else {
                     mButtonsPref.setButton3Text(R.string.wifi_connect)
-                            .setButton3Icon(R.drawable.ic_settings_wireless)
+                            .setButton3Icon(R.drawable.ic_wireless)
                             .setButton3Enabled(true)
                             .setButton3Visible(true);
                 }
