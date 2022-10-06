@@ -839,7 +839,7 @@ public class WifiDetailPreferenceController2 extends AbstractPreferenceControlle
         switch (mWifiEntry.getConnectedState()) {
             case WifiEntry.CONNECTED_STATE_DISCONNECTED:
             case WifiEntry.CONNECTED_STATE_CONNECTING:
-                return R.drawable.ic_settings_wireless;
+                return R.drawable.ic_wireless;
             case WifiEntry.CONNECTED_STATE_CONNECTED:
                 return R.drawable.ic_settings_close;
             default:
