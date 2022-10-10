@@ -22,14 +22,14 @@
 
     <Preference
         android:key="font_size_preference"
-        android:icon="@drawable/ic_font_size"
+        android:icon="@drawable/ic_font_size_ftsw"
         android:summary="@string/short_summary_font_size"
         android:title="@string/title_font_size"
         settings:controller="com.android.settings.accessibility.FontSizePreferenceController" />
 
     <com.android.settings.display.ScreenZoomPreference
         android:key="force_density_preference"
-        android:icon="@drawable/ic_screen_zoom"
+        android:icon="@drawable/ic_screen_zoom_ftsw"
         android:summary="@string/screen_zoom_short_summary"
         android:title="@string/screen_zoom_title"
         settings:controller="com.android.settings.accessibility.ScreenSizePreferenceController" />
@@ -37,7 +37,7 @@
     <Preference
         android:fragment="com.android.settings.accessibility.ToggleScreenMagnificationPreferenceFragmentForSetupWizard"
         android:key="screen_magnification_preference"
-        android:icon="@drawable/ic_accessibility_magnification"
+        android:icon="@drawable/ic_accessibility_magnification_ftsw"
         android:summary="@string/accessibility_preference_magnification_summary"
         android:title="@string/accessibility_screen_magnification_title" />
 
