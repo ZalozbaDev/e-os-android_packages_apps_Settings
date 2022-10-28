@@ -324,13 +324,11 @@
     <string name="security_settings_face_enroll_education_title" msgid="6448806884597691208">"Como configurar o Desbloqueio facial"</string>
     <string name="security_settings_face_enroll_education_title_accessibility" msgid="3701874093226957891">"Configurar o Desbloqueio facial"</string>
     <string name="security_settings_face_enroll_education_title_unlock_disabled" msgid="8810954233979716906">"Usar seu rosto para autenticar"</string>
-    <string name="security_settings_face_enroll_education_message_accessibility" msgid="1986648712195281391"/>
     <string name="security_settings_face_enroll_education_start" msgid="8830924400907195590">"Iniciar"</string>
     <string name="security_settings_face_enroll_education_accessibility_dialog_message" msgid="2965952386172202665">"Se o Desbloqueio facial de acessibilidade estiver desativado, algumas etapas da configuração poderão não funcionar com o TalkBack."</string>
     <string name="security_settings_face_enroll_education_accessibility_dialog_negative" msgid="7872647360361245461">"Voltar"</string>
     <string name="security_settings_face_enroll_education_accessibility_dialog_positive" msgid="3148077647572203458">"Continuar config."</string>
     <string name="security_settings_face_enroll_introduction_accessibility" msgid="5748221179069430975">"Usar config. de Acessibilidade"</string>
-    <string name="security_settings_face_enroll_introduction_accessibility_diversity" msgid="2774962371839179206"/>
     <string name="security_settings_face_enroll_introduction_cancel" msgid="7551159644361639436">"Cancelar"</string>
     <string name="security_settings_face_enroll_introduction_no_thanks" msgid="1820618982738898717">"Agora não."</string>
     <string name="security_settings_face_enroll_introduction_agree" msgid="6319476573697497750">"Aceito"</string>
@@ -342,13 +340,9 @@
     <string name="security_settings_face_enroll_introduction_consent_message" msgid="866117500419055444">"Permita que a criança use o rosto para desbloquear o smartphone ou confirmar a identidade dela. Isso acontece quando ela faz login em apps, aprova uma compra, entre outras ocasiões."</string>
     <string name="security_settings_face_enroll_introduction_message_unlock_disabled" msgid="5841976283789481311">"Use seu rosto para desbloquear o smartphone ou aprovar compras.\n\nObservação: não é possível usar seu rosto para desbloquear este dispositivo. Para mais informações, entre em contato com o administrador da organização."</string>
     <string name="security_settings_face_enroll_introduction_message_setup" msgid="765965418187421753">"Use seu rosto para desbloquear o smartphone, autorizar compras ou fazer login em apps"</string>
-    <string name="security_settings_face_enroll_introduction_info_glasses" msgid="2733870453868907471"/>
     <string name="security_settings_face_enroll_introduction_info_looking" msgid="6502109133251718131"/>
-    <string name="security_settings_face_enroll_introduction_info_less_secure" msgid="6496505354480525745"/>
     <string name="security_settings_face_enroll_introduction_info_consent_gaze" msgid="6301647369911879888"/>
-    <string name="security_settings_face_enroll_introduction_how_message" msgid="4192656589626667797"/>
     <string name="security_settings_face_enroll_introduction_control_title" msgid="4536951089583821051"/>
-    <string name="security_settings_face_enroll_introduction_control_message" msgid="4818463420573540379"/>
     <string name="security_settings_face_enroll_repeat_title" msgid="4446229670377418717">"Centralize seu rosto dentro do círculo"</string>
     <string name="security_settings_face_enroll_enrolling_skip" msgid="5568617401632528567">"Pular"</string>
     <string name="face_add_max" msgid="4578405795494514876">"É possível adicionar até <xliff:g id="COUNT">%d</xliff:g> rostos"</string>
@@ -592,7 +586,6 @@
     <string name="suggested_lock_settings_summary" product="device" msgid="8479766049078378225">"Definir bloqueio de tela para proteger o dispositivo"</string>
     <string name="suggested_lock_settings_summary" product="default" msgid="2443273582716671033">"Definir bloqueio de tela para proteger o smartphone"</string>
     <string name="suggested_fingerprint_lock_settings_title" msgid="3140266181874137984">"Adicionar impressão digital para desbloqueio"</string>
-    <string name="suggested_fingerprint_lock_settings_summary" product="device" msgid="1040265358906410746"/>
     <string name="lock_settings_picker_title" msgid="9219376327364915334">"Escolher bloqueio de tela"</string>
     <string name="lock_settings_picker_new_lock_title" msgid="3113042086804290919">"Escolha um bloqueio de tela"</string>
     <string name="lock_settings_picker_update_lock_title" msgid="536853138943415927">"Escolha um novo bloqueio de tela"</string>
@@ -1531,7 +1524,6 @@
     <string name="sd_insert_summary" product="default" msgid="5949168259622002192">"Insira um cartão SD para conexão"</string>
     <string name="sd_mount" product="nosdcard" msgid="8305985249945415150">"Conectar armazenam. USB"</string>
     <string name="sd_mount" product="default" msgid="5279813999455776169">"Conectar cartão SD"</string>
-    <string name="sd_mount_summary" product="default" msgid="2190410240845521205"/>
     <string name="sd_format" product="nosdcard" msgid="8657427883364711513">"Apagar armazenamento USB"</string>
     <string name="sd_format" product="default" msgid="9085302892248732329">"Apagar cartão SD"</string>
     <string name="sd_format_summary" product="nosdcard" msgid="6179784504937189658">"Apaga todos os dados do armazenamento USB interno, como músicas e fotos"</string>
@@ -1541,7 +1533,6 @@
     <string name="dlg_confirm_unmount_title" product="default" msgid="8251329019960361646">"Desconectar cartão SD?"</string>
     <string name="dlg_confirm_unmount_text" product="nosdcard" msgid="1212025106709645023">"Se você desconectar o cartão USB, alguns apps que estão em uso serão interrompidos e podem não estar disponíveis até você conectá-lo novamente."</string>
     <string name="dlg_confirm_unmount_text" product="default" msgid="3887768438615563697">"Se você desconectar o cartão SD, alguns apps que estão em uso serão interrompidos e podem não estar disponíveis até você conectar o cartão SD novamente."</string>
-    <string name="dlg_error_unmount_title" product="default" msgid="2205587942165199845"/>
     <string name="dlg_error_unmount_text" product="nosdcard" msgid="7876201891724279436">"Não é possível desconectar o cartão USB. Tente novamente mais tarde."</string>
     <string name="dlg_error_unmount_text" product="default" msgid="2185659901137961711">"Não é possível desconectar o cartão SD. Tente novamente mais tarde."</string>
     <string name="unmount_inform_text" product="nosdcard" msgid="5932607205977999175">"O armazenamento USB será desconectado."</string>
@@ -2142,7 +2133,6 @@
     <string name="runningservicedetails_stop_dlg_text" product="tablet" msgid="2076922609580490122">"Se você interromper este serviço, alguns recursos de seu tablet podem parar de funcionar corretamente até que você o desligue e ligue novamente."</string>
     <string name="runningservicedetails_stop_dlg_text" product="default" msgid="2625863973434309085">"Se você interromper este serviço, alguns recursos de seu tablet podem parar de funcionar corretamente até que você o desligue e ligue novamente."</string>
     <string name="language_input_gesture_title" msgid="3292455685728572960">"Idiomas, entrada e gestos"</string>
-    <string name="language_input_gesture_summary_on_non_assist" msgid="2738661322747920463"/>
     <string name="language_settings" msgid="8700174277543875046">"Idiomas e entrada"</string>
     <string name="language_empty_list_user_restricted" msgid="8050367405839231863">"Você não tem permissão para alterar o idioma do dispositivo."</string>
     <string name="language_keyboard_settings_title" msgid="7934844313233544557">"Idiomas e entrada"</string>
@@ -2533,12 +2523,10 @@
     <string name="keywords_accessibility" msgid="4263443239404659143">"Facilidade de uso, facilidade de acesso, assistência, assistivo"</string>
     <string name="keywords_magnification" msgid="3908145308269840862">"Lupa de janela, zoom, ampliação, baixa visão, ampliar, aumentar"</string>
     <string name="keywords_live_caption" msgid="1667203998080567556">"Legendas, closed captions, CC, Transcrição instantânea, deficiência auditiva, perda auditiva, legenda ao vivo, voz em texto"</string>
-    <string name="keywords_sound_notifications" msgid="8183107485754075413"/>
     <string name="keywords_display_size" msgid="5286419615221231518">"tamanho da tela, tela grande"</string>
     <string name="keywords_bold_text" msgid="6257418169207099589">"Alto contraste, baixa visão, fonte em negrito"</string>
     <string name="keywords_color_correction" msgid="8540442886990423681">"ajustar cor"</string>
     <string name="keywords_color_inversion" msgid="4291058365873221962">"escurecer tela, clarear tela"</string>
-    <string name="keywords_switch_access" msgid="5813094504384313402"/>
     <string name="keywords_auto_click" msgid="7151756353013736931">"coordenação motora, mouse"</string>
     <string name="keywords_hearing_aids" msgid="524979615168196199">"deficiência auditiva, perda auditiva"</string>
     <string name="keywords_rtt" msgid="2429130928152514402">"deficiência auditiva, perda auditiva, legendas, teletipo, TTD"</string>
@@ -5393,7 +5381,6 @@
     <string name="lockscreen_privacy_controls_summary" msgid="6952176547084269909">"Acessar controles quando bloqueado"</string>
     <string name="lockscreen_double_line_clock_summary" msgid="2916159550425093703">"Mostrar o relógio de duas linhas quando disponível"</string>
     <string name="lockscreen_double_line_clock_setting_toggle" msgid="3408639316001688529">"Relógio de duas linhas"</string>
-    <string name="rtt_settings_no_visible" msgid="7440356831140948382"/>
     <string name="rtt_settings_always_visible" msgid="2364173070088756238"/>
     <string name="media_output_panel_stop_casting_button" msgid="6094875883164119035">"Parar transmissão"</string>
     <string name="volte_5G_limited_title" msgid="5908052268836750629">"Desativar VoLTE?"</string>

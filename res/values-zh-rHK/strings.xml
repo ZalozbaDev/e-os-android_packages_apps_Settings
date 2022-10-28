@@ -324,13 +324,11 @@
     <string name="security_settings_face_enroll_education_title" msgid="6448806884597691208">"如何設定「面孔解鎖」"</string>
     <string name="security_settings_face_enroll_education_title_accessibility" msgid="3701874093226957891">"設定「面孔解鎖」"</string>
     <string name="security_settings_face_enroll_education_title_unlock_disabled" msgid="8810954233979716906">"使用臉孔驗證"</string>
-    <string name="security_settings_face_enroll_education_message_accessibility" msgid="1986648712195281391"/>
     <string name="security_settings_face_enroll_education_start" msgid="8830924400907195590">"開始"</string>
     <string name="security_settings_face_enroll_education_accessibility_dialog_message" msgid="2965952386172202665">"如果關閉「面孔解鎖」無障礙功能，可能無法透過 TalkBack 順利完成部分設定步驟。"</string>
     <string name="security_settings_face_enroll_education_accessibility_dialog_negative" msgid="7872647360361245461">"返回"</string>
     <string name="security_settings_face_enroll_education_accessibility_dialog_positive" msgid="3148077647572203458">"繼續設定"</string>
     <string name="security_settings_face_enroll_introduction_accessibility" msgid="5748221179069430975">"使用無障礙功能設定"</string>
-    <string name="security_settings_face_enroll_introduction_accessibility_diversity" msgid="2774962371839179206"/>
     <string name="security_settings_face_enroll_introduction_cancel" msgid="7551159644361639436">"取消"</string>
     <string name="security_settings_face_enroll_introduction_no_thanks" msgid="1820618982738898717">"不用了，謝謝"</string>
     <string name="security_settings_face_enroll_introduction_agree" msgid="6319476573697497750">"我同意"</string>
@@ -342,13 +340,9 @@
     <string name="security_settings_face_enroll_introduction_consent_message" msgid="866117500419055444">"允許子女使用面孔解鎖手機或驗證身分，例如登入應用程式、核准購買交易等。"</string>
     <string name="security_settings_face_enroll_introduction_message_unlock_disabled" msgid="5841976283789481311">"使用面孔解鎖手機或核准購物交易。\n\n請注意：您無法使用面孔解鎖此裝置。如需瞭解詳情，請聯絡您機構的管理員。"</string>
     <string name="security_settings_face_enroll_introduction_message_setup" msgid="765965418187421753">"使用面孔解鎖手機、授權購物或登入應用程式"</string>
-    <string name="security_settings_face_enroll_introduction_info_glasses" msgid="2733870453868907471"/>
     <string name="security_settings_face_enroll_introduction_info_looking" msgid="6502109133251718131"/>
-    <string name="security_settings_face_enroll_introduction_info_less_secure" msgid="6496505354480525745"/>
     <string name="security_settings_face_enroll_introduction_info_consent_gaze" msgid="6301647369911879888"/>
-    <string name="security_settings_face_enroll_introduction_how_message" msgid="4192656589626667797"/>
     <string name="security_settings_face_enroll_introduction_control_title" msgid="4536951089583821051"/>
-    <string name="security_settings_face_enroll_introduction_control_message" msgid="4818463420573540379"/>
     <string name="security_settings_face_enroll_repeat_title" msgid="4446229670377418717">"將您的臉孔置於圓圈中心"</string>
     <string name="security_settings_face_enroll_enrolling_skip" msgid="5568617401632528567">"略過"</string>
     <string name="face_add_max" msgid="4578405795494514876">"您可以加入最多 <xliff:g id="COUNT">%d</xliff:g> 張臉孔"</string>
@@ -592,7 +586,6 @@
     <string name="suggested_lock_settings_summary" product="device" msgid="8479766049078378225">"設定螢幕鎖定以保護裝置"</string>
     <string name="suggested_lock_settings_summary" product="default" msgid="2443273582716671033">"設定螢幕鎖定以保護手機"</string>
     <string name="suggested_fingerprint_lock_settings_title" msgid="3140266181874137984">"新增用於解鎖的指紋"</string>
-    <string name="suggested_fingerprint_lock_settings_summary" product="device" msgid="1040265358906410746"/>
     <string name="lock_settings_picker_title" msgid="9219376327364915334">"選擇螢幕鎖定方式"</string>
     <string name="lock_settings_picker_new_lock_title" msgid="3113042086804290919">"選擇螢幕鎖定方式"</string>
     <string name="lock_settings_picker_update_lock_title" msgid="536853138943415927">"選擇新的螢幕鎖定方式"</string>
@@ -1531,7 +1524,6 @@
     <string name="sd_insert_summary" product="default" msgid="5949168259622002192">"插入用於掛接的 SD 卡"</string>
     <string name="sd_mount" product="nosdcard" msgid="8305985249945415150">"掛接 USB 儲存裝置"</string>
     <string name="sd_mount" product="default" msgid="5279813999455776169">"掛接 SD 卡"</string>
-    <string name="sd_mount_summary" product="default" msgid="2190410240845521205"/>
     <string name="sd_format" product="nosdcard" msgid="8657427883364711513">"清除 USB 儲存裝置資料"</string>
     <string name="sd_format" product="default" msgid="9085302892248732329">"清除 SD 記憶卡資料"</string>
     <string name="sd_format_summary" product="nosdcard" msgid="6179784504937189658">"清除內部 USB 儲存裝置中的所有資料，例如音樂和相片"</string>
@@ -1541,7 +1533,6 @@
     <string name="dlg_confirm_unmount_title" product="default" msgid="8251329019960361646">"您要卸載 SD 記憶卡嗎？"</string>
     <string name="dlg_confirm_unmount_text" product="nosdcard" msgid="1212025106709645023">"如果您卸載 USB 儲存裝置，則某些正在使用的應用程式會停止運作，而且可能無法使用，直到重新掛接 USB 儲存裝置之後才會恢復正常。"</string>
     <string name="dlg_confirm_unmount_text" product="default" msgid="3887768438615563697">"如果您卸載 SD 記憶卡，則某些正在使用中的應用程式會停止運作，而且可能無法使用，直到重新掛接 SD 記憶卡之後才會恢復正常。"</string>
-    <string name="dlg_error_unmount_title" product="default" msgid="2205587942165199845"/>
     <string name="dlg_error_unmount_text" product="nosdcard" msgid="7876201891724279436">"無法卸載 USB 儲存裝置，請稍後再試。"</string>
     <string name="dlg_error_unmount_text" product="default" msgid="2185659901137961711">"無法卸載 SD 記憶卡。請稍後再試。"</string>
     <string name="unmount_inform_text" product="nosdcard" msgid="5932607205977999175">"即將卸載 USB 儲存裝置。"</string>
@@ -2143,7 +2134,6 @@
     <string name="runningservicedetails_stop_dlg_text" product="tablet" msgid="2076922609580490122">"如果您停用這項服務，您平板電腦上的某些功能可能會停止正常運作，待您重新開機後才會恢復正常。"</string>
     <string name="runningservicedetails_stop_dlg_text" product="default" msgid="2625863973434309085">"如果您停用這項服務，您手機上的某些功能可能會停止正常運作，待您重新開機後才會恢復正常。"</string>
     <string name="language_input_gesture_title" msgid="3292455685728572960">"語言、輸入和手勢"</string>
-    <string name="language_input_gesture_summary_on_non_assist" msgid="2738661322747920463"/>
     <string name="language_settings" msgid="8700174277543875046">"語言及輸入"</string>
     <string name="language_empty_list_user_restricted" msgid="8050367405839231863">"您沒有變更裝置語言的權限。"</string>
     <string name="language_keyboard_settings_title" msgid="7934844313233544557">"語言及輸入"</string>
@@ -2534,12 +2524,10 @@
     <string name="keywords_accessibility" msgid="4263443239404659143">"易於使用, 易於存取, 協助, 輔助"</string>
     <string name="keywords_magnification" msgid="3908145308269840862">"視窗放大鏡, 縮放, 放大, 低視力"</string>
     <string name="keywords_live_caption" msgid="1667203998080567556">"字幕, CC, 即時轉錄, 聽障, 失聰, CART, 語音轉文字"</string>
-    <string name="keywords_sound_notifications" msgid="8183107485754075413"/>
     <string name="keywords_display_size" msgid="5286419615221231518">"螢幕大小, 大螢幕"</string>
     <string name="keywords_bold_text" msgid="6257418169207099589">"高對比, 低視力, 粗體字型, 粗體"</string>
     <string name="keywords_color_correction" msgid="8540442886990423681">"調整顏色"</string>
     <string name="keywords_color_inversion" msgid="4291058365873221962">"調暗螢幕, 調亮螢幕"</string>
-    <string name="keywords_switch_access" msgid="5813094504384313402"/>
     <string name="keywords_auto_click" msgid="7151756353013736931">"行動, 滑鼠"</string>
     <string name="keywords_hearing_aids" msgid="524979615168196199">"聽障, 失聰"</string>
     <string name="keywords_rtt" msgid="2429130928152514402">"聽障, 失聰, 字幕, 電傳打字, tty"</string>
@@ -5394,7 +5382,6 @@
     <string name="lockscreen_privacy_controls_summary" msgid="6952176547084269909">"鎖定時存取控制項"</string>
     <string name="lockscreen_double_line_clock_summary" msgid="2916159550425093703">"雙線時鐘 (如有)"</string>
     <string name="lockscreen_double_line_clock_setting_toggle" msgid="3408639316001688529">"雙線時鐘"</string>
-    <string name="rtt_settings_no_visible" msgid="7440356831140948382"/>
     <string name="rtt_settings_always_visible" msgid="2364173070088756238"/>
     <string name="media_output_panel_stop_casting_button" msgid="6094875883164119035">"停止投放"</string>
     <string name="volte_5G_limited_title" msgid="5908052268836750629">"要關閉 VoLTE 嗎？"</string>

@@ -324,13 +324,11 @@
     <string name="security_settings_face_enroll_education_title" msgid="6448806884597691208">"Царайгаар түгжээ тайлахыг хэрхэн тохируулах вэ?"</string>
     <string name="security_settings_face_enroll_education_title_accessibility" msgid="3701874093226957891">"Царайгаар түгжээ тайлахыг тохируулах"</string>
     <string name="security_settings_face_enroll_education_title_unlock_disabled" msgid="8810954233979716906">"Баталгаажуулахын тулд царайгаа ашиглах"</string>
-    <string name="security_settings_face_enroll_education_message_accessibility" msgid="1986648712195281391"/>
     <string name="security_settings_face_enroll_education_start" msgid="8830924400907195590">"Эхлэх"</string>
     <string name="security_settings_face_enroll_education_accessibility_dialog_message" msgid="2965952386172202665">"Хандалтын Царайгаар түгжээ тайлах унтарсан тохиолдолд тохируулгын зарим алхам TalkBack-тай хэвийн ажиллахгүй байж болзошгүй."</string>
     <string name="security_settings_face_enroll_education_accessibility_dialog_negative" msgid="7872647360361245461">"Буцах"</string>
     <string name="security_settings_face_enroll_education_accessibility_dialog_positive" msgid="3148077647572203458">"Тохируулгыг үргэлжлүүлэх"</string>
     <string name="security_settings_face_enroll_introduction_accessibility" msgid="5748221179069430975">"Хүртээмжийн тохируулгыг ашиглах"</string>
-    <string name="security_settings_face_enroll_introduction_accessibility_diversity" msgid="2774962371839179206"/>
     <string name="security_settings_face_enroll_introduction_cancel" msgid="7551159644361639436">"Болих"</string>
     <string name="security_settings_face_enroll_introduction_no_thanks" msgid="1820618982738898717">"Үгүй, баярлалаа"</string>
     <string name="security_settings_face_enroll_introduction_agree" msgid="6319476573697497750">"Би зөвшөөрч байна"</string>
@@ -342,13 +340,9 @@
     <string name="security_settings_face_enroll_introduction_consent_message" msgid="866117500419055444">"Хүүхдэдээ царайгаа ашиглан утасныхаа түжээх тайлах эсвэл өөрийгөө мөн болохыг баталгаажуулахыг зөвшөөрнө үү. Энэ нь түүнийг аппуудад нэвтрэх, худалдан авалтуудыг зөвшөөрөх болон бусад зүйлийг хийх үед тохиолдоно."</string>
     <string name="security_settings_face_enroll_introduction_message_unlock_disabled" msgid="5841976283789481311">"Утасныхаа түгжээг тайлах эсвэл худалдан авалтыг зөвшөөрөхийн тулд царайгаа ашиглана уу.\n\nСанамж: Та энэ төхөөрөмжийн түгжээг тайлахын тулд царайгаа ашиглах боломжгүй. Дэлгэрэнгүй мэдээлэл авахын тулд байгууллагынхаа админтай холбогдоно уу."</string>
     <string name="security_settings_face_enroll_introduction_message_setup" msgid="765965418187421753">"Утасныхаа түгжээг тайлах, худалдан авалт хийх эсвэл аппад нэвтрэхдээ царайгаа ашиглана уу"</string>
-    <string name="security_settings_face_enroll_introduction_info_glasses" msgid="2733870453868907471"/>
     <string name="security_settings_face_enroll_introduction_info_looking" msgid="6502109133251718131"/>
-    <string name="security_settings_face_enroll_introduction_info_less_secure" msgid="6496505354480525745"/>
     <string name="security_settings_face_enroll_introduction_info_consent_gaze" msgid="6301647369911879888"/>
-    <string name="security_settings_face_enroll_introduction_how_message" msgid="4192656589626667797"/>
     <string name="security_settings_face_enroll_introduction_control_title" msgid="4536951089583821051"/>
-    <string name="security_settings_face_enroll_introduction_control_message" msgid="4818463420573540379"/>
     <string name="security_settings_face_enroll_repeat_title" msgid="4446229670377418717">"Царайгаа дугуй хүрээнд голлуулна уу"</string>
     <string name="security_settings_face_enroll_enrolling_skip" msgid="5568617401632528567">"Алгасах"</string>
     <string name="face_add_max" msgid="4578405795494514876">"Та <xliff:g id="COUNT">%d</xliff:g> хүртэлх царай нэмж болно"</string>
@@ -590,7 +584,6 @@
     <string name="suggested_lock_settings_summary" product="device" msgid="8479766049078378225">"Төхөөрөмжөө хамгаалахын тулд дэлгэцийн түгжээ тохируулах"</string>
     <string name="suggested_lock_settings_summary" product="default" msgid="2443273582716671033">"Утсаа хамгаалахын тулд дэлгэцийн түгжээ тохируулах"</string>
     <string name="suggested_fingerprint_lock_settings_title" msgid="3140266181874137984">"Түгжээг тайлахын тулд хурууны хээ нэмэх"</string>
-    <string name="suggested_fingerprint_lock_settings_summary" product="device" msgid="1040265358906410746"/>
     <string name="lock_settings_picker_title" msgid="9219376327364915334">"Дэлгэцийн түгжээ сонгох"</string>
     <string name="lock_settings_picker_new_lock_title" msgid="3113042086804290919">"Дэлгэцийн түгжээ сонгоно уу"</string>
     <string name="lock_settings_picker_update_lock_title" msgid="536853138943415927">"Шинэ дэлгэцийн түгжээ сонго"</string>
@@ -1529,7 +1522,6 @@
     <string name="sd_insert_summary" product="default" msgid="5949168259622002192">"SD картыг оруулж залгана уу"</string>
     <string name="sd_mount" product="nosdcard" msgid="8305985249945415150">"USB санг залгана уу"</string>
     <string name="sd_mount" product="default" msgid="5279813999455776169">"SD картыг залгах"</string>
-    <string name="sd_mount_summary" product="default" msgid="2190410240845521205"/>
     <string name="sd_format" product="nosdcard" msgid="8657427883364711513">"USB санг арилгах"</string>
     <string name="sd_format" product="default" msgid="9085302892248732329">"SD картыг арилгах"</string>
     <string name="sd_format_summary" product="nosdcard" msgid="6179784504937189658">"Дотоод USB сан дээрх хөгжим буюу зураг гэх мэт бүх өгөгдлийг арилгана"</string>
@@ -1539,7 +1531,6 @@
     <string name="dlg_confirm_unmount_title" product="default" msgid="8251329019960361646">"SD картыг салгах уу?"</string>
     <string name="dlg_confirm_unmount_text" product="nosdcard" msgid="1212025106709645023">"Хэрэв та USB санг салгавал таны ашиглаж байга зарим апп зогсох ба та USB сангаа дахин залгатал ашиглах боломжгүй байж болзошгүй."</string>
     <string name="dlg_confirm_unmount_text" product="default" msgid="3887768438615563697">"Хэрэв та SD картыг салгавал таны ашиглаж байгаа зарим апп зогсох бөгөөд та SD картыг буцаан залгах хүртэл ашиглах боломжгүй болж болно."</string>
-    <string name="dlg_error_unmount_title" product="default" msgid="2205587942165199845"/>
     <string name="dlg_error_unmount_text" product="nosdcard" msgid="7876201891724279436">"USB санг салгаж чадсангүй. Дараа дахин оролдоно уу."</string>
     <string name="dlg_error_unmount_text" product="default" msgid="2185659901137961711">"SD картыг салгаж чадсангүй. Дараа дахин оролдоно уу."</string>
     <string name="unmount_inform_text" product="nosdcard" msgid="5932607205977999175">"USB сан салгагдах болно."</string>
@@ -2140,7 +2131,6 @@
     <string name="runningservicedetails_stop_dlg_text" product="tablet" msgid="2076922609580490122">"Хэрэв та энэ үйлчилгээг зогсоовол таблетаа унтраагаад асаахаас нааш таны таблетын зарим функцууд зөв ажиллахаа больж магадгүй."</string>
     <string name="runningservicedetails_stop_dlg_text" product="default" msgid="2625863973434309085">"Хэрэв та энэ үйлчилгээг зогсоовол утсаа унтраагаад асаахаас нааш таны утасны зарим функцууд зөв ажиллахаа больж магадгүй."</string>
     <string name="language_input_gesture_title" msgid="3292455685728572960">"Хэл, оролт, зангаа"</string>
-    <string name="language_input_gesture_summary_on_non_assist" msgid="2738661322747920463"/>
     <string name="language_settings" msgid="8700174277543875046">"Хэл, оролт"</string>
     <string name="language_empty_list_user_restricted" msgid="8050367405839231863">"Танд төхөөрөмжийн хэлийг солих зөвшөөрөл алга."</string>
     <string name="language_keyboard_settings_title" msgid="7934844313233544557">"Хэл, оролт"</string>
@@ -2531,12 +2521,10 @@
     <string name="keywords_accessibility" msgid="4263443239404659143">"Ашиглахад хялбар, хандахад хялбар, тусламж, туслах"</string>
     <string name="keywords_magnification" msgid="3908145308269840862">"Цонх томруулагч, Томруулалт, Томруулах, Сул хараа, Томруулах, том болгох"</string>
     <string name="keywords_live_caption" msgid="1667203998080567556">"Тайлбарууд, хаалттай тайлбарууд, Хаалттай тайлбар, Шууд бичвэр болгон сийрүүлэх, сонсголын бэрхшээл, сонсголын алдагдал, CART, яриаг бичвэрт буулгах, хадмал"</string>
-    <string name="keywords_sound_notifications" msgid="8183107485754075413"/>
     <string name="keywords_display_size" msgid="5286419615221231518">"дэлгэцийн хэмжээ, том дэлгэц"</string>
     <string name="keywords_bold_text" msgid="6257418169207099589">"Өндөр ялгарал, сул хараа, тод фонт, тод төрх"</string>
     <string name="keywords_color_correction" msgid="8540442886990423681">"өнгө тохируулах"</string>
     <string name="keywords_color_inversion" msgid="4291058365873221962">"дэлгэцийг бараан болгох, дэлгэцийг цайвар болгох"</string>
-    <string name="keywords_switch_access" msgid="5813094504384313402"/>
     <string name="keywords_auto_click" msgid="7151756353013736931">"мотор, хулгана"</string>
     <string name="keywords_hearing_aids" msgid="524979615168196199">"сонсголын бэрхшээл, сонсголын алдагдал"</string>
     <string name="keywords_rtt" msgid="2429130928152514402">"сонсголын бэрхшээл, сонсголын алдагдал, тайлбарууд, Tелетайп, tty"</string>
@@ -5391,7 +5379,6 @@
     <string name="lockscreen_privacy_controls_summary" msgid="6952176547084269909">"Түгжсэн үед хяналтад хандана"</string>
     <string name="lockscreen_double_line_clock_summary" msgid="2916159550425093703">"Боломжтой үед нь хоёр зураастай цаг харуулах"</string>
     <string name="lockscreen_double_line_clock_setting_toggle" msgid="3408639316001688529">"Хоёр зураастай цаг"</string>
-    <string name="rtt_settings_no_visible" msgid="7440356831140948382"/>
     <string name="rtt_settings_always_visible" msgid="2364173070088756238"/>
     <string name="media_output_panel_stop_casting_button" msgid="6094875883164119035">"Дамжуулалтыг зогсоох"</string>
     <string name="volte_5G_limited_title" msgid="5908052268836750629">"VoLTE-г унтраах уу?"</string>

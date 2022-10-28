@@ -324,13 +324,11 @@
     <string name="security_settings_face_enroll_education_title" msgid="6448806884597691208">"මුහුණෙන් අගුළු හැරීම පිහිටුවන ආකාරය"</string>
     <string name="security_settings_face_enroll_education_title_accessibility" msgid="3701874093226957891">"මුහුණෙන් අගුළු හැරීම පිහිටුවන්න"</string>
     <string name="security_settings_face_enroll_education_title_unlock_disabled" msgid="8810954233979716906">"සත්‍යාපන කිරීමට ඔබේ මුහුණ භාවිත කරන්න"</string>
-    <string name="security_settings_face_enroll_education_message_accessibility" msgid="1986648712195281391"/>
     <string name="security_settings_face_enroll_education_start" msgid="8830924400907195590">"අරඹන්න"</string>
     <string name="security_settings_face_enroll_education_accessibility_dialog_message" msgid="2965952386172202665">"ප්‍රවේශ්‍යතා මුහුණෙන් අගුළු හැරීම ක්‍රියාවිරහිත කර ඇත්නම්, සමහර පිහිටුවීම් පියවර TalkBack සමඟ නිසියාකාරව ක්‍රියා නොකරනු ඇත."</string>
     <string name="security_settings_face_enroll_education_accessibility_dialog_negative" msgid="7872647360361245461">"ආපසු යන්න"</string>
     <string name="security_settings_face_enroll_education_accessibility_dialog_positive" msgid="3148077647572203458">"පිහිටුවීම දිගටම කර."</string>
     <string name="security_settings_face_enroll_introduction_accessibility" msgid="5748221179069430975">"ප්‍රවේශ්‍යතා පිහිටුවීම භාවිතය"</string>
-    <string name="security_settings_face_enroll_introduction_accessibility_diversity" msgid="2774962371839179206"/>
     <string name="security_settings_face_enroll_introduction_cancel" msgid="7551159644361639436">"අවලංගු කරන්න"</string>
     <string name="security_settings_face_enroll_introduction_no_thanks" msgid="1820618982738898717">"එපා ස්තූතියි"</string>
     <string name="security_settings_face_enroll_introduction_agree" msgid="6319476573697497750">"මම එකඟ වෙමි"</string>
@@ -342,13 +340,9 @@
     <string name="security_settings_face_enroll_introduction_consent_message" msgid="866117500419055444">"දුරකථනය අගුලු හැරීමට හෝ ඒ ඔවුන් බව සත්‍යාපනය කිරීමට ඔබගේ දරුවාට ඔවුන්ගේ මුහුණ භාවිත කිරීමට ඉඩ දෙන්න. ඔවුන් යෙදුම් වලට පිරීමේදී, මිලදී ගැනීමක් අනුමත කිරීමේදී සහ තවත් දේවලදී මෙය සිදු වේ."</string>
     <string name="security_settings_face_enroll_introduction_message_unlock_disabled" msgid="5841976283789481311">"ඔබේ දුරකථනය අගුලු හැරීමට, හෝ මිලදී ගැනීම් අනුමත කිරීමට ඔබේ මුහුණ භාවිත කරන්න.\n\nසටහන: ඔබට ඔබේ මුහුණ මෙම උපාංගය අගුලු හැරීමට භාවිත කළ නොහැකිය. තව තොරතුරු සඳහා, ඔබේ සංවිධානයෙහි පරිපාලක අමතන්න."</string>
     <string name="security_settings_face_enroll_introduction_message_setup" msgid="765965418187421753">"ඔබේ දුරකථනය අගුලු හැරීමට, මිලදී ගැනීම්වලට අවසර දීමට, හෝ යෙදුම්වලට පිරීමට ඔබේ මුහුණ භාවිත කරන්න."</string>
-    <string name="security_settings_face_enroll_introduction_info_glasses" msgid="2733870453868907471"/>
     <string name="security_settings_face_enroll_introduction_info_looking" msgid="6502109133251718131"/>
-    <string name="security_settings_face_enroll_introduction_info_less_secure" msgid="6496505354480525745"/>
     <string name="security_settings_face_enroll_introduction_info_consent_gaze" msgid="6301647369911879888"/>
-    <string name="security_settings_face_enroll_introduction_how_message" msgid="4192656589626667797"/>
     <string name="security_settings_face_enroll_introduction_control_title" msgid="4536951089583821051"/>
-    <string name="security_settings_face_enroll_introduction_control_message" msgid="4818463420573540379"/>
     <string name="security_settings_face_enroll_repeat_title" msgid="4446229670377418717">"රවුමේ ඔබේ මුහුණ කේන්ද්‍රගත කරන්න"</string>
     <string name="security_settings_face_enroll_enrolling_skip" msgid="5568617401632528567">"මඟ හරින්න"</string>
     <string name="face_add_max" msgid="4578405795494514876">"ඔබට මුහුණු <xliff:g id="COUNT">%d</xliff:g> දක්වා එක් කළ හැකිය"</string>
@@ -590,7 +584,6 @@
     <string name="suggested_lock_settings_summary" product="device" msgid="8479766049078378225">"උපාංගය ආරක්ෂා කිරීම සඳහා තිර අගුල සකසන්න"</string>
     <string name="suggested_lock_settings_summary" product="default" msgid="2443273582716671033">"දුරකථනය ආරක්ෂා කිරීම සඳහා තිර අගුල සකසන්න"</string>
     <string name="suggested_fingerprint_lock_settings_title" msgid="3140266181874137984">"අගුලු හැරීමට ඇඟිලි සලකුණ එක් කරන්න"</string>
-    <string name="suggested_fingerprint_lock_settings_summary" product="device" msgid="1040265358906410746"/>
     <string name="lock_settings_picker_title" msgid="9219376327364915334">"තිර අගුල තෝරාගන්න"</string>
     <string name="lock_settings_picker_new_lock_title" msgid="3113042086804290919">"තිර අගුලක් තෝරන්න"</string>
     <string name="lock_settings_picker_update_lock_title" msgid="536853138943415927">"නව තිර අගුලක් තෝරන්න"</string>
@@ -1529,7 +1522,6 @@
     <string name="sd_insert_summary" product="default" msgid="5949168259622002192">"නංවීම සඳහා SD කාඩ් පත ඇතුළු කරන්න"</string>
     <string name="sd_mount" product="nosdcard" msgid="8305985249945415150">"USB ආචයන නංවන්න"</string>
     <string name="sd_mount" product="default" msgid="5279813999455776169">"SD කාඩ් පත ඈඳන්න"</string>
-    <string name="sd_mount_summary" product="default" msgid="2190410240845521205"/>
     <string name="sd_format" product="nosdcard" msgid="8657427883364711513">"USB ආචයනය මකන්න"</string>
     <string name="sd_format" product="default" msgid="9085302892248732329">"SD කාඩ් පත මකන්න"</string>
     <string name="sd_format_summary" product="nosdcard" msgid="6179784504937189658">"සංගීත සහ ඡායාරූප ආදී අභ්‍යන්තර USB ආචයනයේ සියලු දත්ත මකයි"</string>
@@ -1539,7 +1531,6 @@
     <string name="dlg_confirm_unmount_title" product="default" msgid="8251329019960361646">"SD කාඩ් පත ගලවන්නද?"</string>
     <string name="dlg_confirm_unmount_text" product="nosdcard" msgid="1212025106709645023">"ඔබ USB ආචයනය ගලවයි නම්, සමහර යෙදුම් ඔබ නැවත USB ආචයනය ඈඳන තෙක් නවත්වා ලබාගත නොහැකි වනු ඇත."</string>
     <string name="dlg_confirm_unmount_text" product="default" msgid="3887768438615563697">"ඔබ SD කාඩ් පත ගලවයි නම්, සමහර යෙදුම් ඔබ නැවත SD කාඩ් පත ඈඳන තෙක් නවත්වා ලබාගත නොහැකි වනු ඇත."</string>
-    <string name="dlg_error_unmount_title" product="default" msgid="2205587942165199845"/>
     <string name="dlg_error_unmount_text" product="nosdcard" msgid="7876201891724279436">"USB ආචයනය ඉවත් කළ නොහැකි විය. කරුණාකර පසුව උත්සාහ කරන්න."</string>
     <string name="dlg_error_unmount_text" product="default" msgid="2185659901137961711">"SD කාඩ් පත ගැලවිය නොහැකි විය. කරුණාකර පසුව උත්සහ කරන්න."</string>
     <string name="unmount_inform_text" product="nosdcard" msgid="5932607205977999175">"USB ආචයනය බැසවනු ඇත."</string>
@@ -2140,7 +2131,6 @@
     <string name="runningservicedetails_stop_dlg_text" product="tablet" msgid="2076922609580490122">"ඔබ මෙම සේවාව නැවත්වුවහොත්, ඔබගේ ටැබ්ලටයේ සමහර අංග ඔබ එය බලය අක්‍රිය කර නැවත බල ගන්වන තුරු නිවැරදිව ක්‍රියා නොකිරීමට හැක."</string>
     <string name="runningservicedetails_stop_dlg_text" product="default" msgid="2625863973434309085">"ඔබ මෙම සේවාව නැවත්වුවහොත්, ඔබගේ දුරකථනයේ සමහර අංග ඔබ එය බලය අක්‍රිය කර නැවත දමන තුරු නිවැරදිව ක්‍රියා නොකිරීමට හැක."</string>
     <string name="language_input_gesture_title" msgid="3292455685728572960">"භාෂා, ආදානය සහ, ඉංගිත"</string>
-    <string name="language_input_gesture_summary_on_non_assist" msgid="2738661322747920463"/>
     <string name="language_settings" msgid="8700174277543875046">"භාෂා සහ ආදානය"</string>
     <string name="language_empty_list_user_restricted" msgid="8050367405839231863">"උපාංග භාෂාව වෙනස් කිරීමට ඔබට අවසර නැත."</string>
     <string name="language_keyboard_settings_title" msgid="7934844313233544557">"භාෂා සහ ආදානය"</string>
@@ -2531,12 +2521,10 @@
     <string name="keywords_accessibility" msgid="4263443239404659143">"භාවිතයේ පහසුව, ප්‍රවේශ වීමේ පහසුව, සහාය, සහායක"</string>
     <string name="keywords_magnification" msgid="3908145308269840862">"කවුළු විශාලනය, විශාලනය, විශාලනය කිරීම, අඩු දෘශ්‍යතාව, විශාල කරන්න, වඩා ලොකු කරන්න"</string>
     <string name="keywords_live_caption" msgid="1667203998080567556">"සිරස්තල, සංවෘත සිරස්තල, CC, සජීවී පිටපත් කිරීම, ඇසීමට අපහසු, ශ්‍රවණය අහිමි, CART, කථනයෙන් පෙළට, උපසිරැසි"</string>
-    <string name="keywords_sound_notifications" msgid="8183107485754075413"/>
     <string name="keywords_display_size" msgid="5286419615221231518">"තිර ප්‍රමාණය, විශාල තිරය"</string>
     <string name="keywords_bold_text" msgid="6257418169207099589">"ඉහළ විභේදනය, අඩු දෘශ්‍යතාව, තද අකුරු, තද මුහුණ"</string>
     <string name="keywords_color_correction" msgid="8540442886990423681">"වර්ණය සීරුමාරු කරන්න"</string>
     <string name="keywords_color_inversion" msgid="4291058365873221962">"තිරය අඳුරු කරන්න, තිරය ආලෝකමත් කරන්න"</string>
-    <string name="keywords_switch_access" msgid="5813094504384313402"/>
     <string name="keywords_auto_click" msgid="7151756353013736931">"මෝටරය, මූසිකය"</string>
     <string name="keywords_hearing_aids" msgid="524979615168196199">"ඇසීමට අපහසු, ශ්‍රවණය අහිමි"</string>
     <string name="keywords_rtt" msgid="2429130928152514402">"ඇසීමට අපහසු, ශ්‍රවණය අහිමි, සිරස්තල, ටෙලිටයිප්, tty"</string>
@@ -5391,7 +5379,6 @@
     <string name="lockscreen_privacy_controls_summary" msgid="6952176547084269909">"අගුලු දැමූ විට ප්‍රවේශ පාලන"</string>
     <string name="lockscreen_double_line_clock_summary" msgid="2916159550425093703">"ලබා ගත හැකි විට ද්විත්ව රේඛා ඔරලෝසුව පෙන්වන්න"</string>
     <string name="lockscreen_double_line_clock_setting_toggle" msgid="3408639316001688529">"ද්විත්ව රේඛා ඔරලෝසුව"</string>
-    <string name="rtt_settings_no_visible" msgid="7440356831140948382"/>
     <string name="rtt_settings_always_visible" msgid="2364173070088756238"/>
     <string name="media_output_panel_stop_casting_button" msgid="6094875883164119035">"විකාශය නවතන්න"</string>
     <string name="volte_5G_limited_title" msgid="5908052268836750629">"VoLTE ක්‍රියා විරහිත කරන්නද?"</string>

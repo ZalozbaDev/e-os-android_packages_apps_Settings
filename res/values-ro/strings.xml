@@ -327,13 +327,11 @@
     <string name="security_settings_face_enroll_education_title" msgid="6448806884597691208">"Configurarea Deblocării faciale"</string>
     <string name="security_settings_face_enroll_education_title_accessibility" msgid="3701874093226957891">"Configurați Deblocarea facială"</string>
     <string name="security_settings_face_enroll_education_title_unlock_disabled" msgid="8810954233979716906">"Folosiți-vă chipul pentru autentificare"</string>
-    <string name="security_settings_face_enroll_education_message_accessibility" msgid="1986648712195281391"/>
     <string name="security_settings_face_enroll_education_start" msgid="8830924400907195590">"Începeți"</string>
     <string name="security_settings_face_enroll_education_accessibility_dialog_message" msgid="2965952386172202665">"Dacă Deblocarea facială pentru accesibilitate este dezactivată, este posibil ca unii pași de configurare să nu funcționeze corect cu TalkBack."</string>
     <string name="security_settings_face_enroll_education_accessibility_dialog_negative" msgid="7872647360361245461">"Înapoi"</string>
     <string name="security_settings_face_enroll_education_accessibility_dialog_positive" msgid="3148077647572203458">"Continuați configurarea"</string>
     <string name="security_settings_face_enroll_introduction_accessibility" msgid="5748221179069430975">"Folosiți configurarea accesibilității"</string>
-    <string name="security_settings_face_enroll_introduction_accessibility_diversity" msgid="2774962371839179206"/>
     <string name="security_settings_face_enroll_introduction_cancel" msgid="7551159644361639436">"Anulați"</string>
     <string name="security_settings_face_enroll_introduction_no_thanks" msgid="1820618982738898717">"Nu, mulțumesc"</string>
     <string name="security_settings_face_enroll_introduction_agree" msgid="6319476573697497750">"Accept"</string>
@@ -345,13 +343,9 @@
     <string name="security_settings_face_enroll_introduction_consent_message" msgid="866117500419055444">"Permiteți-i copilului dvs. să-și folosească fața pentru a debloca telefonul sau pentru a-și confirma identitatea. Va face această acțiune când se conectează la aplicații, aprobă o achiziție și altele."</string>
     <string name="security_settings_face_enroll_introduction_message_unlock_disabled" msgid="5841976283789481311">"Folosiți-vă chipul ca să deblocați telefonul sau să aprobați achiziții.\n\nNotă: nu vă puteți folosi chipul ca să deblocați acest dispozitiv. Pentru informații suplimentare, contactați administratorul organizației."</string>
     <string name="security_settings_face_enroll_introduction_message_setup" msgid="765965418187421753">"Folosiți-vă chipul ca să deblocați telefonul, să autorizați achiziții sau să vă conectați la aplicații"</string>
-    <string name="security_settings_face_enroll_introduction_info_glasses" msgid="2733870453868907471"/>
     <string name="security_settings_face_enroll_introduction_info_looking" msgid="6502109133251718131"/>
-    <string name="security_settings_face_enroll_introduction_info_less_secure" msgid="6496505354480525745"/>
     <string name="security_settings_face_enroll_introduction_info_consent_gaze" msgid="6301647369911879888"/>
-    <string name="security_settings_face_enroll_introduction_how_message" msgid="4192656589626667797"/>
     <string name="security_settings_face_enroll_introduction_control_title" msgid="4536951089583821051"/>
-    <string name="security_settings_face_enroll_introduction_control_message" msgid="4818463420573540379"/>
     <string name="security_settings_face_enroll_repeat_title" msgid="4446229670377418717">"Centrați-vă fața în cerc"</string>
     <string name="security_settings_face_enroll_enrolling_skip" msgid="5568617401632528567">"Omiteți"</string>
     <string name="face_add_max" msgid="4578405795494514876">"Puteți să adăugați până la <xliff:g id="COUNT">%d</xliff:g> fețe"</string>
@@ -596,7 +590,6 @@
     <string name="suggested_lock_settings_summary" product="device" msgid="8479766049078378225">"Setați blocarea ecranului pentru a proteja dispozitivul"</string>
     <string name="suggested_lock_settings_summary" product="default" msgid="2443273582716671033">"Setați blocarea ecranului pentru a proteja telefonul"</string>
     <string name="suggested_fingerprint_lock_settings_title" msgid="3140266181874137984">"Adăugați amprenta pentru deblocare"</string>
-    <string name="suggested_fingerprint_lock_settings_summary" product="device" msgid="1040265358906410746"/>
     <string name="lock_settings_picker_title" msgid="9219376327364915334">"Opțiuni blocare ecran"</string>
     <string name="lock_settings_picker_new_lock_title" msgid="3113042086804290919">"Alegeți blocarea ecranului"</string>
     <string name="lock_settings_picker_update_lock_title" msgid="536853138943415927">"Alegeți o nouă blocare a ecranului"</string>
@@ -1552,7 +1545,6 @@
     <string name="sd_insert_summary" product="default" msgid="5949168259622002192">"Introduceți un card SD pentru montare"</string>
     <string name="sd_mount" product="nosdcard" msgid="8305985249945415150">"Montați stocarea USB"</string>
     <string name="sd_mount" product="default" msgid="5279813999455776169">"Montați cardul SD"</string>
-    <string name="sd_mount_summary" product="default" msgid="2190410240845521205"/>
     <string name="sd_format" product="nosdcard" msgid="8657427883364711513">"Ștergeți stocarea USB"</string>
     <string name="sd_format" product="default" msgid="9085302892248732329">"Ștergeți cardul SD"</string>
     <string name="sd_format_summary" product="nosdcard" msgid="6179784504937189658">"Șterge toate datele din stocarea USB internă, cum ar fi muzica și fotografiile"</string>
@@ -1562,7 +1554,6 @@
     <string name="dlg_confirm_unmount_title" product="default" msgid="8251329019960361646">"Demontați cardul SD?"</string>
     <string name="dlg_confirm_unmount_text" product="nosdcard" msgid="1212025106709645023">"Dacă demontați stocarea USB, unele aplicații pe care le utilizați se vor opri și ar putea fi nedisponibile până la remontarea stocării USB."</string>
     <string name="dlg_confirm_unmount_text" product="default" msgid="3887768438615563697">"Dacă demontați cardul SD, unele aplicații utilizate în acel moment se vor opri și pot fi indisponibile până la remontarea cardului SD."</string>
-    <string name="dlg_error_unmount_title" product="default" msgid="2205587942165199845"/>
     <string name="dlg_error_unmount_text" product="nosdcard" msgid="7876201891724279436">"Stocarea USB nu a putut fi demontată. Încercați din nou mai târziu."</string>
     <string name="dlg_error_unmount_text" product="default" msgid="2185659901137961711">"Nu se poate demonta cardul SD. Încercați din nou mai târziu."</string>
     <string name="unmount_inform_text" product="nosdcard" msgid="5932607205977999175">"Dispozitivul de stocare USB va fi demontat."</string>
@@ -2166,7 +2157,6 @@
     <string name="runningservicedetails_stop_dlg_text" product="tablet" msgid="2076922609580490122">"Dacă opriți acest serviciu, este posibil ca unele funcții ale tabletei să nu mai funcționeze corect decât după ce o veți închide și redeschide."</string>
     <string name="runningservicedetails_stop_dlg_text" product="default" msgid="2625863973434309085">"Dacă opriți acest serviciu, este posibil ca unele funcții ale telefonului să nu mai funcționeze corect decât după ce îl veți închide și redeschide."</string>
     <string name="language_input_gesture_title" msgid="3292455685728572960">"Limbi, introducerea textului și gesturi"</string>
-    <string name="language_input_gesture_summary_on_non_assist" msgid="2738661322747920463"/>
     <string name="language_settings" msgid="8700174277543875046">"Limbi și introducerea textului"</string>
     <string name="language_empty_list_user_restricted" msgid="8050367405839231863">"Nu aveți permisiunea de a schimba limba dispozitivului."</string>
     <string name="language_keyboard_settings_title" msgid="7934844313233544557">"Limbi și introducerea textului"</string>
@@ -2562,12 +2552,10 @@
     <string name="keywords_accessibility" msgid="4263443239404659143">"ușurință de utilizare, acces simplu, asistență, care asigură asistență"</string>
     <string name="keywords_magnification" msgid="3908145308269840862">"lupă fereastră, zoom, mărire, vedere slabă, măriți, mai mare"</string>
     <string name="keywords_live_caption" msgid="1667203998080567556">"subtitrări, transcriere live, deficiențe de auz, pierderea auzului, CART, redare în scris a vorbirii, subtitrare"</string>
-    <string name="keywords_sound_notifications" msgid="8183107485754075413"/>
     <string name="keywords_display_size" msgid="5286419615221231518">"dimensiunea ecranului, ecran mare"</string>
     <string name="keywords_bold_text" msgid="6257418169207099589">"contrast mare, vedere slabă, font aldin, text aldin"</string>
     <string name="keywords_color_correction" msgid="8540442886990423681">"ajustați culoarea"</string>
     <string name="keywords_color_inversion" msgid="4291058365873221962">"închideți culorile ecranului, deschideți culorile ecranului"</string>
-    <string name="keywords_switch_access" msgid="5813094504384313402"/>
     <string name="keywords_auto_click" msgid="7151756353013736931">"abilități motorii, mouse"</string>
     <string name="keywords_hearing_aids" msgid="524979615168196199">"deficiențe de auz, pierderea auzului"</string>
     <string name="keywords_rtt" msgid="2429130928152514402">"deficiențe de auz, pierderea auzului, subtitrări, TeleTypewriter, TTY"</string>
@@ -5482,7 +5470,6 @@
     <string name="lockscreen_privacy_controls_summary" msgid="6952176547084269909">"Accesați comenzile când ecranul este blocat"</string>
     <string name="lockscreen_double_line_clock_summary" msgid="2916159550425093703">"Afișați ceasul cu două linii când este disponibil"</string>
     <string name="lockscreen_double_line_clock_setting_toggle" msgid="3408639316001688529">"Ceas cu două linii"</string>
-    <string name="rtt_settings_no_visible" msgid="7440356831140948382"/>
     <string name="rtt_settings_always_visible" msgid="2364173070088756238"/>
     <string name="media_output_panel_stop_casting_button" msgid="6094875883164119035">"Nu mai proiectați"</string>
     <string name="volte_5G_limited_title" msgid="5908052268836750629">"Dezactivați VoLTE?"</string>

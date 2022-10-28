@@ -324,13 +324,11 @@
     <string name="security_settings_face_enroll_education_title" msgid="6448806884597691208">"Comment configurer le déverrouillage facial"</string>
     <string name="security_settings_face_enroll_education_title_accessibility" msgid="3701874093226957891">"Configurer le déverrouillage facial"</string>
     <string name="security_settings_face_enroll_education_title_unlock_disabled" msgid="8810954233979716906">"Utiliser son visage pour s\'authentifier"</string>
-    <string name="security_settings_face_enroll_education_message_accessibility" msgid="1986648712195281391"/>
     <string name="security_settings_face_enroll_education_start" msgid="8830924400907195590">"Démarrer"</string>
     <string name="security_settings_face_enroll_education_accessibility_dialog_message" msgid="2965952386172202665">"Si le déverrouillage par reconnaissance faciale est désactivé, certaines étapes de configuration pourraient ne pas fonctionner avec TalkBack."</string>
     <string name="security_settings_face_enroll_education_accessibility_dialog_negative" msgid="7872647360361245461">"Retour"</string>
     <string name="security_settings_face_enroll_education_accessibility_dialog_positive" msgid="3148077647572203458">"Poursuivre configur."</string>
     <string name="security_settings_face_enroll_introduction_accessibility" msgid="5748221179069430975">"Utiliser config. d\'accessibilité"</string>
-    <string name="security_settings_face_enroll_introduction_accessibility_diversity" msgid="2774962371839179206"/>
     <string name="security_settings_face_enroll_introduction_cancel" msgid="7551159644361639436">"Annuler"</string>
     <string name="security_settings_face_enroll_introduction_no_thanks" msgid="1820618982738898717">"Non, merci"</string>
     <string name="security_settings_face_enroll_introduction_agree" msgid="6319476573697497750">"J\'accepte"</string>
@@ -342,13 +340,9 @@
     <string name="security_settings_face_enroll_introduction_consent_message" msgid="866117500419055444">"Autorisez votre enfant à utiliser son visage pour déverrouiller son téléphone ou vérifier qu\'il s\'agit bien de lui. Cette situation se produit lorsqu\'il se connecte à des applications, approuve un achat et plus."</string>
     <string name="security_settings_face_enroll_introduction_message_unlock_disabled" msgid="5841976283789481311">"Utilisez votre visage pour déverrouiller votre téléphone ou autoriser des achats.\n\nRemarque : Vous ne pouvez pas utiliser votre visage pour déverrouiller cet appareil. Pour obtenir plus d\'information, communiquez avec l\'administrateur de votre organisation."</string>
     <string name="security_settings_face_enroll_introduction_message_setup" msgid="765965418187421753">"Utilisez votre visage pour déverrouiller votre téléphone, autoriser vos achats et vous connecter à des applications"</string>
-    <string name="security_settings_face_enroll_introduction_info_glasses" msgid="2733870453868907471"/>
     <string name="security_settings_face_enroll_introduction_info_looking" msgid="6502109133251718131"/>
-    <string name="security_settings_face_enroll_introduction_info_less_secure" msgid="6496505354480525745"/>
     <string name="security_settings_face_enroll_introduction_info_consent_gaze" msgid="6301647369911879888"/>
-    <string name="security_settings_face_enroll_introduction_how_message" msgid="4192656589626667797"/>
     <string name="security_settings_face_enroll_introduction_control_title" msgid="4536951089583821051"/>
-    <string name="security_settings_face_enroll_introduction_control_message" msgid="4818463420573540379"/>
     <string name="security_settings_face_enroll_repeat_title" msgid="4446229670377418717">"Centrez votre visage dans le cercle"</string>
     <string name="security_settings_face_enroll_enrolling_skip" msgid="5568617401632528567">"Ignorer"</string>
     <string name="face_add_max" msgid="4578405795494514876">"Vous pouvez ajouter jusqu\'à <xliff:g id="COUNT">%d</xliff:g> visages"</string>
@@ -590,7 +584,6 @@
     <string name="suggested_lock_settings_summary" product="device" msgid="8479766049078378225">"Définir un verr. de l\'écran pour protéger l\'appareil"</string>
     <string name="suggested_lock_settings_summary" product="default" msgid="2443273582716671033">"Définir un verr. de l\'écran pour protéger le téléphone"</string>
     <string name="suggested_fingerprint_lock_settings_title" msgid="3140266181874137984">"Ajouter empreinte digitale pour déverrouiller"</string>
-    <string name="suggested_fingerprint_lock_settings_summary" product="device" msgid="1040265358906410746"/>
     <string name="lock_settings_picker_title" msgid="9219376327364915334">"Verrouillage de l\'écran"</string>
     <string name="lock_settings_picker_new_lock_title" msgid="3113042086804290919">"Choisir un verrouillage d\'écran"</string>
     <string name="lock_settings_picker_update_lock_title" msgid="536853138943415927">"Choisissez nouv. verr. écran"</string>
@@ -1529,7 +1522,6 @@
     <string name="sd_insert_summary" product="default" msgid="5949168259622002192">"Insérer la carte SD à installer"</string>
     <string name="sd_mount" product="nosdcard" msgid="8305985249945415150">"Installer mémoire stockage USB"</string>
     <string name="sd_mount" product="default" msgid="5279813999455776169">"Installer la carte SD"</string>
-    <string name="sd_mount_summary" product="default" msgid="2190410240845521205"/>
     <string name="sd_format" product="nosdcard" msgid="8657427883364711513">"Effacer la mémoire de stockage USB"</string>
     <string name="sd_format" product="default" msgid="9085302892248732329">"Effacer la carte SD"</string>
     <string name="sd_format_summary" product="nosdcard" msgid="6179784504937189658">"Effacer les données de la mémoire de stockage USB interne (ex. : musique, photos)"</string>
@@ -1539,7 +1531,6 @@
     <string name="dlg_confirm_unmount_title" product="default" msgid="8251329019960361646">"Désinstaller la carte SD?"</string>
     <string name="dlg_confirm_unmount_text" product="nosdcard" msgid="1212025106709645023">"Si vous désinstallez la mémoire de stockage USB, certaines applications en cours d\'utilisation seront fermées. Elles risquent de rester indisponibles jusqu\'à ce que la mémoire de stockage USB soit réinstallée."</string>
     <string name="dlg_confirm_unmount_text" product="default" msgid="3887768438615563697">"Si vous désinstallez la carte SD, certaines applications en cours d\'utilisation s\'arrêteront et risquent de ne plus être disponibles tant que vous n\'aurez pas réinstallé la carte SD."</string>
-    <string name="dlg_error_unmount_title" product="default" msgid="2205587942165199845"/>
     <string name="dlg_error_unmount_text" product="nosdcard" msgid="7876201891724279436">"Impossible de désinstaller la mémoire de stockage USB. Réessayez plus tard."</string>
     <string name="dlg_error_unmount_text" product="default" msgid="2185659901137961711">"Impossible de désinstaller la carte SD. Réessayez plus tard."</string>
     <string name="unmount_inform_text" product="nosdcard" msgid="5932607205977999175">"La mémoire de stockage USB va être désinstallée."</string>
@@ -2140,7 +2131,6 @@
     <string name="runningservicedetails_stop_dlg_text" product="tablet" msgid="2076922609580490122">"Si vous arrêtez ce service, certaines fonctionnalités de votre tablette peuvent cesser de fonctionner correctement jusqu\'à ce que vous ayez éteint, puis rallumé votre appareil."</string>
     <string name="runningservicedetails_stop_dlg_text" product="default" msgid="2625863973434309085">"Si vous arrêtez ce service, certaines fonctionnalités de votre téléphone peuvent cesser de fonctionner correctement jusqu\'à ce que vous ayez éteint, puis rallumé votre appareil."</string>
     <string name="language_input_gesture_title" msgid="3292455685728572960">"Langues, entrée et gestes"</string>
-    <string name="language_input_gesture_summary_on_non_assist" msgid="2738661322747920463"/>
     <string name="language_settings" msgid="8700174277543875046">"Langues et modes d\'entrée"</string>
     <string name="language_empty_list_user_restricted" msgid="8050367405839231863">"Vous n\'êtes pas autorisé à modifier la langue de l\'appareil."</string>
     <string name="language_keyboard_settings_title" msgid="7934844313233544557">"Langues et modes d\'entrée"</string>
@@ -2531,12 +2521,10 @@
     <string name="keywords_accessibility" msgid="4263443239404659143">"Convivialité, facilité d\'accès, assistance, accessibilité"</string>
     <string name="keywords_magnification" msgid="3908145308269840862">"Agrandisseur d\'écran, zoom, agrandissement, vision faible, agrandir, rendre plus gros"</string>
     <string name="keywords_live_caption" msgid="1667203998080567556">"Sous-titres, sous-titrage, CC, Transcription instantanée, malentendant, perte auditive, transcription en temps réel assistée par ordinateur, synthèse textuelle, sous-titrer"</string>
-    <string name="keywords_sound_notifications" msgid="8183107485754075413"/>
     <string name="keywords_display_size" msgid="5286419615221231518">"taille de l\'écran, grand écran"</string>
     <string name="keywords_bold_text" msgid="6257418169207099589">"Contraste élevé, vision faible, police grasse, caractères gras"</string>
     <string name="keywords_color_correction" msgid="8540442886990423681">"ajuster la couleur"</string>
     <string name="keywords_color_inversion" msgid="4291058365873221962">"assombrir l\'écran, éclaircir l\'écran"</string>
-    <string name="keywords_switch_access" msgid="5813094504384313402"/>
     <string name="keywords_auto_click" msgid="7151756353013736931">"motricité, souris"</string>
     <string name="keywords_hearing_aids" msgid="524979615168196199">"malentendant, perte auditive"</string>
     <string name="keywords_rtt" msgid="2429130928152514402">"malentendant, perte auditive, sous-titres, téléimprimeur, ATS"</string>
@@ -5391,7 +5379,6 @@
     <string name="lockscreen_privacy_controls_summary" msgid="6952176547084269909">"Accéder aux commandes lorsque l\'écran est verrouillé"</string>
     <string name="lockscreen_double_line_clock_summary" msgid="2916159550425093703">"Afficher l\'horloge à double ligne lorsqu\'elle est accessible"</string>
     <string name="lockscreen_double_line_clock_setting_toggle" msgid="3408639316001688529">"Horloge à double ligne"</string>
-    <string name="rtt_settings_no_visible" msgid="7440356831140948382"/>
     <string name="rtt_settings_always_visible" msgid="2364173070088756238"/>
     <string name="media_output_panel_stop_casting_button" msgid="6094875883164119035">"Arrêter la diffusion"</string>
     <string name="volte_5G_limited_title" msgid="5908052268836750629">"Désactiver la connexion VoLTE?"</string>

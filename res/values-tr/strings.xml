@@ -324,13 +324,11 @@
     <string name="security_settings_face_enroll_education_title" msgid="6448806884597691208">"Yüz Tanıma Kilidi\'ni ayarlama"</string>
     <string name="security_settings_face_enroll_education_title_accessibility" msgid="3701874093226957891">"Yüz Tanıma Kilidi\'ni kurma"</string>
     <string name="security_settings_face_enroll_education_title_unlock_disabled" msgid="8810954233979716906">"Kimlik doğrulama için yüzünüzü kullanın"</string>
-    <string name="security_settings_face_enroll_education_message_accessibility" msgid="1986648712195281391"/>
     <string name="security_settings_face_enroll_education_start" msgid="8830924400907195590">"Başla"</string>
     <string name="security_settings_face_enroll_education_accessibility_dialog_message" msgid="2965952386172202665">"Erişilebilirlik Yüz Tanıma Kilidi kapalıysa kurulum adımlarından bazıları TalkBack ile düzgün çalışmayabilir."</string>
     <string name="security_settings_face_enroll_education_accessibility_dialog_negative" msgid="7872647360361245461">"Geri dön"</string>
     <string name="security_settings_face_enroll_education_accessibility_dialog_positive" msgid="3148077647572203458">"Kuruluma devam et"</string>
     <string name="security_settings_face_enroll_introduction_accessibility" msgid="5748221179069430975">"Erişilebilirlik kurulumunu kullan"</string>
-    <string name="security_settings_face_enroll_introduction_accessibility_diversity" msgid="2774962371839179206"/>
     <string name="security_settings_face_enroll_introduction_cancel" msgid="7551159644361639436">"İptal"</string>
     <string name="security_settings_face_enroll_introduction_no_thanks" msgid="1820618982738898717">"Hayır, teşekkürler"</string>
     <string name="security_settings_face_enroll_introduction_agree" msgid="6319476573697497750">"Kabul ediyorum"</string>
@@ -342,13 +340,9 @@
     <string name="security_settings_face_enroll_introduction_consent_message" msgid="866117500419055444">"Çocuğunuzun telefonunun kilidini açmak veya kimliğini doğrulamak için yüzünü kullanmasına izin verin. Bu özellik, çocuğunuz uygulamalarda oturum açarken, satın alma işlemlerini onaylarken ve başka işlemler gerçekleştirirken kullanılır."</string>
     <string name="security_settings_face_enroll_introduction_message_unlock_disabled" msgid="5841976283789481311">"Telefonunuzun kilidini açmak veya bir satın alma işlemini onaylamak için yüzünüzü kullanın.\n\nNot: Bu cihazın kilidini açmak için yüzünüzü kullanamazsınız. Daha fazla bilgi için kuruluşunuzun yöneticisine başvurun."</string>
     <string name="security_settings_face_enroll_introduction_message_setup" msgid="765965418187421753">"Telefonunuzun kilidini açmak, satın alma işlemlerini yetkilendirmek veya uygulamalarda oturum açmak için yüzünüzü kullanın"</string>
-    <string name="security_settings_face_enroll_introduction_info_glasses" msgid="2733870453868907471"/>
     <string name="security_settings_face_enroll_introduction_info_looking" msgid="6502109133251718131"/>
-    <string name="security_settings_face_enroll_introduction_info_less_secure" msgid="6496505354480525745"/>
     <string name="security_settings_face_enroll_introduction_info_consent_gaze" msgid="6301647369911879888"/>
-    <string name="security_settings_face_enroll_introduction_how_message" msgid="4192656589626667797"/>
     <string name="security_settings_face_enroll_introduction_control_title" msgid="4536951089583821051"/>
-    <string name="security_settings_face_enroll_introduction_control_message" msgid="4818463420573540379"/>
     <string name="security_settings_face_enroll_repeat_title" msgid="4446229670377418717">"Yüzünüzü çemberin ortasına getirin"</string>
     <string name="security_settings_face_enroll_enrolling_skip" msgid="5568617401632528567">"Atla"</string>
     <string name="face_add_max" msgid="4578405795494514876">"<xliff:g id="COUNT">%d</xliff:g> adede kadar yüz ekleyebilirsiniz"</string>
@@ -590,7 +584,6 @@
     <string name="suggested_lock_settings_summary" product="device" msgid="8479766049078378225">"Cihazı korumak için ekran kilidini ayarlayın"</string>
     <string name="suggested_lock_settings_summary" product="default" msgid="2443273582716671033">"Telefonu korumak için ekran kilidini ayarlayın"</string>
     <string name="suggested_fingerprint_lock_settings_title" msgid="3140266181874137984">"Kilit açmak için parmak izi ekleyin"</string>
-    <string name="suggested_fingerprint_lock_settings_summary" product="device" msgid="1040265358906410746"/>
     <string name="lock_settings_picker_title" msgid="9219376327364915334">"Ekran kilidi seçin"</string>
     <string name="lock_settings_picker_new_lock_title" msgid="3113042086804290919">"Ekran kilidi seçin"</string>
     <string name="lock_settings_picker_update_lock_title" msgid="536853138943415927">"Yeni ekran kilidi seçin"</string>
@@ -1529,7 +1522,6 @@
     <string name="sd_insert_summary" product="default" msgid="5949168259622002192">"Eklemek için bir SD kart yerleştirin"</string>
     <string name="sd_mount" product="nosdcard" msgid="8305985249945415150">"USB belleği ekleyin"</string>
     <string name="sd_mount" product="default" msgid="5279813999455776169">"SD kartı ekle"</string>
-    <string name="sd_mount_summary" product="default" msgid="2190410240845521205"/>
     <string name="sd_format" product="nosdcard" msgid="8657427883364711513">"USB belleği sil"</string>
     <string name="sd_format" product="default" msgid="9085302892248732329">"SD kartı sil"</string>
     <string name="sd_format_summary" product="nosdcard" msgid="6179784504937189658">"Dahili USB bellekteki müzik ve fotoğraf gibi tüm verileri siler"</string>
@@ -1539,7 +1531,6 @@
     <string name="dlg_confirm_unmount_title" product="default" msgid="8251329019960361646">"SD kartının bağlantısı kesilsin mi?"</string>
     <string name="dlg_confirm_unmount_text" product="nosdcard" msgid="1212025106709645023">"USB belleğin bağlantısını keserseniz, kullanmakta olduğunuz bazı uygulamalar durur ve USB bellek yeniden bağlanıncaya kadar kullanılamayabilir."</string>
     <string name="dlg_confirm_unmount_text" product="default" msgid="3887768438615563697">"SD kartı çıkarırsanız, kullanmakta olduğunuz bazı uygulamalar durur ve SD kart yeniden takılıncaya kadar kullanılamayabilir."</string>
-    <string name="dlg_error_unmount_title" product="default" msgid="2205587942165199845"/>
     <string name="dlg_error_unmount_text" product="nosdcard" msgid="7876201891724279436">"USB belleğin bağlantısı kesilemedi. Daha sonra tekrar deneyin."</string>
     <string name="dlg_error_unmount_text" product="default" msgid="2185659901137961711">"SD kartın bağlantısı kesilemiyor. Daha sonra tekrar deneyin."</string>
     <string name="unmount_inform_text" product="nosdcard" msgid="5932607205977999175">"USB belleğin bağlantısı kesilecek."</string>
@@ -2140,7 +2131,6 @@
     <string name="runningservicedetails_stop_dlg_text" product="tablet" msgid="2076922609580490122">"Bu hizmeti durdurursanız, tabletinizin bazı özellikleri, tablet kapatılıp yeniden açılmadan düzgün çalışmayabilir."</string>
     <string name="runningservicedetails_stop_dlg_text" product="default" msgid="2625863973434309085">"Bu hizmeti durdurursanız, telefonunuzun bazı özellikleri, telefon kapatılıp yeniden açılmadan düzgün çalışmayabilir."</string>
     <string name="language_input_gesture_title" msgid="3292455685728572960">"Diller, giriş ve hareketler"</string>
-    <string name="language_input_gesture_summary_on_non_assist" msgid="2738661322747920463"/>
     <string name="language_settings" msgid="8700174277543875046">"Diller ve giriş"</string>
     <string name="language_empty_list_user_restricted" msgid="8050367405839231863">"Cihazın dilini değiştirmek için izniniz yok."</string>
     <string name="language_keyboard_settings_title" msgid="7934844313233544557">"Diller ve giriş"</string>
@@ -2531,12 +2521,10 @@
     <string name="keywords_accessibility" msgid="4263443239404659143">"Kullanım kolaylığı, erişim kolaylığı, destek, yardımcı"</string>
     <string name="keywords_magnification" msgid="3908145308269840862">"Pencere büyütücü, Yakınlaştırma, Büyütme, Az görme, Genişlet, büyüt"</string>
     <string name="keywords_live_caption" msgid="1667203998080567556">"Altyazı, altyazılar, alt yazılar, Canlı Altyazı, duyma zorluğu, duyma kaybı, gerçek zamanlı altyazı, sesle yazma, alt yazı"</string>
-    <string name="keywords_sound_notifications" msgid="8183107485754075413"/>
     <string name="keywords_display_size" msgid="5286419615221231518">"ekran boyutu, geniş ekran"</string>
     <string name="keywords_bold_text" msgid="6257418169207099589">"Yüksek kontrast, az görme, kalın yazı tipi, kalın harfler"</string>
     <string name="keywords_color_correction" msgid="8540442886990423681">"renk ayarlama"</string>
     <string name="keywords_color_inversion" msgid="4291058365873221962">"ekran karartma, ekran rengini açma"</string>
-    <string name="keywords_switch_access" msgid="5813094504384313402"/>
     <string name="keywords_auto_click" msgid="7151756353013736931">"motor, fare"</string>
     <string name="keywords_hearing_aids" msgid="524979615168196199">"duyma zorluğu, duyma kaybı"</string>
     <string name="keywords_rtt" msgid="2429130928152514402">"duyma zorluğu, duyma kaybı, altyazı, işitme engelli iletişim cihazı, işitme engelli iletişim"</string>
@@ -5391,7 +5379,6 @@
     <string name="lockscreen_privacy_controls_summary" msgid="6952176547084269909">"Ekran kilitliyken kontrollere erişin"</string>
     <string name="lockscreen_double_line_clock_summary" msgid="2916159550425093703">"Kullanılabilir olduğunda çift çizgili saati göster"</string>
     <string name="lockscreen_double_line_clock_setting_toggle" msgid="3408639316001688529">"Çift çizgili saat"</string>
-    <string name="rtt_settings_no_visible" msgid="7440356831140948382"/>
     <string name="rtt_settings_always_visible" msgid="2364173070088756238"/>
     <string name="media_output_panel_stop_casting_button" msgid="6094875883164119035">"Yayını durdur"</string>
     <string name="volte_5G_limited_title" msgid="5908052268836750629">"VoLTE kapatılsın mı?"</string>

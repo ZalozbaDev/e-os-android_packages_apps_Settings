@@ -327,13 +327,11 @@
     <string name="security_settings_face_enroll_education_title" msgid="6448806884597691208">"Kako postaviti otključavanje licem"</string>
     <string name="security_settings_face_enroll_education_title_accessibility" msgid="3701874093226957891">"Postavljanje otključavanja licem"</string>
     <string name="security_settings_face_enroll_education_title_unlock_disabled" msgid="8810954233979716906">"Autentificirajte se licem"</string>
-    <string name="security_settings_face_enroll_education_message_accessibility" msgid="1986648712195281391"/>
     <string name="security_settings_face_enroll_education_start" msgid="8830924400907195590">"Započni"</string>
     <string name="security_settings_face_enroll_education_accessibility_dialog_message" msgid="2965952386172202665">"Ako je otključavanje licem za pristupačnost isključeno, neki koraci za postavljanje možda neće pravilno funkcionirati s TalkBackom."</string>
     <string name="security_settings_face_enroll_education_accessibility_dialog_negative" msgid="7872647360361245461">"Natrag"</string>
     <string name="security_settings_face_enroll_education_accessibility_dialog_positive" msgid="3148077647572203458">"Nastavi postavljanje"</string>
     <string name="security_settings_face_enroll_introduction_accessibility" msgid="5748221179069430975">"Koristi postav. za pristupačnost"</string>
-    <string name="security_settings_face_enroll_introduction_accessibility_diversity" msgid="2774962371839179206"/>
     <string name="security_settings_face_enroll_introduction_cancel" msgid="7551159644361639436">"Odustani"</string>
     <string name="security_settings_face_enroll_introduction_no_thanks" msgid="1820618982738898717">"Ne, hvala"</string>
     <string name="security_settings_face_enroll_introduction_agree" msgid="6319476573697497750">"Prihvaćam"</string>
@@ -345,13 +343,9 @@
     <string name="security_settings_face_enroll_introduction_consent_message" msgid="866117500419055444">"Dopustite djetetu da licem otključava telefon ili potvrđuje svoj identitet. To može biti potrebno prilikom prijave u aplikacije, odobravanja kupnje i u drugim situacijama."</string>
     <string name="security_settings_face_enroll_introduction_message_unlock_disabled" msgid="5841976283789481311">"Otključajte telefon ili odobrite kupnje svojim licem.\n\nNapomena: ovaj uređaj ne možete otključati licem. Za više informacija obratite se administratoru organizacije."</string>
     <string name="security_settings_face_enroll_introduction_message_setup" msgid="765965418187421753">"Licem možete otključati telefon, autorizirati kupnje ili se prijaviti u aplikacije"</string>
-    <string name="security_settings_face_enroll_introduction_info_glasses" msgid="2733870453868907471"/>
     <string name="security_settings_face_enroll_introduction_info_looking" msgid="6502109133251718131"/>
-    <string name="security_settings_face_enroll_introduction_info_less_secure" msgid="6496505354480525745"/>
     <string name="security_settings_face_enroll_introduction_info_consent_gaze" msgid="6301647369911879888"/>
-    <string name="security_settings_face_enroll_introduction_how_message" msgid="4192656589626667797"/>
     <string name="security_settings_face_enroll_introduction_control_title" msgid="4536951089583821051"/>
-    <string name="security_settings_face_enroll_introduction_control_message" msgid="4818463420573540379"/>
     <string name="security_settings_face_enroll_repeat_title" msgid="4446229670377418717">"Postavite lice u središte kruga"</string>
     <string name="security_settings_face_enroll_enrolling_skip" msgid="5568617401632528567">"Preskoči"</string>
     <string name="face_add_max" msgid="4578405795494514876">"Ne možete dodati više od <xliff:g id="COUNT">%d</xliff:g> lica"</string>
@@ -596,7 +590,6 @@
     <string name="suggested_lock_settings_summary" product="device" msgid="8479766049078378225">"Postavite zaključavanje zaslona radi zaštite uređaja"</string>
     <string name="suggested_lock_settings_summary" product="default" msgid="2443273582716671033">"Postavite zaključavanje zaslona radi zaštite telefona"</string>
     <string name="suggested_fingerprint_lock_settings_title" msgid="3140266181874137984">"Dodajte otisak prsta za otključavanje"</string>
-    <string name="suggested_fingerprint_lock_settings_summary" product="device" msgid="1040265358906410746"/>
     <string name="lock_settings_picker_title" msgid="9219376327364915334">"Zaključavanje zaslona"</string>
     <string name="lock_settings_picker_new_lock_title" msgid="3113042086804290919">"Odaberite zaključ. zaslona"</string>
     <string name="lock_settings_picker_update_lock_title" msgid="536853138943415927">"Odabir novog zaključavanja zaslona"</string>
@@ -1552,7 +1545,6 @@
     <string name="sd_insert_summary" product="default" msgid="5949168259622002192">"Umetnite SD karticu za uključivanje"</string>
     <string name="sd_mount" product="nosdcard" msgid="8305985249945415150">"Uključi memoriju USB"</string>
     <string name="sd_mount" product="default" msgid="5279813999455776169">"Uključivanje SD kartice"</string>
-    <string name="sd_mount_summary" product="default" msgid="2190410240845521205"/>
     <string name="sd_format" product="nosdcard" msgid="8657427883364711513">"Izbriši USB memoriju"</string>
     <string name="sd_format" product="default" msgid="9085302892248732329">"Izbriši SD karticu"</string>
     <string name="sd_format_summary" product="nosdcard" msgid="6179784504937189658">"Briše sve podatke na unutarnjoj memoriji USB, poput glazbe ili fotografija"</string>
@@ -1562,7 +1554,6 @@
     <string name="dlg_confirm_unmount_title" product="default" msgid="8251329019960361646">"Isključiti SD karticu?"</string>
     <string name="dlg_confirm_unmount_text" product="nosdcard" msgid="1212025106709645023">"Ako isključite USB pohranu, neke aplikacije koje upotrebljavate zaustavit će se i mogu biti nedostupne dok ponovo ne uključite USB pohranu."</string>
     <string name="dlg_confirm_unmount_text" product="default" msgid="3887768438615563697">"Ako isključite SD karticu, dio aplikacija koje upotrebljavate zaustavit će se i možda će biti nedostupne sve dok ponovo ne uključite SD karticu."</string>
-    <string name="dlg_error_unmount_title" product="default" msgid="2205587942165199845"/>
     <string name="dlg_error_unmount_text" product="nosdcard" msgid="7876201891724279436">"USB pohrana ne može se isključiti. Pokušajte ponovo kasnije."</string>
     <string name="dlg_error_unmount_text" product="default" msgid="2185659901137961711">"Nije moguće isključiti SD karticu. Pokušajte ponovo."</string>
     <string name="unmount_inform_text" product="nosdcard" msgid="5932607205977999175">"Memorija USB bit će isključena."</string>
@@ -2166,7 +2157,6 @@
     <string name="runningservicedetails_stop_dlg_text" product="tablet" msgid="2076922609580490122">"Ako zaustavite ovu uslugu, neke značajke vašeg tabletnog računala mogu prestati raditi ispravno dok ga ne isključite i ponovo ne uključite."</string>
     <string name="runningservicedetails_stop_dlg_text" product="default" msgid="2625863973434309085">"Ako zaustavite ovu uslugu, neke značajke vašeg telefona mogu prestati raditi ispravno dok ga ne isključite i ponovo ne uključite."</string>
     <string name="language_input_gesture_title" msgid="3292455685728572960">"Jezici, unos i pokreti"</string>
-    <string name="language_input_gesture_summary_on_non_assist" msgid="2738661322747920463"/>
     <string name="language_settings" msgid="8700174277543875046">"Jezici i unos"</string>
     <string name="language_empty_list_user_restricted" msgid="8050367405839231863">"Nemate dopuštenje za promjenu jezika na uređaju."</string>
     <string name="language_keyboard_settings_title" msgid="7934844313233544557">"Jezici i unos"</string>
@@ -2562,12 +2552,10 @@
     <string name="keywords_accessibility" msgid="4263443239404659143">"Lakoća upotrebe, lakoća pristupa, pomoć, asistivno"</string>
     <string name="keywords_magnification" msgid="3908145308269840862">"Alat za povećanje prozora, zumiranje, povećavanje, slabovidnost, povećati, uvećati"</string>
     <string name="keywords_live_caption" msgid="1667203998080567556">"Titlovi, Automatska transkripcija, nagluhost, gubitak sluha, računalni prijepis u stvarnom vremenu, pretvaranje govora u tekst"</string>
-    <string name="keywords_sound_notifications" msgid="8183107485754075413"/>
     <string name="keywords_display_size" msgid="5286419615221231518">"veličina zaslona, veliki zaslon"</string>
     <string name="keywords_bold_text" msgid="6257418169207099589">"Visoki kontrast, slabovidnost, podebljani font, podebljano"</string>
     <string name="keywords_color_correction" msgid="8540442886990423681">"prilagodba boje"</string>
     <string name="keywords_color_inversion" msgid="4291058365873221962">"zatamniti zaslon, posvijetliti zaslon"</string>
-    <string name="keywords_switch_access" msgid="5813094504384313402"/>
     <string name="keywords_auto_click" msgid="7151756353013736931">"motorika, miš"</string>
     <string name="keywords_hearing_aids" msgid="524979615168196199">"nagluhost, gubitak sluha"</string>
     <string name="keywords_rtt" msgid="2429130928152514402">"nagluhost, gubitak sluha, titlovi, teleprinter, TTY"</string>
@@ -5482,7 +5470,6 @@
     <string name="lockscreen_privacy_controls_summary" msgid="6952176547084269909">"Pristupite kontrolama kada je zaslon zaključan"</string>
     <string name="lockscreen_double_line_clock_summary" msgid="2916159550425093703">"Prikaži sat s dva retka kad je dostupan"</string>
     <string name="lockscreen_double_line_clock_setting_toggle" msgid="3408639316001688529">"Sat s dva retka"</string>
-    <string name="rtt_settings_no_visible" msgid="7440356831140948382"/>
     <string name="rtt_settings_always_visible" msgid="2364173070088756238"/>
     <string name="media_output_panel_stop_casting_button" msgid="6094875883164119035">"Zaustavi emitiranje"</string>
     <string name="volte_5G_limited_title" msgid="5908052268836750629">"Isključiti VoLTE?"</string>

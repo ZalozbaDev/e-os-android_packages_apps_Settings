@@ -324,13 +324,11 @@
     <string name="security_settings_face_enroll_education_title" msgid="6448806884597691208">"फ़ेस अनलॉक की सुविधा सेट अप करने का तरीका"</string>
     <string name="security_settings_face_enroll_education_title_accessibility" msgid="3701874093226957891">"फे़स अनलॉक की सुविधा सेट अप करें"</string>
     <string name="security_settings_face_enroll_education_title_unlock_disabled" msgid="8810954233979716906">"चेहरे का इस्तेमाल कर पुष्टि करें"</string>
-    <string name="security_settings_face_enroll_education_message_accessibility" msgid="1986648712195281391"/>
     <string name="security_settings_face_enroll_education_start" msgid="8830924400907195590">"शुरू करें"</string>
     <string name="security_settings_face_enroll_education_accessibility_dialog_message" msgid="2965952386172202665">"अगर सुलभता सुविधा में फ़ेस अनलॉक की सुविधा बंद है, तो हो सकता है कि सेटअप के कुछ चरण, टॉकबैक के साथ ठीक से काम न करें."</string>
     <string name="security_settings_face_enroll_education_accessibility_dialog_negative" msgid="7872647360361245461">"वापस जाएं"</string>
     <string name="security_settings_face_enroll_education_accessibility_dialog_positive" msgid="3148077647572203458">"सेट अप जारी रखें"</string>
     <string name="security_settings_face_enroll_introduction_accessibility" msgid="5748221179069430975">"सुलभता सेटअप का इस्तेमाल करें"</string>
-    <string name="security_settings_face_enroll_introduction_accessibility_diversity" msgid="2774962371839179206"/>
     <string name="security_settings_face_enroll_introduction_cancel" msgid="7551159644361639436">"रद्द करें"</string>
     <string name="security_settings_face_enroll_introduction_no_thanks" msgid="1820618982738898717">"अभी नहीं"</string>
     <string name="security_settings_face_enroll_introduction_agree" msgid="6319476573697497750">"मैं सहमत हूं"</string>
@@ -342,13 +340,9 @@
     <string name="security_settings_face_enroll_introduction_consent_message" msgid="866117500419055444">"अपने बच्चे को उसके चेहरे की मदद से फ़ोन अनलॉक करने या पहचान की पुष्टि करने की सुविधा इस्तेमाल करने की अनुमति दें. किसी ऐप्लिकेशन में साइन इन करने, किसी खरीदारी की मंज़ूरी देने, और ऐसे अन्य काम करने के दौरान यह करना पड़ता है."</string>
     <string name="security_settings_face_enroll_introduction_message_unlock_disabled" msgid="5841976283789481311">"फ़ोन का लॉक खोलने या खरीदारियों को मंज़ूरी देने के लिए चेहरे की पहचान इस्तेमाल करें.\n\nध्यान दें: इस डिवाइस का लॉक खोलने के लिए आप अपने चेहरे का इस्तेमाल नहीं कर सकते. ज़्यादा जानकारी के लिए, अपने संगठन के एडमिन से संपर्क करें."</string>
     <string name="security_settings_face_enroll_introduction_message_setup" msgid="765965418187421753">"अपने फ़ोन को अनलॉक करने, खरीदारी की मंज़ूरी देने या ऐप्लिकेशन में साइन इन करने के लिए अपने चेहरे का इस्तेमाल करें"</string>
-    <string name="security_settings_face_enroll_introduction_info_glasses" msgid="2733870453868907471"/>
     <string name="security_settings_face_enroll_introduction_info_looking" msgid="6502109133251718131"/>
-    <string name="security_settings_face_enroll_introduction_info_less_secure" msgid="6496505354480525745"/>
     <string name="security_settings_face_enroll_introduction_info_consent_gaze" msgid="6301647369911879888"/>
-    <string name="security_settings_face_enroll_introduction_how_message" msgid="4192656589626667797"/>
     <string name="security_settings_face_enroll_introduction_control_title" msgid="4536951089583821051"/>
-    <string name="security_settings_face_enroll_introduction_control_message" msgid="4818463420573540379"/>
     <string name="security_settings_face_enroll_repeat_title" msgid="4446229670377418717">"चेहरे को गोल घेरे के बीचों-बीच लाएं"</string>
     <string name="security_settings_face_enroll_enrolling_skip" msgid="5568617401632528567">"अभी नहीं"</string>
     <string name="face_add_max" msgid="4578405795494514876">"आप ज़्यादा से ज़्यादा <xliff:g id="COUNT">%d</xliff:g> चेहरे जोड़ सकते हैं"</string>
@@ -590,7 +584,6 @@
     <string name="suggested_lock_settings_summary" product="device" msgid="8479766049078378225">"डिवाइस को सुरक्षित रखने के लिए स्क्रीन लॉक सेट करें"</string>
     <string name="suggested_lock_settings_summary" product="default" msgid="2443273582716671033">"फ़ोन को सुरक्षित रखने के लिए स्क्रीन लॉक सेट करें"</string>
     <string name="suggested_fingerprint_lock_settings_title" msgid="3140266181874137984">"डिवाइस अनलॉक करने लिए फ़िंगरप्रिंट जोड़ें"</string>
-    <string name="suggested_fingerprint_lock_settings_summary" product="device" msgid="1040265358906410746"/>
     <string name="lock_settings_picker_title" msgid="9219376327364915334">"स्‍क्रीन लॉक चुनें"</string>
     <string name="lock_settings_picker_new_lock_title" msgid="3113042086804290919">"स्क्रीन लॉक चुनें"</string>
     <string name="lock_settings_picker_update_lock_title" msgid="536853138943415927">"नया स्क्रीन लाॅक चुनें"</string>
@@ -1529,7 +1522,6 @@
     <string name="sd_insert_summary" product="default" msgid="5949168259622002192">"माउंट करने के लिए कोई SD कार्ड लगाएं"</string>
     <string name="sd_mount" product="nosdcard" msgid="8305985249945415150">"USB मेमोरी माउंट करें"</string>
     <string name="sd_mount" product="default" msgid="5279813999455776169">"SD कार्ड माउंट करें"</string>
-    <string name="sd_mount_summary" product="default" msgid="2190410240845521205"/>
     <string name="sd_format" product="nosdcard" msgid="8657427883364711513">"USB मेमोरी मिटाएं"</string>
     <string name="sd_format" product="default" msgid="9085302892248732329">"SD कार्ड मिटाएं"</string>
     <string name="sd_format_summary" product="nosdcard" msgid="6179784504937189658">"आंतरिक USB मेमोरी का सभी डेटा मिटाता है, जैसे संगीत और फ़ोटो"</string>
@@ -1539,7 +1531,6 @@
     <string name="dlg_confirm_unmount_title" product="default" msgid="8251329019960361646">"SD कार्ड को अनमाउंट करें?"</string>
     <string name="dlg_confirm_unmount_text" product="nosdcard" msgid="1212025106709645023">"अगर आप USB मेमोरी को अनमाउंट करते हैं, तो   उपयोग किए जा रहे कुछ ऐप्लिकेशन बंद हो जाएंगे और जब तक आप USB मेमोरी को फिर से माउंट नहीं करते, तब तक अनुपलब्‍ध रह सकते हैं."</string>
     <string name="dlg_confirm_unmount_text" product="default" msgid="3887768438615563697">"अगर आप SD कार्ड अनमाउंट करते हैं, तो   उपयोग किए जा रहे कुछ ऐप्लिकेशन बंद हो जाएंगे और जब तक आप SD कार्ड को फिर से माउंट नहीं करते, तब तक अनुपलब्‍ध रह सकते हैं."</string>
-    <string name="dlg_error_unmount_title" product="default" msgid="2205587942165199845"/>
     <string name="dlg_error_unmount_text" product="nosdcard" msgid="7876201891724279436">"USB मेमोरी को अनमाउंट नहीं किया जा सका. बाद में फिर से प्रयास करें."</string>
     <string name="dlg_error_unmount_text" product="default" msgid="2185659901137961711">"SD कार्ड को अनमाउंट नहीं किया जा सका. बाद में फिर से प्रयास करें."</string>
     <string name="unmount_inform_text" product="nosdcard" msgid="5932607205977999175">"USB मेमोरी अनमाउंट किया जाएगा."</string>
@@ -2140,7 +2131,6 @@
     <string name="runningservicedetails_stop_dlg_text" product="tablet" msgid="2076922609580490122">"अगर आप यह सेवा रोकते हैं, तो हो सकता है कि आपके टैबलेट की कुछ सुविधाएं ठीक से काम करना बंद कर दें जब तक कि आप उसे बंद करके फिर से चालू  न कर लें."</string>
     <string name="runningservicedetails_stop_dlg_text" product="default" msgid="2625863973434309085">"अगर आप यह सेवा रोकते हैं, तो हो सकता है कि आपके फ़ोन की कुछ सुविधाएं ठीक से काम करना बंद कर दें जब तक कि आप उसे बंद करके फिर से चालू  न कर लें."</string>
     <string name="language_input_gesture_title" msgid="3292455685728572960">"भाषाएं, इनपुट और जेस्चर"</string>
-    <string name="language_input_gesture_summary_on_non_assist" msgid="2738661322747920463"/>
     <string name="language_settings" msgid="8700174277543875046">"भाषाएं और इनपुट"</string>
     <string name="language_empty_list_user_restricted" msgid="8050367405839231863">"आप डिवाइस की भाषा नहीं बदल सकते."</string>
     <string name="language_keyboard_settings_title" msgid="7934844313233544557">"भाषाएं और इनपुट"</string>
@@ -2531,12 +2521,10 @@
     <string name="keywords_accessibility" msgid="4263443239404659143">"इस्तेमाल में आसानी, ऐक्सेस करने में आसानी, असिस्टेंस, असिस्टिव"</string>
     <string name="keywords_magnification" msgid="3908145308269840862">"विंडो को ज़ूम करके देखने की सुविधा, ज़ूम करना, ज़ूम करने की सुविधा, कम दृष्टि, बड़ा करना, साइज़ बढ़ाना"</string>
     <string name="keywords_live_caption" msgid="1667203998080567556">"कैप्शन, सबटाइटल, सीसी, Live Transcribe, कम सुनने वाला, सुनने में समस्या, रीयल-टाइम कैप्शनिंग (CART), बोली को लिखाई में बदलना, सबटाइटल"</string>
-    <string name="keywords_sound_notifications" msgid="8183107485754075413"/>
     <string name="keywords_display_size" msgid="5286419615221231518">"स्क्रीन का साइज़, बड़ी स्क्रीन"</string>
     <string name="keywords_bold_text" msgid="6257418169207099589">"ज़्यादा कंट्रास्ट, कम दृष्टि, बोल्ड फ़ॉन्ट, बोल्ड फ़ेस"</string>
     <string name="keywords_color_correction" msgid="8540442886990423681">"रंग में बदलाव करना"</string>
     <string name="keywords_color_inversion" msgid="4291058365873221962">"स्क्रीन को गहरे रंग का करना, स्क्रीन को हल्के रंग का करना"</string>
-    <string name="keywords_switch_access" msgid="5813094504384313402"/>
     <string name="keywords_auto_click" msgid="7151756353013736931">"मोटर, माउस"</string>
     <string name="keywords_hearing_aids" msgid="524979615168196199">"कम सुनने वाला, सुनने में समस्या"</string>
     <string name="keywords_rtt" msgid="2429130928152514402">"कम सुनने वाला, सुनने में समस्या, कैप्शन, टेलीटाइप, टीटीवाई"</string>
@@ -5391,7 +5379,6 @@
     <string name="lockscreen_privacy_controls_summary" msgid="6952176547084269909">"स्क्रीन लॉक होने पर कंट्रोल को ऐक्सेस करें"</string>
     <string name="lockscreen_double_line_clock_summary" msgid="2916159550425093703">"उपलब्ध होने पर, दो लाइन में समय दिखाएं"</string>
     <string name="lockscreen_double_line_clock_setting_toggle" msgid="3408639316001688529">"दो लाइन में समय दिखाएं"</string>
-    <string name="rtt_settings_no_visible" msgid="7440356831140948382"/>
     <string name="rtt_settings_always_visible" msgid="2364173070088756238"/>
     <string name="media_output_panel_stop_casting_button" msgid="6094875883164119035">"कास्ट करना रोकें"</string>
     <string name="volte_5G_limited_title" msgid="5908052268836750629">"VoLTE बंद करें?"</string>
