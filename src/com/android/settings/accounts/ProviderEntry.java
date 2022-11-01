@@ -34,6 +34,21 @@ public class ProviderEntry implements Comparable<ProviderEntry> {
         if (another.name == null) {
             return +1;
         }
+
+        // both are murena accounts, compare them normally
+        if (MurenaAccountHelper.isMurenaAccount(type) && MurenaAccountHelper.isMurenaAccount(another.type)) {
+            return CharSequences.compareToIgnoreCase(name, another.name);
+        }
+
+        // if any one is Murena account, put it on top
+        if (MurenaAccountHelper.isMurenaAccount(type)) {
+            return -1;
+        }
+
+        if (MurenaAccountHelper.isMurenaAccount(another.type)) {
+            return 1;
+        }
+
         return CharSequences.compareToIgnoreCase(name, another.name);
     }
 
