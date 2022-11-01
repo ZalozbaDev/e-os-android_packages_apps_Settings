@@ -991,7 +991,7 @@
     <string name="wifi_use_system_certs" msgid="5587866698144996931">"Systemzertifikate verwenden"</string>
     <string name="wifi_do_not_provide_eap_user_cert" msgid="6336636553673065145">"Nicht bereitstellen"</string>
     <string name="wifi_do_not_validate_eap_server" msgid="4673867078988209732">"Nicht validieren"</string>
-    <string name="wifi_do_not_validate_eap_server_warning" msgid="5741728006175181647">Kein Zertifikat angegeben. Die Verbindung wird nicht geheim sein.</string>
+    <string name="wifi_do_not_validate_eap_server_warning" msgid="5741728006175181647">Kein Zertifikat angegeben. Deine Verbindung wird nicht vertraulich sein.</string>
     <string name="wifi_ssid_too_long" msgid="5961719058705013875">"Der Netzwerkname ist zu lang."</string>
     <string name="wifi_no_domain_warning" msgid="1452133316532366772">"Angabe einer Domain erforderlich."</string>
     <string name="wifi_wps_available_first_item" msgid="5780501151792036589">"WPS verfügbar"</string>
@@ -4744,8 +4744,8 @@
     <string name="battery_saver_seekbar_title"><xliff:g id="percent">%1$s</xliff:g></string>
     <string name="service_process_name"><xliff:g id="process">%1$s</xliff:g></string>
     <string name="service_client_name"><xliff:g id="client_name">%1$s</xliff:g></string>
-    <string name="wifi_calling_roaming_mode_summary"><xliff:g id="wfc_roaming_preference" example="WLAN">%1$s</xliff:g></string>
-    <string name="bluetooth_confirm_passkey_msg">Verknüpfen mit:&lt;br&gt;&lt;b&gt;<xliff:g id="device_name">%1$s</xliff:g>&lt;/b&gt;&lt;br&gt;&lt;br&gt;Vergewissere dich, dass die Passphrase stimmt:&lt;br&gt;&lt;b&gt;<xliff:g id="passkey">%2$s</xliff:g>&lt;/b&gt;</string>
+    <string name="wifi_calling_roaming_mode_summary"><xliff:g id="wfc_roaming_preference" example="Wi-Fi">%1$s</xliff:g></string>
+    <string name="bluetooth_confirm_passkey_msg">Um mit &lt;br&gt;&lt;b&gt;<xliff:g id="device_name">%1$s</xliff:g>&lt;/b&gt;&lt;br&gt;&lt;br&gt; zu verbinden, überprüfe folgenden Passwortschlüssel: &lt;br&gt;&lt;b&gt;<xliff:g id="passkey">%2$s</xliff:g>&lt;/b&gt;</string>
     <string name="intent_sender_data_label"><xliff:g id="data">Daten:</xliff:g></string>
     <string name="status_imei">IMEI</string>
 </resources>
