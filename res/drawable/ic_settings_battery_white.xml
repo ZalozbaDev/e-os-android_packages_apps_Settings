@@ -15,39 +15,39 @@
   ~  along with this program.  If not, see <https://www.gnu.org/licenses/>.
   -->
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
-    android:width="38dp"
-    android:height="38dp"
-    android:viewportWidth="38"
-    android:viewportHeight="38">
+    android:width="36dp"
+    android:height="36dp"
+    android:viewportWidth="32"
+    android:viewportHeight="32">
   <group>
     <clip-path
-        android:pathData="M0,0h38v38h-38z"/>
+        android:pathData="M0,0h32v32h-32z"/>
     <path
-        android:pathData="M19,0L19,0A19,19 0,0 1,38 19L38,19A19,19 0,0 1,19 38L19,38A19,19 0,0 1,0 19L0,19A19,19 0,0 1,19 0z"
+        android:pathData="M7,0L25,0A7,7 0,0 1,32 7L32,25A7,7 0,0 1,25 32L7,32A7,7 0,0 1,0 25L0,7A7,7 0,0 1,7 0z"
         android:fillColor="#2CCF69"/>
     <path
-        android:pathData="M11.604,10.34C11.604,9.903 11.958,9.549 12.394,9.549H25.628C26.065,9.549 26.419,9.903 26.419,10.34V29.512C26.419,29.949 26.065,30.303 25.628,30.303H12.394C11.958,30.303 11.604,29.949 11.604,29.512V10.34ZM13.185,11.13V28.722H24.838V11.13H13.185Z"
+        android:pathData="M8.604,7.339C8.604,6.903 8.958,6.549 9.395,6.549H22.628C23.065,6.549 23.419,6.903 23.419,7.339V26.512C23.419,26.949 23.065,27.303 22.628,27.303H9.395C8.958,27.303 8.604,26.949 8.604,26.512V7.339ZM10.185,8.13V25.722H21.838V8.13H10.185Z"
         android:fillColor="#ffffff"
         android:fillType="evenOdd"/>
     <path
-        android:pathData="M21.405,8.51H16.618V10.34H21.405V8.51Z"
+        android:pathData="M18.405,5.51H13.618V7.339H18.405V5.51Z"
         android:fillColor="#ffffff"/>
     <path
-        android:pathData="M15.827,8.51C15.827,8.074 16.181,7.72 16.617,7.72H21.405C21.841,7.72 22.195,8.074 22.195,8.51V10.34C22.195,10.776 21.841,11.13 21.405,11.13H16.617C16.181,11.13 15.827,10.776 15.827,10.34V8.51ZM17.408,9.301V9.549H20.615V9.301H17.408Z"
+        android:pathData="M12.827,5.51C12.827,5.074 13.181,4.72 13.617,4.72H18.405C18.841,4.72 19.195,5.074 19.195,5.51V7.339C19.195,7.776 18.841,8.13 18.405,8.13H13.617C13.181,8.13 12.827,7.776 12.827,7.339V5.51ZM14.408,6.301V6.549H17.615V6.301H14.408Z"
         android:fillColor="#ffffff"
         android:fillType="evenOdd"/>
     <path
-        android:pathData="M22.737,25.944H15.262V26.419H22.737V25.944Z"
+        android:pathData="M19.737,22.944H12.262V23.419H19.737V22.944Z"
         android:fillColor="#ffffff"/>
     <path
-        android:pathData="M14.472,25.154H23.528V27.209H14.472V25.154Z"
+        android:pathData="M11.472,22.154H20.528V24.209H11.472V22.154Z"
         android:fillColor="#ffffff"
         android:fillType="evenOdd"/>
     <path
-        android:pathData="M22.737,22.376H15.262V22.85H22.737V22.376Z"
+        android:pathData="M19.737,19.376H12.262V19.85H19.737V19.376Z"
         android:fillColor="#ffffff"/>
     <path
-        android:pathData="M14.472,21.586H23.528V23.641H14.472V21.586Z"
+        android:pathData="M11.472,18.586H20.528V20.641H11.472V18.586Z"
         android:fillColor="#ffffff"
         android:fillType="evenOdd"/>
   </group>
