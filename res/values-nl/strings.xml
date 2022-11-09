@@ -980,7 +980,7 @@
     <string name="wifi_use_system_certs" msgid="5587866698144996931">"Systeemcertificaten gebruiken"</string>
     <string name="wifi_do_not_provide_eap_user_cert" msgid="6336636553673065145">"Niet leveren"</string>
     <string name="wifi_do_not_validate_eap_server" msgid="4673867078988209732">"Niet valideren"</string>
-    <string name="wifi_do_not_validate_eap_server_warning" msgid="5741728006175181647">Geen certificaat opgegeven. Je verbinding zal niet privé zijn.</string>
+    <string name="wifi_do_not_validate_eap_server_warning" msgid="5741728006175181647">Geen certificaat opgegeven. Je verbinding zal niet geëncrypteerd worden.</string>
     <string name="wifi_ssid_too_long" msgid="5961719058705013875">"Netwerknaam is te lang."</string>
     <string name="wifi_no_domain_warning" msgid="1452133316532366772">"Je moet een domein opgeven."</string>
     <string name="wifi_wps_available_first_item" msgid="5780501151792036589">"WPS beschikbaar"</string>
@@ -4648,4 +4648,13 @@
     <string name="bluetooth_connect_access_dialog_negative" msgid="4944672755226375059">"Geen verbinding maken"</string>
     <string name="bluetooth_connect_access_dialog_positive" msgid="3630561675207269710">"Verbinding maken"</string>
     <string name="intent_sender_data_label"><xliff:g id="data">Data:</xliff:g></string>
+    <string name="call_manager_summary"><xliff:g id="app">%1$s</xliff:g></string>
+    <string name="battery_saver_seekbar_title"><xliff:g id="percent">%1$s</xliff:g></string>
+    <string name="testing_sim_toolkit">SIM toolkit</string>
+    <string name="service_process_name"><xliff:g id="process">%1$s</xliff:g></string>
+    <string name="service_client_name"><xliff:g id="client_name">%1$s</xliff:g></string>
+    <string name="status_iccid">ICCID</string>
+    <string name="status_imei_sv">IMEI SV</string>
+    <string name="status_imei">IMEI</string>
+    <string name="wifi_calling_roaming_mode_summary"><xliff:g id="wfc_roaming_preference" example="Wi-Fi">%1$s</xliff:g></string>
 </resources>
