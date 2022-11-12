@@ -55,7 +55,7 @@
     <string name="radioInfo_service_out" msgid="1868347333892403287">"Niet in gebruik"</string>
     <string name="radioInfo_service_emergency" msgid="6838935881091760942">"Alleen noodoproepen"</string>
     <string name="radioInfo_service_off" msgid="6184928420860868571">"Radio uit"</string>
-    <string name="radioInfo_roaming_in" msgid="8892550453644088692">"Roaming"</string>
+    <string name="radioInfo_roaming_in" msgid="8892550453644088692">Roaming</string>
     <string name="radioInfo_roaming_not" msgid="3137594549464975054">"Geen roaming"</string>
     <string name="radioInfo_phone_idle" msgid="5310342873119295351">"Inactief"</string>
     <string name="radioInfo_phone_ringing" msgid="1360894968062218051">"Telefoon gaat over"</string>
@@ -76,7 +76,7 @@
     <string name="sdcard_format" product="nosdcard" msgid="3248760426252305366">"USB-opslag wissen"</string>
     <string name="sdcard_format" product="default" msgid="3676635435136326182">"SD-kaart wissen"</string>
     <string name="preview_pager_content_description" msgid="3762247188224576303">"Voorbeeld"</string>
-    <string name="preview_page_indicator_content_description" msgid="2790254666634885865">"Voorbeeldweergave, pagina <xliff:g id="CURRENT_PAGE">%1$d</xliff:g> van <xliff:g id="NUM_PAGES">%2$d</xliff:g>"</string>
+    <string name="preview_page_indicator_content_description" msgid="2790254666634885865">Voorbeeld, pagina <xliff:g id="current_page" example="3">%1$d</xliff:g> van <xliff:g id="num_pages" example="9">%2$d</xliff:g></string>
     <string name="font_size_summary" msgid="1296835853522566260">"Maak de tekst op het scherm kleiner of groter."</string>
     <string name="font_size_make_smaller_desc" msgid="4978038055549590140">"Verkleinen"</string>
     <string name="font_size_make_larger_desc" msgid="5583046033381722247">"Vergroten"</string>
@@ -152,7 +152,7 @@
     <string name="bluetooth_connection_notif_message" msgid="6087344980352898209">"Tik om verbinding te maken met \'<xliff:g id="DEVICE_NAME">%1$s</xliff:g>\'."</string>
     <string name="bluetooth_connection_dialog_text" msgid="2537152772549874391">"Wil je verbinding maken met \'<xliff:g id="DEVICE_NAME">%1$s</xliff:g>\'?"</string>
     <string name="bluetooth_phonebook_request" msgid="1085102844577089889">"Toegangsverzoek voor telefoonboek"</string>
-    <string name="bluetooth_pb_acceptance_dialog_text" msgid="7153531868579789993">"<xliff:g id="DEVICE_NAME_0">%1$s</xliff:g> wil toegang hebben tot je contacten en gespreksgeschiedenis. Toegang verlenen aan <xliff:g id="DEVICE_NAME_1">%2$s</xliff:g>?"</string>
+    <string name="bluetooth_pb_acceptance_dialog_text" msgid="7153531868579789993"> <xliff:g id="device_name">%1$s</xliff:g> wil toegang hebben tot je contacten en gespreksgeschiedenis. Toegang verlenen aan <xliff:g id="device_name">%2$s</xliff:g>\? </string>
     <string name="bluetooth_remember_choice" msgid="173821849670438110">"Niet meer vragen"</string>
     <string name="bluetooth_pb_remember_choice" msgid="2080511174185036562">"Niet meer vragen"</string>
     <string name="bluetooth_map_request" msgid="8664081227240707479">"Toegangsverzoek voor berichten"</string>
@@ -188,7 +188,7 @@
     <string name="intent_sender_sendbroadcast_text" msgid="3202857258557610646">"<xliff:g id="BROADCAST">broadcast</xliff:g> verzenden"</string>
     <string name="intent_sender_action_label" msgid="257853357827275530">"<xliff:g id="ACTION">Action</xliff:g>:"</string>
     <string name="intent_sender_startactivity_text" msgid="519934560779343541">"<xliff:g id="ACTIVITY">activity</xliff:g> starten"</string>
-    <string name="intent_sender_resource_label" msgid="5087385727740280207">"<xliff:g id="RESOURCE">Resource</xliff:g>:"</string>
+    <string name="intent_sender_resource_label" msgid="5087385727740280207"><xliff:g id="resource">Resource</xliff:g>: </string>
     <string name="intent_sender_account_label" msgid="36614006839665458">"Account:"</string>
     <string name="proxy_settings_title" msgid="4201866858226087066">"Proxy"</string>
     <string name="proxy_clear_text" msgid="6529658759984031149">"Wissen"</string>
@@ -260,7 +260,7 @@
     <string name="sdcard_settings_bad_removal_status" product="default" msgid="6817342973919819392">"De SD-kaart is verwijderd terwijl deze nog werd gebruikt!"</string>
     <string name="sdcard_settings_used_bytes_label" msgid="5646588579332741943">"Gebruikte bytes:"</string>
     <string name="sdcard_settings_scanning_status" product="nosdcard" msgid="8037280964384235345">"Zoeken naar media in USB-opslag..."</string>
-    <string name="sdcard_settings_scanning_status" product="default" msgid="3297316465982471437">"Zoeken naar media op SD-kaart..."</string>
+    <string name="sdcard_settings_scanning_status" product="default" msgid="3297316465982471437">Zoeken naar media op SD-kaart…</string>
     <string name="sdcard_settings_read_only_status" product="nosdcard" msgid="3444648373391629840">"Gekop. USB-opsl. alleen-lezen."</string>
     <string name="sdcard_settings_read_only_status" product="default" msgid="4338796260718910164">"De gekoppelde SD-kaart is alleen-lezen."</string>
     <string name="skip_label" msgid="6380034601349015895">"Overslaan"</string>
@@ -308,10 +308,10 @@
     <string name="sms_messages_title" msgid="9152493525985640011">"Sms\'jes"</string>
     <string name="cellular_data_summary" msgid="6551434804367912367">"Datagebruik via mobiel netwerk toestaan"</string>
     <string name="allow_data_usage_title" msgid="2645963379925196671">"Geg.gebr. bij roaming toestaan"</string>
-    <string name="roaming" msgid="3055365654530847985">"Roaming"</string>
+    <string name="roaming" msgid="3055365654530847985">Roaming</string>
     <string name="roaming_enable" msgid="7845716016861535340">"Verbinding maken met dataservices tijdens roaming"</string>
     <string name="roaming_disable" msgid="729512894708689604">"Verbinding maken met dataservices tijdens roaming"</string>
-    <string name="roaming_reenable_message" msgid="5150423860521673540">"De gegevensverbinding is verbroken, omdat je je thuisnetwerk hebt verlaten terwijl dataroaming was uitgeschakeld."</string>
+    <string name="roaming_reenable_message" msgid="5150423860521673540">De gegevensverbinding is verbroken omdat je jouw thuisnetwerk hebt verlaten terwijl dataroaming was uitgezet.</string>
     <string name="roaming_turn_it_on_button" msgid="6999283810847157816">"Inschakelen"</string>
     <string name="roaming_warning" msgid="8108744874738165518">"Er kunnen hoge kosten in rekening worden gebracht."</string>
     <string name="roaming_warning_multiuser" product="tablet" msgid="3277793097556822693">"Wanneer je dataroaming toestaat, kunnen er hoge roamingkosten in rekening worden gebracht.\n\nDeze instelling is van invloed op alle gebruikers van deze tablet."</string>
@@ -335,11 +335,11 @@
     <string name="date_time_search_region" msgid="1364133854952610919">"Zoek een regio"</string>
     <string name="date_time_select_region" msgid="5449345333305056072">"Regio"</string>
     <string name="date_time_select_fixed_offset_time_zones" msgid="594848300882055361">"Verschil met UTC selecteren"</string>
-    <string name="zone_change_to_from_dst" msgid="686451769985774294">"<xliff:g id="TIME_TYPE">%1$s</xliff:g> begint op <xliff:g id="TRANSITION_DATE">%2$s</xliff:g>."</string>
-    <string name="zone_info_exemplar_location_and_offset" msgid="2186042522225153092">"<xliff:g id="EXEMPLAR_LOCATION">%1$s</xliff:g> (<xliff:g id="OFFSET">%2$s</xliff:g>)"</string>
-    <string name="zone_info_offset_and_name" msgid="3960192548990990152">"<xliff:g id="TIME_TYPE">%2$s</xliff:g> (<xliff:g id="OFFSET">%1$s</xliff:g>)"</string>
-    <string name="zone_info_footer" msgid="7004693956837388129">"Gebruikt <xliff:g id="OFFSET_AND_NAME">%1$s</xliff:g>. <xliff:g id="DST_TIME_TYPE">%2$s</xliff:g> begint op <xliff:g id="TRANSITION_DATE">%3$s</xliff:g>."</string>
-    <string name="zone_info_footer_no_dst" msgid="8399585343328811158">"Gebruikt <xliff:g id="OFFSET_AND_NAME">%1$s</xliff:g>. Geen zomertijd."</string>
+    <string name="zone_change_to_from_dst" msgid="686451769985774294"><xliff:g id="time_type" example="Pacific Summer Time">%1$s</xliff:g> begint op <xliff:g id="transition_date" example="Mar 11 2018">%2$s</xliff:g>.</string>
+    <string name="zone_info_exemplar_location_and_offset" msgid="2186042522225153092"><xliff:g id="exemplar_location" example="Los Angeles">%1$s</xliff:g> (<xliff:g id="offset" example="GMT-08:00">%2$s</xliff:g>)</string>
+    <string name="zone_info_offset_and_name" msgid="3960192548990990152"><xliff:g id="time_type" example="Pacific Time">%2$s</xliff:g> (<xliff:g id="offset" example="GMT-08:00">%1$s</xliff:g>)</string>
+    <string name="zone_info_footer" msgid="7004693956837388129">Gebruikt <xliff:g id="offset_and_name" example="Pacific Time (GMT-08:00)">%1$s</xliff:g>. <xliff:g id="dst_time_type" example="Pacific Daylight Time">%2$s</xliff:g> begint op <xliff:g id="transition_date" example="Mar 11 2018">%3$s</xliff:g>.</string>
+    <string name="zone_info_footer_no_dst" msgid="8399585343328811158">Gebruikt <xliff:g id="offset_and_name" example="GMT-08:00 Pacific Time">%1$s</xliff:g>. Geen zomertijd.</string>
     <string name="zone_time_type_dst" msgid="9189689342265305808">"Zomertijd"</string>
     <string name="zone_time_type_standard" msgid="6865420715430680352">"Standaardtijd"</string>
     <string name="zone_menu_by_region" msgid="2963565278710225652">"Selecteren op basis van regio"</string>
@@ -361,12 +361,12 @@
     <string name="trust_lost_locks_screen_title" msgid="4231232144565291276">"Scherm vergr. als vertrouwen kwijt is"</string>
     <string name="trust_lost_locks_screen_summary" msgid="718374221849537361">"Indien ingeschakeld, wordt het apparaat vergrendeld wanneer de laatste trust agent het vertrouwen kwijtraakt"</string>
     <string name="owner_info_settings_summary" msgid="347238313388083297">"Geen"</string>
-    <string name="owner_info_settings_status" msgid="7488764871758677862">"<xliff:g id="COUNT_0">%1$d</xliff:g>/<xliff:g id="COUNT_1">%2$d</xliff:g>"</string>
+    <string name="owner_info_settings_status" msgid="7488764871758677862"><xliff:g id="count" example="90">%1$d</xliff:g>/<xliff:g id="count" example="100">%2$d</xliff:g></string>
     <string name="owner_info_settings_edit_text_hint" msgid="841926875876050274">"Bijvoorbeeld \'Android van Jan\'."</string>
     <string name="user_info_settings_title" msgid="8462815658350460581">"Gebruikersgegevens"</string>
     <string name="show_profile_info_on_lockscreen_label" msgid="5734739022887933365">"Profielinfo weergeven op vergrendelingsscherm"</string>
     <string name="profile_info_settings_title" msgid="8964582466273552765">"Profielinfo"</string>
-    <string name="Accounts_settings_title" msgid="8434263183710375412">"Accounts"</string>
+    <string name="Accounts_settings_title" msgid="8434263183710375412">Accounts</string>
     <string name="location_settings_title" msgid="8375074508036087178">"Locatie"</string>
     <string name="location_settings_master_switch_title" msgid="4232810467362584112">"Locatie gebruiken"</string>
     <string name="location_settings_summary_location_off" msgid="4797932754681162262">"Uit"</string>
@@ -375,7 +375,7 @@
         <item quantity="one">Aan: <xliff:g id="COUNT_0">%1$d</xliff:g> app heeft toegang tot de locatie</item>
     </plurals>
     <string name="location_settings_loading_app_permission_stats" msgid="6054103701535557342">"Laden…"</string>
-    <string name="account_settings_title" msgid="9138880127246241885">"Accounts"</string>
+    <string name="account_settings_title" msgid="9138880127246241885">Accounts</string>
     <string name="security_settings_title" msgid="6710768415432791970">"Beveiliging"</string>
     <string name="encryption_and_credential_settings_title" msgid="5856216318961482983">"Versleuteling en gegevens"</string>
     <string name="encryption_and_credential_settings_summary" product="default" msgid="5298195959570992363">"Telefoon versleuteld"</string>
@@ -412,13 +412,13 @@
     <string name="security_settings_face_enroll_introduction_message_setup" msgid="765965418187421753">"Gebruik je gezicht om je telefoon te ontgrendelen, aankopen te autoriseren of in te loggen bij apps"</string>
     <string name="security_settings_face_enroll_repeat_title" msgid="4446229670377418717">"Centreer je gezicht in de cirkel"</string>
     <string name="security_settings_face_enroll_enrolling_skip" msgid="5568617401632528567">"Overslaan"</string>
-    <string name="face_add_max" msgid="4578405795494514876">"Je kunt maximaal <xliff:g id="COUNT">%d</xliff:g> gezichten toevoegen"</string>
+    <string name="face_add_max" msgid="4578405795494514876">Je kunt maximaal <xliff:g id="count" example="5">%d</xliff:g> gezichten toevoegen</string>
     <string name="face_intro_error_max" msgid="2474735057709291626">"Je hebt het maximum aantal gezichten toegevoegd"</string>
     <string name="face_intro_error_unknown" msgid="1626057493054989995">"Kan geen extra gezichten toevoegen"</string>
     <string name="security_settings_face_enroll_error_dialog_title" msgid="2460820099922775936">"Registratie is niet voltooid"</string>
     <string name="security_settings_face_enroll_dialog_ok" msgid="1674650455786434426">"OK"</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_message" msgid="7768349698547951750">"Tijdlimiet voor gezichtsregistratie is bereikt. Probeer het opnieuw."</string>
-    <string name="security_settings_face_enroll_error_generic_dialog_message" msgid="3186810411630091490">"Gezichtsregistratie is mislukt"</string>
+    <string name="security_settings_face_enroll_error_generic_dialog_message" msgid="3186810411630091490">Gezichtsregistratie is mislukt.</string>
     <string name="security_settings_face_enroll_finish_title" msgid="5882322568359775393">"Alles is ingesteld."</string>
     <string name="security_settings_face_enroll_done" msgid="3048687969498187442">"Gereed"</string>
     <string name="security_settings_face_enroll_should_re_enroll_title" msgid="9080635904939148410">"Ontgrendelen via gezichtsherkenning verbeteren"</string>
