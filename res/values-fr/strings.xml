@@ -2769,7 +2769,7 @@
     <string name="cryptkeeper_wrong_pin" msgid="2347961593970714201">"Code PIN erroné."</string>
     <string name="checking_decryption" msgid="6111642972615688237">"Vérification en cours…"</string>
     <string name="starting_android" msgid="6694154070215356186">"Lancement d\'Android en cours…"</string>
-    <string name="delete" msgid="8330605554706263775">"Supprimer"</string>
+    <string name="delete" msgid="8330605554706263775">Supprimer</string>
     <string name="misc_files" msgid="6598066985800749585">"Fichiers divers"</string>
     <string name="misc_files_selected_count" msgid="5597802791672749532">"<xliff:g id="NUMBER">%1$d</xliff:g> fichiers sélectionnés sur <xliff:g id="TOTAL">%2$d</xliff:g>"</string>
     <string name="misc_files_selected_count_bytes" msgid="7622766714974500289">"<xliff:g id="NUMBER">%1$s</xliff:g> sur <xliff:g id="TOTAL">%2$s</xliff:g>"</string>
@@ -4393,16 +4393,19 @@
     <string name="cross_profile_calendar_title" msgid="7570277841490216947">"Agenda combinant tous les profils"</string>
     <string name="cross_profile_calendar_summary" msgid="8856185206722860069">"Afficher les événements professionnels dans votre agenda personnel"</string>
     <plurals name="hours" formatted="false" msgid="1853396353451635458">
-        <item quantity="one"><xliff:g id="NUMBER">%s</xliff:g> heure</item>
-        <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> heures</item>
+        <item quantity="one">1 heure</item>
+        <item quantity="many"><xliff:g id="number" example="7">%s</xliff:g> heures</item>
+        <item quantity="other"></item>
     </plurals>
     <plurals name="minutes" formatted="false" msgid="6244503272924425418">
-        <item quantity="one"><xliff:g id="NUMBER">%s</xliff:g> minute</item>
-        <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> minutes</item>
+        <item quantity="one">1 minute</item>
+        <item quantity="many"><xliff:g id="number" example="7">%s</xliff:g> minutes</item>
+        <item quantity="other"></item>
     </plurals>
     <plurals name="seconds" formatted="false" msgid="4237020272336995370">
-        <item quantity="one"><xliff:g id="NUMBER">%s</xliff:g> seconde</item>
-        <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> secondes</item>
+        <item quantity="one">1 seconde</item>
+        <item quantity="many"><xliff:g id="number" example="7">%s</xliff:g> secondes</item>
+        <item quantity="other"></item>
     </plurals>
     <string name="automatic_storage_manager_settings" msgid="519158151463974656">"Gérer l\'espace de stockage"</string>
     <string name="automatic_storage_manager_text" msgid="6900593059927987273">"Pour libérer de l\'espace de stockage, le gestionnaire d\'espace de stockage supprime des photos et des vidéos sauvegardées sur votre appareil."</string>
