@@ -1317,7 +1317,7 @@
     </plurals>
     <string name="wrong_pin_code_one" msgid="6924852214263071441">"Falscher PIN-Code der SIM-Karte. Du hast noch einen Versuch, bevor du das Gerät von deinem Mobilfunkanbieter entsperren lassen musst."</string>
     <string name="pin_failed" msgid="3726505565797352255">Fehler beim Entsperren mit der PIN der SIM-Karte!</string>
-    <string name="system_update_settings_list_item_title" msgid="3398346836439366350">"Systemupdates"</string>
+    <string name="system_update_settings_list_item_title" msgid="3398346836439366350">Systemaktualisierungen</string>
     <string name="firmware_version" msgid="1606901586501447275">"Android-Version"</string>
     <string name="security_patch" msgid="4071756145347865382">"Android-Sicherheitsupdate"</string>
     <string name="model_info" msgid="8997566254717810904">"Modell"</string>
@@ -1534,7 +1534,7 @@
     <string name="storage_wizard_move_confirm_body" msgid="1713022828842263574">Das Verschieben von <xliff:g id="app" example="Calculator">^1</xliff:g> und der entsprechenden Daten auf <xliff:g id="name" example="SD card">^2</xliff:g> dauert nur einen Moment. Du kannst die App erst wieder verwenden, nachdem sie vollständig verschoben wurde.
 \n
 \nEntferne die <xliff:g id="name" example="SD card">^2</xliff:g> während des Vorgangs nicht. </string>
-    <string name="storage_wizard_move_unlock" msgid="14651384927767749">"Um Daten zu verschieben, muss erst <xliff:g id="APP">^1</xliff:g> entsperrt werden."</string>
+    <string name="storage_wizard_move_unlock" msgid="14651384927767749">Um Daten zu verschieben, muss erst <xliff:g id="app" example="Joey">^1</xliff:g> entsperrt werden.</string>
     <string name="storage_wizard_move_progress_title" msgid="3912406225614672391">"<xliff:g id="APP">^1</xliff:g> wird verschoben…"</string>
     <string name="storage_wizard_move_progress_body" msgid="2396714553394935094">Entferne die <xliff:g id="NAME">^1</xliff:g> während des Vorgangs nicht.
 \n
@@ -1783,7 +1783,7 @@
     <string name="safety_and_regulatory_info" msgid="8285048080439298528">"Sicherheits- &amp; Regulierungsinformationen"</string>
     <string name="copyright_title" msgid="83245306827757857">"Urheberrecht"</string>
     <string name="license_title" msgid="8745742085916617540">"Lizenz"</string>
-    <string name="module_license_title" msgid="8705484239826702828">"Lizenzen für Google Play-Systemupdates"</string>
+    <string name="module_license_title" msgid="8705484239826702828">Lizenzen für Google Play-Systemaktualisierungen</string>
     <string name="terms_title" msgid="2071742973672326073">"Nutzungsbedingungen"</string>
     <string name="webview_license_title" msgid="5832692241345780517">"System-WebView-Lizenz"</string>
     <string name="wallpaper_attributions" msgid="3080339190260272255">"Hintergründe"</string>
@@ -1988,7 +1988,7 @@
     <string name="insufficient_storage" msgid="8115088042669030558">"Nicht genügend Speicherplatz"</string>
     <string name="does_not_exist" msgid="6499163879348776120">"App ist nicht vorhanden."</string>
     <string name="invalid_location" msgid="8013853455355520557">"Installationspfad ist nicht gültig."</string>
-    <string name="system_package" msgid="7559476279008519360">"Systemupdates können nicht auf externen Datenträgern installiert werden."</string>
+    <string name="system_package" msgid="7559476279008519360">Systemaktualisierungen können nicht auf externen Datenträgern installiert werden.</string>
     <string name="move_error_device_admin" msgid="1561502976834303626">"Die App zur Geräteverwaltung kann nicht auf externen Medien installiert werden"</string>
     <string name="force_stop_dlg_title" msgid="86745852555490146">"Beenden erzwingen?"</string>
     <string name="force_stop_dlg_text" msgid="1527286468544457368">"Das Beenden der App zu erzwingen kann zu unerwünschtem Verhalten führen."</string>
@@ -3037,7 +3037,7 @@
     <string name="confirm_new_backup_pw_prompt" msgid="5753796799743881356">"Neues Passwort für vollständige Sicherungen erneut eingeben"</string>
     <string name="backup_pw_set_button_text" msgid="8892357974661340070">"Passwort festlegen"</string>
     <string name="backup_pw_cancel_button_text" msgid="2244399819018756323">"Abbrechen"</string>
-    <string name="additional_system_update_settings_list_item_title" msgid="7230385345152138051">"Zusätzliche Systemupdates"</string>
+    <string name="additional_system_update_settings_list_item_title" msgid="7230385345152138051">Zusätzliche Systemaktualisierungen</string>
     <string name="ssl_ca_cert_warning" msgid="3898387588657346106">"Das Netzwerk wird eventuell überwacht."</string>
     <string name="done_button" msgid="6269449526248267">"Fertig"</string>
     <plurals name="ssl_ca_cert_dialog_title" formatted="false" msgid="5491460811755938449">
@@ -3828,7 +3828,7 @@
     <string name="zen_mode_starred_contacts_title" msgid="630299631659575589">"Markierte Kontakte"</string>
     <plurals name="zen_mode_starred_contacts_summary_additional_contacts" formatted="false" msgid="7001724653833724925">
         <item quantity="one">1 weitere Person</item>
-        <item quantity="other"><xliff:g id="num_people">%d</xliff:g> Weitere</item>
+        <item quantity="other"><xliff:g id="num_people" example="3">%d</xliff:g> weitere Personen</item>
     </plurals>
     <string name="zen_mode_starred_contacts_summary_none" msgid="6320777044373994482">"Keine"</string>
     <string name="zen_mode_messages" msgid="7315084748885170585">"Nachrichten"</string>
@@ -4330,7 +4330,7 @@
     <string name="color_temperature_desc" msgid="6713259535885669622">Kältere Bildschirmfarben verwenden</string>
     <string name="color_temperature_toast" msgid="7611532183532407342">"Deaktiviere den Bildschirm, um die neue Farbeinstellung zu übernehmen"</string>
     <string name="camera_laser_sensor_switch" msgid="7097842750947187671">"Kamera-Lasersensor"</string>
-    <string name="ota_disable_automatic_update" msgid="1953894421412420231">"Automatische Systemupdates"</string>
+    <string name="ota_disable_automatic_update" msgid="1953894421412420231">Automatische Systemaktualisierungen</string>
     <string name="ota_disable_automatic_update_summary" msgid="7803279951533276841">"Updates anwenden, wenn das Gerät neu gestartet wird"</string>
     <string name="usage" msgid="287782903846013936">"Nutzung"</string>
     <string name="cellular_data_usage" msgid="5874156338825285334">"Mobile Datennutzung"</string>
@@ -4488,15 +4488,15 @@
     <string name="cross_profile_calendar_summary" msgid="8856185206722860069">"Geschäftliche Termine in meinem persönlichen Kalender anzeigen"</string>
     <plurals name="hours" formatted="false" msgid="1853396353451635458">
         <item quantity="one">1 Stunde</item>
-        <item quantity="other"><xliff:g id="number">%s</xliff:g> Stunden</item>
+        <item quantity="other"><xliff:g id="number" example="7">%s</xliff:g> Stunden</item>
     </plurals>
     <plurals name="minutes" formatted="false" msgid="6244503272924425418">
         <item quantity="one">1 Minute</item>
-        <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> Minuten</item>
+        <item quantity="other"><xliff:g id="number" example="7">%s</xliff:g> Minuten</item>
     </plurals>
     <plurals name="seconds" formatted="false" msgid="4237020272336995370">
         <item quantity="one">1 Sekunde</item>
-        <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> Sekunden</item>
+        <item quantity="other"><xliff:g id="number" example="7">%s</xliff:g> Sekunden</item>
     </plurals>
     <string name="automatic_storage_manager_settings" msgid="519158151463974656">"Speicher verwalten"</string>
     <string name="automatic_storage_manager_text" msgid="6900593059927987273">"Zur Freigabe von Speicherplatz entfernt der Speichermanager Back-ups von Fotos und Videos von deinem Gerät."</string>
