@@ -24,9 +24,12 @@ import android.os.Build;
 
 public class MailAccountSyncHelper {
 
+    public static final String MAIL_SYNC_AUTHORITY = "foundation.e.mail.provider.AppContentProvider";
+
     private static final String MAIL_PACKAGE = "foundation.e.mail";
     private static final String MAIL_RECEIVER_CLASS = "com.fsck.k9.account.AccountSyncReceiver";
     private static final String ACTION_PREFIX = "foundation.e.accountmanager.account.";
+    private static final String ACCOUNT = "account";
 
     private static MailAccountSyncHelper instance = null;
 
@@ -40,12 +43,20 @@ public class MailAccountSyncHelper {
     }
 
     public void accountLoggedOut(Context applicationContext, String email) {
-        if (applicationContext == null || email == null || !email.contains("@")) {
+        sendBroadCast(applicationContext, email, "remove");
+    }
+
+    public void disableSync(Context applicationContext, String email) {
+        sendBroadCast(applicationContext, email, "disablesync");
+    }
+
+    private void sendBroadCast(Context applicationContext, String email, String action) {
+        if (applicationContext == null || email == null || !email.contains("@") || action == null || action.isEmpty()) {
             return;
         }
-        Intent intent = getIntent();
-        intent.setAction(ACTION_PREFIX + "remove");
-        intent.putExtra("account", email);
+        final Intent intent = getIntent();
+        intent.setAction(ACTION_PREFIX + action);
+        intent.putExtra(ACCOUNT, email);
         applicationContext.sendBroadcast(intent);
     }
 
