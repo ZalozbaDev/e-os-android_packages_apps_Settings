@@ -4162,15 +4162,18 @@
     <string name="cross_profile_calendar_restricted_summary" msgid="282962670405516067">"La tua organizzazione non consente alle app personali di accedere al tuo calendario di lavoro"</string>
     <plurals name="hours" formatted="false" msgid="1853396353451635458">
         <item quantity="one">1 ora</item>
-        <item quantity="other"/>
+        <item quantity="many"><xliff:g id="number" example="7">%s</xliff:g> ore</item>
+        <item quantity="other"></item>
     </plurals>
     <plurals name="minutes" formatted="false" msgid="6244503272924425418">
         <item quantity="one">1 minuto</item>
-        <item quantity="other"/>
+        <item quantity="many"><xliff:g id="number" example="7">%s</xliff:g> minuti</item>
+        <item quantity="other"></item>
     </plurals>
     <plurals name="seconds" formatted="false" msgid="4237020272336995370">
         <item quantity="one">1 secondo</item>
-        <item quantity="other"/>
+        <item quantity="many"><xliff:g id="number" example="7">%s</xliff:g> secondi</item>
+        <item quantity="other"></item>
     </plurals>
     <string name="automatic_storage_manager_settings" msgid="519158151463974656">"Gestisci archiviazione"</string>
     <string name="automatic_storage_manager_text" msgid="6900593059927987273">"Per liberare spazio, la gestione memoria rimuove foto e video dal dispositivo dopo averne eseguito il backup."</string>
