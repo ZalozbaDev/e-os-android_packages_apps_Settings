@@ -153,7 +153,7 @@
         android:key="top_level_security"
         android:order="-50"
         android:title="@string/security_settings_title"
-        android:summary="@string/security_dashboard_summary"
+        android:summary="@string/security_dashboard_summary_e"
         settings:highlightableMenuKey="@string/menu_key_security"
         settings:controller="com.android.settings.security.TopLevelSecurityEntryPreferenceController"/>
 
