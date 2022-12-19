@@ -650,6 +650,11 @@
             android:key="change_update_source"
             android:title="@string/title_ota_server"
             android:summary="@string/use_ota_summary" />
+
+        <SwitchPreference
+            android:key="enable_telemetry"
+            android:title="@string/enable_telemetry"
+            android:summary="@string/telemetry_details" />
     </PreferenceCategory>
 
     <com.android.settings.development.autofill.AutofillPreferenceCategory
