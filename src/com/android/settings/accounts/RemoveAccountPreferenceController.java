@@ -159,10 +159,7 @@ public class RemoveAccountPreferenceController extends AbstractPreferenceControl
         @Override
         public void onClick(DialogInterface dialog, int which) {
             Activity activity = getTargetFragment().getActivity();
-            AccountManager accountManager = AccountManager.get(activity);
-            String email = accountManager.getUserData(mAccount, "email_address");
-
-            accountManager.removeAccountAsUser(mAccount, activity,
+            AccountManager.get(activity).removeAccountAsUser(mAccount, activity,
                     future -> {
                         final Activity targetActivity = getTargetFragment().getActivity();
                         if (targetActivity == null || targetActivity.isFinishing()) {
@@ -184,7 +181,6 @@ public class RemoveAccountPreferenceController extends AbstractPreferenceControl
                         }
                         Log.i(TAG, "failed: " + failed);
                         if (!failed) {
-                            MailAccountSyncHelper.getInstance().accountLoggedOut(targetActivity.getApplicationContext(), email);
                             targetActivity.finish();
                         }
                     }, null, mUserHandle);
