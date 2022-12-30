@@ -386,16 +386,6 @@ public class AccountSyncSettings extends AccountPreferenceBase {
                     extras);
         } else {
             ContentResolver.cancelSyncAsUser(account, authority, mUserHandle.getIdentifier());
-            cancelMailSync(account, authority);
-        }
-    }
-
-    private void cancelMailSync(Account account, String authority) {
-        if (MailAccountSyncHelper.MAIL_SYNC_AUTHORITY.equals(authority)) {
-            final Context context = getPrefContext().getApplicationContext();
-            final AccountManager accountManager = AccountManager.get(context);
-            final String email = accountManager.getUserData(account, "email_address");
-            MailAccountSyncHelper.getInstance().disableSync(context, email);
         }
     }
 
