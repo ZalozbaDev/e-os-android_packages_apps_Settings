@@ -14,8 +14,7 @@
      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
      See the License for the specific language governing permissions and
      limitations under the License.
--->
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+--><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <plurals name="show_dev_countdown_cm">
         <item quantity="one">Нажмите еще <xliff:g id="step_count">%1$d</xliff:g> раз, чтобы включить настройки для разработчиков.</item>
         <item quantity="few">Нажмите еще <xliff:g id="step_count">%1$d</xliff:g> раза, чтобы включить настройки для разработчиков.</item>
@@ -114,4 +113,15 @@
     <string name="backup_transport_title">Выберите поставщика резервного копирования</string>
     <string name="fast_charging_title">Быстрая зарядка</string>
     <string name="fast_charging_summary">Отключите, чтобы уменьшить нагрев устройства во время зарядки или продлить срок службы аккумулятора</string>
+    <string name="advanced_privacy_dashboard_summary">Управление трекерами, фиктивное определение местоположения, скрытие IP-адреса</string>
+    <string name="elicense_title">Юридическая информация /e/</string>
+    <string name="use_ota_staging_popup_message">Это позволит вам загрузить и установить тестовые версии /e/OS. Эти сборки могут быть нестабильными, и их следует использовать только в тестовых целях. Пожалуйста, соглашайтесь только в том случае, если вы знаете, что делаете.</string>
+    <string name="use_ota_staging_popup_title">Вы собираетесь подключиться к тестовому каналу /e/OS</string>
+    <string name="use_ota_summary">Доступ к тестовым выпускам /e/OS</string>
+    <string name="title_ota_server">Подключение к тестовому каналу /e/OS</string>
+    <string name="e_version">версия /e/ OS</string>
+    <string name="system_update_summary">Обновления, настройки, примечания к выпуску</string>
+    <string name="e_supporters_title">Поддерживающие проект /e/ люди</string>
+    <string name="e_contributors_title">участники проекта /e/</string>
+    <string name="lineageos_contributors_title">Участники проекта LineageOS</string>
 </resources>
