@@ -5121,4 +5121,33 @@
     <string name="bluetooth_connect_access_dialog_content" msgid="4336436466468405850">"Устройство \"<xliff:g id="DEVICE_NAME_0">%1$s</xliff:g>\" хочет подключиться к этому телефону.\n\nЭто ваше первое подключение к устройству \"<xliff:g id="DEVICE_NAME_1">%2$s</xliff:g>\"."</string>
     <string name="bluetooth_connect_access_dialog_negative" msgid="4944672755226375059">"Не подключаться"</string>
     <string name="bluetooth_connect_access_dialog_positive" msgid="3630561675207269710">"Подключиться"</string>
+    <string name="platform_compat_target_sdk_title">Разрешено для targetSdkVersion &gt; <xliff:g id="number" example="29">%d</xliff:g></string>
+    <string name="wifi_type_11N">Wi‑Fi 4</string>
+    <string name="wifi_type_11AC">Wi‑Fi 5</string>
+    <string name="wifi_type_11AX">Wi‑Fi 6</string>
+    <string name="wifi_type_title">Тип</string>
+    <string name="zen_mode_calls_summary_one"><xliff:g id="caller type" example="contacts">%1$s</xliff:g></string>
+    <string name="wifi_do_not_validate_eap_server_warning">Не указан сертификат. Ваше соединение не будет приватным.</string>
+    <string name="e_dns_summary">Конфигурация DNS</string>
+    <string name="e_dns_not_set">9.9.9.9</string>
+    <string name="e_dns_name_summary">Установите DNS для использования</string>
+    <string name="e_use_dhcp_dns_summary">Разрешить использовать DNS от провайдера сети</string>
+    <string name="e_use_dhcp_dns">Используйте сетевой DNS</string>
+    <string name="e_dns_title">Введите IP-адрес DNS</string>
+    <string name="e_dns_name">DNS</string>
+    <string name="e_dns_mode">DNS</string>
+    <string name="e_dns_settings_title">Настройки DNS</string>
+    <string name="open_keychain">OpenKeychain</string>
+    <string name="micro_g">microG</string>
+    <string name="call_manager_summary"><xliff:g id="app">%1$s</xliff:g></string>
+    <string name="battery_saver_seekbar_title"><xliff:g id="percent">%1$s</xliff:g></string>
+    <string name="testing_sim_toolkit">SIM toolkit</string>
+    <string name="service_process_name"><xliff:g id="process">%1$s</xliff:g></string>
+    <string name="service_client_name"><xliff:g id="client_name">%1$s</xliff:g></string>
+    <string name="status_iccid">ICCID</string>
+    <string name="status_imei_sv">IMEI SV</string>
+    <string name="status_imei">IMEI</string>
+    <string name="wifi_calling_roaming_mode_summary"><xliff:g id="wfc_roaming_preference" example="Wi-Fi">%1$s</xliff:g></string>
+    <string name="debug_intent_sender_label">Debug intent sender</string>
+    <string name="intent_sender_data_label"><xliff:g id="data">Данные:</xliff:g></string>
 </resources>
