@@ -1143,7 +1143,7 @@
     <string name="wifi_advanced_ip_address_title" msgid="4265355419782184514">"IP-адрес"</string>
     <string name="wifi_details_title" msgid="222735438574597493">"Сведения о сети"</string>
     <string name="wifi_details_subnet_mask" msgid="1619151769276260512">"Маска подсети"</string>
-    <string name="wifi_type_title" msgid="2174893488722015838">"Тип"</string>
+    <string name="wifi_type_title" msgid="2174893488722015838">Тип</string>
     <string name="wifi_details_dns" msgid="273231528073312579">"DNS"</string>
     <string name="wifi_details_ipv6_address_header" msgid="1913151339341722443">"IPv6-адреса"</string>
     <string name="wifi_saved_access_points_label" msgid="5691340724310548151">"Сохраненные сети"</string>
@@ -1161,9 +1161,9 @@
     <string name="wifi_dns2" msgid="7273133202625326148">"DNS 2 (если не переопределен частным DNS-сервером)"</string>
     <string name="wifi_gateway" msgid="3699227808616416759">"Шлюз"</string>
     <string name="wifi_network_prefix_length" msgid="1003365439352276622">"Длина префикса сети"</string>
-    <string name="wifi_type_11AX" msgid="6594656203096598812">"Wi‑Fi 6"</string>
-    <string name="wifi_type_11AC" msgid="5290409766357395104">"Wi‑Fi 5"</string>
-    <string name="wifi_type_11N" msgid="4758480232958990793">"Wi‑Fi 4"</string>
+    <string name="wifi_type_11AX" msgid="6594656203096598812">Wi‑Fi 6</string>
+    <string name="wifi_type_11AC" msgid="5290409766357395104">Wi‑Fi 5</string>
+    <string name="wifi_type_11N" msgid="4758480232958990793">Wi‑Fi 4</string>
     <string name="wifi_p2p_settings_title" msgid="1689918226469221870">"Wi-Fi Direct"</string>
     <string name="wifi_p2p_device_info" msgid="4304362679971797283">"Информация об устройстве"</string>
     <string name="wifi_p2p_persist_network" msgid="7942929491568227945">"Запомнить это соединение"</string>
@@ -2501,10 +2501,10 @@
         <item quantity="other">Долгая задержка (<xliff:g id="CLICK_DELAY_LABEL_1">%1$s</xliff:g> секунды)</item>
     </plurals>
     <plurals name="accessibilty_autoclick_delay_unit_second" formatted="false" msgid="4537791441118261556">
-        <item quantity="one"><xliff:g id="CLICK_DELAY_LABEL_2">%1$s</xliff:g> секунда</item>
-        <item quantity="few"><xliff:g id="CLICK_DELAY_LABEL_1">%1$s</xliff:g> секунды</item>
-        <item quantity="many"><xliff:g id="CLICK_DELAY_LABEL_2">%1$s</xliff:g> секунд</item>
-        <item quantity="other"><xliff:g id="CLICK_DELAY_LABEL_2">%1$s</xliff:g> секунды</item>
+        <item quantity="one"><xliff:g id="click_delay_label" example="1">%1$s</xliff:g> секунда</item>
+        <item quantity="few">&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" id=\"click_delay_label\"&gt; секунды</item>
+        <item quantity="many">&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" id=\"click_delay_label\"&gt; секунд</item>
+        <item quantity="other">&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" id=\"click_delay_label\"&gt; секунд</item>
     </plurals>
     <string name="accessibility_vibration_summary" msgid="27904038683405084">"<xliff:g id="SUMMARY_RING">%1$s</xliff:g>: звонок. <xliff:g id="SUMMARY_NOTIFICATION">%2$s</xliff:g>: уведомление. <xliff:g id="SUMMARY_TOUCH">%3$s</xliff:g>: касание."</string>
     <string name="accessibility_vibration_summary_off" msgid="7776105450117095736">"Вибрация при входящих вызовах и уведомлениях отключена"</string>
@@ -5699,4 +5699,19 @@
     <string name="bluetooth_connect_access_dialog_content" msgid="4336436466468405850">"Устройство \"<xliff:g id="DEVICE_NAME_0">%1$s</xliff:g>\" хочет подключиться к этому телефону.\n\nЭто ваше первое подключение к устройству \"<xliff:g id="DEVICE_NAME_1">%2$s</xliff:g>\"."</string>
     <string name="bluetooth_connect_access_dialog_negative" msgid="4944672755226375059">"Не подключаться"</string>
     <string name="bluetooth_connect_access_dialog_positive" msgid="3630561675207269710">"Подключиться"</string>
+    <string name="platform_compat_target_sdk_title">Разрешено для targetSdkVersion &gt;= <xliff:g id="number" example="29">%d</xliff:g></string>
+    <string name="zen_mode_calls_summary_one"><xliff:g id="caller type" example="contacts">%1$s</xliff:g></string>
+    <string name="wifi_do_not_validate_eap_server_warning">Не указан сертификат. Ваше соединение не будет приватным.</string>
+    <string name="security_dashboard_summary_e">Блокировка экрана, безопасность приложений</string>
+    <string name="call_manager_summary"><xliff:g id="app">%1$s</xliff:g></string>
+    <string name="battery_saver_seekbar_title"><xliff:g id="percent">%1$s</xliff:g></string>
+    <string name="testing_sim_toolkit">SIM toolkit</string>
+    <string name="service_process_name"><xliff:g id="process">%1$s</xliff:g></string>
+    <string name="service_client_name"><xliff:g id="client_name">%1$s</xliff:g></string>
+    <string name="status_iccid">ICCID</string>
+    <string name="status_imei_sv">IMEI SV</string>
+    <string name="status_imei">IMEI</string>
+    <string name="wifi_calling_roaming_mode_summary"><xliff:g id="wfc_roaming_preference" example="Wi-Fi">%1$s</xliff:g></string>
+    <string name="debug_intent_sender_label">Debug intent sender</string>
+    <string name="intent_sender_data_label"><xliff:g id="data">Данные:</xliff:g></string>
 </resources>
