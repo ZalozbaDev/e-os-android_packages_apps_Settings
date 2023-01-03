@@ -1012,7 +1012,7 @@
     <string name="wifi_use_system_certs" msgid="5587866698144996931">"Системные сертификаты"</string>
     <string name="wifi_do_not_provide_eap_user_cert" msgid="6336636553673065145">"Не указывать"</string>
     <string name="wifi_do_not_validate_eap_server" msgid="4673867078988209732">"Не проверять"</string>
-    <string name="wifi_do_not_validate_eap_server_warning" msgid="5741728006175181647">"Сертификат не указан. Будет установлено незащищенное соединение."</string>
+    <string name="wifi_do_not_validate_eap_server_warning" msgid="5741728006175181647">Не указан сертификат. Ваше соединение не будет приватным.</string>
     <string name="wifi_ssid_too_long" msgid="5961719058705013875">"Слишком длинное имя сети."</string>
     <string name="wifi_no_domain_warning" msgid="1452133316532366772">"Укажите домен."</string>
     <string name="wifi_wps_available_first_item" msgid="5780501151792036589">"Поддерживает WPS"</string>
@@ -4817,4 +4817,28 @@
     <string name="bluetooth_connect_access_dialog_content" msgid="4336436466468405850">"Устройство \"<xliff:g id="DEVICE_NAME_0">%1$s</xliff:g>\" хочет подключиться к этому телефону.\n\nЭто ваше первое подключение к устройству \"<xliff:g id="DEVICE_NAME_1">%2$s</xliff:g>\"."</string>
     <string name="bluetooth_connect_access_dialog_negative" msgid="4944672755226375059">"Не подключаться"</string>
     <string name="bluetooth_connect_access_dialog_positive" msgid="3630561675207269710">"Подключиться"</string>
+    <string name="e_dns_summary">Конфигурация DNS</string>
+    <string name="e_dns_not_set">9.9.9.9</string>
+    <string name="e_dns_name_summary">Установите DNS для использования</string>
+    <string name="e_use_dhcp_dns_summary">Разрешить использовать DNS от провайдера сети</string>
+    <string name="e_use_dhcp_dns">Используйте сетевой DNS</string>
+    <string name="e_dns_title">Введите IP-адрес DNS</string>
+    <string name="e_dns_name">DNS</string>
+    <string name="e_dns_mode">DNS</string>
+    <string name="e_dns_settings_title">Настройки DNS</string>
+    <string name="open_keychain">OpenKeychain</string>
+    <string name="micro_g">microG</string>
+    <string name="call_manager_summary"><xliff:g id="app">%1$s</xliff:g></string>
+    <string name="battery_saver_seekbar_title"><xliff:g id="percent">%1$s</xliff:g></string>
+    <string name="testing_sim_toolkit">SIM toolkit</string>
+    <string name="wifi_connected_to_message"></string>
+    <string name="service_process_name"><xliff:g id="process">%1$s</xliff:g></string>
+    <string name="service_client_name"><xliff:g id="client_name">%1$s</xliff:g></string>
+    <string name="status_iccid">ICCID</string>
+    <string name="status_imei_sv">IMEI SV</string>
+    <string name="status_imei">IMEI</string>
+    <string name="wifi_calling_roaming_mode_summary"><xliff:g id="wfc_roaming_preference" example="Wi-Fi">%1$s</xliff:g></string>
+    <string name="debug_intent_sender_label">Debug intent sender</string>
+    <string name="radio_info_imsi_label">IMSI:</string>
+    <string name="intent_sender_data_label"><xliff:g id="data">Данные:</xliff:g></string>
 </resources>
