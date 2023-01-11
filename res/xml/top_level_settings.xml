@@ -26,11 +26,21 @@
         android:title="@string/system_update_settings_list_item_title"
         android:summary="@string/system_update_summary"
         android:icon="@drawable/ic_system_update"
-        android:order="-160"
+        android:order="-170"
         settings:controller="com.android.settings.system.SystemUpdatePreferenceController"
         settings:keywords="@string/keywords_system_update_settings">
         <intent android:action="android.settings.SYSTEM_UPDATE_SETTINGS" />
     </com.android.settings.widget.HomepagePreference>
+
+    <com.android.settings.widget.HomepagePreference
+        android:fragment="com.android.settings.accounts.AccountDashboardFragment"
+        android:icon="@drawable/ic_settings_accounts"
+        android:key="top_level_accounts"
+        android:order="-160"
+        android:title="@string/Accounts_settings_title"
+        android:summary="@string/summary_placeholder"
+        settings:highlightableMenuKey="@string/menu_key_accounts"
+        settings:controller="com.android.settings.accounts.TopLevelAccountEntryPreferenceController"/>
 
     <com.android.settings.widget.HomepagePreference
         android:fragment="com.android.settings.network.NetworkDashboardFragment"
@@ -194,16 +204,6 @@
         android:fragment="com.android.settings.emergency.EmergencyDashboardFragment"
         settings:isPreferenceVisible="@bool/config_show_emergency_settings"
         settings:highlightableMenuKey="@string/menu_key_emergency"/>
-
-    <com.android.settings.widget.HomepagePreference
-        android:fragment="com.android.settings.accounts.AccountDashboardFragment"
-        android:icon="@drawable/ic_settings_accounts"
-        android:key="top_level_accounts"
-        android:order="-10"
-        android:title="@string/account_dashboard_title"
-        android:summary="@string/summary_placeholder"
-        settings:highlightableMenuKey="@string/menu_key_accounts"
-        settings:controller="com.android.settings.accounts.TopLevelAccountEntryPreferenceController"/>
 
     <com.android.settings.widget.HomepagePreference
         android:fragment="com.android.settings.system.SystemDashboardFragment"
