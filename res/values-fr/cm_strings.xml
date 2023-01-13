@@ -17,8 +17,8 @@
 --><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="mobile_data_settings_summary_unavailable">Aucune carte SIM disponible</string>
     <plurals name="show_dev_countdown_cm">
-        <item quantity="one">Vous êtes maintenant à <xliff:g id="step_count">%1$d</xliff:g> étape de l\'activation des paramètres de développement.
-Vous êtes maintenant à <xliff:g id="step_count">%1$d</xliff:g> étapes de l\'activation des paramètres de développement.</item>
+        <item quantity="one">Vous êtes maintenant à <xliff:g id="step_count">%1$d</xliff:g> étape de l\'activation des paramètres de développement.</item>
+        <item quantity="many">Vous êtes maintenant à <xliff:g id="step_count">%1$d</xliff:g> étapes de l\'activation des paramètres de développement.</item>
         <item quantity="other">Vous êtes maintenant à <xliff:g id="step_count">%1$d</xliff:g> étapes de l\'activation des paramètres de développement.</item>
     </plurals>
     <string name="show_dev_on_cm">Vous avez activé les paramètres de développement !</string>
@@ -41,8 +41,8 @@ Vous êtes maintenant à <xliff:g id="step_count">%1$d</xliff:g> étapes de l\'a
     <string name="security_settings_fingerprint_sensor_location_front">la façade</string>
     <string name="security_settings_fingerprint_sensor_location_left">le côté gauche</string>
     <string name="security_settings_fingerprint_sensor_location_right">le côté droit</string>
-    <string name="heads_up_notifications_enabled_title">Notifications flottantes</string>
-    <string name="heads_up_notifications_enabled_summary">Afficher les notifications prioritaires dans une petite fenêtre de notification flottante</string>
+    <string name="heads_up_notifications_enabled_title">Avertissement</string>
+    <string name="heads_up_notifications_enabled_summary">Afficher les notifications prioritaires dans une petite fenêtre flottante</string>
     <string name="high_touch_sensitivity_title">Haute sensibilité tactile</string>
     <string name="high_touch_sensitivity_summary">Augmenter la sensibilité de l\'écran permettant ainsi le port de gants</string>
     <string name="increasing_ring_volume_option_title">Sonnerie progressive</string>
@@ -100,6 +100,14 @@ Vous êtes maintenant à <xliff:g id="step_count">%1$d</xliff:g> étapes de l\'a
     <string name="use_ota_staging_popup_title">Vous êtes sur le point de vous connecter au canal de test /e/OS</string>
     <string name="use_ota_summary">Accéder aux versions de test d\'/e/OS</string>
     <string name="title_ota_server">Connexion au canal de test /e/OS</string>
-    <string name="advanced_privacy_dashboard_summary">Gérer les pisteurs, la fausse localisation et cacher l\'adresse IP</string>
+    <string name="advanced_privacy_dashboard_summary">Gérer les trackers, falsifier la position et masquer l\'adresse IP</string>
     <string name="lineageos_contributors_title">Contributeurs LineageOS</string>
+    <string name="max_refresh_rate_title">Afficher le taux de rafraîchissement</string>
+    <string name="telemetry_details">Activer la génération automatique de rapports de bugs</string>
+    <string name="telemetry_dialog_message">Cela permettra la génération automatique de rapports de bug quand une application plante ou quand elle termine dans un état imprévu. Merci de redémarrer votre appareil pour que la modification de ce paramètre soit prise en compte.</string>
+    <string name="telemetry_dialog_title">Vous êtes sur le point d\'activer la télémétrie pour /e/OS</string>
+    <string name="enable_telemetry">Acter la télémétrie sur /e/OS</string>
+    <string name="system_update_summary">Mises à jour, préférences, notes de version</string>
+    <string name="elicense_title">Informations légales de /e/</string>
+    <string name="e_version">Version d\'/e/OS</string>
 </resources>
