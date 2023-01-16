@@ -356,8 +356,16 @@
     <string name="security_settings_face_enroll_must_re_enroll_title" msgid="4421818770682557621">"Ontgrendelen via gezichtsherkenning weer instellen"</string>
     <string name="security_settings_face_enroll_must_re_enroll_subtitle" msgid="3584740139535177961">"Beveiliging en prestaties verbeteren"</string>
     <string name="security_settings_face_enroll_improve_face_alert_title" msgid="6194184776580066012">"Ontgrendelen via gezichtsherkenning instellen"</string>
-    <string name="security_settings_face_enroll_improve_face_alert_body" msgid="2670118180411127323">"Verwijder je huidige gezichtsmodel om Ontgrendelen via gezichtsherkenning weer in te stellen.\n\nJe gezichtsmodel wordt definitief en veilig verwijderd.\n\nNa verwijdering heb je je pincode, patroon of wachtwoord nodig om je telefoon te ontgrendelen of voor verificatie in apps."</string>
-    <string name="security_settings_face_enroll_improve_face_alert_body_fingerprint" msgid="2469599074650327489">"Verwijder je huidige gezichtsmodel om Ontgrendelen via gezichtsherkenning weer in te stellen.\n\nJe gezichtsmodel wordt definitief en veilig verwijderd.\n\nNa verwijdering heb je je vingerafdruk, pincode, patroon of wachtwoord nodig om je telefoon te ontgrendelen of voor verificatie in apps."</string>
+    <string name="security_settings_face_enroll_improve_face_alert_body" msgid="2670118180411127323">Verwijder je huidige gezichtsmodel om Ontgrendeling via gezichtsherkenning weer in te stellen.
+\n
+\nJe gezichtsmodel wordt definitief en veilig verwijderd.
+\n
+\nNa verwijdering heb je jouw pincode, patroon of wachtwoord nodig om je telefoon te ontgrendelen of voor verificatie in apps.</string>
+    <string name="security_settings_face_enroll_improve_face_alert_body_fingerprint" msgid="2469599074650327489">Verwijder je huidige gezichtsmodel om Ontgrendelen via gezichtsherkenning weer in te stellen.
+\n
+\nJe gezichtsmodel wordt definitief en veilig verwijderd.
+\n
+\nNa verwijdering heb je jouw vingerafdruk, pincode, patroon of wachtwoord nodig om je telefoon te ontgrendelen of voor verificatie in apps.</string>
     <string name="security_settings_face_settings_use_face_category" msgid="1638314154119800188">"Ontgrendelen via gezicht gebruiken voor"</string>
     <string name="security_settings_face_settings_preferences_category" msgid="7628929873407280453">"Als je ontgrendelt via gezichtsherkenning"</string>
     <string name="security_settings_face_settings_require_attention" msgid="4395309855914391104">"Vereisen dat ogen open zijn"</string>
@@ -369,8 +377,12 @@
     <string name="security_settings_face_settings_footer" msgid="625696606490947189">"Gebruik je gezicht om je telefoon te ontgrendelen of voor verificatie in apps, bijvoorbeeld als je inlogt of een aankoop goedkeurt.\n\nOnthoud het volgende:\nJe kunt slechts één gezicht tegelijk instellen. Als je een ander gezicht wilt toevoegen, moet je het huidige gezicht verwijderen.\n\nAls je naar de telefoon kijkt, kun je deze onbedoeld ontgrendelen.\n\nJe telefoon kan door iemand anders worden ontgrendeld als de telefoon voor je gezicht wordt gehouden.\n\nJe telefoon kan worden ontgrendeld door iemand die veel op je lijkt, zoals een broer of zus."</string>
     <string name="security_settings_face_settings_footer_attention_not_supported" msgid="2071065435536235622">"Gebruik je gezicht om je telefoon te ontgrendelen of voor verificatie in apps, bijvoorbeeld als je inlogt of een aankoop goedkeurt.\n\nOnthoud het volgende:\nJe kunt slechts één gezicht tegelijk instellen. Als je een ander gezicht wilt toevoegen, moet je het huidige gezicht verwijderen.\n\nAls je naar de telefoon kijkt, kun je deze onbedoeld ontgrendelen.\n\nJe telefoon kan door iemand anders worden ontgrendeld als de telefoon voor je gezicht wordt gehouden, ook als je ogen dicht zijn.\n\nJe telefoon kan worden ontgrendeld door iemand die veel op je lijkt, zoals een broer of zus."</string>
     <string name="security_settings_face_settings_remove_dialog_title" msgid="2899669764446232715">"Gezichtsmodel verwijderen?"</string>
-    <string name="security_settings_face_settings_remove_dialog_details" msgid="916131485988121592">"Je gezichtsmodel wordt definitief en op een beveiligde manier verwijderd.\n\nDaarna heb je je pincode, patroon of wachtwoord nodig om je telefoon te ontgrendelen of voor verificatie in apps."</string>
-    <string name="security_settings_face_settings_remove_dialog_details_convenience" msgid="475568135197468990">"Je gezichtsmodel wordt definitief en op een beveiligde manier verwijderd.\n\nDaarna heb je je pincode, patroon of wachtwoord nodig om je telefoon te ontgrendelen."</string>
+    <string name="security_settings_face_settings_remove_dialog_details" msgid="916131485988121592">Je gezichtsmodel wordt definitief en op een beveiligde manier verwijderd.
+\n
+\nDaarna heb je jouw pincode, patroon of wachtwoord nodig om je telefoon te ontgrendelen of voor verificatie in apps.</string>
+    <string name="security_settings_face_settings_remove_dialog_details_convenience" msgid="475568135197468990">Je gezichtsmodel wordt definitief en op een beveiligde manier verwijderd.
+\n
+\nDaarna heb je jouw pincode, patroon of wachtwoord nodig om je telefoon te ontgrendelen.</string>
     <string name="security_settings_face_settings_context_subtitle" msgid="8284262560781442403">"Ontgrendel je telefoon via gezichtsherkenning"</string>
     <string name="security_settings_fingerprint_preference_title" msgid="2484965173528415458">"Vingerafdruk"</string>
     <string name="security_settings_work_fingerprint_preference_title" msgid="2076006873519745979">"Vingerafdruk voor werk"</string>
@@ -398,7 +410,7 @@
     <string name="security_settings_fingerprint_enroll_introduction_no_thanks" msgid="6104718999323591180">"Nee, bedankt"</string>
     <string name="security_settings_fingerprint_enroll_introduction_agree" msgid="4068276083536421828">"Ik ga akkoord"</string>
     <string name="setup_fingerprint_enroll_skip_title" msgid="2473807887676247264">"Vingerafdruk overslaan?"</string>
-    <string name="setup_fingerprint_enroll_skip_after_adding_lock_text" msgid="2412645723804450304">"Het instellen van een vingerafdruk kost slechts een minuut of twee. Als je dit nu overslaat, kun je je vingerafdruk later toevoegen via de instellingen."</string>
+    <string name="setup_fingerprint_enroll_skip_after_adding_lock_text" msgid="2412645723804450304">Het instellen van een vingerafdruk kost slechts een minuut of twee. Als je dit nu overslaat, kun je jouw vingerafdruk later toevoegen via de instellingen.</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_message_setup" msgid="6255210343107484206">"Als je dit icoon ziet, gebruik je je vingerafdruk voor verificatie, net zoals wanneer je inlogt bij apps of aankopen goedkeurt"</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_footer_title_1" msgid="4360262371633254407">"Aandachtspunt"</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_1" msgid="5824014348182478279">"Je vingerafdruk gebruiken om je telefoon te ontgrendelen is mogelijk minder veilig dan een sterk patroon of sterke pincode"</string>
@@ -5534,4 +5546,5 @@
     <string name="wifi_calling_roaming_mode_summary"><xliff:g id="wfc_roaming_preference" example="Wi-Fi">%1$s</xliff:g></string>
     <string name="wifi_do_not_validate_eap_server_warning">Geen certificaat opgegeven. Je verbinding zal niet geëncrypteerd worden.</string>
     <string name="intent_sender_data_label"><xliff:g id="data">Data:</xliff:g></string>
+    <string name="security_dashboard_summary_e">Schermvergrendeling, app beveiliging</string>
 </resources>
