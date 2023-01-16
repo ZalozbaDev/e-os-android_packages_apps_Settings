@@ -13,7 +13,8 @@
      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
      See the License for the specific language governing permissions and
      limitations under the License.
---><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <plurals name="show_dev_countdown_cm">
         <item quantity="one">Vous êtes maintenant à <xliff:g id="step_count">%1$d</xliff:g> étape de l\'activation des paramètres de développement.</item>
         <item quantity="many">Vous êtes maintenant à <xliff:g id="step_count">%1$d</xliff:g> étapes de l\'activation des paramètres de développement.</item>
@@ -88,11 +89,7 @@
     <string name="e_version_in_progress_update_summary">/e/OS v<xliff:g id="version" example="6.0">%1$s</xliff:g> - mise à jour en cours</string>
     <string name="e_version_pending_update_summary">/e/OS v<xliff:g id="version" example="6.0">%1$s</xliff:g> - mise à jour disponible</string>
     <string name="e_version_summary">Mis à jour vers /e/OS v<xliff:g id="version" example="6.0">%1$s</xliff:g></string>
-    <string name="main_clear_desc_e" product="default">Cela effacera toutes les données de la <b>mémoire interne</b> de votre tablette, y compris :
-\n
-\n<li>Tous vos comptes</li>
-\n<li>Les paramètres et donnée du système et des applications</li>
-\n<li>les applications téléchargées</li></string>
+    <string name="main_clear_desc_e" product="default">Cela effacera toutes les données de la <b>mémoire interne</b> de votre téléphone, y compris :\n\n<li>Tous vos comptes</li>\n<li>Les paramètres et donnée du système et des applications</li>\n<li>les applications téléchargées</li></string>
     <string name="advanced_privacy_dashboard_summary">Gérer les trackers, falsifier la position et masquer l\'adresse IP</string>
     <string name="telemetry_details">Activer la génération automatique de rapports de bugs</string>
     <string name="telemetry_dialog_message">Cela permettra la génération automatique de rapports de bug quand une application plante ou quand elle termine dans un état imprévu. Merci de redémarrer votre appareil pour que la modification de ce paramètre soit prise en compte.</string>
@@ -108,18 +105,18 @@
     <string name="storage_warning_internal">Attention : cette option pourrait ne pas fonctionner correctement ou entraîner une perte de données et n\'est donc pas recommandée !</string>
     <string name="ambient_display_screen_off_udfps_summary">Faites un appui long sur le lecteur d\'empreintes intégré à l\'écran pour réveiller votre écran et le déverrouiller.</string>
     <string name="high_touch_polling_rate_title">Fréquence de détection du doigt élevée</string>
-    <string name="ambient_display_screen_off_udfps_title" product="device">Appui long sur le lecteur d\'empreintes pour déverrouiller le téléphone</string>
+    <string name="ambient_display_screen_off_udfps_title" product="default">Appui long sur le lecteur d\'empreintes pour déverrouiller le téléphone</string>
     <string name="theme_customization_icon_shape_title">Forme d\'icônes</string>
     <string name="theme_customization_font_title">Police</string>
     <string name="heads_up_notifications_enabled_summary">Afficher les notifications prioritaires dans une petite fenêtre flottante</string>
     <string name="fingerprint_wake_unlock_press">Ne guette les événements que lorsque l\'écran est allumé</string>
     <string name="fingerprint_wake_unlock_touch">Guette les événements pendant que l\'écran est éteint</string>
     <string name="fingerprint_wake_unlock_title">Apposez votre empreinte pour déverrouiller</string>
-    <string name="fingerprint_enroll_touch_dialog_message_side" product="default">Touchez le capteur sur le côté de votre tablette.</string>
-    <string name="fingerprint_enroll_touch_dialog_message_rear" product="default">Touchez le capteur à l\'arrière de votre tablette.</string>
-    <string name="fingerprint_enroll_touch_dialog_message_front" product="default">Touchez le capteur à l\'avant de votre tablette.</string>
-    <string name="fingerprint_enroll_find_sensor_message_side" product="default">Localisez le lecteur d\'empreintes sur le côté de votre tablette.</string>
-    <string name="fingerprint_enroll_find_sensor_message_rear" product="default">Localisez le lecteur d\'empreintes à l\'arrière de votre tablette.</string>
-    <string name="fingerprint_enroll_find_sensor_message_front" product="default">Localisez le lecteur d\'empreintes à l\'avant de votre tablette.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="default">Touchez le capteur sur le côté de votre téléphone.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="default">Touchez le capteur à l\'arrière de votre téléphone.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="default">Touchez le capteur à l\'avant de votre téléphone.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="default">Localisez le lecteur d\'empreintes sur le côté de votre téléphone.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="default">Localisez le lecteur d\'empreintes à l\'arrière de votre téléphone.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="default">Localisez le lecteur d\'empreintes à l\'avant de votre téléphone.</string>
     <string name="device_info_protected_single_press">Taper pour voir les informations</string>
 </resources>
