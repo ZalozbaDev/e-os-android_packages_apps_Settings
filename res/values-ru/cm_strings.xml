@@ -13,8 +13,7 @@
      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
      See the License for the specific language governing permissions and
      limitations under the License.
--->
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+--><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <plurals name="show_dev_countdown_cm">
         <item quantity="one">Нажмите еще <xliff:g id="step_count">%1$d</xliff:g> раз, чтобы включить настройки для разработчиков.</item>
         <item quantity="few">Нажмите еще <xliff:g id="step_count">%1$d</xliff:g> раза, чтобы включить настройки для разработчиков.</item>
@@ -110,4 +109,8 @@
     <string name="ambient_display_screen_off_udfps_title" product="tablet">Длительное нажатие на датчик отпечатка пальца для разблокировки планшета</string>
     <string name="ambient_display_screen_off_udfps_title" product="device">Длительное нажатие на датчик отпечатка пальца для разблокировки устройства</string>
     <string name="ambient_display_screen_off_udfps_summary">Для пробуждения экрана и разблокировки удерживайте датчик отпечатков пальцев под дисплеем.</string>
+    <string name="telemetry_dialog_message">Это позволит автоматически сообщать об ошибках при сбое приложения или когда приложение переходит в неожиданное состояние. Пожалуйста, перезагрузите устройство после изменения этой настройки.</string>
+    <string name="telemetry_dialog_title">Вы собираетесь включить /e/OS телеметрию</string>
+    <string name="telemetry_details">Включить автоматическое информирование об ошибках</string>
+    <string name="enable_telemetry">Включить /e/OS телеметрию</string>
 </resources>
