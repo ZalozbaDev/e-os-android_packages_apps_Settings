@@ -543,7 +543,7 @@
     <string name="security_settings_fingerprint_enroll_error_generic_dialog_message" msgid="6068935528640241271">"Vingerafdrukregistratie is mislukt. Probeer het opnieuw of gebruik een andere vinger."</string>
     <string name="fingerprint_enroll_button_add" msgid="6652490687672815760">"Nog een toevoegen"</string>
     <string name="fingerprint_enroll_button_next" msgid="1034110123277869532">"Volgende"</string>
-    <string name="security_settings_fingerprint_enroll_disclaimer" msgid="7875826823637114097">"Behalve voor het ontgrendelen van je telefoon kun je je vingerafdruk ook gebruiken voor het autoriseren van aankopen en app-toegang. "<annotation id="url">"Meer informatie"</annotation></string>
+    <string name="security_settings_fingerprint_enroll_disclaimer" msgid="7875826823637114097">Behalve voor het ontgrendelen van je telefoon kun je jouw vingerafdruk ook gebruiken voor het autoriseren van aankopen en app-toegang. <annotation id="url">Meer informatie</annotation></string>
     <string name="security_settings_fingerprint_enroll_disclaimer_lockscreen_disabled" msgid="4260983700868889294">" De optie voor schermvergrendeling staat uit. Neem contact op met de beheerder van je organisatie voor meer informatie. "<annotation id="admin_details">"Meer informatie"</annotation>\n\n"Je kunt je vingerafdruk nog steeds gebruiken voor het autoriseren van aankopen en app-toegang. "<annotation id="url">"Meer informatie"</annotation></string>
     <string name="security_settings_fingerprint_enroll_lift_touch_again" msgid="2590665137265458789">"Til je vinger op en raak de sensor opnieuw aan"</string>
     <string name="security_settings_fingerprint_bad_calibration" msgid="598502302101068608">"Kan vingerafdruksensor niet gebruiken. Ga naar een reparateur."</string>
@@ -578,7 +578,7 @@
     <string name="crypt_keeper_setup_time_remaining" product="tablet" msgid="8348188415839917821">"Wacht terwijl je telefoon wordt versleuteld. Resterende tijd: <xliff:g id="DURATION">^1</xliff:g>"</string>
     <string name="crypt_keeper_setup_time_remaining" product="default" msgid="8556105766597855198">"Wacht terwijl je telefoon wordt versleuteld. Resterende tijd: <xliff:g id="DURATION">^1</xliff:g>"</string>
     <string name="crypt_keeper_force_power_cycle" product="tablet" msgid="3832496715430327682">"Als je je tablet wilt ontgrendelen, zet je deze uit en weer aan."</string>
-    <string name="crypt_keeper_force_power_cycle" product="default" msgid="5070346039522135361">"Als je je telefoon wilt ontgrendelen, zet je deze uit en weer aan."</string>
+    <string name="crypt_keeper_force_power_cycle" product="default" msgid="5070346039522135361">Als je jouw telefoon wilt ontgrendelen, schakel je deze uit en weer in.</string>
     <string name="crypt_keeper_warn_wipe" msgid="8104921337301750394">"Waarschuwing: na nog <xliff:g id="COUNT">^1</xliff:g> mislukte pogingen om te ontgrendelen, wordt je apparaat gewist."</string>
     <string name="crypt_keeper_enter_password" msgid="1274917431075529732">"Typ je wachtwoord"</string>
     <string name="crypt_keeper_failed_title" msgid="8173654570682244149">"Encryptie mislukt"</string>
@@ -1440,9 +1440,9 @@
     <string name="sim_enter_cancel" msgid="2001859323724961490">"Annuleren"</string>
     <string name="sim_multi_sims_title" msgid="4875083890014013296">"Meerdere simkaarten gevonden"</string>
     <string name="sim_multi_sims_summary" msgid="1711012455679332238">"Kies de simkaart die je wilt gebruiken voor mobiele data."</string>
-    <string name="sim_change_data_title" msgid="4663239438584588847">"<xliff:g id="CARRIER">%1$s</xliff:g> gebruiken voor mobiele data?"</string>
-    <string name="sim_change_data_message" msgid="3046178883369645132">"Je gebruikt <xliff:g id="CARRIER2_0">%2$s</xliff:g> voor mobiele data. Als je overschakelt naar <xliff:g id="CARRIER1">%1$s</xliff:g>, wordt <xliff:g id="CARRIER2_1">%2$s</xliff:g> niet meer gebruikt voor mobiele data."</string>
-    <string name="sim_change_data_ok" msgid="4922114750417276560">"<xliff:g id="CARRIER">%1$s</xliff:g> gebruiken"</string>
+    <string name="sim_change_data_title" msgid="4663239438584588847"> <xliff:g id="carrier" example="Verizon">%1$s</xliff:g> gebruiken voor mobiele data\? </string>
+    <string name="sim_change_data_message" msgid="3046178883369645132"> Je gebruikt <xliff:g id="carrier2" example="T-mobile">%2$s</xliff:g> voor mobiele data. Als je overschakelt naar <xliff:g id="carrier1" example="Verizon">%1$s</xliff:g>, wordt <xliff:g id="carrier2" example="T-mobile">%2$s</xliff:g> niet meer gebruikt voor mobiele data. </string>
+    <string name="sim_change_data_ok" msgid="4922114750417276560"> Gebruik <xliff:g id="carrier" example="Verizon">%1$s</xliff:g> </string>
     <string name="sim_preferred_title" msgid="7182406911552216373">"Voorkeurs-simkaart updaten?"</string>
     <string name="sim_preferred_message" msgid="6004009449266648351">"<xliff:g id="NEW_SIM">%1$s</xliff:g> is de enige simkaart in je apparaat. Wil je deze simkaart gebruiken voor mobiele data, gesprekken en sms-berichten?"</string>
     <string name="wrong_pin_code_pukked" msgid="3414172752791445033">"Onjuiste pincode voor simkaart. Je moet nu contact opnemen met je provider om je apparaat te ontgrendelen."</string>
@@ -2507,9 +2507,9 @@
     <string name="touch_filtered_warning" msgid="4225815157460318241">"Aangezien een app een rechtenverzoek afdekt, kan Instellingen je reactie niet verifiëren."</string>
     <string name="enable_service_encryption_warning" msgid="931082737770453755">"Als je <xliff:g id="SERVICE">%1$s</xliff:g> aanzet, gebruikt je apparaat geen schermvergrendeling om de gegevensversleuteling te verbeteren."</string>
     <string name="secure_lock_encryption_warning" msgid="669152607190123579">"Je hebt een toegankelijkheidsservice aangezet, waardoor je apparaat geen schermvergrendeling gebruikt om de gegevensversleuteling te verbeteren."</string>
-    <string name="enable_service_pattern_reason" msgid="6832846117817938536">"Aangezien het aanzetten van <xliff:g id="SERVICE">%1$s</xliff:g> van invloed is op de gegevensversleuteling, moet je je patroon bevestigen."</string>
+    <string name="enable_service_pattern_reason" msgid="6832846117817938536">Aangezien het inschakelen van <xliff:g id="service" example="TalkBack">%1$s</xliff:g> invloed heeft op data encryptie, moet je jouw patroon bevestigen. </string>
     <string name="enable_service_pin_reason" msgid="6040417014360237703">"Aangezien het aanzetten van <xliff:g id="SERVICE">%1$s</xliff:g> van invloed is op de gegevensversleuteling, moet de pincode worden bevestigd."</string>
-    <string name="enable_service_password_reason" msgid="6962544350351734238">"Aangezien het aanzetten van <xliff:g id="SERVICE">%1$s</xliff:g> van invloed is op de gegevensversleuteling, moet je je wachtwoord bevestigen."</string>
+    <string name="enable_service_password_reason" msgid="6962544350351734238">Aangezien het inschakelen van <xliff:g id="service" example="TalkBack">%1$s</xliff:g> invloed heeft op data encryptie, moet je jouw wachtwoord bevestigen. </string>
     <string name="accessibility_service_warning" msgid="6779187188736432618">"<xliff:g id="SERVICE">%1$s</xliff:g> vraagt om volledig beheer voor dit apparaat. De service kan het scherm lezen en handelen namens gebruikers met toegankelijkheidsbehoeften. Dit beheerniveau is voor de meeste apps niet gepast."</string>
     <string name="accessibility_service_warning_description" msgid="6573203795976134751">"Volledige controle is gepast voor apps die je helpen met toegankelijkheid, maar voor de meeste apps is het ongepast."</string>
     <string name="accessibility_service_screen_control_title" msgid="324795030658109870">"Scherm bekijken en bedienen"</string>
@@ -3494,7 +3494,7 @@
     <string name="keywords_flashlight" msgid="2133079265697578183">"Zaklamp, lamp, licht, lampje"</string>
     <string name="keywords_change_wifi_state" msgid="7573039644328488165">"wifi, wi-fi, schakelen, aanzetten, uitzetten, beheren"</string>
     <string name="keywords_more_mobile_networks" msgid="5041272719326831744">"mobiel, gsm, provider, draadloos, gegevens, data, 4g, 3g, 2g, lte"</string>
-    <string name="keywords_wifi_calling" msgid="4319184318421027136">"wifi, wi-fi, gesprek, gesprek, bellen, gebeld"</string>
+    <string name="keywords_wifi_calling" msgid="4319184318421027136">wifi, wi-fi, gesprek, bellen</string>
     <string name="keywords_display" msgid="874738809280751745">"scherm, touchscreen"</string>
     <string name="keywords_display_brightness_level" msgid="850742707616318056">"scherm dimmen, touchscreen, batterij, helder"</string>
     <string name="keywords_display_night_display" msgid="4711054330804250058">"scherm dimmen, nacht, tint, nachtdienst, helderheid, schermkleur, kleur, kleurstelling"</string>
@@ -3534,7 +3534,7 @@
     <string name="keywords_gesture" msgid="3456930847450080520">"gebaren"</string>
     <string name="keywords_wallet" msgid="3757421969956996972">"portemonnee"</string>
     <string name="keywords_payment_settings" msgid="6268791289277000043">"betalen, tikken, betalingen"</string>
-    <string name="keywords_backup" msgid="707735920706667685">"back-up, back-up maken, back-uppen"</string>
+    <string name="keywords_backup" msgid="707735920706667685">back-up, back-uppen</string>
     <string name="keywords_assist_gesture_launch" msgid="7710762655355161924">"gebaar"</string>
     <string name="keywords_face_unlock" msgid="545338452730885392">"gezicht, ontgrendelen, auth, inloggen"</string>
     <string name="keywords_biometric_unlock" msgid="8569545388717753692">"gezicht, ontgrendelen, verificatie, inloggen, vingerafdruk, biometrisch"</string>
@@ -3902,7 +3902,7 @@
     <string name="notification_assistant_security_warning_summary" msgid="4846559755787348129">"In Android 12 hebben verbeterde meldingen aanpasbare Android-meldingen vervangen. Deze functie laat voorgestelde acties en antwoorden zien en ordent je meldingen. \n\nVerbeterde meldingen hebben toegang tot meldingscontent, waaronder persoonlijke informatie zoals contactnamen en berichten. Deze functie kan ook meldingen sluiten of erop reageren, zoals telefoongesprekken aannemen, en Niet storen beheren."</string>
     <string name="notification_listener_security_warning_title" msgid="5791700876622858363">"Toegang tot meldingen toestaan voor <xliff:g id="SERVICE">%1$s</xliff:g>?"</string>
     <string name="notification_listener_security_warning_summary" msgid="3668606006326629153">"<xliff:g id="NOTIFICATION_LISTENER_NAME">%1$s</xliff:g> kan alle meldingen lezen, waaronder persoonlijke informatie zoals contactnamen en de tekst van berichten die je krijgt. Deze app kan deze meldingen ook snoozen of sluiten of acties uitvoeren voor knoppen in meldingen, waaronder het beantwoorden van gesprekken. \n\nHierdoor kan de app ook Niet storen aan- of uitzetten en gerelateerde instellingen wijzigen."</string>
-    <string name="notification_listener_disable_warning_summary" msgid="8373396293802088961">"Als je <xliff:g id="NOTIFICATION_LISTENER_NAME">%1$s</xliff:g> geen toegang tot meldingen geeft, geef je Niet storen mogelijk ook geen toegang."</string>
+    <string name="notification_listener_disable_warning_summary" msgid="8373396293802088961"> Als je toegang tot meldingen uitschakelt voor <xliff:g id="notification_listener_name">%1$s</xliff:g>, kan toegang tot \'Niet storen\' ook worden uitgeschakeld. </string>
     <string name="notification_listener_disable_warning_confirm" msgid="841492108402184976">"Uitzetten"</string>
     <string name="notification_listener_disable_warning_cancel" msgid="8802784105045594324">"Annuleren"</string>
     <string name="notification_listener_type_title" msgid="2791552789364336733">"Toegestane meldingstypen"</string>
@@ -3923,7 +3923,7 @@
     <string name="vr_listeners_title" msgid="4960357292472540964">"VR-helperservices"</string>
     <string name="no_vr_listeners" msgid="8442646085375949755">"Er zijn geen geïnstalleerde apps die hebben gevraagd om te worden uitgevoerd als VR-helperservices."</string>
     <string name="vr_listener_security_warning_title" msgid="7026351795627615177">"VR-servicetoegang toestaan voor <xliff:g id="SERVICE">%1$s</xliff:g>?"</string>
-    <string name="vr_listener_security_warning_summary" msgid="1888843557687017791">"<xliff:g id="VR_LISTENER_NAME">%1$s</xliff:g> kan worden uitgevoerd wanneer je apps in de virtual reality-modus gebruikt."</string>
+    <string name="vr_listener_security_warning_summary" msgid="1888843557687017791"> <xliff:g id="vr_listener_name">%1$s</xliff:g> kan worden uitgevoerd wanneer je apps in de virtual reality modus gebruikt. </string>
     <string name="display_vr_pref_title" msgid="4850474436291113569">"In VR-modus"</string>
     <string name="display_vr_pref_low_persistence" msgid="7039841277157739871">"Vervaging beperken (aanbevolen)"</string>
     <string name="display_vr_pref_off" msgid="4008841566387432721">"Flikkering beperken"</string>
@@ -4029,7 +4029,7 @@
     <string name="zen_mode_event_rule_summary_any_calendar" msgid="8395450413356855311">"elke agenda"</string>
     <string name="zen_mode_event_rule_summary_reply_template" msgid="7786137431469077008">"Waar het antwoord <xliff:g id="REPLY">%1$s</xliff:g> is"</string>
     <string name="zen_mode_event_rule_calendar_any" msgid="5152139705998281205">"Elke agenda"</string>
-    <string name="zen_mode_event_rule_reply" msgid="6099405414361340225">"Bij antwoord:"</string>
+    <string name="zen_mode_event_rule_reply" msgid="6099405414361340225">Indien het antwoord is</string>
     <string name="zen_mode_event_rule_reply_any_except_no" msgid="4672746760505346596">"Ja, Misschien of Niet gereageerd"</string>
     <string name="zen_mode_event_rule_reply_yes_or_maybe" msgid="6584448788100186574">"Ja of Misschien"</string>
     <string name="zen_mode_event_rule_reply_yes" msgid="7812120982734551236">"Ja"</string>
@@ -4202,9 +4202,9 @@
     <string name="encrypt_talkback_dialog_require_pin" msgid="8974156384205924887">"Pincode vereisen?"</string>
     <string name="encrypt_talkback_dialog_require_pattern" msgid="1587587568721873184">"Patroon vereisen?"</string>
     <string name="encrypt_talkback_dialog_require_password" msgid="2701793623210531836">"Wachtwoord vereisen?"</string>
-    <string name="encrypt_talkback_dialog_message_pin" msgid="4482887117824444481">"Wanneer je je pincode opgeeft om dit apparaat te starten, zijn toegankelijkheidsservices zoals <xliff:g id="SERVICE">%1$s</xliff:g> nog niet beschikbaar."</string>
-    <string name="encrypt_talkback_dialog_message_pattern" msgid="5156321541636018756">"Wanneer je je patroon opgeeft om dit apparaat te starten, zijn toegankelijkheidsservices zoals <xliff:g id="SERVICE">%1$s</xliff:g> nog niet beschikbaar."</string>
-    <string name="encrypt_talkback_dialog_message_password" msgid="1917287751192953034">"Wanneer je je wachtwoord opgeeft om dit apparaat te starten, zijn toegankelijkheidsservices zoals <xliff:g id="SERVICE">%1$s</xliff:g> nog niet beschikbaar."</string>
+    <string name="encrypt_talkback_dialog_message_pin" msgid="4482887117824444481">Wanneer je jouw pincode opgeeft om dit apparaat te starten, zijn toegankelijkheidsservices zoals <xliff:g id="service" example="TalkBack">%1$s</xliff:g> nog niet beschikbaar.</string>
+    <string name="encrypt_talkback_dialog_message_pattern" msgid="5156321541636018756">Wanneer je jouw patroon opgeeft om dit apparaat te starten, zijn toegankelijkheidsservices zoals <xliff:g id="service" example="TalkBack">%1$s</xliff:g> nog niet beschikbaar.</string>
+    <string name="encrypt_talkback_dialog_message_password" msgid="1917287751192953034">Wanneer je jouw wachtwoord opgeeft om dit apparaat te starten, zijn toegankelijkheidsservices zoals <xliff:g id="service" example="TalkBack">%1$s</xliff:g> nog niet beschikbaar.</string>
     <string name="direct_boot_unaware_dialog_message" msgid="5766006106305996844">"Opmerking: Als je de telefoon opnieuw opstart en een schermvergrendeling hebt ingesteld, kan deze app pas worden gestart nadat je de telefoon hebt ontgrendeld"</string>
     <string name="imei_information_title" msgid="8703564992893669514">"IMEI-informatie"</string>
     <string name="imei_information_summary" msgid="4763358372990258786">"Relatieve IMEI-informatie"</string>
@@ -4322,7 +4322,7 @@
     <string name="assist_and_voice_input_title" msgid="6317935163145135914">"Assistentie en spraakinvoer"</string>
     <string name="default_assist_title" msgid="1182435129627493758">"Digitale-assistent-app"</string>
     <string name="default_digital_assistant_title" msgid="5654663086385490838">"Standaard digitale-assistent-app"</string>
-    <string name="assistant_security_warning_title" msgid="6444187332360938730">"<xliff:g id="ASSISTANT_APP_NAME">%s</xliff:g> instellen als assistent?"</string>
+    <string name="assistant_security_warning_title" msgid="6444187332360938730"> Gebruik <xliff:g id="assistant_app_name">%s</xliff:g> als jouw assistent\? </string>
     <string name="assistant_security_warning" msgid="5623237187748811070">"De assistentie-app kan informatie over de gebruikte apps in je systeem lezen, waaronder informatie die zichtbaar is op je scherm of toegankelijk is in de apps."</string>
     <string name="assistant_security_warning_agree" msgid="9013334158753473359">"Akkoord"</string>
     <string name="assistant_security_warning_disagree" msgid="1539182108068356410">"Niet akkoord"</string>
@@ -4368,7 +4368,9 @@
     <string name="high_power_system" msgid="3966701453644915787">"Batterijoptimalisatie niet beschikbaar"</string>
     <string name="high_power_desc" msgid="2753076899835765338">"Batterijoptimalisatie niet toepassen. Hierdoor kan je batterijverbruik toenemen."</string>
     <string name="high_power_prompt_title" msgid="2574478825228409124">"App altijd uitvoeren op de achtergrond?"</string>
-    <string name="high_power_prompt_body" msgid="6460557929559616041">"Als je toestaat dat <xliff:g id="APP_NAME">%1$s</xliff:g> altijd op de achtergrond wordt uitgevoerd, kan de batterij sneller leeg raken. \n\nJe kunt dit later wijzigen via Instellingen &gt; Apps en meldingen."</string>
+    <string name="high_power_prompt_body" msgid="6460557929559616041"> Als je toestaat dat <xliff:g id="app_name" example="Settings">%1$s</xliff:g> altijd op de achtergrond wordt uitgevoerd, kan de batterij sneller leeg raken.
+\n
+\nJe kunt dit later wijzigen via Instellingen &gt; Apps en meldingen.</string>
     <string name="battery_summary" msgid="2491764359695671207">"<xliff:g id="PERCENTAGE">%1$s</xliff:g> gebruik sinds laatste volledige lading"</string>
     <string name="battery_summary_24hr" msgid="7656033283282656551">"<xliff:g id="PERCENTAGE">%1$s</xliff:g> gebruik in de afgelopen 24 uur"</string>
     <string name="no_battery_summary" msgid="5769159953384122003">"Geen accugebruik sinds laatste volledige lading"</string>
@@ -4855,7 +4857,7 @@
     <string name="fingerprint_gesture_screen_title" msgid="9086261338232806522">"Over vingerafdruk swipen"</string>
     <string name="fingerprint_swipe_for_notifications_summary" product="default" msgid="286662791588779673">"Swipe omlaag over de vingerafdruksensor achter op je telefoon om je meldingen te checken."</string>
     <string name="fingerprint_swipe_for_notifications_summary" product="tablet" msgid="8642092907817554454">"Swipe omlaag over de vingerafdruksensor achter op je tablet om je meldingen te checken."</string>
-    <string name="fingerprint_swipe_for_notifications_summary" product="device" msgid="3888927017311372398">"Swipe omlaag over de vingerafdruksensor achter op je apparaat om je meldingen te checken."</string>
+    <string name="fingerprint_swipe_for_notifications_summary" product="device" msgid="3888927017311372398">Als je jouw meldingen wilt bekijken, veeg je omlaag over de vingerafdruksensor achter op je apparaat.</string>
     <string name="fingerprint_swipe_for_notifications_suggestion_title" msgid="2956636269742745449">"Snel meldingen bekijken"</string>
     <string name="gesture_setting_on" msgid="3223448394997988591">"Aan"</string>
     <string name="gesture_setting_off" msgid="3444029475726294919">"Uit"</string>
@@ -5194,10 +5196,12 @@
     <string name="mobile_network_use_sim_on" msgid="7298332437547707908">"Simkaart gebruiken"</string>
     <string name="mobile_network_use_sim_off" msgid="6303281166199670639">"Uit"</string>
     <string name="mobile_network_disable_sim_explanation" msgid="2851862257846773796">"Verwijder de simkaart om deze simkaart uit te zetten"</string>
-    <string name="mobile_network_tap_to_activate" msgid="4139979375717958102">"Tik om <xliff:g id="CARRIER">%1$s</xliff:g> te activeren"</string>
-    <string name="mobile_network_esim_swap_confirm_title" msgid="2762744961192218789">"Overschakelen naar <xliff:g id="CARRIER">%1$s</xliff:g>?"</string>
-    <string name="mobile_network_esim_swap_confirm_body" msgid="8168680839542031781">"Er kan maar 1 gedownloade simkaart tegelijk actief zijn.\n\nAls je overschakelt naar <xliff:g id="CARRIER1">%1$s</xliff:g>, wordt de service van <xliff:g id="CARRIER2">%2$s</xliff:g> niet geannuleerd."</string>
-    <string name="mobile_network_esim_swap_confirm_ok" msgid="8695772737522378095">"Overschakelen naar <xliff:g id="CARRIER">%1$s</xliff:g>"</string>
+    <string name="mobile_network_tap_to_activate" msgid="4139979375717958102"> Tik om <xliff:g id="carrier" example="T-mobile">%1$s</xliff:g> te activeren </string>
+    <string name="mobile_network_esim_swap_confirm_title" msgid="2762744961192218789"> Overschakelen naar <xliff:g id="carrier" example="T-mobile">%1$s</xliff:g>\? </string>
+    <string name="mobile_network_esim_swap_confirm_body" msgid="8168680839542031781"> Er kan slechts één gedownloade simkaart tegelijk actief zijn.
+\n
+\nOverschakelen naar <xliff:g id="carrier1" example="T-mobile">%1$s</xliff:g> zal jouw <xliff:g id="carrier2" example="Verizon">%2$s</xliff:g> service niet annuleren. </string>
+    <string name="mobile_network_esim_swap_confirm_ok" msgid="8695772737522378095"> Overschakelen naar <xliff:g id="carrier" example="T-mobile">%1$s</xliff:g> </string>
     <string name="mobile_network_erase_sim" msgid="4629071168032714930">"Simkaart wissen"</string>
     <string name="mobile_network_erase_sim_error_dialog_title" msgid="6680959559589234726">"Kan simkaart niet wissen"</string>
     <string name="mobile_network_erase_sim_error_dialog_body" msgid="6401922869095572710">"Door een fout kan deze simkaart niet worden gewist.\n\nStart je apparaat opnieuw en probeer het nogmaals."</string>
