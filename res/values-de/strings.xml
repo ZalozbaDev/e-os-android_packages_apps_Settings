@@ -1535,7 +1535,7 @@
 \n
 \nEntferne die <xliff:g id="name" example="SD card">^2</xliff:g> während des Vorgangs nicht. </string>
     <string name="storage_wizard_move_unlock" msgid="14651384927767749">Um Daten zu verschieben, muss erst <xliff:g id="app" example="Joey">^1</xliff:g> entsperrt werden.</string>
-    <string name="storage_wizard_move_progress_title" msgid="3912406225614672391">"<xliff:g id="APP">^1</xliff:g> wird verschoben…"</string>
+    <string name="storage_wizard_move_progress_title" msgid="3912406225614672391"><xliff:g id="app" example="Calculator">^1</xliff:g> wird verschoben …</string>
     <string name="storage_wizard_move_progress_body" msgid="2396714553394935094">Entferne die <xliff:g id="NAME">^1</xliff:g> während des Vorgangs nicht.
 \n
 \nDie App <xliff:g id="APP">^2</xliff:g> auf diesem Gerät ist erst wieder verfügbar, nachdem sie vollständig verschoben wurde. </string>
@@ -3307,7 +3307,7 @@
     <string name="keywords_color_temperature" msgid="8159539138837118453">"farbe, temperatur, d65, d73, weiß, gelb, blau, warm, kalt"</string>
     <string name="keywords_lockscreen" msgid="3656926961043485797">Zum Entsperren über den Bildschirm wischen, Passwort, Muster, PIN</string>
     <string name="keywords_app_pinning" msgid="1564144561464945019">"Bildschirmfixierung"</string>
-    <string name="keywords_profile_challenge" msgid="5135555521652143612">Herausforderung bei der Arbeit, Arbeit, Profil</string>
+    <string name="keywords_profile_challenge" msgid="5135555521652143612">Arbeitsherausforderungen, Arbeit, Profil</string>
     <string name="keywords_unification" msgid="2677472004971453468">"arbeitsprofil, verwaltetes profil, gruppieren, gruppierung, arbeit, profil"</string>
     <string name="keywords_gesture" msgid="3456930847450080520">"gesten, bewegungen, touch-gesten"</string>
     <string name="keywords_cards_passes" msgid="4798102029412153067">"Karten, Tickets"</string>
@@ -4659,7 +4659,7 @@
     <string name="storage_other_apps" msgid="5902520888043081176">"Sonstige Apps"</string>
     <string name="storage_files" msgid="7968460921272772299">"Dateien"</string>
     <string name="storage_size_large_alternate" msgid="7555149858858591495"><xliff:g id="number" example="128">^1</xliff:g><small> <font size="20"><xliff:g id="unit" example="KB">^2</xliff:g></font></small></string>
-    <string name="storage_volume_total" msgid="7102720999351050601">Von <xliff:g id="total" example="32GB">%1$s</xliff:g> belegt</string>
+    <string name="storage_volume_total" msgid="7102720999351050601">Belegt von <xliff:g id="total" example="32GB">%1$s</xliff:g></string>
     <string name="storage_percent_full" msgid="7211888326013020857">"belegt"</string>
     <string name="clear_instant_app_data" msgid="5951258323364386357">"App löschen"</string>
     <string name="clear_instant_app_confirmation" msgid="3964731334459209482">"Möchtest du diese Instant-App entfernen?"</string>
@@ -5071,4 +5071,10 @@
     <string name="bluetooth_confirm_passkey_msg">Um mit &lt;br&gt;&lt;b&gt;<xliff:g id="device_name">%1$s</xliff:g>&lt;/b&gt;&lt;br&gt;&lt;br&gt; zu verbinden, überprüfe folgenden Passwortschlüssel: &lt;br&gt;&lt;b&gt;<xliff:g id="passkey">%2$s</xliff:g>&lt;/b&gt;</string>
     <string name="intent_sender_data_label"><xliff:g id="data">Daten:</xliff:g></string>
     <string name="status_imei">IMEI</string>
+    <string name="battery_stats_last_duration">\@string/menu_stats_last_unplugged</string>
+    <string name="testing_sim_toolkit">SIM-Werkzeuge</string>
+    <string name="status_iccid">ICCID</string>
+    <string name="status_imei_sv">IMEI SV</string>
+    <string name="wifi_saved_access_points_tab">\@string/wifi_access_points</string>
+    <string name="debug_intent_sender_label">Debug intent sender</string>
 </resources>
