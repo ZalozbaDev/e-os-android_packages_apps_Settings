@@ -50,7 +50,11 @@
     <string name="radio_info_ims_reg_status_not_registered" msgid="4077921618888195960">"Nicht registriert"</string>
     <string name="radio_info_ims_feature_status_available" msgid="8993855603692847184">"Verfügbar"</string>
     <string name="radio_info_ims_feature_status_unavailable" msgid="6863496498730629050">"Nicht verfügbar"</string>
-    <string name="radio_info_ims_reg_status" msgid="7485500436613134869">"IMS-Registrierung: <xliff:g id="STATUS">%1$s</xliff:g>\nVoice-over-LTE: <xliff:g id="AVAILABILITY_0">%2$s</xliff:g>\nVoice-over-WLAN: <xliff:g id="AVAILABILITY_1">%3$s</xliff:g>\nVideoanrufe: <xliff:g id="AVAILABILITY_2">%4$s</xliff:g>\nUT-Oberfläche: <xliff:g id="AVAILABILITY_3">%5$s</xliff:g>"</string>
+    <string name="radio_info_ims_reg_status" msgid="7485500436613134869">IMS-Registrierung: <xliff:g id="status" example="registered">%1$s</xliff:g>
+\nVoice over LTE: <xliff:g id="availability" example="available">%2$s</xliff:g>
+\nVoice over WLAN: <xliff:g id="availability" example="available">%3$s</xliff:g>
+\nVideoanrufe: <xliff:g id="availability" example="available">%4$s</xliff:g>
+\nUT-Oberfläche: <xliff:g id="availability" example="available">%5$s</xliff:g></string>
     <string name="radioInfo_service_in" msgid="9088637745836646271">"In Betrieb"</string>
     <string name="radioInfo_service_out" msgid="1868347333892403287">"Außer Betrieb"</string>
     <string name="radioInfo_service_emergency" msgid="6838935881091760942">"Nur Notrufe"</string>
@@ -1562,7 +1566,7 @@
 \n
 \nEntferne die <xliff:g id="name" example="SD card">^2</xliff:g> während des Vorgangs nicht. </string>
     <string name="storage_wizard_move_unlock" msgid="14651384927767749">Um Daten zu verschieben, muss erst <xliff:g id="app" example="Joey">^1</xliff:g> entsperrt werden.</string>
-    <string name="storage_wizard_move_progress_title" msgid="3912406225614672391">"<xliff:g id="APP">^1</xliff:g> wird verschoben…"</string>
+    <string name="storage_wizard_move_progress_title" msgid="3912406225614672391"><xliff:g id="app" example="Calculator">^1</xliff:g> wird verschoben …</string>
     <string name="storage_wizard_move_progress_body" msgid="2396714553394935094">Entferne die <xliff:g id="NAME">^1</xliff:g> während des Vorgangs nicht.
 \n
 \nDie App <xliff:g id="APP">^2</xliff:g> auf diesem Gerät ist erst wieder verfügbar, nachdem sie vollständig verschoben wurde. </string>
@@ -3204,7 +3208,7 @@
     <string name="keywords_color_mode" msgid="1193896024705705826">"brillant, rgb, srgb, farbe, natürlich, standard"</string>
     <string name="keywords_color_temperature" msgid="8159539138837118453">"farbe, temperatur, d65, d73, weiß, gelb, blau, warm, kalt"</string>
     <string name="keywords_lockscreen" msgid="3656926961043485797">Zum Entsperren über den Bildschirm wischen, Passwort, Muster, PIN</string>
-    <string name="keywords_profile_challenge" msgid="5135555521652143612">Herausforderung bei der Arbeit, Arbeit, Profil</string>
+    <string name="keywords_profile_challenge" msgid="5135555521652143612">Arbeitsherausforderungen, Arbeit, Profil</string>
     <string name="keywords_unification" msgid="2677472004971453468">"arbeitsprofil, verwaltetes profil, gruppieren, gruppierung, arbeit, profil"</string>
     <string name="keywords_gesture" msgid="3456930847450080520">"gesten, bewegungen, touch-gesten"</string>
     <string name="keywords_payment_settings" msgid="6268791289277000043">"Bezahlen, kontaktlos, Zahlungen"</string>
@@ -3278,8 +3282,8 @@
     <string name="live_caption_summary" msgid="2898451867595161809">"Medien automatisch untertiteln"</string>
     <string name="zen_mode_settings_summary_off" msgid="7844433300559059480">"Nie"</string>
     <plurals name="zen_mode_settings_summary_on" formatted="false" msgid="3254890503929315009">
-        <item quantity="other"><xliff:g id="ON_COUNT">%d</xliff:g> aktiviert</item>
-        <item quantity="one">1 aktiviert</item>
+        <item quantity="one">1 aktiviert</item>
+        <item quantity="other"><xliff:g id="on_count" example="10">%d</xliff:g> aktiviert</item>
     </plurals>
     <string name="zen_mode_settings_title" msgid="682676757791334259">"Bitte nicht stören"</string>
     <string name="zen_mode_slice_subtitle" msgid="6849372107272604160">"Unterbrechungen einschränken"</string>
@@ -3653,8 +3657,8 @@
     <string name="zen_mode_bypassing_apps" msgid="625309443389126481">"Überschreiben durch Apps zulassen"</string>
     <string name="zen_mode_bypassing_apps_title" msgid="4142154650779609193">"App-Ausnahmen"</string>
     <plurals name="zen_mode_bypassing_apps_subtext" formatted="false" msgid="3992144201138339160">
-        <item quantity="other">Benachrichtigungen von <xliff:g id="NUMBER">%1$d</xliff:g> Apps können \"Bitte nicht stören\" überschreiben</item>
-        <item quantity="one">Benachrichtigungen von 1 App können \"Bitte nicht stören\" überschreiben</item>
+        <item quantity="one">Benachrichtigungen von einer App können „Bitte nicht stören“ überschreiben</item>
+        <item quantity="other">Benachrichtigungen von <xliff:g id="number" example="2">%1$d</xliff:g> Apps können „Bitte nicht stören“ überschreiben</item>
     </plurals>
     <string name="zen_mode_events_list" msgid="7191316245742097229">"Termine"</string>
     <string name="zen_mode_all_callers" msgid="8104755389401941875">"Alle"</string>
@@ -4398,7 +4402,7 @@
     <string name="storage_other_apps" msgid="5902520888043081176">"Sonstige Apps"</string>
     <string name="storage_files" msgid="7968460921272772299">"Dateien"</string>
     <string name="storage_size_large_alternate" msgid="7555149858858591495"><xliff:g id="number" example="128">^1</xliff:g><small> <font size="20"><xliff:g id="unit" example="KB">^2</xliff:g></font></small></string>
-    <string name="storage_volume_total" msgid="7102720999351050601">Von <xliff:g id="total" example="32GB">%1$s</xliff:g> belegt</string>
+    <string name="storage_volume_total" msgid="7102720999351050601">Belegt von <xliff:g id="total" example="32GB">%1$s</xliff:g></string>
     <string name="storage_percent_full" msgid="7211888326013020857">"belegt"</string>
     <string name="clear_instant_app_data" msgid="5951258323364386357">"App löschen"</string>
     <string name="clear_instant_app_confirmation" msgid="3964731334459209482">"Möchtest du diese Instant-App entfernen?"</string>
@@ -4748,4 +4752,11 @@
     <string name="bluetooth_confirm_passkey_msg">Um mit &lt;br&gt;&lt;b&gt;<xliff:g id="device_name">%1$s</xliff:g>&lt;/b&gt;&lt;br&gt;&lt;br&gt; zu verbinden, überprüfe folgenden Passwortschlüssel: &lt;br&gt;&lt;b&gt;<xliff:g id="passkey">%2$s</xliff:g>&lt;/b&gt;</string>
     <string name="intent_sender_data_label"><xliff:g id="data">Daten:</xliff:g></string>
     <string name="status_imei">IMEI</string>
+    <string name="battery_stats_last_duration">\@string/menu_stats_last_unplugged</string>
+    <string name="testing_sim_toolkit">SIM-Werkzeuge</string>
+    <string name="status_iccid">ICCID</string>
+    <string name="status_imei_sv">IMEI SV</string>
+    <string name="wifi_connected_to_message">\@string/bluetooth_connected_summary</string>
+    <string name="debug_intent_sender_label">Debug intent sender</string>
+    <string name="radio_info_imsi_label">IMSI:</string>
 </resources>
