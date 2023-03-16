@@ -23,11 +23,6 @@
         settings:searchable="false"
         android:title="@string/adaptive_connectivity_summary"/>
 
-    <com.android.settingslib.widget.IllustrationPreference
-        android:key="adaptive_connectivity_header"
-        settings:searchable="false"
-        settings:lottie_rawRes="@drawable/ic_enhanced_connectivity"/>
-
     <com.android.settingslib.widget.MainSwitchPreference
         android:key="adaptive_connectivity"
         android:title="@string/adaptive_connectivity_title"
