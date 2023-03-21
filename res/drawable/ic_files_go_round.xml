@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright ECORP SAS 2022
+  ~ This program is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ This program is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~  along with this program.  If not, see <https://www.gnu.org/licenses/>.
+  -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="40dp"
+    android:height="40dp"
+    android:viewportWidth="180"
+    android:viewportHeight="181">
+  <group>
+    <clip-path
+        android:pathData="M0,0.03h180v180h-180z"/>
+    <path
+        android:pathData="M142,0.03H38C17.01,0.03 0,17.04 0,38.03V142.03C0,163.02 17.01,180.03 38,180.03H142C162.99,180.03 180,163.02 180,142.03V38.03C180,17.04 162.99,0.03 142,0.03Z">
+      <aapt:attr name="android:fillColor">
+        <gradient
+            android:startX="90"
+            android:startY="0.03"
+            android:endX="90"
+            android:endY="179.28"
+            android:type="linear">
+          <item android:offset="0" android:color="?android:attr/colorBackgroundFloating"/>
+          <item android:offset="1" android:color="?android:attr/colorBackgroundFloating"/>
+        </gradient>
+      </aapt:attr>
+    </path>
+    <path
+        android:pathData="M139.45,40.9H40.54C34.79,40.9 30.13,45.56 30.13,51.31V112.11C30.13,117.86 34.79,122.52 40.54,122.52H139.45C145.2,122.52 149.86,117.86 149.86,112.11V51.31C149.86,45.56 145.2,40.9 139.45,40.9Z"
+        android:fillColor="#00A9ED"/>
+    <path
+        android:pathData="M137.25,46.56H42.75C37,46.56 32.34,51.22 32.34,56.97V117.77C32.34,123.52 37,128.18 42.75,128.18H137.25C143,128.18 147.66,123.52 147.66,117.77V56.97C147.66,51.22 143,46.56 137.25,46.56Z"
+        android:fillColor="#FAF17A"/>
+    <path
+        android:pathData="M137.25,53.44H42.75C37,53.44 32.34,58.1 32.34,63.85V124.65C32.34,130.4 37,135.06 42.75,135.06H137.25C143,135.06 147.66,130.4 147.66,124.65V63.85C147.66,58.1 143,53.44 137.25,53.44Z"
+        android:fillColor="#FAF17A"/>
+    <path
+        android:pathData="M30.13,69.24H139.46C142.22,69.24 144.87,70.34 146.82,72.29C148.77,74.24 149.87,76.89 149.87,79.65V126.76C149.87,129.52 148.77,132.17 146.82,134.12C144.87,136.07 142.22,137.17 139.46,137.17H40.54C37.78,137.17 35.13,136.07 33.18,134.12C31.23,132.17 30.13,129.52 30.13,126.76V69.24Z"
+        android:fillColor="#00A9ED"/>
+    <path
+        android:pathData="M71.97,62.37L72.05,62.53C70.45,59.59 67.24,57.53 64.67,57.53H38.21C37.15,57.53 36.1,57.74 35.12,58.15C34.14,58.55 33.25,59.15 32.5,59.9C31.75,60.65 31.16,61.54 30.75,62.52C30.35,63.5 30.14,64.55 30.14,65.61V69.23H82.14C78.58,69.23 73.87,65.86 71.97,62.37Z"
+        android:fillColor="#00A9ED"/>
+  </group>
+</vector>

@@ -22,7 +22,7 @@
 
     <Preference
         android:fragment="com.android.settings.accessibility.TextReadingPreferenceFragmentForSetupWizard"
-        android:icon="@drawable/ic_adaptive_font_download"
+        android:icon="@drawable/ic_adaptive_font_download_ftsw"
         android:key="text_reading_options"
         android:persistent="false"
         android:title="@string/accessibility_text_reading_options_title"
@@ -32,7 +32,7 @@
     <Preference
         android:fragment="com.android.settings.accessibility.ToggleScreenMagnificationPreferenceFragmentForSetupWizard"
         android:key="screen_magnification_preference"
-        android:icon="@drawable/ic_accessibility_magnification"
+        android:icon="@drawable/ic_accessibility_magnification_ftsw"
         android:summary="@string/accessibility_preference_magnification_summary"
         android:title="@string/accessibility_screen_magnification_title" />
 
