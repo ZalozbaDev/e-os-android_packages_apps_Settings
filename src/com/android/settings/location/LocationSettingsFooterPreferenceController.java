@@ -106,19 +106,7 @@ public class LocationSettingsFooterPreferenceController extends LocationBasePref
         }
         if (mFooterPreference != null) {
             mFooterPreference.setTitle(Html.fromHtml(footerString));
-            mFooterPreference.setLearnMoreAction(v -> openLocationLearnMoreLink());
-            mFooterPreference.setLearnMoreContentDescription(mContext.getString(
-                    R.string.location_settings_footer_learn_more_content_description));
         }
-    }
-
-    private void openLocationLearnMoreLink() {
-        mFragment.startActivityForResult(
-                HelpUtils.getHelpIntent(
-                        mContext,
-                        mContext.getString(R.string.location_settings_footer_learn_more_link),
-                        /*backupContext=*/""),
-                /*requestCode=*/ 0);
     }
 
     /**
