@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
   Copyright (C) 2018 The Android Open Source Project
+  Copyright (C) 2019-2021 ECORP SAS
 
   Licensed under the Apache License, Version 2.0 (the "License");
   you may not use this file except in compliance with the License.
@@ -21,8 +22,29 @@
     android:key="top_level_settings">
 
     <com.android.settings.widget.HomepagePreference
+        android:key="top_level_update"
+        android:title="@string/system_update_settings_list_item_title"
+        android:summary="@string/system_update_summary"
+        android:icon="@drawable/ic_updater"
+        android:order="-170"
+        settings:controller="com.android.settings.system.SystemUpdatePreferenceController"
+        settings:keywords="@string/keywords_system_update_settings">
+        <intent android:action="android.settings.SYSTEM_UPDATE_SETTINGS" />
+    </com.android.settings.widget.HomepagePreference>
+
+    <com.android.settings.widget.HomepagePreference
+        android:fragment="com.android.settings.accounts.AccountDashboardFragment"
+        android:icon="@drawable/ic_settings_accounts"
+        android:key="top_level_accounts"
+        android:order="-160"
+        android:title="@string/Accounts_settings_title"
+        android:summary="@string/summary_placeholder"
+        settings:highlightableMenuKey="@string/menu_key_accounts"
+        settings:controller="com.android.settings.accounts.TopLevelAccountEntryPreferenceController"/>
+
+    <com.android.settings.widget.HomepagePreference
         android:fragment="com.android.settings.network.NetworkDashboardFragment"
-        android:icon="@drawable/ic_settings_wireless"
+        android:icon="@drawable/ic_wireless"
         android:key="top_level_network"
         android:order="-150"
         android:title="@string/network_dashboard_title"
@@ -61,7 +83,7 @@
 
     <com.android.settings.widget.HomepagePreference
         android:fragment="com.android.settings.notification.ConfigureNotificationSettings"
-        android:icon="@drawable/ic_notifications"
+        android:icon="@drawable/ic_notifications_settings"
         android:key="top_level_notifications"
         android:order="-120"
         android:title="@string/configure_notification_settings"
@@ -141,7 +163,7 @@
         android:key="top_level_security"
         android:order="-50"
         android:title="@string/security_settings_title"
-        android:summary="@string/security_dashboard_summary"
+        android:summary="@string/security_dashboard_summary_e"
         settings:highlightableMenuKey="@string/menu_key_security"
         settings:controller="com.android.settings.security.TopLevelSecurityEntryPreferenceController"/>
 
@@ -154,6 +176,14 @@
         android:summary="@string/privacy_dashboard_summary"
         settings:highlightableMenuKey="@string/menu_key_privacy"
         settings:controller="com.android.settings.privacy.TopLevelPrivacyEntryPreferenceController"/>
+
+    <com.android.settings.widget.HomepagePreference
+        android:key="top_level_advanced_privacy"
+        android:title="@string/advanced_privacy_dashboard_title"
+        android:summary="@string/advanced_privacy_dashboard_summary"
+        android:icon="@drawable/ic_homepage_advanced_privacy"
+        android:order="-35"
+        android:fragment="com.android.settings.privacy.AdvancedPrivacyDashboardFragment"/>
 
     <com.android.settings.widget.HomepagePreference
         android:fragment="com.android.settings.location.LocationSettings"
@@ -174,16 +204,6 @@
         android:fragment="com.android.settings.emergency.EmergencyDashboardFragment"
         settings:isPreferenceVisible="@bool/config_show_emergency_settings"
         settings:highlightableMenuKey="@string/menu_key_emergency"/>
-
-    <com.android.settings.widget.HomepagePreference
-        android:fragment="com.android.settings.accounts.AccountDashboardFragment"
-        android:icon="@drawable/ic_settings_accounts"
-        android:key="top_level_accounts"
-        android:order="-10"
-        android:title="@string/account_dashboard_title"
-        android:summary="@string/summary_placeholder"
-        settings:highlightableMenuKey="@string/menu_key_accounts"
-        settings:controller="com.android.settings.accounts.TopLevelAccountEntryPreferenceController"/>
 
     <com.android.settings.widget.HomepagePreference
         android:fragment="com.android.settings.system.SystemDashboardFragment"

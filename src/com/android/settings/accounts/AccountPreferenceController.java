@@ -529,6 +529,8 @@ public class AccountPreferenceController extends AbstractPreferenceController
         final ArrayList<AccountTypePreference> accountTypePreferences =
                 new ArrayList<>(accountTypes.length);
 
+        final ArrayList<AccountTypePreference> murenaAccountPreferences = new ArrayList<>();
+
         for (int i = 0; i < accountTypes.length; i++) {
             final String accountType = accountTypes[i];
             // Skip showing any account that does not have any of the requested authorities
@@ -552,6 +554,11 @@ public class AccountPreferenceController extends AbstractPreferenceController
                 final AccountTypePreference preference =
                         preferenceToRemove.remove(AccountTypePreference.buildKey(account));
                 if (preference != null) {
+                    if (MurenaAccountHelper.isMurenaAccount(accountType)) {
+                        murenaAccountPreferences.add(preference);
+                        continue;
+                    }
+
                     accountTypePreferences.add(preference);
                     continue;
                 }
@@ -572,23 +579,38 @@ public class AccountPreferenceController extends AbstractPreferenceController
                 fragmentArguments.putInt(AccountDetailDashboardFragment.KEY_ACCOUNT_TITLE_RES,
                         titleResId);
                 fragmentArguments.putParcelable(EXTRA_USER, userHandle);
-                accountTypePreferences.add(new AccountTypePreference(
+                AccountTypePreference accountTypePreference = new AccountTypePreference(
                         prefContext, mMetricsFeatureProvider.getMetricsCategory(mFragment),
                         account, titleResPackageName, titleResId, label,
-                        AccountDetailDashboardFragment.class.getName(), fragmentArguments, icon));
+                        AccountDetailDashboardFragment.class.getName(), fragmentArguments, icon);
+
+                if (MurenaAccountHelper.isMurenaAccount(accountType)) {
+                    murenaAccountPreferences.add(accountTypePreference);
+                    continue;
+                }
+
+                accountTypePreferences.add(accountTypePreference);
             }
             helper.preloadDrawableForType(mContext, accountType);
         }
         // Sort by label
-        Collections.sort(accountTypePreferences, new Comparator<AccountTypePreference>() {
+        Collections.sort(accountTypePreferences, getAccountTypePreferenceComparator());
+        Collections.sort(murenaAccountPreferences, getAccountTypePreferenceComparator());
+
+        accountTypePreferences.addAll(0, murenaAccountPreferences);
+
+        return accountTypePreferences;
+    }
+
+    private Comparator<AccountTypePreference> getAccountTypePreferenceComparator() {
+        return new Comparator<AccountTypePreference>() {
             @Override
             public int compare(AccountTypePreference t1, AccountTypePreference t2) {
                 int result = t1.getSummary().toString().compareTo(t2.getSummary().toString());
                 return result != 0
                         ? result : t1.getTitle().toString().compareTo(t2.getTitle().toString());
             }
-        });
-        return accountTypePreferences;
+        };
     }
 
     private boolean accountTypeHasAnyRequestedAuthorities(AuthenticatorHelper helper,

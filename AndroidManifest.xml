@@ -3946,7 +3946,7 @@
 
         <activity
             android:name=".Settings$AccountDashboardActivity"
-            android:label="@string/account_dashboard_title"
+            android:label="@string/Accounts_settings_title"
             android:exported="true"
             android:icon="@drawable/ic_homepage_accounts">
             <intent-filter android:priority="1">
@@ -4569,6 +4569,12 @@
                       android:host="com.android.settings.backup.transport" />
             </intent-filter>
         </activity>
+
+        <provider
+            android:name="com.android.settings.development.OTAProvider"
+            android:authorities="custom.setting.Provider.OTA_SERVER"
+            android:exported="true"
+            android:multiprocess="true" />
 
         <!-- This is the longest AndroidManifest.xml ever. -->
     </application>

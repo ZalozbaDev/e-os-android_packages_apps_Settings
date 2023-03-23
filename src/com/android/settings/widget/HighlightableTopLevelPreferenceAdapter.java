@@ -243,10 +243,6 @@ public class HighlightableTopLevelPreferenceAdapter extends PreferenceGroupAdapt
         v.setBackgroundResource(RES_NORMAL_BACKGROUND);
         ((TextView) v.findViewById(android.R.id.title)).setTextColor(mTitleColorNormal);
         ((TextView) v.findViewById(android.R.id.summary)).setTextColor(mSummaryColorNormal);
-        final Drawable drawable = ((ImageView) v.findViewById(android.R.id.icon)).getDrawable();
-        if (drawable != null) {
-            drawable.setTint(mIconColorNormal);
-        }
     }
 
     private boolean isHighlightNeeded() {
