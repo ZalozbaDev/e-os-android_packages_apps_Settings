@@ -1429,8 +1429,8 @@
     <string name="sim_multi_sims_title" msgid="4875083890014013296">"Plusieurs profils SIM détectés"</string>
     <string name="sim_multi_sims_summary" msgid="1711012455679332238">"Sélectionnez la carte SIM à utiliser en priorité pour les données mobiles."</string>
     <string name="sim_change_data_title" msgid="4663239438584588847"> Utiliser <xliff:g id="carrier" example="Verizon">%1$s</xliff:g> pour les données mobiles \? </string>
-    <string name="sim_change_data_message" msgid="3046178883369645132">"Vous utilisez <xliff:g id="CARRIER2_0">%2$s</xliff:g> pour les données mobiles. Si vous basculez sur <xliff:g id="CARRIER1">%1$s</xliff:g>, <xliff:g id="CARRIER2_1">%2$s</xliff:g> ne sera plus utilisé pour les données mobiles."</string>
-    <string name="sim_change_data_ok" msgid="4922114750417276560">"Utiliser <xliff:g id="CARRIER">%1$s</xliff:g>"</string>
+    <string name="sim_change_data_message" msgid="3046178883369645132"> Vous utilisez <xliff:g id="carrier2" example="T-mobile">%2$s</xliff:g> pour les données mobiles. Si vous basculez sur <xliff:g id="carrier1" example="Verizon">%1$s</xliff:g>, <xliff:g id="carrier2" example="T-mobile">%2$s</xliff:g> ne sera plus utilisé pour les données mobiles. </string>
+    <string name="sim_change_data_ok" msgid="4922114750417276560"> Utiliser <xliff:g id="carrier" example="Verizon">%1$s</xliff:g> </string>
     <string name="sim_preferred_title" msgid="7182406911552216373">"Modifier carte SIM préférée ?"</string>
     <string name="sim_preferred_message" msgid="6004009449266648351">"<xliff:g id="NEW_SIM">%1$s</xliff:g> est la seule carte SIM dans votre appareil. Voulez-vous utiliser cette carte SIM pour les données mobiles, les appels et les SMS ?"</string>
     <string name="wrong_pin_code_pukked" msgid="3414172752791445033">"Code PIN de la carte SIM incorrect. Vous devez désormais contacter votre opérateur pour déverrouiller votre appareil."</string>
@@ -3891,8 +3891,10 @@
     <string name="notification_assistant_security_warning_title" msgid="2972346436050925276">"Autoriser <xliff:g id="SERVICE">%1$s</xliff:g> à accéder aux notifications ?"</string>
     <string name="notification_assistant_security_warning_summary" msgid="4846559755787348129">"Les notifications améliorées remplacent les notifications intelligentes dans Android 12. Cette fonctionnalité affiche les suggestions d\'actions et de réponses, et organise vos notifications. \n\nElle a accès au contenu des notifications, y compris aux infos personnelles telles que les noms des contacts et les messages. Elle peut aussi fermer les notifications ou effectuer des actions comme répondre à un appel téléphonique et contrôler le mode Ne pas déranger."</string>
     <string name="notification_listener_security_warning_title" msgid="5791700876622858363">"Autoriser <xliff:g id="SERVICE">%1$s</xliff:g> à accéder aux notifications ?"</string>
-    <string name="notification_listener_security_warning_summary" msgid="3668606006326629153">"<xliff:g id="NOTIFICATION_LISTENER_NAME">%1$s</xliff:g> pourra lire toutes les notifications, y compris des informations personnelles telles que le nom des contacts et le texte des messages que vous recevez. Cette appli pourra aussi fermer des notifications ou effectuer l\'action spécifique aux boutons figurant dans ces notifications, y compris répondre aux appels téléphoniques. \n\nL\'appli pourra aussi activer ou désactiver le mode Ne pas déranger, et modifier les paramètres associés."</string>
-    <string name="notification_listener_disable_warning_summary" msgid="8373396293802088961">"Si vous désactivez l\'accès aux notifications pour <xliff:g id="NOTIFICATION_LISTENER_NAME">%1$s</xliff:g>, l\'accès au mode Ne pas déranger peut également être désactivé."</string>
+    <string name="notification_listener_security_warning_summary" msgid="3668606006326629153"> <xliff:g id="notification_listener_name">%1$s</xliff:g> pourra lire toutes les notifications, y compris des informations personnelles telles que le nom des contacts et le texte des messages que vous recevez. Cette application pourra aussi fermer des notifications ou agir sur les boutons figurant dans ces notifications, y compris répondre aux appels téléphoniques.
+\n
+\nL\'appli pourra aussi activer ou désactiver le mode Ne pas déranger, et modifier les paramètres associés. </string>
+    <string name="notification_listener_disable_warning_summary" msgid="8373396293802088961"> Si vous désactivez l\'accès aux notifications pour <xliff:g id="notification_listener_name">%1$s</xliff:g>, l\'accès au mode Ne pas déranger pourrait également être désactivé. </string>
     <string name="notification_listener_disable_warning_confirm" msgid="841492108402184976">"Désactiver"</string>
     <string name="notification_listener_disable_warning_cancel" msgid="8802784105045594324">"Annuler"</string>
     <string name="notification_listener_type_title" msgid="2791552789364336733">"Types de notifications autorisés"</string>
@@ -3913,7 +3915,7 @@
     <string name="vr_listeners_title" msgid="4960357292472540964">"Assistance réalité virtuelle"</string>
     <string name="no_vr_listeners" msgid="8442646085375949755">"Aucune des applis installées n\'a demandé à être exécutée en tant que service d\'assistance pour la réalité virtuelle"</string>
     <string name="vr_listener_security_warning_title" msgid="7026351795627615177">"Autoriser <xliff:g id="SERVICE">%1$s</xliff:g> à accéder au service de réalité virtuelle ?"</string>
-    <string name="vr_listener_security_warning_summary" msgid="1888843557687017791">"L\'écouteur \"<xliff:g id="VR_LISTENER_NAME">%1$s</xliff:g>\" pourra être exécuté lorsque vous utiliserez des applications en mode Réalité virtuelle."</string>
+    <string name="vr_listener_security_warning_summary" msgid="1888843557687017791"> <xliff:g id="vr_listener_name">%1$s</xliff:g> pourra être exécuté lors de l\'utilisation des applications en mode Réalité virtuelle. </string>
     <string name="display_vr_pref_title" msgid="4850474436291113569">"Quand l\'appareil est en mode RV"</string>
     <string name="display_vr_pref_low_persistence" msgid="7039841277157739871">"Réduire le flou (recommandé)"</string>
     <string name="display_vr_pref_off" msgid="4008841566387432721">"Réduire le scintillement"</string>
@@ -4361,7 +4363,9 @@
     <string name="high_power_system" msgid="3966701453644915787">"Optimisation de la batterie non disponible"</string>
     <string name="high_power_desc" msgid="2753076899835765338">"N\'applique aucune optimisation de batterie et risque de décharger la batterie plus rapidement."</string>
     <string name="high_power_prompt_title" msgid="2574478825228409124">"Toujours autoriser en arrière-plan ?"</string>
-    <string name="high_power_prompt_body" msgid="6460557929559616041">"Autoriser <xliff:g id="APP_NAME">%1$s</xliff:g> à toujours fonctionner en arrière-plan peut réduire l\'autonomie de la batterie. \n\nVous pourrez modifier cette option ultérieurement dans Paramètres &gt; Applis et notifications."</string>
+    <string name="high_power_prompt_body" msgid="6460557929559616041"> Autoriser <xliff:g id="app_name" example="Settings">%1$s</xliff:g> à toujours fonctionner en arrière-plan peut réduire l\'autonomie de la batterie.
+\n
+\nVous pourrez modifier cette option ultérieurement dans Paramètres &gt; Applis &amp; et notifications.</string>
     <string name="battery_summary" msgid="2491764359695671207">"Utilisation depuis la dernière charge complète : <xliff:g id="PERCENTAGE">%1$s</xliff:g>"</string>
     <string name="battery_summary_24hr" msgid="7656033283282656551">"<xliff:g id="PERCENTAGE">%1$s</xliff:g> d\'utilisation au cours des dernières 24 h"</string>
     <string name="no_battery_summary" msgid="5769159953384122003">"Aucune utilisation de la batterie depuis la dernière charge complète"</string>
@@ -5191,10 +5195,12 @@
     <string name="mobile_network_use_sim_on" msgid="7298332437547707908">"Utiliser le profil SIM"</string>
     <string name="mobile_network_use_sim_off" msgid="6303281166199670639">"Désactivé"</string>
     <string name="mobile_network_disable_sim_explanation" msgid="2851862257846773796">"Pour désactiver cette carte SIM, retirez-la"</string>
-    <string name="mobile_network_tap_to_activate" msgid="4139979375717958102">"Appuyer pour activer <xliff:g id="CARRIER">%1$s</xliff:g>"</string>
+    <string name="mobile_network_tap_to_activate" msgid="4139979375717958102"> Appuyer pour activer <xliff:g id="carrier" example="T-mobile">%1$s</xliff:g> </string>
     <string name="mobile_network_esim_swap_confirm_title" msgid="2762744961192218789"> Utiliser <xliff:g id="carrier" example="T-mobile">%1$s</xliff:g> \? </string>
-    <string name="mobile_network_esim_swap_confirm_body" msgid="8168680839542031781">"Un seul profil SIM téléchargé peut être actif à la fois.\n\nPasser à <xliff:g id="CARRIER1">%1$s</xliff:g> n\'entraînera pas la résiliation de votre service <xliff:g id="CARRIER2">%2$s</xliff:g>."</string>
-    <string name="mobile_network_esim_swap_confirm_ok" msgid="8695772737522378095">"Basculer vers le réseau <xliff:g id="CARRIER">%1$s</xliff:g>"</string>
+    <string name="mobile_network_esim_swap_confirm_body" msgid="8168680839542031781"> Un seul profil SIM téléchargé peut être actif à la fois.
+\n
+\nPasser à <xliff:g id="carrier1" example="T-mobile">%1$s</xliff:g> n\'entraînera pas la résiliation de votre service <xliff:g id="carrier2" example="Verizon">%2$s</xliff:g>. </string>
+    <string name="mobile_network_esim_swap_confirm_ok" msgid="8695772737522378095"> Basculer vers le réseau <xliff:g id="carrier" example="T-mobile">%1$s</xliff:g> </string>
     <string name="mobile_network_erase_sim" msgid="4629071168032714930">"Effacer le profil SIM"</string>
     <string name="mobile_network_erase_sim_error_dialog_title" msgid="6680959559589234726">"Impossible d\'effacer le profil SIM"</string>
     <string name="mobile_network_erase_sim_error_dialog_body" msgid="6401922869095572710">"Une erreur empêche l\'effacement de cette carte SIM.\n\nRedémarrez votre appareil et réessayez."</string>
@@ -5277,7 +5283,7 @@
     <string name="erase_sim_fail_title" msgid="2024446702985862427">"Impossible d\'effacer le profil SIM"</string>
     <string name="erase_sim_fail_text" msgid="7870804401227483131">"Une erreur empêche l\'effacement de cette carte SIM.\n\nRedémarrez votre appareil et réessayez."</string>
     <string name="network_connection_request_dialog_title" msgid="1896186380874289434">"Connexion à l\'appareil"</string>
-    <string name="network_connection_request_dialog_summary" msgid="7693038309792726170">"L\'application <xliff:g id="APPNAME">%1$s</xliff:g> souhaite utiliser un réseau Wi‑Fi temporaire pour établir la connexion à votre appareil"</string>
+    <string name="network_connection_request_dialog_summary" msgid="7693038309792726170"> L\'application <xliff:g id="appName" example="ThirdPartyAppName">%1$s</xliff:g> souhaite utiliser un réseau Wi‑Fi temporaire pour se connecter à votre appareil </string>
     <string name="network_connection_timeout_dialog_message" msgid="598509083077743772">"Aucun appareil trouvé. Assurez-vous que des appareils soient activés et prêts à être connectés."</string>
     <string name="network_connection_timeout_dialog_ok" msgid="6022675321823723755">"Réessayer"</string>
     <string name="network_connection_errorstate_dialog_message" msgid="3360714322047603239">"Un problème est survenu. L\'application a annulé la demande de sélection d\'un appareil."</string>
