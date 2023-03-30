@@ -123,7 +123,7 @@
     <string name="bluetooth_connection_notif_message" msgid="6087344980352898209">"Appuyez pour vous connecter à l\'appareil \"<xliff:g id="DEVICE_NAME">%1$s</xliff:g>\"."</string>
     <string name="bluetooth_connection_dialog_text" msgid="2537152772549874391">"Voulez-vous vous connecter à \"<xliff:g id="DEVICE_NAME">%1$s</xliff:g>\" ?"</string>
     <string name="bluetooth_phonebook_request" msgid="1085102844577089889">"Demande d\'accès au répertoire"</string>
-    <string name="bluetooth_pb_acceptance_dialog_text" msgid="7153531868579789993">"<xliff:g id="DEVICE_NAME_0">%1$s</xliff:g> requiert l\'accès à vos contacts et à l\'historique de vos appels. Autoriser l\'accès à <xliff:g id="DEVICE_NAME_1">%2$s</xliff:g> ?"</string>
+    <string name="bluetooth_pb_acceptance_dialog_text" msgid="7153531868579789993"> <xliff:g id="device_name">%1$s</xliff:g> requiert l\'accès à vos contacts et à l\'historique de vos appels. Autoriser l\'accès à <xliff:g id="device_name">%2$s</xliff:g> \? </string>
     <string name="bluetooth_remember_choice" msgid="173821849670438110">"Ne plus me demander"</string>
     <string name="bluetooth_pb_remember_choice" msgid="2080511174185036562">"Ne plus me demander"</string>
     <string name="bluetooth_map_request" msgid="8664081227240707479">"Demande d\'accès aux messages"</string>
@@ -159,7 +159,7 @@
     <string name="intent_sender_sendbroadcast_text" msgid="3202857258557610646">"Envoyer <xliff:g id="BROADCAST">broadcast</xliff:g>"</string>
     <string name="intent_sender_action_label" msgid="257853357827275530">"<xliff:g id="ACTION">Action</xliff:g>:"</string>
     <string name="intent_sender_startactivity_text" msgid="519934560779343541">"Démarrer <xliff:g id="ACTIVITY">activity</xliff:g>"</string>
-    <string name="intent_sender_resource_label" msgid="5087385727740280207">"<xliff:g id="RESOURCE">Resource</xliff:g>:"</string>
+    <string name="intent_sender_resource_label" msgid="5087385727740280207"><xliff:g id="resource">Resource</xliff:g> : </string>
     <string name="intent_sender_account_label" msgid="36614006839665458">"Compte :"</string>
     <string name="proxy_settings_title" msgid="4201866858226087066">"Proxy"</string>
     <string name="proxy_clear_text" msgid="6529658759984031149">"Effacer"</string>
@@ -534,37 +534,37 @@
     <string name="unlock_disable_frp_warning_title" msgid="1520689401825045809">"Supprimer la protection de l\'appareil ?"</string>
     <string name="unlock_disable_frp_warning_title_profile" msgid="1005284289723910461">"Supprimer la protection du profil ?"</string>
     <string name="unlock_disable_frp_warning_content_pattern" msgid="669384600341275312">"Les fonctionnalités de protection de l\'appareil ne fonctionnent pas sans votre schéma."</string>
-    <string name="unlock_disable_frp_warning_content_pattern_fingerprint" msgid="8160948976853039106">"Les fonctionnalités de protection de l\'appareil ne fonctionnent pas sans votre schéma.<xliff:g id="EMPTY_LINE">
-
-</xliff:g>Vos empreintes digitales enregistrées seront également supprimées de cet appareil, et vous ne pourrez plus les utiliser pour déverrouiller votre téléphone, autoriser des achats ni vous connecter à des applications."</string>
+    <string name="unlock_disable_frp_warning_content_pattern_fingerprint" msgid="8160948976853039106">Les fonctionnalités de protection de l\'appareil ne fonctionnent pas sans votre schéma.<xliff:g id="empty_line">
+\n
+\n</xliff:g>Vos empreintes digitales enregistrées seront également supprimées de cet appareil, et vous ne pourrez plus les utiliser pour déverrouiller votre téléphone, autoriser des achats ni vous connecter à des applications.</string>
     <string name="unlock_disable_frp_warning_content_pin" msgid="3732073290049930632">"Les fonctionnalités de protection de l\'appareil ne fonctionnent pas sans votre code."</string>
-    <string name="unlock_disable_frp_warning_content_pin_fingerprint" msgid="2018020861756931097">"Les fonctionnalités de protection de l\'appareil ne fonctionnent pas sans votre code.<xliff:g id="EMPTY_LINE">
-
-</xliff:g>Vos empreintes digitales enregistrées seront également supprimées de cet appareil, et vous ne pourrez plus les utiliser pour déverrouiller votre téléphone, autoriser des achats ni vous connecter à des applications."</string>
+    <string name="unlock_disable_frp_warning_content_pin_fingerprint" msgid="2018020861756931097">Les fonctionnalités de protection de l\'appareil ne fonctionnent pas sans votre code.<xliff:g id="empty_line">
+\n
+\n</xliff:g>Vos empreintes digitales enregistrées seront également supprimées de cet appareil, et vous ne pourrez plus les utiliser pour déverrouiller votre téléphone, autoriser des achats ni vous connecter à des applications.</string>
     <string name="unlock_disable_frp_warning_content_password" msgid="2130004168084396797">"Les fonctionnalités de protection de l\'appareil ne fonctionnent pas sans votre mot de passe."</string>
-    <string name="unlock_disable_frp_warning_content_password_fingerprint" msgid="8455564842615579472">"Les fonctionnalités de protection de l\'appareil ne fonctionnent pas sans votre mot de passe.<xliff:g id="EMPTY_LINE">
-
-</xliff:g>Vos empreintes digitales enregistrées seront également supprimées de cet appareil, et vous ne pourrez plus les utiliser pour déverrouiller votre téléphone, autoriser des achats ni vous connecter à des applications."</string>
+    <string name="unlock_disable_frp_warning_content_password_fingerprint" msgid="8455564842615579472">Les fonctionnalités de protection de l\'appareil ne fonctionnent pas sans votre mot de passe.<xliff:g id="empty_line">
+\n
+\n</xliff:g>Vos empreintes digitales enregistrées seront également supprimées de cet appareil, et vous ne pourrez plus les utiliser pour déverrouiller votre téléphone, autoriser des achats ni vous connecter à des applications.</string>
     <string name="unlock_disable_frp_warning_content_unknown" msgid="8903568674104115231">"Les fonctionnalités de protection de l\'appareil ne fonctionnent pas sans le verrouillage de l\'écran."</string>
-    <string name="unlock_disable_frp_warning_content_unknown_fingerprint" msgid="4985095359625056279">"Les fonctionnalités de protection de l\'appareil ne fonctionnent pas sans le verrouillage de l\'écran.<xliff:g id="EMPTY_LINE">
-
-</xliff:g>Vos empreintes digitales enregistrées seront également supprimées de cet appareil, et vous ne pourrez plus les utiliser pour déverrouiller votre téléphone, autoriser des achats ni vous connecter à des applications."</string>
+    <string name="unlock_disable_frp_warning_content_unknown_fingerprint" msgid="4985095359625056279">Les fonctionnalités de protection de l\'appareil ne fonctionnent pas sans le verrouillage de l\'écran.<xliff:g id="empty_line">
+\n
+\n </xliff:g>Vos empreintes digitales enregistrées seront également supprimées de cet appareil, et vous ne pourrez plus les utiliser pour déverrouiller votre téléphone, autoriser des achats ni vous connecter à des applications.</string>
     <string name="unlock_disable_frp_warning_content_pattern_profile" msgid="6850770024037691891">"La protection du profil ne fonctionne pas sans votre schéma."</string>
-    <string name="unlock_disable_frp_warning_content_pattern_fingerprint_profile" msgid="313998125412427527">"Les fonctionnalités de protection du profil ne fonctionnent pas sans votre schéma.<xliff:g id="EMPTY_LINE">
-
-</xliff:g>Vos empreintes digitales enregistrées seront également supprimées de ce profil, et vous ne pourrez plus les utiliser pour déverrouiller votre profil, autoriser des achats ni vous connecter à des applications."</string>
+    <string name="unlock_disable_frp_warning_content_pattern_fingerprint_profile" msgid="313998125412427527">Les fonctionnalités de protection du profil ne fonctionnent pas sans votre schéma.<xliff:g id="empty_line">
+\n
+\n</xliff:g>Vos empreintes digitales enregistrées seront également supprimées de ce profil, et vous ne pourrez plus les utiliser pour déverrouiller votre profil, autoriser des achats ni vous connecter à des applications.</string>
     <string name="unlock_disable_frp_warning_content_pin_profile" msgid="6328378875803145738">"La protection du profil ne fonctionne pas sans votre code."</string>
-    <string name="unlock_disable_frp_warning_content_pin_fingerprint_profile" msgid="6844729803535310058">"Les fonctionnalités de protection du profil ne fonctionnent pas sans votre code.<xliff:g id="EMPTY_LINE">
-
-</xliff:g>Vos empreintes digitales enregistrées seront également supprimées de ce profil, et vous ne pourrez plus les utiliser pour déverrouiller votre profil, autoriser des achats ni vous connecter à des applications."</string>
+    <string name="unlock_disable_frp_warning_content_pin_fingerprint_profile" msgid="6844729803535310058">Les fonctionnalités de protection du profil ne fonctionnent pas sans votre code.<xliff:g id="empty_line">
+\n
+\n</xliff:g>Vos empreintes digitales enregistrées seront également supprimées de ce profil, et vous ne pourrez plus les utiliser pour déverrouiller votre profil, autoriser des achats ni vous connecter à des applications.</string>
     <string name="unlock_disable_frp_warning_content_password_profile" msgid="6922335143823758149">"La protection du profil ne fonctionne pas sans votre mot de passe."</string>
-    <string name="unlock_disable_frp_warning_content_password_fingerprint_profile" msgid="5724824564583660260">"Les fonctionnalités de protection du profil ne fonctionnent pas sans votre mot de passe.<xliff:g id="EMPTY_LINE">
-
-</xliff:g>Vos empreintes digitales enregistrées seront également supprimées de ce profil, et vous ne pourrez plus les utiliser pour déverrouiller votre profil, autoriser des achats ni vous connecter à des applications."</string>
+    <string name="unlock_disable_frp_warning_content_password_fingerprint_profile" msgid="5724824564583660260">Les fonctionnalités de protection du profil ne fonctionnent pas sans votre mot de passe.<xliff:g id="empty_line">
+\n
+\n</xliff:g>Vos empreintes digitales enregistrées seront également supprimées de ce profil, et vous ne pourrez plus les utiliser pour déverrouiller votre profil, autoriser des achats ni vous connecter à des applications.</string>
     <string name="unlock_disable_frp_warning_content_unknown_profile" msgid="6886183964362015704">"La protection du profil ne fonctionne pas sans le verrouillage de l\'écran."</string>
-    <string name="unlock_disable_frp_warning_content_unknown_fingerprint_profile" msgid="3754195701700959477">"Les fonctionnalités de protection du profil ne fonctionnent pas sans le verrouillage de l\'écran.<xliff:g id="EMPTY_LINE">
-
-</xliff:g>Vos empreintes digitales enregistrées seront également supprimées de ce profil, et vous ne pourrez plus les utiliser pour déverrouiller votre profil, autoriser des achats ni vous connecter à des applications."</string>
+    <string name="unlock_disable_frp_warning_content_unknown_fingerprint_profile" msgid="3754195701700959477">Les fonctionnalités de protection du profil ne fonctionnent pas sans le verrouillage de l\'écran.<xliff:g id="empty_line">
+\n
+\n</xliff:g>Vos empreintes digitales enregistrées seront également supprimées de ce profil, et vous ne pourrez plus les utiliser pour déverrouiller votre profil, autoriser des achats ni vous connecter à des applications.</string>
     <string name="unlock_disable_frp_warning_ok" msgid="621607297961726537">"Oui, supprimer"</string>
     <string name="unlock_change_lock_pattern_title" msgid="8234523589333929193">"Modifier le schéma de déverrouillage"</string>
     <string name="unlock_change_lock_pin_title" msgid="2324077520816477479">"Modifier le code PIN de déverrouillage"</string>
@@ -1294,9 +1294,9 @@
     <string name="sim_enter_cancel" msgid="2001859323724961490">"Annuler"</string>
     <string name="sim_multi_sims_title" msgid="4875083890014013296">"Plusieurs cartes SIM détectées"</string>
     <string name="sim_multi_sims_summary" msgid="1711012455679332238">"Sélectionnez la carte SIM à utiliser en priorité pour les données mobiles."</string>
-    <string name="sim_change_data_title" msgid="4663239438584588847">"Utiliser <xliff:g id="CARRIER">%1$s</xliff:g> pour les données mobiles ?"</string>
-    <string name="sim_change_data_message" msgid="3046178883369645132">"Vous utilisez <xliff:g id="CARRIER2_0">%2$s</xliff:g> pour les données mobiles. Si vous basculez sur <xliff:g id="CARRIER1">%1$s</xliff:g>, <xliff:g id="CARRIER2_1">%2$s</xliff:g> ne sera plus utilisé pour les données mobiles."</string>
-    <string name="sim_change_data_ok" msgid="4922114750417276560">"Utiliser <xliff:g id="CARRIER">%1$s</xliff:g>"</string>
+    <string name="sim_change_data_title" msgid="4663239438584588847"> Utiliser <xliff:g id="carrier" example="Verizon">%1$s</xliff:g> pour les données mobiles \? </string>
+    <string name="sim_change_data_message" msgid="3046178883369645132"> Vous utilisez <xliff:g id="carrier2" example="T-mobile">%2$s</xliff:g> pour les données mobiles. Si vous basculez sur <xliff:g id="carrier1" example="Verizon">%1$s</xliff:g>, <xliff:g id="carrier2" example="T-mobile">%2$s</xliff:g> ne sera plus utilisé pour les données mobiles. </string>
+    <string name="sim_change_data_ok" msgid="4922114750417276560"> Utiliser <xliff:g id="carrier" example="Verizon">%1$s</xliff:g> </string>
     <string name="sim_preferred_title" msgid="7182406911552216373">"Modifier carte SIM préférée ?"</string>
     <string name="sim_preferred_message" msgid="6004009449266648351">"<xliff:g id="NEW_SIM">%1$s</xliff:g> est la seule carte SIM dans votre appareil. Voulez-vous utiliser cette carte SIM pour les données mobiles, les appels et les SMS ?"</string>
     <string name="wrong_pin_code_pukked" msgid="3414172752791445033">"Code PIN de la carte SIM incorrect. Vous devez désormais contacter votre opérateur pour déverrouiller votre appareil."</string>
@@ -1804,7 +1804,7 @@
     <string name="lockpattern_settings_power_button_instantly_locks_summary" msgid="2202430156268094229">"Sauf lorsque l\'appareil est maintenu en activité par <xliff:g id="TRUST_AGENT_NAME">%1$s</xliff:g>"</string>
     <string name="lockpattern_settings_choose_lock_pattern" msgid="2193588309557281466">"Créer un schéma"</string>
     <string name="lockpattern_settings_change_lock_pattern" msgid="7614155083815661347">"Modifier le schéma de déverrouillage"</string>
-    <string name="lockpattern_settings_help_how_to_record" msgid="2093801939046625774">"Comment dessiner un schéma de déverrouillage :"</string>
+    <string name="lockpattern_settings_help_how_to_record" msgid="2093801939046625774">Comment dessiner un schéma de déverrouillage</string>
     <string name="lockpattern_too_many_failed_confirmation_attempts" msgid="7891484005551794824">"Trop de tentatives incorrectes. Veuillez réessayer dans <xliff:g id="NUMBER">%d</xliff:g> secondes."</string>
     <string name="activity_not_found" msgid="5464331414465894254">"L\'application n\'est pas installée sur votre téléphone."</string>
     <string name="lock_settings_profile_title" msgid="103605580492566086">"Sécurité du profil professionnel"</string>
@@ -2742,8 +2742,8 @@
     <string name="settings_backup_summary" msgid="6803046376335724034">"Sauvegarder mes paramètres"</string>
     <string name="sync_menu_sync_now" msgid="3948443642329221882">"Synchroniser maintenant"</string>
     <string name="sync_menu_sync_cancel" msgid="2422994461106269813">"Annuler la synchronisation"</string>
-    <string name="sync_one_time_sync" msgid="8114337154112057462">"Appuyer pour synchroniser maintenant<xliff:g id="LAST_SYNC_TIME">
-%1$s</xliff:g>"</string>
+    <string name="sync_one_time_sync" msgid="8114337154112057462">Appuyer pour synchroniser maintenant<xliff:g id="last_sync_time">
+\n%1$s</xliff:g></string>
     <string name="sync_gmail" msgid="228561698646018808">"Gmail"</string>
     <string name="sync_calendar" msgid="4603704438090387251">"Agenda"</string>
     <string name="sync_contacts" msgid="2376465611511325472">"Contacts"</string>
@@ -3075,12 +3075,12 @@
     <string name="contact_discovery_opt_in_summary" msgid="6539010458256667300">"Envoyer les numéros de téléphone de vos contact pour profiter de fonctionnalités plus avancées"</string>
     <string name="contact_discovery_opt_in_dialog_title" msgid="2230536282911854114">"Envoyer les contacts à <xliff:g id="CARRIER">%1$s</xliff:g> ?"</string>
     <string name="contact_discovery_opt_in_dialog_title_no_carrier_defined" msgid="2028983133745990320">"Envoyer les contacts à votre opérateur ?"</string>
-    <string name="contact_discovery_opt_in_dialog_message" msgid="8818310894782757538">"Les numéros de téléphone de vos contacts seront régulièrement envoyés à <xliff:g id="CARRIER">%1$s</xliff:g>.<xliff:g id="EMPTY_LINE">
-
-</xliff:g>Ces informations permettent de vérifier si vos contacts peuvent utiliser certaines fonctionnalités, comme les appels vidéo ou des options spécifiques pour les messages."</string>
-    <string name="contact_discovery_opt_in_dialog_message_no_carrier_defined" msgid="1914894516552445911">"Les numéros de téléphone de vos contacts seront régulièrement envoyés à votre opérateur.<xliff:g id="EMPTY_LINE">
-
-</xliff:g>.Ces informations permettent de vérifier si vos contacts peuvent utiliser certaines fonctionnalités, comme les appels vidéo ou des options spécifiques pour les messages."</string>
+    <string name="contact_discovery_opt_in_dialog_message" msgid="8818310894782757538">Les numéros de téléphone de vos contacts seront régulièrement envoyés à <xliff:g id="carrier" example="T-mobile">%1$s</xliff:g>.<xliff:g id="empty_line" example="  ">
+\n
+\n</xliff:g>Ces informations permettent de vérifier si vos contacts peuvent utiliser certaines fonctionnalités, comme les appels vidéo ou des options spécifiques pour les messages.</string>
+    <string name="contact_discovery_opt_in_dialog_message_no_carrier_defined" msgid="1914894516552445911">Les numéros de téléphone de vos contacts seront régulièrement envoyés à votre opérateur.<xliff:g id="empty_line" example="  ">
+\n
+\n</xliff:g>.Ces informations permettent de vérifier si vos contacts peuvent utiliser certaines fonctionnalités, comme les appels vidéo ou des options spécifiques pour les messages.</string>
     <string name="preferred_network_type_title" msgid="812509938714590857">"Type de réseau préféré"</string>
     <string name="preferred_network_type_summary" msgid="8786291927331323061">"LTE (recommandé)"</string>
     <string name="mms_message_title" msgid="6624505196063391964">"MMS"</string>
@@ -3582,16 +3582,20 @@
     <string name="no_notification_listeners" msgid="2839354157349636000">"Aucune demande d\'accès aux notifications n\'a été envoyée pour les applications installées."</string>
     <string name="notification_access_detail_switch" msgid="46386786409608330">"Autoriser l\'accès aux notifications"</string>
     <string name="notification_assistant_security_warning_title" msgid="2972346436050925276">"Autoriser <xliff:g id="SERVICE">%1$s</xliff:g> à accéder aux notifications ?"</string>
-    <string name="notification_assistant_security_warning_summary" msgid="7362924206925040510">"<xliff:g id="NOTIFICATION_ASSISTANT_NAME">%1$s</xliff:g> pourra lire toutes les notifications, y compris des informations personnelles telles que le nom des contacts et le texte des messages que vous recevez. Cette application pourra également fermer des notifications ou effectuer l\'action spécifique aux boutons figurant dans ces notifications, y compris répondre aux appels téléphoniques. \n\nL\'application pourra aussi activer ou désactiver le mode Ne pas déranger, et modifier les paramètres associés."</string>
+    <string name="notification_assistant_security_warning_summary" msgid="7362924206925040510"> <xliff:g id="notification_assistant_name" example="Notification Assistant">%1$s</xliff:g> pourra lire toutes les notifications, y compris des informations personnelles telles que le nom des contacts et le texte des messages que vous recevez. Cette application pourra également fermer des notifications ou effectuer l\'action spécifique aux boutons figurant dans ces notifications, y compris répondre aux appels téléphoniques.
+\n
+\nL\'application pourra aussi activer ou désactiver le mode Ne pas déranger, et modifier les paramètres associés. </string>
     <string name="notification_listener_security_warning_title" msgid="5791700876622858363">"Autoriser <xliff:g id="SERVICE">%1$s</xliff:g> à accéder aux notifications ?"</string>
-    <string name="notification_listener_security_warning_summary" msgid="1658213659262173405">"<xliff:g id="NOTIFICATION_LISTENER_NAME">%1$s</xliff:g> pourra lire toutes les notifications, y compris des informations personnelles telles que le nom des contacts et le texte des messages que vous recevez. Cette application pourra également fermer des notifications ou effectuer l\'action spécifique aux boutons figurant dans ces notifications, y compris répondre aux appels téléphoniques. \n\nL\'application pourra aussi activer ou désactiver le mode Ne pas déranger, et modifier les paramètres associés."</string>
-    <string name="notification_listener_disable_warning_summary" msgid="8373396293802088961">"Si vous désactivez l\'accès aux notifications pour <xliff:g id="NOTIFICATION_LISTENER_NAME">%1$s</xliff:g>, l\'accès au mode Ne pas déranger peut également être désactivé."</string>
+    <string name="notification_listener_security_warning_summary" msgid="1658213659262173405"> <xliff:g id="notification_listener_name">%1$s</xliff:g> pourra lire toutes les notifications, y compris des informations personnelles telles que le nom des contacts et le texte des messages que vous recevez. Cette application pourra également fermer des notifications ou agir sur les boutons figurant dans ces notifications, y compris répondre aux appels téléphoniques.
+\n
+\nL\'application pourra aussi activer ou désactiver le mode Ne pas déranger, et modifier les paramètres associés. </string>
+    <string name="notification_listener_disable_warning_summary" msgid="8373396293802088961"> Si vous désactivez l\'accès aux notifications pour<xliff:g id="notification_listener_name">%1$s</xliff:g>, l\'accès au mode Ne pas déranger peuourrait également être désactivé. </string>
     <string name="notification_listener_disable_warning_confirm" msgid="841492108402184976">"Désactiver"</string>
     <string name="notification_listener_disable_warning_cancel" msgid="8802784105045594324">"Annuler"</string>
     <string name="vr_listeners_title" msgid="4960357292472540964">"Assistance réalité virtuelle"</string>
     <string name="no_vr_listeners" msgid="8442646085375949755">"Aucune demande d\'exécution en tant que service d\'assistance pour la réalité virtuelle n\'a été envoyée pour les applications installées."</string>
     <string name="vr_listener_security_warning_title" msgid="7026351795627615177">"Autoriser <xliff:g id="SERVICE">%1$s</xliff:g> à accéder au service de réalité virtuelle ?"</string>
-    <string name="vr_listener_security_warning_summary" msgid="1888843557687017791">"L\'écouteur \"<xliff:g id="VR_LISTENER_NAME">%1$s</xliff:g>\" pourra être exécuté lorsque vous utiliserez des applications en mode Réalité virtuelle."</string>
+    <string name="vr_listener_security_warning_summary" msgid="1888843557687017791"> <xliff:g id="vr_listener_name">%1$s</xliff:g> pourra être exécuté lors de l\'utilisation des applications en mode Réalité virtuelle. </string>
     <string name="display_vr_pref_title" msgid="4850474436291113569">"Quand l\'appareil est en mode RV"</string>
     <string name="display_vr_pref_low_persistence" msgid="7039841277157739871">"Réduire le flou (recommandé)"</string>
     <string name="display_vr_pref_off" msgid="4008841566387432721">"Réduire le scintillement"</string>
@@ -3859,7 +3863,7 @@
     <string name="screen_pinning_unlock_none" msgid="2474959642431856316">"Verrouiller l\'appareil après l\'annulation de l\'épinglage"</string>
     <string name="confirm_sim_deletion_title" msgid="9199369003530237871">"Confirmer la suppression de la carte SIM"</string>
     <string name="confirm_sim_deletion_description" msgid="8937609409607338516">"Confirmez votre identité avant d\'effacer une carte SIM téléchargée"</string>
-    <string name="opening_paragraph_delete_profile_unknown_company" msgid="2951348192319498135">"Ce profil professionnel est géré par"</string>
+    <string name="opening_paragraph_delete_profile_unknown_company" msgid="2951348192319498135">Ce profil professionnel est géré par :</string>
     <string name="managing_admin" msgid="2633920317425356619">"Géré par <xliff:g id="ADMIN_APP_LABEL">%s</xliff:g>"</string>
     <string name="experimental_preference" msgid="869354050717870055">"(Expérimental)"</string>
     <string name="encryption_interstitial_header" msgid="4418014339568737685">"Démarrage sécurisé"</string>
@@ -3970,7 +3974,7 @@
     <string name="assist_and_voice_input_title" msgid="6317935163145135914">"Assistance et saisie vocale"</string>
     <string name="default_assist_title" msgid="1182435129627493758">"Assistant numérique"</string>
     <string name="default_digital_assistant_title" msgid="5654663086385490838">"Assistant numérique par défaut"</string>
-    <string name="assistant_security_warning_title" msgid="6444187332360938730">"Définir <xliff:g id="ASSISTANT_APP_NAME">%s</xliff:g> comme application d\'assistance ?"</string>
+    <string name="assistant_security_warning_title" msgid="6444187332360938730"> Définir <xliff:g id="assistant_app_name">%s</xliff:g> comme application d\'assistance \? </string>
     <string name="assistant_security_warning" msgid="5623237187748811070">"L\'assistant pourra accéder aux informations relatives aux applications en cours d\'utilisation sur votre système, y compris celles visibles à l\'écran ou accessibles au sein des applications."</string>
     <string name="assistant_security_warning_agree" msgid="9013334158753473359">"Accepter"</string>
     <string name="assistant_security_warning_disagree" msgid="1539182108068356410">"Refuser"</string>
@@ -4016,7 +4020,9 @@
     <string name="high_power_system" msgid="3966701453644915787">"Optimisation de la batterie non disponible"</string>
     <string name="high_power_desc" msgid="2753076899835765338">"N\'applique aucune optimisation de batterie et risque de décharger la batterie plus rapidement."</string>
     <string name="high_power_prompt_title" msgid="2574478825228409124">"Toujours autoriser en arrière-plan ?"</string>
-    <string name="high_power_prompt_body" msgid="6460557929559616041">"Si vous autorisez <xliff:g id="APP_NAME">%1$s</xliff:g> à toujours fonctionner en arrière-plan, l\'autonomie de la batterie peut être réduite. \n\nVous pouvez modifier cette option ultérieurement dans Paramètres &gt; Applis et notifications."</string>
+    <string name="high_power_prompt_body" msgid="6460557929559616041"> Si vous autorisez <xliff:g id="app_name" example="Settings">%1$s</xliff:g> à toujours fonctionner en arrière-plan, l\'autonomie de la batterie peut être réduite.
+\n
+\nVous pouvez modifier cette option ultérieurement dans Paramètres &gt; Applis &amp; et notifications.</string>
     <string name="battery_summary" msgid="2491764359695671207">"Utilisation depuis la dernière charge complète : <xliff:g id="PERCENTAGE">%1$s</xliff:g>"</string>
     <string name="battery_power_management" msgid="7507188088567087384">"Gestion de l\'alimentation"</string>
     <string name="no_battery_summary" msgid="5769159953384122003">"Aucune utilisation de la batterie depuis la dernière charge complète"</string>
@@ -4769,10 +4775,12 @@
     <string name="mobile_network_use_sim_on" msgid="7298332437547707908">"Utiliser la carte SIM"</string>
     <string name="mobile_network_use_sim_off" msgid="6303281166199670639">"Désactivé"</string>
     <string name="mobile_network_disable_sim_explanation" msgid="2851862257846773796">"Pour désactiver cette carte SIM, retirez-la"</string>
-    <string name="mobile_network_tap_to_activate" msgid="4139979375717958102">"Appuyer pour activer <xliff:g id="CARRIER">%1$s</xliff:g>"</string>
-    <string name="mobile_network_esim_swap_confirm_title" msgid="2762744961192218789">"Utiliser <xliff:g id="CARRIER">%1$s</xliff:g> ?"</string>
-    <string name="mobile_network_esim_swap_confirm_body" msgid="8168680839542031781">"Une seule carte SIM téléchargée peut être active à la fois.\n\nPasser à <xliff:g id="CARRIER1">%1$s</xliff:g> n\'entraînera pas la résiliation de votre service <xliff:g id="CARRIER2">%2$s</xliff:g>."</string>
-    <string name="mobile_network_esim_swap_confirm_ok" msgid="8695772737522378095">"Basculer vers le réseau <xliff:g id="CARRIER">%1$s</xliff:g>"</string>
+    <string name="mobile_network_tap_to_activate" msgid="4139979375717958102"> Appuyer pour activer <xliff:g id="carrier" example="T-mobile">%1$s</xliff:g> </string>
+    <string name="mobile_network_esim_swap_confirm_title" msgid="2762744961192218789"> Utiliser <xliff:g id="carrier" example="T-mobile">%1$s</xliff:g> \? </string>
+    <string name="mobile_network_esim_swap_confirm_body" msgid="8168680839542031781"> Une seule carte SIM téléchargée peut être active à la fois.
+\n
+\nPasser à <xliff:g id="carrier1" example="T-mobile">%1$s</xliff:g> n\'entraînera pas la résiliation de votre service <xliff:g id="carrier2" example="Verizon">%2$s</xliff:g>. </string>
+    <string name="mobile_network_esim_swap_confirm_ok" msgid="8695772737522378095"> Basculer vers le réseau <xliff:g id="carrier" example="T-mobile">%1$s</xliff:g> </string>
     <string name="mobile_network_erase_sim" msgid="4629071168032714930">"Effacer la carte SIM"</string>
     <string name="mobile_network_erase_sim_error_dialog_title" msgid="6680959559589234726">"Impossible d\'effacer la carte SIM"</string>
     <string name="mobile_network_erase_sim_error_dialog_body" msgid="6401922869095572710">"Une erreur empêche l\'effacement de cette carte SIM.\n\nRedémarrez votre appareil et réessayez."</string>
@@ -4801,7 +4809,7 @@
     <string name="see_more" msgid="7499355691042812723">"Voir plus"</string>
     <string name="see_less" msgid="2642392725363552793">"Moins de détails"</string>
     <string name="network_connection_request_dialog_title" msgid="1896186380874289434">"Connexion à l\'appareil"</string>
-    <string name="network_connection_request_dialog_summary" msgid="7693038309792726170">"L\'application <xliff:g id="APPNAME">%1$s</xliff:g> souhaite utiliser un réseau Wi‑Fi temporaire pour établir la connexion à votre appareil"</string>
+    <string name="network_connection_request_dialog_summary" msgid="7693038309792726170"> L\'application <xliff:g id="appName" example="ThirdPartyAppName">%1$s</xliff:g> souhaite utiliser un réseau Wi‑Fi temporaire pour se connecter à votre appareil </string>
     <string name="network_connection_timeout_dialog_message" msgid="598509083077743772">"Aucun appareil trouvé. Assurez-vous que des appareils soient activés et prêts à être connectés."</string>
     <string name="network_connection_timeout_dialog_ok" msgid="6022675321823723755">"Réessayer"</string>
     <string name="network_connection_errorstate_dialog_message" msgid="3360714322047603239">"Un problème est survenu. L\'application a annulé la demande de sélection d\'un appareil."</string>
