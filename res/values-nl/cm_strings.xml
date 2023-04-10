@@ -13,8 +13,7 @@
      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
      See the License for the specific language governing permissions and
      limitations under the License.
--->
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+--><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <plurals name="show_dev_countdown_cm">
         <item quantity="one">U bent nog <xliff:g id="step_count">%1$d</xliff:g> stap verwijderd van de opties voor ontwikkelaars.</item>
         <item quantity="other">U bent nog <xliff:g id="step_count">%1$d</xliff:g> stappen verwijderd van de opties voor ontwikkelaars.</item>
@@ -94,7 +93,7 @@
     <string name="show_navbar_hint_summary">Toon navigatiehintbalk aan de onderkant van het scherm</string>
     <string name="connected_tws_device_saved_title">Opgeslagen oordopjes</string>
     <string name="touchscreen_hovering_title">Zweven boven scherm</string>
-    <string name="touchscreen_hovering_summary">Met uw vinger boven het zwerm zweven, zoals een muis in browsers, bureaublad op afstand, etc.</string>
+    <string name="touchscreen_hovering_summary">Met uw vinger boven het zwerm zweven, zoals een muis in browsers, bureaublad op afstand, enz</string>
     <string name="peak_refresh_rate_summary_custom">Hiermee wordt de vernieuwingssnelheid automatisch verhoogd van 60 naar %1$d Hz voor bepaalde content. Het batterijgebruik neemt toe.</string>
     <string name="theme_customization_font_title">Lettertype</string>
     <string name="theme_customization_icon_shape_title">Pictogram vorm</string>
@@ -104,4 +103,12 @@
     <string name="wake_when_plugged_or_unplugged_summary">Scherm aan bij het aansluiten of loskoppelen van een lader</string>
     <string name="fast_charging_title">Snelladen</string>
     <string name="fast_charging_summary">Schakel uit om de warmteproductie van het apparaat te verminderen tijdens het opladen of om de levensduur van de batterij te verlengen</string>
+    <string name="advanced_privacy_dashboard_summary">Tracker beheer, fake locatie, IP adres verbergen</string>
+    <string name="telemetry_dialog_message">Dit staat automatische foutrapporten toe wanneer een applicatie crasht of bevriest. Herstart a.u.b. jouw toestel nadat je deze instelling hebt gewijzigd.</string>
+    <string name="telemetry_dialog_title">Je staat op het punt om /e/OS Telemetrie te activeren</string>
+    <string name="telemetry_details">Activeer automatische foutrapporten</string>
+    <string name="enable_telemetry">Activeer /e/OS Telemetrie</string>
+    <string name="elicense_title">/e/ juridisch</string>
+    <string name="e_version">/e/ OS versie</string>
+    <string name="system_update_summary">Updates, voorkeuren, release notes</string>
 </resources>
