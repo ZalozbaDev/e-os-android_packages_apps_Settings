@@ -14,8 +14,7 @@
      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
      See the License for the specific language governing permissions and
      limitations under the License.
--->
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+--><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <plurals name="show_dev_countdown_cm">
         <item quantity="one">Du er nå <xliff:g id="step_count"> %1$d</xliff:g> skritt fra aktivering av utviklerinnstillinger.</item>
         <item quantity="other">Du er nå <xliff:g id="step_count"> %1$d</xliff:g> skritt fra aktivering av utviklerinnstillinger.</item>
@@ -71,4 +70,7 @@
     <string name="update_recovery_off_warning">Advarsel: Når denne funksjonen er deaktivert, vil ikke din nåværende recovery bli oppdatert med systemoppdateringer.\n\nFremtidige systemoppdateringer vil kanskje ikke installeres på en gammel eller egendefinert recovery.\n\nVil du deaktivere denne funksjonen?</string>
     <string name="heads_up_notifications_enabled_title">Varselvindu</string>
     <string name="heads_up_notifications_enabled_summary">Vis prioriterte varsler i et lite flytende vindu</string>
+    <string name="suggestion_button_close">Lukk</string>
+    <string name="e_version">/e/ OS-versjon</string>
+    <string name="system_update_summary">Oppdateringer, brukervalg, versjonsmerknader</string>
 </resources>
