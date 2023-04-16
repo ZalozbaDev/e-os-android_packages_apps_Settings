@@ -14,8 +14,7 @@
      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
      See the License for the specific language governing permissions and
      limitations under the License.
--->
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+--><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <plurals name="show_dev_countdown_cm">
         <item quantity="one">Du er nå <xliff:g id="step_count"> %1$d</xliff:g> skritt fra aktivering av utviklerinnstillinger.</item>
         <item quantity="other">Du er nå <xliff:g id="step_count"> %1$d</xliff:g> skritt fra aktivering av utviklerinnstillinger.</item>
@@ -58,4 +57,9 @@
     <string name="wake_when_plugged_or_unplugged_title">Våkne ved tilkobling av strøm</string>
     <string name="wake_when_plugged_or_unplugged_summary">Skjermen slås på når du kobler til eller kobler fra en strømkilde</string>
     <string name="peak_refresh_rate_summary_custom">Øker oppdateringsfrekvensen automatisk fra 60 til %1$d Hz for noe innhold. Øker batteribruken.</string>
+    <string name="advanced_keyboard_settings_title">Avanserte innstillinger</string>
+    <string name="keyboard_extras_title">Ekstra</string>
+    <string name="mobile_data_settings_summary_unavailable">Ingen SIM-kort tilgjengelig</string>
+    <string name="e_version">/e/ OS-versjon</string>
+    <string name="system_update_summary">Oppdateringer, brukervalg, versjonsmerknader</string>
 </resources>
