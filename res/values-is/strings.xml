@@ -50,11 +50,11 @@
     <string name="radio_info_ims_reg_status_not_registered" msgid="4077921618888195960">Ekki skráð</string>
     <string name="radio_info_ims_feature_status_available" msgid="8993855603692847184">Tiltækt</string>
     <string name="radio_info_ims_feature_status_unavailable" msgid="6863496498730629050">Ekki tiltækt</string>
-    <string name="radio_info_ims_reg_status" msgid="7485500436613134869">Skráning IMS: <xliff:g id="STATUS">%1$s</xliff:g>
-\nRödd með LTE: <xliff:g id="AVAILABILITY_0">%2$s</xliff:g>
-\nRödd með Wi-Fi: <xliff:g id="AVAILABILITY_1">%3$s</xliff:g>
-\nMyndsímtöl: <xliff:g id="AVAILABILITY_2">%4$s</xliff:g>
-\nUT viðmót: <xliff:g id="AVAILABILITY_3">%5$s</xliff:g></string>
+    <string name="radio_info_ims_reg_status" msgid="7485500436613134869">Skráning IMS: <xliff:g id="status" example="registered">%1$s</xliff:g>
+\nRödd með LTE: <xliff:g id="availability" example="available">%2$s</xliff:g>
+\nRödd með Wi-Fi: <xliff:g id="availability" example="available">%3$s</xliff:g>
+\nMyndsímtöl: <xliff:g id="availability" example="available">%4$s</xliff:g>
+\nUT-viðmót: <xliff:g id="availability" example="available">%5$s</xliff:g></string>
     <string name="radioInfo_service_in" msgid="9088637745836646271">Innan þjónustusvæðis</string>
     <string name="radioInfo_service_out" msgid="1868347333892403287">Utan þjónustusvæðis</string>
     <string name="radioInfo_service_emergency" msgid="6838935881091760942">Aðeins neyðarsímtöl</string>
@@ -80,7 +80,7 @@
     <string name="sdcard_format" product="nosdcard" msgid="3248760426252305366">"Hreinsa út af USB geymslu"</string>
     <string name="sdcard_format" product="default" msgid="3676635435136326182">Hreinsa út af SD-korti</string>
     <string name="preview_pager_content_description" msgid="3762247188224576303">Forskoðun</string>
-    <string name="preview_page_indicator_content_description" msgid="2790254666634885865">Forskoðun, síða <xliff:g id="CURRENT_PAGE">%1$d</xliff:g> af <xliff:g id="NUM_PAGES">%2$d</xliff:g></string>
+    <string name="preview_page_indicator_content_description" msgid="2790254666634885865">Forskoðun, síða <xliff:g id="current_page" example="3">%1$d</xliff:g> af <xliff:g id="num_pages" example="9">%2$d</xliff:g></string>
     <string name="font_size_summary" msgid="1296835853522566260">Stækkaðu eða minnkaðu texta á skjá.</string>
     <string name="font_size_make_smaller_desc" msgid="4978038055549590140">Minnka</string>
     <string name="font_size_make_larger_desc" msgid="5583046033381722247">Stækka</string>
@@ -4936,4 +4936,11 @@
     <string name="e_dns_name_summary">Settu DNS sem á að nota</string>
     <string name="e_dns_not_set">9.9.9.9</string>
     <string name="e_dns_summary">DNS-uppsetning</string>
+    <string name="wifi_connected_to_message">\@string/bluetooth_connected_summary</string>
+    <string name="wifi_disconnect">\@string/bluetooth_device_context_disconnect</string>
+    <string name="wifi_saved_access_points_tab">\@string/wifi_access_points</string>
+    <string name="testing_sim_toolkit">SIM verkfærasafn</string>
+    <string name="battery_stats_last_duration">\@string/menu_stats_last_unplugged</string>
+    <string name="battery_saver_seekbar_title"><xliff:g id="percent">%1$s</xliff:g></string>
+    <string name="call_manager_summary"><xliff:g id="app">%1$s</xliff:g></string>
 </resources>
