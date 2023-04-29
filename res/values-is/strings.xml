@@ -685,7 +685,7 @@
     <string name="lock_failed_attempts_now_wiping_device" msgid="2813744895409014471">Of margar rangar tilraunir. Gögnum tækisins verður eytt.</string>
     <string name="lock_failed_attempts_now_wiping_user" msgid="3958755474620948727">Of margar rangar tilraunir. Þessum notanda verður eytt.</string>
     <string name="lock_failed_attempts_now_wiping_profile" msgid="3171880997211568208">Of margar rangar tilraunir. Þessu vinnusniði og gögnum þess verður eytt.</string>
-    <string name="lock_failed_attempts_now_wiping_dialog_dismiss" msgid="170155081899679669">Hunsa</string>
+    <string name="lock_failed_attempts_now_wiping_dialog_dismiss" msgid="170155081899679669">Afgreiða</string>
     <plurals name="lockpassword_password_too_short" formatted="false" msgid="2192234965414232157">
         <item quantity="one">Verður að vera að minnsta kosti <xliff:g id="COUNT_1">%d</xliff:g> stafur</item>
         <item quantity="other">Verður að vera að minnsta kosti <xliff:g id="COUNT_1">%d</xliff:g> stafir</item>
@@ -3003,7 +3003,7 @@
     <string name="vpn_always_on_invalid_reason_dns" msgid="3934369594591801587">Vistfang DNS-þjóns verður að vera tölugildi fyrir sívirkt VPN</string>
     <string name="vpn_always_on_invalid_reason_other" msgid="4571905303713233321">Upplýsingarnar sem voru færðar inn styðja ekki sívirkt VPN</string>
     <string name="vpn_cancel" msgid="5929410618112404383">Hætta við</string>
-    <string name="vpn_done" msgid="5137858784289564985">Hunsa</string>
+    <string name="vpn_done" msgid="5137858784289564985">Afgreiða</string>
     <string name="vpn_save" msgid="683868204634860888">Vista</string>
     <string name="vpn_connect" msgid="7102335248484045354">Tengjast</string>
     <string name="vpn_replace" msgid="1533147558671640341">Skipta út</string>
@@ -3570,7 +3570,7 @@
     <string name="notification_badging_title" msgid="3149547223586336353">Leyfa tilkynningapunkta</string>
     <string name="notification_bubbles_title" msgid="5681506665322329301">Blöðrur</string>
     <string name="notification_bubbles_developer_setting_summary" msgid="3675697756601760093">Sumar tilkynningar geta birst sem blöðrur á skjánum</string>
-    <string name="bubbles_feature_education" msgid="4088275802688887634">Sumar tilkynningar og annað efni getur birst sem blöðrur á skjánum. Ýttu á blöðruna til að opna hana. Dragðu blöðruna niður skjáinn til að hunsa hana.</string>
+    <string name="bubbles_feature_education" msgid="4088275802688887634">Sumar tilkynningar og annað efni getur birst sem blöðrur á skjánum. Ýttu á blöðruna til að opna hana. Dragðu blöðruna niður skjáinn til að afgreiða hana.</string>
     <string name="bubbles_app_toggle_title" msgid="5319021259954576150">Blöðrur</string>
     <string name="bubbles_app_toggle_summary" msgid="1574515698567947948">Leyfa <xliff:g id="APP_NAME">%1$s</xliff:g> að sýna sumar tilkynningar í blöðrum</string>
     <string name="bubbles_feature_disabled_dialog_title" msgid="1233382767099262132">Kveikja á blöðrum</string>
@@ -3578,8 +3578,8 @@
     <string name="bubbles_feature_disabled_button_approve" msgid="597665528889599104">Kveikja á fyrir tæki</string>
     <string name="bubbles_feature_disabled_button_cancel" msgid="8963409459448350600">Hætta við</string>
     <string name="swipe_direction_title" msgid="4260320464727178413">Strokaðgerðir</string>
-    <string name="swipe_direction_ltr" msgid="5137180130142633085">Strjúktu til hægri til að hunsa og til vinstri til að birta valmynd</string>
-    <string name="swipe_direction_rtl" msgid="1707391213940663992">Strjúktu til vinstri til að hunsa og til hægri til að birta valmynd</string>
+    <string name="swipe_direction_ltr" msgid="5137180130142633085">Strjúktu til hægri til að afgreiða og til vinstri til að birta valmynd</string>
+    <string name="swipe_direction_rtl" msgid="1707391213940663992">Strjúktu til vinstri til að afgreiða og til hægri til að birta valmynd</string>
     <string name="gentle_notifications_title" msgid="2793492905132530991">Þægilegar tilkynningar</string>
     <string name="gentle_notifications_also_display" msgid="8617545395880297691">Birta einnig á</string>
     <string name="gentle_notifications_display_status" msgid="7410244447768694856">Stöðustika</string>
@@ -3659,11 +3659,11 @@
     <string name="no_notification_assistant" msgid="2533323397091834096">Engin</string>
     <string name="no_notification_listeners" msgid="2839354157349636000">Engin uppsett forrit hafa óskað eftir tilkynningaaðgangi.</string>
     <string name="notification_assistant_security_warning_title" msgid="2972346436050925276">Veita <xliff:g id="SERVICE">%1$s</xliff:g> aðgang að tilkynningum\?</string>
-    <string name="notification_assistant_security_warning_summary" msgid="3119843404577399036"> <xliff:g id="NOTIFICATION_ASSISTANT_NAME">%1$s</xliff:g> getur lesið allar tilkynningar, þar á meðal persónuupplýsingar á borð við nöfn tengiliða og texta skilaboða sem þú færð. Forritið getur einnig breytt tilkynningum eða hunsað þær eða valið aðgerðahnappa innan þeirra.
+    <string name="notification_assistant_security_warning_summary" msgid="3119843404577399036"> <xliff:g id="NOTIFICATION_ASSISTANT_NAME">%1$s</xliff:g> getur lesið allar tilkynningar, þar á meðal persónuupplýsingar á borð við nöfn tengiliða og texta skilaboða sem þú færð. Forritið getur einnig breytt tilkynningum eða afgreitt þær eða valið aðgerðahnappa innan þeirra.
 \n
 \n Þetta gerir forritinu einnig kleift að kveikja og slökkva á „Ónáðið ekki“ og breyta tengdum stillingum. </string>
     <string name="notification_listener_security_warning_title" msgid="5791700876622858363">Veita <xliff:g id="SERVICE">%1$s</xliff:g> aðgang að tilkynningum\?</string>
-    <string name="notification_listener_security_warning_summary" msgid="1896899068512197964"> <xliff:g id="NOTIFICATION_LISTENER_NAME">%1$s</xliff:g> mun geta lesið allar tilkynningar, þar á meðal persónuupplýsingar á borð við nöfn tengiliða og texta skilaboða sem þú færð. Það mun einnig geta hunsað tilkynningar eða valið aðgerðahnappa innan þeirra.
+    <string name="notification_listener_security_warning_summary" msgid="1896899068512197964"> <xliff:g id="notification_listener_name">%1$s</xliff:g> mun geta lesið allar tilkynningar, þar á meðal persónuupplýsingar á borð við nöfn tengiliða og texta skilaboða sem þú færð. Það mun einnig geta afgreitt tilkynningar eða valið aðgerðahnappa innan þeirra.
 \n
 \n Þetta mun einnig gera forritinu kleift að kveikja og slökkva á Ónáðið ekki og breyta tengdum stillingum. </string>
     <string name="notification_listener_disable_warning_summary" msgid="8373396293802088961"> Ef þú slekkur á tilkynningaaðgangi fyrir <xliff:g id="NOTIFICATION_LISTENER_NAME">%1$s</xliff:g> kann einnig að verða slökkt á Ónáðið ekki. </string>
