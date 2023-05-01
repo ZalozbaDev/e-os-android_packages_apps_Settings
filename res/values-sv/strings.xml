@@ -4748,16 +4748,16 @@
     <string name="cross_profile_calendar_title" msgid="7570277841490216947">"Kalender för flera profiler"</string>
     <string name="cross_profile_calendar_summary" msgid="8856185206722860069">"Visa jobbhändelser i den personliga kalendern"</string>
     <plurals name="hours" formatted="false" msgid="1853396353451635458">
-        <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> timmar</item>
         <item quantity="one">1 timme</item>
+        <item quantity="other"><xliff:g id="number" example="7">%s</xliff:g> timmar</item>
     </plurals>
     <plurals name="minutes" formatted="false" msgid="6244503272924425418">
-        <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> minuter</item>
         <item quantity="one">1 minut</item>
+        <item quantity="other"><xliff:g id="number" example="7">%s</xliff:g> minuter</item>
     </plurals>
     <plurals name="seconds" formatted="false" msgid="4237020272336995370">
-        <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> sekunder</item>
         <item quantity="one">1 sekund</item>
+        <item quantity="other"><xliff:g id="number" example="7">%s</xliff:g> sekunder</item>
     </plurals>
     <string name="automatic_storage_manager_settings" msgid="519158151463974656">"Hantera lagring"</string>
     <string name="automatic_storage_manager_text" msgid="6900593059927987273">"Lagringshanteraren tar bort säkerhetskopior av foton och videor från enheten för att frigöra lagringsutrymme."</string>
