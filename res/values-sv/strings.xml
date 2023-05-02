@@ -152,7 +152,7 @@
     <string name="bluetooth_connection_notif_message" msgid="6087344980352898209">"Tryck om du vill ansluta till <xliff:g id="DEVICE_NAME">%1$s</xliff:g>."</string>
     <string name="bluetooth_connection_dialog_text" msgid="2537152772549874391">"Vill du ansluta till <xliff:g id="DEVICE_NAME">%1$s</xliff:g>?"</string>
     <string name="bluetooth_phonebook_request" msgid="1085102844577089889">"Begäran om åtkomst till telefonbok"</string>
-    <string name="bluetooth_pb_acceptance_dialog_text" msgid="7153531868579789993">"<xliff:g id="DEVICE_NAME_0">%1$s</xliff:g> vill ha tillgång till kontakter och samtalshistorik. Vill du ge <xliff:g id="DEVICE_NAME_1">%2$s</xliff:g> tillgång?"</string>
+    <string name="bluetooth_pb_acceptance_dialog_text" msgid="7153531868579789993"> <xliff:g id="device_name">%1$s</xliff:g> vill ha åtkomst till kontakter och samtalshistorik. Vill du ge åtkomst till <xliff:g id="device_name">%2$s</xliff:g>\? </string>
     <string name="bluetooth_remember_choice" msgid="173821849670438110">"Fråga inte igen"</string>
     <string name="bluetooth_pb_remember_choice" msgid="2080511174185036562">"Fråga inte igen"</string>
     <string name="bluetooth_map_request" msgid="8664081227240707479">"Begäran om meddelandeåtkomst"</string>
@@ -1324,7 +1324,7 @@
     <string name="sim_enter_cancel" msgid="2001859323724961490">"Avbryt"</string>
     <string name="sim_multi_sims_title" msgid="4875083890014013296">"Flera SIM-kort har hittats"</string>
     <string name="sim_multi_sims_summary" msgid="1711012455679332238">"Välj vilket SIM-kort du vill använda för mobildatan."</string>
-    <string name="sim_change_data_title" msgid="4663239438584588847">"Ska mobildata från <xliff:g id="CARRIER">%1$s</xliff:g> användas?"</string>
+    <string name="sim_change_data_title" msgid="4663239438584588847"> Ska mobildata från <xliff:g id="carrier" example="Verizon">%1$s</xliff:g> användas\? </string>
     <string name="sim_change_data_message" msgid="3046178883369645132">"Du använder mobildata från <xliff:g id="CARRIER2_0">%2$s</xliff:g>. Om du byter till <xliff:g id="CARRIER1">%1$s</xliff:g> används inte längre mobildata från <xliff:g id="CARRIER2_1">%2$s</xliff:g>."</string>
     <string name="sim_change_data_ok" msgid="4922114750417276560">"Använd <xliff:g id="CARRIER">%1$s</xliff:g>"</string>
     <string name="sim_preferred_title" msgid="7182406911552216373">"Uppdatera primärt SIM-kort?"</string>
@@ -1334,7 +1334,7 @@
         <item quantity="other">Du angav fel pinkod för SIM-kortet. <xliff:g id="NUMBER_1">%d</xliff:g> försök återstår.</item>
         <item quantity="one">Du angav fel pinkod för SIM-kortet. <xliff:g id="NUMBER_0">%d</xliff:g> försök återstår innan du måste kontakta operatören för att låsa upp enheten.</item>
     </plurals>
-    <string name="pin_failed" msgid="3726505565797352255">"Det gick inte att låsa upp med pinkoden för SIM-kortet."</string>
+    <string name="pin_failed" msgid="3726505565797352255">Misslyckades låsa upp SIM-kort med pinkod!</string>
     <string name="system_update_settings_list_item_title" msgid="3398346836439366350">"Systemuppdateringar"</string>
     <string name="firmware_version" msgid="1606901586501447275">"Android-version"</string>
     <string name="security_patch" msgid="2872125288404962091">"Nivå av säkerhetskorrigering för Android"</string>
@@ -1631,7 +1631,7 @@
     <string name="master_clear_progress_title" msgid="480032747847804624">"Rensar"</string>
     <string name="master_clear_progress_text" msgid="8891964820486632180">"Vänta ..."</string>
     <string name="call_settings_title" msgid="2531072044177194164">"Samtalsinställningar"</string>
-    <string name="call_settings_summary" msgid="8244293779053318053">"Ställ in röstbrevlåda, vidarekoppla samtal, samtal väntar, nummerpres."</string>
+    <string name="call_settings_summary" msgid="8244293779053318053">Ställ in röstbrevlåda, vidarekoppla samtal, samtal väntar, nummerpresentatör</string>
     <string name="tether_settings_title_usb" msgid="5926474044238409099">"Internetdelning via USB"</string>
     <string name="tether_settings_title_wifi" msgid="4327056146425282159">"Mobil surfzon"</string>
     <string name="tether_settings_title_bluetooth" msgid="8878813702520141084">"Delning via Bluetooth"</string>
@@ -2026,7 +2026,7 @@
     <string name="user_dict_settings_context_menu_delete_title" msgid="651550824433043545">"Radera"</string>
     <string name="user_dict_settings_empty_text" msgid="86562873609647919">"Du har inga ord i din egen ordlista. Tryck på knappen Lägg till (+) om du vill lägga till ett ord."</string>
     <string name="user_dict_settings_all_languages" msgid="8563387437755363526">"För alla språk"</string>
-    <string name="user_dict_settings_more_languages" msgid="5378870726809672319">"Fler språk ..."</string>
+    <string name="user_dict_settings_more_languages" msgid="5378870726809672319">Fler språk…</string>
     <string name="testing" msgid="6294172343766732037">"Testa"</string>
     <string name="testing_phone_info" product="tablet" msgid="1910768200608214456">"Information om surfplattan"</string>
     <string name="testing_phone_info" product="default" msgid="1150527695827743906">"Telefoninformation"</string>
@@ -2347,8 +2347,8 @@
         <item quantity="one">Det går inte att köra den här appen i bakgrunden</item>
     </plurals>
     <plurals name="battery_tip_restrict_app_dialog_title" formatted="false" msgid="7897944678619251740">
-        <item quantity="other">Vill du begränsa apparna?</item>
-        <item quantity="one">Vill du begränsa appen?</item>
+        <item quantity="one">Vill du begränsa appen\?</item>
+        <item quantity="other">Vill du begränsa %1$d appar\?</item>
     </plurals>
     <string name="battery_tip_restrict_app_dialog_message" msgid="137856003724730751">"Spara batteri genom att förhindra att <xliff:g id="APP">%1$s</xliff:g> drar batteri i bakgrunden. Appen kanske inte fungerar som den ska, och aviseringar kan fördröjas."</string>
     <string name="battery_tip_restrict_apps_less_than_5_dialog_message" msgid="5894648804112181324">"Om du vill spara batteri kan du förhindra att dessa appar drar batteri i bakgrunden. Begränsade appar kanske inte fungerar som de ska, och aviseringar kan fördröjas.\n\nAppar:"</string>
@@ -3739,7 +3739,7 @@
     <string name="default_for_work" msgid="537558180548617528">"Standardinställning för jobbet"</string>
     <string name="assist_and_voice_input_title" msgid="6317935163145135914">"Assistent och röstinmatning"</string>
     <string name="default_assist_title" msgid="1265914608125710127">"Assistentapp"</string>
-    <string name="assistant_security_warning_title" msgid="6444187332360938730">"Vill du använda <xliff:g id="ASSISTANT_APP_NAME">%s</xliff:g> som assistent?"</string>
+    <string name="assistant_security_warning_title" msgid="6444187332360938730"> Vill du använda <xliff:g id="assistant_app_name">%s</xliff:g> som assistent\? </string>
     <string name="assistant_security_warning" msgid="5623237187748811070">"Assistenten kan läsa information om apparna på systemet, inklusive information som visas på skärmen eller är åtkomlig i apparna."</string>
     <string name="assistant_security_warning_agree" msgid="9013334158753473359">"Godkänn"</string>
     <string name="assistant_security_warning_disagree" msgid="1539182108068356410">"Godkänn inte"</string>
@@ -4513,7 +4513,7 @@
     <string name="mobile_network_use_sim_off" msgid="6303281166199670639">"Av"</string>
     <string name="mobile_network_disable_sim_explanation" msgid="2851862257846773796">"Ta ut SIM-kortet om du vill inaktivera det"</string>
     <string name="mobile_network_tap_to_activate" msgid="4139979375717958102">"Aktivera <xliff:g id="CARRIER">%1$s</xliff:g> genom att trycka"</string>
-    <string name="mobile_network_esim_swap_confirm_title" msgid="2762744961192218789">"Vill du byta till <xliff:g id="CARRIER">%1$s</xliff:g>?"</string>
+    <string name="mobile_network_esim_swap_confirm_title" msgid="2762744961192218789"> Vill du byta till <xliff:g id="carrier" example="T-mobile">%1$s</xliff:g>\? </string>
     <string name="mobile_network_esim_swap_confirm_body" msgid="8168680839542031781">"Du kan bara ha ett aktivt SIM-kort åt gången.\n\nOm du byter till <xliff:g id="CARRIER1">%1$s</xliff:g> avslutas inte tjänsten hos <xliff:g id="CARRIER2">%2$s</xliff:g>."</string>
     <string name="mobile_network_esim_swap_confirm_ok" msgid="8695772737522378095">"Byt till <xliff:g id="CARRIER">%1$s</xliff:g>"</string>
     <string name="mobile_network_erase_sim" msgid="4629071168032714930">"Rensa SIM-kort"</string>
