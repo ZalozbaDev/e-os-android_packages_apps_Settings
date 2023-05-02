@@ -1069,7 +1069,6 @@
     <string name="wifi_details_ipv6_address_header">Seòlaidhean IPv6</string>
     <string name="wifi_saved_access_points_label">Lìonraidhean air an sàbhaladh</string>
     <string name="wifi_subscribed_access_points_tab">Fo-sgrìobhaidhean</string>
-    <string name="wifi_saved_access_points_tab">@string/wifi_access_points</string>
     <string name="wifi_advanced_settings_label">Roghainnean IP</string>
     <string name="wifi_advanced_not_available">Chan eil roghainnean WiFi adhartach ri fhaighinn airson a’ cleachdaiche seo</string>
     <string name="wifi_ip_settings_menu_save">Sàbhail</string>
@@ -2603,7 +2602,6 @@
     <string name="battery_stats_wifi_running_label">WiFi</string>
     <string name="battery_stats_wake_lock_label">’Na dhùisg</string>
     <string name="battery_stats_phone_signal_label">Siognail lìonra mobile</string>
-    <string name="battery_stats_last_duration">@string/menu_stats_last_unplugged</string>
     <string name="awake">Ùine ’na dhùisg an uidheim</string>
     <string name="wifi_on_time">Ùine le WiFi air</string>
     <string name="bluetooth_on_time">Ùine le WiFi air</string>
@@ -5039,17 +5037,6 @@
     <string name="graphics_driver_app_preference_game_driver">Draibhear gheamannan</string>
     <string name="graphics_driver_app_preference_prerelease_driver">Draibhear an luchd-leasachaidh</string>
     <string name="graphics_driver_app_preference_system">Draibhear grafaigeachd an t-siostaim</string>
-    <string-array name="graphics_driver_all_apps_preference_values">
-        <item>@string/graphics_driver_app_preference_default</item>
-        <item>@string/graphics_driver_app_preference_game_driver</item>
-        <item>@string/graphics_driver_app_preference_prerelease_driver</item>
-    </string-array>
-    <string-array name="graphics_driver_app_preference_values">
-        <item>@string/graphics_driver_app_preference_default</item>
-        <item>@string/graphics_driver_app_preference_prerelease_driver</item>
-        <item>@string/graphics_driver_app_preference_game_driver</item>
-        <item>@string/graphics_driver_app_preference_system</item>
-    </string-array>
     <string name="platform_compat_dashboard_title">Atharraichean air co-chòrdalachd nan aplacaidean</string>
     <string name="platform_compat_dashboard_summary">Toglaich atharraichean air co-chòrdalachd nan aplacaidean</string>
     <string name="platform_compat_default_enabled_title">Na h-atharraichean a tha an comas a ghnàth</string>

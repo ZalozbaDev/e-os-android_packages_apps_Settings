@@ -1070,7 +1070,6 @@ Mae amgryptio yn cymryd awr neu\'n hirach a bydd y ffôn yn ailgychwyn sawl tro 
     <string name="wifi_details_ipv6_address_header">Cyfeiriadau IPv6</string>
     <string name="wifi_saved_access_points_label">Rhwydweithiau wedi\'u cofio</string>
     <string name="wifi_subscribed_access_points_tab">Tanysgrifiadau</string>
-    <string name="wifi_saved_access_points_tab">@string/wifi_access_points</string>
     <string name="wifi_advanced_settings_label">Gosodiadau IP</string>
     <string name="wifi_advanced_not_available">Dyw gosodiadau uwch Wi\u2011Fi ddim ar gael ar gyfer y defnyddiwr hwn.</string>
     <string name="wifi_ip_settings_menu_save">Cadw</string>
@@ -2559,7 +2558,6 @@ Dyw\u2019r lefel hyn o reolaeth ddim yn briodol ar gyfer y mwyafrif o apiau.</st
     <string name="battery_stats_wifi_running_label">Wi\u2011Fi</string>
     <string name="battery_stats_wake_lock_label">Yn effro</string>
     <string name="battery_stats_phone_signal_label">Signal rhwydwaith symudol</string>
-    <string name="battery_stats_last_duration">@string/menu_stats_last_unplugged</string>
     <string name="awake">Amser y ddyfais yn effro</string>
     <string name="wifi_on_time">Amser Wi\u2011Fi ymlaen</string>
     <string name="bluetooth_on_time">Wi\u2011Fi o hyd</string>
@@ -5024,17 +5022,6 @@ Dyw\u2019r lefel hyn o reolaeth ddim yn briodol ar gyfer y mwyafrif o apiau.</st
     <string name="graphics_driver_app_preference_game_driver">Gyriant Gemau</string>
     <string name="graphics_driver_app_preference_prerelease_driver">Gyriant Datblygwr</string>
     <string name="graphics_driver_app_preference_system">Gyriant Graffeg y System</string>
-    <string-array name="graphics_driver_all_apps_preference_values">
-        <item>@string/graphics_driver_app_preference_default</item>
-        <item>@string/graphics_driver_app_preference_game_driver</item>
-        <item>@string/graphics_driver_app_preference_prerelease_driver</item>
-    </string-array>
-    <string-array name="graphics_driver_app_preference_values">
-        <item>@string/graphics_driver_app_preference_default</item>
-        <item>@string/graphics_driver_app_preference_prerelease_driver</item>
-        <item>@string/graphics_driver_app_preference_game_driver</item>
-        <item>@string/graphics_driver_app_preference_system</item>
-    </string-array>
     <string name="platform_compat_dialog_title_no_apps">Dim apiau ar gael</string>
     <string name="unsupported_setting_summary" product="default">Ni chefnogir y gosodiad ar y ffôn hwn</string>
     <string name="unsupported_setting_summary" product="tablet">Ni chefnogir y gosodiad ar y llechen hon</string>
