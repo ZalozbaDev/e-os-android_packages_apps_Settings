@@ -6132,7 +6132,7 @@
     <!-- [CHAR LIMIT=25] Label for battery stats phone signal strength graph -->
     <string name="battery_stats_phone_signal_label">Mobile network signal</string>
     <!-- Battery usage during last unplugged period -->
-    <string name="battery_stats_last_duration">@string/menu_stats_last_unplugged</string>
+    <string name="battery_stats_last_duration" translatable="false">@string/menu_stats_last_unplugged</string>
     <!-- CPU awake time title -->
     <string name="awake">Device awake time</string>
     <!-- Wifi on time -->
@@ -12362,13 +12362,13 @@
     <!-- The system driver value for system graphics driver app preference [CHAR LIMIT=50] -->
     <string name="graphics_driver_app_preference_system">System Graphics Driver</string>
     <!-- All the graphics driver preference values for all apps globally [CHAR LIMIT=50] -->
-    <string-array name="graphics_driver_all_apps_preference_values">
+    <string-array name="graphics_driver_all_apps_preference_values" translatable="false">
         <item>@string/graphics_driver_app_preference_default</item>
         <item>@string/graphics_driver_app_preference_production_driver</item>
         <item>@string/graphics_driver_app_preference_prerelease_driver</item>
     </string-array>
     <!-- All the values of graphics driver for app preference [CHAR LIMIT=50] -->
-    <string-array name="graphics_driver_app_preference_values">
+    <string-array name="graphics_driver_app_preference_values" translatable="false">
         <item>@string/graphics_driver_app_preference_default</item>
         <item>@string/graphics_driver_app_preference_prerelease_driver</item>
         <item>@string/graphics_driver_app_preference_production_driver</item>
