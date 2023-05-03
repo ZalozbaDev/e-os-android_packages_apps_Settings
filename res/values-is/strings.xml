@@ -209,7 +209,7 @@
     <string name="locale_remove_menu" msgid="3521546263421387474">Fjarlægja</string>
     <string name="add_a_language" msgid="2126220398077503271">Bæta við tungumáli</string>
     <plurals name="dlg_remove_locales_title" formatted="false" msgid="2845515796732609837">
-        <item quantity="one">Fjarlægja valin tungumál\?</item>
+        <item quantity="one">Fjarlægja valið tungumál\?</item>
         <item quantity="other">Fjarlægja valin tungumál\?</item>
     </plurals>
     <string name="dlg_remove_locales_message" msgid="8110560091134252067">Texti mun birtast á öðru tungumáli.</string>
@@ -271,7 +271,7 @@
     <string name="date_time_search_region" msgid="1364133854952610919">Leita að svæði</string>
     <string name="date_time_select_region" msgid="5449345333305056072">Svæði</string>
     <string name="date_time_select_fixed_offset_time_zones" msgid="594848300882055361">Velja tímamun frá UTC</string>
-    <string name="zone_change_to_from_dst" msgid="686451769985774294"><xliff:g id="TIME_TYPE">%1$s</xliff:g> hefst þann <xliff:g id="TRANSITION_DATE">%2$s</xliff:g>.</string>
+    <string name="zone_change_to_from_dst" msgid="686451769985774294"><xliff:g id="time_type" example="Pacific Summer Time">%1$s</xliff:g> hefst þann <xliff:g id="transition_date" example="Mar 11 2018">%2$s</xliff:g>.</string>
     <string name="zone_info_exemplar_location_and_offset" msgid="2186042522225153092"><xliff:g id="EXEMPLAR_LOCATION">%1$s</xliff:g> (<xliff:g id="OFFSET">%2$s</xliff:g>)</string>
     <string name="zone_info_offset_and_name" msgid="3960192548990990152"><xliff:g id="TIME_TYPE">%2$s</xliff:g> (<xliff:g id="OFFSET">%1$s</xliff:g>)</string>
     <string name="zone_info_footer" msgid="7004693956837388129">Notar <xliff:g id="OFFSET_AND_NAME">%1$s</xliff:g>. <xliff:g id="DST_TIME_TYPE">%2$s</xliff:g> hefst <xliff:g id="TRANSITION_DATE">%3$s</xliff:g>.</string>
@@ -2569,8 +2569,8 @@
         <item quantity="other">Langt (<xliff:g id="CLICK_DELAY_LABEL_1">%1$s</xliff:g> sekúndur)</item>
     </plurals>
     <plurals name="accessibilty_autoclick_delay_unit_second" formatted="false" msgid="4537791441118261556">
-        <item quantity="one"><xliff:g id="CLICK_DELAY_LABEL_2">%1$s</xliff:g> sek.</item>
-        <item quantity="other"><xliff:g id="CLICK_DELAY_LABEL_2">%1$s</xliff:g> sek.</item>
+        <item quantity="one"><xliff:g id="click_delay_label" example="1">%1$s</xliff:g> sek.</item>
+        <item quantity="other"><xliff:g id="click_delay_label">%1$s</xliff:g> sek.</item>
     </plurals>
     <string name="accessibility_vibration_summary" msgid="27904038683405084">Hringing <xliff:g id="SUMMARY_RING">%1$s</xliff:g>, tilkynning <xliff:g id="SUMMARY_NOTIFICATION">%2$s</xliff:g>, snerting <xliff:g id="SUMMARY_TOUCH">%3$s</xliff:g></string>
     <string name="accessibility_vibration_summary_off" msgid="7776105450117095736">Slökkt á titringi símtala og tilkynninga</string>
