@@ -45,7 +45,7 @@
     <string name="sdcard_format" product="nosdcard" msgid="3248760426252305366">"Radera USB-lagring"</string>
     <string name="sdcard_format" product="default" msgid="3676635435136326182">"Radera SD-kort"</string>
     <string name="preview_pager_content_description" msgid="3762247188224576303">"Förhandsgranskning"</string>
-    <string name="preview_page_indicator_content_description" msgid="2790254666634885865">"Förhandsgranskar sida <xliff:g id="CURRENT_PAGE">%1$d</xliff:g> av <xliff:g id="NUM_PAGES">%2$d</xliff:g>"</string>
+    <string name="preview_page_indicator_content_description" msgid="2790254666634885865">Förhandsgranskar sida <xliff:g id="current_page" example="3">%1$d</xliff:g> av <xliff:g id="num_pages" example="9">%2$d</xliff:g></string>
     <string name="font_size_summary" msgid="1296835853522566260">"Gör texten på skärmen större eller mindre."</string>
     <string name="font_size_make_smaller_desc" msgid="4978038055549590140">"Förminska"</string>
     <string name="font_size_make_larger_desc" msgid="5583046033381722247">"Förstora"</string>
@@ -118,13 +118,13 @@
     <string name="bluetooth_ask_enablement_and_lasting_discovery" product="default" msgid="4047444317445386579">"<xliff:g id="APP_NAME">%1$s</xliff:g> vill aktivera Bluetooth och göra din mobil synlig för andra enheter. Du kan ändra detta senare i inställningarna för Bluetooth."</string>
     <string name="bluetooth_ask_enablement_and_lasting_discovery_no_name" product="tablet" msgid="4922952478824372605">"En app vill aktivera Bluetooth och göra din surfplatta synlig för andra enheter. Du kan ändra detta senare i inställningarna för Bluetooth."</string>
     <string name="bluetooth_ask_enablement_and_lasting_discovery_no_name" product="default" msgid="1381582950049639439">"En app vill aktivera Bluetooth och göra din mobil synlig för andra enheter. Du kan ändra detta senare i inställningarna för Bluetooth."</string>
-    <string name="bluetooth_turning_on" msgid="3842613808709024730">"Bluetooth aktiveras"</string>
+    <string name="bluetooth_turning_on" msgid="3842613808709024730">Bluetooth aktiveras…</string>
     <string name="bluetooth_turning_off" msgid="7406309124247701148">"Vill du stänga av Bluetooth…"</string>
     <string name="bluetooth_connection_permission_request" msgid="8793131019383198861">"Begäran om Bluetooth-anslutning"</string>
     <string name="bluetooth_connection_notif_message" msgid="6087344980352898209">"Tryck om du vill ansluta till <xliff:g id="DEVICE_NAME">%1$s</xliff:g>."</string>
     <string name="bluetooth_connection_dialog_text" msgid="2537152772549874391">"Vill du ansluta till <xliff:g id="DEVICE_NAME">%1$s</xliff:g>?"</string>
     <string name="bluetooth_phonebook_request" msgid="1085102844577089889">"Begäran om åtkomst till telefonbok"</string>
-    <string name="bluetooth_pb_acceptance_dialog_text" msgid="7153531868579789993">"<xliff:g id="DEVICE_NAME_0">%1$s</xliff:g> vill ha tillgång till kontakter och samtalshistorik. Vill du ge <xliff:g id="DEVICE_NAME_1">%2$s</xliff:g> tillgång?"</string>
+    <string name="bluetooth_pb_acceptance_dialog_text" msgid="7153531868579789993"> <xliff:g id="device_name">%1$s</xliff:g> vill ha åtkomst till kontakter och samtalshistorik. Vill du ge åtkomst till <xliff:g id="device_name">%2$s</xliff:g>\? </string>
     <string name="bluetooth_remember_choice" msgid="173821849670438110">"Fråga inte igen"</string>
     <string name="bluetooth_pb_remember_choice" msgid="2080511174185036562">"Fråga inte igen"</string>
     <string name="bluetooth_map_request" msgid="8664081227240707479">"Begäran om meddelandeåtkomst"</string>
@@ -160,7 +160,7 @@
     <string name="intent_sender_sendbroadcast_text" msgid="3202857258557610646">"Skicka <xliff:g id="BROADCAST">broadcast</xliff:g>"</string>
     <string name="intent_sender_action_label" msgid="257853357827275530">"<xliff:g id="ACTION">Action</xliff:g>:"</string>
     <string name="intent_sender_startactivity_text" msgid="519934560779343541">"Starta <xliff:g id="ACTIVITY">activity</xliff:g>"</string>
-    <string name="intent_sender_resource_label" msgid="5087385727740280207">"<xliff:g id="RESOURCE">Resource</xliff:g>:"</string>
+    <string name="intent_sender_resource_label" msgid="5087385727740280207"><xliff:g id="resource">Resurs</xliff:g>: </string>
     <string name="intent_sender_account_label" msgid="36614006839665458">"Konto:"</string>
     <string name="proxy_settings_title" msgid="4201866858226087066">"Proxy"</string>
     <string name="proxy_clear_text" msgid="6529658759984031149">"Rensa"</string>
@@ -265,9 +265,9 @@
     <string name="date_time_search_region" msgid="1364133854952610919">"Sökområde"</string>
     <string name="date_time_select_region" msgid="5449345333305056072">"Region"</string>
     <string name="date_time_select_fixed_offset_time_zones" msgid="594848300882055361">"Välj UTC-förskjutning"</string>
-    <string name="zone_change_to_from_dst" msgid="686451769985774294">"<xliff:g id="TIME_TYPE">%1$s</xliff:g> börjar den <xliff:g id="TRANSITION_DATE">%2$s</xliff:g>."</string>
-    <string name="zone_info_exemplar_location_and_offset" msgid="2186042522225153092">"<xliff:g id="EXEMPLAR_LOCATION">%1$s</xliff:g> (<xliff:g id="OFFSET">%2$s</xliff:g>)"</string>
-    <string name="zone_info_offset_and_name" msgid="3960192548990990152">"<xliff:g id="TIME_TYPE">%2$s</xliff:g> (<xliff:g id="OFFSET">%1$s</xliff:g>)"</string>
+    <string name="zone_change_to_from_dst" msgid="686451769985774294"><xliff:g id="time_type" example="Pacific Summer Time">%1$s</xliff:g> börjar den <xliff:g id="transition_date" example="Mar 11 2018">%2$s</xliff:g>.</string>
+    <string name="zone_info_exemplar_location_and_offset" msgid="2186042522225153092"><xliff:g id="exemplar_location" example="Los Angeles">%1$s</xliff:g> (<xliff:g id="offset" example="GMT-08:00">%2$s</xliff:g>)</string>
+    <string name="zone_info_offset_and_name" msgid="3960192548990990152"><xliff:g id="time_type" example="Pacific Time">%2$s</xliff:g> (<xliff:g id="offset" example="GMT-08:00">%1$s</xliff:g>)</string>
     <string name="zone_info_footer" msgid="7004693956837388129">"<xliff:g id="OFFSET_AND_NAME">%1$s</xliff:g> används. <xliff:g id="DST_TIME_TYPE">%2$s</xliff:g> börjar den <xliff:g id="TRANSITION_DATE">%3$s</xliff:g>."</string>
     <string name="zone_info_footer_no_dst" msgid="8399585343328811158">"<xliff:g id="OFFSET_AND_NAME">%1$s</xliff:g> används. Sommartid gäller inte."</string>
     <string name="zone_time_type_dst" msgid="9189689342265305808">"Sommartid"</string>
@@ -813,7 +813,7 @@
     <string name="bluetooth_device_context_pair_connect" msgid="2406032703622371826">"Parkoppla och anslut"</string>
     <string name="bluetooth_device_context_unpair" msgid="7525735305244087162">"Ta bort parkoppling"</string>
     <string name="bluetooth_device_context_disconnect_unpair" msgid="2001359431289794561">"Koppla ifrån och ta bort parkoppling"</string>
-    <string name="bluetooth_device_context_connect_advanced" msgid="934657460643490773">"Alternativ..."</string>
+    <string name="bluetooth_device_context_connect_advanced" msgid="934657460643490773">Alternativ…</string>
     <string name="bluetooth_menu_advanced" msgid="7633682234855216066">"Avancerat"</string>
     <string name="bluetooth_advanced_titlebar" msgid="5369701494951467257">"Avancerad Bluetooth"</string>
     <string name="bluetooth_empty_list_bluetooth_off" msgid="316627049372961941">"När Bluetooth har aktiverats kan enheten kommunicera med andra Bluetooth-enheter i närheten."</string>
@@ -1158,8 +1158,8 @@
     <string name="wifi_hotspot_maximize_compatibility" msgid="6494125684420024058">"Utöka kompatibiliteten"</string>
     <string name="wifi_hotspot_maximize_compatibility_single_ap_summary" msgid="383355687431591441">"Underlättar för andra enheter att hitta surfzonen. Minskar anslutningshastigheten för surfzonen."</string>
     <string name="wifi_hotspot_maximize_compatibility_dual_ap_summary" msgid="3579549223159056533">"Underlättar för andra enheter att hitta surfzonen. Ökar batteriförbrukningen."</string>
-    <string name="wifi_tether_starting" msgid="8879874184033857814">"Aktiverar surfzon ..."</string>
-    <string name="wifi_tether_stopping" msgid="4416492968019409188">"Surfzon inaktiveras ..."</string>
+    <string name="wifi_tether_starting" msgid="8879874184033857814">Aktiverar surfzon…</string>
+    <string name="wifi_tether_stopping" msgid="4416492968019409188">Surfzon inaktiveras…</string>
     <string name="wifi_tether_enabled_subtext" msgid="5085002421099821056">"<xliff:g id="NETWORK_SSID">%1$s</xliff:g> är aktiv"</string>
     <string name="wifi_tether_failed_subtext" msgid="437190628041885500">"Fel på mobil wifi-surfzon"</string>
     <string name="wifi_tether_configure_ap_text" msgid="7072559431286459122">"Konfigurera surfzon via wifi"</string>
@@ -1428,7 +1428,7 @@
     <string name="sim_enter_cancel" msgid="2001859323724961490">"Avbryt"</string>
     <string name="sim_multi_sims_title" msgid="4875083890014013296">"Flera SIM-kort har hittats"</string>
     <string name="sim_multi_sims_summary" msgid="1711012455679332238">"Välj vilket SIM-kort du vill använda för mobildatan."</string>
-    <string name="sim_change_data_title" msgid="4663239438584588847">"Ska mobildata från <xliff:g id="CARRIER">%1$s</xliff:g> användas?"</string>
+    <string name="sim_change_data_title" msgid="4663239438584588847"> Ska mobildata från <xliff:g id="carrier" example="Verizon">%1$s</xliff:g> användas\? </string>
     <string name="sim_change_data_message" msgid="3046178883369645132">"Du använder mobildata från <xliff:g id="CARRIER2_0">%2$s</xliff:g>. Om du byter till <xliff:g id="CARRIER1">%1$s</xliff:g> används inte längre mobildata från <xliff:g id="CARRIER2_1">%2$s</xliff:g>."</string>
     <string name="sim_change_data_ok" msgid="4922114750417276560">"Använd <xliff:g id="CARRIER">%1$s</xliff:g>"</string>
     <string name="sim_preferred_title" msgid="7182406911552216373">"Uppdatera primärt SIM-kort?"</string>
@@ -1439,7 +1439,7 @@
         <item quantity="one">Du angav fel pinkod för SIM-kortet. <xliff:g id="NUMBER_0">%d</xliff:g> försök återstår innan du måste kontakta operatören för att låsa upp enheten.</item>
     </plurals>
     <string name="wrong_pin_code_one" msgid="6924852214263071441">"Du angav fel pinkod för SIM-kortet. 1 försök återstår innan du måste kontakta operatören för att låsa upp enheten."</string>
-    <string name="pin_failed" msgid="3726505565797352255">"Det gick inte att låsa upp med pinkoden för SIM-kortet."</string>
+    <string name="pin_failed" msgid="3726505565797352255">Misslyckades låsa upp SIM-kort med pinkod!</string>
     <string name="system_update_settings_list_item_title" msgid="3398346836439366350">"Systemuppdateringar"</string>
     <string name="firmware_version" msgid="1606901586501447275">"Android-version"</string>
     <string name="security_patch" msgid="4071756145347865382">"Säkerhetsuppdatering för Android"</string>
@@ -1503,7 +1503,7 @@
     <string name="memory_available" msgid="712528795743654737">"Tillgängligt"</string>
     <string name="memory_available_read_only" msgid="3201969221573511590">"Tillgängligt (skrivskyddat)"</string>
     <string name="memory_size" msgid="2710897518522931469">"Totalt utrymme"</string>
-    <string name="memory_calculating_size" msgid="3898240439798661242">"Beräknas..."</string>
+    <string name="memory_calculating_size" msgid="3898240439798661242">Beräknas…</string>
     <string name="memory_apps_usage" msgid="8818570780540532952">"Appar och appdata"</string>
     <string name="memory_media_usage" msgid="5161308657995646963">"Media"</string>
     <string name="memory_downloads_usage" msgid="8252462247720191179">"Nedladdningar"</string>
@@ -1597,7 +1597,7 @@
     <string name="storage_wizard_migrate_confirm_title" msgid="255346780598924540">"Flytta data nu"</string>
     <string name="storage_wizard_migrate_confirm_body" msgid="5039938578355576124"><b>"Flytten tar omkring <xliff:g id="TIME">^1</xliff:g>. <xliff:g id="SIZE">^2</xliff:g> lagringsutrymme frigörs på <xliff:g id="NAME">^3</xliff:g>."</b></string>
     <string name="storage_wizard_migrate_confirm_next" msgid="217478540562501692">"Flytta"</string>
-    <string name="storage_wizard_migrate_progress_title" msgid="462238335086734131">"Flyttar data ..."</string>
+    <string name="storage_wizard_migrate_progress_title" msgid="462238335086734131">Flyttar data…</string>
     <string name="storage_wizard_migrate_details" msgid="7474061662976940407">"Under flytten: \n• Ta inte bort ditt <xliff:g id="NAME">^1</xliff:g>. \n• Vissa appar fungerar inte som de ska. \n• Håll enheten laddad."</string>
     <string name="storage_wizard_ready_title" msgid="3093468548660255543">"<xliff:g id="NAME">^1</xliff:g> är klar att användas"</string>
     <string name="storage_wizard_ready_external_body" msgid="45040717412844114">"Ditt <xliff:g id="NAME">^1</xliff:g> är klart att använda med foton och annan media."</string>
@@ -1627,7 +1627,7 @@
     <string name="storage_wizard_migrate_v2_title" msgid="3471564531564756698">"Vill du flytta innehåll till <xliff:g id="NAME">^1</xliff:g>?"</string>
     <string name="storage_wizard_migrate_v2_body" product="tablet" msgid="4541523202790415721">"Du kan flytta filer, media och vissa appar till <xliff:g id="NAME">^1</xliff:g>. \n\nDetta frigör <xliff:g id="SIZE">^2</xliff:g> av surfplattans lagringsutrymme och det tar ungefär <xliff:g id="DURATION">^3</xliff:g>."</string>
     <string name="storage_wizard_migrate_v2_body" product="default" msgid="809730501314645325">"Du kan flytta filer, media och vissa appar till <xliff:g id="NAME">^1</xliff:g>. \n\nOm du flyttar data frigörs <xliff:g id="SIZE">^2</xliff:g> av mobilens lagringsutrymme och det tar ungefär <xliff:g id="DURATION">^3</xliff:g>."</string>
-    <string name="storage_wizard_migrate_v2_checklist" msgid="2618258869444553060">"Under flytten"</string>
+    <string name="storage_wizard_migrate_v2_checklist" msgid="2618258869444553060">Under flytten:</string>
     <string name="storage_wizard_migrate_v2_checklist_media" msgid="5867134681730723744">"ska du inte ta bort <xliff:g id="NAME">^1</xliff:g>"</string>
     <string name="storage_wizard_migrate_v2_checklist_apps" msgid="1882077445750580783">"fungerar inte vissa appar"</string>
     <string name="storage_wizard_migrate_v2_checklist_battery" product="tablet" msgid="6111770421449869539">"ska surfplattan ska hållas laddad"</string>
@@ -1727,7 +1727,7 @@
     <string name="main_clear_progress_title" msgid="7239741132015617719">"Raderar"</string>
     <string name="main_clear_progress_text" msgid="4636695115176327972">"Vänta …"</string>
     <string name="call_settings_title" msgid="2531072044177194164">"Samtalsinställningar"</string>
-    <string name="call_settings_summary" msgid="8244293779053318053">"Ställ in röstbrevlåda, vidarekoppla samtal, samtal väntar, nummerpres."</string>
+    <string name="call_settings_summary" msgid="8244293779053318053">Ställ in röstbrevlåda, vidarekoppla samtal, samtal väntar, nummerpresentatör</string>
     <string name="tether_settings_title_usb" msgid="5926474044238409099">"Internetdelning via USB"</string>
     <string name="tether_settings_title_wifi" msgid="4327056146425282159">"Mobil surfzon"</string>
     <string name="tether_settings_title_bluetooth" msgid="8878813702520141084">"Delning via Bluetooth"</string>
@@ -2188,7 +2188,7 @@
     <string name="user_dict_settings_context_menu_delete_title" msgid="651550824433043545">"Radera"</string>
     <string name="user_dict_settings_empty_text" msgid="86562873609647919">"Du har inga ord i din egen ordlista. Tryck på knappen Lägg till (+) om du vill lägga till ett ord."</string>
     <string name="user_dict_settings_all_languages" msgid="8563387437755363526">"För alla språk"</string>
-    <string name="user_dict_settings_more_languages" msgid="5378870726809672319">"Fler språk ..."</string>
+    <string name="user_dict_settings_more_languages" msgid="5378870726809672319">Fler språk…</string>
     <string name="testing" msgid="6294172343766732037">"Testa"</string>
     <string name="testing_phone_info" product="tablet" msgid="1910768200608214456">"Information om surfplattan"</string>
     <string name="testing_phone_info" product="default" msgid="1150527695827743906">"Telefoninformation"</string>
@@ -2214,7 +2214,7 @@
     <string name="allow_bind_app_widget_activity_always_allow_bind" msgid="7268758525344468364">"Tillåt alltid att <xliff:g id="WIDGET_HOST_NAME">%1$s</xliff:g> skapar widgetar och får åtkomst till deras data"</string>
     <string name="usage_stats_label" msgid="6523644917803320085">"Användningsstatistik"</string>
     <string name="testing_usage_stats" msgid="4660643799010906365">"Användningsstatistik"</string>
-    <string name="display_order_text" msgid="7120394778684605892">"Sortera efter"</string>
+    <string name="display_order_text" msgid="7120394778684605892">Sortera efter:</string>
     <string name="app_name_label" msgid="3809910527680143673">"App"</string>
     <string name="last_time_used_label" msgid="2639712813493534074">"Användes senast"</string>
     <string name="usage_time_label" msgid="9105343335151559883">"Användningstid"</string>
@@ -2656,8 +2656,8 @@
         <item quantity="one">Det går inte att köra den här appen i bakgrunden</item>
     </plurals>
     <plurals name="battery_tip_restrict_app_dialog_title" formatted="false" msgid="7897944678619251740">
-        <item quantity="other">Vill du begränsa apparna?</item>
-        <item quantity="one">Vill du begränsa appen?</item>
+        <item quantity="one">Vill du begränsa appen\?</item>
+        <item quantity="other">Vill du begränsa %1$d appar\?</item>
     </plurals>
     <string name="battery_tip_restrict_app_dialog_message" msgid="137856003724730751">"Spara batteri genom att förhindra att <xliff:g id="APP">%1$s</xliff:g> drar batteri i bakgrunden. Appen kanske inte fungerar som den ska, och aviseringar kan fördröjas."</string>
     <string name="battery_tip_restrict_apps_less_than_5_dialog_message" msgid="5894648804112181324">"Om du vill spara batteri kan du förhindra att dessa appar drar batteri i bakgrunden. Begränsade appar kanske inte fungerar som de ska, och aviseringar kan fördröjas.\n\nAppar:"</string>
@@ -3058,7 +3058,7 @@
     <string name="cryptkeeper_wrong_password" msgid="7295607881887114486">"Fel lösenord"</string>
     <string name="cryptkeeper_wrong_pin" msgid="2347961593970714201">"Fel pinkod"</string>
     <string name="checking_decryption" msgid="6111642972615688237">"Kontrollerar …"</string>
-    <string name="starting_android" msgid="6694154070215356186">"Android startas ..."</string>
+    <string name="starting_android" msgid="6694154070215356186">Android startas…</string>
     <string name="delete" msgid="8330605554706263775">"Ta bort"</string>
     <string name="misc_files" msgid="6598066985800749585">"Misc-filer"</string>
     <string name="misc_files_selected_count" msgid="5597802791672749532">"<xliff:g id="NUMBER">%1$d</xliff:g> av <xliff:g id="TOTAL">%2$d</xliff:g> har valts"</string>
@@ -4148,7 +4148,7 @@
     <string name="suggestion_button_text" msgid="4370673818678692873">"OK"</string>
     <string name="suggestion_button_close" msgid="6865170855573283759">"Stäng"</string>
     <string name="device_feedback" msgid="5351614458411688608">"Skicka feedback om den här enheten"</string>
-    <string name="restr_pin_enter_admin_pin" msgid="4435410646541671918">"Ange administratörens pinkod:"</string>
+    <string name="restr_pin_enter_admin_pin" msgid="4435410646541671918">Ange administratörens pinkod</string>
     <string name="switch_on_text" msgid="5664542327776075105">"På"</string>
     <string name="switch_off_text" msgid="1315547447393646667">"Av"</string>
     <string name="nfc_setting_on" msgid="7701896496026725772">"På"</string>
@@ -4310,7 +4310,7 @@
     <string name="assist_and_voice_input_title" msgid="6317935163145135914">"Assistent och röstinmatning"</string>
     <string name="default_assist_title" msgid="1182435129627493758">"Digital assistentapp"</string>
     <string name="default_digital_assistant_title" msgid="5654663086385490838">"Digital assistentapp, standard"</string>
-    <string name="assistant_security_warning_title" msgid="6444187332360938730">"Vill du använda <xliff:g id="ASSISTANT_APP_NAME">%s</xliff:g> som assistent?"</string>
+    <string name="assistant_security_warning_title" msgid="6444187332360938730"> Vill du använda <xliff:g id="assistant_app_name">%s</xliff:g> som assistent\? </string>
     <string name="assistant_security_warning" msgid="5623237187748811070">"Assistenten kan läsa information om apparna på systemet, inklusive information som visas på skärmen eller är åtkomlig i apparna."</string>
     <string name="assistant_security_warning_agree" msgid="9013334158753473359">"Godkänn"</string>
     <string name="assistant_security_warning_disagree" msgid="1539182108068356410">"Godkänn inte"</string>
@@ -4461,7 +4461,7 @@
     <string name="media_management_apps_title" msgid="8222942355578724582">"Appar för mediehantering"</string>
     <string name="media_management_apps_toggle_label" msgid="166724270857067456">"Tillåt att appen hanterar media"</string>
     <string name="media_management_apps_description" msgid="8000565658455268524">"Om du tillåter detta kan appen modifiera eller radera mediefiler som skapats med andra appar utan att du tillfrågas. Appen måste ha åtkomst till filer och media."</string>
-    <string name="keywords_media_management_apps" msgid="7499959607583088690">"Media, Fil, Hantering, Hanterare, Hantera, Redigera, Redigerare, App, App, Program"</string>
+    <string name="keywords_media_management_apps" msgid="7499959607583088690">Media, Fil, Hantering, Hanterare, Hantera, Redigera, Redigerare, App, Applikation, Program</string>
     <string name="keywords_vr_listener" msgid="902737490270081131">"vr virtuell verklighet lyssnare stereo hjälptjänst"</string>
     <string name="overlay_settings" msgid="2030836934139139469">"Visa ovanpå andra appar"</string>
     <string name="system_alert_window_summary" msgid="1435856750594492891">"<xliff:g id="COUNT_0">%1$d</xliff:g> av <xliff:g id="COUNT_1">%2$d</xliff:g> appar får visas ovanpå andra appar"</string>
@@ -5183,7 +5183,7 @@
     <string name="mobile_network_use_sim_off" msgid="6303281166199670639">"Av"</string>
     <string name="mobile_network_disable_sim_explanation" msgid="2851862257846773796">"Ta ut SIM-kortet om du vill inaktivera det"</string>
     <string name="mobile_network_tap_to_activate" msgid="4139979375717958102">"Aktivera <xliff:g id="CARRIER">%1$s</xliff:g> genom att trycka"</string>
-    <string name="mobile_network_esim_swap_confirm_title" msgid="2762744961192218789">"Vill du byta till <xliff:g id="CARRIER">%1$s</xliff:g>?"</string>
+    <string name="mobile_network_esim_swap_confirm_title" msgid="2762744961192218789"> Vill du byta till <xliff:g id="carrier" example="T-mobile">%1$s</xliff:g>\? </string>
     <string name="mobile_network_esim_swap_confirm_body" msgid="8168680839542031781">"Du kan bara ha ett aktivt SIM-kort åt gången.\n\nOm du byter till <xliff:g id="CARRIER1">%1$s</xliff:g> avslutas inte tjänsten hos <xliff:g id="CARRIER2">%2$s</xliff:g>."</string>
     <string name="mobile_network_esim_swap_confirm_ok" msgid="8695772737522378095">"Byt till <xliff:g id="CARRIER">%1$s</xliff:g>"</string>
     <string name="mobile_network_erase_sim" msgid="4629071168032714930">"Rensa SIM-kort"</string>
@@ -5521,4 +5521,5 @@
     <string name="bluetooth_connect_access_dialog_content" msgid="4336436466468405850">"<xliff:g id="DEVICE_NAME_0">%1$s</xliff:g> vill ansluta till den här telefonen.\n\nDu har inte anslutit till <xliff:g id="DEVICE_NAME_1">%2$s</xliff:g> tidigare."</string>
     <string name="bluetooth_connect_access_dialog_negative" msgid="4944672755226375059">"Anslut inte"</string>
     <string name="bluetooth_connect_access_dialog_positive" msgid="3630561675207269710">"Anslut"</string>
+    <string name="intent_sender_data_label"><xliff:g id="data">Data:</xliff:g></string>
 </resources>
