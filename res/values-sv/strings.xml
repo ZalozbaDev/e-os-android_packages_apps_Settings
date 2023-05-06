@@ -26,7 +26,7 @@
     </plurals>
     <string name="show_dev_on" msgid="2840850085134853754">"Nu är du en utvecklare!"</string>
     <string name="show_dev_already" msgid="7041756429707644630">"Det behövs inte. Du är redan utvecklare."</string>
-    <string name="dev_settings_disabled_warning" msgid="6971867026249671244">"Aktivera utvecklaralternativ först"</string>
+    <string name="dev_settings_disabled_warning" msgid="6971867026249671244">Aktivera utvecklaralternativ först.</string>
     <string name="header_category_wireless_networks" msgid="303445626075235229">"Trådlöst och nätverk"</string>
     <string name="header_category_system" msgid="1665516346845259058">"System"</string>
     <string name="radioInfo_service_in" msgid="9088637745836646271">"I tjänst"</string>
@@ -268,8 +268,8 @@
     <string name="zone_change_to_from_dst" msgid="686451769985774294"><xliff:g id="time_type" example="Pacific Summer Time">%1$s</xliff:g> börjar den <xliff:g id="transition_date" example="Mar 11 2018">%2$s</xliff:g>.</string>
     <string name="zone_info_exemplar_location_and_offset" msgid="2186042522225153092"><xliff:g id="exemplar_location" example="Los Angeles">%1$s</xliff:g> (<xliff:g id="offset" example="GMT-08:00">%2$s</xliff:g>)</string>
     <string name="zone_info_offset_and_name" msgid="3960192548990990152"><xliff:g id="time_type" example="Pacific Time">%2$s</xliff:g> (<xliff:g id="offset" example="GMT-08:00">%1$s</xliff:g>)</string>
-    <string name="zone_info_footer" msgid="7004693956837388129">"<xliff:g id="OFFSET_AND_NAME">%1$s</xliff:g> används. <xliff:g id="DST_TIME_TYPE">%2$s</xliff:g> börjar den <xliff:g id="TRANSITION_DATE">%3$s</xliff:g>."</string>
-    <string name="zone_info_footer_no_dst" msgid="8399585343328811158">"<xliff:g id="OFFSET_AND_NAME">%1$s</xliff:g> används. Sommartid gäller inte."</string>
+    <string name="zone_info_footer" msgid="7004693956837388129"><xliff:g id="offset_and_name" example="Pacific Time (GMT-08:00)">%1$s</xliff:g> används. <xliff:g id="dst_time_type" example="Pacific Daylight Time">%2$s</xliff:g> börjar den <xliff:g id="transition_date" example="Mar 11 2018">%3$s</xliff:g>.</string>
+    <string name="zone_info_footer_no_dst" msgid="8399585343328811158"><xliff:g id="offset_and_name" example="GMT-08:00 Pacific Time">%1$s</xliff:g> används. Sommartid gäller inte.</string>
     <string name="zone_time_type_dst" msgid="9189689342265305808">"Sommartid"</string>
     <string name="zone_time_type_standard" msgid="6865420715430680352">"Standardtid"</string>
     <string name="zone_menu_by_region" msgid="2963565278710225652">"Välj efter område"</string>
@@ -287,7 +287,7 @@
     <string name="trust_lost_locks_screen_title" msgid="4231232144565291276">"Lås skärmen när ingen är betrodd"</string>
     <string name="trust_lost_locks_screen_summary" msgid="718374221849537361">"Om detta aktiveras låses enheten när den sista betrodda agenten slutar att vara betrodd"</string>
     <string name="owner_info_settings_summary" msgid="347238313388083297">"Inget"</string>
-    <string name="owner_info_settings_status" msgid="7488764871758677862">"<xliff:g id="COUNT_0">%1$d</xliff:g>/<xliff:g id="COUNT_1">%2$d</xliff:g>"</string>
+    <string name="owner_info_settings_status" msgid="7488764871758677862"><xliff:g id="count" example="90">%1$d</xliff:g> / <xliff:g id="count" example="100">%2$d</xliff:g></string>
     <string name="owner_info_settings_edit_text_hint" msgid="841926875876050274">"T.ex. Jockes Android."</string>
     <string name="show_profile_info_on_lockscreen_label" msgid="5734739022887933365">"Visa profilinfo på den låsta skärmen"</string>
     <string name="Accounts_settings_title" msgid="8434263183710375412">"Konton"</string>
@@ -342,7 +342,7 @@
     <string name="security_settings_face_enroll_introduction_message_setup" msgid="765965418187421753">"Lås upp mobilen, godkänn köp eller logga in i appar med ditt ansikte"</string>
     <string name="security_settings_face_enroll_repeat_title" msgid="4446229670377418717">"Centrera ansiktet i cirkeln"</string>
     <string name="security_settings_face_enroll_enrolling_skip" msgid="5568617401632528567">"Hoppa över"</string>
-    <string name="face_add_max" msgid="4578405795494514876">"Du kan lägga till upp till <xliff:g id="COUNT">%d</xliff:g> ansikten"</string>
+    <string name="face_add_max" msgid="4578405795494514876">Du kan lägga till upp till <xliff:g id="count" example="5">%d</xliff:g> ansikten</string>
     <string name="face_intro_error_max" msgid="2474735057709291626">"Du har lagt till det högsta tillåtna antalet ansikten"</string>
     <string name="face_intro_error_unknown" msgid="1626057493054989995">"Det går inte att lägga till fler ansikten"</string>
     <string name="security_settings_face_enroll_error_dialog_title" msgid="2460820099922775936">"Registreringen slutfördes inte"</string>
@@ -535,11 +535,11 @@
     <string name="security_settings_fingerprint_enroll_disclaimer_lockscreen_disabled" msgid="4260983700868889294">" Alternativet för skärmlås har inaktiverats. Kontakta organisationens administratör om du vill veta mer. "<annotation id="admin_details">"Mer information"</annotation>\n\n"Du kan fortfarande auktorisera köp och appåtkomst med fingeravtrycket. "<annotation id="url">"Läs mer"</annotation></string>
     <string name="security_settings_fingerprint_enroll_lift_touch_again" msgid="2590665137265458789">"Lyft fingret och tryck sedan på sensorn igen"</string>
     <string name="security_settings_fingerprint_bad_calibration" msgid="598502302101068608">"Det går inte att använda fingeravtryckssensorn. Besök ett reparationsställe"</string>
-    <string name="fingerprint_add_max" msgid="8639321019299347447">"Du kan lägga till upp till <xliff:g id="COUNT">%d</xliff:g> fingeravtryck"</string>
+    <string name="fingerprint_add_max" msgid="8639321019299347447">Du kan lägga till upp till <xliff:g id="count" example="5">%d</xliff:g> fingeravtryck</string>
     <string name="fingerprint_intro_error_max" msgid="4431784409732135610">"Du har lagt till det högsta tillåtna antalet fingeravtryck"</string>
     <string name="fingerprint_intro_error_unknown" msgid="877005321503793963">"Det går inte att lägga till fler fingeravtryck"</string>
     <string name="fingerprint_last_delete_title" msgid="4081475675646514726">"Vill du ta bort alla fingeravtryck?"</string>
-    <string name="fingerprint_delete_title" msgid="1469865327307917858">"Ta bort <xliff:g id="FINGERPRINT_ID">%1$s</xliff:g>"</string>
+    <string name="fingerprint_delete_title" msgid="1469865327307917858">Ta bort \"<xliff:g id="fingerprint_id" example="Fingerprint 2">%1$s</xliff:g>\"</string>
     <string name="fingerprint_delete_message" msgid="1454995433333496541">"Vill du radera det här fingeravtrycket?"</string>
     <string name="fingerprint_v2_delete_message" msgid="4136720729608391131">"Om du gör detta raderas fingeravtrycksbilderna och fingeravtrycksmodellen som har kopplats till <xliff:g id="FINGERPRINT_ID">%1$s</xliff:g> och lagras på enheten"</string>
     <string name="fingerprint_last_delete_message" msgid="7860374760549404410">"Du kan inte låsa upp telefonen eller verifiera din identitet i appar med ditt fingeravtryck."</string>
@@ -550,7 +550,9 @@
     <string name="crypt_keeper_encrypt_title" product="default" msgid="8302873664348463041">"Kryptera telefonen"</string>
     <string name="crypt_keeper_encrypted_summary" msgid="3866488451639592071">"Krypterad"</string>
     <string name="crypt_keeper_desc" product="tablet" msgid="4103951371711323192">"Du kan kryptera dina konton, inställningar, nedladdade appar och deras data, mediefiler och övriga filer. Om du har konfigurerat ett skärmlås (det vill säga ett mönster, en pinkod eller ett lösenord) och krypterar surfplattan måste du dekryptera den genom att låsa upp skärmen varje gång du slår på den. Det går inte att dekryptera den på något annat sätt utom genom att återställa standardinställningarna, vilket raderar all data.\n\n Krypteringen tar minst en timme. Du måste börja med batteriet laddat och låta surfplattan vara ansluten till ett strömuttag under hela processen. Om du avbryter kommer vissa eller alla data att försvinna."</string>
-    <string name="crypt_keeper_desc" product="default" msgid="6180866043921135548">"Du kan kryptera dina konton, inställningar, nedladdade appar och deras data, mediefiler och övriga filer. Om du har konfigurerat ett skärmlås (det vill säga ett mönster, en pinkod eller ett lösenord) och krypterar telefonen måste du dekryptera den genom att låsa upp skärmen varje gång du slår på den. Det går inte att dekryptera den på något annat sätt utom genom att återställa standardinställningarna, vilket raderar all data.\n\n Krypteringen tar minst en timme. Du måste börja med batteriet laddat och låta telefonen vara ansluten till ett strömuttag under hela processen. Om du avbryter kommer vissa eller alla data att försvinna."</string>
+    <string name="crypt_keeper_desc" product="default" msgid="6180866043921135548">Du kan kryptera dina konton, inställningar, nedladdade appar och deras data, mediefiler och övriga filer. Om du har konfigurerat ett skärmlås (det vill säga ett grafiskt lösenord, en pinkod eller ett lösenord) och krypterar mobilen måste du dekryptera den genom att låsa upp skärmen varje gång du slår på den. Det går inte att dekryptera den på något annat sätt utom genom att återställa standardinställningarna, vilket raderar all data.
+\n
+\nKrypteringen tar minst en timme. Du måste börja med batteriet laddat och låta mobilen vara ansluten till ett strömuttag under hela processen. Om du avbryter kommer vissa eller alla data att försvinna.</string>
     <string name="crypt_keeper_button_text" product="tablet" msgid="5551608011810921471">"Kryptera surfplattan"</string>
     <string name="crypt_keeper_button_text" product="default" msgid="6370330929679426136">"Kryptera telefonen"</string>
     <string name="crypt_keeper_low_charge_text" msgid="4920087247177024521">"Ladda batteriet och försök igen."</string>
@@ -562,12 +564,12 @@
     <string name="crypt_keeper_final_desc" product="default" msgid="3040428543349852419">"Krypteringen kan inte ångras och om du avbryter den kan data försvinna. Det kan ta en timme eller mer och under tiden startas mobilen om flera gånger."</string>
     <string name="crypt_keeper_setup_title" msgid="3339725741305796680">"Krypterar"</string>
     <string name="crypt_keeper_setup_description" product="tablet" msgid="4417016995091289019">"Vänta medan surfplattan krypteras. <xliff:g id="PERCENT">^1</xliff:g> % klart."</string>
-    <string name="crypt_keeper_setup_description" product="default" msgid="7902355422499500352">"Vänta medan mobilen krypteras. <xliff:g id="PERCENT">^1</xliff:g> % klart."</string>
+    <string name="crypt_keeper_setup_description" product="default" msgid="7902355422499500352">Vänta medan surfplattan krypteras. <xliff:g id="percent" example="50">^1</xliff:g> % klart.</string>
     <string name="crypt_keeper_setup_time_remaining" product="tablet" msgid="8348188415839917821">"Vänta tills surfplattan har krypterats. Återstående tid: <xliff:g id="DURATION">^1</xliff:g>"</string>
-    <string name="crypt_keeper_setup_time_remaining" product="default" msgid="8556105766597855198">"Vänta tills mobilen har krypterats. Återstående tid: <xliff:g id="DURATION">^1</xliff:g>"</string>
+    <string name="crypt_keeper_setup_time_remaining" product="default" msgid="8556105766597855198">Vänta medan surfplattan krypteras. Återstående tid: <xliff:g id="duration" example="1:23">^1</xliff:g></string>
     <string name="crypt_keeper_force_power_cycle" product="tablet" msgid="3832496715430327682">"Lås upp surfplattan genom att stänga av och slå på den."</string>
     <string name="crypt_keeper_force_power_cycle" product="default" msgid="5070346039522135361">"Lås upp mobilen genom att stänga av och slå på den."</string>
-    <string name="crypt_keeper_warn_wipe" msgid="8104921337301750394">"Varning! Efter <xliff:g id="COUNT">^1</xliff:g> misslyckade upplåsningsförsök till raderas data på enheten."</string>
+    <string name="crypt_keeper_warn_wipe" msgid="8104921337301750394">Varning! Efter <xliff:g id="count" example="7">^1</xliff:g> misslyckade upplåsningsförsök till raderas data på enheten. </string>
     <string name="crypt_keeper_enter_password" msgid="1274917431075529732">"Ange ditt lösenord"</string>
     <string name="crypt_keeper_failed_title" msgid="8173654570682244149">"Krypteringen misslyckades"</string>
     <string name="crypt_keeper_failed_summary" product="tablet" msgid="5977961188966570342">"Krypteringen avbröts och kan inte slutföras. Data på surfplattan är därför inte tillgängliga längre.\n\n Om du vill fortsätta använda surfplattan måste du återställa standardinställningarna. När du konfigurerar surfplattan efter återställningen kan du välja att återställa alla data som du har säkerhetskopierat i ditt Google-konto."</string>
@@ -599,8 +601,8 @@
     <string name="setup_lock_settings_options_button_label" msgid="6098297461618298505">"Alternativ för skärmlås"</string>
     <string name="setup_lock_settings_options_dialog_title" msgid="7985107300517468569">"Alternativ för skärmlås"</string>
     <string name="unlock_set_unlock_launch_picker_title" msgid="4981063601772605609">"Skärmlås"</string>
-    <string name="unlock_set_unlock_launch_picker_summary_lock_immediately" msgid="5799070517574360310">"<xliff:g id="UNLOCK_METHOD">%1$s</xliff:g>/omedelbart efter viloläge"</string>
-    <string name="unlock_set_unlock_launch_picker_summary_lock_after_timeout" msgid="4572132216801894216">"<xliff:g id="UNLOCK_METHOD">%1$s</xliff:g>/<xliff:g id="TIMEOUT_STRING">%2$s</xliff:g> efter viloläge"</string>
+    <string name="unlock_set_unlock_launch_picker_summary_lock_immediately" msgid="5799070517574360310"><xliff:g id="unlock_method" example="PIN">%1$s</xliff:g>/omedelbart efter viloläge</string>
+    <string name="unlock_set_unlock_launch_picker_summary_lock_after_timeout" msgid="4572132216801894216"><xliff:g id="unlock_method" example="PIN">%1$s</xliff:g> / <xliff:g id="timeout_string">%2$s</xliff:g> efter viloläge</string>
     <string name="unlock_set_unlock_launch_picker_title_profile" msgid="7631371082326055429">"Lås för jobbprofilen"</string>
     <string name="unlock_set_unlock_launch_picker_change_title" msgid="4746783679112447948">"Byt skärmlås"</string>
     <string name="unlock_set_unlock_launch_picker_change_summary" msgid="6023813780512501969">"Ändra eller inaktivera mönster, PIN eller lösenord"</string>
@@ -642,55 +644,55 @@
     <string name="unlock_disable_frp_warning_title" msgid="3606280046362811229">"Vill du ta bort skärmlåset?"</string>
     <string name="unlock_disable_frp_warning_title_profile" msgid="1005284289723910461">"Vill du ta bort profilens säkerhetsfunktioner?"</string>
     <string name="unlock_disable_frp_warning_content_pattern" msgid="6246242612158828147">"Ett mönster skyddar telefonen om den kommer bort eller blir stulen"</string>
-    <string name="unlock_disable_frp_warning_content_pattern_fingerprint" msgid="2259825377085781801">"Ett mönster skyddar telefonen om den kommer bort eller blir stulen.<xliff:g id="EMPTY_LINE">
-
-</xliff:g>Fingeravtrycksmodellen som sparats på enheten raderas också. Du kan inte längre använda autentisering med fingeravtryck i appar."</string>
-    <string name="unlock_disable_frp_warning_content_pattern_face" msgid="4699508435412336378">"Ett mönster skyddar telefonen om den kommer bort eller blir stulen.<xliff:g id="EMPTY_LINE">
-
-</xliff:g>Ansiktsmodellen raderas också permanent på ett säkert sätt. Du kan inte längre använda ansiktsautentisering i appar."</string>
-    <string name="unlock_disable_frp_warning_content_pattern_face_fingerprint" msgid="7049706229344804972">"Ett mönster skyddar telefonen om den kommer bort eller blir stulen.<xliff:g id="EMPTY_LINE">
-
-</xliff:g>Fingeravtrycksmodellen som sparats på enheten raderas. Ansiktsmodellen raderas också permanent på ett säkert sätt. Du kan inte längre använda ansiktsautentisering eller autentisering med fingeravtryck i appar."</string>
+    <string name="unlock_disable_frp_warning_content_pattern_fingerprint" msgid="2259825377085781801">Ett mönster skyddar telefonen om den kommer bort eller blir stulen.<xliff:g id="empty_line">
+\n
+\n</xliff:g>Fingeravtrycksmodellen som sparats på enheten raderas också. Du kan inte längre använda autentisering med fingeravtryck i appar.</string>
+    <string name="unlock_disable_frp_warning_content_pattern_face" msgid="4699508435412336378">Ett mönster skyddar telefonen om den kommer bort eller blir stulen.<xliff:g id="empty_line">
+\n
+\n</xliff:g>Ansiktsmodellen raderas också permanent på ett säkert sätt. Du kan inte längre använda ansiktsautentisering i appar.</string>
+    <string name="unlock_disable_frp_warning_content_pattern_face_fingerprint" msgid="7049706229344804972">Ett mönster skyddar telefonen om den kommer bort eller blir stulen.<xliff:g id="empty_line">
+\n
+\n</xliff:g>Fingeravtrycksmodellen som sparats på enheten raderas. Ansiktsmodellen raderas också permanent på ett säkert sätt. Du kan inte längre använda ansiktsautentisering eller autentisering med fingeravtryck i appar.</string>
     <string name="unlock_disable_frp_warning_content_pin" msgid="122154942944422284">"En pinkod skyddar telefonen om den kommer bort eller blir stulen"</string>
-    <string name="unlock_disable_frp_warning_content_pin_fingerprint" msgid="983373874470746066">"En pinkod skyddar telefonen om den kommer bort eller blir stulen.<xliff:g id="EMPTY_LINE">
-
-</xliff:g>Fingeravtrycksmodellen som sparats på enheten raderas också. Du kan inte längre använda autentisering med fingeravtryck i appar."</string>
-    <string name="unlock_disable_frp_warning_content_pin_face" msgid="5607150515413131761">"En pinkod skyddar telefonen om den kommer bort eller blir stulen.<xliff:g id="EMPTY_LINE">
-
-</xliff:g>Ansiktsmodellen raderas också permanent på ett säkert sätt. Du kan inte längre använda ansiktsautentisering i appar."</string>
-    <string name="unlock_disable_frp_warning_content_pin_face_fingerprint" msgid="1821792325159866312">"En pinkod skyddar telefonen om den kommer bort eller blir stulen.<xliff:g id="EMPTY_LINE">
-
-</xliff:g>Fingeravtrycksmodellen som sparats på enheten raderas. Ansiktsmodellen raderas också permanent på ett säkert sätt. Du kan inte längre använda ansiktsautentisering eller autentisering med fingeravtryck i appar."</string>
+    <string name="unlock_disable_frp_warning_content_pin_fingerprint" msgid="983373874470746066">En pinkod skyddar telefonen om den kommer bort eller blir stulen.<xliff:g id="empty_line">
+\n
+\n</xliff:g>Fingeravtrycksmodellen som sparats på enheten raderas också. Du kan inte längre använda autentisering med fingeravtryck i appar.</string>
+    <string name="unlock_disable_frp_warning_content_pin_face" msgid="5607150515413131761">En pinkod skyddar telefonen om den kommer bort eller blir stulen.<xliff:g id="empty_line">
+\n
+\n</xliff:g>Ansiktsmodellen raderas också permanent på ett säkert sätt. Du kan inte längre använda ansiktsautentisering i appar.</string>
+    <string name="unlock_disable_frp_warning_content_pin_face_fingerprint" msgid="1821792325159866312">En pinkod skyddar telefonen om den kommer bort eller blir stulen.<xliff:g id="empty_line">
+\n
+\n</xliff:g>Fingeravtrycksmodellen som sparats på enheten raderas. Ansiktsmodellen raderas också permanent på ett säkert sätt. Du kan inte längre använda ansiktsautentisering eller autentisering med fingeravtryck i appar.</string>
     <string name="unlock_disable_frp_warning_content_password" msgid="6422723907917376210">"Ett lösenord skyddar telefonen om den kommer bort eller blir stulen"</string>
-    <string name="unlock_disable_frp_warning_content_password_fingerprint" msgid="8899452884016354856">"Ett lösenord skyddar telefonen om den kommer bort eller blir stulen.<xliff:g id="EMPTY_LINE">
-
-</xliff:g>Fingeravtrycksmodellen som sparats på enheten raderas också. Du kan inte längre använda autentisering med fingeravtryck i appar."</string>
-    <string name="unlock_disable_frp_warning_content_password_face" msgid="1811067332335964495">"Ett lösenord skyddar telefonen om den kommer bort eller blir stulen.<xliff:g id="EMPTY_LINE">
-
-</xliff:g>Ansiktsmodellen raderas också permanent på ett säkert sätt. Du kan inte längre använda ansiktsautentisering i appar."</string>
-    <string name="unlock_disable_frp_warning_content_password_face_fingerprint" msgid="7063649456205159491">"Ett lösenord skyddar telefonen om den kommer bort eller blir stulen.<xliff:g id="EMPTY_LINE">
-
-</xliff:g>Fingeravtrycksmodellen som sparats på enheten raderas. Ansiktsmodellen raderas också permanent på ett säkert sätt. Du kan inte längre använda ansiktsautentisering eller autentisering med fingeravtryck i appar."</string>
+    <string name="unlock_disable_frp_warning_content_password_fingerprint" msgid="8899452884016354856">Ett lösenord skyddar telefonen om den kommer bort eller blir stulen.<xliff:g id="empty_line">
+\n
+\n</xliff:g>Fingeravtrycksmodellen som sparats på enheten raderas också. Du kan inte längre använda autentisering med fingeravtryck i appar.</string>
+    <string name="unlock_disable_frp_warning_content_password_face" msgid="1811067332335964495">Ett lösenord skyddar telefonen om den kommer bort eller blir stulen.<xliff:g id="empty_line">
+\n
+\n</xliff:g>Ansiktsmodellen raderas också permanent på ett säkert sätt. Du kan inte längre använda ansiktsautentisering i appar.</string>
+    <string name="unlock_disable_frp_warning_content_password_face_fingerprint" msgid="7063649456205159491">Ett lösenord skyddar telefonen om den kommer bort eller blir stulen.<xliff:g id="empty_line">
+\n
+\n</xliff:g>Fingeravtrycksmodellen som sparats på enheten raderas. Ansiktsmodellen raderas också permanent på ett säkert sätt. Du kan inte längre använda ansiktsautentisering eller autentisering med fingeravtryck i appar.</string>
     <string name="unlock_disable_frp_warning_content_unknown" msgid="8903568674104115231">"Funktionerna för enhetsskydd fungerar inte utan skärmlåset."</string>
-    <string name="unlock_disable_frp_warning_content_unknown_fingerprint" msgid="6542744110902941189">"Enhetens säkerhetsfunktioner fungerar inte utan ett skärmlås.<xliff:g id="EMPTY_LINE">
-
-</xliff:g>Fingeravtrycksmodellen som sparats på enheten raderas också. Du kan inte längre använda autentisering med fingeravtryck i appar."</string>
-    <string name="unlock_disable_frp_warning_content_unknown_face" msgid="4559917661432267841">"Enhetens säkerhetsfunktioner fungerar inte utan ett skärmlås.<xliff:g id="EMPTY_LINE">
-
-</xliff:g>Ansiktsmodellen raderas också permanent på ett säkert sätt. Du kan inte längre använda ansiktsautentisering i appar."</string>
-    <string name="unlock_disable_frp_warning_content_unknown_face_fingerprint" msgid="3779582301453677644">"Enhetens säkerhetsfunktioner fungerar inte utan ett skärmlås.<xliff:g id="EMPTY_LINE">
-
-</xliff:g>Fingeravtrycksmodellen som sparats på enheten raderas. Ansiktsmodellen raderas också permanent på ett säkert sätt. Du kan inte längre använda ansiktsautentisering eller autentisering med fingeravtryck i appar."</string>
+    <string name="unlock_disable_frp_warning_content_unknown_fingerprint" msgid="6542744110902941189">Enhetens säkerhetsfunktioner fungerar inte utan ett skärmlås.<xliff:g id="empty_line">
+\n
+\n</xliff:g>Fingeravtrycksmodellen som sparats på enheten raderas också. Du kan inte längre använda autentisering med fingeravtryck i appar.</string>
+    <string name="unlock_disable_frp_warning_content_unknown_face" msgid="4559917661432267841">Enhetens säkerhetsfunktioner fungerar inte utan ett skärmlås.<xliff:g id="empty_line">
+\n
+\n</xliff:g>Ansiktsmodellen raderas också permanent på ett säkert sätt. Du kan inte längre använda ansiktsautentisering i appar.</string>
+    <string name="unlock_disable_frp_warning_content_unknown_face_fingerprint" msgid="3779582301453677644">Enhetens säkerhetsfunktioner fungerar inte utan ett skärmlås.<xliff:g id="empty_line">
+\n
+\n</xliff:g>Fingeravtrycksmodellen som sparats på enheten raderas. Ansiktsmodellen raderas också permanent på ett säkert sätt. Du kan inte längre använda ansiktsautentisering eller autentisering med fingeravtryck i appar.</string>
     <string name="unlock_disable_frp_warning_ok" msgid="6173427638951230842">"Radera"</string>
     <string name="unlock_change_lock_pattern_title" msgid="8234523589333929193">"Byt mönster"</string>
     <string name="unlock_change_lock_pin_title" msgid="2324077520816477479">"Ändra PIN-kod för upplåsning"</string>
     <string name="unlock_change_lock_password_title" msgid="873517913969091074">"Ändra lösenord för upplåsning"</string>
-    <string name="unlock_footer_high_complexity_requested" msgid="4471274783909915352">"<xliff:g id="APP_NAME">%1$s</xliff:g> rekommenderar en pinkod eller ett lösenord som är starkare och kanske annars inte fungerar som förväntat"</string>
-    <string name="unlock_footer_medium_complexity_requested" msgid="5515870066751600640">"<xliff:g id="APP_NAME">%1$s</xliff:g> rekommenderar en ny pinkod eller ett nytt lösenord och kanske annars inte fungerar som förväntat"</string>
-    <string name="unlock_footer_low_complexity_requested" msgid="2517656037576567971">"<xliff:g id="APP_NAME">%1$s</xliff:g> rekommenderar en ny pinkod, ett nytt lösenord eller mönster och kanske annars inte fungerar som förväntat"</string>
-    <string name="unlock_footer_none_complexity_requested" msgid="8534900170428140529">"<xliff:g id="APP_NAME">%1$s</xliff:g> rekommenderar ett nytt skärmlås"</string>
+    <string name="unlock_footer_high_complexity_requested" msgid="4471274783909915352"><xliff:g id="app_name" example="Gmail">%1$s</xliff:g> rekommenderar en pinkod eller ett lösenord som är starkare och kanske annars inte fungerar som förväntat</string>
+    <string name="unlock_footer_medium_complexity_requested" msgid="5515870066751600640"><xliff:g id="app_name" example="Gmail">%1$s</xliff:g> rekommenderar en ny pinkod eller ett nytt lösenord och kanske inte fungerar som förväntat</string>
+    <string name="unlock_footer_low_complexity_requested" msgid="2517656037576567971"><xliff:g id="app_name" example="Gmail">%1$s</xliff:g> rekommenderar en ny pinkod, ett nytt lösenord eller grafiskt lösenord och kanske annars inte fungerar som förväntat</string>
+    <string name="unlock_footer_none_complexity_requested" msgid="8534900170428140529"><xliff:g id="app_name" example="Gmail">%1$s</xliff:g> rekommenderar ett nytt skärmlås</string>
     <string name="lock_failed_attempts_before_wipe" msgid="6874652886647631418">"Försök igen. Försök <xliff:g id="CURRENT_ATTEMPTS">%1$d</xliff:g> av <xliff:g id="TOTAL_ATTEMPTS">%2$d</xliff:g>."</string>
-    <string name="lock_last_attempt_before_wipe_warning_title" msgid="7450322567217745999">"Din data raderas."</string>
+    <string name="lock_last_attempt_before_wipe_warning_title" msgid="7450322567217745999">Din data kommer raderas</string>
     <string name="lock_last_pattern_attempt_before_wipe_device" msgid="5816668400104558952">"Enhetens data raderas om du anger fel mönster vid nästa försök"</string>
     <string name="lock_last_pin_attempt_before_wipe_device" msgid="2815681042623708775">"Enhetens data raderas om du anger fel pinkod vid nästa försök"</string>
     <string name="lock_last_password_attempt_before_wipe_device" msgid="985126164175708507">"Enhetens data raderas om du anger fel lösenord vid nästa försök"</string>
@@ -705,21 +707,21 @@
     <string name="lock_failed_attempts_now_wiping_profile" msgid="3171880997211568208">"För många felaktiga försök. Den här jobbprofilen och dess data raderas."</string>
     <string name="lock_failed_attempts_now_wiping_dialog_dismiss" msgid="170155081899679669">"Ignorera"</string>
     <plurals name="lockpassword_password_too_short" formatted="false" msgid="2192234965414232157">
-        <item quantity="other">Måste innehåll minst <xliff:g id="COUNT_1">%d</xliff:g> tecken</item>
-        <item quantity="one">Måste innehåll minst <xliff:g id="COUNT_0">%d</xliff:g> tecken</item>
+        <item quantity="one">Måste innehåll minst <xliff:g id="count" example="1">%d</xliff:g> tecken</item>
+        <item quantity="other">Måste innehåll minst <xliff:g id="count" example="3">%d</xliff:g> tecken</item>
     </plurals>
     <plurals name="lockpassword_pin_too_short" formatted="false" msgid="6817086810898414162">
-        <item quantity="other">Pinkoden måste innehålla minst <xliff:g id="COUNT_1">%d</xliff:g> siffror</item>
-        <item quantity="one">Pinkoden måste innehålla minst <xliff:g id="COUNT_0">%d</xliff:g> siffra</item>
+        <item quantity="one">Pinkoden måste innehålla minst <xliff:g id="count" example="1">%d</xliff:g> siffra</item>
+        <item quantity="other">Pinkoden måste innehålla minst <xliff:g id="count" example="3">%d</xliff:g> siffror</item>
     </plurals>
     <string name="lockpassword_continue_label" msgid="2507983991979547816">"Fortsätt"</string>
     <plurals name="lockpassword_password_too_long" formatted="false" msgid="8118091957172967677">
-        <item quantity="other">Får inte innehålla fler än <xliff:g id="NUMBER_1">%d</xliff:g> tecken</item>
-        <item quantity="one">Får inte innehålla fler än <xliff:g id="NUMBER_0">%d</xliff:g> tecken</item>
+        <item quantity="one">Måste vara färre än <xliff:g id="number" example="1">%d</xliff:g> tecken</item>
+        <item quantity="other">Måste vara färre än <xliff:g id="number" example="17">%d</xliff:g> tecken</item>
     </plurals>
     <plurals name="lockpassword_pin_too_long" formatted="false" msgid="8706992338720310765">
-        <item quantity="other">Får inte innehålla fler än <xliff:g id="NUMBER_1">%d</xliff:g> siffror</item>
-        <item quantity="one">Får inte innehålla fler än <xliff:g id="NUMBER_0">%d</xliff:g> siffra</item>
+        <item quantity="one">Måste vara färre än <xliff:g id="number" example="1">%d</xliff:g> siffra</item>
+        <item quantity="other">Måste vara färre än <xliff:g id="number" example="17">%d</xliff:g> siffror</item>
     </plurals>
     <string name="lockpassword_pin_recently_used" msgid="6650277060998923465">"Enhetsadministratören tillåter inte att en pinkod som använts nyligen används igen"</string>
     <string name="lockpassword_illegal_character" msgid="3434031212215886433">"Får inte innehålla ogiltiga tecken"</string>
@@ -727,28 +729,28 @@
     <string name="lockpassword_password_requires_digit" msgid="312518567592683795">"Måste innehålla minst en siffra"</string>
     <string name="lockpassword_password_requires_symbol" msgid="6178512486154701321">"Måste innehålla minst en symbol"</string>
     <plurals name="lockpassword_password_requires_letters" formatted="false" msgid="2385916409676839024">
-        <item quantity="other">Lösenordet måste innehålla minst <xliff:g id="COUNT">%d</xliff:g> bokstäver</item>
         <item quantity="one">Lösenordet måste innehålla minst en bokstav</item>
+        <item quantity="other">Lösenordet måste innehålla minst <xliff:g id="count" example="3">%d</xliff:g> bokstäver</item>
     </plurals>
     <plurals name="lockpassword_password_requires_lowercase" formatted="false" msgid="2057467885488612701">
-        <item quantity="other">Lösenordet måste innehålla minst <xliff:g id="COUNT">%d</xliff:g> små bokstäver</item>
         <item quantity="one">Lösenordet måste innehålla minst en liten bokstav</item>
+        <item quantity="other">Lösenordet måste innehålla minst <xliff:g id="count" example="3">%d</xliff:g> små bokstäver</item>
     </plurals>
     <plurals name="lockpassword_password_requires_uppercase" formatted="false" msgid="4541266279643052025">
-        <item quantity="other">Lösenordet måste innehålla minst <xliff:g id="COUNT">%d</xliff:g> stora bokstäver</item>
         <item quantity="one">Lösenordet måste innehålla minst en stor bokstav</item>
+        <item quantity="other">Lösenordet måste innehålla minst <xliff:g id="count" example="3">%d</xliff:g> stora bokstäver</item>
     </plurals>
     <plurals name="lockpassword_password_requires_numeric" formatted="false" msgid="70617964591376248">
-        <item quantity="other">Lösenordet måste innehålla minst <xliff:g id="COUNT">%d</xliff:g> siffror</item>
         <item quantity="one">Lösenordet måste innehålla minst en siffra</item>
+        <item quantity="other">Lösenordet måste innehålla minst <xliff:g id="count" example="3">%d</xliff:g> siffror</item>
     </plurals>
     <plurals name="lockpassword_password_requires_symbols" formatted="false" msgid="7981236881269921943">
-        <item quantity="other">Lösenordet måste innehålla minst <xliff:g id="COUNT">%d</xliff:g> specialsymboler</item>
         <item quantity="one">Lösenordet måste innehålla minst en specialsymbol</item>
+        <item quantity="other">Lösenordet måste innehålla minst <xliff:g id="count" example="3">%d</xliff:g> specialsymboler</item>
     </plurals>
     <plurals name="lockpassword_password_requires_nonletter" formatted="false" msgid="1567877061888948467">
-        <item quantity="other">Lösenordet måste innehålla minst <xliff:g id="COUNT">%d</xliff:g> tecken som inte är bokstäver</item>
         <item quantity="one">Lösenordet måste innehålla minst ett tecken som inte är en bokstav</item>
+        <item quantity="other">Lösenordet måste innehålla minst <xliff:g id="count" example="3">%d</xliff:g> tecken som inte är bokstäver</item>
     </plurals>
     <plurals name="lockpassword_password_requires_nonnumerical" formatted="false" msgid="5056743974888384475">
         <item quantity="other">Lösenordet måste innehålla minst <xliff:g id="COUNT">%d</xliff:g> tecken som inte är en siffra</item>
@@ -773,8 +775,8 @@
     <string name="disabled_because_no_backup_security" msgid="4998095356607488854">"Ställ först in ett skärmlås"</string>
     <string name="manage_trust_agents_summary" msgid="6423843123607674286">"Inga"</string>
     <plurals name="manage_trust_agents_summary_on" formatted="false" msgid="5438047398376802735">
-        <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> aktiva betrodda agenter</item>
         <item quantity="one">1 aktiv betrodd agent</item>
+        <item quantity="other"><xliff:g id="count" example="3">%d</xliff:g> aktiva betrodda agenter</item>
     </plurals>
     <string name="bluetooth_quick_toggle_title" msgid="5955341060378240781">"Bluetooth"</string>
     <string name="bluetooth_quick_toggle_summary" msgid="5257744297562880017">"Aktivera Bluetooth"</string>
@@ -874,11 +876,11 @@
     <string name="wifi_time_remaining" msgid="8503606272869846170">"<xliff:g id="REMAINING_TIME">%1$s</xliff:g> kvar"</string>
     <string name="wifi_expiry_time" msgid="5419758551129267624">"Löper ut den <xliff:g id="EXPIRY_TIME">%1$s</xliff:g>"</string>
     <string name="wifi_tap_to_sign_in" msgid="8658506618807549483">"Tryck här om du vill logga in på nätverket"</string>
-    <string name="tx_link_speed" msgid="3071955184703668113">"<xliff:g id="TRANSMIT_LINK_SPEED">%1$d</xliff:g> Mbit/s"</string>
-    <string name="rx_link_speed" msgid="6292229178855567783">"<xliff:g id="RECEIVE_LINK_SPEED">%1$d</xliff:g> Mbit/s"</string>
+    <string name="tx_link_speed" msgid="3071955184703668113"><xliff:g id="Transmit link speed" example="150 Mbps">%1$d</xliff:g> Mbit/s</string>
+    <string name="rx_link_speed" msgid="6292229178855567783"><xliff:g id="Receive link speed" example="54 Mbps">%1$d</xliff:g> Mbit/s</string>
     <string name="link_speed" msgid="931786745741016446">"<xliff:g id="LINK_SPEED">%1$d</xliff:g> Mbit/s"</string>
-    <string name="wifi_ask_enable" msgid="6860056048266810769">"<xliff:g id="REQUESTER">%s</xliff:g> vill aktivera wifi"</string>
-    <string name="wifi_ask_disable" msgid="1663208096020309639">"<xliff:g id="REQUESTER">%s</xliff:g> vill inaktivera wifi"</string>
+    <string name="wifi_ask_enable" msgid="6860056048266810769"><xliff:g id="requester" example="FancyApp">%s</xliff:g> vill aktivera Wi-Fi</string>
+    <string name="wifi_ask_disable" msgid="1663208096020309639"><xliff:g id="requester" example="FancyApp">%s</xliff:g> vill inaktivera Wi-Fi</string>
     <string name="art_verifier_for_debuggable_title" msgid="1926445785190030479">"Verifiera felsökningsbara appars bytekod"</string>
     <string name="art_verifier_for_debuggable_summary" msgid="4802875841862652879">"Verifiera bytekod för felsökningsbara appar genom att tillåta ART"</string>
     <string name="show_refresh_rate" msgid="5742688821872354973">"Visa uppdateringsfrekvens"</string>
@@ -1002,25 +1004,25 @@
     <string name="wifi_subscription_summary" msgid="18802471063384598">"Visa eller ändra prenumeration"</string>
     <string name="wifi_privacy_settings_ephemeral_summary" msgid="8502084692297249372">"Slumpgenererad MAC-adress"</string>
     <string name="wifi_dpp_add_device_to_network" msgid="6141246783457722976">"Lägg till en enhet"</string>
-    <string name="wifi_dpp_center_qr_code" msgid="5270782275746178104">"Lägg till enheten i <xliff:g id="SSID">%1$s</xliff:g> genom att centrera QR-koden i fönstret nedan"</string>
+    <string name="wifi_dpp_center_qr_code" msgid="5270782275746178104">Lägg till enheten i <xliff:g id="ssid" example="OfficeWifi">%1$s</xliff:g> genom att centrera QR-koden i fönstret nedan</string>
     <string name="wifi_dpp_scan_qr_code" msgid="3543923817779444434">"Skanna QR-kod"</string>
-    <string name="wifi_dpp_scan_qr_code_join_network" msgid="969985020363459133">"Anslut till <xliff:g id="SSID">%1$s</xliff:g> genom att centrera QR-koden i fönstret nedan"</string>
+    <string name="wifi_dpp_scan_qr_code_join_network" msgid="969985020363459133">Anslut till <xliff:g id="ssid" example="OfficeWifi">%1$s</xliff:g> genom att centrera QR-koden i fönstret nedan</string>
     <string name="wifi_dpp_scan_qr_code_join_unknown_network" msgid="3180020429793614145">"Anslut till wifi genom att skanna QR-koden"</string>
     <string name="wifi_dpp_share_wifi" msgid="2431744447544057866">"Dela wifi"</string>
     <string name="wifi_dpp_scan_qr_code_with_another_device" msgid="6967364080214325016">"Anslut till <xliff:g id="SSID">%1$s</xliff:g> genom att skanna QR-koden med en annan enhet"</string>
-    <string name="wifi_dpp_scan_open_network_qr_code_with_another_device" msgid="5398619697898444311">"Anslut till <xliff:g id="SSID">%1$s</xliff:g> genom att skanna QR-koden"</string>
+    <string name="wifi_dpp_scan_open_network_qr_code_with_another_device" msgid="5398619697898444311">Anslut till <xliff:g id="ssid" example="OfficeWifi">%1$s</xliff:g> genom att skanna QR-koden</string>
     <string name="wifi_dpp_failure_authentication_or_configuration" msgid="847551626830740204">"Försök igen. Om problemet kvarstår kontaktar du enhetens tillverkare"</string>
     <string name="wifi_dpp_failure_not_compatible" msgid="4453775826337805825">"Något gick fel"</string>
     <string name="wifi_dpp_failure_timeout" msgid="7902971341771145564">"Kontrollera att enheten är inkopplad, laddad och påslagen"</string>
     <string name="wifi_dpp_failure_generic" msgid="6559442892600448442">"Kontrollera att enheten är inkopplad, laddad och påslagen. Om problemet kvarstår kontaktar du enhetens tillverkare"</string>
-    <string name="wifi_dpp_failure_not_supported" msgid="2908961523550486480">"Det finns inte stöd för att lägga till <xliff:g id="SSID">%1$s</xliff:g> på enheten"</string>
+    <string name="wifi_dpp_failure_not_supported" msgid="2908961523550486480">Det finns inte stöd för att lägga till <xliff:g id="ssid" example="OfficeWifi">%1$s</xliff:g> på enheten</string>
     <string name="wifi_dpp_failure_cannot_find_network" msgid="8519567801353014036">"Testa att flytta enheten närmare wifi-åtkomstpunkten eller routern"</string>
     <string name="wifi_dpp_failure_enrollee_authentication" msgid="7008840843663520852">"Kontrollera lösenordet och försök igen"</string>
     <string name="wifi_dpp_failure_enrollee_rejected_configuration" msgid="982310033782652478">"Kontakta enhetens tillverkare"</string>
     <string name="wifi_dpp_check_connection_try_again" msgid="6118892932595974823">"Kontrollera anslutningen och försök igen"</string>
     <string name="wifi_dpp_choose_network" msgid="3987007684129341427">"Välj nätverk"</string>
     <string name="wifi_dpp_choose_network_to_connect_device" msgid="4321618376432197593">"Välj ett nätverk om du vill ansluta enheten"</string>
-    <string name="wifi_dpp_add_device_to_wifi" msgid="5170095438763569255">"Vill du lägga till enheten på <xliff:g id="SSID">%1$s</xliff:g>?"</string>
+    <string name="wifi_dpp_add_device_to_wifi" msgid="5170095438763569255">Vill du lägga till enheten på <xliff:g id="ssid" example="OfficeWifi">%1$s</xliff:g>\?</string>
     <string name="wifi_dpp_wifi_shared_with_device" msgid="4484366631307204949">"Wifi har delats med enheten"</string>
     <string name="wifi_dpp_add_another_device" msgid="3307575293580739604">"Lägg till ytterligare en enhet"</string>
     <string name="wifi_dpp_choose_different_network" msgid="8963625819804792157">"Välj ett annat nätverk"</string>
@@ -1030,7 +1032,7 @@
     <string name="wifi_dpp_connecting" msgid="2312769193202897589">"Ansluter …"</string>
     <string name="wifi_dpp_share_hotspot" msgid="6186452780604755316">"Dela surfzon"</string>
     <string name="wifi_dpp_lockscreen_title" msgid="4231438175617953652">"Verifiera din identitet"</string>
-    <string name="wifi_dpp_wifi_password" msgid="4992986319806934381">"Wifi-lösenord: <xliff:g id="PASSWORD">%1$s</xliff:g>"</string>
+    <string name="wifi_dpp_wifi_password" msgid="4992986319806934381">Wi-Fi-lösenord: <xliff:g id="password" example="my password">%1$s</xliff:g></string>
     <string name="wifi_dpp_hotspot_password" msgid="688464342650820420">"Lösenord till surfzon: <xliff:g id="PASSWORD">%1$s</xliff:g>"</string>
     <string name="wifi_auto_connect_title" msgid="1890342051674657892">"Automatisk anslutning"</string>
     <string name="wifi_auto_connect_summary" msgid="1707702705345670370">"Tillåt anslutning till det här nätverket när det är inom räckvidd."</string>
@@ -1073,7 +1075,7 @@
     <string name="wifi_connected_to_message" msgid="8976048616505112896">"Ansluten till <xliff:g id="NETWORK_NAME">%1$s</xliff:g>"</string>
     <string name="wifi_connecting_to_message" msgid="3153205024060064551">"Ansluter till <xliff:g id="NETWORK_NAME">%1$s</xliff:g>"</string>
     <string name="wifi_connecting" msgid="7450277833386859724">"Ansluter …"</string>
-    <string name="wifi_failed_connect_message" msgid="8538000546604347894">"Det gick inte att ansluta till nätverket."</string>
+    <string name="wifi_failed_connect_message" msgid="8538000546604347894">MIsslyckades att ansluta till nätverket.</string>
     <string name="wifi_not_in_range_message" msgid="3885327464037574739">"Nätverket är inte inom räckvidd"</string>
     <string name="wifi_forget" msgid="3485573280364015620">"Glöm"</string>
     <string name="wifi_modify" msgid="5127926476383659412">"Ändra"</string>
@@ -1429,8 +1431,8 @@
     <string name="sim_multi_sims_title" msgid="4875083890014013296">"Flera SIM-kort har hittats"</string>
     <string name="sim_multi_sims_summary" msgid="1711012455679332238">"Välj vilket SIM-kort du vill använda för mobildatan."</string>
     <string name="sim_change_data_title" msgid="4663239438584588847"> Ska mobildata från <xliff:g id="carrier" example="Verizon">%1$s</xliff:g> användas\? </string>
-    <string name="sim_change_data_message" msgid="3046178883369645132">"Du använder mobildata från <xliff:g id="CARRIER2_0">%2$s</xliff:g>. Om du byter till <xliff:g id="CARRIER1">%1$s</xliff:g> används inte längre mobildata från <xliff:g id="CARRIER2_1">%2$s</xliff:g>."</string>
-    <string name="sim_change_data_ok" msgid="4922114750417276560">"Använd <xliff:g id="CARRIER">%1$s</xliff:g>"</string>
+    <string name="sim_change_data_message" msgid="3046178883369645132"> Du använder mobildata från <xliff:g id="carrier2" example="T-mobile">%2$s</xliff:g>. Om du byter till <xliff:g id="carrier1" example="Verizon">%1$s</xliff:g> används inte längre mobildata från <xliff:g id="carrier2" example="T-mobile">%2$s</xliff:g>. </string>
+    <string name="sim_change_data_ok" msgid="4922114750417276560"> Använd <xliff:g id="carrier" example="Verizon">%1$s</xliff:g> </string>
     <string name="sim_preferred_title" msgid="7182406911552216373">"Uppdatera primärt SIM-kort?"</string>
     <string name="sim_preferred_message" msgid="6004009449266648351">"<xliff:g id="NEW_SIM">%1$s</xliff:g> är det enda SIM-kortet i enheten. Vill du använda det här SIM-kortet för mobildata, samtal och SMS?"</string>
     <string name="wrong_pin_code_pukked" msgid="3414172752791445033">"Du angav fel pinkod för SIM-kortet och måste nu kontakta operatören för att låsa upp enheten."</string>
@@ -1455,7 +1457,7 @@
     <string name="device_status_activity_title" msgid="1812666241137263882">"Status"</string>
     <string name="device_status" msgid="7988547478034984649">"Status"</string>
     <string name="device_status_summary" product="tablet" msgid="8826216824111648900">"Status för batteri, nätverk och annan information"</string>
-    <string name="device_status_summary" product="default" msgid="8132661857066128832">"Telefonnummer, signal osv."</string>
+    <string name="device_status_summary" product="default" msgid="8132661857066128832">Status för batteri, nätverk och annan information.</string>
     <string name="storage_settings" msgid="7472188817781592677">"Lagring"</string>
     <string name="storage_settings_for_app" msgid="229425418984637483">"Lagringsutrymme och cacheminne"</string>
     <string name="storage_usb_settings" msgid="7058142934214211583">"Lagring"</string>
@@ -1584,31 +1586,52 @@
     <string name="storage_wizard_init_internal_title" msgid="3256355049992147270">"Använd som internminne"</string>
     <string name="storage_wizard_init_internal_summary" msgid="2283798331883929674">"Lagra vad du vill, endast på den här enheten (inklusive appar och foton). Formatering som hindrar att det fungerar på andra enheter krävs."</string>
     <string name="storage_wizard_format_confirm_title" msgid="4898014527956178762">"Formatera som internminne"</string>
-    <string name="storage_wizard_format_confirm_body" msgid="5514665245241830772">"Detta kräver att ditt <xliff:g id="NAME_0">^1</xliff:g> formateras så att det blir säkert. \n\nEfter formateringen fungerar ditt <xliff:g id="NAME_1">^1</xliff:g> endast på den här enheten. \n\n"<b>"Formateringen raderar all data som har lagrats på ditt <xliff:g id="NAME_2">^1</xliff:g>."</b>" Säkerhetskopiera data om du vill undvika att förlora den."</string>
+    <string name="storage_wizard_format_confirm_body" msgid="5514665245241830772">Detta kräver att ditt <xliff:g id="name" example="SD card">^1</xliff:g> formateras så att det blir säkert.
+\n
+\nEfter formateringen fungerar ditt <xliff:g id="name" example="SD card">^1</xliff:g> endast på den här enheten.
+\n
+\n<b>Formateringen raderar all data som har lagrats på ditt <xliff:g id="name" example="SD card">^1</xliff:g>.</b> Säkerhetskopiera data om du vill undvika att förlora den. </string>
     <string name="storage_wizard_format_confirm_public_title" msgid="649252654496577680">"Formatera som bärbar lagring"</string>
-    <string name="storage_wizard_format_confirm_public_body" msgid="6219883780307218266">"<xliff:g id="NAME_0">^1</xliff:g> måste formateras. \n\n"<b>"En formatering rensar all data som finns på <xliff:g id="NAME_1">^1</xliff:g> för närvarande."</b>" Säkerhetskopiera data som du inte vill förlora."</string>
+    <string name="storage_wizard_format_confirm_public_body" msgid="6219883780307218266">Detta kräver att <xliff:g id="name" example="SD card">^1</xliff:g> formateras.
+\n
+\n<b>En formatering rensar all data som finns på <xliff:g id="name" example="SD card">^1</xliff:g> för närvarande.</b> Säkerhetskopiera data som du inte vill förlora. </string>
     <string name="storage_wizard_format_confirm_next" msgid="4412063054982084056">"Radera och formatera"</string>
     <string name="storage_wizard_format_progress_title" msgid="9170393018855949774">"Formaterar <xliff:g id="NAME">^1</xliff:g> …"</string>
     <string name="storage_wizard_format_progress_body" msgid="1044024044955390417">"Ta inte bort <xliff:g id="NAME">^1</xliff:g> under formateringen."</string>
     <string name="storage_wizard_migrate_title" msgid="3013711737005104623">"Flytta data till ny lagring"</string>
-    <string name="storage_wizard_migrate_body" msgid="1630853797296198275">"Du kan flytta foton, filer och vissa appar till <xliff:g id="NAME">^1</xliff:g>. \n\nFlytten tar cirka <xliff:g id="TIME">^2</xliff:g> och <xliff:g id="SIZE">^3</xliff:g> internminne kommer att frigöras. Vissa appar fungerar inte medan flytten pågår."</string>
+    <string name="storage_wizard_migrate_body" msgid="1630853797296198275">Du kan flytta foton, filer och vissa appar till <xliff:g id="name" example="SD card">^1</xliff:g>.
+\n
+\nFlytten tar cirka <xliff:g id="time" example="1 hour">^2</xliff:g> och <xliff:g id="size" example="1.2 GB">^3</xliff:g> internminne kommer att frigöras. Vissa appar fungerar inte medan flytten pågår. </string>
     <string name="storage_wizard_migrate_now" msgid="175023718337037181">"Flytta nu"</string>
     <string name="storage_wizard_migrate_later" msgid="6573789572520980112">"Flytta senare"</string>
     <string name="storage_wizard_migrate_confirm_title" msgid="255346780598924540">"Flytta data nu"</string>
     <string name="storage_wizard_migrate_confirm_body" msgid="5039938578355576124"><b>"Flytten tar omkring <xliff:g id="TIME">^1</xliff:g>. <xliff:g id="SIZE">^2</xliff:g> lagringsutrymme frigörs på <xliff:g id="NAME">^3</xliff:g>."</b></string>
     <string name="storage_wizard_migrate_confirm_next" msgid="217478540562501692">"Flytta"</string>
     <string name="storage_wizard_migrate_progress_title" msgid="462238335086734131">Flyttar data…</string>
-    <string name="storage_wizard_migrate_details" msgid="7474061662976940407">"Under flytten: \n• Ta inte bort ditt <xliff:g id="NAME">^1</xliff:g>. \n• Vissa appar fungerar inte som de ska. \n• Håll enheten laddad."</string>
+    <string name="storage_wizard_migrate_details" msgid="7474061662976940407">Under flytten:
+\n• Ta inte bort ditt <xliff:g id="name" example="SD card">^1</xliff:g>.
+\n• Vissa appar fungerar inte som de ska.
+\n• Håll enheten laddad. </string>
     <string name="storage_wizard_ready_title" msgid="3093468548660255543">"<xliff:g id="NAME">^1</xliff:g> är klar att användas"</string>
     <string name="storage_wizard_ready_external_body" msgid="45040717412844114">"Ditt <xliff:g id="NAME">^1</xliff:g> är klart att använda med foton och annan media."</string>
-    <string name="storage_wizard_ready_internal_body" msgid="7734817996475607447">"Ditt nya <xliff:g id="NAME">^1</xliff:g> fungerar. \n\nOm du vill flytta foton, filer och appdata till enheten öppnar du Inställningar &gt; Lagring."</string>
+    <string name="storage_wizard_ready_internal_body" msgid="7734817996475607447">Ditt nya <xliff:g id="name" example="SD card">^1</xliff:g> fungerar.
+\n
+\nOm du vill flytta foton, filer och appdata till enheten öppnar du Inställningar &gt; Lagring. </string>
     <string name="storage_wizard_move_confirm_title" msgid="6812469630804101590">"Flytta <xliff:g id="APP">^1</xliff:g>"</string>
-    <string name="storage_wizard_move_confirm_body" msgid="1713022828842263574">"Det tar bara några minuter att flytta <xliff:g id="APP">^1</xliff:g> och dess data till <xliff:g id="NAME_0">^2</xliff:g>. Du kan inte använda appen förrän flytten är klar. \n\nTa inte bort ditt <xliff:g id="NAME_1">^2</xliff:g> under flytten."</string>
+    <string name="storage_wizard_move_confirm_body" msgid="1713022828842263574">Det tar bara några minuter att flytta <xliff:g id="app" example="Calculator">^1</xliff:g> och dess data till <xliff:g id="name" example="SD card">^2</xliff:g>. Du kan inte använda appen förrän flytten är klar.
+\n
+\nTa inte bort ditt <xliff:g id="name" example="SD card">^2</xliff:g> under flytten. </string>
     <string name="storage_wizard_move_unlock" msgid="14651384927767749">"Du måste låsa upp användaren <xliff:g id="APP">^1</xliff:g> om du vill flytta data."</string>
     <string name="storage_wizard_move_progress_title" msgid="3912406225614672391">"Flyttar <xliff:g id="APP">^1</xliff:g> …"</string>
-    <string name="storage_wizard_move_progress_body" msgid="2396714553394935094">"Ta inte bort ditt <xliff:g id="NAME">^1</xliff:g> under flytten. \n\nAppen <xliff:g id="APP">^2</xliff:g> på den här enheten blir inte tillgänglig förrän flytten är klar."</string>
+    <string name="storage_wizard_move_progress_body" msgid="2396714553394935094">Ta inte bort ditt <xliff:g id="name" example="SD card">^1</xliff:g> under flytten.
+\n
+\nAppen <xliff:g id="app" example="Calculator">^2</xliff:g> på den här enheten blir inte tillgänglig förrän flytten är klar. </string>
     <string name="storage_wizard_move_progress_cancel" msgid="3494022998599718937">"Avbryt flytten"</string>
-    <string name="storage_wizard_slow_body" msgid="8293565076885232029">"<xliff:g id="NAME_0">^1</xliff:g> verkar långsamt. \n\nDu kan fortsätta, men appar som har flyttats till den här platsen kan vara ryckiga och dataöverföring kan ta lång tid. \n\nÖverväg att använda ett snabbare <xliff:g id="NAME_1">^1</xliff:g> för bättre prestanda."</string>
+    <string name="storage_wizard_slow_body" msgid="8293565076885232029"><xliff:g id="name" example="SD card">^1</xliff:g> verkar långsamt.
+\n
+\nDu kan fortsätta, men appar som har flyttats till den här platsen kan vara ryckiga och dataöverföring kan ta lång tid.
+\n
+\nÖverväg att använda ett snabbare <xliff:g id="name" example="SD card">^1</xliff:g> för bättre prestanda. </string>
     <string name="storage_wizard_init_v2_title" msgid="2538630338392381113">"Hur ska du använda <xliff:g id="NAME">^1</xliff:g>?"</string>
     <string name="storage_wizard_init_v2_internal_title" product="tablet" msgid="1884468440013151482">"Använd för mer surfplattelagring"</string>
     <string name="storage_wizard_init_v2_internal_summary" product="tablet" msgid="2907833056467441047">"För appar, filer och media enbart på den här surfplattan"</string>
@@ -1681,10 +1704,10 @@
     <string name="error_name_empty" msgid="1258275899283079142">"Fältet Namn får inte vara tomt."</string>
     <string name="error_apn_empty" msgid="7657491065443746915">"APN får inte vara tomt."</string>
     <string name="error_mcc_not3" msgid="883659545640179094">"MCC-fältet måste bestå av 3 siffror."</string>
-    <string name="error_mnc_not23" msgid="7642478711158474918">"MNC-fältet måste vara 2 eller 3 siffror"</string>
+    <string name="error_mnc_not23" msgid="7642478711158474918">MNC-fältet måste vara 2 eller 3 siffror.</string>
     <string name="error_adding_apn_type" msgid="1324263534991467943">"Operatören tillåter inte att du lägger till APN:er av typen %s."</string>
     <string name="restore_default_apn" msgid="6596048535642130689">"Återställer standardinställningar för APN."</string>
-    <string name="menu_restore" msgid="4310539620115151551">"Återställ standardinst."</string>
+    <string name="menu_restore" msgid="4310539620115151551">Återställ till standardinställningar</string>
     <string name="restore_default_apn_completed" msgid="5167505087078340256">"Återställning av standardinställningar för APN har slutförts."</string>
     <string name="reset_dashboard_title" msgid="7423200250697886918">"Återställningsalt."</string>
     <string name="reset_dashboard_summary" msgid="4390780188264852956">"Nätverk, appar och enheter kan återställas"</string>
@@ -2092,8 +2115,8 @@
     <string name="service_started_by_app" msgid="6845028506417670179">"Startad av app."</string>
     <!-- no translation found for service_client_name (2210898622981598861) -->
     <skip/>
-    <string name="service_background_processes" msgid="2800539421534521948">"<xliff:g id="MEMORY">%1$s</xliff:g> led."</string>
-    <string name="service_foreground_processes" msgid="6380905887193621704">"<xliff:g id="MEMORY">%1$s</xliff:g> anv."</string>
+    <string name="service_background_processes" msgid="2800539421534521948"><xliff:g id="memory">%1$s</xliff:g> ledigt.</string>
+    <string name="service_foreground_processes" msgid="6380905887193621704"><xliff:g id="memory">%1$s</xliff:g> används</string>
     <string name="memory" msgid="5253757199926592074">"RAM"</string>
     <!-- no translation found for service_process_name (7827318358399776412) -->
     <skip/>
@@ -2495,10 +2518,10 @@
     <string name="touch_filtered_warning" msgid="4225815157460318241">"Svaret kan inte verifieras av Inställningar, eftersom en app skymmer en begäran om behörighet."</string>
     <string name="enable_service_encryption_warning" msgid="931082737770453755">"Om du aktiverar <xliff:g id="SERVICE">%1$s</xliff:g> används inte skärmlåset för att förbättra datakryptering på enheten."</string>
     <string name="secure_lock_encryption_warning" msgid="669152607190123579">"Eftersom du har aktiverat en tillgänglighetstjänst används inte skärmlåset för att förbättra datakryptering på enheten."</string>
-    <string name="enable_service_pattern_reason" msgid="6832846117817938536">"Eftersom datakrypteringen påverkas om du aktiverar <xliff:g id="SERVICE">%1$s</xliff:g> måste du bekräfta ditt grafiska lösenord."</string>
-    <string name="enable_service_pin_reason" msgid="6040417014360237703">"Eftersom datakrypteringen påverkas om du aktiverar <xliff:g id="SERVICE">%1$s</xliff:g> måste du bekräfta din pinkod."</string>
-    <string name="enable_service_password_reason" msgid="6962544350351734238">"Eftersom datakrypteringen påverkas om du aktiverar <xliff:g id="SERVICE">%1$s</xliff:g> måste du bekräfta ditt lösenord."</string>
-    <string name="accessibility_service_warning" msgid="6779187188736432618">"<xliff:g id="SERVICE">%1$s</xliff:g> begär fullständig kontroll över den här enheten. Tjänsten kan läsa på skärmen och utföra åtgärder åt användare med behov av tillgänglighet. Den här kontrollnivån är olämplig för de flesta appar."</string>
+    <string name="enable_service_pattern_reason" msgid="6832846117817938536">Eftersom datakrypteringen påverkas om du aktiverar <xliff:g id="service" example="TalkBack">%1$s</xliff:g> måste du bekräfta ditt grafiska lösenord. </string>
+    <string name="enable_service_pin_reason" msgid="6040417014360237703">Eftersom datakrypteringen påverkas om du aktiverar <xliff:g id="service" example="TalkBack">%1$s</xliff:g> måste du bekräfta din pinkod. </string>
+    <string name="enable_service_password_reason" msgid="6962544350351734238">Eftersom datakrypteringen påverkas om du aktiverar <xliff:g id="service" example="TalkBack">%1$s</xliff:g> måste du bekräfta ditt lösenord. </string>
+    <string name="accessibility_service_warning" msgid="6779187188736432618"><xliff:g id="service" example="TalkBack">%1$s</xliff:g> begär fullständig kontroll över den här enheten. Tjänsten kan läsa på skärmen och utföra åtgärder åt användare med behov av tillgänglighet. Den här kontrollnivån är olämplig för de flesta appar. </string>
     <string name="accessibility_service_warning_description" msgid="6573203795976134751">"Fullständig kontroll lämpar sig för appar med tillgänglighetsfunktioner, men är inte lämplig för de flesta appar."</string>
     <string name="accessibility_service_screen_control_title" msgid="324795030658109870">"Visa och styra skärmen"</string>
     <string name="accessibility_service_screen_control_description" msgid="8431940515157990426">"Den kan läsa allt innehåll på skärmen och visa innehåll över andra appar."</string>
@@ -2528,12 +2551,12 @@
     <string name="print_settings" msgid="8519810615863882491">"Utskrift"</string>
     <string name="print_settings_summary_no_service" msgid="6721731154917653862">"Av"</string>
     <plurals name="print_settings_summary" formatted="false" msgid="1034273609054146099">
-        <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> utskriftstjänster är aktiverade</item>
         <item quantity="one">1 utskriftstjänst är aktiverad</item>
+        <item quantity="other"><xliff:g id="count">%1$d</xliff:g> utskriftstjänster är aktiverade</item>
     </plurals>
     <plurals name="print_jobs_summary" formatted="false" msgid="3933688846338306536">
-        <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> utskriftsjobb</item>
         <item quantity="one">1 utskriftsjobb</item>
+        <item quantity="other"><xliff:g id="count">%1$d</xliff:g> utskriftsjobb</item>
     </plurals>
     <string name="print_settings_title" msgid="7680498284751129935">"Utskriftstjänster"</string>
     <string name="print_no_services_installed" msgid="7554057966540602692">"Inga tjänster är installerade"</string>
@@ -3032,12 +3055,13 @@
     <string name="settings_backup_summary" msgid="6803046376335724034">"Säkerhetskopiera mina inställningar"</string>
     <string name="sync_menu_sync_now" msgid="3948443642329221882">"Synkronisera nu"</string>
     <string name="sync_menu_sync_cancel" msgid="2422994461106269813">"Avbryt synkronisering"</string>
-    <string name="sync_one_time_sync" msgid="8114337154112057462">"Tryck om du vill synkronisera nu <xliff:g id="LAST_SYNC_TIME">
-%1$s</xliff:g>"</string>
+    <string name="sync_one_time_sync" msgid="8114337154112057462">Tryck om du vill synkronisera nu<xliff:g id="last_sync_time">
+\n%1$s</xliff:g></string>
     <string name="sync_gmail" msgid="228561698646018808">"Gmail"</string>
     <string name="sync_calendar" msgid="4603704438090387251">"Kalender"</string>
     <string name="sync_contacts" msgid="2376465611511325472">"Kontakter"</string>
-    <string name="sync_plug" msgid="7956982719077985381"><font fgcolor="#ffffffff">"Välkommen till Google Synk!"</font>\n"En funktion i Google som du kan använda om du vill synkronisera så att du kommer åt dina kontakter, din kalender osv var du än befinner dig."</string>
+    <string name="sync_plug" msgid="7956982719077985381"><font fgcolor="#ffffffff">Välkommen till Google Synk!</font>
+\nEn funktion i Google som du kan använda om du vill synkronisera så att du kommer åt dina kontakter, din kalender osv var du än befinner dig. </string>
     <string name="header_application_sync_settings" msgid="7427706834875419243">"Synkroniseringsinställningar för app"</string>
     <string name="header_data_and_synchronization" msgid="453920312552838939">"Data och synkronisering"</string>
     <string name="preference_change_password_title" msgid="5465821666939825972">"Byt lösenord"</string>
@@ -3333,8 +3357,10 @@
     <string name="nfc_more_title" msgid="1041094244767216498">"Mer …"</string>
     <string name="nfc_payment_set_default_label" msgid="7395939287766230293">"Ställ in standardapp för betalning"</string>
     <string name="nfc_payment_update_default_label" msgid="8201975914337221246">"Uppdatera standardapp för betalning"</string>
-    <string name="nfc_payment_set_default" msgid="4101484767872365195">"Vid en kontaktlös terminal betalar du med <xliff:g id="APP">%1$s</xliff:g>"</string>
-    <string name="nfc_payment_set_default_instead_of" msgid="565237441045013280">"Vid en kontaktlös terminal betalar du med <xliff:g id="APP_0">%1$s</xliff:g>.\n\nDå ersätts <xliff:g id="APP_1">%2$s</xliff:g> som standardapp för betalning."</string>
+    <string name="nfc_payment_set_default" msgid="4101484767872365195">Vid en kontaktlös terminal betalar du med <xliff:g id="APP">%1$s</xliff:g> </string>
+    <string name="nfc_payment_set_default_instead_of" msgid="565237441045013280">Vid en kontaktlös terminal betalar du med <xliff:g id="APP_0">%1$s</xliff:g>.
+\n
+\nDå ersätts <xliff:g id="APP_1">%2$s</xliff:g> som standardapp för betalning. </string>
     <string name="nfc_payment_btn_text_set_deault" msgid="1821065137209590196">"Ange standard"</string>
     <string name="nfc_payment_btn_text_update" msgid="5159700960497443832">"Uppdatera"</string>
     <string name="restriction_settings_title" msgid="4293731103465972557">"Begränsningar"</string>
@@ -3370,12 +3396,12 @@
     <string name="contact_discovery_opt_in_summary" msgid="6539010458256667300">"Skicka dina kontakters telefonnummer för att aktivera utökade funktioner"</string>
     <string name="contact_discovery_opt_in_dialog_title" msgid="2230536282911854114">"Vill du skicka kontakter till <xliff:g id="CARRIER">%1$s</xliff:g>?"</string>
     <string name="contact_discovery_opt_in_dialog_title_no_carrier_defined" msgid="2028983133745990320">"Vill du skicka kontakter till operatören?"</string>
-    <string name="contact_discovery_opt_in_dialog_message" msgid="8818310894782757538">"Dina kontakters telefonnummer skickas regelbundet till <xliff:g id="CARRIER">%1$s</xliff:g>.<xliff:g id="EMPTY_LINE">
-
-</xliff:g>Med hjälp av den här informationen identifieras om kontakterna kan använda vissa funktioner, till exempel videosamtal och vissa meddelandefunktioner."</string>
-    <string name="contact_discovery_opt_in_dialog_message_no_carrier_defined" msgid="1914894516552445911">"Dina kontakters telefonnummer skickas regelbundet till operatören.<xliff:g id="EMPTY_LINE">
-
-</xliff:g>Med den här informationen identifieras om kontakterna kan använda vissa funktioner, till exempel videosamtal och vissa meddelandefunktioner."</string>
+    <string name="contact_discovery_opt_in_dialog_message" msgid="8818310894782757538">Dina kontakters telefonnummer skickas regelbundet till <xliff:g id="carrier" example="T-mobile">%1$s</xliff:g>.<xliff:g id="empty_line" example="  ">
+\n
+\n</xliff:g>Med hjälp av den här informationen identifieras om kontakterna kan använda vissa funktioner, till exempel videosamtal och vissa meddelandefunktioner.</string>
+    <string name="contact_discovery_opt_in_dialog_message_no_carrier_defined" msgid="1914894516552445911">Dina kontakters telefonnummer skickas regelbundet till operatören.<xliff:g id="empty_line" example="  ">
+\n
+\n</xliff:g>Med den här informationen identifieras om kontakterna kan använda vissa funktioner, till exempel videosamtal och vissa meddelandefunktioner.</string>
     <string name="preferred_network_type_title" msgid="812509938714590857">"Önskad nätverkstyp"</string>
     <string name="preferred_network_type_summary" msgid="8786291927331323061">"LTE (rekommenderas)"</string>
     <string name="mms_message_title" msgid="6624505196063391964">"Mms"</string>
@@ -3432,7 +3458,7 @@
     <string name="sim_outgoing_call_title" msgid="7759080345748128897">"SIM-kort för utgående samtal"</string>
     <string name="sim_other_call_settings" msgid="5956308869284958883">"Övriga samtalsinställningar"</string>
     <string name="preferred_network_offload_title" msgid="6453199586512609557">"Önskad nätavlastning"</string>
-    <string name="preferred_network_offload_header" msgid="4842188794016376899">"Inakt. nätverksnamnsändn."</string>
+    <string name="preferred_network_offload_header" msgid="4842188794016376899">Inakt. nätverksnamnsändn.</string>
     <string name="preferred_network_offload_footer" msgid="374984523082849648">"Inaktivera Sändning av nätverksnamn och skydda dig från att tredje part får tillgång till nätverksinformation."</string>
     <string name="preferred_network_offload_popup" msgid="3949937898807213370">"Inaktivera sändning av nätverksnamn om du vill förhindra automatisk anslutning till dolda nätverk."</string>
     <string name="sim_signal_strength" msgid="6351052821700294501">"<xliff:g id="DBM">%1$d</xliff:g> dBm <xliff:g id="ASU">%2$d</xliff:g> asu"</string>
@@ -3463,7 +3489,7 @@
     <string name="nfc_and_payment_settings_no_payment_installed_summary" msgid="4879818114908207465">"Först behöver du installera en betalningsapp"</string>
     <string name="app_and_notification_dashboard_title" msgid="2861781687031832943">"Appar och aviseringar"</string>
     <string name="app_and_notification_dashboard_summary" msgid="8047683010984186106">"Senaste apparna, standardappar"</string>
-    <string name="notification_settings_work_profile" msgid="6076211850526353975">"Appar i jobbprofilen har inte åtkomst till aviseringar"</string>
+    <string name="notification_settings_work_profile" msgid="6076211850526353975">Appar i jobbprofilen har inte åtkomst till aviseringar.</string>
     <string name="account_dashboard_title" msgid="8228773251948253914">"Lösenord och konton"</string>
     <string name="account_dashboard_default_summary" msgid="1730719656099599488">"Sparade lösenord, autofyll, synkroniserade konton"</string>
     <string name="app_default_dashboard_title" msgid="4071015747629103216">"Standardappar"</string>
@@ -3606,7 +3632,7 @@
     <string name="zen_mode_settings_title" msgid="682676757791334259">"Stör ej"</string>
     <string name="zen_mode_settings_summary" msgid="6040862775514495191">"Få bara aviseringar från viktiga personer och appar"</string>
     <string name="zen_mode_slice_subtitle" msgid="6849372107272604160">"Begränsa antalet avbrott"</string>
-    <string name="zen_mode_settings_turn_on_dialog_title" msgid="7500702838426404527">"Aktivera Stör ej."</string>
+    <string name="zen_mode_settings_turn_on_dialog_title" msgid="7500702838426404527">Aktivera Stör ej</string>
     <string name="zen_mode_behavior_alarms_only" msgid="2956938533859578315">"Alarm och medieljud får avbryta"</string>
     <string name="zen_mode_automation_settings_title" msgid="3709324184191870926">"Scheman"</string>
     <string name="zen_mode_delete_automatic_rules" msgid="5020468289267191765">"Radera scheman"</string>
@@ -3884,13 +3910,15 @@
     <string name="notification_assistant_title" msgid="5889201903272393099">"Förbättrade aviseringar"</string>
     <string name="notification_assistant_summary" msgid="1957783114840908887">"Få rekommenderade åtgärder, svar och annat"</string>
     <string name="no_notification_assistant" msgid="2533323397091834096">"Inga"</string>
-    <string name="no_notification_listeners" msgid="2839354157349636000">"Inga installerade appar har begärt åtkomst till aviseringar"</string>
+    <string name="no_notification_listeners" msgid="2839354157349636000">Inga installerade appar har begärt åtkomst till aviseringar.</string>
     <string name="notification_access_detail_switch" msgid="46386786409608330">"Tillåt åtkomst till aviseringar"</string>
     <string name="notification_assistant_security_warning_title" msgid="2972346436050925276">"Vill du tillåta åtkomst till aviseringar för <xliff:g id="SERVICE">%1$s</xliff:g>?"</string>
     <string name="notification_assistant_security_warning_summary" msgid="4846559755787348129">"Förbättrade aviseringar har ersatt Anpassade aviseringar för Android i Android 12. Den här funktionen visar förslag på åtgärder och svar och organiserar dina aviseringar. \n\nFörbättrade aviseringar har åtkomst till allt innehåll i aviseringar, inklusive personliga uppgifter som namn på kontakter och meddelanden. Funktionen kan även ignorera aviseringar eller utföra åtgärder utifrån dem, till exempel svara på telefonsamtal och styra Stör ej."</string>
     <string name="notification_listener_security_warning_title" msgid="5791700876622858363">"Vill du tillåta åtkomst till aviseringar för <xliff:g id="SERVICE">%1$s</xliff:g>?"</string>
-    <string name="notification_listener_security_warning_summary" msgid="3668606006326629153">"<xliff:g id="NOTIFICATION_LISTENER_NAME">%1$s</xliff:g> kan läsa alla aviseringar, inklusive personliga uppgifter som namn på kontaktpersoner och texten i mottagna meddelanden. Appen kan även skjuta upp och stänga aviseringar eller använda åtgärdsknappar i aviseringar för att t.ex. svara på telefonsamtal. \n\nAppen kan också aktivera eller inaktivera Stör ej och ändra relaterade inställningar."</string>
-    <string name="notification_listener_disable_warning_summary" msgid="8373396293802088961">"Om du inaktiverar aviseringsåtkomst för <xliff:g id="NOTIFICATION_LISTENER_NAME">%1$s</xliff:g> kan åtkomsten till Stör ej också inaktiveras."</string>
+    <string name="notification_listener_security_warning_summary" msgid="3668606006326629153"> <xliff:g id="NOTIFICATION_LISTENER_NAME">%1$s</xliff:g> kan läsa alla aviseringar, inklusive personliga uppgifter som namn på kontaktpersoner och texten i mottagna meddelanden. Appen kan även skjuta upp och stänga aviseringar eller använda åtgärdsknappar i aviseringar för att t.ex. svara på telefonsamtal.
+\n
+\nAppen kan också aktivera eller inaktivera Stör ej och ändra relaterade inställningar. </string>
+    <string name="notification_listener_disable_warning_summary" msgid="8373396293802088961"> Om du inaktiverar aviseringsåtkomst för <xliff:g id="notification_listener_name">%1$s</xliff:g> kan åtkomsten till Stör ej också inaktiveras. </string>
     <string name="notification_listener_disable_warning_confirm" msgid="841492108402184976">"Inaktivera"</string>
     <string name="notification_listener_disable_warning_cancel" msgid="8802784105045594324">"Avbryt"</string>
     <string name="notification_listener_type_title" msgid="2791552789364336733">"Tillåtna aviseringstyper"</string>
@@ -3911,7 +3939,7 @@
     <string name="vr_listeners_title" msgid="4960357292472540964">"Hjälptjänster för VR"</string>
     <string name="no_vr_listeners" msgid="8442646085375949755">"Inga installerade appar har begärt att få köras som hjälptjänster för VR."</string>
     <string name="vr_listener_security_warning_title" msgid="7026351795627615177">"Vill du tillåta att tjänsten för VR får tillgång till <xliff:g id="SERVICE">%1$s</xliff:g>?"</string>
-    <string name="vr_listener_security_warning_summary" msgid="1888843557687017791">"<xliff:g id="VR_LISTENER_NAME">%1$s</xliff:g> kan köras medan du använder appar i läget för virtuell verklighet."</string>
+    <string name="vr_listener_security_warning_summary" msgid="1888843557687017791"> <xliff:g id="vr_listener_name">%1$s</xliff:g> kan köras medan du använder appar i läget för virtuell verklighet. </string>
     <string name="display_vr_pref_title" msgid="4850474436291113569">"När enheten är i VR-läge"</string>
     <string name="display_vr_pref_low_persistence" msgid="7039841277157739871">"Minska oskärpa (rekommenderas)"</string>
     <string name="display_vr_pref_off" msgid="4008841566387432721">"Minska flimmer"</string>
@@ -4129,12 +4157,12 @@
     <string name="zen_mode_end_time_next_day_summary_format" msgid="419683704068360804">"<xliff:g id="FORMATTED_TIME">%s</xliff:g> nästa dag"</string>
     <string name="zen_mode_summary_alarms_only_indefinite" msgid="910047326128154945">"Ändra till endast alarm tills vidare"</string>
     <plurals name="zen_mode_summary_alarms_only_by_minute" formatted="false" msgid="1900512966361163390">
-        <item quantity="other">Ändra till endast alarm i <xliff:g id="DURATION">%1$d</xliff:g> minuter (till och med <xliff:g id="FORMATTEDTIME_1">%2$s</xliff:g>)</item>
-        <item quantity="one">Ändra till endast alarm i en minut till och med <xliff:g id="FORMATTEDTIME_0">%2$s</xliff:g></item>
+        <item quantity="one">Ändra till endast alarm i en minut till och med <xliff:g id="formattedTime" example="10:00 PM">%2$s</xliff:g></item>
+        <item quantity="other">Ändra till endast alarm i <xliff:g id="duration" example="2">%1$d</xliff:g> minuter (till och med <xliff:g id="formattedTime" example="10:00 PM">%2$s</xliff:g>)</item>
     </plurals>
     <plurals name="zen_mode_summary_alarms_only_by_hour" formatted="false" msgid="955991428001659124">
-        <item quantity="other">Ändra till endast alarm i <xliff:g id="DURATION">%1$d</xliff:g> timmar till och med <xliff:g id="FORMATTEDTIME_1">%2$s</xliff:g></item>
-        <item quantity="one">Ändra till endast alarm i en timme till och med <xliff:g id="FORMATTEDTIME_0">%2$s</xliff:g></item>
+        <item quantity="one">Ändra till endast alarm i en timme till och med <xliff:g id="formattedTime" example="10:00 PM">%2$s</xliff:g></item>
+        <item quantity="other">Ändra till endast alarm i <xliff:g id="duration" example="2">%1$d</xliff:g>timmar till och med <xliff:g id="formattedTime" example="10:00 PM">%2$s</xliff:g></item>
     </plurals>
     <string name="zen_mode_summary_alarms_only_by_time" msgid="8140619669703968810">"Ändra till endast alarm fram till kl. <xliff:g id="FORMATTEDTIME">%1$s</xliff:g>"</string>
     <string name="zen_mode_summary_always" msgid="722093064250082317">"Ändra till avbryt alltid"</string>
@@ -4234,7 +4262,7 @@
     <string name="change_storage" msgid="8773820275624113401">"Byt lagringsplats"</string>
     <string name="notifications_label" msgid="8471624476040164538">"Aviseringar"</string>
     <string name="notifications_enabled" msgid="7743168481579361019">"På"</string>
-    <string name="notifications_enabled_with_info" msgid="1808946629277684308">"<xliff:g id="NOTIFICATIONS_SENT">%1$s</xliff:g>/<xliff:g id="NOTIFICATIONS_CATEGORIES_OFF">%2$s</xliff:g>"</string>
+    <string name="notifications_enabled_with_info" msgid="1808946629277684308"><xliff:g id="notifications_sent" example="~6 per week">%1$s</xliff:g> / <xliff:g id="notifications_categories_off" example="3 categories turned off">%2$s</xliff:g> </string>
     <string name="notifications_disabled" msgid="5603160425378437143">"Av"</string>
     <string name="notifications_partly_blocked" msgid="5738239705473445725">"<xliff:g id="COUNT_0">%1$d</xliff:g> av <xliff:g id="COUNT_1">%2$d</xliff:g> kategorier har inaktiverats"</string>
     <string name="notifications_silenced" msgid="2673798575466545098">"Utan ljud"</string>
@@ -4294,8 +4322,8 @@
     <string name="domain_urls_summary_some" msgid="1197692164421314523">"Öppna <xliff:g id="DOMAIN">%s</xliff:g> och andra webbadresser"</string>
     <string name="domain_urls_apps_summary_off" msgid="2534980824850890416">"Ingen app öppnar länkar som stöds"</string>
     <plurals name="domain_urls_apps_summary_on" formatted="false" msgid="7864816862441985323">
-        <item quantity="other">Länkar som stöds kan öppnas av <xliff:g id="COUNT">%d</xliff:g> appar</item>
         <item quantity="one">Länkar som stöds kan öppnas av en app</item>
+        <item quantity="other">Länkar som stöds kan öppnas av <xliff:g id="count" example="10">%d</xliff:g> appar</item>
     </plurals>
     <string name="app_link_open_always" msgid="9167065494930657503">"Tillåt att länkar som stöds öppnas med appen"</string>
     <string name="app_link_open_ask" msgid="2422450109908936371">"Fråga varje gång"</string>
@@ -4343,12 +4371,12 @@
     <string name="show_all_apps" msgid="4490719452453223082">"Visa enhetsanvändning"</string>
     <string name="hide_extra_apps" msgid="7313907836289865123">"Visa appanvändning"</string>
     <plurals name="power_high_usage_summary" formatted="false" msgid="573433136005336970">
-        <item quantity="other"><xliff:g id="NUMBER">%2$d</xliff:g> appar fungerar inte normalt</item>
-        <item quantity="one"><xliff:g id="APP">%1$s</xliff:g> fungerar inte normalt</item>
+        <item quantity="one"><xliff:g id="app">%1$s</xliff:g> fungerar inte normalt</item>
+        <item quantity="other"><xliff:g id="number">%2$d</xliff:g> appar fungerar inte normalt</item>
     </plurals>
     <plurals name="power_high_usage_title" formatted="false" msgid="8013115866788425817">
+        <item quantity="one"><xliff:g id="app">%1$s</xliff:g> förbrukar batteriet</item>
         <item quantity="other">Appar förbrukar batteriet</item>
-        <item quantity="one"><xliff:g id="APP">%1$s</xliff:g> förbrukar batteriet</item>
     </plurals>
     <string name="high_power_filter_on" msgid="447849271630431531">"Inte optimerade"</string>
     <string name="high_power_on" msgid="8778058701270819268">"Inte optimerad"</string>
@@ -4356,7 +4384,9 @@
     <string name="high_power_system" msgid="3966701453644915787">"Batterioptimering är inte tillgängligt"</string>
     <string name="high_power_desc" msgid="2753076899835765338">"Använd inte batterioptimering. Med detta alternativ kan batteriet kan ta slut fortare."</string>
     <string name="high_power_prompt_title" msgid="2574478825228409124">"Vill du tillåta att appen alltid körs i bakgrunden?"</string>
-    <string name="high_power_prompt_body" msgid="6460557929559616041">"Om du tillåter att <xliff:g id="APP_NAME">%1$s</xliff:g> alltid körs i bakgrunden kan batteritiden minska. \n\nDu kan ändra detta senare under Inställningar &gt; Appar och aviseringar."</string>
+    <string name="high_power_prompt_body" msgid="6460557929559616041"> Om du tillåter att <xliff:g id="app_name" example="Settings">%1$s</xliff:g> alltid körs i bakgrunden kan batteritiden minska.
+\n
+\nDu kan ändra detta senare under Inställningar &gt; Appar och aviseringar.</string>
     <string name="battery_summary" msgid="2491764359695671207">"<xliff:g id="PERCENTAGE">%1$s</xliff:g> förbrukat sedan batteriet senast laddats fullt"</string>
     <string name="battery_summary_24hr" msgid="7656033283282656551">"<xliff:g id="PERCENTAGE">%1$s</xliff:g> användning under de senaste 24 timmarna"</string>
     <string name="no_battery_summary" msgid="5769159953384122003">"Har inte förbrukat något batteri sedan batteriet senast var fulladdat"</string>
@@ -4429,8 +4459,8 @@
     <string name="free_memory" msgid="439783742246854785">"Ledigt"</string>
     <string name="memory_usage_apps" msgid="5776108502569850579">"Minne som används av appar"</string>
     <plurals name="memory_usage_apps_summary" formatted="false" msgid="1355637088533572208">
-        <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> appar har använt minne under <xliff:g id="DURATION_1">%2$s</xliff:g></item>
-        <item quantity="one">1 app har använt minne under <xliff:g id="DURATION_0">%2$s</xliff:g></item>
+        <item quantity="one">1 app har använt minne under <xliff:g id="duration" example="3 hours">%2$s</xliff:g></item>
+        <item quantity="other"><xliff:g id="count" example="10">%1$d</xliff:g> appar har använt minne under <xliff:g id="duration" example="3 hours">%2$s</xliff:g></item>
     </plurals>
     <string name="running_frequency" msgid="7260225121706316639">"Frekvens"</string>
     <string name="memory_maximum_usage" msgid="2047013391595835607">"Maximal användning"</string>
@@ -4507,8 +4537,8 @@
     <string name="data_usage_summary_format" msgid="6844301859713164522">"<xliff:g id="AMOUNT">%1$s</xliff:g> data används"</string>
     <string name="data_usage_wifi_format" msgid="7644390582649568117">"<xliff:g id="AMOUNT">^1</xliff:g> används via Wi‑Fi"</string>
     <plurals name="notification_summary" formatted="false" msgid="7638388920823212470">
-        <item quantity="other">Inaktiverat för <xliff:g id="COUNT">%d</xliff:g> appar</item>
         <item quantity="one">Inaktiverat för 1 app</item>
+        <item quantity="other">Inaktiverat för <xliff:g id="count" example="10">%d</xliff:g> appar</item>
     </plurals>
     <string name="notification_summary_none" msgid="9179312319023988089">"Aktiverat för alla appar"</string>
     <string name="apps_summary" msgid="4007416751775414252">"<xliff:g id="COUNT">%1$d</xliff:g> appar har installerats"</string>
@@ -4575,12 +4605,12 @@
     <string name="suggestions_summary" msgid="1709710458908440469">"+<xliff:g id="ID_1">%1$d</xliff:g>"</string>
     <string name="suggestions_more_title" msgid="240124526378997009">"+<xliff:g id="ID_1">%1$d</xliff:g> till"</string>
     <plurals name="suggestions_collapsed_title" formatted="false" msgid="5023679825210836444">
-        <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> förslag</item>
         <item quantity="one">1 förslag</item>
+        <item quantity="other"><xliff:g id="count" example="10">%1$d</xliff:g> förslag</item>
     </plurals>
     <plurals name="suggestions_collapsed_summary" formatted="false" msgid="3789011332018516832">
-        <item quantity="other">+<xliff:g id="COUNT">%1$d</xliff:g> förslag</item>
         <item quantity="one">+1 förslag</item>
+        <item quantity="other">+<xliff:g id="count" example="10">%1$d</xliff:g> förslag</item>
     </plurals>
     <string name="suggestion_remove" msgid="6753986344585367776">"Ta bort"</string>
     <string name="color_temperature" msgid="8256912135746305176">"Sval färgtemperatur"</string>
@@ -4608,8 +4638,8 @@
     <string name="billing_cycle_fragment_summary" msgid="6346655500491631357">"Den <xliff:g id="ID_1">%1$s</xliff:g> varje månad"</string>
     <string name="network_restrictions" msgid="8385824604048229846">"Nätverksbegränsningar"</string>
     <plurals name="network_restrictions_summary" formatted="false" msgid="3875128958788008975">
-        <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> begränsningar</item>
         <item quantity="one">1 begränsning</item>
+        <item quantity="other"><xliff:g id="count" example="10">%1$d</xliff:g> begränsningar</item>
     </plurals>
     <string name="operator_warning" msgid="5672761970087591211">"Operatörens dataredovisning kan skilja sig från enhetens dataredovisning."</string>
     <string name="non_carrier_data_usage_warning" msgid="4707184871368847697">"Data som används via operatörer utesluts"</string>
@@ -4623,8 +4653,8 @@
     <string name="configure" msgid="1499586749829665889">"Konfigurera"</string>
     <string name="data_usage_other_apps" msgid="5649047093607329537">"Andra appar som är inkluderade i användningen"</string>
     <plurals name="data_saver_unrestricted_summary" formatted="false" msgid="3316296488378947221">
-        <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> appar har obegränsad dataåtkomst när Databesparing är aktiverat</item>
         <item quantity="one">1 app har obegränsad dataåtkomst när Databesparing är aktiverat</item>
+        <item quantity="other"><xliff:g id="count" example="10">%1$d</xliff:g> appar har obegränsad dataåtkomst när Databesparing är aktiverat</item>
     </plurals>
     <string name="data_usage_title" msgid="4039024073687469094">"Primär data"</string>
     <string name="data_usage_wifi_title" msgid="1060495519280456926">"Wi‑Fi-data"</string>
@@ -4708,8 +4738,8 @@
     <string name="overlay_toast_failed_to_apply" msgid="4839587811338164960">"Det gick inte att använda överlagring"</string>
     <string name="special_access" msgid="1767980727423395147">"Särskild appåtkomst"</string>
     <plurals name="special_access_summary" formatted="false" msgid="4995506406763570815">
-        <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> appar får använda obegränsad data</item>
         <item quantity="one">1 app får använda obegränsad data</item>
+        <item quantity="other"><xliff:g id="count" example="10">%d</xliff:g> appar får använda obegränsad data</item>
     </plurals>
     <string name="special_access_more" msgid="132919514147475846">"Visa mer"</string>
     <string name="confirm_convert_to_fbe_warning" msgid="3783325656948378111">"Vill du ta bort användardata och konvertera till filkryptering?"</string>
@@ -5182,10 +5212,12 @@
     <string name="mobile_network_use_sim_on" msgid="7298332437547707908">"Använd SIM-kort"</string>
     <string name="mobile_network_use_sim_off" msgid="6303281166199670639">"Av"</string>
     <string name="mobile_network_disable_sim_explanation" msgid="2851862257846773796">"Ta ut SIM-kortet om du vill inaktivera det"</string>
-    <string name="mobile_network_tap_to_activate" msgid="4139979375717958102">"Aktivera <xliff:g id="CARRIER">%1$s</xliff:g> genom att trycka"</string>
+    <string name="mobile_network_tap_to_activate" msgid="4139979375717958102"> Aktivera <xliff:g id="carrier" example="T-mobile">%1$s</xliff:g> genom att trycka </string>
     <string name="mobile_network_esim_swap_confirm_title" msgid="2762744961192218789"> Vill du byta till <xliff:g id="carrier" example="T-mobile">%1$s</xliff:g>\? </string>
-    <string name="mobile_network_esim_swap_confirm_body" msgid="8168680839542031781">"Du kan bara ha ett aktivt SIM-kort åt gången.\n\nOm du byter till <xliff:g id="CARRIER1">%1$s</xliff:g> avslutas inte tjänsten hos <xliff:g id="CARRIER2">%2$s</xliff:g>."</string>
-    <string name="mobile_network_esim_swap_confirm_ok" msgid="8695772737522378095">"Byt till <xliff:g id="CARRIER">%1$s</xliff:g>"</string>
+    <string name="mobile_network_esim_swap_confirm_body" msgid="8168680839542031781"> Du kan bara ha ett aktivt eSIM åt gången.
+\n
+\nOm du byter till <xliff:g id="carrier1" example="T-mobile">%1$s</xliff:g> avslutas inte tjänsten hos <xliff:g id="carrier2" example="Verizon">%2$s</xliff:g>. </string>
+    <string name="mobile_network_esim_swap_confirm_ok" msgid="8695772737522378095"> Byt till <xliff:g id="carrier" example="T-mobile">%1$s</xliff:g> </string>
     <string name="mobile_network_erase_sim" msgid="4629071168032714930">"Rensa SIM-kort"</string>
     <string name="mobile_network_erase_sim_error_dialog_title" msgid="6680959559589234726">"Det går inte att rensa SIM-kortet"</string>
     <string name="mobile_network_erase_sim_error_dialog_body" msgid="6401922869095572710">"Det gick inte att rensa SIM-kortet på grund av ett fel.\n\nStarta om enheten och försök igen."</string>
@@ -5268,7 +5300,7 @@
     <string name="erase_sim_fail_title" msgid="2024446702985862427">"Det gick inte att rensa SIM-kortet"</string>
     <string name="erase_sim_fail_text" msgid="7870804401227483131">"Det gick inte att rensa SIM-kortet på grund av ett fel.\n\nStarta om enheten och försök igen."</string>
     <string name="network_connection_request_dialog_title" msgid="1896186380874289434">"Anslut till enhet"</string>
-    <string name="network_connection_request_dialog_summary" msgid="7693038309792726170">"Appen <xliff:g id="APPNAME">%1$s</xliff:g> vill ansluta till enheten via ett tillfälligt wifi-nätverk"</string>
+    <string name="network_connection_request_dialog_summary" msgid="7693038309792726170"> Appen <xliff:g id="appName" example="ThirdPartyAppName">%1$s</xliff:g> vill ansluta till enheten via ett tillfälligt wifi-nätverk </string>
     <string name="network_connection_timeout_dialog_message" msgid="598509083077743772">"Inga enheter hittades. Kontrollera att enheterna är på och går att ansluta till."</string>
     <string name="network_connection_timeout_dialog_ok" msgid="6022675321823723755">"Försök igen"</string>
     <string name="network_connection_errorstate_dialog_message" msgid="3360714322047603239">"Något inträffade. Appen har avbrutit förfrågan om att välja enhet."</string>
@@ -5305,13 +5337,13 @@
     <string name="permission_bar_chart_title" msgid="2493212904955611441">"Behörighetsanvändning under de senaste 24 timmarna"</string>
     <string name="permission_bar_chart_details" msgid="5816698018592357088">"Visa alla i översikten"</string>
     <plurals name="permission_bar_chart_label" formatted="false" msgid="4853396794340896078">
-        <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> appar</item>
         <item quantity="one">1 app</item>
+        <item quantity="other"><xliff:g id="number" example="7">%s</xliff:g> appar</item>
     </plurals>
     <string name="accessibility_usage_title" msgid="9190967143518779145">"Tillgänglighetsanvändning"</string>
     <plurals name="accessibility_usage_summary" formatted="false" msgid="6910643986958263005">
-        <item quantity="other"><xliff:g id="SERVICE_COUNT">%1$d</xliff:g> appar har fullständig åtkomst till din enhet</item>
         <item quantity="one">1 app har fullständig åtkomst till din enhet</item>
+        <item quantity="other"><xliff:g id="service_count">%1$d</xliff:g> appar har fullständig åtkomst till din enhet</item>
     </plurals>
     <string name="media_output_panel_title" msgid="5920946795078065159">"Utdata som styrs med reglaget"</string>
     <string name="media_output_panel_summary_of_playing_device" msgid="6998758947764222915">"Spelas upp nu på <xliff:g id="DEVICE_NAME">%1$s</xliff:g>"</string>
@@ -5522,4 +5554,13 @@
     <string name="bluetooth_connect_access_dialog_negative" msgid="4944672755226375059">"Anslut inte"</string>
     <string name="bluetooth_connect_access_dialog_positive" msgid="3630561675207269710">"Anslut"</string>
     <string name="intent_sender_data_label"><xliff:g id="data">Data:</xliff:g></string>
+    <string name="service_process_name"><xliff:g id="process">%1$s</xliff:g></string>
+    <string name="zen_mode_calls_summary_one"><xliff:g id="caller type" example="contacts">%1$s</xliff:g></string>
+    <string name="wifi_calling_roaming_mode_summary"><xliff:g id="wfc_roaming_preference" example="Wi-Fi">%1$s</xliff:g></string>
+    <string name="service_client_name"><xliff:g id="client_name">%1$s</xliff:g></string>
+    <string name="security_dashboard_summary_e">Skärmlås, appsäkerhet</string>
+    <string name="wifi_do_not_validate_eap_server_warning">Inget certifikat angivet. Din anslutning kommer inte vara privat.</string>
+    <string name="battery_saver_seekbar_title"><xliff:g id="percent">%1$s</xliff:g></string>
+    <string name="call_manager_summary"><xliff:g id="app">%1$s</xliff:g></string>
+    <string name="platform_compat_target_sdk_title">Aktiverad för targetSdkVersion &gt;= <xliff:g id="number" example="29">%d</xliff:g></string>
 </resources>
