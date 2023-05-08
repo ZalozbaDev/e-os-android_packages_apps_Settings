@@ -975,7 +975,7 @@
     <string name="wifi_dpp_share_hotspot" msgid="6186452780604755316">"Dela surfzon"</string>
     <string name="wifi_dpp_lockscreen_title" msgid="5246641326066972419">"Verifiera din identitet"</string>
     <string name="wifi_dpp_wifi_password" msgid="4992986319806934381">Wi-Fi-lösenord: <xliff:g id="password" example="my password">%1$s</xliff:g></string>
-    <string name="wifi_dpp_hotspot_password" msgid="688464342650820420">"Lösenord till surfzon: <xliff:g id="PASSWORD">%1$s</xliff:g>"</string>
+    <string name="wifi_dpp_hotspot_password" msgid="688464342650820420">Lösenord till surfzon: <xliff:g id="password" example="my password">%1$s</xliff:g></string>
     <string name="wifi_dpp_add_device" msgid="8695656122114721335">"Lägg till enhet"</string>
     <string name="wifi_dpp_connect_network_using_qr_code" msgid="6975258007798254937">"Lägg till en enhet på nätverket med hjälp av en QR-kod"</string>
     <string name="retry" msgid="7542103800274026915">"Försök igen"</string>
@@ -1122,7 +1122,7 @@
     <string name="wifi_calling_mode_wifi_preferred_summary" msgid="3240387177966098351">"Använd mobilnätverk om Wi‑Fi inte är tillgängligt"</string>
     <string name="wifi_calling_mode_cellular_preferred_summary" msgid="3746914244902314059">"Använd Wi‑Fi om mobilnätverket inte är tillgängligt"</string>
     <string name="wifi_calling_mode_wifi_only_summary" msgid="3155660680014892641">"Ring via Wi‑Fi. Samtalet avslutas om Wi-Fi-anslutningen Wi-Fi bryts."</string>
-    <string name="wifi_calling_off_explanation" msgid="6295526820826322895">"När Wi-Fi-samtal har aktiverats kan mobilen dirigera samtal via Wi-Fi-nätverk eller operatörens nätverk, beroende på dina inställningar och vilken signal som är starkast. Innan du aktiverar funktionen frågar du operatören om eventuella avgifter och annan information.<xliff:g id="ADDITIONAL_TEXT">%1$s</xliff:g>"</string>
+    <string name="wifi_calling_off_explanation" msgid="6295526820826322895">När wifi-samtal har aktiverats kan telefonen dirigera samtal via wifi-nätverk eller operatörens nätverk, beroende på dina inställningar och vilken signal som är starkast. Innan du aktiverar funktionen frågar du operatören om eventuella avgifter och annan information.<xliff:g id="additional_text" example="Learn More">%1$s</xliff:g></string>
     <string name="emergency_address_title" msgid="3490633500025717573">"Adress för nödfall"</string>
     <string name="emergency_address_summary" msgid="3022628750270626473">"Används som din plats om du ringer nödsamtal via Wi‑Fi"</string>
     <string name="private_dns_help_message" msgid="851221502063782306"><annotation id="url">"Läs mer"</annotation>" om privata DNS-funktioner"</string>
@@ -1176,10 +1176,10 @@
     <string name="dock_sounds_enable_summary_off" product="tablet" msgid="7833926726878567889">"Spela inte upp ljud när surfplattan placeras i eller tas bort från dockningsstation"</string>
     <string name="dock_sounds_enable_summary_off" product="default" msgid="5560601997128422001">"Spela inte upp ljud när telefonen placeras i eller tas bort från dockningsstation"</string>
     <string name="account_settings" msgid="255404935489127404">"Konton"</string>
-    <string name="accessibility_category_work" msgid="5133894487353964944">"Jobbprofilkonton – <xliff:g id="MANAGED_BY">%s</xliff:g>"</string>
+    <string name="accessibility_category_work" msgid="5133894487353964944">Jobbprofilkonton – <xliff:g id="managed_by" example="Managed by Corporate application">%s</xliff:g></string>
     <string name="accessibility_category_personal" msgid="2228088849803484780">"Personliga profilkonton"</string>
-    <string name="accessibility_work_account_title" msgid="7622485151217943839">"Jobbkonto – <xliff:g id="MANAGED_BY">%s</xliff:g>"</string>
-    <string name="accessibility_personal_account_title" msgid="8535265881509557013">"Personligt konto – <xliff:g id="MANAGED_BY">%s</xliff:g>"</string>
+    <string name="accessibility_work_account_title" msgid="7622485151217943839">Jobbkonto – <xliff:g id="managed_by" example="Email provider">%s</xliff:g></string>
+    <string name="accessibility_personal_account_title" msgid="8535265881509557013">Personligt konto – <xliff:g id="managed_by" example="Email provider">%s</xliff:g></string>
     <string name="search_settings" msgid="7573686516434589771">"Sök"</string>
     <string name="display_settings" msgid="7197750639709493852">"Skärm"</string>
     <string name="accelerometer_title" msgid="7745991950833748909">"Rotera skärmen automatiskt"</string>
@@ -1238,18 +1238,18 @@
     <string name="night_display_temperature_title" msgid="857248782470764263">"Intensitet"</string>
     <string name="night_display_summary_off" msgid="4676320734342206009">"Av/<xliff:g id="ID_1">%1$s</xliff:g>"</string>
     <string name="night_display_summary_off_auto_mode_never" msgid="7406899634169354142">"Aktiveras aldrig automatiskt"</string>
-    <string name="night_display_summary_off_auto_mode_custom" msgid="6667008039080687931">"Aktiveras automatiskt kl. <xliff:g id="ID_1">%1$s</xliff:g>"</string>
+    <string name="night_display_summary_off_auto_mode_custom" msgid="6667008039080687931">Aktiveras automatiskt kl. <xliff:g name="time" example="6 AM">%1$s</xliff:g></string>
     <string name="night_display_summary_off_auto_mode_twilight" msgid="3669132200611324994">"Aktiveras automatiskt när solen går ned"</string>
     <string name="night_display_summary_on" msgid="8932395375143965229">"På/<xliff:g id="ID_1">%1$s</xliff:g>"</string>
     <string name="night_display_summary_on_auto_mode_never" msgid="832333009202889350">"Inaktiveras aldrig automatiskt"</string>
-    <string name="night_display_summary_on_auto_mode_custom" msgid="2096677025343425755">"Inaktiveras automatiskt kl. <xliff:g id="ID_1">%1$s</xliff:g>"</string>
+    <string name="night_display_summary_on_auto_mode_custom" msgid="2096677025343425755">Inaktiveras automatiskt kl. <xliff:g name="time" example="10 PM">%1$s</xliff:g></string>
     <string name="night_display_summary_on_auto_mode_twilight" msgid="8070517472000680361">"Inaktiveras automatiskt när solen går upp"</string>
     <string name="night_display_activation_on_manual" msgid="7999294858026069365">"Aktivera nu"</string>
     <string name="night_display_activation_off_manual" msgid="4842907786868153218">"Inaktivera nu"</string>
     <string name="night_display_activation_on_twilight" msgid="3440889451767582067">"Aktivera till soluppgången"</string>
     <string name="night_display_activation_off_twilight" msgid="2853594955401726956">"Inaktivera till solnedgången"</string>
-    <string name="night_display_activation_on_custom" msgid="4951143503599226846">"Aktivera till <xliff:g id="ID_1">%1$s</xliff:g>"</string>
-    <string name="night_display_activation_off_custom" msgid="79965738861100371">"Inaktivera till <xliff:g id="ID_1">%1$s</xliff:g>"</string>
+    <string name="night_display_activation_on_custom" msgid="4951143503599226846">Aktivera till <xliff:g name="time" example="6 AM">%1$s</xliff:g></string>
+    <string name="night_display_activation_off_custom" msgid="79965738861100371">Inaktivera till <xliff:g name="time" example="10 PM">%1$s</xliff:g></string>
     <string name="night_display_not_currently_on" msgid="6600205753103093827">"Nattljus är av"</string>
     <string name="dark_ui_activation_on_manual" msgid="1541006734577325234">"Aktivera nu"</string>
     <string name="dark_ui_activation_off_manual" msgid="2395333709291250065">"Inaktivera nu"</string>
@@ -1460,24 +1460,44 @@
     <string name="storage_internal_title" msgid="3265098802217660829">"Lagring på enhet"</string>
     <string name="storage_external_title" msgid="8984075540312137135">"Bärbar lagringsenhet"</string>
     <string name="storage_volume_summary" msgid="7087627975196777994">"<xliff:g id="USED">%1$s</xliff:g> av <xliff:g id="TOTAL">%2$s</xliff:g> används"</string>
-    <string name="storage_size_large" msgid="1155308277890194878">"<xliff:g id="NUMBER">^1</xliff:g>"<small><small>" <xliff:g id="UNIT">^2</xliff:g>"</small></small>""</string>
-    <string name="storage_volume_used" msgid="5031288167242496837">"av <xliff:g id="TOTAL">%1$s</xliff:g> används"</string>
+    <string name="storage_size_large" msgid="1155308277890194878"><xliff:g id="number" example="128">^1</xliff:g><small><small> <xliff:g id="unit" example="KB">^2</xliff:g></small></small></string>
+    <string name="storage_volume_used" msgid="5031288167242496837">av <xliff:g id="total" example="32GB">%1$s</xliff:g> används</string>
     <string name="storage_volume_used_total" msgid="283558499413754323">"används totalt av <xliff:g id="TOTAL">%1$s</xliff:g>"</string>
-    <string name="storage_mount_success" msgid="393972242641313135">"<xliff:g id="NAME">%1$s</xliff:g> har monterats"</string>
-    <string name="storage_mount_failure" msgid="3667915814876418011">"Det gick inte att montera <xliff:g id="NAME">%1$s</xliff:g>"</string>
-    <string name="storage_unmount_success" msgid="6406298575402936148">"<xliff:g id="NAME">%1$s</xliff:g> har matats ut på ett säkert sätt"</string>
-    <string name="storage_unmount_failure" msgid="3796912279003790607">"Det gick inte att mata ut <xliff:g id="NAME">%1$s</xliff:g> på ett säkert sätt"</string>
-    <string name="storage_format_success" msgid="3028114521294256851">"<xliff:g id="NAME">%1$s</xliff:g> har formaterats"</string>
-    <string name="storage_format_failure" msgid="2042691589726261987">"Det gick inte att formatera <xliff:g id="NAME">%1$s</xliff:g>"</string>
+    <string name="storage_mount_success" msgid="393972242641313135"><xliff:g id="name" example="SD card">%1$s</xliff:g> har monterats</string>
+    <string name="storage_mount_failure" msgid="3667915814876418011">Det gick inte att montera <xliff:g id="name" example="SD card">%1$s</xliff:g></string>
+    <string name="storage_unmount_success" msgid="6406298575402936148"><xliff:g id="name" example="SD card">%1$s</xliff:g> har matats ut på ett säkert sätt</string>
+    <string name="storage_unmount_failure" msgid="3796912279003790607">Det gick inte att mata ut <xliff:g id="name" example="SD card">%1$s</xliff:g> på ett säkert sätt</string>
+    <string name="storage_format_success" msgid="3028114521294256851"><xliff:g id="name" example="SD card">%1$s</xliff:g> har formaterats</string>
+    <string name="storage_format_failure" msgid="2042691589726261987">Det gick inte att formatera <xliff:g id="name" example="SD card">%1$s</xliff:g></string>
     <string name="storage_rename_title" msgid="5911285992205282312">"Byt namn på lagringsutrymmet"</string>
-    <string name="storage_dialog_unmounted" msgid="1187960789775910051">"<xliff:g id="NAME_0">^1</xliff:g> har matats ut på ett säkert sätt men är fortfarande tillgängligt. \n\nOm du vill använda <xliff:g id="NAME_1">^1</xliff:g> måste du montera den först."</string>
-    <string name="storage_dialog_unmountable" msgid="1761107904296941687">"<xliff:g id="NAME_0">^1</xliff:g> är korrupt. \n\nOm du vill använda <xliff:g id="NAME_1">^1</xliff:g> måste du konfigurera den först."</string>
+    <string name="storage_dialog_unmounted" msgid="1187960789775910051"><xliff:g id="name" example="SD card">^1</xliff:g> har matats ut på ett säkert sätt men är fortfarande tillgängligt.
+\n
+\nOm du vill använda <xliff:g id="name" example="SD card">^1</xliff:g> måste du montera den först.</string>
+    <string name="storage_dialog_unmountable" msgid="1761107904296941687"><xliff:g id="name" example="SD card">^1</xliff:g> är korrupt.
+\n
+\nOm du vill använda <xliff:g id="name" example="SD card">^1</xliff:g> måste du konfigurera den först.</string>
     <string name="storage_dialog_unsupported" msgid="7787241928013470089">"Enheten har inte stöd för <xliff:g id="NAME_0">^1</xliff:g>. \n\nOm du vill använda <xliff:g id="NAME_1">^1</xliff:g> med den här enheten måste du konfigurera den först."</string>
-    <string name="storage_internal_format_details" msgid="8922023528848861812">"Efter formateringen kan du använda ditt <xliff:g id="NAME_0">^1</xliff:g> på andra enheter. \n\nAll data på detta <xliff:g id="NAME_1">^1</xliff:g> raderas, så tänk på att säkerhetskopiera först. \n\n"<b>"Säkerhetskopiera foton och annan media"</b>" \nFlytta mediefilerna till ett annat lagringsutrymme på enheten, eller överför dem till en dator via USB-kabel. \n\n"<b>"Säkerhetskopiera appar"</b>" \nAlla appar som har lagrats på ditt <xliff:g id="NAME_6">^1</xliff:g> avinstalleras och deras data raderas. Om du vill behålla apparna flyttar du dem till ett annat lagringsutrymme på enheten."</string>
-    <string name="storage_internal_unmount_details" msgid="487689543322907311"><b>"När du matar ut ditt <xliff:g id="NAME_0">^1</xliff:g> slutar appar som har lagrats på det att fungera, och mediefiler som har lagrats blir inte tillgängliga förrän det har kopplats in igen."</b>" \n\nDitt <xliff:g id="NAME_1">^1</xliff:g> är formaterat för att endast fungera på den här enheten. Det fungerar inte på andra enheter."</string>
-    <string name="storage_internal_forget_details" msgid="5606507270046186691">"Om du vill använda de appar, foton eller data som <xliff:g id="NAME">^1</xliff:g> innehåller infogar du enheten på nytt. \n\nOm enheten inte är tillgänglig kan du i stället välja att glömma bort lagringsenheten. \n\nOm du väljer att glömma den raderas all data som enheten innehåller, vilket inte kan ångras. \n\nDu kan installera apparna på nytt senare, men den data du lagrade på enheten finns inte kvar."</string>
-    <string name="storage_internal_forget_confirm_title" msgid="379238668153099015">"Vill du glömma <xliff:g id="NAME">^1</xliff:g>?"</string>
-    <string name="storage_internal_forget_confirm" msgid="5752634604952674123">"Alla appar, alla foton och all data som har lagrats på <xliff:g id="NAME">^1</xliff:g> raderas permanent."</string>
+    <string name="storage_internal_format_details" msgid="8922023528848861812">Efter formateringen kan du använda ditt <xliff:g id="name" example="SD card">^1</xliff:g> på andra enheter.
+\n
+\nAll data på detta <xliff:g id="name" example="SD card">^1</xliff:g> raderas, så tänk på att säkerhetskopiera först.
+\n
+\n<b>Säkerhetskopiera foton och annan media</b>
+\nFlytta mediefilerna till ett annat lagringsutrymme på enheten, eller överför dem till en dator via USB-kabel.
+\n
+\n<b>Säkerhetskopiera appar</b>
+\nAlla appar som har lagrats på ditt <xliff:g id="name" example="SD card">^1</xliff:g> avinstalleras och deras data raderas. Om du vill behålla apparna flyttar du dem till ett annat lagringsutrymme på enheten.</string>
+    <string name="storage_internal_unmount_details" msgid="487689543322907311"><b>När du matar ut ditt <xliff:g id="name" example="SD card">^1</xliff:g> slutar appar som har lagrats på det att fungera, mediefiler som har lagrats blir inte tillgängliga förrän det har kopplats in igen.</b>
+\n
+\nDitt <xliff:g id="name" example="SD card">^1</xliff:g> är formaterat för att endast fungera på den här enheten. Det fungerar inte på andra enheter.</string>
+    <string name="storage_internal_forget_details" msgid="5606507270046186691">Om du vill använda de appar, foton eller data som <xliff:g id="name" example="SD card">^1</xliff:g> innehåller infogar du enheten på nytt.
+\n
+\nOm enheten inte är tillgänglig kan du i stället välja att glömma bort lagringsenheten.
+\n
+\nOm du väljer att glömma den raderas all data som enheten innehåller, vilket inte kan ångras.
+\n
+\nDu kan installera apparna på nytt senare, men den data du lagrade på enheten finns inte kvar.</string>
+    <string name="storage_internal_forget_confirm_title" msgid="379238668153099015">Vill du glömma <xliff:g id="name" example="SD card">^1</xliff:g>\?</string>
+    <string name="storage_internal_forget_confirm" msgid="5752634604952674123">Alla appar, alla foton och all data som har lagrats på <xliff:g id="name" example="SD card">^1</xliff:g> raderas permanent.</string>
     <string name="storage_detail_apps" msgid="5055911985540355324">"Appar"</string>
     <string name="storage_detail_images" msgid="6003883845718804371">"Bilder"</string>
     <string name="storage_detail_videos" msgid="9079894412680404208">"Videor"</string>
@@ -1487,9 +1507,9 @@
     <string name="storage_detail_system" msgid="3797439069473271732">"System"</string>
     <string name="storage_detail_explore" msgid="13782374784415466">"Utforska <xliff:g id="NAME">^1</xliff:g>"</string>
     <string name="storage_detail_dialog_other" msgid="3359851869961609901">"Övriga filer omfattar exempelvis delade filer som har sparats via appar, filer som har laddats ned från internet eller via Bluetooth och Android-filer. \n\nTryck på Utforska om du vill visa <xliff:g id="NAME">^1</xliff:g> synliga innehåll."</string>
-    <string name="storage_detail_dialog_system" msgid="7461009051858709479">"Systemet innehåller filer som används för att köra Android-versionen <xliff:g id="VERSION">%s</xliff:g>"</string>
+    <string name="storage_detail_dialog_system" msgid="7461009051858709479">Systemet innehåller filer som används för att köra Android-versionen <xliff:g id="version" example="8.0">%s</xliff:g></string>
     <string name="storage_detail_dialog_user" msgid="1691219071007313226">"<xliff:g id="USER_0">^1</xliff:g> kan ha sparat foton, musik, appar och annan data som tar upp <xliff:g id="SIZE">^2</xliff:g> av lagringsutrymmet. \n\nByt till <xliff:g id="USER_1">^1</xliff:g> om du vill veta mer."</string>
-    <string name="storage_wizard_init_title" msgid="9036374223934708619">"Konfigurera ditt <xliff:g id="NAME">^1</xliff:g>"</string>
+    <string name="storage_wizard_init_title" msgid="9036374223934708619">Konfigurera ditt <xliff:g id="name" example="SD card">^1</xliff:g></string>
     <string name="storage_wizard_init_external_title" msgid="6540132491909241713">"Använd som bärbar lagringsenhet"</string>
     <string name="storage_wizard_init_external_summary" msgid="5807552934494462984">"Flytta foton och annan media mellan enheter."</string>
     <string name="storage_wizard_init_internal_title" msgid="3256355049992147270">"Använd som internminne"</string>
@@ -1505,8 +1525,8 @@
 \n
 \n<b>En formatering rensar all data som finns på <xliff:g id="name" example="SD card">^1</xliff:g> för närvarande.</b> Säkerhetskopiera data som du inte vill förlora. </string>
     <string name="storage_wizard_format_confirm_next" msgid="4412063054982084056">"Radera och formatera"</string>
-    <string name="storage_wizard_format_progress_title" msgid="9170393018855949774">"Formaterar <xliff:g id="NAME">^1</xliff:g> …"</string>
-    <string name="storage_wizard_format_progress_body" msgid="1044024044955390417">"Ta inte bort <xliff:g id="NAME">^1</xliff:g> under formateringen."</string>
+    <string name="storage_wizard_format_progress_title" msgid="9170393018855949774">Formaterar <xliff:g id="name" example="SD card">^1</xliff:g>…</string>
+    <string name="storage_wizard_format_progress_body" msgid="1044024044955390417">Ta inte bort <xliff:g id="name" example="SD card">^1</xliff:g> under formateringen.</string>
     <string name="storage_wizard_migrate_title" msgid="3013711737005104623">"Flytta data till ny lagring"</string>
     <string name="storage_wizard_migrate_body" msgid="1630853797296198275">Du kan flytta foton, filer och vissa appar till <xliff:g id="name" example="SD card">^1</xliff:g>.
 \n
@@ -1514,24 +1534,24 @@
     <string name="storage_wizard_migrate_now" msgid="175023718337037181">"Flytta nu"</string>
     <string name="storage_wizard_migrate_later" msgid="6573789572520980112">"Flytta senare"</string>
     <string name="storage_wizard_migrate_confirm_title" msgid="255346780598924540">"Flytta data nu"</string>
-    <string name="storage_wizard_migrate_confirm_body" msgid="5039938578355576124"><b>"Flytten tar omkring <xliff:g id="TIME">^1</xliff:g>. <xliff:g id="SIZE">^2</xliff:g> lagringsutrymme frigörs på <xliff:g id="NAME">^3</xliff:g>."</b></string>
+    <string name="storage_wizard_migrate_confirm_body" msgid="5039938578355576124"><b>Flytten tar omkring <xliff:g id="time" example="1 hour">^1</xliff:g>. <xliff:g id="size" example="1.2 GB">^2</xliff:g> lagringsutrymme frigörs på <xliff:g id="name" example="Internal storage">^3</xliff:g>.</b></string>
     <string name="storage_wizard_migrate_confirm_next" msgid="217478540562501692">"Flytta"</string>
     <string name="storage_wizard_migrate_progress_title" msgid="462238335086734131">Flyttar data…</string>
     <string name="storage_wizard_migrate_details" msgid="7474061662976940407">Under flytten:
 \n• Ta inte bort ditt <xliff:g id="name" example="SD card">^1</xliff:g>.
 \n• Vissa appar fungerar inte som de ska.
 \n• Håll enheten laddad. </string>
-    <string name="storage_wizard_ready_title" msgid="3093468548660255543">"<xliff:g id="NAME">^1</xliff:g> är klar att användas"</string>
-    <string name="storage_wizard_ready_external_body" msgid="45040717412844114">"Ditt <xliff:g id="NAME">^1</xliff:g> är klart att använda med foton och annan media."</string>
+    <string name="storage_wizard_ready_title" msgid="3093468548660255543"><xliff:g id="name" example="SD card">^1</xliff:g> är klar att användas</string>
+    <string name="storage_wizard_ready_external_body" msgid="45040717412844114">Ditt <xliff:g id="name" example="SD card">^1</xliff:g> är klart att använda med foton och annan media.</string>
     <string name="storage_wizard_ready_internal_body" msgid="7734817996475607447">Ditt nya <xliff:g id="name" example="SD card">^1</xliff:g> fungerar.
 \n
 \nOm du vill flytta foton, filer och appdata till enheten öppnar du Inställningar &gt; Lagring. </string>
-    <string name="storage_wizard_move_confirm_title" msgid="6812469630804101590">"Flytta <xliff:g id="APP">^1</xliff:g>"</string>
+    <string name="storage_wizard_move_confirm_title" msgid="6812469630804101590">Flytta <xliff:g id="app" example="Calculator">^1</xliff:g></string>
     <string name="storage_wizard_move_confirm_body" msgid="1713022828842263574">Det tar bara några minuter att flytta <xliff:g id="app" example="Calculator">^1</xliff:g> och dess data till <xliff:g id="name" example="SD card">^2</xliff:g>. Du kan inte använda appen förrän flytten är klar.
 \n
 \nTa inte bort ditt <xliff:g id="name" example="SD card">^2</xliff:g> under flytten. </string>
-    <string name="storage_wizard_move_unlock" msgid="14651384927767749">"Du måste låsa upp användaren <xliff:g id="APP">^1</xliff:g> om du vill flytta data."</string>
-    <string name="storage_wizard_move_progress_title" msgid="3912406225614672391">"Flyttar <xliff:g id="APP">^1</xliff:g> …"</string>
+    <string name="storage_wizard_move_unlock" msgid="14651384927767749">Du måste låsa upp användaren <xliff:g id="app" example="Joey">^1</xliff:g> om du vill flytta data.</string>
+    <string name="storage_wizard_move_progress_title" msgid="3912406225614672391">Flyttar <xliff:g id="app" example="Calculator">^1</xliff:g>…</string>
     <string name="storage_wizard_move_progress_body" msgid="2396714553394935094">Ta inte bort ditt <xliff:g id="name" example="SD card">^1</xliff:g> under flytten.
 \n
 \nAppen <xliff:g id="app" example="Calculator">^2</xliff:g> på den här enheten blir inte tillgänglig förrän flytten är klar. </string>
@@ -1541,7 +1561,7 @@
 \nDu kan fortsätta, men appar som har flyttats till den här platsen kan vara ryckiga och dataöverföring kan ta lång tid.
 \n
 \nÖverväg att använda ett snabbare <xliff:g id="name" example="SD card">^1</xliff:g> för bättre prestanda. </string>
-    <string name="storage_wizard_init_v2_title" msgid="2538630338392381113">"Hur ska du använda <xliff:g id="NAME">^1</xliff:g>?"</string>
+    <string name="storage_wizard_init_v2_title" msgid="2538630338392381113">Hur ska du använda <xliff:g id="name" example="SD card">^1</xliff:g>\?</string>
     <string name="storage_wizard_init_v2_internal_title" product="tablet" msgid="1884468440013151482">"Använd för mer surfplattelagring"</string>
     <string name="storage_wizard_init_v2_internal_summary" product="tablet" msgid="2907833056467441047">"För appar, filer och media enbart på den här surfplattan"</string>
     <string name="storage_wizard_init_v2_internal_action" product="tablet" msgid="3278694259614995649">"Surfplattans lagringsutrymme"</string>
@@ -1553,27 +1573,37 @@
     <string name="storage_wizard_init_v2_external_summary" msgid="6436419488235871823">"För överföring av filer och media mellan enheter"</string>
     <string name="storage_wizard_init_v2_external_action" msgid="781928899530539860">"Bärbar lagringsenhet"</string>
     <string name="storage_wizard_init_v2_later" msgid="5366815913892609285">"Konfigurera senare"</string>
-    <string name="storage_wizard_format_confirm_v2_title" msgid="6294104100437326067">"Vill du formatera <xliff:g id="NAME">^1</xliff:g>?"</string>
-    <string name="storage_wizard_format_confirm_v2_body" msgid="635958708974709506">"Detta <xliff:g id="NAME_0">^1</xliff:g> måste formateras för att lagra appar, filer och media. \n\nFormateringen raderar allt innehåll på <xliff:g id="NAME_1">^2</xliff:g>. Säkerhetskopiera allt innehåll du inte vill förlora till ett annat <xliff:g id="NAME_2">^3</xliff:g> eller en enhet."</string>
-    <string name="storage_wizard_format_confirm_v2_action" msgid="5718254101386377126">"Formatera <xliff:g id="NAME">^1</xliff:g>"</string>
-    <string name="storage_wizard_migrate_v2_title" msgid="3471564531564756698">"Vill du flytta innehåll till <xliff:g id="NAME">^1</xliff:g>?"</string>
+    <string name="storage_wizard_format_confirm_v2_title" msgid="6294104100437326067">Vill du formatera <xliff:g id="name" example="SD card">^1</xliff:g>\?</string>
+    <string name="storage_wizard_format_confirm_v2_body" msgid="635958708974709506">Detta <xliff:g id="name" example="SanDisk SD card">^1</xliff:g> måste formateras för att lagra appar, filer och media.
+\n
+\nFormateringen raderar allt innehåll på <xliff:g id="name" example="SD card">^2</xliff:g>. Säkerhetskopiera allt innehåll du inte vill förlora till ett annat <xliff:g id="name" example="SD card">^3</xliff:g> eller en enhet.</string>
+    <string name="storage_wizard_format_confirm_v2_action" msgid="5718254101386377126">Formatera <xliff:g id="name" example="SD card">^1</xliff:g></string>
+    <string name="storage_wizard_migrate_v2_title" msgid="3471564531564756698">Vill du flytta innehåll till <xliff:g id="name" example="SD card">^1</xliff:g>\?</string>
     <string name="storage_wizard_migrate_v2_body" product="tablet" msgid="4541523202790415721">"Du kan flytta filer, media och vissa appar till <xliff:g id="NAME">^1</xliff:g>. \n\nDetta frigör <xliff:g id="SIZE">^2</xliff:g> av surfplattans lagringsutrymme och det tar ungefär <xliff:g id="DURATION">^3</xliff:g>."</string>
-    <string name="storage_wizard_migrate_v2_body" product="default" msgid="809730501314645325">"Du kan flytta filer, media och vissa appar till <xliff:g id="NAME">^1</xliff:g>. \n\nOm du flyttar data frigörs <xliff:g id="SIZE">^2</xliff:g> av mobilens lagringsutrymme och det tar ungefär <xliff:g id="DURATION">^3</xliff:g>."</string>
+    <string name="storage_wizard_migrate_v2_body" product="default" msgid="809730501314645325">Du kan flytta filer, media och vissa appar till <xliff:g id="name" example="SanDisk SD card">^1</xliff:g>.
+\n
+\nOm du flyttar data frigörs <xliff:g id="size" example="3 GB">^2</xliff:g> av mobilens lagringsutrymme och det tar ungefär <xliff:g id="duration" example="3 minutes">^3</xliff:g>.</string>
     <string name="storage_wizard_migrate_v2_checklist" msgid="2618258869444553060">Under flytten:</string>
-    <string name="storage_wizard_migrate_v2_checklist_media" msgid="5867134681730723744">"ska du inte ta bort <xliff:g id="NAME">^1</xliff:g>"</string>
+    <string name="storage_wizard_migrate_v2_checklist_media" msgid="5867134681730723744">Ta inte bort <xliff:g id="name" example="SD card">^1</xliff:g></string>
     <string name="storage_wizard_migrate_v2_checklist_apps" msgid="1882077445750580783">"fungerar inte vissa appar"</string>
     <string name="storage_wizard_migrate_v2_checklist_battery" product="tablet" msgid="6111770421449869539">"ska surfplattan ska hållas laddad"</string>
     <string name="storage_wizard_migrate_v2_checklist_battery" product="default" msgid="8826915870192535008">"ska mobilen hållas laddad"</string>
     <string name="storage_wizard_migrate_v2_now" msgid="3341460117088026966">"Flytta innehåll"</string>
     <string name="storage_wizard_migrate_v2_later" msgid="6067756122853315642">"Flytta innehåll senare"</string>
     <string name="storage_wizard_migrate_progress_v2_title" msgid="8791318509516968103">"Flyttar innehåll …"</string>
-    <string name="storage_wizard_slow_v2_title" msgid="3760766921170980221">"<xliff:g id="NAME">^1</xliff:g> är långsam"</string>
-    <string name="storage_wizard_slow_v2_body" msgid="7604252106419016929">"Du kan fortfarande använda <xliff:g id="NAME_0">^1</xliff:g>, men det kan gå långsamt. \n\nAppar som sparas på <xliff:g id="NAME_1">^2</xliff:g> kanske inte fungerar korrekt och innehållsöverföringar kan ta lång tid. \n\nTesta att använda en snabbare version av <xliff:g id="NAME_2">^3</xliff:g>, eller använd <xliff:g id="NAME_3">^4</xliff:g> för bärbar lagring i stället."</string>
+    <string name="storage_wizard_slow_v2_title" msgid="3760766921170980221"><xliff:g id="name" example="SD card">^1</xliff:g> är långsam</string>
+    <string name="storage_wizard_slow_v2_body" msgid="7604252106419016929">Du kan fortfarande använda <xliff:g id="name" example="SanDisk SD card">^1</xliff:g>, men det kan gå långsamt.
+\n
+\nAppar som sparas på <xliff:g id="name" example="SD card">^2</xliff:g> kanske inte fungerar korrekt och innehållsöverföringar kan ta lång tid.
+\n
+\nTesta att använda en snabbare version av <xliff:g id="name" example="SD card">^3</xliff:g> eller använd <xliff:g id="name" example="SD card">^4</xliff:g> för bärbar lagring i stället.</string>
     <string name="storage_wizard_slow_v2_start_over" msgid="1806852287668077536">"Börja om"</string>
     <string name="storage_wizard_slow_v2_continue" msgid="7469713755893007901">"Fortsätt"</string>
-    <string name="storage_wizard_ready_v2_external_body" msgid="3896836008684280905">"Du kan flytta innehåll till <xliff:g id="NAME">^1</xliff:g>"</string>
-    <string name="storage_wizard_ready_v2_internal_body" msgid="5710665992219332454">"Flytta innehåll till <xliff:g id="NAME">^1</xliff:g> i "<b>"Inställningar &gt; Lagring"</b></string>
-    <string name="storage_wizard_ready_v2_internal_moved_body" msgid="1269878056598666852">"Innehållet flyttades till <xliff:g id="NAME_0">^1</xliff:g>. \n\nOm du vill hantera <xliff:g id="NAME_1">^2</xliff:g> öppnar du "<b>"Inställningar &gt; Lagring"</b>"."</string>
+    <string name="storage_wizard_ready_v2_external_body" msgid="3896836008684280905">Du kan flytta innehåll till <xliff:g id="name" example="SanDisk SD card">^1</xliff:g></string>
+    <string name="storage_wizard_ready_v2_internal_body" msgid="5710665992219332454">Flytta innehåll till <xliff:g id="name" example="SanDisk SD card">^1</xliff:g> i <b>Inställningar &gt; Lagring</b></string>
+    <string name="storage_wizard_ready_v2_internal_moved_body" msgid="1269878056598666852">Innehållet flyttades till <xliff:g id="name" example="SanDisk SD card">^1</xliff:g>.
+\n
+\nOm du vill hantera <xliff:g id="name" example="SD card">^2</xliff:g> öppnar du <b>Inställningar &gt; Lagring</b>.</string>
     <string name="battery_status_title" msgid="4661768220545945771">"Batteristatus"</string>
     <string name="battery_level_title" msgid="1371765298786083448">"Batterinivå"</string>
     <string name="apn_settings" msgid="4295467389400441299">"APN:er"</string>
@@ -2118,8 +2148,8 @@
     <string name="accessibility_tutorial_dialog_message_gesture_settings_without_talkback" msgid="8744979550867005938">"Aktivera och inaktivera tillgänglighetstjänster genom att svepa uppåt med två fingrar från skärmens nederkant.\n\nByt mellan tjänster genom att svepa uppåt med två fingrar och hålla kvar dem."</string>
     <string name="accessibility_tutorial_dialog_message_gesture_settings_with_talkback" msgid="9124610711696596426">"Aktivera och inaktivera tillgänglighetstjänster genom att svepa uppåt med tre fingrar från skärmens nederkant.\n\nByt mellan tjänster genom att svepa uppåt med tre fingrar och hålla kvar dem."</string>
     <string name="accessibility_tutorial_dialog_button" msgid="2031773187678948436">"OK"</string>
-    <string name="accessibility_screen_magnification_navbar_configuration_warning" msgid="266736851606791552">"<xliff:g id="SERVICE">%1$s</xliff:g> har angetts för tillgänglighetsknappen. Om du vill använda förstoring trycker du länge på tillgänglighetsknappen och väljer förstoring."</string>
-    <string name="accessibility_screen_magnification_gesture_navigation_warning" msgid="991017769735632046">"Tillgänglighetsrörelsen är inställd på <xliff:g id="SERVICE">%1$s</xliff:g>. Om du vill använda förstoring sveper du uppåt med två fingrar från skärmens nederkant och håller kvar fingret. Välj sedan Förstoring."</string>
+    <string name="accessibility_screen_magnification_navbar_configuration_warning" msgid="266736851606791552"><xliff:g id="service" example="Select to Speak">%1$s</xliff:g> har angetts för tillgänglighetsknappen. Om du vill använda förstoring trycker du länge på tillgänglighetsknappen och väljer förstoring.</string>
+    <string name="accessibility_screen_magnification_gesture_navigation_warning" msgid="991017769735632046">Tillgänglighetsrörelsen är inställd på <xliff:g id="service" example="Select to Speak">%1$s</xliff:g>. Om du vill använda förstoring sveper du uppåt med två fingrar från skärmens nederkant och håller kvar fingret. Välj sedan Förstoring.</string>
     <string name="accessibility_global_gesture_preference_title" msgid="3713636732641882959">"Kortkommando för volymknapp"</string>
     <string name="accessibility_shortcut_service_title" msgid="6842883700702723355">"Tjänst för kortkommando"</string>
     <string name="accessibility_shortcut_service_on_lock_screen_title" msgid="5918442016264847021">"Tillåt på låsskärmen"</string>
@@ -2194,7 +2224,7 @@
         <item quantity="other">Mycket lång fördröjning (<xliff:g id="CLICK_DELAY_LABEL_1">%1$d</xliff:g> ms)</item>
         <item quantity="one">Mycket lång fördröjning (<xliff:g id="CLICK_DELAY_LABEL_0">%1$d</xliff:g> ms)</item>
     </plurals>
-    <string name="accessibility_vibration_summary" msgid="27904038683405084">"Ringsignal <xliff:g id="SUMMARY_RING">%1$s</xliff:g>, avisering <xliff:g id="SUMMARY_NOTIFICATION">%2$s</xliff:g>, tryck <xliff:g id="SUMMARY_TOUCH">%3$s</xliff:g>"</string>
+    <string name="accessibility_vibration_summary" msgid="27904038683405084">Ringsignal <xliff:g id="summary_ring" example="Medium">%1$s</xliff:g>, avisering <xliff:g id="summary_notification" example="Low">%2$s</xliff:g>, tryck <xliff:g id="summary_touch" example="High">%3$s</xliff:g></string>
     <string name="accessibility_vibration_summary_off" msgid="7776105450117095736">"Vibrationer har inaktiverats för samtal och aviseringar"</string>
     <string name="accessibility_vibration_summary_low" msgid="6482721005400340317">"Svag vibration har angetts för samtal och aviseringar"</string>
     <string name="accessibility_vibration_summary_medium" msgid="2348889320548746469">"Medium vibration har angetts för samtal och aviseringar"</string>
@@ -2236,10 +2266,10 @@
     <string name="color_cyan" msgid="4341758639597035927">"Cyan"</string>
     <string name="color_yellow" msgid="5957551912912679058">"Gul"</string>
     <string name="color_magenta" msgid="8943538189219528423">"Magenta"</string>
-    <string name="enable_service_title" msgid="7231533866953706788">"Vill du tillåta att <xliff:g id="SERVICE">%1$s</xliff:g> har fullständig kontroll över enheten?"</string>
-    <string name="capabilities_list_title" msgid="1225853611983394386">"<xliff:g id="SERVICE">%1$s</xliff:g> behöver:"</string>
+    <string name="enable_service_title" msgid="7231533866953706788">Vill du tillåta att <xliff:g id="service" example="TalkBack">%1$s</xliff:g> har fullständig kontroll över enheten\?</string>
+    <string name="capabilities_list_title" msgid="1225853611983394386"><xliff:g id="service" example="TalkBack">%1$s</xliff:g> behöver:</string>
     <string name="touch_filtered_warning" msgid="4225815157460318241">"Svaret kan inte verifieras av Inställningar, eftersom en app skymmer en begäran om behörighet."</string>
-    <string name="enable_service_encryption_warning" msgid="931082737770453755">"Om du aktiverar <xliff:g id="SERVICE">%1$s</xliff:g> används inte skärmlåset för att förbättra datakryptering på enheten."</string>
+    <string name="enable_service_encryption_warning" msgid="931082737770453755">Om du aktiverar <xliff:g id="service" example="TalkBack">%1$s</xliff:g> används inte skärmlåset för att förbättra datakryptering på enheten.</string>
     <string name="secure_lock_encryption_warning" msgid="669152607190123579">"Eftersom du har aktiverat en tillgänglighetstjänst används inte skärmlåset för att förbättra datakryptering på enheten."</string>
     <string name="enable_service_pattern_reason" msgid="6832846117817938536">Eftersom datakrypteringen påverkas om du aktiverar <xliff:g id="service" example="TalkBack">%1$s</xliff:g> måste du bekräfta ditt grafiska lösenord. </string>
     <string name="enable_service_pin_reason" msgid="6040417014360237703">Eftersom datakrypteringen påverkas om du aktiverar <xliff:g id="service" example="TalkBack">%1$s</xliff:g> måste du bekräfta din pinkod. </string>
@@ -2254,8 +2284,8 @@
     <string name="accessibility_dialog_button_deny" msgid="2037249860078259284">"Neka"</string>
     <string name="accessibility_dialog_button_stop" msgid="7295448112784528196">"Stoppa"</string>
     <string name="accessibility_dialog_button_cancel" msgid="4813234247237851121">"Avbryt"</string>
-    <string name="disable_service_title" msgid="2909108731776956167">"Vill du avbryta <xliff:g id="SERVICE">%1$s</xliff:g>?"</string>
-    <string name="disable_service_message" msgid="4814173941688548016">"Om du trycker på <xliff:g id="STOP">%1$s</xliff:g> stoppas <xliff:g id="SERVICE">%2$s</xliff:g>."</string>
+    <string name="disable_service_title" msgid="2909108731776956167">Vill du avbryta <xliff:g id="service" example="TalkBack">%1$s</xliff:g>\?</string>
+    <string name="disable_service_message" msgid="4814173941688548016">Om du trycker på &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" id=\"stop\" example=\"Stop\"&gt;%1$s&lt;/xliff:g&gt; stoppas &lt;&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" id=\"service\" example=\"TalkBack\"&gt;%2$s&lt;/xliff:g&gt;.</string>
     <string name="accessibility_no_services_installed" msgid="3725569493860028593">"Inga tjänster är installerade"</string>
     <string name="accessibility_no_service_selected" msgid="1310596127128379897">"Ingen tjänst har valts"</string>
     <string name="accessibility_service_default_description" msgid="7801435825448138526">"Ingen beskrivning har angetts."</string>
@@ -2287,11 +2317,11 @@
     <string name="print_restart" msgid="4424096106141083945">"Starta om"</string>
     <string name="print_cancel" msgid="7611266511967568501">"Avbryt"</string>
     <string name="print_job_summary" msgid="277210060872032969">"<xliff:g id="PRINTER">%1$s</xliff:g>\n<xliff:g id="TIME">%2$s</xliff:g>"</string>
-    <string name="print_configuring_state_title_template" msgid="2887013172492183045">"<xliff:g id="PRINT_JOB_NAME">%1$s</xliff:g> konfigureras"</string>
-    <string name="print_printing_state_title_template" msgid="7367513245156603431">"Skriver ut <xliff:g id="PRINT_JOB_NAME">%1$s</xliff:g>"</string>
-    <string name="print_cancelling_state_title_template" msgid="9094795458159980190">"Avbryter <xliff:g id="PRINT_JOB_NAME">%1$s</xliff:g>"</string>
-    <string name="print_failed_state_title_template" msgid="4751695809935404505">"Skrivarfel för <xliff:g id="PRINT_JOB_NAME">%1$s</xliff:g>"</string>
-    <string name="print_blocked_state_title_template" msgid="3134100215188411074">"Skrivaren har blockerat <xliff:g id="PRINT_JOB_NAME">%1$s</xliff:g>"</string>
+    <string name="print_configuring_state_title_template" msgid="2887013172492183045"><xliff:g id="print_job_name" example="foo.jpg">%1$s</xliff:g> konfigureras</string>
+    <string name="print_printing_state_title_template" msgid="7367513245156603431">Skriver ut <xliff:g id="print_job_name" example="foo.jpg">%1$s</xliff:g></string>
+    <string name="print_cancelling_state_title_template" msgid="9094795458159980190">Avbryter <xliff:g id="print_job_name" example="foo.jpg">%1$s</xliff:g></string>
+    <string name="print_failed_state_title_template" msgid="4751695809935404505">Skrivarfel för <xliff:g id="print_job_name" example="foo.jpg">%1$s</xliff:g></string>
+    <string name="print_blocked_state_title_template" msgid="3134100215188411074">Skrivaren har blockerat <xliff:g id="print_job_name" example="foo.jpg">%1$s</xliff:g></string>
     <string name="print_search_box_shown_utterance" msgid="6215002365360341961">"Sökrutan visas"</string>
     <string name="print_search_box_hidden_utterance" msgid="5355387966141712567">"Sökrutan är dold"</string>
     <string name="printer_info_desc" msgid="1206872325746154206">"Mer information om den här skrivaren"</string>
@@ -2397,7 +2427,7 @@
         <item quantity="other">Begränsar batterianvändningen för %1$d appar</item>
         <item quantity="one">Begränsar batterianvändningen för %1$d app</item>
     </plurals>
-    <string name="restricted_app_time_summary" msgid="3097721884155913252">"Begränsades <xliff:g id="TIME">%1$s</xliff:g>"</string>
+    <string name="restricted_app_time_summary" msgid="3097721884155913252">Begränsades för <xliff:g id="time" example="5 days ago">%1$s</xliff:g></string>
     <string name="restricted_app_detail_footer" msgid="3683577206409650564">"De här apparna har dragit batteri i bakgrunden. Begränsade appar kanske inte fungerar som de ska, och aviseringar kan fördröjas."</string>
     <string name="battery_auto_restriction_title" msgid="827206218118093357">"Använd Battery Manager"</string>
     <string name="battery_auto_restriction_summary" msgid="2140896101984815711">"Upptäck när appar drar mycket batteri"</string>
@@ -2407,7 +2437,7 @@
         <item quantity="other">%1$d appar begränsas</item>
         <item quantity="one">%1$d app begränsas</item>
     </plurals>
-    <string name="battery_header_title_alternate" msgid="8371821625994616659">"<xliff:g id="NUMBER">^1</xliff:g>"<small>" "<font size="20">"<xliff:g id="UNIT">%</xliff:g>"</font></small>""</string>
+    <string name="battery_header_title_alternate" msgid="8371821625994616659"><xliff:g id="number" example="88">^1</xliff:g><small> <font size="20"><xliff:g id="unit" example="%">%</xliff:g></font></small></string>
     <string name="dialog_stop_title" msgid="5972757101865665655">"Vill du stoppa appen?"</string>
     <string name="dialog_stop_message" product="default" msgid="2063536418875183799">"Batterihanteringen på mobilen fungerar inte som den ska eftersom <xliff:g id="APP">%1$s</xliff:g> håller mobilen aktiv.\n\nDu kan testa att lösa problemet genom att stänga av appen.\n\nOm problemet kvarstår kan det hända att du måste avinstallera appen för att förbättra batteritiden."</string>
     <string name="dialog_stop_message" product="tablet" msgid="426862716783569739">"Batterihanteringen på surfplattan fungerar inte som den ska eftersom <xliff:g id="APP">%1$s</xliff:g> håller surfplattan aktiv.\n\nDu kan testa att lösa problemet genom att stänga av appen.\n\nOm problemet kvarstår kan det hända att du måste avinstallera appen för att förbättra batteritiden."</string>
@@ -2486,7 +2516,7 @@
     <string name="battery_desc_unaccounted" msgid="1649497860893660763">"Diverse strömförbrukning"</string>
     <string name="battery_msg_unaccounted" msgid="5647345548624995064">"Batteriförbrukningen är beräkning av den totala strömförbrukningen och innehåller inte alla förbrukningskällor. Under Diverse anges skillnaden mellan den beräknade strömförbrukningen och den faktiska förbrukningen som anges för batteriet."</string>
     <string name="battery_desc_overcounted" msgid="5982079150027267539">"För högt räknad strömförbrukning"</string>
-    <string name="mah" msgid="3604527474433227780">"<xliff:g id="NUMBER">%d</xliff:g> mAh"</string>
+    <string name="mah" msgid="3604527474433227780"><xliff:g id="number" example="30">%d</xliff:g> mAh</string>
     <string name="battery_used_for" msgid="6401552215008504483">"Har använts i <xliff:g id="TIME">^1</xliff:g>"</string>
     <string name="battery_active_for" msgid="4416277218863232476">"Aktiv i <xliff:g id="TIME">^1</xliff:g>"</string>
     <string name="battery_screen_usage" msgid="90008745183187461">"Skärmanvändning <xliff:g id="TIME">^1</xliff:g>"</string>
