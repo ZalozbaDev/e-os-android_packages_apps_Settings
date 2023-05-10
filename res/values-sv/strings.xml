@@ -2357,7 +2357,7 @@
     <string name="accessibility_dialog_button_stop" msgid="7295448112784528196">"Stoppa"</string>
     <string name="accessibility_dialog_button_cancel" msgid="4813234247237851121">"Avbryt"</string>
     <string name="disable_service_title" msgid="2909108731776956167">Vill du avbryta <xliff:g id="service" example="TalkBack">%1$s</xliff:g>\?</string>
-    <string name="disable_service_message" msgid="4814173941688548016">Om du trycker på &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" id=\"stop\" example=\"Stop\"&gt;%1$s&lt;/xliff:g&gt; stoppas &lt;&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" id=\"service\" example=\"TalkBack\"&gt;%2$s&lt;/xliff:g&gt;.</string>
+    <string name="disable_service_message" msgid="4814173941688548016">Om du trycker på <xliff:g id="stop" example="Stop">%1$s</xliff:g> stoppas <xliff:g id="service" example="TalkBack">%2$s</xliff:g>.</string>
     <string name="accessibility_no_services_installed" msgid="3725569493860028593">"Inga tjänster är installerade"</string>
     <string name="accessibility_no_service_selected" msgid="1310596127128379897">"Ingen tjänst har valts"</string>
     <string name="accessibility_service_default_description" msgid="7801435825448138526">"Ingen beskrivning har angetts."</string>
@@ -2623,7 +2623,7 @@
     <string name="battery_saver_auto_routine" msgid="4656495097900848608">"Utifrån din rutin"</string>
     <string name="battery_saver_auto_percentage" msgid="558533724806281980">"Utifrån procent"</string>
     <string name="battery_saver_auto_routine_summary" msgid="3913145448299472628">"Batterisparläget aktiveras om batteriet tar slut innan din nästa rutinmässiga laddning"</string>
-    <string name="battery_saver_auto_percentage_summary" msgid="6190884450723824287">"Aktiveras vid <xliff:g id="PERCENT">%1$s</xliff:g>"</string>
+    <string name="battery_saver_auto_percentage_summary" msgid="6190884450723824287">Aktiveras vid <xliff:g id="percent" example="52%">%1$s</xliff:g></string>
     <string name="battery_saver_schedule_settings_title" msgid="3688019979950082237">"Ställ in ett schema"</string>
     <string name="battery_saver_turn_on_summary" msgid="1433919417587171160">"Utöka batteritiden"</string>
     <string name="battery_saver_sticky_title_new" msgid="5942813274115684599">"Stäng av när enheten är laddad"</string>
@@ -2643,7 +2643,7 @@
     <string name="process_stats_summary" msgid="522842188571764699">"Nördig statistik om processer som körs"</string>
     <string name="app_memory_use" msgid="7559666138324410666">"Minnesanvändning"</string>
     <string name="process_stats_total_duration" msgid="3898635541254636618">"<xliff:g id="USEDRAM">%1$s</xliff:g> av <xliff:g id="TOTALRAM">%2$s</xliff:g> har använts under <xliff:g id="TIMEDURATION">%3$s</xliff:g>"</string>
-    <string name="process_stats_total_duration_percentage" msgid="4391502694312709148">"<xliff:g id="PERCENT">%1$s</xliff:g> av arbetsminnet har använts under <xliff:g id="TIMEDURATION">%2$s</xliff:g>"</string>
+    <string name="process_stats_total_duration_percentage" msgid="4391502694312709148"><xliff:g id="percent" example="50%">%1$s</xliff:g> av arbetsminnet har använts under <xliff:g id="timeDuration">%2$s</xliff:g></string>
     <string name="process_stats_type_background" msgid="4094034441562453522">"Bakgrundsprocesser"</string>
     <string name="process_stats_type_foreground" msgid="5043049335546793803">"Förgrundsprocesser"</string>
     <string name="process_stats_type_cached" msgid="129788969589599563">"Cachade processer"</string>
@@ -2753,7 +2753,7 @@
     <string name="add_device_admin" msgid="6252128813507932519">"Aktivera den här appen för enhetsadministratör"</string>
     <string name="device_admin_add_title" msgid="6087481040932322289">"Enhetsadministratör"</string>
     <string name="device_admin_warning" msgid="1889160106787280321">"Om du aktiverar den här administratörsappen kan appen <xliff:g id="APP_NAME">%1$s</xliff:g> utföra följande åtgärder:"</string>
-    <string name="device_admin_warning_simplified" msgid="2715756519899116115">"Enheten hanteras och övervakas via <xliff:g id="APP_NAME">%1$s</xliff:g>."</string>
+    <string name="device_admin_warning_simplified" msgid="2715756519899116115">Enheten hanteras och övervakas via <xliff:g id="app_name" example="Example Supervisor">%1$s</xliff:g>.</string>
     <string name="device_admin_status" msgid="6332571781623084064">"Den här administratörsappen är aktiverad och tillåter att appen <xliff:g id="APP_NAME">%1$s</xliff:g> utför följande åtgärder:"</string>
     <string name="profile_owner_add_title" msgid="2774489881662331549">"Vill du aktivera profilhanteraren?"</string>
     <string name="profile_owner_add_title_simplified" msgid="2320828996993774182">"Vill du tillåta kontroll?"</string>
@@ -2829,8 +2829,8 @@
     <string name="starting_android" msgid="6694154070215356186">Android startas…</string>
     <string name="delete" msgid="8330605554706263775">"Ta bort"</string>
     <string name="misc_files" msgid="6598066985800749585">"Misc-filer"</string>
-    <string name="misc_files_selected_count" msgid="5597802791672749532">"<xliff:g id="NUMBER">%1$d</xliff:g> av <xliff:g id="TOTAL">%2$d</xliff:g> har valts"</string>
-    <string name="misc_files_selected_count_bytes" msgid="7622766714974500289">"<xliff:g id="NUMBER">%1$s</xliff:g> av <xliff:g id="TOTAL">%2$s</xliff:g>"</string>
+    <string name="misc_files_selected_count" msgid="5597802791672749532"><xliff:g id="number" example="3">%1$d</xliff:g> av <xliff:g id="total" example="15">%2$d</xliff:g> har valts</string>
+    <string name="misc_files_selected_count_bytes" msgid="7622766714974500289"><xliff:g id="number" example="3.25MB">%1$s</xliff:g> av <xliff:g id="total" example="15.25MB">%2$s</xliff:g></string>
     <string name="select_all" msgid="7898929601615536401">"Markera alla"</string>
     <string name="data_usage_summary_title" msgid="394067070764360142">"Dataanvändning"</string>
     <string name="data_usage_app_summary_title" msgid="4933742247928064178">"Mobildata och Wi‑Fi"</string>
@@ -2904,14 +2904,16 @@
     <string name="data_usage_restrict_background" msgid="1893102079135282794">"Om du begränsar mobildatan i bakgrunden fungerar vissa appar och tjänster endast när du är ansluten till ett Wi-Fi-nätverk."</string>
     <string name="data_usage_restrict_background_multiuser" product="tablet" msgid="5588623586867665419">"Om du begränsar mobildatan i bakgrunden fungerar vissa appar och tjänster endast när du är ansluten till ett Wi-Fi-nätverk.\n\nAlla användare på den här surfplattan påverkas av inställningen."</string>
     <string name="data_usage_restrict_background_multiuser" product="default" msgid="6402714504088590463">"Om du begränsar mobildatan i bakgrunden fungerar vissa appar och tjänster endast när du är ansluten till ett Wi-Fi-nätverk.\n\nAlla användare på den här mobilen påverkas av inställningen."</string>
-    <string name="data_usage_sweep_warning" msgid="2072854703184614828"><font size="18">"<xliff:g id="NUMBER">^1</xliff:g>"</font>" "<font size="9">"<xliff:g id="UNIT">^2</xliff:g>"</font>\n<font size="12">"varning"</font></string>
-    <string name="data_usage_sweep_limit" msgid="6947019190890086284"><font size="18">"<xliff:g id="NUMBER">^1</xliff:g>"</font>" "<font size="9">"<xliff:g id="UNIT">^2</xliff:g>"</font>\n<font size="12">"gräns"</font></string>
+    <string name="data_usage_sweep_warning" msgid="2072854703184614828"><font size="18"><xliff:g id="number" example="128">^1</xliff:g></font> <font size="9"><xliff:g id="unit" example="KB">^2</xliff:g></font>
+\n<font size="12">varning</font></string>
+    <string name="data_usage_sweep_limit" msgid="6947019190890086284"><font size="18"><xliff:g id="number" example="128">^1</xliff:g></font> <font size="9"><xliff:g id="unit" example="KB">^2</xliff:g></font>
+\n<font size="12">gräns</font></string>
     <string name="data_usage_uninstalled_apps" msgid="9065885396147675694">"Borttagna appar"</string>
     <string name="data_usage_uninstalled_apps_users" msgid="1262228664057122983">"Borttagna appar och användare"</string>
-    <string name="data_usage_received_sent" msgid="1486740779864806124">"<xliff:g id="RECEIVED">%1$s</xliff:g> mottagna, <xliff:g id="SENT">%2$s</xliff:g> skickade"</string>
-    <string name="data_usage_total_during_range" msgid="2695893609573024612">"<xliff:g id="RANGE">%2$s</xliff:g>: ca <xliff:g id="TOTAL">%1$s</xliff:g> har använts."</string>
+    <string name="data_usage_received_sent" msgid="1486740779864806124"><xliff:g id="received" example="128KB">%1$s</xliff:g> mottagna, <xliff:g id="sent" example="1.3GB">%2$s</xliff:g> skickade</string>
+    <string name="data_usage_total_during_range" msgid="2695893609573024612"><xliff:g id="range" example="Jul 1 - Jul 31">%2$s</xliff:g>: ca <xliff:g id="total" example="128KB">%1$s</xliff:g> har använts.</string>
     <string name="data_usage_total_during_range_mobile" product="tablet" msgid="45300375132284265">"<xliff:g id="RANGE">%2$s</xliff:g>: ca <xliff:g id="TOTAL">%1$s</xliff:g> har använts enligt pekdatorns mätning.  Resultatet kan skilja sig från operatörens beräkning av dataanvändningen."</string>
-    <string name="data_usage_total_during_range_mobile" product="default" msgid="3183594094081558193">"<xliff:g id="RANGE">%2$s</xliff:g>: ca <xliff:g id="TOTAL">%1$s</xliff:g> har använts enligt mobilens mätning. Resultatet kan skilja sig från operatörens beräkning av dataanvändningen."</string>
+    <string name="data_usage_total_during_range_mobile" product="default" msgid="3183594094081558193"><xliff:g id="range" example="Jul 1 - Jul 31">%2$s</xliff:g>: ca <xliff:g id="total" example="128KB">%1$s</xliff:g> har använts enligt mobilens mätning. Resultatet kan skilja sig från operatörens beräkning av dataanvändningen.</string>
     <string name="data_usage_metered_title" msgid="6421347352444253058">"Nätverksbegränsningar"</string>
     <string name="data_usage_metered_body" msgid="1206840367501998582">"Nätverk med datapriser behandlas som mobilnätverk om det finns begränsningar för bakgrundsdata. Det kan hända att du får varningar i appar innan du använder dessa nätverk för stora nedladdningar."</string>
     <string name="data_usage_metered_mobile" msgid="3514227339274396401">"Mobila nätverk"</string>
@@ -2956,7 +2958,7 @@
     <string name="vpn_replace" msgid="1533147558671640341">"Ersätt"</string>
     <string name="vpn_edit" msgid="5862301148429324911">"Redigera VPN-profil"</string>
     <string name="vpn_forget" msgid="2913950864877236737">"Glöm"</string>
-    <string name="vpn_connect_to" msgid="216709261691085594">"Anslut till <xliff:g id="PROFILE">%s</xliff:g>"</string>
+    <string name="vpn_connect_to" msgid="216709261691085594">Anslut till <xliff:g id="profile" example="School">%s</xliff:g></string>
     <string name="vpn_disconnect_confirm" msgid="6356789348816854539">"Vill du koppla från VPN?"</string>
     <string name="vpn_disconnect" msgid="7753808961085867345">"Koppla från"</string>
     <string name="vpn_version" msgid="41856553718304367">"Version <xliff:g id="VERSION">%s</xliff:g>"</string>
@@ -2968,7 +2970,7 @@
     <string name="vpn_replace_always_on_vpn_disable_message" msgid="4299175336198481106">"Du är redan ansluten till ett Always-on VPN. Om du ansluter till ett annat ersätts ditt befintliga VPN, och Always-on-läge inaktiveras."</string>
     <string name="vpn_replace_vpn_message" msgid="1094297700371463386">"Du är redan ansluten till ett VPN. Om du ansluter till ett annat ersätts ditt befintliga VPN."</string>
     <string name="vpn_turn_on" msgid="3568307071295211187">"Aktivera"</string>
-    <string name="vpn_cant_connect_title" msgid="5670787575925519386">"<xliff:g id="VPN_NAME">%1$s</xliff:g> kan inte ansluta"</string>
+    <string name="vpn_cant_connect_title" msgid="5670787575925519386"><xliff:g id="vpn_name" example="OpenVPN">%1$s</xliff:g> kan inte ansluta</string>
     <string name="vpn_cant_connect_message" msgid="2139148820719163694">"Appen stöder inte Always-on VPN"</string>
     <string name="vpn_title" msgid="3068868814145870274">"VPN"</string>
     <string name="vpn_create" msgid="7546073242936894638">"Lägg till VPN-profil"</string>
@@ -3003,7 +3005,7 @@
     <string name="one_cacrt" msgid="7467796501404158399">"ett CA-certifikat"</string>
     <string name="n_cacrts" msgid="5886462550192731627">"%d CA-certifikat"</string>
     <string name="user_credential_title" msgid="4686178602575567298">"Användaruppgifter"</string>
-    <string name="user_credential_removed" msgid="4087675887725394743">"Uppgift som tagits bort: <xliff:g id="CREDENTIAL_NAME">%s</xliff:g>"</string>
+    <string name="user_credential_removed" msgid="4087675887725394743">Uppgift som tagits bort: <xliff:g id="credential_name" example="signing key">%s</xliff:g></string>
     <string name="user_credential_none_installed" msgid="918620912366836994">"Inga användaruppgifter har installerats"</string>
     <string name="spellcheckers_settings_title" msgid="2799021700580591443">"Stavningskontroll"</string>
     <string name="spellcheckers_settings_for_work_title" msgid="6471603934176062893">"Stavningskontroll för jobbet"</string>
@@ -3044,7 +3046,7 @@
     <string name="user_summary_restricted_not_set_up" msgid="1658946988920104613">"Profilen har inte konfigurerats – begränsad profil"</string>
     <string name="user_summary_managed_profile_not_set_up" msgid="5739207307082458746">"Inte konfigurerad – jobbprofil"</string>
     <string name="user_admin" msgid="4024553191395768119">"Administratör"</string>
-    <string name="user_you" msgid="3070562015202859996">"Du (<xliff:g id="NAME">%s</xliff:g>)"</string>
+    <string name="user_you" msgid="3070562015202859996">Du (<xliff:g id="name" example="Name">%s</xliff:g>)</string>
     <string name="user_nickname" msgid="3763630194459958977">"Smeknamn"</string>
     <string name="user_add_max_count" msgid="5739771048517070983">"Du kan lägga till upp till <xliff:g id="USER_COUNT">%1$d</xliff:g> användare"</string>
     <string name="user_cannot_manage_message" product="tablet" msgid="3405022988077682357">"Det är bara surfplattans ägare som kan hantera användare."</string>
@@ -3078,7 +3080,7 @@
     <string name="user_enable_calling_and_sms_confirm_title" msgid="4041510268838725520">"Vill du aktivera telefonsamtal och sms?"</string>
     <string name="user_enable_calling_and_sms_confirm_message" msgid="367792286597449922">"Samtals- och sms-historiken delas med den här användaren."</string>
     <string name="emergency_info_title" msgid="8233682750953695582">"Nödinformation"</string>
-    <string name="emergency_info_summary" msgid="8463622253016757697">"Information och kontakter för <xliff:g id="USER_NAME">%1$s</xliff:g>"</string>
+    <string name="emergency_info_summary" msgid="8463622253016757697">Information och kontakter för <xliff:g id="user_name" example="Jason">%1$s</xliff:g></string>
     <string name="application_restrictions" msgid="276179173572729205">"Tillåt appar och innehåll"</string>
     <string name="apps_with_restrictions_header" msgid="5277698582872267931">"Appar med begränsningar"</string>
     <string name="apps_with_restrictions_settings_button" msgid="2648355133416902221">"Utöka appens inställningar"</string>
@@ -3133,7 +3135,7 @@
     <string name="enhanced_4g_lte_mode_summary_4g_calling" msgid="7814006095552641136">"Använd 4G-tjänster för att förbättra bl.a. röstkommunikation (rekommenderas)"</string>
     <string name="contact_discovery_opt_in_title" msgid="8708034790649773814">"Skicka kontakter till operatören"</string>
     <string name="contact_discovery_opt_in_summary" msgid="6539010458256667300">"Skicka dina kontakters telefonnummer för att aktivera utökade funktioner"</string>
-    <string name="contact_discovery_opt_in_dialog_title" msgid="2230536282911854114">"Vill du skicka kontakter till <xliff:g id="CARRIER">%1$s</xliff:g>?"</string>
+    <string name="contact_discovery_opt_in_dialog_title" msgid="2230536282911854114">Vill du skicka kontakter till <xliff:g id="carrier" example="T-mobile">%1$s</xliff:g>\?</string>
     <string name="contact_discovery_opt_in_dialog_title_no_carrier_defined" msgid="2028983133745990320">"Vill du skicka kontakter till operatören?"</string>
     <string name="contact_discovery_opt_in_dialog_message" msgid="8818310894782757538">Dina kontakters telefonnummer skickas regelbundet till <xliff:g id="carrier" example="T-mobile">%1$s</xliff:g>.<xliff:g id="empty_line" example="  ">
 \n
@@ -3324,7 +3326,7 @@
     <string name="keywords_enhance_4g_lte" msgid="658889360486800978">"volte, avancerade samtal, 4g-samtal"</string>
     <string name="keywords_add_language" msgid="1882751300359939436">"lägg till språk, lägg till ett språk"</string>
     <string name="default_sound" msgid="6604374495015245195">"Standardsignal"</string>
-    <string name="sound_settings_summary" msgid="944761906531715109">"Volymen för samtal och aviseringar är inställd på <xliff:g id="PERCENTAGE">%1$s</xliff:g>"</string>
+    <string name="sound_settings_summary" msgid="944761906531715109">Volymen för samtal och aviseringar är inställd på <xliff:g id="percentage" example="2%">%1$s</xliff:g></string>
     <string name="sound_dashboard_summary" msgid="6574444810552643312">"Volym, vibrera, stör ej"</string>
     <string name="sound_settings_summary_vibrate" msgid="7192223433295988890">"Enheten är inställd på att vibrera som ringsignal"</string>
     <string name="sound_settings_summary_silent" msgid="746662794579344761">"Ringsignalen är avstängd"</string>
@@ -3383,7 +3385,7 @@
     <string name="zen_mode_automation_suggestion_summary" msgid="1946750790084170826">"Ange regler för Stör ej"</string>
     <string name="zen_mode_schedule_title" msgid="7064866561892906613">"Schemalägg"</string>
     <string name="zen_mode_use_automatic_rule" msgid="733850322530002484">"Använd schema"</string>
-    <string name="zen_mode_summary_combination" msgid="5944689309915947828">"<xliff:g id="MODE">%1$s</xliff:g>: <xliff:g id="EXIT_CONDITION">%2$s</xliff:g>"</string>
+    <string name="zen_mode_summary_combination" msgid="5944689309915947828"><xliff:g id="mode" example="Priority only">%1$s</xliff:g>: <xliff:g id="exit condition" example="Until you turn this off">%2$s</xliff:g></string>
     <string name="zen_mode_settings_category" msgid="3794956668816783447">"Tillåt avbrott med ljud"</string>
     <string name="zen_mode_visual_interruptions_settings_title" msgid="7806181124566937214">"Blockera synliga störningar"</string>
     <string name="zen_mode_visual_signals_settings_subtitle" msgid="7433077540895876672">"Tillåt synliga signaler"</string>
@@ -3425,15 +3427,15 @@
     <string name="zen_mode_enable_dialog_turn_on" msgid="1971034397501675078">"Aktivera"</string>
     <string name="zen_mode_button_turn_on" msgid="6583862599681052347">"Aktivera nu"</string>
     <string name="zen_mode_button_turn_off" msgid="2060862413234857296">"Inaktivera nu"</string>
-    <string name="zen_mode_settings_dnd_manual_end_time" msgid="8251503918238985549">"Stör ej är aktiverat tills <xliff:g id="FORMATTED_TIME">%s</xliff:g>"</string>
+    <string name="zen_mode_settings_dnd_manual_end_time" msgid="8251503918238985549">Stör ej är aktiverat tills <xliff:g id="formatted_time" example="7:00 AM">%s</xliff:g></string>
     <string name="zen_mode_settings_dnd_manual_indefinite" msgid="1436568478062106132">"Stör ej är aktiverat tills du inaktiverar funktionen"</string>
-    <string name="zen_mode_settings_dnd_automatic_rule" msgid="1958092329238152236">"Stör ej aktiverades automatiskt via ett schema (<xliff:g id="RULE_NAME">%s</xliff:g>)"</string>
-    <string name="zen_mode_settings_dnd_automatic_rule_app" msgid="3401685760954156067">"Stör ej aktiverades automatiskt via en app (<xliff:g id="APP_NAME">%s</xliff:g>)"</string>
-    <string name="zen_mode_settings_dnd_custom_settings_footer" msgid="6566115866660865385">"Stör ej är på för <xliff:g id="RULE_NAMES">%s</xliff:g> med anpassade inställningar."</string>
+    <string name="zen_mode_settings_dnd_automatic_rule" msgid="1958092329238152236">Stör ej aktiverades automatiskt via ett schema (<xliff:g id="rule_name" example="Weeknights">%s</xliff:g>)</string>
+    <string name="zen_mode_settings_dnd_automatic_rule_app" msgid="3401685760954156067">Stör ej aktiverades automatiskt via en app (<xliff:g id="app_name" example="Android Services">%s</xliff:g>)</string>
+    <string name="zen_mode_settings_dnd_custom_settings_footer" msgid="6566115866660865385">Stör ej är på för <xliff:g id="rule_names" example="Sleeping and Work">%s</xliff:g> med anpassade inställningar.</string>
     <string name="zen_mode_settings_dnd_custom_settings_footer_link" msgid="2310353944697868606"><annotation id="link">" Visa anpassade inställningar"</annotation></string>
     <string name="zen_interruption_level_priority" msgid="4854123502362861192">"Endast prioriterade"</string>
-    <string name="zen_mode_and_condition" msgid="8580896862841920031">"<xliff:g id="ZEN_MODE">%1$s</xliff:g>. <xliff:g id="EXIT_CONDITION">%2$s</xliff:g>"</string>
-    <string name="zen_mode_sound_summary_on_with_info" msgid="4803606180235742003">"På/<xliff:g id="ID_1">%1$s</xliff:g>"</string>
+    <string name="zen_mode_and_condition" msgid="8580896862841920031"><xliff:g id="zen_mode" example="Priority interruptions only">%1$s</xliff:g>. <xliff:g id="exit_condition" example="For one hour">%2$s</xliff:g></string>
+    <string name="zen_mode_sound_summary_on_with_info" msgid="4803606180235742003">På/<xliff:g name="dnd_summary" example="No sound except alarms and media">%1$s</xliff:g></string>
     <string name="zen_mode_sound_summary_off_with_info" msgid="2032265904095185048">"Av/<xliff:g id="ID_1">%1$s</xliff:g>"</string>
     <string name="zen_mode_sound_summary_off" msgid="2102424480808968673">"Av"</string>
     <string name="zen_mode_sound_summary_on" msgid="9077659040104989899">"På"</string>
@@ -3480,7 +3482,7 @@
     <string name="work_sync_dialog_yes" msgid="9161415252411868574">"Ersätt"</string>
     <string name="work_sync_dialog_message" msgid="1328692374812258546">"Ljuden i den personliga profilen används i jobbprofilen"</string>
     <string name="ringtones_install_custom_sound_title" msgid="3885712267015760638">"Vill du lägga till anpassat ljud?"</string>
-    <string name="ringtones_install_custom_sound_content" msgid="5844996763705884979">"Filen kopieras till mappen <xliff:g id="FOLDER_NAME">%s</xliff:g>"</string>
+    <string name="ringtones_install_custom_sound_content" msgid="5844996763705884979">Filen kopieras till mappen <xliff:g id="folder_name" example="Ringtones">%s</xliff:g></string>
     <string name="ringtones_category_preference_title" msgid="26680768777533727">"Ringsignaler"</string>
     <string name="other_sound_category_preference_title" msgid="8182757473602586634">"Andra ljud och vibrationer"</string>
     <string name="configure_notification_settings" msgid="1492820231694314376">"Aviseringar"</string>
@@ -3515,7 +3517,7 @@
     <string name="bubbles_conversation_app_link" msgid="5468779786387915337">"Alla inställningar för bubblor"</string>
     <string name="bubbles_conversation_toggle_title" msgid="5225039214083311316">"Visa en bubbla för konversationen"</string>
     <string name="bubbles_conversation_toggle_summary" msgid="720229032254323578">"Visa flytande ikoner ovanpå andra appar"</string>
-    <string name="bubbles_app_toggle_summary" msgid="1574515698567947948">"Tillåt att <xliff:g id="APP_NAME">%1$s</xliff:g> visar vissa aviseringar som bubblor"</string>
+    <string name="bubbles_app_toggle_summary" msgid="1574515698567947948">Tillåt att <xliff:g id="app_name" example="YouTube">%1$s</xliff:g> visar vissa aviseringar som bubblor</string>
     <string name="bubbles_feature_disabled_dialog_title" msgid="1794193899792284007">"Vill du aktivera bubblor för enheten?"</string>
     <string name="bubbles_feature_disabled_dialog_text" msgid="5275666953364031055">"Om du aktiverar bubblor för appen aktiveras de även för enheten.\n\nDetta påverkar andra appar eller konversationer som kan visas i bubblor."</string>
     <string name="bubbles_feature_disabled_button_approve" msgid="2042628067101419871">"Aktivera"</string>
@@ -3584,8 +3586,8 @@
     <string name="manage_conversations" msgid="4440289604887824337">"Hantera konversationer"</string>
     <string name="priority_conversation_count_zero" msgid="3862289535537564713">"Inga prioriterade konversationer"</string>
     <plurals name="priority_conversation_count" formatted="false" msgid="4229447176780862649">
-        <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> prioriterade konversationer</item>
-        <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> prioriterade konversationer</item>
+        <item quantity="one"><xliff:g id="count" example="1">%d</xliff:g> prioriterad konversation</item>
+        <item quantity="other"><xliff:g id="count" example="10">%d</xliff:g> prioriterade konversationer</item>
     </plurals>
     <string name="important_conversations" msgid="1233893707189659401">"Prioriterade konversationer"</string>
     <string name="important_conversations_summary_bubbles" msgid="614327166808117644">"Visa högst upp bland konversationerna och som flytande bubblor"</string>
@@ -3612,14 +3614,14 @@
     <string name="allow_interruption_summary" msgid="9044131663518112543">"Tillåt att appen spelar upp ljud, vibrerar och/eller visar popup-aviseringar på skärmen"</string>
     <string name="notification_priority_title" msgid="5554834239080425229">"Prioritet"</string>
     <string name="notification_channel_summary_priority" msgid="7225362351439076913">"Visas högst upp bland konversationerna som en flytande bubbla och visar profilbilden på låsskärmen"</string>
-    <string name="convo_not_supported_summary" msgid="4285471045268268048">"De flesta funktioner för konversationer stöds inte av <xliff:g id="APP_NAME">%1$s</xliff:g>. Det går inte att markera en konversation som prioriterad och konversationer visas inte som flytande bubblor."</string>
+    <string name="convo_not_supported_summary" msgid="4285471045268268048">De flesta funktioner för konversationer stöds inte av <xliff:g id="app_name" example="Android Services">%1$s</xliff:g>. Det går inte att markera en konversation som prioriterad och konversationer visas inte som flytande bubblor.</string>
     <string name="notification_channel_summary_min" msgid="8823399508450176842">"Komprimera aviseringar på den övre panelen på en rad"</string>
     <string name="notification_channel_summary_low" msgid="5549662596677692000">"Inga ljud eller vibrationer"</string>
     <string name="notification_conversation_summary_low" msgid="6352818857388412326">"Inga ljud eller vibrationer och visas längre ned bland konversationerna"</string>
     <string name="notification_channel_summary_default" msgid="3674057458265438896">"Kan ringa eller vibrera beroende på inställningarna på telefonen"</string>
     <string name="notification_channel_summary_high" msgid="3411637309360617621">"När enheten är olåst visas aviseringar i en banner högst upp på skärmen"</string>
-    <string name="notification_switch_label" msgid="8029371325967501557">"Alla aviseringar från <xliff:g id="APP_NAME">%1$s</xliff:g>"</string>
-    <string name="notification_app_switch_label" msgid="4422902423925084193">"Alla aviseringar från <xliff:g id="APP_NAME">%1$s</xliff:g>"</string>
+    <string name="notification_switch_label" msgid="8029371325967501557">Alla aviseringar från <xliff:g id="app_name" example="Android Services">%1$s</xliff:g></string>
+    <string name="notification_app_switch_label" msgid="4422902423925084193">Alla aviseringar från <xliff:g id="app_name" example="Android Services">%1$s</xliff:g></string>
     <string name="default_notification_assistant" msgid="243718059890346442">"Anpassade aviseringar"</string>
     <plurals name="notifications_sent_daily" formatted="false" msgid="1479283620504341566">
         <item quantity="other">ca <xliff:g id="NUMBER_1">%d</xliff:g> aviseringar om dagen</item>
@@ -3641,16 +3643,16 @@
     <string name="no_notification_assistant" msgid="2533323397091834096">"Inga"</string>
     <string name="no_notification_listeners" msgid="2839354157349636000">Inga installerade appar har begärt åtkomst till aviseringar.</string>
     <string name="notification_access_detail_switch" msgid="46386786409608330">"Tillåt åtkomst till aviseringar"</string>
-    <string name="notification_assistant_security_warning_title" msgid="2972346436050925276">"Vill du tillåta åtkomst till aviseringar för <xliff:g id="SERVICE">%1$s</xliff:g>?"</string>
+    <string name="notification_assistant_security_warning_title" msgid="2972346436050925276">Vill du tillåta åtkomst till aviseringar för <xliff:g id="service" example="NotificationAssistant">%1$s</xliff:g>\?</string>
     <string name="notification_assistant_security_warning_summary" msgid="7362924206925040510">"<xliff:g id="NOTIFICATION_ASSISTANT_NAME">%1$s</xliff:g> kan läsa alla aviseringar, inklusive personliga uppgifter som namn på kontaktpersoner och texten i mottagna meddelanden. Appen kan även stänga aviseringar eller använda åtgärdsknappar i aviseringar för att t.ex. svara på telefonsamtal. \n\nAppen kan också aktivera eller inaktivera Stör ej och ändra relaterade inställningar."</string>
-    <string name="notification_listener_security_warning_title" msgid="5791700876622858363">"Vill du tillåta åtkomst till aviseringar för <xliff:g id="SERVICE">%1$s</xliff:g>?"</string>
+    <string name="notification_listener_security_warning_title" msgid="5791700876622858363">Vill du tillåta åtkomst till aviseringar för <xliff:g id="service" example="NotificationReader">%1$s</xliff:g>\?</string>
     <string name="notification_listener_security_warning_summary" msgid="1658213659262173405">"<xliff:g id="NOTIFICATION_LISTENER_NAME">%1$s</xliff:g> kan läsa alla aviseringar, inklusive personliga uppgifter som namn på kontaktpersoner och texten i mottagna meddelanden. Appen kan även stänga aviseringar eller använda åtgärdsknappar i aviseringar för att t.ex. svara på telefonsamtal. \n\nAppen kan också aktivera eller inaktivera Stör ej och ändra relaterade inställningar."</string>
     <string name="notification_listener_disable_warning_summary" msgid="8373396293802088961"> Om du inaktiverar aviseringsåtkomst för <xliff:g id="notification_listener_name">%1$s</xliff:g> kan åtkomsten till Stör ej också inaktiveras. </string>
     <string name="notification_listener_disable_warning_confirm" msgid="841492108402184976">"Inaktivera"</string>
     <string name="notification_listener_disable_warning_cancel" msgid="8802784105045594324">"Avbryt"</string>
     <string name="vr_listeners_title" msgid="4960357292472540964">"Hjälptjänster för VR"</string>
     <string name="no_vr_listeners" msgid="8442646085375949755">"Inga installerade appar har begärt att få köras som hjälptjänster för VR."</string>
-    <string name="vr_listener_security_warning_title" msgid="7026351795627615177">"Vill du tillåta att tjänsten för VR får tillgång till <xliff:g id="SERVICE">%1$s</xliff:g>?"</string>
+    <string name="vr_listener_security_warning_title" msgid="7026351795627615177">Vill du tillåta att tjänsten för VR får tillgång till <xliff:g id="service" example="VrCore">%1$s</xliff:g>\?</string>
     <string name="vr_listener_security_warning_summary" msgid="1888843557687017791"> <xliff:g id="vr_listener_name">%1$s</xliff:g> kan köras medan du använder appar i läget för virtuell verklighet. </string>
     <string name="display_vr_pref_title" msgid="4850474436291113569">"När enheten är i VR-läge"</string>
     <string name="display_vr_pref_low_persistence" msgid="7039841277157739871">"Minska oskärpa (rekommenderas)"</string>
@@ -3672,19 +3674,19 @@
     <string name="interact_across_profiles_summary_1" msgid="6093976896137600231">"Kopplade appar har samma behörighet och kan använda varandras data."</string>
     <string name="interact_across_profiles_summary_2" msgid="505748305453633885">"Koppla bara appar om du litar på att de inte delar personuppgifter med IT-administratören."</string>
     <string name="interact_across_profiles_summary_3" msgid="444428694843299854">"Du kan när som helst koppla från appar i dina sekretessinställningar för enheten."</string>
-    <string name="interact_across_profiles_consent_dialog_title" msgid="8530621211216508681">"Ska jobbappen <xliff:g id="NAME">%1$s</xliff:g> vara betrodd att använda personlig data?"</string>
+    <string name="interact_across_profiles_consent_dialog_title" msgid="8530621211216508681">Ska jobbappen <xliff:g id="name" example="Calendar">%1$s</xliff:g> vara betrodd att använda personlig data\?</string>
     <string name="interact_across_profiles_consent_dialog_summary" msgid="3949870271562055048">"Koppla bara appar om du litar på att de inte delar personuppgifter med IT-administratören."</string>
     <string name="interact_across_profiles_consent_dialog_app_data_title" msgid="8436318876213958940">"Appdata"</string>
-    <string name="interact_across_profiles_consent_dialog_app_data_summary" msgid="6057019384328088311">"Appen har tillgång till data i den privata <xliff:g id="NAME">%1$s</xliff:g>-appen."</string>
+    <string name="interact_across_profiles_consent_dialog_app_data_summary" msgid="6057019384328088311">Appen har tillgång till data i den privata <xliff:g id="name" example="Calendar">%1$s</xliff:g>-appen.</string>
     <string name="interact_across_profiles_consent_dialog_permissions_title" msgid="2316852600280487055">"Behörigheter"</string>
-    <string name="interact_across_profiles_consent_dialog_permissions_summary" msgid="995051542847604039">"Appen kan använda den privata <xliff:g id="NAME">%1$s</xliff:g>-appens behörigheter, t.ex. åtkomst till plats, lagringsutrymme eller kontakter."</string>
+    <string name="interact_across_profiles_consent_dialog_permissions_summary" msgid="995051542847604039">Appen kan använda den privata <xliff:g id="name" example="Calendar">%1$s</xliff:g>-appens behörigheter, t.ex. åtkomst till plats, lagringsutrymme eller kontakter.</string>
     <string name="interact_across_profiles_number_of_connected_apps_none" msgid="8573289199942092964">"Inga appar har kopplats"</string>
     <plurals name="interact_across_profiles_number_of_connected_apps" formatted="false" msgid="6991750455661974772">
         <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> kopplade appar</item>
         <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> kopplad app</item>
     </plurals>
-    <string name="interact_across_profiles_install_work_app_title" msgid="2821669067014436056">"Installera <xliff:g id="NAME">%1$s</xliff:g> i din jobbprofil om du vill koppla apparna"</string>
-    <string name="interact_across_profiles_install_personal_app_title" msgid="4790651223324866344">"Installera <xliff:g id="NAME">%1$s</xliff:g> i din privata profil om du vill koppla apparna"</string>
+    <string name="interact_across_profiles_install_work_app_title" msgid="2821669067014436056">Installera <xliff:g id="name" example="Calendar">%1$s</xliff:g> i din jobbprofil om du vill koppla apparna</string>
+    <string name="interact_across_profiles_install_personal_app_title" msgid="4790651223324866344">Installera <xliff:g id="name" example="Calendar">%1$s</xliff:g> i din privata profil om du vill koppla apparna</string>
     <string name="interact_across_profiles_install_app_summary" msgid="7715324358034968657">"Tryck för att installera appen"</string>
     <string name="manage_zen_access_title" msgid="1562322900340107269">"Stör ej-åtkomst"</string>
     <string name="zen_access_detail_switch" msgid="4183681772666138993">"Tillåt Stör ej"</string>
@@ -3696,20 +3698,20 @@
     <string name="notification_channels" msgid="1502969522886493799">"Kategorier"</string>
     <string name="notification_channels_other" msgid="18159805343647908">"Övrigt"</string>
     <plurals name="notification_group_summary" formatted="false" msgid="483490958130993160">
-        <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> kategorier</item>
-        <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> kategori</item>
+        <item quantity="one"><xliff:g id="count" example="1">%d</xliff:g> kategori</item>
+        <item quantity="other"><xliff:g id="count" example="10">%d</xliff:g> kategorier</item>
     </plurals>
     <string name="no_channels" msgid="4716199078612071915">"Den här appen har inte skickat några aviseringar"</string>
     <string name="app_settings_link" msgid="6725453466705333311">"Fler inställningar i appen"</string>
     <string name="notification_screen_summary" msgid="5984915275134654822">"Aviseringshistorik, bubblor, nyligen skickat"</string>
     <string name="app_notification_listing_summary_zero" msgid="2988400013221120744">"Aktiverat för alla appar"</string>
     <plurals name="app_notification_listing_summary_others" formatted="false" msgid="1506127395400503717">
-        <item quantity="other">Inaktiverat för <xliff:g id="COUNT_1">%d</xliff:g> appar</item>
-        <item quantity="one">Inaktiverat för <xliff:g id="COUNT_0">%d</xliff:g> app</item>
+        <item quantity="one">Inaktiverat för <xliff:g id="count" example="1">%d</xliff:g> app</item>
+        <item quantity="other">Inaktiverat för <xliff:g id="count" example="10">%d</xliff:g> appar</item>
     </plurals>
     <plurals name="deleted_channels" formatted="false" msgid="5963473421547029532">
-        <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> kategorier har raderats</item>
-        <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> kategori har raderats</item>
+        <item quantity="one"><xliff:g id="count" example="1">%d</xliff:g> kategori har raderats</item>
+        <item quantity="other"><xliff:g id="count" example="10">%d</xliff:g> kategorier har raderats</item>
     </plurals>
     <string name="notification_toggle_on" msgid="1624283327379059003">"Aktiverat"</string>
     <string name="notification_toggle_off" msgid="3295373308338024844">"Av"</string>
@@ -3742,10 +3744,10 @@
     <string name="zen_mode_add_time_rule" msgid="2621320450155364432">"Lägg till tidsbaserat schema"</string>
     <string name="zen_mode_delete_rule" msgid="5419296431989891130">"Radera schema"</string>
     <string name="zen_mode_choose_rule_type" msgid="7656308563653982975">"Välj schematyp"</string>
-    <string name="zen_mode_delete_rule_confirmation" msgid="6195069346439736688">"Vill du ta bort regeln <xliff:g id="RULE">%1$s</xliff:g>?"</string>
+    <string name="zen_mode_delete_rule_confirmation" msgid="6195069346439736688">Vill du ta bort regeln <xliff:g id="rule" example="Weekends">%1$s</xliff:g>\?</string>
     <string name="zen_mode_delete_rule_button" msgid="8328729110756882244">"Radera"</string>
     <string name="zen_mode_rule_type_unknown" msgid="7819162569994282316">"Okänd"</string>
-    <string name="zen_mode_app_set_behavior" msgid="4319517270279704677">"Det går inte att ändra dessa inställningar just nu. En app (<xliff:g id="APP_NAME">%1$s</xliff:g>) har automatiskt aktiverat Stör ej med anpassade funktioner."</string>
+    <string name="zen_mode_app_set_behavior" msgid="4319517270279704677">Det går inte att ändra dessa inställningar just nu. En app (<xliff:g id="app_name" example="Android Services">%1$s</xliff:g>) har automatiskt aktiverat Stör ej med anpassade funktioner.</string>
     <string name="zen_mode_unknown_app_set_behavior" msgid="8544413884273894104">"Det går inte att ändra dessa inställningar just nu. En app har automatiskt aktiverat Stör ej med anpassade funktioner."</string>
     <string name="zen_mode_qs_set_behavior" msgid="3805244555649172848">"Det går inte att ändra dessa inställningar just nu. Stör ej har aktiverats manuellt med anpassade funktioner."</string>
     <string name="zen_schedule_rule_type_name" msgid="8071428540221112090">"Tid"</string>
@@ -3753,17 +3755,18 @@
     <string name="zen_event_rule_type_name" msgid="1921166617081971754">"Händelse"</string>
     <string name="zen_event_rule_enabled_toast" msgid="4943723266121388395">"Automatisk regel har ställts in så att Stör ej aktiveras vid angivna händelser"</string>
     <string name="zen_mode_event_rule_calendar" msgid="6279460374929508907">"Under händelser för"</string>
-    <string name="zen_mode_event_rule_summary_calendar_template" msgid="3065013489987409864">"Under händelser för <xliff:g id="CALENDAR">%1$s</xliff:g>"</string>
+    <string name="zen_mode_event_rule_summary_calendar_template" msgid="3065013489987409864">Under händelser för <xliff:g id="calendar" example="any calendar">%1$s</xliff:g></string>
     <string name="zen_mode_event_rule_summary_any_calendar" msgid="8395450413356855311">"alla kalendrar"</string>
-    <string name="zen_mode_event_rule_summary_reply_template" msgid="7786137431469077008">"När svaret är <xliff:g id="REPLY">%1$s</xliff:g>"</string>
+    <string name="zen_mode_event_rule_summary_reply_template" msgid="7786137431469077008">När svaret är <xliff:g id="reply" example="Yes, Maybe, or Not replied">%1$s</xliff:g></string>
     <string name="zen_mode_event_rule_calendar_any" msgid="5152139705998281205">"Alla kalendrar"</string>
     <string name="zen_mode_event_rule_reply" msgid="6099405414361340225">"När svaret är"</string>
     <string name="zen_mode_event_rule_reply_any_except_no" msgid="4672746760505346596">"Ja, Kanske eller Inte svarat"</string>
     <string name="zen_mode_event_rule_reply_yes_or_maybe" msgid="6584448788100186574">"Ja eller Kanske"</string>
     <string name="zen_mode_event_rule_reply_yes" msgid="7812120982734551236">"Ja"</string>
     <string name="zen_mode_rule_not_found_text" msgid="5303667326973891036">"Regeln hittades inte."</string>
-    <string name="zen_mode_rule_summary_enabled_combination" msgid="1183604368083885789">"På/<xliff:g id="MODE">%1$s</xliff:g>"</string>
-    <string name="zen_mode_rule_summary_provider_combination" msgid="785343032708491365">"<xliff:g id="PACKAGE">%1$s</xliff:g>\n<xliff:g id="SUMMARY">%2$s</xliff:g>"</string>
+    <string name="zen_mode_rule_summary_enabled_combination" msgid="1183604368083885789">På/<xliff:g id="mode" example="Alarms only">%1$s</xliff:g></string>
+    <string name="zen_mode_rule_summary_provider_combination" msgid="785343032708491365"><xliff:g id="package" example="Condition Provider App">%1$s</xliff:g>
+\n<xliff:g id="summary" example="On / Alarms only">%2$s</xliff:g></string>
     <string name="zen_mode_schedule_rule_days" msgid="8633770815307716351">"Dagar"</string>
     <string name="zen_mode_schedule_rule_days_none" msgid="5636604196262227070">"Inga"</string>
     <string name="zen_mode_schedule_rule_days_all" msgid="1583884351893245169">"Varje dag"</string>
@@ -3772,10 +3775,10 @@
     <string name="zen_mode_custom_behavior_title" msgid="92525364576358085">"Hur Stör ej ska fungera"</string>
     <string name="zen_mode_custom_behavior_summary_default" msgid="3259312823717839148">"Använd standardinställningarna"</string>
     <string name="zen_mode_custom_behavior_summary" msgid="5390522750884328843">"Skapa anpassade inställningar för det här schemat"</string>
-    <string name="zen_mode_custom_behavior_category_title" msgid="7815612569425733764">"För <xliff:g id="SCHEDULE_NAME">%1$s</xliff:g>"</string>
+    <string name="zen_mode_custom_behavior_category_title" msgid="7815612569425733764">För <xliff:g id="schedule_name" example="Schedule 1">%1$s</xliff:g></string>
     <string name="summary_divider_text" msgid="8836285171484563986">", "</string>
-    <string name="summary_range_symbol_combination" msgid="8447490077794415525">"<xliff:g id="START">%1$s</xliff:g>–<xliff:g id="END">%2$s</xliff:g>"</string>
-    <string name="summary_range_verbal_combination" msgid="6022314482293187463">"<xliff:g id="START">%1$s</xliff:g> till <xliff:g id="END">%2$s</xliff:g>"</string>
+    <string name="summary_range_symbol_combination" msgid="8447490077794415525"><xliff:g id="start" example="Sun">%1$s</xliff:g> - <xliff:g id="end" example="Thu">%2$s</xliff:g></string>
+    <string name="summary_range_verbal_combination" msgid="6022314482293187463"><xliff:g id="start" example="Sun">%1$s</xliff:g> till <xliff:g id="end" example="Thu">%2$s</xliff:g></string>
     <string name="zen_mode_conversations_title" msgid="5491912973456026379">"Konversationer"</string>
     <string name="zen_mode_conversations_section_title" msgid="666809483050936026">"Konversationer som får störa dig"</string>
     <string name="zen_mode_from_all_conversations" msgid="3447000451361857061">"Alla konversationer"</string>
@@ -3792,7 +3795,7 @@
     <string name="zen_mode_calls_list" msgid="5044730950895749093">"samtal"</string>
     <string name="zen_mode_calls_header" msgid="8379225445095856726">"Samtal som får störa dig"</string>
     <string name="zen_mode_calls_footer" msgid="2008079711083701243">"Kontrollera att enheten är inställd på att ringa, så att du vet att tillåtna samtal hörs"</string>
-    <string name="zen_mode_custom_calls_footer" msgid="6521283204577441053">"Inkommande samtal blockeras med <xliff:g id="SCHEDULE_NAME">%1$s</xliff:g>. Du kan anpassa inställningarna så att vänner, familj eller andra kontakter ändå kan nå dig."</string>
+    <string name="zen_mode_custom_calls_footer" msgid="6521283204577441053">Inkommande samtal blockeras med <xliff:g id="schedule_name" example="Schedule 1">%1$s</xliff:g>. Du kan anpassa inställningarna så att vänner, familj eller andra kontakter ändå kan nå dig.</string>
     <string name="zen_mode_starred_contacts_title" msgid="630299631659575589">"Stjärnmärkta kontakter"</string>
     <plurals name="zen_mode_starred_contacts_summary_additional_contacts" formatted="false" msgid="7001724653833724925">
         <item quantity="one">1 till</item>
@@ -3804,7 +3807,7 @@
     <string name="zen_mode_messages_title" msgid="1777598523485334405">"Meddelanden"</string>
     <string name="zen_mode_messages_header" msgid="253721635061451577">"Meddelanden som får störa dig"</string>
     <string name="zen_mode_messages_footer" msgid="6002468050854126331">"Kontrollera att enheten är inställd på att ringa, så att du vet att tillåtna meddelanden hörs"</string>
-    <string name="zen_mode_custom_messages_footer" msgid="7545180036949550830">"Inkommande meddelanden blockeras med <xliff:g id="SCHEDULE_NAME">%1$s</xliff:g>. Du kan anpassa inställningarna så att vänner, familj eller andra kontakter ändå kan nå dig."</string>
+    <string name="zen_mode_custom_messages_footer" msgid="7545180036949550830">Inkommande meddelanden blockeras med <xliff:g id="schedule_name" example="Schedule 1">%1$s</xliff:g>. Du kan anpassa inställningarna så att vänner, familj eller andra kontakter ändå kan nå dig.</string>
     <string name="zen_mode_all_messages_summary" msgid="3756267858343104554">"Alla meddelanden kan nå dig"</string>
     <string name="zen_mode_all_calls_summary" msgid="7337907849083824698">"Alla samtal kan nå dig"</string>
     <string name="zen_mode_contacts_count_none" msgid="7928563147160462589">"Inga"</string>
@@ -3876,7 +3879,7 @@
     <string name="zen_mode_repeat_callers_list" msgid="181819778783743847">"när någon ringer flera gånger"</string>
     <!-- no translation found for zen_mode_calls_summary_one (1928015516061784276) -->
     <skip/>
-    <string name="zen_mode_calls_summary_two" msgid="6351563496898410742">"<xliff:g id="CALLER_TYPE_0">%1$s</xliff:g> och <xliff:g id="CALLER_TYPE_1">%2$s</xliff:g>"</string>
+    <string name="zen_mode_calls_summary_two" msgid="6351563496898410742"><xliff:g id="caller type" example="starred contacts">%1$s</xliff:g> och <xliff:g id="caller type" example="repeat callers">%2$s</xliff:g></string>
     <string name="zen_mode_repeat_callers_summary" msgid="4121054819936083025">"Om samma person ringer en gång till inom en tidsperiod på <xliff:g id="MINUTES">%d</xliff:g> minuter"</string>
     <string name="zen_mode_behavior_summary_custom" msgid="3126805555852783860">"Anpassa"</string>
     <string name="zen_mode_when" msgid="5710214762051824755">"Aktivera automatiskt"</string>
@@ -3885,7 +3888,7 @@
     <string name="zen_mode_when_weeknights" msgid="531342225633264368">"Veckodagskvällar"</string>
     <string name="zen_mode_start_time" msgid="1252665038977523332">"Starttid"</string>
     <string name="zen_mode_end_time" msgid="223502560367331706">"Sluttid"</string>
-    <string name="zen_mode_end_time_next_day_summary_format" msgid="419683704068360804">"<xliff:g id="FORMATTED_TIME">%s</xliff:g> nästa dag"</string>
+    <string name="zen_mode_end_time_next_day_summary_format" msgid="419683704068360804"><xliff:g id="formatted_time" example="7:00 AM">%s</xliff:g> nästa dag</string>
     <string name="zen_mode_summary_alarms_only_indefinite" msgid="910047326128154945">"Ändra till endast alarm tills vidare"</string>
     <plurals name="zen_mode_summary_alarms_only_by_minute" formatted="false" msgid="1900512966361163390">
         <item quantity="one">Ändra till endast alarm i en minut till och med <xliff:g id="formattedTime" example="10:00 PM">%2$s</xliff:g></item>
@@ -3895,7 +3898,7 @@
         <item quantity="one">Ändra till endast alarm i en timme till och med <xliff:g id="formattedTime" example="10:00 PM">%2$s</xliff:g></item>
         <item quantity="other">Ändra till endast alarm i <xliff:g id="duration" example="2">%1$d</xliff:g>timmar till och med <xliff:g id="formattedTime" example="10:00 PM">%2$s</xliff:g></item>
     </plurals>
-    <string name="zen_mode_summary_alarms_only_by_time" msgid="8140619669703968810">"Ändra till endast alarm fram till kl. <xliff:g id="FORMATTEDTIME">%1$s</xliff:g>"</string>
+    <string name="zen_mode_summary_alarms_only_by_time" msgid="8140619669703968810">Ändra till endast alarm fram till kl. <xliff:g id="formattedTime" example="10:00 PM">%1$s</xliff:g></string>
     <string name="zen_mode_summary_always" msgid="722093064250082317">"Ändra till avbryt alltid"</string>
     <string name="zen_mode_screen_on" msgid="7312758100468915319">"När skärmen är på"</string>
     <string name="zen_mode_screen_on_summary" msgid="510055058460316698">"Tillåt att aviseringar som tystats via Stör ej visas på skärmen och visa en ikon i statusfältet"</string>
@@ -3940,9 +3943,9 @@
     <string name="encrypt_talkback_dialog_require_pin" msgid="8974156384205924887">"Ska pinkod krävas?"</string>
     <string name="encrypt_talkback_dialog_require_pattern" msgid="1587587568721873184">"Kräv grafiskt lösenord?"</string>
     <string name="encrypt_talkback_dialog_require_password" msgid="2701793623210531836">"Ska lösenord krävas?"</string>
-    <string name="encrypt_talkback_dialog_message_pin" msgid="4482887117824444481">"Tillgänglighetstjänster som <xliff:g id="SERVICE">%1$s</xliff:g> kommer inte att vara tillgängliga när du anger pinkoden och startar enheten."</string>
-    <string name="encrypt_talkback_dialog_message_pattern" msgid="5156321541636018756">"Tillgänglighetstjänster som <xliff:g id="SERVICE">%1$s</xliff:g> kommer inte att vara tillgängliga när du ritar ditt mönster och startar enheten."</string>
-    <string name="encrypt_talkback_dialog_message_password" msgid="1917287751192953034">"Tillgänglighetstjänster som <xliff:g id="SERVICE">%1$s</xliff:g> kommer inte att vara tillgängliga när du anger lösenordet och startar enheten."</string>
+    <string name="encrypt_talkback_dialog_message_pin" msgid="4482887117824444481">Tillgänglighetstjänster som <xliff:g id="service" example="TalkBack">%1$s</xliff:g> kommer inte att vara tillgängliga när du anger pinkoden och startar enheten.</string>
+    <string name="encrypt_talkback_dialog_message_pattern" msgid="5156321541636018756">Tillgänglighetstjänster som <xliff:g id="service" example="TalkBack">%1$s</xliff:g> kommer inte att vara tillgängliga när du ritar ditt mönster och startar enheten.</string>
+    <string name="encrypt_talkback_dialog_message_password" msgid="1917287751192953034">Tillgänglighetstjänster som <xliff:g id="service" example="TalkBack">%1$s</xliff:g> kommer inte att vara tillgängliga när du anger lösenordet och startar enheten.</string>
     <string name="direct_boot_unaware_dialog_message" msgid="5766006106305996844">"Obs! Om du startar om mobilen och har ställt in ett skärmlås kan appen inte startas förrän du låser upp mobilen."</string>
     <string name="imei_information_title" msgid="8703564992893669514">"Information om IMEI-kod"</string>
     <string name="imei_information_summary" msgid="4763358372990258786">"Relativ information om IMEI-kod"</string>
@@ -3953,10 +3956,10 @@
     <string name="app_launch_open_domain_urls_summary" msgid="3609156836041234957">"Öppna utan att fråga"</string>
     <string name="app_launch_supported_domain_urls_title" msgid="5088779668667217369">"Länkar som stöds"</string>
     <string name="app_launch_other_defaults_title" msgid="3296350563585863885">"Andra standardinställningar"</string>
-    <string name="storage_summary_format" msgid="5721782272185284276">"<xliff:g id="SIZE">%1$s</xliff:g> används i <xliff:g id="STORAGE_TYPE">%2$s</xliff:g>"</string>
+    <string name="storage_summary_format" msgid="5721782272185284276"><xliff:g id="size" example="30.00MB">%1$s</xliff:g> används i <xliff:g id="storage_type" example="internal memory">%2$s</xliff:g></string>
     <string name="storage_type_internal" msgid="979243131665635278">"intern lagring"</string>
     <string name="storage_type_external" msgid="125078274000280821">"extern lagring"</string>
-    <string name="data_summary_format" msgid="8802057788950096650">"<xliff:g id="SIZE">%1$s</xliff:g> använt sedan <xliff:g id="DATE">%2$s</xliff:g>"</string>
+    <string name="data_summary_format" msgid="8802057788950096650"><xliff:g id="size" example="30.00MB">%1$s</xliff:g> använt sedan <xliff:g id="date" example="Jan 12">%2$s</xliff:g></string>
     <string name="storage_used" msgid="2591194906751432725">"Lagringsutrymme som används"</string>
     <string name="change" msgid="273206077375322595">"Ändra"</string>
     <string name="change_storage" msgid="8773820275624113401">"Byt lagringsplats"</string>
@@ -3964,7 +3967,7 @@
     <string name="notifications_enabled" msgid="7743168481579361019">"På"</string>
     <string name="notifications_enabled_with_info" msgid="1808946629277684308"><xliff:g id="notifications_sent" example="~6 per week">%1$s</xliff:g> / <xliff:g id="notifications_categories_off" example="3 categories turned off">%2$s</xliff:g> </string>
     <string name="notifications_disabled" msgid="5603160425378437143">"Av"</string>
-    <string name="notifications_partly_blocked" msgid="5738239705473445725">"<xliff:g id="COUNT_0">%1$d</xliff:g> av <xliff:g id="COUNT_1">%2$d</xliff:g> kategorier har inaktiverats"</string>
+    <string name="notifications_partly_blocked" msgid="5738239705473445725"><xliff:g id="count" example="1">%1$d</xliff:g> av <xliff:g id="count" example="10">%2$d</xliff:g> kategorier har inaktiverats</string>
     <string name="notifications_silenced" msgid="2673798575466545098">"Utan ljud"</string>
     <string name="notifications_redacted" msgid="8820993927920208612">"Känsligt innehåll visas inte på låsskärmen"</string>
     <string name="notifications_hidden" msgid="2415415452913806859">"Inte på låsskärmen"</string>
@@ -3973,16 +3976,16 @@
     <string name="notification_summary_level" msgid="4074326972839105652">"Nivå %d"</string>
     <string name="notification_summary_channel" msgid="8459033623057872803">"<xliff:g id="CHANNEL_NAME">%1$s</xliff:g> • <xliff:g id="GROUP_NAME">%2$s</xliff:g>"</string>
     <plurals name="notifications_categories_off" formatted="false" msgid="1385401442703692986">
-        <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> kategorier har inaktiverats</item>
-        <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> kategori har inaktiverats</item>
+        <item quantity="one"><xliff:g id="count" example="1">%d</xliff:g> kategori har inaktiverats</item>
+        <item quantity="other"><xliff:g id="count" example="10">%d</xliff:g> kategorier har inaktiverats</item>
     </plurals>
     <plurals name="permissions_summary" formatted="false" msgid="5015472550875144481">
-        <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> behörigheter har getts</item>
-        <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> behörighet har getts</item>
+        <item quantity="one"><xliff:g id="count" example="1">%d</xliff:g> behörighet har getts</item>
+        <item quantity="other"><xliff:g id="count" example="10">%d</xliff:g> behörigheter har getts</item>
     </plurals>
     <plurals name="runtime_permissions_summary" formatted="false" msgid="2091022049141391855">
-        <item quantity="other"><xliff:g id="COUNT_2">%d</xliff:g> av <xliff:g id="COUNT_3">%d</xliff:g> behörigheter har beviljats</item>
-        <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> av <xliff:g id="COUNT_1">%d</xliff:g> behörighet har beviljats</item>
+        <item quantity="one"><xliff:g id="count" example="1">%d</xliff:g> av <xliff:g id="count" example="1">%d</xliff:g> behörighet har beviljats</item>
+        <item quantity="other"><xliff:g id="count" example="10">%d</xliff:g> av <xliff:g id="count" example="10">%d</xliff:g> behörigheter har beviljats</item>
     </plurals>
     <plurals name="runtime_permissions_additional_count" formatted="false" msgid="5888624648943937645">
         <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> behörigheter till</item>
@@ -4004,14 +4007,14 @@
     <string name="configure_apps" msgid="5468359087126598115">"Konfigurera appar"</string>
     <string name="unknown_app" msgid="2027248925719898714">"Okänd app"</string>
     <string name="app_permissions" msgid="8666537659217653626">"Behörighetshantering"</string>
-    <string name="app_permissions_summary" msgid="2709819220672938860">"Appar som använder <xliff:g id="APPS">%1$s</xliff:g>"</string>
-    <string name="app_permissions_summary_more" msgid="6247952473615352350">"Appar som använder <xliff:g id="APPS">%1$s</xliff:g> med mera"</string>
+    <string name="app_permissions_summary" msgid="2709819220672938860">Appar som använder <xliff:g id="apps" example="location">%1$s</xliff:g></string>
+    <string name="app_permissions_summary_more" msgid="6247952473615352350">Appar som använder <xliff:g id="apps" example="location">%1$s</xliff:g> med mera</string>
     <string name="tap_to_wake" msgid="3313433536261440068">"Väck genom att trycka"</string>
     <string name="tap_to_wake_summary" msgid="6641039858241611072">"Väck enheten genom att trycka två gånger var som helst på skärmen"</string>
     <string name="domain_urls_title" msgid="7012209752049678876">"Öppna länkar"</string>
     <string name="domain_urls_summary_none" msgid="1132578967643384733">"Öppna inte länkar som stöds"</string>
-    <string name="domain_urls_summary_one" msgid="3312008753802762892">"Öppna <xliff:g id="DOMAIN">%s</xliff:g>"</string>
-    <string name="domain_urls_summary_some" msgid="1197692164421314523">"Öppna <xliff:g id="DOMAIN">%s</xliff:g> och andra webbadresser"</string>
+    <string name="domain_urls_summary_one" msgid="3312008753802762892">Öppna <xliff:g id="domain" example="mail.google.com">%s</xliff:g></string>
+    <string name="domain_urls_summary_some" msgid="1197692164421314523">Öppna <xliff:g id="domain" example="mail.google.com">%s</xliff:g> och andra webbadresser</string>
     <string name="domain_urls_apps_summary_off" msgid="2534980824850890416">"Ingen app öppnar länkar som stöds"</string>
     <plurals name="domain_urls_apps_summary_on" formatted="false" msgid="7864816862441985323">
         <item quantity="one">Länkar som stöds kan öppnas av en app</item>
@@ -4049,9 +4052,9 @@
     <string name="usage_access_description" msgid="8547716253713890707">"Med åtkomst till användningsdata kan en app spåra vilka andra appar du använder och hur ofta, samt vilken operatör du har, språkinställningar och andra uppgifter."</string>
     <string name="memory_settings_title" msgid="6582588646363308430">"Minne"</string>
     <string name="memory_details_title" msgid="3048107441540417799">"Minnesinformation"</string>
-    <string name="always_running" msgid="9012705720688200252">"Körs alltid (<xliff:g id="PERCENTAGE">%s</xliff:g>)"</string>
-    <string name="sometimes_running" msgid="7954947311082655448">"Körs ibland (<xliff:g id="PERCENTAGE">%s</xliff:g>)"</string>
-    <string name="rarely_running" msgid="2704869567353196798">"Körs sällan (<xliff:g id="PERCENTAGE">%s</xliff:g>)"</string>
+    <string name="always_running" msgid="9012705720688200252">Körs alltid (<xliff:g id="percentage" example="5%">%s</xliff:g>)</string>
+    <string name="sometimes_running" msgid="7954947311082655448">Körs ibland (<xliff:g id="percentage" example="5%">%s</xliff:g>)</string>
+    <string name="rarely_running" msgid="2704869567353196798">Körs sällan (<xliff:g id="percentage" example="5%">%s</xliff:g>)</string>
     <string name="memory_max_use" msgid="8721866158069974846">"Högsta"</string>
     <string name="memory_avg_use" msgid="4620476409349875703">"Genomsnittlig"</string>
     <string name="memory_max_desc" msgid="6966923521720393526">"Högsta: <xliff:g id="MEMORY">%1$s</xliff:g>"</string>
@@ -5012,4 +5015,9 @@
     <string name="service_client_name"><xliff:g id="client_name">%1$s</xliff:g></string>
     <string name="battery_saver_seekbar_title"><xliff:g id="percent">%1$s</xliff:g></string>
     <string name="call_manager_summary"><xliff:g id="app">%1$s</xliff:g></string>
+    <string name="e_dns_settings_title">DNS-inställningar</string>
+    <string name="e_dns_mode">DNS</string>
+    <string name="e_dns_not_set">9.9.9.9</string>
+    <string name="e_dns_name">DNS</string>
+    <string name="e_dns_summary">DNS-konfiguration</string>
 </resources>
