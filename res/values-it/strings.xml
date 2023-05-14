@@ -220,7 +220,7 @@
     <string name="sd_card_settings_label" product="nosdcard" msgid="1850505156136467106">"Archivio USB"</string>
     <string name="sd_card_settings_label" product="default" msgid="8715502912796241588">"Scheda SD"</string>
     <string name="proxy_settings_label" msgid="6300573815025557843">"Impostazioni proxy"</string>
-    <string name="cancel" msgid="5780102414089664898">"Annulla"</string>
+    <string name="cancel" msgid="5780102414089664898">Annulla</string>
     <string name="okay" msgid="4827099303045669054">"OK"</string>
     <string name="forget" msgid="3754013654135912783">"Elimina"</string>
     <string name="save" msgid="3125033126936493822">"Salva"</string>
@@ -920,7 +920,7 @@
     <string name="wifi_dpp_add_device" msgid="8695656122114721335">"Aggiungi dispositivo"</string>
     <string name="wifi_dpp_connect_network_using_qr_code" msgid="6975258007798254937">"Usa un codice QR per aggiungere un dispositivo a questa rete"</string>
     <string name="wifi_dpp_qr_code_is_not_valid_format" msgid="5190689503019328279">"Il formato del codice QR non è valido"</string>
-    <string name="retry" msgid="7542103800274026915">"Riprova"</string>
+    <string name="retry" msgid="7542103800274026915">Ritenta</string>
     <string name="wifi_shared" msgid="8850748923537589782">"Condividi con altri utenti del dispositivo"</string>
     <string name="wifi_unchanged" msgid="8026045290856150191">"(invariata)"</string>
     <string name="wifi_unspecified" msgid="4561964943472312208">"Seleziona un\'opzione"</string>
@@ -1554,7 +1554,7 @@
     <string name="mvno_match_data" msgid="5213193073684321156">"Valore MVNO"</string>
     <string name="menu_delete" msgid="9199740901584348273">"Elimina APN"</string>
     <string name="menu_new" msgid="6571230342655509006">"Nuovo APN"</string>
-    <string name="menu_save" msgid="6611465355127483100">"Salva"</string>
+    <string name="menu_save" msgid="6611465355127483100">Salva</string>
     <string name="menu_cancel" msgid="4526003389139913077">"Ignora"</string>
     <string name="error_name_empty" msgid="1258275899283079142">"Il campo Nome non può essere vuoto."</string>
     <string name="error_apn_empty" msgid="7657491065443746915">"Il campo APN non può essere vuoto."</string>
@@ -4396,17 +4396,17 @@
     <plurals name="hours" formatted="false" msgid="1853396353451635458">
         <item quantity="one">1 ora</item>
         <item quantity="many"><xliff:g id="number" example="7">%s</xliff:g> ore</item>
-        <item quantity="other"></item>
+        <item quantity="other"/>
     </plurals>
     <plurals name="minutes" formatted="false" msgid="6244503272924425418">
         <item quantity="one">1 minuto</item>
         <item quantity="many"><xliff:g id="number" example="7">%s</xliff:g> minuti</item>
-        <item quantity="other"></item>
+        <item quantity="other"/>
     </plurals>
     <plurals name="seconds" formatted="false" msgid="4237020272336995370">
         <item quantity="one">1 secondo</item>
         <item quantity="many"><xliff:g id="number" example="7">%s</xliff:g> secondi</item>
-        <item quantity="other"></item>
+        <item quantity="other"/>
     </plurals>
     <string name="automatic_storage_manager_settings" msgid="519158151463974656">"Gestisci archiviazione"</string>
     <string name="automatic_storage_manager_text" msgid="6900593059927987273">"Per liberare spazio, la gestione memoria rimuove foto e video dal dispositivo dopo averne eseguito il backup."</string>
@@ -4965,7 +4965,7 @@
     <string name="wifi_type_11AX">Wi‑Fi 6</string>
     <string name="wifi_type_title">Tipo</string>
     <string name="wifi_do_not_validate_eap_server_warning">Nessun certificato specificato. Connessione non protetta.</string>
-    <string name="intent_sender_data_label"><xliff:g id="data">Dati:</xliff:g></string>
+    <string name="intent_sender_data_label"><xliff:g id="data">Data:</xliff:g></string>
     <string name="e_dns_title">Inserisci IP DNS</string>
     <string name="debug_intent_sender_label">Tentativo di tracciare il mittente</string>
     <string name="preview_page_indicator_content_description">Anteprima, pagina <xliff:g id="current_page" example="3">%1$d</xliff:g> di <xliff:g id="num_pages" example="9">%2$d</xliff:g></string>
