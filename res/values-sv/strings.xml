@@ -3773,8 +3773,8 @@
         <item quantity="other"><xliff:g id="count" example="10">%d</xliff:g> av <xliff:g id="count" example="10">%d</xliff:g> behörigheter har beviljats</item>
     </plurals>
     <plurals name="runtime_permissions_additional_count" formatted="false" msgid="5888624648943937645">
-        <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> behörigheter till</item>
-        <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> behörighet till</item>
+        <item quantity="one"><xliff:g id="count" example="1">%d</xliff:g> behörighet till</item>
+        <item quantity="other"><xliff:g id="count" example="10">%d</xliff:g> behörigheter till</item>
     </plurals>
     <string name="runtime_permissions_summary_no_permissions_granted" msgid="7456745929035665029">"Inga behörigheter har beviljats"</string>
     <string name="runtime_permissions_summary_no_permissions_requested" msgid="7174876170116073356">"Inga behörigheter har begärts"</string>
@@ -3836,10 +3836,10 @@
     <string name="rarely_running" msgid="2704869567353196798">Körs sällan (<xliff:g id="percentage" example="5%">%s</xliff:g>)</string>
     <string name="memory_max_use" msgid="8721866158069974846">"Högsta"</string>
     <string name="memory_avg_use" msgid="4620476409349875703">"Genomsnittlig"</string>
-    <string name="memory_max_desc" msgid="6966923521720393526">"Högsta: <xliff:g id="MEMORY">%1$s</xliff:g>"</string>
-    <string name="memory_avg_desc" msgid="2632995851138152303">"Genomsnittlig: <xliff:g id="MEMORY">%1$s</xliff:g>"</string>
-    <string name="memory_use_running_format" msgid="4376086847362492613">"<xliff:g id="MEMORY">%1$s</xliff:g>/<xliff:g id="RUNNING">%2$s</xliff:g>"</string>
-    <string name="process_format" msgid="4239069158701023623">"<xliff:g id="APP_NAME">%1$s</xliff:g> (<xliff:g id="COUNT">%2$d</xliff:g>)"</string>
+    <string name="memory_max_desc" msgid="6966923521720393526">Högsta: <xliff:g id="memory" example="30MB">%1$s</xliff:g></string>
+    <string name="memory_avg_desc" msgid="2632995851138152303">Genomsnittlig: <xliff:g id="memory" example="30MB">%1$s</xliff:g></string>
+    <string name="memory_use_running_format" msgid="4376086847362492613"><xliff:g id="memory" example="30MB">%1$s</xliff:g> / <xliff:g id="running" example="Always running">%2$s</xliff:g></string>
+    <string name="process_format" msgid="4239069158701023623"><xliff:g id="app_name" example="Settings">%1$s</xliff:g> (<xliff:g id="count" example="3">%2$d</xliff:g>)</string>
     <string name="high_power_apps" msgid="5623152700992102510">"Batterioptimering"</string>
     <string name="additional_battery_info" msgid="3104208543623068714">"Aviseringar om användning"</string>
     <string name="show_all_apps" msgid="4490719452453223082">"Visa enhetsanvändning"</string>
@@ -3861,13 +3861,13 @@
     <string name="high_power_prompt_body" msgid="6460557929559616041"> Om du tillåter att <xliff:g id="app_name" example="Settings">%1$s</xliff:g> alltid körs i bakgrunden kan batteritiden minska.
 \n
 \nDu kan ändra detta senare under Inställningar &gt; Appar och aviseringar.</string>
-    <string name="battery_summary" msgid="2491764359695671207">"<xliff:g id="PERCENTAGE">%1$s</xliff:g> förbrukat sedan batteriet senast laddats fullt"</string>
+    <string name="battery_summary" msgid="2491764359695671207"><xliff:g id="percentage" example="2">%1$s</xliff:g> förbrukat sedan batteriet senast laddats fullt</string>
     <string name="battery_power_management" msgid="7507188088567087384">"Energialternativ"</string>
     <string name="no_battery_summary" msgid="5769159953384122003">"Har inte förbrukat något batteri sedan batteriet senast var fulladdat"</string>
     <string name="app_notification_preferences" msgid="2004680717999108725">"Appinställningar"</string>
     <string name="system_ui_settings" msgid="936169564323330967">"Visa inställningar för systemgränssnitt"</string>
     <string name="additional_permissions" msgid="4656871347558988462">"Ytterligare behörigheter"</string>
-    <string name="additional_permissions_more" msgid="8188145515437525307">"<xliff:g id="COUNT">%1$d</xliff:g> till"</string>
+    <string name="additional_permissions_more" msgid="8188145515437525307"><xliff:g id="count" example="2">%1$d</xliff:g> till</string>
     <string name="share_remote_bugreport_dialog_title" msgid="1575283098565582433">"Vill du dela felrapporten?"</string>
     <string name="share_remote_bugreport_dialog_message_finished" msgid="4869053468609007680">"IT-administratören har bett om en felrapport som hjälp vid felsökningen av den här enheten. Appar och data kan komma att delas."</string>
     <string name="share_remote_bugreport_dialog_message" msgid="8714439220818865391">"IT-administratören har bett om en felrapport som hjälp vid felsökningen av den här enheten. Appar och data kan komma att delas. Detta kan tillfälligt göra enheten långsammare."</string>
@@ -3918,7 +3918,7 @@
     <string name="memory_usage" msgid="5594133403819880617">"Minnesanvändning"</string>
     <string name="app_list_memory_use" msgid="3178720339027577869">"Appanvändning"</string>
     <string name="memory_details" msgid="6133226869214421347">"Information"</string>
-    <string name="memory_use_summary" msgid="3915964794146424142">"<xliff:g id="SIZE">%1$s</xliff:g> genomsnittlig minnesanvändning de senaste 3 timmarna"</string>
+    <string name="memory_use_summary" msgid="3915964794146424142"><xliff:g id="size" example="30MB">%1$s</xliff:g> genomsnittlig minnesanvändning de senaste 3 timmarna</string>
     <string name="no_memory_use_summary" msgid="6708111974923274436">"Inget minne har använts de senaste 3 timmarna"</string>
     <string name="sort_avg_use" msgid="4416841047669186903">"Sortera efter genomsnittsanvändning"</string>
     <string name="sort_max_use" msgid="3370552820889448484">"Sortera efter maximal användning"</string>
@@ -3934,19 +3934,19 @@
     <string name="running_frequency" msgid="7260225121706316639">"Frekvens"</string>
     <string name="memory_maximum_usage" msgid="2047013391595835607">"Maximal användning"</string>
     <string name="no_data_usage" msgid="4665617440434654132">"Ingen data används"</string>
-    <string name="zen_access_warning_dialog_title" msgid="6323325813123130154">"Vill du tillåta åtkomst till Stör ej för <xliff:g id="APP">%1$s</xliff:g>?"</string>
+    <string name="zen_access_warning_dialog_title" msgid="6323325813123130154">Vill du tillåta åtkomst till Stör ej för <xliff:g id="app" example="Tasker">%1$s</xliff:g>\?</string>
     <string name="zen_access_warning_dialog_summary" msgid="8468714854067428987">"Appen kommer att kunna aktivera och inaktivera Stör ej och ändra relaterade inställningar."</string>
     <string name="zen_access_disabled_package_warning" msgid="6565908224294537889">"Måste vara på eftersom aviseringsåtkomsten är aktiverad"</string>
-    <string name="zen_access_revoke_warning_dialog_title" msgid="7377261509261811449">"Vill du återkalla åtkomstbehörigheten till Stör ej för <xliff:g id="APP">%1$s</xliff:g>?"</string>
+    <string name="zen_access_revoke_warning_dialog_title" msgid="7377261509261811449">Vill du återkalla åtkomstbehörigheten till Stör ej för <xliff:g id="app" example="Tasker">%1$s</xliff:g>\?</string>
     <string name="zen_access_revoke_warning_dialog_summary" msgid="8689801842914183595">"Alla Stör ej-regler som skapats med den här appen tas bort."</string>
     <string name="ignore_optimizations_on" msgid="6865583039303804932">"Optimera inte"</string>
     <string name="ignore_optimizations_off" msgid="9186557038453586295">"Optimera"</string>
     <string name="ignore_optimizations_on_desc" msgid="1280043916460939932">"Batteriet kan ta slut fortare. Appen hindras inte längre från att dra batteri i bakgrunden."</string>
     <string name="ignore_optimizations_off_desc" msgid="3324571675983286177">"Rekommenderas för bättre batteritid"</string>
-    <string name="ignore_optimizations_title" msgid="3464172726254542889">"Vill du tillåta att <xliff:g id="APP">%s</xliff:g> ignorerar batterioptimeringar?"</string>
+    <string name="ignore_optimizations_title" msgid="3464172726254542889">Vill du tillåta att <xliff:g id="app" example="Tasker">%s</xliff:g> ignorerar batterioptimeringar\?</string>
     <string name="app_list_preference_none" msgid="1635406344616653756">"Ingen"</string>
     <string name="work_profile_usage_access_warning" msgid="3477719910927319122">"Administratören kan kontrollera dataanvändning för appar i jobbprofilen även om du inaktiverar användningsåtkomst för den här appen"</string>
-    <string name="accessibility_lock_screen_progress" msgid="4597298121698665401">"<xliff:g id="COUNT_0">%1$d</xliff:g> av <xliff:g id="COUNT_1">%2$d</xliff:g> tecken har använts"</string>
+    <string name="accessibility_lock_screen_progress" msgid="4597298121698665401"><xliff:g id="count" example="1">%1$d</xliff:g> av <xliff:g id="count" example="1">%2$d</xliff:g> tecken har använts</string>
     <string name="draw_overlay" msgid="7902083260500573027">"Visa ovanpå andra appar"</string>
     <string name="system_alert_window_settings" msgid="6458633954424862521">"Visa ovanpå andra appar"</string>
     <string name="system_alert_window_apps_title" msgid="1537949185175079866">"Appar"</string>
@@ -3956,14 +3956,14 @@
     <string name="keywords_vr_listener" msgid="902737490270081131">"vr virtuell verklighet lyssnare stereo hjälptjänst"</string>
     <string name="keywords_system_alert_window" msgid="5810664019581804395">"systemvarning dialogruta visa på andra appar"</string>
     <string name="overlay_settings" msgid="2030836934139139469">"Visa ovanpå andra appar"</string>
-    <string name="system_alert_window_summary" msgid="1435856750594492891">"<xliff:g id="COUNT_0">%1$d</xliff:g> av <xliff:g id="COUNT_1">%2$d</xliff:g> appar får visas ovanpå andra appar"</string>
+    <string name="system_alert_window_summary" msgid="1435856750594492891"><xliff:g id="count" example="10">%1$d</xliff:g> av <xliff:g id="count" example="10">%2$d</xliff:g> appar får visas ovanpå andra appar</string>
     <string name="filter_overlay_apps" msgid="2483998217116789206">"Appar med behörighet"</string>
     <string name="app_permission_summary_allowed" msgid="1155115629167757278">"Tillåts"</string>
     <string name="app_permission_summary_not_allowed" msgid="2673793662439097900">"Tillåts inte"</string>
     <string name="keywords_install_other_apps" msgid="563895867658775580">"installera appar okända källor"</string>
     <string name="write_settings" msgid="6864794401614425894">"Ändra systeminställningar"</string>
     <string name="keywords_write_settings" msgid="6908708078855507813">"skriva ändra systeminställningar"</string>
-    <string name="write_settings_summary" msgid="2085800775513476479">"<xliff:g id="COUNT_0">%1$d</xliff:g> av <xliff:g id="COUNT_1">%2$d</xliff:g> appar tillåts ändra systeminställningarna"</string>
+    <string name="write_settings_summary" msgid="2085800775513476479"><xliff:g id="count" example="10">%1$d</xliff:g> av <xliff:g id="count" example="10">%2$d</xliff:g> appar tillåts ändra systeminställningarna</string>
     <string name="filter_install_sources_apps" msgid="6930762738519588431">"Kan installera andra appar"</string>
     <string name="filter_write_settings_apps" msgid="4754994984909024093">"Kan ändra systeminställningar"</string>
     <string name="write_settings_title" msgid="3011034187823288557">"Kan ändra systeminställningar"</string>
@@ -3996,27 +3996,27 @@
     <string name="screen_zoom_conversation_timestamp_4" msgid="2046797647382623313">"Tis. 18:03"</string>
     <string name="disconnected" msgid="3469373726996129247">"Ingen anslutning"</string>
     <string name="keyboard_disconnected" msgid="796053864561894531">"Inte anslutet"</string>
-    <string name="data_usage_summary_format" msgid="6844301859713164522">"<xliff:g id="AMOUNT">%1$s</xliff:g> data används"</string>
-    <string name="data_usage_wifi_format" msgid="7644390582649568117">"<xliff:g id="AMOUNT">^1</xliff:g> används via Wi‑Fi"</string>
+    <string name="data_usage_summary_format" msgid="6844301859713164522"><xliff:g id="amount" example="50%">%1$s</xliff:g> data används</string>
+    <string name="data_usage_wifi_format" msgid="7644390582649568117"><xliff:g id="amount" example="50%">^1</xliff:g> används via Wi‑Fi</string>
     <plurals name="notification_summary" formatted="false" msgid="7638388920823212470">
         <item quantity="one">Inaktiverat för 1 app</item>
         <item quantity="other">Inaktiverat för <xliff:g id="count" example="10">%d</xliff:g> appar</item>
     </plurals>
     <string name="notification_summary_none" msgid="9179312319023988089">"Aktiverat för alla appar"</string>
-    <string name="apps_summary" msgid="4007416751775414252">"<xliff:g id="COUNT">%1$d</xliff:g> appar har installerats"</string>
+    <string name="apps_summary" msgid="4007416751775414252"><xliff:g id="count" example="24">%1$d</xliff:g> appar har installerats</string>
     <string name="apps_summary_example" msgid="6034002063446955592">"24 appar har installerats"</string>
-    <string name="storage_summary" msgid="5903562203143572768">"<xliff:g id="PERCENTAGE">%1$s</xliff:g> används – <xliff:g id="FREE_SPACE">%2$s</xliff:g> ledigt"</string>
-    <string name="storage_summary_with_sdcard" msgid="2063780050580228868">"Internt lagringsutrymme: <xliff:g id="PERCENTAGE">%1$s</xliff:g> används, <xliff:g id="FREE_SPACE">%2$s</xliff:g> ledigt"</string>
-    <string name="display_summary" msgid="5526061030874717172">"Aktivera viloläge efter <xliff:g id="TIMEOUT_DESCRIPTION">%1$s</xliff:g> av inaktivitet"</string>
+    <string name="storage_summary" msgid="5903562203143572768"><xliff:g id="percentage" example="54%">%1$s</xliff:g> används – <xliff:g id="free_space" example="32GB">%2$s</xliff:g> ledigt</string>
+    <string name="storage_summary_with_sdcard" msgid="2063780050580228868">Internt lagringsutrymme: <xliff:g id="percentage" example="54%">%1$s</xliff:g> används, <xliff:g id="free_space" example="32GB">%2$s</xliff:g> ledigt</string>
+    <string name="display_summary" msgid="5526061030874717172">Aktivera viloläge efter <xliff:g id="timeout_description" example="10 minutes">%1$s</xliff:g> av inaktivitet</string>
     <string name="display_dashboard_summary" msgid="5102247404958535634">"Bakgrund, viloläge, teckenstorlek"</string>
     <string name="display_dashboard_summary_with_style" msgid="2792175367835485163">"Format, bakgrunder, tidsgräns för skärmen och teckenstorlek"</string>
     <string name="display_dashboard_nowallpaper_summary" msgid="6198590533661927162">"Viloläge, teckenstorlek"</string>
     <string name="display_summary_example" msgid="4275121979039344438">"Viloläget aktiveras efter tio minuters inaktivitet"</string>
-    <string name="memory_summary" msgid="8221954450951651735">"Genomsnittlig minnesanvändning: <xliff:g id="USED_MEMORY">%1$s</xliff:g> av <xliff:g id="TOTAL_MEMORY">%2$s</xliff:g>"</string>
-    <string name="users_summary" msgid="8473589474976307510">"Inloggad som <xliff:g id="USER_NAME">%1$s</xliff:g>"</string>
-    <string name="payment_summary" msgid="5513009140568552693">"<xliff:g id="APP_NAME">%1$s</xliff:g> är standardval"</string>
+    <string name="memory_summary" msgid="8221954450951651735">Genomsnittlig minnesanvändning: <xliff:g id="used_memory" example="1.7GB">%1$s</xliff:g> av <xliff:g id="total_memory" example="2GB">%2$s</xliff:g></string>
+    <string name="users_summary" msgid="8473589474976307510">Inloggad som <xliff:g id="user_name" example="Jason">%1$s</xliff:g></string>
+    <string name="payment_summary" msgid="5513009140568552693"><xliff:g id="app_name" example="Payment App">%1$s</xliff:g> är standardval</string>
     <string name="backup_disabled" msgid="4503062265560959320">"Säkerhetskopiering har inaktiverats"</string>
-    <string name="android_version_summary" msgid="7818952662015042768">"Uppdaterad till Android <xliff:g id="VERSION">%1$s</xliff:g>"</string>
+    <string name="android_version_summary" msgid="7818952662015042768">Uppdaterad till Android <xliff:g id="version" example="6.0">%1$s</xliff:g></string>
     <string name="android_version_pending_update_summary" msgid="5404532347171027730">"Det finns en uppdatering"</string>
     <string name="disabled_by_policy_title" msgid="8296938784202750494">"Åtgärden är inte tillåten"</string>
     <string name="disabled_by_policy_title_adjust_volume" msgid="1669689058213728099">"Det gick inte att ändra volymen"</string>
@@ -4062,8 +4062,8 @@
     <string name="homepage_condition_footer_content_description" msgid="1568313430995646108">"Komprimera"</string>
     <string name="suggestions_title_v2" msgid="421003737901460147">"Våra förslag"</string>
     <string name="suggestions_title" msgid="61841299295602686">"Förslag"</string>
-    <string name="suggestions_summary" msgid="1709710458908440469">"+<xliff:g id="ID_1">%1$d</xliff:g>"</string>
-    <string name="suggestions_more_title" msgid="240124526378997009">"+<xliff:g id="ID_1">%1$d</xliff:g> till"</string>
+    <string name="suggestions_summary" msgid="1709710458908440469">+<xliff:g name="count" example="3">%1$d</xliff:g></string>
+    <string name="suggestions_more_title" msgid="240124526378997009">+<xliff:g name="count" example="3">%1$d</xliff:g> till</string>
     <plurals name="suggestions_collapsed_title" formatted="false" msgid="5023679825210836444">
         <item quantity="one">1 förslag</item>
         <item quantity="other"><xliff:g id="count" example="10">%1$d</xliff:g> förslag</item>
@@ -4086,28 +4086,28 @@
     <string name="ethernet_data_usage" msgid="4552227880905679761">"Användning av ethernetdata"</string>
     <string name="wifi" msgid="2932584495223243842">"Wi-Fi"</string>
     <string name="ethernet" msgid="4665162609974492983">"Ethernet"</string>
-    <string name="cell_data_template" msgid="6077963976103260821">"<xliff:g id="AMOUNT">^1</xliff:g> mobildata"</string>
-    <string name="wifi_data_template" msgid="935934798340307438">"<xliff:g id="AMOUNT">^1</xliff:g> Wi-Fi-data"</string>
-    <string name="ethernet_data_template" msgid="1429173767445201145">"<xliff:g id="AMOUNT">^1</xliff:g> ethernetdata"</string>
+    <string name="cell_data_template" msgid="6077963976103260821"><xliff:g id="amount" example="1 GB">^1</xliff:g> mobildata</string>
+    <string name="wifi_data_template" msgid="935934798340307438"><xliff:g id="amount" example="1 GB">^1</xliff:g> wifi-data</string>
+    <string name="ethernet_data_template" msgid="1429173767445201145"><xliff:g id="amount" example="1 GB">^1</xliff:g> ethernetdata</string>
     <string name="billing_cycle" msgid="6618424022653876279">"Datavarning och gräns"</string>
     <string name="app_usage_cycle" msgid="2209413447659270456">"Cykel för appdataanvändning"</string>
-    <string name="cell_data_warning" msgid="5664921950473359634">"Datavarning vid <xliff:g id="ID_1">^1</xliff:g>"</string>
-    <string name="cell_data_limit" msgid="256855024790622112">"Datagräns på <xliff:g id="ID_1">^1</xliff:g>"</string>
-    <string name="cell_data_warning_and_limit" msgid="8393200831986035724">"Datavarning vid <xliff:g id="ID_1">^1</xliff:g>/datagräns på <xliff:g id="ID_2">^2</xliff:g>"</string>
-    <string name="billing_cycle_fragment_summary" msgid="6346655500491631357">"Den <xliff:g id="ID_1">%1$s</xliff:g> varje månad"</string>
+    <string name="cell_data_warning" msgid="5664921950473359634">Datavarning vid <xliff:g name="amount" example="1 GB">^1</xliff:g></string>
+    <string name="cell_data_limit" msgid="256855024790622112">Datagräns på <xliff:g name="amount" example="1 GB">^1</xliff:g></string>
+    <string name="cell_data_warning_and_limit" msgid="8393200831986035724">Datavarning vid <xliff:g name="amount" example="1 GB">^1</xliff:g>/datagräns på <xliff:g name="amount" example="2 GB">^2</xliff:g></string>
+    <string name="billing_cycle_fragment_summary" msgid="6346655500491631357">Den <xliff:g name="day_of_month" example="17">%1$s</xliff:g> varje månad</string>
     <string name="network_restrictions" msgid="8385824604048229846">"Nätverksbegränsningar"</string>
     <plurals name="network_restrictions_summary" formatted="false" msgid="3875128958788008975">
         <item quantity="one">1 begränsning</item>
         <item quantity="other"><xliff:g id="count" example="10">%1$d</xliff:g> begränsningar</item>
     </plurals>
     <string name="operator_warning" msgid="5672761970087591211">"Operatörens dataredovisning kan skilja sig från enhetens dataredovisning."</string>
-    <string name="data_used_template" msgid="8229342096562327646">"<xliff:g id="ID_1">%1$s</xliff:g> har använts"</string>
+    <string name="data_used_template" msgid="8229342096562327646"><xliff:g name="amount" example="1 GB">%1$s</xliff:g> har använts</string>
     <string name="set_data_warning" msgid="1685771882794205462">"Ställ in en datavarning"</string>
     <string name="data_warning" msgid="2925054658166062884">"Datavarning"</string>
     <string name="data_warning_footnote" msgid="5991901765915710592">"Datavarningar och datagränser mäts av enheten. Resultatet kan skilja sig från operatörens uppgifter."</string>
     <string name="set_data_limit" msgid="9010326815874642680">"Ange datagräns"</string>
     <string name="data_limit" msgid="8731731657513652363">"Datagräns"</string>
-    <string name="data_usage_template" msgid="3822452362629968010">"<xliff:g id="ID_1">%1$s</xliff:g> användes <xliff:g id="ID_2">%2$s</xliff:g>"</string>
+    <string name="data_usage_template" msgid="3822452362629968010"><xliff:g name="amount" example="200 MB">%1$s</xliff:g> användes <xliff:g name="date_range" example="Jan 1 -- Feb 2">%2$s</xliff:g></string>
     <string name="configure" msgid="1499586749829665889">"Konfigurera"</string>
     <string name="data_usage_other_apps" msgid="5649047093607329537">"Andra appar som är inkluderade i användningen"</string>
     <plurals name="data_saver_unrestricted_summary" formatted="false" msgid="3316296488378947221">
@@ -4116,19 +4116,19 @@
     </plurals>
     <string name="data_usage_title" msgid="4039024073687469094">"Primär data"</string>
     <string name="data_usage_wifi_title" msgid="1060495519280456926">"Wi‑Fi-data"</string>
-    <string name="data_used" msgid="7770571947591789895">"<xliff:g id="ID_1">^1</xliff:g> har använts"</string>
-    <string name="data_used_formatted" msgid="7913920278059077938">"<xliff:g id="ID_1">^1</xliff:g> <xliff:g id="ID_2">^2</xliff:g> använt"</string>
-    <string name="data_overusage" msgid="3680477320458707259">"<xliff:g id="ID_1">^1</xliff:g> över"</string>
-    <string name="data_remaining" msgid="6316251496381922837">"<xliff:g id="ID_1">^1</xliff:g> kvar"</string>
+    <string name="data_used" msgid="7770571947591789895"><xliff:g name="bytes" example="2 GB">^1</xliff:g> har använts</string>
+    <string name="data_used_formatted" msgid="7913920278059077938"><xliff:g name="value" example="500">^1</xliff:g> <xliff:g name="units" example="GB">^2</xliff:g> använt</string>
+    <string name="data_overusage" msgid="3680477320458707259"><xliff:g name="bytes" example="2 GB">^1</xliff:g> över</string>
+    <string name="data_remaining" msgid="6316251496381922837"><xliff:g name="bytes" example="2 GB">^1</xliff:g> kvar</string>
     <plurals name="billing_cycle_days_left" formatted="false" msgid="661792524671718753">
         <item quantity="other">%d dagar kvar</item>
         <item quantity="one">%d dag kvar</item>
     </plurals>
     <string name="billing_cycle_none_left" msgid="1694844019159277504">"Ingen tid återstår"</string>
     <string name="billing_cycle_less_than_one_day_left" msgid="1210202399053992163">"Mindre än 1 dag kvar"</string>
-    <string name="carrier_and_update_text" msgid="5363656651921656280">"Uppdaterades av <xliff:g id="ID_1">^1</xliff:g> för <xliff:g id="ID_2">^2</xliff:g> sedan"</string>
-    <string name="no_carrier_update_text" msgid="5432798085593055966">"Uppdaterades för <xliff:g id="ID_1">^2</xliff:g> sedan"</string>
-    <string name="carrier_and_update_now_text" msgid="5075861262344398849">"Uppdaterades av <xliff:g id="ID_1">^1</xliff:g> alldeles nyss"</string>
+    <string name="carrier_and_update_text" msgid="5363656651921656280">Uppdaterades av &lt;&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" name=\"carrier\" example=\"T-mobile\"&gt;^1&lt;/xliff:g&gt; för &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" name=\"time\" example=\"3m\"&gt;^2&lt;/xliff:g&gt; sedan</string>
+    <string name="no_carrier_update_text" msgid="5432798085593055966">Uppdaterades för <xliff:g name="time" example="3m">^2</xliff:g> sedan</string>
+    <string name="carrier_and_update_now_text" msgid="5075861262344398849">Uppdaterades av <xliff:g name="carrier" example="T-mobile">^1</xliff:g> alldeles nyss</string>
     <string name="no_carrier_update_now_text" msgid="7898004907837200752">"Uppdaterades alldeles nyss"</string>
     <string name="launch_mdp_app_text" msgid="8791816789749304897">"Visa abonnemang"</string>
     <string name="launch_wifi_text" msgid="976421974332512894">"Visa detaljer"</string>
@@ -4149,7 +4149,7 @@
     <string name="suggestion_additional_fingerprints" msgid="4726777300101156208">"Lägg till ett fingeravtryck"</string>
     <string name="suggestion_additional_fingerprints_summary" msgid="2825364645039666674">"Lås upp med ett annat finger"</string>
     <string name="battery_saver_on_summary" msgid="4605146593966255848">"På"</string>
-    <string name="battery_saver_off_scheduled_summary" msgid="2193875981740829819">"Aktiveras vid <xliff:g id="BATTERY_PERCENTAGE">%1$s</xliff:g>"</string>
+    <string name="battery_saver_off_scheduled_summary" msgid="2193875981740829819">Aktiveras vid <xliff:g id="battery_percentage" example="15%">%1$s</xliff:g></string>
     <string name="battery_saver_off_summary" msgid="4411561435493109261">"Av"</string>
     <string name="battery_saver_button_turn_on" msgid="2206239048232352476">"Aktivera nu"</string>
     <string name="battery_saver_button_turn_off" msgid="6371072408072481484">"Inaktivera nu"</string>
@@ -4215,7 +4215,7 @@
     <string name="premium_sms_warning" msgid="2192300872411073324">"Det kan hända att premium-sms kostar pengar och läggs till på dina fakturor från operatören. Om du ger en app åtkomst kan du skicka premium-sms med den appen."</string>
     <string name="premium_sms_access" msgid="5605970342699013212">"Åtkomst till premium-sms"</string>
     <string name="bluetooth_disabled" msgid="835838280837359514">"Av"</string>
-    <string name="bluetooth_connected_summary" msgid="8043167194934315712">"Ansluten till <xliff:g id="ID_1">%1$s</xliff:g>"</string>
+    <string name="bluetooth_connected_summary" msgid="8043167194934315712">Ansluten till <xliff:g name="device">%1$s</xliff:g></string>
     <string name="bluetooth_connected_multiple_devices_summary" msgid="2294954614327771844">"Ansluten till flera enheter"</string>
     <string name="demo_mode" msgid="6566167465451386728">"Demoläge för systemgränssnitt"</string>
     <string name="dark_ui_mode" msgid="898146394425795281">"Mörkt tema"</string>
@@ -4273,7 +4273,7 @@
     <string name="legacy_navigation_title" msgid="7877402855994423727">"Navigering med tre knappar"</string>
     <string name="legacy_navigation_summary" msgid="5905301067778326433">"Öppna startskärmen, gå tillbaka och byt app med knappar längst ned på skärmen."</string>
     <string name="keywords_system_navigation" msgid="3196622931210138387">"systemnavigering, navigering med två knappar, navigering med tre knappar, navigering med rörelser"</string>
-    <string name="gesture_not_supported_dialog_message" msgid="5316512246119347889">"Stöds inte av din standardapp för startskärm, <xliff:g id="DEFAULT_HOME_APP">%s</xliff:g>"</string>
+    <string name="gesture_not_supported_dialog_message" msgid="5316512246119347889">Stöds inte av din standardapp för startskärm, <xliff:g id="default_home_app" example="Pixel Launcher">%s</xliff:g></string>
     <string name="gesture_not_supported_positive_button" msgid="7909969459977021893">"Byt standardapp för startskärm"</string>
     <string name="information_label" msgid="6939310810756569298">"Information"</string>
     <string name="low_label" msgid="6525629096999711220">"Låg"</string>
@@ -4308,7 +4308,9 @@
     <string name="oem_unlock_enable_disabled_summary_connectivity_or_locked" msgid="7425519481227423860">"Anslut till internet eller kontakta operatören"</string>
     <string name="oem_unlock_enable_disabled_summary_sim_locked_device" msgid="168124660162907358">"Ej tillgängligt på operatörslåsta enheter."</string>
     <string name="oem_lock_info_message" msgid="8843145669619429197">"Starta om enheten om du vill aktivera funktionen enhetsskydd."</string>
-    <string name="automatic_storage_manager_freed_bytes" msgid="706230592123831676">"<xliff:g id="SIZE">%1$s</xliff:g> blev tillgängligt totalt\n\nKördes senast den <xliff:g id="DATE">%2$s</xliff:g>"</string>
+    <string name="automatic_storage_manager_freed_bytes" msgid="706230592123831676"><xliff:g id="size" example="3.25MB">%1$s</xliff:g> blev tillgängligt totalt
+\n
+\nKördes senast den <xliff:g id="date" example="Jan 12">%2$s</xliff:g></string>
     <string name="web_action_enable_title" msgid="6654581786741216382">"Snabbappar"</string>
     <string name="web_action_enable_summary" msgid="2658930257777545990">"Öppna länkar i appar, även om de inte har installerats"</string>
     <string name="web_action_section_title" msgid="994717569424234098">"Snabbappar"</string>
