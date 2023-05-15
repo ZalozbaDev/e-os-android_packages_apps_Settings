@@ -41,7 +41,7 @@
     <string name="security_settings_fingerprint_sensor_location_left">sinistra</string>
     <string name="security_settings_fingerprint_sensor_location_right">destra</string>
     <string name="heads_up_notifications_enabled_title">Attenzione</string>
-    <string name="heads_up_notifications_enabled_summary">Visualizza le notifiche prioritarie in una piccola finestra fluttuante</string>
+    <string name="heads_up_notifications_enabled_summary">Mostra le notifiche prioritarie in una piccola finestra mobile</string>
     <string name="high_touch_sensitivity_title">Tocco ad alta sensibilità</string>
     <string name="high_touch_sensitivity_summary">Aumenta la sensibilità del touchscreen per l\'utilizzo con i guanti</string>
     <string name="increasing_ring_volume_option_title">Suoneria incrementale</string>
@@ -100,11 +100,11 @@
     <string name="use_ota_staging_popup_title">Sta per accedere al canale di prova di /e/OS</string>
     <string name="use_ota_summary">Accedere alle versioni di prova di /e/OS</string>
     <string name="title_ota_server">Accedere al canale di prova di /e/OS</string>
-    <string name="advanced_privacy_dashboard_summary">Gestisci i trackers, falsifica la posizione, nascondi gli indirizzi IP</string>
+    <string name="advanced_privacy_dashboard_summary">Gestisci i tracker, falsifica la posizione, nascondi il tuo indirizzo IP</string>
     <string name="lineageos_contributors_title">Contributori LineageOS</string>
     <string name="e_supporters_title">/e/ sostenitori</string>
     <string name="e_contributors_title">/e/ contributori</string>
-    <string name="elicense_title">/e/ legal</string>
+    <string name="elicense_title"></string>
     <string name="e_version">Versione di /e/OS</string>
     <string name="system_update_summary">Aggiornamenti, preferenze, note di rilascio</string>
     <string name="master_clear_desc_e" product="default">Proseguendo, verranno cancellati tutti i dati dalla <b>memoria interna</b> del tablet, inclusi:
@@ -113,4 +113,7 @@
 \n<li>Impostazioni del Sistema e delle App</li>
 \n<li>App scaricate</li></string>
     <string name="enable_telemetry">Abilita la telemetria /e/OS</string>
+    <string name="telemetry_dialog_title">Stai abilitando la Telemetria /e/OS</string>
+    <string name="telemetry_details">Abilita la comunicazione automatica dei bug</string>
+    <string name="telemetry_dialog_message">Consente di comunicare automaticamente i bug in caso di arresto anomalo dell\'app o quando l\'app si trova in uno stato imprevisto. Dopo aver modificato questa impostazione, dovresti riavviare il dispositivo.</string>
 </resources>
