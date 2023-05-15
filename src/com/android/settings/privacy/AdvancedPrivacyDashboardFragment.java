@@ -30,16 +30,16 @@ import com.android.settingslib.search.SearchIndexable;
 @SearchIndexable
 public class AdvancedPrivacyDashboardFragment extends Fragment {
 
-    private static final String privacyCentralPackageName = "foundation.e.advancedprivacy";
-    private static final String privacyCentralActivityName = "foundation.e.privacycentralapp.main.MainActivity";
+    private static final String advancedPrivacyPackageName = "foundation.e.advancedprivacy";
+    private static final String advancedPrivacyActivityName = "foundation.e.advancedprivacy.main.MainActivity";
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
         Activity activity = getActivity();
-        Intent intent = new Intent().setComponent(new ComponentName(privacyCentralPackageName,
-                privacyCentralActivityName));
+        Intent intent = new Intent().setComponent(new ComponentName(advancedPrivacyPackageName,
+                advancedPrivacyActivityName));
         startActivity(intent);
 
         if (activity != null) {
