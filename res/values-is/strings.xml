@@ -798,7 +798,7 @@
     <string name="wifi_tap_to_sign_in" msgid="8658506618807549483">Ýttu hér til að skrá þig inn á netkerfi</string>
     <string name="tx_link_speed" msgid="3071955184703668113"><xliff:g id="Transmit link speed" example="150 Mbps">%1$d</xliff:g> Mb/sek.</string>
     <string name="rx_link_speed" msgid="6292229178855567783"><xliff:g id="Receive link speed" example="54 Mbps">%1$d</xliff:g> Mb/sek.</string>
-    <string name="link_speed" msgid="931786745741016446"><xliff:g id="LINK_SPEED">%1$d</xliff:g> Mb/sek.</string>
+    <string name="link_speed" msgid="931786745741016446"><xliff:g id="Link speed" example="54 Mbps">%1$d</xliff:g> Mb/sek.</string>
     <string name="wifi_ask_enable" msgid="6860056048266810769"><xliff:g id="REQUESTER">%s</xliff:g> vill kveikja á Wi-Fi</string>
     <string name="wifi_ask_disable" msgid="1663208096020309639"><xliff:g id="REQUESTER">%s</xliff:g> vill slökkva á Wi-Fi</string>
     <string name="art_verifier_for_debuggable_title" msgid="1926445785190030479">Staðfesta bætakóða forrita sem hægt er að villuleita</string>
@@ -1311,7 +1311,7 @@
     <string name="ambient_display_category_triggers" msgid="1216640141609270011">Sýnt hvenær</string>
     <string name="doze_title" msgid="1523090408230862316">Vekja skjáinn við tilkynningar</string>
     <string name="doze_summary" msgid="8252867381522942804">Skjárinn kveikir á sér ef nýjar tilkynningar berast</string>
-    <string name="doze_always_on_title" msgid="7326245192352868477">Sýna alltaf klukku og uppl.</string>
+    <string name="doze_always_on_title" msgid="7326245192352868477">Sýna alltaf klukku og upplýsingar</string>
     <string name="doze_always_on_summary" msgid="509097829739647852">Aukin rafhlöðunotkun</string>
     <string name="title_font_size" msgid="570613010306330622">Leturstærð</string>
     <string name="short_summary_font_size" msgid="184712645848458143">Gera texta stærri eða minni</string>
@@ -3296,8 +3296,12 @@
     <string name="contact_discovery_opt_in_summary" msgid="6539010458256667300">Senda símanúmer tengiliða til að gera viðbótareiginleka mögulega</string>
     <string name="contact_discovery_opt_in_dialog_title" msgid="2230536282911854114">Viltu senda tengiliði til <xliff:g id="CARRIER">%1$s</xliff:g>\?</string>
     <string name="contact_discovery_opt_in_dialog_title_no_carrier_defined" msgid="2028983133745990320">Senda tengiliði til símafyrirtækis\?</string>
-    <string name="contact_discovery_opt_in_dialog_message" msgid="8818310894782757538">Símanúmer tengiliðanna þinna verða send reglulega til <xliff:g id="CARRIER">%1$s</xliff:g>.<xliff:g id="EMPTY_LINE"> </xliff:g>Þessar upplýsingar segja fyrir um hvort tengiliðir geti notað tiltekna eiginleika á borð við myndsímtöl og suma skilaboðaeiginleika.</string>
-    <string name="contact_discovery_opt_in_dialog_message_no_carrier_defined" msgid="1914894516552445911">Símanúmer tengiliðanna þinna verða send reglulega til símafyrirtækisins þíns.<xliff:g id="EMPTY_LINE"> </xliff:g>Þessar upplýsingar segja fyrir um hvort tengiliðir geti notað tiltekna eiginleika á borð við myndsímtöl og suma skilaboðaeiginleika.</string>
+    <string name="contact_discovery_opt_in_dialog_message" msgid="8818310894782757538">Símanúmer tengiliðanna þinna verða send reglulega til <xliff:g id="carrier" example="T-mobile">%1$s</xliff:g>.<xliff:g id="empty_line" example="  ">
+\n
+\n </xliff:g>Þessar upplýsingar segja fyrir um hvort tengiliðir geti notað tiltekna eiginleika á borð við myndsímtöl og suma skilaboðaeiginleika.</string>
+    <string name="contact_discovery_opt_in_dialog_message_no_carrier_defined" msgid="1914894516552445911">Símanúmer tengiliðanna þinna verða send reglulega til símafyrirtækisins þíns.<xliff:g id="empty_line" example="  ">
+\n
+\n</xliff:g>Þessar upplýsingar segja fyrir um hvort tengiliðir geti notað tiltekna eiginleika á borð við myndsímtöl og suma skilaboðaeiginleika.</string>
     <string name="preferred_network_type_title" msgid="812509938714590857">Valin símkerfistegund</string>
     <string name="preferred_network_type_summary" msgid="8786291927331323061">LTE (ráðlagt)</string>
     <string name="mms_message_title" msgid="6624505196063391964">MMS-skilaboð</string>
@@ -3490,7 +3494,7 @@
     <string name="remote_media_volume_option_title" msgid="8760846743943305764">Hljóðstyrkur sendingar</string>
     <string name="call_volume_option_title" msgid="1461105986437268924">Hljóðstyrkur símtala</string>
     <string name="alarm_volume_option_title" msgid="6398641749273697140">Hljóðstyrkur vekjara</string>
-    <string name="ring_volume_option_title" msgid="1520802026403038560">Hljóðst. símtala og tilkynn.</string>
+    <string name="ring_volume_option_title" msgid="1520802026403038560">Hljóðstyrkur símtala og tilkynninga</string>
     <string name="notification_volume_option_title" msgid="4838818791683615978">Hljóðstyrkur tilkynninga</string>
     <string name="ringtone_title" msgid="3271453110387368088">Hringitónn síma</string>
     <string name="notification_ringtone_title" msgid="6924501621312095512">Sjálfgefið hljóð tilkynninga</string>
