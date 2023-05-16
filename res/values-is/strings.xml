@@ -347,7 +347,7 @@
     <string name="security_settings_face_enroll_introduction_message_unlock_disabled" msgid="5841976283789481311">Notaðu andlitið til að taka símann þinn úr lás eða staðfesta kaup.
 \n
 \nAthugaðu: Þú getur ekki notað andlitið til að opna þetta tæki. Hafðu samband við kerfisstjóra fyrirtækisins þíns til að fá frekari upplýsingar.</string>
-    <string name="security_settings_face_enroll_introduction_message_setup" msgid="765965418187421753">Notaðu andlitið til að taka símann úr lás, heimila kaup eða skrá þig inn í forrit.</string>
+    <string name="security_settings_face_enroll_introduction_message_setup" msgid="765965418187421753">Notaðu andlitið til að taka símann úr lás, heimila kaup eða skrá þig inn í forrit</string>
     <string name="security_settings_face_enroll_repeat_title" msgid="4446229670377418717">Staðsettu andlit þitt í miðju hringsins</string>
     <string name="security_settings_face_enroll_enrolling_skip" msgid="5568617401632528567">Sleppa</string>
     <string name="face_add_max" msgid="4578405795494514876">Þú getur bætt við allt að <xliff:g id="COUNT">%d</xliff:g> andlitum</string>
@@ -564,7 +564,7 @@
     <string name="crypt_keeper_desc" product="tablet" msgid="4103951371711323192">"Hægt er að dulkóða reikninga, stillingar, sótt forrit og gögn þeirra, margmiðlunarefni og aðrar skrár. Eftir að þú dulkóðar spjaldtölvuna, að því gefnu að þú notist við skjálás (mynstur, PIN-númer eða aðgangsorð), þarftu að opna skjáinn til að afkóða spjaldtölvuna í hvert skipti sem þú kveikir á henni. Eina önnur leiðin sem finnst til að afkóða spjaldtölvuna er með núllstillingu sem eyðir öllum gögnunum þínum.\n\nDulkóðun tekur klukkutíma eða meira. Rafhlaðan þarf að vera fullhlaðin og spjaldtölvan verður að vera tengd við rafmagn meðan á ferlinu stendur. Ef truflun verður á ferlinu muntu glata einhverjum eða öllum gögnunum þínum."</string>
     <string name="crypt_keeper_desc" product="default" msgid="6180866043921135548">Hægt er að dulkóða reikninga, stillingar, sótt forrit og gögn þeirra, margmiðlunarefni og aðrar skrár. Eftir að þú dulkóðar símann, að því gefnu að þú notist við skjálás (mynstur, PIN-númer eða aðgangsorð), þarftu að opna skjáinn til að afkóða símann í hvert skipti sem þú kveikir á honum. Eina önnur leiðin sem finnst til að afkóða símann er með núllstillingu sem eyðir öllum gögnunum þínum.
 \n
-\nDulkóðun tekur klukkutíma eða meira. Rafhlaðan þarf að vera fullhlaðin og síminn verður að vera tengdur við rafmagn meðan á ferlinu stendur. Ef truflun verður á ferlinu muntu glata einhverjum eða öllum gögnunum þínum.</string>
+\nDulkóðun tekur klukkutíma eða meira. Rafhlaðan þarf að vera fullhlaðin og síminn verður að vera tengdur við rafmagn meðan á ferlinu stendur. Ef truflun verður á ferlinu muntu glata einhverjum eða öllum gögnunum þínum</string>
     <string name="crypt_keeper_button_text" product="tablet" msgid="5551608011810921471">"Dulkóða spjaldtölvu"</string>
     <string name="crypt_keeper_button_text" product="default" msgid="6370330929679426136">Dulkóða síma</string>
     <string name="crypt_keeper_low_charge_text" msgid="4920087247177024521">Hladdu rafhlöðuna og reyndu aftur.</string>
@@ -892,8 +892,8 @@
     <string name="wifi_time_remaining" msgid="8503606272869846170"><xliff:g id="REMAINING_TIME">%1$s</xliff:g> eftir</string>
     <string name="wifi_expiry_time" msgid="5419758551129267624">Rennur út <xliff:g id="EXPIRY_TIME">%1$s</xliff:g></string>
     <string name="wifi_tap_to_sign_in" msgid="8658506618807549483">Ýttu hér til að skrá þig inn á netkerfi</string>
-    <string name="tx_link_speed" msgid="3071955184703668113"><xliff:g id="TRANSMIT_LINK_SPEED">%1$d</xliff:g> Mb/sek.</string>
-    <string name="rx_link_speed" msgid="6292229178855567783"><xliff:g id="RECEIVE_LINK_SPEED">%1$d</xliff:g> Mb/sek.</string>
+    <string name="tx_link_speed" msgid="3071955184703668113"><xliff:g id="Transmit link speed" example="150 Mbps">%1$d</xliff:g> Mb/sek.</string>
+    <string name="rx_link_speed" msgid="6292229178855567783"><xliff:g id="Receive link speed" example="54 Mbps">%1$d</xliff:g> Mb/sek.</string>
     <string name="link_speed" msgid="931786745741016446"><xliff:g id="LINK_SPEED">%1$d</xliff:g> Mb/sek.</string>
     <string name="wifi_ask_enable" msgid="6860056048266810769"><xliff:g id="REQUESTER">%s</xliff:g> vill kveikja á Wi-Fi</string>
     <string name="wifi_ask_disable" msgid="1663208096020309639"><xliff:g id="REQUESTER">%s</xliff:g> vill slökkva á Wi-Fi</string>
@@ -1247,7 +1247,7 @@
     <string name="incoming_call_volume_title" msgid="8445408274513654261">Hringitónn</string>
     <string name="notification_volume_title" msgid="328053763590888609">Tilkynning</string>
     <string name="checkbox_notification_same_as_incoming_call" msgid="1798481722572489141">Nota hljóðstyrk hringinga fyrir tilkynningar</string>
-    <string name="home_work_profile_not_supported" msgid="2605589489324241338">Styður ekki vinnusnið.</string>
+    <string name="home_work_profile_not_supported" msgid="2605589489324241338">Styður ekki vinnusnið</string>
     <string name="notification_sound_dialog_title" msgid="7431891669251806266">Sjálfgefið hljóð tilkynninga</string>
     <string name="media_volume_title" msgid="5209147840160985178">Margmiðlun</string>
     <string name="media_volume_summary" msgid="4671324482655564873">Stilla hljóðstyrk fyrir tónlist og myndskeið</string>
@@ -1485,7 +1485,7 @@
     <string name="device_status_activity_title" msgid="1812666241137263882">Staða</string>
     <string name="device_status" msgid="7988547478034984649">Staða</string>
     <string name="device_status_summary" product="tablet" msgid="8826216824111648900">"Staða rafhlöðu, staða nets og aðrar upplýsingar"</string>
-    <string name="device_status_summary" product="default" msgid="8132661857066128832">Símanúmer, sendistyrkur o.s.frv.</string>
+    <string name="device_status_summary" product="default" msgid="8132661857066128832">Staða rafhlöðu, netkerfi og aðrar upplýsingar</string>
     <string name="storage_settings" msgid="7472188817781592677">Geymsla</string>
     <string name="storage_settings_for_app" msgid="229425418984637483">Geymslurými og skyndiminni</string>
     <string name="storage_usb_settings" msgid="7058142934214211583">Geymsla</string>
@@ -1981,7 +1981,7 @@
     <string name="lockpassword_confirm_your_pin_header" msgid="2241722970567131308">Sláðu PIN-númerið inn aftur</string>
     <string name="lockpassword_reenter_your_profile_pin_header" msgid="2890233614560435538">"Sláðu PIN-númerið fyrir vinnu aftur inn"</string>
     <string name="lockpassword_confirm_your_work_pin_header" msgid="4229765521391960255">Sláðu inn PIN-númer fyrir vinnu</string>
-    <string name="lockpassword_confirm_passwords_dont_match" msgid="2100071354970605232">Aðgangsorðin stemma ekki.</string>
+    <string name="lockpassword_confirm_passwords_dont_match" msgid="2100071354970605232">Lykilorðin stemma ekki</string>
     <string name="lockpassword_confirm_pins_dont_match" msgid="1103699575489401030">PIN-númerin stemma ekki</string>
     <string name="lockpassword_draw_your_pattern_again_header" msgid="1045638030120803622">Teiknaðu mynstrið aftur</string>
     <string name="lockpassword_choose_lock_generic_header" msgid="5669348379247148696">Veldu skjálás</string>
@@ -2163,7 +2163,7 @@
     <string name="another_migration_already_in_progress" msgid="6550546307856052261">Annar flutningur er nú þegar í gangi.</string>
     <string name="insufficient_storage" msgid="8115088042669030558">Ekki nægilegt geymslurými.</string>
     <string name="does_not_exist" msgid="6499163879348776120">Forritið er ekki til.</string>
-    <string name="invalid_location" msgid="8013853455355520557">Uppsetningarstaður er ógildur</string>
+    <string name="invalid_location" msgid="8013853455355520557">Uppsetningarstaður er ekki gildur.</string>
     <string name="system_package" msgid="7559476279008519360">Ekki er hægt að setja upp kerfisuppfærslur á ytri geymslumiðlum.</string>
     <string name="move_error_device_admin" msgid="1561502976834303626">Ekki er hægt að setja upp forrit tækjastjóra á ytri geymslumiðlum</string>
     <string name="force_stop_dlg_title" msgid="86745852555490146">Þvinga fram lokun\?</string>
@@ -2179,7 +2179,7 @@
     <string name="instant_app_details_summary" msgid="417197491598208216">Frekari upplýsingar í <xliff:g id="APP_STORE">%1$s</xliff:g></string>
     <string name="app_ops_running" msgid="6127474473137428721">Í birtingu</string>
     <string name="app_ops_never_used" msgid="9038133162371204506">(Aldrei notað)</string>
-    <string name="no_default_apps" msgid="8966319676910104570">Engin sjálfgefin forrit</string>
+    <string name="no_default_apps" msgid="8966319676910104570">Engin sjálfgefin forrit.</string>
     <string name="storageuse_settings_title" msgid="3125650750657988194">Geymslunotkun</string>
     <string name="storageuse_settings_summary" msgid="5001621552305431831">Skoða geymslurými sem forrit nota</string>
     <string name="service_restarting" msgid="5104563288155809226">Endurræsir</string>
@@ -2771,11 +2771,11 @@
         <item quantity="other">Takmarka %1$d forrit</item>
     </plurals>
     <plurals name="battery_tip_restrict_handled_title" formatted="false" msgid="5862649927574803958">
-        <item quantity="one">%2$d forrit nýlega takmarkað</item>
+        <item quantity="one">%1$s nýlega takmarkað</item>
         <item quantity="other">%2$d forrit nýlega takmörkuð</item>
     </plurals>
     <plurals name="battery_tip_restrict_summary" formatted="false" msgid="3328499737453686910">
-        <item quantity="one">%2$d forrit notar mikla rafhlöðuorku í bakgrunni</item>
+        <item quantity="one">%1$s notar mikla rafhlöðuorku í bakgrunni</item>
         <item quantity="other">%2$d forrit nota mikla rafhlöðuorku í bakgrunni</item>
     </plurals>
     <plurals name="battery_tip_restrict_handled_summary" formatted="false" msgid="3036853535034350991">
@@ -2793,7 +2793,7 @@
     <string name="battery_tip_restrict_apps_more_than_5_dialog_message" msgid="4546838397423565138">Til að spara rafhlöðuna skaltu stöðva rafhlöðunotkun þessara forrita í bakgrunni. Takmörkuð forrit munu hugsanlega ekki virka rétt og tilkynningar kunna að tefjast.
 \n
 \nForrit:
-\n<xliff:g id="APP_LIST">%1$s</xliff:g></string>
+\n<xliff:g id="app_list">%1$s</xliff:g>.</string>
     <string name="battery_tip_restrict_app_dialog_ok" msgid="7025027696689301916">Takmarka</string>
     <string name="battery_tip_unrestrict_app_dialog_title" msgid="5501997201160532301">Á að fjarlægja takmörkun\?</string>
     <string name="battery_tip_unrestrict_app_dialog_message" msgid="215449637818582819">Þetta forrit getur notað rafhlöðuna í bakgrunni. Rafhlaðan gæti tæmst hraðar en venjulega.</string>
@@ -2903,7 +2903,7 @@
     <string name="battery_desc_flashlight" msgid="6694895513133361404">Rafhlöðunotkun vasaljóss</string>
     <string name="battery_desc_camera" msgid="6152712271731518018">Rafhlöðunotkun myndavélar</string>
     <string name="battery_desc_display" msgid="7175017688954602685">Rafhlöðunotkun skjás og baklýsingar</string>
-    <string name="battery_sugg_display" msgid="3102137296547788111">Lækkaðu birtustig skjás og/eða tímamörk skjás.</string>
+    <string name="battery_sugg_display" msgid="3102137296547788111">Lækkaðu birtustig skjás og/eða tímamörk skjás</string>
     <string name="battery_desc_wifi" msgid="5276669172548928768">Rafhlöðunotkun Wi-Fi</string>
     <string name="battery_sugg_wifi" msgid="359757575108350109">Slökkva á Wi-Fi þegar það er ekki í notkun eða ekki aðgengilegt</string>
     <string name="battery_desc_bluetooth" msgid="2237947137783306282">Rafhlöðunotkun Bluetooth</string>
@@ -3182,7 +3182,8 @@
     <string name="settings_backup_summary" msgid="6803046376335724034">Afrita stillingarnar mínar</string>
     <string name="sync_menu_sync_now" msgid="3948443642329221882">Samstilla núna</string>
     <string name="sync_menu_sync_cancel" msgid="2422994461106269813">Hætta við samstillingu</string>
-    <string name="sync_one_time_sync" msgid="8114337154112057462">Ýttu til að samstilla núna<xliff:g id="LAST_SYNC_TIME"> %1$s</xliff:g></string>
+    <string name="sync_one_time_sync" msgid="8114337154112057462">Ýttu til að samstilla núna<xliff:g id="last_sync_time">
+\n%1$s</xliff:g></string>
     <string name="sync_gmail" msgid="228561698646018808">Gmail</string>
     <string name="sync_calendar" msgid="4603704438090387251">Dagatal</string>
     <string name="sync_contacts" msgid="2376465611511325472">Tengiliðir</string>
@@ -3941,7 +3942,7 @@
     <string name="bubble_app_setting_unbubble_conversation" msgid="1769789500566080427">Slökkva á blöðrum fyrir þetta samtal</string>
     <string name="bubble_app_setting_bubble_conversation" msgid="1461981680982964285">Kveikja á blöðrum fyrir þetta samtal</string>
     <string name="swipe_direction_title" msgid="4260320464727178413">Strokaðgerðir</string>
-    <string name="swipe_direction_ltr" msgid="5137180130142633085">Strjúktu til hægri til að afgreiða og til vinstri til að birta valmynd</string>
+    <string name="swipe_direction_ltr" msgid="5137180130142633085">Strjúktu til hægri til að afgreiða, til vinstri til að birta valmynd</string>
     <string name="swipe_direction_rtl" msgid="1707391213940663992">Strjúktu til vinstri til að afgreiða og til hægri til að birta valmynd</string>
     <string name="gentle_notifications_title" msgid="2793492905132530991">Þægilegar tilkynningar</string>
     <string name="gentle_notifications_also_display" msgid="8617545395880297691">Birta einnig á</string>
@@ -4006,7 +4007,7 @@
     <string name="conversation_settings_clear_recents" msgid="8940398397663307054">"Hreinsa nýleg samtöl"</string>
     <string name="recent_convos_removed" msgid="2122932798895714203">"Nýleg samtöl fjarlægð"</string>
     <string name="recent_convo_removed" msgid="8686414146325958281">"Samtal fjarlægt"</string>
-    <string name="clear" msgid="5092178335409471100">"Hreinsa"</string>
+    <string name="clear" msgid="5092178335409471100">Hreinsa</string>
     <string name="important_bubble" msgid="7911698275408390846">Forgangssamtöl í blöðrum</string>
     <string name="important_conversation_behavior_summary" msgid="1845064084071107732">Forgangssamtöl birtast efst á tilkynningasvæðinu. Þú getur einnig stillt þau á að birtast í blöðru og trufla þannig „Ónáðið ekki“.</string>
     <string name="conversation_onboarding_title" msgid="5194559958353468484">Forgangssamtöl og breytt samtöl birtast hér</string>
@@ -4309,12 +4310,12 @@
     <string name="zen_mode_end_time_next_day_summary_format" msgid="419683704068360804"><xliff:g id="FORMATTED_TIME">%s</xliff:g> daginn eftir</string>
     <string name="zen_mode_summary_alarms_only_indefinite" msgid="910047326128154945">Breyta í vekjara eingöngu til frambúðar</string>
     <plurals name="zen_mode_summary_alarms_only_by_minute" formatted="false" msgid="1900512966361163390">
-        <item quantity="one">Breyta í vekjara eingöngu í <xliff:g id="DURATION">%1$d</xliff:g> mínútu (til <xliff:g id="FORMATTEDTIME_1">%2$s</xliff:g>)</item>
-        <item quantity="other">Breyta í vekjara eingöngu í <xliff:g id="DURATION">%1$d</xliff:g> mínútur (til <xliff:g id="FORMATTEDTIME_1">%2$s</xliff:g>)</item>
+        <item quantity="one">Breyta í vekjara eingöngu í eina mínútu til kl. <xliff:g id="formattedTime" example="10:00 PM">%2$s</xliff:g>)</item>
+        <item quantity="other">Breyta í vekjara eingöngu í <xliff:g id="duration" example="2">%1$d</xliff:g> mínútur (til <xliff:g id="formattedTime" example="10:00 PM">%2$s</xliff:g>)</item>
     </plurals>
     <plurals name="zen_mode_summary_alarms_only_by_hour" formatted="false" msgid="955991428001659124">
-        <item quantity="one">Breyta í vekjara eingöngu í <xliff:g id="DURATION">%1$d</xliff:g> klukkustund til <xliff:g id="FORMATTEDTIME_1">%2$s</xliff:g></item>
-        <item quantity="other">Breyta í vekjara eingöngu í <xliff:g id="DURATION">%1$d</xliff:g> klukkustundir til <xliff:g id="FORMATTEDTIME_1">%2$s</xliff:g></item>
+        <item quantity="one">Breyta í vekjara eingöngu í eina klukkustund til <xliff:g id="formattedTime" example="10:00 PM">%2$s</xliff:g></item>
+        <item quantity="other">Breyta í vekjara eingöngu í <xliff:g id="duration" example="2">%1$d</xliff:g> klukkustundir til <xliff:g id="formattedTime" example="10:00 PM">%2$s</xliff:g></item>
     </plurals>
     <string name="zen_mode_summary_alarms_only_by_time" msgid="8140619669703968810">Breyta í vekjara eingöngu til <xliff:g id="FORMATTEDTIME">%1$s</xliff:g></string>
     <string name="zen_mode_summary_always" msgid="722093064250082317">Breyta í truflanir alltaf</string>
@@ -4390,7 +4391,7 @@
     <string name="encryption_interstitial_yes" msgid="1948016725089728181">Já</string>
     <string name="encryption_interstitial_no" msgid="3352331535473118487">Nei</string>
     <string name="restricted_true_label" msgid="612852292488747564">Takmarkað</string>
-    <string name="restricted_false_label" msgid="2837053797913490628">Forrit geta notað rafhlöðu í bakgr.</string>
+    <string name="restricted_false_label" msgid="2837053797913490628">Forrit geta notað rafhlöðu í bakgrunni</string>
     <string name="encrypt_talkback_dialog_require_pin" msgid="8974156384205924887">Krefjast PIN-númers\?</string>
     <string name="encrypt_talkback_dialog_require_pattern" msgid="1587587568721873184">Krefjast mynsturs\?</string>
     <string name="encrypt_talkback_dialog_require_password" msgid="2701793623210531836">Krefjast aðgangsorðs\?</string>
@@ -4491,7 +4492,7 @@
     <string name="app_permissions_summary" msgid="2709819220672938860">Forrit sem nota <xliff:g id="APPS">%1$s</xliff:g></string>
     <string name="app_permissions_summary_more" msgid="6247952473615352350">Forrit sem nota <xliff:g id="APPS">%1$s</xliff:g> og fleira</string>
     <string name="tap_to_wake" msgid="3313433536261440068">Ýta til að vekja</string>
-    <string name="tap_to_wake_summary" msgid="6641039858241611072">Ýttu tvisvar hvar sem er á skjáinn til að vekja tækið.</string>
+    <string name="tap_to_wake_summary" msgid="6641039858241611072">Ýttu tvisvar hvar sem er á skjáinn til að vekja tækið</string>
     <string name="domain_urls_title" msgid="7012209752049678876">Opnar tengla</string>
     <string name="domain_urls_summary_none" msgid="1132578967643384733">Ekki opna studda tengla</string>
     <string name="domain_urls_summary_one" msgid="3312008753802762892">Opna „<xliff:g id="DOMAIN">%s</xliff:g>“</string>
@@ -4547,11 +4548,11 @@
     <string name="show_all_apps" msgid="4490719452453223082">Sýna alla notkun tækis</string>
     <string name="hide_extra_apps" msgid="7313907836289865123">Sýna forritanotkun</string>
     <plurals name="power_high_usage_summary" formatted="false" msgid="573433136005336970">
-        <item quantity="one"><xliff:g id="NUMBER">%2$d</xliff:g> forrit sýnir óeðlilega virkni</item>
-        <item quantity="other"><xliff:g id="NUMBER">%2$d</xliff:g> forrit sýna óeðlilega virkni</item>
+        <item quantity="one"><xliff:g id="app">%1$s</xliff:g> sýnir óeðlilega virkni</item>
+        <item quantity="other"><xliff:g id="number">%2$d</xliff:g> forrit sýna óeðlilega virkni</item>
     </plurals>
     <plurals name="power_high_usage_title" formatted="false" msgid="8013115866788425817">
-        <item quantity="one">Forrit ganga hratt á rafhlöðuna</item>
+        <item quantity="one"><xliff:g id="app">%1$s</xliff:g> gengur hratt á rafhlöðuna</item>
         <item quantity="other">Forrit ganga hratt á rafhlöðuna</item>
     </plurals>
     <string name="high_power_filter_on" msgid="447849271630431531">Enginn sparnaður</string>
@@ -4635,8 +4636,8 @@
     <string name="free_memory" msgid="439783742246854785">Laust</string>
     <string name="memory_usage_apps" msgid="5776108502569850579">Minni sem forrit nota</string>
     <plurals name="memory_usage_apps_summary" formatted="false" msgid="1355637088533572208">
-        <item quantity="one"><xliff:g id="COUNT">%1$d</xliff:g> forrit notaði minni undanfarnar <xliff:g id="DURATION_1">%2$s</xliff:g></item>
-        <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> forrit notuðu minni undanfarnar <xliff:g id="DURATION_1">%2$s</xliff:g></item>
+        <item quantity="one">1 forrit notaði minni undanfarnar <xliff:g id="duration" example="3 hours">%2$s</xliff:g></item>
+        <item quantity="other"><xliff:g id="count" example="10">%1$d</xliff:g> forrit notuðu minni undanfarnar <xliff:g id="duration" example="3 hours">%2$s</xliff:g></item>
     </plurals>
     <string name="running_frequency" msgid="7260225121706316639">Tíðni</string>
     <string name="memory_maximum_usage" msgid="2047013391595835607">Hámarksnotkun</string>
@@ -4954,16 +4955,16 @@
     <string name="cross_profile_calendar_title" msgid="7570277841490216947">Dagatal fyrir marga prófíla</string>
     <string name="cross_profile_calendar_summary" msgid="8856185206722860069">Sýna starfsviðburði á persónulega dagatalinu þínu</string>
     <plurals name="hours" formatted="false" msgid="1853396353451635458">
-        <item quantity="one"><xliff:g id="NUMBER">%s</xliff:g> klukkustund</item>
-        <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> klukkustundir</item>
+        <item quantity="one">1 klukkustund</item>
+        <item quantity="other"><xliff:g id="number" example="7">%s</xliff:g> klukkustundir</item>
     </plurals>
     <plurals name="minutes" formatted="false" msgid="6244503272924425418">
-        <item quantity="one"><xliff:g id="NUMBER">%s</xliff:g> mínúta</item>
-        <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> mínútur</item>
+        <item quantity="one">1 mínúta</item>
+        <item quantity="other"><xliff:g id="number" example="7">%s</xliff:g> mínútur</item>
     </plurals>
     <plurals name="seconds" formatted="false" msgid="4237020272336995370">
-        <item quantity="one"><xliff:g id="NUMBER">%s</xliff:g> sekúnda</item>
-        <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> sekúndur</item>
+        <item quantity="one">1 sekúnda</item>
+        <item quantity="other"><xliff:g id="number" example="7">%s</xliff:g> sekúndur</item>
     </plurals>
     <string name="automatic_storage_manager_settings" msgid="519158151463974656">Hafa umsjón með geymslurými</string>
     <string name="automatic_storage_manager_text" msgid="6900593059927987273">Geymslustjórnun fjarlægir afritaðar myndir og myndskeið úr tækinu þínu til að losa um geymslupláss.</string>
@@ -5514,7 +5515,7 @@
     <string name="low_storage_summary" msgid="1979492757417779718">Það er lítið pláss í geymslu. <xliff:g id="PERCENTAGE">%1$s</xliff:g> í notkun - <xliff:g id="FREE_SPACE">%2$s</xliff:g> laus</string>
     <string name="contextual_card_feedback_send" msgid="7409408664417908922">Senda ábendingu</string>
     <string name="contextual_card_feedback_confirm_message" msgid="3186334562157665381">Viltu senda okkur ábendingu um þessa tillögu\?</string>
-    <string name="copyable_slice_toast" msgid="1008251852798990606"><xliff:g id="COPY_CONTENT">%1$s</xliff:g> afritað á klippiborð</string>
+    <string name="copyable_slice_toast" msgid="1008251852798990606"><xliff:g id="copy_content" example="Phone number">%1$s</xliff:g> afritað á klippispjald.</string>
     <string name="permission_bar_chart_empty_text" msgid="4856719891991325077">Engin forrit hafa notað heimildir</string>
     <string name="permission_bar_chart_title" msgid="2493212904955611441">Heimildanotkun síðasta sólarhringinn</string>
     <string name="permission_bar_chart_details" msgid="5816698018592357088">Sjá allt á stjórnborði</string>
@@ -5758,4 +5759,5 @@
     <string name="status_iccid">ICCID</string>
     <string name="service_client_name"><xliff:g id="client_name">%1$s</xliff:g></string>
     <string name="service_process_name"><xliff:g id="process">%1$s</xliff:g></string>
+    <string name="debug_intent_sender_label">Aflúsa ætlaðan sendanda</string>
 </resources>
