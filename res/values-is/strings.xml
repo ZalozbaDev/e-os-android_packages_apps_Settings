@@ -411,7 +411,7 @@
     <string name="setup_fingerprint_enroll_skip_after_adding_lock_text" msgid="2412645723804450304">Uppsetning fingrafars tekur bara mínútu eða tvær. Ef þú sleppir þessu skrefi geturðu bætt fingrafarinu við seinna í stillingunum.</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_message_setup" msgid="6255210343107484206">"Þegar þú sérð þetta tákn skaltu nota fingrafarið til að auðkenna þig, t.d. þegar þú skráir þig inn í forrit eða samþykkir kaup"</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_footer_title_1" msgid="4360262371633254407">"Hafðu í huga"</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_1" msgid="5824014348182478279">"Ekki er víst að fingrafarskenni sé eins örugg leið til að opna símann og sterkt mynstur eða PIN-númer."</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_1" msgid="5824014348182478279">Ekki er víst að fingrafarsauðkenni sé eins örugg leið til að opna símann og sterkt mynstur eða PIN-númer</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_footer_title_2" msgid="2580899232734177771">"Svona virkar þetta"</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_2" msgid="5909924864816776516">"Fingrafarskenni býr til einkvæmt líkan af fingrafarinu þínu til að staðfesta hver þú ert. Til að búa líkanið til við uppsetningu þarf að taka myndir af fingrafarinu þínu frá nokkrum sjónarhornum."</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_2" msgid="3493356605815124807">"Fingrafarskenni býr til einkvæmt líkan af fingrafari barnsins þíns til að staðfesta hver það er. Til að búa líkanið til við uppsetningu tekur barnið myndir af fingrafarinu sínu frá mismunandi sjónarhornum."</string>
@@ -660,45 +660,45 @@
     <string name="unlock_disable_frp_warning_title" msgid="3606280046362811229">"Eyða skjálás?"</string>
     <string name="unlock_disable_frp_warning_title_profile" msgid="1005284289723910461">Fjarlægja vernd fyrir sniðið\?</string>
     <string name="unlock_disable_frp_warning_content_pattern" msgid="6246242612158828147">"Mynstur verndar símann ef hann týnist eða ef honum er stolið"</string>
-    <string name="unlock_disable_frp_warning_content_pattern_fingerprint" msgid="2259825377085781801">"Mynstur verndar símann ef hann týnist eða ef honum er stolið.<xliff:g id="EMPTY_LINE">
-
-</xliff:g>Þetta eyðir einnig fingrafaralíkaninu sem er vistað í tækinu þínu. Þú munt ekki geta notað fingrafarið til auðkenningar í forritum."</string>
-    <string name="unlock_disable_frp_warning_content_pattern_face" msgid="4699508435412336378">"Mynstur verndar símann ef hann týnist eða ef honum er stolið.<xliff:g id="EMPTY_LINE">
-
-</xliff:g>Andlitslíkaninu þínu verður einnig eytt endanlega á öruggan hátt. Þú munt ekki geta notað andlitið til auðkenningar í forritum."</string>
-    <string name="unlock_disable_frp_warning_content_pattern_face_fingerprint" msgid="7049706229344804972">"Mynstur verndar símann ef hann týnist eða ef honum er stolið.<xliff:g id="EMPTY_LINE">
-
-</xliff:g>Þetta eyðir fingrafaralíkaninu sem er vistað í tækinu þínu. Andlitslíkaninu þínu verður einnig eytt endanlega á öruggan hátt. Þú munt ekki geta notað andlitið eða fingrafarið til auðkenningar í forritum."</string>
+    <string name="unlock_disable_frp_warning_content_pattern_fingerprint" msgid="2259825377085781801">Mynstur verndar símann ef hann týnist eða ef honum er stolið.<xliff:g id="empty_line">
+\n
+\n </xliff:g>Þetta eyðir einnig fingrafaralíkaninu sem er vistað í tækinu þínu. Þú munt ekki geta notað fingrafarið til auðkenningar í forritum.</string>
+    <string name="unlock_disable_frp_warning_content_pattern_face" msgid="4699508435412336378">Mynstur verndar símann ef hann týnist eða ef honum er stolið.<xliff:g id="empty_line">
+\n
+\n</xliff:g>Andlitslíkaninu þínu verður einnig eytt endanlega á öruggan hátt. Þú munt ekki geta notað andlitið til auðkenningar í forritum.</string>
+    <string name="unlock_disable_frp_warning_content_pattern_face_fingerprint" msgid="7049706229344804972">Mynstur verndar símann ef hann týnist eða ef honum er stolið.<xliff:g id="empty_line">
+\n
+\n</xliff:g>Þetta eyðir fingrafaralíkaninu sem er vistað í tækinu þínu. Andlitslíkaninu þínu verður einnig eytt endanlega á öruggan hátt. Þú munt ekki geta notað andlitið eða fingrafarið til auðkenningar í forritum.</string>
     <string name="unlock_disable_frp_warning_content_pin" msgid="122154942944422284">"PIN-númer verndar símann ef hann týnist eða ef honum er stolið"</string>
-    <string name="unlock_disable_frp_warning_content_pin_fingerprint" msgid="983373874470746066">"PIN-númer verndar símann ef hann týnist eða ef honum er stolið.<xliff:g id="EMPTY_LINE">
-
-</xliff:g>Þetta eyðir einnig fingrafaralíkaninu sem er vistað í tækinu þínu. Þú munt ekki geta notað fingrafarið til auðkenningar í forritum."</string>
-    <string name="unlock_disable_frp_warning_content_pin_face" msgid="5607150515413131761">"PIN-númer verndar símann ef hann týnist eða ef honum er stolið.<xliff:g id="EMPTY_LINE">
-
-</xliff:g>Andlitslíkaninu þínu verður einnig eytt endanlega á öruggan hátt. Þú munt ekki geta notað andlitið til auðkenningar í forritum."</string>
-    <string name="unlock_disable_frp_warning_content_pin_face_fingerprint" msgid="1821792325159866312">"PIN-númer verndar símann ef hann týnist eða ef honum er stolið.<xliff:g id="EMPTY_LINE">
-
-</xliff:g>Þetta eyðir fingrafaralíkaninu sem er vistað í tækinu þínu. Andlitslíkaninu þínu verður einnig eytt endanlega á öruggan hátt. Þú munt ekki geta notað andlitið eða fingrafarið til auðkenningar í forritum."</string>
+    <string name="unlock_disable_frp_warning_content_pin_fingerprint" msgid="983373874470746066">PIN-númer verndar símann ef hann týnist eða ef honum er stolið.<xliff:g id="empty_line">
+\n
+\n</xliff:g>Þetta eyðir einnig fingrafaralíkaninu sem er vistað í tækinu þínu. Þú munt ekki geta notað fingrafarið til auðkenningar í forritum.</string>
+    <string name="unlock_disable_frp_warning_content_pin_face" msgid="5607150515413131761">PIN-númer verndar símann ef hann týnist eða ef honum er stolið.<xliff:g id="empty_line">
+\n
+\n</xliff:g>Andlitslíkaninu þínu verður einnig eytt endanlega á öruggan hátt. Þú munt ekki geta notað andlitið til auðkenningar í forritum.</string>
+    <string name="unlock_disable_frp_warning_content_pin_face_fingerprint" msgid="1821792325159866312">PIN-númer verndar símann ef hann týnist eða ef honum er stolið.<xliff:g id="empty_line">
+\n
+\n</xliff:g>Þetta eyðir fingrafaralíkaninu sem er vistað í tækinu þínu. Andlitslíkaninu þínu verður einnig eytt endanlega á öruggan hátt. Þú munt ekki geta notað andlitið eða fingrafarið til auðkenningar í forritum.</string>
     <string name="unlock_disable_frp_warning_content_password" msgid="6422723907917376210">"Aðgangsorð verndar símann ef hann týnist eða ef honum er stolið"</string>
-    <string name="unlock_disable_frp_warning_content_password_fingerprint" msgid="8899452884016354856">"Aðgangsorð verndar símann ef hann týnist eða ef honum er stolið.<xliff:g id="EMPTY_LINE">
-
-</xliff:g>Þetta eyðir einnig fingrafaralíkaninu sem er vistað í tækinu þínu. Þú munt ekki geta notað fingrafarið til auðkenningar í forritum."</string>
-    <string name="unlock_disable_frp_warning_content_password_face" msgid="1811067332335964495">"Aðgangsorð verndar símann ef hann týnist eða ef honum er stolið.<xliff:g id="EMPTY_LINE">
-
-</xliff:g>Andlitslíkaninu þínu verður einnig eytt endanlega á öruggan hátt. Þú munt ekki geta notað andlitið til auðkenningar í forritum."</string>
-    <string name="unlock_disable_frp_warning_content_password_face_fingerprint" msgid="7063649456205159491">"Aðgangsorð verndar símann ef hann týnist eða ef honum er stolið.<xliff:g id="EMPTY_LINE">
-
-</xliff:g>Þetta eyðir fingrafaralíkaninu sem er vistað í tækinu þínu. Andlitslíkaninu þínu verður einnig eytt endanlega á öruggan hátt. Þú munt ekki geta notað andlitið eða fingrafarið til auðkenningar í forritum."</string>
+    <string name="unlock_disable_frp_warning_content_password_fingerprint" msgid="8899452884016354856">Lykilorð verndar símann ef hann týnist eða ef honum er stolið.<xliff:g id="empty_line">
+\n
+\n</xliff:g>Þetta eyðir einnig fingrafaralíkaninu sem er vistað í tækinu þínu. Þú munt ekki geta notað fingrafarið til auðkenningar í forritum.</string>
+    <string name="unlock_disable_frp_warning_content_password_face" msgid="1811067332335964495">Lykilorð verndar símann ef hann týnist eða ef honum er stolið.<xliff:g id="empty_line">
+\n
+\n</xliff:g>Andlitslíkaninu þínu verður einnig eytt endanlega á öruggan hátt. Þú munt ekki geta notað andlitið til auðkenningar í forritum.</string>
+    <string name="unlock_disable_frp_warning_content_password_face_fingerprint" msgid="7063649456205159491">Lykilorð verndar símann ef hann týnist eða ef honum er stolið.<xliff:g id="empty_line">
+\n
+\n</xliff:g>Þetta eyðir fingrafaralíkaninu sem er vistað í tækinu þínu. Andlitslíkaninu þínu verður einnig eytt endanlega á öruggan hátt. Þú munt ekki geta notað andlitið eða fingrafarið til auðkenningar í forritum.</string>
     <string name="unlock_disable_frp_warning_content_unknown" msgid="8903568674104115231">Öryggiseiginleikar til að vernda tækið virka ekki án skjáláss.</string>
-    <string name="unlock_disable_frp_warning_content_unknown_fingerprint" msgid="6542744110902941189">"Öryggiseiginleikar til að vernda tækið virka ekki án skjáláss.<xliff:g id="EMPTY_LINE">
-
-</xliff:g>Þetta eyðir einnig fingrafaralíkaninu sem er vistað í tækinu þínu. Þú munt ekki geta notað fingrafarið til auðkenningar í forritum."</string>
-    <string name="unlock_disable_frp_warning_content_unknown_face" msgid="4559917661432267841">"Öryggiseiginleikar til að vernda tækið virka ekki án skjáláss.<xliff:g id="EMPTY_LINE">
-
-</xliff:g>Andlitslíkaninu verður einnig eytt endanlega á öruggan hátt. Þú munt ekki geta notað andlitið til auðkenningar í forritum."</string>
-    <string name="unlock_disable_frp_warning_content_unknown_face_fingerprint" msgid="3779582301453677644">"Öryggiseiginleikar til að vernda tækið virka ekki án skjáláss.<xliff:g id="EMPTY_LINE">
-
-</xliff:g>Þetta eyðir fingrafaralíkaninu sem er vistað í tækinu þínu. Andlitslíkaninu þínu verður einnig eytt endanlega á öruggan hátt. Þú munt ekki geta notað andlitið eða fingrafarið til auðkenningar í forritum."</string>
+    <string name="unlock_disable_frp_warning_content_unknown_fingerprint" msgid="6542744110902941189">Öryggiseiginleikar til að vernda tækið virka ekki án skjálæsingar.<xliff:g id="empty_line">
+\n
+\n</xliff:g>Þetta eyðir einnig fingrafaralíkaninu sem er vistað í tækinu þínu. Þú munt ekki geta notað fingrafarið til auðkenningar í forritum.</string>
+    <string name="unlock_disable_frp_warning_content_unknown_face" msgid="4559917661432267841">Öryggiseiginleikar til að vernda tækið virka ekki án skjálæsingar.<xliff:g id="empty_line">
+\n
+\n</xliff:g>Andlitslíkaninu verður einnig eytt endanlega á öruggan hátt. Þú munt ekki geta notað andlitið til auðkenningar í forritum.</string>
+    <string name="unlock_disable_frp_warning_content_unknown_face_fingerprint" msgid="3779582301453677644">Öryggiseiginleikar til að vernda tækið virka ekki án skjálæsingar.<xliff:g id="empty_line">
+\n
+\n</xliff:g>Þetta eyðir fingrafaralíkaninu sem er vistað í tækinu þínu. Andlitslíkaninu þínu verður einnig eytt endanlega á öruggan hátt. Þú munt ekki geta notað andlitið eða fingrafarið til auðkenningar í forritum.</string>
     <string name="unlock_disable_frp_warning_ok" msgid="6173427638951230842">"Eyða"</string>
     <string name="unlock_change_lock_pattern_title" msgid="8234523589333929193">Breyta opnunarmynstri</string>
     <string name="unlock_change_lock_pin_title" msgid="2324077520816477479">Breyta PIN-númeri</string>
@@ -894,7 +894,7 @@
     <string name="wifi_tap_to_sign_in" msgid="8658506618807549483">Ýttu hér til að skrá þig inn á netkerfi</string>
     <string name="tx_link_speed" msgid="3071955184703668113"><xliff:g id="Transmit link speed" example="150 Mbps">%1$d</xliff:g> Mb/sek.</string>
     <string name="rx_link_speed" msgid="6292229178855567783"><xliff:g id="Receive link speed" example="54 Mbps">%1$d</xliff:g> Mb/sek.</string>
-    <string name="link_speed" msgid="931786745741016446"><xliff:g id="LINK_SPEED">%1$d</xliff:g> Mb/sek.</string>
+    <string name="link_speed" msgid="931786745741016446"><xliff:g id="Link speed" example="54 Mbps">%1$d</xliff:g> Mb/sek.</string>
     <string name="wifi_ask_enable" msgid="6860056048266810769"><xliff:g id="REQUESTER">%s</xliff:g> vill kveikja á Wi-Fi</string>
     <string name="wifi_ask_disable" msgid="1663208096020309639"><xliff:g id="REQUESTER">%s</xliff:g> vill slökkva á Wi-Fi</string>
     <string name="art_verifier_for_debuggable_title" msgid="1926445785190030479">Staðfesta bætakóða forrita sem hægt er að villuleita</string>
@@ -1422,7 +1422,7 @@
     <string name="ambient_display_category_triggers" msgid="1216640141609270011">Sýnt hvenær</string>
     <string name="doze_title" msgid="1523090408230862316">Vekja skjáinn við tilkynningar</string>
     <string name="doze_summary" msgid="8252867381522942804">Skjárinn kveikir á sér ef nýjar tilkynningar berast</string>
-    <string name="doze_always_on_title" msgid="7326245192352868477">Sýna alltaf klukku og uppl.</string>
+    <string name="doze_always_on_title" msgid="7326245192352868477">Sýna alltaf klukku og upplýsingar</string>
     <string name="doze_always_on_summary" msgid="509097829739647852">Aukin rafhlöðunotkun</string>
     <string name="force_bold_text" msgid="4620929631102086716">"Feitletra texta"</string>
     <string name="title_font_size" msgid="570613010306330622">Leturstærð</string>
@@ -2344,7 +2344,7 @@
     <string name="accessibility_screen_magnification_about_title" msgid="8857919020223505415">"Nánar um stækkun"</string>
     <string name="accessibility_screen_magnification_footer_learn_more_content_description" msgid="924848332575978463">"Frekari upplýsingar um stækkun"</string>
     <string name="accessibility_magnification_mode_title" msgid="8446475127807168063">"Stækkunaraðferð"</string>
-    <string name="accessibility_magnification_area_settings_message" msgid="8498648925928109462">"Stækkaðu allan skjáinn, tiltekið svæði eða skiptu á milli þessara valkosta."</string>
+    <string name="accessibility_magnification_area_settings_message" msgid="8498648925928109462">Stækkaðu allan skjáinn, tiltekið svæði eða skiptu á milli þessara valkosta</string>
     <string name="accessibility_magnification_area_settings_full_screen_summary" msgid="2728962784113713010">Allur skjárinn</string>
     <string name="accessibility_magnification_area_settings_window_screen_summary" msgid="9191632962955877019">"Hluti af skjánum"</string>
     <string name="accessibility_magnification_area_settings_all_summary" msgid="8107511976748799455">"Skipta á milli alls skjásins og hluta skjásins"</string>
@@ -3543,8 +3543,12 @@
     <string name="contact_discovery_opt_in_summary" msgid="6539010458256667300">Senda símanúmer tengiliða til að gera viðbótareiginleka mögulega</string>
     <string name="contact_discovery_opt_in_dialog_title" msgid="2230536282911854114">Viltu senda tengiliði til <xliff:g id="CARRIER">%1$s</xliff:g>\?</string>
     <string name="contact_discovery_opt_in_dialog_title_no_carrier_defined" msgid="2028983133745990320">Senda tengiliði til símafyrirtækis\?</string>
-    <string name="contact_discovery_opt_in_dialog_message" msgid="8818310894782757538">Símanúmer tengiliðanna þinna verða send reglulega til <xliff:g id="CARRIER">%1$s</xliff:g>.<xliff:g id="EMPTY_LINE"> </xliff:g>Þessar upplýsingar segja fyrir um hvort tengiliðir geti notað tiltekna eiginleika á borð við myndsímtöl og suma skilaboðaeiginleika.</string>
-    <string name="contact_discovery_opt_in_dialog_message_no_carrier_defined" msgid="1914894516552445911">Símanúmer tengiliðanna þinna verða send reglulega til símafyrirtækisins þíns.<xliff:g id="EMPTY_LINE"> </xliff:g>Þessar upplýsingar segja fyrir um hvort tengiliðir geti notað tiltekna eiginleika á borð við myndsímtöl og suma skilaboðaeiginleika.</string>
+    <string name="contact_discovery_opt_in_dialog_message" msgid="8818310894782757538">Símanúmer tengiliðanna þinna verða send reglulega til <xliff:g id="carrier" example="T-mobile">%1$s</xliff:g>.<xliff:g id="empty_line" example="  ">
+\n
+\n </xliff:g>Þessar upplýsingar segja fyrir um hvort tengiliðir geti notað tiltekna eiginleika á borð við myndsímtöl og suma skilaboðaeiginleika.</string>
+    <string name="contact_discovery_opt_in_dialog_message_no_carrier_defined" msgid="1914894516552445911">Símanúmer tengiliðanna þinna verða send reglulega til símafyrirtækisins þíns.<xliff:g id="empty_line" example="  ">
+\n
+\n</xliff:g>Þessar upplýsingar segja fyrir um hvort tengiliðir geti notað tiltekna eiginleika á borð við myndsímtöl og suma skilaboðaeiginleika.</string>
     <string name="preferred_network_type_title" msgid="812509938714590857">Valin símkerfistegund</string>
     <string name="preferred_network_type_summary" msgid="8786291927331323061">LTE (ráðlagt)</string>
     <string name="mms_message_title" msgid="6624505196063391964">MMS-skilaboð</string>
@@ -3740,7 +3744,7 @@
     <string name="remote_media_volume_option_title" msgid="8760846743943305764">Hljóðstyrkur sendingar</string>
     <string name="call_volume_option_title" msgid="1461105986437268924">Hljóðstyrkur símtala</string>
     <string name="alarm_volume_option_title" msgid="6398641749273697140">Hljóðstyrkur vekjara</string>
-    <string name="ring_volume_option_title" msgid="1520802026403038560">Hljóðst. símtala og tilkynn.</string>
+    <string name="ring_volume_option_title" msgid="1520802026403038560">Hljóðstyrkur símtala og tilkynninga</string>
     <string name="notification_volume_option_title" msgid="4838818791683615978">Hljóðstyrkur tilkynninga</string>
     <string name="ringtone_title" msgid="3271453110387368088">Hringitónn síma</string>
     <string name="notification_ringtone_title" msgid="6924501621312095512">Sjálfgefið hljóð tilkynninga</string>
@@ -5019,7 +5023,7 @@
     <string name="one_handed_mode_swipe_down_category" msgid="110178629274462484">"Strjúktu niður til að"</string>
     <string name="one_handed_mode_use_shortcut_category" msgid="1414714099339147711">"Nota flýtileiðina til að"</string>
     <string name="one_handed_mode_intro_text" msgid="4313074112548160836">"Strjúktu niður frá neðri brún skjásins til að nota einhenta stillingu. Til að nota þennan eiginleika þarftu að ganga úr skugga um að kveikt sé á bendingastjórnun í stillingum kerfisstjórnunar."</string>
-    <string name="one_handed_action_pull_down_screen_title" msgid="9187194533815438150">"Dragðu skjáinn svo til hans náist."</string>
+    <string name="one_handed_action_pull_down_screen_title" msgid="9187194533815438150">Dragðu skjáinn svo til hans náist</string>
     <string name="one_handed_action_pull_down_screen_summary" msgid="7582432473450036628">"Efri hluti skjásins færist niður svo að þumallinn nái til hans."</string>
     <string name="one_handed_action_show_notification_title" msgid="8789305491485437130">"Sýna tilkynningar"</string>
     <string name="one_handed_action_show_notification_summary" msgid="8281689861222000436">"Tilkynningar og stillingar munu birtast."</string>
@@ -5722,7 +5726,7 @@
     <string name="all_apps" msgid="3054120149509114789">"Öll forrit"</string>
     <string name="request_manage_bluetooth_permission_dont_allow" msgid="8798061333407581300">Ekki leyfa</string>
     <string name="uwb_settings_title" msgid="8578498712312002231">"Ofurbreiðband (UWB)"</string>
-    <string name="uwb_settings_summary" msgid="3074271396764672268">"Hjálpar til við að auðkenna hlutfallslega staðsetningu nálægra tækja með ofurbreiðband (UWB)."</string>
+    <string name="uwb_settings_summary" msgid="3074271396764672268">Hjálpar til við að auðkenna hlutfallslega staðsetningu nálægra tækja með ofurbreiðband (UWB)</string>
     <string name="uwb_settings_summary_airplane_mode" msgid="1328864888135086484">"Slökkva á flugstillingu til að nota ofurbreiðband (UWB)"</string>
     <string name="camera_toggle_title" msgid="8952668677727244992">"Aðgangur að myndavél"</string>
     <string name="mic_toggle_title" msgid="265145278323852547">"Aðgangur að hljóðnema"</string>
@@ -5760,4 +5764,6 @@
     <string name="service_client_name"><xliff:g id="client_name">%1$s</xliff:g></string>
     <string name="service_process_name"><xliff:g id="process">%1$s</xliff:g></string>
     <string name="debug_intent_sender_label">Aflúsa ætlaðan sendanda</string>
+    <string name="security_dashboard_summary_e">Skjálæsing, öryggi forrita</string>
+    <string name="platform_compat_target_sdk_title">Virkjað fyrir targetSdkVersion &gt;= <xliff:g id="number" example="29">%d</xliff:g></string>
 </resources>
