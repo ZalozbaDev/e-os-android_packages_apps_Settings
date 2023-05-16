@@ -3578,7 +3578,7 @@
     <string name="bubbles_feature_disabled_button_approve" msgid="597665528889599104">Kveikja á fyrir tæki</string>
     <string name="bubbles_feature_disabled_button_cancel" msgid="8963409459448350600">Hætta við</string>
     <string name="swipe_direction_title" msgid="4260320464727178413">Strokaðgerðir</string>
-    <string name="swipe_direction_ltr" msgid="5137180130142633085">Strjúktu til hægri til að afgreiða og til vinstri til að birta valmynd</string>
+    <string name="swipe_direction_ltr" msgid="5137180130142633085">Strjúktu til hægri til að afgreiða, til vinstri til að birta valmynd</string>
     <string name="swipe_direction_rtl" msgid="1707391213940663992">Strjúktu til vinstri til að afgreiða og til hægri til að birta valmynd</string>
     <string name="gentle_notifications_title" msgid="2793492905132530991">Þægilegar tilkynningar</string>
     <string name="gentle_notifications_also_display" msgid="8617545395880297691">Birta einnig á</string>
@@ -3804,8 +3804,8 @@
     <string name="zen_mode_bypassing_apps" msgid="625309443389126481">Leyfa forritum að hnekkja</string>
     <string name="zen_mode_bypassing_apps_title" msgid="4142154650779609193">Undantekningar forrita</string>
     <plurals name="zen_mode_bypassing_apps_subtext" formatted="false" msgid="3992144201138339160">
-        <item quantity="one">Tilkynningar frá <xliff:g id="NUMBER">%1$d</xliff:g> forriti geta hnekkt „Ónáðið ekki“</item>
-        <item quantity="other">Tilkynningar frá <xliff:g id="NUMBER">%1$d</xliff:g> forritum geta hnekkt „Ónáðið ekki“</item>
+        <item quantity="one">Engin forrit geta hnekkt „Ónáðið ekki“</item>
+        <item quantity="other">Tilkynningar frá <xliff:g id="number" example="2">%1$d</xliff:g> forritum geta hnekkt „Ónáðið ekki“</item>
     </plurals>
     <string name="zen_mode_events_list" msgid="7191316245742097229">viðburðir</string>
     <string name="zen_mode_all_callers" msgid="8104755389401941875">allir</string>
