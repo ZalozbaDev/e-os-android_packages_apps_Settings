@@ -1075,7 +1075,7 @@
     <string name="wifi_connected_to_message" msgid="8976048616505112896">Ansluten till <xliff:g id="network_name" example="MyNetwork">%1$s</xliff:g></string>
     <string name="wifi_connecting_to_message" msgid="3153205024060064551">Ansluter till <xliff:g id="network_name" example="MyNetwork">%1$s</xliff:g></string>
     <string name="wifi_connecting" msgid="7450277833386859724">"Ansluter …"</string>
-    <string name="wifi_failed_connect_message" msgid="8538000546604347894">MIsslyckades att ansluta till nätverket.</string>
+    <string name="wifi_failed_connect_message" msgid="8538000546604347894">Misslyckades att ansluta till nätverket.</string>
     <string name="wifi_not_in_range_message" msgid="3885327464037574739">"Nätverket är inte inom räckvidd"</string>
     <string name="wifi_forget" msgid="3485573280364015620">"Glöm"</string>
     <string name="wifi_modify" msgid="5127926476383659412">"Ändra"</string>
@@ -4715,7 +4715,7 @@
     </plurals>
     <string name="billing_cycle_none_left" msgid="1694844019159277504">"Ingen tid återstår"</string>
     <string name="billing_cycle_less_than_one_day_left" msgid="1210202399053992163">"Mindre än 1 dag kvar"</string>
-    <string name="carrier_and_update_text" msgid="5363656651921656280">Uppdaterades av &lt;&lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" name=\"carrier\" example=\"T-mobile\"&gt;^1&lt;/xliff:g&gt; för &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" name=\"time\" example=\"3m\"&gt;^2&lt;/xliff:g&gt; sedan</string>
+    <string name="carrier_and_update_text" msgid="5363656651921656280">Uppdaterades av <xliff:g name="carrier" example="T-mobile">^1</xliff:g> för <xliff:g name="time" example="3m">^2</xliff:g> sedan</string>
     <string name="no_carrier_update_text" msgid="5432798085593055966">Uppdaterades för <xliff:g name="time" example="3m">^2</xliff:g> sedan</string>
     <string name="carrier_and_update_now_text" msgid="5075861262344398849">Uppdaterades av <xliff:g name="carrier" example="T-mobile">^1</xliff:g> alldeles nyss</string>
     <string name="no_carrier_update_now_text" msgid="7898004907837200752">"Uppdaterades alldeles nyss"</string>
@@ -4975,7 +4975,7 @@
         <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> app</item>
     </plurals>
     <string name="enterprise_privacy_input_method" msgid="3278314982700662246">"Standardtangentbord"</string>
-    <string name="enterprise_privacy_input_method_name" msgid="2974859490559054584">"Inställt på <xliff:g id="APP_LABEL">%s</xliff:g>"</string>
+    <string name="enterprise_privacy_input_method_name" msgid="2974859490559054584">Inställt på <xliff:g id="app_label" example="Example Keyboard">%s</xliff:g></string>
     <string name="enterprise_privacy_always_on_vpn_device" msgid="1735829327405126695">"Always-on för VPN har aktiverats"</string>
     <string name="enterprise_privacy_always_on_vpn_personal" msgid="8395903360175064841">"Always-on för VPN har aktiverats i din personliga profil"</string>
     <string name="enterprise_privacy_always_on_vpn_work" msgid="2496961514592522377">"Always-on för VPN har aktiverats i jobbprofilen"</string>
@@ -4996,7 +4996,7 @@
         <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> försök</item>
     </plurals>
     <string name="do_disclosure_generic" msgid="3067459392402324538">"Den här enheten hanteras av organisationen."</string>
-    <string name="do_disclosure_with_name" msgid="867544298924410766">"Den här enheten hanteras av <xliff:g id="ORGANIZATION_NAME">%s</xliff:g>."</string>
+    <string name="do_disclosure_with_name" msgid="867544298924410766">Den här enheten hanteras av <xliff:g id="organization_name" example="Foo, Inc.">%s</xliff:g>.</string>
     <string name="do_disclosure_learn_more_separator" msgid="5714364437437041671">" "</string>
     <string name="learn_more" msgid="3534519107947510952">"Läs mer"</string>
     <string name="financed_privacy_settings" msgid="2575114436197204145">"Information om finansierad enhet"</string>
@@ -5038,21 +5038,21 @@
     <string name="storage_system" msgid="8472410119822911844">"System"</string>
     <string name="storage_trash" msgid="2807138998886084856">"Papperskorgen"</string>
     <string name="storage_trash_dialog_title" msgid="2296169576049935200">"Vill du tömma papperskorgen?"</string>
-    <string name="storage_trash_dialog_ask_message" msgid="8982602137242358798">"Det finns <xliff:g id="TOTAL">%1$s</xliff:g> filer i papperskorgen. Alla filer raderas permanent och går inte att återställa."</string>
+    <string name="storage_trash_dialog_ask_message" msgid="8982602137242358798">Det finns <xliff:g id="total" example="520MB">%1$s</xliff:g> filer i papperskorgen. Alla filer raderas permanent och går inte att återställa.</string>
     <string name="storage_trash_dialog_empty_message" msgid="7334670765528691400">"Papperskorgen är tom"</string>
     <string name="storage_trash_dialog_confirm" msgid="1707723334982760436">"Töm papperskorgen"</string>
-    <string name="storage_size_large_alternate" msgid="7555149858858591495">"<xliff:g id="NUMBER">^1</xliff:g>"<small>" "<font size="20">"<xliff:g id="UNIT">^2</xliff:g>"</font></small>""</string>
-    <string name="storage_volume_total" msgid="7102720999351050601">"av <xliff:g id="TOTAL">%1$s</xliff:g> används"</string>
+    <string name="storage_size_large_alternate" msgid="7555149858858591495"><xliff:g id="number" example="128">^1</xliff:g><small> <font size="20"><xliff:g id="unit" example="KB">^2</xliff:g></font></small></string>
+    <string name="storage_volume_total" msgid="7102720999351050601">av <xliff:g id="total" example="32GB">%1$s</xliff:g> används</string>
     <string name="storage_percent_full" msgid="7211888326013020857">"används"</string>
-    <string name="storage_usage_summary" msgid="4591121727356723463">"<xliff:g id="NUMBER">%1$s</xliff:g> <xliff:g id="UNIT">%2$s</xliff:g> använt"</string>
-    <string name="storage_total_summary" msgid="7163360249534964272">"<xliff:g id="NUMBER">%1$s</xliff:g> <xliff:g id="UNIT">%2$s</xliff:g> totalt"</string>
+    <string name="storage_usage_summary" msgid="4591121727356723463"><xliff:g id="number" example="128">%1$s</xliff:g> <xliff:g id="unit" example="KB">%2$s</xliff:g> använt</string>
+    <string name="storage_total_summary" msgid="7163360249534964272"><xliff:g id="number" example="128">%1$s</xliff:g> <xliff:g id="unit" example="KB">%2$s</xliff:g> totalt</string>
     <string name="clear_instant_app_data" msgid="5951258323364386357">"Rensa app"</string>
     <string name="clear_instant_app_confirmation" msgid="3964731334459209482">"Vill du ta bort den här snabbappen?"</string>
     <string name="launch_instant_app" msgid="8503927414339606561">"Öppna"</string>
     <string name="game_storage_settings" msgid="2521393115726178837">"Spel"</string>
     <string name="app_info_storage_title" msgid="4076977173803093808">"Använt lagringsutrymme"</string>
-    <string name="webview_uninstalled_for_user" msgid="627352948986275488">"(har avinstallerats för <xliff:g id="USER">%s</xliff:g>)"</string>
-    <string name="webview_disabled_for_user" msgid="5809886172032644498">"(har inaktiverats för <xliff:g id="USER">%s</xliff:g>)"</string>
+    <string name="webview_uninstalled_for_user" msgid="627352948986275488">(har avinstallerats för <xliff:g id="user" example="John Doe">%s</xliff:g>)</string>
+    <string name="webview_disabled_for_user" msgid="5809886172032644498">(har inaktiverats för <xliff:g id="user" example="John Doe">%s</xliff:g>)</string>
     <string name="autofill_app" msgid="7595308061826307921">"Tjänsten Autofyll"</string>
     <string name="autofill_passwords" msgid="6708057251459761083">"Lösenord"</string>
     <plurals name="autofill_passwords_count" formatted="false" msgid="7715009165029452622">
@@ -5076,7 +5076,7 @@
     <string name="default_theme" msgid="4815428567082263639">"Standard"</string>
     <string name="show_operator_name_title" msgid="3355910331531144028">"Nätverksnamn"</string>
     <string name="show_operator_name_summary" msgid="5352696579216501773">"Visa nätverksnamnet i statusfältet"</string>
-    <string name="storage_manager_indicator" msgid="6187509172735927297">"Lagringshanteraren: <xliff:g id="STATUS">^1</xliff:g>"</string>
+    <string name="storage_manager_indicator" msgid="6187509172735927297">Lagringshanteraren: <xliff:g id="status" example="on">^1</xliff:g></string>
     <string name="storage_manager_indicator_off" msgid="2705959642617709265">"Inaktiverat"</string>
     <string name="storage_manager_indicator_on" msgid="8380330763647785309">"Aktiverat"</string>
     <string name="install_type_instant" msgid="7685381859060486009">"Snabbapp"</string>
@@ -5092,7 +5092,7 @@
     <string name="show_first_crash_dialog_summary" msgid="4692334286984681111">"Visa alltid en dialogruta när en app kraschar"</string>
     <string name="angle_enabled_app" msgid="6044941043384239076">"Välj en ANGLE-kompatibel app"</string>
     <string name="angle_enabled_app_not_set" msgid="4472572224881726067">"Ingen ANGLE-kompatibel app har angetts"</string>
-    <string name="angle_enabled_app_set" msgid="7811829383833353021">"ANGLE-kompatibel app: <xliff:g id="APP_NAME">%1$s</xliff:g>"</string>
+    <string name="angle_enabled_app_set" msgid="7811829383833353021">ANGLE-kompatibel app: <xliff:g id="app_name" example="com.company.app">%1$s</xliff:g></string>
     <string name="graphics_driver_dashboard_title" msgid="5661084817492587796">"Inställningar för grafikdrivrutin"</string>
     <string name="graphics_driver_dashboard_summary" msgid="6348759885315793654">"Ändra inställningar för grafikdrivrutin"</string>
     <string name="graphics_driver_footer_text" msgid="5123754522284046790">"Om det finns flera grafikdrivrutiner kan du välja att använd den uppdaterade grafikdrivrutinen för appar som har installerats på enheten."</string>
@@ -5131,7 +5131,7 @@
     <string name="change_wifi_state_app_detail_switch" msgid="1385358508267180745">"Tillåt appen att styra wifi"</string>
     <string name="change_wifi_state_app_detail_summary" msgid="8230854855584217111">"Ge den här appen behörighet att aktivera och inaktivera wifi, söka efter och ansluta till wifi-nätverk, lägga till och ta bort nätverk samt starta en lokal surfzon"</string>
     <string name="media_output_title" msgid="8283629315159510680">"Spela upp media på"</string>
-    <string name="media_output_label_title" msgid="4139048973886819148">"Spela upp <xliff:g id="LABEL">%s</xliff:g> på"</string>
+    <string name="media_output_label_title" msgid="4139048973886819148">Spela upp <xliff:g id="label" example="Music Player">%s</xliff:g> på</string>
     <string name="media_output_default_summary" msgid="4200343059396412376">"Den här enheten"</string>
     <string name="media_output_summary" product="default" msgid="4760338801715262899">"Mobil"</string>
     <string name="media_output_summary" product="tablet" msgid="5138101426462250247">"Surfplatta"</string>
@@ -5141,7 +5141,7 @@
     <string name="media_output_group_panel_title" msgid="3086245179062913037">"Lägg till utgångar"</string>
     <string name="media_output_group" msgid="7918231774595274396">"Grupp"</string>
     <string name="media_output_group_panel_single_device_summary" msgid="5027884071572180516">"1 enhet har valts"</string>
-    <string name="media_output_group_panel_multiple_devices_summary" msgid="4838305763151455248">"<xliff:g id="COUNT">%1$d</xliff:g> enheter har valts"</string>
+    <string name="media_output_group_panel_multiple_devices_summary" msgid="4838305763151455248"><xliff:g id="count" example="2">%1$d</xliff:g> enheter har valts</string>
     <string name="media_output_switching" msgid="7488216595474868546">"Byter …"</string>
     <string name="take_call_on_title" msgid="1159417893879946757">"Svara med"</string>
     <string name="cannot_change_apn_toast" msgid="296540724089240405">"Denna APN kan inte ändras."</string>
@@ -5175,7 +5175,7 @@
     <string name="wifi_no_sim_card" msgid="7144290066491585672">"Inget SIM-kort"</string>
     <string name="wifi_no_related_sim_card" msgid="3568255415415630510">"Inget"</string>
     <string name="wifi_require_sim_card_to_connect" msgid="1524984445750423666">"SIM-kort krävs för att ansluta"</string>
-    <string name="wifi_require_specific_sim_card_to_connect" msgid="8136020469861668506">"SIM-kort från <xliff:g id="WIRELESS_CARRIER">%s</xliff:g> krävs för att ansluta"</string>
+    <string name="wifi_require_specific_sim_card_to_connect" msgid="8136020469861668506">SIM-kort från <xliff:g id="wireless_carrier" example="Verizon">%s</xliff:g> krävs för att ansluta</string>
     <string name="preferred_network_mode_wcdma_perf_summary" msgid="230527592752934655">"Föredraget nätverksläge: Föredrar WCDMA"</string>
     <string name="preferred_network_mode_gsm_only_summary" msgid="2936969642076535162">"Föredraget nätverksläge: Endast GSM"</string>
     <string name="preferred_network_mode_wcdma_only_summary" msgid="632816273979433076">"Föredraget nätverksläge: Endast WCDMA"</string>
@@ -5219,7 +5219,7 @@
     <string name="network_4G" msgid="9018841362928321047">"4G (rekommenderas)"</string>
     <string name="label_available" msgid="5305726869955838606">"Tillgängliga nätverk"</string>
     <string name="load_networks_progress" msgid="4717874401621250401">"Söker …"</string>
-    <string name="register_on_network" msgid="2169662800750709709">"Registrerar på <xliff:g id="NETWORK">%s</xliff:g> …"</string>
+    <string name="register_on_network" msgid="2169662800750709709">Registrerar på <xliff:g id="network" example="Verizon">%s</xliff:g> …</string>
     <string name="not_allowed" msgid="5756935665192962915">"Ditt SIM-kort tillåter inte anslutning till detta nätverk."</string>
     <string name="connect_later" msgid="2330538069949281352">"Det går inte att ansluta till det här nätverket just nu. Försök igen senare."</string>
     <string name="registration_done" msgid="1750434215698850123">"Registrerad på nätverk."</string>
@@ -5235,8 +5235,8 @@
     <string name="calls_and_sms_ask_every_time" msgid="3178743088737726677">"Fråga varje gång"</string>
     <string name="mobile_network_summary_add_a_network" msgid="9079866102827526779">"Lägg till ett nätverk"</string>
     <plurals name="mobile_network_summary_count" formatted="false" msgid="5173633860800230925">
-        <item quantity="other"><xliff:g id="COUNT_1">%1$d</xliff:g> SIM-kort</item>
-        <item quantity="one"><xliff:g id="COUNT_0">%1$d</xliff:g> SIM-kort</item>
+        <item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> SIM-kort</item>
+        <item quantity="other"><xliff:g id="count" example="2">%1$d</xliff:g> SIM-kort</item>
     </plurals>
     <string name="default_for_calls" msgid="2788950217176988034">"Standardinställning för samtal"</string>
     <string name="default_for_sms" msgid="1316988329407434771">"Standardinställning för sms"</string>
@@ -5287,26 +5287,32 @@
     <string name="roaming_alert_title" msgid="9052791521868787985">"Vill du tillåta dataroaming?"</string>
     <string name="roaming_check_price_warning" msgid="5876977438036791361">"Kontakta din nätoperatör för priser."</string>
     <string name="mobile_data_usage_title" msgid="2047864499317759728">"Appars dataanvändning"</string>
-    <string name="mobile_network_mode_error" msgid="9222056129897416074">"Ogiltigt nätverksläge: <xliff:g id="NETWORKMODEID">%1$d</xliff:g>. Ignorera."</string>
+    <string name="mobile_network_mode_error" msgid="9222056129897416074">Ogiltigt nätverksläge: <xliff:g id="networkModeId" example="0">%1$d</xliff:g>. Ignorera.</string>
     <string name="mobile_network_apn_title" msgid="5582995550142073054">"Åtkomstpunktens namn (APN)"</string>
-    <string name="manual_mode_disallowed_summary" msgid="4243142645520152175">"Inte tillgänglig vid anslutning till <xliff:g id="CARRIER">%1$s</xliff:g>"</string>
+    <string name="manual_mode_disallowed_summary" msgid="4243142645520152175">Inte tillgänglig vid anslutning till <xliff:g id="carrier" example="verizon">%1$s</xliff:g></string>
     <string name="see_more" msgid="7499355691042812723">"Visa mer"</string>
     <string name="see_less" msgid="2642392725363552793">"Visa färre"</string>
-    <string name="sim_action_enable_sub_dialog_title" msgid="4003377033815971802">"Vill du aktivera <xliff:g id="CARRIER_NAME">%1$s</xliff:g>?"</string>
+    <string name="sim_action_enable_sub_dialog_title" msgid="4003377033815971802">Vill du aktivera <xliff:g id="carrier_name" example="Google Fi">%1$s</xliff:g>\?</string>
     <string name="sim_action_enable_sub_dialog_title_without_carrier_name" msgid="4842051610633654278">"Vill du aktivera SIM-kortet?"</string>
-    <string name="sim_action_switch_sub_dialog_title" msgid="9180969453358718635">"Vill du byta till <xliff:g id="CARRIER_NAME">%1$s</xliff:g>?"</string>
+    <string name="sim_action_switch_sub_dialog_title" msgid="9180969453358718635">Vill du byta till <xliff:g id="carrier_name" example="Google Fi">%1$s</xliff:g>\?</string>
     <string name="sim_action_switch_psim_dialog_title" msgid="5613177333235213024">"Vill du byta till SIM-kort?"</string>
-    <string name="sim_action_switch_sub_dialog_text" msgid="2091834911153293004">"Du kan bara ha ett aktivt SIM-kort åt gången.\n\nOm du byter till <xliff:g id="TO_CARRIER_NAME">%1$s</xliff:g> avslutas inte tjänsten hos <xliff:g id="FROM_CARRIER_NAME">%2$s</xliff:g>."</string>
-    <string name="sim_action_switch_sub_dialog_text_downloaded" msgid="1396320209544698027">"Du kan bara ha ett aktivt SIM-kort åt gången.\n\nOm du byter till <xliff:g id="TO_CARRIER_NAME">%1$s</xliff:g> avslutas inte tjänsten hos <xliff:g id="FROM_CARRIER_NAME">%2$s</xliff:g>."</string>
-    <string name="sim_action_switch_sub_dialog_text_single_sim" msgid="6188750682431170845">"Du kan bara ha ett aktivt SIM-kort åt gången.\n\nTjänsten hos <xliff:g id="TO_CARRIER_NAME">%1$s</xliff:g> avslutas inte för att du byter SIM-kort."</string>
-    <string name="sim_action_switch_sub_dialog_confirm" msgid="1901181581944638961">"Byt till <xliff:g id="CARRIER_NAME">%1$s</xliff:g>"</string>
+    <string name="sim_action_switch_sub_dialog_text" msgid="2091834911153293004">Du kan bara ha ett aktivt SIM-kort åt gången.
+\n
+\nOm du byter till <xliff:g id="to_carrier_name" example="Google Fi">%1$s</xliff:g> avslutas inte tjänsten hos <xliff:g id="from_carrier_name" example="Sprint">%2$s</xliff:g>.</string>
+    <string name="sim_action_switch_sub_dialog_text_downloaded" msgid="1396320209544698027">Du kan bara ha ett aktivt SIM-kort åt gången.
+\n
+\nOm du byter till <xliff:g id="to_carrier_name" example="Google Fi">%1$s</xliff:g> avslutas inte tjänsten hos <xliff:g id="from_carrier_name" example="Sprint">%2$s</xliff:g>.</string>
+    <string name="sim_action_switch_sub_dialog_text_single_sim" msgid="6188750682431170845">Du kan bara ha ett aktivt SIM-kort åt gången.
+\n
+\nTjänsten hos <xliff:g id="to_carrier_name" example="Google Fi">%1$s</xliff:g> avslutas inte för att du byter SIM-kort.</string>
+    <string name="sim_action_switch_sub_dialog_confirm" msgid="1901181581944638961">Byt till <xliff:g id="carrier_name" example="Google Fi">%1$s</xliff:g></string>
     <string name="sim_action_enabling_sim_without_carrier_name" msgid="2706862823501979981">"Ansluter till nätverket …"</string>
-    <string name="sim_action_switch_sub_dialog_progress" msgid="8341013572582875574">"Byter till <xliff:g id="CARRIER_NAME">%1$s</xliff:g>"</string>
+    <string name="sim_action_switch_sub_dialog_progress" msgid="8341013572582875574">Byter till <xliff:g id="carrier_name" example="Google Fi">%1$s</xliff:g></string>
     <string name="sim_action_enable_sim_fail_title" msgid="1765646238941015899">"Det gick inte att byta operatör"</string>
     <string name="sim_action_enable_sim_fail_text" msgid="4781863235721417544">"Det gick inte att byta operatör på grund av ett fel."</string>
-    <string name="privileged_action_disable_sub_dialog_title" msgid="3298942357601334418">"Vill du inaktivera <xliff:g id="CARRIER_NAME">%1$s</xliff:g>?"</string>
+    <string name="privileged_action_disable_sub_dialog_title" msgid="3298942357601334418">Vill du inaktivera <xliff:g id="carrier_name" example="Google Fi">%1$s</xliff:g>\?</string>
     <string name="privileged_action_disable_sub_dialog_title_without_carrier" msgid="6518373229436331608">"Vill du inaktivera SIM-kortet?"</string>
-    <string name="privileged_action_disable_sub_dialog_progress" msgid="5900243067681478102">"SIM-kortet inaktiveras <xliff:g id="ELLIPSIS">…</xliff:g>"</string>
+    <string name="privileged_action_disable_sub_dialog_progress" msgid="5900243067681478102">SIM-kortet inaktiveras <xliff:g id="ellipsis" example="...">…</xliff:g></string>
     <string name="privileged_action_disable_fail_title" msgid="6689494935697043555">"Det gick inte att inaktivera operatören"</string>
     <string name="privileged_action_disable_fail_text" msgid="8404023523406091819">"Något gick fel och operatören gick inte att inaktivera."</string>
     <string name="sim_action_enable_dsds_title" msgid="226508711751577169">"Vill du använda två SIM-kort?"</string>
@@ -5323,25 +5329,27 @@
     <string name="dsds_activation_failure_body_msg2" msgid="73044349546544410">"Testa att aktivera SIM-kortet igen. Starta om enheten om problemet kvarstår."</string>
     <string name="sim_setup_channel_id" msgid="8797972565087458515">"Nätverksaktivering"</string>
     <string name="sim_switch_channel_id" msgid="4927038626791837861">"Operatörsbyte"</string>
-    <string name="post_dsds_reboot_notification_title_with_carrier" msgid="3308827462185135307">"<xliff:g id="CARRIER_NAME">%1$s</xliff:g> är aktiv"</string>
+    <string name="post_dsds_reboot_notification_title_with_carrier" msgid="3308827462185135307"><xliff:g id="carrier_name" example="Google Fi">%1$s</xliff:g> är aktiv</string>
     <string name="post_dsds_reboot_notification_text" msgid="7533428378211541410">"Tryck för att uppdatera SIM-inställningarna"</string>
-    <string name="switch_to_removable_notification" msgid="7640342063449806296">"Du har bytt till <xliff:g id="CARRIER_NAME">%1$s</xliff:g>"</string>
+    <string name="switch_to_removable_notification" msgid="7640342063449806296">Du har bytt till <xliff:g id="carrier_name" example="Google Fi">%1$s</xliff:g></string>
     <string name="switch_to_removable_notification_no_carrier_name" msgid="7384856964036215338">"Du har bytt till en annan operatör"</string>
     <string name="network_changed_notification_text" msgid="2407908598496951243">"Mobilnätverket har ändrats"</string>
     <string name="dsds_notification_after_suw_title" msgid="3738898232310273982">"Konfigurera det andra SIM-kortet"</string>
     <string name="dsds_notification_after_suw_text" msgid="1287357774676361084">"Välj vilket SIM-kort som ska vara aktivt eller använd två SIM-kort samtidigt"</string>
     <string name="choose_sim_title" msgid="4804689675237716286">"Välj vilken du vill använda"</string>
     <string name="choose_sim_text" msgid="4356662002583501647">"{count,plural, =1{1 nummer har lagts till på den här enheten, men du kan bara använda ett i taget}=2{2 nummer har lagts till på den här enheten, men du kan bara använda ett i taget}other{# nummer har lagts till på den här enheten, men du kan bara använda ett i taget}}"</string>
-    <string name="choose_sim_activating" msgid="9035902671985449448">"Aktiverar <xliff:g id="ELLIPSIS">…</xliff:g>"</string>
+    <string name="choose_sim_activating" msgid="9035902671985449448">Aktiverar <xliff:g id="ellipsis" example="...">…</xliff:g></string>
     <string name="choose_sim_could_not_activate" msgid="2154564459842291617">"Det går inte att aktivera profilen just nu"</string>
     <string name="choose_sim_item_summary_unknown" msgid="7854314795485227568">"Okänt nummer"</string>
-    <string name="switch_sim_dialog_title" msgid="5407316878973237773">"Vill du använda <xliff:g id="CARRIER_NAME">%1$s</xliff:g>?"</string>
-    <string name="switch_sim_dialog_text" msgid="7530186862171635464">"<xliff:g id="CARRIER_NAME">%1$s</xliff:g> används för mobildata, samtal och sms."</string>
+    <string name="switch_sim_dialog_title" msgid="5407316878973237773">Vill du använda <xliff:g id="carrier_name" example="Google Fi">%1$s</xliff:g>\?</string>
+    <string name="switch_sim_dialog_text" msgid="7530186862171635464"><xliff:g id="carrier_name" example="Google Fi">%1$s</xliff:g> används för mobildata, samtal och sms.</string>
     <string name="switch_sim_dialog_no_switch_title" msgid="809763410787744247">"Det finns inga aktiva SIM-kort"</string>
     <string name="switch_sim_dialog_no_switch_text" msgid="7053939850026876088">"Om du senare vill använda mobildata, samtalsfunktioner och sms öppnar du nätverksinställningarna"</string>
     <string name="sim_card_label" msgid="5632157635124050923">"SIM-kort"</string>
     <string name="erase_sim_dialog_title" msgid="881253002169177016">"Vill du rensa det här nedladdade SIM-kortet?"</string>
-    <string name="erase_sim_dialog_text" msgid="753031064269699885">"Om du rensar det här SIM-kortet tas tjänsten hos <xliff:g id="CARRIER_NAME_A">%1$s</xliff:g> bort från enheten.\n\nTjänsten hos <xliff:g id="CARRIER_NAME_B">%1$s</xliff:g> avslutas inte."</string>
+    <string name="erase_sim_dialog_text" msgid="753031064269699885">Om du rensar det här SIM-kortet tas tjänsten hos <xliff:g id="carrier_name_a" example="Google Fi">%1$s</xliff:g> bort från enheten.
+\n
+\nTjänsten hos <xliff:g id="carrier_name_b" example="Google Fi">%1$s</xliff:g> avslutas inte.</string>
     <string name="erase_sim_confirm_button" msgid="8309115684335320541">"Rensa"</string>
     <string name="erasing_sim" msgid="7877703231075699139">"Rensar SIM-kort …"</string>
     <string name="erase_sim_fail_title" msgid="2024446702985862427">"Det gick inte att rensa SIM-kortet"</string>
@@ -5376,10 +5384,10 @@
     <string name="contextual_card_dismiss_confirm_message" msgid="6434344989238055188">"Ska förslaget tas bort?"</string>
     <string name="contextual_card_removed_message" msgid="5755438207494260867">"Förslaget har tagits bort"</string>
     <string name="contextual_card_undo_dismissal_text" msgid="5200381837316691406">"Ångra"</string>
-    <string name="low_storage_summary" msgid="1979492757417779718">"Ont om lagringsutrymme. <xliff:g id="PERCENTAGE">%1$s</xliff:g> används, <xliff:g id="FREE_SPACE">%2$s</xliff:g> ledigt"</string>
+    <string name="low_storage_summary" msgid="1979492757417779718">Ont om lagringsutrymme. <xliff:g id="percentage" example="54%">%1$s</xliff:g> används, <xliff:g id="free_space" example="32GB">%2$s</xliff:g> ledigt</string>
     <string name="contextual_card_feedback_send" msgid="7409408664417908922">"Skicka feedback"</string>
     <string name="contextual_card_feedback_confirm_message" msgid="3186334562157665381">"Vill du ge oss feedback på det här förslaget?"</string>
-    <string name="copyable_slice_toast" msgid="1008251852798990606">"<xliff:g id="COPY_CONTENT">%1$s</xliff:g> har kopierats till urklipp."</string>
+    <string name="copyable_slice_toast" msgid="1008251852798990606"><xliff:g id="copy_content" example="Phone number">%1$s</xliff:g> har kopierats till urklipp.</string>
     <string name="permission_bar_chart_empty_text" msgid="4856719891991325077">"Inga appar använde behörigheter"</string>
     <string name="permission_bar_chart_title" msgid="2493212904955611441">"Behörighetsanvändning under de senaste 24 timmarna"</string>
     <string name="permission_bar_chart_details" msgid="5816698018592357088">"Visa alla i översikten"</string>
@@ -5393,8 +5401,8 @@
         <item quantity="other"><xliff:g id="service_count">%1$d</xliff:g> appar har fullständig åtkomst till din enhet</item>
     </plurals>
     <string name="media_output_panel_title" msgid="5920946795078065159">"Utdata som styrs med reglaget"</string>
-    <string name="media_output_panel_summary_of_playing_device" msgid="6998758947764222915">"Spelas upp nu på <xliff:g id="DEVICE_NAME">%1$s</xliff:g>"</string>
-    <string name="media_output_disconnected_status" msgid="5567111639832431865">"<xliff:g id="DEVICE_NAME">%1$s</xliff:g> (frånkopplad)"</string>
+    <string name="media_output_panel_summary_of_playing_device" msgid="6998758947764222915">Spelas upp nu på <xliff:g id="device_name" example="Bose headphone">%1$s</xliff:g></string>
+    <string name="media_output_disconnected_status" msgid="5567111639832431865"><xliff:g id="device_name" example="My device">%1$s</xliff:g> (frånkopplad)</string>
     <string name="media_output_switch_error_text" msgid="603563475910236831">"Misslyckat byte. Tryck och försök igen."</string>
     <string name="wfc_disclaimer_title_text" msgid="4617195934203523503">"Viktig information"</string>
     <string name="wfc_disclaimer_agree_button_text" msgid="4082872292910770344">"FORTSÄTT"</string>
@@ -5415,14 +5423,14 @@
     <string name="wfc_disclaimer_emergency_limitation_desc_text" msgid="5503902001191552196">"Nödsamtal via wifi stöds inte av din operatör.\nEnheten byter automatiskt till ett mobilnätverk vid nödsamtal.\nNödsamtal fungerar endast i områden där mobilnätverket har täckning."</string>
     <string name="wifi_calling_summary" msgid="8566648389959032967">"Använd wifi vid samtal så att kvaliteten blir bättre"</string>
     <string name="backup_calling_settings_title" msgid="519714752900364326">"Reserv för samtal"</string>
-    <string name="backup_calling_setting_summary" msgid="599493254305348733">"Använd SIM-kortets mobildata för samtal via <xliff:g id="BACKUP_CALLING_CARRIER_TEXT">%1$s</xliff:g> om <xliff:g id="BACKUP_CALLING_OPERATOR_TEXT">%1$s</xliff:g> inte är tillgängligt eller roaming är aktiverat."</string>
+    <string name="backup_calling_setting_summary" msgid="599493254305348733">Använd SIM-kortets mobildata för samtal via <xliff:g id="backup_calling_operator_text" example="Google Fi">%1$s</xliff:g> om <xliff:g id="backup_calling_carrier_text" example="Google Fi">%1$s</xliff:g> inte är tillgängligt eller roaming är aktiverat.</string>
     <string name="keywords_backup_calling" msgid="8592800915478816800">"reserv för samtal"</string>
     <string name="enable_receiving_mms_notification_title" msgid="6465218559386990248">"Inkommande mms"</string>
     <string name="enable_sending_mms_notification_title" msgid="7120641300854953375">"Det går inte att skicka mms"</string>
-    <string name="enable_mms_notification_summary" msgid="6432752438276672500">"Tryck för att tillåta mms via <xliff:g id="OPERATOR_NAME">%1$s</xliff:g> när mobildata är inaktiverat"</string>
+    <string name="enable_mms_notification_summary" msgid="6432752438276672500">Tryck för att tillåta mms via <xliff:g id="operator_name" example="T-Mobile">%1$s</xliff:g> när mobildata är inaktiverat</string>
     <string name="enable_mms_notification_channel_title" msgid="1798206332620642108">"Mms"</string>
     <string name="sim_combination_warning_notification_title" msgid="1365401631492986487">"Problem med SIM-kombination"</string>
-    <string name="dual_cdma_sim_warning_notification_summary" msgid="2826474790710586487">"Om du använder <xliff:g id="OPERATOR_NAMES">%1$s</xliff:g> kan funktionerna begränsas. Tryck för att läsa mer."</string>
+    <string name="dual_cdma_sim_warning_notification_summary" msgid="2826474790710586487">Om du använder <xliff:g id="operator_names" example="T-Mobile &amp; Verizon">%1$s</xliff:g> kan funktionerna begränsas. Tryck för att läsa mer.</string>
     <string name="dual_cdma_sim_warning_notification_channel_title" msgid="1049161096896074364">"SIM-kombination"</string>
     <string name="work_policy_privacy_settings" msgid="2702644843505242596">"Information om jobbpolicy"</string>
     <string name="work_policy_privacy_settings_summary" msgid="690118670737638405">"Inställningar som hanteras av IT-administratören"</string>
@@ -5511,29 +5519,33 @@
     <string name="downloaded_sims_category_title" msgid="8779223441781763315">"NEDLADDADE SIM-KORT"</string>
     <string name="sim_category_active_sim" msgid="1503823567818544012">"Aktiv"</string>
     <string name="sim_category_inactive_sim" msgid="4068899490133820881">"Inaktiv"</string>
-    <string name="sim_category_default_active_sim" msgid="1208194173387987231">" / Standardinställning för <xliff:g id="ID_1">%1$s</xliff:g>"</string>
+    <string name="sim_category_default_active_sim" msgid="1208194173387987231"> / Standardinställning för <xliff:g name="default_sim_config" example=" / Default for calls">%1$s</xliff:g></string>
     <string name="default_active_sim_calls" msgid="2390973682556353558">"samtal"</string>
     <string name="default_active_sim_sms" msgid="8041498593025994921">"Sms"</string>
     <string name="default_active_sim_mobile_data" msgid="6798083892814045301">"mobildata"</string>
     <string name="wifi_scan_notify_message" msgid="4130641837826688879">"I syfte att förbättra upplevelsen med enheten kan appar och tjänster fortfarande söka efter wifi-nätverk när som helst, även om wifi har inaktiverats. Funktionen kan till exempel användas till att förbättra platsbaserade funktioner och tjänster. Du kan ändra inställningen i "<annotation id="link">"inställningarna för wifi-sökning"</annotation>"."</string>
-    <string name="preference_summary_default_combination" msgid="4643585915107796253">"<xliff:g id="STATE">%1$s</xliff:g>/<xliff:g id="NETWORKMODE">%2$s</xliff:g>"</string>
+    <string name="preference_summary_default_combination" msgid="4643585915107796253"><xliff:g id="state" example="Connected">%1$s</xliff:g>/<xliff:g id="networkMode" example="LTE">%2$s</xliff:g></string>
     <string name="mobile_data_connection_active" msgid="2422223108911581552">"Ansluten"</string>
     <string name="mobile_data_no_connection" msgid="905897142426974030">"Ingen anslutning"</string>
     <string name="mobile_data_off_summary" msgid="1884248776904165539">"Du ansluts inte till mobildata automatiskt"</string>
     <string name="non_carrier_network_unavailable" msgid="9031567407964127997">"Inga andra nätverk är tillgängliga"</string>
     <string name="all_network_unavailable" msgid="1163897808282057496">"Det finns inga tillgängliga nätverk"</string>
     <string name="mobile_data_disable_title" msgid="8438714772256088913">"Vill du inaktivera mobildata?"</string>
-    <string name="mobile_data_disable_message" msgid="7829414836454769970">"Du kan inte komma åt data eller använda internet via <xliff:g id="CARRIER">%s</xliff:g>. Internet är endast tillgängligt via wifi."</string>
+    <string name="mobile_data_disable_message" msgid="7829414836454769970">Du kan inte komma åt data eller använda internet via <xliff:g id="carrier" example="T-Mobile">%s</xliff:g>. Internet är endast tillgängligt via wifi.</string>
     <string name="mobile_data_disable_message_default_carrier" msgid="4449469407705838612">"din operatör"</string>
     <string name="aware_summary_when_bedtime_on" msgid="2063856008597376344">"Inte tillgängligt eftersom sovläget är på"</string>
     <string name="reset_importance_completed" msgid="3595536767426097205">"Aviseringarnas relevans har återställts."</string>
     <string name="apps_dashboard_title" msgid="3269953499954393706">"Appar"</string>
     <string name="bluetooth_message_access_notification_content" msgid="5111712860712823893">"En enhet vill få åtkomst till dina meddelanden. Tryck här för mer information."</string>
     <string name="bluetooth_message_access_dialog_title" msgid="9009836130395061579">"Vill du tillåta åtkomst till meddelanden?"</string>
-    <string name="bluetooth_message_access_dialog_content" msgid="7186694737578788487">"En Bluetooth-enhet, <xliff:g id="DEVICE_NAME_0">%1$s</xliff:g>, vill få åtkomst till dina meddelanden.\n\nDu har inte anslutit till <xliff:g id="DEVICE_NAME_1">%2$s</xliff:g> tidigare."</string>
+    <string name="bluetooth_message_access_dialog_content" msgid="7186694737578788487">En Bluetooth-enhet, <xliff:g id="device_name" example="My device">%1$s</xliff:g>, vill få åtkomst till dina meddelanden.
+\n
+\nDu har inte anslutit till <xliff:g id="device_name" example="My device">%2$s</xliff:g> tidigare.</string>
     <string name="bluetooth_phonebook_access_notification_content" msgid="9175220052703433637">"En enhet vill få åtkomst till dina kontakter och samtalshistoriken. Tryck här för mer information."</string>
     <string name="bluetooth_phonebook_access_dialog_title" msgid="7624607995928968721">"Vill du tillåta åtkomst till kontakter och samtalshistorik?"</string>
-    <string name="bluetooth_phonebook_access_dialog_content" msgid="959658135522249170">"En Bluetooth-enhet, <xliff:g id="DEVICE_NAME_0">%1$s</xliff:g>, vill få åtkomst till dina kontakter och samtalshistoriken. Detta inkluderar data om inkommande och utgående samtal.\n\nDu har inte anslutit till <xliff:g id="DEVICE_NAME_1">%2$s</xliff:g> tidigare."</string>
+    <string name="bluetooth_phonebook_access_dialog_content" msgid="959658135522249170">En Bluetooth-enhet, <xliff:g id="device_name" example="My device">%1$s</xliff:g>, vill få åtkomst till dina kontakter och samtalshistoriken. Detta inkluderar data om inkommande och utgående samtal.
+\n
+\nDu har inte anslutit till <xliff:g id="device_name" example="My device">%2$s</xliff:g> tidigare.</string>
     <string name="category_name_brightness" msgid="8520372392029305084">"Ljusstyrka"</string>
     <string name="category_name_lock_display" msgid="8310402558217129670">"Låsskärm"</string>
     <string name="category_name_appearance" msgid="8287486771764166805">"Utseende"</string>
@@ -5593,11 +5605,15 @@
     <string name="bluetooth_sim_card_access_notification_title" msgid="5217037846900908318">"Begäran om åtkomst till SIM-kort"</string>
     <string name="bluetooth_sim_card_access_notification_content" msgid="6759306429895300286">"En enhet vill få åtkomst till ditt SIM-kort. Tryck här för mer information."</string>
     <string name="bluetooth_sim_card_access_dialog_title" msgid="4486768729352090174">"Vill du tillåta åtkomst till SIM-kortet?"</string>
-    <string name="bluetooth_sim_card_access_dialog_content" msgid="4153857191661567190">"En Bluetooth-enhet, <xliff:g id="DEVICE_NAME_0">%1$s</xliff:g>, vill få åtkomst till data på ditt SIM-kort. Detta inkluderar dina kontakter.\n\nNär <xliff:g id="DEVICE_NAME_1">%2$s</xliff:g> är ansluten tar den emot alla samtal till <xliff:g id="PHONE_NUMBER">%3$s</xliff:g>."</string>
+    <string name="bluetooth_sim_card_access_dialog_content" msgid="4153857191661567190">En Bluetooth-enhet, <xliff:g id="device_name" example="My device">%1$s</xliff:g>, vill få åtkomst till data på ditt SIM-kort. Detta inkluderar dina kontakter.
+\n
+\nNär <xliff:g id="device_name" example="My device">%2$s</xliff:g> är ansluten tar den emot alla samtal till <xliff:g id="phone_number" example="0912345678">%3$s</xliff:g>.</string>
     <string name="bluetooth_connect_access_notification_title" msgid="2573547043170883947">"En Bluetooth-enhet är tillgänglig"</string>
     <string name="bluetooth_connect_access_notification_content" msgid="1328465545685433304">"En enhet vill ansluta. Tryck här för mer information."</string>
     <string name="bluetooth_connect_access_dialog_title" msgid="1948056782712451381">"Vill du ansluta till Bluetooth-enheten?"</string>
-    <string name="bluetooth_connect_access_dialog_content" msgid="4336436466468405850">"<xliff:g id="DEVICE_NAME_0">%1$s</xliff:g> vill ansluta till den här telefonen.\n\nDu har inte anslutit till <xliff:g id="DEVICE_NAME_1">%2$s</xliff:g> tidigare."</string>
+    <string name="bluetooth_connect_access_dialog_content" msgid="4336436466468405850"><xliff:g id="device_name" example="My device">%1$s</xliff:g> vill ansluta till den här telefonen.
+\n
+\nDu har inte anslutit till <xliff:g id="device_name" example="My device">%2$s</xliff:g> tidigare.</string>
     <string name="bluetooth_connect_access_dialog_negative" msgid="4944672755226375059">"Anslut inte"</string>
     <string name="bluetooth_connect_access_dialog_positive" msgid="3630561675207269710">"Anslut"</string>
     <string name="intent_sender_data_label"><xliff:g id="data">Data:</xliff:g></string>
