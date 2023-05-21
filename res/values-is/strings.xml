@@ -271,10 +271,10 @@
     <string name="date_time_select_region" msgid="5449345333305056072">Svæði</string>
     <string name="date_time_select_fixed_offset_time_zones" msgid="594848300882055361">Velja tímamun frá UTC</string>
     <string name="zone_change_to_from_dst" msgid="686451769985774294"><xliff:g id="time_type" example="Pacific Summer Time">%1$s</xliff:g> hefst þann <xliff:g id="transition_date" example="Mar 11 2018">%2$s</xliff:g>.</string>
-    <string name="zone_info_exemplar_location_and_offset" msgid="2186042522225153092"><xliff:g id="EXEMPLAR_LOCATION">%1$s</xliff:g> (<xliff:g id="OFFSET">%2$s</xliff:g>)</string>
-    <string name="zone_info_offset_and_name" msgid="3960192548990990152"><xliff:g id="TIME_TYPE">%2$s</xliff:g> (<xliff:g id="OFFSET">%1$s</xliff:g>)</string>
-    <string name="zone_info_footer" msgid="7004693956837388129">Notar <xliff:g id="OFFSET_AND_NAME">%1$s</xliff:g>. <xliff:g id="DST_TIME_TYPE">%2$s</xliff:g> hefst <xliff:g id="TRANSITION_DATE">%3$s</xliff:g>.</string>
-    <string name="zone_info_footer_no_dst" msgid="8399585343328811158">Notar <xliff:g id="OFFSET_AND_NAME">%1$s</xliff:g>. Enginn sumartími.</string>
+    <string name="zone_info_exemplar_location_and_offset" msgid="2186042522225153092"><xliff:g id="exemplar_location" example="Los Angeles">%1$s</xliff:g> (<xliff:g id="offset" example="GMT-08:00">%2$s</xliff:g>)</string>
+    <string name="zone_info_offset_and_name" msgid="3960192548990990152"><xliff:g id="time_type" example="Pacific Time">%2$s</xliff:g> (<xliff:g id="offset" example="GMT-08:00">%1$s</xliff:g>)</string>
+    <string name="zone_info_footer" msgid="7004693956837388129">Notar <xliff:g id="offset_and_name" example="Pacific Time (GMT-08:00)">%1$s</xliff:g>. <xliff:g id="dst_time_type" example="Pacific Daylight Time">&gt;%2$s</xliff:g> hefst <xliff:g id="transition_date" example="Mar 11 2018">%3$s</xliff:g>.</string>
+    <string name="zone_info_footer_no_dst" msgid="8399585343328811158">Notar <xliff:g id="offset_and_name" example="GMT-08:00 Pacific Time">%1$s</xliff:g>. Enginn sumartími.</string>
     <string name="zone_time_type_dst" msgid="9189689342265305808">Sumartími</string>
     <string name="zone_time_type_standard" msgid="6865420715430680352">Staðartími</string>
     <string name="zone_menu_by_region" msgid="2963565278710225652">Velja eftir svæði</string>
@@ -294,7 +294,7 @@
     <string name="trust_lost_locks_screen_title" msgid="4231232144565291276">Læsir skjánum þegar traust vantar</string>
     <string name="trust_lost_locks_screen_summary" msgid="718374221849537361">Ef kveikt er á þessu læsist tækið þegar síðasti traustfulltrúi missir traust</string>
     <string name="owner_info_settings_summary" msgid="347238313388083297">Ekkert</string>
-    <string name="owner_info_settings_status" msgid="7488764871758677862"><xliff:g id="COUNT_0">%1$d</xliff:g>/<xliff:g id="COUNT_1">%2$d</xliff:g></string>
+    <string name="owner_info_settings_status" msgid="7488764871758677862"><xliff:g id="count" example="90">%1$d</xliff:g>/<xliff:g id="count" example="100">%2$d</xliff:g></string>
     <string name="owner_info_settings_edit_text_hint" msgid="841926875876050274">T.d. Android sími Sigga.</string>
     <string name="show_profile_info_on_lockscreen_label" msgid="5734739022887933365">Sýna notandaupplýsingar á lásskjá</string>
     <string name="Accounts_settings_title" msgid="8434263183710375412">Reikningar</string>
@@ -348,7 +348,7 @@
     <string name="security_settings_face_enroll_introduction_message_setup" msgid="765965418187421753">Notaðu andlitið til að taka símann úr lás, heimila kaup eða skrá þig inn í forrit</string>
     <string name="security_settings_face_enroll_repeat_title" msgid="4446229670377418717">Staðsettu andlit þitt í miðju hringsins</string>
     <string name="security_settings_face_enroll_enrolling_skip" msgid="5568617401632528567">Sleppa</string>
-    <string name="face_add_max" msgid="4578405795494514876">Þú getur bætt við allt að <xliff:g id="COUNT">%d</xliff:g> andlitum</string>
+    <string name="face_add_max" msgid="4578405795494514876">Þú getur bætt við allt að <xliff:g id="count" example="5">%d</xliff:g> andlitum</string>
     <string name="face_intro_error_max" msgid="2474735057709291626">Þú hefur bætt við hámarksfjölda andlita</string>
     <string name="face_intro_error_unknown" msgid="1626057493054989995">Ekki er hægt að bæta fleiri andlitum við</string>
     <string name="security_settings_face_enroll_error_dialog_title" msgid="2460820099922775936">Skráningu var ekki lokið</string>
@@ -469,11 +469,11 @@
 \n
 \nÞú getur enn notað fingrafarið til að heimila innkaup og aðgang að forritum. <annotation id="url">Frekari upplýsingar</annotation></string>
     <string name="security_settings_fingerprint_enroll_lift_touch_again" msgid="2590665137265458789">Lyftu fingrinum og snertu svo skynjarann aftur</string>
-    <string name="fingerprint_add_max" msgid="8639321019299347447">Þú getur bætt við allt að <xliff:g id="COUNT">%d</xliff:g> fingraförum</string>
+    <string name="fingerprint_add_max" msgid="8639321019299347447">Þú getur bætt við allt að <xliff:g id="count" example="5">%d</xliff:g> fingraförum</string>
     <string name="fingerprint_intro_error_max" msgid="4431784409732135610">Þú hefur bætt við hámarksfjölda fingrafara</string>
     <string name="fingerprint_intro_error_unknown" msgid="877005321503793963">Ekki er hægt að bæta fleiri fingraförum við</string>
     <string name="fingerprint_last_delete_title" msgid="4081475675646514726">Fjarlægja öll fingraför\?</string>
-    <string name="fingerprint_delete_title" msgid="1469865327307917858">Fjarlægja „<xliff:g id="FINGERPRINT_ID">%1$s</xliff:g>“</string>
+    <string name="fingerprint_delete_title" msgid="1469865327307917858">Fjarlægja „<xliff:g id="fingerprint_id" example="Fingerprint 2">%1$s</xliff:g>“</string>
     <string name="fingerprint_delete_message" msgid="1454995433333496541">Viltu eyða þessu fingrafari\?</string>
     <string name="fingerprint_last_delete_message" msgid="93311579320049852">Þú getur ekki notað fingraför til að taka símann úr lás, heimila kaup eða skrá þig inn í forrit</string>
     <string name="fingerprint_last_delete_message_profile_challenge" msgid="3460246522493987163">Þú getur ekki notað fingraför til að taka vinnusniðið úr lás, heimila kaup eða skrá þig inn í vinnuforrit</string>
@@ -497,12 +497,12 @@
     <string name="crypt_keeper_final_desc" product="default" msgid="3040428543349852419">Dulkóðunaraðgerðin er óafturkræf og ef hún er trufluð glatar þú gögnum. Dulkóðun tekur allt frá einni klukkustund og á þeim tíma endurræsir síminn sig nokkrum sinnum.</string>
     <string name="crypt_keeper_setup_title" msgid="3339725741305796680">Dulkóðun</string>
     <string name="crypt_keeper_setup_description" product="tablet" msgid="4417016995091289019">"Bíddu á meðan verið er að dulkóða spjaldtölvuna. <xliff:g id="PERCENT">^1</xliff:g>% lokið."</string>
-    <string name="crypt_keeper_setup_description" product="default" msgid="7902355422499500352">Bíddu á meðan verið er að dulkóða símann. <xliff:g id="PERCENT">^1</xliff:g>% lokið.</string>
+    <string name="crypt_keeper_setup_description" product="default" msgid="7902355422499500352">Bíddu á meðan verið er að dulkóða símann. <xliff:g id="percent" example="50">^1</xliff:g>% lokið.</string>
     <string name="crypt_keeper_setup_time_remaining" product="tablet" msgid="8348188415839917821">"Bíddu á meðan verið er að dulkóða spjaldtölvuna. Tími eftir: <xliff:g id="DURATION">^1</xliff:g>"</string>
-    <string name="crypt_keeper_setup_time_remaining" product="default" msgid="8556105766597855198">Bíddu á meðan verið er að dulkóða símann. Tími eftir: <xliff:g id="DURATION">^1</xliff:g></string>
+    <string name="crypt_keeper_setup_time_remaining" product="default" msgid="8556105766597855198">Bíddu á meðan verið er að dulkóða símann. Tími eftir: <xliff:g id="duration" example="1:23">^1</xliff:g></string>
     <string name="crypt_keeper_force_power_cycle" product="tablet" msgid="3832496715430327682">"Slökktu á spjaldtölvunni og kveiktu á henni aftur til að taka hana úr lás."</string>
     <string name="crypt_keeper_force_power_cycle" product="default" msgid="5070346039522135361">Slökktu á símanum og kveiktu á honum aftur til að taka hann úr lás.</string>
-    <string name="crypt_keeper_warn_wipe" msgid="8104921337301750394">Viðvörun: Eftir <xliff:g id="COUNT">^1</xliff:g> misheppnaðar opnunartilraunir í viðbót verður allt þurrkað út úr tækinu. </string>
+    <string name="crypt_keeper_warn_wipe" msgid="8104921337301750394">Viðvörun: Eftir <xliff:g id="count" example="7">^1</xliff:g> misheppnaðar opnunartilraunir í viðbót verður allt þurrkað út úr tækinu. </string>
     <string name="crypt_keeper_enter_password" msgid="1274917431075529732">Sláðu inn aðgangsorðið þitt</string>
     <string name="crypt_keeper_failed_title" msgid="8173654570682244149">Dulkóðun mistókst</string>
     <string name="crypt_keeper_failed_summary" product="tablet" msgid="5977961188966570342">"Dulkóðunin var trufluð og ekki er hægt að ljúka henni. Gögn spjaldtölvunnar eru því ekki aðgengileg lengur. \n\nTil að halda áfram að nota spjaldtölvuna þarftu að núllstilla hana. Þegar þú setur tölvuna upp eftir núllstillinguna gefst þér kostur á að endurheimta öll gögn sem afrituð voru á Google reikninginn þinn."</string>
