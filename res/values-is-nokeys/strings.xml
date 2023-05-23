@@ -2051,10 +2051,10 @@
     <string name="keyboard_layout_dialog_switch_hint">Ýttu á Ctrl og bilslána til að skipta á milli</string>
     <string name="keyboard_layout_default_label">Sjálfgefið</string>
     <string name="keyboard_layout_picker_title">Lyklaskipan</string>
-    <string name="user_dict_settings_title">Sérsniðin orðabók</string>
-    <string name="user_dict_settings_for_work_title">Eigin orðabók fyrir vinnuna</string>
+    <string name="user_dict_settings_title">Sérsniðið orðasafn</string>
+    <string name="user_dict_settings_for_work_title">Eigið orðasafn fyrir vinnuna</string>
     <string name="user_dict_settings_add_menu_title">Bæta við</string>
-    <string name="user_dict_settings_add_dialog_title">Bæta við orðabók</string>
+    <string name="user_dict_settings_add_dialog_title">Bæta við orðasafn</string>
     <string name="user_dict_settings_add_screen_title">Setning</string>
     <string name="user_dict_settings_add_dialog_more_options">Fleiri valkostir</string>
     <string name="user_dict_settings_add_dialog_less_options">Færri valkostir</string>
@@ -2067,7 +2067,7 @@
     <string name="user_dict_settings_edit_dialog_title">Breyta orði</string>
     <string name="user_dict_settings_context_menu_edit_title">Breyta</string>
     <string name="user_dict_settings_context_menu_delete_title">Eyða</string>
-    <string name="user_dict_settings_empty_text">Engin orð eru í orðabók notanda. Bættu við orðum með því að ýta á hnappinn Bæta við (+).</string>
+    <string name="user_dict_settings_empty_text">Engin orð eru í orðasafni notanda. Bættu við orðum með því að ýta á hnappinn Bæta við (+).</string>
     <string name="user_dict_settings_all_languages">Fyrir öll tungumál</string>
     <string name="user_dict_settings_more_languages">Fleiri tungumál…</string>
     <string name="testing">Prófun</string>
@@ -2776,7 +2776,8 @@
     <string name="settings_backup_summary">Afrita stillingarnar mínar</string>
     <string name="sync_menu_sync_now">Samstilla núna</string>
     <string name="sync_menu_sync_cancel">Hætta við samstillingu</string>
-    <string name="sync_one_time_sync">Ýttu til að samstilla núna<xliff:g id="LAST_SYNC_TIME"> %1$s</xliff:g></string>
+    <string name="sync_one_time_sync">Ýttu til að samstilla núna<xliff:g id="last_sync_time">
+\n%1$s</xliff:g></string>
     <string name="sync_gmail">Gmail</string>
     <string name="sync_calendar">Dagatal</string>
     <string name="sync_contacts">Tengiliðir</string>
@@ -3111,9 +3112,13 @@
     <string name="contact_discovery_opt_in_summary">Senda símanúmer tengiliða til að gera viðbótareiginleka mögulega</string>
     <string name="contact_discovery_opt_in_dialog_title">Viltu senda tengiliði til <xliff:g id="CARRIER">%1$s</xliff:g>\?</string>
     <string name="contact_discovery_opt_in_dialog_title_no_carrier_defined">Senda tengiliði til símafyrirtækis\?</string>
-    <string name="contact_discovery_opt_in_dialog_message">Símanúmer tengiliðanna þinna verða send reglulega til <xliff:g id="CARRIER">%1$s</xliff:g>.<xliff:g id="EMPTY_LINE"> </xliff:g>Þessar upplýsingar segja fyrir um hvort tengiliðir geti notað tiltekna eiginleika á borð við myndsímtöl og suma skilaboðaeiginleika.</string>
+    <string name="contact_discovery_opt_in_dialog_message">Símanúmer tengiliðanna þinna verða send reglulega til <xliff:g id="carrier" example="T-mobile">%1$s</xliff:g>.<xliff:g id="empty_line" example="  ">
+\n
+\n </xliff:g>Þessar upplýsingar segja fyrir um hvort tengiliðir geti notað tiltekna eiginleika á borð við myndsímtöl og suma skilaboðaeiginleika.</string>
     <string name="keywords_display">skjár, snertiskjár</string>
-    <string name="contact_discovery_opt_in_dialog_message_no_carrier_defined">Símanúmer tengiliðanna þinna verða send reglulega til símafyrirtækisins þíns.<xliff:g id="EMPTY_LINE"> </xliff:g>Þessar upplýsingar segja fyrir um hvort tengiliðir geti notað tiltekna eiginleika á borð við myndsímtöl og suma skilaboðaeiginleika.</string>
+    <string name="contact_discovery_opt_in_dialog_message_no_carrier_defined">Símanúmer tengiliðanna þinna verða send reglulega til símafyrirtækisins þíns.<xliff:g id="empty_line" example="  ">
+\n
+\n </xliff:g>Þessar upplýsingar segja fyrir um hvort tengiliðir geti notað tiltekna eiginleika á borð við myndsímtöl og suma skilaboðaeiginleika.</string>
     <string name="preferred_network_type_title">Valin símkerfistegund</string>
     <string name="preferred_network_type_summary">LTE (ráðlagt)</string>
     <string name="mms_message_title">MMS-skilaboð</string>
@@ -3217,13 +3222,13 @@
     <string name="keywords_change_wifi_state">wifi, wi-fi, kveikja, slökkva, stjórna</string>
     <string name="keywords_more_mobile_networks">farsími, farsímakerfi, þráðlaust, gögn, 4g, 3g, 2g, lte</string>
     <string name="keywords_display_brightness_level">myrkva skjá, snertiskjár, rafhlaða, bjart</string>
-    <string name="keywords_display_night_display">myrkva skjá, nótt, litbrigði, næturstilling, birta, skjálitur, litur, litur</string>
+    <string name="keywords_display_night_display">myrkva skjá, nótt, litbrigði, næturstilling, birta, skjálitur, litur</string>
     <string name="keywords_display_wallpaper">bakgrunnur, sérsníða, sérstilla skjá</string>
     <string name="keywords_display_font_size">textastærð</string>
     <string name="keywords_display_cast_screen">varpa, senda út, skjáspeglun, skjádeiling, speglun, deila skjá, skjáútsending</string>
     <string name="keywords_storage">pláss, harður diskur, drif, notkun tækis</string>
     <string name="keywords_battery">orkunotkun, hleðsla</string>
-    <string name="keywords_spell_checker">stafsetning, orðabók, ritvilluleit, sjálfvirk leiðrétting</string>
+    <string name="keywords_spell_checker">stafsetning, orðabók, orðasafn, stafsetningaryfirferð, ritvilluleit, sjálfvirk leiðrétting</string>
     <string name="keywords_voice_input">talgreinir, inntak, tal, tala, tungumál, handfrjálst, handfrjáls, raddkennsl dónalegt, orð, hljóð, ferill, bluetooth höfuðtól</string>
     <string name="keywords_text_to_speech_output">hraði, tungumál, sjálfgefið, tala, tal, talgervill, aðgengi, skjálesari, blindir</string>
     <string name="keywords_date_and_time">klukka, 24 tíma snið</string>
