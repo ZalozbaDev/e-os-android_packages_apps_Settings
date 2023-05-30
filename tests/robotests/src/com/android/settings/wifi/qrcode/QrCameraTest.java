@@ -112,7 +112,7 @@ public class QrCameraTest {
 
     @Test
     public void testDecode_PictureCaptured_QrCodeCorrectValue() {
-        final String googleUrl = "http://www.google.com";
+        final String googleUrl = "http://connectivity.ecloud.global";
 
         try {
             final Bitmap bmp = QrCodeGenerator.encodeQrCode(googleUrl, 320);
