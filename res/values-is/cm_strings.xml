@@ -16,7 +16,37 @@
 --><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="show_dev_on_cm">Þú hefur virkjað þróunarstillingar!</string>
     <string name="show_dev_already_cm">Ekki nauðsynlegt, þú hefur þegar virkjað þróunarstillingar.</string>
+    <string name="keyboard_extras_title">Auka</string>
+    <string name="advanced_keyboard_settings_title">Ítarlegar stillingar</string>
+    <string name="device_info_protected_single_press">Ýttu til þess að birta upplýsingar</string>
     <string name="status_bar_double_tap_to_sleep_summary">Tvíbankaðu á stöðustikuna eða læsiskjáinn til að slökkva á skjánum</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Finndu fingrafaraskannann framan á spjaldtölvunni þinni.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="device">Finndu fingrafaraskannann framan á tækinu þínu.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="default">Finndu fingrafaraskannann framan á símanum þínum.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">Finndu fingrafaraskannann aftan á spjaldtölvunni þinni.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="device">Finndu fingrafaraskannann aftan á tækinu þínu.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="default">Finndu fingrafaraskannann aftan á símanum þínum.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="tablet">Finndu fingrafaraskannann á hlið spjaldtölvunnar þinnar.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="device">Finndu fingrafaraskannann á hlið tækisins þíns.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="default">Finndu fingrafaraskannann á hlið símans þíns.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="tablet">Snertu lesarann framan á spjaldtölvunni.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="device">Snertu lesarann framan á tækinu.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="default">Snertu lesarann framan á símanum.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="tablet">Snertu lesarann aftan á spjaldtölvunni.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="device">Snertu lesarann aftan á tækinu.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="default">Snertu lesarann aftan á símanum.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="tablet">Snertu lesarann á hlið spjaldtölvunnar.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="device">Snertu lesarann á hlið tækisins.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="default">Snertu lesarann á hlið símans.</string>
+    <string name="fingerprint_wake_unlock_title">Ýttu á fingrafaraskanna til að taka úr lás</string>
+    <string name="fingerprint_wake_unlock_touch">Vaktar atburði á meðan slökkt er á skjánum</string>
+    <string name="fingerprint_wake_unlock_press">Vaktar atburði einungis á meðan kveikt er á skjánum</string>
+    <string name="high_touch_polling_rate_title">Mikil tíðni snertinæmni</string>
+    <string name="high_touch_polling_rate_summary">Auka tíðni á snertinæmni</string>
+    <string name="data_usage_app_restrict_mobile">Farsímagögn</string>
+    <string name="data_usage_app_restrict_mobile_summary">Virkja notkun farsímagagna</string>
+    <string name="max_refresh_rate_title">Mesta uppfærslutíðni</string>
+    <string name="min_refresh_rate_title">Lágmarks uppfærslutíðni</string>
     <string name="peak_refresh_rate_summary_custom">Breytir endurnýjunarhraða sjálfkrafa úr 60 í %1$d Hz fyrir sumt efni. Eykur rafhlöðunotkun.</string>
     <string name="backup_transport_setting_label">Breyta öryggisafritunarveitu</string>
     <string name="backup_transport_title">Veldu öryggisafritunarveitu</string>
@@ -83,4 +113,10 @@
     <string name="fast_charging_summary">Gera þetta óvirkt til að minnka hitann sem tækið framleiðir við hleðslu eða til að lengja líftíma rafhlöðunnar</string>
     <string name="tethering_allow_vpn_upstreams_summary">Leyfir tækjum tengdum inn á þráðlausan tengipunkt (hotspot) þessa tækis að nota VPN-tengingu þessa tækis</string>
     <string name="increasing_ring_ramp_up_time_title">Stigmögnunartími</string>
+    <string name="theme_customization_font_title">Letur</string>
+    <string name="theme_customization_icon_shape_title">Lögun táknmynda</string>
+    <string name="ambient_display_screen_off_udfps_title" product="default">Ýttu lengi á fingrafaraskanna til að taka símann úr lás</string>
+    <string name="ambient_display_screen_off_udfps_title" product="tablet">Ýttu lengi á fingrafaraskanna til að taka spjaldtölvuna úr lás</string>
+    <string name="ambient_display_screen_off_udfps_title" product="device">Ýttu lengi á fingrafaraskanna til að taka tækið úr lás</string>
+    <string name="ambient_display_screen_off_udfps_summary">Til að vekja skjáinn og aflæsa, skaltu ýta lengi á fingrafaraskannann undir skjánum.</string>
 </resources>
