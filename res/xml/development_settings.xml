@@ -679,6 +679,14 @@
             android:key="enable_telemetry"
             android:title="@string/enable_telemetry"
             android:summary="@string/telemetry_details" />
+
+        <Preference
+            android:key="sentry_userid"
+            android:title="@string/sentry_userid_title"
+            android:summary="@string/summary_placeholder"
+            android:selectable="false"
+            settings:enableCopying="true"
+            settings:controller="com.android.settings.deviceinfo.firmwareversion.SentryDetailPreferenceController"/>
     </PreferenceCategory>
 
     <PreferenceCategory
