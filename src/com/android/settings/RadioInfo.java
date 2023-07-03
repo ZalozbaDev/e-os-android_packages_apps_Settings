@@ -1167,7 +1167,7 @@ public class RadioInfo extends Activity {
     private final void pingHostname() {
         try {
             try {
-                Process p4 = Runtime.getRuntime().exec("ping -c 1 connectivity.ecloud.global");
+                Process p4 = Runtime.getRuntime().exec("ping -c 1 www.google.com");
                 int status4 = p4.waitFor();
                 if (status4 == 0) {
                     mPingHostnameResultV4 = "Pass";
@@ -1178,7 +1178,7 @@ public class RadioInfo extends Activity {
                 mPingHostnameResultV4 = "Fail: IOException";
             }
             try {
-                Process p6 = Runtime.getRuntime().exec("ping6 -c 1 connectivity.ecloud.global");
+                Process p6 = Runtime.getRuntime().exec("ping6 -c 1 www.google.com");
                 int status6 = p6.waitFor();
                 if (status6 == 0) {
                     mPingHostnameResultV6 = "Pass";
@@ -1200,7 +1200,7 @@ public class RadioInfo extends Activity {
         HttpURLConnection urlConnection = null;
         try {
             // TODO: Hardcoded for now, make it UI configurable
-            URL url = new URL("https://connectivity.ecloud.global");
+            URL url = new URL("https://www.google.com");
             urlConnection = (HttpURLConnection) url.openConnection();
             if (urlConnection.getResponseCode() == 200) {
                 mHttpClientTestResult = "Pass";
