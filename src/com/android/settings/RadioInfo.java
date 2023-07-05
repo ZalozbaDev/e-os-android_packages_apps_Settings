@@ -1200,7 +1200,7 @@ public class RadioInfo extends Activity {
         HttpURLConnection urlConnection = null;
         try {
             // TODO: Hardcoded for now, make it UI configurable
-            URL url = new URL("https://9.9.9.9");
+            URL url = new URL("https://www.quad9.net");
             urlConnection = (HttpURLConnection) url.openConnection();
             if (urlConnection.getResponseCode() == 200) {
                 mHttpClientTestResult = "Pass";
