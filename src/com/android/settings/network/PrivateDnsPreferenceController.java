@@ -64,9 +64,6 @@ public class PrivateDnsPreferenceController extends BasePreferenceController
         Settings.Global.getUriFor(PRIVATE_DNS_SPECIFIER),
     };
 
-    // Only used in Settings, update on additions to ConnectivitySettingsUtils
-    private static final String PRIVATE_DNS_MODE_QUADNINE = "quadnine";
-
     private final Handler mHandler;
     private final ContentObserver mSettingsObserver;
     private final ConnectivityManager mConnectivityManager;
@@ -131,7 +128,6 @@ public class PrivateDnsPreferenceController extends BasePreferenceController
         switch (mode) {
             case PRIVATE_DNS_MODE_OFF:
                 return res.getString(R.string.private_dns_mode_off);
-            case PRIVATE_DNS_MODE_QUADNINE:
             case PRIVATE_DNS_MODE_OPPORTUNISTIC:
                 // TODO (b/79122154) : create a string specifically for this, instead of
                 // hijacking a string from notifications. This is necessary at this time
@@ -140,17 +136,9 @@ public class PrivateDnsPreferenceController extends BasePreferenceController
                 return dnsesResolved ? res.getString(R.string.switch_on_text)
                         : res.getString(R.string.private_dns_mode_opportunistic);
             case PRIVATE_DNS_MODE_PROVIDER_HOSTNAME:
-                if (!dnsesResolved) {
-                    return res.getString(R.string.private_dns_mode_provider_failure);
-                }
-                final String privateDnsHostname =
-                        PrivateDnsModeDialogPreference.getHostnameFromSettings(cr);
-                final String quadNineHostname =
-                        res.getString(R.string.private_dns_hostname_quadnine);
-                if (privateDnsHostname.equals(quadNineHostname)) {
-                    return res.getString(R.string.private_dns_mode_quadnine);
-                }
-                return privateDnsHostname;
+                return dnsesResolved
+                        ? PrivateDnsModeDialogPreference.getHostnameFromSettings(cr)
+                        : res.getString(R.string.private_dns_mode_provider_failure);
         }
         return "";
     }

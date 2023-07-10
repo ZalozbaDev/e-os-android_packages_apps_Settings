@@ -70,13 +70,9 @@ public class PrivateDnsModeDialogPreference extends CustomDialogPreferenceCompat
     // DNS_MODE -> RadioButton id
     private static final Map<String, Integer> PRIVATE_DNS_MAP;
 
-    // Only used in Settings, update on additions to ConnectivitySettingsUtils
-    private static final String PRIVATE_DNS_MODE_QUADNINE = "quadnine";
-
     static {
         PRIVATE_DNS_MAP = new HashMap<>();
         PRIVATE_DNS_MAP.put(PRIVATE_DNS_MODE_OFF, R.id.private_dns_mode_off);
-        PRIVATE_DNS_MAP.put(PRIVATE_DNS_MODE_QUADNINE, R.id.private_dns_mode_quadnine);
         PRIVATE_DNS_MAP.put(PRIVATE_DNS_MODE_OPPORTUNISTIC, R.id.private_dns_mode_opportunistic);
         PRIVATE_DNS_MAP.put(PRIVATE_DNS_MODE_PROVIDER_HOSTNAME, R.id.private_dns_mode_provider);
     }
@@ -171,14 +167,6 @@ public class PrivateDnsModeDialogPreference extends CustomDialogPreferenceCompat
         final ContentResolver contentResolver = context.getContentResolver();
 
         mMode = getModeFromSettings(context.getContentResolver());
-        if (mMode == PRIVATE_DNS_MODE_PROVIDER_HOSTNAME) {
-            final String privateDnsHostname = getHostnameFromSettings(contentResolver);
-            final String quadNineHostname =
-                    context.getString(R.string.private_dns_hostname_quadnine);
-            if (privateDnsHostname.equals(quadNineHostname)) {
-                mMode = PRIVATE_DNS_MODE_QUADNINE;
-            }
-        }
 
         mEditText = view.findViewById(R.id.private_dns_mode_provider_hostname);
         mEditText.addTextChangedListener(this);
@@ -205,22 +193,15 @@ public class PrivateDnsModeDialogPreference extends CustomDialogPreferenceCompat
     public void onClick(DialogInterface dialog, int which) {
         if (which == DialogInterface.BUTTON_POSITIVE) {
             final Context context = getContext();
-            String modeToSet = mMode;
             if (mMode.equals(PRIVATE_DNS_MODE_PROVIDER_HOSTNAME)) {
                 // Only clickable if hostname is valid, so we could save it safely
                 Settings.Global.putString(context.getContentResolver(), HOSTNAME_KEY,
                         mEditText.getText().toString());
-            } else if (mMode == PRIVATE_DNS_MODE_QUADNINE) {
-                final String quadNineHostname =
-                        context.getString(R.string.private_dns_hostname_quadnine);
-                Settings.Global.putString(context.getContentResolver(), HOSTNAME_KEY,
-                       quadNineHostname);
-                modeToSet = PRIVATE_DNS_MODE_PROVIDER_HOSTNAME;
             }
 
             FeatureFactory.getFactory(context).getMetricsFeatureProvider().action(context,
-                    SettingsEnums.ACTION_PRIVATE_DNS_MODE, modeToSet);
-            Settings.Global.putString(context.getContentResolver(), MODE_KEY, modeToSet);
+                    SettingsEnums.ACTION_PRIVATE_DNS_MODE, mMode);
+            Settings.Global.putString(context.getContentResolver(), MODE_KEY, mMode);
         }
     }
 
@@ -229,9 +210,6 @@ public class PrivateDnsModeDialogPreference extends CustomDialogPreferenceCompat
         switch (checkedId) {
             case R.id.private_dns_mode_off:
                 mMode = PRIVATE_DNS_MODE_OFF;
-                break;
-            case R.id.private_dns_mode_quadnine:
-                mMode = PRIVATE_DNS_MODE_QUADNINE;
                 break;
             case R.id.private_dns_mode_opportunistic:
                 mMode = PRIVATE_DNS_MODE_OPPORTUNISTIC;
