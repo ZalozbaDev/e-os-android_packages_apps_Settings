@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright Murena SAS 2023
+  ~ This program is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ This program is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~  along with this program.  If not, see <https://www.gnu.org/licenses/>.
+  -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="36dp"
+    android:height="36dp"
+    android:viewportWidth="32"
+    android:viewportHeight="32">
+  <group>
+    <clip-path
+        android:pathData="M0,0h32v32h-32z"/>
+    <path
+        android:pathData="M7,0L25,0A7,7 0,0 1,32 7L32,25A7,7 0,0 1,25 32L7,32A7,7 0,0 1,0 25L0,7A7,7 0,0 1,7 0z"
+        android:fillColor="#0088ED"/>
+    <path
+        android:pathData="M16.011,24.706C17.408,24.706 18.541,23.573 18.541,22.177C18.541,20.78 17.408,19.647 16.011,19.647C14.615,19.647 13.482,20.78 13.482,22.177C13.482,23.573 14.615,24.706 16.011,24.706Z"
+        android:fillColor="#ffffff"/>
+    <path
+        android:pathData="M21.548,18.556C18.493,15.481 13.507,15.478 10.428,18.558C10.119,18.866 9.619,18.866 9.31,18.558C9.001,18.249 9.001,17.749 9.31,17.44C13.005,13.745 18.994,13.742 22.67,17.442C22.977,17.751 22.975,18.252 22.666,18.559C22.356,18.867 21.856,18.865 21.548,18.556Z"
+        android:fillColor="#ffffff"
+        android:fillType="evenOdd"/>
+    <path
+        android:pathData="M25.48,14.674C20.233,9.448 11.767,9.45 6.543,14.673C6.235,14.982 5.734,14.982 5.426,14.673C5.117,14.365 5.117,13.864 5.426,13.555C11.268,7.713 20.733,7.715 26.596,13.554C26.905,13.862 26.906,14.363 26.598,14.672C26.29,14.981 25.79,14.982 25.48,14.674Z"
+        android:fillColor="#ffffff"
+        android:fillType="evenOdd"/>
+  </group>
+</vector>
+
