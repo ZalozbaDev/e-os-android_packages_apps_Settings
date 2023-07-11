@@ -65,7 +65,7 @@ public class PrivateDnsPreferenceController extends BasePreferenceController
         Settings.Global.getUriFor(PRIVATE_DNS_SPECIFIER),
     };
 
-    // Only used in Settings, update on additions to ConnectivitySettingsUtils
+    // Must match ConnectivitySettingsUtils
     private static final int PRIVATE_DNS_MODE_QUADNINE = 4;
 
     private final Handler mHandler;
@@ -133,21 +133,16 @@ public class PrivateDnsPreferenceController extends BasePreferenceController
             case PRIVATE_DNS_MODE_OFF:
                 return res.getString(R.string.private_dns_mode_off);
             case PRIVATE_DNS_MODE_QUADNINE:
+                return dnsesResolved
+                        ? res.getString(R.string.private_dns_mode_quadnine)
+                        : res.getString(R.string.private_dns_mode_provider_failure);
             case PRIVATE_DNS_MODE_OPPORTUNISTIC:
                 return dnsesResolved ? res.getString(R.string.private_dns_mode_on)
                         : res.getString(R.string.private_dns_mode_opportunistic);
             case PRIVATE_DNS_MODE_PROVIDER_HOSTNAME:
-                if (!dnsesResolved) {
-                    return res.getString(R.string.private_dns_mode_provider_failure);
-                }
-                final String privateDnsHostname =
-                        ConnectivitySettingsManager.getPrivateDnsHostname(mContext);
-                final String quadNineHostname =
-                        res.getString(R.string.private_dns_hostname_quadnine);
-                if (privateDnsHostname.equals(quadNineHostname)) {
-                    return res.getString(R.string.private_dns_mode_quadnine);
-                }
-                return PrivateDnsModeDialogPreference.getHostnameFromSettings(cr);
+                return dnsesResolved
+                        ? PrivateDnsModeDialogPreference.getHostnameFromSettings(cr)
+                        : res.getString(R.string.private_dns_mode_provider_failure);
         }
         return "";
     }
