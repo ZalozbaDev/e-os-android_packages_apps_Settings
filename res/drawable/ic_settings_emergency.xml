@@ -1,55 +1,24 @@
-<?xml version="1.0" encoding="utf-8"?>
 <!--
-  ~ Copyright ECORP SAS 2022
-  ~ This program is free software: you can redistribute it and/or modify
-  ~ it under the terms of the GNU General Public License as published by
-  ~ the Free Software Foundation, either version 3 of the License, or
-  ~ (at your option) any later version.
-  ~
-  ~ This program is distributed in the hope that it will be useful,
-  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
-  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-  ~ GNU General Public License for more details.
-  ~
-  ~ You should have received a copy of the GNU General Public License
-  ~  along with this program.  If not, see <https://www.gnu.org/licenses/>.
-  -->
+    Copyright (C) 2021 The Android Open Source Project
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+         http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
-    android:width="36dp"
-    android:height="36dp"
-    android:viewportWidth="32"
-    android:viewportHeight="32">
-  <group>
-    <clip-path
-        android:pathData="M0,0h32v32h-32z"/>
+        android:width="24dp"
+        android:height="24dp"
+        android:viewportWidth="24.0"
+        android:viewportHeight="24.0">
     <path
-        android:pathData="M7,0L25,0A7,7 0,0 1,32 7L32,25A7,7 0,0 1,25 32L7,32A7,7 0,0 1,0 25L0,7A7,7 0,0 1,7 0z"
-        android:fillColor="#E83A52"/>
-    <group>
-      <clip-path
-          android:pathData="M4.952,5.904h22.097v20.192h-22.097z"/>
-      <path
-          android:pathData="M24.858,26.096H7.142C5.928,26.096 4.952,25.12 4.952,23.905V11.381C4.952,10.166 5.928,9.19 7.142,9.19H24.858C26.072,9.19 27.048,10.166 27.048,11.381V23.905C27.048,25.12 26.072,26.096 24.858,26.096ZM7.142,10.857C6.857,10.857 6.618,11.095 6.618,11.381V23.905C6.618,24.191 6.857,24.429 7.142,24.429H24.858C25.143,24.429 25.382,24.191 25.382,23.905V11.381C25.382,11.095 25.143,10.857 24.858,10.857H7.142Z"
-          android:fillColor="#ffffff"/>
-      <path
-          android:pathData="M19.024,10.857H12.976C12.524,10.857 12.143,10.476 12.143,10.024V8.071C12.143,6.88 13.119,5.904 14.309,5.904H17.667C18.857,5.904 19.834,6.88 19.834,8.071V10.024C19.857,10.476 19.476,10.857 19.024,10.857ZM13.809,9.19H18.167V8.071C18.167,7.785 17.952,7.571 17.667,7.571H14.309C14.024,7.571 13.809,7.785 13.809,8.071V9.19Z"
-          android:fillColor="#ffffff"/>
-      <group>
-        <clip-path
-            android:pathData="M11,12.666h10.001v10.001h-10.001z"/>
-        <path
-            android:pathData="M16,13.692V21.594"
-            android:strokeWidth="1.6"
-            android:fillColor="#00000000"
-            android:strokeColor="#ffffff"
-            android:strokeLineCap="round"/>
-        <path
-            android:pathData="M19.951,17.643L12.049,17.643"
-            android:strokeWidth="1.6"
-            android:fillColor="#00000000"
-            android:strokeColor="#ffffff"
-            android:strokeLineCap="round"/>
-      </group>
-    </group>
-  </group>
+        android:pathData="M20.79,9.23l-2,-3.46l-4.79,2.77l0,-5.54l-4,0l0,5.54l-4.79,-2.77l-2,3.46l4.79,2.77l-4.79,2.77l2,3.46l4.79,-2.77l0,5.54l4,0l0,-5.54l4.79,2.77l2,-3.46l-4.79,-2.77z"
+        android:fillColor="?android:attr/colorPrimary"/>
 </vector>

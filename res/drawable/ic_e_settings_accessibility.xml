@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright Murena SAS 2023
+  ~ This program is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ This program is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~  along with this program.  If not, see <https://www.gnu.org/licenses/>.
+  -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="36dp"
+    android:height="36dp"
+    android:viewportWidth="32"
+    android:viewportHeight="32">
+  <group>
+    <clip-path
+        android:pathData="M0,0h32v32h-32z"/>
+    <path
+        android:pathData="M7,0L25,0A7,7 0,0 1,32 7L32,25A7,7 0,0 1,25 32L7,32A7,7 0,0 1,0 25L0,7A7,7 0,0 1,7 0z"
+        android:fillColor="#0088ED"/>
+    <path
+        android:pathData="M14.905,12.42C12.827,12.42 11.133,10.727 11.133,8.649C11.133,6.571 12.827,4.878 14.905,4.878C16.982,4.878 18.676,6.571 18.676,8.649C18.676,10.727 16.982,12.42 14.905,12.42ZM14.905,6.459C13.708,6.459 12.714,7.452 12.714,8.649C12.714,9.846 13.708,10.84 14.905,10.84C16.101,10.84 17.095,9.846 17.095,8.649C17.095,7.452 16.124,6.459 14.905,6.459Z"
+        android:fillColor="#ffffff"/>
+    <path
+        android:pathData="M13.911,27.122C10.478,27.122 7.565,24.457 7.339,20.979C7.159,18.247 8.717,15.65 11.201,14.521C11.608,14.34 12.059,14.521 12.24,14.927C12.42,15.334 12.24,15.785 11.833,15.966C9.936,16.824 8.762,18.789 8.898,20.866C9.078,23.622 11.472,25.699 14.227,25.518C15.808,25.406 17.208,24.593 18.089,23.26C18.337,22.899 18.812,22.786 19.173,23.034C19.534,23.283 19.647,23.757 19.399,24.118C18.247,25.857 16.395,26.941 14.318,27.077C14.227,27.122 14.069,27.122 13.911,27.122Z"
+        android:fillColor="#ffffff"/>
+    <path
+        android:pathData="M23.87,24.502C23.667,24.502 23.464,24.434 23.306,24.276L19.692,20.663H14.905C14.476,20.663 14.114,20.302 14.114,19.873V14.317C14.114,13.888 14.476,13.527 14.905,13.527C15.334,13.527 15.695,13.888 15.695,14.317V19.082H20.054C20.257,19.082 20.46,19.173 20.618,19.308L24.457,23.147C24.773,23.463 24.773,23.96 24.457,24.254C24.277,24.434 24.073,24.502 23.87,24.502Z"
+        android:fillColor="#ffffff"/>
+  </group>
+</vector>
