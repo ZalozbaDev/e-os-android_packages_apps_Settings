@@ -21,7 +21,7 @@
             android:shape="ring"
             android:thickness="@dimen/ring_progress_bar_thickness"
             android:useLevel="false"
-            android:tint="?android:colorControlNormal">
+            android:tint="@color/e_fingerprint_progress">
             <solid android:color="@*android:color/white_disabled_material" />
         </shape>
     </item>

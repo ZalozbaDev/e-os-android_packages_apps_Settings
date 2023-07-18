@@ -21,14 +21,9 @@
         <objectAnimator
             android:duration="300"
             android:propertyName="fillColor"
-            android:valueFrom="#000000"
+            android:valueFrom="@color/e_fingerprint_hint"
             android:valueTo="@*android:color/accent_device_default"
             android:interpolator="@android:interpolator/linear_out_slow_in" />
-        <objectAnimator
-            android:duration="300"
-            android:propertyName="fillAlpha"
-            android:valueFrom="0.07"
-            android:valueTo="0.65" />
     </set>
     <set
         android:ordering="together" >
@@ -36,12 +31,7 @@
             android:duration="300"
             android:propertyName="fillColor"
             android:valueFrom="@*android:color/accent_device_default"
-            android:valueTo="#000000"
+            android:valueTo="@color/e_fingerprint_hint"
             android:interpolator="@android:interpolator/fast_out_slow_in" />
-        <objectAnimator
-            android:duration="300"
-            android:propertyName="fillAlpha"
-            android:valueFrom="0.65"
-            android:valueTo="0.07" />
     </set>
 </set>
