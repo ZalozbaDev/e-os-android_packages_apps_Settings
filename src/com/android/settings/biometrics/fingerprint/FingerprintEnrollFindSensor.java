@@ -95,7 +95,9 @@ public class FingerprintEnrollFindSensor extends BiometricEnrollBase implements
         } else {
             final boolean isFrontFacingFps = getResources().getBoolean(
                     R.bool.config_is_front_facing_fps);
-            final String fpsLocation = getString(mCanAssumeSidefps
+            final boolean isSideMountedFps = mCanAssumeSidefps || getResources().getBoolean(
+                    R.bool.config_is_side_fps);
+            final String fpsLocation = getString(isSideMountedFps
                     ? R.string.fingerprint_enroll_find_sensor_message_side : isFrontFacingFps
                             ? R.string.fingerprint_enroll_find_sensor_message_front
                             : R.string.fingerprint_enroll_find_sensor_message_rear);
