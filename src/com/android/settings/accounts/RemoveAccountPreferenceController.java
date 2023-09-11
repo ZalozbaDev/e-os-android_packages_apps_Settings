@@ -145,7 +145,7 @@ public class RemoveAccountPreferenceController extends AbstractPreferenceControl
             final Context context = getActivity();
             return new AlertDialog.Builder(context)
                     .setTitle(R.string.really_remove_account_title)
-                    .setMessage(R.string.really_remove_account_message)
+                    .setMessage(R.string.e_really_remove_account_message)
                     .setNegativeButton(android.R.string.cancel, null)
                     .setPositiveButton(R.string.remove_account_label, this)
                     .create();
