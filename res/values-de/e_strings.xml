@@ -16,4 +16,26 @@
   -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="e_really_remove_account_message">Wenn Sie dieses Konto entfernen, werden Sie weder Ihre Daten noch Ihre E-Mails von diesem Gerät aus abrufen können. Sie können dies zu einem beliebigen Zeitpunkt aber wieder aktivieren.</string>
+    <string name="e_security_dashboard_summary">Bildschirmsperre, App-Sicherheit</string>
+    <string name="elicense_title">/e/ Lizenz</string>
+    <string name="e_version">/e/ OS-Version</string>
+    <string name="system_update_summary">Aktualisierungen, Einstellungen, Versionshinweise</string>
+    <string name="title_ota_server">Verbinden mit /e/OS-Testkanal</string>
+    <string name="use_ota_summary">Zugang zu Testversionen von /e/OS</string>
+    <string name="use_ota_staging_popup_title">Sie sind dabei, sich mit dem /e/OS-Testkanal zu verbinden</string>
+    <string name="use_ota_staging_popup_message">Damit können Sie Testversionen von /e/OS herunterladen und installieren. Diese Versionen können instabil sein und sollten nur zu Testzwecken verwendet werden. Bitte akzeptieren Sie nur, wenn Sie wissen, was Sie tun.</string>
+    <string name="main_clear_desc_e" product="default">Dadurch werden alle Daten vom <b>internen Speicher</b> Ihres Tablets gelöscht. , einschließlich:
+\n
+\n<li>Alle Ihre Konten</li>
+\n<li>System- und Anwendungsdaten und Einstellungen</li>
+\n<li>Heruntergeladene Anwendungen</li></string>
+    <string name="advanced_privacy_dashboard_summary">Tracker verwalten, Standort fälschen, IP-Adresse verbergen</string>
+    <string name="e_version_summary">Aktualisiert auf /e/OS v<xliff:g id="version" example="6.0">%1$s</xliff:g></string>
+    <string name="e_version_pending_update_summary">/e/OS v<xliff:g id="version" example="6.0">%1$s</xliff:g> - Aktualisierung verfügbar</string>
+    <string name="e_version_in_progress_update_summary">/e/OS v<xliff:g id="version" example="6.0">%1$s</xliff:g> - Aktualisierung läuft</string>
+    <string name="e_version_reboot_pending_summary">/e/OS v<xliff:g id="version" example="6.0">%1$s</xliff:g> - installiert, Neustart erforderlich</string>
+    <string name="telemetry_dialog_message">Dies erlaubt automatische Fehlermeldungen, wenn eine App abstürzt oder einfriert. Bitte starten Sie ihr Gerät nach einer Abänderung dieser Einstellung neu.</string>
+    <string name="telemetry_dialog_title">Sie sind gerade dabei, /e/OS-Telemetrie zu aktivieren</string>
+    <string name="telemetry_details">Automatische Fehlermeldungen aktivieren</string>
+    <string name="enable_telemetry">/e/OS-Telemetrie aktivieren</string>
 </resources>
