@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!--  Copyright (C) 2007 The Android Open Source Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
@@ -12,7 +12,10 @@
      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
      See the License for the specific language governing permissions and
      limitations under the License.
- --><resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="yes" msgid="1999566976857398962">"ຕົກລົງ"</string>
     <string name="no" msgid="5541738710521607130">"ບໍ່"</string>
     <string name="create" msgid="986997212165228751">"ສ້າງ"</string>
@@ -21,8 +24,8 @@
     <string name="confirmation_turn_on" msgid="2979094011928347665">"ເປີດໃຊ້"</string>
     <string name="device_info_default" msgid="1406619232867343310">"ບໍ່ຮູ້ຈັກ"</string>
     <plurals name="show_dev_countdown" formatted="false" msgid="1646187747875476269">
-        <item quantity="other">ຕອນນີ້ທ່ານຍັງ <xliff:g id="STEP_COUNT_1">%1$d</xliff:g> ຂັ້ນຕອນເພື່ອຈະເປັນນັກພັດທະນາ.</item>
-        <item quantity="one">ຕອນນີ້ທ່ານຍັງ <xliff:g id="STEP_COUNT_0">%1$d</xliff:g> ຂັ້ນຕອນເພື່ອຈະເປັນນັກພັດທະນາ.</item>
+      <item quantity="other">ຕອນນີ້ທ່ານຍັງ <xliff:g id="STEP_COUNT_1">%1$d</xliff:g> ຂັ້ນຕອນເພື່ອຈະເປັນນັກພັດທະນາ.</item>
+      <item quantity="one">ຕອນນີ້ທ່ານຍັງ <xliff:g id="STEP_COUNT_0">%1$d</xliff:g> ຂັ້ນຕອນເພື່ອຈະເປັນນັກພັດທະນາ.</item>
     </plurals>
     <string name="show_dev_on" msgid="2840850085134853754">"ຕອນນີ້ທ່ານເປັນນັກພັດທະນາແລ້ວ!"</string>
     <string name="show_dev_already" msgid="7041756429707644630">"ບໍ່ຈຳເປັນ, ທ່ານເປັນນັກພັດທະນາຢູ່ແລ້ວ."</string>
@@ -156,7 +159,7 @@
     <string name="date_and_time" msgid="1788358029823431692">"ວັນ​ທີ ແລະ ເວ​ລາ"</string>
     <string name="choose_timezone" msgid="1450780665958642147">"ເລືອກເຂດເວລາ"</string>
     <!-- no translation found for intent_sender_data_label (1733806423295725392) -->
-    <skip/>
+    <skip />
     <string name="intent_sender_sendbroadcast_text" msgid="3202857258557610646">"ສົ່ງ <xliff:g id="BROADCAST">broadcast</xliff:g>"</string>
     <string name="intent_sender_action_label" msgid="257853357827275530">"<xliff:g id="ACTION">Action</xliff:g>:"</string>
     <string name="intent_sender_startactivity_text" msgid="519934560779343541">"ເລີ່ມ <xliff:g id="ACTIVITY">activity</xliff:g>"</string>
@@ -205,8 +208,8 @@
     <string name="locale_remove_menu" msgid="3521546263421387474">"ລຶບອອກ"</string>
     <string name="add_a_language" msgid="2126220398077503271">"ເພີ່ມ​ພາ​ສາ"</string>
     <plurals name="dlg_remove_locales_title" formatted="false" msgid="2845515796732609837">
-        <item quantity="other">ລຶບພາສາທີ່ເລືອກບໍ?</item>
-        <item quantity="one">ລຶບພາສາທີ່ເລືອກບໍ?</item>
+      <item quantity="other">ລຶບພາສາທີ່ເລືອກບໍ?</item>
+      <item quantity="one">ລຶບພາສາທີ່ເລືອກບໍ?</item>
     </plurals>
     <string name="dlg_remove_locales_message" msgid="8110560091134252067">"ຂໍ້ຄວາມຈະຖືກສະແດງໃນພາສາອື່ນ."</string>
     <string name="dlg_remove_locales_error_title" msgid="5875503658221562572">"ບໍ່ສາມາດລຶບທຸກພາສາອອກໄດ້"</string>
@@ -295,8 +298,8 @@
     <string name="location_settings_primary_switch_title" msgid="8849081766644685127">"ໃຊ້ສະຖານທີ່"</string>
     <string name="location_settings_summary_location_off" msgid="4797932754681162262">"ປິດ"</string>
     <plurals name="location_settings_summary_location_on" formatted="false" msgid="1019959038518185676">
-        <item quantity="other">ເປີດ - <xliff:g id="COUNT_1">%1$d</xliff:g> ແອັບມີສິດເຂົ້າເຖິງສະຖານທີ່</item>
-        <item quantity="one">ເປີດ - <xliff:g id="COUNT_0">%1$d</xliff:g> ແອັບມີສິດເຂົ້າເຖິງສະຖານທີ່</item>
+      <item quantity="other">ເປີດ - <xliff:g id="COUNT_1">%1$d</xliff:g> ແອັບມີສິດເຂົ້າເຖິງສະຖານທີ່</item>
+      <item quantity="one">ເປີດ - <xliff:g id="COUNT_0">%1$d</xliff:g> ແອັບມີສິດເຂົ້າເຖິງສະຖານທີ່</item>
     </plurals>
     <string name="location_settings_loading_app_permission_stats" msgid="6054103701535557342">"ກຳລັງໂຫລດ…"</string>
     <string name="location_settings_footer_general" msgid="1040507068701188821">"ແອັບທີ່ມີການອະນຸຍາດອຸປະກອນທີ່ຢູ່ໃກ້ຄຽງສາມາດລະບຸສະຖານທີ່ທີ່ກ່ຽວຂ້ອງກັນຂອງອຸປະກອນທີ່ເຊື່ອມຕໍ່ໄດ້."</string>
@@ -324,11 +327,16 @@
     <string name="security_settings_face_enroll_education_title" msgid="6448806884597691208">"ວິທີຕັ້ງການປົດລັອກດ້ວຍໜ້າ"</string>
     <string name="security_settings_face_enroll_education_title_accessibility" msgid="3701874093226957891">"ຕັ້ງຄ່າການປົດລັອກດ້ວຍໜ້າ"</string>
     <string name="security_settings_face_enroll_education_title_unlock_disabled" msgid="8810954233979716906">"ໃຊ້ໃບໜ້າຂອງທ່ານເພື່ອພິສູດຢືນຢັນ"</string>
+    <string name="security_settings_face_enroll_education_message" msgid="4308030157487176799"></string>
+    <string name="security_settings_face_enroll_education_message_accessibility" msgid="1986648712195281391"></string>
     <string name="security_settings_face_enroll_education_start" msgid="8830924400907195590">"ເລີ່ມ"</string>
     <string name="security_settings_face_enroll_education_accessibility_dialog_message" msgid="2965952386172202665">"ຫາກປິດການປົດລັອກດ້ວຍໜ້າແບບຊ່ວຍເຂົ້າເຖິງໄວ້, ຂັ້ນຕອນການຕັ້ງຄ່າບາງຢ່າງອາດບໍ່ສາມາດເຮັດວຽກກັບ TalkBack ໄດ້ຕາມປົກກະຕິ."</string>
     <string name="security_settings_face_enroll_education_accessibility_dialog_negative" msgid="7872647360361245461">"ກັບຄືນ"</string>
     <string name="security_settings_face_enroll_education_accessibility_dialog_positive" msgid="3148077647572203458">"ສືບຕໍ່ການຕັ້ງຄ່າ"</string>
     <string name="security_settings_face_enroll_introduction_accessibility" msgid="5748221179069430975">"ໃຊ້ການຕັ້ງຄ່າການຊ່ວຍເຂົ້າເຖິງ"</string>
+    <string name="security_settings_face_enroll_introduction_accessibility_expanded" msgid="6763509014732769185"></string>
+    <string name="security_settings_face_enroll_introduction_accessibility_diversity" msgid="2774962371839179206"></string>
+    <string name="security_settings_face_enroll_introduction_accessibility_vision" msgid="7700394302162170363"></string>
     <string name="security_settings_face_enroll_introduction_cancel" msgid="7551159644361639436">"ຍົກເລີກ"</string>
     <string name="security_settings_face_enroll_introduction_no_thanks" msgid="1820618982738898717">"ບໍ່, ຂອບໃຈ"</string>
     <string name="security_settings_face_enroll_introduction_agree" msgid="6319476573697497750">"ຂ້ອຍຍອມຮັບ"</string>
@@ -340,6 +348,21 @@
     <string name="security_settings_face_enroll_introduction_consent_message" msgid="866117500419055444">"ອະນຸຍາດໃຫ້ລູກຂອງທ່ານໃຊ້ໜ້າຂອງເຂົາເຈົ້າປົດລັອກໂທລະສັບ ຫຼື ຢັ້ງຢືນວ່າແມ່ນເຂົາເຈົ້າໄດ້. ນີ້ຈະເກີດຂຶ້ນເມື່ອເຂົາເຈົ້າເຂົ້າສູ່ລະບົບຫາແອັບ, ອະນຸມັດການສັ່ງຊື້ ແລະ ອື່ນໆ."</string>
     <string name="security_settings_face_enroll_introduction_message_unlock_disabled" msgid="5841976283789481311">"ໃຊ້ໃບໜ້າຂອງທ່ານເພື່ອປົດລັອກໂທລະສັບ ຫຼື ອະນຸມັດການສັ່ງຊື້.\n\nໝາຍເຫດ: ທ່ານບໍ່ສາມາດໃຊ້ໃບໜ້າຂອງທ່ານເພື່ອປົດລັອກອຸປະກອນນີ້ໄດ້. ສຳລັບຂໍ້ມູນເພີ່ມເຕີມ, ໃຫ້ຕິດຕໍ່ຜູ້ເບິ່ງແຍງລະບົບອົງກອນຂອງທ່ານ."</string>
     <string name="security_settings_face_enroll_introduction_message_setup" msgid="765965418187421753">"ໃຊ້ໃບໜ້າຂອງທ່ານເພື່ອປົດລັອກໂທລະສັບ, ອະນຸມັດການສັ່ງຊື້ ຫຼື ເຂົ້າສູ່ລະບົບຫາແອັບຕ່າງໆ"</string>
+    <string name="security_settings_face_enroll_introduction_info_title" msgid="7120796118179406944"></string>
+    <string name="security_settings_face_enroll_introduction_info_glasses" msgid="2733870453868907471"></string>
+    <string name="security_settings_face_enroll_introduction_info_consent_glasses" msgid="6303917184145586880"></string>
+    <string name="security_settings_face_enroll_introduction_info_looking" msgid="6502109133251718131"></string>
+    <string name="security_settings_face_enroll_introduction_info_consent_looking" msgid="1911530177804950718"></string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure" msgid="6496505354480525745"></string>
+    <string name="security_settings_face_enroll_introduction_info_gaze" msgid="143556725395884850"></string>
+    <string name="security_settings_face_enroll_introduction_info_consent_gaze" msgid="6301647369911879888"></string>
+    <string name="security_settings_face_enroll_introduction_how_title" msgid="3680193263037835600"></string>
+    <string name="security_settings_face_enroll_introduction_how_message" msgid="4192656589626667797"></string>
+    <string name="security_settings_face_enroll_introduction_how_consent_message" msgid="9028182363896853946"></string>
+    <string name="security_settings_face_enroll_introduction_control_title" msgid="4536951089583821051"></string>
+    <string name="security_settings_face_enroll_introduction_control_consent_title" msgid="5892729331412694759"></string>
+    <string name="security_settings_face_enroll_introduction_control_message" msgid="4818463420573540379"></string>
+    <string name="security_settings_face_enroll_introduction_control_consent_message" msgid="4658082872829249850"></string>
     <string name="security_settings_face_enroll_repeat_title" msgid="4446229670377418717">"ໃຫ້ໜ້າຂອງທ່ານຢູ່ໃນວົງມົນ"</string>
     <string name="security_settings_face_enroll_enrolling_skip" msgid="5568617401632528567">"ຂ້າມ"</string>
     <string name="face_add_max" msgid="4578405795494514876">"ທ່ານສາມາດເພີ່ມບໍ່ເກີນ <xliff:g id="COUNT">%d</xliff:g> ໃບໜ້າ"</string>
@@ -379,9 +402,10 @@
     <string name="fingerprint_add_title" msgid="1837610443487902050">"ເພີ່ມ​ລາຍ​ນີ້ວ​ມື​"</string>
     <string name="fingerprint_enable_keyguard_toggle_title" msgid="5451094461919440992">"ລັອກໜ້າຈໍ"</string>
     <plurals name="security_settings_fingerprint_preference_summary" formatted="false" msgid="6897454766137108776">
-        <item quantity="other">ເພີ່ມ <xliff:g id="COUNT">%1$d</xliff:g> ລາຍນິ້ວມືແລ້ວ</item>
-        <item quantity="one">ເພີ່ມລາຍນິ້ວມືແລ້ວ</item>
+      <item quantity="other">ເພີ່ມ <xliff:g id="COUNT">%1$d</xliff:g> ລາຍນິ້ວມືແລ້ວ</item>
+      <item quantity="one">ເພີ່ມລາຍນິ້ວມືແລ້ວ</item>
     </plurals>
+    <string name="security_settings_fingerprint_preference_summary_none" msgid="1044059475710838504"></string>
     <string name="security_settings_fingerprint_enroll_introduction_title" msgid="7931650601996313070">"ຕັ້ງຄ່າລາຍນິ້ວມືຂອງທ່ານ"</string>
     <string name="security_settings_fingerprint_enroll_consent_introduction_title" msgid="2278592030102282364">"ອະນຸຍາດໃຫ້ປົດລັອກດ້ວຍລາຍນິ້ວມື"</string>
     <string name="security_settings_fingerprint_enroll_introduction_title_unlock_disabled" msgid="1911710308293783998">"ໃຊ້ລາຍນິ້ວມືຂອງທ່ານ"</string>
@@ -411,6 +435,7 @@
     <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_4" msgid="4983770600405797515">"ທ່ານ ແລະ ລູກຂອງທ່ານສາມາດລຶບຮູບ ແລະ ຮູບແບບລາຍນິ້ວມືຂອງເຂົາເຈົ້າອອກ ຫຼື ປິດການໃຊ້ການປົດລັອກດ້ວຍລາຍນິ້ວມືຕອນໃດກໍໄດ້ໃນການຕັ້ງຄ່າ. ຮູບລາຍນິ້ວມື ແລະ ຮູບແບບແມ່ນຖືກຈັດເກັບໄວ້ຢູ່ໂທລະສັບຈົນກວ່າພວກມັນຈະຖືກລຶບອອກ."</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_5" msgid="2018885671994058605">"ໂທລະສັບຂອງທ່ານສາມາດຖືກປົດລັອກໄດ້ເມື່ອທ່ານບໍ່ໄດ້ຕັ້ງໃຈ ເຊັ່ນ: ຫາກມີຄົນຖືມັນໄປໃສ່ນິ້ວມືຂອງທ່ານ."</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_5" msgid="8356551505082794682">"ໂທລະສັບຂອງລູກທ່ານສາມາດຖືກປົດລັອກໄດ້ໃນເວລາທີ່ເຂົາເຈົ້າບໍ່ໄດ້ຕັ້ງໃຈ ເຊັ່ນ: ຫາກມີຄົນຖືໂທລະສັບໄປໃສ່ນິ້ວມືຂອງເຂົາເຈົ້າ."</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more" msgid="5856010507790137793"></string>
     <string name="security_settings_fingerprint_v2_enroll_acquire_try_adjusting" msgid="3855444121278320304">"ປ່ຽນຕຳແໜ່ງຂອງນິ້ວມືຂອງທ່ານເລັກນ້ອຍໃນແຕ່ລະເທື່ອ"</string>
     <string name="security_settings_fingerprint_v2_enroll_acquire_partially_detected" msgid="8330287007361798356">"ບັງໄອຄອນດ້ວຍກາງຂອງນິ້ວຂອງທ່ານ"</string>
     <string name="security_settings_fingerprint_v2_enroll_acquire_already_enrolled" msgid="8616678833080422946">"ມີການເພີ່ມລາຍນິ້ວມືນີ້ໄປກ່ອນແລ້ວ"</string>
@@ -581,6 +606,9 @@
     <string name="suggested_lock_settings_summary" product="device" msgid="8479766049078378225">"ຕັ້ງໜ້າຈໍລັອກເພື່ອປົກປ້ອງອຸປະກອນຂອງທ່ານ"</string>
     <string name="suggested_lock_settings_summary" product="default" msgid="2443273582716671033">"ຕັ້ງໜ້າຈໍລັອກເພື່ອປົກປ້ອງໂທລະສັບຂອງທ່ານ"</string>
     <string name="suggested_fingerprint_lock_settings_title" msgid="3140266181874137984">"ເພີ່ມລາຍນິ້ວມືເພື່ອປົດລັອກ"</string>
+    <string name="suggested_fingerprint_lock_settings_summary" product="tablet" msgid="1040265358906410746"></string>
+    <string name="suggested_fingerprint_lock_settings_summary" product="device" msgid="1040265358906410746"></string>
+    <string name="suggested_fingerprint_lock_settings_summary" product="default" msgid="1040265358906410746"></string>
     <string name="lock_settings_picker_title" msgid="9219376327364915334">"ເລືອກການລັອກໜ້າຈໍ"</string>
     <string name="lock_settings_picker_new_lock_title" msgid="3113042086804290919">"ເລືອກການລັອກໜ້າຈໍ"</string>
     <string name="lock_settings_picker_update_lock_title" msgid="536853138943415927">"ເລືອກການລັອກໜ້າຈໍໃໝ່"</string>
@@ -606,6 +634,7 @@
     <string name="unlock_set_unlock_launch_picker_change_summary" msgid="6023813780512501969">"ປ່ຽນ ຫຼືປິດການນຳໃຊ້ຮູບແບບປົດລັອກ, PIN ຫຼືລະຫັດຜ່ານຄວາມປອດໄພ"</string>
     <string name="unlock_set_unlock_launch_picker_enable_summary" msgid="1699993191343299179">"ເລືອກວິທີທີ່ໃຊ້ລັອກໜ້າຈໍ"</string>
     <string name="unlock_set_unlock_off_title" msgid="2831957685685921667">"ບໍ່ໃຊ້"</string>
+    <string name="unlock_set_unlock_off_summary" msgid="4578319976164001322"></string>
     <string name="unlock_set_unlock_none_title" msgid="2844029875174409728">"ປັດ​ໄປ​ຂ້າງ"</string>
     <string name="unlock_set_unlock_none_summary" msgid="641298008390890152">"ບໍ່​ມີ​ຄວາມ​ປອດ​ໄພ"</string>
     <string name="unlock_set_unlock_pattern_title" msgid="8224895208452995332">"ຮູບແບບປົດລັອກ"</string>
@@ -705,21 +734,21 @@
     <string name="lock_failed_attempts_now_wiping_profile" msgid="3171880997211568208">"ພະຍາຍາມປົດລັອກບໍ່ສຳເລັດຫຼາຍເທື່ອເກີນໄປ. ໂປຣໄຟລ໌ບ່ອນເຣັດວຽກ ແລະ ຂໍ້ມູນຂອງມັນຈະຖືກລຶບອອກ."</string>
     <string name="lock_failed_attempts_now_wiping_dialog_dismiss" msgid="170155081899679669">"ປິດໄວ້"</string>
     <plurals name="lockpassword_password_too_short" formatted="false" msgid="2192234965414232157">
-        <item quantity="other">ຕ້ອງມີຢ່າງໜ້ອຍ <xliff:g id="COUNT_1">%d</xliff:g> ຕົວອັກສອນ</item>
-        <item quantity="one">ຕ້ອງມີຢ່າງໜ້ອຍ <xliff:g id="COUNT_0">%d</xliff:g> ຕົວອັກສອນ</item>
+      <item quantity="other">ຕ້ອງມີຢ່າງໜ້ອຍ <xliff:g id="COUNT_1">%d</xliff:g> ຕົວອັກສອນ</item>
+      <item quantity="one">ຕ້ອງມີຢ່າງໜ້ອຍ <xliff:g id="COUNT_0">%d</xliff:g> ຕົວອັກສອນ</item>
     </plurals>
     <plurals name="lockpassword_pin_too_short" formatted="false" msgid="6817086810898414162">
-        <item quantity="other">PIN ຕ້ອງມີຢ່າງໜ້ອຍ <xliff:g id="COUNT_1">%d</xliff:g> ຕົວເລກ</item>
-        <item quantity="one">PIN ຕ້ອງມີຢ່າງໜ້ອຍ <xliff:g id="COUNT_0">%d</xliff:g> ຕົວເລກ</item>
+      <item quantity="other">PIN ຕ້ອງມີຢ່າງໜ້ອຍ <xliff:g id="COUNT_1">%d</xliff:g> ຕົວເລກ</item>
+      <item quantity="one">PIN ຕ້ອງມີຢ່າງໜ້ອຍ <xliff:g id="COUNT_0">%d</xliff:g> ຕົວເລກ</item>
     </plurals>
     <string name="lockpassword_continue_label" msgid="2507983991979547816">"ດຳເນີນການຕໍ່"</string>
     <plurals name="lockpassword_password_too_long" formatted="false" msgid="8118091957172967677">
-        <item quantity="other">ຕ້ອງໜ້ອຍກວ່າ <xliff:g id="NUMBER_1">%d</xliff:g> ຕົວອັກສອນ</item>
-        <item quantity="one">ຕ້ອງໜ້ອຍກວ່າ <xliff:g id="NUMBER_0">%d</xliff:g> ຕົວອັກສອນ</item>
+      <item quantity="other">ຕ້ອງໜ້ອຍກວ່າ <xliff:g id="NUMBER_1">%d</xliff:g> ຕົວອັກສອນ</item>
+      <item quantity="one">ຕ້ອງໜ້ອຍກວ່າ <xliff:g id="NUMBER_0">%d</xliff:g> ຕົວອັກສອນ</item>
     </plurals>
     <plurals name="lockpassword_pin_too_long" formatted="false" msgid="8706992338720310765">
-        <item quantity="other">ຕ້ອງມີໜ້ອຍກວ່າ <xliff:g id="NUMBER_1">%d</xliff:g> ຕົວເລກ</item>
-        <item quantity="one">ຕ້ອງມີໜ້ອຍກວ່າ <xliff:g id="NUMBER_0">%d</xliff:g> ຕົວເລກ</item>
+      <item quantity="other">ຕ້ອງມີໜ້ອຍກວ່າ <xliff:g id="NUMBER_1">%d</xliff:g> ຕົວເລກ</item>
+      <item quantity="one">ຕ້ອງມີໜ້ອຍກວ່າ <xliff:g id="NUMBER_0">%d</xliff:g> ຕົວເລກ</item>
     </plurals>
     <string name="lockpassword_pin_recently_used" msgid="6650277060998923465">"ຜູ້ເບິ່ງແຍງລະບົບອຸປະກອນບໍ່ອະນຸຍາດໃຫ້ໃຊ້ລະຫັດ PIN ເມື່ອບໍ່ດົນມານີ້"</string>
     <string name="lockpassword_illegal_character" msgid="3434031212215886433">"ນີ້ບໍ່ສາມາດຮວມມີຕົວອັກສອນທີ່ບໍ່ຖືກຕ້ອງນຳໄດ້"</string>
@@ -727,32 +756,32 @@
     <string name="lockpassword_password_requires_digit" msgid="312518567592683795">"ຕ້ອງມີຢ່າງໜ້ອຍໜຶ່ງຕົວເລກ"</string>
     <string name="lockpassword_password_requires_symbol" msgid="6178512486154701321">"ຕ້ອງມີສັນຍາລັກຢ່າງໜ້ອຍໜຶ່ງຕົວ"</string>
     <plurals name="lockpassword_password_requires_letters" formatted="false" msgid="2385916409676839024">
-        <item quantity="other">ຕ້ອງມີຢ່າງໜ້ອຍ <xliff:g id="COUNT">%d</xliff:g> ຕົວອັກສອນ</item>
-        <item quantity="one">ຕ້ອງມີຢ່າງໜ້ອຍ 1 ຕົວອັກສອນ</item>
+      <item quantity="other">ຕ້ອງມີຢ່າງໜ້ອຍ <xliff:g id="COUNT">%d</xliff:g> ຕົວອັກສອນ</item>
+      <item quantity="one">ຕ້ອງມີຢ່າງໜ້ອຍ 1 ຕົວອັກສອນ</item>
     </plurals>
     <plurals name="lockpassword_password_requires_lowercase" formatted="false" msgid="2057467885488612701">
-        <item quantity="other">ຕ້ອງມີຕົວພິມນ້ອຍຢ່າງໜ້ອຍ <xliff:g id="COUNT">%d</xliff:g> ຕົວ</item>
-        <item quantity="one">ຕ້ອງມີຕົວພິມນ້ອຍຢ່າງໜ້ອຍ 1 ຕົວ</item>
+      <item quantity="other">ຕ້ອງມີຕົວພິມນ້ອຍຢ່າງໜ້ອຍ <xliff:g id="COUNT">%d</xliff:g> ຕົວ</item>
+      <item quantity="one">ຕ້ອງມີຕົວພິມນ້ອຍຢ່າງໜ້ອຍ 1 ຕົວ</item>
     </plurals>
     <plurals name="lockpassword_password_requires_uppercase" formatted="false" msgid="4541266279643052025">
-        <item quantity="other">ຕ້ອງມີຕົວອັກສອນພິມໃຫຍ່ຢ່າງໜ້ອຍ <xliff:g id="COUNT">%d</xliff:g> ຕົວ</item>
-        <item quantity="one">ຕ້ອງມີຕົວອັກສອນພິມໃຫຍ່ຢ່າງໜ້ອຍ 1 ຕົວ</item>
+      <item quantity="other">ຕ້ອງມີຕົວອັກສອນພິມໃຫຍ່ຢ່າງໜ້ອຍ <xliff:g id="COUNT">%d</xliff:g> ຕົວ</item>
+      <item quantity="one">ຕ້ອງມີຕົວອັກສອນພິມໃຫຍ່ຢ່າງໜ້ອຍ 1 ຕົວ</item>
     </plurals>
     <plurals name="lockpassword_password_requires_numeric" formatted="false" msgid="70617964591376248">
-        <item quantity="other">ຕ້ອງມີຕົວເລກຢ່າງໜ້ອຍ <xliff:g id="COUNT">%d</xliff:g> ຕົວ</item>
-        <item quantity="one">ຕ້ອງມີຕົວເລກຢ່າງໜ້ອຍ 1 ຕົວ</item>
+      <item quantity="other">ຕ້ອງມີຕົວເລກຢ່າງໜ້ອຍ <xliff:g id="COUNT">%d</xliff:g> ຕົວ</item>
+      <item quantity="one">ຕ້ອງມີຕົວເລກຢ່າງໜ້ອຍ 1 ຕົວ</item>
     </plurals>
     <plurals name="lockpassword_password_requires_symbols" formatted="false" msgid="7981236881269921943">
-        <item quantity="other">ຕ້ອງມີສັນຍາລັກພິເສດຢ່າງໜ້ອຍ <xliff:g id="COUNT">%d</xliff:g> ຕົວ</item>
-        <item quantity="one">ຕ້ອງມີສັນຍາລັກພິເສດຢ່າງໜ້ອຍ 1 ຕົວ</item>
+      <item quantity="other">ຕ້ອງມີສັນຍາລັກພິເສດຢ່າງໜ້ອຍ <xliff:g id="COUNT">%d</xliff:g> ຕົວ</item>
+      <item quantity="one">ຕ້ອງມີສັນຍາລັກພິເສດຢ່າງໜ້ອຍ 1 ຕົວ</item>
     </plurals>
     <plurals name="lockpassword_password_requires_nonletter" formatted="false" msgid="1567877061888948467">
-        <item quantity="other">ຕ້ອງມີຕົວອັກຂະລະທີ່ບໍ່ແມ່ນຕົວອັກສອນຢ່າງໜ້ອຍ <xliff:g id="COUNT">%d</xliff:g> ຕົວ</item>
-        <item quantity="one">ຕ້ອງມີຕົວອັກຂະລະທີ່ບໍ່ແມ່ນຕົວອັກສອນຢ່າງໜ້ອຍ 1 ຕົວ</item>
+      <item quantity="other">ຕ້ອງມີຕົວອັກຂະລະທີ່ບໍ່ແມ່ນຕົວອັກສອນຢ່າງໜ້ອຍ <xliff:g id="COUNT">%d</xliff:g> ຕົວ</item>
+      <item quantity="one">ຕ້ອງມີຕົວອັກຂະລະທີ່ບໍ່ແມ່ນຕົວອັກສອນຢ່າງໜ້ອຍ 1 ຕົວ</item>
     </plurals>
     <plurals name="lockpassword_password_requires_nonnumerical" formatted="false" msgid="5056743974888384475">
-        <item quantity="other">ຕ້ອງມີຕົວອັກສອນທີ່ບໍ່ແມ່ນຕົວເລກຢ່າງໜ້ອຍ <xliff:g id="COUNT">%d</xliff:g> ຕົວ</item>
-        <item quantity="one">ຕ້ອງມີຕົວອັກສອນທີ່ບໍ່ແມ່ນຕົວເລກຢ່າງໜ້ອຍ 1 ຕົວ</item>
+      <item quantity="other">ຕ້ອງມີຕົວອັກສອນທີ່ບໍ່ແມ່ນຕົວເລກຢ່າງໜ້ອຍ <xliff:g id="COUNT">%d</xliff:g> ຕົວ</item>
+      <item quantity="one">ຕ້ອງມີຕົວອັກສອນທີ່ບໍ່ແມ່ນຕົວເລກຢ່າງໜ້ອຍ 1 ຕົວ</item>
     </plurals>
     <string name="lockpassword_password_recently_used" msgid="5341218079730167191">"ຜູ້ເບິ່ງແຍງລະບົບບໍ່ອະນຸຍາດໃຫ້ໃຊ້ລະຫັດຜ່ານເມື່ອບໍ່ດົນມານີ້ໄດ້"</string>
     <string name="lockpassword_pin_no_sequential_digits" msgid="5843639256988031272">"ນ້ອຍຫາໃຫຍ່, ໃຫຍ່ຫານ້ອຍ ຫຼື ຊຸດຕົວເລກຊ້ຳໆແມ່ນບໍ່ສາມາດໃຊ້ໄດ້"</string>
@@ -766,15 +795,15 @@
     <string name="manage_device_admin" msgid="1044620606203916275">"ແອັບຜູ້ເບິ່ງແຍງລະບົບອຸປະກອນ"</string>
     <string name="number_of_device_admins_none" msgid="152926922020437312">"ບໍ່ມີແອັບທີ່ກຳລັງເຮັດວຽກ"</string>
     <plurals name="number_of_device_admins" formatted="false" msgid="2528735319390151989">
-        <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> ແອັບທີ່ເຮັດວຽກຢູ່</item>
-        <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> ແອັບທີ່ເຮັດວຽກຢູ່</item>
+      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> ແອັບທີ່ເຮັດວຽກຢູ່</item>
+      <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> ແອັບທີ່ເຮັດວຽກຢູ່</item>
     </plurals>
     <string name="manage_trust_agents" msgid="6410149930029992356">"ຕົວ​ແທນ​ທີ່​ເຊື່ອ​ຖື​ໄດ້"</string>
     <string name="disabled_because_no_backup_security" msgid="4998095356607488854">"ເພື່ອ​ນຳ​ໃຊ້, ໃຫ້​ຕັ້ງ​ໜ້າ​ຈໍ​ລັອກ​ກ່ອນ"</string>
     <string name="manage_trust_agents_summary" msgid="6423843123607674286">"ບໍ່ມີ"</string>
     <plurals name="manage_trust_agents_summary_on" formatted="false" msgid="5438047398376802735">
-        <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> ເອເຈນທີ່ເຊື່ອຖືໄດ້</item>
-        <item quantity="one">1 ເອເຈນທີ່ເຊື່ອຖືໄດ້</item>
+      <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> ເອເຈນທີ່ເຊື່ອຖືໄດ້</item>
+      <item quantity="one">1 ເອເຈນທີ່ເຊື່ອຖືໄດ້</item>
     </plurals>
     <string name="bluetooth_quick_toggle_title" msgid="5955341060378240781">"Bluetooth"</string>
     <string name="bluetooth_quick_toggle_summary" msgid="5257744297562880017">"ເປີດໃຊ້ Bluetooth"</string>
@@ -793,6 +822,7 @@
     <string name="bluetooth_incoming_pairing_msg" msgid="1068123527866596779">"ຈາກ:&lt;br&gt;&lt;b&gt;<xliff:g id="DEVICE_NAME">%1$s</xliff:g>&lt;/b&gt;&lt;br&gt;&lt;br&gt;ຈັບຄູ່ກັບອຸປະກອນນີ້ບໍ່?"</string>
     <string name="bluetooth_display_passkey_pin_msg" msgid="8672803845151786521">"ເພື່ອຈັບຄູ່ກັບ:<xliff:g id="BOLD1_0">&lt;br&gt;&lt;b&gt;</xliff:g><xliff:g id="DEVICE_NAME">%1$s</xliff:g><xliff:g id="END_BOLD1">&lt;/b&gt;&lt;br&gt;&lt;br&gt;</xliff:g>ໃຫ້ພິມ:<xliff:g id="BOLD2_1">&lt;br&gt;&lt;b&gt;</xliff:g><xliff:g id="PASSKEY">%2$s</xliff:g><xliff:g id="END_BOLD2">&lt;/b&gt;</xliff:g>, ຈາກນັ້ນກົດ Return ຫຼື Enter."</string>
     <string name="bluetooth_pairing_shares_phonebook" msgid="4329325125260724843">"ອະນຸຍາດໃຫ້ເຂົ້າເຖິງລາຍຊື່ຜູ້ຕິດຕໍ່ ແລະ ປະຫວັດການໂທຂອງທ່ານ"</string>
+    <string name="bluetooth_error_title" msgid="2284738188253690278"></string>
     <string name="bluetooth_connecting_error_message" msgid="3941893154784152112">"ບໍ່ສາມາດເຊື່ອມຕໍ່ຫາ <xliff:g id="DEVICE_NAME">%1$s</xliff:g> ໄດ້."</string>
     <string name="bluetooth_preference_scan_title" msgid="3460316252463771851">"ສະແກນຫາອຸປະກອນ"</string>
     <string name="bluetooth_search_for_devices" msgid="6516902340975407648">"ໂຫລດ​ຂໍ້​ມູນ​ໃໝ່"</string>
@@ -1084,16 +1114,16 @@
     <string name="wifi_forget_dialog_title" msgid="4363829200968563164">"ລືມເຄືອຂ່າຍບໍ?"</string>
     <string name="wifi_forget_dialog_message" msgid="8419499588321940243">"ລະຫັດຜ່ານທັງໝົດສຳລັບເຄືອຂ່າຍນີ້ຈະຖືກລຶບອອກ"</string>
     <plurals name="wifi_saved_access_points_summary" formatted="false" msgid="2802436466732147888">
-        <item quantity="other">%d ເຄືອຂ່າຍ</item>
-        <item quantity="one">1 ເຄືອຂ່າຍ</item>
+      <item quantity="other">%d ເຄືອຂ່າຍ</item>
+      <item quantity="one">1 ເຄືອຂ່າຍ</item>
     </plurals>
     <plurals name="wifi_saved_passpoint_access_points_summary" formatted="false" msgid="5802057518058840450">
-        <item quantity="other">%d ການຕິດຕາມ</item>
-        <item quantity="one">1 ການຕິດຕາມ</item>
+      <item quantity="other">%d ການຕິດຕາມ</item>
+      <item quantity="one">1 ການຕິດຕາມ</item>
     </plurals>
     <plurals name="wifi_saved_all_access_points_summary" formatted="false" msgid="5125849180309374451">
-        <item quantity="other">%d ເຄືອຂ່າຍ ແລະ ການສະໝັກໃຊ້</item>
-        <item quantity="one">1 ເຄືອຂ່າຍ ແລະ ການສະໝັກໃຊ້</item>
+      <item quantity="other">%d ເຄືອຂ່າຍ ແລະ ການສະໝັກໃຊ້</item>
+      <item quantity="one">1 ເຄືອຂ່າຍ ແລະ ການສະໝັກໃຊ້</item>
     </plurals>
     <string name="wifi_advanced_titlebar" msgid="1234150304285575798">"Wi-Fi ຂັ້ນສູງ"</string>
     <string name="wifi_advanced_ssid_title" msgid="1561437650193980185">"SSID"</string>
@@ -1184,21 +1214,22 @@
     <string name="wifi_calling_mode_dialog_title" msgid="944146521898592440">"ການຕັ້ງຄ່າການໂທ"</string>
     <string name="wifi_calling_roaming_mode_title" msgid="7703305991991520773">"ການຕັ້ງຄ່າໂຣມມິງ"</string>
     <!-- no translation found for wifi_calling_roaming_mode_summary (6061631305384464179) -->
-    <skip/>
+    <skip />
     <string name="wifi_calling_roaming_mode_dialog_title" msgid="5382466713784067077">"ການຕັ້ງຄ່າໂຣມມິງ"</string>
-    <string-array name="wifi_calling_mode_choices_v2">
-        <item msgid="6052353275413974742">"Wi-Fi"</item>
-        <item msgid="8622872038388687383">"ມືຖື"</item>
-        <item msgid="3027927219952052398">"Wi-Fi ເທົ່ານັ້ນ"</item>
-    </string-array>
-    <string-array name="wifi_calling_mode_choices_v2_without_wifi_only">
-        <item msgid="588620799769664461">"Wi-Fi"</item>
-        <item msgid="7566603075659706590">"ມືຖື"</item>
-    </string-array>
+  <string-array name="wifi_calling_mode_choices_v2">
+    <item msgid="6052353275413974742">"Wi-Fi"</item>
+    <item msgid="8622872038388687383">"ມືຖື"</item>
+    <item msgid="3027927219952052398">"Wi-Fi ເທົ່ານັ້ນ"</item>
+  </string-array>
+  <string-array name="wifi_calling_mode_choices_v2_without_wifi_only">
+    <item msgid="588620799769664461">"Wi-Fi"</item>
+    <item msgid="7566603075659706590">"ມືຖື"</item>
+  </string-array>
     <string name="wifi_calling_mode_wifi_preferred_summary" msgid="3240387177966098351">"ຫາກບໍ່ສາມາດໃຊ້ Wi‑Fi ໄດ້, ໃຫ້ໃຊ້ເຄືອຂ່າຍມືຖືແທນ"</string>
     <string name="wifi_calling_mode_cellular_preferred_summary" msgid="3746914244902314059">"ຫາກເຄືອຂ່າຍມືຖືບໍ່ສາມາດໃຊ້ໄດ້, ໃຫ້ໃຊ້ Wi‑Fi ແທນ"</string>
     <string name="wifi_calling_mode_wifi_only_summary" msgid="3155660680014892641">"ໂທຜ່ານ Wi‑Fi. ຫາກໃຊ້ Wi‑Fi ບໍ່ໄດ້, ການໂທຈະສິ້ນສຸດລົງ."</string>
     <string name="wifi_calling_off_explanation" msgid="6295526820826322895">"ເມື່ອເປີດໃຊ້ການໂທ Wi-Fi, ໂທລະສັບຂອງທ່ານຈະສາມາດໂທຜ່ານເຄືອຂ່າຍ Wi-Fi ຫຼື ເຄືອຂ່າຍຜູ້ໃຫ້ບໍລິການຂອງທ່ານກໍໄດ້, ຂຶ້ນກັບການຕັ້ງຄ່າຂອງທ່ານ ແລະ ຂຶ້ນກັບວ່າສັນຍານເຄືອຂ່າຍໃດແຮງກວ່າ. ກ່ອນການເປີດໃຊ້ຄຸນສົມບັດນີ້, ກະລຸນາກວດສອບກັບຜູ້ໃຫ້ບໍລິການຂອງທ່ານກ່ຽວກັບຄ່າທຳນຽມ ແລະ ລາຍລະອຽດອື່ນໆ.<xliff:g id="ADDITIONAL_TEXT">%1$s</xliff:g>"</string>
+    <string name="wifi_calling_off_explanation_2" msgid="3487475808574416183"></string>
     <string name="emergency_address_title" msgid="3490633500025717573">"ທີ່ຢູ່ສຸກເສີນ"</string>
     <string name="emergency_address_summary" msgid="3022628750270626473">"ໃຊ້ເປັນສະຖານທີ່ຂອງທ່ານເມື່ອທ່ານໂທສຸກເສີນຜ່ານທາງ Wi‑Fi"</string>
     <string name="private_dns_help_message" msgid="851221502063782306"><annotation id="url">"ສຶກສາເພີ່ມເຕີມ"</annotation>" ກ່ຽວກັບຄຸນສົມບັດ DNS ສ່ວນຕົວ"</string>
@@ -1300,6 +1331,7 @@
     <string name="auto_brightness_disclaimer" msgid="1868395832774087351">"ປັບແຕ່ງຄວາມສະຫວ່າງຂອງແສງ. ເມື່ອເປີດໃຊ້ຄຸນສົມບັດນີ້, ທ່ານຈະຍັງຄົງສາມາດປັບແຕ່ງລະດັບຄວາມສະຫວ່າງຊົ່ວຄາວໄດ້ຢູ່."</string>
     <string name="auto_brightness_description" msgid="6807117118142381193">"ຄວາມສະຫວ່າງໜ້າຈໍຂອງທ່ານຈະຖືກປັບໂດຍອັດຕະໂນມັດໂດຍອ້າງອີງຈາກສະພາບແວດລ້ອມ ແລະ ກິດຈະກຳທີ່ທ່ານເຮັດ. ທ່ານສາມາດຍ້າຍຕົວເລື່ອນດ້ວຍຕົນເອງເພື່ອຊ່ວຍໃຫ້ລະບົບຮຽນຮູ້ການຕັ້ງຄ່າຂອງທ່ານໄດ້."</string>
     <string name="display_white_balance_title" msgid="2624544323029364713">"ສະແດງສົມດຸນສີຂາວ"</string>
+    <string name="display_white_balance_summary" msgid="7625456704950209050"></string>
     <string name="peak_refresh_rate_title" msgid="1878771412897140903">"Smooth Display"</string>
     <string name="peak_refresh_rate_summary" msgid="1527087897198455042">"ເພີ່ມຣີເຟຣຊເຣດຈາກ 60 ເປັນ 90 Hz ສຳລັບບາງເນື້ອຫາໂດຍອັດຕະໂນມັດ. ເພີ່ມການນຳໃຊ້ແບັດເຕີຣີ."</string>
     <string name="force_high_refresh_rate_toggle" msgid="3325789621928312050">"ບັງຄັບອັດຕາຣີເຟຣຊສູງສຸດ"</string>
@@ -1435,12 +1467,13 @@
     <string name="sim_preferred_message" msgid="6004009449266648351">"<xliff:g id="NEW_SIM">%1$s</xliff:g> ເປັນຊິມດຽວໃນອຸປະກອນຂອງທ່ານ. ທ່ານຕ້ອງການໃຊ້ຊິມນີ້ສຳລັບໃຊ້ອິນເຕີເນັດມືຖື, ການໂທ ແລະ ສົ່ງຂໍ້ຄວາມ SMS ບໍ່?"</string>
     <string name="wrong_pin_code_pukked" msgid="3414172752791445033">"ລະຫັດ PIN ຂອງ SIM ບໍ່ຖືກຕ້ອງທ່ານຕ້ອງຕິດຕໍ່ຫາຜູ່ໃຫ້ບໍລິການຂອງທ່ານ ເພື່ອປົດລັອກອຸປະກອນຂອງທ່ານ."</string>
     <plurals name="wrong_pin_code" formatted="false" msgid="4054088588731305475">
-        <item quantity="other">ລະຫັດ SIM PIN ບໍ່ຖືກຕ້ອງ, ທ່ານຍັງພະຍາຍາມໄດ້ອີກ <xliff:g id="NUMBER_1">%d</xliff:g> ຄັ້ງ.</item>
-        <item quantity="one">ລະຫັດ PIN ຂອງ SIM ບໍ່ຖືກຕ້ອງ, ທ່ານສາມາດລອງໄດ້ອີກ <xliff:g id="NUMBER_0">%d</xliff:g> ເທື່ອກ່ອນທີ່ທ່ານຈະຕ້ອງຕິດຕໍ່ຫາຜູ່ໃຫ້ບໍລິການຂອງທ່ານ ເພື່ອປົດລັອກອຸປະກອນຂອງທ່ານ.</item>
+      <item quantity="other">ລະຫັດ SIM PIN ບໍ່ຖືກຕ້ອງ, ທ່ານຍັງພະຍາຍາມໄດ້ອີກ <xliff:g id="NUMBER_1">%d</xliff:g> ຄັ້ງ.</item>
+      <item quantity="one">ລະຫັດ PIN ຂອງ SIM ບໍ່ຖືກຕ້ອງ, ທ່ານສາມາດລອງໄດ້ອີກ <xliff:g id="NUMBER_0">%d</xliff:g> ເທື່ອກ່ອນທີ່ທ່ານຈະຕ້ອງຕິດຕໍ່ຫາຜູ່ໃຫ້ບໍລິການຂອງທ່ານ ເພື່ອປົດລັອກອຸປະກອນຂອງທ່ານ.</item>
     </plurals>
     <string name="wrong_pin_code_one" msgid="6924852214263071441">"ລະຫັດ PIN ຂອງຊິມບໍ່ຖືກຕ້ອງ, ທ່ານສາມາດລອງໄດ້ອີກ 1 ເທື່ອກ່ອນທີ່ທ່ານຈະຕ້ອງຕິດຕໍ່ຫາຜູ້ໃຫ້ບໍລິການເພື່ອປົດລັອກອຸປະກອນຂອງທ່ານ."</string>
     <string name="pin_failed" msgid="3726505565797352255">"PIN ຂອງ SIM ເຮັດວຽກລົ້ມເຫຼວ!"</string>
     <string name="system_update_settings_list_item_title" msgid="3398346836439366350">"ອັບເດດລະບົບ"</string>
+    <string name="system_update_settings_list_item_summary" msgid="6703752298349642101"></string>
     <string name="firmware_version" msgid="1606901586501447275">"ເວີຊັນຂອງ Android"</string>
     <string name="security_patch" msgid="4071756145347865382">"ອັບເດດຄວາມປອດໄພ Android"</string>
     <string name="model_info" msgid="8997566254717810904">"ໂມເດວ"</string>
@@ -1519,6 +1552,8 @@
     <string name="sd_insert_summary" product="default" msgid="5949168259622002192">"ໃສ່ SD card ເພື່ອເຊື່ອມຕໍ່"</string>
     <string name="sd_mount" product="nosdcard" msgid="8305985249945415150">"ເຊື່ອມຕໍ່ບ່ອນເກັບຂໍ້ມູນ USB"</string>
     <string name="sd_mount" product="default" msgid="5279813999455776169">"ເຊື່ອມຕໍ່ SD card"</string>
+    <string name="sd_mount_summary" product="nosdcard" msgid="2190410240845521205"></string>
+    <string name="sd_mount_summary" product="default" msgid="2190410240845521205"></string>
     <string name="sd_format" product="nosdcard" msgid="8657427883364711513">"ລຶບບ່ອນເກັບຂໍ້ມູນ USB"</string>
     <string name="sd_format" product="default" msgid="9085302892248732329">"ລຶບ SD card"</string>
     <string name="sd_format_summary" product="nosdcard" msgid="6179784504937189658">"ລຶບຂໍ້ມູນທັງໝົດໃນບ່ອນຈັດເກັບຂໍ້ມູນ USB ເຊັ່ນ: ເພງ ແລະຮູບພາບ"</string>
@@ -1528,6 +1563,8 @@
     <string name="dlg_confirm_unmount_title" product="default" msgid="8251329019960361646">"ທ່ານຕ້ອງການຖອດການເຊື່ອມຕໍ່ SD card ຫຼືບໍ່?"</string>
     <string name="dlg_confirm_unmount_text" product="nosdcard" msgid="1212025106709645023">"ຫາກທ່ານຖອດການເຊື່ອມຕໍ່ບ່ອນຈັດເກັບຂໍ້ມູນ USB ແລ້ວ ບາງແອັບຯທີ່ທ່ານກຳລັງໃຊ້ຢູ່ຈະຢຸດເຮັດວຽກ ແລະບໍ່ສາມາດໃຊ້ໄດ້ ຈົນກວ່າທ່ານຈະເຊື່ອມຕໍ່ບ່ອນຈັດເກັບຂໍ້ມູນ USB ຄືນໃໝ່."</string>
     <string name="dlg_confirm_unmount_text" product="default" msgid="3887768438615563697">"ຫາກທ່ານຖອດການເຊື່ອມຕໍ່ SD card ແລ້ວ ບາງແອັບຯທີ່ທ່ານກຳລັງໃຊ້ຢູ່ຈະຢຸດເຮັດວຽກ ແລະບໍ່ສາມາດໃຊ້ໄດ້ ຈົນກວ່າທ່ານຈະເຊື່ອມຕໍ່ SD card ຄືນໃໝ່."</string>
+    <string name="dlg_error_unmount_title" product="nosdcard" msgid="2205587942165199845"></string>
+    <string name="dlg_error_unmount_title" product="default" msgid="2205587942165199845"></string>
     <string name="dlg_error_unmount_text" product="nosdcard" msgid="7876201891724279436">"ບໍ່ສາມາດຖອດການເຊື່ອມຕໍ່ພື້ນທີ່ຈັດເກັບຂໍ້ມູນ USB ໄດ້. ກະລຸນາລອງໃໝ່ໃນພາຍຫຼັງ."</string>
     <string name="dlg_error_unmount_text" product="default" msgid="2185659901137961711">"ບໍ່ສາມາດຖອດການເຊື່ອມຕໍ່ SD card ໄດ້. ກະລຸນາລອງໃໝ່ໃນພາຍຫຼັງ."</string>
     <string name="unmount_inform_text" product="nosdcard" msgid="5932607205977999175">"ພື້ນທີ່ຈັດເກັບຂໍ້ມູນ USB ຈະຖືກຖອດອອກ"</string>
@@ -1678,6 +1715,7 @@
     <string name="menu_new" msgid="6571230342655509006">"ເພີ່ມ APN ໃໝ່"</string>
     <string name="menu_save" msgid="6611465355127483100">"ບັນທຶກ"</string>
     <string name="menu_cancel" msgid="1197826697950745335">"ຍົກເລີກ"</string>
+    <string name="error_title" msgid="7158648377702417716"></string>
     <string name="error_name_empty" msgid="1258275899283079142">"ແຖບຂໍ້ມູນຊື່ບໍ່ສາມາດປ່ອຍຫວ່າງໄດ້."</string>
     <string name="error_apn_empty" msgid="7657491065443746915">"APN ບໍ່ສາມາດປ່ອຍໃຫ້ຫວ່າງໄດ້."</string>
     <string name="error_mcc_not3" msgid="883659545640179094">"ຊ່ອງຂໍ້ມູນ MMC ຕ້ອງມີ 3 ໂຕເລກ."</string>
@@ -1800,8 +1838,8 @@
     <string name="location_app_level_permissions" msgid="907206607664629759">"ການອະນຸຍາດສະຖານທີ່ແອັບ"</string>
     <string name="location_app_permission_summary_location_off" msgid="2711822936853500335">"ປິດສະຖານທີ່ແລ້ວ"</string>
     <plurals name="location_app_permission_summary_location_on" formatted="false" msgid="8286873148858526214">
-        <item quantity="other"> <xliff:g id="PERMITTED_LOCATION_APP_COUNT_2">%1$d</xliff:g> ຈາກທັງໝົດ <xliff:g id="TOTAL_LOCATION_APP_COUNT_3">%2$d</xliff:g> ແອັບມີສິດເຂົ້າເຖິງສະຖານທີ່</item>
-        <item quantity="one"> <xliff:g id="PERMITTED_LOCATION_APP_COUNT_0">%1$d</xliff:g> ຈາກທັງໝົດ <xliff:g id="TOTAL_LOCATION_APP_COUNT_1">%2$d</xliff:g> ແອັບມີສິດເຂົ້າເຖິງສະຖານທີ່</item>
+      <item quantity="other"> <xliff:g id="PERMITTED_LOCATION_APP_COUNT_2">%1$d</xliff:g> ຈາກທັງໝົດ <xliff:g id="TOTAL_LOCATION_APP_COUNT_3">%2$d</xliff:g> ແອັບມີສິດເຂົ້າເຖິງສະຖານທີ່</item>
+      <item quantity="one"> <xliff:g id="PERMITTED_LOCATION_APP_COUNT_0">%1$d</xliff:g> ຈາກທັງໝົດ <xliff:g id="TOTAL_LOCATION_APP_COUNT_1">%2$d</xliff:g> ແອັບມີສິດເຂົ້າເຖິງສະຖານທີ່</item>
     </plurals>
     <string name="location_category_recent_location_access" msgid="2558063524482178146">"ການເຂົ້າເຖິງຫຼ້າສຸດ"</string>
     <string name="location_recent_location_access_see_all" msgid="4203102419355323325">"ເບິ່ງທັງໝົດ"</string>
@@ -1976,8 +2014,8 @@
     <string name="install_applications_title" msgid="7890233747559108106">"​ອະ​ນຸ​ຍາດ​ແຫລ່ງ​ຂໍ້​ມູນ​ແອັບຯ​ທັງ​ໝົດ"</string>
     <string name="recent_app_category_title" msgid="189758417804427533">"ແອັບທີ່ຫາກໍເປີດຫຼ້າສຸດ"</string>
     <plurals name="see_all_apps_title" formatted="false" msgid="6864581406735745400">
-        <item quantity="other">ເບິ່ງທັງໝົດ %1$d ແອັບ</item>
-        <item quantity="one">ເບິ່ງແອັບທັງໝົດ</item>
+      <item quantity="other">ເບິ່ງທັງໝົດ %1$d ແອັບ</item>
+      <item quantity="one">ເບິ່ງແອັບທັງໝົດ</item>
     </plurals>
     <string name="forgot_password_title" msgid="3967873480875239885">"ຕິດຕໍ່ຜູ້ເບິ່ງແຍງລະບົບໄອທີຂອງທ່ານ"</string>
     <string name="forgot_password_text" msgid="2583194470767613163">"ເຂົາເຈົ້າສາມາດຊ່ວຍທ່ານຣີຊເດ PIN, ຮູບແບບ ຫຼື ລະຫັດຜ່ານຂອງທ່ານໄດ້"</string>
@@ -1996,8 +2034,8 @@
     <string name="clear_cache_btn_text" msgid="8597272828928143723">"ລຶບລ້າງແຄສ"</string>
     <string name="cache_size_label" msgid="313456088966822757">"ແຄສ"</string>
     <plurals name="uri_permissions_text" formatted="false" msgid="8212425823423508096">
-        <item quantity="other">%d ລາຍການ</item>
-        <item quantity="one">1 ​ລາຍ​ການ</item>
+      <item quantity="other">%d ລາຍການ</item>
+      <item quantity="one">1 ​ລາຍ​ການ</item>
     </plurals>
     <string name="clear_uri_btn_text" msgid="4828117421162495134">"ລ້າງການເຂົ້າເຖິງ"</string>
     <string name="controls_label" msgid="8671492254263626383">"ການຄວບຄຸມ"</string>
@@ -2052,6 +2090,7 @@
     <string name="clear_data_dlg_text" msgid="1107610960337399006">"ຂໍ້ມູນຂອງແອັບນີ້ຈະຖືກລຶບອອກຖາວອນ. ນີ້ຮວມເຖິງໄຟລ໌, ການຕັ້ງຄ່າ, ຖານຂໍ້ມູນ ແລະ ຂໍ້ມູນແອັບອື່ນໆນຳ"</string>
     <string name="dlg_ok" msgid="1421350367857960997">"ຕົກລົງ"</string>
     <string name="dlg_cancel" msgid="5164705061530774899">"ຍົກເລີກ"</string>
+    <string name="app_not_found_dlg_title" msgid="7122106240981109930"></string>
     <string name="app_not_found_dlg_text" msgid="8634675268730513704">"ບໍ່ພົບແອັບຯດັ່ງກ່າວໃນລາຍຊື່ຂອງແອັບຯທີ່ມີການຕິດຕັ້ງແລ້ວ."</string>
     <string name="clear_failed_dlg_text" msgid="6866741916836125732">"ບໍ່ສາມາດລຶບພື້ນທີ່ຈັດເກັບຂໍ້ມູນໃຫ້ແອັບໄດ້."</string>
     <string name="join_two_items" msgid="7893073836681382429">"<xliff:g id="FIRST_ITEM">%1$s</xliff:g> ແລະ <xliff:g id="SECOND_ITEM">%2$s</xliff:g>"</string>
@@ -2091,12 +2130,12 @@
     <string name="no_running_services" msgid="9079738069349859373">"ບໍ່ມີຫຍັງເຮັດວຽກ."</string>
     <string name="service_started_by_app" msgid="6845028506417670179">"ເລີ່ມເຮັດວຽກແລ້ວໂດຍແອັບຯ."</string>
     <!-- no translation found for service_client_name (2210898622981598861) -->
-    <skip/>
+    <skip />
     <string name="service_background_processes" msgid="2800539421534521948">"ຫວ່າງ <xliff:g id="MEMORY">%1$s</xliff:g>"</string>
     <string name="service_foreground_processes" msgid="6380905887193621704">"<xliff:g id="MEMORY">%1$s</xliff:g> ໃຊ້ໄປແລ້ວ"</string>
     <string name="memory" msgid="5253757199926592074">"RAM"</string>
     <!-- no translation found for service_process_name (7827318358399776412) -->
-    <skip/>
+    <skip />
     <string name="running_process_item_user_label" msgid="1444898861984132133">"ຜູ້ໃຊ້: <xliff:g id="USER_NAME">%1$s</xliff:g>"</string>
     <string name="running_process_item_removed_user_label" msgid="4812732296696662613">"ລຶບຜູ່ໃຊ້ອອກແລ້ວ"</string>
     <string name="running_processes_item_description_s_s" msgid="6835918861352501671">"<xliff:g id="NUMPROCESS">%1$d</xliff:g> ໂປຣເຊສ ແລະ <xliff:g id="NUMSERVICES">%2$d</xliff:g> ບໍລິການ"</string>
@@ -2128,12 +2167,16 @@
     <string name="runningservicedetails_stop_dlg_text" product="tablet" msgid="2076922609580490122">"ຫາກທ່ານປິດບໍລິການນີ້ ບາງຄຸນສົມບັດຂອງແທັບເລັດຂອງທ່ານອາດເຮັດວຽກບໍ່ຖືກຕ້ອງໄດ້ ຈົນກວ່າທ່ານຈະປິດແລ້ວເປີດໃໝ່ໃໝ່ອີກຄັ້ງ."</string>
     <string name="runningservicedetails_stop_dlg_text" product="default" msgid="2625863973434309085">"ຫາກທ່ານຢຸດບໍລິການນີ້ ບາງຄຸນສົມບັດຂອງໂທລະສັບທ່ານອາດເຮັດວຽກໄດ້ບໍ່ຖືກຕ້ອງ ຈົນກວ່າທ່ານຈະປິດແລ້ວເປີດໃໝ່ໃໝ່ອີກຄັ້ງ."</string>
     <string name="language_input_gesture_title" msgid="3292455685728572960">"ພາສາ, ການປ້ອນຂໍ້ມູນ ແລະ ທ່າທາງ"</string>
+    <string name="language_input_gesture_summary_on_with_assist" msgid="8670153838520237089"></string>
+    <string name="language_input_gesture_summary_on_non_assist" msgid="2738661322747920463"></string>
+    <string name="language_input_gesture_summary_off" msgid="1604575860215661606"></string>
     <string name="language_settings" msgid="8700174277543875046">"ພາສາ ແລະ ການປ້ອນຂໍ້ມູນ"</string>
     <string name="language_empty_list_user_restricted" msgid="8050367405839231863">"ທ່ານບໍ່ມີສິດອະນຸຍາດໃນການປ່ຽນພາສາຂອງອຸປະກອນ."</string>
     <string name="language_keyboard_settings_title" msgid="7934844313233544557">"ພາສາ ແລະ ການປ້ອນຂໍ້ມູນ"</string>
     <string name="input_assistance" msgid="3437568284144952104">"ເຄື່ອງມື"</string>
     <string name="keyboard_settings_category" msgid="5392847229300117064">"ແປ້ນພິມ &amp; ວິທີປ້ອນຂໍ້ມູນເຂົ້າ"</string>
     <string name="phone_language" msgid="5986939176239963826">"ພາ​ສາ"</string>
+    <string name="phone_language_summary" msgid="863041222809685325"></string>
     <string name="auto_replace" msgid="4830732960264447043">"ແທນທີ່ອັດຕະໂນມັດ"</string>
     <string name="auto_replace_summary" msgid="1285443414597153423">"ແກ້ໄຂຄຳທີ່ພິມຜິດ"</string>
     <string name="auto_caps" msgid="5573583581288305355">"ເຮັດໂຕພິມໃຫຍ່ອັດຕະໂນມັດ"</string>
@@ -2400,8 +2443,8 @@
     <string name="accessibility_hearingaid_pair_instructions_message" msgid="8913409742121315657">"ເພື່ອຈັບຄູ່ອຸປະກອນຊ່ວຍຟັງຂອງທ່ານ, ໃຫ້ຊອກຫາແລ້ວແຕະໃສ່ອຸປະກອນຂອງທ່ານຢູ່ໜ້າຈໍຖັດໄປ. ກະລຸນາກວດສອບວ່າອຸປະກອນຊ່ວຍຟັງຂອງທ່ານຢູ່ໃນໂໝດຈັບຄູ່ແລ້ວ."</string>
     <string name="accessibility_hearingaid_active_device_summary" msgid="509703438222873967">"<xliff:g id="DEVICE_NAME">%1$s</xliff:g> ໃຊ້ຢູ່"</string>
     <plurals name="show_number_hearingaid_count" formatted="false" msgid="776000580683647556">
-        <item quantity="other">ບັນທຶກ <xliff:g id="NUMBER_DEVICE_COUNT_1">%1$d</xliff:g> ການຊ່ວຍຟັງແລ້ວ</item>
-        <item quantity="one">ບັນທຶກ <xliff:g id="NUMBER_DEVICE_COUNT_0">%1$d</xliff:g> ການຊ່ວຍຟັງແລ້ວ</item>
+      <item quantity="other">ບັນທຶກ <xliff:g id="NUMBER_DEVICE_COUNT_1">%1$d</xliff:g> ການຊ່ວຍຟັງແລ້ວ</item>
+      <item quantity="one">ບັນທຶກ <xliff:g id="NUMBER_DEVICE_COUNT_0">%1$d</xliff:g> ການຊ່ວຍຟັງແລ້ວ</item>
     </plurals>
     <string name="accessibility_audio_adjustment_title" msgid="1332113739136802997">"ການປັບແກ້ສຽງ"</string>
     <string name="accessibility_summary_shortcut_enabled" msgid="4030427268146752644">"ເປີດທາງລັດແລ້ວ"</string>
@@ -2433,20 +2476,20 @@
     <string name="reduce_bright_colors_intensity_end_label" msgid="1422600205484299860">"ແຈ້ງຂຶ້ນ"</string>
     <string name="reduce_bright_colors_persist_preference_title" msgid="4368829654993343354">"ເປີດໄວ້ຫຼັງຈາກຣີສະຕາດອຸປະກອນ"</string>
     <plurals name="accessibilty_autoclick_preference_subtitle_short_delay" formatted="false" msgid="5354221071353645263">
-        <item quantity="other">ສັ້ນ (<xliff:g id="CLICK_DELAY_LABEL_1">%1$s</xliff:g> ວິນາທີ)</item>
-        <item quantity="one">ສັ້ນ (<xliff:g id="CLICK_DELAY_LABEL_0">%1$s</xliff:g> ວິນາທີ)</item>
+      <item quantity="other">ສັ້ນ (<xliff:g id="CLICK_DELAY_LABEL_1">%1$s</xliff:g> ວິນາທີ)</item>
+      <item quantity="one">ສັ້ນ (<xliff:g id="CLICK_DELAY_LABEL_0">%1$s</xliff:g> ວິນາທີ)</item>
     </plurals>
     <plurals name="accessibilty_autoclick_preference_subtitle_medium_delay" formatted="false" msgid="1550891909800510628">
-        <item quantity="other">ປານກາງ (<xliff:g id="CLICK_DELAY_LABEL_1">%1$s</xliff:g> ວິນາທີ)</item>
-        <item quantity="one">ປານກາງ (<xliff:g id="CLICK_DELAY_LABEL_0">%1$s</xliff:g> ວິນາທີ)</item>
+      <item quantity="other">ປານກາງ (<xliff:g id="CLICK_DELAY_LABEL_1">%1$s</xliff:g> ວິນາທີ)</item>
+      <item quantity="one">ປານກາງ (<xliff:g id="CLICK_DELAY_LABEL_0">%1$s</xliff:g> ວິນາທີ)</item>
     </plurals>
     <plurals name="accessibilty_autoclick_preference_subtitle_long_delay" formatted="false" msgid="2230755548820485984">
-        <item quantity="other">ຍາວ (<xliff:g id="CLICK_DELAY_LABEL_1">%1$s</xliff:g> ວິນາທີ)</item>
-        <item quantity="one">ຍາວ (<xliff:g id="CLICK_DELAY_LABEL_0">%1$s</xliff:g> ວິນາທີ)</item>
+      <item quantity="other">ຍາວ (<xliff:g id="CLICK_DELAY_LABEL_1">%1$s</xliff:g> ວິນາທີ)</item>
+      <item quantity="one">ຍາວ (<xliff:g id="CLICK_DELAY_LABEL_0">%1$s</xliff:g> ວິນາທີ)</item>
     </plurals>
     <plurals name="accessibilty_autoclick_delay_unit_second" formatted="false" msgid="4537791441118261556">
-        <item quantity="other"><xliff:g id="CLICK_DELAY_LABEL_2">%1$s</xliff:g> ວິນາທີ</item>
-        <item quantity="one"><xliff:g id="CLICK_DELAY_LABEL_0">%1$s</xliff:g> ວິນາທີ</item>
+      <item quantity="other"><xliff:g id="CLICK_DELAY_LABEL_2">%1$s</xliff:g> ວິນາທີ</item>
+      <item quantity="one"><xliff:g id="CLICK_DELAY_LABEL_0">%1$s</xliff:g> ວິນາທີ</item>
     </plurals>
     <string name="accessibility_vibration_summary" msgid="27904038683405084">"ເປີດສຽງ <xliff:g id="SUMMARY_RING">%1$s</xliff:g>, ການແຈ້ງເຕືອນ <xliff:g id="SUMMARY_NOTIFICATION">%2$s</xliff:g>, ແຕະ <xliff:g id="SUMMARY_TOUCH">%3$s</xliff:g>"</string>
     <string name="accessibility_vibration_summary_off" msgid="7776105450117095736">"ປິດສຽງ ແລະ ການແຈ້ງເຕືອນແລ້ວ"</string>
@@ -2517,23 +2560,31 @@
     <string name="keywords_reduce_bright_colors" msgid="1683190961013139183">"ຄວາມໄວແສງ, ຄວາມຢ້ານແສງ, ຮູບແບບສີສັນມືດ, ໄມເກຣນ, ເຈັບຫົວ, ໂໝດການອ່ານ, ໂໝດກາງຄືນ, ຫຼຸດຄວາມສະຫວ່າງ, ຈຸດສີຂາວ"</string>
     <string name="keywords_accessibility" msgid="4263443239404659143">"ງ່າຍໃນການໃຊ້, ງ່າຍໃນການເຂົ້າເຖິງ, ຄວາມຊ່ວຍເຫຼືອ, ອຳນວຍຄວາມສະດວກ"</string>
     <string name="keywords_magnification" msgid="3908145308269840862">"ຕົວຂະຫຍາຍໜ້າຈໍ, ຊູມ, ການຂະຫຍາຍ, ເບິ່ງເຫັນຍາກ, ຂະຫຍາຍ, ເຮັດໃຫ້ໃຫຍ່ຂຶ້ນ"</string>
+    <string name="keywords_talkback" msgid="2816435437095102527"></string>
     <string name="keywords_live_caption" msgid="1667203998080567556">"ຄຳບັນຍາຍ, CC, ການຖອດຂໍ້ຄວາມດ່ວນ, ມີບັນຫາໃນການໄດ້ຍິນ, ສູນເສຍການໄດ້ຍິນ, CART, ການປ່ຽນສຽງເວົ້າເປັນຂໍ້ຄວາມ, ຄຳແປ"</string>
+    <string name="keywords_live_transcribe" msgid="3226990195174890997"></string>
+    <string name="keywords_sound_notifications" msgid="8183107485754075413"></string>
+    <string name="keywords_sound_amplifier" msgid="939404835256246663"></string>
     <string name="keywords_display_size" msgid="5286419615221231518">"ຈະໜາດໜ້າຈໍ, ໜ້າຈໍໃຫຍ່"</string>
     <string name="keywords_bold_text" msgid="6257418169207099589">"ຄອນທຣາສສູງ, ເບິ່ງເຫັນຍາກ, ຟອນຕົວໜາ, ຂໍ້ຄວາມຕົວໜາ"</string>
+    <string name="keywords_select_to_speak" msgid="2872704811610888719"></string>
     <string name="keywords_color_correction" msgid="8540442886990423681">"ປັບແກ້ສີ"</string>
     <string name="keywords_color_inversion" msgid="4291058365873221962">"ປັບໜ້າຈໍມືດ, ປັບໜ້າຈໍແຈ້ງ"</string>
+    <string name="keywords_accessibility_menu" msgid="4300579436464706608"></string>
+    <string name="keywords_switch_access" msgid="5813094504384313402"></string>
     <string name="keywords_auto_click" msgid="7151756353013736931">"ມໍເຕີ, ເມົ້າ"</string>
     <string name="keywords_hearing_aids" msgid="524979615168196199">"ມີບັນຫາໃນການໄດ້ຍິນ, ສູນເສຍການໄດ້ຍິນ"</string>
     <string name="keywords_rtt" msgid="2429130928152514402">"ມີບັນຫາໃນການໄດ້ຍິນ, ສູນເສຍການໄດ້ຍິນ, ຄຳບັນຍາຍ, Teletype, tty"</string>
+    <string name="keywords_voice_access" msgid="7807335263195876454"></string>
     <string name="print_settings" msgid="8519810615863882491">"ການ​ພິມ"</string>
     <string name="print_settings_summary_no_service" msgid="6721731154917653862">"ປິດ"</string>
     <plurals name="print_settings_summary" formatted="false" msgid="1034273609054146099">
-        <item quantity="other">ເປີດ <xliff:g id="COUNT">%1$d</xliff:g> ບໍລິການພິມ</item>
-        <item quantity="one">ເປີດ 1 ບໍລິການພິມ</item>
+      <item quantity="other">ເປີດ <xliff:g id="COUNT">%1$d</xliff:g> ບໍລິການພິມ</item>
+      <item quantity="one">ເປີດ 1 ບໍລິການພິມ</item>
     </plurals>
     <plurals name="print_jobs_summary" formatted="false" msgid="3933688846338306536">
-        <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> ວຽກພິມ</item>
-        <item quantity="one">1 ວຽກພິມ</item>
+      <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> ວຽກພິມ</item>
+      <item quantity="one">1 ວຽກພິມ</item>
     </plurals>
     <string name="print_settings_title" msgid="7680498284751129935">"ບໍລິການພິມ"</string>
     <string name="print_no_services_installed" msgid="7554057966540602692">"ບໍ່ມີບໍລິການຖືກຕິດຕັ້ງເທື່ອ"</string>
@@ -2602,7 +2653,7 @@
     <string name="battery_stats_wake_lock_label" msgid="8115041205778441548">"ເຮັດວຽກ"</string>
     <string name="battery_stats_phone_signal_label" msgid="679649411998679555">"ສັນຍານເຄືອຂ່າຍມືຖື"</string>
     <!-- no translation found for battery_stats_last_duration (3088100394725340600) -->
-    <skip/>
+    <skip />
     <string name="awake" msgid="5405871714019268978">"ເວລາການເຮັດວຽກຂອງອຸປະກອນ"</string>
     <string name="wifi_on_time" msgid="3880778525760926066">"ເວລາເປີດໃຊ້ Wi-Fi"</string>
     <string name="bluetooth_on_time" msgid="8424625554628450028">"ໄລຍະເວລາການໃຊ້ Wi-Fi"</string>
@@ -2640,24 +2691,24 @@
     <string name="battery_tip_dialog_message" product="device" msgid="3896805213768863874">"ເນື່ອງຈາກທ່ານໃຊ້ອຸປະກອນຂອງທ່ານຫຼາຍກວ່າປົກກະຕິ, ແບັດເຕີຣີຂອງທ່ານອາດໝົດໄວກວ່າທີ່ປົກກະຕິມັນຈະໝົດ.\n\nແອັບທີ່ກຳລັງໃຊ້ແບັດເຕີຣີຫຼາຍທີ່ສຸດ:"</string>
     <string name="battery_tip_dialog_message_footer" msgid="986542164372177504">"ຮວມການເຄື່ອນໄຫວໃນພື້ນຫຼັງທີ່ໃຊ້ພະລັງງານຫຼາຍ"</string>
     <plurals name="battery_tip_restrict_title" formatted="false" msgid="3108195491484891588">
-        <item quantity="other">ຈຳກັດ %1$d ແອັບ</item>
-        <item quantity="one">ຈຳກັດ %1$d ແອັບ</item>
+      <item quantity="other">ຈຳກັດ %1$d ແອັບ</item>
+      <item quantity="one">ຈຳກັດ %1$d ແອັບ</item>
     </plurals>
     <plurals name="battery_tip_restrict_handled_title" formatted="false" msgid="5862649927574803958">
-        <item quantity="other">%2$d ແອັບຖືກຈຳກັດເມື່ອບໍ່ດົນມານີ້ແລ້ວ</item>
-        <item quantity="one">%1$s ຖືກຈຳກັດເມື່ອບໍ່ດົນມານີ້ແລ້ວ</item>
+      <item quantity="other">%2$d ແອັບຖືກຈຳກັດເມື່ອບໍ່ດົນມານີ້ແລ້ວ</item>
+      <item quantity="one">%1$s ຖືກຈຳກັດເມື່ອບໍ່ດົນມານີ້ແລ້ວ</item>
     </plurals>
     <plurals name="battery_tip_restrict_summary" formatted="false" msgid="3328499737453686910">
-        <item quantity="other">%2$d ແອັບໃຊ້ແບັດເຕີຣີໃນພື້ນຫຼັງຫຼາຍ</item>
-        <item quantity="one">%1$s ໃຊ້ແບັດເຕີຣີໃນພື້ນຫຼັງຫຼາຍ</item>
+      <item quantity="other">%2$d ແອັບໃຊ້ແບັດເຕີຣີໃນພື້ນຫຼັງຫຼາຍ</item>
+      <item quantity="one">%1$s ໃຊ້ແບັດເຕີຣີໃນພື້ນຫຼັງຫຼາຍ</item>
     </plurals>
     <plurals name="battery_tip_restrict_handled_summary" formatted="false" msgid="3036853535034350991">
-        <item quantity="other">ແອັບເຫຼົ່ານີ້ບໍ່ສາມາດໃຊ້ໃນພື້ນຫຼັງໄດ້</item>
-        <item quantity="one">ແອັບນີ້ບໍ່ສາມາດໃຊ້ໃນພື້ນຫຼັງໄດ້</item>
+      <item quantity="other">ແອັບເຫຼົ່ານີ້ບໍ່ສາມາດໃຊ້ໃນພື້ນຫຼັງໄດ້</item>
+      <item quantity="one">ແອັບນີ້ບໍ່ສາມາດໃຊ້ໃນພື້ນຫຼັງໄດ້</item>
     </plurals>
     <plurals name="battery_tip_restrict_app_dialog_title" formatted="false" msgid="7897944678619251740">
-        <item quantity="other">ຈຳກັດ %1$d ແອັບບໍ?</item>
-        <item quantity="one">ຈຳກັດແອັບບໍ?</item>
+      <item quantity="other">ຈຳກັດ %1$d ແອັບບໍ?</item>
+      <item quantity="one">ຈຳກັດແອັບບໍ?</item>
     </plurals>
     <string name="battery_tip_restrict_app_dialog_message" msgid="137856003724730751">"ເພື່ອປະຢັດແບັດເຕີຣີ, ໃຫ້ຢຸດ <xliff:g id="APP">%1$s</xliff:g> ບໍ່ໃຫ້ໃຊ້ແບັດເຕີຣີໃນພື້ນຫຼັງ. ແອັບນີ້ອາດເຮັດວຽກໄດ້ບໍ່ຖືກຕ້ອງ ແລະ ການແຈ້ງເຕືອນອາດຊັກຊ້າ."</string>
     <string name="battery_tip_restrict_apps_less_than_5_dialog_message" msgid="5894648804112181324">"ເພື່ອປະຢັດແບັດເຕີຣີ, ໃຫ້ຢຸດແອັບເຫຼົ່ານີ້ບໍ່ໃຫ້ໃຊ້ແບັດເຕີຣີໃນພື້ນຫຼັງ. ແອັບນີ້ອາດເຮັດວຽກໄດ້ບໍ່ຖືກຕ້ອງ ແລະ ການແຈ້ງເຕືອນອາດຊັກຊ້າ.\n\nແອັບ:"</string>
@@ -2676,8 +2727,8 @@
     <string name="smart_battery_footer" msgid="8407121907452993645">"ເມື່ອຕົວປະຢັດແບັດເຕີຣີກວດພົບວ່າມີແອັບທີ່ກຳລັງໃຊ້ແບັດເຕີຣີຫຼາຍເກີນໄປຢູ່, ທ່ານຈະມີຕົວເລືອກໃນການຈຳກັດແອັບເຫຼົ່ານີ້ໄວ້. ແອັບທີ່ຖືກຈຳກັດອາດເຮັດວຽກບໍ່ຖືກຕ້ອງ ແລະ ການແຈ້ງເຕືອນອາດຊັກຊ້າ."</string>
     <string name="restricted_app_title" msgid="6585080822121007436">"ແອັບທີ່ຈຳກັດໄວ້"</string>
     <plurals name="restricted_app_summary" formatted="false" msgid="6059772951505411003">
-        <item quantity="other">ກຳລັງຈຳກັດການໃຊ້ແບັດເຕີຣີສຳລັບ %1$d ແອັບ</item>
-        <item quantity="one">ກຳລັງຈຳກັດການໃຊ້ແບັດເຕີຣີສຳລັບ %1$d ແອັບ</item>
+      <item quantity="other">ກຳລັງຈຳກັດການໃຊ້ແບັດເຕີຣີສຳລັບ %1$d ແອັບ</item>
+      <item quantity="one">ກຳລັງຈຳກັດການໃຊ້ແບັດເຕີຣີສຳລັບ %1$d ແອັບ</item>
     </plurals>
     <string name="restricted_app_time_summary" msgid="3097721884155913252">"ຈຳກັດເມື່ອ <xliff:g id="TIME">%1$s</xliff:g>"</string>
     <string name="restricted_app_detail_footer" msgid="3495725286882138803">"ແອັບເຫຼົ່ານີ້ຖືກຈຳກັດຈາກການໃຊ້ແບັດເຕີຣີໃນພື້ນຫຼັງ. ພວກມັນອາດບໍ່ເຮັດວຽກຕາມທີ່ຄາດໄວ້ ແລະ ການແຈ້ງເຕືອນອາດຫຼ້າຊ້າ."</string>
@@ -2687,11 +2738,12 @@
     <string name="battery_manager_summary_unsupported" msgid="7334173707292807964">"ການກວດຫາເມື່ອແອັບໃຊ້ແບັດເຕີຣີໝົດໄວ"</string>
     <string name="battery_manager_off" msgid="673547668722420924">"ປິດ"</string>
     <plurals name="battery_manager_app_restricted" formatted="false" msgid="6714534362166394848">
-        <item quantity="other">ຈຳກັດ %1$d ແແອັບແລ້ວ</item>
-        <item quantity="one">ຈຳກັດ %1$d ແແອັບແລ້ວ</item>
+      <item quantity="other">ຈຳກັດ %1$d ແແອັບແລ້ວ</item>
+      <item quantity="one">ຈຳກັດ %1$d ແແອັບແລ້ວ</item>
     </plurals>
     <string name="battery_header_title_alternate" msgid="8371821625994616659">"<xliff:g id="NUMBER">^1</xliff:g>"<small>" "<font size="20">"<xliff:g id="UNIT">%</xliff:g>"</font></small>""</string>
     <string name="battery_missing_message" msgid="400958471814422770">"ເກີດບັນຫາໃນການອ່ານຕົວວັດແທກແບັດເຕີຣີ."</string>
+    <string name="battery_missing_link_message" msgid="6021565067124898074"></string>
     <string name="battery_missing_link_a11y_message" msgid="3310971406602316323">"ແຕະເພື່ອສຶກສາເພີ່ມເຕີມກ່ຽວກັບຂໍ້ຜິດພາດນີ້"</string>
     <string name="dialog_stop_title" msgid="5972757101865665655">"ຢຸດແອັບໄວ້ບໍ?"</string>
     <string name="dialog_stop_message" product="default" msgid="2063536418875183799">"ໂທລະສັບຂອງທ່ານບໍ່ສາມາດຈັດການແບັດເຕີຣີໄດ້ຕາມປົກກະຕິເນື່ອງຈາກ <xliff:g id="APP">%1$s</xliff:g> ພະຍາຍາມເປີດໜ້າຈໍໂທລະສັບຂອງທ່ານໄວ້.\n\nເພື່ອແກ້ໄຂບັນຫານີ້, ທ່ານສາມາດບັງຄັບປິດແອັບດັ່ງກ່າວໄວ້ໄດ້.\n\nຫາກບັນຫານີ້ຍັງຄົງເກີດຂຶ້ນເລື້ອຍໆ, ທ່ານອາດຈຳເປັນຕ້ອງຖອນການຕິດຕັ້ງແອັບດັ່ງກ່າວເພື່ອປັບປຸງປະສິດທິພາບແບັດເຕີຣີ."</string>
@@ -2806,6 +2858,7 @@
     <string name="battery_total_usage_and_bg_less_minute_usage_with_period" msgid="5943281928474598517">"ຮວມ <xliff:g id="TIME_0">^1</xliff:g> • ພື້ນຫຼັງໜ້ອຍກວ່າໜຶ່ງນາທີ\nສຳລັບ <xliff:g id="TIME_PERIOD">^2</xliff:g>"</string>
     <string name="battery_not_usage" msgid="1472275761547230196">"ບໍ່ມີການນຳໃຊ້ຫຼັງຈາກສາກເຕັມຫຼ້າສຸດ"</string>
     <string name="battery_not_usage_24hr" msgid="8397519536160741248">"ບໍ່ມີການນຳໃຊ້ໃນຮອບ 24 ຊມ ທີ່ຜ່ານມາ"</string>
+    <string name="battery_usage_without_time" msgid="1346894834339420538"></string>
     <string name="advanced_battery_graph_subtext" msgid="6816737986172678550">"ການປະເມີນໄລຍະເວລາແບັດເຕີຣີທີ່ເຫຼືອແມ່ນອ້າງອີງຈາກການນຳໃຊ້ອຸປະກອນຂອງທ່ານ"</string>
     <string name="estimated_time_left" msgid="948717045180211777">"ເວລາທີ່ເຫຼືອໂດຍປະມານ"</string>
     <string name="estimated_charging_time_left" msgid="2287135413363961246">"ຈົນກວ່າຈະສາກເຕັມ"</string>
@@ -2831,7 +2884,7 @@
     <string name="battery_saver_sticky_description_new" product="tablet" msgid="4566426833434375284">"ຕົວປະຢັດແບັດເຕີຣີຈະປິດເມື່ອແທັບເລັດຂອງທ່ານມີແບັດເຕີຣີເກີນ <xliff:g id="NUMBER">^1</xliff:g><xliff:g id="UNIT">%</xliff:g>"</string>
     <string name="battery_saver_sticky_description_new" product="device" msgid="4128841327359445726">"ຕົວປະຢັດແບັດເຕີຣີຈະປິດເມື່ອອຸປະກອນຂອງທ່ານມີແບັດເຕີຣີເກີນ <xliff:g id="NUMBER">^1</xliff:g><xliff:g id="UNIT">%</xliff:g>"</string>
     <!-- no translation found for battery_saver_seekbar_title (3712266470054006641) -->
-    <skip/>
+    <skip />
     <string name="battery_saver_seekbar_title_placeholder" msgid="7141264642540687540">"ເປີດ"</string>
     <string name="battery_saver_master_switch_title" msgid="3474312070095834915">"ໃຊ້ຕົວປະຢັດແບັດເຕີຣີ"</string>
     <string name="battery_saver_turn_on_automatically_title" msgid="7857393318205740864">"ເປີດ​ໃຊ້​ອັດ​ຕະ​ໂນ​ມັດ"</string>
@@ -2952,8 +3005,8 @@
     <string name="remove_credential_management_app_dialog_title" msgid="5713525435104706772">"ລຶບແອັບນີ້ອອກບໍ?"</string>
     <string name="remove_credential_management_app_dialog_message" msgid="7739474298063646935">"ແອັບນີ້ຈະບໍ່ຈັດການໃບຮັບຮອງ, ແຕ່ມັນຈະຍັງຢູ່ໃນໂທລະສັບຂອງທ່ານຢູ່. ໃບຮັບຮອງໃດກໍຕາມທີ່ຕິດຕັ້ງໄວ້ໂດຍແອັບຈະຖືກຖອນການຕິດຕັ້ງ."</string>
     <plurals name="number_of_urls" formatted="false" msgid="403979258551655023">
-        <item quantity="other"><xliff:g id="NUMBER_1">%d</xliff:g> URL</item>
-        <item quantity="one"><xliff:g id="NUMBER_0">%d</xliff:g> URL</item>
+      <item quantity="other"><xliff:g id="NUMBER_1">%d</xliff:g> URL</item>
+      <item quantity="one"><xliff:g id="NUMBER_0">%d</xliff:g> URL</item>
     </plurals>
     <string name="emergency_tone_title" msgid="6673118505206685168">"ສັນຍານການໂທສຸກເສີນ"</string>
     <string name="emergency_tone_summary" msgid="2519776254708767388">"ຕັ້ງຄ່າການເຮັດວຽກເມື່ອມີການໂທຫາໝາຍເລກສຸກເສີນ"</string>
@@ -2971,6 +3024,7 @@
     <string name="auto_restore_summary" msgid="6830198851045584001">"ເມື່ອຕິດຕັ້ງແອັບໃດໜຶ່ງຄືນໃໝ່, ໃຫ້ໃຊ້ການຕັ້ງຄ່າ ແລະ ຂໍ້ມູນທີ່ເຄີຍສຳຮອງໄວ້"</string>
     <string name="backup_inactive_title" msgid="6753265378043349277">"ບໍລິການສຳຮອງຂໍ້ມູນບໍ່ເຮັດວຽກ"</string>
     <string name="backup_configure_account_default_summary" msgid="5323225330966306690">"ບໍ່ມີບັນຊີໃດໃນປັດຈຸບັນທີ່ຈັດເກັບຂໍ້ມູນສຳຮອງໄວ້"</string>
+    <string name="backup_erase_dialog_title" msgid="5892431263348766484"></string>
     <string name="backup_erase_dialog_message" msgid="2250872501409574331">"ຢຸດການສຳຮອງຂໍ້ມູນລະຫັດຜ່ານ Wi-Fi, ບຸກມາກ, ການຕັ້ງຄ່າອື່ນໆ ແລະຂໍ້ມູນແອັບຯ ຂອງທ່ານ ຮວມທັງລຶບສຳເນົາທັງໝົດໃນເຊີບເວີຂອງ Google ບໍ່?"</string>
     <string name="fullbackup_erase_dialog_message" msgid="2379053988557486162">"ຢຸດ​ການ​ສຳ​ຮອງ​ຂໍ້​ມູນ​ອຸ​ປະ​ກອນ (ເຊັ່ນ ລະ​ຫັດ​ຜ່ານ Wi-Fi ແລະ​ປະ​ຫວັດ​ການ​ໂທ) ແລະ​ຂໍ້​ມູນ​ແອັບ (ເຊັ່ນ ການ​ຕັ້ງ​ຄ່າ ແລະ ໄຟ​ລ໌​ທີ່​ແອັບ​ເກັບ​ໄວ້), ບວກ​ໃສ່​ລຶບ​ທຸກ​ສຳ​ເນົາ​ຢູ່​ໃນເຊີບ​ເວີ​ທາງ​ໄກບໍ?"</string>
     <string name="fullbackup_data_summary" msgid="971587401251601473">"ສຳ​ຮອງ​ຂໍ້​ມູນ​ອຸ​ປະ​ກອນໂດຍ​ອັດ​ຕະ​ໂນ​ມັດ (ເຊັ່ນ ລະ​ຫັດ​ຜ່ານ Wi-Fi ແລະ​ປະ​ຫວັດ​ການ​ໂທ) ແລະ​ຂໍ້​ມູນ​ແອັບ (ເຊັ່ນ ການ​ຕັ້ງ​ຄ່າ ແລະ ໄຟ​ລ໌​ທີ່​ແອັບ​ເກັບ​ໄວ້) ໂດຍ​ທາງ​ໄກ.\n\nເມື່ອ​ທ່ານ​ເປີດ​ການ​ສຳ​ຮອງ​ອັດ​ຕະ​ໂນ​ມັດ, ຂໍ້​ມູນ​ອຸ​ປະ​ກອນ ແລະ​ແອັບຈະ​ຖືກ​ບັນ​ທຶກ​ເປັນ​ໄລ​ຍະ​ໂດຍ​ທາງ​ໄກ. ຂໍ້​ມູນ​ແອັບ​ສາ​ມາດ​ເປັນ​ຂໍ້​ມູນ​ໃດ​ໜຶ່ງ​ທີ່​ແອັບ​ບັນ​ທຶກ​ໄວ້ (ອີງ​ຕາມ​ການ​ຕັ້ງ​ຄ່າ​ຜູ້​ພັດ​ທະ​ນາ), ລວມ​ທັງ​ຂໍ້​ມູນ​ທີ່​ອາດ​ຈະ​ລະ​ອຽດ​ອ່ອນ​ເຊັ່ນ: ລາຍ​ຊື່, ຂໍ້​ຄວາມ, ແລະ​ຮູບ."</string>
@@ -2999,8 +3053,8 @@
     <string name="notification_history_snooze" msgid="3980568893290512257">"ເລື່ອນແລ້ວ"</string>
     <string name="notification_history_dismiss" msgid="6180321217375722918">"ປິດຫຼ້າສຸດ"</string>
     <plurals name="notification_history_count" formatted="false" msgid="1859304685071321991">
-        <item quantity="other"><xliff:g id="NUMBER_1">%d</xliff:g> ການແຈ້ງເຕືອນ</item>
-        <item quantity="one"><xliff:g id="NUMBER_0">%d</xliff:g> ການແຈ້ງເຕືອນ</item>
+      <item quantity="other"><xliff:g id="NUMBER_1">%d</xliff:g> ການແຈ້ງເຕືອນ</item>
+      <item quantity="one"><xliff:g id="NUMBER_0">%d</xliff:g> ການແຈ້ງເຕືອນ</item>
     </plurals>
     <string name="sound_category_call_ringtone_vibrate_title" msgid="9090693401915654528">"ສຽງຣິງໂທນ &amp; ການສັ່ນເຕືອນ"</string>
     <string name="wifi_setup_detail" msgid="2012898800571616422">"ລາຍລະອຽດເຄືອຂ່າຍ"</string>
@@ -3250,21 +3304,21 @@
     <string name="ssl_ca_cert_warning" msgid="3898387588657346106">"ການນຳໃຊ້ເຄືອຂ່າຍອາດມີການກວດສອບຕິດຕາມ"</string>
     <string name="done_button" msgid="6269449526248267">"ແລ້ວໆ"</string>
     <plurals name="ssl_ca_cert_dialog_title" formatted="false" msgid="5491460811755938449">
-        <item quantity="other">ເຊື່ອຖື ຫຼື ລຶບໃບຮັບຮອງອອກ</item>
-        <item quantity="one">ເຊື່ອຖື ຫຼື ລຶບໃບຮັບຮອງອອກ</item>
+      <item quantity="other">ເຊື່ອຖື ຫຼື ລຶບໃບຮັບຮອງອອກ</item>
+      <item quantity="one">ເຊື່ອຖື ຫຼື ລຶບໃບຮັບຮອງອອກ</item>
     </plurals>
     <plurals name="ssl_ca_cert_info_message_device_owner" formatted="false" msgid="2788832560436163252">
-        <item quantity="other"><xliff:g id="MANAGING_DOMAIN_1">%s</xliff:g> ໄດ້ຕິດຕັ້ງໃບຮັບຮອງໃນອຸປະກອນຂອງທ່ານແລ້ວ, ເຊິ່ງອາດຈະອະນຸຍາດໃຫ້ເຂົາເຈົ້າຕິດຕາມການເຄື່ອນໄຫວເຄືອຂ່າຍອຸປະກອນຂອງທ່ານ ຮວມທັງອີເມວ, ແອັບ ແລະ ເວັບໄຊທີ່ເຂົ້າລະຫັດໄດ້.\n\nສຳລັບຂໍ້ມູນເພີ່ມເຕີມກ່ຽວກັບໃບຮັບຮອງເຫຼົ່ານີ້, ໃຫ້ຕິດຕໍ່ຜູ້ເບິ່ງແຍງລະບົບຂອງທ່ານ.</item>
-        <item quantity="one"><xliff:g id="MANAGING_DOMAIN_0">%s</xliff:g> ໄດ້ຕິດຕັ້ງໃບຮັບຮອງໃນອຸປະກອນຂອງທ່ານແລ້ວ, ເຊິ່ງອາດຈະອະນຸຍາດໃຫ້ເຂົາເຈົ້າຕິດຕາມການເຄື່ອນໄຫວເຄືອຂ່າຍອຸປະກອນຂອງທ່ານ ຮວມທັງອີເມວ, ແອັບ ແລະ ເວັບໄຊທີ່ເຂົ້າລະຫັດໄດ້.\n\nສຳລັບຂໍ້ມູນເພີ່ມເຕີມກ່ຽວກັບໃບຮັບຮອງນີ້, ໃຫ້ຕິດຕໍ່ຜູ້ເບິ່ງແຍງລະບົບຂອງທ່ານ.</item>
+      <item quantity="other"><xliff:g id="MANAGING_DOMAIN_1">%s</xliff:g> ໄດ້ຕິດຕັ້ງໃບຮັບຮອງໃນອຸປະກອນຂອງທ່ານແລ້ວ, ເຊິ່ງອາດຈະອະນຸຍາດໃຫ້ເຂົາເຈົ້າຕິດຕາມການເຄື່ອນໄຫວເຄືອຂ່າຍອຸປະກອນຂອງທ່ານ ຮວມທັງອີເມວ, ແອັບ ແລະ ເວັບໄຊທີ່ເຂົ້າລະຫັດໄດ້.\n\nສຳລັບຂໍ້ມູນເພີ່ມເຕີມກ່ຽວກັບໃບຮັບຮອງເຫຼົ່ານີ້, ໃຫ້ຕິດຕໍ່ຜູ້ເບິ່ງແຍງລະບົບຂອງທ່ານ.</item>
+      <item quantity="one"><xliff:g id="MANAGING_DOMAIN_0">%s</xliff:g> ໄດ້ຕິດຕັ້ງໃບຮັບຮອງໃນອຸປະກອນຂອງທ່ານແລ້ວ, ເຊິ່ງອາດຈະອະນຸຍາດໃຫ້ເຂົາເຈົ້າຕິດຕາມການເຄື່ອນໄຫວເຄືອຂ່າຍອຸປະກອນຂອງທ່ານ ຮວມທັງອີເມວ, ແອັບ ແລະ ເວັບໄຊທີ່ເຂົ້າລະຫັດໄດ້.\n\nສຳລັບຂໍ້ມູນເພີ່ມເຕີມກ່ຽວກັບໃບຮັບຮອງນີ້, ໃຫ້ຕິດຕໍ່ຜູ້ເບິ່ງແຍງລະບົບຂອງທ່ານ.</item>
     </plurals>
     <plurals name="ssl_ca_cert_info_message" formatted="false" msgid="3989916958347169622">
-        <item quantity="other"><xliff:g id="MANAGING_DOMAIN_1">%s</xliff:g> ໄດ້ຕິດຕັ້ງຜູ້ມີອຳນາດໃບຮັບຮອງໃຫ້ກັບໂປຣໄຟລ໌ບ່ອນເຮັດວຽກຂອງທ່ານແລ້ວ ເຊິ່ງອາດອະນຸຍາດໃຫ້ພວກເຂົາຕິດຕາມການເຄື່ອນໄຫວເຄືອຂ່າຍໄດ້ ຮວມເຖິງອີເມວ, ແອັບ ແລະ ເວັບໄຊທີ່ເຂົ້າລະຫັດນຳ.\n\nສຳລັບຂໍ້ມູນເພີ່ມເຕີມກ່ຽວກັບໃບຮັບຮອງເຫຼົ່ານີ້, ໃຫ້ຕິດຕໍ່ຜູ້ເບິ່ງແຍງລະບົບຂອງທ່ານ.</item>
-        <item quantity="one"><xliff:g id="MANAGING_DOMAIN_0">%s</xliff:g> ໄດ້ຕິດຕັ້ງຜູ້ມີອຳນາດໃບຮັບຮອງໃຫ້ກັບໂປຣໄຟລ໌ບ່ອນເຮັດວຽກຂອງທ່ານແລ້ວ ເຊິ່ງອາດອະນຸຍາດໃຫ້ພວກເຂົາຕິດຕາມການເຄື່ອນໄຫວເຄືອຂ່າຍໄດ້ ຮວມເຖິງອີເມວ, ແອັບ ແລະ ເວັບໄຊທີ່ເຂົ້າລະຫັດນຳ.\n\nສຳລັບຂໍ້ມູນເພີ່ມເຕີມກ່ຽວກັບໃບຮັບຮອງນີ້, ໃຫ້ຕິດຕໍ່ຜູ້ເບິ່ງແຍງລະບົບຂອງທ່ານ.</item>
+      <item quantity="other"><xliff:g id="MANAGING_DOMAIN_1">%s</xliff:g> ໄດ້ຕິດຕັ້ງຜູ້ມີອຳນາດໃບຮັບຮອງໃຫ້ກັບໂປຣໄຟລ໌ບ່ອນເຮັດວຽກຂອງທ່ານແລ້ວ ເຊິ່ງອາດອະນຸຍາດໃຫ້ພວກເຂົາຕິດຕາມການເຄື່ອນໄຫວເຄືອຂ່າຍໄດ້ ຮວມເຖິງອີເມວ, ແອັບ ແລະ ເວັບໄຊທີ່ເຂົ້າລະຫັດນຳ.\n\nສຳລັບຂໍ້ມູນເພີ່ມເຕີມກ່ຽວກັບໃບຮັບຮອງເຫຼົ່ານີ້, ໃຫ້ຕິດຕໍ່ຜູ້ເບິ່ງແຍງລະບົບຂອງທ່ານ.</item>
+      <item quantity="one"><xliff:g id="MANAGING_DOMAIN_0">%s</xliff:g> ໄດ້ຕິດຕັ້ງຜູ້ມີອຳນາດໃບຮັບຮອງໃຫ້ກັບໂປຣໄຟລ໌ບ່ອນເຮັດວຽກຂອງທ່ານແລ້ວ ເຊິ່ງອາດອະນຸຍາດໃຫ້ພວກເຂົາຕິດຕາມການເຄື່ອນໄຫວເຄືອຂ່າຍໄດ້ ຮວມເຖິງອີເມວ, ແອັບ ແລະ ເວັບໄຊທີ່ເຂົ້າລະຫັດນຳ.\n\nສຳລັບຂໍ້ມູນເພີ່ມເຕີມກ່ຽວກັບໃບຮັບຮອງນີ້, ໃຫ້ຕິດຕໍ່ຜູ້ເບິ່ງແຍງລະບົບຂອງທ່ານ.</item>
     </plurals>
     <string name="ssl_ca_cert_warning_message" msgid="4374052724815563051">"ພາກສ່ວນທີສາມສາມາດເບິ່ງການເຄື່ອນໄຫວເຄືອຂ່າຍຂອງທ່ານໄດ້ ຮວມເຖິງອີເມວ, ແອັບຯ ແລະເວັບໄຊທີ່ເຂົ້າລະຫັດ.\n\nຂໍ້ມູນການຢືນຢັນທີ່ເຊື່ອຖືໄດ້ໃນຄອມພິວເຕີຂອງທ່ານ ອະນຸມັດໃຫ້ຂັ້ນຕອນນີ້ເປັນໄປໄດ້."</string>
     <plurals name="ssl_ca_cert_settings_button" formatted="false" msgid="125941406175485894">
-        <item quantity="other">ກວດສອບໃບຮັບຮອງ</item>
-        <item quantity="one">ກວດສອບໃບຮັບຮອງ</item>
+      <item quantity="other">ກວດສອບໃບຮັບຮອງ</item>
+      <item quantity="one">ກວດສອບໃບຮັບຮອງ</item>
     </plurals>
     <string name="user_settings_title" msgid="6550866465409807877">"ຫຼາຍຜູ້ໃຊ້"</string>
     <string name="user_settings_footer_text" product="device" msgid="7523914344521302179">"ແບ່ງປັນອຸປະກອນຂອງທ່ານໂດຍການເພີ່ມຜູ້ໃຊ້ໃໝ່. ຜູ້ໃຊ້ແຕ່ລະຄົນມີພື້ນທີ່ສ່ວນຕົວໃນອຸປະກອນຂອງທ່ານສຳລັບໜ້າຈໍຫຼັກ, ບັນຊີ, ແອັບ, ການຕັ້ງຄ່າແບບກຳນົດເອງ ແລະ ອື່ນໆອີກ."</string>
@@ -3355,7 +3409,7 @@
     <string name="call_manager_enable_summary" msgid="7362506369604163030">"​ອະ​ນຸ​ຍາດ​ໃຫ້​ບໍ​ລິ​ການ​ນີ້​ຈັດ​ການ​ວິ​ທີ​​ການ​ໂທ​ອອກ​ຂອງ​ທ່ານ."</string>
     <string name="call_manager_title" msgid="3397433159509629466">"​ໂຕ​ຈັດ​ການ​ການ​ໂທ"</string>
     <!-- no translation found for call_manager_summary (2558839230880919191) -->
-    <skip/>
+    <skip />
     <string name="cell_broadcast_settings" msgid="2416980110093867199">"ການເຕືອນສຸກເສີນໄຮ້ສາຍ"</string>
     <string name="network_operators_settings" msgid="5105453353329748954">"ຜູ່ໃຫ້ບໍລິການເຄືອຂ່າຍ"</string>
     <string name="access_point_names" msgid="5768430498022188057">"ຊື່ຂອງຈຸດການເຂົ້າເຖິງ (APN)"</string>
@@ -3402,6 +3456,7 @@
     <string name="wizard_back" msgid="8257697435061870191">"ກັບຄືນ"</string>
     <string name="wizard_next" msgid="3884832431439072471">"ຕໍ່ໄປ"</string>
     <string name="wizard_finish" msgid="4220258401946825946">"ແລ້ວໆ"</string>
+    <string name="regulatory_info_text" msgid="1154461023369976667"></string>
     <string name="sim_setup_wizard_title" msgid="3945520353564138219">"SIM ກາດ"</string>
     <string name="sim_settings_title" msgid="8392862852842113531">"SIM ກາດ"</string>
     <string name="sim_settings_summary" msgid="5777472623476930332">"<xliff:g id="SIM_NAME">%1$s</xliff:g> - <xliff:g id="SIM_NUMBER">%2$s</xliff:g>"</string>
@@ -3443,8 +3498,8 @@
     <string name="sim_selection_channel_title" msgid="3193666315607572484">"ການເລືອກ SIM"</string>
     <string name="dashboard_title" msgid="5660733037244683387">"ການ​ຕັ້ງ​ຄ່າ"</string>
     <plurals name="settings_suggestion_header_summary_hidden_items" formatted="false" msgid="6585075562837786847">
-        <item quantity="other">ສະແດງ %d ລາຍການທີ່ເຊື່ອງໄວ້</item>
-        <item quantity="one">ສະແດງ %d ລາຍການທີ່ເຊື່ອງໄວ້</item>
+      <item quantity="other">ສະແດງ %d ລາຍການທີ່ເຊື່ອງໄວ້</item>
+      <item quantity="one">ສະແດງ %d ລາຍການທີ່ເຊື່ອງໄວ້</item>
     </plurals>
     <string name="network_dashboard_title" msgid="788543070557731240">"ເຄືອຂ່າຍ ແລະ ອິນເຕີເນັດ"</string>
     <string name="network_dashboard_summary_mobile" msgid="7750924671970583670">"ມືຖື, Wi‑Fi, ຮັອດສະປອດ"</string>
@@ -3822,8 +3877,8 @@
     <string name="manage_conversations" msgid="4440289604887824337">"ຈັດການການສົນທະນາ"</string>
     <string name="priority_conversation_count_zero" msgid="3862289535537564713">"ບໍ່ມີການສົນທະນາສຳຄັນ"</string>
     <plurals name="priority_conversation_count" formatted="false" msgid="4229447176780862649">
-        <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> ການສົນທະນາສຳຄັນ</item>
-        <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> ການສົນທະນາສຳຄັນ</item>
+      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> ການສົນທະນາສຳຄັນ</item>
+      <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> ການສົນທະນາສຳຄັນ</item>
     </plurals>
     <string name="important_conversations" msgid="1233893707189659401">"ການສົນທະນາສຳຄັນ"</string>
     <string name="important_conversations_summary_bubbles" msgid="614327166808117644">"ສະແດງຢູ່ເທິງສຸດຂອງພາກສ່ວນການສົນທະນາ ແລະ ປາກົດເປັນຟອງແບບລອຍ"</string>
@@ -3865,12 +3920,12 @@
     <string name="notification_app_switch_label" msgid="4422902423925084193">"ການແຈ້ງເຕືອນ <xliff:g id="APP_NAME">%1$s</xliff:g> ທັງໝົດ"</string>
     <string name="default_notification_assistant" msgid="243718059890346442">"ການແຈ້ງເຕືອນແບບປັບປ່ຽນໄດ້ເອງ"</string>
     <plurals name="notifications_sent_daily" formatted="false" msgid="1479283620504341566">
-        <item quantity="other">~<xliff:g id="NUMBER_1">%d</xliff:g> ການແຈ້ງເຕືອນຕໍ່ມື້</item>
-        <item quantity="one">~<xliff:g id="NUMBER_0">%d</xliff:g> ການແຈ້ງເຕືອນຕໍ່ມື້</item>
+      <item quantity="other">~<xliff:g id="NUMBER_1">%d</xliff:g> ການແຈ້ງເຕືອນຕໍ່ມື້</item>
+      <item quantity="one">~<xliff:g id="NUMBER_0">%d</xliff:g> ການແຈ້ງເຕືອນຕໍ່ມື້</item>
     </plurals>
     <plurals name="notifications_sent_weekly" formatted="false" msgid="4913443431857170519">
-        <item quantity="other">~<xliff:g id="NUMBER_1">%d</xliff:g> ການແຈ້ງເຕືອນຕໍ່ອາທິດ</item>
-        <item quantity="one">~<xliff:g id="NUMBER_0">%d</xliff:g> ການແຈ້ງເຕືອນຕໍ່ອາທິດ</item>
+      <item quantity="other">~<xliff:g id="NUMBER_1">%d</xliff:g> ການແຈ້ງເຕືອນຕໍ່ອາທິດ</item>
+      <item quantity="one">~<xliff:g id="NUMBER_0">%d</xliff:g> ການແຈ້ງເຕືອນຕໍ່ອາທິດ</item>
     </plurals>
     <string name="notifications_sent_never" msgid="9081278709126812062">"ບໍ່ສົ່ງ"</string>
     <string name="manage_notification_access_title" msgid="6481256069087219982">"ການແຈ້ງເຕືອນອຸປະກອນ ແລະ ແອັບ"</string>
@@ -3878,8 +3933,8 @@
     <string name="work_profile_notification_access_blocked_summary" msgid="8643809206612366067">"ການເຂົ້າເຖິງການແຈ້ງເຕືອນໂປຣໄຟລ໌ບ່ອນເຮັດວຽກຖືກບລັອກໄວ້"</string>
     <string name="manage_notification_access_summary_zero" msgid="7528633634628627431">"ແອັບຯບໍ່ສາມາດອ່ານການແຈ້ງເຕືອນໄດ້"</string>
     <plurals name="manage_notification_access_summary_nonzero" formatted="false" msgid="3703008881487586312">
-        <item quantity="other">%d ແອັບສາມາດອ່ານການແຈ້ງເຕືອນໄດ້</item>
-        <item quantity="one">%d  ແອັບສາມາດອ່ານການແຈ້ງເຕືອນໄດ້</item>
+      <item quantity="other">%d ແອັບສາມາດອ່ານການແຈ້ງເຕືອນໄດ້</item>
+      <item quantity="one">%d  ແອັບສາມາດອ່ານການແຈ້ງເຕືອນໄດ້</item>
     </plurals>
     <string name="notification_assistant_title" msgid="5889201903272393099">"ການແຈ້ງເຕືອນທີ່ປັບປຸງໃຫ້ດີຂຶ້ນ"</string>
     <string name="notification_assistant_summary" msgid="1957783114840908887">"ຮັບຄຳສັ່ງທີ່ແນະນຳ, ການຕອບກັບ ແລະ ອື່ນໆ"</string>
@@ -3940,8 +3995,8 @@
     <string name="interact_across_profiles_consent_dialog_permissions_summary" msgid="995051542847604039">"ແອັບນີ້ສາມາດໃຊ້ສິດອະນຸຍາດຂອງແອັບ <xliff:g id="NAME">%1$s</xliff:g> ສ່ວນຕົວທ່ານໄດ້ ເຊັ່ນ: ການເຂົ້າເຖິງສະຖານທີ່, ບ່ອນຈັດເກັບຂໍ້ມູນ ຫຼື ລາຍຊື່ຜູ້ຕິດຕໍ່."</string>
     <string name="interact_across_profiles_number_of_connected_apps_none" msgid="8573289199942092964">"ບໍ່ມີແອັບທີ່ເຊື່ອມຕໍ່"</string>
     <plurals name="interact_across_profiles_number_of_connected_apps" formatted="false" msgid="6991750455661974772">
-        <item quantity="other">ເຊື່ອມຕໍ່ <xliff:g id="COUNT_1">%d</xliff:g> ແອັບແລ້ວ</item>
-        <item quantity="one">ເຊື່ອມຕໍ່ <xliff:g id="COUNT_0">%d</xliff:g> ແອັບແລ້ວ</item>
+      <item quantity="other">ເຊື່ອມຕໍ່ <xliff:g id="COUNT_1">%d</xliff:g> ແອັບແລ້ວ</item>
+      <item quantity="one">ເຊື່ອມຕໍ່ <xliff:g id="COUNT_0">%d</xliff:g> ແອັບແລ້ວ</item>
     </plurals>
     <string name="interact_across_profiles_install_work_app_title" msgid="2821669067014436056">"ເພື່ອເຊື່ອມຕໍ່ຫາແອັບເຫຼົ່ານີ້, ກະລຸນາຕິດຕັ້ງ <xliff:g id="NAME">%1$s</xliff:g> ໃນ​ໂປຣ​ໄຟລ໌​ບ່ອນ​ເຮັດ​ວຽກຂອງທ່ານກ່ອນ"</string>
     <string name="interact_across_profiles_install_personal_app_title" msgid="4790651223324866344">"ເພື່ອເຊື່ອມຕໍ່ຫາແອັບເຫຼົ່ານີ້, ກະລຸນາຕິດຕັ້ງ <xliff:g id="NAME">%1$s</xliff:g> ໃນໂປຣໄຟລ໌ສ່ວນຕົວຂອງທ່ານກ່ອນ"</string>
@@ -3956,20 +4011,20 @@
     <string name="notification_channels" msgid="1502969522886493799">"ໝວດໝູ່"</string>
     <string name="notification_channels_other" msgid="18159805343647908">"ອື່ນໆ"</string>
     <plurals name="notification_group_summary" formatted="false" msgid="483490958130993160">
-        <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> ໝວດໝູ່</item>
-        <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> ໝວດໝູ່</item>
+      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> ໝວດໝູ່</item>
+      <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> ໝວດໝູ່</item>
     </plurals>
     <string name="no_channels" msgid="4716199078612071915">"ແອັບນີ້ຍັງບໍ່ໄດ້ໂພສການແຈ້ງເຕືອນໃດເທື່ອ"</string>
     <string name="app_settings_link" msgid="6725453466705333311">"ການຕັ້ງຄ່າເພີ່ມເຕີມໃນແອັບ"</string>
     <string name="notification_screen_summary" msgid="5984915275134654822">"ປະຫວັດການແຈ້ງເຕືອນ, ຟອງ, ສົ່ງຫຼ້າສຸດ"</string>
     <string name="app_notification_listing_summary_zero" msgid="2988400013221120744">"ເປີດສຳລັບທຸກແອັບ"</string>
     <plurals name="app_notification_listing_summary_others" formatted="false" msgid="1506127395400503717">
-        <item quantity="other">ປິດສຳລັບ <xliff:g id="COUNT_1">%d</xliff:g> ແອັບ</item>
-        <item quantity="one">ປິດສຳລັບ <xliff:g id="COUNT_0">%d</xliff:g> ແອັບ</item>
+      <item quantity="other">ປິດສຳລັບ <xliff:g id="COUNT_1">%d</xliff:g> ແອັບ</item>
+      <item quantity="one">ປິດສຳລັບ <xliff:g id="COUNT_0">%d</xliff:g> ແອັບ</item>
     </plurals>
     <plurals name="deleted_channels" formatted="false" msgid="5963473421547029532">
-        <item quantity="other">ລຶບ <xliff:g id="COUNT_1">%d</xliff:g> ໝວດໝູ່ອອກແລ້ວ</item>
-        <item quantity="one">ລຶບ <xliff:g id="COUNT_0">%d</xliff:g> ໝວດໝູ່ອອກແລ້ວ</item>
+      <item quantity="other">ລຶບ <xliff:g id="COUNT_1">%d</xliff:g> ໝວດໝູ່ອອກແລ້ວ</item>
+      <item quantity="one">ລຶບ <xliff:g id="COUNT_0">%d</xliff:g> ໝວດໝູ່ອອກແລ້ວ</item>
     </plurals>
     <string name="notification_toggle_on" msgid="1624283327379059003">"ເປີດ"</string>
     <string name="notification_toggle_off" msgid="3295373308338024844">"ປິດ"</string>
@@ -4116,7 +4171,7 @@
     <string name="zen_mode_starred_callers" msgid="1002370699564211178">"ລາຍຊື່ຜູ້ຕິດຕໍ່ທີ່ຕິດດາວໄວ້"</string>
     <string name="zen_mode_repeat_callers_list" msgid="181819778783743847">"ຜູ້ທີ່ໂທຊໍ້າໆ"</string>
     <!-- no translation found for zen_mode_calls_summary_one (1928015516061784276) -->
-    <skip/>
+    <skip />
     <string name="zen_mode_calls_summary_two" msgid="6351563496898410742">"<xliff:g id="CALLER_TYPE_0">%1$s</xliff:g> ແລະ <xliff:g id="CALLER_TYPE_1">%2$s</xliff:g>"</string>
     <string name="zen_mode_repeat_callers_summary" msgid="4121054819936083025">"ຫາກຄົນດຽວກັນໂທເທື່ອທີສອງພາຍໃນໄລຍະເວລາ <xliff:g id="MINUTES">%d</xliff:g> ນາທີ"</string>
     <string name="zen_mode_behavior_summary_custom" msgid="3126805555852783860">"ກຳນົດເອງ"</string>
@@ -4129,12 +4184,12 @@
     <string name="zen_mode_end_time_next_day_summary_format" msgid="419683704068360804">"<xliff:g id="FORMATTED_TIME">%s</xliff:g> ມື້ຖັດໄປ"</string>
     <string name="zen_mode_summary_alarms_only_indefinite" msgid="910047326128154945">"ປ່ຽນ​ເປັນ​ໂມງ​ປຸກ​ເທົ່າ​ນັ້ນ​ຢ່າງ​ບໍ່​ມີ​ກຳ​ນົດ"</string>
     <plurals name="zen_mode_summary_alarms_only_by_minute" formatted="false" msgid="1900512966361163390">
-        <item quantity="other">ປ່ຽນ​ເປັນ​ໂມງ​ປຸກ​ເປັນ​ເວ​ລາ <xliff:g id="DURATION">%1$d</xliff:g> ນາ​ທີເທົ່າ​ນັ້ນ (ຈົນ​ຮອດ <xliff:g id="FORMATTEDTIME_1">%2$s</xliff:g>)</item>
-        <item quantity="one">ປ່ຽນ​ເປັນ​ໂມງ​ປຸກ​ເປັນ​ເວ​ລາໜຶ່ງ​ນາ​ທີ​​ເທົ່າ​ນັ້ນ​ຈົນ​ຮອດ <xliff:g id="FORMATTEDTIME_0">%2$s</xliff:g></item>
+      <item quantity="other">ປ່ຽນ​ເປັນ​ໂມງ​ປຸກ​ເປັນ​ເວ​ລາ <xliff:g id="DURATION">%1$d</xliff:g> ນາ​ທີເທົ່າ​ນັ້ນ (ຈົນ​ຮອດ <xliff:g id="FORMATTEDTIME_1">%2$s</xliff:g>)</item>
+      <item quantity="one">ປ່ຽນ​ເປັນ​ໂມງ​ປຸກ​ເປັນ​ເວ​ລາໜຶ່ງ​ນາ​ທີ​​ເທົ່າ​ນັ້ນ​ຈົນ​ຮອດ <xliff:g id="FORMATTEDTIME_0">%2$s</xliff:g></item>
     </plurals>
     <plurals name="zen_mode_summary_alarms_only_by_hour" formatted="false" msgid="955991428001659124">
-        <item quantity="other">ປ່ຽນ​ເປັນ​ໂມງ​ປຸກ​ເປັນ​ເວ​ລາ <xliff:g id="DURATION">%1$d</xliff:g> ຊົ່ວ​ໂມງ​ເທົ່າ​ນັ້ນ​ຈົນ​ຮອດ <xliff:g id="FORMATTEDTIME_1">%2$s</xliff:g></item>
-        <item quantity="one">ປ່ຽນ​ເປັນ​ໂມງ​ປຸກ​ເປັນ​ເວ​ລາ​ໜຶ່ງ​ຊົ່ວ​ໂມງ​ເທົ່ານັ້ນຈົນ​ຮອດ <xliff:g id="FORMATTEDTIME_0">%2$s</xliff:g></item>
+      <item quantity="other">ປ່ຽນ​ເປັນ​ໂມງ​ປຸກ​ເປັນ​ເວ​ລາ <xliff:g id="DURATION">%1$d</xliff:g> ຊົ່ວ​ໂມງ​ເທົ່າ​ນັ້ນ​ຈົນ​ຮອດ <xliff:g id="FORMATTEDTIME_1">%2$s</xliff:g></item>
+      <item quantity="one">ປ່ຽນ​ເປັນ​ໂມງ​ປຸກ​ເປັນ​ເວ​ລາ​ໜຶ່ງ​ຊົ່ວ​ໂມງ​ເທົ່ານັ້ນຈົນ​ຮອດ <xliff:g id="FORMATTEDTIME_0">%2$s</xliff:g></item>
     </plurals>
     <string name="zen_mode_summary_alarms_only_by_time" msgid="8140619669703968810">"ປ່ຽນ​ເປັນ​ໂມງ​ປຸກ​ເທົ່າ​ນັ້ນຈົນ​ຮອດ <xliff:g id="FORMATTEDTIME">%1$s</xliff:g>"</string>
     <string name="zen_mode_summary_always" msgid="722093064250082317">"ປ່ຽນ​ເປັນ​ຂັດ​ຈັງ​ຫວະ​ທຸກ​ຄັ້ງ"</string>
@@ -4208,20 +4263,20 @@
     <string name="app_launch_add_link" msgid="8622558044530305811">"ເພີ່ມລິ້ງ"</string>
     <string name="app_launch_footer" msgid="4521865035105622557">"ແອັບສາມາດຢັ້ງຢືນລິ້ງເພື່ອເປີດອັດຕະໂນມັດໃນແອັບໄດ້."</string>
     <plurals name="app_launch_verified_links_title" formatted="false" msgid="3945301449178587783">
-        <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> ລິ້ງທີ່ຢັ້ງຢືນແລ້ວ</item>
-        <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> ລິ້ງທີ່ຢັ້ງຢືນແລ້ວ</item>
+      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> ລິ້ງທີ່ຢັ້ງຢືນແລ້ວ</item>
+      <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> ລິ້ງທີ່ຢັ້ງຢືນແລ້ວ</item>
     </plurals>
     <plurals name="app_launch_verified_links_message" formatted="false" msgid="1209292155940482111">
-        <item quantity="other">ລິ້ງເຫຼົ່ານີ້ຜ່ານການຢັ້ງຢືນແລ້ວ ແລະ ເປີດໃນແອັບນີ້ໂດຍອັດຕະໂນມັດ.</item>
-        <item quantity="one">ລິ້ງນີ້ຜ່ານການຢັ້ງຢືນແລ້ວ ແລະ ເປີດໃນແອັບນີ້ໂດຍອັດຕະໂນມັດ.</item>
+      <item quantity="other">ລິ້ງເຫຼົ່ານີ້ຜ່ານການຢັ້ງຢືນແລ້ວ ແລະ ເປີດໃນແອັບນີ້ໂດຍອັດຕະໂນມັດ.</item>
+      <item quantity="one">ລິ້ງນີ້ຜ່ານການຢັ້ງຢືນແລ້ວ ແລະ ເປີດໃນແອັບນີ້ໂດຍອັດຕະໂນມັດ.</item>
     </plurals>
     <string name="app_launch_dialog_ok" msgid="1446157681861409861">"ຕົກລົງ"</string>
     <string name="app_launch_verified_links_info_description" msgid="7514750232467132117">"ສະແດງລາຍຊື່ລິ້ງທີ່ຢັ້ງຢືນແລ້ວ"</string>
     <string name="app_launch_checking_links_title" msgid="6119228853554114201">"ກຳລັງກວດສອບລິ້ງທີ່ຮອງຮັບອື່ນໆ…"</string>
     <string name="app_launch_dialog_cancel" msgid="6961071841814898663">"ຍົກເລີກ"</string>
     <plurals name="app_launch_supported_links_title" formatted="false" msgid="8579323750839397568">
-        <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> ລິ້ງທີ່ຮອງຮັບ</item>
-        <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> ລິ້ງທີ່ຮອງຮັບ</item>
+      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> ລິ້ງທີ່ຮອງຮັບ</item>
+      <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> ລິ້ງທີ່ຮອງຮັບ</item>
     </plurals>
     <string name="app_launch_supported_links_add" msgid="3271247750388016131">"ເພີ່ມ"</string>
     <string name="app_launch_supported_links_subtext" msgid="4268004019469184113">"ເປີດໃນ <xliff:g id="APP_LABEL">%s</xliff:g>"</string>
@@ -4245,20 +4300,20 @@
     <string name="notification_summary_level" msgid="4074326972839105652">"ລະດັບ %d"</string>
     <string name="notification_summary_channel" msgid="8459033623057872803">"<xliff:g id="CHANNEL_NAME">%1$s</xliff:g> • <xliff:g id="GROUP_NAME">%2$s</xliff:g>"</string>
     <plurals name="notifications_categories_off" formatted="false" msgid="1385401442703692986">
-        <item quantity="other">ປິດ <xliff:g id="COUNT_1">%d</xliff:g> ໝວດໝູ່ໄວ້ແລ້ວ</item>
-        <item quantity="one">ປິດ <xliff:g id="COUNT_0">%d</xliff:g> ໝວດໝູ່ໄວ້ແລ້ວ</item>
+      <item quantity="other">ປິດ <xliff:g id="COUNT_1">%d</xliff:g> ໝວດໝູ່ໄວ້ແລ້ວ</item>
+      <item quantity="one">ປິດ <xliff:g id="COUNT_0">%d</xliff:g> ໝວດໝູ່ໄວ້ແລ້ວ</item>
     </plurals>
     <plurals name="permissions_summary" formatted="false" msgid="5015472550875144481">
-        <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> ການ​ອະ​ນຸ​ຍາດ​ໃຫ້​ໄປ​ແລ້ວ</item>
-        <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> ການ​ອະ​ນຸ​ຍາດ​ໃຫ້​ໄປ​ແລ້ວ</item>
+      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> ການ​ອະ​ນຸ​ຍາດ​ໃຫ້​ໄປ​ແລ້ວ</item>
+      <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> ການ​ອະ​ນຸ​ຍາດ​ໃຫ້​ໄປ​ແລ້ວ</item>
     </plurals>
     <plurals name="runtime_permissions_summary" formatted="false" msgid="2091022049141391855">
-        <item quantity="other"><xliff:g id="COUNT_2">%d</xliff:g> ໃນ <xliff:g id="COUNT_3">%d</xliff:g> ການ​ອະ​ນຸ​ຍາດ​ແມ່ນ​ໄດ້​ໃຫ້​ແລ້ວ</item>
-        <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> ໃນ <xliff:g id="COUNT_1">%d</xliff:g> ການ​ອະ​ນຸ​ຍາດ​ແມ່ນ​ໄດ້​ໃຫ້​ແລ້ວ</item>
+      <item quantity="other"><xliff:g id="COUNT_2">%d</xliff:g> ໃນ <xliff:g id="COUNT_3">%d</xliff:g> ການ​ອະ​ນຸ​ຍາດ​ແມ່ນ​ໄດ້​ໃຫ້​ແລ້ວ</item>
+      <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> ໃນ <xliff:g id="COUNT_1">%d</xliff:g> ການ​ອະ​ນຸ​ຍາດ​ແມ່ນ​ໄດ້​ໃຫ້​ແລ້ວ</item>
     </plurals>
     <plurals name="runtime_permissions_additional_count" formatted="false" msgid="5888624648943937645">
-        <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> ການ​ອະ​ນຸ​ຍາດ​ເພີ່ມ​ເຕີມ</item>
-        <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> ການອະນຸຍາດເພີ່ມເຕີມ</item>
+      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> ການ​ອະ​ນຸ​ຍາດ​ເພີ່ມ​ເຕີມ</item>
+      <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> ການອະນຸຍາດເພີ່ມເຕີມ</item>
     </plurals>
     <string name="runtime_permissions_summary_no_permissions_granted" msgid="7456745929035665029">"ບໍ່ໄດ້ໃຫ້ການອະນຸຍາດໃດ"</string>
     <string name="runtime_permissions_summary_no_permissions_requested" msgid="7174876170116073356">"ບໍ່ມີການຮ້ອງຂໍການອະນຸຍາດໃດ"</string>
@@ -4267,8 +4322,8 @@
     <string name="permissions_usage_summary" msgid="6784310472062516454">"ສະແດງວ່າແອັບໃດໃຊ້ການອະນຸຍາດຫຼ້າສຸດ"</string>
     <string name="unused_apps" msgid="4566272194756830656">"ແອັບທີ່ບໍ່ໄດ້ໃຊ້"</string>
     <plurals name="unused_apps_summary" formatted="false" msgid="3827583582750975783">
-        <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> ແອັບທີ່ບໍ່ໄດ້ໃຊ້</item>
-        <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> ແອັບທີ່ບໍ່ໄດ້ໃຊ້</item>
+      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> ແອັບທີ່ບໍ່ໄດ້ໃຊ້</item>
+      <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> ແອັບທີ່ບໍ່ໄດ້ໃຊ້</item>
     </plurals>
     <string name="unused_apps_switch" msgid="419282628373205038">"ລຶບການອະນຸຍາດອອກ ແລະ ສ້າງພື້ນທີ່ຫວ່າງ"</string>
     <string name="filter_all_apps" msgid="6645539744080251371">"ແອັບທັງໝົດ"</string>
@@ -4294,15 +4349,15 @@
     <string name="domain_urls_summary_some" msgid="1197692164421314523">"ເປີດ <xliff:g id="DOMAIN">%s</xliff:g> ແລະ URL ອື່ນໆ"</string>
     <string name="domain_urls_apps_summary_off" msgid="2534980824850890416">"ບໍ່ມີແອັບກຳລັງເປີດລິ້ງທີ່ຮອງຮັບ"</string>
     <plurals name="domain_urls_apps_summary_on" formatted="false" msgid="7864816862441985323">
-        <item quantity="other">ມີ <xliff:g id="COUNT">%d</xliff:g> ແອັບກຳລັງເປີດລິ້ງທີ່ຮອງຮັບ</item>
-        <item quantity="one">ມີໜຶ່ງແອັບກຳລັງເປີດລິ້ງທີ່ຮອງຮັບ</item>
+      <item quantity="other">ມີ <xliff:g id="COUNT">%d</xliff:g> ແອັບກຳລັງເປີດລິ້ງທີ່ຮອງຮັບ</item>
+      <item quantity="one">ມີໜຶ່ງແອັບກຳລັງເປີດລິ້ງທີ່ຮອງຮັບ</item>
     </plurals>
     <string name="app_link_open_always" msgid="9167065494930657503">"ອະນຸຍາດໃຫ້ແອັບເປີດລິ້ງທີ່ຮອງຮັບ"</string>
     <string name="app_link_open_ask" msgid="2422450109908936371">"​ຖາມ​ທຸກ​ເທື່ອ"</string>
     <string name="app_link_open_never" msgid="5299808605386052350">"ບໍ່ອະນຸຍາດໃຫ້ແອັບເປີດລິ້ງ"</string>
     <plurals name="app_link_open_always_summary" formatted="false" msgid="1816161439007251694">
-        <item quantity="other">ແອັບອ້າງວ່າຈັດການ <xliff:g id="COUNT_1">%d</xliff:g> ລິ້ງ</item>
-        <item quantity="one">ແອັບອ້າງວ່າຈັດການ <xliff:g id="COUNT_0">%d</xliff:g> ລິ້ງ</item>
+      <item quantity="other">ແອັບອ້າງວ່າຈັດການ <xliff:g id="COUNT_1">%d</xliff:g> ລິ້ງ</item>
+      <item quantity="one">ແອັບອ້າງວ່າຈັດການ <xliff:g id="COUNT_0">%d</xliff:g> ລິ້ງ</item>
     </plurals>
     <string name="open_supported_links_footer" msgid="3188808142432787933">"ແອັບອ້າງວ່າຈັດການລິ້ງຕໍ່ໄປນີ້:"</string>
     <string name="default_apps_title" msgid="6943471331817718664">"ຄ່າເລີ່ມຕົ້ນ"</string>
@@ -4343,12 +4398,12 @@
     <string name="show_all_apps" msgid="4490719452453223082">"ສະແດງການນຳໃຊ້ອຸ​ປະ​ກອນແບບເຕັມ"</string>
     <string name="hide_extra_apps" msgid="7313907836289865123">"ສະແດງການນຳໃຊ້ແອັບ"</string>
     <plurals name="power_high_usage_summary" formatted="false" msgid="573433136005336970">
-        <item quantity="other"><xliff:g id="NUMBER">%2$d</xliff:g> ເຮັດວຽກຜິດປົກກະຕິ</item>
-        <item quantity="one"><xliff:g id="APP">%1$s</xliff:g> ເຮັດວຽກຜິດປົກກະຕິ</item>
+      <item quantity="other"><xliff:g id="NUMBER">%2$d</xliff:g> ເຮັດວຽກຜິດປົກກະຕິ</item>
+      <item quantity="one"><xliff:g id="APP">%1$s</xliff:g> ເຮັດວຽກຜິດປົກກະຕິ</item>
     </plurals>
     <plurals name="power_high_usage_title" formatted="false" msgid="8013115866788425817">
-        <item quantity="other">ແອັບກຳລັງໃຊ້ແບັດເຕີຣີ</item>
-        <item quantity="one"><xliff:g id="APP">%1$s</xliff:g> ກຳລັງໃຊ້ແບັດເຕີຣີ</item>
+      <item quantity="other">ແອັບກຳລັງໃຊ້ແບັດເຕີຣີ</item>
+      <item quantity="one"><xliff:g id="APP">%1$s</xliff:g> ກຳລັງໃຊ້ແບັດເຕີຣີ</item>
     </plurals>
     <string name="high_power_filter_on" msgid="447849271630431531">"ບໍ່ໄດ້ປັບໃຫ້ເໝາະສົມ"</string>
     <string name="high_power_on" msgid="8778058701270819268">"ບໍ່ໄດ້ປັບໃຫ້ເໝາະສົມ"</string>
@@ -4429,8 +4484,8 @@
     <string name="free_memory" msgid="439783742246854785">"ຟຣີ"</string>
     <string name="memory_usage_apps" msgid="5776108502569850579">"ຄວາມ​ຈຳ​ທີ່​ແອັບ​ໃຊ້​ໄປ"</string>
     <plurals name="memory_usage_apps_summary" formatted="false" msgid="1355637088533572208">
-        <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> ແອັບ​ໃຊ້​ຄວາມ​ຈຳ​ຢູ່​ໃນ <xliff:g id="DURATION_1">%2$s</xliff:g> ຜ່ານ​ມາ</item>
-        <item quantity="one">1 ແອັບ​ໃຊ້​ຄວາມ​ຈຳ​ຢູ່​ໃນ <xliff:g id="DURATION_0">%2$s</xliff:g> ຜ່ານ​ມາ</item>
+      <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> ແອັບ​ໃຊ້​ຄວາມ​ຈຳ​ຢູ່​ໃນ <xliff:g id="DURATION_1">%2$s</xliff:g> ຜ່ານ​ມາ</item>
+      <item quantity="one">1 ແອັບ​ໃຊ້​ຄວາມ​ຈຳ​ຢູ່​ໃນ <xliff:g id="DURATION_0">%2$s</xliff:g> ຜ່ານ​ມາ</item>
     </plurals>
     <string name="running_frequency" msgid="7260225121706316639">"ຄວາມຖີ່"</string>
     <string name="memory_maximum_usage" msgid="2047013391595835607">"ການ​ໃຊ້​ສູງ​ສຸດ"</string>
@@ -4507,8 +4562,8 @@
     <string name="data_usage_summary_format" msgid="6844301859713164522">"ໃຊ້ຂໍ້ມູນໄປແລ້ວ <xliff:g id="AMOUNT">%1$s</xliff:g>"</string>
     <string name="data_usage_wifi_format" msgid="7644390582649568117">"ໃຊ້ໄປແລ້ວ <xliff:g id="AMOUNT">^1</xliff:g> ຢູ່ Wi‑Fi"</string>
     <plurals name="notification_summary" formatted="false" msgid="7638388920823212470">
-        <item quantity="other">ປິດສຳລັບ <xliff:g id="COUNT">%d</xliff:g> ແອັບ</item>
-        <item quantity="one">ປິດສຳລັບ 1 ແອັບ</item>
+      <item quantity="other">ປິດສຳລັບ <xliff:g id="COUNT">%d</xliff:g> ແອັບ</item>
+      <item quantity="one">ປິດສຳລັບ 1 ແອັບ</item>
     </plurals>
     <string name="notification_summary_none" msgid="9179312319023988089">"ເປີດສຳລັບທຸກແອັບ"</string>
     <string name="apps_summary" msgid="4007416751775414252">"ຕິດຕັ້ງ <xliff:g id="COUNT">%1$d</xliff:g> ແອັບຯແລ້ວ"</string>
@@ -4575,12 +4630,12 @@
     <string name="suggestions_summary" msgid="1709710458908440469">"+<xliff:g id="ID_1">%1$d</xliff:g>"</string>
     <string name="suggestions_more_title" msgid="240124526378997009">"+<xliff:g id="ID_1">%1$d</xliff:g> ເພີ່ມເຕີມ"</string>
     <plurals name="suggestions_collapsed_title" formatted="false" msgid="5023679825210836444">
-        <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> ການແນະນຳ</item>
-        <item quantity="one">1 ການແນະນຳ</item>
+      <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> ການແນະນຳ</item>
+      <item quantity="one">1 ການແນະນຳ</item>
     </plurals>
     <plurals name="suggestions_collapsed_summary" formatted="false" msgid="3789011332018516832">
-        <item quantity="other">+<xliff:g id="COUNT">%1$d</xliff:g> ການແນະນຳ</item>
-        <item quantity="one">+1 ການແນະນຳ</item>
+      <item quantity="other">+<xliff:g id="COUNT">%1$d</xliff:g> ການແນະນຳ</item>
+      <item quantity="one">+1 ການແນະນຳ</item>
     </plurals>
     <string name="suggestion_remove" msgid="6753986344585367776">"ລຶບ​ອອກ"</string>
     <string name="color_temperature" msgid="8256912135746305176">"ອຸນຫະພູມສີເຢັນ"</string>
@@ -4608,8 +4663,8 @@
     <string name="billing_cycle_fragment_summary" msgid="6346655500491631357">"ທຸກໆເດືອນໃນວັນທີ <xliff:g id="ID_1">%1$s</xliff:g>"</string>
     <string name="network_restrictions" msgid="8385824604048229846">"ການ​ຈຳ​ກັດ​ເຄືອ​ຂ່າຍ"</string>
     <plurals name="network_restrictions_summary" formatted="false" msgid="3875128958788008975">
-        <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> ຂໍ້ຈຳກັດ</item>
-        <item quantity="one">1 ຂໍ້ຈຳກັດ</item>
+      <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> ຂໍ້ຈຳກັດ</item>
+      <item quantity="one">1 ຂໍ້ຈຳກັດ</item>
     </plurals>
     <string name="operator_warning" msgid="5672761970087591211">"ການນັບຂໍ້ມູນຈາກຜູ້ໃຫ້ບໍລິການ ອາດມີຄວາມແຕກຕ່າງຈາກການນັບຂອງອຸປະກອນ"</string>
     <string name="non_carrier_data_usage_warning" msgid="4707184871368847697">"ບໍ່ຮວມປະລິມານຂໍ້ມູນອິນເຕີເນັດທີ່ໃຊ້ໂດຍເຄືອຂ່າຍຜູ້ໃຫ້ບໍລິການ"</string>
@@ -4623,8 +4678,8 @@
     <string name="configure" msgid="1499586749829665889">"ກຳນົດຄ່າ"</string>
     <string name="data_usage_other_apps" msgid="5649047093607329537">"ແອັບອື່ນໆແມ່ນຮວມໃນການນຳໃຊ້"</string>
     <plurals name="data_saver_unrestricted_summary" formatted="false" msgid="3316296488378947221">
-        <item quantity="other">ອະນຸຍາດໃຫ້ <xliff:g id="COUNT">%1$d</xliff:g> ແອັບໄດ້ຮັບອະນຸຍາດໃຫ້ໃຊ້ຂໍ້ມູນບໍ່ຈຳກັດ ເມື່ອຕົວປະຢັດອິນເຕີເນັດເປີດຢູ່</item>
-        <item quantity="one">ອະນຸຍາດໃຫ້ 1 ແອັບໄດ້ຮັບອະນຸຍາດໃຫ້ໃຊ້ຂໍ້ມູນແບບບໍ່ຈຳກັດ ເມື່ອຕົວປະຢັດອິນເຕີເນັດເປີດຢູ່</item>
+      <item quantity="other">ອະນຸຍາດໃຫ້ <xliff:g id="COUNT">%1$d</xliff:g> ແອັບໄດ້ຮັບອະນຸຍາດໃຫ້ໃຊ້ຂໍ້ມູນບໍ່ຈຳກັດ ເມື່ອຕົວປະຢັດອິນເຕີເນັດເປີດຢູ່</item>
+      <item quantity="one">ອະນຸຍາດໃຫ້ 1 ແອັບໄດ້ຮັບອະນຸຍາດໃຫ້ໃຊ້ຂໍ້ມູນແບບບໍ່ຈຳກັດ ເມື່ອຕົວປະຢັດອິນເຕີເນັດເປີດຢູ່</item>
     </plurals>
     <string name="data_usage_title" msgid="4039024073687469094">"ຂໍ້ມູນຫຼັກ"</string>
     <string name="data_usage_wifi_title" msgid="1060495519280456926">"ອິນເຕີເນັດ Wi‑Fi"</string>
@@ -4635,8 +4690,8 @@
     <string name="data_usage_chart_brief_content_description" msgid="5548074070258881530">"ກຣາບທີ່ສະແດງການນຳໃຊ້ຂໍ້ມູນລະຫວ່າງ <xliff:g id="START_DATE">%1$s</xliff:g> ຫາ <xliff:g id="END_DATE">%2$s</xliff:g>."</string>
     <string name="data_usage_chart_no_data_content_description" msgid="5481968839079467231">"ບໍ່ມີຂໍ້ມູນໃນໄລຍະວັນທີນີ້"</string>
     <plurals name="billing_cycle_days_left" formatted="false" msgid="661792524671718753">
-        <item quantity="other">ຍັງເຫຼືອ %d ມື້</item>
-        <item quantity="one">ຍັງເຫຼືອ %d ມື້</item>
+      <item quantity="other">ຍັງເຫຼືອ %d ມື້</item>
+      <item quantity="one">ຍັງເຫຼືອ %d ມື້</item>
     </plurals>
     <string name="billing_cycle_none_left" msgid="1694844019159277504">"ບໍ່ມີເວລາເຫຼືອ"</string>
     <string name="billing_cycle_less_than_one_day_left" msgid="1210202399053992163">"ເຫຼືອໜ້ອຍກວ່າ 1 ມື້"</string>
@@ -4708,8 +4763,8 @@
     <string name="overlay_toast_failed_to_apply" msgid="4839587811338164960">"ນຳໃຊ້ຮູບຊ້ອນບໍ່ສຳເລັດ"</string>
     <string name="special_access" msgid="1767980727423395147">"ສິດການເຂົ້າເຖິງແອັບພິເສດ"</string>
     <plurals name="special_access_summary" formatted="false" msgid="4995506406763570815">
-        <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> ແອັບສາມາດໃຊ້ຂໍ້ມູນທີ່ບໍ່ຖືກຈຳກັດໄດ້</item>
-        <item quantity="one">1 ແອັບສາມາດໃຊ້ຂໍ້ມູນທີ່ບໍ່ຖືກຈຳກັດໄດ້</item>
+      <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> ແອັບສາມາດໃຊ້ຂໍ້ມູນທີ່ບໍ່ຖືກຈຳກັດໄດ້</item>
+      <item quantity="one">1 ແອັບສາມາດໃຊ້ຂໍ້ມູນທີ່ບໍ່ຖືກຈຳກັດໄດ້</item>
     </plurals>
     <string name="special_access_more" msgid="132919514147475846">"ເບິ່ງເພີ່ມເຕີມ"</string>
     <string name="confirm_convert_to_fbe_warning" msgid="3783325656948378111">"ລຶບຂໍ້ມູນຜູ້ໃຊ້ ແລະ ແປງເປັນການເຂົ້າລະຫັດໄຟລ໌ແທ້ບໍ?"</string>
@@ -4748,16 +4803,16 @@
     <string name="cross_profile_calendar_title" msgid="7570277841490216947">"ປະຕິທິນແບບຂ້າມໂປຣໄຟລ໌"</string>
     <string name="cross_profile_calendar_summary" msgid="8856185206722860069">"ສະແດງນັດໝາຍວຽກຢູ່ປະຕິທິນສ່ວນຕົວຂອງທ່ານ"</string>
     <plurals name="hours" formatted="false" msgid="1853396353451635458">
-        <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> ຊົ່ວໂມງ</item>
-        <item quantity="one">1 ຊົ່ວໂມງ</item>
+      <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> ຊົ່ວໂມງ</item>
+      <item quantity="one">1 ຊົ່ວໂມງ</item>
     </plurals>
     <plurals name="minutes" formatted="false" msgid="6244503272924425418">
-        <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> ນາທີ</item>
-        <item quantity="one">1 ນາທີ</item>
+      <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> ນາທີ</item>
+      <item quantity="one">1 ນາທີ</item>
     </plurals>
     <plurals name="seconds" formatted="false" msgid="4237020272336995370">
-        <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> ວິນາທີ</item>
-        <item quantity="one">1 ວິນາທີ</item>
+      <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> ວິນາທີ</item>
+      <item quantity="one">1 ວິນາທີ</item>
     </plurals>
     <string name="automatic_storage_manager_settings" msgid="519158151463974656">"ຈັດການບ່ອນຈັດເກັບຂໍ້ມູນ"</string>
     <string name="automatic_storage_manager_text" msgid="6900593059927987273">"ເພື່ອຊ່ວຍເພີ່ມພື້ນທີ່ຫວ່າງສຳລັບການຈັດເກັບຂໍ້ມູນ, ຕົວຈັດການບ່ອນຈັດເກັບຂໍ້ມູນຈະລຶບຮູບພາບ ແລະ ວິດີໂອທີ່ສຳຮອງຂໍ້ມູນໄວ້ອອກຈາກອຸປະກອນຂອງທ່ານ."</string>
@@ -4775,6 +4830,7 @@
     <string name="double_tap_power_for_camera_summary" msgid="1100926048598415509">"ເພື່ອເປີດກ້ອງຂຶ້ນມາແບບດ່ວນ, ໃຫ້ກົດປຸ່ມປິດເປີດສອງເທື່ອຕິດກັນ. ສາມາດເຮັດໄດ້ຈາກທຸກໜ້າຈໍ."</string>
     <string name="double_tap_power_for_camera_suggestion_title" msgid="4299496243418753571">"ເປີດກ້ອງຖ່າຍຮູບແບບດ່ວນ"</string>
     <string name="double_twist_for_camera_mode_title" msgid="472455236910935684">"ສະຫຼັບກ້ອງເພື່ອຖ່າຍເຊວຟີ"</string>
+    <string name="double_twist_for_camera_mode_summary" msgid="592503740044744951"></string>
     <string name="double_twist_for_camera_suggestion_title" msgid="8178844037382604158">"ຖ່າຍເຊວຟີໄດ້ໄວຂຶ້ນ"</string>
     <string name="system_navigation_title" msgid="1698862900901417194">"ການນຳທາງລະບົບ"</string>
     <string name="swipe_up_to_switch_apps_title" msgid="6677266952021118342">"ການນຳທາງແບບ 2 ປຸ່ມ"</string>
@@ -4886,16 +4942,16 @@
     <string name="enterprise_privacy_enterprise_installed_packages" msgid="9114143640515900082">"ຕິດຕັ້ງແອັບແລ້ວ"</string>
     <string name="enterprise_privacy_apps_count_estimation_info" msgid="7959907857710107792">"ຈຳນວນຂອງແອັບແມ່ນເປັນການປະມານການເທົ່ານັ້ນ. ມັນອາດບໍ່ຮວມແອັບທີ່ຕິດຕັ້ງຈາກນອກ Play Store."</string>
     <plurals name="enterprise_privacy_number_packages_lower_bound" formatted="false" msgid="5403847001419529018">
-        <item quantity="other">ຂັ້ນຕ່ຳ <xliff:g id="COUNT_1">%d</xliff:g> ແອັບ</item>
-        <item quantity="one">ຂັ້ນຕ່ຳ <xliff:g id="COUNT_0">%d</xliff:g> ແອັບ</item>
+      <item quantity="other">ຂັ້ນຕ່ຳ <xliff:g id="COUNT_1">%d</xliff:g> ແອັບ</item>
+      <item quantity="one">ຂັ້ນຕ່ຳ <xliff:g id="COUNT_0">%d</xliff:g> ແອັບ</item>
     </plurals>
     <string name="enterprise_privacy_location_access" msgid="8023838718108456971">"ສິດອະນຸຍາດສະຖານທີ່"</string>
     <string name="enterprise_privacy_microphone_access" msgid="7242958026470143653">"ສິດອະນຸຍາດໄມໂຄຣໂຟນ"</string>
     <string name="enterprise_privacy_camera_access" msgid="7685460535880069016">"ສິດອະນຸຍາດກ້ອງຖ່າຍຮູບ"</string>
     <string name="enterprise_privacy_enterprise_set_default_apps" msgid="7498546659083996300">"ແອັບເລີ່ມຕົ້ນ"</string>
     <plurals name="enterprise_privacy_number_packages" formatted="false" msgid="8568544906431825430">
-        <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> ແອັບ</item>
-        <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> ແອັບ</item>
+      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> ແອັບ</item>
+      <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> ແອັບ</item>
     </plurals>
     <string name="enterprise_privacy_input_method" msgid="3278314982700662246">"ແປ້ນພິມເລີ່ມຕົ້ນ"</string>
     <string name="enterprise_privacy_input_method_name" msgid="2974859490559054584">"ຕັ້ງເປັນ <xliff:g id="APP_LABEL">%s</xliff:g> ແລ້ວ"</string>
@@ -4907,16 +4963,16 @@
     <string name="enterprise_privacy_ca_certs_personal" msgid="1516422660828485795">"ຂໍ້ມູນລັບທີ່ເຊື່ອຖືໃນໂປຣໄຟລ໌ສ່ວນຕົວຂອງທ່ານ"</string>
     <string name="enterprise_privacy_ca_certs_work" msgid="4318941788592655561">"ຂໍ້ມູນລັບທີ່ເຊື່ອຖືໃນໂປຣໄຟລ໌ບ່ອນເຮັດວຽກຂອງທ່ານ"</string>
     <plurals name="enterprise_privacy_number_ca_certs" formatted="false" msgid="6459725295322004179">
-        <item quantity="other">ຂັ້ນຕ່ຳ <xliff:g id="COUNT_1">%d</xliff:g> ໃບຮັບຮອງ CA</item>
-        <item quantity="one">ຂັ້ນຕ່ຳ <xliff:g id="COUNT_0">%d</xliff:g> ໃບຮັບຮອງ CA</item>
+      <item quantity="other">ຂັ້ນຕ່ຳ <xliff:g id="COUNT_1">%d</xliff:g> ໃບຮັບຮອງ CA</item>
+      <item quantity="one">ຂັ້ນຕ່ຳ <xliff:g id="COUNT_0">%d</xliff:g> ໃບຮັບຮອງ CA</item>
     </plurals>
     <string name="enterprise_privacy_lock_device" msgid="464054894363899866">"ຜູ້ເບິ່ງແຍງລະບົບສາມາດລັອກອຸປະກອນ ແລະ ຕັ້ງລະຫັດຜ່ານໃໝ່ໄດ້"</string>
     <string name="enterprise_privacy_wipe_device" msgid="869589182352244591">"ຜູ້ເບິ່ງແຍງສາມາດລຶບຂໍ້ມູນອຸປະກອນທັງໝົດໄດ້"</string>
     <string name="enterprise_privacy_failed_password_wipe_device" msgid="7045164901334821226">"ຈຳນວນການໃສ່ລະຫັດຜ່ານບໍ່ສຳເລັດກ່ອນຈະລຶບຂໍ້ມູນໃນອຸປະກອນທັງໝົດອອກ"</string>
     <string name="enterprise_privacy_failed_password_wipe_work" msgid="2537582942554484170">"ຈຳນວນການໃສ່ລະຫັດຜ່ານບໍ່ສຳເລັດກ່ອນຈະລຶບຂໍ້ມູນໂປຣໄຟລ໌ບ່ອນເຮັດວຽກອອກ"</string>
     <plurals name="enterprise_privacy_number_failed_password_wipe" formatted="false" msgid="8811973918944217791">
-        <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> ຄວາມພະຍາຍາມ</item>
-        <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> ຄວາມພະຍາຍາມ</item>
+      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> ຄວາມພະຍາຍາມ</item>
+      <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> ຄວາມພະຍາຍາມ</item>
     </plurals>
     <string name="do_disclosure_generic" msgid="3067459392402324538">"ອຸປະກອນນີ້ແມ່ນຈັດການໂດຍອົງກອນຂອງທ່ານ."</string>
     <string name="do_disclosure_with_name" msgid="867544298924410766">"ອຸປະກອນນີ້ຖືກຈັດການໂດຍ <xliff:g id="ORGANIZATION_NAME">%s</xliff:g>"</string>
@@ -4931,19 +4987,19 @@
     <string name="financed_privacy_failed_password_wipe_device" msgid="8777230427603977667">"ຈຳນວນການໃສ່ລະຫັດຜ່ານທີ່ບໍ່ສຳເລັດກ່ອນຈະລຶບຂໍ້ມູນອຸປະກອນອອກ"</string>
     <string name="financed_privacy_header" msgid="7215645340918406124">"ຜູ້ໃຫ້ບໍລິການເຄຣດິດຂອງທ່ານສາມາດປ່ຽນການຕັ້ງຄ່າ ແລະ ຕິດຕັ້ງຊອບແວຢູ່ອຸປະກອນນີ້ໄດ້.\n\nເພື່ອສຶກສາເພີ່ມເຕີມ, ກະລຸນາຕິດຕໍ່ຫາຜູ້ໃຫ້ບໍລິການເຄຣດິດຂອງທ່ານ."</string>
     <plurals name="default_camera_app_title" formatted="false" msgid="8112432929729136399">
-        <item quantity="other">ແອັບກ້ອງຖ່າຍຮູບ</item>
-        <item quantity="one">ແອັບກ້ອງຖ່າຍຮູບ</item>
+      <item quantity="other">ແອັບກ້ອງຖ່າຍຮູບ</item>
+      <item quantity="one">ແອັບກ້ອງຖ່າຍຮູບ</item>
     </plurals>
     <string name="default_calendar_app_title" msgid="1870095225089706093">"ແອັບປະຕິທິນ"</string>
     <string name="default_contacts_app_title" msgid="7740028900741944569">"ແອັບລາຍຊື່ຜູ້ຕິດຕໍ່"</string>
     <plurals name="default_email_app_title" formatted="false" msgid="8338194872609410234">
-        <item quantity="other">ແອັບອີເມວ</item>
-        <item quantity="one">ແອັບອີເມວ</item>
+      <item quantity="other">ແອັບອີເມວ</item>
+      <item quantity="one">ແອັບອີເມວ</item>
     </plurals>
     <string name="default_map_app_title" msgid="7569231732944853320">"ແອັບແຜນທີ່"</string>
     <plurals name="default_phone_app_title" formatted="false" msgid="4222188821845826493">
-        <item quantity="other">ແອັບໂທລະສັບ</item>
-        <item quantity="one">ແອັບໂທລະສັບ</item>
+      <item quantity="other">ແອັບໂທລະສັບ</item>
+      <item quantity="one">ແອັບໂທລະສັບ</item>
     </plurals>
     <string name="app_names_concatenation_template_2" msgid="8320181646458855457">"<xliff:g id="FIRST_APP_NAME">%1$s</xliff:g>, <xliff:g id="SECOND_APP_NAME">%2$s</xliff:g>"</string>
     <string name="app_names_concatenation_template_3" msgid="7019703249717854148">"<xliff:g id="FIRST_APP_NAME">%1$s</xliff:g>, <xliff:g id="SECOND_APP_NAME">%2$s</xliff:g>, <xliff:g id="THIRD_APP_NAME">%3$s</xliff:g>"</string>
@@ -4979,8 +5035,8 @@
     <string name="autofill_app" msgid="7595308061826307921">"ບໍລິການຕື່ມຂໍ້ມູນອັດຕະໂນມັດ"</string>
     <string name="autofill_passwords" msgid="6708057251459761083">"ລະ​ຫັດ​ຜ່ານ"</string>
     <plurals name="autofill_passwords_count" formatted="false" msgid="7715009165029452622">
-        <item quantity="other"><xliff:g id="COUNT_1">%1$d</xliff:g> ລະ​ຫັດ​ຜ່ານ</item>
-        <item quantity="one"><xliff:g id="COUNT_0">%1$d</xliff:g> ລະຫັດຜ່ານ</item>
+      <item quantity="other"><xliff:g id="COUNT_1">%1$d</xliff:g> ລະ​ຫັດ​ຜ່ານ</item>
+      <item quantity="one"><xliff:g id="COUNT_0">%1$d</xliff:g> ລະຫັດຜ່ານ</item>
     </plurals>
     <string name="autofill_keywords" msgid="8598763328489346438">"ອັດຕະໂນມັດ, ຕື່ມຂໍ້ມູນ, ການຕື່ມຂໍ້ມູນອັດຕະໂນມັດ, ລະຫັດຜ່ານ"</string>
     <string name="autofill_confirmation_message" msgid="4888767934273494272">"&lt;b&gt;ໃຫ້ກວດສອບວ່າທ່ານເຊື່ອແອັບນີ້&lt;/b&gt; &lt;br/&gt; &lt;br/&gt; &lt;xliff:g id=app_name example=Google Autofill&gt;%1$s&lt;/xliff:g&gt; ຈະໃຊ້ສິ່ງທີ່ຢູ່ໃນໜ້າຈໍຂອງທ່ານເພື່ອກວດເບິ່ງວ່າຈະຕື່ມຂໍ້ມູນຫຍັງອັດຕະໂນມັດ."</string>
@@ -5071,6 +5127,7 @@
     <string name="battery_suggestion_title" product="tablet" msgid="1525940496459255289">"ປັບປຸງອາຍຸແບັດເຕີຣີແທັບເລັດ"</string>
     <string name="battery_suggestion_title" product="device" msgid="2280773774080720377">"ປັບປຸງອາຍຸແບັດເຕີຣີອຸປະກອນ"</string>
     <string name="battery_suggestion_title" product="default" msgid="4811554469047272537">"ປັບປຸງອາຍຸແບັດເຕີຣີໂທລະສັບ"</string>
+    <string name="battery_suggestion_summary" msgid="8186720080540016197"></string>
     <string name="gesture_prevent_ringing_screen_title" msgid="8293094715267769349">"ປ້ອງກັນສຽງເຕືອນ"</string>
     <string name="gesture_prevent_ringing_title" msgid="5978577898997523581">"ກົດປຸ່ມເປີດ/ປີດ ແລະ ປຸ່ມເປີດສຽງຂຶ້ນພ້ອມກັນ"</string>
     <string name="gesture_prevent_ringing_sound_title" msgid="4529077822282099235">"ທາງລັດໄປຫາການປ້ອງກັນສຽງເຕືອນ"</string>
@@ -5158,8 +5215,8 @@
     <string name="calls_and_sms_ask_every_time" msgid="3178743088737726677">"ຖາມທຸກເທື່ອ"</string>
     <string name="mobile_network_summary_add_a_network" msgid="9079866102827526779">"ເພີ່ມເຄືອຂ່າຍ"</string>
     <plurals name="mobile_network_summary_count" formatted="false" msgid="5173633860800230925">
-        <item quantity="other"><xliff:g id="COUNT_1">%1$d</xliff:g> ຊິມ</item>
-        <item quantity="one"><xliff:g id="COUNT_0">%1$d</xliff:g> ຊິມ</item>
+      <item quantity="other"><xliff:g id="COUNT_1">%1$d</xliff:g> ຊິມ</item>
+      <item quantity="one"><xliff:g id="COUNT_0">%1$d</xliff:g> ຊິມ</item>
     </plurals>
     <string name="default_for_calls" msgid="2788950217176988034">"ຄ່າເລີ່ມຕົ້ນສຳລັບການໂທ"</string>
     <string name="default_for_sms" msgid="1316988329407434771">"ຄ່າເລີ່ມຕົ້ນສຳລັບ SMS"</string>
@@ -5301,17 +5358,18 @@
     <string name="contextual_card_feedback_send" msgid="7409408664417908922">"ສົ່ງຄຳຕິຊົມ"</string>
     <string name="contextual_card_feedback_confirm_message" msgid="3186334562157665381">"ທ່ານຕ້ອງການໃຫ້ຄຳຕິຊົມແກ່ພວກເຮົາກ່ຽວກັບການແນະນຳນີ້ບໍ?"</string>
     <string name="copyable_slice_toast" msgid="1008251852798990606">"ສຳເນົາ <xliff:g id="COPY_CONTENT">%1$s</xliff:g> ໃສ່ຄລິບບອດແລ້ວ."</string>
+    <string name="search_bar_account_avatar_content_description" msgid="880523277036898350"></string>
     <string name="permission_bar_chart_empty_text" msgid="4856719891991325077">"0 ແອັບໃຊ້ສິດອະນຸຍາດແລ້ວ"</string>
     <string name="permission_bar_chart_title" msgid="2493212904955611441">"ການນຳໃຊ້ສິດອະນຸຍາດໃນ 24 ຊົ່ວໂມງທີ່ຜ່ານມາ"</string>
     <string name="permission_bar_chart_details" msgid="5816698018592357088">"ເບິ່ງທັງໝົດໃນແຜງໜ້າປັດ"</string>
     <plurals name="permission_bar_chart_label" formatted="false" msgid="4853396794340896078">
-        <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> ແອັບ</item>
-        <item quantity="one">1 ແອັບ</item>
+      <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> ແອັບ</item>
+      <item quantity="one">1 ແອັບ</item>
     </plurals>
     <string name="accessibility_usage_title" msgid="9190967143518779145">"ການນຳໃຊ້ການຊ່ວຍເຂົ້າເຖິງ"</string>
     <plurals name="accessibility_usage_summary" formatted="false" msgid="6910643986958263005">
-        <item quantity="other"><xliff:g id="SERVICE_COUNT">%1$d</xliff:g> ແອັບມີສິດເຂົ້າເຖິງອຸປະກອນຂອງທ່ານເຕັມຮູບແບບ</item>
-        <item quantity="one">1 ແອັບມີສິດເຂົ້າເຖິງອຸປະກອນຂອງທ່ານເຕັມຮູບແບບ</item>
+      <item quantity="other"><xliff:g id="SERVICE_COUNT">%1$d</xliff:g> ແອັບມີສິດເຂົ້າເຖິງອຸປະກອນຂອງທ່ານເຕັມຮູບແບບ</item>
+      <item quantity="one">1 ແອັບມີສິດເຂົ້າເຖິງອຸປະກອນຂອງທ່ານເຕັມຮູບແບບ</item>
     </plurals>
     <string name="media_output_panel_title" msgid="5920946795078065159">"ສະຫຼັບການສົ່ງຂໍ້ມູນອອກ"</string>
     <string name="media_output_panel_summary_of_playing_device" msgid="6998758947764222915">"ຕອນນີ້ກຳລັງຫຼິ້ນຢູ່ <xliff:g id="DEVICE_NAME">%1$s</xliff:g>"</string>
@@ -5376,6 +5434,10 @@
     <string name="lockscreen_privacy_controls_summary" msgid="6952176547084269909">"ເຂົ້າເຖິງການຄວບຄຸມເມື່ອລັອກໄວ້"</string>
     <string name="lockscreen_double_line_clock_summary" msgid="2916159550425093703">"ສະແດງໂມງສອງແຖວເມື່ອສາມາດໃຊ້ໄດ້"</string>
     <string name="lockscreen_double_line_clock_setting_toggle" msgid="3408639316001688529">"ໂມງສອງແຖວ"</string>
+    <string name="rtt_settings_title" msgid="7049259598645966354"></string>
+    <string name="rtt_settings_no_visible" msgid="7440356831140948382"></string>
+    <string name="rtt_settings_visible_during_call" msgid="7866181103286073700"></string>
+    <string name="rtt_settings_always_visible" msgid="2364173070088756238"></string>
     <string name="media_output_panel_stop_casting_button" msgid="6094875883164119035">"ຢຸດການສົ່ງສັນຍານ"</string>
     <string name="volte_5G_limited_title" msgid="5908052268836750629">"ປິດ VoLTE ໄວ້ບໍ?"</string>
     <string name="volte_5G_limited_text" msgid="7150583768725182345">"ນີ້ຈະເປັນການປິດການເຊື່ອມຕໍ່ 5G ຂອງທ່ານນຳ.\nໃນລະຫວ່າງການໂທສຽງ, ທ່ານຈະບໍ່ສາມາດໃຊ້ອິນເຕີເນັດ ແລະ ບາງແອັບອາດບໍ່ສາມາດເຮັດວຽກໄດ້."</string>

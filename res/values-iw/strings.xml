@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!--  Copyright (C) 2007 The Android Open Source Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
@@ -12,7 +12,10 @@
      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
      See the License for the specific language governing permissions and
      limitations under the License.
- --><resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="yes" msgid="1999566976857398962">"כן"</string>
     <string name="no" msgid="5541738710521607130">"לא"</string>
     <string name="create" msgid="986997212165228751">"יצירה"</string>
@@ -21,10 +24,10 @@
     <string name="confirmation_turn_on" msgid="2979094011928347665">"הפעלה"</string>
     <string name="device_info_default" msgid="1406619232867343310">"לא ידוע"</string>
     <plurals name="show_dev_countdown" formatted="false" msgid="1646187747875476269">
-        <item quantity="two">נותרו לך עוד  <xliff:g id="STEP_COUNT_1">%1$d</xliff:g> שלבים כדי להיות מפתח.</item>
-        <item quantity="many">נותרו לך עוד <xliff:g id="STEP_COUNT_1">%1$d</xliff:g> שלבים כדי להיות מפתח.</item>
-        <item quantity="other">נותרו לך עוד <xliff:g id="STEP_COUNT_1">%1$d</xliff:g> שלבים כדי להיות מפתח.</item>
-        <item quantity="one">נותר לך עוד שלב <xliff:g id="STEP_COUNT_0">%1$d</xliff:g> כדי להיות מפתח.</item>
+      <item quantity="two">נותרו לך עוד  <xliff:g id="STEP_COUNT_1">%1$d</xliff:g> שלבים כדי להיות מפתח.</item>
+      <item quantity="many">נותרו לך עוד <xliff:g id="STEP_COUNT_1">%1$d</xliff:g> שלבים כדי להיות מפתח.</item>
+      <item quantity="other">נותרו לך עוד <xliff:g id="STEP_COUNT_1">%1$d</xliff:g> שלבים כדי להיות מפתח.</item>
+      <item quantity="one">נותר לך עוד שלב <xliff:g id="STEP_COUNT_0">%1$d</xliff:g> כדי להיות מפתח.</item>
     </plurals>
     <string name="show_dev_on" msgid="2840850085134853754">"הוגדרת כמפתח!"</string>
     <string name="show_dev_already" msgid="7041756429707644630">"אין צורך, כבר הוגדרת כמפתח/ת."</string>
@@ -158,7 +161,7 @@
     <string name="date_and_time" msgid="1788358029823431692">"תאריך ושעה"</string>
     <string name="choose_timezone" msgid="1450780665958642147">"בחירת אזור זמן"</string>
     <!-- no translation found for intent_sender_data_label (1733806423295725392) -->
-    <skip/>
+    <skip />
     <string name="intent_sender_sendbroadcast_text" msgid="3202857258557610646">"שליחת <xliff:g id="BROADCAST">broadcast</xliff:g>"</string>
     <string name="intent_sender_action_label" msgid="257853357827275530">"<xliff:g id="ACTION">Action</xliff:g>:"</string>
     <string name="intent_sender_startactivity_text" msgid="519934560779343541">"הפעלת <xliff:g id="ACTIVITY">activity</xliff:g>"</string>
@@ -207,10 +210,10 @@
     <string name="locale_remove_menu" msgid="3521546263421387474">"הסרה"</string>
     <string name="add_a_language" msgid="2126220398077503271">"הוספת שפה"</string>
     <plurals name="dlg_remove_locales_title" formatted="false" msgid="2845515796732609837">
-        <item quantity="two">להסיר את השפות שנבחרו?</item>
-        <item quantity="many">להסיר את השפות שנבחרו?</item>
-        <item quantity="other">להסיר את השפות שנבחרו?</item>
-        <item quantity="one">להסיר את השפה שנבחרה?</item>
+      <item quantity="two">להסיר את השפות שנבחרו?</item>
+      <item quantity="many">להסיר את השפות שנבחרו?</item>
+      <item quantity="other">להסיר את השפות שנבחרו?</item>
+      <item quantity="one">להסיר את השפה שנבחרה?</item>
     </plurals>
     <string name="dlg_remove_locales_message" msgid="8110560091134252067">"הטקסט יוצג בשפה אחרת."</string>
     <string name="dlg_remove_locales_error_title" msgid="5875503658221562572">"לא ניתן להסיר את כל השפות"</string>
@@ -299,10 +302,10 @@
     <string name="location_settings_primary_switch_title" msgid="8849081766644685127">"שימוש במיקום"</string>
     <string name="location_settings_summary_location_off" msgid="4797932754681162262">"כבוי"</string>
     <plurals name="location_settings_summary_location_on" formatted="false" msgid="1019959038518185676">
-        <item quantity="two">פועל. ל-<xliff:g id="COUNT_1">%1$d</xliff:g> אפליקציות יש גישה למיקום</item>
-        <item quantity="many">פועל. ל-<xliff:g id="COUNT_1">%1$d</xliff:g> אפליקציות יש גישה למיקום</item>
-        <item quantity="other">פועל. ל-<xliff:g id="COUNT_1">%1$d</xliff:g> אפליקציות יש גישה למיקום</item>
-        <item quantity="one">פועל. לאפליקציה אחת (<xliff:g id="COUNT_0">%1$d</xliff:g>) יש גישה למיקום</item>
+      <item quantity="two">פועל. ל-<xliff:g id="COUNT_1">%1$d</xliff:g> אפליקציות יש גישה למיקום</item>
+      <item quantity="many">פועל. ל-<xliff:g id="COUNT_1">%1$d</xliff:g> אפליקציות יש גישה למיקום</item>
+      <item quantity="other">פועל. ל-<xliff:g id="COUNT_1">%1$d</xliff:g> אפליקציות יש גישה למיקום</item>
+      <item quantity="one">פועל. לאפליקציה אחת (<xliff:g id="COUNT_0">%1$d</xliff:g>) יש גישה למיקום</item>
     </plurals>
     <string name="location_settings_loading_app_permission_stats" msgid="6054103701535557342">"בטעינה…"</string>
     <string name="location_settings_footer_general" msgid="1040507068701188821">"אפליקציות עם ההרשאה \"מכשירים בקרבת מקום\" יכולות להעריך את המיקום היחסי של המכשירים המחוברים."</string>
@@ -330,11 +333,16 @@
     <string name="security_settings_face_enroll_education_title" msgid="6448806884597691208">"איך להגדיר פתיחה ע\"י זיהוי הפנים"</string>
     <string name="security_settings_face_enroll_education_title_accessibility" msgid="3701874093226957891">"הגדרת התכונה \'פתיחה ע\"י זיהוי הפנים\'"</string>
     <string name="security_settings_face_enroll_education_title_unlock_disabled" msgid="8810954233979716906">"שימוש באימות פנים"</string>
+    <string name="security_settings_face_enroll_education_message" msgid="4308030157487176799"></string>
+    <string name="security_settings_face_enroll_education_message_accessibility" msgid="1986648712195281391"></string>
     <string name="security_settings_face_enroll_education_start" msgid="8830924400907195590">"התחלה"</string>
     <string name="security_settings_face_enroll_education_accessibility_dialog_message" msgid="2965952386172202665">"‏אם הגדרות נגישות של פתיחה ע\"י זיהוי הפנים מושבתות, ייתכן שחלק משלבי ההגדרה לא יפעלו באופן תקין עם TalkBack."</string>
     <string name="security_settings_face_enroll_education_accessibility_dialog_negative" msgid="7872647360361245461">"חזרה"</string>
     <string name="security_settings_face_enroll_education_accessibility_dialog_positive" msgid="3148077647572203458">"להמשך הגדרה"</string>
     <string name="security_settings_face_enroll_introduction_accessibility" msgid="5748221179069430975">"שימוש בהגדרת הנגישות"</string>
+    <string name="security_settings_face_enroll_introduction_accessibility_expanded" msgid="6763509014732769185"></string>
+    <string name="security_settings_face_enroll_introduction_accessibility_diversity" msgid="2774962371839179206"></string>
+    <string name="security_settings_face_enroll_introduction_accessibility_vision" msgid="7700394302162170363"></string>
     <string name="security_settings_face_enroll_introduction_cancel" msgid="7551159644361639436">"ביטול"</string>
     <string name="security_settings_face_enroll_introduction_no_thanks" msgid="1820618982738898717">"לא, תודה"</string>
     <string name="security_settings_face_enroll_introduction_agree" msgid="6319476573697497750">"בסדר"</string>
@@ -346,6 +354,21 @@
     <string name="security_settings_face_enroll_introduction_consent_message" msgid="866117500419055444">"הרשאה לילד או לילדה להשתמש בזיהוי פנים כדי לבטל את הנעילה של הטלפון או לאמת את זהותם. הפעולה נדרשת בכניסה לאפליקציות, אישור רכישה ועוד."</string>
     <string name="security_settings_face_enroll_introduction_message_unlock_disabled" msgid="5841976283789481311">"שימוש בפתיחה של הטלפון ע\"י זיהוי הפנים או לאשר רכישות.\n\nהערה: לא ניתן להשתמש בפנים כדי לבטל את הנעילה של המכשיר הזה. לקבלת מידע נוסף, אפשר לפנות למנהל המערכת של הארגון."</string>
     <string name="security_settings_face_enroll_introduction_message_setup" msgid="765965418187421753">"ניתן להשתמש בפתיחה ע\"י זיהוי הפנים, לאשר רכישות או להיכנס אל אפליקציות"</string>
+    <string name="security_settings_face_enroll_introduction_info_title" msgid="7120796118179406944"></string>
+    <string name="security_settings_face_enroll_introduction_info_glasses" msgid="2733870453868907471"></string>
+    <string name="security_settings_face_enroll_introduction_info_consent_glasses" msgid="6303917184145586880"></string>
+    <string name="security_settings_face_enroll_introduction_info_looking" msgid="6502109133251718131"></string>
+    <string name="security_settings_face_enroll_introduction_info_consent_looking" msgid="1911530177804950718"></string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure" msgid="6496505354480525745"></string>
+    <string name="security_settings_face_enroll_introduction_info_gaze" msgid="143556725395884850"></string>
+    <string name="security_settings_face_enroll_introduction_info_consent_gaze" msgid="6301647369911879888"></string>
+    <string name="security_settings_face_enroll_introduction_how_title" msgid="3680193263037835600"></string>
+    <string name="security_settings_face_enroll_introduction_how_message" msgid="4192656589626667797"></string>
+    <string name="security_settings_face_enroll_introduction_how_consent_message" msgid="9028182363896853946"></string>
+    <string name="security_settings_face_enroll_introduction_control_title" msgid="4536951089583821051"></string>
+    <string name="security_settings_face_enroll_introduction_control_consent_title" msgid="5892729331412694759"></string>
+    <string name="security_settings_face_enroll_introduction_control_message" msgid="4818463420573540379"></string>
+    <string name="security_settings_face_enroll_introduction_control_consent_message" msgid="4658082872829249850"></string>
     <string name="security_settings_face_enroll_repeat_title" msgid="4446229670377418717">"צריך למקם את הפנים בתוך העיגול"</string>
     <string name="security_settings_face_enroll_enrolling_skip" msgid="5568617401632528567">"דילוג"</string>
     <string name="face_add_max" msgid="4578405795494514876">"ניתן להוסיף עד <xliff:g id="COUNT">%d</xliff:g> פנים"</string>
@@ -385,11 +408,12 @@
     <string name="fingerprint_add_title" msgid="1837610443487902050">"הוספת טביעת אצבע"</string>
     <string name="fingerprint_enable_keyguard_toggle_title" msgid="5451094461919440992">"נעילת מסך"</string>
     <plurals name="security_settings_fingerprint_preference_summary" formatted="false" msgid="6897454766137108776">
-        <item quantity="two">נוספו <xliff:g id="COUNT">%1$d</xliff:g> טביעות אצבע</item>
-        <item quantity="many">נוספו <xliff:g id="COUNT">%1$d</xliff:g> טביעות אצבע</item>
-        <item quantity="other">נוספו <xliff:g id="COUNT">%1$d</xliff:g> טביעות אצבע</item>
-        <item quantity="one">נוספה טביעת האצבע</item>
+      <item quantity="two">נוספו <xliff:g id="COUNT">%1$d</xliff:g> טביעות אצבע</item>
+      <item quantity="many">נוספו <xliff:g id="COUNT">%1$d</xliff:g> טביעות אצבע</item>
+      <item quantity="other">נוספו <xliff:g id="COUNT">%1$d</xliff:g> טביעות אצבע</item>
+      <item quantity="one">נוספה טביעת האצבע</item>
     </plurals>
+    <string name="security_settings_fingerprint_preference_summary_none" msgid="1044059475710838504"></string>
     <string name="security_settings_fingerprint_enroll_introduction_title" msgid="7931650601996313070">"הגדרת טביעת האצבע"</string>
     <string name="security_settings_fingerprint_enroll_consent_introduction_title" msgid="2278592030102282364">"הרשאה לבטל נעילה בטביעת אצבע"</string>
     <string name="security_settings_fingerprint_enroll_introduction_title_unlock_disabled" msgid="1911710308293783998">"שימוש בטביעת האצבע"</string>
@@ -419,6 +443,7 @@
     <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_4" msgid="4983770600405797515">"האפשרות למחוק את התמונות והתבנית של טביעת האצבע, או להשבית את הפיצ\'ר \'ביטול הנעילה בטביעת אצבע\', זמינה לך ולילד או לילדה שלך בכל שלב בהגדרות. התמונות והתבניות של טביעת האצבע נשמרות בטלפון עד שהן נמחקות."</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_5" msgid="2018885671994058605">"נעילת הטלפון עלולה להתבטל בלי כוונה, למשל כשמישהו מחזיק אותו בצמוד לאצבע שלך."</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_5" msgid="8356551505082794682">"נעילת הטלפון של הילד או הילדה עשויה להתבטל ללא כוונה, למשל במקרה שמישהו יצמיד את הטלפון לאצבע שלהם."</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more" msgid="5856010507790137793"></string>
     <string name="security_settings_fingerprint_v2_enroll_acquire_try_adjusting" msgid="3855444121278320304">"יש לשנות מעט את תנוחת האצבע בכל פעם"</string>
     <string name="security_settings_fingerprint_v2_enroll_acquire_partially_detected" msgid="8330287007361798356">"האצבע צריכה להיות מונחת כך שמרכז טביעת האצבע יכסה את הסמל"</string>
     <string name="security_settings_fingerprint_v2_enroll_acquire_already_enrolled" msgid="8616678833080422946">"טביעת האצבע הזו כבר נוספה"</string>
@@ -476,7 +501,7 @@
     <string name="security_settings_udfps_enroll_repeat_a11y_message" msgid="2785464357615568197">"כך יתועד חלק גדול יותר מהאצבע"</string>
     <!-- String.format failed for translation -->
     <!-- no translation found for security_settings_udfps_enroll_progress_a11y_message (6183535114682369699) -->
-    <skip/>
+    <skip />
     <string name="security_settings_fingerprint_enroll_finish_title" msgid="3606325177406951457">"טביעת האצבע שלך נקלטה"</string>
     <string name="security_settings_fingerprint_enroll_finish_message" msgid="3469254005423998143">"עכשיו אפשר להשתמש בטביעת האצבע כדי לבטל את הנעילה של הטלפון או לאמת את הזהות שלך, למשל בכניסה לאפליקציות"</string>
     <string name="security_settings_fingerprint_enroll_enrolling_skip" msgid="3004786457919122854">"לא עכשיו"</string>
@@ -591,6 +616,9 @@
     <string name="suggested_lock_settings_summary" product="device" msgid="8479766049078378225">"הגדרה של נעילת מסך לצורך הגנה על המכשיר"</string>
     <string name="suggested_lock_settings_summary" product="default" msgid="2443273582716671033">"הגדרה של נעילת מסך לצורך הגנה על הטלפון"</string>
     <string name="suggested_fingerprint_lock_settings_title" msgid="3140266181874137984">"הוספת טביעת אצבע לביטול הנעילה"</string>
+    <string name="suggested_fingerprint_lock_settings_summary" product="tablet" msgid="1040265358906410746"></string>
+    <string name="suggested_fingerprint_lock_settings_summary" product="device" msgid="1040265358906410746"></string>
+    <string name="suggested_fingerprint_lock_settings_summary" product="default" msgid="1040265358906410746"></string>
     <string name="lock_settings_picker_title" msgid="9219376327364915334">"בחירת נעילת מסך"</string>
     <string name="lock_settings_picker_new_lock_title" msgid="3113042086804290919">"בחירה של נעילת מסך"</string>
     <string name="lock_settings_picker_update_lock_title" msgid="536853138943415927">"בחירה של נעילת מסך חדשה"</string>
@@ -616,6 +644,7 @@
     <string name="unlock_set_unlock_launch_picker_change_summary" msgid="6023813780512501969">"שינוי או השבתה של צורת האבטחה"</string>
     <string name="unlock_set_unlock_launch_picker_enable_summary" msgid="1699993191343299179">"בחירת שיטה לנעילת המסך"</string>
     <string name="unlock_set_unlock_off_title" msgid="2831957685685921667">"ללא"</string>
+    <string name="unlock_set_unlock_off_summary" msgid="4578319976164001322"></string>
     <string name="unlock_set_unlock_none_title" msgid="2844029875174409728">"החלקה"</string>
     <string name="unlock_set_unlock_none_summary" msgid="641298008390890152">"אין אבטחה"</string>
     <string name="unlock_set_unlock_pattern_title" msgid="8224895208452995332">"קו ביטול נעילה"</string>
@@ -715,29 +744,29 @@
     <string name="lock_failed_attempts_now_wiping_profile" msgid="3171880997211568208">"נעשו יותר מדי ניסיונות שגויים. פרופיל העבודה והנתונים המשויכים אליו יימחקו."</string>
     <string name="lock_failed_attempts_now_wiping_dialog_dismiss" msgid="170155081899679669">"סגירה"</string>
     <plurals name="lockpassword_password_too_short" formatted="false" msgid="2192234965414232157">
-        <item quantity="two">צריכה להכיל לפחות <xliff:g id="COUNT_1">%d</xliff:g> תווים</item>
-        <item quantity="many">צריכה להכיל לפחות <xliff:g id="COUNT_1">%d</xliff:g> תווים</item>
-        <item quantity="other">צריכה להכיל לפחות <xliff:g id="COUNT_1">%d</xliff:g> תווים</item>
-        <item quantity="one">צריכה להכיל לפחות תו אחד (<xliff:g id="COUNT_0">%d</xliff:g>)</item>
+      <item quantity="two">צריכה להכיל לפחות <xliff:g id="COUNT_1">%d</xliff:g> תווים</item>
+      <item quantity="many">צריכה להכיל לפחות <xliff:g id="COUNT_1">%d</xliff:g> תווים</item>
+      <item quantity="other">צריכה להכיל לפחות <xliff:g id="COUNT_1">%d</xliff:g> תווים</item>
+      <item quantity="one">צריכה להכיל לפחות תו אחד (<xliff:g id="COUNT_0">%d</xliff:g>)</item>
     </plurals>
     <plurals name="lockpassword_pin_too_short" formatted="false" msgid="6817086810898414162">
-        <item quantity="two">קוד האימות חייב להכיל לפחות <xliff:g id="COUNT_1">%d</xliff:g> ספרות</item>
-        <item quantity="many">קוד האימות חייב להכיל לפחות <xliff:g id="COUNT_1">%d</xliff:g> ספרות</item>
-        <item quantity="other">קוד האימות חייב להכיל לפחות <xliff:g id="COUNT_1">%d</xliff:g> ספרות</item>
-        <item quantity="one">קוד האימות חייב להכיל לפחות ספרה אחת (<xliff:g id="COUNT_0">%d</xliff:g>)</item>
+      <item quantity="two">קוד האימות חייב להכיל לפחות <xliff:g id="COUNT_1">%d</xliff:g> ספרות</item>
+      <item quantity="many">קוד האימות חייב להכיל לפחות <xliff:g id="COUNT_1">%d</xliff:g> ספרות</item>
+      <item quantity="other">קוד האימות חייב להכיל לפחות <xliff:g id="COUNT_1">%d</xliff:g> ספרות</item>
+      <item quantity="one">קוד האימות חייב להכיל לפחות ספרה אחת (<xliff:g id="COUNT_0">%d</xliff:g>)</item>
     </plurals>
     <string name="lockpassword_continue_label" msgid="2507983991979547816">"המשך"</string>
     <plurals name="lockpassword_password_too_long" formatted="false" msgid="8118091957172967677">
-        <item quantity="two">צריכה להכיל פחות מ-<xliff:g id="NUMBER_1">%d</xliff:g> תווים</item>
-        <item quantity="many">צריכה להכיל פחות מ-<xliff:g id="NUMBER_1">%d</xliff:g> תווים</item>
-        <item quantity="other">צריכה להכיל פחות מ-<xliff:g id="NUMBER_1">%d</xliff:g> תווים</item>
-        <item quantity="one">צריכה להכיל פחות מתו אחד (<xliff:g id="NUMBER_0">%d</xliff:g>)</item>
+      <item quantity="two">צריכה להכיל פחות מ-<xliff:g id="NUMBER_1">%d</xliff:g> תווים</item>
+      <item quantity="many">צריכה להכיל פחות מ-<xliff:g id="NUMBER_1">%d</xliff:g> תווים</item>
+      <item quantity="other">צריכה להכיל פחות מ-<xliff:g id="NUMBER_1">%d</xliff:g> תווים</item>
+      <item quantity="one">צריכה להכיל פחות מתו אחד (<xliff:g id="NUMBER_0">%d</xliff:g>)</item>
     </plurals>
     <plurals name="lockpassword_pin_too_long" formatted="false" msgid="8706992338720310765">
-        <item quantity="two">צריכה להכיל פחות מ-<xliff:g id="NUMBER_1">%d</xliff:g> ספרות</item>
-        <item quantity="many">צריכה להכיל פחות מ-<xliff:g id="NUMBER_1">%d</xliff:g> ספרות</item>
-        <item quantity="other">צריכה להכיל פחות מ-<xliff:g id="NUMBER_1">%d</xliff:g> ספרות</item>
-        <item quantity="one">צריכה להכיל פחות מספרה אחת (<xliff:g id="NUMBER_0">%d</xliff:g>)</item>
+      <item quantity="two">צריכה להכיל פחות מ-<xliff:g id="NUMBER_1">%d</xliff:g> ספרות</item>
+      <item quantity="many">צריכה להכיל פחות מ-<xliff:g id="NUMBER_1">%d</xliff:g> ספרות</item>
+      <item quantity="other">צריכה להכיל פחות מ-<xliff:g id="NUMBER_1">%d</xliff:g> ספרות</item>
+      <item quantity="one">צריכה להכיל פחות מספרה אחת (<xliff:g id="NUMBER_0">%d</xliff:g>)</item>
     </plurals>
     <string name="lockpassword_pin_recently_used" msgid="6650277060998923465">"מנהל המכשיר לא מאפשר להשתמש בקוד גישה שנעשה בו שימוש לאחרונה"</string>
     <string name="lockpassword_illegal_character" msgid="3434031212215886433">"לא ניתן לכלול תו לא חוקי"</string>
@@ -745,46 +774,46 @@
     <string name="lockpassword_password_requires_digit" msgid="312518567592683795">"צריכה להכיל ספרה אחת לפחות"</string>
     <string name="lockpassword_password_requires_symbol" msgid="6178512486154701321">"צריכה להכיל סמל אחד לפחות"</string>
     <plurals name="lockpassword_password_requires_letters" formatted="false" msgid="2385916409676839024">
-        <item quantity="two">צריכה להכיל לפחות <xliff:g id="COUNT">%d</xliff:g> אותיות</item>
-        <item quantity="many">צריכה להכיל לפחות <xliff:g id="COUNT">%d</xliff:g> אותיות</item>
-        <item quantity="other">צריכה להכיל לפחות <xliff:g id="COUNT">%d</xliff:g> אותיות</item>
-        <item quantity="one">צריכה להכיל לפחות אות אחת</item>
+      <item quantity="two">צריכה להכיל לפחות <xliff:g id="COUNT">%d</xliff:g> אותיות</item>
+      <item quantity="many">צריכה להכיל לפחות <xliff:g id="COUNT">%d</xliff:g> אותיות</item>
+      <item quantity="other">צריכה להכיל לפחות <xliff:g id="COUNT">%d</xliff:g> אותיות</item>
+      <item quantity="one">צריכה להכיל לפחות אות אחת</item>
     </plurals>
     <plurals name="lockpassword_password_requires_lowercase" formatted="false" msgid="2057467885488612701">
-        <item quantity="two">צריכה להכיל לפחות <xliff:g id="COUNT">%d</xliff:g> אותיות קטנות</item>
-        <item quantity="many">צריכה להכיל לפחות <xliff:g id="COUNT">%d</xliff:g> אותיות קטנות</item>
-        <item quantity="other">צריכה להכיל לפחות <xliff:g id="COUNT">%d</xliff:g> אותיות קטנות</item>
-        <item quantity="one"> צריכה להכיל לפחות אות קטנה אחת</item>
+      <item quantity="two">צריכה להכיל לפחות <xliff:g id="COUNT">%d</xliff:g> אותיות קטנות</item>
+      <item quantity="many">צריכה להכיל לפחות <xliff:g id="COUNT">%d</xliff:g> אותיות קטנות</item>
+      <item quantity="other">צריכה להכיל לפחות <xliff:g id="COUNT">%d</xliff:g> אותיות קטנות</item>
+      <item quantity="one"> צריכה להכיל לפחות אות קטנה אחת</item>
     </plurals>
     <plurals name="lockpassword_password_requires_uppercase" formatted="false" msgid="4541266279643052025">
-        <item quantity="two">צריכה להכיל לפחות <xliff:g id="COUNT">%d</xliff:g> אותיות גדולות</item>
-        <item quantity="many">צריכה להכיל לפחות <xliff:g id="COUNT">%d</xliff:g> אותיות גדולות</item>
-        <item quantity="other">צריכה להכיל לפחות <xliff:g id="COUNT">%d</xliff:g> אותיות גדולות</item>
-        <item quantity="one">צריכה להכיל לפחות אות גדולה אחת</item>
+      <item quantity="two">צריכה להכיל לפחות <xliff:g id="COUNT">%d</xliff:g> אותיות גדולות</item>
+      <item quantity="many">צריכה להכיל לפחות <xliff:g id="COUNT">%d</xliff:g> אותיות גדולות</item>
+      <item quantity="other">צריכה להכיל לפחות <xliff:g id="COUNT">%d</xliff:g> אותיות גדולות</item>
+      <item quantity="one">צריכה להכיל לפחות אות גדולה אחת</item>
     </plurals>
     <plurals name="lockpassword_password_requires_numeric" formatted="false" msgid="70617964591376248">
-        <item quantity="two">צריכה להכיל לפחות <xliff:g id="COUNT">%d</xliff:g> ספרות</item>
-        <item quantity="many">צריכה להכיל לפחות <xliff:g id="COUNT">%d</xliff:g> ספרות</item>
-        <item quantity="other">צריכה להכיל לפחות <xliff:g id="COUNT">%d</xliff:g> ספרות</item>
-        <item quantity="one">צריכה להכיל לפחות ספרה אחת</item>
+      <item quantity="two">צריכה להכיל לפחות <xliff:g id="COUNT">%d</xliff:g> ספרות</item>
+      <item quantity="many">צריכה להכיל לפחות <xliff:g id="COUNT">%d</xliff:g> ספרות</item>
+      <item quantity="other">צריכה להכיל לפחות <xliff:g id="COUNT">%d</xliff:g> ספרות</item>
+      <item quantity="one">צריכה להכיל לפחות ספרה אחת</item>
     </plurals>
     <plurals name="lockpassword_password_requires_symbols" formatted="false" msgid="7981236881269921943">
-        <item quantity="two">צריכה להכיל לפחות <xliff:g id="COUNT">%d</xliff:g> סמלים מיוחדים</item>
-        <item quantity="many">צריכה להכיל לפחות <xliff:g id="COUNT">%d</xliff:g> סמלים מיוחדים</item>
-        <item quantity="other">צריכה להכיל לפחות <xliff:g id="COUNT">%d</xliff:g> סמלים מיוחדים</item>
-        <item quantity="one">צריכה להכיל לפחות סמל מיוחד אחד</item>
+      <item quantity="two">צריכה להכיל לפחות <xliff:g id="COUNT">%d</xliff:g> סמלים מיוחדים</item>
+      <item quantity="many">צריכה להכיל לפחות <xliff:g id="COUNT">%d</xliff:g> סמלים מיוחדים</item>
+      <item quantity="other">צריכה להכיל לפחות <xliff:g id="COUNT">%d</xliff:g> סמלים מיוחדים</item>
+      <item quantity="one">צריכה להכיל לפחות סמל מיוחד אחד</item>
     </plurals>
     <plurals name="lockpassword_password_requires_nonletter" formatted="false" msgid="1567877061888948467">
-        <item quantity="two">צריכה להכיל לפחות <xliff:g id="COUNT">%d</xliff:g> תווים שאינם אותיות</item>
-        <item quantity="many">צריכה להכיל לפחות <xliff:g id="COUNT">%d</xliff:g> תווים שאינם אותיות</item>
-        <item quantity="other">צריכה להכיל לפחות <xliff:g id="COUNT">%d</xliff:g> תווים שאינם אותיות</item>
-        <item quantity="one">צריכה להכיל לפחות תו אחד שאינו אות</item>
+      <item quantity="two">צריכה להכיל לפחות <xliff:g id="COUNT">%d</xliff:g> תווים שאינם אותיות</item>
+      <item quantity="many">צריכה להכיל לפחות <xliff:g id="COUNT">%d</xliff:g> תווים שאינם אותיות</item>
+      <item quantity="other">צריכה להכיל לפחות <xliff:g id="COUNT">%d</xliff:g> תווים שאינם אותיות</item>
+      <item quantity="one">צריכה להכיל לפחות תו אחד שאינו אות</item>
     </plurals>
     <plurals name="lockpassword_password_requires_nonnumerical" formatted="false" msgid="5056743974888384475">
-        <item quantity="two">חייבת להכיל לפחות <xliff:g id="COUNT">%d</xliff:g> תווים שאינם מספרים</item>
-        <item quantity="many">חייבת להכיל לפחות <xliff:g id="COUNT">%d</xliff:g> תווים שאינם מספרים</item>
-        <item quantity="other">חייבת להכיל לפחות <xliff:g id="COUNT">%d</xliff:g> תווים שאינם מספרים</item>
-        <item quantity="one">חייבת להכיל לפחות תו אחד שאינו מספר</item>
+      <item quantity="two">חייבת להכיל לפחות <xliff:g id="COUNT">%d</xliff:g> תווים שאינם מספרים</item>
+      <item quantity="many">חייבת להכיל לפחות <xliff:g id="COUNT">%d</xliff:g> תווים שאינם מספרים</item>
+      <item quantity="other">חייבת להכיל לפחות <xliff:g id="COUNT">%d</xliff:g> תווים שאינם מספרים</item>
+      <item quantity="one">חייבת להכיל לפחות תו אחד שאינו מספר</item>
     </plurals>
     <string name="lockpassword_password_recently_used" msgid="5341218079730167191">"מנהל המכשיר לא מאפשר להשתמש בסיסמה שנעשה בה שימוש לאחרונה"</string>
     <string name="lockpassword_pin_no_sequential_digits" msgid="5843639256988031272">"אין להגדיר רצף ספרות עולה, יורד או חוזר"</string>
@@ -798,19 +827,19 @@
     <string name="manage_device_admin" msgid="1044620606203916275">"אפליקציות לניהול המכשיר"</string>
     <string name="number_of_device_admins_none" msgid="152926922020437312">"אין אפליקציות פעילות"</string>
     <plurals name="number_of_device_admins" formatted="false" msgid="2528735319390151989">
-        <item quantity="two"><xliff:g id="COUNT_1">%d</xliff:g> אפליקציות פעילות</item>
-        <item quantity="many"><xliff:g id="COUNT_1">%d</xliff:g> אפליקציות פעילות</item>
-        <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> אפליקציות פעילות</item>
-        <item quantity="one">אפליקציה אחת (‏<xliff:g id="COUNT_0">%d</xliff:g>) פעילה</item>
+      <item quantity="two"><xliff:g id="COUNT_1">%d</xliff:g> אפליקציות פעילות</item>
+      <item quantity="many"><xliff:g id="COUNT_1">%d</xliff:g> אפליקציות פעילות</item>
+      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> אפליקציות פעילות</item>
+      <item quantity="one">אפליקציה אחת (‏<xliff:g id="COUNT_0">%d</xliff:g>) פעילה</item>
     </plurals>
     <string name="manage_trust_agents" msgid="6410149930029992356">"סביבות מהימנות"</string>
     <string name="disabled_because_no_backup_security" msgid="4998095356607488854">"כדי להשתמש בתכונה הזו, צריך קודם להגדיר נעילת מסך"</string>
     <string name="manage_trust_agents_summary" msgid="6423843123607674286">"ללא"</string>
     <plurals name="manage_trust_agents_summary_on" formatted="false" msgid="5438047398376802735">
-        <item quantity="two"><xliff:g id="COUNT">%d</xliff:g> סביבות אמינות פעילות</item>
-        <item quantity="many"><xliff:g id="COUNT">%d</xliff:g> סביבות אמינות פעילות</item>
-        <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> סביבות אמינות פעילות</item>
-        <item quantity="one"> סביבה אמינה פעילה אחת</item>
+      <item quantity="two"><xliff:g id="COUNT">%d</xliff:g> סביבות אמינות פעילות</item>
+      <item quantity="many"><xliff:g id="COUNT">%d</xliff:g> סביבות אמינות פעילות</item>
+      <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> סביבות אמינות פעילות</item>
+      <item quantity="one"> סביבה אמינה פעילה אחת</item>
     </plurals>
     <string name="bluetooth_quick_toggle_title" msgid="5955341060378240781">"Bluetooth"</string>
     <string name="bluetooth_quick_toggle_summary" msgid="5257744297562880017">"‏להפעלת Bluetooth"</string>
@@ -829,6 +858,7 @@
     <string name="bluetooth_incoming_pairing_msg" msgid="1068123527866596779">"‏מאת:&lt;br&gt;&lt;b&gt;<xliff:g id="DEVICE_NAME">%1$s</xliff:g>&lt;/b&gt;&lt;br&gt;&lt;br&gt;לבצע התאמה עם מכשיר זה?"</string>
     <string name="bluetooth_display_passkey_pin_msg" msgid="8672803845151786521">"‏כדי להתאים עם:<xliff:g id="BOLD1_0">&lt;br&gt;&lt;b&gt;</xliff:g><xliff:g id="DEVICE_NAME">%1$s</xliff:g><xliff:g id="END_BOLD1">&lt;/b&gt;&lt;br&gt;&lt;br&gt;</xliff:g>יש הקלד בו:<xliff:g id="BOLD2_1">&lt;br&gt;&lt;b&gt;</xliff:g><xliff:g id="PASSKEY">%2$s</xliff:g><xliff:g id="END_BOLD2">&lt;/b&gt;</xliff:g>, ולאחר מכן להקיש על Return או Enter."</string>
     <string name="bluetooth_pairing_shares_phonebook" msgid="4329325125260724843">"אישור גישה אל אנשי הקשר והיסטוריית השיחות"</string>
+    <string name="bluetooth_error_title" msgid="2284738188253690278"></string>
     <string name="bluetooth_connecting_error_message" msgid="3941893154784152112">"לא הייתה אפשרות להתחבר אל <xliff:g id="DEVICE_NAME">%1$s</xliff:g>."</string>
     <string name="bluetooth_preference_scan_title" msgid="3460316252463771851">"חיפוש מכשירים"</string>
     <string name="bluetooth_search_for_devices" msgid="6516902340975407648">"רענון"</string>
@@ -1120,22 +1150,22 @@
     <string name="wifi_forget_dialog_title" msgid="4363829200968563164">"למחוק את הרשת?"</string>
     <string name="wifi_forget_dialog_message" msgid="8419499588321940243">"כל הסיסמאות עבור רשת זו יימחקו"</string>
     <plurals name="wifi_saved_access_points_summary" formatted="false" msgid="2802436466732147888">
-        <item quantity="two">‏%d רשתות</item>
-        <item quantity="many">‏%d רשתות</item>
-        <item quantity="other">‏%d רשתות</item>
-        <item quantity="one">רשת אחת</item>
+      <item quantity="two">‏%d רשתות</item>
+      <item quantity="many">‏%d רשתות</item>
+      <item quantity="other">‏%d רשתות</item>
+      <item quantity="one">רשת אחת</item>
     </plurals>
     <plurals name="wifi_saved_passpoint_access_points_summary" formatted="false" msgid="5802057518058840450">
-        <item quantity="two">‏%d מינויים</item>
-        <item quantity="many">‏%d מינויים</item>
-        <item quantity="other">‏%d מינויים</item>
-        <item quantity="one">מינוי אחד</item>
+      <item quantity="two">‏%d מינויים</item>
+      <item quantity="many">‏%d מינויים</item>
+      <item quantity="other">‏%d מינויים</item>
+      <item quantity="one">מינוי אחד</item>
     </plurals>
     <plurals name="wifi_saved_all_access_points_summary" formatted="false" msgid="5125849180309374451">
-        <item quantity="two">‏%d רשתות ומינויים</item>
-        <item quantity="many">‏%d רשתות ומינויים</item>
-        <item quantity="other">‏%d רשתות ומינויים</item>
-        <item quantity="one">רשת ומינוי</item>
+      <item quantity="two">‏%d רשתות ומינויים</item>
+      <item quantity="many">‏%d רשתות ומינויים</item>
+      <item quantity="other">‏%d רשתות ומינויים</item>
+      <item quantity="one">רשת ומינוי</item>
     </plurals>
     <string name="wifi_advanced_titlebar" msgid="1234150304285575798">"‏Wi-Fi מתקדם"</string>
     <string name="wifi_advanced_ssid_title" msgid="1561437650193980185">"SSID"</string>
@@ -1226,21 +1256,22 @@
     <string name="wifi_calling_mode_dialog_title" msgid="944146521898592440">"העדפת התקשרות"</string>
     <string name="wifi_calling_roaming_mode_title" msgid="7703305991991520773">"אפשרות נדידה מועדפת"</string>
     <!-- no translation found for wifi_calling_roaming_mode_summary (6061631305384464179) -->
-    <skip/>
+    <skip />
     <string name="wifi_calling_roaming_mode_dialog_title" msgid="5382466713784067077">"אפשרות נדידה מועדפת"</string>
-    <string-array name="wifi_calling_mode_choices_v2">
-        <item msgid="6052353275413974742">"Wi-Fi"</item>
-        <item msgid="8622872038388687383">"סלולרי"</item>
-        <item msgid="3027927219952052398">"‏Wi-Fi בלבד"</item>
-    </string-array>
-    <string-array name="wifi_calling_mode_choices_v2_without_wifi_only">
-        <item msgid="588620799769664461">"Wi-Fi"</item>
-        <item msgid="7566603075659706590">"סלולרי"</item>
-    </string-array>
+  <string-array name="wifi_calling_mode_choices_v2">
+    <item msgid="6052353275413974742">"Wi-Fi"</item>
+    <item msgid="8622872038388687383">"סלולרי"</item>
+    <item msgid="3027927219952052398">"‏Wi-Fi בלבד"</item>
+  </string-array>
+  <string-array name="wifi_calling_mode_choices_v2_without_wifi_only">
+    <item msgid="588620799769664461">"Wi-Fi"</item>
+    <item msgid="7566603075659706590">"סלולרי"</item>
+  </string-array>
     <string name="wifi_calling_mode_wifi_preferred_summary" msgid="3240387177966098351">"‏אם חיבור Wi‑Fi לא זמין, ייעשה שימוש ברשת סלולרית"</string>
     <string name="wifi_calling_mode_cellular_preferred_summary" msgid="3746914244902314059">"‏אם אין רשת סלולרית זמינה יש להשתמש ב-Wi‑Fi"</string>
     <string name="wifi_calling_mode_wifi_only_summary" msgid="3155660680014892641">"‏התקשרות בחיבור Wi-Fi. אם חיבור ה-Wi‑Fi יתנתק, השיחה תסתיים."</string>
     <string name="wifi_calling_off_explanation" msgid="6295526820826322895">"‏כשתכונת שיחות Wi-Fi פועלת, הטלפון יכול לנתב שיחות ברשתות Wi-Fi או ברשת של הספק, בהתאם להעדפה שלך ולאות שחזק יותר. לפני הפעלת תכונה זו, יש לבדוק עם הספק פרטים הקשורים לעמלות ופרטים אחרים.<xliff:g id="ADDITIONAL_TEXT">%1$s</xliff:g>"</string>
+    <string name="wifi_calling_off_explanation_2" msgid="3487475808574416183"></string>
     <string name="emergency_address_title" msgid="3490633500025717573">"כתובת למקרה חירום"</string>
     <string name="emergency_address_summary" msgid="3022628750270626473">"‏משמש כמיקומך בעת ביצוע שיחת חירום באמצעות רשת Wi-Fi"</string>
     <string name="private_dns_help_message" msgid="851221502063782306">"‏"<annotation id="url">"מידע נוסף"</annotation>" על תכונות של DNS פרטי"</string>
@@ -1342,6 +1373,7 @@
     <string name="auto_brightness_disclaimer" msgid="1868395832774087351">"ביצוע אופטימיזציה של רמת הבהירות בהתאם לאור הזמין. כשתכונה זו מופעלת, עדיין ניתן להתאים את הבהירות באופן זמני."</string>
     <string name="auto_brightness_description" msgid="6807117118142381193">"בהירות המסך תותאם באופן אוטומטי לסביבה ולפעילויות שלך. אפשר להזיז את המחוון באופן ידני כדי לסייע לתכונה \'בהירות אוטומטית\' ללמוד את ההעדפות שלך."</string>
     <string name="display_white_balance_title" msgid="2624544323029364713">"הצגת איזון לבן"</string>
+    <string name="display_white_balance_summary" msgid="7625456704950209050"></string>
     <string name="peak_refresh_rate_title" msgid="1878771412897140903">"תצוגה חלקה"</string>
     <string name="peak_refresh_rate_summary" msgid="1527087897198455042">"‏קצב הרענון עולה באופן אוטומטי מ-Hz‏60 ל-Hz‏90 לחלק מהתוכן. הפעולה הזו מגבירה את השימוש בסוללה."</string>
     <string name="force_high_refresh_rate_toggle" msgid="3325789621928312050">"אילוץ לקצב הרענון המקסימלי"</string>
@@ -1477,14 +1509,15 @@
     <string name="sim_preferred_message" msgid="6004009449266648351">"‏<xliff:g id="NEW_SIM">%1$s</xliff:g> הוא ה-SIM היחיד במכשיר. האם להשתמש ב-SIM זה לחיבור לאינטרנט באמצעות חבילת גלישה, לשיחות ולהודעות SMS?"</string>
     <string name="wrong_pin_code_pukked" msgid="3414172752791445033">"‏קוד גישה שגוי של כרטיס ה-SIM. עליך ליצור כעת קשר עם הספק על מנת לבטל את נעילת המכשיר."</string>
     <plurals name="wrong_pin_code" formatted="false" msgid="4054088588731305475">
-        <item quantity="two">‏קוד גישה שגוי של כרטיס SIM. נותרו לך <xliff:g id="NUMBER_1">%d</xliff:g> ניסיונות.</item>
-        <item quantity="many">‏קוד גישה שגוי של כרטיס SIM. נותרו לך <xliff:g id="NUMBER_1">%d</xliff:g> ניסיונות.</item>
-        <item quantity="other">‏קוד גישה שגוי של כרטיס SIM. נותרו לך <xliff:g id="NUMBER_1">%d</xliff:g> ניסיונות.</item>
-        <item quantity="one">‏קוד גישה שגוי של כרטיס SIM. נותר לך ניסיון <xliff:g id="NUMBER_0">%d</xliff:g> לפני שיהיה עליך ליצור קשר עם הספק כדי לבטל את נעילת המכשיר.</item>
+      <item quantity="two">‏קוד גישה שגוי של כרטיס SIM. נותרו לך <xliff:g id="NUMBER_1">%d</xliff:g> ניסיונות.</item>
+      <item quantity="many">‏קוד גישה שגוי של כרטיס SIM. נותרו לך <xliff:g id="NUMBER_1">%d</xliff:g> ניסיונות.</item>
+      <item quantity="other">‏קוד גישה שגוי של כרטיס SIM. נותרו לך <xliff:g id="NUMBER_1">%d</xliff:g> ניסיונות.</item>
+      <item quantity="one">‏קוד גישה שגוי של כרטיס SIM. נותר לך ניסיון <xliff:g id="NUMBER_0">%d</xliff:g> לפני שיהיה עליך ליצור קשר עם הספק כדי לבטל את נעילת המכשיר.</item>
     </plurals>
     <string name="wrong_pin_code_one" msgid="6924852214263071441">"‏קוד האימות של כרטיס ה-SIM שגוי. נותר לך ניסיון נוסף אחד לפני שיהיה עליך ליצור קשר עם הספק על מנת לבטל את נעילת המכשיר."</string>
     <string name="pin_failed" msgid="3726505565797352255">"‏פעולת קוד הגישה של כרטיס ה-SIM נכשלה!"</string>
     <string name="system_update_settings_list_item_title" msgid="3398346836439366350">"עדכוני מערכת"</string>
+    <string name="system_update_settings_list_item_summary" msgid="6703752298349642101"></string>
     <string name="firmware_version" msgid="1606901586501447275">"‏גרסת Android"</string>
     <string name="security_patch" msgid="4071756145347865382">"‏עדכון אבטחה ל-‏Android"</string>
     <string name="model_info" msgid="8997566254717810904">"דגם"</string>
@@ -1563,6 +1596,8 @@
     <string name="sd_insert_summary" product="default" msgid="5949168259622002192">"‏יש להכניס כרטיס SD לצורך טעינה"</string>
     <string name="sd_mount" product="nosdcard" msgid="8305985249945415150">"‏טעינת אחסון USB"</string>
     <string name="sd_mount" product="default" msgid="5279813999455776169">"‏טעינת כרטיס SD"</string>
+    <string name="sd_mount_summary" product="nosdcard" msgid="2190410240845521205"></string>
+    <string name="sd_mount_summary" product="default" msgid="2190410240845521205"></string>
     <string name="sd_format" product="nosdcard" msgid="8657427883364711513">"‏מחיקת אחסון USB"</string>
     <string name="sd_format" product="default" msgid="9085302892248732329">"‏מחיקת כרטיס SD"</string>
     <string name="sd_format_summary" product="nosdcard" msgid="6179784504937189658">"‏מחיקת כל הנתונים שבאמצעי האחסון הפנימי מסוג USB, כגון מוזיקה ותמונות."</string>
@@ -1572,6 +1607,8 @@
     <string name="dlg_confirm_unmount_title" product="default" msgid="8251329019960361646">"‏לבטל את הטעינה של כרטיס ה-SD?"</string>
     <string name="dlg_confirm_unmount_text" product="nosdcard" msgid="1212025106709645023">"‏אם טעינת אחסון ה-USB תבוטל, יופסקו אפליקציות מסוימות שמשמשות אותך וייתכן שהן לא יהיו זמינות עד שאחסון ה-USB ייטען מחדש."</string>
     <string name="dlg_confirm_unmount_text" product="default" msgid="3887768438615563697">"‏בעקבות ביטול של טעינת כרטיס ה-SD, הפעולה של אפליקציות מסוימות שהשתמשת בהן תופסק וייתכן שהן לא יהיו זמינות עד לטעינה מחדש של כרטיס ה-SD."</string>
+    <string name="dlg_error_unmount_title" product="nosdcard" msgid="2205587942165199845"></string>
+    <string name="dlg_error_unmount_title" product="default" msgid="2205587942165199845"></string>
     <string name="dlg_error_unmount_text" product="nosdcard" msgid="7876201891724279436">"‏לא ניתן לבטל את הטעינה של אחסון ה-USB. כדאי לנסות שוב מאוחר יותר."</string>
     <string name="dlg_error_unmount_text" product="default" msgid="2185659901137961711">"‏לא ניתן לבטל את טעינת כרטיס ה-SD. אפשר לנסות שוב מאוחר יותר."</string>
     <string name="unmount_inform_text" product="nosdcard" msgid="5932607205977999175">"‏הטעינה של אחסון USB תבוטל."</string>
@@ -1722,6 +1759,7 @@
     <string name="menu_new" msgid="6571230342655509006">"‏הוספת APN חדש"</string>
     <string name="menu_save" msgid="6611465355127483100">"שמירה"</string>
     <string name="menu_cancel" msgid="1197826697950745335">"ביטול"</string>
+    <string name="error_title" msgid="7158648377702417716"></string>
     <string name="error_name_empty" msgid="1258275899283079142">"השדה \'שם\' לא יכול להיות ריק."</string>
     <string name="error_apn_empty" msgid="7657491065443746915">"‏ה-APN לא יכול להיות ריק."</string>
     <string name="error_mcc_not3" msgid="883659545640179094">"‏שדה MCC חייב להכיל 3 ספרות."</string>
@@ -1844,10 +1882,10 @@
     <string name="location_app_level_permissions" msgid="907206607664629759">"הרשאות מיקום של אפליקציות"</string>
     <string name="location_app_permission_summary_location_off" msgid="2711822936853500335">"תכונת המיקום כבויה"</string>
     <plurals name="location_app_permission_summary_location_on" formatted="false" msgid="8286873148858526214">
-        <item quantity="two"> ל-<xliff:g id="PERMITTED_LOCATION_APP_COUNT_2">%1$d</xliff:g> מתוך <xliff:g id="TOTAL_LOCATION_APP_COUNT_3">%2$d</xliff:g> אפליקציות יש גישה למיקום</item>
-        <item quantity="many"> ל-<xliff:g id="PERMITTED_LOCATION_APP_COUNT_2">%1$d</xliff:g> מתוך <xliff:g id="TOTAL_LOCATION_APP_COUNT_3">%2$d</xliff:g> אפליקציות יש גישה למיקום</item>
-        <item quantity="other"> ל-<xliff:g id="PERMITTED_LOCATION_APP_COUNT_2">%1$d</xliff:g> מתוך <xliff:g id="TOTAL_LOCATION_APP_COUNT_3">%2$d</xliff:g> אפליקציות יש גישה למיקום</item>
-        <item quantity="one"> לאחת (<xliff:g id="PERMITTED_LOCATION_APP_COUNT_0">%1$d</xliff:g>) מתוך <xliff:g id="TOTAL_LOCATION_APP_COUNT_1">%2$d</xliff:g> אפליקציות יש גישה למיקום</item>
+      <item quantity="two"> ל-<xliff:g id="PERMITTED_LOCATION_APP_COUNT_2">%1$d</xliff:g> מתוך <xliff:g id="TOTAL_LOCATION_APP_COUNT_3">%2$d</xliff:g> אפליקציות יש גישה למיקום</item>
+      <item quantity="many"> ל-<xliff:g id="PERMITTED_LOCATION_APP_COUNT_2">%1$d</xliff:g> מתוך <xliff:g id="TOTAL_LOCATION_APP_COUNT_3">%2$d</xliff:g> אפליקציות יש גישה למיקום</item>
+      <item quantity="other"> ל-<xliff:g id="PERMITTED_LOCATION_APP_COUNT_2">%1$d</xliff:g> מתוך <xliff:g id="TOTAL_LOCATION_APP_COUNT_3">%2$d</xliff:g> אפליקציות יש גישה למיקום</item>
+      <item quantity="one"> לאחת (<xliff:g id="PERMITTED_LOCATION_APP_COUNT_0">%1$d</xliff:g>) מתוך <xliff:g id="TOTAL_LOCATION_APP_COUNT_1">%2$d</xliff:g> אפליקציות יש גישה למיקום</item>
     </plurals>
     <string name="location_category_recent_location_access" msgid="2558063524482178146">"ניגשו לאחרונה למיקום"</string>
     <string name="location_recent_location_access_see_all" msgid="4203102419355323325">"הצגת כל האפליקציות"</string>
@@ -2022,10 +2060,10 @@
     <string name="install_applications_title" msgid="7890233747559108106">"אפליקציות ממקורות שונים"</string>
     <string name="recent_app_category_title" msgid="189758417804427533">"אפליקציות שפתחת לאחרונה"</string>
     <plurals name="see_all_apps_title" formatted="false" msgid="6864581406735745400">
-        <item quantity="two">‏הצגת כל %1$d האפליקציות</item>
-        <item quantity="many">‏הצגת כל %1$d האפליקציות</item>
-        <item quantity="other">‏הצגת כל %1$d האפליקציות</item>
-        <item quantity="one">הצגת כל האפליקציות</item>
+      <item quantity="two">‏הצגת כל %1$d האפליקציות</item>
+      <item quantity="many">‏הצגת כל %1$d האפליקציות</item>
+      <item quantity="other">‏הצגת כל %1$d האפליקציות</item>
+      <item quantity="one">הצגת כל האפליקציות</item>
     </plurals>
     <string name="forgot_password_title" msgid="3967873480875239885">"‏יש ליצור קשר עם מנהל ה-IT"</string>
     <string name="forgot_password_text" msgid="2583194470767613163">"ניתן לקבל ממנו עזרה באיפוס קוד האימות, קו ביטול הנעילה או הסיסמה"</string>
@@ -2044,10 +2082,10 @@
     <string name="clear_cache_btn_text" msgid="8597272828928143723">"ניקוי המטמון"</string>
     <string name="cache_size_label" msgid="313456088966822757">"מטמון"</string>
     <plurals name="uri_permissions_text" formatted="false" msgid="8212425823423508096">
-        <item quantity="two">‏%d פריטים</item>
-        <item quantity="many">‏%d פריטים</item>
-        <item quantity="other">‏%d פריטים</item>
-        <item quantity="one">פריט אחד</item>
+      <item quantity="two">‏%d פריטים</item>
+      <item quantity="many">‏%d פריטים</item>
+      <item quantity="other">‏%d פריטים</item>
+      <item quantity="one">פריט אחד</item>
     </plurals>
     <string name="clear_uri_btn_text" msgid="4828117421162495134">"ניקוי גישה"</string>
     <string name="controls_label" msgid="8671492254263626383">"פקדים"</string>
@@ -2102,6 +2140,7 @@
     <string name="clear_data_dlg_text" msgid="1107610960337399006">"נתוני האפליקציה יימחקו באופן סופי. לרבות קבצים, הגדרות, מסדי נתונים ונתונים אחרים מהאפליקציה."</string>
     <string name="dlg_ok" msgid="1421350367857960997">"אישור"</string>
     <string name="dlg_cancel" msgid="5164705061530774899">"ביטול"</string>
+    <string name="app_not_found_dlg_title" msgid="7122106240981109930"></string>
     <string name="app_not_found_dlg_text" msgid="8634675268730513704">"האפליקציה לא נמצאת ברשימת האפליקציות המותקנות."</string>
     <string name="clear_failed_dlg_text" msgid="6866741916836125732">"לא ניתן לפנות שטח אחסון לאפליקציה."</string>
     <string name="join_two_items" msgid="7893073836681382429">"<xliff:g id="FIRST_ITEM">%1$s</xliff:g> וגם <xliff:g id="SECOND_ITEM">%2$s</xliff:g>"</string>
@@ -2141,12 +2180,12 @@
     <string name="no_running_services" msgid="9079738069349859373">"אף שירות אינו פועל."</string>
     <string name="service_started_by_app" msgid="6845028506417670179">"הופעל על ידי אפליקציה."</string>
     <!-- no translation found for service_client_name (2210898622981598861) -->
-    <skip/>
+    <skip />
     <string name="service_background_processes" msgid="2800539421534521948">"<xliff:g id="MEMORY">%1$s</xliff:g> של שטח פנוי"</string>
     <string name="service_foreground_processes" msgid="6380905887193621704">"<xliff:g id="MEMORY">%1$s</xliff:g> בשימוש"</string>
     <string name="memory" msgid="5253757199926592074">"RAM"</string>
     <!-- no translation found for service_process_name (7827318358399776412) -->
-    <skip/>
+    <skip />
     <string name="running_process_item_user_label" msgid="1444898861984132133">"משתמש: <xliff:g id="USER_NAME">%1$s</xliff:g>"</string>
     <string name="running_process_item_removed_user_label" msgid="4812732296696662613">"משתמש שהוסר"</string>
     <string name="running_processes_item_description_s_s" msgid="6835918861352501671">"תהליך <xliff:g id="NUMPROCESS">%1$d</xliff:g> ושירות <xliff:g id="NUMSERVICES">%2$d</xliff:g>"</string>
@@ -2178,12 +2217,16 @@
     <string name="runningservicedetails_stop_dlg_text" product="tablet" msgid="2076922609580490122">"אם תפסיק שירות זה, תכונות מסוימות של הטאבלט עלולות להפסיק לפעול כהלכה עד לכיבוי המכשיר והפעלתו מחדש."</string>
     <string name="runningservicedetails_stop_dlg_text" product="default" msgid="2625863973434309085">"אם מפסיקים שירות זה, תכונות מסוימות של הטלפון עלולות להפסיק לפעול כהלכה עד לכיבוי המכשיר והפעלתו מחדש."</string>
     <string name="language_input_gesture_title" msgid="3292455685728572960">"שפות, קלט ותנועות"</string>
+    <string name="language_input_gesture_summary_on_with_assist" msgid="8670153838520237089"></string>
+    <string name="language_input_gesture_summary_on_non_assist" msgid="2738661322747920463"></string>
+    <string name="language_input_gesture_summary_off" msgid="1604575860215661606"></string>
     <string name="language_settings" msgid="8700174277543875046">"שפות וקלט"</string>
     <string name="language_empty_list_user_restricted" msgid="8050367405839231863">"אין לך הרשאה לשנות את השפה במכשיר."</string>
     <string name="language_keyboard_settings_title" msgid="7934844313233544557">"שפות וקלט"</string>
     <string name="input_assistance" msgid="3437568284144952104">"כלים"</string>
     <string name="keyboard_settings_category" msgid="5392847229300117064">"מקלדת ושיטות קלט"</string>
     <string name="phone_language" msgid="5986939176239963826">"שפות"</string>
+    <string name="phone_language_summary" msgid="863041222809685325"></string>
     <string name="auto_replace" msgid="4830732960264447043">"החלפה אוטומטית"</string>
     <string name="auto_replace_summary" msgid="1285443414597153423">"תיקון שגיאות הקלדה במילים"</string>
     <string name="auto_caps" msgid="5573583581288305355">"אותיות רישיות באופן אוטומטי"</string>
@@ -2450,10 +2493,10 @@
     <string name="accessibility_hearingaid_pair_instructions_message" msgid="8913409742121315657">"כדי להתאים את מכשירי השמיעה שלך, יש לחפש את המכשיר ולהקיש עליו במסך הבא. צריך לוודא שמכשירי השמיעה במצב התאמה."</string>
     <string name="accessibility_hearingaid_active_device_summary" msgid="509703438222873967">"<xliff:g id="DEVICE_NAME">%1$s</xliff:g> פעיל"</string>
     <plurals name="show_number_hearingaid_count" formatted="false" msgid="776000580683647556">
-        <item quantity="two"><xliff:g id="NUMBER_DEVICE_COUNT_1">%1$d</xliff:g> מכשירי שמיעה נשמרו</item>
-        <item quantity="many"><xliff:g id="NUMBER_DEVICE_COUNT_1">%1$d</xliff:g> מכשירי שמיעה נשמרו</item>
-        <item quantity="other"><xliff:g id="NUMBER_DEVICE_COUNT_1">%1$d</xliff:g> מכשירי שמיעה נשמרו</item>
-        <item quantity="one">מכשיר שמיעה אחד (<xliff:g id="NUMBER_DEVICE_COUNT_0">%1$d</xliff:g>) נשמר</item>
+      <item quantity="two"><xliff:g id="NUMBER_DEVICE_COUNT_1">%1$d</xliff:g> מכשירי שמיעה נשמרו</item>
+      <item quantity="many"><xliff:g id="NUMBER_DEVICE_COUNT_1">%1$d</xliff:g> מכשירי שמיעה נשמרו</item>
+      <item quantity="other"><xliff:g id="NUMBER_DEVICE_COUNT_1">%1$d</xliff:g> מכשירי שמיעה נשמרו</item>
+      <item quantity="one">מכשיר שמיעה אחד (<xliff:g id="NUMBER_DEVICE_COUNT_0">%1$d</xliff:g>) נשמר</item>
     </plurals>
     <string name="accessibility_audio_adjustment_title" msgid="1332113739136802997">"כוונון אודיו"</string>
     <string name="accessibility_summary_shortcut_enabled" msgid="4030427268146752644">"מקש הקיצור פועל"</string>
@@ -2485,28 +2528,28 @@
     <string name="reduce_bright_colors_intensity_end_label" msgid="1422600205484299860">"הגברה"</string>
     <string name="reduce_bright_colors_persist_preference_title" msgid="4368829654993343354">"שמירת ההגדרה לאחר הפעלה מחדש של המכשיר"</string>
     <plurals name="accessibilty_autoclick_preference_subtitle_short_delay" formatted="false" msgid="5354221071353645263">
-        <item quantity="two">השהיה קצרה (<xliff:g id="CLICK_DELAY_LABEL_1">%1$s</xliff:g> שניות)</item>
-        <item quantity="many">השהיה קצרה (<xliff:g id="CLICK_DELAY_LABEL_1">%1$s</xliff:g> שניות)</item>
-        <item quantity="other">השהיה קצרה (<xliff:g id="CLICK_DELAY_LABEL_1">%1$s</xliff:g> שניות)</item>
-        <item quantity="one">השהיה קצרה (שנייה אחת, <xliff:g id="CLICK_DELAY_LABEL_0">%1$s</xliff:g>)</item>
+      <item quantity="two">השהיה קצרה (<xliff:g id="CLICK_DELAY_LABEL_1">%1$s</xliff:g> שניות)</item>
+      <item quantity="many">השהיה קצרה (<xliff:g id="CLICK_DELAY_LABEL_1">%1$s</xliff:g> שניות)</item>
+      <item quantity="other">השהיה קצרה (<xliff:g id="CLICK_DELAY_LABEL_1">%1$s</xliff:g> שניות)</item>
+      <item quantity="one">השהיה קצרה (שנייה אחת, <xliff:g id="CLICK_DELAY_LABEL_0">%1$s</xliff:g>)</item>
     </plurals>
     <plurals name="accessibilty_autoclick_preference_subtitle_medium_delay" formatted="false" msgid="1550891909800510628">
-        <item quantity="two">השהיה בינונית (<xliff:g id="CLICK_DELAY_LABEL_1">%1$s</xliff:g> שניות)</item>
-        <item quantity="many">השהיה בינונית (<xliff:g id="CLICK_DELAY_LABEL_1">%1$s</xliff:g> שניות)</item>
-        <item quantity="other">השהיה בינונית (<xliff:g id="CLICK_DELAY_LABEL_1">%1$s</xliff:g> שניות)</item>
-        <item quantity="one">השהיה בינונית (שנייה אחת, <xliff:g id="CLICK_DELAY_LABEL_0">%1$s</xliff:g>)</item>
+      <item quantity="two">השהיה בינונית (<xliff:g id="CLICK_DELAY_LABEL_1">%1$s</xliff:g> שניות)</item>
+      <item quantity="many">השהיה בינונית (<xliff:g id="CLICK_DELAY_LABEL_1">%1$s</xliff:g> שניות)</item>
+      <item quantity="other">השהיה בינונית (<xliff:g id="CLICK_DELAY_LABEL_1">%1$s</xliff:g> שניות)</item>
+      <item quantity="one">השהיה בינונית (שנייה אחת, <xliff:g id="CLICK_DELAY_LABEL_0">%1$s</xliff:g>)</item>
     </plurals>
     <plurals name="accessibilty_autoclick_preference_subtitle_long_delay" formatted="false" msgid="2230755548820485984">
-        <item quantity="two">השהיה ארוכה (<xliff:g id="CLICK_DELAY_LABEL_1">%1$s</xliff:g> שניות)</item>
-        <item quantity="many">השהיה ארוכה (<xliff:g id="CLICK_DELAY_LABEL_1">%1$s</xliff:g> שניות)</item>
-        <item quantity="other">השהיה ארוכה (<xliff:g id="CLICK_DELAY_LABEL_1">%1$s</xliff:g> שניות)</item>
-        <item quantity="one">השהיה ארוכה (שנייה אחת, <xliff:g id="CLICK_DELAY_LABEL_0">%1$s</xliff:g>)</item>
+      <item quantity="two">השהיה ארוכה (<xliff:g id="CLICK_DELAY_LABEL_1">%1$s</xliff:g> שניות)</item>
+      <item quantity="many">השהיה ארוכה (<xliff:g id="CLICK_DELAY_LABEL_1">%1$s</xliff:g> שניות)</item>
+      <item quantity="other">השהיה ארוכה (<xliff:g id="CLICK_DELAY_LABEL_1">%1$s</xliff:g> שניות)</item>
+      <item quantity="one">השהיה ארוכה (שנייה אחת, <xliff:g id="CLICK_DELAY_LABEL_0">%1$s</xliff:g>)</item>
     </plurals>
     <plurals name="accessibilty_autoclick_delay_unit_second" formatted="false" msgid="4537791441118261556">
-        <item quantity="two"><xliff:g id="CLICK_DELAY_LABEL_2">%1$s</xliff:g> שניות</item>
-        <item quantity="many"><xliff:g id="CLICK_DELAY_LABEL_2">%1$s</xliff:g> שניות</item>
-        <item quantity="other"><xliff:g id="CLICK_DELAY_LABEL_2">%1$s</xliff:g> שניות</item>
-        <item quantity="one">שנייה אחת (<xliff:g id="CLICK_DELAY_LABEL_0">%1$s</xliff:g>)</item>
+      <item quantity="two"><xliff:g id="CLICK_DELAY_LABEL_2">%1$s</xliff:g> שניות</item>
+      <item quantity="many"><xliff:g id="CLICK_DELAY_LABEL_2">%1$s</xliff:g> שניות</item>
+      <item quantity="other"><xliff:g id="CLICK_DELAY_LABEL_2">%1$s</xliff:g> שניות</item>
+      <item quantity="one">שנייה אחת (<xliff:g id="CLICK_DELAY_LABEL_0">%1$s</xliff:g>)</item>
     </plurals>
     <string name="accessibility_vibration_summary" msgid="27904038683405084">"צלצול <xliff:g id="SUMMARY_RING">%1$s</xliff:g>, התראה <xliff:g id="SUMMARY_NOTIFICATION">%2$s</xliff:g>, נגיעה <xliff:g id="SUMMARY_TOUCH">%3$s</xliff:g>"</string>
     <string name="accessibility_vibration_summary_off" msgid="7776105450117095736">"רטט כבוי לצלצול ולהתראות"</string>
@@ -2577,27 +2620,35 @@
     <string name="keywords_reduce_bright_colors" msgid="1683190961013139183">"רגישות לאור, פוטופוביה, עיצוב כהה, מיגרנה, כאב ראש, מצב קריאה, מצב לילה, הפחתת בהירות, נקודה לבנה"</string>
     <string name="keywords_accessibility" msgid="4263443239404659143">"שימוש בקלות, קבלת גישה בקלות, עזרה, כלי מסייע"</string>
     <string name="keywords_magnification" msgid="3908145308269840862">"כלי להגדלת חלון, זום, הגדלה, לקוי ראייה, הגדלה"</string>
+    <string name="keywords_talkback" msgid="2816435437095102527"></string>
     <string name="keywords_live_caption" msgid="1667203998080567556">"‏כתוביות, תמלול בזמן אמת, כבד שמיעה, אובדן שמיעה, CART, המרת דיבור לטקסט (STT), כתובית"</string>
+    <string name="keywords_live_transcribe" msgid="3226990195174890997"></string>
+    <string name="keywords_sound_notifications" msgid="8183107485754075413"></string>
+    <string name="keywords_sound_amplifier" msgid="939404835256246663"></string>
     <string name="keywords_display_size" msgid="5286419615221231518">"גודל מסך, מסך גדול"</string>
     <string name="keywords_bold_text" msgid="6257418169207099589">"ניגודיות גבוהה, לקוי ראייה, גופן מודגש, פנים מודגשות"</string>
+    <string name="keywords_select_to_speak" msgid="2872704811610888719"></string>
     <string name="keywords_color_correction" msgid="8540442886990423681">"שינוי צבע"</string>
     <string name="keywords_color_inversion" msgid="4291058365873221962">"שינוי צבע המסך לכהה, שינוי צבע המסך לבהיר"</string>
+    <string name="keywords_accessibility_menu" msgid="4300579436464706608"></string>
+    <string name="keywords_switch_access" msgid="5813094504384313402"></string>
     <string name="keywords_auto_click" msgid="7151756353013736931">"מוטורי, עכבר"</string>
     <string name="keywords_hearing_aids" msgid="524979615168196199">"כבד שמיעה, אובדן שמיעה"</string>
     <string name="keywords_rtt" msgid="2429130928152514402">"‏כבד שמיעה, אובדן שמיעה, כתוביות, הקלדה באמצעות TTY,‏ TTY"</string>
+    <string name="keywords_voice_access" msgid="7807335263195876454"></string>
     <string name="print_settings" msgid="8519810615863882491">"הדפסה"</string>
     <string name="print_settings_summary_no_service" msgid="6721731154917653862">"כבוי"</string>
     <plurals name="print_settings_summary" formatted="false" msgid="1034273609054146099">
-        <item quantity="two"><xliff:g id="COUNT">%1$d</xliff:g> שירותי הדפסה פועלים</item>
-        <item quantity="many"><xliff:g id="COUNT">%1$d</xliff:g> שירותי הדפסה פועלים</item>
-        <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> שירותי הדפסה פועלים</item>
-        <item quantity="one">שירות הדפסה אחד פועל</item>
+      <item quantity="two"><xliff:g id="COUNT">%1$d</xliff:g> שירותי הדפסה פועלים</item>
+      <item quantity="many"><xliff:g id="COUNT">%1$d</xliff:g> שירותי הדפסה פועלים</item>
+      <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> שירותי הדפסה פועלים</item>
+      <item quantity="one">שירות הדפסה אחד פועל</item>
     </plurals>
     <plurals name="print_jobs_summary" formatted="false" msgid="3933688846338306536">
-        <item quantity="two"><xliff:g id="COUNT">%1$d</xliff:g> משימות הדפסה</item>
-        <item quantity="many"><xliff:g id="COUNT">%1$d</xliff:g> משימות הדפסה</item>
-        <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> משימות הדפסה</item>
-        <item quantity="one">משימת הדפסה אחת</item>
+      <item quantity="two"><xliff:g id="COUNT">%1$d</xliff:g> משימות הדפסה</item>
+      <item quantity="many"><xliff:g id="COUNT">%1$d</xliff:g> משימות הדפסה</item>
+      <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> משימות הדפסה</item>
+      <item quantity="one">משימת הדפסה אחת</item>
     </plurals>
     <string name="print_settings_title" msgid="7680498284751129935">"שירותי הדפסה"</string>
     <string name="print_no_services_installed" msgid="7554057966540602692">"אין שירותים מותקנים"</string>
@@ -2666,7 +2717,7 @@
     <string name="battery_stats_wake_lock_label" msgid="8115041205778441548">"פעיל"</string>
     <string name="battery_stats_phone_signal_label" msgid="679649411998679555">"אות רשת סלולרית"</string>
     <!-- no translation found for battery_stats_last_duration (3088100394725340600) -->
-    <skip/>
+    <skip />
     <string name="awake" msgid="5405871714019268978">"זמן פעולה של מכשיר"</string>
     <string name="wifi_on_time" msgid="3880778525760926066">"‏Wi-Fi בזמן"</string>
     <string name="bluetooth_on_time" msgid="8424625554628450028">"‏Wi-Fi בזמן"</string>
@@ -2704,34 +2755,34 @@
     <string name="battery_tip_dialog_message" product="device" msgid="3896805213768863874">"נעשה שימוש רב מהרגיל במכשיר שלך. לכן, ייתכן שהסוללה תתרוקן מוקדם מהצפוי.\n\nהאפליקציות המובילות בצריכת סוללה:"</string>
     <string name="battery_tip_dialog_message_footer" msgid="986542164372177504">"כולל פעילות ברקע שצורכת חשמל רב"</string>
     <plurals name="battery_tip_restrict_title" formatted="false" msgid="3108195491484891588">
-        <item quantity="two">‏הגבלת %1$d אפליקציות</item>
-        <item quantity="many">‏הגבלת %1$d אפליקציות</item>
-        <item quantity="other">‏הגבלת %1$d אפליקציות</item>
-        <item quantity="one">הגבלת אפליקציה אחת</item>
+      <item quantity="two">‏הגבלת %1$d אפליקציות</item>
+      <item quantity="many">‏הגבלת %1$d אפליקציות</item>
+      <item quantity="other">‏הגבלת %1$d אפליקציות</item>
+      <item quantity="one">הגבלת אפליקציה אחת</item>
     </plurals>
     <plurals name="battery_tip_restrict_handled_title" formatted="false" msgid="5862649927574803958">
-        <item quantity="two">‏הגבלות הוטלו לאחרונה על %2$d אפליקציות</item>
-        <item quantity="many">‏הגבלות הוטלו לאחרונה על %2$d אפליקציות</item>
-        <item quantity="other">‏הגבלות הוטלו לאחרונה על %2$d אפליקציות</item>
-        <item quantity="one">הגבלות הוטלו לאחרונה על אפליקציה אחת</item>
+      <item quantity="two">‏הגבלות הוטלו לאחרונה על %2$d אפליקציות</item>
+      <item quantity="many">‏הגבלות הוטלו לאחרונה על %2$d אפליקציות</item>
+      <item quantity="other">‏הגבלות הוטלו לאחרונה על %2$d אפליקציות</item>
+      <item quantity="one">הגבלות הוטלו לאחרונה על אפליקציה אחת</item>
     </plurals>
     <plurals name="battery_tip_restrict_summary" formatted="false" msgid="3328499737453686910">
-        <item quantity="two">‏%2$d אפליקציות משתמשות בסוללה באופן מוגבר ברקע</item>
-        <item quantity="many">‏%2$d אפליקציות משתמשות בסוללה באופן מוגבר ברקע</item>
-        <item quantity="other">‏%2$d אפליקציות משתמשות בסוללה באופן מוגבר ברקע</item>
-        <item quantity="one">אפליקציה אחת משתמשת בסוללה באופן מוגבר ברקע</item>
+      <item quantity="two">‏%2$d אפליקציות משתמשות בסוללה באופן מוגבר ברקע</item>
+      <item quantity="many">‏%2$d אפליקציות משתמשות בסוללה באופן מוגבר ברקע</item>
+      <item quantity="other">‏%2$d אפליקציות משתמשות בסוללה באופן מוגבר ברקע</item>
+      <item quantity="one">אפליקציה אחת משתמשת בסוללה באופן מוגבר ברקע</item>
     </plurals>
     <plurals name="battery_tip_restrict_handled_summary" formatted="false" msgid="3036853535034350991">
-        <item quantity="two">לא ניתן להפעיל את האפליקציות האלה ברקע</item>
-        <item quantity="many">לא ניתן להפעיל את האפליקציות האלה ברקע</item>
-        <item quantity="other">לא ניתן להפעיל את האפליקציות האלה ברקע</item>
-        <item quantity="one">לא ניתן להפעיל את האפליקציה הזו ברקע</item>
+      <item quantity="two">לא ניתן להפעיל את האפליקציות האלה ברקע</item>
+      <item quantity="many">לא ניתן להפעיל את האפליקציות האלה ברקע</item>
+      <item quantity="other">לא ניתן להפעיל את האפליקציות האלה ברקע</item>
+      <item quantity="one">לא ניתן להפעיל את האפליקציה הזו ברקע</item>
     </plurals>
     <plurals name="battery_tip_restrict_app_dialog_title" formatted="false" msgid="7897944678619251740">
-        <item quantity="two">‏להגביל %1$d אפליקציות?</item>
-        <item quantity="many">‏להגביל %1$d אפליקציות?</item>
-        <item quantity="other">‏להגביל %1$d אפליקציות?</item>
-        <item quantity="one">להגביל את האפליקציה?</item>
+      <item quantity="two">‏להגביל %1$d אפליקציות?</item>
+      <item quantity="many">‏להגביל %1$d אפליקציות?</item>
+      <item quantity="other">‏להגביל %1$d אפליקציות?</item>
+      <item quantity="one">להגביל את האפליקציה?</item>
     </plurals>
     <string name="battery_tip_restrict_app_dialog_message" msgid="137856003724730751">"כדי לחסוך בשימוש בסוללה, יש למנוע מאפליקציית <xliff:g id="APP">%1$s</xliff:g> שימוש בסוללה ברקע. ייתכן שהאפליקציה לא תפעל כראוי ויהיה עיכוב בקבלת התראות."</string>
     <string name="battery_tip_restrict_apps_less_than_5_dialog_message" msgid="5894648804112181324">"כדי לחסוך בשימוש בסוללה, יש למנוע מהאפליקציות הבאות שימוש בסוללה ברקע. ייתכן שהאפליקציות שיש להן הגבלה לא יפעלו כראוי ויהיה עיכוב בקבלת התראות.\n\nאפליקציות:"</string>
@@ -2750,10 +2801,10 @@
     <string name="smart_battery_footer" msgid="8407121907452993645">"כשהתכונה \'ניהול הסוללה\' תזהה שאפליקציות גורמות להתרוקנות הסוללה, תהיה לך אפשרות להגביל אותן. ייתכן שהאפליקציות שיוגבלו לא יפעלו כראוי ויהיה עיכוב בקבלת התראות."</string>
     <string name="restricted_app_title" msgid="6585080822121007436">"אפליקציות מוגבלות"</string>
     <plurals name="restricted_app_summary" formatted="false" msgid="6059772951505411003">
-        <item quantity="two">‏השימוש בסוללה מוגבל עבור %1$d אפליקציות</item>
-        <item quantity="many">‏השימוש בסוללה מוגבל עבור %1$d אפליקציות</item>
-        <item quantity="other">‏השימוש בסוללה מוגבל עבור %1$d אפליקציות</item>
-        <item quantity="one">‏השימוש בסוללה מוגבל עבור אפליקציה אחת (%1$d)</item>
+      <item quantity="two">‏השימוש בסוללה מוגבל עבור %1$d אפליקציות</item>
+      <item quantity="many">‏השימוש בסוללה מוגבל עבור %1$d אפליקציות</item>
+      <item quantity="other">‏השימוש בסוללה מוגבל עבור %1$d אפליקציות</item>
+      <item quantity="one">‏השימוש בסוללה מוגבל עבור אפליקציה אחת (%1$d)</item>
     </plurals>
     <string name="restricted_app_time_summary" msgid="3097721884155913252">"הוגבלה <xliff:g id="TIME">%1$s</xliff:g>"</string>
     <string name="restricted_app_detail_footer" msgid="3495725286882138803">"השימוש של האפליקציות האלה בסוללה ברקע מוגבל. ייתכן שהן לא יפעלו כצפוי ואולי יהיה עיכוב בקבלת התראות."</string>
@@ -2763,13 +2814,14 @@
     <string name="battery_manager_summary_unsupported" msgid="7334173707292807964">"זיהוי אפליקציות שגורמות להתרוקנות הסוללה"</string>
     <string name="battery_manager_off" msgid="673547668722420924">"כבוי"</string>
     <plurals name="battery_manager_app_restricted" formatted="false" msgid="6714534362166394848">
-        <item quantity="two">‏%1$d אפליקציות מוגבלות</item>
-        <item quantity="many">‏%1$d אפליקציות מוגבלות</item>
-        <item quantity="other">‏%1$d אפליקציות מוגבלות</item>
-        <item quantity="one">אפליקציה אחת מוגבלת</item>
+      <item quantity="two">‏%1$d אפליקציות מוגבלות</item>
+      <item quantity="many">‏%1$d אפליקציות מוגבלות</item>
+      <item quantity="other">‏%1$d אפליקציות מוגבלות</item>
+      <item quantity="one">אפליקציה אחת מוגבלת</item>
     </plurals>
     <string name="battery_header_title_alternate" msgid="8371821625994616659">"<xliff:g id="NUMBER">^1</xliff:g>"<small>" "<font size="20">"‎<xliff:g id="UNIT">%</xliff:g>"</font></small></string>
     <string name="battery_missing_message" msgid="400958471814422770">"אירעה בעיה בקריאת מדדי הסוללה."</string>
+    <string name="battery_missing_link_message" msgid="6021565067124898074"></string>
     <string name="battery_missing_link_a11y_message" msgid="3310971406602316323">"יש להקיש לקבלת מידע נוסף על השגיאה הזו"</string>
     <string name="dialog_stop_title" msgid="5972757101865665655">"לעצור את האפליקציה?"</string>
     <string name="dialog_stop_message" product="default" msgid="2063536418875183799">"הניהול של צריכת הסוללה בטלפון לא תקין, כי האפליקציה <xliff:g id="APP">%1$s</xliff:g> לא מאפשרת למכשיר להיכנס למצב שינה.\n\nכדי לפתור את הבעיה, ניתן להפסיק את פעולת האפליקציה.\n\nאם הבעיה תימשך, ייתכן שיהיה עליך להסיר את התקנת האפליקציה כדי לשפר את ביצועי הסוללה."</string>
@@ -2884,6 +2936,7 @@
     <string name="battery_total_usage_and_bg_less_minute_usage_with_period" msgid="5943281928474598517">"<xliff:g id="TIME_0">^1</xliff:g> בסה\"כ • פחות מדקה ברקע\nבשעות <xliff:g id="TIME_PERIOD">^2</xliff:g>"</string>
     <string name="battery_not_usage" msgid="1472275761547230196">"לא בשימוש מאז הטעינה המלאה האחרונה"</string>
     <string name="battery_not_usage_24hr" msgid="8397519536160741248">"לא נעשה שימוש ב-24 השעות האחרונות"</string>
+    <string name="battery_usage_without_time" msgid="1346894834339420538"></string>
     <string name="advanced_battery_graph_subtext" msgid="6816737986172678550">"הערכת הזמן שנותר עד שתיגמר הסוללה מבוססת על השימוש שנעשה במכשיר"</string>
     <string name="estimated_time_left" msgid="948717045180211777">"זמן משוער שנותר"</string>
     <string name="estimated_charging_time_left" msgid="2287135413363961246">"עד לטעינה מלאה"</string>
@@ -2909,7 +2962,7 @@
     <string name="battery_saver_sticky_description_new" product="tablet" msgid="4566426833434375284">"התכונה \'חיסכון בסוללה\' נכבית כשטעינת הטאבלט גבוהה מ-<xliff:g id="UNIT">%</xliff:g><xliff:g id="NUMBER">^1</xliff:g>"</string>
     <string name="battery_saver_sticky_description_new" product="device" msgid="4128841327359445726">"התכונה \'חיסכון בסוללה\' נכבית כשטעינת המכשיר גבוהה מ-<xliff:g id="UNIT">%</xliff:g><xliff:g id="NUMBER">^1</xliff:g>"</string>
     <!-- no translation found for battery_saver_seekbar_title (3712266470054006641) -->
-    <skip/>
+    <skip />
     <string name="battery_saver_seekbar_title_placeholder" msgid="7141264642540687540">"הפעלה"</string>
     <string name="battery_saver_master_switch_title" msgid="3474312070095834915">"שימוש במצב חיסכון בסוללה"</string>
     <string name="battery_saver_turn_on_automatically_title" msgid="7857393318205740864">"הפעלה אוטומטית"</string>
@@ -3030,10 +3083,10 @@
     <string name="remove_credential_management_app_dialog_title" msgid="5713525435104706772">"להסיר את האפליקציה הזו?"</string>
     <string name="remove_credential_management_app_dialog_message" msgid="7739474298063646935">"האפליקציה הזו לא תנהל את האישורים שלך, אבל היא תישאר במכשיר שלך. כל האישורים שהותקנו על ידי האפליקציה יוסרו."</string>
     <plurals name="number_of_urls" formatted="false" msgid="403979258551655023">
-        <item quantity="two">‏<xliff:g id="NUMBER_1">%d</xliff:g> כתובות URL</item>
-        <item quantity="many">‏<xliff:g id="NUMBER_1">%d</xliff:g> כתובות URL</item>
-        <item quantity="other">‏<xliff:g id="NUMBER_1">%d</xliff:g> כתובות URL</item>
-        <item quantity="one">‏כתובת URL אחת (<xliff:g id="NUMBER_0">%d</xliff:g>)</item>
+      <item quantity="two">‏<xliff:g id="NUMBER_1">%d</xliff:g> כתובות URL</item>
+      <item quantity="many">‏<xliff:g id="NUMBER_1">%d</xliff:g> כתובות URL</item>
+      <item quantity="other">‏<xliff:g id="NUMBER_1">%d</xliff:g> כתובות URL</item>
+      <item quantity="one">‏כתובת URL אחת (<xliff:g id="NUMBER_0">%d</xliff:g>)</item>
     </plurals>
     <string name="emergency_tone_title" msgid="6673118505206685168">"אות לחיוג חירום"</string>
     <string name="emergency_tone_summary" msgid="2519776254708767388">"הגדרת אופן פעולה בעת ביצוע שיחת חירום"</string>
@@ -3051,6 +3104,7 @@
     <string name="auto_restore_summary" msgid="6830198851045584001">"לאחר התקנה מחדש של אפליקציה, יש לשחזר את ההגדרות והנתונים המגובים"</string>
     <string name="backup_inactive_title" msgid="6753265378043349277">"שירות הגיבוי לא פעיל"</string>
     <string name="backup_configure_account_default_summary" msgid="5323225330966306690">"אף חשבון אינו מאחסן כרגע נתונים מגובים"</string>
+    <string name="backup_erase_dialog_title" msgid="5892431263348766484"></string>
     <string name="backup_erase_dialog_message" msgid="2250872501409574331">"‏האם להפסיק לגבות את סיסמאות ה-Wi-Fi, הסימניות, הגדרות אחרות ונתוני האפליקציות שלך ולמחוק את כל העותקים משרתי Google?"</string>
     <string name="fullbackup_erase_dialog_message" msgid="2379053988557486162">"‏האם להפסיק לגבות את נתוני המכשיר (כמו סיסמאות לרשתות Wi-Fi והיסטוריית שיחות) ונתוני אפליקציות (כמו הגדרות וקבצים המאוחסנים על ידי אפליקציות) ולמחוק את כל העותקים בשרתים מרוחקים?"</string>
     <string name="fullbackup_data_summary" msgid="971587401251601473">"‏גיבוי אוטומטי מרחוק של נתונים מהמכשיר (כמו סיסמאות לרשתות Wi-Fi והיסטוריית שיחות) ונתוני אפליקציות (כמו הגדרות וקבצים שאוחסנו על ידי אפליקציות) אל Google Drive.‏\n\nכשמפעילים את הגיבוי האוטומטי, נתוני המכשיר והאפליקציות יישמרו מדי פעם באופן מרוחק. נתוני אפליקציות יכולים להיות מכל סוג שהאפליקציה שומרת (בהתבסס על הגדרות המפתח), כולל נתונים שעשויים להיות רגישים, כמו אנשי קשר, הודעות ותמונות."</string>
@@ -3079,10 +3133,10 @@
     <string name="notification_history_snooze" msgid="3980568893290512257">"במצב נודניק"</string>
     <string name="notification_history_dismiss" msgid="6180321217375722918">"נסגרו לאחרונה"</string>
     <plurals name="notification_history_count" formatted="false" msgid="1859304685071321991">
-        <item quantity="two"><xliff:g id="NUMBER_1">%d</xliff:g> התראות</item>
-        <item quantity="many"><xliff:g id="NUMBER_1">%d</xliff:g> התראות</item>
-        <item quantity="other"><xliff:g id="NUMBER_1">%d</xliff:g> התראות</item>
-        <item quantity="one">התראה אחת (<xliff:g id="NUMBER_0">%d</xliff:g>)</item>
+      <item quantity="two"><xliff:g id="NUMBER_1">%d</xliff:g> התראות</item>
+      <item quantity="many"><xliff:g id="NUMBER_1">%d</xliff:g> התראות</item>
+      <item quantity="other"><xliff:g id="NUMBER_1">%d</xliff:g> התראות</item>
+      <item quantity="one">התראה אחת (<xliff:g id="NUMBER_0">%d</xliff:g>)</item>
     </plurals>
     <string name="sound_category_call_ringtone_vibrate_title" msgid="9090693401915654528">"צלצול ורטט שיחה"</string>
     <string name="wifi_setup_detail" msgid="2012898800571616422">"פרטי רשת"</string>
@@ -3332,29 +3386,29 @@
     <string name="ssl_ca_cert_warning" msgid="3898387588657346106">"ייתכן שהרשת מנוטרת"</string>
     <string name="done_button" msgid="6269449526248267">"בוצע"</string>
     <plurals name="ssl_ca_cert_dialog_title" formatted="false" msgid="5491460811755938449">
-        <item quantity="two">קבלת מהימנות או הסרה של אישורים</item>
-        <item quantity="many">קבלת מהימנות או הסרה של אישורים</item>
-        <item quantity="other">קבלת מהימנות או הסרה של אישורים</item>
-        <item quantity="one">קבלת מהימנות או הסרה של אישור</item>
+      <item quantity="two">קבלת מהימנות או הסרה של אישורים</item>
+      <item quantity="many">קבלת מהימנות או הסרה של אישורים</item>
+      <item quantity="other">קבלת מהימנות או הסרה של אישורים</item>
+      <item quantity="one">קבלת מהימנות או הסרה של אישור</item>
     </plurals>
     <plurals name="ssl_ca_cert_info_message_device_owner" formatted="false" msgid="2788832560436163252">
-        <item quantity="two"><xliff:g id="MANAGING_DOMAIN_1">%s</xliff:g> התקין במכשירך רשויות אישורים שעשויות לאפשר לו לנהל מעקב אחר פעילות המכשיר ברשת, כולל אימיילים, אפליקציות ואתרים מאובטחים.\n\nלקבלת מידע נוסף על אישורים אלה, יש לפנות למנהל המערכת.</item>
-        <item quantity="many"><xliff:g id="MANAGING_DOMAIN_1">%s</xliff:g> התקין במכשירך רשויות אישורים שעשויות לאפשר לו לנהל מעקב אחר פעילות המכשיר ברשת, כולל אימיילים, אפליקציות ואתרים מאובטחים.\n\nלקבלת מידע נוסף על אישורים אלה, יש לפנות למנהל המערכת.</item>
-        <item quantity="other"><xliff:g id="MANAGING_DOMAIN_1">%s</xliff:g> התקין במכשירך רשויות אישורים שעשויות לאפשר לו לנהל מעקב אחר פעילות המכשיר ברשת, כולל אימיילים, אפליקציות ואתרים מאובטחים.\n\nלקבלת מידע נוסף על אישורים אלה, יש לפנות למנהל המערכת.</item>
-        <item quantity="one"><xliff:g id="MANAGING_DOMAIN_0">%s</xliff:g> התקין במכשירך רשות אישורים שעשויה לאפשר לו לנהל מעקב אחר פעילות המכשיר ברשת, כולל אימיילים, אפליקציות ואתרים מאובטחים.\n\nלקבלת מידע נוסף על אישור זה, יש לפנות למנהל המערכת.</item>
+      <item quantity="two"><xliff:g id="MANAGING_DOMAIN_1">%s</xliff:g> התקין במכשירך רשויות אישורים שעשויות לאפשר לו לנהל מעקב אחר פעילות המכשיר ברשת, כולל אימיילים, אפליקציות ואתרים מאובטחים.\n\nלקבלת מידע נוסף על אישורים אלה, יש לפנות למנהל המערכת.</item>
+      <item quantity="many"><xliff:g id="MANAGING_DOMAIN_1">%s</xliff:g> התקין במכשירך רשויות אישורים שעשויות לאפשר לו לנהל מעקב אחר פעילות המכשיר ברשת, כולל אימיילים, אפליקציות ואתרים מאובטחים.\n\nלקבלת מידע נוסף על אישורים אלה, יש לפנות למנהל המערכת.</item>
+      <item quantity="other"><xliff:g id="MANAGING_DOMAIN_1">%s</xliff:g> התקין במכשירך רשויות אישורים שעשויות לאפשר לו לנהל מעקב אחר פעילות המכשיר ברשת, כולל אימיילים, אפליקציות ואתרים מאובטחים.\n\nלקבלת מידע נוסף על אישורים אלה, יש לפנות למנהל המערכת.</item>
+      <item quantity="one"><xliff:g id="MANAGING_DOMAIN_0">%s</xliff:g> התקין במכשירך רשות אישורים שעשויה לאפשר לו לנהל מעקב אחר פעילות המכשיר ברשת, כולל אימיילים, אפליקציות ואתרים מאובטחים.\n\nלקבלת מידע נוסף על אישור זה, יש לפנות למנהל המערכת.</item>
     </plurals>
     <plurals name="ssl_ca_cert_info_message" formatted="false" msgid="3989916958347169622">
-        <item quantity="two"><xliff:g id="MANAGING_DOMAIN_1">%s</xliff:g> התקין רשויות אישורים לפרופיל העבודה שלך. ייתכן שהדבר יאפשר לו לנהל מעקב אחר פעילות רשת בעבודה, כולל אימיילים, אפליקציות ואתרים מאובטחים.\n\nלקבלת מידע נוסף על אישורים אלה, פנה למנהל המערכת.</item>
-        <item quantity="many"><xliff:g id="MANAGING_DOMAIN_1">%s</xliff:g> התקין רשויות אישורים לפרופיל העבודה שלך. ייתכן שהדבר יאפשר לו לנהל מעקב אחר פעילות רשת בעבודה, כולל אימיילים, אפליקציות ואתרים מאובטחים.\n\nלקבלת מידע נוסף על אישורים אלה, פנה למנהל המערכת.</item>
-        <item quantity="other"><xliff:g id="MANAGING_DOMAIN_1">%s</xliff:g> התקין רשויות אישורים לפרופיל העבודה שלך. ייתכן שהדבר יאפשר לו לנהל מעקב אחר פעילות רשת בעבודה, כולל אימיילים, אפליקציות ואתרים מאובטחים.\n\nלקבלת מידע נוסף על אישורים אלה, פנה למנהל המערכת.</item>
-        <item quantity="one"><xliff:g id="MANAGING_DOMAIN_0">%s</xliff:g> התקין רשות אישורים לפרופיל העבודה שלך. ייתכן שהרשות תאפשר לו לנהל מעקב אחר פעילות רשת בעבודה, כולל אימיילים, אפליקציות ואתרים מאובטחים.\n\nלקבלת מידע נוסף על אישור זה, פנה למנהל המערכת.</item>
+      <item quantity="two"><xliff:g id="MANAGING_DOMAIN_1">%s</xliff:g> התקין רשויות אישורים לפרופיל העבודה שלך. ייתכן שהדבר יאפשר לו לנהל מעקב אחר פעילות רשת בעבודה, כולל אימיילים, אפליקציות ואתרים מאובטחים.\n\nלקבלת מידע נוסף על אישורים אלה, פנה למנהל המערכת.</item>
+      <item quantity="many"><xliff:g id="MANAGING_DOMAIN_1">%s</xliff:g> התקין רשויות אישורים לפרופיל העבודה שלך. ייתכן שהדבר יאפשר לו לנהל מעקב אחר פעילות רשת בעבודה, כולל אימיילים, אפליקציות ואתרים מאובטחים.\n\nלקבלת מידע נוסף על אישורים אלה, פנה למנהל המערכת.</item>
+      <item quantity="other"><xliff:g id="MANAGING_DOMAIN_1">%s</xliff:g> התקין רשויות אישורים לפרופיל העבודה שלך. ייתכן שהדבר יאפשר לו לנהל מעקב אחר פעילות רשת בעבודה, כולל אימיילים, אפליקציות ואתרים מאובטחים.\n\nלקבלת מידע נוסף על אישורים אלה, פנה למנהל המערכת.</item>
+      <item quantity="one"><xliff:g id="MANAGING_DOMAIN_0">%s</xliff:g> התקין רשות אישורים לפרופיל העבודה שלך. ייתכן שהרשות תאפשר לו לנהל מעקב אחר פעילות רשת בעבודה, כולל אימיילים, אפליקציות ואתרים מאובטחים.\n\nלקבלת מידע נוסף על אישור זה, פנה למנהל המערכת.</item>
     </plurals>
     <string name="ssl_ca_cert_warning_message" msgid="4374052724815563051">"צד שלישי מסוגל לעקוב אחר הפעילות שלך ברשת, כולל הודעות אימייל, אפליקציות ואתרים מאובטחים.\n\nאישור מהימן המותקן במכשיר מאפשר זאת."</string>
     <plurals name="ssl_ca_cert_settings_button" formatted="false" msgid="125941406175485894">
-        <item quantity="two">בדיקת אישורים</item>
-        <item quantity="many">בדיקת אישורים</item>
-        <item quantity="other">בדיקת אישורים</item>
-        <item quantity="one">בדיקת אישור</item>
+      <item quantity="two">בדיקת אישורים</item>
+      <item quantity="many">בדיקת אישורים</item>
+      <item quantity="other">בדיקת אישורים</item>
+      <item quantity="one">בדיקת אישור</item>
     </plurals>
     <string name="user_settings_title" msgid="6550866465409807877">"משתמשים מרובים"</string>
     <string name="user_settings_footer_text" product="device" msgid="7523914344521302179">"ניתן לשתף את המכשיר על ידי הוספת משתמשים חדשים. לכל משתמש יהיה מרחב אישי במכשיר למסכי בית מותאמים אישית, חשבונות, אפליקציות, הגדרות ועוד."</string>
@@ -3445,7 +3499,7 @@
     <string name="call_manager_enable_summary" msgid="7362506369604163030">"התרה לשירות הזה לנהל את האופן שבו מבוצעות שיחות."</string>
     <string name="call_manager_title" msgid="3397433159509629466">"Call Manager"</string>
     <!-- no translation found for call_manager_summary (2558839230880919191) -->
-    <skip/>
+    <skip />
     <string name="cell_broadcast_settings" msgid="2416980110093867199">"התרעות אלחוטיות על מקרי חירום"</string>
     <string name="network_operators_settings" msgid="5105453353329748954">"ספקי רשתות"</string>
     <string name="access_point_names" msgid="5768430498022188057">"‏שמות של נקודות גישה (APN)"</string>
@@ -3492,6 +3546,7 @@
     <string name="wizard_back" msgid="8257697435061870191">"הקודם"</string>
     <string name="wizard_next" msgid="3884832431439072471">"הבא"</string>
     <string name="wizard_finish" msgid="4220258401946825946">"סיום"</string>
+    <string name="regulatory_info_text" msgid="1154461023369976667"></string>
     <string name="sim_setup_wizard_title" msgid="3945520353564138219">"‏כרטיסי SIM"</string>
     <string name="sim_settings_title" msgid="8392862852842113531">"‏כרטיסי SIM"</string>
     <string name="sim_settings_summary" msgid="5777472623476930332">"<xliff:g id="SIM_NAME">%1$s</xliff:g> ‏– <xliff:g id="SIM_NUMBER">%2$s</xliff:g>"</string>
@@ -3533,10 +3588,10 @@
     <string name="sim_selection_channel_title" msgid="3193666315607572484">"‏בחירת SIM"</string>
     <string name="dashboard_title" msgid="5660733037244683387">"הגדרות"</string>
     <plurals name="settings_suggestion_header_summary_hidden_items" formatted="false" msgid="6585075562837786847">
-        <item quantity="two">‏הצגת %d פריטים מוסתרים</item>
-        <item quantity="many">‏הצגת %d פריטים מוסתרים</item>
-        <item quantity="other">‏הצגת %d פריטים מוסתרים</item>
-        <item quantity="one">‏הצגת פריט %d מוסתר</item>
+      <item quantity="two">‏הצגת %d פריטים מוסתרים</item>
+      <item quantity="many">‏הצגת %d פריטים מוסתרים</item>
+      <item quantity="other">‏הצגת %d פריטים מוסתרים</item>
+      <item quantity="one">‏הצגת פריט %d מוסתר</item>
     </plurals>
     <string name="network_dashboard_title" msgid="788543070557731240">"רשת ואינטרנט"</string>
     <string name="network_dashboard_summary_mobile" msgid="7750924671970583670">"‏נייד, Wi‑Fi, נקודת אינטרנט (Hotspot)"</string>
@@ -3914,10 +3969,10 @@
     <string name="manage_conversations" msgid="4440289604887824337">"ניהול השיחות"</string>
     <string name="priority_conversation_count_zero" msgid="3862289535537564713">"אין שיחות בעדיפות גבוהה"</string>
     <plurals name="priority_conversation_count" formatted="false" msgid="4229447176780862649">
-        <item quantity="two"><xliff:g id="COUNT_1">%d</xliff:g> שיחות בעדיפות גבוהה</item>
-        <item quantity="many"><xliff:g id="COUNT_1">%d</xliff:g> שיחות בעדיפות גבוהה</item>
-        <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> שיחות בעדיפות גבוהה</item>
-        <item quantity="one">שיחה אחת (<xliff:g id="COUNT_0">%d</xliff:g>) בעדיפות גבוהה</item>
+      <item quantity="two"><xliff:g id="COUNT_1">%d</xliff:g> שיחות בעדיפות גבוהה</item>
+      <item quantity="many"><xliff:g id="COUNT_1">%d</xliff:g> שיחות בעדיפות גבוהה</item>
+      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> שיחות בעדיפות גבוהה</item>
+      <item quantity="one">שיחה אחת (<xliff:g id="COUNT_0">%d</xliff:g>) בעדיפות גבוהה</item>
     </plurals>
     <string name="important_conversations" msgid="1233893707189659401">"שיחות בעדיפות גבוהה"</string>
     <string name="important_conversations_summary_bubbles" msgid="614327166808117644">"מופיעות בחלק העליון של קטע השיחות בתור בועות צפות"</string>
@@ -3959,16 +4014,16 @@
     <string name="notification_app_switch_label" msgid="4422902423925084193">"כל ההתראות של <xliff:g id="APP_NAME">%1$s</xliff:g>"</string>
     <string name="default_notification_assistant" msgid="243718059890346442">"התראות מותאמות"</string>
     <plurals name="notifications_sent_daily" formatted="false" msgid="1479283620504341566">
-        <item quantity="two">כ-<xliff:g id="NUMBER_1">%d</xliff:g> התראות ביום</item>
-        <item quantity="many">כ-<xliff:g id="NUMBER_1">%d</xliff:g> התראות ביום</item>
-        <item quantity="other">כ-<xliff:g id="NUMBER_1">%d</xliff:g> התראות ביום</item>
-        <item quantity="one">כהתראה אחת (<xliff:g id="NUMBER_0">%d</xliff:g>) ביום</item>
+      <item quantity="two">כ-<xliff:g id="NUMBER_1">%d</xliff:g> התראות ביום</item>
+      <item quantity="many">כ-<xliff:g id="NUMBER_1">%d</xliff:g> התראות ביום</item>
+      <item quantity="other">כ-<xliff:g id="NUMBER_1">%d</xliff:g> התראות ביום</item>
+      <item quantity="one">כהתראה אחת (<xliff:g id="NUMBER_0">%d</xliff:g>) ביום</item>
     </plurals>
     <plurals name="notifications_sent_weekly" formatted="false" msgid="4913443431857170519">
-        <item quantity="two">כ-<xliff:g id="NUMBER_1">%d</xliff:g> התראות בשבוע</item>
-        <item quantity="many">כ-<xliff:g id="NUMBER_1">%d</xliff:g> התראות בשבוע</item>
-        <item quantity="other">כ-<xliff:g id="NUMBER_1">%d</xliff:g> התראות בשבוע</item>
-        <item quantity="one">כהתראה אחת (<xliff:g id="NUMBER_0">%d</xliff:g>) בשבוע</item>
+      <item quantity="two">כ-<xliff:g id="NUMBER_1">%d</xliff:g> התראות בשבוע</item>
+      <item quantity="many">כ-<xliff:g id="NUMBER_1">%d</xliff:g> התראות בשבוע</item>
+      <item quantity="other">כ-<xliff:g id="NUMBER_1">%d</xliff:g> התראות בשבוע</item>
+      <item quantity="one">כהתראה אחת (<xliff:g id="NUMBER_0">%d</xliff:g>) בשבוע</item>
     </plurals>
     <string name="notifications_sent_never" msgid="9081278709126812062">"אף פעם"</string>
     <string name="manage_notification_access_title" msgid="6481256069087219982">"התראות במכשירים ובאפליקציות"</string>
@@ -3976,10 +4031,10 @@
     <string name="work_profile_notification_access_blocked_summary" msgid="8643809206612366067">"הגישה חסומה להתראות של פרופיל העבודה"</string>
     <string name="manage_notification_access_summary_zero" msgid="7528633634628627431">"לאפליקציות אין אפשרות לקרוא התראות"</string>
     <plurals name="manage_notification_access_summary_nonzero" formatted="false" msgid="3703008881487586312">
-        <item quantity="two">‏%d אפליקציות יכולות לקרוא התראות</item>
-        <item quantity="many">‏%d אפליקציות יכולות לקרוא התראות</item>
-        <item quantity="other">‏%d אפליקציות יכולות לקרוא התראות</item>
-        <item quantity="one">‏אפליקציה %d יכולה לקרוא התראות</item>
+      <item quantity="two">‏%d אפליקציות יכולות לקרוא התראות</item>
+      <item quantity="many">‏%d אפליקציות יכולות לקרוא התראות</item>
+      <item quantity="other">‏%d אפליקציות יכולות לקרוא התראות</item>
+      <item quantity="one">‏אפליקציה %d יכולה לקרוא התראות</item>
     </plurals>
     <string name="notification_assistant_title" msgid="5889201903272393099">"התראות משופרות"</string>
     <string name="notification_assistant_summary" msgid="1957783114840908887">"קבלת הצעות לפעולות, לתשובות ועוד"</string>
@@ -4040,10 +4095,10 @@
     <string name="interact_across_profiles_consent_dialog_permissions_summary" msgid="995051542847604039">"האפליקציה הזו יכולה להשתמש בהרשאות שהענקת לאפליקציה <xliff:g id="NAME">%1$s</xliff:g> בפרופיל האישי, לדוגמה: לצורך גישה למיקום, לאחסון או לאנשי הקשר."</string>
     <string name="interact_across_profiles_number_of_connected_apps_none" msgid="8573289199942092964">"אין אפליקציות מקושרות"</string>
     <plurals name="interact_across_profiles_number_of_connected_apps" formatted="false" msgid="6991750455661974772">
-        <item quantity="two"><xliff:g id="COUNT_1">%d</xliff:g> אפליקציות מקושרות</item>
-        <item quantity="many"><xliff:g id="COUNT_1">%d</xliff:g> אפליקציות מקושרות</item>
-        <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> אפליקציות מקושרות</item>
-        <item quantity="one">אפליקציה אחת (<xliff:g id="COUNT_0">%d</xliff:g>) מקושרת</item>
+      <item quantity="two"><xliff:g id="COUNT_1">%d</xliff:g> אפליקציות מקושרות</item>
+      <item quantity="many"><xliff:g id="COUNT_1">%d</xliff:g> אפליקציות מקושרות</item>
+      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> אפליקציות מקושרות</item>
+      <item quantity="one">אפליקציה אחת (<xliff:g id="COUNT_0">%d</xliff:g>) מקושרת</item>
     </plurals>
     <string name="interact_across_profiles_install_work_app_title" msgid="2821669067014436056">"כדי לקשר את האפליקציות האלו, צריך להתקין את <xliff:g id="NAME">%1$s</xliff:g> בפרופיל העבודה"</string>
     <string name="interact_across_profiles_install_personal_app_title" msgid="4790651223324866344">"כדי לקשר את האפליקציות האלו, צריך להתקין את <xliff:g id="NAME">%1$s</xliff:g> בפרופיל האישי"</string>
@@ -4058,26 +4113,26 @@
     <string name="notification_channels" msgid="1502969522886493799">"קטגוריות"</string>
     <string name="notification_channels_other" msgid="18159805343647908">"אחר"</string>
     <plurals name="notification_group_summary" formatted="false" msgid="483490958130993160">
-        <item quantity="two"><xliff:g id="COUNT_1">%d</xliff:g> קטגוריות</item>
-        <item quantity="many"><xliff:g id="COUNT_1">%d</xliff:g> קטגוריות</item>
-        <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> קטגוריות</item>
-        <item quantity="one">קטגוריה אחת (<xliff:g id="COUNT_0">%d</xliff:g>)</item>
+      <item quantity="two"><xliff:g id="COUNT_1">%d</xliff:g> קטגוריות</item>
+      <item quantity="many"><xliff:g id="COUNT_1">%d</xliff:g> קטגוריות</item>
+      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> קטגוריות</item>
+      <item quantity="one">קטגוריה אחת (<xliff:g id="COUNT_0">%d</xliff:g>)</item>
     </plurals>
     <string name="no_channels" msgid="4716199078612071915">"האפליקציה הזו לא שלחה התראות"</string>
     <string name="app_settings_link" msgid="6725453466705333311">"הגדרות נוספות באפליקציה"</string>
     <string name="notification_screen_summary" msgid="5984915275134654822">"היסטוריית התראות, בועות, התראות שנשלחו לאחרונה"</string>
     <string name="app_notification_listing_summary_zero" msgid="2988400013221120744">"מופעל לכל האפליקציות"</string>
     <plurals name="app_notification_listing_summary_others" formatted="false" msgid="1506127395400503717">
-        <item quantity="two">כבוי עבור <xliff:g id="COUNT_1">%d</xliff:g> אפליקציות</item>
-        <item quantity="many">כבוי עבור <xliff:g id="COUNT_1">%d</xliff:g> אפליקציות</item>
-        <item quantity="other">כבוי עבור <xliff:g id="COUNT_1">%d</xliff:g> אפליקציות</item>
-        <item quantity="one">כבוי עבור <xliff:g id="COUNT_0">%d</xliff:g> אפליקציה</item>
+      <item quantity="two">כבוי עבור <xliff:g id="COUNT_1">%d</xliff:g> אפליקציות</item>
+      <item quantity="many">כבוי עבור <xliff:g id="COUNT_1">%d</xliff:g> אפליקציות</item>
+      <item quantity="other">כבוי עבור <xliff:g id="COUNT_1">%d</xliff:g> אפליקציות</item>
+      <item quantity="one">כבוי עבור <xliff:g id="COUNT_0">%d</xliff:g> אפליקציה</item>
     </plurals>
     <plurals name="deleted_channels" formatted="false" msgid="5963473421547029532">
-        <item quantity="two"><xliff:g id="COUNT_1">%d</xliff:g> קטגוריות נמחקו</item>
-        <item quantity="many"><xliff:g id="COUNT_1">%d</xliff:g> קטגוריות נמחקו</item>
-        <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> קטגוריות נמחקו</item>
-        <item quantity="one">קטגוריה <xliff:g id="COUNT_0">%d</xliff:g> נמחקה</item>
+      <item quantity="two"><xliff:g id="COUNT_1">%d</xliff:g> קטגוריות נמחקו</item>
+      <item quantity="many"><xliff:g id="COUNT_1">%d</xliff:g> קטגוריות נמחקו</item>
+      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> קטגוריות נמחקו</item>
+      <item quantity="one">קטגוריה <xliff:g id="COUNT_0">%d</xliff:g> נמחקה</item>
     </plurals>
     <string name="notification_toggle_on" msgid="1624283327379059003">"מופעל"</string>
     <string name="notification_toggle_off" msgid="3295373308338024844">"כבוי"</string>
@@ -4224,7 +4279,7 @@
     <string name="zen_mode_starred_callers" msgid="1002370699564211178">"אנשי קשר המסומנים בכוכב"</string>
     <string name="zen_mode_repeat_callers_list" msgid="181819778783743847">"מתקשרים חוזרים"</string>
     <!-- no translation found for zen_mode_calls_summary_one (1928015516061784276) -->
-    <skip/>
+    <skip />
     <string name="zen_mode_calls_summary_two" msgid="6351563496898410742">"<xliff:g id="CALLER_TYPE_0">%1$s</xliff:g> ו<xliff:g id="CALLER_TYPE_1">%2$s</xliff:g>"</string>
     <string name="zen_mode_repeat_callers_summary" msgid="4121054819936083025">"אם מגיעה שיחה מאותו מספר בפעם השנייה תוך <xliff:g id="MINUTES">%d</xliff:g> דקות"</string>
     <string name="zen_mode_behavior_summary_custom" msgid="3126805555852783860">"מותאם אישית"</string>
@@ -4237,16 +4292,16 @@
     <string name="zen_mode_end_time_next_day_summary_format" msgid="419683704068360804">"<xliff:g id="FORMATTED_TIME">%s</xliff:g> ביום הבא"</string>
     <string name="zen_mode_summary_alarms_only_indefinite" msgid="910047326128154945">"מעבר למצב \'התראות בלבד\' ללא מועד סיום"</string>
     <plurals name="zen_mode_summary_alarms_only_by_minute" formatted="false" msgid="1900512966361163390">
-        <item quantity="two">שינוי ל‘רק התראות‘ למשך <xliff:g id="DURATION">%1$d</xliff:g> דקות (עד <xliff:g id="FORMATTEDTIME_1">%2$s</xliff:g>)</item>
-        <item quantity="many">שינוי ל‘רק התראות‘ למשך <xliff:g id="DURATION">%1$d</xliff:g> דקות (עד <xliff:g id="FORMATTEDTIME_1">%2$s</xliff:g>)</item>
-        <item quantity="other">שינוי ל‘רק התראות‘ למשך <xliff:g id="DURATION">%1$d</xliff:g> דקות (עד <xliff:g id="FORMATTEDTIME_1">%2$s</xliff:g>)</item>
-        <item quantity="one">שינוי ל‘רק התראות‘ למשך דקה אחת, עד <xliff:g id="FORMATTEDTIME_0">%2$s</xliff:g></item>
+      <item quantity="two">שינוי ל‘רק התראות‘ למשך <xliff:g id="DURATION">%1$d</xliff:g> דקות (עד <xliff:g id="FORMATTEDTIME_1">%2$s</xliff:g>)</item>
+      <item quantity="many">שינוי ל‘רק התראות‘ למשך <xliff:g id="DURATION">%1$d</xliff:g> דקות (עד <xliff:g id="FORMATTEDTIME_1">%2$s</xliff:g>)</item>
+      <item quantity="other">שינוי ל‘רק התראות‘ למשך <xliff:g id="DURATION">%1$d</xliff:g> דקות (עד <xliff:g id="FORMATTEDTIME_1">%2$s</xliff:g>)</item>
+      <item quantity="one">שינוי ל‘רק התראות‘ למשך דקה אחת, עד <xliff:g id="FORMATTEDTIME_0">%2$s</xliff:g></item>
     </plurals>
     <plurals name="zen_mode_summary_alarms_only_by_hour" formatted="false" msgid="955991428001659124">
-        <item quantity="two">שינוי ל‘רק התראות‘ למשך <xliff:g id="DURATION">%1$d</xliff:g> שעות, עד <xliff:g id="FORMATTEDTIME_1">%2$s</xliff:g></item>
-        <item quantity="many">שינוי ל‘רק התראות‘ למשך <xliff:g id="DURATION">%1$d</xliff:g> שעות, עד <xliff:g id="FORMATTEDTIME_1">%2$s</xliff:g></item>
-        <item quantity="other">שינוי ל‘רק התראות‘ למשך <xliff:g id="DURATION">%1$d</xliff:g> שעות, עד <xliff:g id="FORMATTEDTIME_1">%2$s</xliff:g></item>
-        <item quantity="one">שינוי ל‘רק התראות‘ למשך שעה אחת, עד <xliff:g id="FORMATTEDTIME_0">%2$s</xliff:g></item>
+      <item quantity="two">שינוי ל‘רק התראות‘ למשך <xliff:g id="DURATION">%1$d</xliff:g> שעות, עד <xliff:g id="FORMATTEDTIME_1">%2$s</xliff:g></item>
+      <item quantity="many">שינוי ל‘רק התראות‘ למשך <xliff:g id="DURATION">%1$d</xliff:g> שעות, עד <xliff:g id="FORMATTEDTIME_1">%2$s</xliff:g></item>
+      <item quantity="other">שינוי ל‘רק התראות‘ למשך <xliff:g id="DURATION">%1$d</xliff:g> שעות, עד <xliff:g id="FORMATTEDTIME_1">%2$s</xliff:g></item>
+      <item quantity="one">שינוי ל‘רק התראות‘ למשך שעה אחת, עד <xliff:g id="FORMATTEDTIME_0">%2$s</xliff:g></item>
     </plurals>
     <string name="zen_mode_summary_alarms_only_by_time" msgid="8140619669703968810">"מעבר למצב \'התראות בלבד\' עד <xliff:g id="FORMATTEDTIME">%1$s</xliff:g>"</string>
     <string name="zen_mode_summary_always" msgid="722093064250082317">"שינוי ל\'הפרעות בכל מצב\'"</string>
@@ -4320,26 +4375,26 @@
     <string name="app_launch_add_link" msgid="8622558044530305811">"הוספת קישור"</string>
     <string name="app_launch_footer" msgid="4521865035105622557">"אפליקציות יכולות לאמת קישורים כך שייפתחו בהן באופן אוטומטי."</string>
     <plurals name="app_launch_verified_links_title" formatted="false" msgid="3945301449178587783">
-        <item quantity="two"><xliff:g id="COUNT_1">%d</xliff:g> קישורים מאומתים</item>
-        <item quantity="many"><xliff:g id="COUNT_1">%d</xliff:g> קישורים מאומתים</item>
-        <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> קישורים מאומתים</item>
-        <item quantity="one">קישור מאומת אחד (<xliff:g id="COUNT_0">%d</xliff:g>)</item>
+      <item quantity="two"><xliff:g id="COUNT_1">%d</xliff:g> קישורים מאומתים</item>
+      <item quantity="many"><xliff:g id="COUNT_1">%d</xliff:g> קישורים מאומתים</item>
+      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> קישורים מאומתים</item>
+      <item quantity="one">קישור מאומת אחד (<xliff:g id="COUNT_0">%d</xliff:g>)</item>
     </plurals>
     <plurals name="app_launch_verified_links_message" formatted="false" msgid="1209292155940482111">
-        <item quantity="two">הקישורים האלה מאומתים ונפתחים באופן אוטומטי באפליקציה הזו.</item>
-        <item quantity="many">הקישורים האלה מאומתים ונפתחים באופן אוטומטי באפליקציה הזו.</item>
-        <item quantity="other">הקישורים האלה מאומתים ונפתחים באופן אוטומטי באפליקציה הזו.</item>
-        <item quantity="one">הקישור הזה מאומת ונפתח באופן אוטומטי באפליקציה הזו.</item>
+      <item quantity="two">הקישורים האלה מאומתים ונפתחים באופן אוטומטי באפליקציה הזו.</item>
+      <item quantity="many">הקישורים האלה מאומתים ונפתחים באופן אוטומטי באפליקציה הזו.</item>
+      <item quantity="other">הקישורים האלה מאומתים ונפתחים באופן אוטומטי באפליקציה הזו.</item>
+      <item quantity="one">הקישור הזה מאומת ונפתח באופן אוטומטי באפליקציה הזו.</item>
     </plurals>
     <string name="app_launch_dialog_ok" msgid="1446157681861409861">"אישור"</string>
     <string name="app_launch_verified_links_info_description" msgid="7514750232467132117">"הצגה של רשימת הקישורים המאומתים"</string>
     <string name="app_launch_checking_links_title" msgid="6119228853554114201">"מתבצע חיפוש של קישורים נתמכים אחרים…"</string>
     <string name="app_launch_dialog_cancel" msgid="6961071841814898663">"ביטול"</string>
     <plurals name="app_launch_supported_links_title" formatted="false" msgid="8579323750839397568">
-        <item quantity="two"><xliff:g id="COUNT_1">%d</xliff:g> קישורים נתמכים</item>
-        <item quantity="many"><xliff:g id="COUNT_1">%d</xliff:g> קישורים נתמכים</item>
-        <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> קישורים נתמכים</item>
-        <item quantity="one">קישור נתמך אחד (<xliff:g id="COUNT_0">%d</xliff:g>)</item>
+      <item quantity="two"><xliff:g id="COUNT_1">%d</xliff:g> קישורים נתמכים</item>
+      <item quantity="many"><xliff:g id="COUNT_1">%d</xliff:g> קישורים נתמכים</item>
+      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> קישורים נתמכים</item>
+      <item quantity="one">קישור נתמך אחד (<xliff:g id="COUNT_0">%d</xliff:g>)</item>
     </plurals>
     <string name="app_launch_supported_links_add" msgid="3271247750388016131">"הוספה"</string>
     <string name="app_launch_supported_links_subtext" msgid="4268004019469184113">"נפתח באפליקציה <xliff:g id="APP_LABEL">%s</xliff:g>"</string>
@@ -4363,28 +4418,28 @@
     <string name="notification_summary_level" msgid="4074326972839105652">"‏רמה %d"</string>
     <string name="notification_summary_channel" msgid="8459033623057872803">"<xliff:g id="CHANNEL_NAME">%1$s</xliff:g> • <xliff:g id="GROUP_NAME">%2$s</xliff:g>"</string>
     <plurals name="notifications_categories_off" formatted="false" msgid="1385401442703692986">
-        <item quantity="two"><xliff:g id="COUNT_1">%d</xliff:g> קטגוריות כבויות</item>
-        <item quantity="many"><xliff:g id="COUNT_1">%d</xliff:g> קטגוריות כבויות</item>
-        <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> קטגוריות כבויות</item>
-        <item quantity="one">קטגוריה אחת (<xliff:g id="COUNT_0">%d</xliff:g>) כבויה</item>
+      <item quantity="two"><xliff:g id="COUNT_1">%d</xliff:g> קטגוריות כבויות</item>
+      <item quantity="many"><xliff:g id="COUNT_1">%d</xliff:g> קטגוריות כבויות</item>
+      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> קטגוריות כבויות</item>
+      <item quantity="one">קטגוריה אחת (<xliff:g id="COUNT_0">%d</xliff:g>) כבויה</item>
     </plurals>
     <plurals name="permissions_summary" formatted="false" msgid="5015472550875144481">
-        <item quantity="two">הוענקו <xliff:g id="COUNT_1">%d</xliff:g> הרשאות</item>
-        <item quantity="many">הוענקו <xliff:g id="COUNT_1">%d</xliff:g> הרשאות</item>
-        <item quantity="other">הוענקו <xliff:g id="COUNT_1">%d</xliff:g> הרשאות</item>
-        <item quantity="one">הוענקה הרשאה <xliff:g id="COUNT_0">%d</xliff:g></item>
+      <item quantity="two">הוענקו <xliff:g id="COUNT_1">%d</xliff:g> הרשאות</item>
+      <item quantity="many">הוענקו <xliff:g id="COUNT_1">%d</xliff:g> הרשאות</item>
+      <item quantity="other">הוענקו <xliff:g id="COUNT_1">%d</xliff:g> הרשאות</item>
+      <item quantity="one">הוענקה הרשאה <xliff:g id="COUNT_0">%d</xliff:g></item>
     </plurals>
     <plurals name="runtime_permissions_summary" formatted="false" msgid="2091022049141391855">
-        <item quantity="two">הוענקו <xliff:g id="COUNT_2">%d</xliff:g> הרשאות מתוך <xliff:g id="COUNT_3">%d</xliff:g></item>
-        <item quantity="many">הוענקו <xliff:g id="COUNT_2">%d</xliff:g> הרשאות מתוך <xliff:g id="COUNT_3">%d</xliff:g></item>
-        <item quantity="other">הוענקו <xliff:g id="COUNT_2">%d</xliff:g> הרשאות מתוך <xliff:g id="COUNT_3">%d</xliff:g></item>
-        <item quantity="one">הוענקה הרשאה <xliff:g id="COUNT_0">%d</xliff:g> מתוך <xliff:g id="COUNT_1">%d</xliff:g></item>
+      <item quantity="two">הוענקו <xliff:g id="COUNT_2">%d</xliff:g> הרשאות מתוך <xliff:g id="COUNT_3">%d</xliff:g></item>
+      <item quantity="many">הוענקו <xliff:g id="COUNT_2">%d</xliff:g> הרשאות מתוך <xliff:g id="COUNT_3">%d</xliff:g></item>
+      <item quantity="other">הוענקו <xliff:g id="COUNT_2">%d</xliff:g> הרשאות מתוך <xliff:g id="COUNT_3">%d</xliff:g></item>
+      <item quantity="one">הוענקה הרשאה <xliff:g id="COUNT_0">%d</xliff:g> מתוך <xliff:g id="COUNT_1">%d</xliff:g></item>
     </plurals>
     <plurals name="runtime_permissions_additional_count" formatted="false" msgid="5888624648943937645">
-        <item quantity="two"><xliff:g id="COUNT_1">%d</xliff:g> הרשאות נוספות</item>
-        <item quantity="many"><xliff:g id="COUNT_1">%d</xliff:g> הרשאות נוספות</item>
-        <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> הרשאות נוספות</item>
-        <item quantity="one">הרשאה <xliff:g id="COUNT_0">%d</xliff:g> נוספת</item>
+      <item quantity="two"><xliff:g id="COUNT_1">%d</xliff:g> הרשאות נוספות</item>
+      <item quantity="many"><xliff:g id="COUNT_1">%d</xliff:g> הרשאות נוספות</item>
+      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> הרשאות נוספות</item>
+      <item quantity="one">הרשאה <xliff:g id="COUNT_0">%d</xliff:g> נוספת</item>
     </plurals>
     <string name="runtime_permissions_summary_no_permissions_granted" msgid="7456745929035665029">"לא הוענקו הרשאות"</string>
     <string name="runtime_permissions_summary_no_permissions_requested" msgid="7174876170116073356">"לא התבקשו הרשאות"</string>
@@ -4393,10 +4448,10 @@
     <string name="permissions_usage_summary" msgid="6784310472062516454">"אילו אפליקציות השתמשו בהרשאות לאחרונה"</string>
     <string name="unused_apps" msgid="4566272194756830656">"אפליקציות שמזמן לא השתמשת בהן"</string>
     <plurals name="unused_apps_summary" formatted="false" msgid="3827583582750975783">
-        <item quantity="two"><xliff:g id="COUNT_1">%d</xliff:g> אפליקציות שמזמן לא השתמשת בהן</item>
-        <item quantity="many"><xliff:g id="COUNT_1">%d</xliff:g> אפליקציות שמזמן לא השתמשת בהן</item>
-        <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> אפליקציות שמזמן לא השתמשת בהן</item>
-        <item quantity="one">אפליקציה אחת (<xliff:g id="COUNT_0">%d</xliff:g>) שמזמן לא השתמשת בה</item>
+      <item quantity="two"><xliff:g id="COUNT_1">%d</xliff:g> אפליקציות שמזמן לא השתמשת בהן</item>
+      <item quantity="many"><xliff:g id="COUNT_1">%d</xliff:g> אפליקציות שמזמן לא השתמשת בהן</item>
+      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> אפליקציות שמזמן לא השתמשת בהן</item>
+      <item quantity="one">אפליקציה אחת (<xliff:g id="COUNT_0">%d</xliff:g>) שמזמן לא השתמשת בה</item>
     </plurals>
     <string name="unused_apps_switch" msgid="419282628373205038">"הסרת הרשאות ופינוי מקום אחסון"</string>
     <string name="filter_all_apps" msgid="6645539744080251371">"כל האפליקציות"</string>
@@ -4422,19 +4477,19 @@
     <string name="domain_urls_summary_some" msgid="1197692164421314523">"‏פתיחה של <xliff:g id="DOMAIN">%s</xliff:g> וכתובות URL אחרות"</string>
     <string name="domain_urls_apps_summary_off" msgid="2534980824850890416">"אין אפליקציה שפותחת קישורים נתמכים"</string>
     <plurals name="domain_urls_apps_summary_on" formatted="false" msgid="7864816862441985323">
-        <item quantity="two"><xliff:g id="COUNT">%d</xliff:g> אפליקציות פותחות קישורים נתמכים</item>
-        <item quantity="many"><xliff:g id="COUNT">%d</xliff:g> אפליקציות פותחות קישורים נתמכים</item>
-        <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> אפליקציות פותחות קישורים נתמכים</item>
-        <item quantity="one">אפליקציה אחת פותחת קישורים נתמכים</item>
+      <item quantity="two"><xliff:g id="COUNT">%d</xliff:g> אפליקציות פותחות קישורים נתמכים</item>
+      <item quantity="many"><xliff:g id="COUNT">%d</xliff:g> אפליקציות פותחות קישורים נתמכים</item>
+      <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> אפליקציות פותחות קישורים נתמכים</item>
+      <item quantity="one">אפליקציה אחת פותחת קישורים נתמכים</item>
     </plurals>
     <string name="app_link_open_always" msgid="9167065494930657503">"הרשאה לאפליקציה לפתוח קישורים נתמכים"</string>
     <string name="app_link_open_ask" msgid="2422450109908936371">"יש לשאול בכל פעם"</string>
     <string name="app_link_open_never" msgid="5299808605386052350">"לא לתת לאפליקציה הרשאה לפתוח קישורים"</string>
     <plurals name="app_link_open_always_summary" formatted="false" msgid="1816161439007251694">
-        <item quantity="two">יש דרישה של האפליקציה לטפל ב-<xliff:g id="COUNT_1">%d</xliff:g> קישורים</item>
-        <item quantity="many">יש דרישה של האפליקציה לטפל ב-<xliff:g id="COUNT_1">%d</xliff:g> קישורים</item>
-        <item quantity="other">יש דרישה של האפליקציה לטפל ב-<xliff:g id="COUNT_1">%d</xliff:g> קישורים</item>
-        <item quantity="one">יש דרישה של האפליקציה לטפל בקישור אחד (<xliff:g id="COUNT_0">%d</xliff:g>)</item>
+      <item quantity="two">יש דרישה של האפליקציה לטפל ב-<xliff:g id="COUNT_1">%d</xliff:g> קישורים</item>
+      <item quantity="many">יש דרישה של האפליקציה לטפל ב-<xliff:g id="COUNT_1">%d</xliff:g> קישורים</item>
+      <item quantity="other">יש דרישה של האפליקציה לטפל ב-<xliff:g id="COUNT_1">%d</xliff:g> קישורים</item>
+      <item quantity="one">יש דרישה של האפליקציה לטפל בקישור אחד (<xliff:g id="COUNT_0">%d</xliff:g>)</item>
     </plurals>
     <string name="open_supported_links_footer" msgid="3188808142432787933">"יש דרישה מצד האפליקציה לטפל בקישורים הבאים:"</string>
     <string name="default_apps_title" msgid="6943471331817718664">"ברירת מחדל"</string>
@@ -4475,16 +4530,16 @@
     <string name="show_all_apps" msgid="4490719452453223082">"הצגת נתונים מלאים על השימוש במכשיר"</string>
     <string name="hide_extra_apps" msgid="7313907836289865123">"הצגת נתוני השימוש באפליקציה"</string>
     <plurals name="power_high_usage_summary" formatted="false" msgid="573433136005336970">
-        <item quantity="two"><xliff:g id="NUMBER">%2$d</xliff:g> אפליקציות מתנהגות באופן חריג</item>
-        <item quantity="many"><xliff:g id="NUMBER">%2$d</xliff:g> אפליקציות מתנהגות באופן חריג</item>
-        <item quantity="other"><xliff:g id="NUMBER">%2$d</xliff:g> אפליקציות מתנהגות באופן חריג</item>
-        <item quantity="one"><xliff:g id="APP">%1$s</xliff:g> מתנהגת באופן חריג</item>
+      <item quantity="two"><xliff:g id="NUMBER">%2$d</xliff:g> אפליקציות מתנהגות באופן חריג</item>
+      <item quantity="many"><xliff:g id="NUMBER">%2$d</xliff:g> אפליקציות מתנהגות באופן חריג</item>
+      <item quantity="other"><xliff:g id="NUMBER">%2$d</xliff:g> אפליקציות מתנהגות באופן חריג</item>
+      <item quantity="one"><xliff:g id="APP">%1$s</xliff:g> מתנהגת באופן חריג</item>
     </plurals>
     <plurals name="power_high_usage_title" formatted="false" msgid="8013115866788425817">
-        <item quantity="two">אפליקציות מרוקנות את הסוללה</item>
-        <item quantity="many">אפליקציות מרוקנות את הסוללה</item>
-        <item quantity="other">אפליקציות מרוקנות את הסוללה</item>
-        <item quantity="one">האפליקציה <xliff:g id="APP">%1$s</xliff:g> מרוקנת את הסוללה</item>
+      <item quantity="two">אפליקציות מרוקנות את הסוללה</item>
+      <item quantity="many">אפליקציות מרוקנות את הסוללה</item>
+      <item quantity="other">אפליקציות מרוקנות את הסוללה</item>
+      <item quantity="one">האפליקציה <xliff:g id="APP">%1$s</xliff:g> מרוקנת את הסוללה</item>
     </plurals>
     <string name="high_power_filter_on" msgid="447849271630431531">"לא בוצעה אופטימיזציה"</string>
     <string name="high_power_on" msgid="8778058701270819268">"לא בוצעה אופטימיזציה"</string>
@@ -4565,10 +4620,10 @@
     <string name="free_memory" msgid="439783742246854785">"פנוי"</string>
     <string name="memory_usage_apps" msgid="5776108502569850579">"זיכרון בשימוש על ידי אפליקציות"</string>
     <plurals name="memory_usage_apps_summary" formatted="false" msgid="1355637088533572208">
-        <item quantity="two"><xliff:g id="COUNT">%1$d</xliff:g> אפליקציות השתמשו בזיכרון ב-<xliff:g id="DURATION_1">%2$s</xliff:g> האחרונות</item>
-        <item quantity="many"><xliff:g id="COUNT">%1$d</xliff:g> אפליקציות השתמשו בזיכרון ב-<xliff:g id="DURATION_1">%2$s</xliff:g> האחרונות</item>
-        <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> אפליקציות השתמשו בזיכרון ב-<xliff:g id="DURATION_1">%2$s</xliff:g> האחרונות</item>
-        <item quantity="one">אפליקציה אחת השתמשה בזיכרון ב-<xliff:g id="DURATION_0">%2$s</xliff:g> האחרונות</item>
+      <item quantity="two"><xliff:g id="COUNT">%1$d</xliff:g> אפליקציות השתמשו בזיכרון ב-<xliff:g id="DURATION_1">%2$s</xliff:g> האחרונות</item>
+      <item quantity="many"><xliff:g id="COUNT">%1$d</xliff:g> אפליקציות השתמשו בזיכרון ב-<xliff:g id="DURATION_1">%2$s</xliff:g> האחרונות</item>
+      <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> אפליקציות השתמשו בזיכרון ב-<xliff:g id="DURATION_1">%2$s</xliff:g> האחרונות</item>
+      <item quantity="one">אפליקציה אחת השתמשה בזיכרון ב-<xliff:g id="DURATION_0">%2$s</xliff:g> האחרונות</item>
     </plurals>
     <string name="running_frequency" msgid="7260225121706316639">"תדירות"</string>
     <string name="memory_maximum_usage" msgid="2047013391595835607">"שימוש מקסימלי"</string>
@@ -4645,10 +4700,10 @@
     <string name="data_usage_summary_format" msgid="6844301859713164522">"<xliff:g id="AMOUNT">%1$s</xliff:g> מהנתונים בשימוש"</string>
     <string name="data_usage_wifi_format" msgid="7644390582649568117">"‏נעשה שימוש ב-<xliff:g id="AMOUNT">^1</xliff:g> מהנתונים ב-Wi‑Fi"</string>
     <plurals name="notification_summary" formatted="false" msgid="7638388920823212470">
-        <item quantity="two">כבויות עבור <xliff:g id="COUNT">%d</xliff:g> אפליקציות</item>
-        <item quantity="many">כבויות עבור <xliff:g id="COUNT">%d</xliff:g> אפליקציות</item>
-        <item quantity="other">כבויות עבור <xliff:g id="COUNT">%d</xliff:g> אפליקציות</item>
-        <item quantity="one">כבויות עבור אפליקציה אחת</item>
+      <item quantity="two">כבויות עבור <xliff:g id="COUNT">%d</xliff:g> אפליקציות</item>
+      <item quantity="many">כבויות עבור <xliff:g id="COUNT">%d</xliff:g> אפליקציות</item>
+      <item quantity="other">כבויות עבור <xliff:g id="COUNT">%d</xliff:g> אפליקציות</item>
+      <item quantity="one">כבויות עבור אפליקציה אחת</item>
     </plurals>
     <string name="notification_summary_none" msgid="9179312319023988089">"מופעלות לכל האפליקציות"</string>
     <string name="apps_summary" msgid="4007416751775414252">"הותקנו <xliff:g id="COUNT">%1$d</xliff:g> אפליקציות"</string>
@@ -4715,16 +4770,16 @@
     <string name="suggestions_summary" msgid="1709710458908440469">"+<xliff:g id="ID_1">%1$d</xliff:g>"</string>
     <string name="suggestions_more_title" msgid="240124526378997009">"עוד <xliff:g id="ID_1">%1$d</xliff:g>"</string>
     <plurals name="suggestions_collapsed_title" formatted="false" msgid="5023679825210836444">
-        <item quantity="two"><xliff:g id="COUNT">%1$d</xliff:g> הצעות</item>
-        <item quantity="many"><xliff:g id="COUNT">%1$d</xliff:g> הצעות</item>
-        <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> הצעות</item>
-        <item quantity="one">הצעה אחת</item>
+      <item quantity="two"><xliff:g id="COUNT">%1$d</xliff:g> הצעות</item>
+      <item quantity="many"><xliff:g id="COUNT">%1$d</xliff:g> הצעות</item>
+      <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> הצעות</item>
+      <item quantity="one">הצעה אחת</item>
     </plurals>
     <plurals name="suggestions_collapsed_summary" formatted="false" msgid="3789011332018516832">
-        <item quantity="two"><xliff:g id="COUNT">%1$d</xliff:g> הצעות נוספות</item>
-        <item quantity="many"><xliff:g id="COUNT">%1$d</xliff:g> הצעות נוספות</item>
-        <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> הצעות נוספות</item>
-        <item quantity="one">הצעה אחת נוספת</item>
+      <item quantity="two"><xliff:g id="COUNT">%1$d</xliff:g> הצעות נוספות</item>
+      <item quantity="many"><xliff:g id="COUNT">%1$d</xliff:g> הצעות נוספות</item>
+      <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> הצעות נוספות</item>
+      <item quantity="one">הצעה אחת נוספת</item>
     </plurals>
     <string name="suggestion_remove" msgid="6753986344585367776">"הסרה"</string>
     <string name="color_temperature" msgid="8256912135746305176">"טמפרטורת צבעים קרים"</string>
@@ -4752,10 +4807,10 @@
     <string name="billing_cycle_fragment_summary" msgid="6346655500491631357">"כל חודש ב-<xliff:g id="ID_1">%1$s</xliff:g> בחודש"</string>
     <string name="network_restrictions" msgid="8385824604048229846">"הגבלות רשת"</string>
     <plurals name="network_restrictions_summary" formatted="false" msgid="3875128958788008975">
-        <item quantity="two"><xliff:g id="COUNT">%1$d</xliff:g> הגבלות</item>
-        <item quantity="many"><xliff:g id="COUNT">%1$d</xliff:g> הגבלות</item>
-        <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> הגבלות</item>
-        <item quantity="one">הגבלה אחת</item>
+      <item quantity="two"><xliff:g id="COUNT">%1$d</xliff:g> הגבלות</item>
+      <item quantity="many"><xliff:g id="COUNT">%1$d</xliff:g> הגבלות</item>
+      <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> הגבלות</item>
+      <item quantity="one">הגבלה אחת</item>
     </plurals>
     <string name="operator_warning" msgid="5672761970087591211">"ייתכן שחישוב השימוש בנתונים אצל הספק יהיה שונה מזה שבמכשיר"</string>
     <string name="non_carrier_data_usage_warning" msgid="4707184871368847697">"לא כולל נתונים שמשמשים את רשתות הספק"</string>
@@ -4769,10 +4824,10 @@
     <string name="configure" msgid="1499586749829665889">"הגדרה"</string>
     <string name="data_usage_other_apps" msgid="5649047093607329537">"אפליקציות אחרות שנכללות בנתוני השימוש"</string>
     <plurals name="data_saver_unrestricted_summary" formatted="false" msgid="3316296488378947221">
-        <item quantity="two">‏<xliff:g id="COUNT">%1$d</xliff:g> אפליקציות יכולות להשתמש בנתונים בלתי מוגבלים כשחוסך הנתונים (Data Saver) פועל</item>
-        <item quantity="many">‏<xliff:g id="COUNT">%1$d</xliff:g> אפליקציות יכולות להשתמש בנתונים בלתי מוגבלים כשחוסך הנתונים (Data Saver) פועל</item>
-        <item quantity="other">‏<xliff:g id="COUNT">%1$d</xliff:g> אפליקציות יכולות להשתמש בנתונים בלתי מוגבלים כשחוסך הנתונים (Data Saver) פועל</item>
-        <item quantity="one">‏אפליקציה אחת יכולה להשתמש בנתונים בלתי מוגבלים כשחוסך הנתונים (Data Saver) פועל</item>
+      <item quantity="two">‏<xliff:g id="COUNT">%1$d</xliff:g> אפליקציות יכולות להשתמש בנתונים בלתי מוגבלים כשחוסך הנתונים (Data Saver) פועל</item>
+      <item quantity="many">‏<xliff:g id="COUNT">%1$d</xliff:g> אפליקציות יכולות להשתמש בנתונים בלתי מוגבלים כשחוסך הנתונים (Data Saver) פועל</item>
+      <item quantity="other">‏<xliff:g id="COUNT">%1$d</xliff:g> אפליקציות יכולות להשתמש בנתונים בלתי מוגבלים כשחוסך הנתונים (Data Saver) פועל</item>
+      <item quantity="one">‏אפליקציה אחת יכולה להשתמש בנתונים בלתי מוגבלים כשחוסך הנתונים (Data Saver) פועל</item>
     </plurals>
     <string name="data_usage_title" msgid="4039024073687469094">"נתונים עיקריים"</string>
     <string name="data_usage_wifi_title" msgid="1060495519280456926">"‏נתוני Wi‑Fi"</string>
@@ -4783,10 +4838,10 @@
     <string name="data_usage_chart_brief_content_description" msgid="5548074070258881530">"תרשים שמציג נתוני שימוש בחבילת הגלישה בין <xliff:g id="START_DATE">%1$s</xliff:g> לבין <xliff:g id="END_DATE">%2$s</xliff:g>."</string>
     <string name="data_usage_chart_no_data_content_description" msgid="5481968839079467231">"אין נתונים בטווח התאריכים הזה"</string>
     <plurals name="billing_cycle_days_left" formatted="false" msgid="661792524671718753">
-        <item quantity="two">נותרו יומיים</item>
-        <item quantity="many">‏נותרו %d ימים</item>
-        <item quantity="other">‏נותרו %d ימים</item>
-        <item quantity="one">נותר יום אחד</item>
+      <item quantity="two">נותרו יומיים</item>
+      <item quantity="many">‏נותרו %d ימים</item>
+      <item quantity="other">‏נותרו %d ימים</item>
+      <item quantity="one">נותר יום אחד</item>
     </plurals>
     <string name="billing_cycle_none_left" msgid="1694844019159277504">"לא נשאר זמן"</string>
     <string name="billing_cycle_less_than_one_day_left" msgid="1210202399053992163">"נותר פחות מיום אחד"</string>
@@ -4858,10 +4913,10 @@
     <string name="overlay_toast_failed_to_apply" msgid="4839587811338164960">"נכשלה החלה של שכבת-על"</string>
     <string name="special_access" msgid="1767980727423395147">"גישה מיוחדת"</string>
     <plurals name="special_access_summary" formatted="false" msgid="4995506406763570815">
-        <item quantity="two"><xliff:g id="COUNT">%d</xliff:g> אפליקציות יכולות להשתמש בנתונים בלתי מוגבלים</item>
-        <item quantity="many"><xliff:g id="COUNT">%d</xliff:g> אפליקציות יכולות להשתמש בנתונים בלתי מוגבלים</item>
-        <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> אפליקציות יכולות להשתמש בנתונים בלתי מוגבלים</item>
-        <item quantity="one">אפליקציה אחת יכולה להשתמש בנתונים בלתי מוגבלים</item>
+      <item quantity="two"><xliff:g id="COUNT">%d</xliff:g> אפליקציות יכולות להשתמש בנתונים בלתי מוגבלים</item>
+      <item quantity="many"><xliff:g id="COUNT">%d</xliff:g> אפליקציות יכולות להשתמש בנתונים בלתי מוגבלים</item>
+      <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> אפליקציות יכולות להשתמש בנתונים בלתי מוגבלים</item>
+      <item quantity="one">אפליקציה אחת יכולה להשתמש בנתונים בלתי מוגבלים</item>
     </plurals>
     <string name="special_access_more" msgid="132919514147475846">"תכונות נוספות"</string>
     <string name="confirm_convert_to_fbe_warning" msgid="3783325656948378111">"האם ברצונך למחוק נתוני משתמשים ולהמיר להצפנת קבצים?"</string>
@@ -4900,22 +4955,22 @@
     <string name="cross_profile_calendar_title" msgid="7570277841490216947">"יומן למספר פרופילים"</string>
     <string name="cross_profile_calendar_summary" msgid="8856185206722860069">"הצגת אירועי עבודה ביומן האישי"</string>
     <plurals name="hours" formatted="false" msgid="1853396353451635458">
-        <item quantity="two"><xliff:g id="NUMBER">%s</xliff:g> שעות</item>
-        <item quantity="many"><xliff:g id="NUMBER">%s</xliff:g> שעות</item>
-        <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> שעות</item>
-        <item quantity="one">שעה אחת</item>
+      <item quantity="two"><xliff:g id="NUMBER">%s</xliff:g> שעות</item>
+      <item quantity="many"><xliff:g id="NUMBER">%s</xliff:g> שעות</item>
+      <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> שעות</item>
+      <item quantity="one">שעה אחת</item>
     </plurals>
     <plurals name="minutes" formatted="false" msgid="6244503272924425418">
-        <item quantity="two"><xliff:g id="NUMBER">%s</xliff:g> דקות</item>
-        <item quantity="many"><xliff:g id="NUMBER">%s</xliff:g> דקות</item>
-        <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> דקות</item>
-        <item quantity="one">דקה אחת</item>
+      <item quantity="two"><xliff:g id="NUMBER">%s</xliff:g> דקות</item>
+      <item quantity="many"><xliff:g id="NUMBER">%s</xliff:g> דקות</item>
+      <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> דקות</item>
+      <item quantity="one">דקה אחת</item>
     </plurals>
     <plurals name="seconds" formatted="false" msgid="4237020272336995370">
-        <item quantity="two"><xliff:g id="NUMBER">%s</xliff:g> שניות</item>
-        <item quantity="many"><xliff:g id="NUMBER">%s</xliff:g> שניות</item>
-        <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> שניות</item>
-        <item quantity="one">שנייה אחת</item>
+      <item quantity="two"><xliff:g id="NUMBER">%s</xliff:g> שניות</item>
+      <item quantity="many"><xliff:g id="NUMBER">%s</xliff:g> שניות</item>
+      <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> שניות</item>
+      <item quantity="one">שנייה אחת</item>
     </plurals>
     <string name="automatic_storage_manager_settings" msgid="519158151463974656">"ניהול אחסון"</string>
     <string name="automatic_storage_manager_text" msgid="6900593059927987273">"כדי לעזור בפינוי שטח אחסון, מנהל האחסון מסיר מהמכשיר שלך תמונות וסרטונים מגובים."</string>
@@ -4933,6 +4988,7 @@
     <string name="double_tap_power_for_camera_summary" msgid="1100926048598415509">"כדי לפתוח את המצלמה במהירות, צריך ללחוץ פעמיים על לחצן ההפעלה. ניתן לבצע את הפעולה הזו מכל מסך."</string>
     <string name="double_tap_power_for_camera_suggestion_title" msgid="4299496243418753571">"פתיחה מהירה של המצלמה"</string>
     <string name="double_twist_for_camera_mode_title" msgid="472455236910935684">"היפוך המצלמה לתמונת סלפי"</string>
+    <string name="double_twist_for_camera_mode_summary" msgid="592503740044744951"></string>
     <string name="double_twist_for_camera_suggestion_title" msgid="8178844037382604158">"צילום מהיר יותר של סלפי"</string>
     <string name="system_navigation_title" msgid="1698862900901417194">"ניווט במערכת"</string>
     <string name="swipe_up_to_switch_apps_title" msgid="6677266952021118342">"ניווט באמצעות 2 לחצנים"</string>
@@ -5044,20 +5100,20 @@
     <string name="enterprise_privacy_enterprise_installed_packages" msgid="9114143640515900082">"אפליקציות מותקנות"</string>
     <string name="enterprise_privacy_apps_count_estimation_info" msgid="7959907857710107792">"‏זוהי הערכה של מספר האפליקציות. ייתכן שהמספר לא כולל אפליקציות שהותקנו מחוץ לחנות Play."</string>
     <plurals name="enterprise_privacy_number_packages_lower_bound" formatted="false" msgid="5403847001419529018">
-        <item quantity="two">מינימום <xliff:g id="COUNT_1">%d</xliff:g> אפליקציות</item>
-        <item quantity="many">מינימום <xliff:g id="COUNT_1">%d</xliff:g> אפליקציות</item>
-        <item quantity="other">מינימום <xliff:g id="COUNT_1">%d</xliff:g> אפליקציות</item>
-        <item quantity="one">מינימום אפליקציה <xliff:g id="COUNT_0">%d</xliff:g></item>
+      <item quantity="two">מינימום <xliff:g id="COUNT_1">%d</xliff:g> אפליקציות</item>
+      <item quantity="many">מינימום <xliff:g id="COUNT_1">%d</xliff:g> אפליקציות</item>
+      <item quantity="other">מינימום <xliff:g id="COUNT_1">%d</xliff:g> אפליקציות</item>
+      <item quantity="one">מינימום אפליקציה <xliff:g id="COUNT_0">%d</xliff:g></item>
     </plurals>
     <string name="enterprise_privacy_location_access" msgid="8023838718108456971">"הרשאות מיקום"</string>
     <string name="enterprise_privacy_microphone_access" msgid="7242958026470143653">"הרשאות מיקרופון"</string>
     <string name="enterprise_privacy_camera_access" msgid="7685460535880069016">"הרשאות מצלמה"</string>
     <string name="enterprise_privacy_enterprise_set_default_apps" msgid="7498546659083996300">"אפליקציות ברירת מחדל"</string>
     <plurals name="enterprise_privacy_number_packages" formatted="false" msgid="8568544906431825430">
-        <item quantity="two"><xliff:g id="COUNT_1">%d</xliff:g> אפליקציות</item>
-        <item quantity="many"><xliff:g id="COUNT_1">%d</xliff:g> אפליקציות</item>
-        <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> אפליקציות</item>
-        <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> אפליקציה</item>
+      <item quantity="two"><xliff:g id="COUNT_1">%d</xliff:g> אפליקציות</item>
+      <item quantity="many"><xliff:g id="COUNT_1">%d</xliff:g> אפליקציות</item>
+      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> אפליקציות</item>
+      <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> אפליקציה</item>
     </plurals>
     <string name="enterprise_privacy_input_method" msgid="3278314982700662246">"מקלדת המוגדרת כברירת מחדל"</string>
     <string name="enterprise_privacy_input_method_name" msgid="2974859490559054584">"<xliff:g id="APP_LABEL">%s</xliff:g> הוגדרה"</string>
@@ -5069,20 +5125,20 @@
     <string name="enterprise_privacy_ca_certs_personal" msgid="1516422660828485795">"פרטי כניסה מהימנים בפרופיל האישי שלך"</string>
     <string name="enterprise_privacy_ca_certs_work" msgid="4318941788592655561">"פרטי כניסה מהימנים בפרופיל העבודה שלך"</string>
     <plurals name="enterprise_privacy_number_ca_certs" formatted="false" msgid="6459725295322004179">
-        <item quantity="two">‏מינימום <xliff:g id="COUNT_1">%d</xliff:g> אישורי CA</item>
-        <item quantity="many">‏מינימום <xliff:g id="COUNT_1">%d</xliff:g> אישורי CA</item>
-        <item quantity="other">‏מינימום <xliff:g id="COUNT_1">%d</xliff:g> אישורי CA</item>
-        <item quantity="one">‏מינימום אישור CA <xliff:g id="COUNT_0">%d</xliff:g></item>
+      <item quantity="two">‏מינימום <xliff:g id="COUNT_1">%d</xliff:g> אישורי CA</item>
+      <item quantity="many">‏מינימום <xliff:g id="COUNT_1">%d</xliff:g> אישורי CA</item>
+      <item quantity="other">‏מינימום <xliff:g id="COUNT_1">%d</xliff:g> אישורי CA</item>
+      <item quantity="one">‏מינימום אישור CA <xliff:g id="COUNT_0">%d</xliff:g></item>
     </plurals>
     <string name="enterprise_privacy_lock_device" msgid="464054894363899866">"מנהל המערכת יכול לנעול את המכשיר ולאפס את הסיסמה"</string>
     <string name="enterprise_privacy_wipe_device" msgid="869589182352244591">"מנהל המערכת יכול למחוק את כל הנתונים מהמכשיר"</string>
     <string name="enterprise_privacy_failed_password_wipe_device" msgid="7045164901334821226">"מספר הזנות של סיסמה שגויה לפני מחיקה של כל הנתונים מהמכשיר"</string>
     <string name="enterprise_privacy_failed_password_wipe_work" msgid="2537582942554484170">"מספר הזנות של סיסמה שגויה לפני מחיקה של כל הנתונים של פרופיל העבודה"</string>
     <plurals name="enterprise_privacy_number_failed_password_wipe" formatted="false" msgid="8811973918944217791">
-        <item quantity="two"><xliff:g id="COUNT_1">%d</xliff:g> ניסיונות</item>
-        <item quantity="many"><xliff:g id="COUNT_1">%d</xliff:g> ניסיונות</item>
-        <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> ניסיונות</item>
-        <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> ניסיון</item>
+      <item quantity="two"><xliff:g id="COUNT_1">%d</xliff:g> ניסיונות</item>
+      <item quantity="many"><xliff:g id="COUNT_1">%d</xliff:g> ניסיונות</item>
+      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> ניסיונות</item>
+      <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> ניסיון</item>
     </plurals>
     <string name="do_disclosure_generic" msgid="3067459392402324538">"מכשיר זה מנוהל על ידי הארגון שלך."</string>
     <string name="do_disclosure_with_name" msgid="867544298924410766">"מכשיר זה מנוהל על ידי <xliff:g id="ORGANIZATION_NAME">%s</xliff:g>."</string>
@@ -5097,25 +5153,25 @@
     <string name="financed_privacy_failed_password_wipe_device" msgid="8777230427603977667">"מספר הזנות של סיסמה שגויה לפני מחיקה של הנתונים מהמכשיר"</string>
     <string name="financed_privacy_header" msgid="7215645340918406124">"ספק האשראי שלך יכול לשנות את הגדרות המכשיר הזה ולהתקין בו תוכנות.\n\nלמידע נוסף, יש לפנות לספק האשראי."</string>
     <plurals name="default_camera_app_title" formatted="false" msgid="8112432929729136399">
-        <item quantity="two">אפליקציות מצלמה</item>
-        <item quantity="many">אפליקציות מצלמה</item>
-        <item quantity="other">אפליקציות מצלמה</item>
-        <item quantity="one">אפליקציית מצלמה</item>
+      <item quantity="two">אפליקציות מצלמה</item>
+      <item quantity="many">אפליקציות מצלמה</item>
+      <item quantity="other">אפליקציות מצלמה</item>
+      <item quantity="one">אפליקציית מצלמה</item>
     </plurals>
     <string name="default_calendar_app_title" msgid="1870095225089706093">"אפליקציית יומן"</string>
     <string name="default_contacts_app_title" msgid="7740028900741944569">"אפליקציית אנשי קשר"</string>
     <plurals name="default_email_app_title" formatted="false" msgid="8338194872609410234">
-        <item quantity="two">אפליקציות של תוכנות אימייל</item>
-        <item quantity="many">אפליקציות של תוכנות אימייל</item>
-        <item quantity="other">אפליקציות של תוכנות אימייל</item>
-        <item quantity="one">אפליקציה של תוכנת אימייל</item>
+      <item quantity="two">אפליקציות של תוכנות אימייל</item>
+      <item quantity="many">אפליקציות של תוכנות אימייל</item>
+      <item quantity="other">אפליקציות של תוכנות אימייל</item>
+      <item quantity="one">אפליקציה של תוכנת אימייל</item>
     </plurals>
     <string name="default_map_app_title" msgid="7569231732944853320">"אפליקציית מפה"</string>
     <plurals name="default_phone_app_title" formatted="false" msgid="4222188821845826493">
-        <item quantity="two">אפליקציות טלפון</item>
-        <item quantity="many">אפליקציות טלפון</item>
-        <item quantity="other">אפליקציות טלפון</item>
-        <item quantity="one">אפליקציית טלפון</item>
+      <item quantity="two">אפליקציות טלפון</item>
+      <item quantity="many">אפליקציות טלפון</item>
+      <item quantity="other">אפליקציות טלפון</item>
+      <item quantity="one">אפליקציית טלפון</item>
     </plurals>
     <string name="app_names_concatenation_template_2" msgid="8320181646458855457">"<xliff:g id="FIRST_APP_NAME">%1$s</xliff:g>, <xliff:g id="SECOND_APP_NAME">%2$s</xliff:g>"</string>
     <string name="app_names_concatenation_template_3" msgid="7019703249717854148">"<xliff:g id="FIRST_APP_NAME">%1$s</xliff:g>, <xliff:g id="SECOND_APP_NAME">%2$s</xliff:g>, <xliff:g id="THIRD_APP_NAME">%3$s</xliff:g>"</string>
@@ -5151,10 +5207,10 @@
     <string name="autofill_app" msgid="7595308061826307921">"שירות מילוי אוטומטי"</string>
     <string name="autofill_passwords" msgid="6708057251459761083">"סיסמאות"</string>
     <plurals name="autofill_passwords_count" formatted="false" msgid="7715009165029452622">
-        <item quantity="two"><xliff:g id="COUNT_1">%1$d</xliff:g> סיסמאות</item>
-        <item quantity="many"><xliff:g id="COUNT_1">%1$d</xliff:g> סיסמאות</item>
-        <item quantity="other"><xliff:g id="COUNT_1">%1$d</xliff:g> סיסמאות</item>
-        <item quantity="one">סיסמה אחת (<xliff:g id="COUNT_0">%1$d</xliff:g>)</item>
+      <item quantity="two"><xliff:g id="COUNT_1">%1$d</xliff:g> סיסמאות</item>
+      <item quantity="many"><xliff:g id="COUNT_1">%1$d</xliff:g> סיסמאות</item>
+      <item quantity="other"><xliff:g id="COUNT_1">%1$d</xliff:g> סיסמאות</item>
+      <item quantity="one">סיסמה אחת (<xliff:g id="COUNT_0">%1$d</xliff:g>)</item>
     </plurals>
     <string name="autofill_keywords" msgid="8598763328489346438">"אוטומטי, מילוי, מילוי אוטומטי, סיסמה"</string>
     <string name="autofill_confirmation_message" msgid="4888767934273494272">"‏&lt;b&gt;חשוב לוודא שהאפליקציה הזו מהימנה&lt;/b&gt;‏ ‏&lt;br/&gt; &lt;br/&gt;‏ ‏&lt;xliff:g id=app_name example=Google Autofill&gt;‏%1$s‏&lt;/xliff:g&gt; משתמשת במידע שמופיע במסך כדי לזהות אילו שדות אפשר למלא באופן אוטומטי."</string>
@@ -5245,6 +5301,7 @@
     <string name="battery_suggestion_title" product="tablet" msgid="1525940496459255289">"שיפור חיי הסוללה של הטאבלט"</string>
     <string name="battery_suggestion_title" product="device" msgid="2280773774080720377">"שיפור חיי הסוללה של המכשיר"</string>
     <string name="battery_suggestion_title" product="default" msgid="4811554469047272537">"שיפור חיי הסוללה של הטלפון"</string>
+    <string name="battery_suggestion_summary" msgid="8186720080540016197"></string>
     <string name="gesture_prevent_ringing_screen_title" msgid="8293094715267769349">"בלי צלצול"</string>
     <string name="gesture_prevent_ringing_title" msgid="5978577898997523581">"לחיצה בו-זמנית על לחצן ההפעלה ועל הגברת עוצמת הקול תפעיל:"</string>
     <string name="gesture_prevent_ringing_sound_title" msgid="4529077822282099235">"קיצור דרך למניעת צלצול"</string>
@@ -5332,10 +5389,10 @@
     <string name="calls_and_sms_ask_every_time" msgid="3178743088737726677">"יש לשאול בכל פעם"</string>
     <string name="mobile_network_summary_add_a_network" msgid="9079866102827526779">"הוספת רשת"</string>
     <plurals name="mobile_network_summary_count" formatted="false" msgid="5173633860800230925">
-        <item quantity="two">‏<xliff:g id="COUNT_1">%1$d</xliff:g> כרטיסי SIM</item>
-        <item quantity="many">‏<xliff:g id="COUNT_1">%1$d</xliff:g> כרטיסי SIM</item>
-        <item quantity="other">‏<xliff:g id="COUNT_1">%1$d</xliff:g> כרטיסי SIM</item>
-        <item quantity="one">‏כרטיס SIM אחד (‏<xliff:g id="COUNT_0">%1$d</xliff:g>)</item>
+      <item quantity="two">‏<xliff:g id="COUNT_1">%1$d</xliff:g> כרטיסי SIM</item>
+      <item quantity="many">‏<xliff:g id="COUNT_1">%1$d</xliff:g> כרטיסי SIM</item>
+      <item quantity="other">‏<xliff:g id="COUNT_1">%1$d</xliff:g> כרטיסי SIM</item>
+      <item quantity="one">‏כרטיס SIM אחד (‏<xliff:g id="COUNT_0">%1$d</xliff:g>)</item>
     </plurals>
     <string name="default_for_calls" msgid="2788950217176988034">"ברירת מחדל לשירות"</string>
     <string name="default_for_sms" msgid="1316988329407434771">"‏ברירת מחדל ל-SMS"</string>
@@ -5477,21 +5534,22 @@
     <string name="contextual_card_feedback_send" msgid="7409408664417908922">"שליחת משוב"</string>
     <string name="contextual_card_feedback_confirm_message" msgid="3186334562157665381">"האם ברצונך לשלוח לנו משוב לגבי ההצעה הזו?"</string>
     <string name="copyable_slice_toast" msgid="1008251852798990606">"הקטע <xliff:g id="COPY_CONTENT">%1$s</xliff:g> הועתק ללוח."</string>
+    <string name="search_bar_account_avatar_content_description" msgid="880523277036898350"></string>
     <string name="permission_bar_chart_empty_text" msgid="4856719891991325077">"אפס אפליקציות השתמשו בהרשאות"</string>
     <string name="permission_bar_chart_title" msgid="2493212904955611441">"שימוש בהרשאות ב-24 השעות האחרונות"</string>
     <string name="permission_bar_chart_details" msgid="5816698018592357088">"הצגת כל הפרטים במרכז השליטה"</string>
     <plurals name="permission_bar_chart_label" formatted="false" msgid="4853396794340896078">
-        <item quantity="two"><xliff:g id="NUMBER">%s</xliff:g> אפליקציות</item>
-        <item quantity="many"><xliff:g id="NUMBER">%s</xliff:g> אפליקציות</item>
-        <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> אפליקציות</item>
-        <item quantity="one">אפליקציה אחת</item>
+      <item quantity="two"><xliff:g id="NUMBER">%s</xliff:g> אפליקציות</item>
+      <item quantity="many"><xliff:g id="NUMBER">%s</xliff:g> אפליקציות</item>
+      <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> אפליקציות</item>
+      <item quantity="one">אפליקציה אחת</item>
     </plurals>
     <string name="accessibility_usage_title" msgid="9190967143518779145">"שימוש בנגישות"</string>
     <plurals name="accessibility_usage_summary" formatted="false" msgid="6910643986958263005">
-        <item quantity="two">ל-<xliff:g id="SERVICE_COUNT">%1$d</xliff:g> אפליקציות יש גישה מלאה למכשיר שלך</item>
-        <item quantity="many">ל-<xliff:g id="SERVICE_COUNT">%1$d</xliff:g> אפליקציות יש גישה מלאה למכשיר שלך</item>
-        <item quantity="other">ל-<xliff:g id="SERVICE_COUNT">%1$d</xliff:g> אפליקציות יש גישה מלאה למכשיר שלך</item>
-        <item quantity="one">לאפליקציה אחת יש גישה מלאה למכשיר שלך</item>
+      <item quantity="two">ל-<xliff:g id="SERVICE_COUNT">%1$d</xliff:g> אפליקציות יש גישה מלאה למכשיר שלך</item>
+      <item quantity="many">ל-<xliff:g id="SERVICE_COUNT">%1$d</xliff:g> אפליקציות יש גישה מלאה למכשיר שלך</item>
+      <item quantity="other">ל-<xliff:g id="SERVICE_COUNT">%1$d</xliff:g> אפליקציות יש גישה מלאה למכשיר שלך</item>
+      <item quantity="one">לאפליקציה אחת יש גישה מלאה למכשיר שלך</item>
     </plurals>
     <string name="media_output_panel_title" msgid="5920946795078065159">"החלפת פלט"</string>
     <string name="media_output_panel_summary_of_playing_device" msgid="6998758947764222915">"בהפעלה כרגע ב-<xliff:g id="DEVICE_NAME">%1$s</xliff:g>"</string>
@@ -5556,6 +5614,10 @@
     <string name="lockscreen_privacy_controls_summary" msgid="6952176547084269909">"גישה לפקדים כשהמכשיר נעול"</string>
     <string name="lockscreen_double_line_clock_summary" msgid="2916159550425093703">"הצגת השעון עם שתי השורות כשאפשר"</string>
     <string name="lockscreen_double_line_clock_setting_toggle" msgid="3408639316001688529">"שעון עם שתי שורות"</string>
+    <string name="rtt_settings_title" msgid="7049259598645966354"></string>
+    <string name="rtt_settings_no_visible" msgid="7440356831140948382"></string>
+    <string name="rtt_settings_visible_during_call" msgid="7866181103286073700"></string>
+    <string name="rtt_settings_always_visible" msgid="2364173070088756238"></string>
     <string name="media_output_panel_stop_casting_button" msgid="6094875883164119035">"עצירת העברה"</string>
     <string name="volte_5G_limited_title" msgid="5908052268836750629">"‏לכבות את VoLTE?"</string>
     <string name="volte_5G_limited_text" msgid="7150583768725182345">"‏פעולה זו מכבה גם את החיבור לרשת 5G.\nבמהלך שיחה קולית, אי אפשר להשתמש באינטרנט וייתכן שאפליקציות מסוימות לא יפעלו."</string>

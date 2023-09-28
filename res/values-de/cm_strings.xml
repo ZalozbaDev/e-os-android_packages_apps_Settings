@@ -13,7 +13,8 @@
      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
      See the License for the specific language governing permissions and
      limitations under the License.
---><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <plurals name="show_dev_countdown_cm">
         <item quantity="one">Du bist <xliff:g id="step_count">%1$d</xliff:g> Schritt vom Aktivieren der Entwicklereinstellungen entfernt.</item>
         <item quantity="other">Du bist <xliff:g id="step_count">%1$d</xliff:g> Schritte vom Aktivieren der Entwicklereinstellungen entfernt.</item>
@@ -99,7 +100,7 @@
     <string name="show_navbar_hint_summary">Deutet Navigationsleiste am unteren Bildschirmrand an</string>
     <string name="connected_tws_device_saved_title">Gespeicherte Kopfhörer</string>
     <string name="touchscreen_hovering_title">Touchscreen als Maus verwenden</string>
-    <string name="touchscreen_hovering_summary">Erlaubt es, den über dem Bildschirm schwebenden Finger im Browser, Remote Desktop usw. als Mauszeiger zu verwenden</string>
+    <string name="touchscreen_hovering_summary">Erlaubt es, den über dem Touchscreen schwebenden Finger im Browser, Remote Desktop usw. als Mauszeiger zu verwenden.</string>
     <string name="peak_refresh_rate_summary_custom">Setzt die Aktualisierungsrate für einige Inhalte automatisch von 60 auf %1$d Hz herauf. Erhöhter Akkuverbrauch.</string>
     <string name="theme_customization_font_title">Schriftart</string>
     <string name="theme_customization_icon_shape_title">Symbolform</string>
@@ -109,27 +110,6 @@
     <string name="wake_when_plugged_or_unplugged_summary">Beim Anschließen oder Trennen einer Stromquelle den Bildschirm einschalten</string>
     <string name="fast_charging_title">Schnelles Laden</string>
     <string name="fast_charging_summary">Deaktivieren, um die vom Gerät beim Laden erzeugte Wärme zu reduzieren oder die Lebensdauer des Akkus zu verlängern</string>
-    <string name="elicense_title">/e/ Lizenz</string>
-    <string name="e_version">/e/ OS-Version</string>
-    <string name="system_update_summary">Aktualisierungen, Einstellungen, Versionshinweise</string>
-    <string name="title_ota_server">Verbinden mit /e/OS-Testkanal</string>
-    <string name="use_ota_summary">Zugang zu Testversionen von /e/OS</string>
-    <string name="use_ota_staging_popup_title">Sie sind dabei, sich mit dem /e/OS-Testkanal zu verbinden</string>
-    <string name="use_ota_staging_popup_message">Damit können Sie Testversionen von /e/OS herunterladen und installieren. Diese Versionen können instabil sein und sollten nur zu Testzwecken verwendet werden. Bitte akzeptieren Sie nur, wenn Sie wissen, was Sie tun.</string>
-    <string name="main_clear_desc_e" product="default">Dadurch werden alle Daten vom <b>internen Speicher</b> Ihres Tablets gelöscht. , einschließlich:
-\n
-\n<li>Alle Ihre Konten</li>
-\n<li>System- und Anwendungsdaten und Einstellungen</li>
-\n<li>Heruntergeladene Anwendungen</li></string>
-    <string name="advanced_privacy_dashboard_summary">Tracker verwalten, Standort fälschen, IP-Adresse verbergen</string>
-    <string name="e_version_summary">Aktualisiert auf /e/OS v<xliff:g id="version" example="6.0">%1$s</xliff:g></string>
-    <string name="e_version_pending_update_summary">/e/OS v<xliff:g id="version" example="6.0">%1$s</xliff:g> - Aktualisierung verfügbar</string>
-    <string name="e_version_in_progress_update_summary">/e/OS v<xliff:g id="version" example="6.0">%1$s</xliff:g> - Aktualisierung läuft</string>
-    <string name="e_version_reboot_pending_summary">/e/OS v<xliff:g id="version" example="6.0">%1$s</xliff:g> - installiert, Neustart erforderlich</string>
-    <string name="telemetry_dialog_message">Dies erlaubt automatische Fehlermeldungen, wenn eine App abstürzt oder einfriert. Bitte starten Sie ihr Gerät nach einer Abänderung dieser Einstellung neu.</string>
-    <string name="telemetry_dialog_title">Sie sind gerade dabei, /e/OS-Telemetrie zu aktivieren</string>
-    <string name="telemetry_details">Automatische Fehlermeldungen aktivieren</string>
-    <string name="enable_telemetry">/e/OS-Telemetrie aktivieren</string>
     <string name="ambient_display_screen_off_udfps_title" product="default">Fingerabdrucksensor lange drücken, um das Telefon zu entsperren</string>
     <string name="ambient_display_screen_off_udfps_title" product="tablet">Fingerabdrucksensor lange drücken, um das Tablet zu entsperren</string>
     <string name="ambient_display_screen_off_udfps_title" product="device">Fingerabdrucksensor lange drücken, um das Gerät zu entsperren</string>

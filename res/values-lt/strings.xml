@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!--  Copyright (C) 2007 The Android Open Source Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
@@ -12,7 +12,10 @@
      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
      See the License for the specific language governing permissions and
      limitations under the License.
- --><resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="yes" msgid="1999566976857398962">"Taip"</string>
     <string name="no" msgid="5541738710521607130">"Ne"</string>
     <string name="create" msgid="986997212165228751">"Kurti"</string>
@@ -21,10 +24,10 @@
     <string name="confirmation_turn_on" msgid="2979094011928347665">"Įjungti"</string>
     <string name="device_info_default" msgid="1406619232867343310">"Nežinomas"</string>
     <plurals name="show_dev_countdown" formatted="false" msgid="1646187747875476269">
-        <item quantity="one">Liko atlikti <xliff:g id="STEP_COUNT_1">%1$d</xliff:g> veiksmą ir būsite kūrėjas.</item>
-        <item quantity="few">Liko atlikti <xliff:g id="STEP_COUNT_1">%1$d</xliff:g> veiksmus ir būsite kūrėjas.</item>
-        <item quantity="many">Liko atlikti <xliff:g id="STEP_COUNT_1">%1$d</xliff:g> veiksmo ir būsite kūrėjas.</item>
-        <item quantity="other">Liko atlikti <xliff:g id="STEP_COUNT_1">%1$d</xliff:g> veiksmų ir būsite kūrėjas.</item>
+      <item quantity="one">Liko atlikti <xliff:g id="STEP_COUNT_1">%1$d</xliff:g> veiksmą ir būsite kūrėjas.</item>
+      <item quantity="few">Liko atlikti <xliff:g id="STEP_COUNT_1">%1$d</xliff:g> veiksmus ir būsite kūrėjas.</item>
+      <item quantity="many">Liko atlikti <xliff:g id="STEP_COUNT_1">%1$d</xliff:g> veiksmo ir būsite kūrėjas.</item>
+      <item quantity="other">Liko atlikti <xliff:g id="STEP_COUNT_1">%1$d</xliff:g> veiksmų ir būsite kūrėjas.</item>
     </plurals>
     <string name="show_dev_on" msgid="2840850085134853754">"Dabar esate kūrėjas!"</string>
     <string name="show_dev_already" msgid="7041756429707644630">"Nereikia, jūs jau esate kūrėjas."</string>
@@ -158,7 +161,7 @@
     <string name="date_and_time" msgid="1788358029823431692">"Data ir laikas"</string>
     <string name="choose_timezone" msgid="1450780665958642147">"Pasirinkite laiko juostą"</string>
     <!-- no translation found for intent_sender_data_label (1733806423295725392) -->
-    <skip/>
+    <skip />
     <string name="intent_sender_sendbroadcast_text" msgid="3202857258557610646">"Siųsti <xliff:g id="BROADCAST">broadcast</xliff:g>"</string>
     <string name="intent_sender_action_label" msgid="257853357827275530">"<xliff:g id="ACTION">Action</xliff:g>:"</string>
     <string name="intent_sender_startactivity_text" msgid="519934560779343541">"Pradėti <xliff:g id="ACTIVITY">activity</xliff:g>"</string>
@@ -207,10 +210,10 @@
     <string name="locale_remove_menu" msgid="3521546263421387474">"Pašalinti"</string>
     <string name="add_a_language" msgid="2126220398077503271">"Pridėti kalbą"</string>
     <plurals name="dlg_remove_locales_title" formatted="false" msgid="2845515796732609837">
-        <item quantity="one">Pašalinti pasirinktas kalbas?</item>
-        <item quantity="few">Pašalinti pasirinktas kalbas?</item>
-        <item quantity="many">Pašalinti pasirinktas kalbas?</item>
-        <item quantity="other">Pašalinti pasirinktas kalbas?</item>
+      <item quantity="one">Pašalinti pasirinktas kalbas?</item>
+      <item quantity="few">Pašalinti pasirinktas kalbas?</item>
+      <item quantity="many">Pašalinti pasirinktas kalbas?</item>
+      <item quantity="other">Pašalinti pasirinktas kalbas?</item>
     </plurals>
     <string name="dlg_remove_locales_message" msgid="8110560091134252067">"Tekstas bus rodomas kita kalba."</string>
     <string name="dlg_remove_locales_error_title" msgid="5875503658221562572">"Negalima pašalinti visų kalbų"</string>
@@ -299,10 +302,10 @@
     <string name="location_settings_primary_switch_title" msgid="8849081766644685127">"Naudoti vietovę"</string>
     <string name="location_settings_summary_location_off" msgid="4797932754681162262">"Išjungti"</string>
     <plurals name="location_settings_summary_location_on" formatted="false" msgid="1019959038518185676">
-        <item quantity="one">Įjungta – <xliff:g id="COUNT_1">%1$d</xliff:g> programa gali pasiekti vietovę</item>
-        <item quantity="few">Įjungta – <xliff:g id="COUNT_1">%1$d</xliff:g> programos gali pasiekti vietovę</item>
-        <item quantity="many">Įjungta – <xliff:g id="COUNT_1">%1$d</xliff:g> programos gali pasiekti vietovę</item>
-        <item quantity="other">Įjungta – <xliff:g id="COUNT_1">%1$d</xliff:g> programų gali pasiekti vietovę</item>
+      <item quantity="one">Įjungta – <xliff:g id="COUNT_1">%1$d</xliff:g> programa gali pasiekti vietovę</item>
+      <item quantity="few">Įjungta – <xliff:g id="COUNT_1">%1$d</xliff:g> programos gali pasiekti vietovę</item>
+      <item quantity="many">Įjungta – <xliff:g id="COUNT_1">%1$d</xliff:g> programos gali pasiekti vietovę</item>
+      <item quantity="other">Įjungta – <xliff:g id="COUNT_1">%1$d</xliff:g> programų gali pasiekti vietovę</item>
     </plurals>
     <string name="location_settings_loading_app_permission_stats" msgid="6054103701535557342">"Įkeliama…"</string>
     <string name="location_settings_footer_general" msgid="1040507068701188821">"Programos, turinčios netoliese esančių įrenginių leidimą, gali nustatyti apytikslį atstumą iki prijungtų įrenginių."</string>
@@ -330,11 +333,16 @@
     <string name="security_settings_face_enroll_education_title" msgid="6448806884597691208">"Kaip nustatyti atrakinimą pagal veidą"</string>
     <string name="security_settings_face_enroll_education_title_accessibility" msgid="3701874093226957891">"Atrakinimo pagal veidą nustatymas"</string>
     <string name="security_settings_face_enroll_education_title_unlock_disabled" msgid="8810954233979716906">"Autentifikavimas naudojant veidą"</string>
+    <string name="security_settings_face_enroll_education_message" msgid="4308030157487176799"></string>
+    <string name="security_settings_face_enroll_education_message_accessibility" msgid="1986648712195281391"></string>
     <string name="security_settings_face_enroll_education_start" msgid="8830924400907195590">"Pradėti"</string>
     <string name="security_settings_face_enroll_education_accessibility_dialog_message" msgid="2965952386172202665">"Jei neįgaliesiems pritaikyta atrakinimo pagal veidą funkcija išjungta, kai kurie nustatymo veiksmai gali tinkamai neveikti su „TalkBack“."</string>
     <string name="security_settings_face_enroll_education_accessibility_dialog_negative" msgid="7872647360361245461">"Grįžti"</string>
     <string name="security_settings_face_enroll_education_accessibility_dialog_positive" msgid="3148077647572203458">"Tęsti sąranką"</string>
     <string name="security_settings_face_enroll_introduction_accessibility" msgid="5748221179069430975">"Naud. pritaikymo neįgal. sąranką"</string>
+    <string name="security_settings_face_enroll_introduction_accessibility_expanded" msgid="6763509014732769185"></string>
+    <string name="security_settings_face_enroll_introduction_accessibility_diversity" msgid="2774962371839179206"></string>
+    <string name="security_settings_face_enroll_introduction_accessibility_vision" msgid="7700394302162170363"></string>
     <string name="security_settings_face_enroll_introduction_cancel" msgid="7551159644361639436">"Atšaukti"</string>
     <string name="security_settings_face_enroll_introduction_no_thanks" msgid="1820618982738898717">"Ačiū, ne"</string>
     <string name="security_settings_face_enroll_introduction_agree" msgid="6319476573697497750">"Sutinku"</string>
@@ -346,6 +354,21 @@
     <string name="security_settings_face_enroll_introduction_consent_message" msgid="866117500419055444">"Leiskite vaikui atrakinti telefoną ar patvirtinti savo tapatybę pagal veidą. Tai atliekama vaikui prisijungiant prie programų, patvirtinant pirkinį ir pan."</string>
     <string name="security_settings_face_enroll_introduction_message_unlock_disabled" msgid="5841976283789481311">"Atrakinkite telefoną ir patvirtinkite pirkimo operacijas veidu.\n\nPastaba: negalite atrakinti šio įrenginio veidu. Norėdami gauti daugiau informacijos, susisiekite su organizacijos administratoriumi."</string>
     <string name="security_settings_face_enroll_introduction_message_setup" msgid="765965418187421753">"Naudokite veidą, norėdami atrakinti telefoną, įgalioti pirkimo veiksmus arba prisijungti prie programų"</string>
+    <string name="security_settings_face_enroll_introduction_info_title" msgid="7120796118179406944"></string>
+    <string name="security_settings_face_enroll_introduction_info_glasses" msgid="2733870453868907471"></string>
+    <string name="security_settings_face_enroll_introduction_info_consent_glasses" msgid="6303917184145586880"></string>
+    <string name="security_settings_face_enroll_introduction_info_looking" msgid="6502109133251718131"></string>
+    <string name="security_settings_face_enroll_introduction_info_consent_looking" msgid="1911530177804950718"></string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure" msgid="6496505354480525745"></string>
+    <string name="security_settings_face_enroll_introduction_info_gaze" msgid="143556725395884850"></string>
+    <string name="security_settings_face_enroll_introduction_info_consent_gaze" msgid="6301647369911879888"></string>
+    <string name="security_settings_face_enroll_introduction_how_title" msgid="3680193263037835600"></string>
+    <string name="security_settings_face_enroll_introduction_how_message" msgid="4192656589626667797"></string>
+    <string name="security_settings_face_enroll_introduction_how_consent_message" msgid="9028182363896853946"></string>
+    <string name="security_settings_face_enroll_introduction_control_title" msgid="4536951089583821051"></string>
+    <string name="security_settings_face_enroll_introduction_control_consent_title" msgid="5892729331412694759"></string>
+    <string name="security_settings_face_enroll_introduction_control_message" msgid="4818463420573540379"></string>
+    <string name="security_settings_face_enroll_introduction_control_consent_message" msgid="4658082872829249850"></string>
     <string name="security_settings_face_enroll_repeat_title" msgid="4446229670377418717">"Veidas turi būti apskritimo centre"</string>
     <string name="security_settings_face_enroll_enrolling_skip" msgid="5568617401632528567">"Praleisti"</string>
     <string name="face_add_max" msgid="4578405795494514876">"Galite pridėti daugiausia tiek veidų: <xliff:g id="COUNT">%d</xliff:g>"</string>
@@ -385,11 +408,12 @@
     <string name="fingerprint_add_title" msgid="1837610443487902050">"Pridėti piršto antspaudą"</string>
     <string name="fingerprint_enable_keyguard_toggle_title" msgid="5451094461919440992">"ekrano užraktas"</string>
     <plurals name="security_settings_fingerprint_preference_summary" formatted="false" msgid="6897454766137108776">
-        <item quantity="one">Pridėtas <xliff:g id="COUNT">%1$d</xliff:g> kontrolinis kodas</item>
-        <item quantity="few">Pridėti <xliff:g id="COUNT">%1$d</xliff:g> kontroliniai kodai</item>
-        <item quantity="many">Pridėta <xliff:g id="COUNT">%1$d</xliff:g> kontrolinio kodo</item>
-        <item quantity="other">Pridėta <xliff:g id="COUNT">%1$d</xliff:g> kontrolinių kodų</item>
+      <item quantity="one">Pridėtas <xliff:g id="COUNT">%1$d</xliff:g> kontrolinis kodas</item>
+      <item quantity="few">Pridėti <xliff:g id="COUNT">%1$d</xliff:g> kontroliniai kodai</item>
+      <item quantity="many">Pridėta <xliff:g id="COUNT">%1$d</xliff:g> kontrolinio kodo</item>
+      <item quantity="other">Pridėta <xliff:g id="COUNT">%1$d</xliff:g> kontrolinių kodų</item>
     </plurals>
+    <string name="security_settings_fingerprint_preference_summary_none" msgid="1044059475710838504"></string>
     <string name="security_settings_fingerprint_enroll_introduction_title" msgid="7931650601996313070">"Kontrolinio kodo nustatymas"</string>
     <string name="security_settings_fingerprint_enroll_consent_introduction_title" msgid="2278592030102282364">"Atrakinimo kontroliniu kodu leidimas"</string>
     <string name="security_settings_fingerprint_enroll_introduction_title_unlock_disabled" msgid="1911710308293783998">"Piršto antspaudo naudojimas"</string>
@@ -419,6 +443,7 @@
     <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_4" msgid="4983770600405797515">"Jūs ir jūsų vaikas galite bet kada ištrinti kontrolinio kodo vaizdus ir modelį arba išjungti atrakinimą kontroliniu kodu „Nustatymų“ skiltyje. Kontrolinio kodo vaizdai ir modeliai saugomi telefone, kol ištrinami."</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_5" msgid="2018885671994058605">"Jūsų telefonas gali būti atrakinamas, kai to neketinate atlikti, pvz., kam nors palaikius jį prie jūsų piršto."</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_5" msgid="8356551505082794682">"Jūsų vaiko telefonas gali būti atrakinamas, kai vaikas to neketina atlikti, pvz., kam nors palaikius jį prie vaiko piršto."</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more" msgid="5856010507790137793"></string>
     <string name="security_settings_fingerprint_v2_enroll_acquire_try_adjusting" msgid="3855444121278320304">"Kaskart šiek tiek pakeiskite piršto poziciją"</string>
     <string name="security_settings_fingerprint_v2_enroll_acquire_partially_detected" msgid="8330287007361798356">"Piktograma turi būti ties kontrolinio kodo viduriu"</string>
     <string name="security_settings_fingerprint_v2_enroll_acquire_already_enrolled" msgid="8616678833080422946">"Šis kontrolinis kodas jau pridėtas"</string>
@@ -589,6 +614,9 @@
     <string name="suggested_lock_settings_summary" product="device" msgid="8479766049078378225">"Nustatykite ekrano užraktą, kad apsaugotumėte įrenginį"</string>
     <string name="suggested_lock_settings_summary" product="default" msgid="2443273582716671033">"Nustatykite ekrano užraktą, kad apsaugotumėte telefoną"</string>
     <string name="suggested_fingerprint_lock_settings_title" msgid="3140266181874137984">"Įtraukite kontrolinį atrakinimo kodą"</string>
+    <string name="suggested_fingerprint_lock_settings_summary" product="tablet" msgid="1040265358906410746"></string>
+    <string name="suggested_fingerprint_lock_settings_summary" product="device" msgid="1040265358906410746"></string>
+    <string name="suggested_fingerprint_lock_settings_summary" product="default" msgid="1040265358906410746"></string>
     <string name="lock_settings_picker_title" msgid="9219376327364915334">"Pasir. ekrano užrak."</string>
     <string name="lock_settings_picker_new_lock_title" msgid="3113042086804290919">"Pasirinkite ekrano užraktą"</string>
     <string name="lock_settings_picker_update_lock_title" msgid="536853138943415927">"Pasir. naują ekr. užraktą"</string>
@@ -614,6 +642,7 @@
     <string name="unlock_set_unlock_launch_picker_change_summary" msgid="6023813780512501969">"Keisti ar išjungti modelio, PIN kodo ar slaptažodžio saugą"</string>
     <string name="unlock_set_unlock_launch_picker_enable_summary" msgid="1699993191343299179">"Pasirinkite ekrano užrakinimo metodą"</string>
     <string name="unlock_set_unlock_off_title" msgid="2831957685685921667">"Nėra"</string>
+    <string name="unlock_set_unlock_off_summary" msgid="4578319976164001322"></string>
     <string name="unlock_set_unlock_none_title" msgid="2844029875174409728">"Perbraukti"</string>
     <string name="unlock_set_unlock_none_summary" msgid="641298008390890152">"Nesaugoma"</string>
     <string name="unlock_set_unlock_pattern_title" msgid="8224895208452995332">"Piešinys"</string>
@@ -713,29 +742,29 @@
     <string name="lock_failed_attempts_now_wiping_profile" msgid="3171880997211568208">"Per daug netinkamų bandymų. Šis darbo profilis ir jo duomenys bus ištrinti."</string>
     <string name="lock_failed_attempts_now_wiping_dialog_dismiss" msgid="170155081899679669">"Atsisakyti"</string>
     <plurals name="lockpassword_password_too_short" formatted="false" msgid="2192234965414232157">
-        <item quantity="one">Turi būti bent <xliff:g id="COUNT_1">%d</xliff:g> simbolis</item>
-        <item quantity="few">Turi būti bent <xliff:g id="COUNT_1">%d</xliff:g> simboliai</item>
-        <item quantity="many">Turi būti bent <xliff:g id="COUNT_1">%d</xliff:g> simbolio</item>
-        <item quantity="other">Turi būti bent <xliff:g id="COUNT_1">%d</xliff:g> simbolių</item>
+      <item quantity="one">Turi būti bent <xliff:g id="COUNT_1">%d</xliff:g> simbolis</item>
+      <item quantity="few">Turi būti bent <xliff:g id="COUNT_1">%d</xliff:g> simboliai</item>
+      <item quantity="many">Turi būti bent <xliff:g id="COUNT_1">%d</xliff:g> simbolio</item>
+      <item quantity="other">Turi būti bent <xliff:g id="COUNT_1">%d</xliff:g> simbolių</item>
     </plurals>
     <plurals name="lockpassword_pin_too_short" formatted="false" msgid="6817086810898414162">
-        <item quantity="one">PIN kode turi būti bent <xliff:g id="COUNT_1">%d</xliff:g> skaitmuo</item>
-        <item quantity="few">PIN kode turi būti bent <xliff:g id="COUNT_1">%d</xliff:g> skaitmenys</item>
-        <item quantity="many">PIN kode turi būti bent <xliff:g id="COUNT_1">%d</xliff:g> skaitmens</item>
-        <item quantity="other">PIN kode turi būti bent <xliff:g id="COUNT_1">%d</xliff:g> skaitmenų</item>
+      <item quantity="one">PIN kode turi būti bent <xliff:g id="COUNT_1">%d</xliff:g> skaitmuo</item>
+      <item quantity="few">PIN kode turi būti bent <xliff:g id="COUNT_1">%d</xliff:g> skaitmenys</item>
+      <item quantity="many">PIN kode turi būti bent <xliff:g id="COUNT_1">%d</xliff:g> skaitmens</item>
+      <item quantity="other">PIN kode turi būti bent <xliff:g id="COUNT_1">%d</xliff:g> skaitmenų</item>
     </plurals>
     <string name="lockpassword_continue_label" msgid="2507983991979547816">"Tęsti"</string>
     <plurals name="lockpassword_password_too_long" formatted="false" msgid="8118091957172967677">
-        <item quantity="one">Turi būti mažiau nei <xliff:g id="NUMBER_1">%d</xliff:g> simbolis</item>
-        <item quantity="few">Turi būti mažiau nei <xliff:g id="NUMBER_1">%d</xliff:g> simboliai</item>
-        <item quantity="many">Turi būti mažiau nei <xliff:g id="NUMBER_1">%d</xliff:g> simbolio</item>
-        <item quantity="other">Turi būti mažiau nei <xliff:g id="NUMBER_1">%d</xliff:g> simbolių</item>
+      <item quantity="one">Turi būti mažiau nei <xliff:g id="NUMBER_1">%d</xliff:g> simbolis</item>
+      <item quantity="few">Turi būti mažiau nei <xliff:g id="NUMBER_1">%d</xliff:g> simboliai</item>
+      <item quantity="many">Turi būti mažiau nei <xliff:g id="NUMBER_1">%d</xliff:g> simbolio</item>
+      <item quantity="other">Turi būti mažiau nei <xliff:g id="NUMBER_1">%d</xliff:g> simbolių</item>
     </plurals>
     <plurals name="lockpassword_pin_too_long" formatted="false" msgid="8706992338720310765">
-        <item quantity="one">Turi būti mažiau nei <xliff:g id="NUMBER_1">%d</xliff:g> skaitmuo</item>
-        <item quantity="few">Turi būti mažiau nei <xliff:g id="NUMBER_1">%d</xliff:g> skaitmenys</item>
-        <item quantity="many">Turi būti mažiau nei <xliff:g id="NUMBER_1">%d</xliff:g> skaitmens</item>
-        <item quantity="other">Turi būti mažiau nei <xliff:g id="NUMBER_1">%d</xliff:g> skaitmenų</item>
+      <item quantity="one">Turi būti mažiau nei <xliff:g id="NUMBER_1">%d</xliff:g> skaitmuo</item>
+      <item quantity="few">Turi būti mažiau nei <xliff:g id="NUMBER_1">%d</xliff:g> skaitmenys</item>
+      <item quantity="many">Turi būti mažiau nei <xliff:g id="NUMBER_1">%d</xliff:g> skaitmens</item>
+      <item quantity="other">Turi būti mažiau nei <xliff:g id="NUMBER_1">%d</xliff:g> skaitmenų</item>
     </plurals>
     <string name="lockpassword_pin_recently_used" msgid="6650277060998923465">"Įrenginio administratorius neleidžia naudoti pastarojo PIN kodo"</string>
     <string name="lockpassword_illegal_character" msgid="3434031212215886433">"Negali būti netinkamų simbolių"</string>
@@ -743,46 +772,46 @@
     <string name="lockpassword_password_requires_digit" msgid="312518567592683795">"Turi būti bent vienas skaitmuo"</string>
     <string name="lockpassword_password_requires_symbol" msgid="6178512486154701321">"Turi būti bent vienas simbolis"</string>
     <plurals name="lockpassword_password_requires_letters" formatted="false" msgid="2385916409676839024">
-        <item quantity="one">Turi būti bent <xliff:g id="COUNT">%d</xliff:g> raidė</item>
-        <item quantity="few">Turi būti bent <xliff:g id="COUNT">%d</xliff:g> raidės</item>
-        <item quantity="many">Turi būti bent <xliff:g id="COUNT">%d</xliff:g> raidės</item>
-        <item quantity="other">Turi būti bent <xliff:g id="COUNT">%d</xliff:g> raidžių</item>
+      <item quantity="one">Turi būti bent <xliff:g id="COUNT">%d</xliff:g> raidė</item>
+      <item quantity="few">Turi būti bent <xliff:g id="COUNT">%d</xliff:g> raidės</item>
+      <item quantity="many">Turi būti bent <xliff:g id="COUNT">%d</xliff:g> raidės</item>
+      <item quantity="other">Turi būti bent <xliff:g id="COUNT">%d</xliff:g> raidžių</item>
     </plurals>
     <plurals name="lockpassword_password_requires_lowercase" formatted="false" msgid="2057467885488612701">
-        <item quantity="one">Turi būti bent <xliff:g id="COUNT">%d</xliff:g> mažoji raidė</item>
-        <item quantity="few">Turi būti bent <xliff:g id="COUNT">%d</xliff:g> mažosios raidės</item>
-        <item quantity="many">Turi būti bent <xliff:g id="COUNT">%d</xliff:g> mažosios raidės</item>
-        <item quantity="other">Turi būti bent <xliff:g id="COUNT">%d</xliff:g> mažųjų raidžių</item>
+      <item quantity="one">Turi būti bent <xliff:g id="COUNT">%d</xliff:g> mažoji raidė</item>
+      <item quantity="few">Turi būti bent <xliff:g id="COUNT">%d</xliff:g> mažosios raidės</item>
+      <item quantity="many">Turi būti bent <xliff:g id="COUNT">%d</xliff:g> mažosios raidės</item>
+      <item quantity="other">Turi būti bent <xliff:g id="COUNT">%d</xliff:g> mažųjų raidžių</item>
     </plurals>
     <plurals name="lockpassword_password_requires_uppercase" formatted="false" msgid="4541266279643052025">
-        <item quantity="one">Turi būti bent <xliff:g id="COUNT">%d</xliff:g> didžioji raidė</item>
-        <item quantity="few">Turi būti bent <xliff:g id="COUNT">%d</xliff:g> didžiosios raidės</item>
-        <item quantity="many">Turi būti bent <xliff:g id="COUNT">%d</xliff:g> didžiosios raidės</item>
-        <item quantity="other">Turi būti bent <xliff:g id="COUNT">%d</xliff:g> didžiųjų raidžių</item>
+      <item quantity="one">Turi būti bent <xliff:g id="COUNT">%d</xliff:g> didžioji raidė</item>
+      <item quantity="few">Turi būti bent <xliff:g id="COUNT">%d</xliff:g> didžiosios raidės</item>
+      <item quantity="many">Turi būti bent <xliff:g id="COUNT">%d</xliff:g> didžiosios raidės</item>
+      <item quantity="other">Turi būti bent <xliff:g id="COUNT">%d</xliff:g> didžiųjų raidžių</item>
     </plurals>
     <plurals name="lockpassword_password_requires_numeric" formatted="false" msgid="70617964591376248">
-        <item quantity="one">Turi būti bent <xliff:g id="COUNT">%d</xliff:g> skaitmuo</item>
-        <item quantity="few">Turi būti bent <xliff:g id="COUNT">%d</xliff:g> skaitmenys</item>
-        <item quantity="many">Turi būti bent <xliff:g id="COUNT">%d</xliff:g> skaitmens</item>
-        <item quantity="other">Turi būti bent <xliff:g id="COUNT">%d</xliff:g> skaitmenų</item>
+      <item quantity="one">Turi būti bent <xliff:g id="COUNT">%d</xliff:g> skaitmuo</item>
+      <item quantity="few">Turi būti bent <xliff:g id="COUNT">%d</xliff:g> skaitmenys</item>
+      <item quantity="many">Turi būti bent <xliff:g id="COUNT">%d</xliff:g> skaitmens</item>
+      <item quantity="other">Turi būti bent <xliff:g id="COUNT">%d</xliff:g> skaitmenų</item>
     </plurals>
     <plurals name="lockpassword_password_requires_symbols" formatted="false" msgid="7981236881269921943">
-        <item quantity="one">Turi būti bent <xliff:g id="COUNT">%d</xliff:g> specialusis simbolis</item>
-        <item quantity="few">Turi būti bent <xliff:g id="COUNT">%d</xliff:g> specialieji simboliai</item>
-        <item quantity="many">Turi būti bent <xliff:g id="COUNT">%d</xliff:g> specialiojo simbolio</item>
-        <item quantity="other">Turi būti bent <xliff:g id="COUNT">%d</xliff:g> specialiųjų simbolių</item>
+      <item quantity="one">Turi būti bent <xliff:g id="COUNT">%d</xliff:g> specialusis simbolis</item>
+      <item quantity="few">Turi būti bent <xliff:g id="COUNT">%d</xliff:g> specialieji simboliai</item>
+      <item quantity="many">Turi būti bent <xliff:g id="COUNT">%d</xliff:g> specialiojo simbolio</item>
+      <item quantity="other">Turi būti bent <xliff:g id="COUNT">%d</xliff:g> specialiųjų simbolių</item>
     </plurals>
     <plurals name="lockpassword_password_requires_nonletter" formatted="false" msgid="1567877061888948467">
-        <item quantity="one">Turi būti bent <xliff:g id="COUNT">%d</xliff:g> neraidinis simbolis</item>
-        <item quantity="few">Turi būti bent <xliff:g id="COUNT">%d</xliff:g> neraidiniai simboliai</item>
-        <item quantity="many">Turi būti bent <xliff:g id="COUNT">%d</xliff:g> neraidinio simbolio</item>
-        <item quantity="other">Turi būti bent <xliff:g id="COUNT">%d</xliff:g> neraidinių simbolių</item>
+      <item quantity="one">Turi būti bent <xliff:g id="COUNT">%d</xliff:g> neraidinis simbolis</item>
+      <item quantity="few">Turi būti bent <xliff:g id="COUNT">%d</xliff:g> neraidiniai simboliai</item>
+      <item quantity="many">Turi būti bent <xliff:g id="COUNT">%d</xliff:g> neraidinio simbolio</item>
+      <item quantity="other">Turi būti bent <xliff:g id="COUNT">%d</xliff:g> neraidinių simbolių</item>
     </plurals>
     <plurals name="lockpassword_password_requires_nonnumerical" formatted="false" msgid="5056743974888384475">
-        <item quantity="one">Turi būti bent <xliff:g id="COUNT">%d</xliff:g> neskaitinis simbolis</item>
-        <item quantity="few">Turi būti bent <xliff:g id="COUNT">%d</xliff:g> neskaitiniai simboliai</item>
-        <item quantity="many">Turi būti bent <xliff:g id="COUNT">%d</xliff:g> neskaitinio simbolio</item>
-        <item quantity="other">Turi būti bent <xliff:g id="COUNT">%d</xliff:g> neskaitinių simbolių</item>
+      <item quantity="one">Turi būti bent <xliff:g id="COUNT">%d</xliff:g> neskaitinis simbolis</item>
+      <item quantity="few">Turi būti bent <xliff:g id="COUNT">%d</xliff:g> neskaitiniai simboliai</item>
+      <item quantity="many">Turi būti bent <xliff:g id="COUNT">%d</xliff:g> neskaitinio simbolio</item>
+      <item quantity="other">Turi būti bent <xliff:g id="COUNT">%d</xliff:g> neskaitinių simbolių</item>
     </plurals>
     <string name="lockpassword_password_recently_used" msgid="5341218079730167191">"Įrenginio administratorius neleidžia naudoti pastarojo slaptažodžio"</string>
     <string name="lockpassword_pin_no_sequential_digits" msgid="5843639256988031272">"Didėjanti, mažėjanti ar pasikartojanti skaitmenų seka neleidžiama"</string>
@@ -796,19 +825,19 @@
     <string name="manage_device_admin" msgid="1044620606203916275">"Įrenginio admin. progr."</string>
     <string name="number_of_device_admins_none" msgid="152926922020437312">"Nėra jokių aktyvių programų"</string>
     <plurals name="number_of_device_admins" formatted="false" msgid="2528735319390151989">
-        <item quantity="one"><xliff:g id="COUNT_1">%d</xliff:g> aktyvi programa</item>
-        <item quantity="few"><xliff:g id="COUNT_1">%d</xliff:g> aktyvios programos</item>
-        <item quantity="many"><xliff:g id="COUNT_1">%d</xliff:g> aktyvios programos</item>
-        <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> aktyvių programų</item>
+      <item quantity="one"><xliff:g id="COUNT_1">%d</xliff:g> aktyvi programa</item>
+      <item quantity="few"><xliff:g id="COUNT_1">%d</xliff:g> aktyvios programos</item>
+      <item quantity="many"><xliff:g id="COUNT_1">%d</xliff:g> aktyvios programos</item>
+      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> aktyvių programų</item>
     </plurals>
     <string name="manage_trust_agents" msgid="6410149930029992356">"Patikimos priemonės"</string>
     <string name="disabled_because_no_backup_security" msgid="4998095356607488854">"Jei norite naudoti, pirmiausia nustatykite ekrano užraktą"</string>
     <string name="manage_trust_agents_summary" msgid="6423843123607674286">"Nėra"</string>
     <plurals name="manage_trust_agents_summary_on" formatted="false" msgid="5438047398376802735">
-        <item quantity="one"><xliff:g id="COUNT">%d</xliff:g> aktyvi patikima priemonė</item>
-        <item quantity="few"><xliff:g id="COUNT">%d</xliff:g> aktyvios patikimos priemonės</item>
-        <item quantity="many"><xliff:g id="COUNT">%d</xliff:g> aktyvios patikimos priemonės</item>
-        <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> aktyvių patikimų priemonių</item>
+      <item quantity="one"><xliff:g id="COUNT">%d</xliff:g> aktyvi patikima priemonė</item>
+      <item quantity="few"><xliff:g id="COUNT">%d</xliff:g> aktyvios patikimos priemonės</item>
+      <item quantity="many"><xliff:g id="COUNT">%d</xliff:g> aktyvios patikimos priemonės</item>
+      <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> aktyvių patikimų priemonių</item>
     </plurals>
     <string name="bluetooth_quick_toggle_title" msgid="5955341060378240781">"Bluetooth"</string>
     <string name="bluetooth_quick_toggle_summary" msgid="5257744297562880017">"Įjungti „Bluetooth“"</string>
@@ -827,6 +856,7 @@
     <string name="bluetooth_incoming_pairing_msg" msgid="1068123527866596779">"Iš:&lt;br&gt;&lt;b&gt;<xliff:g id="DEVICE_NAME">%1$s</xliff:g>&lt;/b&gt;&lt;br&gt;&lt;br&gt;Poruoti su šiuo įrenginiu?"</string>
     <string name="bluetooth_display_passkey_pin_msg" msgid="8672803845151786521">"Susieti su: <xliff:g id="BOLD1_0">&lt;br&gt;&lt;b&gt;</xliff:g><xliff:g id="DEVICE_NAME">%1$s</xliff:g><xliff:g id="END_BOLD1">&lt;/b&gt;&lt;br&gt;&lt;br&gt;</xliff:g> Įveskite: <xliff:g id="BOLD2_1">&lt;br&gt;&lt;b&gt;</xliff:g><xliff:g id="PASSKEY">%2$s</xliff:g><xliff:g id="END_BOLD2">&lt;/b&gt;</xliff:g>, tada paspauskite „Grįžti“ arba „Enter“."</string>
     <string name="bluetooth_pairing_shares_phonebook" msgid="4329325125260724843">"Leisti pasiekti jūsų kontaktus ir skambučių istoriją"</string>
+    <string name="bluetooth_error_title" msgid="2284738188253690278"></string>
     <string name="bluetooth_connecting_error_message" msgid="3941893154784152112">"Nepavyko prisijungti prie „<xliff:g id="DEVICE_NAME">%1$s</xliff:g>“."</string>
     <string name="bluetooth_preference_scan_title" msgid="3460316252463771851">"Nuskaityti ieškant įrenginių"</string>
     <string name="bluetooth_search_for_devices" msgid="6516902340975407648">"Atnaujinti"</string>
@@ -1118,22 +1148,22 @@
     <string name="wifi_forget_dialog_title" msgid="4363829200968563164">"Pamiršti tinklą?"</string>
     <string name="wifi_forget_dialog_message" msgid="8419499588321940243">"Visi šio tinklo slaptažodžiai turi būti ištrinti"</string>
     <plurals name="wifi_saved_access_points_summary" formatted="false" msgid="2802436466732147888">
-        <item quantity="one">%d tinklas</item>
-        <item quantity="few">%d tinklai</item>
-        <item quantity="many">%d tinklo</item>
-        <item quantity="other">%d tinklų</item>
+      <item quantity="one">%d tinklas</item>
+      <item quantity="few">%d tinklai</item>
+      <item quantity="many">%d tinklo</item>
+      <item quantity="other">%d tinklų</item>
     </plurals>
     <plurals name="wifi_saved_passpoint_access_points_summary" formatted="false" msgid="5802057518058840450">
-        <item quantity="one">%d prenumerata</item>
-        <item quantity="few">%d prenumeratos</item>
-        <item quantity="many">%d prenumeratos</item>
-        <item quantity="other">%d prenumeratų</item>
+      <item quantity="one">%d prenumerata</item>
+      <item quantity="few">%d prenumeratos</item>
+      <item quantity="many">%d prenumeratos</item>
+      <item quantity="other">%d prenumeratų</item>
     </plurals>
     <plurals name="wifi_saved_all_access_points_summary" formatted="false" msgid="5125849180309374451">
-        <item quantity="one">%d tinklas ir prenumerata</item>
-        <item quantity="few">%d tinklai ir prenumeratos</item>
-        <item quantity="many">%d tinklų ir prenumeratų</item>
-        <item quantity="other">%d tinklų ir prenumeratų</item>
+      <item quantity="one">%d tinklas ir prenumerata</item>
+      <item quantity="few">%d tinklai ir prenumeratos</item>
+      <item quantity="many">%d tinklų ir prenumeratų</item>
+      <item quantity="other">%d tinklų ir prenumeratų</item>
     </plurals>
     <string name="wifi_advanced_titlebar" msgid="1234150304285575798">"Išplėstinis „Wi-Fi“"</string>
     <string name="wifi_advanced_ssid_title" msgid="1561437650193980185">"SSID"</string>
@@ -1224,21 +1254,22 @@
     <string name="wifi_calling_mode_dialog_title" msgid="944146521898592440">"Skambinimo nuostata"</string>
     <string name="wifi_calling_roaming_mode_title" msgid="7703305991991520773">"Tarptinklinio ryšio nuostata"</string>
     <!-- no translation found for wifi_calling_roaming_mode_summary (6061631305384464179) -->
-    <skip/>
+    <skip />
     <string name="wifi_calling_roaming_mode_dialog_title" msgid="5382466713784067077">"Tarptinklinio ryšio nuostata"</string>
-    <string-array name="wifi_calling_mode_choices_v2">
-        <item msgid="6052353275413974742">"„Wi-Fi“ ryšys"</item>
-        <item msgid="8622872038388687383">"Mobiliojo ryšio tinklas"</item>
-        <item msgid="3027927219952052398">"Tik „Wi-Fi“ ryšys"</item>
-    </string-array>
-    <string-array name="wifi_calling_mode_choices_v2_without_wifi_only">
-        <item msgid="588620799769664461">"„Wi-Fi“ ryšys"</item>
-        <item msgid="7566603075659706590">"Mobiliojo ryšio tinklas"</item>
-    </string-array>
+  <string-array name="wifi_calling_mode_choices_v2">
+    <item msgid="6052353275413974742">"„Wi-Fi“ ryšys"</item>
+    <item msgid="8622872038388687383">"Mobiliojo ryšio tinklas"</item>
+    <item msgid="3027927219952052398">"Tik „Wi-Fi“ ryšys"</item>
+  </string-array>
+  <string-array name="wifi_calling_mode_choices_v2_without_wifi_only">
+    <item msgid="588620799769664461">"„Wi-Fi“ ryšys"</item>
+    <item msgid="7566603075659706590">"Mobiliojo ryšio tinklas"</item>
+  </string-array>
     <string name="wifi_calling_mode_wifi_preferred_summary" msgid="3240387177966098351">"Jei „Wi‑Fi“ nepasiekiamas, naudokite mobiliojo ryšio tinklą"</string>
     <string name="wifi_calling_mode_cellular_preferred_summary" msgid="3746914244902314059">"Jei mobiliojo ryšio tinklas nepasiekiamas, naudoti „Wi‑Fi“"</string>
     <string name="wifi_calling_mode_wifi_only_summary" msgid="3155660680014892641">"Skambinimas naudojant „Wi-Fi“. Nutrūkus „Wi‑Fi“ skambutis bus baigtas."</string>
     <string name="wifi_calling_off_explanation" msgid="6295526820826322895">"Kai „Wi-Fi“ skambinimas įjungtas, telefonas gali nukreipti skambučius per „Wi-Fi“ tinklus arba operatoriaus tinklą, atsižvelgiant į jūsų nuostatas ir stipresnį signalą. Prieš įjungdami šią funkciją, pasikonsultuokite su operatoriumi dėl mokesčių ir kitos išsamios informacijos.<xliff:g id="ADDITIONAL_TEXT">%1$s</xliff:g>"</string>
+    <string name="wifi_calling_off_explanation_2" msgid="3487475808574416183"></string>
     <string name="emergency_address_title" msgid="3490633500025717573">"Adresas prireikus pagalbos"</string>
     <string name="emergency_address_summary" msgid="3022628750270626473">"Naudojama kaip vietos informacija, kai skambinate pagalbos numeriu naudodami „Wi-Fi“"</string>
     <string name="private_dns_help_message" msgid="851221502063782306"><annotation id="url">"Sužinokite daugiau"</annotation>" apie privataus DNS funkcijas"</string>
@@ -1340,6 +1371,7 @@
     <string name="auto_brightness_disclaimer" msgid="1868395832774087351">"Optimizuokite šviesumo lygį pagal esamą šviesą. Kai ši funkcija įjungta, vis tiek galite laikinai koreguoti šviesumą."</string>
     <string name="auto_brightness_description" msgid="6807117118142381193">"Ekrano šviesumas automatiškai prisitaikys prie jūsų aplinkos ir veiklos. Galite šliaužiklį perkelti patys, kad prisitaikantis šviesumas įsimintų jūsų nuostatas."</string>
     <string name="display_white_balance_title" msgid="2624544323029364713">"Pateikti baltos spalv. balansą"</string>
+    <string name="display_white_balance_summary" msgid="7625456704950209050"></string>
     <string name="peak_refresh_rate_title" msgid="1878771412897140903">"Ekrano glodinimas"</string>
     <string name="peak_refresh_rate_summary" msgid="1527087897198455042">"Automatiškai padidinamas kai kurio turinio atnaujinimo dažnis nuo 60 iki 90 Hz. Vartojama daugiau akumuliatoriaus energijos."</string>
     <string name="force_high_refresh_rate_toggle" msgid="3325789621928312050">"Priverstinai nustatyti didžiausią atnaujinimo dažnį"</string>
@@ -1475,14 +1507,15 @@
     <string name="sim_preferred_message" msgid="6004009449266648351">"„<xliff:g id="NEW_SIM">%1$s</xliff:g>“ yra vienintelė SIM kortelė įrenginyje. Ar norite naudoti šią SIM kortelę mobiliojo ryšio duomenims, skambučiams ir SMS pranešimams?"</string>
     <string name="wrong_pin_code_pukked" msgid="3414172752791445033">"Netinkamas SIM kortelės PIN kodas. Reikės susisiekti su operatoriumi, kad atrakintų įrenginį."</string>
     <plurals name="wrong_pin_code" formatted="false" msgid="4054088588731305475">
-        <item quantity="one">Netinkamas SIM kortelės PIN kodas. Liko <xliff:g id="NUMBER_1">%d</xliff:g> bandymas.</item>
-        <item quantity="few">Netinkamas SIM kortelės PIN kodas. Liko <xliff:g id="NUMBER_1">%d</xliff:g> bandymai.</item>
-        <item quantity="many">Netinkamas SIM kortelės PIN kodas. Liko <xliff:g id="NUMBER_1">%d</xliff:g> bandymo.</item>
-        <item quantity="other">Netinkamas SIM kortelės PIN kodas. Liko <xliff:g id="NUMBER_1">%d</xliff:g> bandymų.</item>
+      <item quantity="one">Netinkamas SIM kortelės PIN kodas. Liko <xliff:g id="NUMBER_1">%d</xliff:g> bandymas.</item>
+      <item quantity="few">Netinkamas SIM kortelės PIN kodas. Liko <xliff:g id="NUMBER_1">%d</xliff:g> bandymai.</item>
+      <item quantity="many">Netinkamas SIM kortelės PIN kodas. Liko <xliff:g id="NUMBER_1">%d</xliff:g> bandymo.</item>
+      <item quantity="other">Netinkamas SIM kortelės PIN kodas. Liko <xliff:g id="NUMBER_1">%d</xliff:g> bandymų.</item>
     </plurals>
     <string name="wrong_pin_code_one" msgid="6924852214263071441">"Netinkamas SIM kortelės PIN kodas. Jums liko vienas bandymas, paskui reikės susisiekti su operatoriumi, kad atrakintų įrenginį."</string>
     <string name="pin_failed" msgid="3726505565797352255">"Nepavyko atlikti SIM kortelės PIN kodo operacijos."</string>
     <string name="system_update_settings_list_item_title" msgid="3398346836439366350">"Sistemos naujiniai"</string>
+    <string name="system_update_settings_list_item_summary" msgid="6703752298349642101"></string>
     <string name="firmware_version" msgid="1606901586501447275">"„Android“ versija"</string>
     <string name="security_patch" msgid="4071756145347865382">"„Android“ saugos naujinys"</string>
     <string name="model_info" msgid="8997566254717810904">"Modelis"</string>
@@ -1561,6 +1594,8 @@
     <string name="sd_insert_summary" product="default" msgid="5949168259622002192">"Įdėti SD kortelę, kad ji būtų įmontuota"</string>
     <string name="sd_mount" product="nosdcard" msgid="8305985249945415150">"Prijungti USB atmintinę"</string>
     <string name="sd_mount" product="default" msgid="5279813999455776169">"Įdėti SD kortelę"</string>
+    <string name="sd_mount_summary" product="nosdcard" msgid="2190410240845521205"></string>
+    <string name="sd_mount_summary" product="default" msgid="2190410240845521205"></string>
     <string name="sd_format" product="nosdcard" msgid="8657427883364711513">"Ištrinti USB atmintinę"</string>
     <string name="sd_format" product="default" msgid="9085302892248732329">"Ištrinti SD kortelę"</string>
     <string name="sd_format_summary" product="nosdcard" msgid="6179784504937189658">"Ištrinami visi vidinės USB atmint. duomenys, pvz., muzikos failai ir nuotraukos"</string>
@@ -1570,6 +1605,8 @@
     <string name="dlg_confirm_unmount_title" product="default" msgid="8251329019960361646">"Išimti SD kortelę?"</string>
     <string name="dlg_confirm_unmount_text" product="nosdcard" msgid="1212025106709645023">"Jei pašalinsite USB atmintį, kai kurios naudojamos programos bus sustabdytos ir gali būti nepasiekiamos, kol iš naujo ją įrengsite."</string>
     <string name="dlg_confirm_unmount_text" product="default" msgid="3887768438615563697">"Jei išimsite SD kortelę, kai kurios naudojamos programos bus sustabdytos ir gali būti nepasiekiamos, kol iš naujo įdėsite SD kortelę."</string>
+    <string name="dlg_error_unmount_title" product="nosdcard" msgid="2205587942165199845"></string>
+    <string name="dlg_error_unmount_title" product="default" msgid="2205587942165199845"></string>
     <string name="dlg_error_unmount_text" product="nosdcard" msgid="7876201891724279436">"Nepavyko pašalinti USB atminties. Vėliau bandykite dar kartą."</string>
     <string name="dlg_error_unmount_text" product="default" msgid="2185659901137961711">"Nepavyko išimti SD kortelės. Vėliau bandykite dar kartą."</string>
     <string name="unmount_inform_text" product="nosdcard" msgid="5932607205977999175">"USB atmintinė bus atjungta."</string>
@@ -1720,6 +1757,7 @@
     <string name="menu_new" msgid="6571230342655509006">"Naujas APN"</string>
     <string name="menu_save" msgid="6611465355127483100">"Išsaugoti"</string>
     <string name="menu_cancel" msgid="1197826697950745335">"Atšaukti"</string>
+    <string name="error_title" msgid="7158648377702417716"></string>
     <string name="error_name_empty" msgid="1258275899283079142">"Pavadinimo laukas negali būti tuščias."</string>
     <string name="error_apn_empty" msgid="7657491065443746915">"APN negali būti tuščias."</string>
     <string name="error_mcc_not3" msgid="883659545640179094">"MKC lauke turi būti įvesti 3 skaitmenys."</string>
@@ -1842,10 +1880,10 @@
     <string name="location_app_level_permissions" msgid="907206607664629759">"Programų leidimai pasiekti vietovės duomenis"</string>
     <string name="location_app_permission_summary_location_off" msgid="2711822936853500335">"Vietovė išjungta"</string>
     <plurals name="location_app_permission_summary_location_on" formatted="false" msgid="8286873148858526214">
-        <item quantity="one"> Tiek programų gali pasiekti vietovę: <xliff:g id="PERMITTED_LOCATION_APP_COUNT_2">%1$d</xliff:g> iš <xliff:g id="TOTAL_LOCATION_APP_COUNT_3">%2$d</xliff:g></item>
-        <item quantity="few"> Tiek programų gali pasiekti vietovę: <xliff:g id="PERMITTED_LOCATION_APP_COUNT_2">%1$d</xliff:g> iš <xliff:g id="TOTAL_LOCATION_APP_COUNT_3">%2$d</xliff:g></item>
-        <item quantity="many"> Tiek programų gali pasiekti vietovę: <xliff:g id="PERMITTED_LOCATION_APP_COUNT_2">%1$d</xliff:g> iš <xliff:g id="TOTAL_LOCATION_APP_COUNT_3">%2$d</xliff:g></item>
-        <item quantity="other"> Tiek programų gali pasiekti vietovę: <xliff:g id="PERMITTED_LOCATION_APP_COUNT_2">%1$d</xliff:g> iš <xliff:g id="TOTAL_LOCATION_APP_COUNT_3">%2$d</xliff:g></item>
+      <item quantity="one"> Tiek programų gali pasiekti vietovę: <xliff:g id="PERMITTED_LOCATION_APP_COUNT_2">%1$d</xliff:g> iš <xliff:g id="TOTAL_LOCATION_APP_COUNT_3">%2$d</xliff:g></item>
+      <item quantity="few"> Tiek programų gali pasiekti vietovę: <xliff:g id="PERMITTED_LOCATION_APP_COUNT_2">%1$d</xliff:g> iš <xliff:g id="TOTAL_LOCATION_APP_COUNT_3">%2$d</xliff:g></item>
+      <item quantity="many"> Tiek programų gali pasiekti vietovę: <xliff:g id="PERMITTED_LOCATION_APP_COUNT_2">%1$d</xliff:g> iš <xliff:g id="TOTAL_LOCATION_APP_COUNT_3">%2$d</xliff:g></item>
+      <item quantity="other"> Tiek programų gali pasiekti vietovę: <xliff:g id="PERMITTED_LOCATION_APP_COUNT_2">%1$d</xliff:g> iš <xliff:g id="TOTAL_LOCATION_APP_COUNT_3">%2$d</xliff:g></item>
     </plurals>
     <string name="location_category_recent_location_access" msgid="2558063524482178146">"Naujausia prieiga"</string>
     <string name="location_recent_location_access_see_all" msgid="4203102419355323325">"Žiūrėti viską"</string>
@@ -2020,10 +2058,10 @@
     <string name="install_applications_title" msgid="7890233747559108106">"Leisti visus progr. šaltinius"</string>
     <string name="recent_app_category_title" msgid="189758417804427533">"Neseniai atidarytos programos"</string>
     <plurals name="see_all_apps_title" formatted="false" msgid="6864581406735745400">
-        <item quantity="one">Žr. visą %1$d programą</item>
-        <item quantity="few">Žr. visas %1$d programas</item>
-        <item quantity="many">Žr. visas %1$d programos</item>
-        <item quantity="other">Žr. visas %1$d programų</item>
+      <item quantity="one">Žr. visą %1$d programą</item>
+      <item quantity="few">Žr. visas %1$d programas</item>
+      <item quantity="many">Žr. visas %1$d programos</item>
+      <item quantity="other">Žr. visas %1$d programų</item>
     </plurals>
     <string name="forgot_password_title" msgid="3967873480875239885">"Susisiekimas su IT administratoriumi"</string>
     <string name="forgot_password_text" msgid="2583194470767613163">"Jie gali padėti iš naujo nustatyti PIN kodą, atrakinimo piešinį arba slaptažodį"</string>
@@ -2042,10 +2080,10 @@
     <string name="clear_cache_btn_text" msgid="8597272828928143723">"Išvalyti talpyklą"</string>
     <string name="cache_size_label" msgid="313456088966822757">"Talpykla"</string>
     <plurals name="uri_permissions_text" formatted="false" msgid="8212425823423508096">
-        <item quantity="one">%d elementas</item>
-        <item quantity="few">%d elementai</item>
-        <item quantity="many">%d elemento</item>
-        <item quantity="other">%d elementų</item>
+      <item quantity="one">%d elementas</item>
+      <item quantity="few">%d elementai</item>
+      <item quantity="many">%d elemento</item>
+      <item quantity="other">%d elementų</item>
     </plurals>
     <string name="clear_uri_btn_text" msgid="4828117421162495134">"Išvalyti prieigą"</string>
     <string name="controls_label" msgid="8671492254263626383">"Valdikliai"</string>
@@ -2100,6 +2138,7 @@
     <string name="clear_data_dlg_text" msgid="1107610960337399006">"Šios programos duomenys bus visam laikui ištrinti. Įtraukiami failai, nustatymai, duomenų bazės ir kiti programos duomenys."</string>
     <string name="dlg_ok" msgid="1421350367857960997">"Gerai"</string>
     <string name="dlg_cancel" msgid="5164705061530774899">"Atšaukti"</string>
+    <string name="app_not_found_dlg_title" msgid="7122106240981109930"></string>
     <string name="app_not_found_dlg_text" msgid="8634675268730513704">"Programa nerasta įdiegtų programų sąraše."</string>
     <string name="clear_failed_dlg_text" msgid="6866741916836125732">"Nepavyko išvalyti programos saugyklos."</string>
     <string name="join_two_items" msgid="7893073836681382429">"<xliff:g id="FIRST_ITEM">%1$s</xliff:g> ir <xliff:g id="SECOND_ITEM">%2$s</xliff:g>"</string>
@@ -2139,12 +2178,12 @@
     <string name="no_running_services" msgid="9079738069349859373">"Niekas nevykdoma."</string>
     <string name="service_started_by_app" msgid="6845028506417670179">"Paleista programos."</string>
     <!-- no translation found for service_client_name (2210898622981598861) -->
-    <skip/>
+    <skip />
     <string name="service_background_processes" msgid="2800539421534521948">"<xliff:g id="MEMORY">%1$s</xliff:g> laisva"</string>
     <string name="service_foreground_processes" msgid="6380905887193621704">"Panaudota <xliff:g id="MEMORY">%1$s</xliff:g>"</string>
     <string name="memory" msgid="5253757199926592074">"RAM"</string>
     <!-- no translation found for service_process_name (7827318358399776412) -->
-    <skip/>
+    <skip />
     <string name="running_process_item_user_label" msgid="1444898861984132133">"Naudotojas: <xliff:g id="USER_NAME">%1$s</xliff:g>"</string>
     <string name="running_process_item_removed_user_label" msgid="4812732296696662613">"Pašalintas naudotojas"</string>
     <string name="running_processes_item_description_s_s" msgid="6835918861352501671">"<xliff:g id="NUMPROCESS">%1$d</xliff:g> procesas ir <xliff:g id="NUMSERVICES">%2$d</xliff:g> paslauga"</string>
@@ -2176,12 +2215,16 @@
     <string name="runningservicedetails_stop_dlg_text" product="tablet" msgid="2076922609580490122">"Jei sustabdysite šią paslaugą, kai kurios planšetinio kompiuterio funkcijos gali tinkamai nebeveikti, kol jį išjungsite ir vėl įjungsite."</string>
     <string name="runningservicedetails_stop_dlg_text" product="default" msgid="2625863973434309085">"Jei sustabdysite šią paslaugą, kai kurios telefono funkcijos gali tinkamai nebeveikti, kol jį išjungsite ir vėl įjungsite."</string>
     <string name="language_input_gesture_title" msgid="3292455685728572960">"Kalbos, įvestis ir gestai"</string>
+    <string name="language_input_gesture_summary_on_with_assist" msgid="8670153838520237089"></string>
+    <string name="language_input_gesture_summary_on_non_assist" msgid="2738661322747920463"></string>
+    <string name="language_input_gesture_summary_off" msgid="1604575860215661606"></string>
     <string name="language_settings" msgid="8700174277543875046">"Kalbos ir įvestis"</string>
     <string name="language_empty_list_user_restricted" msgid="8050367405839231863">"Neturite leidimo keisti įrenginio kalbos."</string>
     <string name="language_keyboard_settings_title" msgid="7934844313233544557">"Kalbos ir įvestis"</string>
     <string name="input_assistance" msgid="3437568284144952104">"Įrankiai"</string>
     <string name="keyboard_settings_category" msgid="5392847229300117064">"Klaviatūra ir įvesties metodai"</string>
     <string name="phone_language" msgid="5986939176239963826">"Kalbos"</string>
+    <string name="phone_language_summary" msgid="863041222809685325"></string>
     <string name="auto_replace" msgid="4830732960264447043">"Automatiškai pakeisti"</string>
     <string name="auto_replace_summary" msgid="1285443414597153423">"Taisyti blogai įvestus žodžius"</string>
     <string name="auto_caps" msgid="5573583581288305355">"Automatinis didžiųjų raidžių rašymas"</string>
@@ -2448,10 +2491,10 @@
     <string name="accessibility_hearingaid_pair_instructions_message" msgid="8913409742121315657">"Norėdami susieti klausos aparatus, suraskite ir palieskite savo įrenginį kitame ekrane. Įsitikinkite, kad jūsų klausos aparatai veikia susiejimo režimu."</string>
     <string name="accessibility_hearingaid_active_device_summary" msgid="509703438222873967">"„<xliff:g id="DEVICE_NAME">%1$s</xliff:g>“ įrenginys aktyvus"</string>
     <plurals name="show_number_hearingaid_count" formatted="false" msgid="776000580683647556">
-        <item quantity="one"><xliff:g id="NUMBER_DEVICE_COUNT_1">%1$d</xliff:g> išsaugotas klausos aparatas</item>
-        <item quantity="few"><xliff:g id="NUMBER_DEVICE_COUNT_1">%1$d</xliff:g> išsaugoti klausos aparatai</item>
-        <item quantity="many"><xliff:g id="NUMBER_DEVICE_COUNT_1">%1$d</xliff:g> išsaugoto klausos aparato</item>
-        <item quantity="other"><xliff:g id="NUMBER_DEVICE_COUNT_1">%1$d</xliff:g> išsaugotų klausos aparatų</item>
+      <item quantity="one"><xliff:g id="NUMBER_DEVICE_COUNT_1">%1$d</xliff:g> išsaugotas klausos aparatas</item>
+      <item quantity="few"><xliff:g id="NUMBER_DEVICE_COUNT_1">%1$d</xliff:g> išsaugoti klausos aparatai</item>
+      <item quantity="many"><xliff:g id="NUMBER_DEVICE_COUNT_1">%1$d</xliff:g> išsaugoto klausos aparato</item>
+      <item quantity="other"><xliff:g id="NUMBER_DEVICE_COUNT_1">%1$d</xliff:g> išsaugotų klausos aparatų</item>
     </plurals>
     <string name="accessibility_audio_adjustment_title" msgid="1332113739136802997">"Garso koregavimas"</string>
     <string name="accessibility_summary_shortcut_enabled" msgid="4030427268146752644">"Spartusis klavišas įjungtas"</string>
@@ -2483,28 +2526,28 @@
     <string name="reduce_bright_colors_intensity_end_label" msgid="1422600205484299860">"Šviesiau"</string>
     <string name="reduce_bright_colors_persist_preference_title" msgid="4368829654993343354">"Palikti įjungtą paleidus įrenginį iš naujo"</string>
     <plurals name="accessibilty_autoclick_preference_subtitle_short_delay" formatted="false" msgid="5354221071353645263">
-        <item quantity="one">Trumpa (<xliff:g id="CLICK_DELAY_LABEL_1">%1$s</xliff:g> sekundė)</item>
-        <item quantity="few">Trumpa (<xliff:g id="CLICK_DELAY_LABEL_1">%1$s</xliff:g> sekundės)</item>
-        <item quantity="many">Trumpa (<xliff:g id="CLICK_DELAY_LABEL_1">%1$s</xliff:g> sekundės)</item>
-        <item quantity="other">Trumpa (<xliff:g id="CLICK_DELAY_LABEL_1">%1$s</xliff:g> sekundžių)</item>
+      <item quantity="one">Trumpa (<xliff:g id="CLICK_DELAY_LABEL_1">%1$s</xliff:g> sekundė)</item>
+      <item quantity="few">Trumpa (<xliff:g id="CLICK_DELAY_LABEL_1">%1$s</xliff:g> sekundės)</item>
+      <item quantity="many">Trumpa (<xliff:g id="CLICK_DELAY_LABEL_1">%1$s</xliff:g> sekundės)</item>
+      <item quantity="other">Trumpa (<xliff:g id="CLICK_DELAY_LABEL_1">%1$s</xliff:g> sekundžių)</item>
     </plurals>
     <plurals name="accessibilty_autoclick_preference_subtitle_medium_delay" formatted="false" msgid="1550891909800510628">
-        <item quantity="one">Vidutinė (<xliff:g id="CLICK_DELAY_LABEL_1">%1$s</xliff:g> sekundė)</item>
-        <item quantity="few">Vidutinė (<xliff:g id="CLICK_DELAY_LABEL_1">%1$s</xliff:g> sekundės)</item>
-        <item quantity="many">Vidutinė (<xliff:g id="CLICK_DELAY_LABEL_1">%1$s</xliff:g> sekundės)</item>
-        <item quantity="other">Vidutinė (<xliff:g id="CLICK_DELAY_LABEL_1">%1$s</xliff:g> sekundžių)</item>
+      <item quantity="one">Vidutinė (<xliff:g id="CLICK_DELAY_LABEL_1">%1$s</xliff:g> sekundė)</item>
+      <item quantity="few">Vidutinė (<xliff:g id="CLICK_DELAY_LABEL_1">%1$s</xliff:g> sekundės)</item>
+      <item quantity="many">Vidutinė (<xliff:g id="CLICK_DELAY_LABEL_1">%1$s</xliff:g> sekundės)</item>
+      <item quantity="other">Vidutinė (<xliff:g id="CLICK_DELAY_LABEL_1">%1$s</xliff:g> sekundžių)</item>
     </plurals>
     <plurals name="accessibilty_autoclick_preference_subtitle_long_delay" formatted="false" msgid="2230755548820485984">
-        <item quantity="one">Ilga (<xliff:g id="CLICK_DELAY_LABEL_1">%1$s</xliff:g> sekundė)</item>
-        <item quantity="few">Ilga (<xliff:g id="CLICK_DELAY_LABEL_1">%1$s</xliff:g> sekundės)</item>
-        <item quantity="many">Ilga (<xliff:g id="CLICK_DELAY_LABEL_1">%1$s</xliff:g> sekundės)</item>
-        <item quantity="other">Ilga (<xliff:g id="CLICK_DELAY_LABEL_1">%1$s</xliff:g> sekundžių)</item>
+      <item quantity="one">Ilga (<xliff:g id="CLICK_DELAY_LABEL_1">%1$s</xliff:g> sekundė)</item>
+      <item quantity="few">Ilga (<xliff:g id="CLICK_DELAY_LABEL_1">%1$s</xliff:g> sekundės)</item>
+      <item quantity="many">Ilga (<xliff:g id="CLICK_DELAY_LABEL_1">%1$s</xliff:g> sekundės)</item>
+      <item quantity="other">Ilga (<xliff:g id="CLICK_DELAY_LABEL_1">%1$s</xliff:g> sekundžių)</item>
     </plurals>
     <plurals name="accessibilty_autoclick_delay_unit_second" formatted="false" msgid="4537791441118261556">
-        <item quantity="one"><xliff:g id="CLICK_DELAY_LABEL_2">%1$s</xliff:g> sekundė</item>
-        <item quantity="few"><xliff:g id="CLICK_DELAY_LABEL_1">%1$s</xliff:g> sekundės</item>
-        <item quantity="many"><xliff:g id="CLICK_DELAY_LABEL_2">%1$s</xliff:g> sekundės</item>
-        <item quantity="other"><xliff:g id="CLICK_DELAY_LABEL_2">%1$s</xliff:g> sekundžių</item>
+      <item quantity="one"><xliff:g id="CLICK_DELAY_LABEL_2">%1$s</xliff:g> sekundė</item>
+      <item quantity="few"><xliff:g id="CLICK_DELAY_LABEL_1">%1$s</xliff:g> sekundės</item>
+      <item quantity="many"><xliff:g id="CLICK_DELAY_LABEL_2">%1$s</xliff:g> sekundės</item>
+      <item quantity="other"><xliff:g id="CLICK_DELAY_LABEL_2">%1$s</xliff:g> sekundžių</item>
     </plurals>
     <string name="accessibility_vibration_summary" msgid="27904038683405084">"Skambutis: <xliff:g id="SUMMARY_RING">%1$s</xliff:g>, pranešimas: <xliff:g id="SUMMARY_NOTIFICATION">%2$s</xliff:g>, palietimas: <xliff:g id="SUMMARY_TOUCH">%3$s</xliff:g>"</string>
     <string name="accessibility_vibration_summary_off" msgid="7776105450117095736">"Skambučių ir nustatymų vibravimas išjungtas"</string>
@@ -2575,27 +2618,35 @@
     <string name="keywords_reduce_bright_colors" msgid="1683190961013139183">"jautrumas šviesai, fotofobija, tamsioji tema, migrena, galvos skausmas, skaitymo režimas, naktinis režimas, šviesumo mažinimas, baltas taškas"</string>
     <string name="keywords_accessibility" msgid="4263443239404659143">"Lengva naudoti, lengva prieiga, pagalba, pagalbinis"</string>
     <string name="keywords_magnification" msgid="3908145308269840862">"„Window Magnifier“, mastelio keitimas, didinimas, sutrikusio regėjimo asmuo, padidinti, padaryti didesnį"</string>
+    <string name="keywords_talkback" msgid="2816435437095102527"></string>
     <string name="keywords_live_caption" msgid="1667203998080567556">"Subtitrai, CC, transkripcija realiuoju laiku, neprigirdintis asmuo, klausos sutrikimai, CART, kalba į tekstą, titrai"</string>
+    <string name="keywords_live_transcribe" msgid="3226990195174890997"></string>
+    <string name="keywords_sound_notifications" msgid="8183107485754075413"></string>
+    <string name="keywords_sound_amplifier" msgid="939404835256246663"></string>
     <string name="keywords_display_size" msgid="5286419615221231518">"ekrano dydis, didelis ekranas"</string>
     <string name="keywords_bold_text" msgid="6257418169207099589">"Didelis kontrastas, sutrikusio regėjimo asmuo, pusjuodis šriftas"</string>
+    <string name="keywords_select_to_speak" msgid="2872704811610888719"></string>
     <string name="keywords_color_correction" msgid="8540442886990423681">"koreguoti spalvą"</string>
     <string name="keywords_color_inversion" msgid="4291058365873221962">"įjungti tamsų ekraną, įjungti šviesų ekraną"</string>
+    <string name="keywords_accessibility_menu" msgid="4300579436464706608"></string>
+    <string name="keywords_switch_access" msgid="5813094504384313402"></string>
     <string name="keywords_auto_click" msgid="7151756353013736931">"motorika, pelė"</string>
     <string name="keywords_hearing_aids" msgid="524979615168196199">"neprigirdintis asmuo, klausos sutrikimai"</string>
     <string name="keywords_rtt" msgid="2429130928152514402">"neprigirdintis asmuo, klausos sutrikimai, subtitrai, teletaipas, TTY"</string>
+    <string name="keywords_voice_access" msgid="7807335263195876454"></string>
     <string name="print_settings" msgid="8519810615863882491">"Spausdinimas"</string>
     <string name="print_settings_summary_no_service" msgid="6721731154917653862">"Išjungta"</string>
     <plurals name="print_settings_summary" formatted="false" msgid="1034273609054146099">
-        <item quantity="one"><xliff:g id="COUNT">%1$d</xliff:g> spausdinimo paslauga</item>
-        <item quantity="few"><xliff:g id="COUNT">%1$d</xliff:g> spausdinimo paslaugos</item>
-        <item quantity="many"><xliff:g id="COUNT">%1$d</xliff:g> spausdinimo paslaugos</item>
-        <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> spausdinimo paslaugų</item>
+      <item quantity="one"><xliff:g id="COUNT">%1$d</xliff:g> spausdinimo paslauga</item>
+      <item quantity="few"><xliff:g id="COUNT">%1$d</xliff:g> spausdinimo paslaugos</item>
+      <item quantity="many"><xliff:g id="COUNT">%1$d</xliff:g> spausdinimo paslaugos</item>
+      <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> spausdinimo paslaugų</item>
     </plurals>
     <plurals name="print_jobs_summary" formatted="false" msgid="3933688846338306536">
-        <item quantity="one"><xliff:g id="COUNT">%1$d</xliff:g> spausdinimo užduotis</item>
-        <item quantity="few"><xliff:g id="COUNT">%1$d</xliff:g> spausdinimo užduotys</item>
-        <item quantity="many"><xliff:g id="COUNT">%1$d</xliff:g> spausdinimo užduoties</item>
-        <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> spausdinimo užduočių</item>
+      <item quantity="one"><xliff:g id="COUNT">%1$d</xliff:g> spausdinimo užduotis</item>
+      <item quantity="few"><xliff:g id="COUNT">%1$d</xliff:g> spausdinimo užduotys</item>
+      <item quantity="many"><xliff:g id="COUNT">%1$d</xliff:g> spausdinimo užduoties</item>
+      <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> spausdinimo užduočių</item>
     </plurals>
     <string name="print_settings_title" msgid="7680498284751129935">"Spausdinimo paslaugos"</string>
     <string name="print_no_services_installed" msgid="7554057966540602692">"Nėra įdiegta jokių paslaugų"</string>
@@ -2664,7 +2715,7 @@
     <string name="battery_stats_wake_lock_label" msgid="8115041205778441548">"Pažadinti"</string>
     <string name="battery_stats_phone_signal_label" msgid="679649411998679555">"Mob. ryšio tinklo signal."</string>
     <!-- no translation found for battery_stats_last_duration (3088100394725340600) -->
-    <skip/>
+    <skip />
     <string name="awake" msgid="5405871714019268978">"Įrenginio veikimo laikas"</string>
     <string name="wifi_on_time" msgid="3880778525760926066">"„Wi-Fi“ laiku"</string>
     <string name="bluetooth_on_time" msgid="8424625554628450028">"„Wi-Fi“ laiku"</string>
@@ -2702,34 +2753,34 @@
     <string name="battery_tip_dialog_message" product="device" msgid="3896805213768863874">"Įrenginys naudojamas daugiau nei įprastai, todėl gali greičiau išsekti akumuliatoriaus energija.\n\nDaugiausiai akumuliatoriaus energijos suvartojančios programos:"</string>
     <string name="battery_tip_dialog_message_footer" msgid="986542164372177504">"Įtraukiama daug energijos eikvojanti veikla fone"</string>
     <plurals name="battery_tip_restrict_title" formatted="false" msgid="3108195491484891588">
-        <item quantity="one">Apriboti %1$d programą</item>
-        <item quantity="few">Apriboti %1$d programas</item>
-        <item quantity="many">Apriboti %1$d programos</item>
-        <item quantity="other">Apriboti %1$d programų</item>
+      <item quantity="one">Apriboti %1$d programą</item>
+      <item quantity="few">Apriboti %1$d programas</item>
+      <item quantity="many">Apriboti %1$d programos</item>
+      <item quantity="other">Apriboti %1$d programų</item>
     </plurals>
     <plurals name="battery_tip_restrict_handled_title" formatted="false" msgid="5862649927574803958">
-        <item quantity="one">Neseniai apribota %2$d programa</item>
-        <item quantity="few">Neseniai apribotos %2$d programos</item>
-        <item quantity="many">Neseniai apribota %2$d programos</item>
-        <item quantity="other">Neseniai apribota %2$d programų</item>
+      <item quantity="one">Neseniai apribota %2$d programa</item>
+      <item quantity="few">Neseniai apribotos %2$d programos</item>
+      <item quantity="many">Neseniai apribota %2$d programos</item>
+      <item quantity="other">Neseniai apribota %2$d programų</item>
     </plurals>
     <plurals name="battery_tip_restrict_summary" formatted="false" msgid="3328499737453686910">
-        <item quantity="one">%2$d fone veikianti programa naudoja daug akumuliatoriaus energijos</item>
-        <item quantity="few">%2$d fone veikiančios programos naudoja daug akumuliatoriaus energijos</item>
-        <item quantity="many">%2$d fone veikiančios programos naudoja daug akumuliatoriaus energijos</item>
-        <item quantity="other">%2$d fone veikiančių programų naudoja daug akumuliatoriaus energijos</item>
+      <item quantity="one">%2$d fone veikianti programa naudoja daug akumuliatoriaus energijos</item>
+      <item quantity="few">%2$d fone veikiančios programos naudoja daug akumuliatoriaus energijos</item>
+      <item quantity="many">%2$d fone veikiančios programos naudoja daug akumuliatoriaus energijos</item>
+      <item quantity="other">%2$d fone veikiančių programų naudoja daug akumuliatoriaus energijos</item>
     </plurals>
     <plurals name="battery_tip_restrict_handled_summary" formatted="false" msgid="3036853535034350991">
-        <item quantity="one">Šios programos negali veikti fone</item>
-        <item quantity="few">Šios programos negali veikti fone</item>
-        <item quantity="many">Šios programos negali veikti fone</item>
-        <item quantity="other">Šios programos negali veikti fone</item>
+      <item quantity="one">Šios programos negali veikti fone</item>
+      <item quantity="few">Šios programos negali veikti fone</item>
+      <item quantity="many">Šios programos negali veikti fone</item>
+      <item quantity="other">Šios programos negali veikti fone</item>
     </plurals>
     <plurals name="battery_tip_restrict_app_dialog_title" formatted="false" msgid="7897944678619251740">
-        <item quantity="one">Apriboti %1$d programą?</item>
-        <item quantity="few">Apriboti %1$d programas?</item>
-        <item quantity="many">Apriboti %1$d programos?</item>
-        <item quantity="other">Apriboti %1$d programų?</item>
+      <item quantity="one">Apriboti %1$d programą?</item>
+      <item quantity="few">Apriboti %1$d programas?</item>
+      <item quantity="many">Apriboti %1$d programos?</item>
+      <item quantity="other">Apriboti %1$d programų?</item>
     </plurals>
     <string name="battery_tip_restrict_app_dialog_message" msgid="137856003724730751">"Jei norite tausoti akumuliatoriaus energiją, neleiskite „<xliff:g id="APP">%1$s</xliff:g>“ eikvoti akumuliatoriaus energijos fone. Ši programa gali tinkamai neveikti ir pranešimai gali būti atidėti."</string>
     <string name="battery_tip_restrict_apps_less_than_5_dialog_message" msgid="5894648804112181324">"Jei norite tausoti akumuliatoriaus energiją, neleiskite šioms programoms eikvoti akumuliatoriaus energijos fone. Ribojamos programos gali tinkamai neveikti ir pranešimai gali būti atidėti.\n\nProgramos:"</string>
@@ -2748,10 +2799,10 @@
     <string name="smart_battery_footer" msgid="8407121907452993645">"Kai akumuliatoriaus tvarkytuvė aptinka, kad programos eikvoja akumuliatoriaus energiją, galite apriboti šias programas. Ribojamos programos gali tinkamai neveikti ir pranešimai gali būti atidėti."</string>
     <string name="restricted_app_title" msgid="6585080822121007436">"Apribotos programos"</string>
     <plurals name="restricted_app_summary" formatted="false" msgid="6059772951505411003">
-        <item quantity="one">Ribojamas %1$d programos akumuliatoriaus energijos vartojimas</item>
-        <item quantity="few">Ribojamas %1$d programų akumuliatoriaus energijos vartojimas</item>
-        <item quantity="many">Ribojamas %1$d programos akumuliatoriaus energijos vartojimas</item>
-        <item quantity="other">Ribojamas %1$d programų akumuliatoriaus energijos vartojimas</item>
+      <item quantity="one">Ribojamas %1$d programos akumuliatoriaus energijos vartojimas</item>
+      <item quantity="few">Ribojamas %1$d programų akumuliatoriaus energijos vartojimas</item>
+      <item quantity="many">Ribojamas %1$d programos akumuliatoriaus energijos vartojimas</item>
+      <item quantity="other">Ribojamas %1$d programų akumuliatoriaus energijos vartojimas</item>
     </plurals>
     <string name="restricted_app_time_summary" msgid="3097721884155913252">"Apribota <xliff:g id="TIME">%1$s</xliff:g>"</string>
     <string name="restricted_app_detail_footer" msgid="3495725286882138803">"Šios programos ribojamos, kad nevartotų akumuliatoriaus energijos veikdamos fone. Jos gali neveikti, kaip numatyta, o pranešimai gali vėluoti."</string>
@@ -2761,13 +2812,14 @@
     <string name="battery_manager_summary_unsupported" msgid="7334173707292807964">"Aptikimas, kai programos eikvoja akumuliatoriaus energiją"</string>
     <string name="battery_manager_off" msgid="673547668722420924">"Išjungta"</string>
     <plurals name="battery_manager_app_restricted" formatted="false" msgid="6714534362166394848">
-        <item quantity="one">Apribota %1$d programa</item>
-        <item quantity="few">Apribotos %1$d programos</item>
-        <item quantity="many">Apribota %1$d programos</item>
-        <item quantity="other">Apribota %1$d programų</item>
+      <item quantity="one">Apribota %1$d programa</item>
+      <item quantity="few">Apribotos %1$d programos</item>
+      <item quantity="many">Apribota %1$d programos</item>
+      <item quantity="other">Apribota %1$d programų</item>
     </plurals>
     <string name="battery_header_title_alternate" msgid="8371821625994616659">"<xliff:g id="NUMBER">^1</xliff:g>"<small>" "<font size="20">"<xliff:g id="UNIT">%</xliff:g>"</font></small>""</string>
     <string name="battery_missing_message" msgid="400958471814422770">"Nuskaitant akumuliatoriaus skaitiklį iškilo problema."</string>
+    <string name="battery_missing_link_message" msgid="6021565067124898074"></string>
     <string name="battery_missing_link_a11y_message" msgid="3310971406602316323">"Palieskite, jei norite sužinoti daugiau apie šią klaidą"</string>
     <string name="dialog_stop_title" msgid="5972757101865665655">"Sustabdyti programą?"</string>
     <string name="dialog_stop_message" product="default" msgid="2063536418875183799">"Telefonas negali įprastai tvarkyti akumuliatoriaus, nes „<xliff:g id="APP">%1$s</xliff:g>“ jį pažadina.\n\nKad pabandytumėte išspręsti šią problemą, galite sustabdyti programą.\n\nJei tai kartosis, gali reikėti pašalinti programą, kad pagerintumėte akumuliatoriaus našumą."</string>
@@ -2882,6 +2934,7 @@
     <string name="battery_total_usage_and_bg_less_minute_usage_with_period" msgid="5943281928474598517">"Iš viso <xliff:g id="TIME_0">^1</xliff:g> • Naudota fone mažiau nei minutę\nper <xliff:g id="TIME_PERIOD">^2</xliff:g>"</string>
     <string name="battery_not_usage" msgid="1472275761547230196">"Nenaudota nuo pastarojo visiško įkrovimo"</string>
     <string name="battery_not_usage_24hr" msgid="8397519536160741248">"Nenaudota per pastarąsias 24 val."</string>
+    <string name="battery_usage_without_time" msgid="1346894834339420538"></string>
     <string name="advanced_battery_graph_subtext" msgid="6816737986172678550">"Likęs akumuliatoriaus veikimo laikas numatytas pagal tai, kaip naudojate įrenginį"</string>
     <string name="estimated_time_left" msgid="948717045180211777">"Liko laiko (numatyta)"</string>
     <string name="estimated_charging_time_left" msgid="2287135413363961246">"Iki visiško įkrovimo"</string>
@@ -2907,7 +2960,7 @@
     <string name="battery_saver_sticky_description_new" product="tablet" msgid="4566426833434375284">"Akumuliatoriaus tausojimo priemonė išjungiama, kai planšetinio kompiuterio įkrovimo lygis viršija <xliff:g id="NUMBER">^1</xliff:g> <xliff:g id="UNIT">%</xliff:g>"</string>
     <string name="battery_saver_sticky_description_new" product="device" msgid="4128841327359445726">"Akumuliatoriaus tausojimo priemonė išjungiama, kai įrenginio įkrovimo lygis viršija <xliff:g id="NUMBER">^1</xliff:g> <xliff:g id="UNIT">%</xliff:g>"</string>
     <!-- no translation found for battery_saver_seekbar_title (3712266470054006641) -->
-    <skip/>
+    <skip />
     <string name="battery_saver_seekbar_title_placeholder" msgid="7141264642540687540">"Įjungti"</string>
     <string name="battery_saver_master_switch_title" msgid="3474312070095834915">"Naudoti Akumuliatoriaus tausojimo priemonę"</string>
     <string name="battery_saver_turn_on_automatically_title" msgid="7857393318205740864">"Įjungti automatiškai"</string>
@@ -3028,10 +3081,10 @@
     <string name="remove_credential_management_app_dialog_title" msgid="5713525435104706772">"Pašalinti šią programą?"</string>
     <string name="remove_credential_management_app_dialog_message" msgid="7739474298063646935">"Ši programa netvarkys sertifikatų, bet liks įrenginyje. Bet kokie programos įdiegti sertifikatai bus pašalinti."</string>
     <plurals name="number_of_urls" formatted="false" msgid="403979258551655023">
-        <item quantity="one"><xliff:g id="NUMBER_1">%d</xliff:g> URL</item>
-        <item quantity="few"><xliff:g id="NUMBER_1">%d</xliff:g> URL</item>
-        <item quantity="many"><xliff:g id="NUMBER_1">%d</xliff:g> URL</item>
-        <item quantity="other"><xliff:g id="NUMBER_1">%d</xliff:g> URL</item>
+      <item quantity="one"><xliff:g id="NUMBER_1">%d</xliff:g> URL</item>
+      <item quantity="few"><xliff:g id="NUMBER_1">%d</xliff:g> URL</item>
+      <item quantity="many"><xliff:g id="NUMBER_1">%d</xliff:g> URL</item>
+      <item quantity="other"><xliff:g id="NUMBER_1">%d</xliff:g> URL</item>
     </plurals>
     <string name="emergency_tone_title" msgid="6673118505206685168">"Kritinės padėties numerio rinkimo signalas"</string>
     <string name="emergency_tone_summary" msgid="2519776254708767388">"Nustatyti elgesį, kai skambinama pagalbos numeriu"</string>
@@ -3049,6 +3102,7 @@
     <string name="auto_restore_summary" msgid="6830198851045584001">"Iš naujo įdiegdami programą atkurkite nustatymus ir duomenis, kurių atsarginės kopijos buvo sukurtos"</string>
     <string name="backup_inactive_title" msgid="6753265378043349277">"Atsarginė paslauga neaktyvi"</string>
     <string name="backup_configure_account_default_summary" msgid="5323225330966306690">"Šiuo metu jokioje paskyroje nesaugomi atsarginės kopijos duomenys"</string>
+    <string name="backup_erase_dialog_title" msgid="5892431263348766484"></string>
     <string name="backup_erase_dialog_message" msgid="2250872501409574331">"Nebekurti atsarginių „Wi-Fi“ slaptažodžių, žymių, kitų nustatymų ir programų duomenų kopijų ir ištrinti visas „Google“ serveriuose esančias kopijas?"</string>
     <string name="fullbackup_erase_dialog_message" msgid="2379053988557486162">"Nebekurti įrenginio duomenų (pvz., „Wi-Fi“ slaptažodžių ir skambučių istorijos) ir programų duomenų (pvz., programų saugomų nustatymų ir failų) atsarginių kopijų ir ištrinti visas kopijas iš nuotolinių serverių?"</string>
     <string name="fullbackup_data_summary" msgid="971587401251601473">"Automatiškai nuotoliniu būdu sukurkite atsarginę įrenginio duomenų (pvz., „Wi-Fi“ slaptažodžių ir skambučių istorijos) ir programų duomenų (pvz., programų nustatymų ir išsaugotų failų) kopiją.\n\nKai įjungiate automatinę atsarginę kopiją, įrenginio ir programų duomenys periodiškai išsaugomi nuotoliniu būdu. Programų duomenys gali būti bet kurie programų išsaugoti duomenys (atsižvelgiant į kūrėjo nustatymus), įskaitant duomenis, kurie gali būti neskelbtini, pvz., kontaktai, pranešimai ir nuotraukos."</string>
@@ -3077,10 +3131,10 @@
     <string name="notification_history_snooze" msgid="3980568893290512257">"Nustatyta snausti"</string>
     <string name="notification_history_dismiss" msgid="6180321217375722918">"Neseniai atsisakyta"</string>
     <plurals name="notification_history_count" formatted="false" msgid="1859304685071321991">
-        <item quantity="one"><xliff:g id="NUMBER_1">%d</xliff:g> pranešimas</item>
-        <item quantity="few"><xliff:g id="NUMBER_1">%d</xliff:g> pranešimai</item>
-        <item quantity="many"><xliff:g id="NUMBER_1">%d</xliff:g> pranešimo</item>
-        <item quantity="other"><xliff:g id="NUMBER_1">%d</xliff:g> pranešimų</item>
+      <item quantity="one"><xliff:g id="NUMBER_1">%d</xliff:g> pranešimas</item>
+      <item quantity="few"><xliff:g id="NUMBER_1">%d</xliff:g> pranešimai</item>
+      <item quantity="many"><xliff:g id="NUMBER_1">%d</xliff:g> pranešimo</item>
+      <item quantity="other"><xliff:g id="NUMBER_1">%d</xliff:g> pranešimų</item>
     </plurals>
     <string name="sound_category_call_ringtone_vibrate_title" msgid="9090693401915654528">"Skambinimo tonas ir vibracija"</string>
     <string name="wifi_setup_detail" msgid="2012898800571616422">"Išsami tinklo inf."</string>
@@ -3330,29 +3384,29 @@
     <string name="ssl_ca_cert_warning" msgid="3898387588657346106">"Tinklas gali būti stebimas"</string>
     <string name="done_button" msgid="6269449526248267">"Atlikta"</string>
     <plurals name="ssl_ca_cert_dialog_title" formatted="false" msgid="5491460811755938449">
-        <item quantity="one">Pasitikėti sertifikatais arba juos pašalinti</item>
-        <item quantity="few">Pasitikėti sertifikatais arba juos pašalinti</item>
-        <item quantity="many">Pasitikėti sertifikatais arba juos pašalinti</item>
-        <item quantity="other">Pasitikėti sertifikatais arba juos pašalinti</item>
+      <item quantity="one">Pasitikėti sertifikatais arba juos pašalinti</item>
+      <item quantity="few">Pasitikėti sertifikatais arba juos pašalinti</item>
+      <item quantity="many">Pasitikėti sertifikatais arba juos pašalinti</item>
+      <item quantity="other">Pasitikėti sertifikatais arba juos pašalinti</item>
     </plurals>
     <plurals name="ssl_ca_cert_info_message_device_owner" formatted="false" msgid="2788832560436163252">
-        <item quantity="one"><xliff:g id="MANAGING_DOMAIN_1">%s</xliff:g> jūsų įrenginyje įdiegė sertifikato įgaliojimus, kurie gali leisti domenui stebėti jūsų įrenginio tinklo veiklą, įskaitant el. laiškus, programas ir saugias svetaines.\n\nJei reikia daugiau informacijos apie šiuos sertifikatus, susisiekite su savo administratoriumi.</item>
-        <item quantity="few"><xliff:g id="MANAGING_DOMAIN_1">%s</xliff:g> jūsų įrenginyje įdiegė sertifikato įgaliojimus, kurie gali leisti domenui stebėti jūsų įrenginio tinklo veiklą, įskaitant el. laiškus, programas ir saugias svetaines.\n\nJei reikia daugiau informacijos apie šiuos sertifikatus, susisiekite su savo administratoriumi.</item>
-        <item quantity="many"><xliff:g id="MANAGING_DOMAIN_1">%s</xliff:g> jūsų įrenginyje įdiegė sertifikato įgaliojimus, kurie gali leisti domenui stebėti jūsų įrenginio tinklo veiklą, įskaitant el. laiškus, programas ir saugias svetaines.\n\nJei reikia daugiau informacijos apie šiuos sertifikatus, susisiekite su savo administratoriumi.</item>
-        <item quantity="other"><xliff:g id="MANAGING_DOMAIN_1">%s</xliff:g> jūsų įrenginyje įdiegė sertifikato įgaliojimus, kurie gali leisti domenui stebėti jūsų įrenginio tinklo veiklą, įskaitant el. laiškus, programas ir saugias svetaines.\n\nJei reikia daugiau informacijos apie šiuos sertifikatus, susisiekite su savo administratoriumi.</item>
+      <item quantity="one"><xliff:g id="MANAGING_DOMAIN_1">%s</xliff:g> jūsų įrenginyje įdiegė sertifikato įgaliojimus, kurie gali leisti domenui stebėti jūsų įrenginio tinklo veiklą, įskaitant el. laiškus, programas ir saugias svetaines.\n\nJei reikia daugiau informacijos apie šiuos sertifikatus, susisiekite su savo administratoriumi.</item>
+      <item quantity="few"><xliff:g id="MANAGING_DOMAIN_1">%s</xliff:g> jūsų įrenginyje įdiegė sertifikato įgaliojimus, kurie gali leisti domenui stebėti jūsų įrenginio tinklo veiklą, įskaitant el. laiškus, programas ir saugias svetaines.\n\nJei reikia daugiau informacijos apie šiuos sertifikatus, susisiekite su savo administratoriumi.</item>
+      <item quantity="many"><xliff:g id="MANAGING_DOMAIN_1">%s</xliff:g> jūsų įrenginyje įdiegė sertifikato įgaliojimus, kurie gali leisti domenui stebėti jūsų įrenginio tinklo veiklą, įskaitant el. laiškus, programas ir saugias svetaines.\n\nJei reikia daugiau informacijos apie šiuos sertifikatus, susisiekite su savo administratoriumi.</item>
+      <item quantity="other"><xliff:g id="MANAGING_DOMAIN_1">%s</xliff:g> jūsų įrenginyje įdiegė sertifikato įgaliojimus, kurie gali leisti domenui stebėti jūsų įrenginio tinklo veiklą, įskaitant el. laiškus, programas ir saugias svetaines.\n\nJei reikia daugiau informacijos apie šiuos sertifikatus, susisiekite su savo administratoriumi.</item>
     </plurals>
     <plurals name="ssl_ca_cert_info_message" formatted="false" msgid="3989916958347169622">
-        <item quantity="one"><xliff:g id="MANAGING_DOMAIN_1">%s</xliff:g> įdiegė jūsų darbo profiliui skirtus sertifikato įgaliojimus, kurie gali leisti domenui stebėti jūsų darbo tinklo veiklą, įskaitant el. laiškus, programas ir saugias svetaines.\n\nJei reikia daugiau informacijos apie šiuos sertifikatus, susisiekite su savo administratoriumi.</item>
-        <item quantity="few"><xliff:g id="MANAGING_DOMAIN_1">%s</xliff:g> įdiegė jūsų darbo profiliui skirtus sertifikato įgaliojimus, kurie gali leisti domenui stebėti jūsų darbo tinklo veiklą, įskaitant el. laiškus, programas ir saugias svetaines.\n\nJei reikia daugiau informacijos apie šiuos sertifikatus, susisiekite su savo administratoriumi.</item>
-        <item quantity="many"><xliff:g id="MANAGING_DOMAIN_1">%s</xliff:g> įdiegė jūsų darbo profiliui skirtus sertifikato įgaliojimus, kurie gali leisti domenui stebėti jūsų darbo tinklo veiklą, įskaitant el. laiškus, programas ir saugias svetaines.\n\nJei reikia daugiau informacijos apie šiuos sertifikatus, susisiekite su savo administratoriumi.</item>
-        <item quantity="other"><xliff:g id="MANAGING_DOMAIN_1">%s</xliff:g> įdiegė jūsų darbo profiliui skirtus sertifikato įgaliojimus, kurie gali leisti domenui stebėti jūsų darbo tinklo veiklą, įskaitant el. laiškus, programas ir saugias svetaines.\n\nJei reikia daugiau informacijos apie šiuos sertifikatus, susisiekite su savo administratoriumi.</item>
+      <item quantity="one"><xliff:g id="MANAGING_DOMAIN_1">%s</xliff:g> įdiegė jūsų darbo profiliui skirtus sertifikato įgaliojimus, kurie gali leisti domenui stebėti jūsų darbo tinklo veiklą, įskaitant el. laiškus, programas ir saugias svetaines.\n\nJei reikia daugiau informacijos apie šiuos sertifikatus, susisiekite su savo administratoriumi.</item>
+      <item quantity="few"><xliff:g id="MANAGING_DOMAIN_1">%s</xliff:g> įdiegė jūsų darbo profiliui skirtus sertifikato įgaliojimus, kurie gali leisti domenui stebėti jūsų darbo tinklo veiklą, įskaitant el. laiškus, programas ir saugias svetaines.\n\nJei reikia daugiau informacijos apie šiuos sertifikatus, susisiekite su savo administratoriumi.</item>
+      <item quantity="many"><xliff:g id="MANAGING_DOMAIN_1">%s</xliff:g> įdiegė jūsų darbo profiliui skirtus sertifikato įgaliojimus, kurie gali leisti domenui stebėti jūsų darbo tinklo veiklą, įskaitant el. laiškus, programas ir saugias svetaines.\n\nJei reikia daugiau informacijos apie šiuos sertifikatus, susisiekite su savo administratoriumi.</item>
+      <item quantity="other"><xliff:g id="MANAGING_DOMAIN_1">%s</xliff:g> įdiegė jūsų darbo profiliui skirtus sertifikato įgaliojimus, kurie gali leisti domenui stebėti jūsų darbo tinklo veiklą, įskaitant el. laiškus, programas ir saugias svetaines.\n\nJei reikia daugiau informacijos apie šiuos sertifikatus, susisiekite su savo administratoriumi.</item>
     </plurals>
     <string name="ssl_ca_cert_warning_message" msgid="4374052724815563051">"Trečioji šalis gali stebėti jūsų tinklo veiklą, įskaitant el. laiškus, programas ir saugias svetaines.\n\nVisa tai galima dėl įrenginyje įdiegtų patikimų prisijungimo duomenų."</string>
     <plurals name="ssl_ca_cert_settings_button" formatted="false" msgid="125941406175485894">
-        <item quantity="one">Tikrinti sertifikatus</item>
-        <item quantity="few">Tikrinti sertifikatus</item>
-        <item quantity="many">Tikrinti sertifikatus</item>
-        <item quantity="other">Tikrinti sertifikatus</item>
+      <item quantity="one">Tikrinti sertifikatus</item>
+      <item quantity="few">Tikrinti sertifikatus</item>
+      <item quantity="many">Tikrinti sertifikatus</item>
+      <item quantity="other">Tikrinti sertifikatus</item>
     </plurals>
     <string name="user_settings_title" msgid="6550866465409807877">"Keli naudotojai"</string>
     <string name="user_settings_footer_text" product="device" msgid="7523914344521302179">"Bendrai naudokite įrenginį pridėję naujų naudotojų. Kiekvienam naudotojui įrenginyje sukuriama asmeninė erdvė, kurioje rodomi tinkinti pagrindiniai ekranai, paskyros, programos, nustatymai ir daugiau."</string>
@@ -3443,7 +3497,7 @@
     <string name="call_manager_enable_summary" msgid="7362506369604163030">"Leisti šiai paslaugai tvarkyti skambučių atlikimą."</string>
     <string name="call_manager_title" msgid="3397433159509629466">"Skambučių tvarkyklė"</string>
     <!-- no translation found for call_manager_summary (2558839230880919191) -->
-    <skip/>
+    <skip />
     <string name="cell_broadcast_settings" msgid="2416980110093867199">"Belaidžiu ryšiu siunčiami kritinės pad. įspėjimai"</string>
     <string name="network_operators_settings" msgid="5105453353329748954">"Tinklo operatoriai"</string>
     <string name="access_point_names" msgid="5768430498022188057">"Prieigos taškų pavadinimai"</string>
@@ -3490,6 +3544,7 @@
     <string name="wizard_back" msgid="8257697435061870191">"Atgal"</string>
     <string name="wizard_next" msgid="3884832431439072471">"Kitas"</string>
     <string name="wizard_finish" msgid="4220258401946825946">"Užbaigti"</string>
+    <string name="regulatory_info_text" msgid="1154461023369976667"></string>
     <string name="sim_setup_wizard_title" msgid="3945520353564138219">"SIM kortelės"</string>
     <string name="sim_settings_title" msgid="8392862852842113531">"SIM kortelės"</string>
     <string name="sim_settings_summary" msgid="5777472623476930332">"„<xliff:g id="SIM_NAME">%1$s</xliff:g>“ – <xliff:g id="SIM_NUMBER">%2$s</xliff:g>"</string>
@@ -3531,10 +3586,10 @@
     <string name="sim_selection_channel_title" msgid="3193666315607572484">"SIM pasirinkimas"</string>
     <string name="dashboard_title" msgid="5660733037244683387">"Nustatymai"</string>
     <plurals name="settings_suggestion_header_summary_hidden_items" formatted="false" msgid="6585075562837786847">
-        <item quantity="one">Rodyti %d paslėptą elementą</item>
-        <item quantity="few">Rodyti %d paslėptus elementus</item>
-        <item quantity="many">Rodyti %d paslėpto elemento</item>
-        <item quantity="other">Rodyti %d paslėptų elementų</item>
+      <item quantity="one">Rodyti %d paslėptą elementą</item>
+      <item quantity="few">Rodyti %d paslėptus elementus</item>
+      <item quantity="many">Rodyti %d paslėpto elemento</item>
+      <item quantity="other">Rodyti %d paslėptų elementų</item>
     </plurals>
     <string name="network_dashboard_title" msgid="788543070557731240">"Tinklas ir internetas"</string>
     <string name="network_dashboard_summary_mobile" msgid="7750924671970583670">"Mobiliojo ryšio tinklas, „Wi‑Fi“, viešosios interneto prieigos taškas"</string>
@@ -3912,10 +3967,10 @@
     <string name="manage_conversations" msgid="4440289604887824337">"Tvarkyti pokalbius"</string>
     <string name="priority_conversation_count_zero" msgid="3862289535537564713">"Nėra jokių prioritetinių pokalbių"</string>
     <plurals name="priority_conversation_count" formatted="false" msgid="4229447176780862649">
-        <item quantity="one"><xliff:g id="COUNT_1">%d</xliff:g> prioritetinis pokalbis</item>
-        <item quantity="few"><xliff:g id="COUNT_1">%d</xliff:g> prioritetiniai pokalbiai</item>
-        <item quantity="many"><xliff:g id="COUNT_1">%d</xliff:g> prioritetinio pokalbio</item>
-        <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> prioritetinių pokalbių</item>
+      <item quantity="one"><xliff:g id="COUNT_1">%d</xliff:g> prioritetinis pokalbis</item>
+      <item quantity="few"><xliff:g id="COUNT_1">%d</xliff:g> prioritetiniai pokalbiai</item>
+      <item quantity="many"><xliff:g id="COUNT_1">%d</xliff:g> prioritetinio pokalbio</item>
+      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> prioritetinių pokalbių</item>
     </plurals>
     <string name="important_conversations" msgid="1233893707189659401">"Svarbiausi pokalbiai"</string>
     <string name="important_conversations_summary_bubbles" msgid="614327166808117644">"Rodyti pokalbių skilties viršuje kaip slankiuosius burbulus"</string>
@@ -3957,16 +4012,16 @@
     <string name="notification_app_switch_label" msgid="4422902423925084193">"Visi „<xliff:g id="APP_NAME">%1$s</xliff:g>“ pranešimai"</string>
     <string name="default_notification_assistant" msgid="243718059890346442">"Prisitaikantys pranešimai"</string>
     <plurals name="notifications_sent_daily" formatted="false" msgid="1479283620504341566">
-        <item quantity="one">~ <xliff:g id="NUMBER_1">%d</xliff:g> pranešimas per dieną</item>
-        <item quantity="few">~ <xliff:g id="NUMBER_1">%d</xliff:g> pranešimai per dieną</item>
-        <item quantity="many">~ <xliff:g id="NUMBER_1">%d</xliff:g> pranešimo per dieną</item>
-        <item quantity="other">~ <xliff:g id="NUMBER_1">%d</xliff:g> pranešimų per dieną</item>
+      <item quantity="one">~ <xliff:g id="NUMBER_1">%d</xliff:g> pranešimas per dieną</item>
+      <item quantity="few">~ <xliff:g id="NUMBER_1">%d</xliff:g> pranešimai per dieną</item>
+      <item quantity="many">~ <xliff:g id="NUMBER_1">%d</xliff:g> pranešimo per dieną</item>
+      <item quantity="other">~ <xliff:g id="NUMBER_1">%d</xliff:g> pranešimų per dieną</item>
     </plurals>
     <plurals name="notifications_sent_weekly" formatted="false" msgid="4913443431857170519">
-        <item quantity="one">~ <xliff:g id="NUMBER_1">%d</xliff:g> pranešimas per savaitę</item>
-        <item quantity="few">~ <xliff:g id="NUMBER_1">%d</xliff:g> pranešimai per savaitę</item>
-        <item quantity="many">~ <xliff:g id="NUMBER_1">%d</xliff:g> pranešimo per savaitę</item>
-        <item quantity="other">~ <xliff:g id="NUMBER_1">%d</xliff:g> pranešimų per savaitę</item>
+      <item quantity="one">~ <xliff:g id="NUMBER_1">%d</xliff:g> pranešimas per savaitę</item>
+      <item quantity="few">~ <xliff:g id="NUMBER_1">%d</xliff:g> pranešimai per savaitę</item>
+      <item quantity="many">~ <xliff:g id="NUMBER_1">%d</xliff:g> pranešimo per savaitę</item>
+      <item quantity="other">~ <xliff:g id="NUMBER_1">%d</xliff:g> pranešimų per savaitę</item>
     </plurals>
     <string name="notifications_sent_never" msgid="9081278709126812062">"Niekada"</string>
     <string name="manage_notification_access_title" msgid="6481256069087219982">"Įrenginių ir programų pranešimai"</string>
@@ -3974,10 +4029,10 @@
     <string name="work_profile_notification_access_blocked_summary" msgid="8643809206612366067">"Prieiga prie darbo profilio pranešimų užblokuota"</string>
     <string name="manage_notification_access_summary_zero" msgid="7528633634628627431">"Programos negali skaityti pranešimų"</string>
     <plurals name="manage_notification_access_summary_nonzero" formatted="false" msgid="3703008881487586312">
-        <item quantity="one">%d programa gali skaityti pranešimus</item>
-        <item quantity="few">%d programos gali skaityti pranešimus</item>
-        <item quantity="many">%d programos gali skaityti pranešimus</item>
-        <item quantity="other">%d programų gali skaityti pranešimus</item>
+      <item quantity="one">%d programa gali skaityti pranešimus</item>
+      <item quantity="few">%d programos gali skaityti pranešimus</item>
+      <item quantity="many">%d programos gali skaityti pranešimus</item>
+      <item quantity="other">%d programų gali skaityti pranešimus</item>
     </plurals>
     <string name="notification_assistant_title" msgid="5889201903272393099">"Patobulinti pranešimai"</string>
     <string name="notification_assistant_summary" msgid="1957783114840908887">"Gaukite siūlomus veiksmus, atsakymus ir daugiau"</string>
@@ -4038,10 +4093,10 @@
     <string name="interact_across_profiles_consent_dialog_permissions_summary" msgid="995051542847604039">"Ši programa gali naudoti jūsų asmeninės programos „<xliff:g id="NAME">%1$s</xliff:g>“ leidimus, pvz., pasiekti vietovę, saugyklą ar kontaktus."</string>
     <string name="interact_across_profiles_number_of_connected_apps_none" msgid="8573289199942092964">"Nėra prijungtų programų"</string>
     <plurals name="interact_across_profiles_number_of_connected_apps" formatted="false" msgid="6991750455661974772">
-        <item quantity="one">Prijungta <xliff:g id="COUNT_1">%d</xliff:g> programa</item>
-        <item quantity="few">Prijungtos <xliff:g id="COUNT_1">%d</xliff:g> programos</item>
-        <item quantity="many">Prijungta <xliff:g id="COUNT_1">%d</xliff:g> programos</item>
-        <item quantity="other">Prijungta <xliff:g id="COUNT_1">%d</xliff:g> programų</item>
+      <item quantity="one">Prijungta <xliff:g id="COUNT_1">%d</xliff:g> programa</item>
+      <item quantity="few">Prijungtos <xliff:g id="COUNT_1">%d</xliff:g> programos</item>
+      <item quantity="many">Prijungta <xliff:g id="COUNT_1">%d</xliff:g> programos</item>
+      <item quantity="other">Prijungta <xliff:g id="COUNT_1">%d</xliff:g> programų</item>
     </plurals>
     <string name="interact_across_profiles_install_work_app_title" msgid="2821669067014436056">"Kad prijungtumėte šias programas, įdiekite programą „<xliff:g id="NAME">%1$s</xliff:g>“ darbo profilyje"</string>
     <string name="interact_across_profiles_install_personal_app_title" msgid="4790651223324866344">"Kad prijungtumėte šias programas, įdiekite programą „<xliff:g id="NAME">%1$s</xliff:g>“ asmeniniame profilyje"</string>
@@ -4056,26 +4111,26 @@
     <string name="notification_channels" msgid="1502969522886493799">"Kategorijos"</string>
     <string name="notification_channels_other" msgid="18159805343647908">"Kita"</string>
     <plurals name="notification_group_summary" formatted="false" msgid="483490958130993160">
-        <item quantity="one"><xliff:g id="COUNT_1">%d</xliff:g> kategorija</item>
-        <item quantity="few"><xliff:g id="COUNT_1">%d</xliff:g> kategorijos</item>
-        <item quantity="many"><xliff:g id="COUNT_1">%d</xliff:g> kategorijos</item>
-        <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> kategorijų</item>
+      <item quantity="one"><xliff:g id="COUNT_1">%d</xliff:g> kategorija</item>
+      <item quantity="few"><xliff:g id="COUNT_1">%d</xliff:g> kategorijos</item>
+      <item quantity="many"><xliff:g id="COUNT_1">%d</xliff:g> kategorijos</item>
+      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> kategorijų</item>
     </plurals>
     <string name="no_channels" msgid="4716199078612071915">"Ši programa nepaskelbė jokių pranešimų"</string>
     <string name="app_settings_link" msgid="6725453466705333311">"Papildomi programos nustatymai"</string>
     <string name="notification_screen_summary" msgid="5984915275134654822">"Pranešimų istorija, burbulai, neseniai išsiųsta"</string>
     <string name="app_notification_listing_summary_zero" msgid="2988400013221120744">"Įjungta visose programose"</string>
     <plurals name="app_notification_listing_summary_others" formatted="false" msgid="1506127395400503717">
-        <item quantity="one">Išjungta <xliff:g id="COUNT_1">%d</xliff:g> programoje</item>
-        <item quantity="few">Išjungta <xliff:g id="COUNT_1">%d</xliff:g> programose</item>
-        <item quantity="many">Išjungta <xliff:g id="COUNT_1">%d</xliff:g> programos</item>
-        <item quantity="other">Išjungta <xliff:g id="COUNT_1">%d</xliff:g> programų</item>
+      <item quantity="one">Išjungta <xliff:g id="COUNT_1">%d</xliff:g> programoje</item>
+      <item quantity="few">Išjungta <xliff:g id="COUNT_1">%d</xliff:g> programose</item>
+      <item quantity="many">Išjungta <xliff:g id="COUNT_1">%d</xliff:g> programos</item>
+      <item quantity="other">Išjungta <xliff:g id="COUNT_1">%d</xliff:g> programų</item>
     </plurals>
     <plurals name="deleted_channels" formatted="false" msgid="5963473421547029532">
-        <item quantity="one">Ištrinta <xliff:g id="COUNT_1">%d</xliff:g> kategorija</item>
-        <item quantity="few">Ištrintos <xliff:g id="COUNT_1">%d</xliff:g> kategorijos</item>
-        <item quantity="many">Ištrinta <xliff:g id="COUNT_1">%d</xliff:g> kategorijos</item>
-        <item quantity="other">Ištrinta <xliff:g id="COUNT_1">%d</xliff:g> kategorijų</item>
+      <item quantity="one">Ištrinta <xliff:g id="COUNT_1">%d</xliff:g> kategorija</item>
+      <item quantity="few">Ištrintos <xliff:g id="COUNT_1">%d</xliff:g> kategorijos</item>
+      <item quantity="many">Ištrinta <xliff:g id="COUNT_1">%d</xliff:g> kategorijos</item>
+      <item quantity="other">Ištrinta <xliff:g id="COUNT_1">%d</xliff:g> kategorijų</item>
     </plurals>
     <string name="notification_toggle_on" msgid="1624283327379059003">"Įjungta"</string>
     <string name="notification_toggle_off" msgid="3295373308338024844">"Išjungta"</string>
@@ -4222,7 +4277,7 @@
     <string name="zen_mode_starred_callers" msgid="1002370699564211178">"žvaigždute pažymėti kontaktai"</string>
     <string name="zen_mode_repeat_callers_list" msgid="181819778783743847">"pakartotinai skambinantys žmonės"</string>
     <!-- no translation found for zen_mode_calls_summary_one (1928015516061784276) -->
-    <skip/>
+    <skip />
     <string name="zen_mode_calls_summary_two" msgid="6351563496898410742">"<xliff:g id="CALLER_TYPE_0">%1$s</xliff:g> ir <xliff:g id="CALLER_TYPE_1">%2$s</xliff:g>"</string>
     <string name="zen_mode_repeat_callers_summary" msgid="4121054819936083025">"Jei asmuo skambina antrą kartą per <xliff:g id="MINUTES">%d</xliff:g> min. laikotarpį"</string>
     <string name="zen_mode_behavior_summary_custom" msgid="3126805555852783860">"Tinkintas garsas"</string>
@@ -4235,16 +4290,16 @@
     <string name="zen_mode_end_time_next_day_summary_format" msgid="419683704068360804">"<xliff:g id="FORMATTED_TIME">%s</xliff:g> kitą dieną"</string>
     <string name="zen_mode_summary_alarms_only_indefinite" msgid="910047326128154945">"Pakeisti tik į signalus neribotam laikui"</string>
     <plurals name="zen_mode_summary_alarms_only_by_minute" formatted="false" msgid="1900512966361163390">
-        <item quantity="one">Pakeisti tik į signalus <xliff:g id="DURATION">%1$d</xliff:g> minutei (iki <xliff:g id="FORMATTEDTIME_1">%2$s</xliff:g>)</item>
-        <item quantity="few">Pakeisti tik į signalus <xliff:g id="DURATION">%1$d</xliff:g> minutėms (iki <xliff:g id="FORMATTEDTIME_1">%2$s</xliff:g>)</item>
-        <item quantity="many">Pakeisti tik į signalus <xliff:g id="DURATION">%1$d</xliff:g> minutės (iki <xliff:g id="FORMATTEDTIME_1">%2$s</xliff:g>)</item>
-        <item quantity="other">Pakeisti tik į signalus <xliff:g id="DURATION">%1$d</xliff:g> minučių (iki <xliff:g id="FORMATTEDTIME_1">%2$s</xliff:g>)</item>
+      <item quantity="one">Pakeisti tik į signalus <xliff:g id="DURATION">%1$d</xliff:g> minutei (iki <xliff:g id="FORMATTEDTIME_1">%2$s</xliff:g>)</item>
+      <item quantity="few">Pakeisti tik į signalus <xliff:g id="DURATION">%1$d</xliff:g> minutėms (iki <xliff:g id="FORMATTEDTIME_1">%2$s</xliff:g>)</item>
+      <item quantity="many">Pakeisti tik į signalus <xliff:g id="DURATION">%1$d</xliff:g> minutės (iki <xliff:g id="FORMATTEDTIME_1">%2$s</xliff:g>)</item>
+      <item quantity="other">Pakeisti tik į signalus <xliff:g id="DURATION">%1$d</xliff:g> minučių (iki <xliff:g id="FORMATTEDTIME_1">%2$s</xliff:g>)</item>
     </plurals>
     <plurals name="zen_mode_summary_alarms_only_by_hour" formatted="false" msgid="955991428001659124">
-        <item quantity="one">Pakeisti tik į signalus <xliff:g id="DURATION">%1$d</xliff:g> valandai iki <xliff:g id="FORMATTEDTIME_1">%2$s</xliff:g></item>
-        <item quantity="few">Pakeisti tik į signalus <xliff:g id="DURATION">%1$d</xliff:g> valandoms iki <xliff:g id="FORMATTEDTIME_1">%2$s</xliff:g></item>
-        <item quantity="many">Pakeisti tik į signalus <xliff:g id="DURATION">%1$d</xliff:g> valandos iki <xliff:g id="FORMATTEDTIME_1">%2$s</xliff:g></item>
-        <item quantity="other">Pakeisti tik į signalus <xliff:g id="DURATION">%1$d</xliff:g> valandų iki <xliff:g id="FORMATTEDTIME_1">%2$s</xliff:g></item>
+      <item quantity="one">Pakeisti tik į signalus <xliff:g id="DURATION">%1$d</xliff:g> valandai iki <xliff:g id="FORMATTEDTIME_1">%2$s</xliff:g></item>
+      <item quantity="few">Pakeisti tik į signalus <xliff:g id="DURATION">%1$d</xliff:g> valandoms iki <xliff:g id="FORMATTEDTIME_1">%2$s</xliff:g></item>
+      <item quantity="many">Pakeisti tik į signalus <xliff:g id="DURATION">%1$d</xliff:g> valandos iki <xliff:g id="FORMATTEDTIME_1">%2$s</xliff:g></item>
+      <item quantity="other">Pakeisti tik į signalus <xliff:g id="DURATION">%1$d</xliff:g> valandų iki <xliff:g id="FORMATTEDTIME_1">%2$s</xliff:g></item>
     </plurals>
     <string name="zen_mode_summary_alarms_only_by_time" msgid="8140619669703968810">"Pakeisti tik į signalus iki <xliff:g id="FORMATTEDTIME">%1$s</xliff:g>"</string>
     <string name="zen_mode_summary_always" msgid="722093064250082317">"Pakeisti į pertraukimo nustatymą visam laikui"</string>
@@ -4318,26 +4373,26 @@
     <string name="app_launch_add_link" msgid="8622558044530305811">"Pridėti nuorodą"</string>
     <string name="app_launch_footer" msgid="4521865035105622557">"Programa gali patvirtinti nuorodas, kad jas būtų galimai automatiškai atidaryti programoje."</string>
     <plurals name="app_launch_verified_links_title" formatted="false" msgid="3945301449178587783">
-        <item quantity="one"><xliff:g id="COUNT_1">%d</xliff:g> patvirtinta nuoroda</item>
-        <item quantity="few"><xliff:g id="COUNT_1">%d</xliff:g> patvirtintos nuorodos</item>
-        <item quantity="many"><xliff:g id="COUNT_1">%d</xliff:g> patvirtintos nuorodos</item>
-        <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> patvirtintų nuorodų</item>
+      <item quantity="one"><xliff:g id="COUNT_1">%d</xliff:g> patvirtinta nuoroda</item>
+      <item quantity="few"><xliff:g id="COUNT_1">%d</xliff:g> patvirtintos nuorodos</item>
+      <item quantity="many"><xliff:g id="COUNT_1">%d</xliff:g> patvirtintos nuorodos</item>
+      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> patvirtintų nuorodų</item>
     </plurals>
     <plurals name="app_launch_verified_links_message" formatted="false" msgid="1209292155940482111">
-        <item quantity="one">Šios nuorodos yra patvirtintos ir automatiškai atidaromos šioje programoje.</item>
-        <item quantity="few">Šios nuorodos yra patvirtintos ir automatiškai atidaromos šioje programoje.</item>
-        <item quantity="many">Šios nuorodos yra patvirtintos ir automatiškai atidaromos šioje programoje.</item>
-        <item quantity="other">Šios nuorodos yra patvirtintos ir automatiškai atidaromos šioje programoje.</item>
+      <item quantity="one">Šios nuorodos yra patvirtintos ir automatiškai atidaromos šioje programoje.</item>
+      <item quantity="few">Šios nuorodos yra patvirtintos ir automatiškai atidaromos šioje programoje.</item>
+      <item quantity="many">Šios nuorodos yra patvirtintos ir automatiškai atidaromos šioje programoje.</item>
+      <item quantity="other">Šios nuorodos yra patvirtintos ir automatiškai atidaromos šioje programoje.</item>
     </plurals>
     <string name="app_launch_dialog_ok" msgid="1446157681861409861">"Gerai"</string>
     <string name="app_launch_verified_links_info_description" msgid="7514750232467132117">"Rodyti patvirtintų nuorodų sąrašą"</string>
     <string name="app_launch_checking_links_title" msgid="6119228853554114201">"Ieškoma kitų palaikomų nuorodų…"</string>
     <string name="app_launch_dialog_cancel" msgid="6961071841814898663">"Atšaukti"</string>
     <plurals name="app_launch_supported_links_title" formatted="false" msgid="8579323750839397568">
-        <item quantity="one"><xliff:g id="COUNT_1">%d</xliff:g> palaikoma nuoroda</item>
-        <item quantity="few"><xliff:g id="COUNT_1">%d</xliff:g> palaikomos nuorodos</item>
-        <item quantity="many"><xliff:g id="COUNT_1">%d</xliff:g> palaikomos nuorodos</item>
-        <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> palaikomų nuorodų</item>
+      <item quantity="one"><xliff:g id="COUNT_1">%d</xliff:g> palaikoma nuoroda</item>
+      <item quantity="few"><xliff:g id="COUNT_1">%d</xliff:g> palaikomos nuorodos</item>
+      <item quantity="many"><xliff:g id="COUNT_1">%d</xliff:g> palaikomos nuorodos</item>
+      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> palaikomų nuorodų</item>
     </plurals>
     <string name="app_launch_supported_links_add" msgid="3271247750388016131">"Pridėti"</string>
     <string name="app_launch_supported_links_subtext" msgid="4268004019469184113">"Atidaroma programoje „<xliff:g id="APP_LABEL">%s</xliff:g>“"</string>
@@ -4361,28 +4416,28 @@
     <string name="notification_summary_level" msgid="4074326972839105652">"%d lygis"</string>
     <string name="notification_summary_channel" msgid="8459033623057872803">"„<xliff:g id="CHANNEL_NAME">%1$s</xliff:g>“ • „<xliff:g id="GROUP_NAME">%2$s</xliff:g>“"</string>
     <plurals name="notifications_categories_off" formatted="false" msgid="1385401442703692986">
-        <item quantity="one"><xliff:g id="COUNT_1">%d</xliff:g> kategorija išjungta</item>
-        <item quantity="few"><xliff:g id="COUNT_1">%d</xliff:g> kategorijos išjungtos</item>
-        <item quantity="many"><xliff:g id="COUNT_1">%d</xliff:g> kategorijos išjungta</item>
-        <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> kategorijų išjungta</item>
+      <item quantity="one"><xliff:g id="COUNT_1">%d</xliff:g> kategorija išjungta</item>
+      <item quantity="few"><xliff:g id="COUNT_1">%d</xliff:g> kategorijos išjungtos</item>
+      <item quantity="many"><xliff:g id="COUNT_1">%d</xliff:g> kategorijos išjungta</item>
+      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> kategorijų išjungta</item>
     </plurals>
     <plurals name="permissions_summary" formatted="false" msgid="5015472550875144481">
-        <item quantity="one">Suteiktas <xliff:g id="COUNT_1">%d</xliff:g> leidimas</item>
-        <item quantity="few">Suteikti <xliff:g id="COUNT_1">%d</xliff:g> leidimai</item>
-        <item quantity="many">Suteikta <xliff:g id="COUNT_1">%d</xliff:g> leidimo</item>
-        <item quantity="other">Suteikta <xliff:g id="COUNT_1">%d</xliff:g> leidimų</item>
+      <item quantity="one">Suteiktas <xliff:g id="COUNT_1">%d</xliff:g> leidimas</item>
+      <item quantity="few">Suteikti <xliff:g id="COUNT_1">%d</xliff:g> leidimai</item>
+      <item quantity="many">Suteikta <xliff:g id="COUNT_1">%d</xliff:g> leidimo</item>
+      <item quantity="other">Suteikta <xliff:g id="COUNT_1">%d</xliff:g> leidimų</item>
     </plurals>
     <plurals name="runtime_permissions_summary" formatted="false" msgid="2091022049141391855">
-        <item quantity="one">Suteiktas <xliff:g id="COUNT_2">%d</xliff:g> leidimas iš <xliff:g id="COUNT_3">%d</xliff:g></item>
-        <item quantity="few">Suteikti <xliff:g id="COUNT_2">%d</xliff:g> leidimai iš <xliff:g id="COUNT_3">%d</xliff:g></item>
-        <item quantity="many">Suteikta <xliff:g id="COUNT_2">%d</xliff:g> leidimo iš <xliff:g id="COUNT_3">%d</xliff:g></item>
-        <item quantity="other">Suteikta <xliff:g id="COUNT_2">%d</xliff:g> leidimų iš <xliff:g id="COUNT_3">%d</xliff:g></item>
+      <item quantity="one">Suteiktas <xliff:g id="COUNT_2">%d</xliff:g> leidimas iš <xliff:g id="COUNT_3">%d</xliff:g></item>
+      <item quantity="few">Suteikti <xliff:g id="COUNT_2">%d</xliff:g> leidimai iš <xliff:g id="COUNT_3">%d</xliff:g></item>
+      <item quantity="many">Suteikta <xliff:g id="COUNT_2">%d</xliff:g> leidimo iš <xliff:g id="COUNT_3">%d</xliff:g></item>
+      <item quantity="other">Suteikta <xliff:g id="COUNT_2">%d</xliff:g> leidimų iš <xliff:g id="COUNT_3">%d</xliff:g></item>
     </plurals>
     <plurals name="runtime_permissions_additional_count" formatted="false" msgid="5888624648943937645">
-        <item quantity="one"><xliff:g id="COUNT_1">%d</xliff:g> papildomas leidimas</item>
-        <item quantity="few"><xliff:g id="COUNT_1">%d</xliff:g> papildomi leidimai</item>
-        <item quantity="many"><xliff:g id="COUNT_1">%d</xliff:g> papildomo leidimo</item>
-        <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> papildomų leidimų</item>
+      <item quantity="one"><xliff:g id="COUNT_1">%d</xliff:g> papildomas leidimas</item>
+      <item quantity="few"><xliff:g id="COUNT_1">%d</xliff:g> papildomi leidimai</item>
+      <item quantity="many"><xliff:g id="COUNT_1">%d</xliff:g> papildomo leidimo</item>
+      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> papildomų leidimų</item>
     </plurals>
     <string name="runtime_permissions_summary_no_permissions_granted" msgid="7456745929035665029">"Nėra suteiktų leidimų"</string>
     <string name="runtime_permissions_summary_no_permissions_requested" msgid="7174876170116073356">"Nėra užklausų dėl leidimų"</string>
@@ -4391,10 +4446,10 @@
     <string name="permissions_usage_summary" msgid="6784310472062516454">"Rodyti, kurios programos neseniai naudojo leidimus"</string>
     <string name="unused_apps" msgid="4566272194756830656">"Nenaudojamos programos"</string>
     <plurals name="unused_apps_summary" formatted="false" msgid="3827583582750975783">
-        <item quantity="one"><xliff:g id="COUNT_1">%d</xliff:g> nenaudojama programa</item>
-        <item quantity="few"><xliff:g id="COUNT_1">%d</xliff:g> nenaudojamos programos</item>
-        <item quantity="many"><xliff:g id="COUNT_1">%d</xliff:g> nenaudojamos programos</item>
-        <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> nenaudojamų programų</item>
+      <item quantity="one"><xliff:g id="COUNT_1">%d</xliff:g> nenaudojama programa</item>
+      <item quantity="few"><xliff:g id="COUNT_1">%d</xliff:g> nenaudojamos programos</item>
+      <item quantity="many"><xliff:g id="COUNT_1">%d</xliff:g> nenaudojamos programos</item>
+      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> nenaudojamų programų</item>
     </plurals>
     <string name="unused_apps_switch" msgid="419282628373205038">"Pašalinti leidimus ir atlaisvinti vietos"</string>
     <string name="filter_all_apps" msgid="6645539744080251371">"Visos programos"</string>
@@ -4420,19 +4475,19 @@
     <string name="domain_urls_summary_some" msgid="1197692164421314523">"Atidaryti <xliff:g id="DOMAIN">%s</xliff:g> ir kitus URL"</string>
     <string name="domain_urls_apps_summary_off" msgid="2534980824850890416">"Nėra programos, kuri galėtų atidaryti palaikomas nuorodas"</string>
     <plurals name="domain_urls_apps_summary_on" formatted="false" msgid="7864816862441985323">
-        <item quantity="one"><xliff:g id="COUNT">%d</xliff:g> programa gali atidaryti palaikomas nuorodas</item>
-        <item quantity="few"><xliff:g id="COUNT">%d</xliff:g> programos gali atidaryti palaikomas nuorodas</item>
-        <item quantity="many"><xliff:g id="COUNT">%d</xliff:g> programos gali atidaryti palaikomas nuorodas</item>
-        <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> programų gali atidaryti palaikomas nuorodas</item>
+      <item quantity="one"><xliff:g id="COUNT">%d</xliff:g> programa gali atidaryti palaikomas nuorodas</item>
+      <item quantity="few"><xliff:g id="COUNT">%d</xliff:g> programos gali atidaryti palaikomas nuorodas</item>
+      <item quantity="many"><xliff:g id="COUNT">%d</xliff:g> programos gali atidaryti palaikomas nuorodas</item>
+      <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> programų gali atidaryti palaikomas nuorodas</item>
     </plurals>
     <string name="app_link_open_always" msgid="9167065494930657503">"Leisti programai atidaryti palaikomas nuorodas"</string>
     <string name="app_link_open_ask" msgid="2422450109908936371">"Klausti kaskart"</string>
     <string name="app_link_open_never" msgid="5299808605386052350">"Neleisti programai atidaryti nuorodų"</string>
     <plurals name="app_link_open_always_summary" formatted="false" msgid="1816161439007251694">
-        <item quantity="one">Programa gali tvarkyti <xliff:g id="COUNT_1">%d</xliff:g> nuorodą</item>
-        <item quantity="few">Programa gali tvarkyti <xliff:g id="COUNT_1">%d</xliff:g> nuorodas</item>
-        <item quantity="many">Programa gali tvarkyti <xliff:g id="COUNT_1">%d</xliff:g> nuorodos</item>
-        <item quantity="other">Programa gali tvarkyti <xliff:g id="COUNT_1">%d</xliff:g> nuorodų</item>
+      <item quantity="one">Programa gali tvarkyti <xliff:g id="COUNT_1">%d</xliff:g> nuorodą</item>
+      <item quantity="few">Programa gali tvarkyti <xliff:g id="COUNT_1">%d</xliff:g> nuorodas</item>
+      <item quantity="many">Programa gali tvarkyti <xliff:g id="COUNT_1">%d</xliff:g> nuorodos</item>
+      <item quantity="other">Programa gali tvarkyti <xliff:g id="COUNT_1">%d</xliff:g> nuorodų</item>
     </plurals>
     <string name="open_supported_links_footer" msgid="3188808142432787933">"Programa gali tvarkyti toliau pateiktas nuorodas."</string>
     <string name="default_apps_title" msgid="6943471331817718664">"Numatytieji"</string>
@@ -4473,16 +4528,16 @@
     <string name="show_all_apps" msgid="4490719452453223082">"Rodyti visą įrenginio naudojimo info."</string>
     <string name="hide_extra_apps" msgid="7313907836289865123">"Rodyti progr. naud. inform."</string>
     <plurals name="power_high_usage_summary" formatted="false" msgid="573433136005336970">
-        <item quantity="one"><xliff:g id="NUMBER">%2$d</xliff:g> programa veikia neįprastai</item>
-        <item quantity="few"><xliff:g id="NUMBER">%2$d</xliff:g> programos veikia neįprastai</item>
-        <item quantity="many"><xliff:g id="NUMBER">%2$d</xliff:g> programos veikia neįprastai</item>
-        <item quantity="other"><xliff:g id="NUMBER">%2$d</xliff:g> programų veikia neįprastai</item>
+      <item quantity="one"><xliff:g id="NUMBER">%2$d</xliff:g> programa veikia neįprastai</item>
+      <item quantity="few"><xliff:g id="NUMBER">%2$d</xliff:g> programos veikia neįprastai</item>
+      <item quantity="many"><xliff:g id="NUMBER">%2$d</xliff:g> programos veikia neįprastai</item>
+      <item quantity="other"><xliff:g id="NUMBER">%2$d</xliff:g> programų veikia neįprastai</item>
     </plurals>
     <plurals name="power_high_usage_title" formatted="false" msgid="8013115866788425817">
-        <item quantity="one">Programos, eikvojančios akumuliatoriaus energiją</item>
-        <item quantity="few">Programos, eikvojančios akumuliatoriaus energiją</item>
-        <item quantity="many">Programos, eikvojančios akumuliatoriaus energiją</item>
-        <item quantity="other">Programos, eikvojančios akumuliatoriaus energiją</item>
+      <item quantity="one">Programos, eikvojančios akumuliatoriaus energiją</item>
+      <item quantity="few">Programos, eikvojančios akumuliatoriaus energiją</item>
+      <item quantity="many">Programos, eikvojančios akumuliatoriaus energiją</item>
+      <item quantity="other">Programos, eikvojančios akumuliatoriaus energiją</item>
     </plurals>
     <string name="high_power_filter_on" msgid="447849271630431531">"Neoptimizuota"</string>
     <string name="high_power_on" msgid="8778058701270819268">"Neoptimizuota"</string>
@@ -4563,10 +4618,10 @@
     <string name="free_memory" msgid="439783742246854785">"Laisva"</string>
     <string name="memory_usage_apps" msgid="5776108502569850579">"Programų naudojama atmintis"</string>
     <plurals name="memory_usage_apps_summary" formatted="false" msgid="1355637088533572208">
-        <item quantity="one">Per pastar. <xliff:g id="DURATION_1">%2$s</xliff:g> atmintį naudojo <xliff:g id="COUNT">%1$d</xliff:g> programa</item>
-        <item quantity="few">Per pastar. <xliff:g id="DURATION_1">%2$s</xliff:g> atmintį naudojo <xliff:g id="COUNT">%1$d</xliff:g> programos</item>
-        <item quantity="many">Per pastar. <xliff:g id="DURATION_1">%2$s</xliff:g> atmintį naudojo <xliff:g id="COUNT">%1$d</xliff:g> programos</item>
-        <item quantity="other">Per pastar. <xliff:g id="DURATION_1">%2$s</xliff:g> atmintį naudojo <xliff:g id="COUNT">%1$d</xliff:g> programų</item>
+      <item quantity="one">Per pastar. <xliff:g id="DURATION_1">%2$s</xliff:g> atmintį naudojo <xliff:g id="COUNT">%1$d</xliff:g> programa</item>
+      <item quantity="few">Per pastar. <xliff:g id="DURATION_1">%2$s</xliff:g> atmintį naudojo <xliff:g id="COUNT">%1$d</xliff:g> programos</item>
+      <item quantity="many">Per pastar. <xliff:g id="DURATION_1">%2$s</xliff:g> atmintį naudojo <xliff:g id="COUNT">%1$d</xliff:g> programos</item>
+      <item quantity="other">Per pastar. <xliff:g id="DURATION_1">%2$s</xliff:g> atmintį naudojo <xliff:g id="COUNT">%1$d</xliff:g> programų</item>
     </plurals>
     <string name="running_frequency" msgid="7260225121706316639">"Dažnis"</string>
     <string name="memory_maximum_usage" msgid="2047013391595835607">"Daugiausia panaudota"</string>
@@ -4643,10 +4698,10 @@
     <string name="data_usage_summary_format" msgid="6844301859713164522">"Panaudota duomenų: <xliff:g id="AMOUNT">%1$s</xliff:g>"</string>
     <string name="data_usage_wifi_format" msgid="7644390582649568117">"<xliff:g id="AMOUNT">^1</xliff:g> naudojama „Wi‑Fi“ tinkle"</string>
     <plurals name="notification_summary" formatted="false" msgid="7638388920823212470">
-        <item quantity="one">Išjungta <xliff:g id="COUNT">%d</xliff:g> programoje</item>
-        <item quantity="few">Išjungta <xliff:g id="COUNT">%d</xliff:g> programose</item>
-        <item quantity="many">Išjungta <xliff:g id="COUNT">%d</xliff:g> programos</item>
-        <item quantity="other">Išjungta <xliff:g id="COUNT">%d</xliff:g> programų</item>
+      <item quantity="one">Išjungta <xliff:g id="COUNT">%d</xliff:g> programoje</item>
+      <item quantity="few">Išjungta <xliff:g id="COUNT">%d</xliff:g> programose</item>
+      <item quantity="many">Išjungta <xliff:g id="COUNT">%d</xliff:g> programos</item>
+      <item quantity="other">Išjungta <xliff:g id="COUNT">%d</xliff:g> programų</item>
     </plurals>
     <string name="notification_summary_none" msgid="9179312319023988089">"Įjungta visoms programoms"</string>
     <string name="apps_summary" msgid="4007416751775414252">"Įdiegtų programų: <xliff:g id="COUNT">%1$d</xliff:g>"</string>
@@ -4713,16 +4768,16 @@
     <string name="suggestions_summary" msgid="1709710458908440469">"Dar <xliff:g id="ID_1">%1$d</xliff:g>"</string>
     <string name="suggestions_more_title" msgid="240124526378997009">"Dar <xliff:g id="ID_1">%1$d</xliff:g>"</string>
     <plurals name="suggestions_collapsed_title" formatted="false" msgid="5023679825210836444">
-        <item quantity="one"><xliff:g id="COUNT">%1$d</xliff:g> pasiūlymas</item>
-        <item quantity="few"><xliff:g id="COUNT">%1$d</xliff:g> pasiūlymai</item>
-        <item quantity="many"><xliff:g id="COUNT">%1$d</xliff:g> pasiūlymo</item>
-        <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> pasiūlymų</item>
+      <item quantity="one"><xliff:g id="COUNT">%1$d</xliff:g> pasiūlymas</item>
+      <item quantity="few"><xliff:g id="COUNT">%1$d</xliff:g> pasiūlymai</item>
+      <item quantity="many"><xliff:g id="COUNT">%1$d</xliff:g> pasiūlymo</item>
+      <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> pasiūlymų</item>
     </plurals>
     <plurals name="suggestions_collapsed_summary" formatted="false" msgid="3789011332018516832">
-        <item quantity="one">Dar <xliff:g id="COUNT">%1$d</xliff:g> pasiūlymas</item>
-        <item quantity="few">Dar <xliff:g id="COUNT">%1$d</xliff:g> pasiūlymai</item>
-        <item quantity="many">Dar <xliff:g id="COUNT">%1$d</xliff:g> pasiūlymo</item>
-        <item quantity="other">Dar <xliff:g id="COUNT">%1$d</xliff:g> pasiūlymų</item>
+      <item quantity="one">Dar <xliff:g id="COUNT">%1$d</xliff:g> pasiūlymas</item>
+      <item quantity="few">Dar <xliff:g id="COUNT">%1$d</xliff:g> pasiūlymai</item>
+      <item quantity="many">Dar <xliff:g id="COUNT">%1$d</xliff:g> pasiūlymo</item>
+      <item quantity="other">Dar <xliff:g id="COUNT">%1$d</xliff:g> pasiūlymų</item>
     </plurals>
     <string name="suggestion_remove" msgid="6753986344585367776">"Pašalinti"</string>
     <string name="color_temperature" msgid="8256912135746305176">"Šaltų spalvų temperatūra"</string>
@@ -4750,10 +4805,10 @@
     <string name="billing_cycle_fragment_summary" msgid="6346655500491631357">"Kas mėnesį, <xliff:g id="ID_1">%1$s</xliff:g> d."</string>
     <string name="network_restrictions" msgid="8385824604048229846">"Tinklo apribojimai"</string>
     <plurals name="network_restrictions_summary" formatted="false" msgid="3875128958788008975">
-        <item quantity="one"><xliff:g id="COUNT">%1$d</xliff:g> apribojimas</item>
-        <item quantity="few"><xliff:g id="COUNT">%1$d</xliff:g> apribojimai</item>
-        <item quantity="many"><xliff:g id="COUNT">%1$d</xliff:g> apribojimo</item>
-        <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> apribojimų</item>
+      <item quantity="one"><xliff:g id="COUNT">%1$d</xliff:g> apribojimas</item>
+      <item quantity="few"><xliff:g id="COUNT">%1$d</xliff:g> apribojimai</item>
+      <item quantity="many"><xliff:g id="COUNT">%1$d</xliff:g> apribojimo</item>
+      <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> apribojimų</item>
     </plurals>
     <string name="operator_warning" msgid="5672761970087591211">"Operatoriaus duomenų apskaita gali skirtis nuo įrenginio duomenų apskaitos"</string>
     <string name="non_carrier_data_usage_warning" msgid="4707184871368847697">"Išskiriami duomenys, kuriuos naudoja operatorių tinklai"</string>
@@ -4767,10 +4822,10 @@
     <string name="configure" msgid="1499586749829665889">"Konfigūruoti"</string>
     <string name="data_usage_other_apps" msgid="5649047093607329537">"Kitos įtrauktos naudojamos programos"</string>
     <plurals name="data_saver_unrestricted_summary" formatted="false" msgid="3316296488378947221">
-        <item quantity="one"><xliff:g id="COUNT">%1$d</xliff:g> programa leido naudoti neribotus duomenis, kai Duomenų taupymo priemonė įjungta</item>
-        <item quantity="few"><xliff:g id="COUNT">%1$d</xliff:g> programos leido naudoti neribotus duomenis, kai Duomenų taupymo priemonė įjungta</item>
-        <item quantity="many"><xliff:g id="COUNT">%1$d</xliff:g> programos leido naudoti neribotus duomenis, kai Duomenų taupymo priemonė įjungta</item>
-        <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> programų leido naudoti neribotus duomenis, kai Duomenų taupymo priemonė įjungta</item>
+      <item quantity="one"><xliff:g id="COUNT">%1$d</xliff:g> programa leido naudoti neribotus duomenis, kai Duomenų taupymo priemonė įjungta</item>
+      <item quantity="few"><xliff:g id="COUNT">%1$d</xliff:g> programos leido naudoti neribotus duomenis, kai Duomenų taupymo priemonė įjungta</item>
+      <item quantity="many"><xliff:g id="COUNT">%1$d</xliff:g> programos leido naudoti neribotus duomenis, kai Duomenų taupymo priemonė įjungta</item>
+      <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> programų leido naudoti neribotus duomenis, kai Duomenų taupymo priemonė įjungta</item>
     </plurals>
     <string name="data_usage_title" msgid="4039024073687469094">"Pagrindiniai duomenys"</string>
     <string name="data_usage_wifi_title" msgid="1060495519280456926">"„Wi‑Fi“ duomenys"</string>
@@ -4781,10 +4836,10 @@
     <string name="data_usage_chart_brief_content_description" msgid="5548074070258881530">"Diagramoje rodomas duomenų naudojimas <xliff:g id="START_DATE">%1$s</xliff:g>–<xliff:g id="END_DATE">%2$s</xliff:g>."</string>
     <string name="data_usage_chart_no_data_content_description" msgid="5481968839079467231">"Šią dienų seką atitinkančių duomenų nėra"</string>
     <plurals name="billing_cycle_days_left" formatted="false" msgid="661792524671718753">
-        <item quantity="one">Liko %d diena</item>
-        <item quantity="few">Liko %d dienos</item>
-        <item quantity="many">Liko %d dienos</item>
-        <item quantity="other">Liko %d dienų</item>
+      <item quantity="one">Liko %d diena</item>
+      <item quantity="few">Liko %d dienos</item>
+      <item quantity="many">Liko %d dienos</item>
+      <item quantity="other">Liko %d dienų</item>
     </plurals>
     <string name="billing_cycle_none_left" msgid="1694844019159277504">"Laiko neliko"</string>
     <string name="billing_cycle_less_than_one_day_left" msgid="1210202399053992163">"Liko mažiau nei 1 diena"</string>
@@ -4856,10 +4911,10 @@
     <string name="overlay_toast_failed_to_apply" msgid="4839587811338164960">"Nepavyko pritaikyti perdangos"</string>
     <string name="special_access" msgid="1767980727423395147">"Spec. prieiga prie prog."</string>
     <plurals name="special_access_summary" formatted="false" msgid="4995506406763570815">
-        <item quantity="one"><xliff:g id="COUNT">%d</xliff:g> programa gali naudoti neribotus duomenis</item>
-        <item quantity="few"><xliff:g id="COUNT">%d</xliff:g> programos gali naudoti neribotus duomenis</item>
-        <item quantity="many"><xliff:g id="COUNT">%d</xliff:g> programos gali naudoti neribotus duomenis</item>
-        <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> programų gali naudoti neribotus duomenis</item>
+      <item quantity="one"><xliff:g id="COUNT">%d</xliff:g> programa gali naudoti neribotus duomenis</item>
+      <item quantity="few"><xliff:g id="COUNT">%d</xliff:g> programos gali naudoti neribotus duomenis</item>
+      <item quantity="many"><xliff:g id="COUNT">%d</xliff:g> programos gali naudoti neribotus duomenis</item>
+      <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> programų gali naudoti neribotus duomenis</item>
     </plurals>
     <string name="special_access_more" msgid="132919514147475846">"Žr. daugiau"</string>
     <string name="confirm_convert_to_fbe_warning" msgid="3783325656948378111">"Tikrai išvalyti naudotojo duomenis ir konvertuoti į failų šifruotę?"</string>
@@ -4898,22 +4953,22 @@
     <string name="cross_profile_calendar_title" msgid="7570277841490216947">"Kelių profilių kalendorius"</string>
     <string name="cross_profile_calendar_summary" msgid="8856185206722860069">"Rodyti darbo įvykius asmeniniame kalendoriuje"</string>
     <plurals name="hours" formatted="false" msgid="1853396353451635458">
-        <item quantity="one"><xliff:g id="NUMBER">%s</xliff:g> valanda</item>
-        <item quantity="few"><xliff:g id="NUMBER">%s</xliff:g> valandos</item>
-        <item quantity="many"><xliff:g id="NUMBER">%s</xliff:g> valandos</item>
-        <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> valandų</item>
+      <item quantity="one"><xliff:g id="NUMBER">%s</xliff:g> valanda</item>
+      <item quantity="few"><xliff:g id="NUMBER">%s</xliff:g> valandos</item>
+      <item quantity="many"><xliff:g id="NUMBER">%s</xliff:g> valandos</item>
+      <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> valandų</item>
     </plurals>
     <plurals name="minutes" formatted="false" msgid="6244503272924425418">
-        <item quantity="one"><xliff:g id="NUMBER">%s</xliff:g> minutė</item>
-        <item quantity="few"><xliff:g id="NUMBER">%s</xliff:g> minutės</item>
-        <item quantity="many"><xliff:g id="NUMBER">%s</xliff:g> minutės</item>
-        <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> minučių</item>
+      <item quantity="one"><xliff:g id="NUMBER">%s</xliff:g> minutė</item>
+      <item quantity="few"><xliff:g id="NUMBER">%s</xliff:g> minutės</item>
+      <item quantity="many"><xliff:g id="NUMBER">%s</xliff:g> minutės</item>
+      <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> minučių</item>
     </plurals>
     <plurals name="seconds" formatted="false" msgid="4237020272336995370">
-        <item quantity="one"><xliff:g id="NUMBER">%s</xliff:g> sekundė</item>
-        <item quantity="few"><xliff:g id="NUMBER">%s</xliff:g> sekundės</item>
-        <item quantity="many"><xliff:g id="NUMBER">%s</xliff:g> sekundės</item>
-        <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> sekundžių</item>
+      <item quantity="one"><xliff:g id="NUMBER">%s</xliff:g> sekundė</item>
+      <item quantity="few"><xliff:g id="NUMBER">%s</xliff:g> sekundės</item>
+      <item quantity="many"><xliff:g id="NUMBER">%s</xliff:g> sekundės</item>
+      <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> sekundžių</item>
     </plurals>
     <string name="automatic_storage_manager_settings" msgid="519158151463974656">"Tvarkyti saugyklą"</string>
     <string name="automatic_storage_manager_text" msgid="6900593059927987273">"Kad padėtų atlaisvinti saugyklos vietos, saugyklos tvarkytuvė iš įrenginio pašalina nuotraukas ir vaizdo įrašus, kurių atsarginė kopija sukurta."</string>
@@ -4931,6 +4986,7 @@
     <string name="double_tap_power_for_camera_summary" msgid="1100926048598415509">"Jei norite greitai atidaryti fotoaparatą, dukart paspauskite maitinimo mygtuką. Veikia bet kuriame ekrane."</string>
     <string name="double_tap_power_for_camera_suggestion_title" msgid="4299496243418753571">"Greitai atidarykite fotoaparatą"</string>
     <string name="double_twist_for_camera_mode_title" msgid="472455236910935684">"Fotoaparato apvertimas fiksuojant asmenukę"</string>
+    <string name="double_twist_for_camera_mode_summary" msgid="592503740044744951"></string>
     <string name="double_twist_for_camera_suggestion_title" msgid="8178844037382604158">"Greičiau fotografuokite autoportretus"</string>
     <string name="system_navigation_title" msgid="1698862900901417194">"Sistemos naršymas"</string>
     <string name="swipe_up_to_switch_apps_title" msgid="6677266952021118342">"Naršymas 2 mygtukais"</string>
@@ -5042,20 +5098,20 @@
     <string name="enterprise_privacy_enterprise_installed_packages" msgid="9114143640515900082">"Programos įdiegtos"</string>
     <string name="enterprise_privacy_apps_count_estimation_info" msgid="7959907857710107792">"Numatomas programų skaičius. Jis gali neapimti už „Play“ parduotuvės ribų įdiegtų programų."</string>
     <plurals name="enterprise_privacy_number_packages_lower_bound" formatted="false" msgid="5403847001419529018">
-        <item quantity="one">Mažiausiai <xliff:g id="COUNT_1">%d</xliff:g> programa</item>
-        <item quantity="few">Mažiausiai <xliff:g id="COUNT_1">%d</xliff:g> programos</item>
-        <item quantity="many">Mažiausiai <xliff:g id="COUNT_1">%d</xliff:g> programos</item>
-        <item quantity="other">Mažiausiai <xliff:g id="COUNT_1">%d</xliff:g> programų</item>
+      <item quantity="one">Mažiausiai <xliff:g id="COUNT_1">%d</xliff:g> programa</item>
+      <item quantity="few">Mažiausiai <xliff:g id="COUNT_1">%d</xliff:g> programos</item>
+      <item quantity="many">Mažiausiai <xliff:g id="COUNT_1">%d</xliff:g> programos</item>
+      <item quantity="other">Mažiausiai <xliff:g id="COUNT_1">%d</xliff:g> programų</item>
     </plurals>
     <string name="enterprise_privacy_location_access" msgid="8023838718108456971">"Leidimas pasiekti vietovės duomenis"</string>
     <string name="enterprise_privacy_microphone_access" msgid="7242958026470143653">"Mikrofono leidimai"</string>
     <string name="enterprise_privacy_camera_access" msgid="7685460535880069016">"Fotoaparato leidimai"</string>
     <string name="enterprise_privacy_enterprise_set_default_apps" msgid="7498546659083996300">"Numatytosios programos"</string>
     <plurals name="enterprise_privacy_number_packages" formatted="false" msgid="8568544906431825430">
-        <item quantity="one"><xliff:g id="COUNT_1">%d</xliff:g> programa</item>
-        <item quantity="few"><xliff:g id="COUNT_1">%d</xliff:g> programos</item>
-        <item quantity="many"><xliff:g id="COUNT_1">%d</xliff:g> programos</item>
-        <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> programų</item>
+      <item quantity="one"><xliff:g id="COUNT_1">%d</xliff:g> programa</item>
+      <item quantity="few"><xliff:g id="COUNT_1">%d</xliff:g> programos</item>
+      <item quantity="many"><xliff:g id="COUNT_1">%d</xliff:g> programos</item>
+      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> programų</item>
     </plurals>
     <string name="enterprise_privacy_input_method" msgid="3278314982700662246">"Numatytoji klaviatūra"</string>
     <string name="enterprise_privacy_input_method_name" msgid="2974859490559054584">"Nustatyti į „<xliff:g id="APP_LABEL">%s</xliff:g>“"</string>
@@ -5067,20 +5123,20 @@
     <string name="enterprise_privacy_ca_certs_personal" msgid="1516422660828485795">"Patikimi prisijungimo duomenys asmeniniame profilyje"</string>
     <string name="enterprise_privacy_ca_certs_work" msgid="4318941788592655561">"Patikimi prisijungimo duomenys darbo profilyje"</string>
     <plurals name="enterprise_privacy_number_ca_certs" formatted="false" msgid="6459725295322004179">
-        <item quantity="one">Mažiausiai <xliff:g id="COUNT_1">%d</xliff:g> CA sertifikatas</item>
-        <item quantity="few">Mažiausiai <xliff:g id="COUNT_1">%d</xliff:g> CA sertifikatai</item>
-        <item quantity="many">Mažiausiai <xliff:g id="COUNT_1">%d</xliff:g> CA sertifikato</item>
-        <item quantity="other">Mažiausiai <xliff:g id="COUNT_1">%d</xliff:g> CA sertifikatų</item>
+      <item quantity="one">Mažiausiai <xliff:g id="COUNT_1">%d</xliff:g> CA sertifikatas</item>
+      <item quantity="few">Mažiausiai <xliff:g id="COUNT_1">%d</xliff:g> CA sertifikatai</item>
+      <item quantity="many">Mažiausiai <xliff:g id="COUNT_1">%d</xliff:g> CA sertifikato</item>
+      <item quantity="other">Mažiausiai <xliff:g id="COUNT_1">%d</xliff:g> CA sertifikatų</item>
     </plurals>
     <string name="enterprise_privacy_lock_device" msgid="464054894363899866">"Administratorius gali užrakinti įrenginį ir iš naujo nustatyti slaptažodį"</string>
     <string name="enterprise_privacy_wipe_device" msgid="869589182352244591">"Administratorius gali ištrinti visus įrenginio duomenis"</string>
     <string name="enterprise_privacy_failed_password_wipe_device" msgid="7045164901334821226">"Nesėkmingų bandymų įvesti slaptažodį skaičius prieš ištrinant visus įrenginio duomenis"</string>
     <string name="enterprise_privacy_failed_password_wipe_work" msgid="2537582942554484170">"Nesėkmingų bandymų įvesti slaptažodį skaičius prieš ištrinant darbo profilio duomenis"</string>
     <plurals name="enterprise_privacy_number_failed_password_wipe" formatted="false" msgid="8811973918944217791">
-        <item quantity="one"><xliff:g id="COUNT_1">%d</xliff:g> bandymas</item>
-        <item quantity="few"><xliff:g id="COUNT_1">%d</xliff:g> bandymai</item>
-        <item quantity="many"><xliff:g id="COUNT_1">%d</xliff:g> bandymo</item>
-        <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> bandymų</item>
+      <item quantity="one"><xliff:g id="COUNT_1">%d</xliff:g> bandymas</item>
+      <item quantity="few"><xliff:g id="COUNT_1">%d</xliff:g> bandymai</item>
+      <item quantity="many"><xliff:g id="COUNT_1">%d</xliff:g> bandymo</item>
+      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> bandymų</item>
     </plurals>
     <string name="do_disclosure_generic" msgid="3067459392402324538">"Šį įrenginį tvarko jūsų organizacija."</string>
     <string name="do_disclosure_with_name" msgid="867544298924410766">"Šį įrenginį tvarko „<xliff:g id="ORGANIZATION_NAME">%s</xliff:g>“."</string>
@@ -5095,25 +5151,25 @@
     <string name="financed_privacy_failed_password_wipe_device" msgid="8777230427603977667">"Nesėkmingų bandymų įvesti slaptažodį skaičius prieš ištrinant įrenginio duomenis"</string>
     <string name="financed_privacy_header" msgid="7215645340918406124">"Jūsų kredito teikėjas gali pakeisti nustatymus ir įdiegti programinę įrangą šiame įrenginyje.\n\nJei norite sužinoti daugiau, susisiekite su kredito teikėju."</string>
     <plurals name="default_camera_app_title" formatted="false" msgid="8112432929729136399">
-        <item quantity="one">Fotoaparato programos</item>
-        <item quantity="few">Fotoaparato programos</item>
-        <item quantity="many">Fotoaparato programos</item>
-        <item quantity="other">Fotoaparato programos</item>
+      <item quantity="one">Fotoaparato programos</item>
+      <item quantity="few">Fotoaparato programos</item>
+      <item quantity="many">Fotoaparato programos</item>
+      <item quantity="other">Fotoaparato programos</item>
     </plurals>
     <string name="default_calendar_app_title" msgid="1870095225089706093">"Kalendoriaus programa"</string>
     <string name="default_contacts_app_title" msgid="7740028900741944569">"Kontaktų programa"</string>
     <plurals name="default_email_app_title" formatted="false" msgid="8338194872609410234">
-        <item quantity="one">El. pašto kliento programos</item>
-        <item quantity="few">El. pašto kliento programos</item>
-        <item quantity="many">El. pašto kliento programos</item>
-        <item quantity="other">El. pašto kliento programos</item>
+      <item quantity="one">El. pašto kliento programos</item>
+      <item quantity="few">El. pašto kliento programos</item>
+      <item quantity="many">El. pašto kliento programos</item>
+      <item quantity="other">El. pašto kliento programos</item>
     </plurals>
     <string name="default_map_app_title" msgid="7569231732944853320">"Žemėlapių programa"</string>
     <plurals name="default_phone_app_title" formatted="false" msgid="4222188821845826493">
-        <item quantity="one">Telefono programos</item>
-        <item quantity="few">Telefono programos</item>
-        <item quantity="many">Telefono programos</item>
-        <item quantity="other">Telefono programos</item>
+      <item quantity="one">Telefono programos</item>
+      <item quantity="few">Telefono programos</item>
+      <item quantity="many">Telefono programos</item>
+      <item quantity="other">Telefono programos</item>
     </plurals>
     <string name="app_names_concatenation_template_2" msgid="8320181646458855457">"„<xliff:g id="FIRST_APP_NAME">%1$s</xliff:g>“, „<xliff:g id="SECOND_APP_NAME">%2$s</xliff:g>“"</string>
     <string name="app_names_concatenation_template_3" msgid="7019703249717854148">"„<xliff:g id="FIRST_APP_NAME">%1$s</xliff:g>“, „<xliff:g id="SECOND_APP_NAME">%2$s</xliff:g>“, „<xliff:g id="THIRD_APP_NAME">%3$s</xliff:g>“"</string>
@@ -5149,10 +5205,10 @@
     <string name="autofill_app" msgid="7595308061826307921">"Aut. pildymo paslauga"</string>
     <string name="autofill_passwords" msgid="6708057251459761083">"Slaptažodžiai"</string>
     <plurals name="autofill_passwords_count" formatted="false" msgid="7715009165029452622">
-        <item quantity="one"><xliff:g id="COUNT_1">%1$d</xliff:g> slaptažodis</item>
-        <item quantity="few"><xliff:g id="COUNT_1">%1$d</xliff:g> slaptažodžiai</item>
-        <item quantity="many"><xliff:g id="COUNT_1">%1$d</xliff:g> slaptažodžio</item>
-        <item quantity="other"><xliff:g id="COUNT_1">%1$d</xliff:g> slaptažodžių</item>
+      <item quantity="one"><xliff:g id="COUNT_1">%1$d</xliff:g> slaptažodis</item>
+      <item quantity="few"><xliff:g id="COUNT_1">%1$d</xliff:g> slaptažodžiai</item>
+      <item quantity="many"><xliff:g id="COUNT_1">%1$d</xliff:g> slaptažodžio</item>
+      <item quantity="other"><xliff:g id="COUNT_1">%1$d</xliff:g> slaptažodžių</item>
     </plurals>
     <string name="autofill_keywords" msgid="8598763328489346438">"automatinis, užpildyti, automatinis pildymas, slaptažodis"</string>
     <string name="autofill_confirmation_message" msgid="4888767934273494272">"&lt;b&gt;Įsitikinkite, kad pasitikite šia programa&lt;/b&gt; &lt;br/&gt; &lt;br/&gt; &lt;xliff:g id=app_name example=„Google“ automatinis pildymas&gt;%1$s&lt;/xliff:g&gt; naudodamas informaciją ekrane nustato, ką gali užpildyti automatiškai."</string>
@@ -5243,6 +5299,7 @@
     <string name="battery_suggestion_title" product="tablet" msgid="1525940496459255289">"Pailginkite planš. komp. akum. veikimo laiką"</string>
     <string name="battery_suggestion_title" product="device" msgid="2280773774080720377">"Pailginkite įrenginio akum. veikimo laiką"</string>
     <string name="battery_suggestion_title" product="default" msgid="4811554469047272537">"Pailginkite telefono akum. veikimo laiką"</string>
+    <string name="battery_suggestion_summary" msgid="8186720080540016197"></string>
     <string name="gesture_prevent_ringing_screen_title" msgid="8293094715267769349">"Skambėjimo išjungimas"</string>
     <string name="gesture_prevent_ringing_title" msgid="5978577898997523581">"Kartu paspauskite maitinimo ir garsumo padidinimo mygtukus"</string>
     <string name="gesture_prevent_ringing_sound_title" msgid="4529077822282099235">"Spartusis klavišas, naudojamas siekiant išvengti skambėjimo"</string>
@@ -5330,10 +5387,10 @@
     <string name="calls_and_sms_ask_every_time" msgid="3178743088737726677">"Klausti kaskart"</string>
     <string name="mobile_network_summary_add_a_network" msgid="9079866102827526779">"Pridėti tinklą"</string>
     <plurals name="mobile_network_summary_count" formatted="false" msgid="5173633860800230925">
-        <item quantity="one"><xliff:g id="COUNT_1">%1$d</xliff:g> SIM kortelė</item>
-        <item quantity="few"><xliff:g id="COUNT_1">%1$d</xliff:g> SIM kortelės</item>
-        <item quantity="many"><xliff:g id="COUNT_1">%1$d</xliff:g> SIM kortelės</item>
-        <item quantity="other"><xliff:g id="COUNT_1">%1$d</xliff:g> SIM kortelių</item>
+      <item quantity="one"><xliff:g id="COUNT_1">%1$d</xliff:g> SIM kortelė</item>
+      <item quantity="few"><xliff:g id="COUNT_1">%1$d</xliff:g> SIM kortelės</item>
+      <item quantity="many"><xliff:g id="COUNT_1">%1$d</xliff:g> SIM kortelės</item>
+      <item quantity="other"><xliff:g id="COUNT_1">%1$d</xliff:g> SIM kortelių</item>
     </plurals>
     <string name="default_for_calls" msgid="2788950217176988034">"Numatytoji skambučių SIM kortelė"</string>
     <string name="default_for_sms" msgid="1316988329407434771">"Numatytoji SMS pranešimų SIM kortelė"</string>
@@ -5475,21 +5532,22 @@
     <string name="contextual_card_feedback_send" msgid="7409408664417908922">"Siųsti atsiliepimą"</string>
     <string name="contextual_card_feedback_confirm_message" msgid="3186334562157665381">"Ar norite pateikti atsiliepimų dėl šio pasiūlymo?"</string>
     <string name="copyable_slice_toast" msgid="1008251852798990606">"Turinys (<xliff:g id="COPY_CONTENT">%1$s</xliff:g>) nukopijuotas į iškarpinę."</string>
+    <string name="search_bar_account_avatar_content_description" msgid="880523277036898350"></string>
     <string name="permission_bar_chart_empty_text" msgid="4856719891991325077">"Nė viena programa nenaudojo leidimų"</string>
     <string name="permission_bar_chart_title" msgid="2493212904955611441">"Leidimo naudojimas per pastarąsias 24 valandas"</string>
     <string name="permission_bar_chart_details" msgid="5816698018592357088">"Žr. viską informacijos suvestinėje"</string>
     <plurals name="permission_bar_chart_label" formatted="false" msgid="4853396794340896078">
-        <item quantity="one"><xliff:g id="NUMBER">%s</xliff:g> programa</item>
-        <item quantity="few"><xliff:g id="NUMBER">%s</xliff:g> programos</item>
-        <item quantity="many"><xliff:g id="NUMBER">%s</xliff:g> programos</item>
-        <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> programų</item>
+      <item quantity="one"><xliff:g id="NUMBER">%s</xliff:g> programa</item>
+      <item quantity="few"><xliff:g id="NUMBER">%s</xliff:g> programos</item>
+      <item quantity="many"><xliff:g id="NUMBER">%s</xliff:g> programos</item>
+      <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> programų</item>
     </plurals>
     <string name="accessibility_usage_title" msgid="9190967143518779145">"Pritaikymo neįgaliesiems naudojimas"</string>
     <plurals name="accessibility_usage_summary" formatted="false" msgid="6910643986958263005">
-        <item quantity="one"><xliff:g id="SERVICE_COUNT">%1$d</xliff:g> programai suteikta visateisė prieiga prie jūsų įrenginio</item>
-        <item quantity="few"><xliff:g id="SERVICE_COUNT">%1$d</xliff:g> programoms suteikta visateisė prieiga prie jūsų įrenginio</item>
-        <item quantity="many"><xliff:g id="SERVICE_COUNT">%1$d</xliff:g> programos suteikta visateisė prieiga prie jūsų įrenginio</item>
-        <item quantity="other"><xliff:g id="SERVICE_COUNT">%1$d</xliff:g> programų suteikta visateisė prieiga prie jūsų įrenginio</item>
+      <item quantity="one"><xliff:g id="SERVICE_COUNT">%1$d</xliff:g> programai suteikta visateisė prieiga prie jūsų įrenginio</item>
+      <item quantity="few"><xliff:g id="SERVICE_COUNT">%1$d</xliff:g> programoms suteikta visateisė prieiga prie jūsų įrenginio</item>
+      <item quantity="many"><xliff:g id="SERVICE_COUNT">%1$d</xliff:g> programos suteikta visateisė prieiga prie jūsų įrenginio</item>
+      <item quantity="other"><xliff:g id="SERVICE_COUNT">%1$d</xliff:g> programų suteikta visateisė prieiga prie jūsų įrenginio</item>
     </plurals>
     <string name="media_output_panel_title" msgid="5920946795078065159">"Išvesties perjungimas"</string>
     <string name="media_output_panel_summary_of_playing_device" msgid="6998758947764222915">"Šiuo metu leidžiama per <xliff:g id="DEVICE_NAME">%1$s</xliff:g>"</string>
@@ -5554,6 +5612,10 @@
     <string name="lockscreen_privacy_controls_summary" msgid="6952176547084269909">"Pasiekite valdiklius, kai užrakinta"</string>
     <string name="lockscreen_double_line_clock_summary" msgid="2916159550425093703">"Rodyti vertikalųjį laikrodį, kai jis pasiekiamas"</string>
     <string name="lockscreen_double_line_clock_setting_toggle" msgid="3408639316001688529">"Vertikalusis laikrodis"</string>
+    <string name="rtt_settings_title" msgid="7049259598645966354"></string>
+    <string name="rtt_settings_no_visible" msgid="7440356831140948382"></string>
+    <string name="rtt_settings_visible_during_call" msgid="7866181103286073700"></string>
+    <string name="rtt_settings_always_visible" msgid="2364173070088756238"></string>
     <string name="media_output_panel_stop_casting_button" msgid="6094875883164119035">"Sustabdyti perdavimą"</string>
     <string name="volte_5G_limited_title" msgid="5908052268836750629">"Išjungti „VoLTE“?"</string>
     <string name="volte_5G_limited_text" msgid="7150583768725182345">"Taip pat bus išjungtas 5G ryšys.\nVykstant balso skambučiui negalima naudoti interneto ir kai kurios programos gali neveikti."</string>

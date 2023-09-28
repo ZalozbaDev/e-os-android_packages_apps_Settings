@@ -13,7 +13,8 @@
      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
      See the License for the specific language governing permissions and
      limitations under the License.
---><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <plurals name="show_dev_countdown_cm">
         <item quantity="one">Ora sei ad <xliff:g id="step_count">%1$d</xliff:g> passo dall\'attivare le impostazioni di sviluppo.</item>
         <item quantity="other">Ora sei a <xliff:g id="step_count">%1$d</xliff:g> passi dall\'attivare le impostazioni di sviluppo.</item>
@@ -109,29 +110,9 @@
     <string name="wake_when_plugged_or_unplugged_summary">Accendi lo schermo quando si collega o si scollega l\'alimentazione</string>
     <string name="fast_charging_title">Ricarica rapida</string>
     <string name="fast_charging_summary">Disabilita per ridurre il calore prodotto dal dispositivo durante la carica o per prolungare la durata della batteria</string>
-    <string name="telemetry_dialog_title">Stai abilitando la Telemetria /e/OS</string>
-    <string name="enable_telemetry">Abilita la telemetria /e/OS</string>
-    <string name="storage_warning_internal">Attenzione: Questa scelta potrebbe non funzionare correttamente o causare una perdita di dati e pertanto non è consigliata!</string>
-    <string name="e_version">Versione di /e/OS</string>
-    <string name="system_update_summary">Aggiornamenti, preferenze, note di rilascio</string>
-    <string name="title_ota_server">Collega al canale di test di /e/OS</string>
-    <string name="use_ota_summary">Accedi ai rilasci di test di /e/OS</string>
-    <string name="use_ota_staging_popup_title">Stai per collegarti al canale di test di /e/OS</string>
-    <string name="advanced_privacy_dashboard_summary">Gestisci i tracker, falsifica la posizione, nascondi il tuo indirizzo IP</string>
-    <string name="main_clear_desc_e" product="default">Questa operazione cancellerà tutti i dati dalla <b>memoria interna</b> del tuo tablet, inclusi:
-\n
-\n<li>Tutti gli account</li>
-\n<li>Dati e impostazioni di Sistema e app</li>
-\n<li>App scaricate</li></string>
-    <string name="e_version_pending_update_summary">/e/OS v<xliff:g id="version" example="6.0">%1$s</xliff:g> - aggiornamento disponibile</string>
-    <string name="e_version_in_progress_update_summary">/e/OS v<xliff:g id="version" example="6.0">%1$s</xliff:g> - aggiornamento in corso</string>
-    <string name="telemetry_details">Abilita la comunicazione automatica dei bug</string>
-    <string name="telemetry_dialog_message">Consente di comunicare automaticamente i bug in caso di arresto anomalo dell\'app o quando l\'app si trova in uno stato imprevisto. Dopo aver modificato questa impostazione, dovresti riavviare il dispositivo.</string>
-    <string name="use_ota_staging_popup_message">Permette di scaricare e installare versioni di test di /e/ OS. Tali versioni possono essere instabili e devono essere usate solo a scopo di test. Accetta solo se sai cosa stai facendo.</string>
-    <string name="e_version_summary">Aggiornato a /e/OS v<xliff:g id="version" example="6.0">%1$s</xliff:g></string>
-    <string name="e_version_reboot_pending_summary">/e/OS v<xliff:g id="version" example="6.0">%1$s</xliff:g> - installato Riavvio obbligatorio</string>
     <string name="ambient_display_screen_off_udfps_title" product="default">Premi a lungo sul sensore d\'impronte digitali per sbloccare il telefono</string>
     <string name="ambient_display_screen_off_udfps_title" product="tablet">Premi a lungo sul sensore d\'impronte digitali per sbloccare il tablet</string>
     <string name="ambient_display_screen_off_udfps_title" product="device">Premi a lungo sul sensore d\'impronte digitali per sbloccare il dispositivo</string>
     <string name="ambient_display_screen_off_udfps_summary">Per accendere lo schermo e sbloccare il dispositivo, premi a lungo sul sensore d\'impronte digitali sotto lo schermo.</string>
+    <string name="storage_warning_internal">Attenzione: questa opzione potrebbe non funzionare correttamente o causare una perdita di dati, e quindi non è raccomandata!</string>
 </resources>
