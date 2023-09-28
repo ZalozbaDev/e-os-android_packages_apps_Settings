@@ -16,4 +16,22 @@
   -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="e_really_remove_account_message">En supprimant ce compte, vous n\'aurez plus accès à ses données depuis cet appareil, e-mails inclus. Vous pouvez le réajouter à tout moment.</string>
+    <string name="e_security_dashboard_summary">Verrouillage de l\'écran, sécurité des applications</string>
+    <string name="e_version_reboot_pending_summary">/e/OS v<xliff:g id="version" example="6.0">%1$s</xliff:g> - installée, redémarrage nécessaire</string>
+    <string name="e_version_in_progress_update_summary">/e/OS v<xliff:g id="version" example="6.0">%1$s</xliff:g> - mise à jour en cours</string>
+    <string name="e_version_pending_update_summary">/e/OS v<xliff:g id="version" example="6.0">%1$s</xliff:g> - mise à jour disponible</string>
+    <string name="e_version_summary">Mis à jour vers /e/OS v<xliff:g id="version" example="6.0">%1$s</xliff:g></string>
+    <string name="main_clear_desc_e" product="default">Cela effacera toutes les données de la <b>mémoire interne</b> de votre téléphone, y compris :\n\n<li>Tous vos comptes</li>\n<li>Les paramètres et donnée du système et des applications</li>\n<li>les applications téléchargées</li></string>
+    <string name="advanced_privacy_dashboard_summary">Gérer les trackers, falsifier la position et masquer l\'adresse IP</string>
+    <string name="telemetry_details">Activer la génération automatique de rapports de bugs</string>
+    <string name="telemetry_dialog_message">Cela permettra la génération automatique de rapports de bug quand une application plante ou quand elle termine dans un état imprévu. Merci de redémarrer votre appareil pour que la modification de ce paramètre soit prise en compte.</string>
+    <string name="telemetry_dialog_title">Vous êtes sur le point d\'activer la télémétrie pour /e/OS</string>
+    <string name="enable_telemetry">Activer la télémétrie sur /e/OS</string>
+    <string name="use_ota_staging_popup_message">Cela vous permettra de télécharger et installer les versions de test d\'/e/OS. Ces versions peuvent être instables et ne devraient être utilisés qu\'à des fins de test. Merci de n\'accepter que si vous savez ce que vous êtes en train de faire.</string>
+    <string name="use_ota_staging_popup_title">Vous êtes sur le point de vous connecter au canal de test d\'/e/OS</string>
+    <string name="system_update_summary">Mises à jour, préférences, notes de version</string>
+    <string name="use_ota_summary">Accéder aux versions de test d\'/e/OS</string>
+    <string name="title_ota_server">Se connecter au canal de test d\'/e/OS</string>
+    <string name="elicense_title">Informations légales de /e/</string>
+    <string name="e_version">Version d\'/e/OS</string>
 </resources>

@@ -18,4 +18,46 @@
     <string name="e_really_remove_account_message">If you remove this account you will not be able to access its data from this device anymore including its emails. You can add it back whenever you want.</string>
     <string name="e_auto_sync_account_title">Auto-refresh contents</string>
     <string name="e_auto_sync_account_summary">Allow apps to automatically refresh contents in the background</string>
+    <string name="e_security_dashboard_summary">Screen lock, app security</string>
+
+    <!-- /e/ version -->
+    <string name="e_version">/e/ OS version</string>
+
+    <!-- /e/ legal. -->
+    <string name="elicense_title">/e/ legal</string>
+
+    <!-- /e/ Sentry -->
+    <string name="sentry_userid_title">Sentry User ID</string>
+
+    <!-- /e/ updater -->
+    <string name="system_update_summary">Updates, preferences, release notes</string>
+
+    <!-- /e/ OTA server change -->
+    <string name="title_ota_server">Connect to /e/ OS test channel</string>
+    <string name="use_ota_summary">Access test releases of /e/ OS</string>
+    <string name="use_ota_staging_popup_title">You are about to connect to /e/ OS test channel</string>
+    <string name="use_ota_staging_popup_message">It will allow you to download and install test versions of /e/ OS. Those builds may be unstable, and should be used only for test purposes. Please accept only if you know what you are doing.</string>
+
+	<!-- Private DNS -->
+    <string name="private_dns_mode_quadnine" translatable="false">Quad9 DNS</string>
+
+    <!-- /e/ Telemetry -->
+    <string name="enable_telemetry">Enable /e/OS Telemetry</string>
+    <string name="telemetry_details">Enable automatic bug reporting</string>
+    <string name="telemetry_dialog_title">You are about to enable /e/OS Telemetry</string>
+    <string name="telemetry_dialog_message">It will allow automatic bug report when an application crash or when the application ends up in an unexpected state. Please reboot your device after changing this setting.</string>
+
+    <!-- /e/ Advanced Privacy -->
+    <string name="advanced_privacy_dashboard_title" translatable="false">Advanced Privacy</string>
+    <string name="advanced_privacy_dashboard_summary">Manage trackers, fake location, hide IP address</string>
+
+    <!-- Factory Reset -->
+    <string name="main_clear_desc_e" product="tablet">This will erase all data from your tablet\u2019s <b>internal storage</b>, including:\n\n<li>All your account</li>\n<li>System and app data and settings</li>\n<li>Downloaded apps</li></string>
+    <string name="main_clear_desc_e" product="default">This will erase all data from your phone\u2019s <b>internal storage</b>, including:\n\n<li>All your account</li>\n<li>System and app data and settings</li>\n<li>Downloaded apps</li></string>
+
+    <!-- Summary of /e/ version info [CHAR LIMIT=NONE] -->
+    <string name="e_version_summary">Updated to /e/OS v<xliff:g id="version" example="6.0">%1$s</xliff:g></string>
+    <string name="e_version_pending_update_summary">/e/OS v<xliff:g id="version" example="6.0">%1$s</xliff:g> - update available</string>
+    <string name="e_version_in_progress_update_summary">/e/OS v<xliff:g id="version" example="6.0">%1$s</xliff:g> - update in progress</string>
+    <string name="e_version_reboot_pending_summary">/e/OS v<xliff:g id="version" example="6.0">%1$s</xliff:g> - installed reboot required</string>
 </resources>
