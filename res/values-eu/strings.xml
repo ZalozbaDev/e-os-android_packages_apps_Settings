@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!--  Copyright (C) 2007 The Android Open Source Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
@@ -12,7 +12,10 @@
      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
      See the License for the specific language governing permissions and
      limitations under the License.
- --><resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="yes" msgid="1999566976857398962">"Bai"</string>
     <string name="no" msgid="5541738710521607130">"Ez"</string>
     <string name="create" msgid="986997212165228751">"Sortu"</string>
@@ -21,8 +24,8 @@
     <string name="confirmation_turn_on" msgid="2979094011928347665">"Aktibatu"</string>
     <string name="device_info_default" msgid="1406619232867343310">"Ezezaguna"</string>
     <plurals name="show_dev_countdown" formatted="false" msgid="1646187747875476269">
-        <item quantity="other"><xliff:g id="STEP_COUNT_1">%1$d</xliff:g> urrats falta zaizkizu garatzaile izateko.</item>
-        <item quantity="one"><xliff:g id="STEP_COUNT_0">%1$d</xliff:g> urrats falta zaizu garatzaile izateko.</item>
+      <item quantity="other"><xliff:g id="STEP_COUNT_1">%1$d</xliff:g> urrats falta zaizkizu garatzaile izateko.</item>
+      <item quantity="one"><xliff:g id="STEP_COUNT_0">%1$d</xliff:g> urrats falta zaizu garatzaile izateko.</item>
     </plurals>
     <string name="show_dev_on" msgid="2840850085134853754">"Garatzailea zara!"</string>
     <string name="show_dev_already" msgid="7041756429707644630">"Ez dago zertan, dagoeneko garatzailea zara."</string>
@@ -156,7 +159,7 @@
     <string name="date_and_time" msgid="1788358029823431692">"Data eta ordua"</string>
     <string name="choose_timezone" msgid="1450780665958642147">"Aukeratu ordu-zona"</string>
     <!-- no translation found for intent_sender_data_label (1733806423295725392) -->
-    <skip/>
+    <skip />
     <string name="intent_sender_sendbroadcast_text" msgid="3202857258557610646">"Bidali <xliff:g id="BROADCAST">broadcast</xliff:g>"</string>
     <string name="intent_sender_action_label" msgid="257853357827275530">"<xliff:g id="ACTION">Action</xliff:g>:"</string>
     <string name="intent_sender_startactivity_text" msgid="519934560779343541">"Hasi <xliff:g id="ACTIVITY">activity</xliff:g>"</string>
@@ -205,8 +208,8 @@
     <string name="locale_remove_menu" msgid="3521546263421387474">"Kendu"</string>
     <string name="add_a_language" msgid="2126220398077503271">"Gehitu hizkuntza bat"</string>
     <plurals name="dlg_remove_locales_title" formatted="false" msgid="2845515796732609837">
-        <item quantity="other">Hautatutako hizkuntzak kendu nahi dituzu?</item>
-        <item quantity="one">Hautatutako hizkuntza kendu nahi duzu?</item>
+      <item quantity="other">Hautatutako hizkuntzak kendu nahi dituzu?</item>
+      <item quantity="one">Hautatutako hizkuntza kendu nahi duzu?</item>
     </plurals>
     <string name="dlg_remove_locales_message" msgid="8110560091134252067">"Testua beste hizkuntza batean bistaratuko da."</string>
     <string name="dlg_remove_locales_error_title" msgid="5875503658221562572">"Ezin dira kendu hizkuntza guztiak"</string>
@@ -295,8 +298,8 @@
     <string name="location_settings_primary_switch_title" msgid="8849081766644685127">"Erabili kokapena"</string>
     <string name="location_settings_summary_location_off" msgid="4797932754681162262">"Desaktibatuta"</string>
     <plurals name="location_settings_summary_location_on" formatted="false" msgid="1019959038518185676">
-        <item quantity="other">Aktibatuta: <xliff:g id="COUNT_1">%1$d</xliff:g> aplikaziok atzi dezakete kokapena</item>
-        <item quantity="one">Aktibatuta: <xliff:g id="COUNT_0">%1$d</xliff:g> aplikaziok atzi dezake kokapena</item>
+      <item quantity="other">Aktibatuta: <xliff:g id="COUNT_1">%1$d</xliff:g> aplikaziok atzi dezakete kokapena</item>
+      <item quantity="one">Aktibatuta: <xliff:g id="COUNT_0">%1$d</xliff:g> aplikaziok atzi dezake kokapena</item>
     </plurals>
     <string name="location_settings_loading_app_permission_stats" msgid="6054103701535557342">"Kargatzen…"</string>
     <string name="location_settings_footer_general" msgid="1040507068701188821">"Aplikazioek inguruko gailuak atzitzeko baimena badute, konektatutako gailuen posizio erlatiboa zehatz dezakete."</string>
@@ -324,11 +327,16 @@
     <string name="security_settings_face_enroll_education_title" msgid="6448806884597691208">"Aurpegi bidez desblokeatzeko eginbidea konfiguratzeko argibideak"</string>
     <string name="security_settings_face_enroll_education_title_accessibility" msgid="3701874093226957891">"Konfiguratu aurpegi bidez desblokeatzeko eginbidea"</string>
     <string name="security_settings_face_enroll_education_title_unlock_disabled" msgid="8810954233979716906">"Erabili aurpegia autentifikatzeko"</string>
+    <string name="security_settings_face_enroll_education_message" msgid="4308030157487176799"></string>
+    <string name="security_settings_face_enroll_education_message_accessibility" msgid="1986648712195281391"></string>
     <string name="security_settings_face_enroll_education_start" msgid="8830924400907195590">"Hasi"</string>
     <string name="security_settings_face_enroll_education_accessibility_dialog_message" msgid="2965952386172202665">"Aurpegi bidez desblokeatzeko eginbidea desaktibatuta badago erabilerraztasun moduan, baliteke konfigurazio-urrats batzuek ongi ez funtzionatzea TalkBack-ekin."</string>
     <string name="security_settings_face_enroll_education_accessibility_dialog_negative" msgid="7872647360361245461">"Egin atzera"</string>
     <string name="security_settings_face_enroll_education_accessibility_dialog_positive" msgid="3148077647572203458">"Jarraitu konfiguratzen"</string>
     <string name="security_settings_face_enroll_introduction_accessibility" msgid="5748221179069430975">"Erabili erabilerraztasun-konfigurazioa"</string>
+    <string name="security_settings_face_enroll_introduction_accessibility_expanded" msgid="6763509014732769185"></string>
+    <string name="security_settings_face_enroll_introduction_accessibility_diversity" msgid="2774962371839179206"></string>
+    <string name="security_settings_face_enroll_introduction_accessibility_vision" msgid="7700394302162170363"></string>
     <string name="security_settings_face_enroll_introduction_cancel" msgid="7551159644361639436">"Utzi"</string>
     <string name="security_settings_face_enroll_introduction_no_thanks" msgid="1820618982738898717">"Ez, eskerrik asko"</string>
     <string name="security_settings_face_enroll_introduction_agree" msgid="6319476573697497750">"Ados"</string>
@@ -340,6 +348,21 @@
     <string name="security_settings_face_enroll_introduction_consent_message" msgid="866117500419055444">"Eman haurrari aurpegia erabilita telefonoa desblokeatzeko edo hura dela egiaztatzeko baimena. Aplikazioetan saioa hastean, erosketak onartzean eta beste kasu batzuetan gertatzen da hori."</string>
     <string name="security_settings_face_enroll_introduction_message_unlock_disabled" msgid="5841976283789481311">"Erabili aurpegia telefonoa desblokeatzeko eta erosketak onartzeko.\n\nOharra: ezin duzu aurpegia erabili gailu hau desblokeatzeko. Informazio gehiago lortzeko, jarri zure erakundearen administratzailearekin harremanetan."</string>
     <string name="security_settings_face_enroll_introduction_message_setup" msgid="765965418187421753">"Erabili aurpegia telefonoa desblokeatzeko, erosketak baimentzeko edo aplikazioetan saioa hasteko"</string>
+    <string name="security_settings_face_enroll_introduction_info_title" msgid="7120796118179406944"></string>
+    <string name="security_settings_face_enroll_introduction_info_glasses" msgid="2733870453868907471"></string>
+    <string name="security_settings_face_enroll_introduction_info_consent_glasses" msgid="6303917184145586880"></string>
+    <string name="security_settings_face_enroll_introduction_info_looking" msgid="6502109133251718131"></string>
+    <string name="security_settings_face_enroll_introduction_info_consent_looking" msgid="1911530177804950718"></string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure" msgid="6496505354480525745"></string>
+    <string name="security_settings_face_enroll_introduction_info_gaze" msgid="143556725395884850"></string>
+    <string name="security_settings_face_enroll_introduction_info_consent_gaze" msgid="6301647369911879888"></string>
+    <string name="security_settings_face_enroll_introduction_how_title" msgid="3680193263037835600"></string>
+    <string name="security_settings_face_enroll_introduction_how_message" msgid="4192656589626667797"></string>
+    <string name="security_settings_face_enroll_introduction_how_consent_message" msgid="9028182363896853946"></string>
+    <string name="security_settings_face_enroll_introduction_control_title" msgid="4536951089583821051"></string>
+    <string name="security_settings_face_enroll_introduction_control_consent_title" msgid="5892729331412694759"></string>
+    <string name="security_settings_face_enroll_introduction_control_message" msgid="4818463420573540379"></string>
+    <string name="security_settings_face_enroll_introduction_control_consent_message" msgid="4658082872829249850"></string>
     <string name="security_settings_face_enroll_repeat_title" msgid="4446229670377418717">"Zentratu aurpegia zirkuluan"</string>
     <string name="security_settings_face_enroll_enrolling_skip" msgid="5568617401632528567">"Saltatu"</string>
     <string name="face_add_max" msgid="4578405795494514876">"<xliff:g id="COUNT">%d</xliff:g> aurpegi gehi ditzakezu"</string>
@@ -379,9 +402,10 @@
     <string name="fingerprint_add_title" msgid="1837610443487902050">"Gehitu hatz-marka bat"</string>
     <string name="fingerprint_enable_keyguard_toggle_title" msgid="5451094461919440992">"pantailaren blokeoa"</string>
     <plurals name="security_settings_fingerprint_preference_summary" formatted="false" msgid="6897454766137108776">
-        <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> hatz-marka gehitu dira</item>
-        <item quantity="one">Hatz-marka bat gehitu da</item>
+      <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> hatz-marka gehitu dira</item>
+      <item quantity="one">Hatz-marka bat gehitu da</item>
     </plurals>
+    <string name="security_settings_fingerprint_preference_summary_none" msgid="1044059475710838504"></string>
     <string name="security_settings_fingerprint_enroll_introduction_title" msgid="7931650601996313070">"Konfiguratu hatz-marka"</string>
     <string name="security_settings_fingerprint_enroll_consent_introduction_title" msgid="2278592030102282364">"Eman hatz-marka bidez desblokeatzeko baimena"</string>
     <string name="security_settings_fingerprint_enroll_introduction_title_unlock_disabled" msgid="1911710308293783998">"Erabili hatz-marka"</string>
@@ -411,6 +435,7 @@
     <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_4" msgid="4983770600405797515">"Haurrak eta zuk haren hatz-markaren irudiak eta eredua ezabatu nahi badituzue edo hatz-marka bidez desblokeatzeko eginbidea desaktibatu nahi baduzue, joan Ezarpenak atalera. Ezabatzen dituzuen arte, telefonoan gordeko dira hatz-markaren irudiak eta ereduak."</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_5" msgid="2018885671994058605">"Baliteke telefonoa nahi ez duzunean desblokeatzea; adibidez, norbaitek zure hatzarekin ukitzen badu."</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_5" msgid="8356551505082794682">"Baliteke haurraren telefonoa nahi ez duzunean desblokeatzea; adibidez, norbaitek haren hatzarekin ukitzen badu."</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more" msgid="5856010507790137793"></string>
     <string name="security_settings_fingerprint_v2_enroll_acquire_try_adjusting" msgid="3855444121278320304">"Aldi bakoitzean, aldatu hatzaren posizioa apur bat"</string>
     <string name="security_settings_fingerprint_v2_enroll_acquire_partially_detected" msgid="8330287007361798356">"Kokatu hatz-markaren erdigunea ikonoaren gainean"</string>
     <string name="security_settings_fingerprint_v2_enroll_acquire_already_enrolled" msgid="8616678833080422946">"Dagoeneko gehitu da hatz-marka hori"</string>
@@ -581,6 +606,9 @@
     <string name="suggested_lock_settings_summary" product="device" msgid="8479766049078378225">"Ezarri pantailaren blokeoa gailua babesteko"</string>
     <string name="suggested_lock_settings_summary" product="default" msgid="2443273582716671033">"Ezarri pantailaren blokeoa telefonoa babesteko"</string>
     <string name="suggested_fingerprint_lock_settings_title" msgid="3140266181874137984">"Desblokeatzeko, gehitu hatz-marka"</string>
+    <string name="suggested_fingerprint_lock_settings_summary" product="tablet" msgid="1040265358906410746"></string>
+    <string name="suggested_fingerprint_lock_settings_summary" product="device" msgid="1040265358906410746"></string>
+    <string name="suggested_fingerprint_lock_settings_summary" product="default" msgid="1040265358906410746"></string>
     <string name="lock_settings_picker_title" msgid="9219376327364915334">"Aukeratu pantailaren blokeoa"</string>
     <string name="lock_settings_picker_new_lock_title" msgid="3113042086804290919">"Aukeratu blokeo bat"</string>
     <string name="lock_settings_picker_update_lock_title" msgid="536853138943415927">"Aukeratu beste blokeo bat"</string>
@@ -606,6 +634,7 @@
     <string name="unlock_set_unlock_launch_picker_change_summary" msgid="6023813780512501969">"Aldatu edo desgaitu eredua/PINa/segurtasuna"</string>
     <string name="unlock_set_unlock_launch_picker_enable_summary" msgid="1699993191343299179">"Aukeratu pantaila blokeatzeko metodoa"</string>
     <string name="unlock_set_unlock_off_title" msgid="2831957685685921667">"Bat ere ez"</string>
+    <string name="unlock_set_unlock_off_summary" msgid="4578319976164001322"></string>
     <string name="unlock_set_unlock_none_title" msgid="2844029875174409728">"Hatza pasatzea"</string>
     <string name="unlock_set_unlock_none_summary" msgid="641298008390890152">"Segurtasunik gabe"</string>
     <string name="unlock_set_unlock_pattern_title" msgid="8224895208452995332">"Eredua"</string>
@@ -705,21 +734,21 @@
     <string name="lock_failed_attempts_now_wiping_profile" msgid="3171880997211568208">"Saiakera oker gehiegi egin dituzu. Laneko profila eta bertako datuak ezabatu egingo dira."</string>
     <string name="lock_failed_attempts_now_wiping_dialog_dismiss" msgid="170155081899679669">"Baztertu"</string>
     <plurals name="lockpassword_password_too_short" formatted="false" msgid="2192234965414232157">
-        <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> karaktere izan behar ditu gutxienez</item>
-        <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> karaktere izan behar du gutxienez</item>
+      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> karaktere izan behar ditu gutxienez</item>
+      <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> karaktere izan behar du gutxienez</item>
     </plurals>
     <plurals name="lockpassword_pin_too_short" formatted="false" msgid="6817086810898414162">
-        <item quantity="other">PINak <xliff:g id="COUNT_1">%d</xliff:g> digitu izan behar ditu gutxienez</item>
-        <item quantity="one">PINak <xliff:g id="COUNT_0">%d</xliff:g> digitu izan behar du gutxienez</item>
+      <item quantity="other">PINak <xliff:g id="COUNT_1">%d</xliff:g> digitu izan behar ditu gutxienez</item>
+      <item quantity="one">PINak <xliff:g id="COUNT_0">%d</xliff:g> digitu izan behar du gutxienez</item>
     </plurals>
     <string name="lockpassword_continue_label" msgid="2507983991979547816">"Egin aurrera"</string>
     <plurals name="lockpassword_password_too_long" formatted="false" msgid="8118091957172967677">
-        <item quantity="other"><xliff:g id="NUMBER_1">%d</xliff:g> karaktere baino gutxiago izan behar ditu</item>
-        <item quantity="one"><xliff:g id="NUMBER_0">%d</xliff:g> karaktere baino gutxiago izan behar du</item>
+      <item quantity="other"><xliff:g id="NUMBER_1">%d</xliff:g> karaktere baino gutxiago izan behar ditu</item>
+      <item quantity="one"><xliff:g id="NUMBER_0">%d</xliff:g> karaktere baino gutxiago izan behar du</item>
     </plurals>
     <plurals name="lockpassword_pin_too_long" formatted="false" msgid="8706992338720310765">
-        <item quantity="other"><xliff:g id="NUMBER_1">%d</xliff:g> digitu baino gutxiago izan behar ditu</item>
-        <item quantity="one"><xliff:g id="NUMBER_0">%d</xliff:g> digitu baino gutxiago izan behar du</item>
+      <item quantity="other"><xliff:g id="NUMBER_1">%d</xliff:g> digitu baino gutxiago izan behar ditu</item>
+      <item quantity="one"><xliff:g id="NUMBER_0">%d</xliff:g> digitu baino gutxiago izan behar du</item>
     </plurals>
     <string name="lockpassword_pin_recently_used" msgid="6650277060998923465">"Gailuaren administratzaileak ez du eman beste PIN bat erabiltzeko baimenik"</string>
     <string name="lockpassword_illegal_character" msgid="3434031212215886433">"Ezin da erabili onartzen ez den karaktererik"</string>
@@ -727,32 +756,32 @@
     <string name="lockpassword_password_requires_digit" msgid="312518567592683795">"Zenbaki bat eduki behar du gutxienez"</string>
     <string name="lockpassword_password_requires_symbol" msgid="6178512486154701321">"Ikur bat eduki behar du gutxienez"</string>
     <plurals name="lockpassword_password_requires_letters" formatted="false" msgid="2385916409676839024">
-        <item quantity="other">Gutxienez <xliff:g id="COUNT">%d</xliff:g> hizki izan behar ditu</item>
-        <item quantity="one">Gutxienez 1 hizki izan behar du</item>
+      <item quantity="other">Gutxienez <xliff:g id="COUNT">%d</xliff:g> hizki izan behar ditu</item>
+      <item quantity="one">Gutxienez 1 hizki izan behar du</item>
     </plurals>
     <plurals name="lockpassword_password_requires_lowercase" formatted="false" msgid="2057467885488612701">
-        <item quantity="other">Gutxienez <xliff:g id="COUNT">%d</xliff:g> minuskula izan behar ditu</item>
-        <item quantity="one">Gutxienez 1 minuskula izan behar du</item>
+      <item quantity="other">Gutxienez <xliff:g id="COUNT">%d</xliff:g> minuskula izan behar ditu</item>
+      <item quantity="one">Gutxienez 1 minuskula izan behar du</item>
     </plurals>
     <plurals name="lockpassword_password_requires_uppercase" formatted="false" msgid="4541266279643052025">
-        <item quantity="other">Gutxienez <xliff:g id="COUNT">%d</xliff:g> maiuskula izan behar ditu</item>
-        <item quantity="one">Gutxienez 1 maiuskula izan behar du</item>
+      <item quantity="other">Gutxienez <xliff:g id="COUNT">%d</xliff:g> maiuskula izan behar ditu</item>
+      <item quantity="one">Gutxienez 1 maiuskula izan behar du</item>
     </plurals>
     <plurals name="lockpassword_password_requires_numeric" formatted="false" msgid="70617964591376248">
-        <item quantity="other">Gutxienez <xliff:g id="COUNT">%d</xliff:g> zenbaki izan behar ditu</item>
-        <item quantity="one">Gutxienez 1 zenbaki izan behar du</item>
+      <item quantity="other">Gutxienez <xliff:g id="COUNT">%d</xliff:g> zenbaki izan behar ditu</item>
+      <item quantity="one">Gutxienez 1 zenbaki izan behar du</item>
     </plurals>
     <plurals name="lockpassword_password_requires_symbols" formatted="false" msgid="7981236881269921943">
-        <item quantity="other">Gutxienez <xliff:g id="COUNT">%d</xliff:g> karaktere berezi izan behar ditu</item>
-        <item quantity="one">Gutxienez 1 karaktere berezi izan behar du</item>
+      <item quantity="other">Gutxienez <xliff:g id="COUNT">%d</xliff:g> karaktere berezi izan behar ditu</item>
+      <item quantity="one">Gutxienez 1 karaktere berezi izan behar du</item>
     </plurals>
     <plurals name="lockpassword_password_requires_nonletter" formatted="false" msgid="1567877061888948467">
-        <item quantity="other">Hizkiak ez diren <xliff:g id="COUNT">%d</xliff:g> karaktere bat izan behar du gutxienez</item>
-        <item quantity="one">Hizkia ez den karaktere bat izan behar du gutxienez</item>
+      <item quantity="other">Hizkiak ez diren <xliff:g id="COUNT">%d</xliff:g> karaktere bat izan behar du gutxienez</item>
+      <item quantity="one">Hizkia ez den karaktere bat izan behar du gutxienez</item>
     </plurals>
     <plurals name="lockpassword_password_requires_nonnumerical" formatted="false" msgid="5056743974888384475">
-        <item quantity="other">Gutxienez, zenbakizkoa ez den <xliff:g id="COUNT">%d</xliff:g> karaktere izan behar ditu</item>
-        <item quantity="one">Gutxienez, zenbakizkoa ez den 1 karaktere izan behar du</item>
+      <item quantity="other">Gutxienez, zenbakizkoa ez den <xliff:g id="COUNT">%d</xliff:g> karaktere izan behar ditu</item>
+      <item quantity="one">Gutxienez, zenbakizkoa ez den 1 karaktere izan behar du</item>
     </plurals>
     <string name="lockpassword_password_recently_used" msgid="5341218079730167191">"Gailuaren administratzaileak ez du eman beste pasahitz bat erabiltzeko baimenik"</string>
     <string name="lockpassword_pin_no_sequential_digits" msgid="5843639256988031272">"Ezin da erabili goranzko, beheranzko edo errepikatutako digitu-sekuentziarik"</string>
@@ -766,15 +795,15 @@
     <string name="manage_device_admin" msgid="1044620606203916275">"Gailua administratzeko aplikazioak"</string>
     <string name="number_of_device_admins_none" msgid="152926922020437312">"Ez dago aplikaziorik aktibo"</string>
     <plurals name="number_of_device_admins" formatted="false" msgid="2528735319390151989">
-        <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> aplikazio aktibo</item>
-        <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> aplikazio aktibo</item>
+      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> aplikazio aktibo</item>
+      <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> aplikazio aktibo</item>
     </plurals>
     <string name="manage_trust_agents" msgid="6410149930029992356">"Fidagarritasun-agenteak"</string>
     <string name="disabled_because_no_backup_security" msgid="4998095356607488854">"Erabili ahal izateko, konfiguratu pantailaren blokeoa"</string>
     <string name="manage_trust_agents_summary" msgid="6423843123607674286">"Bat ere ez"</string>
     <plurals name="manage_trust_agents_summary_on" formatted="false" msgid="5438047398376802735">
-        <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> fidagarritasun-agente aktibo</item>
-        <item quantity="one">1 fidagarritasun-agente aktibo</item>
+      <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> fidagarritasun-agente aktibo</item>
+      <item quantity="one">1 fidagarritasun-agente aktibo</item>
     </plurals>
     <string name="bluetooth_quick_toggle_title" msgid="5955341060378240781">"Bluetooth-a"</string>
     <string name="bluetooth_quick_toggle_summary" msgid="5257744297562880017">"Aktibatu Bluetooth-a"</string>
@@ -793,6 +822,7 @@
     <string name="bluetooth_incoming_pairing_msg" msgid="1068123527866596779">"Igorlea:&lt;br&gt;&lt;b&gt;<xliff:g id="DEVICE_NAME">%1$s</xliff:g>&lt;/b&gt;&lt;br&gt;&lt;br&gt;Gailuarekin parekatu?"</string>
     <string name="bluetooth_display_passkey_pin_msg" msgid="8672803845151786521">"Honekin parekatzeko:<xliff:g id="BOLD1_0">&lt;br&gt;&lt;b&gt;</xliff:g><xliff:g id="DEVICE_NAME">%1$s</xliff:g><xliff:g id="END_BOLD1">&lt;/b&gt;&lt;br&gt;&lt;br&gt;</xliff:g>Idatzi hau bertan:<xliff:g id="BOLD2_1">&lt;br&gt;&lt;b&gt;</xliff:g><xliff:g id="PASSKEY">%2$s</xliff:g><xliff:g id="END_BOLD2">&lt;/b&gt;</xliff:g>, eta sakatu Itzuli edo Sartu."</string>
     <string name="bluetooth_pairing_shares_phonebook" msgid="4329325125260724843">"Eman kontaktuak eta deien historia erabiltzeko baimena"</string>
+    <string name="bluetooth_error_title" msgid="2284738188253690278"></string>
     <string name="bluetooth_connecting_error_message" msgid="3941893154784152112">"Ezin izan da <xliff:g id="DEVICE_NAME">%1$s</xliff:g> gailura konektatu."</string>
     <string name="bluetooth_preference_scan_title" msgid="3460316252463771851">"Bilatu gailuak"</string>
     <string name="bluetooth_search_for_devices" msgid="6516902340975407648">"Freskatu"</string>
@@ -1084,16 +1114,16 @@
     <string name="wifi_forget_dialog_title" msgid="4363829200968563164">"Sarea ahaztu nahi al duzu?"</string>
     <string name="wifi_forget_dialog_message" msgid="8419499588321940243">"Sare honen pasahitz guztiak ezabatuko dira"</string>
     <plurals name="wifi_saved_access_points_summary" formatted="false" msgid="2802436466732147888">
-        <item quantity="other">%d sare</item>
-        <item quantity="one">1 sare</item>
+      <item quantity="other">%d sare</item>
+      <item quantity="one">1 sare</item>
     </plurals>
     <plurals name="wifi_saved_passpoint_access_points_summary" formatted="false" msgid="5802057518058840450">
-        <item quantity="other">%d harpidetza</item>
-        <item quantity="one">1 harpidetza</item>
+      <item quantity="other">%d harpidetza</item>
+      <item quantity="one">1 harpidetza</item>
     </plurals>
     <plurals name="wifi_saved_all_access_points_summary" formatted="false" msgid="5125849180309374451">
-        <item quantity="other">%d sare eta harpidetza</item>
-        <item quantity="one">1 sare eta harpidetza</item>
+      <item quantity="other">%d sare eta harpidetza</item>
+      <item quantity="one">1 sare eta harpidetza</item>
     </plurals>
     <string name="wifi_advanced_titlebar" msgid="1234150304285575798">"Wi-Fi ezarpen aurreratuak"</string>
     <string name="wifi_advanced_ssid_title" msgid="1561437650193980185">"SSID"</string>
@@ -1184,21 +1214,22 @@
     <string name="wifi_calling_mode_dialog_title" msgid="944146521898592440">"Deitzeko aukera hobetsia"</string>
     <string name="wifi_calling_roaming_mode_title" msgid="7703305991991520773">"Ibiltaritzako hobespena"</string>
     <!-- no translation found for wifi_calling_roaming_mode_summary (6061631305384464179) -->
-    <skip/>
+    <skip />
     <string name="wifi_calling_roaming_mode_dialog_title" msgid="5382466713784067077">"Ibiltaritzako hobespena"</string>
-    <string-array name="wifi_calling_mode_choices_v2">
-        <item msgid="6052353275413974742">"Wifia"</item>
-        <item msgid="8622872038388687383">"Datu-konexioa"</item>
-        <item msgid="3027927219952052398">"Wifi-sarea soilik"</item>
-    </string-array>
-    <string-array name="wifi_calling_mode_choices_v2_without_wifi_only">
-        <item msgid="588620799769664461">"Wifia"</item>
-        <item msgid="7566603075659706590">"Datu-konexioa"</item>
-    </string-array>
+  <string-array name="wifi_calling_mode_choices_v2">
+    <item msgid="6052353275413974742">"Wifia"</item>
+    <item msgid="8622872038388687383">"Datu-konexioa"</item>
+    <item msgid="3027927219952052398">"Wifi-sarea soilik"</item>
+  </string-array>
+  <string-array name="wifi_calling_mode_choices_v2_without_wifi_only">
+    <item msgid="588620799769664461">"Wifia"</item>
+    <item msgid="7566603075659706590">"Datu-konexioa"</item>
+  </string-array>
     <string name="wifi_calling_mode_wifi_preferred_summary" msgid="3240387177966098351">"Wifi-sarerik ez badago, erabili sare mugikorra"</string>
     <string name="wifi_calling_mode_cellular_preferred_summary" msgid="3746914244902314059">"Sare mugikorra erabilgarri ez badago, erabili wifi-konexioa"</string>
     <string name="wifi_calling_mode_wifi_only_summary" msgid="3155660680014892641">"Deitu wifi bidez. Wifi-konexioa galduz gero, eseki egingo da deia."</string>
     <string name="wifi_calling_off_explanation" msgid="6295526820826322895">"Wifi bidezko deiak aktibatuta daudenean, telefonoak wifi-sareen bidez edo operadorearen sarearen bidez bidera ditzake deiak, zure hobespenen eta seinalearen sendotasunaren arabera. Eginbide hau aktibatu aurretik, eskatu tarifak eta bestelako informazioa operadoreari.<xliff:g id="ADDITIONAL_TEXT">%1$s</xliff:g>"</string>
+    <string name="wifi_calling_off_explanation_2" msgid="3487475808574416183"></string>
     <string name="emergency_address_title" msgid="3490633500025717573">"Larrialdietarako helbidea"</string>
     <string name="emergency_address_summary" msgid="3022628750270626473">"Kokapen gisa erabiliko da larrialdi-zerbitzuetara Wi-Fi bidez deituz gero"</string>
     <string name="private_dns_help_message" msgid="851221502063782306"><annotation id="url">"Lortu informazio gehiago"</annotation>" DNS pribatuaren eginbideei buruz"</string>
@@ -1300,6 +1331,7 @@
     <string name="auto_brightness_disclaimer" msgid="1868395832774087351">"Optimizatu distira inguruko argitasunaren arabera. Eginbide honekin, aldi baterako doi dezakezu pantailaren distira."</string>
     <string name="auto_brightness_description" msgid="6807117118142381193">"Pantailaren distira automatikoki egokituko da inguruneko argiaren eta egiten ari zarenaren arabera. Eskuz aldatu nahi baduzu distira, mugitu graduatzailea distira egokituak zure hobespenak ikas ditzan."</string>
     <string name="display_white_balance_title" msgid="2624544323029364713">"Pantailaren zuri-balantzea"</string>
+    <string name="display_white_balance_summary" msgid="7625456704950209050"></string>
     <string name="peak_refresh_rate_title" msgid="1878771412897140903">"Smooth Display"</string>
     <string name="peak_refresh_rate_summary" msgid="1527087897198455042">"Freskatze-abiadura 60 Hz-etik 90 Hz-era igotzen du automatikoki zenbait edukitarako. Bateria-erabilera areagotzen du."</string>
     <string name="force_high_refresh_rate_toggle" msgid="3325789621928312050">"Erabili gehieneko freskatze-abiadura"</string>
@@ -1435,12 +1467,13 @@
     <string name="sim_preferred_message" msgid="6004009449266648351">"<xliff:g id="NEW_SIM">%1$s</xliff:g> da gailuan daukazun SIM txartel bakarra. SIM hori erabili nahi duzu datu-konexiorako, deiak egiteko eta SMS mezuak bidaltzeko?"</string>
     <string name="wrong_pin_code_pukked" msgid="3414172752791445033">"SIMaren PIN kodea okerra da. Gailua desblokeatzeko, operadorearekin harremanetan jarri beharko duzu."</string>
     <plurals name="wrong_pin_code" formatted="false" msgid="4054088588731305475">
-        <item quantity="other">SIMaren PIN kodea okerra da. <xliff:g id="NUMBER_1">%d</xliff:g> saiakera geratzen zaizkizu gailua desblokeatzeko.</item>
-        <item quantity="one">SIMaren PIN kodea okerra da. <xliff:g id="NUMBER_0">%d</xliff:g> saiakera geratzen zaizu gailua desblokeatzeko.</item>
+      <item quantity="other">SIMaren PIN kodea okerra da. <xliff:g id="NUMBER_1">%d</xliff:g> saiakera geratzen zaizkizu gailua desblokeatzeko.</item>
+      <item quantity="one">SIMaren PIN kodea okerra da. <xliff:g id="NUMBER_0">%d</xliff:g> saiakera geratzen zaizu gailua desblokeatzeko.</item>
     </plurals>
     <string name="wrong_pin_code_one" msgid="6924852214263071441">"SIMeko PIN kodea okerra da. Saiakera bat geratzen zaizu gailua desblokeatzeko operadorearekin harremanetan jarri behar izan aurretik."</string>
     <string name="pin_failed" msgid="3726505565797352255">"SIMaren PIN kodearen eragiketak huts egin du!"</string>
     <string name="system_update_settings_list_item_title" msgid="3398346836439366350">"Sistemaren eguneratzeak"</string>
+    <string name="system_update_settings_list_item_summary" msgid="6703752298349642101"></string>
     <string name="firmware_version" msgid="1606901586501447275">"Android-en bertsioa"</string>
     <string name="security_patch" msgid="4071756145347865382">"Android-en segurtasun-eguneratzea"</string>
     <string name="model_info" msgid="8997566254717810904">"Modeloa"</string>
@@ -1519,6 +1552,8 @@
     <string name="sd_insert_summary" product="default" msgid="5949168259622002192">"Sartu muntatu beharreko SD txartela"</string>
     <string name="sd_mount" product="nosdcard" msgid="8305985249945415150">"Instalatu USB memoria"</string>
     <string name="sd_mount" product="default" msgid="5279813999455776169">"Instalatu SD txartela"</string>
+    <string name="sd_mount_summary" product="nosdcard" msgid="2190410240845521205"></string>
+    <string name="sd_mount_summary" product="default" msgid="2190410240845521205"></string>
     <string name="sd_format" product="nosdcard" msgid="8657427883364711513">"Ezabatu USB memoria"</string>
     <string name="sd_format" product="default" msgid="9085302892248732329">"Ezabatu SD txartela"</string>
     <string name="sd_format_summary" product="nosdcard" msgid="6179784504937189658">"USB bidezko barneko memoriako guztia ezabatzen du; adib., musika eta argazkiak."</string>
@@ -1528,6 +1563,8 @@
     <string name="dlg_confirm_unmount_title" product="default" msgid="8251329019960361646">"SD txartela desmuntatu?"</string>
     <string name="dlg_confirm_unmount_text" product="nosdcard" msgid="1212025106709645023">"USB bidezko memoria desmuntatzen baduzu, erabiltzen ari zaren aplikazio batzuk gelditu egingo dira eta agian ez dira erabilgarri egongo USB bidezko memoria berriro muntatu arte."</string>
     <string name="dlg_confirm_unmount_text" product="default" msgid="3887768438615563697">"SD txartela desmuntatzen baduzu, erabiltzen ari zaren aplikazio batzuk gelditu egingo dira eta agian ez dira erabilgarri egongo SD txartela berriro muntatu arte."</string>
+    <string name="dlg_error_unmount_title" product="nosdcard" msgid="2205587942165199845"></string>
+    <string name="dlg_error_unmount_title" product="default" msgid="2205587942165199845"></string>
     <string name="dlg_error_unmount_text" product="nosdcard" msgid="7876201891724279436">"Ezin izan da desmuntatu USB bidezko memoria. Saiatu berriro geroago."</string>
     <string name="dlg_error_unmount_text" product="default" msgid="2185659901137961711">"Ezin izan da SD txartela desmuntatu. Saiatu berriro geroago."</string>
     <string name="unmount_inform_text" product="nosdcard" msgid="5932607205977999175">"USB bidezko memoria desmuntatu egingo da."</string>
@@ -1678,6 +1715,7 @@
     <string name="menu_new" msgid="6571230342655509006">"APN berria"</string>
     <string name="menu_save" msgid="6611465355127483100">"Gorde"</string>
     <string name="menu_cancel" msgid="1197826697950745335">"Utzi"</string>
+    <string name="error_title" msgid="7158648377702417716"></string>
     <string name="error_name_empty" msgid="1258275899283079142">"Izena eremuak ezin du hutsik egon."</string>
     <string name="error_apn_empty" msgid="7657491065443746915">"APNak ezin du hutsik egon."</string>
     <string name="error_mcc_not3" msgid="883659545640179094">"MCC eremuak 3 digitu izan behar ditu."</string>
@@ -1800,8 +1838,8 @@
     <string name="location_app_level_permissions" msgid="907206607664629759">"Aplikazioen kokapen-baimenak"</string>
     <string name="location_app_permission_summary_location_off" msgid="2711822936853500335">"Kokapena desaktibatuta dago"</string>
     <plurals name="location_app_permission_summary_location_on" formatted="false" msgid="8286873148858526214">
-        <item quantity="other"> <xliff:g id="PERMITTED_LOCATION_APP_COUNT_2">%1$d</xliff:g>/<xliff:g id="TOTAL_LOCATION_APP_COUNT_3">%2$d</xliff:g> aplikaziok atzi dezakete kokapena</item>
-        <item quantity="one"> <xliff:g id="PERMITTED_LOCATION_APP_COUNT_0">%1$d</xliff:g>/<xliff:g id="TOTAL_LOCATION_APP_COUNT_1">%2$d</xliff:g> aplikaziok atzi dezake kokapena</item>
+      <item quantity="other"> <xliff:g id="PERMITTED_LOCATION_APP_COUNT_2">%1$d</xliff:g>/<xliff:g id="TOTAL_LOCATION_APP_COUNT_3">%2$d</xliff:g> aplikaziok atzi dezakete kokapena</item>
+      <item quantity="one"> <xliff:g id="PERMITTED_LOCATION_APP_COUNT_0">%1$d</xliff:g>/<xliff:g id="TOTAL_LOCATION_APP_COUNT_1">%2$d</xliff:g> aplikaziok atzi dezake kokapena</item>
     </plurals>
     <string name="location_category_recent_location_access" msgid="2558063524482178146">"Atzitutako azkenak"</string>
     <string name="location_recent_location_access_see_all" msgid="4203102419355323325">"Ikusi guztiak"</string>
@@ -1976,8 +2014,8 @@
     <string name="install_applications_title" msgid="7890233747559108106">"Onartu iturburu guztiak"</string>
     <string name="recent_app_category_title" msgid="189758417804427533">"Azkenaldian irekitako aplikazioak"</string>
     <plurals name="see_all_apps_title" formatted="false" msgid="6864581406735745400">
-        <item quantity="other">Ikusi %1$d aplikazioak</item>
-        <item quantity="one">Ikusi aplikazio guztiak</item>
+      <item quantity="other">Ikusi %1$d aplikazioak</item>
+      <item quantity="one">Ikusi aplikazio guztiak</item>
     </plurals>
     <string name="forgot_password_title" msgid="3967873480875239885">"Galdetu IKT saileko administratzaileari"</string>
     <string name="forgot_password_text" msgid="2583194470767613163">"PINa, eredua edo pasahitza berrezartzen lagunduko dizu"</string>
@@ -1996,8 +2034,8 @@
     <string name="clear_cache_btn_text" msgid="8597272828928143723">"Garbitu cachea"</string>
     <string name="cache_size_label" msgid="313456088966822757">"Cachea"</string>
     <plurals name="uri_permissions_text" formatted="false" msgid="8212425823423508096">
-        <item quantity="other">%d elementu</item>
-        <item quantity="one">1 elementu</item>
+      <item quantity="other">%d elementu</item>
+      <item quantity="one">1 elementu</item>
     </plurals>
     <string name="clear_uri_btn_text" msgid="4828117421162495134">"Garbitu sarbidea"</string>
     <string name="controls_label" msgid="8671492254263626383">"Kontrolatzeko aukerak"</string>
@@ -2052,6 +2090,7 @@
     <string name="clear_data_dlg_text" msgid="1107610960337399006">"Aplikazio honen datuak betiko ezabatuko dira; besteak beste, fitxategiak, ezarpenak, datu-baseak eta aplikazioko beste batu batzuk."</string>
     <string name="dlg_ok" msgid="1421350367857960997">"Ados"</string>
     <string name="dlg_cancel" msgid="5164705061530774899">"Utzi"</string>
+    <string name="app_not_found_dlg_title" msgid="7122106240981109930"></string>
     <string name="app_not_found_dlg_text" msgid="8634675268730513704">"Ez da aplikazioa aurkitu instalatutako aplikazioen zerrendan."</string>
     <string name="clear_failed_dlg_text" msgid="6866741916836125732">"Ezin izan da garbitu memoria aplikazio honi dagokionez."</string>
     <string name="join_two_items" msgid="7893073836681382429">"<xliff:g id="FIRST_ITEM">%1$s</xliff:g> eta <xliff:g id="SECOND_ITEM">%2$s</xliff:g>"</string>
@@ -2091,12 +2130,12 @@
     <string name="no_running_services" msgid="9079738069349859373">"Ez da zerbitzurik abian."</string>
     <string name="service_started_by_app" msgid="6845028506417670179">"Aplikazioak hasita."</string>
     <!-- no translation found for service_client_name (2210898622981598861) -->
-    <skip/>
+    <skip />
     <string name="service_background_processes" msgid="2800539421534521948">"<xliff:g id="MEMORY">%1$s</xliff:g> libre"</string>
     <string name="service_foreground_processes" msgid="6380905887193621704">"<xliff:g id="MEMORY">%1$s</xliff:g> erabilita"</string>
     <string name="memory" msgid="5253757199926592074">"RAM"</string>
     <!-- no translation found for service_process_name (7827318358399776412) -->
-    <skip/>
+    <skip />
     <string name="running_process_item_user_label" msgid="1444898861984132133">"Erabiltzailea: <xliff:g id="USER_NAME">%1$s</xliff:g>"</string>
     <string name="running_process_item_removed_user_label" msgid="4812732296696662613">"Kendutako erabiltzailea"</string>
     <string name="running_processes_item_description_s_s" msgid="6835918861352501671">"<xliff:g id="NUMPROCESS">%1$d</xliff:g> prozesu eta <xliff:g id="NUMSERVICES">%2$d</xliff:g> zerbitzu"</string>
@@ -2128,12 +2167,16 @@
     <string name="runningservicedetails_stop_dlg_text" product="tablet" msgid="2076922609580490122">"Zerbitzua gelditzen baduzu, agian tabletako eginbide batzuk behar bezala funtzionatzeari utziko diote, tableta itzali eta berriro piztu arte."</string>
     <string name="runningservicedetails_stop_dlg_text" product="default" msgid="2625863973434309085">"Zerbitzua gelditzen baduzu, agian telefonoko eginbide batzuk behar bezala funtzionatzeari utziko diote, telefonoa itzali eta berriro piztu arte."</string>
     <string name="language_input_gesture_title" msgid="3292455685728572960">"Hizkuntzak, idazketa eta keinuak"</string>
+    <string name="language_input_gesture_summary_on_with_assist" msgid="8670153838520237089"></string>
+    <string name="language_input_gesture_summary_on_non_assist" msgid="2738661322747920463"></string>
+    <string name="language_input_gesture_summary_off" msgid="1604575860215661606"></string>
     <string name="language_settings" msgid="8700174277543875046">"Hizkuntza eta idazketa"</string>
     <string name="language_empty_list_user_restricted" msgid="8050367405839231863">"Ez daukazu gailuaren hizkuntza aldatzeko baimenik."</string>
     <string name="language_keyboard_settings_title" msgid="7934844313233544557">"Hizkuntza eta idazketa"</string>
     <string name="input_assistance" msgid="3437568284144952104">"Tresnak"</string>
     <string name="keyboard_settings_category" msgid="5392847229300117064">"Teklatua eta idazketa-metodoak"</string>
     <string name="phone_language" msgid="5986939176239963826">"Hizkuntzak"</string>
+    <string name="phone_language_summary" msgid="863041222809685325"></string>
     <string name="auto_replace" msgid="4830732960264447043">"Ordezte automatikoa"</string>
     <string name="auto_replace_summary" msgid="1285443414597153423">"Zuzendu oker idatzitako hitzak"</string>
     <string name="auto_caps" msgid="5573583581288305355">"Maiuskula automatikoak"</string>
@@ -2400,8 +2443,8 @@
     <string name="accessibility_hearingaid_pair_instructions_message" msgid="8913409742121315657">"Audiofonoak parekatzeko, bilatu eta sakatu gailua hurrengo pantailan. Ziurtatu audiofonoak parekatze moduan daudela."</string>
     <string name="accessibility_hearingaid_active_device_summary" msgid="509703438222873967">"<xliff:g id="DEVICE_NAME">%1$s</xliff:g> aktibo dago"</string>
     <plurals name="show_number_hearingaid_count" formatted="false" msgid="776000580683647556">
-        <item quantity="other"><xliff:g id="NUMBER_DEVICE_COUNT_1">%1$d</xliff:g> audifono gorde dira</item>
-        <item quantity="one"><xliff:g id="NUMBER_DEVICE_COUNT_0">%1$d</xliff:g> audifono gorde da</item>
+      <item quantity="other"><xliff:g id="NUMBER_DEVICE_COUNT_1">%1$d</xliff:g> audifono gorde dira</item>
+      <item quantity="one"><xliff:g id="NUMBER_DEVICE_COUNT_0">%1$d</xliff:g> audifono gorde da</item>
     </plurals>
     <string name="accessibility_audio_adjustment_title" msgid="1332113739136802997">"Audio-doikuntza"</string>
     <string name="accessibility_summary_shortcut_enabled" msgid="4030427268146752644">"Lasterbidea aktibatuta"</string>
@@ -2433,20 +2476,20 @@
     <string name="reduce_bright_colors_intensity_end_label" msgid="1422600205484299860">"Argiago"</string>
     <string name="reduce_bright_colors_persist_preference_title" msgid="4368829654993343354">"Utzi aktibatuta gailua berrabiarazi ondoren"</string>
     <plurals name="accessibilty_autoclick_preference_subtitle_short_delay" formatted="false" msgid="5354221071353645263">
-        <item quantity="other">Laburra (<xliff:g id="CLICK_DELAY_LABEL_1">%1$s</xliff:g> segundo)</item>
-        <item quantity="one">Laburra (<xliff:g id="CLICK_DELAY_LABEL_0">%1$s</xliff:g> segundo)</item>
+      <item quantity="other">Laburra (<xliff:g id="CLICK_DELAY_LABEL_1">%1$s</xliff:g> segundo)</item>
+      <item quantity="one">Laburra (<xliff:g id="CLICK_DELAY_LABEL_0">%1$s</xliff:g> segundo)</item>
     </plurals>
     <plurals name="accessibilty_autoclick_preference_subtitle_medium_delay" formatted="false" msgid="1550891909800510628">
-        <item quantity="other">Ertaina (<xliff:g id="CLICK_DELAY_LABEL_1">%1$s</xliff:g> segundo)</item>
-        <item quantity="one">Ertaina (<xliff:g id="CLICK_DELAY_LABEL_0">%1$s</xliff:g> segundo)</item>
+      <item quantity="other">Ertaina (<xliff:g id="CLICK_DELAY_LABEL_1">%1$s</xliff:g> segundo)</item>
+      <item quantity="one">Ertaina (<xliff:g id="CLICK_DELAY_LABEL_0">%1$s</xliff:g> segundo)</item>
     </plurals>
     <plurals name="accessibilty_autoclick_preference_subtitle_long_delay" formatted="false" msgid="2230755548820485984">
-        <item quantity="other">Luzea (<xliff:g id="CLICK_DELAY_LABEL_1">%1$s</xliff:g> segundo)</item>
-        <item quantity="one">Luzea (<xliff:g id="CLICK_DELAY_LABEL_0">%1$s</xliff:g> segundo)</item>
+      <item quantity="other">Luzea (<xliff:g id="CLICK_DELAY_LABEL_1">%1$s</xliff:g> segundo)</item>
+      <item quantity="one">Luzea (<xliff:g id="CLICK_DELAY_LABEL_0">%1$s</xliff:g> segundo)</item>
     </plurals>
     <plurals name="accessibilty_autoclick_delay_unit_second" formatted="false" msgid="4537791441118261556">
-        <item quantity="other"><xliff:g id="CLICK_DELAY_LABEL_2">%1$s</xliff:g>segundu</item>
-        <item quantity="one"><xliff:g id="CLICK_DELAY_LABEL_0">%1$s</xliff:g> segundo</item>
+      <item quantity="other"><xliff:g id="CLICK_DELAY_LABEL_2">%1$s</xliff:g>segundu</item>
+      <item quantity="one"><xliff:g id="CLICK_DELAY_LABEL_0">%1$s</xliff:g> segundo</item>
     </plurals>
     <string name="accessibility_vibration_summary" msgid="27904038683405084">"Tonua: <xliff:g id="SUMMARY_RING">%1$s</xliff:g>. Jakinarazpenak: <xliff:g id="SUMMARY_NOTIFICATION">%2$s</xliff:g>. Ukipena: <xliff:g id="SUMMARY_TOUCH">%3$s</xliff:g>."</string>
     <string name="accessibility_vibration_summary_off" msgid="7776105450117095736">"Dardara desaktibatuta tonua jotzean eta jakinarazpenak daudenean"</string>
@@ -2517,23 +2560,31 @@
     <string name="keywords_reduce_bright_colors" msgid="1683190961013139183">"argi-sentikortasuna, fotofobia, gai iluna, migraina, buruko mina, irakurtzeko modua, gau modua, murriztu distira, puntu zuria"</string>
     <string name="keywords_accessibility" msgid="4263443239404659143">"erabiltzeko erraztasuna, sartzeko erraztasuna, laguntza, erabilerraztasuna"</string>
     <string name="keywords_magnification" msgid="3908145308269840862">"leihoetarako lupa, zooma, lupa, ikusmen txarra, handitu, handiagotu"</string>
+    <string name="keywords_talkback" msgid="2816435437095102527"></string>
     <string name="keywords_live_caption" msgid="1667203998080567556">"azpitituluak, istanteko transkripzioa, entzumen txarra, entzumen-galera, CART, ordenagailuz lagundutako transkripzioa denbora errealean, ahotsa testu bihurtzea"</string>
+    <string name="keywords_live_transcribe" msgid="3226990195174890997"></string>
+    <string name="keywords_sound_notifications" msgid="8183107485754075413"></string>
+    <string name="keywords_sound_amplifier" msgid="939404835256246663"></string>
     <string name="keywords_display_size" msgid="5286419615221231518">"pantailaren tamaina, pantaila handia"</string>
     <string name="keywords_bold_text" msgid="6257418169207099589">"kontraste handia, ikusmen txikia, letra lodia, letra-tipo lodia"</string>
+    <string name="keywords_select_to_speak" msgid="2872704811610888719"></string>
     <string name="keywords_color_correction" msgid="8540442886990423681">"doitu kolorea"</string>
     <string name="keywords_color_inversion" msgid="4291058365873221962">"ilundu pantaila, argitu pantaila"</string>
+    <string name="keywords_accessibility_menu" msgid="4300579436464706608"></string>
+    <string name="keywords_switch_access" msgid="5813094504384313402"></string>
     <string name="keywords_auto_click" msgid="7151756353013736931">"motorra, sagua"</string>
     <string name="keywords_hearing_aids" msgid="524979615168196199">"entzumen txarra, entzumen-galera"</string>
     <string name="keywords_rtt" msgid="2429130928152514402">"entzumen txarra, entzumen-galera, azpitituluak, teletipoa, TTY"</string>
+    <string name="keywords_voice_access" msgid="7807335263195876454"></string>
     <string name="print_settings" msgid="8519810615863882491">"Inprimatzea"</string>
     <string name="print_settings_summary_no_service" msgid="6721731154917653862">"Desaktibatuta"</string>
     <plurals name="print_settings_summary" formatted="false" msgid="1034273609054146099">
-        <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> inprimatze-zerbitzu aktibatuta</item>
-        <item quantity="one">1 inprimatze-zerbitzu aktibatuta</item>
+      <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> inprimatze-zerbitzu aktibatuta</item>
+      <item quantity="one">1 inprimatze-zerbitzu aktibatuta</item>
     </plurals>
     <plurals name="print_jobs_summary" formatted="false" msgid="3933688846338306536">
-        <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> inprimatze-lan</item>
-        <item quantity="one">1 inprimatze-lan</item>
+      <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> inprimatze-lan</item>
+      <item quantity="one">1 inprimatze-lan</item>
     </plurals>
     <string name="print_settings_title" msgid="7680498284751129935">"Inprimatze-zerbitzuak"</string>
     <string name="print_no_services_installed" msgid="7554057966540602692">"Ez dago zerbitzurik instalatuta"</string>
@@ -2602,7 +2653,7 @@
     <string name="battery_stats_wake_lock_label" msgid="8115041205778441548">"Aktibo"</string>
     <string name="battery_stats_phone_signal_label" msgid="679649411998679555">"Sare mugikorraren seinalea"</string>
     <!-- no translation found for battery_stats_last_duration (3088100394725340600) -->
-    <skip/>
+    <skip />
     <string name="awake" msgid="5405871714019268978">"Gailua aktibo egondako denbora"</string>
     <string name="wifi_on_time" msgid="3880778525760926066">"Wi‑Fi garaiz"</string>
     <string name="bluetooth_on_time" msgid="8424625554628450028">"Wi-Fi garaiz"</string>
@@ -2640,24 +2691,24 @@
     <string name="battery_tip_dialog_message" product="device" msgid="3896805213768863874">"Gailua ohi baino gehiago erabili duzunez, baliteke bateria espero baino lehenago agortzea.\n\nHauek dira bateria gehien erabili duten aplikazioak:"</string>
     <string name="battery_tip_dialog_message_footer" msgid="986542164372177504">"Energia asko erabiltzen duten atzeko planoko jarduerak barne"</string>
     <plurals name="battery_tip_restrict_title" formatted="false" msgid="3108195491484891588">
-        <item quantity="other">Mugatu %1$d aplikazio</item>
-        <item quantity="one">Mugatu %1$d aplikazio</item>
+      <item quantity="other">Mugatu %1$d aplikazio</item>
+      <item quantity="one">Mugatu %1$d aplikazio</item>
     </plurals>
     <plurals name="battery_tip_restrict_handled_title" formatted="false" msgid="5862649927574803958">
-        <item quantity="other">%2$d aplikazio murriztu dira berriki</item>
-        <item quantity="one">%1$s aplikazio murriztu da berriki</item>
+      <item quantity="other">%2$d aplikazio murriztu dira berriki</item>
+      <item quantity="one">%1$s aplikazio murriztu da berriki</item>
     </plurals>
     <plurals name="battery_tip_restrict_summary" formatted="false" msgid="3328499737453686910">
-        <item quantity="other">%2$d aplikaziok bateria asko erabiltzen dute</item>
-        <item quantity="one">%1$s aplikaziok bateria asko erabiltzen du</item>
+      <item quantity="other">%2$d aplikaziok bateria asko erabiltzen dute</item>
+      <item quantity="one">%1$s aplikaziok bateria asko erabiltzen du</item>
     </plurals>
     <plurals name="battery_tip_restrict_handled_summary" formatted="false" msgid="3036853535034350991">
-        <item quantity="other">Aplikazio hauek ezin dira exekutatu atzeko planoan</item>
-        <item quantity="one">Aplikazio hau ezin da abiarazi atzeko planoan</item>
+      <item quantity="other">Aplikazio hauek ezin dira exekutatu atzeko planoan</item>
+      <item quantity="one">Aplikazio hau ezin da abiarazi atzeko planoan</item>
     </plurals>
     <plurals name="battery_tip_restrict_app_dialog_title" formatted="false" msgid="7897944678619251740">
-        <item quantity="other">Murriztapena ezarri nahi diezu %1$d aplikaziori?</item>
-        <item quantity="one">Murriztapena ezarri nahi diozu aplikazioari?</item>
+      <item quantity="other">Murriztapena ezarri nahi diezu %1$d aplikaziori?</item>
+      <item quantity="one">Murriztapena ezarri nahi diozu aplikazioari?</item>
     </plurals>
     <string name="battery_tip_restrict_app_dialog_message" msgid="137856003724730751">"Bateria aurrezteko, ez utzi <xliff:g id="APP">%1$s</xliff:g> aplikazioari atzeko planoan bateria erabiltzen. Baliteke aplikazioak behar bezala ez funtzionatzea eta jakinarazpenak atzeratzea."</string>
     <string name="battery_tip_restrict_apps_less_than_5_dialog_message" msgid="5894648804112181324">"Bateria aurrezteko, ez utzi aplikazio hauei atzeko planoan bateria erabiltzen. Baliteke aplikazio mugatuek behar bezala ez funtzionatzea eta jakinarazpenak atzeratzea.\n\nAplikazioak:"</string>
@@ -2676,8 +2727,8 @@
     <string name="smart_battery_footer" msgid="8407121907452993645">"Aplikazio batzuk bateria agortzen ari direla hautematen badu bateria-kudeatzaileak, aplikazio horiek mugatzeko aukera izango duzu. Baliteke aplikazio mugatuek behar bezala ez funtzionatzea eta jakinarazpenak atzeratzea."</string>
     <string name="restricted_app_title" msgid="6585080822121007436">"Aplikazio mugatuak"</string>
     <plurals name="restricted_app_summary" formatted="false" msgid="6059772951505411003">
-        <item quantity="other">%1$d aplikazioren bateria-erabilera mugatzen</item>
-        <item quantity="one">%1$d aplikazioren bateria-erabilera mugatzen</item>
+      <item quantity="other">%1$d aplikazioren bateria-erabilera mugatzen</item>
+      <item quantity="one">%1$d aplikazioren bateria-erabilera mugatzen</item>
     </plurals>
     <string name="restricted_app_time_summary" msgid="3097721884155913252">"<xliff:g id="TIME">%1$s</xliff:g> mugatuta"</string>
     <string name="restricted_app_detail_footer" msgid="3495725286882138803">"Aplikazio horiek ezin dute bateria erabili atzeko planoan. Baliteke behar bezala ez funtzionatzea eta jakinarazpenak atzeratzea."</string>
@@ -2687,11 +2738,12 @@
     <string name="battery_manager_summary_unsupported" msgid="7334173707292807964">"Aplikazioak bateria agortzen ari diren hautematen"</string>
     <string name="battery_manager_off" msgid="673547668722420924">"Desaktibatuta"</string>
     <plurals name="battery_manager_app_restricted" formatted="false" msgid="6714534362166394848">
-        <item quantity="other">%1$d aplikazio daude murriztuta</item>
-        <item quantity="one">%1$d aplikazio dago murriztuta</item>
+      <item quantity="other">%1$d aplikazio daude murriztuta</item>
+      <item quantity="one">%1$d aplikazio dago murriztuta</item>
     </plurals>
-    <string name="battery_header_title_alternate" msgid="8371821625994616659">"<xliff:g id="UNIT">%</xliff:g> <xliff:g id="NUMBER">^1</xliff:g>"<small><font size="20"/></small>""</string>
+    <string name="battery_header_title_alternate" msgid="8371821625994616659">"<xliff:g id="UNIT">%</xliff:g> <xliff:g id="NUMBER">^1</xliff:g>"<small><font size="20"></font></small>""</string>
     <string name="battery_missing_message" msgid="400958471814422770">"Arazo bat izan da bateria-neurgailua irakurtzean."</string>
+    <string name="battery_missing_link_message" msgid="6021565067124898074"></string>
     <string name="battery_missing_link_a11y_message" msgid="3310971406602316323">"Sakatu hau erroreari buruzko informazio gehiago lortzeko"</string>
     <string name="dialog_stop_title" msgid="5972757101865665655">"Aplikazioa gelditu nahi duzu?"</string>
     <string name="dialog_stop_message" product="default" msgid="2063536418875183799">"<xliff:g id="APP">%1$s</xliff:g>\n\n\n\n"</string>
@@ -2806,6 +2858,7 @@
     <string name="battery_total_usage_and_bg_less_minute_usage_with_period" msgid="5943281928474598517">"<xliff:g id="TIME_0">^1</xliff:g> guztira • Minutu bat baino gutxiago atzeko planoan <xliff:g id="TIME_PERIOD">^2</xliff:g> bitartean\n"</string>
     <string name="battery_not_usage" msgid="1472275761547230196">"Erabilerarik ez bateria guztiz kargatu zenetik"</string>
     <string name="battery_not_usage_24hr" msgid="8397519536160741248">"Erabilerarik ez azken 24 orduetan"</string>
+    <string name="battery_usage_without_time" msgid="1346894834339420538"></string>
     <string name="advanced_battery_graph_subtext" msgid="6816737986172678550">"Gailuaren erabileran oinarritzen da gelditzen den bateriaren aurreikuspena"</string>
     <string name="estimated_time_left" msgid="948717045180211777">"Geratzen den denbora, gutxi gorabehera"</string>
     <string name="estimated_charging_time_left" msgid="2287135413363961246">"guztiz kargatu arte"</string>
@@ -2831,7 +2884,7 @@
     <string name="battery_saver_sticky_description_new" product="tablet" msgid="4566426833434375284">"Tabletaren bateria <xliff:g id="UNIT">%</xliff:g> <xliff:g id="NUMBER">^1</xliff:g> baino gehiago kargatu denean, desaktibatu egiten da bateria-aurrezlea"</string>
     <string name="battery_saver_sticky_description_new" product="device" msgid="4128841327359445726">"Gailuaren bateria <xliff:g id="UNIT">%</xliff:g> <xliff:g id="NUMBER">^1</xliff:g> baino gehiago kargatu denean, desaktibatu egiten da bateria-aurrezlea"</string>
     <!-- no translation found for battery_saver_seekbar_title (3712266470054006641) -->
-    <skip/>
+    <skip />
     <string name="battery_saver_seekbar_title_placeholder" msgid="7141264642540687540">"Aktibatu"</string>
     <string name="battery_saver_master_switch_title" msgid="3474312070095834915">"Erabili bateria-aurrezlea"</string>
     <string name="battery_saver_turn_on_automatically_title" msgid="7857393318205740864">"Aktibatu automatikoki"</string>
@@ -2952,8 +3005,8 @@
     <string name="remove_credential_management_app_dialog_title" msgid="5713525435104706772">"Aplikazioa kendu nahi duzu?"</string>
     <string name="remove_credential_management_app_dialog_message" msgid="7739474298063646935">"Aplikazioak ez du kudeatuko ziurtagiririk, baina gailuan geratuko da. Aplikazioak instalatutako ziurtagiriak desinstalatu egingo dira."</string>
     <plurals name="number_of_urls" formatted="false" msgid="403979258551655023">
-        <item quantity="other"><xliff:g id="NUMBER_1">%d</xliff:g> URL</item>
-        <item quantity="one"><xliff:g id="NUMBER_0">%d</xliff:g> URL</item>
+      <item quantity="other"><xliff:g id="NUMBER_1">%d</xliff:g> URL</item>
+      <item quantity="one"><xliff:g id="NUMBER_0">%d</xliff:g> URL</item>
     </plurals>
     <string name="emergency_tone_title" msgid="6673118505206685168">"Larrialdi-deien seinalea"</string>
     <string name="emergency_tone_summary" msgid="2519776254708767388">"Ezarri larrialdi-deiak egitean izan beharreko portaera."</string>
@@ -2971,6 +3024,7 @@
     <string name="auto_restore_summary" msgid="6830198851045584001">"Aplikazioak berriro instalatzean, leheneratu babeskopia egindako ezarpenak eta datuak."</string>
     <string name="backup_inactive_title" msgid="6753265378043349277">"Babeskopia-zerbitzua ez dago aktibo"</string>
     <string name="backup_configure_account_default_summary" msgid="5323225330966306690">"Ez dago babeskopiak gordetzen dituen aplikaziorik"</string>
+    <string name="backup_erase_dialog_title" msgid="5892431263348766484"></string>
     <string name="backup_erase_dialog_message" msgid="2250872501409574331">"Wifi-sareetako pasahitzen, laster-marken, bestelako ezarpenen eta aplikazioetako datuen babeskopiak egiteari utzi eta Google-ren zerbitzarietako kopia guztiak ezabatu nahi dituzu?"</string>
     <string name="fullbackup_erase_dialog_message" msgid="2379053988557486162">"Gailuko datuen (adibidez, Wi-Fi pasahitzak eta deien historia) eta aplikazioetako datuen (besteak beste, ezarpenak eta aplikazioek gordetako fitxategiak) babeskopiak egiteari utzi nahi diozu eta urruneko zerbitzarietako kopia guztiak ezabatu nahi dituzu?"</string>
     <string name="fullbackup_data_summary" msgid="971587401251601473">"Egin babeskopiak automatikoki urrunetik, bai gailuetako datuenak (esaterako, Wi-Fi sareetako pasahitzak eta deien historia), bai aplikazioetako datuenak (esaterako, ezarpenak eta aplikazioek gordetako fitxategiak).\n\nBabeskopiak automatikoki egiteko aukera aktibatzean, gailuko eta aplikazioetako datuak urrunetik gordetzen dira aldizka. Aplikazioetako datuak aplikazioek gordetako edozein datu izan daitezke (garatzaileen ezarpenen arabera), eta kontuzkoak izan litezkeen datuak ere sar daitezke (adibidez, kontaktuak, mezuak eta argazkiak)."</string>
@@ -2999,8 +3053,8 @@
     <string name="notification_history_snooze" msgid="3980568893290512257">"Atzeratutakoak"</string>
     <string name="notification_history_dismiss" msgid="6180321217375722918">"Azkenaldian baztertutakoak"</string>
     <plurals name="notification_history_count" formatted="false" msgid="1859304685071321991">
-        <item quantity="other"><xliff:g id="NUMBER_1">%d</xliff:g> jakinarazpen</item>
-        <item quantity="one"><xliff:g id="NUMBER_0">%d</xliff:g> jakinarazpen</item>
+      <item quantity="other"><xliff:g id="NUMBER_1">%d</xliff:g> jakinarazpen</item>
+      <item quantity="one"><xliff:g id="NUMBER_0">%d</xliff:g> jakinarazpen</item>
     </plurals>
     <string name="sound_category_call_ringtone_vibrate_title" msgid="9090693401915654528">"Tonua eta dardara"</string>
     <string name="wifi_setup_detail" msgid="2012898800571616422">"Sarearen xehetasunak"</string>
@@ -3250,21 +3304,21 @@
     <string name="ssl_ca_cert_warning" msgid="3898387588657346106">"Baliteke sarea kontrolatuta egotea"</string>
     <string name="done_button" msgid="6269449526248267">"Eginda"</string>
     <plurals name="ssl_ca_cert_dialog_title" formatted="false" msgid="5491460811755938449">
-        <item quantity="other">Jo fidagarritzat edo kendu ziurtagiriak</item>
-        <item quantity="one">Jo fidagarritzat edo kendu ziurtagiria</item>
+      <item quantity="other">Jo fidagarritzat edo kendu ziurtagiriak</item>
+      <item quantity="one">Jo fidagarritzat edo kendu ziurtagiria</item>
     </plurals>
     <plurals name="ssl_ca_cert_info_message_device_owner" formatted="false" msgid="2788832560436163252">
-        <item quantity="other"><xliff:g id="MANAGING_DOMAIN_1">%s</xliff:g> domeinuak ziurtagiri-emaile batzuk instalatu dizkizu gailuan. Hortaz, gailuak darabilen sarean egiten duzuna gainbegiratzeko gai izan liteke domeinua; besteak beste, posta elektronikoan, aplikazioetan eta webgune seguruetan egiten duzuna ikus lezake.\n\nZiurtagiri horiei buruzko informazio gehiago lortzeko, jarri administratzailearekin harremanetan.</item>
-        <item quantity="one"><xliff:g id="MANAGING_DOMAIN_0">%s</xliff:g> domeinuak ziurtagiri-emaile bat instalatu dizu gailuan. Hortaz, gailuak darabilen sarean egiten duzuna gainbegiratzeko gai izan liteke domeinua; besteak beste, posta elektronikoan, aplikazioetan eta webgune seguruetan egiten duzuna ikus lezake.\n\nZiurtagiri horri buruzko informazio gehiago lortzeko, jarri administratzailearekin harremanetan.</item>
+      <item quantity="other"><xliff:g id="MANAGING_DOMAIN_1">%s</xliff:g> domeinuak ziurtagiri-emaile batzuk instalatu dizkizu gailuan. Hortaz, gailuak darabilen sarean egiten duzuna gainbegiratzeko gai izan liteke domeinua; besteak beste, posta elektronikoan, aplikazioetan eta webgune seguruetan egiten duzuna ikus lezake.\n\nZiurtagiri horiei buruzko informazio gehiago lortzeko, jarri administratzailearekin harremanetan.</item>
+      <item quantity="one"><xliff:g id="MANAGING_DOMAIN_0">%s</xliff:g> domeinuak ziurtagiri-emaile bat instalatu dizu gailuan. Hortaz, gailuak darabilen sarean egiten duzuna gainbegiratzeko gai izan liteke domeinua; besteak beste, posta elektronikoan, aplikazioetan eta webgune seguruetan egiten duzuna ikus lezake.\n\nZiurtagiri horri buruzko informazio gehiago lortzeko, jarri administratzailearekin harremanetan.</item>
     </plurals>
     <plurals name="ssl_ca_cert_info_message" formatted="false" msgid="3989916958347169622">
-        <item quantity="other"><xliff:g id="MANAGING_DOMAIN_1">%s</xliff:g> domeinuak ziurtagiri-emaile batzuk instalatu dizkizu laneko profilean. Hortaz, baliteke domeinuak laneko sarean egiten duzuna gainbegiratu ahal izatea, besteak beste, posta elektronikoan, aplikazioetan eta webgune seguruetan egiten duzuna.\n\nZiurtagiri horiei buruzko informazio gehiago lortzeko, jarri administratzailearekin harremanetan.</item>
-        <item quantity="one"><xliff:g id="MANAGING_DOMAIN_0">%s</xliff:g> domeinuak ziurtagiri-emaile bat instalatu dizu laneko profilean. Hortaz, gailuak darabilen sarean egiten duzuna gainbegiratzeko gai izan liteke domeinua; besteak beste, posta elektronikoan, aplikazioetan eta webgune seguruetan egiten duzuna ikus lezake.\n\nZiurtagiri horri buruzko informazio gehiago lortzeko, jarri administratzailearekin harremanetan.</item>
+      <item quantity="other"><xliff:g id="MANAGING_DOMAIN_1">%s</xliff:g> domeinuak ziurtagiri-emaile batzuk instalatu dizkizu laneko profilean. Hortaz, baliteke domeinuak laneko sarean egiten duzuna gainbegiratu ahal izatea, besteak beste, posta elektronikoan, aplikazioetan eta webgune seguruetan egiten duzuna.\n\nZiurtagiri horiei buruzko informazio gehiago lortzeko, jarri administratzailearekin harremanetan.</item>
+      <item quantity="one"><xliff:g id="MANAGING_DOMAIN_0">%s</xliff:g> domeinuak ziurtagiri-emaile bat instalatu dizu laneko profilean. Hortaz, gailuak darabilen sarean egiten duzuna gainbegiratzeko gai izan liteke domeinua; besteak beste, posta elektronikoan, aplikazioetan eta webgune seguruetan egiten duzuna ikus lezake.\n\nZiurtagiri horri buruzko informazio gehiago lortzeko, jarri administratzailearekin harremanetan.</item>
     </plurals>
     <string name="ssl_ca_cert_warning_message" msgid="4374052724815563051">"Hirugarren alderdi bat sarean bideratzen dituzun jarduerak kontrola ditzake, mezu elektronikoak, aplikazioak eta webgune seguruak barne.\n\nGailuan instalatu duzun kredentzial fidagarri batek egiten du hori posible."</string>
     <plurals name="ssl_ca_cert_settings_button" formatted="false" msgid="125941406175485894">
-        <item quantity="other">Ikusi ziurtagiriak</item>
-        <item quantity="one">Ikusi ziurtagiria</item>
+      <item quantity="other">Ikusi ziurtagiriak</item>
+      <item quantity="one">Ikusi ziurtagiria</item>
     </plurals>
     <string name="user_settings_title" msgid="6550866465409807877">"Erabiltzaile bat baino gehiago"</string>
     <string name="user_settings_footer_text" product="device" msgid="7523914344521302179">"Gailua partekatzeko, gehitu beste erabiltzaile batzuk. Bakoitzak bere eremua izango du gailuan; horrela, hasierako pantaila, kontu, aplikazio eta bestelako gauza pertsonalizatu batzuk izango ditu."</string>
@@ -3355,7 +3409,7 @@
     <string name="call_manager_enable_summary" msgid="7362506369604163030">"Baimendu zerbitzu honi deiak egiteko modua kudeatzea."</string>
     <string name="call_manager_title" msgid="3397433159509629466">"Dei-kudeatzailea"</string>
     <!-- no translation found for call_manager_summary (2558839230880919191) -->
-    <skip/>
+    <skip />
     <string name="cell_broadcast_settings" msgid="2416980110093867199">"Hari gabeko larrialdi-alertak"</string>
     <string name="network_operators_settings" msgid="5105453353329748954">"Sare-operadoreak"</string>
     <string name="access_point_names" msgid="5768430498022188057">"Sarbide-puntuen izenak"</string>
@@ -3402,6 +3456,7 @@
     <string name="wizard_back" msgid="8257697435061870191">"Atzera"</string>
     <string name="wizard_next" msgid="3884832431439072471">"Hurrengoa"</string>
     <string name="wizard_finish" msgid="4220258401946825946">"Amaitu"</string>
+    <string name="regulatory_info_text" msgid="1154461023369976667"></string>
     <string name="sim_setup_wizard_title" msgid="3945520353564138219">"SIM txartelak"</string>
     <string name="sim_settings_title" msgid="8392862852842113531">"SIM txartelak"</string>
     <string name="sim_settings_summary" msgid="5777472623476930332">"<xliff:g id="SIM_NUMBER">%2$s</xliff:g> - <xliff:g id="SIM_NAME">%1$s</xliff:g>"</string>
@@ -3443,8 +3498,8 @@
     <string name="sim_selection_channel_title" msgid="3193666315607572484">"SIMaren hautapena"</string>
     <string name="dashboard_title" msgid="5660733037244683387">"Ezarpenak"</string>
     <plurals name="settings_suggestion_header_summary_hidden_items" formatted="false" msgid="6585075562837786847">
-        <item quantity="other">Erakutsi %d elementu ezkutu</item>
-        <item quantity="one">Erakutsi %d elementu ezkutu</item>
+      <item quantity="other">Erakutsi %d elementu ezkutu</item>
+      <item quantity="one">Erakutsi %d elementu ezkutu</item>
     </plurals>
     <string name="network_dashboard_title" msgid="788543070557731240">"Sareak eta Internet"</string>
     <string name="network_dashboard_summary_mobile" msgid="7750924671970583670">"Datu-konexioa, wifia, wifi-gunea"</string>
@@ -3822,8 +3877,8 @@
     <string name="manage_conversations" msgid="4440289604887824337">"Kudeatu elkarrizketak"</string>
     <string name="priority_conversation_count_zero" msgid="3862289535537564713">"Ez dago lehentasunezko elkarrizketarik"</string>
     <plurals name="priority_conversation_count" formatted="false" msgid="4229447176780862649">
-        <item quantity="other">Lehentasunezko <xliff:g id="COUNT_1">%d</xliff:g> elkarrizketa</item>
-        <item quantity="one">Lehentasunezko <xliff:g id="COUNT_0">%d</xliff:g> elkarrizketa</item>
+      <item quantity="other">Lehentasunezko <xliff:g id="COUNT_1">%d</xliff:g> elkarrizketa</item>
+      <item quantity="one">Lehentasunezko <xliff:g id="COUNT_0">%d</xliff:g> elkarrizketa</item>
     </plurals>
     <string name="important_conversations" msgid="1233893707189659401">"Lehentasunezko elkarrizketak"</string>
     <string name="important_conversations_summary_bubbles" msgid="614327166808117644">"Erakutsi elkarrizketen atalaren goialdean, burbuila gainerakor gisa"</string>
@@ -3865,12 +3920,12 @@
     <string name="notification_app_switch_label" msgid="4422902423925084193">"<xliff:g id="APP_NAME">%1$s</xliff:g> aplikazioaren jakinarazpen guztiak"</string>
     <string name="default_notification_assistant" msgid="243718059890346442">"Jakinarazpen egokituak"</string>
     <plurals name="notifications_sent_daily" formatted="false" msgid="1479283620504341566">
-        <item quantity="other"><xliff:g id="NUMBER_1">%d</xliff:g> jakinarazpen inguru eguneko</item>
-        <item quantity="one"><xliff:g id="NUMBER_0">%d</xliff:g> jakinarazpen inguru eguneko</item>
+      <item quantity="other"><xliff:g id="NUMBER_1">%d</xliff:g> jakinarazpen inguru eguneko</item>
+      <item quantity="one"><xliff:g id="NUMBER_0">%d</xliff:g> jakinarazpen inguru eguneko</item>
     </plurals>
     <plurals name="notifications_sent_weekly" formatted="false" msgid="4913443431857170519">
-        <item quantity="other"><xliff:g id="NUMBER_1">%d</xliff:g> jakinarazpen inguru asteko</item>
-        <item quantity="one"><xliff:g id="NUMBER_0">%d</xliff:g> jakinarazpen inguru asteko</item>
+      <item quantity="other"><xliff:g id="NUMBER_1">%d</xliff:g> jakinarazpen inguru asteko</item>
+      <item quantity="one"><xliff:g id="NUMBER_0">%d</xliff:g> jakinarazpen inguru asteko</item>
     </plurals>
     <string name="notifications_sent_never" msgid="9081278709126812062">"Inoiz ez"</string>
     <string name="manage_notification_access_title" msgid="6481256069087219982">"Gailu eta aplikazioen jakinarazpenak"</string>
@@ -3878,8 +3933,8 @@
     <string name="work_profile_notification_access_blocked_summary" msgid="8643809206612366067">"Blokeatuta dago laneko profileko jakinarazpenetarako sarbidea"</string>
     <string name="manage_notification_access_summary_zero" msgid="7528633634628627431">"Aplikazioek ezin dituzte jakinarazpenak irakurri"</string>
     <plurals name="manage_notification_access_summary_nonzero" formatted="false" msgid="3703008881487586312">
-        <item quantity="other">%d aplikaziok jakinarazpenak irakur ditzakete</item>
-        <item quantity="one">%d aplikaziok jakinarazpenak irakur ditzake</item>
+      <item quantity="other">%d aplikaziok jakinarazpenak irakur ditzakete</item>
+      <item quantity="one">%d aplikaziok jakinarazpenak irakur ditzake</item>
     </plurals>
     <string name="notification_assistant_title" msgid="5889201903272393099">"Jakinarazpen hobetuak"</string>
     <string name="notification_assistant_summary" msgid="1957783114840908887">"Jaso iradokitako ekintzak, erantzunak eta abar"</string>
@@ -3940,8 +3995,8 @@
     <string name="interact_across_profiles_consent_dialog_permissions_summary" msgid="995051542847604039">"Aplikazio honek <xliff:g id="NAME">%1$s</xliff:g> aplikazio pertsonalaren baimenak erabil ditzake, hala nola kokapena, biltegia eta kontaktuak atzitzeko baimenak."</string>
     <string name="interact_across_profiles_number_of_connected_apps_none" msgid="8573289199942092964">"Ez dago aplikaziorik konektatuta"</string>
     <plurals name="interact_across_profiles_number_of_connected_apps" formatted="false" msgid="6991750455661974772">
-        <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> aplikazio konektatuta</item>
-        <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> aplikazio konektatuta</item>
+      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> aplikazio konektatuta</item>
+      <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> aplikazio konektatuta</item>
     </plurals>
     <string name="interact_across_profiles_install_work_app_title" msgid="2821669067014436056">"Aplikazioak konektatzeko, instalatu <xliff:g id="NAME">%1$s</xliff:g> laneko profilean"</string>
     <string name="interact_across_profiles_install_personal_app_title" msgid="4790651223324866344">"Aplikazioak konektatzeko, instalatu <xliff:g id="NAME">%1$s</xliff:g> profil pertsonalean"</string>
@@ -3956,20 +4011,20 @@
     <string name="notification_channels" msgid="1502969522886493799">"Kategoriak"</string>
     <string name="notification_channels_other" msgid="18159805343647908">"Beste batzuk"</string>
     <plurals name="notification_group_summary" formatted="false" msgid="483490958130993160">
-        <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> kategoria</item>
-        <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> kategoria</item>
+      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> kategoria</item>
+      <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> kategoria</item>
     </plurals>
     <string name="no_channels" msgid="4716199078612071915">"Aplikazio honek ez du argitaratu jakinarazpenik"</string>
     <string name="app_settings_link" msgid="6725453466705333311">"Aplikazioaren ezarpen gehiago"</string>
     <string name="notification_screen_summary" msgid="5984915275134654822">"Jakinarazpenen historia, burbuilak, bidalitako azkenak"</string>
     <string name="app_notification_listing_summary_zero" msgid="2988400013221120744">"Aktibatuta aplikazio guztietan"</string>
     <plurals name="app_notification_listing_summary_others" formatted="false" msgid="1506127395400503717">
-        <item quantity="other">Desaktibatuta <xliff:g id="COUNT_1">%d</xliff:g> aplikaziotan</item>
-        <item quantity="one">Desaktibatuta <xliff:g id="COUNT_0">%d</xliff:g> aplikaziotan</item>
+      <item quantity="other">Desaktibatuta <xliff:g id="COUNT_1">%d</xliff:g> aplikaziotan</item>
+      <item quantity="one">Desaktibatuta <xliff:g id="COUNT_0">%d</xliff:g> aplikaziotan</item>
     </plurals>
     <plurals name="deleted_channels" formatted="false" msgid="5963473421547029532">
-        <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> kategoria ezabatu dira</item>
-        <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> kategoria ezabatu da</item>
+      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> kategoria ezabatu dira</item>
+      <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> kategoria ezabatu da</item>
     </plurals>
     <string name="notification_toggle_on" msgid="1624283327379059003">"Aktibatuta"</string>
     <string name="notification_toggle_off" msgid="3295373308338024844">"Desaktibatuta"</string>
@@ -4116,7 +4171,7 @@
     <string name="zen_mode_starred_callers" msgid="1002370699564211178">"kontaktu izardunak"</string>
     <string name="zen_mode_repeat_callers_list" msgid="181819778783743847">"berriro deitzen dutenenak"</string>
     <!-- no translation found for zen_mode_calls_summary_one (1928015516061784276) -->
-    <skip/>
+    <skip />
     <string name="zen_mode_calls_summary_two" msgid="6351563496898410742">"<xliff:g id="CALLER_TYPE_0">%1$s</xliff:g> eta <xliff:g id="CALLER_TYPE_1">%2$s</xliff:g>"</string>
     <string name="zen_mode_repeat_callers_summary" msgid="4121054819936083025">"<xliff:g id="MINUTES">%d</xliff:g> minutuko epean pertsona berak berriz deitzen badu"</string>
     <string name="zen_mode_behavior_summary_custom" msgid="3126805555852783860">"Pertsonalizatua"</string>
@@ -4129,12 +4184,12 @@
     <string name="zen_mode_end_time_next_day_summary_format" msgid="419683704068360804">"<xliff:g id="FORMATTED_TIME">%s</xliff:g> (hurrengo egunean)"</string>
     <string name="zen_mode_summary_alarms_only_indefinite" msgid="910047326128154945">"Aldatu \"Alarmak soilik\" modura besterik esan arte"</string>
     <plurals name="zen_mode_summary_alarms_only_by_minute" formatted="false" msgid="1900512966361163390">
-        <item quantity="other">Aldatu \"Alarmak soilik\" modura <xliff:g id="DURATION">%1$d</xliff:g> minutuz, <xliff:g id="FORMATTEDTIME_1">%2$s</xliff:g> arte</item>
-        <item quantity="one">Aldatu \"Alarmak soilik\" modura minutu batez, <xliff:g id="FORMATTEDTIME_0">%2$s</xliff:g> arte</item>
+      <item quantity="other">Aldatu \"Alarmak soilik\" modura <xliff:g id="DURATION">%1$d</xliff:g> minutuz, <xliff:g id="FORMATTEDTIME_1">%2$s</xliff:g> arte</item>
+      <item quantity="one">Aldatu \"Alarmak soilik\" modura minutu batez, <xliff:g id="FORMATTEDTIME_0">%2$s</xliff:g> arte</item>
     </plurals>
     <plurals name="zen_mode_summary_alarms_only_by_hour" formatted="false" msgid="955991428001659124">
-        <item quantity="other">Aldatu \"Alarmak soilik\" modura <xliff:g id="DURATION">%1$d</xliff:g> orduz, <xliff:g id="FORMATTEDTIME_1">%2$s</xliff:g> arte</item>
-        <item quantity="one">Aldatu \"Alarmak soilik\" modura ordubetez, <xliff:g id="FORMATTEDTIME_0">%2$s</xliff:g> arte</item>
+      <item quantity="other">Aldatu \"Alarmak soilik\" modura <xliff:g id="DURATION">%1$d</xliff:g> orduz, <xliff:g id="FORMATTEDTIME_1">%2$s</xliff:g> arte</item>
+      <item quantity="one">Aldatu \"Alarmak soilik\" modura ordubetez, <xliff:g id="FORMATTEDTIME_0">%2$s</xliff:g> arte</item>
     </plurals>
     <string name="zen_mode_summary_alarms_only_by_time" msgid="8140619669703968810">"Aldatu \"Alarmak soilik\" modura <xliff:g id="FORMATTEDTIME">%1$s</xliff:g> arte"</string>
     <string name="zen_mode_summary_always" msgid="722093064250082317">"Aldatu \"Eten beti\" modura"</string>
@@ -4208,20 +4263,20 @@
     <string name="app_launch_add_link" msgid="8622558044530305811">"Gehitu esteka bat"</string>
     <string name="app_launch_footer" msgid="4521865035105622557">"Aplikazioek estekak egiazta ditzakete, aplikazioan bertan automatikoki irekitzeko."</string>
     <plurals name="app_launch_verified_links_title" formatted="false" msgid="3945301449178587783">
-        <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> esteka egiaztatu</item>
-        <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> esteka egiaztatu</item>
+      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> esteka egiaztatu</item>
+      <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> esteka egiaztatu</item>
     </plurals>
     <plurals name="app_launch_verified_links_message" formatted="false" msgid="1209292155940482111">
-        <item quantity="other">Egiaztatu egin dira esteka horiek eta aplikazio honetan automatikoki irekitzen dira.</item>
-        <item quantity="one">Egiaztatu egin da esteka hori eta aplikazio honetan automatikoki irekitzen da.</item>
+      <item quantity="other">Egiaztatu egin dira esteka horiek eta aplikazio honetan automatikoki irekitzen dira.</item>
+      <item quantity="one">Egiaztatu egin da esteka hori eta aplikazio honetan automatikoki irekitzen da.</item>
     </plurals>
     <string name="app_launch_dialog_ok" msgid="1446157681861409861">"Ados"</string>
     <string name="app_launch_verified_links_info_description" msgid="7514750232467132117">"Erakutsi egiaztapen-esteken zerrenda"</string>
     <string name="app_launch_checking_links_title" msgid="6119228853554114201">"Esteka bateragarri gehiago bilatzen…"</string>
     <string name="app_launch_dialog_cancel" msgid="6961071841814898663">"Utzi"</string>
     <plurals name="app_launch_supported_links_title" formatted="false" msgid="8579323750839397568">
-        <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> esteka bateragarri</item>
-        <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> esteka bateragarri</item>
+      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> esteka bateragarri</item>
+      <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> esteka bateragarri</item>
     </plurals>
     <string name="app_launch_supported_links_add" msgid="3271247750388016131">"Gehitu"</string>
     <string name="app_launch_supported_links_subtext" msgid="4268004019469184113">"<xliff:g id="APP_LABEL">%s</xliff:g> aplikazioan irekitzen da"</string>
@@ -4245,20 +4300,20 @@
     <string name="notification_summary_level" msgid="4074326972839105652">"%d. maila"</string>
     <string name="notification_summary_channel" msgid="8459033623057872803">"<xliff:g id="CHANNEL_NAME">%1$s</xliff:g> • <xliff:g id="GROUP_NAME">%2$s</xliff:g>"</string>
     <plurals name="notifications_categories_off" formatted="false" msgid="1385401442703692986">
-        <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> kategoria desaktibatuta daude</item>
-        <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> kategoria desaktibatuta dago</item>
+      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> kategoria desaktibatuta daude</item>
+      <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> kategoria desaktibatuta dago</item>
     </plurals>
     <plurals name="permissions_summary" formatted="false" msgid="5015472550875144481">
-        <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> baimen eman dira</item>
-        <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> baimen eman da</item>
+      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> baimen eman dira</item>
+      <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> baimen eman da</item>
     </plurals>
     <plurals name="runtime_permissions_summary" formatted="false" msgid="2091022049141391855">
-        <item quantity="other"><xliff:g id="COUNT_2">%d</xliff:g>/<xliff:g id="COUNT_3">%d</xliff:g> baimen eman dira</item>
-        <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g>/<xliff:g id="COUNT_1">%d</xliff:g> baimen eman da</item>
+      <item quantity="other"><xliff:g id="COUNT_2">%d</xliff:g>/<xliff:g id="COUNT_3">%d</xliff:g> baimen eman dira</item>
+      <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g>/<xliff:g id="COUNT_1">%d</xliff:g> baimen eman da</item>
     </plurals>
     <plurals name="runtime_permissions_additional_count" formatted="false" msgid="5888624648943937645">
-        <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> baimen gehigarri</item>
-        <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> baimen gehigarri</item>
+      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> baimen gehigarri</item>
+      <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> baimen gehigarri</item>
     </plurals>
     <string name="runtime_permissions_summary_no_permissions_granted" msgid="7456745929035665029">"Ez du baimenik"</string>
     <string name="runtime_permissions_summary_no_permissions_requested" msgid="7174876170116073356">"Ez da baimenik eskatu"</string>
@@ -4267,8 +4322,8 @@
     <string name="permissions_usage_summary" msgid="6784310472062516454">"Erakutsi zein aplikaziok erabili dituzten baimenak azkenaldian"</string>
     <string name="unused_apps" msgid="4566272194756830656">"Erabiltzen ez diren aplikazioak"</string>
     <plurals name="unused_apps_summary" formatted="false" msgid="3827583582750975783">
-        <item quantity="other">Erabiltzen ez diren <xliff:g id="COUNT_1">%d</xliff:g> aplikazio</item>
-        <item quantity="one">Erabiltzen ez den <xliff:g id="COUNT_0">%d</xliff:g> aplikazio</item>
+      <item quantity="other">Erabiltzen ez diren <xliff:g id="COUNT_1">%d</xliff:g> aplikazio</item>
+      <item quantity="one">Erabiltzen ez den <xliff:g id="COUNT_0">%d</xliff:g> aplikazio</item>
     </plurals>
     <string name="unused_apps_switch" msgid="419282628373205038">"Kendu baimenak eta egin tokia"</string>
     <string name="filter_all_apps" msgid="6645539744080251371">"Aplikazio guztiak"</string>
@@ -4294,15 +4349,15 @@
     <string name="domain_urls_summary_some" msgid="1197692164421314523">"Ireki <xliff:g id="DOMAIN">%s</xliff:g> eta beste URL batzuk"</string>
     <string name="domain_urls_apps_summary_off" msgid="2534980824850890416">"Ez dago esteka bateragarriak ireki ditzakeen aplikaziorik"</string>
     <plurals name="domain_urls_apps_summary_on" formatted="false" msgid="7864816862441985323">
-        <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> aplikaziok ireki ditzakete esteka bateragarriak</item>
-        <item quantity="one">Aplikazio batek ireki ditzake esteka bateragarriak</item>
+      <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> aplikaziok ireki ditzakete esteka bateragarriak</item>
+      <item quantity="one">Aplikazio batek ireki ditzake esteka bateragarriak</item>
     </plurals>
     <string name="app_link_open_always" msgid="9167065494930657503">"Eman esteka bateragarriak irekitzeko baimena aplikazioari"</string>
     <string name="app_link_open_ask" msgid="2422450109908936371">"Galdetu beti"</string>
     <string name="app_link_open_never" msgid="5299808605386052350">"Ez eman estekak irekitzeko baimena aplikazioari"</string>
     <plurals name="app_link_open_always_summary" formatted="false" msgid="1816161439007251694">
-        <item quantity="other">Aplikazioak <xliff:g id="COUNT_1">%d</xliff:g> esteka kudeatzen dituela dio</item>
-        <item quantity="one">Aplikazioak <xliff:g id="COUNT_0">%d</xliff:g> esteka kudeatzen duela dio</item>
+      <item quantity="other">Aplikazioak <xliff:g id="COUNT_1">%d</xliff:g> esteka kudeatzen dituela dio</item>
+      <item quantity="one">Aplikazioak <xliff:g id="COUNT_0">%d</xliff:g> esteka kudeatzen duela dio</item>
     </plurals>
     <string name="open_supported_links_footer" msgid="3188808142432787933">"Aplikazioak esteka hauek kudeatzen dituela dio:"</string>
     <string name="default_apps_title" msgid="6943471331817718664">"Lehenetsia"</string>
@@ -4343,12 +4398,12 @@
     <string name="show_all_apps" msgid="4490719452453223082">"Erakutsi gailuaren erabilera guztia"</string>
     <string name="hide_extra_apps" msgid="7313907836289865123">"Erakutsi aplikazioen erabilera"</string>
     <plurals name="power_high_usage_summary" formatted="false" msgid="573433136005336970">
-        <item quantity="other"><xliff:g id="NUMBER">%2$d</xliff:g> aplikazio ez dira ari behar bezala funtzionatzen</item>
-        <item quantity="one"><xliff:g id="APP">%1$s</xliff:g> ez da ari behar bezala funtzionatzen</item>
+      <item quantity="other"><xliff:g id="NUMBER">%2$d</xliff:g> aplikazio ez dira ari behar bezala funtzionatzen</item>
+      <item quantity="one"><xliff:g id="APP">%1$s</xliff:g> ez da ari behar bezala funtzionatzen</item>
     </plurals>
     <plurals name="power_high_usage_title" formatted="false" msgid="8013115866788425817">
-        <item quantity="other">Bateria asko kontsumitzen ari diren aplikazioak</item>
-        <item quantity="one">Bateria asko kontsumitzen ari da <xliff:g id="APP">%1$s</xliff:g></item>
+      <item quantity="other">Bateria asko kontsumitzen ari diren aplikazioak</item>
+      <item quantity="one">Bateria asko kontsumitzen ari da <xliff:g id="APP">%1$s</xliff:g></item>
     </plurals>
     <string name="high_power_filter_on" msgid="447849271630431531">"Optimizatu gabeak"</string>
     <string name="high_power_on" msgid="8778058701270819268">"Optimizaziorik gabe"</string>
@@ -4429,8 +4484,8 @@
     <string name="free_memory" msgid="439783742246854785">"Erabilgarri"</string>
     <string name="memory_usage_apps" msgid="5776108502569850579">"Aplikazioek erabilitako memoria"</string>
     <plurals name="memory_usage_apps_summary" formatted="false" msgid="1355637088533572208">
-        <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> aplikaziok erabili du memoria (azken <xliff:g id="DURATION_1">%2$s</xliff:g>ak)</item>
-        <item quantity="one">Aplikazio batek erabili du memoria (azken <xliff:g id="DURATION_0">%2$s</xliff:g>ak)</item>
+      <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> aplikaziok erabili du memoria (azken <xliff:g id="DURATION_1">%2$s</xliff:g>ak)</item>
+      <item quantity="one">Aplikazio batek erabili du memoria (azken <xliff:g id="DURATION_0">%2$s</xliff:g>ak)</item>
     </plurals>
     <string name="running_frequency" msgid="7260225121706316639">"Maiztasuna"</string>
     <string name="memory_maximum_usage" msgid="2047013391595835607">"Gehieneko erabilera"</string>
@@ -4507,8 +4562,8 @@
     <string name="data_usage_summary_format" msgid="6844301859713164522">"Datuen <xliff:g id="AMOUNT">%1$s</xliff:g> erabili dira"</string>
     <string name="data_usage_wifi_format" msgid="7644390582649568117">"<xliff:g id="AMOUNT">^1</xliff:g> erabilita wifi-sareetan"</string>
     <plurals name="notification_summary" formatted="false" msgid="7638388920823212470">
-        <item quantity="other">Desaktibatuta <xliff:g id="COUNT">%d</xliff:g> aplikaziotan</item>
-        <item quantity="one">Desaktibatuta 1 aplikaziotan</item>
+      <item quantity="other">Desaktibatuta <xliff:g id="COUNT">%d</xliff:g> aplikaziotan</item>
+      <item quantity="one">Desaktibatuta 1 aplikaziotan</item>
     </plurals>
     <string name="notification_summary_none" msgid="9179312319023988089">"Aktibatuta aplikazio guztietan"</string>
     <string name="apps_summary" msgid="4007416751775414252">"<xliff:g id="COUNT">%1$d</xliff:g> aplikazio instalatu dira"</string>
@@ -4575,12 +4630,12 @@
     <string name="suggestions_summary" msgid="1709710458908440469">"+<xliff:g id="ID_1">%1$d</xliff:g>"</string>
     <string name="suggestions_more_title" msgid="240124526378997009">"+ beste <xliff:g id="ID_1">%1$d</xliff:g>"</string>
     <plurals name="suggestions_collapsed_title" formatted="false" msgid="5023679825210836444">
-        <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> iradokizun</item>
-        <item quantity="one">1 iradokizun</item>
+      <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> iradokizun</item>
+      <item quantity="one">1 iradokizun</item>
     </plurals>
     <plurals name="suggestions_collapsed_summary" formatted="false" msgid="3789011332018516832">
-        <item quantity="other">+<xliff:g id="COUNT">%1$d</xliff:g> iradokizun</item>
-        <item quantity="one">+1 iradokizun</item>
+      <item quantity="other">+<xliff:g id="COUNT">%1$d</xliff:g> iradokizun</item>
+      <item quantity="one">+1 iradokizun</item>
     </plurals>
     <string name="suggestion_remove" msgid="6753986344585367776">"Kendu"</string>
     <string name="color_temperature" msgid="8256912135746305176">"Kolore hotzak"</string>
@@ -4608,8 +4663,8 @@
     <string name="billing_cycle_fragment_summary" msgid="6346655500491631357">"Hilean behin, <xliff:g id="ID_1">%1$s</xliff:g>. egunean"</string>
     <string name="network_restrictions" msgid="8385824604048229846">"Sarearen murriztapenak"</string>
     <plurals name="network_restrictions_summary" formatted="false" msgid="3875128958788008975">
-        <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> murriztapen</item>
-        <item quantity="one">1 murriztapen</item>
+      <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> murriztapen</item>
+      <item quantity="one">1 murriztapen</item>
     </plurals>
     <string name="operator_warning" msgid="5672761970087591211">"Agian ez dira bat etorriko gailuak eta operadoreak egindako datu-kontsumoen neurketak"</string>
     <string name="non_carrier_data_usage_warning" msgid="4707184871368847697">"Ez dira barne hartzen operadorearen sareek erabilitako datuak"</string>
@@ -4623,8 +4678,8 @@
     <string name="configure" msgid="1499586749829665889">"Konfiguratu"</string>
     <string name="data_usage_other_apps" msgid="5649047093607329537">"Erabileran eragina duten beste aplikazio batzuk"</string>
     <plurals name="data_saver_unrestricted_summary" formatted="false" msgid="3316296488378947221">
-        <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> aplikaziok daukate datuak mugarik gabe erabiltzeko baimena datu-aurrezlea aktibatuta dagoenean</item>
-        <item quantity="one">Aplikazio batek dauka datuak mugarik gabe erabiltzeko baimena datu-aurrezlea aktibatuta dagoenean</item>
+      <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> aplikaziok daukate datuak mugarik gabe erabiltzeko baimena datu-aurrezlea aktibatuta dagoenean</item>
+      <item quantity="one">Aplikazio batek dauka datuak mugarik gabe erabiltzeko baimena datu-aurrezlea aktibatuta dagoenean</item>
     </plurals>
     <string name="data_usage_title" msgid="4039024073687469094">"Datu nagusiak"</string>
     <string name="data_usage_wifi_title" msgid="1060495519280456926">"Wi‑Fi datuak"</string>
@@ -4635,8 +4690,8 @@
     <string name="data_usage_chart_brief_content_description" msgid="5548074070258881530">"<xliff:g id="START_DATE">%1$s</xliff:g> eta <xliff:g id="END_DATE">%2$s</xliff:g> arteko datu-erabilera erakusten duen grafikoa."</string>
     <string name="data_usage_chart_no_data_content_description" msgid="5481968839079467231">"Ez dago daturik data tarte horretan"</string>
     <plurals name="billing_cycle_days_left" formatted="false" msgid="661792524671718753">
-        <item quantity="other">%d egun gelditzen dira</item>
-        <item quantity="one">%d egun gelditzen da</item>
+      <item quantity="other">%d egun gelditzen dira</item>
+      <item quantity="one">%d egun gelditzen da</item>
     </plurals>
     <string name="billing_cycle_none_left" msgid="1694844019159277504">"Ez da gelditzen denborarik"</string>
     <string name="billing_cycle_less_than_one_day_left" msgid="1210202399053992163">"Egun bat baino gutxiago gelditzen da"</string>
@@ -4708,8 +4763,8 @@
     <string name="overlay_toast_failed_to_apply" msgid="4839587811338164960">"Ezin izan da aplikatu gainjartzea"</string>
     <string name="special_access" msgid="1767980727423395147">"Aplikazio-baimen bereziak"</string>
     <plurals name="special_access_summary" formatted="false" msgid="4995506406763570815">
-        <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> aplikaziok dute datuak mugarik gabe erabiltzeko aukera</item>
-        <item quantity="one">1 aplikaziok du datuak mugarik gabe erabiltzeko aukera</item>
+      <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> aplikaziok dute datuak mugarik gabe erabiltzeko aukera</item>
+      <item quantity="one">1 aplikaziok du datuak mugarik gabe erabiltzeko aukera</item>
     </plurals>
     <string name="special_access_more" msgid="132919514147475846">"Ikusi gehiago"</string>
     <string name="confirm_convert_to_fbe_warning" msgid="3783325656948378111">"Ziur erabiltzailearen datu guztiak ezabatu nahi dituzula eta fitxategietan oinarritutako enkriptatzea gauzatu nahi duzula?"</string>
@@ -4748,16 +4803,16 @@
     <string name="cross_profile_calendar_title" msgid="7570277841490216947">"Profilekin sinkronizatutako egutegia"</string>
     <string name="cross_profile_calendar_summary" msgid="8856185206722860069">"Erakutsi laneko gertaerak egutegi pertsonalean"</string>
     <plurals name="hours" formatted="false" msgid="1853396353451635458">
-        <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> ordu</item>
-        <item quantity="one">Ordubete</item>
+      <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> ordu</item>
+      <item quantity="one">Ordubete</item>
     </plurals>
     <plurals name="minutes" formatted="false" msgid="6244503272924425418">
-        <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> minutu</item>
-        <item quantity="one">Minutu bat</item>
+      <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> minutu</item>
+      <item quantity="one">Minutu bat</item>
     </plurals>
     <plurals name="seconds" formatted="false" msgid="4237020272336995370">
-        <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> segundo</item>
-        <item quantity="one">Segundo bat</item>
+      <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> segundo</item>
+      <item quantity="one">Segundo bat</item>
     </plurals>
     <string name="automatic_storage_manager_settings" msgid="519158151463974656">"Kudeatu memoria"</string>
     <string name="automatic_storage_manager_text" msgid="6900593059927987273">"Memorian tokia egiteko, babeskopiak dituzten argazkiak eta bideoak gailutik kentzen ditu memoria-kudeatzaileak."</string>
@@ -4775,6 +4830,7 @@
     <string name="double_tap_power_for_camera_summary" msgid="1100926048598415509">"Kamera bizkor irekitzeko, sakatu birritan etengailua. Edozein pantailatan zaudela egin dezakezu hori."</string>
     <string name="double_tap_power_for_camera_suggestion_title" msgid="4299496243418753571">"Ireki kamera bizkor"</string>
     <string name="double_twist_for_camera_mode_title" msgid="472455236910935684">"Biratu kamera autoargazkiak ateratzeko"</string>
+    <string name="double_twist_for_camera_mode_summary" msgid="592503740044744951"></string>
     <string name="double_twist_for_camera_suggestion_title" msgid="8178844037382604158">"Atera autoargazkiak bizkorrago"</string>
     <string name="system_navigation_title" msgid="1698862900901417194">"Sisteman nabigatzeko modua"</string>
     <string name="swipe_up_to_switch_apps_title" msgid="6677266952021118342">"Bi botoiko nabigazioa"</string>
@@ -4886,16 +4942,16 @@
     <string name="enterprise_privacy_enterprise_installed_packages" msgid="9114143640515900082">"Instalatutako aplikazioak"</string>
     <string name="enterprise_privacy_apps_count_estimation_info" msgid="7959907857710107792">"Gutxi gorabeherakoa da aplikazio kopurua. Baliteke Play Store-tik instalatu ez diren aplikazioak kontuan ez izatea."</string>
     <plurals name="enterprise_privacy_number_packages_lower_bound" formatted="false" msgid="5403847001419529018">
-        <item quantity="other">Gutxienez <xliff:g id="COUNT_1">%d</xliff:g> aplikazio</item>
-        <item quantity="one">Gutxienez <xliff:g id="COUNT_0">%d</xliff:g> aplikazio</item>
+      <item quantity="other">Gutxienez <xliff:g id="COUNT_1">%d</xliff:g> aplikazio</item>
+      <item quantity="one">Gutxienez <xliff:g id="COUNT_0">%d</xliff:g> aplikazio</item>
     </plurals>
     <string name="enterprise_privacy_location_access" msgid="8023838718108456971">"Kokapena hautemateko baimenak"</string>
     <string name="enterprise_privacy_microphone_access" msgid="7242958026470143653">"Mikrofonoa erabiltzeko baimenak"</string>
     <string name="enterprise_privacy_camera_access" msgid="7685460535880069016">"Kamera erabiltzeko baimenak"</string>
     <string name="enterprise_privacy_enterprise_set_default_apps" msgid="7498546659083996300">"Aplikazio lehenetsiak"</string>
     <plurals name="enterprise_privacy_number_packages" formatted="false" msgid="8568544906431825430">
-        <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> aplikazio</item>
-        <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> aplikazio</item>
+      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> aplikazio</item>
+      <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> aplikazio</item>
     </plurals>
     <string name="enterprise_privacy_input_method" msgid="3278314982700662246">"Teklatu lehenetsia"</string>
     <string name="enterprise_privacy_input_method_name" msgid="2974859490559054584">"Ezarri <xliff:g id="APP_LABEL">%s</xliff:g>"</string>
@@ -4907,16 +4963,16 @@
     <string name="enterprise_privacy_ca_certs_personal" msgid="1516422660828485795">"Profil pertsonaleko kredentzial fidagarriak"</string>
     <string name="enterprise_privacy_ca_certs_work" msgid="4318941788592655561">"Laneko profileko kredentzial fidagarriak"</string>
     <plurals name="enterprise_privacy_number_ca_certs" formatted="false" msgid="6459725295322004179">
-        <item quantity="other">Gutxienez <xliff:g id="COUNT_1">%d</xliff:g> CA ziurtagiri</item>
-        <item quantity="one">Gutxienez <xliff:g id="COUNT_0">%d</xliff:g> CA ziurtagiri</item>
+      <item quantity="other">Gutxienez <xliff:g id="COUNT_1">%d</xliff:g> CA ziurtagiri</item>
+      <item quantity="one">Gutxienez <xliff:g id="COUNT_0">%d</xliff:g> CA ziurtagiri</item>
     </plurals>
     <string name="enterprise_privacy_lock_device" msgid="464054894363899866">"Administratzaileak gailua blokea eta pasahitza berrezar dezake"</string>
     <string name="enterprise_privacy_wipe_device" msgid="869589182352244591">"Administratzaileak gailuko datu guztiak ezaba ditzake"</string>
     <string name="enterprise_privacy_failed_password_wipe_device" msgid="7045164901334821226">"Pasahitza idazteko egin daitezkeen saiakerak gailuko datu guztiak ezabatu aurretik"</string>
     <string name="enterprise_privacy_failed_password_wipe_work" msgid="2537582942554484170">"Pasahitza idazteko egin daitezkeen saiakerak laneko profileko datuak ezabatu aurretik"</string>
     <plurals name="enterprise_privacy_number_failed_password_wipe" formatted="false" msgid="8811973918944217791">
-        <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> saiakera</item>
-        <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> saiakera</item>
+      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> saiakera</item>
+      <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> saiakera</item>
     </plurals>
     <string name="do_disclosure_generic" msgid="3067459392402324538">"Zure erakundeak kudeatzen du gailua."</string>
     <string name="do_disclosure_with_name" msgid="867544298924410766">"<xliff:g id="ORGANIZATION_NAME">%s</xliff:g> erakundeak kudeatzen du gailu hau."</string>
@@ -4931,19 +4987,19 @@
     <string name="financed_privacy_failed_password_wipe_device" msgid="8777230427603977667">"Pasahitza idazteko egin daitezkeen saiakerak gailuko datuak ezabatu aurretik"</string>
     <string name="financed_privacy_header" msgid="7215645340918406124">"Kreditu bidezko gailu-hornitzaileak gailuko ezarpenak alda ditzake, baita softwarea instalatu ere.\n\nInformazio gehiago lortzeko, jarri harremanetan kreditu bidezko gailu-hornitzailearekin."</string>
     <plurals name="default_camera_app_title" formatted="false" msgid="8112432929729136399">
-        <item quantity="other">Kamera-aplikazioak</item>
-        <item quantity="one">Kamera-aplikazioa</item>
+      <item quantity="other">Kamera-aplikazioak</item>
+      <item quantity="one">Kamera-aplikazioa</item>
     </plurals>
     <string name="default_calendar_app_title" msgid="1870095225089706093">"Egutegi-aplikazioa"</string>
     <string name="default_contacts_app_title" msgid="7740028900741944569">"Kontaktu-aplikazioa"</string>
     <plurals name="default_email_app_title" formatted="false" msgid="8338194872609410234">
-        <item quantity="other">Posta-aplikazioak</item>
-        <item quantity="one">Posta-aplikazioa</item>
+      <item quantity="other">Posta-aplikazioak</item>
+      <item quantity="one">Posta-aplikazioa</item>
     </plurals>
     <string name="default_map_app_title" msgid="7569231732944853320">"Mapa-aplikazioa"</string>
     <plurals name="default_phone_app_title" formatted="false" msgid="4222188821845826493">
-        <item quantity="other">Telefono-aplikazioak</item>
-        <item quantity="one">Telefono-aplikazioa</item>
+      <item quantity="other">Telefono-aplikazioak</item>
+      <item quantity="one">Telefono-aplikazioa</item>
     </plurals>
     <string name="app_names_concatenation_template_2" msgid="8320181646458855457">"<xliff:g id="FIRST_APP_NAME">%1$s</xliff:g>, <xliff:g id="SECOND_APP_NAME">%2$s</xliff:g>"</string>
     <string name="app_names_concatenation_template_3" msgid="7019703249717854148">"<xliff:g id="FIRST_APP_NAME">%1$s</xliff:g>, <xliff:g id="SECOND_APP_NAME">%2$s</xliff:g>, <xliff:g id="THIRD_APP_NAME">%3$s</xliff:g>"</string>
@@ -4979,8 +5035,8 @@
     <string name="autofill_app" msgid="7595308061826307921">"Betetze automatikoaren zerbitzua"</string>
     <string name="autofill_passwords" msgid="6708057251459761083">"Pasahitzak"</string>
     <plurals name="autofill_passwords_count" formatted="false" msgid="7715009165029452622">
-        <item quantity="other"><xliff:g id="COUNT_1">%1$d</xliff:g> pasahitz</item>
-        <item quantity="one"><xliff:g id="COUNT_0">%1$d</xliff:g> pasahitz</item>
+      <item quantity="other"><xliff:g id="COUNT_1">%1$d</xliff:g> pasahitz</item>
+      <item quantity="one"><xliff:g id="COUNT_0">%1$d</xliff:g> pasahitz</item>
     </plurals>
     <string name="autofill_keywords" msgid="8598763328489346438">"automatikoa, bete, betetze automatikoa, pasahitza"</string>
     <string name="autofill_confirmation_message" msgid="4888767934273494272">"&lt;b&gt;Ziurtatu aplikazioa fidagarria dela&lt;/b&gt; &lt;br/&gt; &lt;br/&gt; &lt;xliff:g id=app_name example=Google Autofill&gt;%1$s&lt;/xliff:g&gt; aplikazioak pantailan dagoena erabiltzen du automatikoki bete daitekeena zehazteko."</string>
@@ -5071,6 +5127,7 @@
     <string name="battery_suggestion_title" product="tablet" msgid="1525940496459255289">"Hobetu tabletaren bateriaren iraupena"</string>
     <string name="battery_suggestion_title" product="device" msgid="2280773774080720377">"Hobetu gailuaren bateriaren iraupena"</string>
     <string name="battery_suggestion_title" product="default" msgid="4811554469047272537">"Hobetu telefonoaren bateriaren iraupena"</string>
+    <string name="battery_suggestion_summary" msgid="8186720080540016197"></string>
     <string name="gesture_prevent_ringing_screen_title" msgid="8293094715267769349">"Ez jo tonurik"</string>
     <string name="gesture_prevent_ringing_title" msgid="5978577898997523581">"Sakatu pizteko eta bolumena igotzeko teklak aldi berean hauek egiteko:"</string>
     <string name="gesture_prevent_ringing_sound_title" msgid="4529077822282099235">"Tonua ez jotzeko lasterbidea"</string>
@@ -5158,8 +5215,8 @@
     <string name="calls_and_sms_ask_every_time" msgid="3178743088737726677">"Galdetu beti"</string>
     <string name="mobile_network_summary_add_a_network" msgid="9079866102827526779">"Gehitu sare bat"</string>
     <plurals name="mobile_network_summary_count" formatted="false" msgid="5173633860800230925">
-        <item quantity="other"><xliff:g id="COUNT_1">%1$d</xliff:g> SIM txartel</item>
-        <item quantity="one"><xliff:g id="COUNT_0">%1$d</xliff:g> SIM txartel</item>
+      <item quantity="other"><xliff:g id="COUNT_1">%1$d</xliff:g> SIM txartel</item>
+      <item quantity="one"><xliff:g id="COUNT_0">%1$d</xliff:g> SIM txartel</item>
     </plurals>
     <string name="default_for_calls" msgid="2788950217176988034">"Deietarako lehenetsia"</string>
     <string name="default_for_sms" msgid="1316988329407434771">"SMSetarako lehenetsia"</string>
@@ -5301,17 +5358,18 @@
     <string name="contextual_card_feedback_send" msgid="7409408664417908922">"Bidali oharrak"</string>
     <string name="contextual_card_feedback_confirm_message" msgid="3186334562157665381">"Zer iruditzen zaizu iradokizun hau?"</string>
     <string name="copyable_slice_toast" msgid="1008251852798990606">"Arbelean kopiatu da <xliff:g id="COPY_CONTENT">%1$s</xliff:g>."</string>
+    <string name="search_bar_account_avatar_content_description" msgid="880523277036898350"></string>
     <string name="permission_bar_chart_empty_text" msgid="4856719891991325077">"Ez dago baimenak erabili dituen aplikaziorik"</string>
     <string name="permission_bar_chart_title" msgid="2493212904955611441">"Azken 24 orduetan baimenei eman zaien erabilera"</string>
     <string name="permission_bar_chart_details" msgid="5816698018592357088">"Ikusi guztiak panelean"</string>
     <plurals name="permission_bar_chart_label" formatted="false" msgid="4853396794340896078">
-        <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> aplikazio</item>
-        <item quantity="one">1 aplikazio</item>
+      <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> aplikazio</item>
+      <item quantity="one">1 aplikazio</item>
     </plurals>
     <string name="accessibility_usage_title" msgid="9190967143518779145">"Erabilerraztasun-hobespenak"</string>
     <plurals name="accessibility_usage_summary" formatted="false" msgid="6910643986958263005">
-        <item quantity="other"><xliff:g id="SERVICE_COUNT">%1$d</xliff:g> aplikaziok gailurako sarbide osoa dute</item>
-        <item quantity="one">1 aplikaziok gailurako sarbide osoa du</item>
+      <item quantity="other"><xliff:g id="SERVICE_COUNT">%1$d</xliff:g> aplikaziok gailurako sarbide osoa dute</item>
+      <item quantity="one">1 aplikaziok gailurako sarbide osoa du</item>
     </plurals>
     <string name="media_output_panel_title" msgid="5920946795078065159">"Aldatu irteera"</string>
     <string name="media_output_panel_summary_of_playing_device" msgid="6998758947764222915">"<xliff:g id="DEVICE_NAME">%1$s</xliff:g> gailuan erreproduzitzen"</string>
@@ -5376,6 +5434,10 @@
     <string name="lockscreen_privacy_controls_summary" msgid="6952176547084269909">"Atzitu kontrolatzeko aukerak gailua blokeatuta dagoenean"</string>
     <string name="lockscreen_double_line_clock_summary" msgid="2916159550425093703">"Ahal denean, erakutsi erlojua bi lerrotan"</string>
     <string name="lockscreen_double_line_clock_setting_toggle" msgid="3408639316001688529">"Bi lerroko erlojua"</string>
+    <string name="rtt_settings_title" msgid="7049259598645966354"></string>
+    <string name="rtt_settings_no_visible" msgid="7440356831140948382"></string>
+    <string name="rtt_settings_visible_during_call" msgid="7866181103286073700"></string>
+    <string name="rtt_settings_always_visible" msgid="2364173070088756238"></string>
     <string name="media_output_panel_stop_casting_button" msgid="6094875883164119035">"Utzi igortzeari"</string>
     <string name="volte_5G_limited_title" msgid="5908052268836750629">"VoLTE desaktibatu nahi duzu?"</string>
     <string name="volte_5G_limited_text" msgid="7150583768725182345">"5G konexioa desaktibatu ere egiten du horrek.\nAhots-dei bat egiten duzun bitartean, ezingo duzu erabili Internet, eta baliteke aplikazio batzuek ez funtzionatzea."</string>

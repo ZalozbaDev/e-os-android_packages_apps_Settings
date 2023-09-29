@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright Murena SAS 2023
+  ~ This program is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ This program is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~  along with this program.  If not, see <https://www.gnu.org/licenses/>.
+  -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="e_security_dashboard_summary">Блокировка экрана, безопасность приложений</string>
+    <string name="telemetry_dialog_message">Это позволит автоматически сообщать об ошибках при сбое приложения или когда приложение переходит в неожиданное состояние. Пожалуйста, перезагрузите устройство после изменения этой настройки.</string>
+    <string name="telemetry_dialog_title">Вы собираетесь включить /e/OS телеметрию</string>
+    <string name="telemetry_details">Включить автоматическое информирование об ошибках</string>
+    <string name="enable_telemetry">Включить /e/OS телеметрию</string>
+    <string name="e_version_reboot_pending_summary">/e/OS v<xliff:g id="version" example="6.0">%1$s</xliff:g> - установлена, требуется перезагрузка</string>
+    <string name="e_version_in_progress_update_summary">/e/OS v<xliff:g id="version" example="6.0">%1$s</xliff:g> - обновление в процессе</string>
+    <string name="e_version_pending_update_summary">/e/OS v<xliff:g id="version" example="6.0">%1$s</xliff:g> - доступно обновление</string>
+    <string name="e_version_summary">Обновлено до /e/OS v<xliff:g id="version" example="6.0">%1$s</xliff:g></string>
+    <string name="main_clear_desc_e" product="default">Это приведет к удалению всех данных из <b>внутренней памяти</b> вашего планшета, в том числе:
+\n
+\n<li>Всей вашей учётной записи</li>
+\n<li>Системных данных и данных приложений и настроек</li>
+\n<li>Загруженных приложений</li></string>
+    <string name="advanced_privacy_dashboard_summary">правление трекерами, фиктивное определение местоположения, скрытие IP-адреса</string>
+    <string name="use_ota_staging_popup_message">Это позволит вам загрузить и установить тестовые версии /e/OS. Эти сборки могут быть нестабильными, и их следует использовать только в тестовых целях. Пожалуйста, соглашайтесь только в том случае, если вы знаете, что делаете.</string>
+    <string name="use_ota_staging_popup_title">Вы собираетесь подключиться к тестовому каналу /e/OS</string>
+    <string name="use_ota_summary">Доступ к тестовым выпускам /e/OS</string>
+    <string name="title_ota_server">Подключение к тестовому каналу /e/OS</string>
+    <string name="system_update_summary">Обновления, настройки, примечания к выпуску</string>
+    <string name="elicense_title">Юридическая информация /e/</string>
+    <string name="e_version">Версия /e/ OS</string>
+</resources>

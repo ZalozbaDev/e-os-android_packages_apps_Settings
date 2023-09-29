@@ -16,4 +16,24 @@
   -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="e_really_remove_account_message">Rimuovendo l\'account, i relativi dati ed e-mail diverranno indisponibili sul dispositivo. Potrai comunque aggiungere nuovamente l\'account in qualsiasi momento ed essi torneranno disponibili.</string>
+    <string name="telemetry_dialog_title">Stai abilitando la Telemetria /e/OS</string>
+    <string name="enable_telemetry">Abilita la telemetria /e/OS</string>
+    <string name="e_version">Versione di /e/OS</string>
+    <string name="system_update_summary">Aggiornamenti, preferenze, note di rilascio</string>
+    <string name="title_ota_server">Collega al canale di test di /e/OS</string>
+    <string name="use_ota_summary">Accedi ai rilasci di test di /e/OS</string>
+    <string name="use_ota_staging_popup_title">Stai per collegarti al canale di test di /e/OS</string>
+    <string name="advanced_privacy_dashboard_summary">Gestisci i tracker, falsifica la posizione, nascondi il tuo indirizzo IP</string>
+    <string name="main_clear_desc_e" product="default">Questa operazione cancellerà tutti i dati dalla <b>memoria interna</b> del tuo tablet, inclusi:
+\n
+\n<li>Tutti gli account</li>
+\n<li>Dati e impostazioni di Sistema e app</li>
+\n<li>App scaricate</li></string>
+    <string name="e_version_pending_update_summary">/e/OS v<xliff:g id="version" example="6.0">%1$s</xliff:g> - aggiornamento disponibile</string>
+    <string name="e_version_in_progress_update_summary">/e/OS v<xliff:g id="version" example="6.0">%1$s</xliff:g> - aggiornamento in corso</string>
+    <string name="telemetry_details">Abilita la comunicazione automatica dei bug</string>
+    <string name="telemetry_dialog_message">Consente di comunicare automaticamente i bug in caso di arresto anomalo dell\'app o quando l\'app si trova in uno stato imprevisto. Dopo aver modificato questa impostazione, dovresti riavviare il dispositivo.</string>
+    <string name="use_ota_staging_popup_message">Permette di scaricare e installare versioni di test di /e/ OS. Tali versioni possono essere instabili e devono essere usate solo a scopo di test. Accetta solo se sai cosa stai facendo.</string>
+    <string name="e_version_summary">Aggiornato a /e/OS v<xliff:g id="version" example="6.0">%1$s</xliff:g></string>
+    <string name="e_version_reboot_pending_summary">/e/OS v<xliff:g id="version" example="6.0">%1$s</xliff:g> - installato Riavvio obbligatorio</string>
 </resources>

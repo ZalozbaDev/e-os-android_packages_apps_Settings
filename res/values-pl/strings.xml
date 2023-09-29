@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!--  Copyright (C) 2007 The Android Open Source Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
@@ -12,7 +12,10 @@
      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
      See the License for the specific language governing permissions and
      limitations under the License.
- --><resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="yes" msgid="1999566976857398962">"Tak"</string>
     <string name="no" msgid="5541738710521607130">"Nie"</string>
     <string name="create" msgid="986997212165228751">"Utwórz"</string>
@@ -21,10 +24,10 @@
     <string name="confirmation_turn_on" msgid="2979094011928347665">"Włącz"</string>
     <string name="device_info_default" msgid="1406619232867343310">"Nieznany"</string>
     <plurals name="show_dev_countdown" formatted="false" msgid="1646187747875476269">
-        <item quantity="few">Od zostania programistą dzielą Cię już tylko <xliff:g id="STEP_COUNT_1">%1$d</xliff:g> kroki.</item>
-        <item quantity="many">Od zostania programistą dzieli Cię już tylko <xliff:g id="STEP_COUNT_1">%1$d</xliff:g> kroków.</item>
-        <item quantity="other">Od zostania programistą dzieli Cię już tylko <xliff:g id="STEP_COUNT_1">%1$d</xliff:g> kroku.</item>
-        <item quantity="one">Od zostania programistą dzieli Cię już tylko <xliff:g id="STEP_COUNT_0">%1$d</xliff:g> krok.</item>
+      <item quantity="few">Od zostania programistą dzielą Cię już tylko <xliff:g id="STEP_COUNT_1">%1$d</xliff:g> kroki.</item>
+      <item quantity="many">Od zostania programistą dzieli Cię już tylko <xliff:g id="STEP_COUNT_1">%1$d</xliff:g> kroków.</item>
+      <item quantity="other">Od zostania programistą dzieli Cię już tylko <xliff:g id="STEP_COUNT_1">%1$d</xliff:g> kroku.</item>
+      <item quantity="one">Od zostania programistą dzieli Cię już tylko <xliff:g id="STEP_COUNT_0">%1$d</xliff:g> krok.</item>
     </plurals>
     <string name="show_dev_on" msgid="2840850085134853754">"Jesteś teraz programistą!"</string>
     <string name="show_dev_already" msgid="7041756429707644630">"W porządku, już jesteś programistą."</string>
@@ -158,7 +161,7 @@
     <string name="date_and_time" msgid="1788358029823431692">"Data i godzina"</string>
     <string name="choose_timezone" msgid="1450780665958642147">"Wybierz strefę czasową"</string>
     <!-- no translation found for intent_sender_data_label (1733806423295725392) -->
-    <skip/>
+    <skip />
     <string name="intent_sender_sendbroadcast_text" msgid="3202857258557610646">"Wyślij <xliff:g id="BROADCAST">broadcast</xliff:g>"</string>
     <string name="intent_sender_action_label" msgid="257853357827275530">"<xliff:g id="ACTION">Action</xliff:g>:"</string>
     <string name="intent_sender_startactivity_text" msgid="519934560779343541">"Rozpocznij <xliff:g id="ACTIVITY">activity</xliff:g>"</string>
@@ -207,10 +210,10 @@
     <string name="locale_remove_menu" msgid="3521546263421387474">"Usuń"</string>
     <string name="add_a_language" msgid="2126220398077503271">"Dodaj język"</string>
     <plurals name="dlg_remove_locales_title" formatted="false" msgid="2845515796732609837">
-        <item quantity="few">Usunąć wybrane języki?</item>
-        <item quantity="many">Usunąć wybrane języki?</item>
-        <item quantity="other">Usunąć wybrane języki?</item>
-        <item quantity="one">Usunąć wybrany język?</item>
+      <item quantity="few">Usunąć wybrane języki?</item>
+      <item quantity="many">Usunąć wybrane języki?</item>
+      <item quantity="other">Usunąć wybrane języki?</item>
+      <item quantity="one">Usunąć wybrany język?</item>
     </plurals>
     <string name="dlg_remove_locales_message" msgid="8110560091134252067">"Tekst będzie wyświetlany w innym języku."</string>
     <string name="dlg_remove_locales_error_title" msgid="5875503658221562572">"Nie można usunąć wszystkich języków"</string>
@@ -299,10 +302,10 @@
     <string name="location_settings_primary_switch_title" msgid="8849081766644685127">"Włącz lokalizację"</string>
     <string name="location_settings_summary_location_off" msgid="4797932754681162262">"Wyłączono"</string>
     <plurals name="location_settings_summary_location_on" formatted="false" msgid="1019959038518185676">
-        <item quantity="few">Włączona – <xliff:g id="COUNT_1">%1$d</xliff:g> aplikacje mają dostęp do lokalizacji</item>
-        <item quantity="many">Włączona – <xliff:g id="COUNT_1">%1$d</xliff:g> aplikacji ma dostęp do lokalizacji</item>
-        <item quantity="other">Włączona – <xliff:g id="COUNT_1">%1$d</xliff:g> aplikacji ma dostęp do lokalizacji</item>
-        <item quantity="one">Włączona – <xliff:g id="COUNT_0">%1$d</xliff:g> aplikacja ma dostęp do lokalizacji</item>
+      <item quantity="few">Włączona – <xliff:g id="COUNT_1">%1$d</xliff:g> aplikacje mają dostęp do lokalizacji</item>
+      <item quantity="many">Włączona – <xliff:g id="COUNT_1">%1$d</xliff:g> aplikacji ma dostęp do lokalizacji</item>
+      <item quantity="other">Włączona – <xliff:g id="COUNT_1">%1$d</xliff:g> aplikacji ma dostęp do lokalizacji</item>
+      <item quantity="one">Włączona – <xliff:g id="COUNT_0">%1$d</xliff:g> aplikacja ma dostęp do lokalizacji</item>
     </plurals>
     <string name="location_settings_loading_app_permission_stats" msgid="6054103701535557342">"Wczytuję…"</string>
     <string name="location_settings_footer_general" msgid="1040507068701188821">"Aplikacje z uprawnieniami dostępu do urządzeń w pobliżu mogą określać położenie połączonych urządzeń względem siebie."</string>
@@ -330,11 +333,16 @@
     <string name="security_settings_face_enroll_education_title" msgid="6448806884597691208">"Konfigurowanie rozpoznawania twarzy"</string>
     <string name="security_settings_face_enroll_education_title_accessibility" msgid="3701874093226957891">"Skonfiguruj rozpoznawanie twarzy"</string>
     <string name="security_settings_face_enroll_education_title_unlock_disabled" msgid="8810954233979716906">"Użyj własnej twarzy do uwierzytelniania"</string>
+    <string name="security_settings_face_enroll_education_message" msgid="4308030157487176799"></string>
+    <string name="security_settings_face_enroll_education_message_accessibility" msgid="1986648712195281391"></string>
     <string name="security_settings_face_enroll_education_start" msgid="8830924400907195590">"Rozpocznij"</string>
     <string name="security_settings_face_enroll_education_accessibility_dialog_message" msgid="2965952386172202665">"Jeśli rozpoznawanie twarzy w ułatwieniach dostępu jest wyłączone, niektóre kroki konfiguracji mogą nie działać prawidłowo w przypadku TalkBack."</string>
     <string name="security_settings_face_enroll_education_accessibility_dialog_negative" msgid="7872647360361245461">"Wstecz"</string>
     <string name="security_settings_face_enroll_education_accessibility_dialog_positive" msgid="3148077647572203458">"Kontynuuj"</string>
     <string name="security_settings_face_enroll_introduction_accessibility" msgid="5748221179069430975">"Użyj konfiguracji ułatwień dostępu"</string>
+    <string name="security_settings_face_enroll_introduction_accessibility_expanded" msgid="6763509014732769185"></string>
+    <string name="security_settings_face_enroll_introduction_accessibility_diversity" msgid="2774962371839179206"></string>
+    <string name="security_settings_face_enroll_introduction_accessibility_vision" msgid="7700394302162170363"></string>
     <string name="security_settings_face_enroll_introduction_cancel" msgid="7551159644361639436">"Anuluj"</string>
     <string name="security_settings_face_enroll_introduction_no_thanks" msgid="1820618982738898717">"Nie, dziękuję"</string>
     <string name="security_settings_face_enroll_introduction_agree" msgid="6319476573697497750">"Zgadzam się"</string>
@@ -346,6 +354,21 @@
     <string name="security_settings_face_enroll_introduction_consent_message" msgid="866117500419055444">"Zezwól na korzystanie przez dziecko z rozpoznawania twarzy przy odblokowywaniu telefonu i weryfikacji tożsamości (np. podczas logowania się w aplikacjach, zatwierdzania zakupów i w innych przypadkach)."</string>
     <string name="security_settings_face_enroll_introduction_message_unlock_disabled" msgid="5841976283789481311">"Odblokowuj telefon i zatwierdzaj zakupy za pomocą funkcji rozpoznawania twarzy.\n\nUwaga: nie możesz odblokowywać tego urządzenia za pomocą funkcji rozpoznawania twarzy. Więcej informacji uzyskasz od administratora swojej organizacji."</string>
     <string name="security_settings_face_enroll_introduction_message_setup" msgid="765965418187421753">"Używaj rozpoznawania twarzy do odblokowywania telefonu, autoryzowania zakupów i logowania się w aplikacjach"</string>
+    <string name="security_settings_face_enroll_introduction_info_title" msgid="7120796118179406944"></string>
+    <string name="security_settings_face_enroll_introduction_info_glasses" msgid="2733870453868907471"></string>
+    <string name="security_settings_face_enroll_introduction_info_consent_glasses" msgid="6303917184145586880"></string>
+    <string name="security_settings_face_enroll_introduction_info_looking" msgid="6502109133251718131"></string>
+    <string name="security_settings_face_enroll_introduction_info_consent_looking" msgid="1911530177804950718"></string>
+    <string name="security_settings_face_enroll_introduction_info_less_secure" msgid="6496505354480525745"></string>
+    <string name="security_settings_face_enroll_introduction_info_gaze" msgid="143556725395884850"></string>
+    <string name="security_settings_face_enroll_introduction_info_consent_gaze" msgid="6301647369911879888"></string>
+    <string name="security_settings_face_enroll_introduction_how_title" msgid="3680193263037835600"></string>
+    <string name="security_settings_face_enroll_introduction_how_message" msgid="4192656589626667797"></string>
+    <string name="security_settings_face_enroll_introduction_how_consent_message" msgid="9028182363896853946"></string>
+    <string name="security_settings_face_enroll_introduction_control_title" msgid="4536951089583821051"></string>
+    <string name="security_settings_face_enroll_introduction_control_consent_title" msgid="5892729331412694759"></string>
+    <string name="security_settings_face_enroll_introduction_control_message" msgid="4818463420573540379"></string>
+    <string name="security_settings_face_enroll_introduction_control_consent_message" msgid="4658082872829249850"></string>
     <string name="security_settings_face_enroll_repeat_title" msgid="4446229670377418717">"Ustaw twarz w środku okręgu"</string>
     <string name="security_settings_face_enroll_enrolling_skip" msgid="5568617401632528567">"Pomiń"</string>
     <string name="face_add_max" msgid="4578405795494514876">"Możesz dodać do <xliff:g id="COUNT">%d</xliff:g> skanów twarzy"</string>
@@ -385,11 +408,12 @@
     <string name="fingerprint_add_title" msgid="1837610443487902050">"Dodaj odcisk palca"</string>
     <string name="fingerprint_enable_keyguard_toggle_title" msgid="5451094461919440992">"blokada ekranu"</string>
     <plurals name="security_settings_fingerprint_preference_summary" formatted="false" msgid="6897454766137108776">
-        <item quantity="few">Dodano <xliff:g id="COUNT">%1$d</xliff:g> odciski palca</item>
-        <item quantity="many">Dodano <xliff:g id="COUNT">%1$d</xliff:g> odcisków palca</item>
-        <item quantity="other">Dodano <xliff:g id="COUNT">%1$d</xliff:g> odcisku palca</item>
-        <item quantity="one">Dodano odcisk palca</item>
+      <item quantity="few">Dodano <xliff:g id="COUNT">%1$d</xliff:g> odciski palca</item>
+      <item quantity="many">Dodano <xliff:g id="COUNT">%1$d</xliff:g> odcisków palca</item>
+      <item quantity="other">Dodano <xliff:g id="COUNT">%1$d</xliff:g> odcisku palca</item>
+      <item quantity="one">Dodano odcisk palca</item>
     </plurals>
+    <string name="security_settings_fingerprint_preference_summary_none" msgid="1044059475710838504"></string>
     <string name="security_settings_fingerprint_enroll_introduction_title" msgid="7931650601996313070">"Skonfiguruj odcisk palca"</string>
     <string name="security_settings_fingerprint_enroll_consent_introduction_title" msgid="2278592030102282364">"Zezwól na odblokowywanie odciskiem palca"</string>
     <string name="security_settings_fingerprint_enroll_introduction_title_unlock_disabled" msgid="1911710308293783998">"Korzystanie z odcisku palca"</string>
@@ -419,6 +443,7 @@
     <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_4" msgid="4983770600405797515">"Ty i Twoje dziecko w dowolnej chwili możecie usunąć obrazy oraz model odcisku palca i wyłączyć odblokowywanie odciskiem palca w Ustawieniach. Obrazy i modele odcisku palca są przechowywane na telefonie, dopóki nie zostaną usunięte."</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_5" msgid="2018885671994058605">"Możesz mimowolnie odblokować telefon, jeżeli inna osoba przyłoży do niego Twój palec."</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_5" msgid="8356551505082794682">"Telefon dziecka może zostać odblokowany, jeżeli inna osoba go do palca dziecka."</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_message_learn_more" msgid="5856010507790137793"></string>
     <string name="security_settings_fingerprint_v2_enroll_acquire_try_adjusting" msgid="3855444121278320304">"Za każdym razem lekko zmieniaj ułożenie palca"</string>
     <string name="security_settings_fingerprint_v2_enroll_acquire_partially_detected" msgid="8330287007361798356">"Umieść środek palca na ikonie"</string>
     <string name="security_settings_fingerprint_v2_enroll_acquire_already_enrolled" msgid="8616678833080422946">"Odcisk tego palca został już dodany"</string>
@@ -589,6 +614,9 @@
     <string name="suggested_lock_settings_summary" product="device" msgid="8479766049078378225">"Ustaw blokadę ekranu, by zabezpieczyć urządzenie"</string>
     <string name="suggested_lock_settings_summary" product="default" msgid="2443273582716671033">"Ustaw blokadę ekranu, by zabezpieczyć telefon"</string>
     <string name="suggested_fingerprint_lock_settings_title" msgid="3140266181874137984">"Dodaj odcisk palca, by odblokować"</string>
+    <string name="suggested_fingerprint_lock_settings_summary" product="tablet" msgid="1040265358906410746"></string>
+    <string name="suggested_fingerprint_lock_settings_summary" product="device" msgid="1040265358906410746"></string>
+    <string name="suggested_fingerprint_lock_settings_summary" product="default" msgid="1040265358906410746"></string>
     <string name="lock_settings_picker_title" msgid="9219376327364915334">"Wybierz blokadę ekranu"</string>
     <string name="lock_settings_picker_new_lock_title" msgid="3113042086804290919">"Wybierz blokadę ekranu"</string>
     <string name="lock_settings_picker_update_lock_title" msgid="536853138943415927">"Wybierz nową blokadę ekranu"</string>
@@ -614,6 +642,7 @@
     <string name="unlock_set_unlock_launch_picker_change_summary" msgid="6023813780512501969">"Zmień lub wyłącz zabezpieczenie ekranu (wzór, PIN lub hasło)"</string>
     <string name="unlock_set_unlock_launch_picker_enable_summary" msgid="1699993191343299179">"Wybierz sposób blokowania ekranu"</string>
     <string name="unlock_set_unlock_off_title" msgid="2831957685685921667">"Brak"</string>
+    <string name="unlock_set_unlock_off_summary" msgid="4578319976164001322"></string>
     <string name="unlock_set_unlock_none_title" msgid="2844029875174409728">"Przesuń palcem"</string>
     <string name="unlock_set_unlock_none_summary" msgid="641298008390890152">"Bez zabezpieczeń"</string>
     <string name="unlock_set_unlock_pattern_title" msgid="8224895208452995332">"Wzór"</string>
@@ -713,29 +742,29 @@
     <string name="lock_failed_attempts_now_wiping_profile" msgid="3171880997211568208">"Zbyt wiele nieudanych prób. Profil służbowy i powiązane z nim dane zostaną usunięte."</string>
     <string name="lock_failed_attempts_now_wiping_dialog_dismiss" msgid="170155081899679669">"Zamknij"</string>
     <plurals name="lockpassword_password_too_short" formatted="false" msgid="2192234965414232157">
-        <item quantity="few">Musi mieć co najmniej <xliff:g id="COUNT_1">%d</xliff:g> znaki</item>
-        <item quantity="many">Musi mieć co najmniej <xliff:g id="COUNT_1">%d</xliff:g> znaków</item>
-        <item quantity="other">Musi mieć co najmniej <xliff:g id="COUNT_1">%d</xliff:g> znaku</item>
-        <item quantity="one">Musi mieć co najmniej <xliff:g id="COUNT_0">%d</xliff:g> znak</item>
+      <item quantity="few">Musi mieć co najmniej <xliff:g id="COUNT_1">%d</xliff:g> znaki</item>
+      <item quantity="many">Musi mieć co najmniej <xliff:g id="COUNT_1">%d</xliff:g> znaków</item>
+      <item quantity="other">Musi mieć co najmniej <xliff:g id="COUNT_1">%d</xliff:g> znaku</item>
+      <item quantity="one">Musi mieć co najmniej <xliff:g id="COUNT_0">%d</xliff:g> znak</item>
     </plurals>
     <plurals name="lockpassword_pin_too_short" formatted="false" msgid="6817086810898414162">
-        <item quantity="few">Kod PIN musi mieć co najmniej <xliff:g id="COUNT_1">%d</xliff:g> cyfry</item>
-        <item quantity="many">Kod PIN musi mieć co najmniej <xliff:g id="COUNT_1">%d</xliff:g> cyfr</item>
-        <item quantity="other">Kod PIN musi mieć co najmniej <xliff:g id="COUNT_1">%d</xliff:g> cyfry</item>
-        <item quantity="one">Kod PIN musi mieć co najmniej <xliff:g id="COUNT_0">%d</xliff:g> cyfrę</item>
+      <item quantity="few">Kod PIN musi mieć co najmniej <xliff:g id="COUNT_1">%d</xliff:g> cyfry</item>
+      <item quantity="many">Kod PIN musi mieć co najmniej <xliff:g id="COUNT_1">%d</xliff:g> cyfr</item>
+      <item quantity="other">Kod PIN musi mieć co najmniej <xliff:g id="COUNT_1">%d</xliff:g> cyfry</item>
+      <item quantity="one">Kod PIN musi mieć co najmniej <xliff:g id="COUNT_0">%d</xliff:g> cyfrę</item>
     </plurals>
     <string name="lockpassword_continue_label" msgid="2507983991979547816">"Dalej"</string>
     <plurals name="lockpassword_password_too_long" formatted="false" msgid="8118091957172967677">
-        <item quantity="few">Musi mieć mniej niż <xliff:g id="NUMBER_1">%d</xliff:g> znaki</item>
-        <item quantity="many">Musi mieć mniej niż <xliff:g id="NUMBER_1">%d</xliff:g> znaków</item>
-        <item quantity="other">Musi mieć mniej niż <xliff:g id="NUMBER_1">%d</xliff:g> znaku</item>
-        <item quantity="one">Musi mieć mniej niż <xliff:g id="NUMBER_0">%d</xliff:g> znak</item>
+      <item quantity="few">Musi mieć mniej niż <xliff:g id="NUMBER_1">%d</xliff:g> znaki</item>
+      <item quantity="many">Musi mieć mniej niż <xliff:g id="NUMBER_1">%d</xliff:g> znaków</item>
+      <item quantity="other">Musi mieć mniej niż <xliff:g id="NUMBER_1">%d</xliff:g> znaku</item>
+      <item quantity="one">Musi mieć mniej niż <xliff:g id="NUMBER_0">%d</xliff:g> znak</item>
     </plurals>
     <plurals name="lockpassword_pin_too_long" formatted="false" msgid="8706992338720310765">
-        <item quantity="few">Musi mieć mniej niż <xliff:g id="NUMBER_1">%d</xliff:g> cyfry</item>
-        <item quantity="many">Musi mieć mniej niż <xliff:g id="NUMBER_1">%d</xliff:g> cyfr</item>
-        <item quantity="other">Musi mieć mniej niż <xliff:g id="NUMBER_1">%d</xliff:g> cyfry</item>
-        <item quantity="one">Musi mieć mniej niż <xliff:g id="NUMBER_0">%d</xliff:g> cyfrę</item>
+      <item quantity="few">Musi mieć mniej niż <xliff:g id="NUMBER_1">%d</xliff:g> cyfry</item>
+      <item quantity="many">Musi mieć mniej niż <xliff:g id="NUMBER_1">%d</xliff:g> cyfr</item>
+      <item quantity="other">Musi mieć mniej niż <xliff:g id="NUMBER_1">%d</xliff:g> cyfry</item>
+      <item quantity="one">Musi mieć mniej niż <xliff:g id="NUMBER_0">%d</xliff:g> cyfrę</item>
     </plurals>
     <string name="lockpassword_pin_recently_used" msgid="6650277060998923465">"Administrator urządzenia nie zezwala na ustawianie niedawno używanego kodu PIN"</string>
     <string name="lockpassword_illegal_character" msgid="3434031212215886433">"Nie może zawierać nieprawidłowego znaku"</string>
@@ -743,46 +772,46 @@
     <string name="lockpassword_password_requires_digit" msgid="312518567592683795">"Musi zawierać co najmniej jedną cyfrę"</string>
     <string name="lockpassword_password_requires_symbol" msgid="6178512486154701321">"Musi zawierać co najmniej jeden symbol"</string>
     <plurals name="lockpassword_password_requires_letters" formatted="false" msgid="2385916409676839024">
-        <item quantity="few">Musi zawierać co najmniej <xliff:g id="COUNT">%d</xliff:g> litery</item>
-        <item quantity="many">Musi zawierać co najmniej <xliff:g id="COUNT">%d</xliff:g> liter</item>
-        <item quantity="other">Musi zawierać co najmniej <xliff:g id="COUNT">%d</xliff:g> litery</item>
-        <item quantity="one">Musi zawierać co najmniej 1 literę</item>
+      <item quantity="few">Musi zawierać co najmniej <xliff:g id="COUNT">%d</xliff:g> litery</item>
+      <item quantity="many">Musi zawierać co najmniej <xliff:g id="COUNT">%d</xliff:g> liter</item>
+      <item quantity="other">Musi zawierać co najmniej <xliff:g id="COUNT">%d</xliff:g> litery</item>
+      <item quantity="one">Musi zawierać co najmniej 1 literę</item>
     </plurals>
     <plurals name="lockpassword_password_requires_lowercase" formatted="false" msgid="2057467885488612701">
-        <item quantity="few">Musi zawierać co najmniej <xliff:g id="COUNT">%d</xliff:g> małe litery</item>
-        <item quantity="many">Musi zawierać co najmniej <xliff:g id="COUNT">%d</xliff:g> małych liter</item>
-        <item quantity="other">Musi zawierać co najmniej <xliff:g id="COUNT">%d</xliff:g> małej litery</item>
-        <item quantity="one">Musi zawierać co najmniej 1 małą literę</item>
+      <item quantity="few">Musi zawierać co najmniej <xliff:g id="COUNT">%d</xliff:g> małe litery</item>
+      <item quantity="many">Musi zawierać co najmniej <xliff:g id="COUNT">%d</xliff:g> małych liter</item>
+      <item quantity="other">Musi zawierać co najmniej <xliff:g id="COUNT">%d</xliff:g> małej litery</item>
+      <item quantity="one">Musi zawierać co najmniej 1 małą literę</item>
     </plurals>
     <plurals name="lockpassword_password_requires_uppercase" formatted="false" msgid="4541266279643052025">
-        <item quantity="few">Musi zawierać co najmniej <xliff:g id="COUNT">%d</xliff:g> wielkie litery</item>
-        <item quantity="many">Musi zawierać co najmniej <xliff:g id="COUNT">%d</xliff:g> wielkich liter</item>
-        <item quantity="other">Musi zawierać co najmniej <xliff:g id="COUNT">%d</xliff:g> wielkiej litery</item>
-        <item quantity="one">Musi zawierać co najmniej 1 wielką literę</item>
+      <item quantity="few">Musi zawierać co najmniej <xliff:g id="COUNT">%d</xliff:g> wielkie litery</item>
+      <item quantity="many">Musi zawierać co najmniej <xliff:g id="COUNT">%d</xliff:g> wielkich liter</item>
+      <item quantity="other">Musi zawierać co najmniej <xliff:g id="COUNT">%d</xliff:g> wielkiej litery</item>
+      <item quantity="one">Musi zawierać co najmniej 1 wielką literę</item>
     </plurals>
     <plurals name="lockpassword_password_requires_numeric" formatted="false" msgid="70617964591376248">
-        <item quantity="few">Musi zawierać co najmniej <xliff:g id="COUNT">%d</xliff:g> cyfry</item>
-        <item quantity="many">Musi zawierać co najmniej <xliff:g id="COUNT">%d</xliff:g> cyfr</item>
-        <item quantity="other">Musi zawierać co najmniej <xliff:g id="COUNT">%d</xliff:g> cyfry</item>
-        <item quantity="one">Musi zawierać co najmniej 1 cyfrę</item>
+      <item quantity="few">Musi zawierać co najmniej <xliff:g id="COUNT">%d</xliff:g> cyfry</item>
+      <item quantity="many">Musi zawierać co najmniej <xliff:g id="COUNT">%d</xliff:g> cyfr</item>
+      <item quantity="other">Musi zawierać co najmniej <xliff:g id="COUNT">%d</xliff:g> cyfry</item>
+      <item quantity="one">Musi zawierać co najmniej 1 cyfrę</item>
     </plurals>
     <plurals name="lockpassword_password_requires_symbols" formatted="false" msgid="7981236881269921943">
-        <item quantity="few">Musi zawierać co najmniej <xliff:g id="COUNT">%d</xliff:g> symbole specjalne</item>
-        <item quantity="many">Musi zawierać co najmniej <xliff:g id="COUNT">%d</xliff:g> symboli specjalnych</item>
-        <item quantity="other">Musi zawierać co najmniej <xliff:g id="COUNT">%d</xliff:g> symbolu specjalnego</item>
-        <item quantity="one">Musi zawierać co najmniej 1 symbol specjalny</item>
+      <item quantity="few">Musi zawierać co najmniej <xliff:g id="COUNT">%d</xliff:g> symbole specjalne</item>
+      <item quantity="many">Musi zawierać co najmniej <xliff:g id="COUNT">%d</xliff:g> symboli specjalnych</item>
+      <item quantity="other">Musi zawierać co najmniej <xliff:g id="COUNT">%d</xliff:g> symbolu specjalnego</item>
+      <item quantity="one">Musi zawierać co najmniej 1 symbol specjalny</item>
     </plurals>
     <plurals name="lockpassword_password_requires_nonletter" formatted="false" msgid="1567877061888948467">
-        <item quantity="few">Musi zawierać co najmniej <xliff:g id="COUNT">%d</xliff:g> znaki niebędące literami</item>
-        <item quantity="many">Musi zawierać co najmniej <xliff:g id="COUNT">%d</xliff:g> znaków niebędących literami</item>
-        <item quantity="other">Musi zawierać co najmniej <xliff:g id="COUNT">%d</xliff:g> znaku niebędącego literą</item>
-        <item quantity="one">Musi zawierać co najmniej 1 znak niebędący literą</item>
+      <item quantity="few">Musi zawierać co najmniej <xliff:g id="COUNT">%d</xliff:g> znaki niebędące literami</item>
+      <item quantity="many">Musi zawierać co najmniej <xliff:g id="COUNT">%d</xliff:g> znaków niebędących literami</item>
+      <item quantity="other">Musi zawierać co najmniej <xliff:g id="COUNT">%d</xliff:g> znaku niebędącego literą</item>
+      <item quantity="one">Musi zawierać co najmniej 1 znak niebędący literą</item>
     </plurals>
     <plurals name="lockpassword_password_requires_nonnumerical" formatted="false" msgid="5056743974888384475">
-        <item quantity="few">Musi zawierać co najmniej <xliff:g id="COUNT">%d</xliff:g> znaki niebędące cyframi</item>
-        <item quantity="many">Musi zawierać co najmniej <xliff:g id="COUNT">%d</xliff:g> znaków niebędących cyframi</item>
-        <item quantity="other">Musi zawierać co najmniej <xliff:g id="COUNT">%d</xliff:g> znaku niebędącego cyfrą</item>
-        <item quantity="one">Musi zawierać co najmniej 1 znak niebędący cyfrą</item>
+      <item quantity="few">Musi zawierać co najmniej <xliff:g id="COUNT">%d</xliff:g> znaki niebędące cyframi</item>
+      <item quantity="many">Musi zawierać co najmniej <xliff:g id="COUNT">%d</xliff:g> znaków niebędących cyframi</item>
+      <item quantity="other">Musi zawierać co najmniej <xliff:g id="COUNT">%d</xliff:g> znaku niebędącego cyfrą</item>
+      <item quantity="one">Musi zawierać co najmniej 1 znak niebędący cyfrą</item>
     </plurals>
     <string name="lockpassword_password_recently_used" msgid="5341218079730167191">"Administrator urządzenia nie zezwala na ustawianie niedawno używanego hasła"</string>
     <string name="lockpassword_pin_no_sequential_digits" msgid="5843639256988031272">"Ciąg cyfr rosnących, malejących lub powtarzających się jest niedozwolony"</string>
@@ -796,19 +825,19 @@
     <string name="manage_device_admin" msgid="1044620606203916275">"Aplikacje do zarządzania urządzeniem"</string>
     <string name="number_of_device_admins_none" msgid="152926922020437312">"Brak aktywnych aplikacji"</string>
     <plurals name="number_of_device_admins" formatted="false" msgid="2528735319390151989">
-        <item quantity="few"><xliff:g id="COUNT_1">%d</xliff:g> aktywne aplikacje</item>
-        <item quantity="many"><xliff:g id="COUNT_1">%d</xliff:g> aktywnych aplikacji</item>
-        <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> aktywnej aplikacji</item>
-        <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> aktywna aplikacja</item>
+      <item quantity="few"><xliff:g id="COUNT_1">%d</xliff:g> aktywne aplikacje</item>
+      <item quantity="many"><xliff:g id="COUNT_1">%d</xliff:g> aktywnych aplikacji</item>
+      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> aktywnej aplikacji</item>
+      <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> aktywna aplikacja</item>
     </plurals>
     <string name="manage_trust_agents" msgid="6410149930029992356">"Agenty zaufania"</string>
     <string name="disabled_because_no_backup_security" msgid="4998095356607488854">"Najpierw ustaw blokadę ekranu"</string>
     <string name="manage_trust_agents_summary" msgid="6423843123607674286">"Brak"</string>
     <plurals name="manage_trust_agents_summary_on" formatted="false" msgid="5438047398376802735">
-        <item quantity="few"><xliff:g id="COUNT">%d</xliff:g> aktywni agenci zaufania</item>
-        <item quantity="many"><xliff:g id="COUNT">%d</xliff:g> aktywnych agentów zaufania</item>
-        <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> aktywnego agenta zaufania</item>
-        <item quantity="one">1 aktywny agent zaufania</item>
+      <item quantity="few"><xliff:g id="COUNT">%d</xliff:g> aktywni agenci zaufania</item>
+      <item quantity="many"><xliff:g id="COUNT">%d</xliff:g> aktywnych agentów zaufania</item>
+      <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> aktywnego agenta zaufania</item>
+      <item quantity="one">1 aktywny agent zaufania</item>
     </plurals>
     <string name="bluetooth_quick_toggle_title" msgid="5955341060378240781">"Bluetooth"</string>
     <string name="bluetooth_quick_toggle_summary" msgid="5257744297562880017">"Włącz Bluetooth"</string>
@@ -827,6 +856,7 @@
     <string name="bluetooth_incoming_pairing_msg" msgid="1068123527866596779">"Od:&lt;br&gt;&lt;b&gt;<xliff:g id="DEVICE_NAME">%1$s</xliff:g>&lt;/b&gt;&lt;br&gt;&lt;br&gt;Sparować z tym urządzeniem?"</string>
     <string name="bluetooth_display_passkey_pin_msg" msgid="8672803845151786521">"Aby sparować z urządzeniem <xliff:g id="BOLD1_0">&lt;br&gt;&lt;b&gt;</xliff:g><xliff:g id="DEVICE_NAME">%1$s</xliff:g><xliff:g id="END_BOLD1">&lt;/b&gt;&lt;br&gt;&lt;br&gt;</xliff:g>, wpisz na nim klucz <xliff:g id="BOLD2_1">&lt;br&gt;&lt;b&gt;</xliff:g><xliff:g id="PASSKEY">%2$s</xliff:g><xliff:g id="END_BOLD2">&lt;/b&gt;</xliff:g>, a następnie naciśnij klawisz zatwierdzania."</string>
     <string name="bluetooth_pairing_shares_phonebook" msgid="4329325125260724843">"Zezwól na dostęp do kontaktów i historii połączeń"</string>
+    <string name="bluetooth_error_title" msgid="2284738188253690278"></string>
     <string name="bluetooth_connecting_error_message" msgid="3941893154784152112">"Nie udało się nawiązać połączenia z <xliff:g id="DEVICE_NAME">%1$s</xliff:g>."</string>
     <string name="bluetooth_preference_scan_title" msgid="3460316252463771851">"Wyszukaj urządzenia"</string>
     <string name="bluetooth_search_for_devices" msgid="6516902340975407648">"Odśwież"</string>
@@ -1118,22 +1148,22 @@
     <string name="wifi_forget_dialog_title" msgid="4363829200968563164">"Zapomnieć sieć?"</string>
     <string name="wifi_forget_dialog_message" msgid="8419499588321940243">"Wszystkie hasła do tej sieci zostaną usunięte"</string>
     <plurals name="wifi_saved_access_points_summary" formatted="false" msgid="2802436466732147888">
-        <item quantity="few">%d sieci</item>
-        <item quantity="many">%d sieci</item>
-        <item quantity="other">%d sieci</item>
-        <item quantity="one">1 sieć</item>
+      <item quantity="few">%d sieci</item>
+      <item quantity="many">%d sieci</item>
+      <item quantity="other">%d sieci</item>
+      <item quantity="one">1 sieć</item>
     </plurals>
     <plurals name="wifi_saved_passpoint_access_points_summary" formatted="false" msgid="5802057518058840450">
-        <item quantity="few">%d abonamenty</item>
-        <item quantity="many">%d abonamentów</item>
-        <item quantity="other">%d abonamentu</item>
-        <item quantity="one">1 abonament</item>
+      <item quantity="few">%d abonamenty</item>
+      <item quantity="many">%d abonamentów</item>
+      <item quantity="other">%d abonamentu</item>
+      <item quantity="one">1 abonament</item>
     </plurals>
     <plurals name="wifi_saved_all_access_points_summary" formatted="false" msgid="5125849180309374451">
-        <item quantity="few">%d sieci i abonamenty</item>
-        <item quantity="many">%d sieci i abonamentów</item>
-        <item quantity="other">%d sieci i abonamentu</item>
-        <item quantity="one">1 sieć i abonament</item>
+      <item quantity="few">%d sieci i abonamenty</item>
+      <item quantity="many">%d sieci i abonamentów</item>
+      <item quantity="other">%d sieci i abonamentu</item>
+      <item quantity="one">1 sieć i abonament</item>
     </plurals>
     <string name="wifi_advanced_titlebar" msgid="1234150304285575798">"Zaawansowane"</string>
     <string name="wifi_advanced_ssid_title" msgid="1561437650193980185">"SSID"</string>
@@ -1224,21 +1254,22 @@
     <string name="wifi_calling_mode_dialog_title" msgid="944146521898592440">"Ustawienia połączeń"</string>
     <string name="wifi_calling_roaming_mode_title" msgid="7703305991991520773">"Preferencje dotyczące roamingu"</string>
     <!-- no translation found for wifi_calling_roaming_mode_summary (6061631305384464179) -->
-    <skip/>
+    <skip />
     <string name="wifi_calling_roaming_mode_dialog_title" msgid="5382466713784067077">"Preferencje dotyczące roamingu"</string>
-    <string-array name="wifi_calling_mode_choices_v2">
-        <item msgid="6052353275413974742">"Wi-Fi"</item>
-        <item msgid="8622872038388687383">"Komórkowe"</item>
-        <item msgid="3027927219952052398">"Tylko Wi-Fi"</item>
-    </string-array>
-    <string-array name="wifi_calling_mode_choices_v2_without_wifi_only">
-        <item msgid="588620799769664461">"Wi-Fi"</item>
-        <item msgid="7566603075659706590">"Komórkowe"</item>
-    </string-array>
+  <string-array name="wifi_calling_mode_choices_v2">
+    <item msgid="6052353275413974742">"Wi-Fi"</item>
+    <item msgid="8622872038388687383">"Komórkowe"</item>
+    <item msgid="3027927219952052398">"Tylko Wi-Fi"</item>
+  </string-array>
+  <string-array name="wifi_calling_mode_choices_v2_without_wifi_only">
+    <item msgid="588620799769664461">"Wi-Fi"</item>
+    <item msgid="7566603075659706590">"Komórkowe"</item>
+  </string-array>
     <string name="wifi_calling_mode_wifi_preferred_summary" msgid="3240387177966098351">"Jeśli sieć Wi-Fi jest niedostępna, użyj sieci komórkowej"</string>
     <string name="wifi_calling_mode_cellular_preferred_summary" msgid="3746914244902314059">"Jeśli sieć komórkowa jest niedostępna, użyj Wi-Fi"</string>
     <string name="wifi_calling_mode_wifi_only_summary" msgid="3155660680014892641">"Rozmowa przez Wi-Fi. Po utracie połączenia z Wi-Fi zostanie przerwana."</string>
     <string name="wifi_calling_off_explanation" msgid="6295526820826322895">"Po włączeniu opcji Połączenia przez Wi-Fi telefon może kierować połączenia przez sieci Wi-Fi lub sieć operatora w zależności od ustawień i siły sygnału. Zanim włączysz tę funkcję, sprawdź, jakie opłaty pobiera operator, i zapoznaj się z innymi warunkami usługi.<xliff:g id="ADDITIONAL_TEXT">%1$s</xliff:g>"</string>
+    <string name="wifi_calling_off_explanation_2" msgid="3487475808574416183"></string>
     <string name="emergency_address_title" msgid="3490633500025717573">"Adres alarmowy"</string>
     <string name="emergency_address_summary" msgid="3022628750270626473">"Traktowany jako Twoja lokalizacja, gdy dzwonisz pod numer alarmowy przez Wi‑Fi"</string>
     <string name="private_dns_help_message" msgid="851221502063782306"><annotation id="url">"Więcej informacji"</annotation>" o funkcjach prywatnego DNS"</string>
@@ -1340,6 +1371,7 @@
     <string name="auto_brightness_disclaimer" msgid="1868395832774087351">"Dostosowuj poziom jasności do oświetlenia. Gdy ta funkcja jest włączona, nadal możesz tymczasowo korygować jasność."</string>
     <string name="auto_brightness_description" msgid="6807117118142381193">"Jasność ekranu będzie automatycznie dostosowywana do otoczenia i Twojej aktywności. Możesz ręcznie przesunąć suwak, by pomóc automatycznej jasności poznać Twoje preferencje."</string>
     <string name="display_white_balance_title" msgid="2624544323029364713">"Balans bieli wyświetlacza"</string>
+    <string name="display_white_balance_summary" msgid="7625456704950209050"></string>
     <string name="peak_refresh_rate_title" msgid="1878771412897140903">"Płynne wyświetlanie"</string>
     <string name="peak_refresh_rate_summary" msgid="1527087897198455042">"W przypadku niektórych treści automatycznie podwyższa częstotliwość odświeżania z 60 na 90 Hz. Zwiększa zużycie baterii."</string>
     <string name="force_high_refresh_rate_toggle" msgid="3325789621928312050">"Wymuś częstotliwość odświeżania na najwyższym poziomie"</string>
@@ -1475,14 +1507,15 @@
     <string name="sim_preferred_message" msgid="6004009449266648351">"<xliff:g id="NEW_SIM">%1$s</xliff:g> jest jedyną kartą SIM w Twoim urządzeniu. Czy chcesz jej użyć do mobilnej transmisji danych, nawiązywania połączeń i wysyłania SMS-ów?"</string>
     <string name="wrong_pin_code_pukked" msgid="3414172752791445033">"Nieprawidłowy kod PIN karty SIM. Musisz teraz skontaktować się z operatorem, by odblokował Twoje urządzenie."</string>
     <plurals name="wrong_pin_code" formatted="false" msgid="4054088588731305475">
-        <item quantity="few">Nieprawidłowy kod PIN karty SIM. Masz jeszcze <xliff:g id="NUMBER_1">%d</xliff:g> próby.</item>
-        <item quantity="many">Nieprawidłowy kod PIN karty SIM. Masz jeszcze <xliff:g id="NUMBER_1">%d</xliff:g> prób.</item>
-        <item quantity="other">Nieprawidłowy kod PIN karty SIM. Masz jeszcze <xliff:g id="NUMBER_1">%d</xliff:g> próby.</item>
-        <item quantity="one">Nieprawidłowy kod PIN karty SIM. Masz jeszcze <xliff:g id="NUMBER_0">%d</xliff:g> próbę, zanim będziesz musiał skontaktować się z operatorem, by odblokować swoje urządzenie.</item>
+      <item quantity="few">Nieprawidłowy kod PIN karty SIM. Masz jeszcze <xliff:g id="NUMBER_1">%d</xliff:g> próby.</item>
+      <item quantity="many">Nieprawidłowy kod PIN karty SIM. Masz jeszcze <xliff:g id="NUMBER_1">%d</xliff:g> prób.</item>
+      <item quantity="other">Nieprawidłowy kod PIN karty SIM. Masz jeszcze <xliff:g id="NUMBER_1">%d</xliff:g> próby.</item>
+      <item quantity="one">Nieprawidłowy kod PIN karty SIM. Masz jeszcze <xliff:g id="NUMBER_0">%d</xliff:g> próbę, zanim będziesz musiał skontaktować się z operatorem, by odblokować swoje urządzenie.</item>
     </plurals>
     <string name="wrong_pin_code_one" msgid="6924852214263071441">"Nieprawidłowy kod PIN karty SIM. Masz jeszcze 1 próbę, zanim trzeba będzie skontaktować się z operatorem, by odblokował Twoje urządzenie."</string>
     <string name="pin_failed" msgid="3726505565797352255">"Operacja z kodem PIN karty SIM nie udała się."</string>
     <string name="system_update_settings_list_item_title" msgid="3398346836439366350">"Aktualizacje systemu"</string>
+    <string name="system_update_settings_list_item_summary" msgid="6703752298349642101"></string>
     <string name="firmware_version" msgid="1606901586501447275">"Wersja Androida"</string>
     <string name="security_patch" msgid="4071756145347865382">"Aktualizacja zabezpieczeń Androida"</string>
     <string name="model_info" msgid="8997566254717810904">"Model"</string>
@@ -1561,6 +1594,8 @@
     <string name="sd_insert_summary" product="default" msgid="5949168259622002192">"Włóż kartę SD w celu zainstalowania"</string>
     <string name="sd_mount" product="nosdcard" msgid="8305985249945415150">"Podłącz nośnik USB"</string>
     <string name="sd_mount" product="default" msgid="5279813999455776169">"Zainstaluj kartę SD"</string>
+    <string name="sd_mount_summary" product="nosdcard" msgid="2190410240845521205"></string>
+    <string name="sd_mount_summary" product="default" msgid="2190410240845521205"></string>
     <string name="sd_format" product="nosdcard" msgid="8657427883364711513">"Wyczyść nośnik USB"</string>
     <string name="sd_format" product="default" msgid="9085302892248732329">"Wymaż kartę SD"</string>
     <string name="sd_format_summary" product="nosdcard" msgid="6179784504937189658">"Wymazuje wszystkie dane z wewnętrznego nośnika USB, np. pliki muzyczne i zdjęcia"</string>
@@ -1570,6 +1605,8 @@
     <string name="dlg_confirm_unmount_title" product="default" msgid="8251329019960361646">"Odłączyć kartę SD?"</string>
     <string name="dlg_confirm_unmount_text" product="nosdcard" msgid="1212025106709645023">"Jeśli odłączysz nośnik USB, niektóre używane aplikacje zostaną zatrzymane i mogą być niedostępne do chwili jego ponownego podłączenia."</string>
     <string name="dlg_confirm_unmount_text" product="default" msgid="3887768438615563697">"Jeśli odłączysz kartę SD, niektóre używane aplikacje zostaną zatrzymane i mogą być niedostępne do chwili jej ponownego podłączenia."</string>
+    <string name="dlg_error_unmount_title" product="nosdcard" msgid="2205587942165199845"></string>
+    <string name="dlg_error_unmount_title" product="default" msgid="2205587942165199845"></string>
     <string name="dlg_error_unmount_text" product="nosdcard" msgid="7876201891724279436">"Nie można odłączyć nośnika USB. Spróbuj ponownie później."</string>
     <string name="dlg_error_unmount_text" product="default" msgid="2185659901137961711">"Nie można odłączyć karty SD. Spróbuj ponownie później."</string>
     <string name="unmount_inform_text" product="nosdcard" msgid="5932607205977999175">"Nośnik USB zostanie odłączony."</string>
@@ -1720,6 +1757,7 @@
     <string name="menu_new" msgid="6571230342655509006">"Nowy APN"</string>
     <string name="menu_save" msgid="6611465355127483100">"Zapisz"</string>
     <string name="menu_cancel" msgid="1197826697950745335">"Anuluj"</string>
+    <string name="error_title" msgid="7158648377702417716"></string>
     <string name="error_name_empty" msgid="1258275899283079142">"Nazwa nie może być pusta."</string>
     <string name="error_apn_empty" msgid="7657491065443746915">"Nazwa APN nie może być pusta."</string>
     <string name="error_mcc_not3" msgid="883659545640179094">"Pole MCC musi zawierać 3 cyfry."</string>
@@ -1842,10 +1880,10 @@
     <string name="location_app_level_permissions" msgid="907206607664629759">"Dostęp do lokalizacji"</string>
     <string name="location_app_permission_summary_location_off" msgid="2711822936853500335">"Lokalizacja jest wyłączona"</string>
     <plurals name="location_app_permission_summary_location_on" formatted="false" msgid="8286873148858526214">
-        <item quantity="few"> <xliff:g id="PERMITTED_LOCATION_APP_COUNT_2">%1$d</xliff:g> z <xliff:g id="TOTAL_LOCATION_APP_COUNT_3">%2$d</xliff:g> aplikacji mają dostęp do lokalizacji</item>
-        <item quantity="many"> <xliff:g id="PERMITTED_LOCATION_APP_COUNT_2">%1$d</xliff:g> z <xliff:g id="TOTAL_LOCATION_APP_COUNT_3">%2$d</xliff:g> aplikacji ma dostęp do lokalizacji</item>
-        <item quantity="other"> <xliff:g id="PERMITTED_LOCATION_APP_COUNT_2">%1$d</xliff:g> z <xliff:g id="TOTAL_LOCATION_APP_COUNT_3">%2$d</xliff:g> aplikacji ma dostęp do lokalizacji</item>
-        <item quantity="one"> <xliff:g id="PERMITTED_LOCATION_APP_COUNT_0">%1$d</xliff:g> z <xliff:g id="TOTAL_LOCATION_APP_COUNT_1">%2$d</xliff:g> aplikacji ma dostęp do lokalizacji</item>
+      <item quantity="few"> <xliff:g id="PERMITTED_LOCATION_APP_COUNT_2">%1$d</xliff:g> z <xliff:g id="TOTAL_LOCATION_APP_COUNT_3">%2$d</xliff:g> aplikacji mają dostęp do lokalizacji</item>
+      <item quantity="many"> <xliff:g id="PERMITTED_LOCATION_APP_COUNT_2">%1$d</xliff:g> z <xliff:g id="TOTAL_LOCATION_APP_COUNT_3">%2$d</xliff:g> aplikacji ma dostęp do lokalizacji</item>
+      <item quantity="other"> <xliff:g id="PERMITTED_LOCATION_APP_COUNT_2">%1$d</xliff:g> z <xliff:g id="TOTAL_LOCATION_APP_COUNT_3">%2$d</xliff:g> aplikacji ma dostęp do lokalizacji</item>
+      <item quantity="one"> <xliff:g id="PERMITTED_LOCATION_APP_COUNT_0">%1$d</xliff:g> z <xliff:g id="TOTAL_LOCATION_APP_COUNT_1">%2$d</xliff:g> aplikacji ma dostęp do lokalizacji</item>
     </plurals>
     <string name="location_category_recent_location_access" msgid="2558063524482178146">"Ostatni dostęp"</string>
     <string name="location_recent_location_access_see_all" msgid="4203102419355323325">"Pokaż wszystko"</string>
@@ -2020,10 +2058,10 @@
     <string name="install_applications_title" msgid="7890233747559108106">"Zezwalaj na wszystkie źródła"</string>
     <string name="recent_app_category_title" msgid="189758417804427533">"Niedawno otwierane aplikacje"</string>
     <plurals name="see_all_apps_title" formatted="false" msgid="6864581406735745400">
-        <item quantity="few">Wyświetl wszystkie aplikacje (%1$d)</item>
-        <item quantity="many">Wyświetl wszystkie aplikacje (%1$d)</item>
-        <item quantity="other">Wyświetl wszystkie aplikacje (%1$d)</item>
-        <item quantity="one">Wyświetl wszystkie aplikacje</item>
+      <item quantity="few">Wyświetl wszystkie aplikacje (%1$d)</item>
+      <item quantity="many">Wyświetl wszystkie aplikacje (%1$d)</item>
+      <item quantity="other">Wyświetl wszystkie aplikacje (%1$d)</item>
+      <item quantity="one">Wyświetl wszystkie aplikacje</item>
     </plurals>
     <string name="forgot_password_title" msgid="3967873480875239885">"Skontaktuj się z administratorem IT"</string>
     <string name="forgot_password_text" msgid="2583194470767613163">"Możesz uzyskać pomoc dotyczącą resetowania kodu PIN, wzoru lub hasła"</string>
@@ -2042,10 +2080,10 @@
     <string name="clear_cache_btn_text" msgid="8597272828928143723">"Wyczyść pamięć podręczną"</string>
     <string name="cache_size_label" msgid="313456088966822757">"Pamięć podręczna"</string>
     <plurals name="uri_permissions_text" formatted="false" msgid="8212425823423508096">
-        <item quantity="few">%d elementy</item>
-        <item quantity="many">%d elementów</item>
-        <item quantity="other">%d elementu</item>
-        <item quantity="one">1 element</item>
+      <item quantity="few">%d elementy</item>
+      <item quantity="many">%d elementów</item>
+      <item quantity="other">%d elementu</item>
+      <item quantity="one">1 element</item>
     </plurals>
     <string name="clear_uri_btn_text" msgid="4828117421162495134">"Anuluj dostęp"</string>
     <string name="controls_label" msgid="8671492254263626383">"Elementy sterujące"</string>
@@ -2100,6 +2138,7 @@
     <string name="clear_data_dlg_text" msgid="1107610960337399006">"Dane tej aplikacji zostaną trwale usunięte. Dotyczy to plików, ustawień, baz danych i innych danych aplikacji."</string>
     <string name="dlg_ok" msgid="1421350367857960997">"OK"</string>
     <string name="dlg_cancel" msgid="5164705061530774899">"Anuluj"</string>
+    <string name="app_not_found_dlg_title" msgid="7122106240981109930"></string>
     <string name="app_not_found_dlg_text" msgid="8634675268730513704">"Aplikacji nie znaleziono na liście zainstalowanych aplikacji."</string>
     <string name="clear_failed_dlg_text" msgid="6866741916836125732">"Nie można wyczyścić miejsca na aplikację."</string>
     <string name="join_two_items" msgid="7893073836681382429">"<xliff:g id="FIRST_ITEM">%1$s</xliff:g> i <xliff:g id="SECOND_ITEM">%2$s</xliff:g>"</string>
@@ -2139,12 +2178,12 @@
     <string name="no_running_services" msgid="9079738069349859373">"Brak uruchomionych usług."</string>
     <string name="service_started_by_app" msgid="6845028506417670179">"Uruchomiona przez aplikację"</string>
     <!-- no translation found for service_client_name (2210898622981598861) -->
-    <skip/>
+    <skip />
     <string name="service_background_processes" msgid="2800539421534521948">"<xliff:g id="MEMORY">%1$s</xliff:g> wolne"</string>
     <string name="service_foreground_processes" msgid="6380905887193621704">"<xliff:g id="MEMORY">%1$s</xliff:g> w użyciu"</string>
     <string name="memory" msgid="5253757199926592074">"Pamięć RAM"</string>
     <!-- no translation found for service_process_name (7827318358399776412) -->
-    <skip/>
+    <skip />
     <string name="running_process_item_user_label" msgid="1444898861984132133">"Użytkownik: <xliff:g id="USER_NAME">%1$s</xliff:g>"</string>
     <string name="running_process_item_removed_user_label" msgid="4812732296696662613">"Użytkownik usunięty"</string>
     <string name="running_processes_item_description_s_s" msgid="6835918861352501671">"procesy: <xliff:g id="NUMPROCESS">%1$d</xliff:g>, usługi: <xliff:g id="NUMSERVICES">%2$d</xliff:g>"</string>
@@ -2176,12 +2215,16 @@
     <string name="runningservicedetails_stop_dlg_text" product="tablet" msgid="2076922609580490122">"Jeśli zatrzymasz tę usługę, niektóre funkcje tabletu mogą przestać poprawnie działać do chwili jego wyłączenia i ponownego włączenia."</string>
     <string name="runningservicedetails_stop_dlg_text" product="default" msgid="2625863973434309085">"Jeśli zatrzymasz tę usługę, niektóre funkcje telefonu mogą przestać poprawnie działać do chwili jego wyłączenia i ponownego włączenia."</string>
     <string name="language_input_gesture_title" msgid="3292455685728572960">"Języki, metody wprowadzania i gesty"</string>
+    <string name="language_input_gesture_summary_on_with_assist" msgid="8670153838520237089"></string>
+    <string name="language_input_gesture_summary_on_non_assist" msgid="2738661322747920463"></string>
+    <string name="language_input_gesture_summary_off" msgid="1604575860215661606"></string>
     <string name="language_settings" msgid="8700174277543875046">"Języki i metody wprowadzania"</string>
     <string name="language_empty_list_user_restricted" msgid="8050367405839231863">"Nie masz uprawnień do zmiany języka urządzenia."</string>
     <string name="language_keyboard_settings_title" msgid="7934844313233544557">"Języki i wprowadzanie"</string>
     <string name="input_assistance" msgid="3437568284144952104">"Narzędzia"</string>
     <string name="keyboard_settings_category" msgid="5392847229300117064">"Klawiatura i wprowadzanie tekstu"</string>
     <string name="phone_language" msgid="5986939176239963826">"Języki"</string>
+    <string name="phone_language_summary" msgid="863041222809685325"></string>
     <string name="auto_replace" msgid="4830732960264447043">"Autokorekta"</string>
     <string name="auto_replace_summary" msgid="1285443414597153423">"Poprawiaj błędnie wpisane słowa"</string>
     <string name="auto_caps" msgid="5573583581288305355">"Wstawiaj wielkie litery"</string>
@@ -2448,10 +2491,10 @@
     <string name="accessibility_hearingaid_pair_instructions_message" msgid="8913409742121315657">"Aby sparować aparaty słuchowe, na następnym ekranie znajdź i kliknij urządzenie. Upewnij się, że aparaty słuchowe są w trybie parowania."</string>
     <string name="accessibility_hearingaid_active_device_summary" msgid="509703438222873967">"Urządzenie <xliff:g id="DEVICE_NAME">%1$s</xliff:g> jest aktywne"</string>
     <plurals name="show_number_hearingaid_count" formatted="false" msgid="776000580683647556">
-        <item quantity="few"><xliff:g id="NUMBER_DEVICE_COUNT_1">%1$d</xliff:g> zapisane aparaty słuchowe</item>
-        <item quantity="many"><xliff:g id="NUMBER_DEVICE_COUNT_1">%1$d</xliff:g> zapisanych aparatów słuchowych</item>
-        <item quantity="other"><xliff:g id="NUMBER_DEVICE_COUNT_1">%1$d</xliff:g> zapisanego aparatu słuchowego</item>
-        <item quantity="one"><xliff:g id="NUMBER_DEVICE_COUNT_0">%1$d</xliff:g> zapisany aparat słuchowy</item>
+      <item quantity="few"><xliff:g id="NUMBER_DEVICE_COUNT_1">%1$d</xliff:g> zapisane aparaty słuchowe</item>
+      <item quantity="many"><xliff:g id="NUMBER_DEVICE_COUNT_1">%1$d</xliff:g> zapisanych aparatów słuchowych</item>
+      <item quantity="other"><xliff:g id="NUMBER_DEVICE_COUNT_1">%1$d</xliff:g> zapisanego aparatu słuchowego</item>
+      <item quantity="one"><xliff:g id="NUMBER_DEVICE_COUNT_0">%1$d</xliff:g> zapisany aparat słuchowy</item>
     </plurals>
     <string name="accessibility_audio_adjustment_title" msgid="1332113739136802997">"Dostosowywanie dźwięku"</string>
     <string name="accessibility_summary_shortcut_enabled" msgid="4030427268146752644">"Włączono skrót"</string>
@@ -2483,28 +2526,28 @@
     <string name="reduce_bright_colors_intensity_end_label" msgid="1422600205484299860">"Jaśniej"</string>
     <string name="reduce_bright_colors_persist_preference_title" msgid="4368829654993343354">"Utrzymuj po ponownym uruchomieniu urządzenia"</string>
     <plurals name="accessibilty_autoclick_preference_subtitle_short_delay" formatted="false" msgid="5354221071353645263">
-        <item quantity="few">Krótkie (<xliff:g id="CLICK_DELAY_LABEL_1">%1$s</xliff:g> sekundy)</item>
-        <item quantity="many">Krótkie (<xliff:g id="CLICK_DELAY_LABEL_1">%1$s</xliff:g> sekund)</item>
-        <item quantity="other">Krótkie (<xliff:g id="CLICK_DELAY_LABEL_1">%1$s</xliff:g> sekundy)</item>
-        <item quantity="one">Krótkie (<xliff:g id="CLICK_DELAY_LABEL_0">%1$s</xliff:g> sekunda)</item>
+      <item quantity="few">Krótkie (<xliff:g id="CLICK_DELAY_LABEL_1">%1$s</xliff:g> sekundy)</item>
+      <item quantity="many">Krótkie (<xliff:g id="CLICK_DELAY_LABEL_1">%1$s</xliff:g> sekund)</item>
+      <item quantity="other">Krótkie (<xliff:g id="CLICK_DELAY_LABEL_1">%1$s</xliff:g> sekundy)</item>
+      <item quantity="one">Krótkie (<xliff:g id="CLICK_DELAY_LABEL_0">%1$s</xliff:g> sekunda)</item>
     </plurals>
     <plurals name="accessibilty_autoclick_preference_subtitle_medium_delay" formatted="false" msgid="1550891909800510628">
-        <item quantity="few">Średnie (<xliff:g id="CLICK_DELAY_LABEL_1">%1$s</xliff:g> sekundy)</item>
-        <item quantity="many">Średnie (<xliff:g id="CLICK_DELAY_LABEL_1">%1$s</xliff:g> sekund)</item>
-        <item quantity="other">Średnie (<xliff:g id="CLICK_DELAY_LABEL_1">%1$s</xliff:g> sekundy)</item>
-        <item quantity="one">Średnie (<xliff:g id="CLICK_DELAY_LABEL_0">%1$s</xliff:g> sekunda)</item>
+      <item quantity="few">Średnie (<xliff:g id="CLICK_DELAY_LABEL_1">%1$s</xliff:g> sekundy)</item>
+      <item quantity="many">Średnie (<xliff:g id="CLICK_DELAY_LABEL_1">%1$s</xliff:g> sekund)</item>
+      <item quantity="other">Średnie (<xliff:g id="CLICK_DELAY_LABEL_1">%1$s</xliff:g> sekundy)</item>
+      <item quantity="one">Średnie (<xliff:g id="CLICK_DELAY_LABEL_0">%1$s</xliff:g> sekunda)</item>
     </plurals>
     <plurals name="accessibilty_autoclick_preference_subtitle_long_delay" formatted="false" msgid="2230755548820485984">
-        <item quantity="few">Długie (<xliff:g id="CLICK_DELAY_LABEL_1">%1$s</xliff:g> sekundy)</item>
-        <item quantity="many">Długie (<xliff:g id="CLICK_DELAY_LABEL_1">%1$s</xliff:g> sekund)</item>
-        <item quantity="other">Długie (<xliff:g id="CLICK_DELAY_LABEL_1">%1$s</xliff:g> sekundy)</item>
-        <item quantity="one">Długie (<xliff:g id="CLICK_DELAY_LABEL_0">%1$s</xliff:g> sekunda)</item>
+      <item quantity="few">Długie (<xliff:g id="CLICK_DELAY_LABEL_1">%1$s</xliff:g> sekundy)</item>
+      <item quantity="many">Długie (<xliff:g id="CLICK_DELAY_LABEL_1">%1$s</xliff:g> sekund)</item>
+      <item quantity="other">Długie (<xliff:g id="CLICK_DELAY_LABEL_1">%1$s</xliff:g> sekundy)</item>
+      <item quantity="one">Długie (<xliff:g id="CLICK_DELAY_LABEL_0">%1$s</xliff:g> sekunda)</item>
     </plurals>
     <plurals name="accessibilty_autoclick_delay_unit_second" formatted="false" msgid="4537791441118261556">
-        <item quantity="few"><xliff:g id="CLICK_DELAY_LABEL_1">%1$s</xliff:g> sekundy</item>
-        <item quantity="many"><xliff:g id="CLICK_DELAY_LABEL_2">%1$s</xliff:g> sekund</item>
-        <item quantity="other"><xliff:g id="CLICK_DELAY_LABEL_2">%1$s</xliff:g> sekundy</item>
-        <item quantity="one"><xliff:g id="CLICK_DELAY_LABEL_0">%1$s</xliff:g> sekunda</item>
+      <item quantity="few"><xliff:g id="CLICK_DELAY_LABEL_1">%1$s</xliff:g> sekundy</item>
+      <item quantity="many"><xliff:g id="CLICK_DELAY_LABEL_2">%1$s</xliff:g> sekund</item>
+      <item quantity="other"><xliff:g id="CLICK_DELAY_LABEL_2">%1$s</xliff:g> sekundy</item>
+      <item quantity="one"><xliff:g id="CLICK_DELAY_LABEL_0">%1$s</xliff:g> sekunda</item>
     </plurals>
     <string name="accessibility_vibration_summary" msgid="27904038683405084">"Dzwonek: <xliff:g id="SUMMARY_RING">%1$s</xliff:g>, powiadomienie: <xliff:g id="SUMMARY_NOTIFICATION">%2$s</xliff:g>, dotyk: <xliff:g id="SUMMARY_TOUCH">%3$s</xliff:g>"</string>
     <string name="accessibility_vibration_summary_off" msgid="7776105450117095736">"Wyłączono wibracje przy dzwonku i powiadomieniach"</string>
@@ -2575,27 +2618,35 @@
     <string name="keywords_reduce_bright_colors" msgid="1683190961013139183">"światłowstręt, fotofobia, ciemny motyw, migrena, ból głowy, tryb czytania, tryb nocny, zmniejszona jasność, punkt bieli"</string>
     <string name="keywords_accessibility" msgid="4263443239404659143">"łatwa obsługa, łatwy dostęp, pomoc, wsparcie"</string>
     <string name="keywords_magnification" msgid="3908145308269840862">"powiększenie okna, zoom, powiększenie, niedowidzenie, powiększanie, powiększyć"</string>
+    <string name="keywords_talkback" msgid="2816435437095102527"></string>
     <string name="keywords_live_caption" msgid="1667203998080567556">"napisy, Transkrypcja na żywo, niedosłuch, utrata słuchu, CART, zamiana mowy na tekst"</string>
+    <string name="keywords_live_transcribe" msgid="3226990195174890997"></string>
+    <string name="keywords_sound_notifications" msgid="8183107485754075413"></string>
+    <string name="keywords_sound_amplifier" msgid="939404835256246663"></string>
     <string name="keywords_display_size" msgid="5286419615221231518">"rozmiar ekranu, duży ekran"</string>
     <string name="keywords_bold_text" msgid="6257418169207099589">"duży kontrast, niedowidzący, pogrubiona czcionka, pogrubiona twarz"</string>
+    <string name="keywords_select_to_speak" msgid="2872704811610888719"></string>
     <string name="keywords_color_correction" msgid="8540442886990423681">"dostosowywanie kolorów"</string>
     <string name="keywords_color_inversion" msgid="4291058365873221962">"przyciemnienie ekranu, rozjaśnienie ekranu"</string>
+    <string name="keywords_accessibility_menu" msgid="4300579436464706608"></string>
+    <string name="keywords_switch_access" msgid="5813094504384313402"></string>
     <string name="keywords_auto_click" msgid="7151756353013736931">"ruchowy, mysz"</string>
     <string name="keywords_hearing_aids" msgid="524979615168196199">"niedosłuch, utrata słuchu"</string>
     <string name="keywords_rtt" msgid="2429130928152514402">"niedosłuch, utrata słuchu, napisy, dalekopis, TTY"</string>
+    <string name="keywords_voice_access" msgid="7807335263195876454"></string>
     <string name="print_settings" msgid="8519810615863882491">"Drukowanie"</string>
     <string name="print_settings_summary_no_service" msgid="6721731154917653862">"Wył."</string>
     <plurals name="print_settings_summary" formatted="false" msgid="1034273609054146099">
-        <item quantity="few"><xliff:g id="COUNT">%1$d</xliff:g> usługi drukowania włączone</item>
-        <item quantity="many"><xliff:g id="COUNT">%1$d</xliff:g> usług drukowania włączonych</item>
-        <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> usługi drukowania włączonej</item>
-        <item quantity="one">1 usługa drukowania włączona</item>
+      <item quantity="few"><xliff:g id="COUNT">%1$d</xliff:g> usługi drukowania włączone</item>
+      <item quantity="many"><xliff:g id="COUNT">%1$d</xliff:g> usług drukowania włączonych</item>
+      <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> usługi drukowania włączonej</item>
+      <item quantity="one">1 usługa drukowania włączona</item>
     </plurals>
     <plurals name="print_jobs_summary" formatted="false" msgid="3933688846338306536">
-        <item quantity="few"><xliff:g id="COUNT">%1$d</xliff:g> zadania drukowania</item>
-        <item quantity="many"><xliff:g id="COUNT">%1$d</xliff:g> zadań drukowania</item>
-        <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> zadania drukowania</item>
-        <item quantity="one">1 zadanie drukowania</item>
+      <item quantity="few"><xliff:g id="COUNT">%1$d</xliff:g> zadania drukowania</item>
+      <item quantity="many"><xliff:g id="COUNT">%1$d</xliff:g> zadań drukowania</item>
+      <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> zadania drukowania</item>
+      <item quantity="one">1 zadanie drukowania</item>
     </plurals>
     <string name="print_settings_title" msgid="7680498284751129935">"Usługi drukowania"</string>
     <string name="print_no_services_installed" msgid="7554057966540602692">"Brak zainstalowanych usług"</string>
@@ -2664,7 +2715,7 @@
     <string name="battery_stats_wake_lock_label" msgid="8115041205778441548">"Aktywność"</string>
     <string name="battery_stats_phone_signal_label" msgid="679649411998679555">"Sygnał sieci komórkowej"</string>
     <!-- no translation found for battery_stats_last_duration (3088100394725340600) -->
-    <skip/>
+    <skip />
     <string name="awake" msgid="5405871714019268978">"Czas aktywności urządzenia"</string>
     <string name="wifi_on_time" msgid="3880778525760926066">"Czas z włączonym Wi-Fi"</string>
     <string name="bluetooth_on_time" msgid="8424625554628450028">"Czas z wł. Wi-Fi"</string>
@@ -2702,34 +2753,34 @@
     <string name="battery_tip_dialog_message" product="device" msgid="3896805213768863874">"Używasz urządzenia intensywniej niż zwykle, więc bateria może rozładować się szybciej.\n\nAplikacje, które najbardziej zużywają baterię:"</string>
     <string name="battery_tip_dialog_message_footer" msgid="986542164372177504">"Występuje aktywność w tle zużywająca dużo energii"</string>
     <plurals name="battery_tip_restrict_title" formatted="false" msgid="3108195491484891588">
-        <item quantity="few">Wprowadź ograniczenia dla %1$d aplikacji</item>
-        <item quantity="many">Wprowadź ograniczenia dla %1$d aplikacji</item>
-        <item quantity="other">Wprowadź ograniczenia dla %1$d aplikacji</item>
-        <item quantity="one">Wprowadź ograniczenia dla %1$d aplikacji</item>
+      <item quantity="few">Wprowadź ograniczenia dla %1$d aplikacji</item>
+      <item quantity="many">Wprowadź ograniczenia dla %1$d aplikacji</item>
+      <item quantity="other">Wprowadź ograniczenia dla %1$d aplikacji</item>
+      <item quantity="one">Wprowadź ograniczenia dla %1$d aplikacji</item>
     </plurals>
     <plurals name="battery_tip_restrict_handled_title" formatted="false" msgid="5862649927574803958">
-        <item quantity="few">Dla %2$d aplikacji wprowadzono ostatnio ograniczenia</item>
-        <item quantity="many">Dla %2$d aplikacji wprowadzono ostatnio ograniczenia</item>
-        <item quantity="other">Dla %2$d aplikacji wprowadzono ostatnio ograniczenia</item>
-        <item quantity="one">Dla %1$s aplikacji wprowadzono ostatnio ograniczenia</item>
+      <item quantity="few">Dla %2$d aplikacji wprowadzono ostatnio ograniczenia</item>
+      <item quantity="many">Dla %2$d aplikacji wprowadzono ostatnio ograniczenia</item>
+      <item quantity="other">Dla %2$d aplikacji wprowadzono ostatnio ograniczenia</item>
+      <item quantity="one">Dla %1$s aplikacji wprowadzono ostatnio ograniczenia</item>
     </plurals>
     <plurals name="battery_tip_restrict_summary" formatted="false" msgid="3328499737453686910">
-        <item quantity="few">Aplikacje %2$d zużywają dużo energii w tle</item>
-        <item quantity="many">Aplikacje %2$d zużywają dużo energii w tle</item>
-        <item quantity="other">Aplikacje %2$d zużywają dużo energii w tle</item>
-        <item quantity="one">Aplikacja %1$s zużywa dużo energii w tle</item>
+      <item quantity="few">Aplikacje %2$d zużywają dużo energii w tle</item>
+      <item quantity="many">Aplikacje %2$d zużywają dużo energii w tle</item>
+      <item quantity="other">Aplikacje %2$d zużywają dużo energii w tle</item>
+      <item quantity="one">Aplikacja %1$s zużywa dużo energii w tle</item>
     </plurals>
     <plurals name="battery_tip_restrict_handled_summary" formatted="false" msgid="3036853535034350991">
-        <item quantity="few">Te aplikacje nie mogą działać w tle</item>
-        <item quantity="many">Te aplikacje nie mogą działać w tle</item>
-        <item quantity="other">Te aplikacje nie mogą działać w tle</item>
-        <item quantity="one">Ta aplikacja nie może działać w tle</item>
+      <item quantity="few">Te aplikacje nie mogą działać w tle</item>
+      <item quantity="many">Te aplikacje nie mogą działać w tle</item>
+      <item quantity="other">Te aplikacje nie mogą działać w tle</item>
+      <item quantity="one">Ta aplikacja nie może działać w tle</item>
     </plurals>
     <plurals name="battery_tip_restrict_app_dialog_title" formatted="false" msgid="7897944678619251740">
-        <item quantity="few">Wprowadzić ograniczenia dla %1$d aplikacji?</item>
-        <item quantity="many">Wprowadzić ograniczenia dla %1$d aplikacji?</item>
-        <item quantity="other">Wprowadzić ograniczenia dla %1$d aplikacji?</item>
-        <item quantity="one">Wprowadzić ograniczenia dla aplikacji?</item>
+      <item quantity="few">Wprowadzić ograniczenia dla %1$d aplikacji?</item>
+      <item quantity="many">Wprowadzić ograniczenia dla %1$d aplikacji?</item>
+      <item quantity="other">Wprowadzić ograniczenia dla %1$d aplikacji?</item>
+      <item quantity="one">Wprowadzić ograniczenia dla aplikacji?</item>
     </plurals>
     <string name="battery_tip_restrict_app_dialog_message" msgid="137856003724730751">"Aby oszczędzać baterię, zatrzymaj zużywanie energii w tle przez aplikację <xliff:g id="APP">%1$s</xliff:g>. Ta aplikacja może nie działać prawidłowo, a powiadomienia mogą być opóźnione."</string>
     <string name="battery_tip_restrict_apps_less_than_5_dialog_message" msgid="5894648804112181324">"Aby oszczędzać baterię, zatrzymaj zużywanie energii w tle przez te aplikacje. Aplikacje z ograniczeniami mogą nie działać prawidłowo, a powiadomienia mogą być opóźnione.\n\nAplikacje:"</string>
@@ -2748,10 +2799,10 @@
     <string name="smart_battery_footer" msgid="8407121907452993645">"Gdy Menedżer baterii wykryje, że aplikacje szybko rozładowują baterię, możesz wprowadzić ograniczenia. Aplikacje z ograniczeniami mogą nie działać prawidłowo, a powiadomienia mogą być opóźnione."</string>
     <string name="restricted_app_title" msgid="6585080822121007436">"Aplikacje z ograniczeniami"</string>
     <plurals name="restricted_app_summary" formatted="false" msgid="6059772951505411003">
-        <item quantity="few">Ograniczam zużycie baterii przez %1$d aplikacje</item>
-        <item quantity="many">Ograniczam zużycie baterii przez %1$d aplikacji</item>
-        <item quantity="other">Ograniczam zużycie baterii przez %1$d aplikacji</item>
-        <item quantity="one">Ograniczam zużycie baterii przez %1$d aplikację</item>
+      <item quantity="few">Ograniczam zużycie baterii przez %1$d aplikacje</item>
+      <item quantity="many">Ograniczam zużycie baterii przez %1$d aplikacji</item>
+      <item quantity="other">Ograniczam zużycie baterii przez %1$d aplikacji</item>
+      <item quantity="one">Ograniczam zużycie baterii przez %1$d aplikację</item>
     </plurals>
     <string name="restricted_app_time_summary" msgid="3097721884155913252">"Ograniczono <xliff:g id="TIME">%1$s</xliff:g>"</string>
     <string name="restricted_app_detail_footer" msgid="3495725286882138803">"Te aplikacje mają ograniczenia dotyczące wykorzystania baterii w tle. Mogą nie działać prawidłowo, a powiadomienia mogą być opóźnione."</string>
@@ -2761,13 +2812,14 @@
     <string name="battery_manager_summary_unsupported" msgid="7334173707292807964">"Wykrywanie szybkiego rozładowywania baterii przez aplikacje"</string>
     <string name="battery_manager_off" msgid="673547668722420924">"Wyłączone"</string>
     <plurals name="battery_manager_app_restricted" formatted="false" msgid="6714534362166394848">
-        <item quantity="few">Dla %1$d aplikacji wprowadzono ograniczenia</item>
-        <item quantity="many">Dla %1$d aplikacji wprowadzono ograniczenia</item>
-        <item quantity="other">Dla %1$d aplikacji wprowadzono ograniczenia</item>
-        <item quantity="one">Dla %1$d aplikacji wprowadzono ograniczenia</item>
+      <item quantity="few">Dla %1$d aplikacji wprowadzono ograniczenia</item>
+      <item quantity="many">Dla %1$d aplikacji wprowadzono ograniczenia</item>
+      <item quantity="other">Dla %1$d aplikacji wprowadzono ograniczenia</item>
+      <item quantity="one">Dla %1$d aplikacji wprowadzono ograniczenia</item>
     </plurals>
     <string name="battery_header_title_alternate" msgid="8371821625994616659">"<xliff:g id="NUMBER">^1</xliff:g>"<small>" "<font size="20">"<xliff:g id="UNIT">%</xliff:g>"</font></small></string>
     <string name="battery_missing_message" msgid="400958471814422770">"Problem z odczytaniem pomiaru wykorzystania baterii"</string>
+    <string name="battery_missing_link_message" msgid="6021565067124898074"></string>
     <string name="battery_missing_link_a11y_message" msgid="3310971406602316323">"Kliknij, by dowiedzieć się więcej o tym błędzie"</string>
     <string name="dialog_stop_title" msgid="5972757101865665655">"Zatrzymać aplikację?"</string>
     <string name="dialog_stop_message" product="default" msgid="2063536418875183799">"Twój telefon nie może normalnie zarządzać baterią, bo aplikacja <xliff:g id="APP">%1$s</xliff:g> nie pozwala na jego uśpienie.\n\nAby spróbować rozwiązać ten problem, możesz zatrzymać aplikację.\n\nJeśli to nie pomoże, wydłużenie czasu działania na baterii może wymagać odinstalowania aplikacji."</string>
@@ -2882,6 +2934,7 @@
     <string name="battery_total_usage_and_bg_less_minute_usage_with_period" msgid="5943281928474598517">"Łącznie <xliff:g id="TIME_0">^1</xliff:g> • w tle mniej niż minutę\nw okresie <xliff:g id="TIME_PERIOD">^2</xliff:g>"</string>
     <string name="battery_not_usage" msgid="1472275761547230196">"Brak użycia od ostatniego pełnego naładowania"</string>
     <string name="battery_not_usage_24hr" msgid="8397519536160741248">"Brak wykorzystania w ciągu ostatnich 24 godzin"</string>
+    <string name="battery_usage_without_time" msgid="1346894834339420538"></string>
     <string name="advanced_battery_graph_subtext" msgid="6816737986172678550">"Pozostały czas pracy na baterii jest szacowany na podstawie wykorzystania urządzenia"</string>
     <string name="estimated_time_left" msgid="948717045180211777">"Szacowany pozostały czas"</string>
     <string name="estimated_charging_time_left" msgid="2287135413363961246">"Do pełnego naładowania"</string>
@@ -2907,7 +2960,7 @@
     <string name="battery_saver_sticky_description_new" product="tablet" msgid="4566426833434375284">"Oszczędzanie baterii wyłączy się, gdy poziom naładowania tabletu przekroczy <xliff:g id="NUMBER">^1</xliff:g> <xliff:g id="UNIT">%</xliff:g>"</string>
     <string name="battery_saver_sticky_description_new" product="device" msgid="4128841327359445726">"Oszczędzanie baterii wyłączy się, gdy poziom naładowania urządzenia przekroczy <xliff:g id="NUMBER">^1</xliff:g> <xliff:g id="UNIT">%</xliff:g>"</string>
     <!-- no translation found for battery_saver_seekbar_title (3712266470054006641) -->
-    <skip/>
+    <skip />
     <string name="battery_saver_seekbar_title_placeholder" msgid="7141264642540687540">"Włącz"</string>
     <string name="battery_saver_master_switch_title" msgid="3474312070095834915">"Włącz Oszczędzanie baterii"</string>
     <string name="battery_saver_turn_on_automatically_title" msgid="7857393318205740864">"Włącz automatycznie"</string>
@@ -3028,10 +3081,10 @@
     <string name="remove_credential_management_app_dialog_title" msgid="5713525435104706772">"Usunąć tę aplikację?"</string>
     <string name="remove_credential_management_app_dialog_message" msgid="7739474298063646935">"Ta aplikacja nie będzie zarządzać certyfikatami, ale pozostanie na urządzeniu. Wszystkie certyfikaty zainstalowane przez tę aplikację zostaną odinstalowane."</string>
     <plurals name="number_of_urls" formatted="false" msgid="403979258551655023">
-        <item quantity="few"><xliff:g id="NUMBER_1">%d</xliff:g> adresy URL</item>
-        <item quantity="many"><xliff:g id="NUMBER_1">%d</xliff:g> adresów URL</item>
-        <item quantity="other"><xliff:g id="NUMBER_1">%d</xliff:g> adresu URL</item>
-        <item quantity="one"><xliff:g id="NUMBER_0">%d</xliff:g> adres URL</item>
+      <item quantity="few"><xliff:g id="NUMBER_1">%d</xliff:g> adresy URL</item>
+      <item quantity="many"><xliff:g id="NUMBER_1">%d</xliff:g> adresów URL</item>
+      <item quantity="other"><xliff:g id="NUMBER_1">%d</xliff:g> adresu URL</item>
+      <item quantity="one"><xliff:g id="NUMBER_0">%d</xliff:g> adres URL</item>
     </plurals>
     <string name="emergency_tone_title" msgid="6673118505206685168">"Sygnał wybierania numeru alarmowego"</string>
     <string name="emergency_tone_summary" msgid="2519776254708767388">"Skonfiguruj sposób działania w przypadku połączenia alarmowego"</string>
@@ -3049,6 +3102,7 @@
     <string name="auto_restore_summary" msgid="6830198851045584001">"Przy ponownym instalowaniu aplikacji przywróć ustawienia i dane z kopii zapasowej"</string>
     <string name="backup_inactive_title" msgid="6753265378043349277">"Usługa kopii zapasowej jest nieaktywna"</string>
     <string name="backup_configure_account_default_summary" msgid="5323225330966306690">"Żadne z kont nie przechowuje obecnie kopii zapasowej danych"</string>
+    <string name="backup_erase_dialog_title" msgid="5892431263348766484"></string>
     <string name="backup_erase_dialog_message" msgid="2250872501409574331">"Zatrzymać tworzenie kopii zapasowych haseł Wi-Fi, zakładek, innych ustawień i danych aplikacji, a także usunąć wszystkie kopie z serwerów Google?"</string>
     <string name="fullbackup_erase_dialog_message" msgid="2379053988557486162">"Zatrzymać tworzenie kopii zapasowej danych urządzenia (np. haseł Wi-Fi i historii połączeń) i danych aplikacji (np. ustawień i plików zapisanych przez aplikacje) oraz wykasować wszystkie kopie z serwerów zdalnych?"</string>
     <string name="fullbackup_data_summary" msgid="971587401251601473">"Automatycznie twórz zdalną kopię zapasową danych urządzenia (np. haseł Wi-Fi i historii połączeń) oraz danych aplikacji (np. ustawień i plików zapisanych przez aplikacje).\n\nKiedy włączysz automatyczną kopię zapasową, dane urządzenia i aplikacji będą regularnie zapisywane zdalnie. Dane aplikacji mogą obejmować dowolne informacje zapisane przez aplikację (w zależności od ustawień określonych przez programistę) – w tym potencjalnie poufne dane takie jak kontakty, wiadomości i zdjęcia."</string>
@@ -3077,10 +3131,10 @@
     <string name="notification_history_snooze" msgid="3980568893290512257">"Odłożone"</string>
     <string name="notification_history_dismiss" msgid="6180321217375722918">"Ostatnio zamknięte"</string>
     <plurals name="notification_history_count" formatted="false" msgid="1859304685071321991">
-        <item quantity="few"><xliff:g id="NUMBER_1">%d</xliff:g> powiadomienia</item>
-        <item quantity="many"><xliff:g id="NUMBER_1">%d</xliff:g> powiadomień</item>
-        <item quantity="other"><xliff:g id="NUMBER_1">%d</xliff:g> powiadomienia</item>
-        <item quantity="one"><xliff:g id="NUMBER_0">%d</xliff:g> powiadomienie</item>
+      <item quantity="few"><xliff:g id="NUMBER_1">%d</xliff:g> powiadomienia</item>
+      <item quantity="many"><xliff:g id="NUMBER_1">%d</xliff:g> powiadomień</item>
+      <item quantity="other"><xliff:g id="NUMBER_1">%d</xliff:g> powiadomienia</item>
+      <item quantity="one"><xliff:g id="NUMBER_0">%d</xliff:g> powiadomienie</item>
     </plurals>
     <string name="sound_category_call_ringtone_vibrate_title" msgid="9090693401915654528">"Dzwonek i wibracje przy połączeniu"</string>
     <string name="wifi_setup_detail" msgid="2012898800571616422">"Szczegóły sieci"</string>
@@ -3330,29 +3384,29 @@
     <string name="ssl_ca_cert_warning" msgid="3898387588657346106">"Sieć może być monitorowana"</string>
     <string name="done_button" msgid="6269449526248267">"Gotowe"</string>
     <plurals name="ssl_ca_cert_dialog_title" formatted="false" msgid="5491460811755938449">
-        <item quantity="few">Zaufaj certyfikatom lub je usuń</item>
-        <item quantity="many">Zaufaj certyfikatom lub je usuń</item>
-        <item quantity="other">Zaufaj certyfikatom lub je usuń</item>
-        <item quantity="one">Zaufaj certyfikatowi lub go usuń</item>
+      <item quantity="few">Zaufaj certyfikatom lub je usuń</item>
+      <item quantity="many">Zaufaj certyfikatom lub je usuń</item>
+      <item quantity="other">Zaufaj certyfikatom lub je usuń</item>
+      <item quantity="one">Zaufaj certyfikatowi lub go usuń</item>
     </plurals>
     <plurals name="ssl_ca_cert_info_message_device_owner" formatted="false" msgid="2788832560436163252">
-        <item quantity="few">Domena <xliff:g id="MANAGING_DOMAIN_1">%s</xliff:g> zainstalowała na Twoim urządzeniu certyfikaty, które mogą zezwolić jej na monitorowanie aktywności urządzenia w sieci, w tym e-maili, aplikacji i bezpiecznych stron internetowych.\n\nAby dowiedzieć się więcej o tych certyfikatach, skontaktuj się z administratorem.</item>
-        <item quantity="many">Domena <xliff:g id="MANAGING_DOMAIN_1">%s</xliff:g> zainstalowała na Twoim urządzeniu certyfikaty, które mogą zezwolić jej na monitorowanie aktywności urządzenia w sieci, w tym e-maili, aplikacji i bezpiecznych stron internetowych.\n\nAby dowiedzieć się więcej o tych certyfikatach, skontaktuj się z administratorem.</item>
-        <item quantity="other">Domena <xliff:g id="MANAGING_DOMAIN_1">%s</xliff:g> zainstalowała na Twoim urządzeniu certyfikaty, które mogą zezwolić jej na monitorowanie aktywności urządzenia w sieci, w tym e-maili, aplikacji i bezpiecznych stron internetowych.\n\nAby dowiedzieć się więcej o tych certyfikatach, skontaktuj się z administratorem.</item>
-        <item quantity="one">Domena <xliff:g id="MANAGING_DOMAIN_0">%s</xliff:g> zainstalowała na Twoim urządzeniu certyfikat, który może zezwolić jej na monitorowanie aktywności urządzenia w sieci, w tym e-maili, aplikacji i bezpiecznych stron internetowych.\n\nAby dowiedzieć się więcej o tym certyfikacie, skontaktuj się z administratorem.</item>
+      <item quantity="few">Domena <xliff:g id="MANAGING_DOMAIN_1">%s</xliff:g> zainstalowała na Twoim urządzeniu certyfikaty, które mogą zezwolić jej na monitorowanie aktywności urządzenia w sieci, w tym e-maili, aplikacji i bezpiecznych stron internetowych.\n\nAby dowiedzieć się więcej o tych certyfikatach, skontaktuj się z administratorem.</item>
+      <item quantity="many">Domena <xliff:g id="MANAGING_DOMAIN_1">%s</xliff:g> zainstalowała na Twoim urządzeniu certyfikaty, które mogą zezwolić jej na monitorowanie aktywności urządzenia w sieci, w tym e-maili, aplikacji i bezpiecznych stron internetowych.\n\nAby dowiedzieć się więcej o tych certyfikatach, skontaktuj się z administratorem.</item>
+      <item quantity="other">Domena <xliff:g id="MANAGING_DOMAIN_1">%s</xliff:g> zainstalowała na Twoim urządzeniu certyfikaty, które mogą zezwolić jej na monitorowanie aktywności urządzenia w sieci, w tym e-maili, aplikacji i bezpiecznych stron internetowych.\n\nAby dowiedzieć się więcej o tych certyfikatach, skontaktuj się z administratorem.</item>
+      <item quantity="one">Domena <xliff:g id="MANAGING_DOMAIN_0">%s</xliff:g> zainstalowała na Twoim urządzeniu certyfikat, który może zezwolić jej na monitorowanie aktywności urządzenia w sieci, w tym e-maili, aplikacji i bezpiecznych stron internetowych.\n\nAby dowiedzieć się więcej o tym certyfikacie, skontaktuj się z administratorem.</item>
     </plurals>
     <plurals name="ssl_ca_cert_info_message" formatted="false" msgid="3989916958347169622">
-        <item quantity="few">Domena <xliff:g id="MANAGING_DOMAIN_1">%s</xliff:g> zainstalowała na Twoim profilu służbowym certyfikaty, które mogą zezwolić jej na monitorowanie aktywności w sieci firmowej, w tym e-maili, aplikacji i bezpiecznych stron internetowych.\n\nAby dowiedzieć się więcej o tych certyfikatach, skontaktuj się z administratorem.</item>
-        <item quantity="many">Domena <xliff:g id="MANAGING_DOMAIN_1">%s</xliff:g> zainstalowała na Twoim profilu służbowym certyfikaty, które mogą zezwolić jej na monitorowanie aktywności w sieci firmowej, w tym e-maili, aplikacji i bezpiecznych stron internetowych.\n\nAby dowiedzieć się więcej o tych certyfikatach, skontaktuj się z administratorem.</item>
-        <item quantity="other">Domena <xliff:g id="MANAGING_DOMAIN_1">%s</xliff:g> zainstalowała na Twoim profilu służbowym certyfikaty, które mogą zezwolić jej na monitorowanie aktywności w sieci firmowej, w tym e-maili, aplikacji i bezpiecznych stron internetowych.\n\nAby dowiedzieć się więcej o tych certyfikatach, skontaktuj się z administratorem.</item>
-        <item quantity="one">Domena <xliff:g id="MANAGING_DOMAIN_0">%s</xliff:g> zainstalowała na Twoim profilu służbowym certyfikat, który może zezwolić jej na monitorowanie aktywności w sieci firmowej, w tym e-maili, aplikacji i bezpiecznych stron internetowych.\n\nAby dowiedzieć się więcej o tym certyfikacie, skontaktuj się z administratorem.</item>
+      <item quantity="few">Domena <xliff:g id="MANAGING_DOMAIN_1">%s</xliff:g> zainstalowała na Twoim profilu służbowym certyfikaty, które mogą zezwolić jej na monitorowanie aktywności w sieci firmowej, w tym e-maili, aplikacji i bezpiecznych stron internetowych.\n\nAby dowiedzieć się więcej o tych certyfikatach, skontaktuj się z administratorem.</item>
+      <item quantity="many">Domena <xliff:g id="MANAGING_DOMAIN_1">%s</xliff:g> zainstalowała na Twoim profilu służbowym certyfikaty, które mogą zezwolić jej na monitorowanie aktywności w sieci firmowej, w tym e-maili, aplikacji i bezpiecznych stron internetowych.\n\nAby dowiedzieć się więcej o tych certyfikatach, skontaktuj się z administratorem.</item>
+      <item quantity="other">Domena <xliff:g id="MANAGING_DOMAIN_1">%s</xliff:g> zainstalowała na Twoim profilu służbowym certyfikaty, które mogą zezwolić jej na monitorowanie aktywności w sieci firmowej, w tym e-maili, aplikacji i bezpiecznych stron internetowych.\n\nAby dowiedzieć się więcej o tych certyfikatach, skontaktuj się z administratorem.</item>
+      <item quantity="one">Domena <xliff:g id="MANAGING_DOMAIN_0">%s</xliff:g> zainstalowała na Twoim profilu służbowym certyfikat, który może zezwolić jej na monitorowanie aktywności w sieci firmowej, w tym e-maili, aplikacji i bezpiecznych stron internetowych.\n\nAby dowiedzieć się więcej o tym certyfikacie, skontaktuj się z administratorem.</item>
     </plurals>
     <string name="ssl_ca_cert_warning_message" msgid="4374052724815563051">"Podmiot zewnętrzny może monitorować Twoją aktywność w sieci (np. e-maile, aplikacje i bezpieczne strony).\n\nUmożliwiają to dane uwierzytelniające zainstalowane na Twoim urządzeniu."</string>
     <plurals name="ssl_ca_cert_settings_button" formatted="false" msgid="125941406175485894">
-        <item quantity="few">Sprawdź certyfikaty</item>
-        <item quantity="many">Sprawdź certyfikaty</item>
-        <item quantity="other">Sprawdź certyfikaty</item>
-        <item quantity="one">Sprawdź certyfikat</item>
+      <item quantity="few">Sprawdź certyfikaty</item>
+      <item quantity="many">Sprawdź certyfikaty</item>
+      <item quantity="other">Sprawdź certyfikaty</item>
+      <item quantity="one">Sprawdź certyfikat</item>
     </plurals>
     <string name="user_settings_title" msgid="6550866465409807877">"Wielu użytkowników"</string>
     <string name="user_settings_footer_text" product="device" msgid="7523914344521302179">"Udostępnij swoje urządzenie, dodając nowych użytkowników. Każdy użytkownik ma na urządzeniu własny obszar, gdzie zapisywane są m.in. niestandardowe ekrany główne, konta, aplikacje i ustawienia."</string>
@@ -3443,7 +3497,7 @@
     <string name="call_manager_enable_summary" msgid="7362506369604163030">"Zezwalaj tej usłudze na zarządzanie sposobem wykonywania połączeń."</string>
     <string name="call_manager_title" msgid="3397433159509629466">"Menedżer połączeń"</string>
     <!-- no translation found for call_manager_summary (2558839230880919191) -->
-    <skip/>
+    <skip />
     <string name="cell_broadcast_settings" msgid="2416980110093867199">"Alerty o zagrożeniu"</string>
     <string name="network_operators_settings" msgid="5105453353329748954">"Operatorzy sieci"</string>
     <string name="access_point_names" msgid="5768430498022188057">"Nazwy punktów dostępu"</string>
@@ -3490,6 +3544,7 @@
     <string name="wizard_back" msgid="8257697435061870191">"Wróć"</string>
     <string name="wizard_next" msgid="3884832431439072471">"Dalej"</string>
     <string name="wizard_finish" msgid="4220258401946825946">"Zakończ"</string>
+    <string name="regulatory_info_text" msgid="1154461023369976667"></string>
     <string name="sim_setup_wizard_title" msgid="3945520353564138219">"Karty SIM"</string>
     <string name="sim_settings_title" msgid="8392862852842113531">"Karty SIM"</string>
     <string name="sim_settings_summary" msgid="5777472623476930332">"<xliff:g id="SIM_NAME">%1$s</xliff:g> – <xliff:g id="SIM_NUMBER">%2$s</xliff:g>"</string>
@@ -3531,10 +3586,10 @@
     <string name="sim_selection_channel_title" msgid="3193666315607572484">"Wybór karty SIM"</string>
     <string name="dashboard_title" msgid="5660733037244683387">"Ustawienia"</string>
     <plurals name="settings_suggestion_header_summary_hidden_items" formatted="false" msgid="6585075562837786847">
-        <item quantity="few">Pokaż %d ukryte elementy</item>
-        <item quantity="many">Pokaż %d ukrytych elementów</item>
-        <item quantity="other">Pokaż %d ukrytego elementu</item>
-        <item quantity="one">Pokaż %d ukryty element</item>
+      <item quantity="few">Pokaż %d ukryte elementy</item>
+      <item quantity="many">Pokaż %d ukrytych elementów</item>
+      <item quantity="other">Pokaż %d ukrytego elementu</item>
+      <item quantity="one">Pokaż %d ukryty element</item>
     </plurals>
     <string name="network_dashboard_title" msgid="788543070557731240">"Sieć i internet"</string>
     <string name="network_dashboard_summary_mobile" msgid="7750924671970583670">"Dane mobilne, Wi-Fi, hotspot"</string>
@@ -3912,10 +3967,10 @@
     <string name="manage_conversations" msgid="4440289604887824337">"Zarządzaj rozmowami"</string>
     <string name="priority_conversation_count_zero" msgid="3862289535537564713">"Brak rozmów priorytetowych"</string>
     <plurals name="priority_conversation_count" formatted="false" msgid="4229447176780862649">
-        <item quantity="few"><xliff:g id="COUNT_1">%d</xliff:g> rozmowy priorytetowe</item>
-        <item quantity="many"><xliff:g id="COUNT_1">%d</xliff:g> rozmów priorytetowych</item>
-        <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> rozmowy priorytetowej</item>
-        <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> rozmowa priorytetowa</item>
+      <item quantity="few"><xliff:g id="COUNT_1">%d</xliff:g> rozmowy priorytetowe</item>
+      <item quantity="many"><xliff:g id="COUNT_1">%d</xliff:g> rozmów priorytetowych</item>
+      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> rozmowy priorytetowej</item>
+      <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> rozmowa priorytetowa</item>
     </plurals>
     <string name="important_conversations" msgid="1233893707189659401">"Rozmowy priorytetowe"</string>
     <string name="important_conversations_summary_bubbles" msgid="614327166808117644">"Wyświetlają się u góry sekcji rozmów jako pływające dymki"</string>
@@ -3957,16 +4012,16 @@
     <string name="notification_app_switch_label" msgid="4422902423925084193">"Wszystkie powiadomienia z aplikacji <xliff:g id="APP_NAME">%1$s</xliff:g>"</string>
     <string name="default_notification_assistant" msgid="243718059890346442">"Powiadomienia adaptacyjne"</string>
     <plurals name="notifications_sent_daily" formatted="false" msgid="1479283620504341566">
-        <item quantity="few">~<xliff:g id="NUMBER_1">%d</xliff:g> powiadomienia dziennie</item>
-        <item quantity="many">~<xliff:g id="NUMBER_1">%d</xliff:g> powiadomień dziennie</item>
-        <item quantity="other">~<xliff:g id="NUMBER_1">%d</xliff:g> powiadomienia dziennie</item>
-        <item quantity="one">~<xliff:g id="NUMBER_0">%d</xliff:g> powiadomienie dziennie</item>
+      <item quantity="few">~<xliff:g id="NUMBER_1">%d</xliff:g> powiadomienia dziennie</item>
+      <item quantity="many">~<xliff:g id="NUMBER_1">%d</xliff:g> powiadomień dziennie</item>
+      <item quantity="other">~<xliff:g id="NUMBER_1">%d</xliff:g> powiadomienia dziennie</item>
+      <item quantity="one">~<xliff:g id="NUMBER_0">%d</xliff:g> powiadomienie dziennie</item>
     </plurals>
     <plurals name="notifications_sent_weekly" formatted="false" msgid="4913443431857170519">
-        <item quantity="few">~<xliff:g id="NUMBER_1">%d</xliff:g> powiadomienia tygodniowo</item>
-        <item quantity="many">~<xliff:g id="NUMBER_1">%d</xliff:g> powiadomień tygodniowo</item>
-        <item quantity="other">~<xliff:g id="NUMBER_1">%d</xliff:g> powiadomienia tygodniowo</item>
-        <item quantity="one">~<xliff:g id="NUMBER_0">%d</xliff:g> powiadomienie tygodniowo</item>
+      <item quantity="few">~<xliff:g id="NUMBER_1">%d</xliff:g> powiadomienia tygodniowo</item>
+      <item quantity="many">~<xliff:g id="NUMBER_1">%d</xliff:g> powiadomień tygodniowo</item>
+      <item quantity="other">~<xliff:g id="NUMBER_1">%d</xliff:g> powiadomienia tygodniowo</item>
+      <item quantity="one">~<xliff:g id="NUMBER_0">%d</xliff:g> powiadomienie tygodniowo</item>
     </plurals>
     <string name="notifications_sent_never" msgid="9081278709126812062">"Nigdy"</string>
     <string name="manage_notification_access_title" msgid="6481256069087219982">"Powiadomienia na urządzeniu i w aplikacjach"</string>
@@ -3974,10 +4029,10 @@
     <string name="work_profile_notification_access_blocked_summary" msgid="8643809206612366067">"Dostęp do powiadomień profilu służbowego jest zablokowany"</string>
     <string name="manage_notification_access_summary_zero" msgid="7528633634628627431">"Aplikacje nie mogą odczytywać powiadomień"</string>
     <plurals name="manage_notification_access_summary_nonzero" formatted="false" msgid="3703008881487586312">
-        <item quantity="few">%d aplikacje mogą odczytywać powiadomienia</item>
-        <item quantity="many">%d aplikacji może odczytywać powiadomienia</item>
-        <item quantity="other">%d aplikacji może odczytywać powiadomienia</item>
-        <item quantity="one">%d aplikacja może odczytywać powiadomienia</item>
+      <item quantity="few">%d aplikacje mogą odczytywać powiadomienia</item>
+      <item quantity="many">%d aplikacji może odczytywać powiadomienia</item>
+      <item quantity="other">%d aplikacji może odczytywać powiadomienia</item>
+      <item quantity="one">%d aplikacja może odczytywać powiadomienia</item>
     </plurals>
     <string name="notification_assistant_title" msgid="5889201903272393099">"Ulepszone powiadomienia"</string>
     <string name="notification_assistant_summary" msgid="1957783114840908887">"Sugeruj działania, odpowiedzi itd."</string>
@@ -4038,10 +4093,10 @@
     <string name="interact_across_profiles_consent_dialog_permissions_summary" msgid="995051542847604039">"Ta aplikacja może korzystać z uprawnień aplikacji osobistej <xliff:g id="NAME">%1$s</xliff:g>, np. z dostępu do lokalizacji, pamięci i kontaktów."</string>
     <string name="interact_across_profiles_number_of_connected_apps_none" msgid="8573289199942092964">"Brak połączonych aplikacji"</string>
     <plurals name="interact_across_profiles_number_of_connected_apps" formatted="false" msgid="6991750455661974772">
-        <item quantity="few">Połączono <xliff:g id="COUNT_1">%d</xliff:g> aplikacje</item>
-        <item quantity="many">Połączono <xliff:g id="COUNT_1">%d</xliff:g> aplikacji</item>
-        <item quantity="other">Połączono <xliff:g id="COUNT_1">%d</xliff:g> aplikacji</item>
-        <item quantity="one">Połączono <xliff:g id="COUNT_0">%d</xliff:g> aplikację</item>
+      <item quantity="few">Połączono <xliff:g id="COUNT_1">%d</xliff:g> aplikacje</item>
+      <item quantity="many">Połączono <xliff:g id="COUNT_1">%d</xliff:g> aplikacji</item>
+      <item quantity="other">Połączono <xliff:g id="COUNT_1">%d</xliff:g> aplikacji</item>
+      <item quantity="one">Połączono <xliff:g id="COUNT_0">%d</xliff:g> aplikację</item>
     </plurals>
     <string name="interact_across_profiles_install_work_app_title" msgid="2821669067014436056">"Aby połączyć te aplikacje, zainstaluj aplikację <xliff:g id="NAME">%1$s</xliff:g> w profilu służbowym"</string>
     <string name="interact_across_profiles_install_personal_app_title" msgid="4790651223324866344">"Aby połączyć te aplikacje, zainstaluj aplikację <xliff:g id="NAME">%1$s</xliff:g> w profilu osobistym"</string>
@@ -4056,26 +4111,26 @@
     <string name="notification_channels" msgid="1502969522886493799">"Kategorie"</string>
     <string name="notification_channels_other" msgid="18159805343647908">"Inne"</string>
     <plurals name="notification_group_summary" formatted="false" msgid="483490958130993160">
-        <item quantity="few"><xliff:g id="COUNT_1">%d</xliff:g> kategorie</item>
-        <item quantity="many"><xliff:g id="COUNT_1">%d</xliff:g> kategorii</item>
-        <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> kategorii</item>
-        <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> kategoria</item>
+      <item quantity="few"><xliff:g id="COUNT_1">%d</xliff:g> kategorie</item>
+      <item quantity="many"><xliff:g id="COUNT_1">%d</xliff:g> kategorii</item>
+      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> kategorii</item>
+      <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> kategoria</item>
     </plurals>
     <string name="no_channels" msgid="4716199078612071915">"Ta aplikacja nie opublikowała żadnych powiadomień"</string>
     <string name="app_settings_link" msgid="6725453466705333311">"Dodatkowe ustawienia w aplikacji"</string>
     <string name="notification_screen_summary" msgid="5984915275134654822">"Historia powiadomień, dymki, ostatnio wysłane"</string>
     <string name="app_notification_listing_summary_zero" msgid="2988400013221120744">"Włączone dla wszystkich aplikacji"</string>
     <plurals name="app_notification_listing_summary_others" formatted="false" msgid="1506127395400503717">
-        <item quantity="few">Wył. dla <xliff:g id="COUNT_1">%d</xliff:g> aplikacji</item>
-        <item quantity="many">Wył. dla <xliff:g id="COUNT_1">%d</xliff:g> aplikacji</item>
-        <item quantity="other">Wył. dla <xliff:g id="COUNT_1">%d</xliff:g> aplikacji</item>
-        <item quantity="one">Wył. dla <xliff:g id="COUNT_0">%d</xliff:g> aplikacji</item>
+      <item quantity="few">Wył. dla <xliff:g id="COUNT_1">%d</xliff:g> aplikacji</item>
+      <item quantity="many">Wył. dla <xliff:g id="COUNT_1">%d</xliff:g> aplikacji</item>
+      <item quantity="other">Wył. dla <xliff:g id="COUNT_1">%d</xliff:g> aplikacji</item>
+      <item quantity="one">Wył. dla <xliff:g id="COUNT_0">%d</xliff:g> aplikacji</item>
     </plurals>
     <plurals name="deleted_channels" formatted="false" msgid="5963473421547029532">
-        <item quantity="few">Usunięto <xliff:g id="COUNT_1">%d</xliff:g> kategorie</item>
-        <item quantity="many">Usunięto <xliff:g id="COUNT_1">%d</xliff:g> kategorii</item>
-        <item quantity="other">Usunięto <xliff:g id="COUNT_1">%d</xliff:g> kategorii</item>
-        <item quantity="one">Usunięto <xliff:g id="COUNT_0">%d</xliff:g> kategorię</item>
+      <item quantity="few">Usunięto <xliff:g id="COUNT_1">%d</xliff:g> kategorie</item>
+      <item quantity="many">Usunięto <xliff:g id="COUNT_1">%d</xliff:g> kategorii</item>
+      <item quantity="other">Usunięto <xliff:g id="COUNT_1">%d</xliff:g> kategorii</item>
+      <item quantity="one">Usunięto <xliff:g id="COUNT_0">%d</xliff:g> kategorię</item>
     </plurals>
     <string name="notification_toggle_on" msgid="1624283327379059003">"Wł."</string>
     <string name="notification_toggle_off" msgid="3295373308338024844">"Wył."</string>
@@ -4222,7 +4277,7 @@
     <string name="zen_mode_starred_callers" msgid="1002370699564211178">"kontakty z gwiazdką"</string>
     <string name="zen_mode_repeat_callers_list" msgid="181819778783743847">"dzwoniący powtórnie"</string>
     <!-- no translation found for zen_mode_calls_summary_one (1928015516061784276) -->
-    <skip/>
+    <skip />
     <string name="zen_mode_calls_summary_two" msgid="6351563496898410742">"<xliff:g id="CALLER_TYPE_0">%1$s</xliff:g> i <xliff:g id="CALLER_TYPE_1">%2$s</xliff:g>"</string>
     <string name="zen_mode_repeat_callers_summary" msgid="4121054819936083025">"Jeśli ta sama osoba dzwoni po raz drugi w ciągu <xliff:g id="MINUTES">%d</xliff:g> min"</string>
     <string name="zen_mode_behavior_summary_custom" msgid="3126805555852783860">"Niestandardowe"</string>
@@ -4235,16 +4290,16 @@
     <string name="zen_mode_end_time_next_day_summary_format" msgid="419683704068360804">"<xliff:g id="FORMATTED_TIME">%s</xliff:g> następnego dnia"</string>
     <string name="zen_mode_summary_alarms_only_indefinite" msgid="910047326128154945">"Zmień na same alarmy na czas nieokreślony"</string>
     <plurals name="zen_mode_summary_alarms_only_by_minute" formatted="false" msgid="1900512966361163390">
-        <item quantity="few">Zmień na same alarmy przez <xliff:g id="DURATION">%1$d</xliff:g> minuty, do <xliff:g id="FORMATTEDTIME_1">%2$s</xliff:g></item>
-        <item quantity="many">Zmień na same alarmy przez <xliff:g id="DURATION">%1$d</xliff:g> minut, do <xliff:g id="FORMATTEDTIME_1">%2$s</xliff:g></item>
-        <item quantity="other">Zmień na same alarmy przez <xliff:g id="DURATION">%1$d</xliff:g> minuty, do <xliff:g id="FORMATTEDTIME_1">%2$s</xliff:g></item>
-        <item quantity="one">Zmień na same alarmy przez minutę, do <xliff:g id="FORMATTEDTIME_0">%2$s</xliff:g></item>
+      <item quantity="few">Zmień na same alarmy przez <xliff:g id="DURATION">%1$d</xliff:g> minuty, do <xliff:g id="FORMATTEDTIME_1">%2$s</xliff:g></item>
+      <item quantity="many">Zmień na same alarmy przez <xliff:g id="DURATION">%1$d</xliff:g> minut, do <xliff:g id="FORMATTEDTIME_1">%2$s</xliff:g></item>
+      <item quantity="other">Zmień na same alarmy przez <xliff:g id="DURATION">%1$d</xliff:g> minuty, do <xliff:g id="FORMATTEDTIME_1">%2$s</xliff:g></item>
+      <item quantity="one">Zmień na same alarmy przez minutę, do <xliff:g id="FORMATTEDTIME_0">%2$s</xliff:g></item>
     </plurals>
     <plurals name="zen_mode_summary_alarms_only_by_hour" formatted="false" msgid="955991428001659124">
-        <item quantity="few">Zmień na same alarmy przez <xliff:g id="DURATION">%1$d</xliff:g> godziny, do <xliff:g id="FORMATTEDTIME_1">%2$s</xliff:g></item>
-        <item quantity="many">Zmień na same alarmy przez <xliff:g id="DURATION">%1$d</xliff:g> godzin, do <xliff:g id="FORMATTEDTIME_1">%2$s</xliff:g></item>
-        <item quantity="other">Zmień na same alarmy przez <xliff:g id="DURATION">%1$d</xliff:g> godziny, do <xliff:g id="FORMATTEDTIME_1">%2$s</xliff:g></item>
-        <item quantity="one">Zmień na same alarmy przez godzinę, do <xliff:g id="FORMATTEDTIME_0">%2$s</xliff:g></item>
+      <item quantity="few">Zmień na same alarmy przez <xliff:g id="DURATION">%1$d</xliff:g> godziny, do <xliff:g id="FORMATTEDTIME_1">%2$s</xliff:g></item>
+      <item quantity="many">Zmień na same alarmy przez <xliff:g id="DURATION">%1$d</xliff:g> godzin, do <xliff:g id="FORMATTEDTIME_1">%2$s</xliff:g></item>
+      <item quantity="other">Zmień na same alarmy przez <xliff:g id="DURATION">%1$d</xliff:g> godziny, do <xliff:g id="FORMATTEDTIME_1">%2$s</xliff:g></item>
+      <item quantity="one">Zmień na same alarmy przez godzinę, do <xliff:g id="FORMATTEDTIME_0">%2$s</xliff:g></item>
     </plurals>
     <string name="zen_mode_summary_alarms_only_by_time" msgid="8140619669703968810">"Zmień na same alarmy do <xliff:g id="FORMATTEDTIME">%1$s</xliff:g>"</string>
     <string name="zen_mode_summary_always" msgid="722093064250082317">"Zmień na ciągle powiadamianie"</string>
@@ -4318,26 +4373,26 @@
     <string name="app_launch_add_link" msgid="8622558044530305811">"Dodaj link"</string>
     <string name="app_launch_footer" msgid="4521865035105622557">"Aplikacja może weryfikować linki, aby otwierać je automatycznie."</string>
     <plurals name="app_launch_verified_links_title" formatted="false" msgid="3945301449178587783">
-        <item quantity="few"><xliff:g id="COUNT_1">%d</xliff:g> zweryfikowane linki</item>
-        <item quantity="many"><xliff:g id="COUNT_1">%d</xliff:g> zweryfikowanych linków</item>
-        <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> zweryfikowanego linku</item>
-        <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> zweryfikowany link</item>
+      <item quantity="few"><xliff:g id="COUNT_1">%d</xliff:g> zweryfikowane linki</item>
+      <item quantity="many"><xliff:g id="COUNT_1">%d</xliff:g> zweryfikowanych linków</item>
+      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> zweryfikowanego linku</item>
+      <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> zweryfikowany link</item>
     </plurals>
     <plurals name="app_launch_verified_links_message" formatted="false" msgid="1209292155940482111">
-        <item quantity="few">Te linki są zweryfikowane i otwierają się automatycznie w tej aplikacji.</item>
-        <item quantity="many">Te linki są zweryfikowane i otwierają się automatycznie w tej aplikacji.</item>
-        <item quantity="other">Te linki są zweryfikowane i otwierają się automatycznie w tej aplikacji.</item>
-        <item quantity="one">Ten link jest zweryfikowany i otwiera się automatycznie w tej aplikacji.</item>
+      <item quantity="few">Te linki są zweryfikowane i otwierają się automatycznie w tej aplikacji.</item>
+      <item quantity="many">Te linki są zweryfikowane i otwierają się automatycznie w tej aplikacji.</item>
+      <item quantity="other">Te linki są zweryfikowane i otwierają się automatycznie w tej aplikacji.</item>
+      <item quantity="one">Ten link jest zweryfikowany i otwiera się automatycznie w tej aplikacji.</item>
     </plurals>
     <string name="app_launch_dialog_ok" msgid="1446157681861409861">"OK"</string>
     <string name="app_launch_verified_links_info_description" msgid="7514750232467132117">"Pokaż listę linków weryfikacyjnych"</string>
     <string name="app_launch_checking_links_title" msgid="6119228853554114201">"Sprawdzam, czy są inne obsługiwane linki…"</string>
     <string name="app_launch_dialog_cancel" msgid="6961071841814898663">"Anuluj"</string>
     <plurals name="app_launch_supported_links_title" formatted="false" msgid="8579323750839397568">
-        <item quantity="few"><xliff:g id="COUNT_1">%d</xliff:g> obsługiwane linki</item>
-        <item quantity="many"><xliff:g id="COUNT_1">%d</xliff:g> obsługiwanych linków</item>
-        <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> obsługiwanego linku</item>
-        <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> obsługiwany link</item>
+      <item quantity="few"><xliff:g id="COUNT_1">%d</xliff:g> obsługiwane linki</item>
+      <item quantity="many"><xliff:g id="COUNT_1">%d</xliff:g> obsługiwanych linków</item>
+      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> obsługiwanego linku</item>
+      <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> obsługiwany link</item>
     </plurals>
     <string name="app_launch_supported_links_add" msgid="3271247750388016131">"Dodaj"</string>
     <string name="app_launch_supported_links_subtext" msgid="4268004019469184113">"Otwiera się w aplikacji <xliff:g id="APP_LABEL">%s</xliff:g>"</string>
@@ -4361,28 +4416,28 @@
     <string name="notification_summary_level" msgid="4074326972839105652">"Poziom %d"</string>
     <string name="notification_summary_channel" msgid="8459033623057872803">"<xliff:g id="CHANNEL_NAME">%1$s</xliff:g> • <xliff:g id="GROUP_NAME">%2$s</xliff:g>"</string>
     <plurals name="notifications_categories_off" formatted="false" msgid="1385401442703692986">
-        <item quantity="few"><xliff:g id="COUNT_1">%d</xliff:g> kategorie wyłączone</item>
-        <item quantity="many"><xliff:g id="COUNT_1">%d</xliff:g> kategorii wyłączonych</item>
-        <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> kategorii wyłączonej</item>
-        <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> kategoria wyłączona</item>
+      <item quantity="few"><xliff:g id="COUNT_1">%d</xliff:g> kategorie wyłączone</item>
+      <item quantity="many"><xliff:g id="COUNT_1">%d</xliff:g> kategorii wyłączonych</item>
+      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> kategorii wyłączonej</item>
+      <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> kategoria wyłączona</item>
     </plurals>
     <plurals name="permissions_summary" formatted="false" msgid="5015472550875144481">
-        <item quantity="few">Przyznano <xliff:g id="COUNT_1">%d</xliff:g> uprawnienia</item>
-        <item quantity="many">Przyznano <xliff:g id="COUNT_1">%d</xliff:g> uprawnień</item>
-        <item quantity="other">Przyznano <xliff:g id="COUNT_1">%d</xliff:g> uprawnienia</item>
-        <item quantity="one">Przyznano <xliff:g id="COUNT_0">%d</xliff:g> uprawnienie</item>
+      <item quantity="few">Przyznano <xliff:g id="COUNT_1">%d</xliff:g> uprawnienia</item>
+      <item quantity="many">Przyznano <xliff:g id="COUNT_1">%d</xliff:g> uprawnień</item>
+      <item quantity="other">Przyznano <xliff:g id="COUNT_1">%d</xliff:g> uprawnienia</item>
+      <item quantity="one">Przyznano <xliff:g id="COUNT_0">%d</xliff:g> uprawnienie</item>
     </plurals>
     <plurals name="runtime_permissions_summary" formatted="false" msgid="2091022049141391855">
-        <item quantity="few">Przyznane uprawnienia: <xliff:g id="COUNT_2">%d</xliff:g> z <xliff:g id="COUNT_3">%d</xliff:g></item>
-        <item quantity="many">Przyznane uprawnienia: <xliff:g id="COUNT_2">%d</xliff:g> z <xliff:g id="COUNT_3">%d</xliff:g></item>
-        <item quantity="other">Przyznane uprawnienia: <xliff:g id="COUNT_2">%d</xliff:g> z <xliff:g id="COUNT_3">%d</xliff:g></item>
-        <item quantity="one">Przyznane uprawnienia: <xliff:g id="COUNT_0">%d</xliff:g> z <xliff:g id="COUNT_1">%d</xliff:g></item>
+      <item quantity="few">Przyznane uprawnienia: <xliff:g id="COUNT_2">%d</xliff:g> z <xliff:g id="COUNT_3">%d</xliff:g></item>
+      <item quantity="many">Przyznane uprawnienia: <xliff:g id="COUNT_2">%d</xliff:g> z <xliff:g id="COUNT_3">%d</xliff:g></item>
+      <item quantity="other">Przyznane uprawnienia: <xliff:g id="COUNT_2">%d</xliff:g> z <xliff:g id="COUNT_3">%d</xliff:g></item>
+      <item quantity="one">Przyznane uprawnienia: <xliff:g id="COUNT_0">%d</xliff:g> z <xliff:g id="COUNT_1">%d</xliff:g></item>
     </plurals>
     <plurals name="runtime_permissions_additional_count" formatted="false" msgid="5888624648943937645">
-        <item quantity="few"><xliff:g id="COUNT_1">%d</xliff:g> dodatkowe uprawnienia</item>
-        <item quantity="many"><xliff:g id="COUNT_1">%d</xliff:g> dodatkowych uprawnień</item>
-        <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> dodatkowego uprawnienia</item>
-        <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> dodatkowe uprawnienie</item>
+      <item quantity="few"><xliff:g id="COUNT_1">%d</xliff:g> dodatkowe uprawnienia</item>
+      <item quantity="many"><xliff:g id="COUNT_1">%d</xliff:g> dodatkowych uprawnień</item>
+      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> dodatkowego uprawnienia</item>
+      <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> dodatkowe uprawnienie</item>
     </plurals>
     <string name="runtime_permissions_summary_no_permissions_granted" msgid="7456745929035665029">"Brak przyznanych uprawnień"</string>
     <string name="runtime_permissions_summary_no_permissions_requested" msgid="7174876170116073356">"Brak próśb o przyznanie uprawnień"</string>
@@ -4391,10 +4446,10 @@
     <string name="permissions_usage_summary" msgid="6784310472062516454">"Pokaż aplikacje, które ostatnio używały uprawnień"</string>
     <string name="unused_apps" msgid="4566272194756830656">"Nieużywane aplikacje"</string>
     <plurals name="unused_apps_summary" formatted="false" msgid="3827583582750975783">
-        <item quantity="few"><xliff:g id="COUNT_1">%d</xliff:g> nieużywane aplikacje</item>
-        <item quantity="many"><xliff:g id="COUNT_1">%d</xliff:g> nieużywanych aplikacji</item>
-        <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> nieużywanej aplikacji</item>
-        <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> nieużywana aplikacja</item>
+      <item quantity="few"><xliff:g id="COUNT_1">%d</xliff:g> nieużywane aplikacje</item>
+      <item quantity="many"><xliff:g id="COUNT_1">%d</xliff:g> nieużywanych aplikacji</item>
+      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> nieużywanej aplikacji</item>
+      <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> nieużywana aplikacja</item>
     </plurals>
     <string name="unused_apps_switch" msgid="419282628373205038">"Usuń uprawnienia i zwolnij miejsce"</string>
     <string name="filter_all_apps" msgid="6645539744080251371">"Wszystkie aplikacje"</string>
@@ -4420,19 +4475,19 @@
     <string name="domain_urls_summary_some" msgid="1197692164421314523">"Otwieraj <xliff:g id="DOMAIN">%s</xliff:g> i inne adresy URL"</string>
     <string name="domain_urls_apps_summary_off" msgid="2534980824850890416">"Żadna aplikacja nie otwiera obsługiwanych linków"</string>
     <plurals name="domain_urls_apps_summary_on" formatted="false" msgid="7864816862441985323">
-        <item quantity="few"><xliff:g id="COUNT">%d</xliff:g> aplikacje otwierają obsługiwane linki</item>
-        <item quantity="many"><xliff:g id="COUNT">%d</xliff:g> aplikacji otwiera obsługiwane linki</item>
-        <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> aplikacji otwiera obsługiwane linki</item>
-        <item quantity="one">Jedna aplikacja otwiera obsługiwane linki</item>
+      <item quantity="few"><xliff:g id="COUNT">%d</xliff:g> aplikacje otwierają obsługiwane linki</item>
+      <item quantity="many"><xliff:g id="COUNT">%d</xliff:g> aplikacji otwiera obsługiwane linki</item>
+      <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> aplikacji otwiera obsługiwane linki</item>
+      <item quantity="one">Jedna aplikacja otwiera obsługiwane linki</item>
     </plurals>
     <string name="app_link_open_always" msgid="9167065494930657503">"Zezwalaj aplikacji na otwieranie obsługiwanych linków"</string>
     <string name="app_link_open_ask" msgid="2422450109908936371">"Pytaj za każdym razem"</string>
     <string name="app_link_open_never" msgid="5299808605386052350">"Nie zezwalaj aplikacji na otwieranie linków"</string>
     <plurals name="app_link_open_always_summary" formatted="false" msgid="1816161439007251694">
-        <item quantity="few">Aplikacja chce obsługiwać<xliff:g id="COUNT_1">%d</xliff:g> linki</item>
-        <item quantity="many">Aplikacja chce obsługiwać<xliff:g id="COUNT_1">%d</xliff:g> linków</item>
-        <item quantity="other">Aplikacja chce obsługiwać<xliff:g id="COUNT_1">%d</xliff:g> linku</item>
-        <item quantity="one">Aplikacja chce obsługiwać <xliff:g id="COUNT_0">%d</xliff:g> link</item>
+      <item quantity="few">Aplikacja chce obsługiwać<xliff:g id="COUNT_1">%d</xliff:g> linki</item>
+      <item quantity="many">Aplikacja chce obsługiwać<xliff:g id="COUNT_1">%d</xliff:g> linków</item>
+      <item quantity="other">Aplikacja chce obsługiwać<xliff:g id="COUNT_1">%d</xliff:g> linku</item>
+      <item quantity="one">Aplikacja chce obsługiwać <xliff:g id="COUNT_0">%d</xliff:g> link</item>
     </plurals>
     <string name="open_supported_links_footer" msgid="3188808142432787933">"Aplikacja chce obsługiwać te linki:"</string>
     <string name="default_apps_title" msgid="6943471331817718664">"Domyślne"</string>
@@ -4473,16 +4528,16 @@
     <string name="show_all_apps" msgid="4490719452453223082">"Pokaż pełne zużycie przez urządzenie"</string>
     <string name="hide_extra_apps" msgid="7313907836289865123">"Pokaż zużycie przez aplikacje"</string>
     <plurals name="power_high_usage_summary" formatted="false" msgid="573433136005336970">
-        <item quantity="few"><xliff:g id="NUMBER">%2$d</xliff:g> aplikacje działają nieprawidłowo</item>
-        <item quantity="many"><xliff:g id="NUMBER">%2$d</xliff:g> aplikacji działa nieprawidłowo</item>
-        <item quantity="other"><xliff:g id="NUMBER">%2$d</xliff:g> aplikacji działa nieprawidłowo</item>
-        <item quantity="one">Aplikacja <xliff:g id="APP">%1$s</xliff:g> działa nieprawidłowo</item>
+      <item quantity="few"><xliff:g id="NUMBER">%2$d</xliff:g> aplikacje działają nieprawidłowo</item>
+      <item quantity="many"><xliff:g id="NUMBER">%2$d</xliff:g> aplikacji działa nieprawidłowo</item>
+      <item quantity="other"><xliff:g id="NUMBER">%2$d</xliff:g> aplikacji działa nieprawidłowo</item>
+      <item quantity="one">Aplikacja <xliff:g id="APP">%1$s</xliff:g> działa nieprawidłowo</item>
     </plurals>
     <plurals name="power_high_usage_title" formatted="false" msgid="8013115866788425817">
-        <item quantity="few">Aplikacje zużywają baterię</item>
-        <item quantity="many">Aplikacje zużywają baterię</item>
-        <item quantity="other">Aplikacje zużywają baterię</item>
-        <item quantity="one">Aplikacja <xliff:g id="APP">%1$s</xliff:g> zużywa baterię</item>
+      <item quantity="few">Aplikacje zużywają baterię</item>
+      <item quantity="many">Aplikacje zużywają baterię</item>
+      <item quantity="other">Aplikacje zużywają baterię</item>
+      <item quantity="one">Aplikacja <xliff:g id="APP">%1$s</xliff:g> zużywa baterię</item>
     </plurals>
     <string name="high_power_filter_on" msgid="447849271630431531">"Bez optymalizacji"</string>
     <string name="high_power_on" msgid="8778058701270819268">"Bez optymalizacji"</string>
@@ -4563,10 +4618,10 @@
     <string name="free_memory" msgid="439783742246854785">"Wolna"</string>
     <string name="memory_usage_apps" msgid="5776108502569850579">"Pamięć używana przez aplikacje"</string>
     <plurals name="memory_usage_apps_summary" formatted="false" msgid="1355637088533572208">
-        <item quantity="few"><xliff:g id="COUNT">%1$d</xliff:g> aplikacje używały pamięci w ciągu ostatnich <xliff:g id="DURATION_1">%2$s</xliff:g></item>
-        <item quantity="many"><xliff:g id="COUNT">%1$d</xliff:g> aplikacji używało pamięci w ciągu ostatnich <xliff:g id="DURATION_1">%2$s</xliff:g></item>
-        <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> aplikacji używało pamięci w ciągu ostatnich <xliff:g id="DURATION_1">%2$s</xliff:g></item>
-        <item quantity="one">Jedna aplikacja używała pamięci w ciągu ostatnich <xliff:g id="DURATION_0">%2$s</xliff:g></item>
+      <item quantity="few"><xliff:g id="COUNT">%1$d</xliff:g> aplikacje używały pamięci w ciągu ostatnich <xliff:g id="DURATION_1">%2$s</xliff:g></item>
+      <item quantity="many"><xliff:g id="COUNT">%1$d</xliff:g> aplikacji używało pamięci w ciągu ostatnich <xliff:g id="DURATION_1">%2$s</xliff:g></item>
+      <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> aplikacji używało pamięci w ciągu ostatnich <xliff:g id="DURATION_1">%2$s</xliff:g></item>
+      <item quantity="one">Jedna aplikacja używała pamięci w ciągu ostatnich <xliff:g id="DURATION_0">%2$s</xliff:g></item>
     </plurals>
     <string name="running_frequency" msgid="7260225121706316639">"Częstotliwość"</string>
     <string name="memory_maximum_usage" msgid="2047013391595835607">"Maksymalne użycie"</string>
@@ -4643,10 +4698,10 @@
     <string name="data_usage_summary_format" msgid="6844301859713164522">"Użycie danych: <xliff:g id="AMOUNT">%1$s</xliff:g>"</string>
     <string name="data_usage_wifi_format" msgid="7644390582649568117">"<xliff:g id="AMOUNT">^1</xliff:g> przesłane przez Wi‑Fi"</string>
     <plurals name="notification_summary" formatted="false" msgid="7638388920823212470">
-        <item quantity="few">Wyłączone dla <xliff:g id="COUNT">%d</xliff:g> aplikacji</item>
-        <item quantity="many">Wyłączone dla <xliff:g id="COUNT">%d</xliff:g> aplikacji</item>
-        <item quantity="other">Wyłączone dla <xliff:g id="COUNT">%d</xliff:g> aplikacji</item>
-        <item quantity="one">Wyłączone dla 1 aplikacji</item>
+      <item quantity="few">Wyłączone dla <xliff:g id="COUNT">%d</xliff:g> aplikacji</item>
+      <item quantity="many">Wyłączone dla <xliff:g id="COUNT">%d</xliff:g> aplikacji</item>
+      <item quantity="other">Wyłączone dla <xliff:g id="COUNT">%d</xliff:g> aplikacji</item>
+      <item quantity="one">Wyłączone dla 1 aplikacji</item>
     </plurals>
     <string name="notification_summary_none" msgid="9179312319023988089">"Włączone dla wszystkich aplikacji"</string>
     <string name="apps_summary" msgid="4007416751775414252">"Zainstalowane aplikacje: <xliff:g id="COUNT">%1$d</xliff:g>"</string>
@@ -4713,16 +4768,16 @@
     <string name="suggestions_summary" msgid="1709710458908440469">"+<xliff:g id="ID_1">%1$d</xliff:g>"</string>
     <string name="suggestions_more_title" msgid="240124526378997009">"Jeszcze <xliff:g id="ID_1">%1$d</xliff:g>"</string>
     <plurals name="suggestions_collapsed_title" formatted="false" msgid="5023679825210836444">
-        <item quantity="few"><xliff:g id="COUNT">%1$d</xliff:g> sugestie</item>
-        <item quantity="many"><xliff:g id="COUNT">%1$d</xliff:g> sugestii</item>
-        <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> sugestii</item>
-        <item quantity="one">1 sugestia</item>
+      <item quantity="few"><xliff:g id="COUNT">%1$d</xliff:g> sugestie</item>
+      <item quantity="many"><xliff:g id="COUNT">%1$d</xliff:g> sugestii</item>
+      <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> sugestii</item>
+      <item quantity="one">1 sugestia</item>
     </plurals>
     <plurals name="suggestions_collapsed_summary" formatted="false" msgid="3789011332018516832">
-        <item quantity="few">Jeszcze <xliff:g id="COUNT">%1$d</xliff:g> sugestie</item>
-        <item quantity="many">Jeszcze <xliff:g id="COUNT">%1$d</xliff:g> sugestii</item>
-        <item quantity="other">Jeszcze <xliff:g id="COUNT">%1$d</xliff:g> sugestii</item>
-        <item quantity="one">Jeszcze 1 sugestia</item>
+      <item quantity="few">Jeszcze <xliff:g id="COUNT">%1$d</xliff:g> sugestie</item>
+      <item quantity="many">Jeszcze <xliff:g id="COUNT">%1$d</xliff:g> sugestii</item>
+      <item quantity="other">Jeszcze <xliff:g id="COUNT">%1$d</xliff:g> sugestii</item>
+      <item quantity="one">Jeszcze 1 sugestia</item>
     </plurals>
     <string name="suggestion_remove" msgid="6753986344585367776">"Usuń"</string>
     <string name="color_temperature" msgid="8256912135746305176">"Chłodna temperatura kolorów"</string>
@@ -4750,10 +4805,10 @@
     <string name="billing_cycle_fragment_summary" msgid="6346655500491631357">"<xliff:g id="ID_1">%1$s</xliff:g>. każdego miesiąca"</string>
     <string name="network_restrictions" msgid="8385824604048229846">"Ograniczenia sieci"</string>
     <plurals name="network_restrictions_summary" formatted="false" msgid="3875128958788008975">
-        <item quantity="few"><xliff:g id="COUNT">%1$d</xliff:g> ograniczenia</item>
-        <item quantity="many"><xliff:g id="COUNT">%1$d</xliff:g> ograniczeń</item>
-        <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> ograniczenia</item>
-        <item quantity="one">1 ograniczenie</item>
+      <item quantity="few"><xliff:g id="COUNT">%1$d</xliff:g> ograniczenia</item>
+      <item quantity="many"><xliff:g id="COUNT">%1$d</xliff:g> ograniczeń</item>
+      <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> ograniczenia</item>
+      <item quantity="one">1 ograniczenie</item>
     </plurals>
     <string name="operator_warning" msgid="5672761970087591211">"Operator komórkowy może obliczać ilość przesłanych danych inaczej niż urządzenie"</string>
     <string name="non_carrier_data_usage_warning" msgid="4707184871368847697">"Użycie danych w sieciach operatorów nie jest uwzględniane"</string>
@@ -4767,10 +4822,10 @@
     <string name="configure" msgid="1499586749829665889">"Skonfiguruj"</string>
     <string name="data_usage_other_apps" msgid="5649047093607329537">"Inne aplikacje korzystające z transmisji danych"</string>
     <plurals name="data_saver_unrestricted_summary" formatted="false" msgid="3316296488378947221">
-        <item quantity="few"><xliff:g id="COUNT">%1$d</xliff:g> aplikacje mogą używać nieograniczonej ilości danych, gdy Oszczędzanie danych jest włączone.</item>
-        <item quantity="many"><xliff:g id="COUNT">%1$d</xliff:g> aplikacji może używać nieograniczonej ilości danych, gdy Oszczędzanie danych jest włączone.</item>
-        <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> aplikacji może używać nieograniczonej ilości danych, gdy Oszczędzanie danych jest włączone.</item>
-        <item quantity="one">1 aplikacja może używać nieograniczonej ilości danych, gdy Oszczędzanie danych jest włączone.</item>
+      <item quantity="few"><xliff:g id="COUNT">%1$d</xliff:g> aplikacje mogą używać nieograniczonej ilości danych, gdy Oszczędzanie danych jest włączone.</item>
+      <item quantity="many"><xliff:g id="COUNT">%1$d</xliff:g> aplikacji może używać nieograniczonej ilości danych, gdy Oszczędzanie danych jest włączone.</item>
+      <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> aplikacji może używać nieograniczonej ilości danych, gdy Oszczędzanie danych jest włączone.</item>
+      <item quantity="one">1 aplikacja może używać nieograniczonej ilości danych, gdy Oszczędzanie danych jest włączone.</item>
     </plurals>
     <string name="data_usage_title" msgid="4039024073687469094">"Dane podstawowe"</string>
     <string name="data_usage_wifi_title" msgid="1060495519280456926">"Dane Wi-Fi"</string>
@@ -4781,10 +4836,10 @@
     <string name="data_usage_chart_brief_content_description" msgid="5548074070258881530">"Wykres użycia danych w okresie <xliff:g id="START_DATE">%1$s</xliff:g> – <xliff:g id="END_DATE">%2$s</xliff:g>."</string>
     <string name="data_usage_chart_no_data_content_description" msgid="5481968839079467231">"Brak danych z tego okresu"</string>
     <plurals name="billing_cycle_days_left" formatted="false" msgid="661792524671718753">
-        <item quantity="few">%d dni do końca</item>
-        <item quantity="many">%d dni do końca</item>
-        <item quantity="other">%d dnia do końca</item>
-        <item quantity="one">%d dzień do końca</item>
+      <item quantity="few">%d dni do końca</item>
+      <item quantity="many">%d dni do końca</item>
+      <item quantity="other">%d dnia do końca</item>
+      <item quantity="one">%d dzień do końca</item>
     </plurals>
     <string name="billing_cycle_none_left" msgid="1694844019159277504">"Upłynął cały czas"</string>
     <string name="billing_cycle_less_than_one_day_left" msgid="1210202399053992163">"Mniej niż dzień do końca"</string>
@@ -4856,10 +4911,10 @@
     <string name="overlay_toast_failed_to_apply" msgid="4839587811338164960">"Nie udało się zastosować nakładki"</string>
     <string name="special_access" msgid="1767980727423395147">"Aplikacje ze specjalnym dostępem"</string>
     <plurals name="special_access_summary" formatted="false" msgid="4995506406763570815">
-        <item quantity="few"><xliff:g id="COUNT">%d</xliff:g> aplikacje mogą używać nieograniczonej ilości danych</item>
-        <item quantity="many"><xliff:g id="COUNT">%d</xliff:g> aplikacji może używać nieograniczonej ilości danych</item>
-        <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> aplikacji może używać nieograniczonej ilości danych</item>
-        <item quantity="one">1 aplikacja może używać nieograniczonej ilości danych</item>
+      <item quantity="few"><xliff:g id="COUNT">%d</xliff:g> aplikacje mogą używać nieograniczonej ilości danych</item>
+      <item quantity="many"><xliff:g id="COUNT">%d</xliff:g> aplikacji może używać nieograniczonej ilości danych</item>
+      <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> aplikacji może używać nieograniczonej ilości danych</item>
+      <item quantity="one">1 aplikacja może używać nieograniczonej ilości danych</item>
     </plurals>
     <string name="special_access_more" msgid="132919514147475846">"Pokaż więcej"</string>
     <string name="confirm_convert_to_fbe_warning" msgid="3783325656948378111">"Naprawdę chcesz wyczyścić dane użytkownika i przekształcić na szyfrowanie plików?"</string>
@@ -4898,22 +4953,22 @@
     <string name="cross_profile_calendar_title" msgid="7570277841490216947">"Wszystkie profile w kalendarzu"</string>
     <string name="cross_profile_calendar_summary" msgid="8856185206722860069">"Pokazuj zdarzenia w profilu służbowym w kalendarzu osobistym"</string>
     <plurals name="hours" formatted="false" msgid="1853396353451635458">
-        <item quantity="few"><xliff:g id="NUMBER">%s</xliff:g> godziny</item>
-        <item quantity="many"><xliff:g id="NUMBER">%s</xliff:g> godzin</item>
-        <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> godziny</item>
-        <item quantity="one">1 godzina</item>
+      <item quantity="few"><xliff:g id="NUMBER">%s</xliff:g> godziny</item>
+      <item quantity="many"><xliff:g id="NUMBER">%s</xliff:g> godzin</item>
+      <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> godziny</item>
+      <item quantity="one">1 godzina</item>
     </plurals>
     <plurals name="minutes" formatted="false" msgid="6244503272924425418">
-        <item quantity="few"><xliff:g id="NUMBER">%s</xliff:g> minuty</item>
-        <item quantity="many"><xliff:g id="NUMBER">%s</xliff:g> minut</item>
-        <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> minuty</item>
-        <item quantity="one">1 minuta</item>
+      <item quantity="few"><xliff:g id="NUMBER">%s</xliff:g> minuty</item>
+      <item quantity="many"><xliff:g id="NUMBER">%s</xliff:g> minut</item>
+      <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> minuty</item>
+      <item quantity="one">1 minuta</item>
     </plurals>
     <plurals name="seconds" formatted="false" msgid="4237020272336995370">
-        <item quantity="few"><xliff:g id="NUMBER">%s</xliff:g> sekundy</item>
-        <item quantity="many"><xliff:g id="NUMBER">%s</xliff:g> sekund</item>
-        <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> sekundy</item>
-        <item quantity="one">1 sekunda</item>
+      <item quantity="few"><xliff:g id="NUMBER">%s</xliff:g> sekundy</item>
+      <item quantity="many"><xliff:g id="NUMBER">%s</xliff:g> sekund</item>
+      <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> sekundy</item>
+      <item quantity="one">1 sekunda</item>
     </plurals>
     <string name="automatic_storage_manager_settings" msgid="519158151463974656">"Zarządzanie pamięcią"</string>
     <string name="automatic_storage_manager_text" msgid="6900593059927987273">"Aby pomóc zwolnić miejsce, Menedżer miejsca usuwa z urządzenia kopie zapasowe zdjęć i filmów."</string>
@@ -4931,6 +4986,7 @@
     <string name="double_tap_power_for_camera_summary" msgid="1100926048598415509">"Aby szybko uruchomić aparat, naciśnij dwukrotnie przycisk zasilania. Możesz to zrobić na dowolnym ekranie."</string>
     <string name="double_tap_power_for_camera_suggestion_title" msgid="4299496243418753571">"Szybkie uruchamianie aparatu"</string>
     <string name="double_twist_for_camera_mode_title" msgid="472455236910935684">"Odwróć aparat do selfie"</string>
+    <string name="double_twist_for_camera_mode_summary" msgid="592503740044744951"></string>
     <string name="double_twist_for_camera_suggestion_title" msgid="8178844037382604158">"Szybsze robienie selfie"</string>
     <string name="system_navigation_title" msgid="1698862900901417194">"Nawigacja w systemie"</string>
     <string name="swipe_up_to_switch_apps_title" msgid="6677266952021118342">"Nawigacja przy użyciu dwóch przycisków"</string>
@@ -5042,20 +5098,20 @@
     <string name="enterprise_privacy_enterprise_installed_packages" msgid="9114143640515900082">"Zainstalowane aplikacje"</string>
     <string name="enterprise_privacy_apps_count_estimation_info" msgid="7959907857710107792">"Liczba aplikacji jest przybliżona. Może nie uwzględniać aplikacji zainstalowanych spoza Sklepu Play."</string>
     <plurals name="enterprise_privacy_number_packages_lower_bound" formatted="false" msgid="5403847001419529018">
-        <item quantity="few">Co najmniej <xliff:g id="COUNT_1">%d</xliff:g> aplikacje</item>
-        <item quantity="many">Co najmniej <xliff:g id="COUNT_1">%d</xliff:g> aplikacji</item>
-        <item quantity="other">Co najmniej <xliff:g id="COUNT_1">%d</xliff:g> aplikacji</item>
-        <item quantity="one">Co najmniej <xliff:g id="COUNT_0">%d</xliff:g> aplikacja</item>
+      <item quantity="few">Co najmniej <xliff:g id="COUNT_1">%d</xliff:g> aplikacje</item>
+      <item quantity="many">Co najmniej <xliff:g id="COUNT_1">%d</xliff:g> aplikacji</item>
+      <item quantity="other">Co najmniej <xliff:g id="COUNT_1">%d</xliff:g> aplikacji</item>
+      <item quantity="one">Co najmniej <xliff:g id="COUNT_0">%d</xliff:g> aplikacja</item>
     </plurals>
     <string name="enterprise_privacy_location_access" msgid="8023838718108456971">"Dostęp do lokalizacji"</string>
     <string name="enterprise_privacy_microphone_access" msgid="7242958026470143653">"Uprawnienia do mikrofonu"</string>
     <string name="enterprise_privacy_camera_access" msgid="7685460535880069016">"Uprawnienia do aparatu"</string>
     <string name="enterprise_privacy_enterprise_set_default_apps" msgid="7498546659083996300">"Aplikacje domyślne"</string>
     <plurals name="enterprise_privacy_number_packages" formatted="false" msgid="8568544906431825430">
-        <item quantity="few"><xliff:g id="COUNT_1">%d</xliff:g> aplikacje</item>
-        <item quantity="many"><xliff:g id="COUNT_1">%d</xliff:g> aplikacji</item>
-        <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> aplikacji</item>
-        <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> aplikacja</item>
+      <item quantity="few"><xliff:g id="COUNT_1">%d</xliff:g> aplikacje</item>
+      <item quantity="many"><xliff:g id="COUNT_1">%d</xliff:g> aplikacji</item>
+      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> aplikacji</item>
+      <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> aplikacja</item>
     </plurals>
     <string name="enterprise_privacy_input_method" msgid="3278314982700662246">"Klawiatura domyślna"</string>
     <string name="enterprise_privacy_input_method_name" msgid="2974859490559054584">"Ustaw: <xliff:g id="APP_LABEL">%s</xliff:g>"</string>
@@ -5067,20 +5123,20 @@
     <string name="enterprise_privacy_ca_certs_personal" msgid="1516422660828485795">"Zaufane certyfikaty w Twoim profilu osobistym"</string>
     <string name="enterprise_privacy_ca_certs_work" msgid="4318941788592655561">"Zaufane certyfikaty w Twoim profilu służbowym"</string>
     <plurals name="enterprise_privacy_number_ca_certs" formatted="false" msgid="6459725295322004179">
-        <item quantity="few">Co najmniej <xliff:g id="COUNT_1">%d</xliff:g> certyfikaty urzędu certyfikacji</item>
-        <item quantity="many">Co najmniej <xliff:g id="COUNT_1">%d</xliff:g> certyfikatów urzędu certyfikacji</item>
-        <item quantity="other">Co najmniej <xliff:g id="COUNT_1">%d</xliff:g> certyfikatu urzędu certyfikacji</item>
-        <item quantity="one">Co najmniej <xliff:g id="COUNT_0">%d</xliff:g> certyfikat urzędu certyfikacji</item>
+      <item quantity="few">Co najmniej <xliff:g id="COUNT_1">%d</xliff:g> certyfikaty urzędu certyfikacji</item>
+      <item quantity="many">Co najmniej <xliff:g id="COUNT_1">%d</xliff:g> certyfikatów urzędu certyfikacji</item>
+      <item quantity="other">Co najmniej <xliff:g id="COUNT_1">%d</xliff:g> certyfikatu urzędu certyfikacji</item>
+      <item quantity="one">Co najmniej <xliff:g id="COUNT_0">%d</xliff:g> certyfikat urzędu certyfikacji</item>
     </plurals>
     <string name="enterprise_privacy_lock_device" msgid="464054894363899866">"Administrator może zablokować urządzenie i zresetować hasło"</string>
     <string name="enterprise_privacy_wipe_device" msgid="869589182352244591">"Administrator może usunąć wszystkie dane z urządzenia"</string>
     <string name="enterprise_privacy_failed_password_wipe_device" msgid="7045164901334821226">"Nieudane próby podania hasła przed usunięciem wszystkich danych z urządzenia"</string>
     <string name="enterprise_privacy_failed_password_wipe_work" msgid="2537582942554484170">"Nieudane próby podania hasła przed usunięciem danych z profilu służbowego"</string>
     <plurals name="enterprise_privacy_number_failed_password_wipe" formatted="false" msgid="8811973918944217791">
-        <item quantity="few"><xliff:g id="COUNT_1">%d</xliff:g> próby</item>
-        <item quantity="many"><xliff:g id="COUNT_1">%d</xliff:g> prób</item>
-        <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> próby</item>
-        <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> próba</item>
+      <item quantity="few"><xliff:g id="COUNT_1">%d</xliff:g> próby</item>
+      <item quantity="many"><xliff:g id="COUNT_1">%d</xliff:g> prób</item>
+      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> próby</item>
+      <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> próba</item>
     </plurals>
     <string name="do_disclosure_generic" msgid="3067459392402324538">"Tym urządzeniem zarządza Twoja organizacja."</string>
     <string name="do_disclosure_with_name" msgid="867544298924410766">"Tym urządzeniem zarządza <xliff:g id="ORGANIZATION_NAME">%s</xliff:g>."</string>
@@ -5095,25 +5151,25 @@
     <string name="financed_privacy_failed_password_wipe_device" msgid="8777230427603977667">"Nieudane próby podania hasła przed usunięciem danych z urządzenia"</string>
     <string name="financed_privacy_header" msgid="7215645340918406124">"Operator udzielający kredytu może zmieniać ustawienia i instalować oprogramowanie na tym urządzeniu.\n\nAby dowiedzieć się więcej, skontaktuj się z operatorem udzielającym kredytu."</string>
     <plurals name="default_camera_app_title" formatted="false" msgid="8112432929729136399">
-        <item quantity="few">Aplikacje Aparat</item>
-        <item quantity="many">Aplikacji Aparat</item>
-        <item quantity="other">Aplikacji Aparat</item>
-        <item quantity="one">Aplikacja Aparat</item>
+      <item quantity="few">Aplikacje Aparat</item>
+      <item quantity="many">Aplikacji Aparat</item>
+      <item quantity="other">Aplikacji Aparat</item>
+      <item quantity="one">Aplikacja Aparat</item>
     </plurals>
     <string name="default_calendar_app_title" msgid="1870095225089706093">"Aplikacja kalendarza"</string>
     <string name="default_contacts_app_title" msgid="7740028900741944569">"Aplikacja do obsługi kontaktów"</string>
     <plurals name="default_email_app_title" formatted="false" msgid="8338194872609410234">
-        <item quantity="few">Klientów poczty e-mail</item>
-        <item quantity="many">Klientów poczty e-mail</item>
-        <item quantity="other">Klienta poczty e-mail</item>
-        <item quantity="one">Klient poczty e-mail</item>
+      <item quantity="few">Klientów poczty e-mail</item>
+      <item quantity="many">Klientów poczty e-mail</item>
+      <item quantity="other">Klienta poczty e-mail</item>
+      <item quantity="one">Klient poczty e-mail</item>
     </plurals>
     <string name="default_map_app_title" msgid="7569231732944853320">"Aplikacja do map"</string>
     <plurals name="default_phone_app_title" formatted="false" msgid="4222188821845826493">
-        <item quantity="few">Aplikacje Telefon</item>
-        <item quantity="many">Aplikacji Telefon</item>
-        <item quantity="other">Aplikacji Telefon</item>
-        <item quantity="one">Aplikacja Telefon</item>
+      <item quantity="few">Aplikacje Telefon</item>
+      <item quantity="many">Aplikacji Telefon</item>
+      <item quantity="other">Aplikacji Telefon</item>
+      <item quantity="one">Aplikacja Telefon</item>
     </plurals>
     <string name="app_names_concatenation_template_2" msgid="8320181646458855457">"<xliff:g id="FIRST_APP_NAME">%1$s</xliff:g>, <xliff:g id="SECOND_APP_NAME">%2$s</xliff:g>"</string>
     <string name="app_names_concatenation_template_3" msgid="7019703249717854148">"<xliff:g id="FIRST_APP_NAME">%1$s</xliff:g>, <xliff:g id="SECOND_APP_NAME">%2$s</xliff:g>, <xliff:g id="THIRD_APP_NAME">%3$s</xliff:g>"</string>
@@ -5149,10 +5205,10 @@
     <string name="autofill_app" msgid="7595308061826307921">"Usługa autouzupełniania"</string>
     <string name="autofill_passwords" msgid="6708057251459761083">"Hasła"</string>
     <plurals name="autofill_passwords_count" formatted="false" msgid="7715009165029452622">
-        <item quantity="few"><xliff:g id="COUNT_1">%1$d</xliff:g> hasła</item>
-        <item quantity="many"><xliff:g id="COUNT_1">%1$d</xliff:g> haseł</item>
-        <item quantity="other"><xliff:g id="COUNT_1">%1$d</xliff:g> hasła</item>
-        <item quantity="one"><xliff:g id="COUNT_0">%1$d</xliff:g> hasło</item>
+      <item quantity="few"><xliff:g id="COUNT_1">%1$d</xliff:g> hasła</item>
+      <item quantity="many"><xliff:g id="COUNT_1">%1$d</xliff:g> haseł</item>
+      <item quantity="other"><xliff:g id="COUNT_1">%1$d</xliff:g> hasła</item>
+      <item quantity="one"><xliff:g id="COUNT_0">%1$d</xliff:g> hasło</item>
     </plurals>
     <string name="autofill_keywords" msgid="8598763328489346438">"automatycznie, uzupełnianie, autouzupełnianie, hasło"</string>
     <string name="autofill_confirmation_message" msgid="4888767934273494272">"&lt;b&gt;Sprawdź, czy ta aplikacja jest zaufana&lt;/b&gt; &lt;br/&gt; &lt;br/&gt; &lt;xliff:g id=app_name example=Autouzupełnianie Google&gt;%1$s&lt;/xliff:g&gt; na podstawie zawartości ekranu określa, co można uzupełnić automatycznie."</string>
@@ -5243,6 +5299,7 @@
     <string name="battery_suggestion_title" product="tablet" msgid="1525940496459255289">"Wydłuż czas pracy tabletu na baterii"</string>
     <string name="battery_suggestion_title" product="device" msgid="2280773774080720377">"Wydłuż czas pracy urządzenia na baterii"</string>
     <string name="battery_suggestion_title" product="default" msgid="4811554469047272537">"Wydłuż czas pracy telefonu na baterii"</string>
+    <string name="battery_suggestion_summary" msgid="8186720080540016197"></string>
     <string name="gesture_prevent_ringing_screen_title" msgid="8293094715267769349">"Wyłącz dzwonek"</string>
     <string name="gesture_prevent_ringing_title" msgid="5978577898997523581">"Naciśnij jednocześnie przyciski zasilania i zwiększania głośności, aby włączyć"</string>
     <string name="gesture_prevent_ringing_sound_title" msgid="4529077822282099235">"Skrót do wyłączenia dzwonka"</string>
@@ -5330,10 +5387,10 @@
     <string name="calls_and_sms_ask_every_time" msgid="3178743088737726677">"Zawsze pytaj"</string>
     <string name="mobile_network_summary_add_a_network" msgid="9079866102827526779">"Dodaj sieć"</string>
     <plurals name="mobile_network_summary_count" formatted="false" msgid="5173633860800230925">
-        <item quantity="few"><xliff:g id="COUNT_1">%1$d</xliff:g> karty SIM</item>
-        <item quantity="many"><xliff:g id="COUNT_1">%1$d</xliff:g> kart SIM</item>
-        <item quantity="other"><xliff:g id="COUNT_1">%1$d</xliff:g> karty SIM</item>
-        <item quantity="one"><xliff:g id="COUNT_0">%1$d</xliff:g> karta SIM</item>
+      <item quantity="few"><xliff:g id="COUNT_1">%1$d</xliff:g> karty SIM</item>
+      <item quantity="many"><xliff:g id="COUNT_1">%1$d</xliff:g> kart SIM</item>
+      <item quantity="other"><xliff:g id="COUNT_1">%1$d</xliff:g> karty SIM</item>
+      <item quantity="one"><xliff:g id="COUNT_0">%1$d</xliff:g> karta SIM</item>
     </plurals>
     <string name="default_for_calls" msgid="2788950217176988034">"Domyślna dla połączeń"</string>
     <string name="default_for_sms" msgid="1316988329407434771">"Domyślna dla SMS-ów"</string>
@@ -5475,21 +5532,22 @@
     <string name="contextual_card_feedback_send" msgid="7409408664417908922">"Prześlij opinię"</string>
     <string name="contextual_card_feedback_confirm_message" msgid="3186334562157665381">"Czy chcesz przesłać nam opinię o tej sugestii?"</string>
     <string name="copyable_slice_toast" msgid="1008251852798990606">"<xliff:g id="COPY_CONTENT">%1$s</xliff:g> – skopiowano do schowka."</string>
+    <string name="search_bar_account_avatar_content_description" msgid="880523277036898350"></string>
     <string name="permission_bar_chart_empty_text" msgid="4856719891991325077">"0 aplikacji korzystało z uprawnień"</string>
     <string name="permission_bar_chart_title" msgid="2493212904955611441">"Użycie uprawnień w ciągu ostatnich 24 godzin"</string>
     <string name="permission_bar_chart_details" msgid="5816698018592357088">"Pokaż wszystko w panelu"</string>
     <plurals name="permission_bar_chart_label" formatted="false" msgid="4853396794340896078">
-        <item quantity="few"><xliff:g id="NUMBER">%s</xliff:g> aplikacje</item>
-        <item quantity="many"><xliff:g id="NUMBER">%s</xliff:g> aplikacji</item>
-        <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> aplikacji</item>
-        <item quantity="one">1 aplikacja</item>
+      <item quantity="few"><xliff:g id="NUMBER">%s</xliff:g> aplikacje</item>
+      <item quantity="many"><xliff:g id="NUMBER">%s</xliff:g> aplikacji</item>
+      <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> aplikacji</item>
+      <item quantity="one">1 aplikacja</item>
     </plurals>
     <string name="accessibility_usage_title" msgid="9190967143518779145">"Użycie ułatwień dostępu"</string>
     <plurals name="accessibility_usage_summary" formatted="false" msgid="6910643986958263005">
-        <item quantity="few"><xliff:g id="SERVICE_COUNT">%1$d</xliff:g> aplikacje mają pełny dostęp do urządzenia</item>
-        <item quantity="many"><xliff:g id="SERVICE_COUNT">%1$d</xliff:g> aplikacji ma pełny dostęp do urządzenia</item>
-        <item quantity="other"><xliff:g id="SERVICE_COUNT">%1$d</xliff:g> aplikacji ma pełny dostęp do urządzenia</item>
-        <item quantity="one">1 aplikacja ma pełny dostęp do urządzenia</item>
+      <item quantity="few"><xliff:g id="SERVICE_COUNT">%1$d</xliff:g> aplikacje mają pełny dostęp do urządzenia</item>
+      <item quantity="many"><xliff:g id="SERVICE_COUNT">%1$d</xliff:g> aplikacji ma pełny dostęp do urządzenia</item>
+      <item quantity="other"><xliff:g id="SERVICE_COUNT">%1$d</xliff:g> aplikacji ma pełny dostęp do urządzenia</item>
+      <item quantity="one">1 aplikacja ma pełny dostęp do urządzenia</item>
     </plurals>
     <string name="media_output_panel_title" msgid="5920946795078065159">"Przełącz urządzenie wyjściowe"</string>
     <string name="media_output_panel_summary_of_playing_device" msgid="6998758947764222915">"Aktualnie odtwarzane na urządzeniu <xliff:g id="DEVICE_NAME">%1$s</xliff:g>"</string>
@@ -5554,6 +5612,10 @@
     <string name="lockscreen_privacy_controls_summary" msgid="6952176547084269909">"Kontrola dostępu po zablokowaniu"</string>
     <string name="lockscreen_double_line_clock_summary" msgid="2916159550425093703">"Pokazuj zegar dwuwierszowy, jeśli jest dostępny"</string>
     <string name="lockscreen_double_line_clock_setting_toggle" msgid="3408639316001688529">"Zegar dwuwierszowy"</string>
+    <string name="rtt_settings_title" msgid="7049259598645966354"></string>
+    <string name="rtt_settings_no_visible" msgid="7440356831140948382"></string>
+    <string name="rtt_settings_visible_during_call" msgid="7866181103286073700"></string>
+    <string name="rtt_settings_always_visible" msgid="2364173070088756238"></string>
     <string name="media_output_panel_stop_casting_button" msgid="6094875883164119035">"Zatrzymaj przesyłanie"</string>
     <string name="volte_5G_limited_title" msgid="5908052268836750629">"Wyłączyć VoLTE?"</string>
     <string name="volte_5G_limited_text" msgid="7150583768725182345">"Spowoduje to również wyłączenie połączenia 5G.\nPodczas rozmowy głosowej nie możesz korzystać z internetu, a niektóre aplikacje mogą nie działać."</string>
