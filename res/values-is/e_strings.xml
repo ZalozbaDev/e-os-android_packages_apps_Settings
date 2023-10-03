@@ -13,8 +13,7 @@
   ~
   ~ You should have received a copy of the GNU General Public License
   ~  along with this program.  If not, see <https://www.gnu.org/licenses/>.
-  -->
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  --><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="e_security_dashboard_summary">Skjálæsing, öryggi forrita</string>
     <string name="system_update_summary">Uppfærslur, kjörstillingar, útgáfuupplýsingar</string>
     <string name="elicense_title">Lagalegir fyrirvarar /e/</string>
@@ -24,4 +23,21 @@
     <string name="telemetry_dialog_title">Þú ert við það að virkja fjarmælingar /e/OS kerfisins</string>
     <string name="advanced_privacy_dashboard_summary">Sýsla með rekjara, falsa staðsetningu, fela IP-vistfang</string>
     <string name="telemetry_dialog_message">Þetta gerir kleift að senda sjálfvirkar villuskýrslur þegar forrit hrynja eða festast í óvæntu ástandi. Endurræstu tækið þitt eftir að þessari stillingu er breytt.</string>
+    <string name="e_version_summary">Uppfært í /e/OS útg.<xliff:g id="version" example="6.0">%1$s</xliff:g></string>
+    <string name="e_auto_sync_account_summary">Leyfa forritum að endurlesa efni sjálfvirkt í bakgrunni</string>
+    <string name="use_ota_staging_popup_message">Þetta gerir þér kleift að sækja og setja upp prófunarútgáfur /e/ OS. Þessar byggingarútgáfur geta verið óstöðugar og ætti einungis að nota til prófana. Ekki samþykkja þetta nema þú vitir hvað þú sért að gera.</string>
+    <string name="e_auto_sync_account_title">Sjálfvirkt endurlesa efni</string>
+    <string name="e_really_remove_account_message">Ef þú fjarlægir þennan aðgang, muntu framvegis ekki geta komist í nein gögn af tækinu, þar með talinn tölvupóst aðgangsins. Þú getur bætt honum aftur einn síðar ef þú vilt.</string>
+    <string name="sentry_userid_title">Sentry-auðkenni notanda</string>
+    <string name="title_ota_server">Tengjast /e/ OS prófunarrás</string>
+    <string name="use_ota_summary">Skoðaðu prófunarútgáfur af /e/ OS</string>
+    <string name="use_ota_staging_popup_title">Þú ert að fara að tengjast /e/ OS prófunarrás</string>
+    <string name="main_clear_desc_e" product="default">Þessi aðgerð eyðir öllum gögnum úr <b>innbyggðri geymslu</b> spjaldtölvunnar, þar á meðal:
+\n
+\n<li>Öllum reikningum þínum</li>
+\n<li>Gögnum og stillingum forrita og kerfis</li>
+\n<li>Forritum sem hafa verið sótt</li></string>
+    <string name="e_version_pending_update_summary">/e/OS útg.<xliff:g id="version" example="6.0">%1$s</xliff:g> - uppfærsla tiltæk</string>
+    <string name="e_version_in_progress_update_summary">/e/OS útg.<xliff:g id="version" example="6.0">%1$s</xliff:g> - uppfærsla í gangi</string>
+    <string name="e_version_reboot_pending_summary">/e/OS útg.<xliff:g id="version" example="6.0">%1$s</xliff:g> - Uppfært, nauðsynlegt að endurræsa</string>
 </resources>
