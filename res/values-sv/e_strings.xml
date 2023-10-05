@@ -13,7 +13,31 @@
   ~
   ~ You should have received a copy of the GNU General Public License
   ~  along with this program.  If not, see <https://www.gnu.org/licenses/>.
-  -->
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  --><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="e_security_dashboard_summary">Skärmlås, appsäkerhet</string>
+    <string name="main_clear_desc_e" product="default">Detta kommer radera all data från din enhets <b>interna lagring</b> inkluderat:
+\n
+\n<li>Alla dina konton</li>
+\n<li>System- och appdata och inställningar</li>
+\n<li>Hämtade appar</li></string>
+    <string name="e_version_summary">Uppdaterad till /e/OS v<xliff:g id="version" example="6.0">%1$s</xliff:g></string>
+    <string name="e_version_pending_update_summary">/e/OS v<xliff:g id="version" example="6.0">%1$s</xliff:g> - uppdatering tillgänglig</string>
+    <string name="e_version_in_progress_update_summary">/e/OS v<xliff:g id="version" example="6.0">%1$s</xliff:g> - uppdatering pågår</string>
+    <string name="e_version_reboot_pending_summary">/e/OS v<xliff:g id="version" example="6.0">%1$s</xliff:g> - installerad, omstart krävs</string>
+    <string name="e_really_remove_account_message">Om du tar bort detta konto kommer du inte kunna komma åt dess data från denna enhet längre, inklusive dess e-post. Du kan när som helst lägga till det igen.</string>
+    <string name="e_auto_sync_account_title">Uppdatera innehåll automatiskt</string>
+    <string name="e_auto_sync_account_summary">Tillåt att appar automatiskt uppdaterar innehåll i bakgrunden</string>
+    <string name="e_version">/e/ OS version</string>
+    <string name="elicense_title">/e/ juridik</string>
+    <string name="sentry_userid_title">Användar-ID för vaktpost</string>
+    <string name="system_update_summary">Uppdateringar, inställningar, versionsinformation</string>
+    <string name="title_ota_server">Anslut till /e/ OS testkanal</string>
+    <string name="use_ota_summary">Få åtkomst till testversioner av /e/ OS</string>
+    <string name="use_ota_staging_popup_title">Du är på väg att ansluta till /e/ OS testkanal</string>
+    <string name="use_ota_staging_popup_message">Det tillåter dig att hämta och installera testversioner av /e/ OS. Dessa byggen kan vara ostabila och ska endast användas i testsyfte. Acceptera endast om du vet vad du håller på med.</string>
+    <string name="enable_telemetry">Aktivera telemetri i /e/OS</string>
+    <string name="telemetry_details">Aktivera automatisk felrapportering</string>
+    <string name="telemetry_dialog_title">Du är på väg att aktivera telemetri i /e/OS</string>
+    <string name="telemetry_dialog_message">Detta tillåter automatisk felrapportering när en applikation kraschar eller när applikationen hamnar i ett oväntat läge. Starta om enheten efter att ha ändrat denna inställning.</string>
+    <string name="advanced_privacy_dashboard_summary">Hantera spårare, falsk plats, göm IP-adress</string>
 </resources>
