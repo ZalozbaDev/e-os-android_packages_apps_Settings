@@ -13,8 +13,7 @@
   ~
   ~ You should have received a copy of the GNU General Public License
   ~  along with this program.  If not, see <https://www.gnu.org/licenses/>.
-  -->
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  --><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="e_security_dashboard_summary">Schermvergrendeling, app beveiliging</string>
     <string name="telemetry_dialog_message">Dit staat automatische foutrapporten toe wanneer een applicatie crasht of bevriest. Herstart a.u.b. jouw toestel nadat je deze instelling hebt gewijzigd.</string>
     <string name="telemetry_dialog_title">Je staat op het punt om /e/OS Telemetrie te activeren</string>
@@ -26,4 +25,19 @@
     <string name="title_ota_server">Verbindt met /e/ OS test kanaal</string>
     <string name="use_ota_summary">Toegang tot test releases van /e/ OS</string>
     <string name="use_ota_staging_popup_title">Je staat op het punt te verbinden met het /e/ OS test kanaal</string>
+    <string name="use_ota_staging_popup_message">Dit maakt het mogelijk test versies van /e/ OS te downloaden en installeren. Deze versies kunnen instabiel zijn en dienen enkel gebruikt te worden voor test doeleinden. Accepteer dit enkel als je weet wat je wil doen.</string>
+    <string name="e_version_summary">Bijgewerkt naar /e/OS v<xliff:g id="version" example="6.0">%1$s</xliff:g></string>
+    <string name="e_auto_sync_account_summary">Sta apps toe om automatisch inhoud te vernieuwen op de achtergrond</string>
+    <string name="e_auto_sync_account_title">Auto-verniew inhoud</string>
+    <string name="advanced_privacy_dashboard_summary">Beheer trackers, nep locatie, verborgen IP adres</string>
+    <string name="e_really_remove_account_message">Wanneer je dit account verwijderd zal je geen toegang meer hebben tot de data en e-mails, vanop dit toestel. Je kan het op elk moment terug activeren.</string>
+    <string name="e_version_reboot_pending_summary">/e/OS v<xliff:g id="version" example="6.0">%1$s</xliff:g> - geïnstalleerd, opnieuw opstarten vereist</string>
+    <string name="main_clear_desc_e" product="default">Dit zal alle data van jouw tablet <b>intern geheugen</b> verwijderen, inclusief:
+\n
+\n<li>Al jouw accounts</li>
+\n<li>Systeem/app data en instellingen</li>
+\n<li>Gedownloade apps</li></string>
+    <string name="e_version_in_progress_update_summary">/e/OS v<xliff:g id="version" example="6.0">%1$s</xliff:g> - update in uitvoering</string>
+    <string name="sentry_userid_title">Sentry User ID</string>
+    <string name="e_version_pending_update_summary">/e/OS v<xliff:g id="version" example="6.0">%1$s</xliff:g> - update beschikbaar</string>
 </resources>
