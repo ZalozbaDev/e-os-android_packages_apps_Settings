@@ -1,2 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="system_update_summary">Оновлення, налаштування, примітки до випуску</string>
+    <string name="use_ota_staging_popup_message">За його допомогою ви зможете завантажити і встановити тестові версії /e/ OS. Ці збірки можуть бути нестабільними, і їх слід використовувати лише у тестових цілях. Будь ласка, погоджуйтеся, якщо ви знаєте, що робите.</string>
+    <string name="e_security_dashboard_summary">Блокування екрану, безпека застосунок</string>
+    <string name="use_ota_staging_popup_title">Ви збираєтеся підключитися до тестового каналу /e/ OS</string>
+    <string name="e_version_summary">Оновлено до /e/OS v<xliff:g id="version" example="6.0">%1$s</xliff:g></string>
+    <string name="e_version">Версія /e/ OS</string>
+    <string name="title_ota_server">Підключіться до тестового каналу /e/ OS</string>
+    <string name="e_auto_sync_account_summary">Дозволити застосункам автоматично оновлювати дані у фоновому режимі</string>
+    <string name="use_ota_summary">Доступ до тестових випусків /e/ OS</string>
+    <string name="e_auto_sync_account_title">Автоматичне оновлення даних</string>
+    <string name="advanced_privacy_dashboard_summary">Керування трекерами, фейкове місцезнаходження, приховування IP-адреси</string>
+    <string name="enable_telemetry">Увімкнути телеметрію /e/OS</string>
+    <string name="e_really_remove_account_message">Якщо ви видалите цей обліковий запис, ви більше не зможете отримати доступ до його даних з цього пристрою, включаючи його електронну пошту. Ви можете додати його назад у будь-який час.</string>
+    <string name="e_version_reboot_pending_summary">/e/OS v<xliff:g id="version" example="6.0">%1$s</xliff:g> - потрібне перезавантаження після оновлення</string>
+    <string name="telemetry_dialog_message">Це дозволить автоматично повідомляти про помилки при збої програми або коли програма завершує роботу в неочікуваному стані. Будь ласка, перезавантажте пристрій після зміни цього налаштування.</string>
+    <string name="elicense_title">/e/ Правове</string>
+    <string name="main_clear_desc_e" product="default">Це призведе до видалення всіх даних з <b>внутрішньої пам\'яті</b> вашого пристрою:
+\n
+\n<li>Всі ваші облікові записи</li>
+\n<li>Дані та налаштування системи та додатків</li>
+\n<li>Завантажені застосунки</li></string>
+    <string name="e_version_in_progress_update_summary">/e/OS v<xliff:g id="version" example="6.0">%1$s</xliff:g> - виконується оновлення</string>
+    <string name="sentry_userid_title">ID користувача Sentry</string>
+    <string name="e_version_pending_update_summary">/e/OS v<xliff:g id="version" example="6.0">%1$s</xliff:g> - доступне оновлення</string>
+    <string name="telemetry_details">Увімкнути автоматичні повідомлення про помилки</string>
+    <string name="telemetry_dialog_title">Ви збираєтеся увімкнути телеметрію /e/OS</string>
+</resources>
